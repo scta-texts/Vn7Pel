@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Primum et prioritas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Primum et prioritas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d71769">
+            <head xml:id="Vn7Pel-d71769-Hd1e107">Primum et prioritas</head>
+            <div xml:id="Vn7Pel-d71769-Dd1e110">
+               <head xml:id="Vn7Pel-d71769-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d71769-d1e115">
+                  <lb ed="#A" n="5"/>PRimum et 
+        priori<lb ed="#A" n="6" break="no"/> tas. De hoc nota secundum Guil. in i. di. 
+        <lb ed="#A" n="7"/>xii. per. ii. quod prioritas a comporatiuo gra 
+        <lb ed="#A" n="8"/>du huius comperationis descendit praedem praeor primus 
+        <lb ed="#A" n="9"/>Et est praoritas quidam respectus positiuus funda 
+        <lb ed="#A" n="10"/>tus in his que dicuntur praeora secundum aliquem modum 
+        <lb ed="#A" n="11"/>poritatis de quo in se. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d71769-Dd1e134">
+               <head xml:id="Vn7Pel-d71769-Hd1e136">2</head>
+               <p xml:id="Vn7Pel-d71769-d1e139">
+                  <lb ed="#A" n="12"/>¶ Quibus vel quot modis dici 
+        <lb ed="#A" n="13"/>tur primum vel poritas Nota secundum philosophum in 
+        postpre<lb ed="#A" n="14" break="no"/>dicamntis. et. v. Meta
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e148">
+        ¶ primum vel poritas 
+        acci<lb ed="#A" n="15" break="no"/>pitur et dicitur pluribus modis
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e153">
+        ¶ Primo secundum quantitatem. Et 
+        <lb ed="#A" n="16"/>hoc dupliciter sicut quantitas est duple scilicet continua 
+        <lb ed="#A" n="17"/>et discreta Unde secundum quantitatem continuam dicitur tribus modis 
+        <lb ed="#A" n="18"/>Primo secundum locum. et sic prius dicitur secundum quod aliquid est 
+        prae<lb ed="#A" n="19" break="no"/>us loco id est ppinquius alicui loco determinato 
+        Si<lb ed="#A" n="20" break="no"/>cut centro terre prius est in ordine aqua quam aer vl 
+        <lb ed="#A" n="21"/>ignis. Secundo dicitur prius secundum tempus. et sic praeterita dicuntur 
+        <lb ed="#A" n="22"/>pora. quam postea sequentia vel praesentia. Et hec praeora 
+        <lb ed="#A" n="23"/>que futura. Tertio dicitur prius secundum motum. et sic illud 
+        <lb ed="#A" n="24"/>est prius quod est propinquius principio mouenti. vnde prius 
+        <lb ed="#A" n="25"/>mu mobile dicitur quod sub motu diurno mouet omnes 
+        <lb ed="#A" n="26"/>spheras etc. Et ad hunc modum reducitur prius secundum pta 
+        <lb ed="#A" n="27"/>tem et secundum qualitatem. puta quod est propinquius primo 
+        <lb ed="#A" n="28"/>vt secundus post regem por est tertio etc. Sic et prius 
+        <lb ed="#A" n="29"/>secundum quantitatem discretam dicitur in numeris. puta quod est 
+        <lb ed="#A" n="30"/>ppinquius vnitati. vnde secundum prius est quam tertium et tei 
+        <lb ed="#A" n="31"/>tium quam quartum. et sic de aliis. Nam vnitas est principi 
+        <lb ed="#A" n="32"/>um omnis numeri. Secundo modo prius dicitur secundum 
+        cogni<lb ed="#A" n="33" break="no"/>tionem. Et hoc modo dicitur aliquid prius simpliciter cum 
+        <lb ed="#A" n="34"/>ius cognitio habetur per propria principia illius rei. vnde 
+        <lb ed="#A" n="35"/>prima principia communia praeora sunt. Cognitio autem est 
+        di<lb ed="#A" n="36" break="no"/>plex vicem intellectiua et sensitiua. Illud autem quod qui 
+        <lb ed="#A" n="37"/>prius cognitione intellectiua sicut sunt. vniuersalia: 
+        <lb ed="#A" n="38"/>posterius est cognitione sensitiua.
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e205">
+        ¶ Unde nota quod 
+        <lb ed="#A" n="39"/>cognitione intellectiua tribus modis aliquid dicitur prius 
+        <lb ed="#A" n="40"/>us altero. Primo modo inquantum aliqua sunt vniuer 
+        <lb ed="#A" n="41"/>salia. dicuntur pora singulibus cognitione intellectia. econ 
+        <lb ed="#A" n="42"/>uerso autem est secundum cognitionem sensitiuam. patet secundum philosophum 
+        <lb ed="#A" n="43"/>primo Phy. dit. Innata est nobis via coguoscendi 
+        <lb ed="#A" n="44"/>scilicet per intellectum a communioribus ad propria. vnde pueri 
+        <lb ed="#A" n="45"/>primo appellant omnes viros patres et feminas ma 
+        <lb ed="#A" n="46"/>tres. postea autem determinant vnumquemque. Sed de 
+        <lb ed="#A" n="47"/>sensitiua cognitione aliter est. quia sensus primo 
+        co<lb ed="#A" n="48" break="no"/>gnoscit singularia. postea vniuersalia intelligit 
+        <lb ed="#A" n="49"/>vt idem philosophus lib. eodem dicit. Secundo modo aliquid dicitur primi 
+        <lb ed="#A" n="50"/>us cognitione intellectiua inquantum simplicius 
+        <lb ed="#A" n="51"/>Simpliciora apud intellectum praeora sunt composit 
+        <lb ed="#A" n="52"/>vnde accidens prius est quam compositum ex subiecto et ac 
+        <lb ed="#A" n="53"/>cidente. vt musicum prius est secundum intellectum quam homo 
+        <lb ed="#A" n="54"/>musicus. econtra est secundum sensum Tertious inquantum 
+        <lb ed="#A" n="55"/>sunt aliqua passiones proprie. quia passiones prio¬ 
+        <!--230.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 231 -->
+                  <lb ed="#A" n="56"/>ris secundum intellectum praeores sunt passionibus 
+        posteri<lb ed="#A" n="57" break="no"/>oeis vt rectitudo que est passio linee por est leni 
+        <lb ed="#A" n="58"/>tate que est passio superficiei. Sic et viuere que est 
+        <lb ed="#A" n="59"/>passio animalis praor est quam rationcinari. Sed quo ad 
+        sen<lb ed="#A" n="60" break="no"/>sum est econuerso. quia passiones posteriorum sunt po 
+        <lb ed="#A" n="61"/>res.
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e265">
+        ¶ Tertio modo principalit dicitur prius secundum natu 
+        <lb ed="#A" n="62"/>ram. Et talis praeorias dicitur pluribus modis simul 
+        col<lb ed="#A" n="63" break="no"/>ligendo ex Scotorlis. Guil. et ex scriptis super. v. Me 
+        <lb ed="#A" n="64"/>ta.
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e274">
+        ¶ Primo modo iudicantur aliqua secundum naturam prieora 
+        <lb ed="#A" n="65"/>ratione originis sicut producens producto est prius. et sic 
+        <lb ed="#A" n="66"/>pater procedit filium et vterque spiritum sanctum. Secundo 
+        mo<lb ed="#A" n="67" break="no"/>do ratione perfectionis vel dignitatis. Sicut substantia 
+        prae<lb ed="#A" n="68" break="no"/>or est accidente. et sic essentialia in diuinis procedunt 
+        <lb ed="#A" n="69"/>notionalia et quasi accidentalia attributa. vnde lib 
+        <lb ed="#A" n="70"/>ix. Meta. dicitur quod ea que sunt praeora generatione sunt 
+        <lb ed="#A" n="71"/>posterora perfectione et econuerso. Exemplum Esse vi 
+        <lb ed="#A" n="72"/>uens et sensibile prius est generatione quam rationale quod 
+        <lb ed="#A" n="73"/>est perfectius. Tertio modo ratione superioritatis quia 
+        <lb ed="#A" n="74"/>communiora sunt priora secundum naturam iuxta philosophum in 
+        post<lb ed="#A" n="75" break="no"/>predicamentis et. v. Meta. quia alia non possunt esse 
+        <lb ed="#A" n="76"/>sine ipsis. sed ipsa scilicetcommuniora possunt esse sine aliis. et 
+        <lb ed="#A" n="77"/>sic sunt priora. quia ab eis non conuertitur subsistendi com 
+        <lb ed="#A" n="78"/>sequentia. Quartous ratione adequationis sicut scilicet 
+        Po<lb ed="#A" n="79" break="no"/>ste. dicitur quod propria passio primo in est subiecto adequa 
+        <lb ed="#A" n="80"/>to. puta risibile homini. quam homini albo vel alicui 
+        indi<lb ed="#A" n="81" break="no"/>uiduo hominis puta petro. De hoc vbi Cognoscere 
+        <lb ed="#A" n="82"/>§. iiii. in principio. Quinto ratione differentie vel di 
+        <lb ed="#A" n="83"/>uersitatis potentie et actus. quia quedam sunt praora 
+        <lb ed="#A" n="84"/>aliis potentia sicut partes toto. Alia vero sunt prio 
+        <lb ed="#A" n="85"/>ra secundum actum vt totum partibus ex. v. Meta.
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e322">
+        ¶ Ad hec 
+        <lb ed="#A" n="86"/>etiam vbi Ordo. §. ii.
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e327">
+        ¶ Item quod communiora sunt patriora 
+        <lb ed="#A" n="87"/>quomodo sit intelligendum. vide vbi Spiratio. §. iii. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e332">
+                  <lb ed="#A" n="88"/>¶ De prioritate in diuinis. vide 
+        <lb ed="#A" n="89"/>vbi Ordo. §. pluribus. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e339">
+                  <lb ed="#A" n="90"/>¶ Item de primo obiecto intellectus 
+        <lb ed="#A" n="91"/>uidivini vbi Intellectus. §. x. et vbi Obiectum. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d71769-d1e347">
+                  <lb ed="#A" n="92"/>¶ Item de primo cognito in nobis 
+        <lb ed="#A" n="93"/>nobis vbi Cognoscere. §. iiii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

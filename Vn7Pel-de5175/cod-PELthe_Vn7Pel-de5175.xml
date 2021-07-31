@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adorare</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Adorare</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="19"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de5175">
+            <head xml:id="Vn7Pel-de5175-Hd1e107">Adorare</head>
+            <div xml:id="Vn7Pel-de5175-Dd1e110">
+               <head xml:id="Vn7Pel-de5175-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de5175-d1e115">
+                  <lb ed="#A" n="95"/>¶ ADorare scilicet 
+        diui<lb ed="#A" n="96" break="no"/>nam trinitatem Nota quod de adoratione 
+        <lb ed="#A" n="97"/>partinet agere communiter ad tertium 
+        <lb ed="#A" n="98"/>librum. Sed quia in hoc primo libro 
+        <lb ed="#A" n="99"/>agimus de trinitate: ideo specialiter de adoratione 
+        <lb ed="#A" n="100"/>scilicet qua sancta trinitas diuina adoranda sit non 
+        <lb ed="#A" n="101"/>incongrue hoc tractabimus. 
+      </p>
+               <p xml:id="Vn7Pel-de5175-d1e133">
+                  <lb ed="#A" n="102"/>¶ Utrum sancta trinitas diuina 
+        <lb ed="#A" n="103"/>adoratione vnica sit adoranda: An per 
+        singu<lb ed="#A" n="104" break="no"/>las personas sit adoranda distincte vel adoratione 
+        <lb ed="#A" n="105"/>distincta: Respondetur secundum Bonauen. super. iii. di 
+        <lb ed="#A" n="106"/>ix. in quast. circa litteram. et Tho. ibidem recolligendo 
+        <lb ed="#A" n="107"/>Quod tres persone diuine vnica et simplici adoratione 
+        <lb ed="#A" n="108"/>sunt adorande. Primo hec conclusio probatur auto 
+        <lb ed="#A" n="109"/>ritate. quia ecclesia in symbolo canit de spiritu sancto. 
+        <lb ed="#A" n="110"/>dicens. Qui cum patre et filio simul adoratur et 
+        con<lb ed="#A" n="111" break="no"/>glorificatur. Item Damascenus prout allegat Magister 
+        <!--19.xml-->
+        <pb ed="#A" n="20"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in. iii. lib. vbi. supra dicit. vnus christus est deus perfectus 
+        <lb ed="#A" n="2"/>quem adoramus cum patre et spiritu sancto vna 
+        ado<lb ed="#A" n="3" break="no"/>ratione. Hec ille. ergo patet conclusio fore vera etc. 
+        <lb ed="#A" n="4"/>Secundo ostenditur ratione secundum praedictos supra. Quia ado 
+        <lb ed="#A" n="5"/>ratio conuenit bonitati essentiali et maiestati dici 
+        <lb ed="#A" n="6"/>que est vnica et non multiplicata ergo adoratio 
+        trini<lb ed="#A" n="7" break="no"/>tatis debet esse vnica etc. Quamuis enim persone 
+        di<lb ed="#A" n="8" break="no"/>uine distinguantur ratione originis et relationis 
+        ta<lb ed="#A" n="9" break="no"/>men non distinguuntur in ratione adorationis. Quia 
+        <lb ed="#A" n="10"/>vnus est deus: vnus dominus vna bonitas: vna ma 
+        <lb ed="#A" n="11"/>iestas summa. propter quam ob omnibus adoratur cre 
+        <lb ed="#A" n="12"/>aturis. vnde licet respectu originis et 
+        emanatio<lb ed="#A" n="13" break="no"/>nis ipse persone divine habeant distinctas proprieta 
+        <lb ed="#A" n="14"/>tes et relationes. Non tamen sequitur quod ergo habeant distin 
+        <lb ed="#A" n="15"/>ctas adorationes etc. Alia ratio confirmatiua: quia ado 
+        <lb ed="#A" n="16"/>ratio sequitur fidem. fides aut credit patrem filium et 
+        <lb ed="#A" n="17"/>spiritum sanctum: tres personas esse vnicum deum et vnum 
+        <lb ed="#A" n="18"/>creatorem. Et sic adorat inquantum sunt vnus crea 
+        <lb ed="#A" n="19"/>tor licet distinctos articulos teneat de eisdem. Et 
+        <lb ed="#A" n="20"/>quia latria debetur deo inquantum creatori. ergo vna 
+        <lb ed="#A" n="21"/>latria que creatori debetur. omnes persone sunt simul 
+        <lb ed="#A" n="22"/>adorande sicut vnica est maiestas diuina. et 
+        vni<lb ed="#A" n="23" break="no"/>ca bonitas summa. nec vni persone maior debetur 
+        <lb ed="#A" n="24"/>adoratio vel veneratio quam alteri. Sed equaliter 
+        <lb ed="#A" n="25"/>sunt adorande et amande Hec secundum praedictos. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5175-Dd1e219">
+               <head xml:id="Vn7Pel-de5175-Hd1e221">2</head>
+               <p xml:id="Vn7Pel-de5175-d1e224">
+                  <lb ed="#A" n="26"/>¶ Sed difficultas oritur. Quia 
+        <lb ed="#A" n="27"/>ecclesia dirigit orationem quandoque ad personam vnam: vel adc 
+        <lb ed="#A" n="28"/>personas distincte puta cum in letania canit. dicit. Pa 
+        <lb ed="#A" n="29"/>ter de celis deus miserere nobis. Fili redemptor 
+        <lb ed="#A" n="30"/>mundi deus miserere nobis: spiritus sancte deus 
+        <lb ed="#A" n="31"/>miserere nobis etc. Sancta trinitas vnus deus 
+        <lb ed="#A" n="32"/>miserere nobis etc. Respondetur secundum Tho. super. iiii. 
+        <lb ed="#A" n="33"/>dist. xv. q. v. arti. iii. quod deus oratur ratione 
+        bonita<lb ed="#A" n="34" break="no"/>tis que essentialis est tribus personis per quam 
+        bo<lb ed="#A" n="35" break="no"/>nitatem largitur nobis gratiam et gloriam qua petere 
+        <lb ed="#A" n="36"/>debemus semper in oratione principalius Ideo 
+        <lb ed="#A" n="37"/>oratio semper dirigi debet ad essentiam diuinam. Et 
+        <lb ed="#A" n="38"/>si quandque dirigatur ad personam sicut dicitur supra in 
+        <lb ed="#A" n="39"/>letania etc. Hoc est ratione essentialium attributorum. Et 
+        <lb ed="#A" n="40"/>quoniam essentia diuina vnica est in personis. sequitur er 
+        <lb ed="#A" n="41"/>go quod cum dirigitur oratio ad vna personam non inten 
+        <lb ed="#A" n="42"/>dere debet aliam personam excludere. sed potius 
+        inclu<lb ed="#A" n="43" break="no"/>dere. et sic patet. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5175-Dd1e267">
+               <head xml:id="Vn7Pel-de5175-Hd1e269">3</head>
+               <p xml:id="Vn7Pel-de5175-d1e272">
+                  <lb ed="#A" n="44"/>¶ Item quid de oratione 
+        domini<lb ed="#A" n="45" break="no"/>ta cum dicimus Pater noster qui es in celis. Respondetur 
+        <lb ed="#A" n="46"/>secundum Tho. et doc. quod ibi intentio fertur ad tota sanctam 
+        <lb ed="#A" n="47"/>trinitatem et non ad solam personam patris. quia deus ipse 
+        <lb ed="#A" n="48"/>qui est pater filius et spiritus sanctus est pater noster 
+        <lb ed="#A" n="49"/>creatione et adoptione. et sic patet quod in dominica 
+        <lb ed="#A" n="50"/>oratione vna adoratione adoramus trinitatem 
+        <lb ed="#A" n="51"/>totam. Dicendo Pater noster qui es in celis etc.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

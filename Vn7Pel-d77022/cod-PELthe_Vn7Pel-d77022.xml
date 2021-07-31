@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reduplicativa</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Reduplicativa</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d77022">
+            <head xml:id="Vn7Pel-d77022-Hd1e107">Reduplicativa</head>
+            <div xml:id="Vn7Pel-d77022-Dd1e110">
+               <head xml:id="Vn7Pel-d77022-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d77022-d1e115">
+                  <lb ed="#A" n="46"/>REduplicatiua di 
+        <lb ed="#A" n="47"/>ctio De hoc vbi Exclusiua dictio. §. i
+        <lb ed="#A" n="48"/>Sed preterea nota secundum Guil. in primo 
+        <lb ed="#A" n="49"/>di i. quod reduplicatio potest capi dupliciter. Uno 
+        mo<lb ed="#A" n="50" break="no"/>do vt solum reduplicati rationem specificat. et sic ista 
+        <lb ed="#A" n="51"/>est vera Fruemur deo: inquantum est trinus. 
+        intel<lb ed="#A" n="52" break="no"/>ligendo de fruitione patrie ad hunc sensum quod 
+        trini<lb ed="#A" n="53" break="no"/>tate fruemur ita quod non reduplicetur scilicet inquantum tri¬ 
+        <!--246.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 247 -->
+                  <lb ed="#A" n="54"/>nitate. Alio modo reduplicatio potest accipi vt dicit re 
+        <lb ed="#A" n="55"/>duplicatum esse causam quare praedicatum in est subiecto 
+        <lb ed="#A" n="56"/>Et isto modo proprie dicitur reduplicatio. Exemplum 
+        <lb ed="#A" n="57"/>dicendo. Christus inquantum deus est omnipotens. Ibi notatur 
+        <lb ed="#A" n="58"/>quod deitas in christo est causa quare christus est omnipotens. 
+        <lb ed="#A" n="59"/>et isto modo secundo capiendo flcunum est: quod videbimus 
+        de<lb ed="#A" n="60" break="no"/>um: et fruemur in patria deo: inquantum est trinus. 
+        <lb ed="#A" n="61"/>ita quod actus fruendi terminetur ad tres personas: in 
+        <lb ed="#A" n="62"/>quantum sunt tres. quia in patira fruemur deo per 
+        <lb ed="#A" n="63"/>rationem essentie in se praecise quae est vnica ratio vltimi fi 
+        <lb ed="#A" n="64"/>nis: respectu cuius est fruitio. et videbimus tres per 
+        <lb ed="#A" n="65"/>sonas per rationem essentie praecise: vt per rationem 
+        obie<lb ed="#A" n="66" break="no"/>cti primi. Ex quo enim in quolibet ordine essentiali est 
+        <lb ed="#A" n="67"/>dare vnum principium tantum. ergo et in ordine finium est tantum 
+        <lb ed="#A" n="68"/>vna vltima ratio finis. vt sic omnia reducantur in vnum. 
+        <lb ed="#A" n="69"/>Ideo in patria fruemur tribus personis: inquan 
+        <lb ed="#A" n="70"/>tum sunt vnus deus. et sic patet quod in deo est 
+        vni<lb ed="#A" n="71" break="no"/>ta ratio fruitionis et causa. videlicet essentia vna in 
+        <lb ed="#A" n="72"/>tribus personis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

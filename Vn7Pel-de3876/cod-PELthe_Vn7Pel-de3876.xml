@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Accidens</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Accidens</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de3876">
+            <head xml:id="Vn7Pel-de3876-Hd1e107">Accidens</head>
+            <div xml:id="Vn7Pel-de3876-Dd1e110">
+               <head xml:id="Vn7Pel-de3876-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de3876-d1e115">
+                  <lb ed="#A" n="78"/>Accides Quid sit 
+        <lb ed="#A" n="79"/>Porphirius in isago. diffinit. d. 
+        Acci<lb ed="#A" n="80" break="no"/>dens est quod ad est vel abest praeter sub 
+        <lb ed="#A" n="81"/>lecti corriipstionem. Et capitur tripliciter sicut habet. i. in capulo 
+        <lb ed="#A" n="82"/>Agere. §. vi. Si itaque queratur An in deosit accisens 
+        <lb ed="#A" n="83"/>aliquod: respondendum est distiguenus de accitte vt ibiud ponitur 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3876-Dd1e132">
+               <head xml:id="Vn7Pel-de3876-Hd1e134">2</head>
+               <p xml:id="Vn7Pel-de3876-d1e137">
+                  <lb ed="#A" n="84"/>¶ Utrum omni accidente sit 
+        meli<lb ed="#A" n="85" break="no"/>or et dignior substantia. Respondetur secundum philosophum. vii. metaph. quod 
+        <lb ed="#A" n="86"/>sic Et intelligendum est secundum expositorem de 
+        dignita<lb ed="#A" n="87" break="no"/>te essentiali. non de accidentali. alias datur instantia. quia 
+        <lb ed="#A" n="88"/>lapis est substantia et scia est accidens que tamen 
+        la<lb ed="#A" n="89" break="no"/>pide est dignior sed accidentali dignitate Sic etiam 
+        <lb ed="#A" n="90"/>quodlibet subiectum melius est suo accidente et per 
+        <lb ed="#A" n="91"/>consequens Anima simpliciter et substantialiter dignior est 
+        <lb ed="#A" n="92"/>charitate. Tamen secundum quid scilicet in quantum est actus perficiens 
+        <lb ed="#A" n="93"/>otentiam: charitas melior est quia omnis actus est me 
+        <lb ed="#A" n="94"/>lior potentia ex. xi. metaph. Hec ex Tho. di. xvii 
+        <lb ed="#A" n="95"/>primi et alibi latius. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Immensitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Immensitas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="119"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d36763">
+            <head xml:id="Vn7Pel-d36763-Hd1e107">Immensitas</head>
+            <div xml:id="Vn7Pel-d36763-Dd1e110">
+               <head xml:id="Vn7Pel-d36763-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d36763-d1e115">
+                  <lb ed="#A" n="46"/>Immensitas De 
+        <lb ed="#A" n="47"/>hoc notandum secundum <name xml:id="Vn7Pel-d36763-Nd1e121">Aureo.</name> in compend. 
+        <lb ed="#A" n="48"/> Quod immensitas in deo quattuor con 
+        <lb ed="#A" n="49"/>plectu propter quae deus immensus dicitur videlicet 
+        infi<lb ed="#A" n="50" break="no"/>nitatem: incomprehensibilitatem: incircumscriptibilitatem 
+        <lb ed="#A" n="51"/>et eternitatem. Nam primo potest deus considerari in se 
+        <lb ed="#A" n="52"/>et sic est infinitus psalmos. Magnus dominus et laudabilis 
+        <lb ed="#A" n="53"/>nimis et magnitudis eius non est finis. Secundo potest 
+        <lb ed="#A" n="54"/>onsiderari in operatione ad intellectum. Et sic est 
+        incon<lb ed="#A" n="55" break="no"/>prehensibilis. Unde apostolus. <quote xml:id="Vn7Pel-d36763-Qd1e142">O altitudo diuitiarum 
+          sa<lb ed="#A" n="56" break="no"/>pientie et scientie dei quamincomprehensibilia sunt iudicia 
+          <!--119.xml-->
+          <pb ed="#A" n="120"/>
+                     <cb ed="#A" n="b"/>
+                     <lb ed="#A" n="57"/>eius</quote>. propterea deus dicitur sedere super cherubin id 
+        <lb ed="#A" n="58"/>est super plenitudinem scie et super omnem intellectum 
+        cre<lb ed="#A" n="59" break="no"/>atum. Tertio potest deus considerari in comparatione ad locum 
+        <lb ed="#A" n="60"/>sic est incircunscriptibilis. Unde Amb. Nihil praescriptum 
+        <lb ed="#A" n="61"/>nihil circumscriptum: nihil diuisum habet trinitas. Non 
+        <lb ed="#A" n="62"/>enim loco clauditur non extimatione concluditur. Non etate 
+        <lb ed="#A" n="63"/>variatur etc. Quarto potest deus considerari in comperati 
+        <lb ed="#A" n="64"/>one ad durationem et sic est eternus et de singulis 
+        <lb ed="#A" n="65"/>predictis. Uide in suis locis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36763-Dd1e174">
+               <head xml:id="Vn7Pel-d36763-Hd1e176">2</head>
+               <p xml:id="Vn7Pel-d36763-d1e179">
+                  <lb ed="#A" n="66"/>¶ Quomodo deus dicitur esse immense 
+        <lb ed="#A" n="67"/>magnitudis: Respondetur quod sicut docet Augustinus Deus 
+        <lb ed="#A" n="68"/>non mole magnitudis nec quantitate distenditur: sed 
+        <lb ed="#A" n="69"/>eo dicitur deus magnus quo deus scilicet immense virtutis 
+        <lb ed="#A" n="70"/>Unde secundum Aureol. supra. In deo non est quantitas vel ma 
+        <lb ed="#A" n="71"/>gnitudo dimensionis sed est diuine virtutis immensitas 
+        <lb ed="#A" n="72"/>Nec mensuratur ipsius mundi huius corporalis 
+        ca<lb ed="#A" n="73" break="no"/>pacitate sicut corpus extensum. vt pote vinum in 
+        do<lb ed="#A" n="74" break="no"/>lio magno qua continetur: imo potius deus continet mundum 
+        <lb ed="#A" n="75"/>totum existens vbique sue maiestatis praesentia. Si eim dimen 
+        <lb ed="#A" n="76"/>sionis extensione eet in modo non posse sic esse totus vbique sed 
+        <lb ed="#A" n="77"/>per partes. Unde patet quod non magnitudo quantitatis  
+        <lb ed="#A" n="78"/>continue sed virtutis infinite 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36763-Dd1e211">
+               <head xml:id="Vn7Pel-d36763-Hd1e213">3</head>
+               <p xml:id="Vn7Pel-d36763-d1e216">
+                  <lb ed="#A" n="79"/>¶ Sed quid est immensitas 
+        vir<lb ed="#A" n="80" break="no"/>tutis Respondet <ref xml:id="Vn7Pel-d36763-Rd1e222">Rich. di. xix. lib. i. arti. ii. q. ii</ref> concor 
+        <lb ed="#A" n="81"/>Tho. Quod virtus iuxta <ref xml:id="Vn7Pel-d36763-Rd1e227" target="http://scta.info/resource/aristdp-d1e97-d1e520@72-78"><!-- target seems highly likely, but needs more confirmation -->philosophum. vii. physicorum.</ref> est 
+        vlti<lb ed="#A" n="82" break="no"/>mum in quod res potest. Unde aduertendum quod aliquid potest 
+        <lb ed="#A" n="83"/>peartingere ad vltimum virtutis sue
+      </p>
+               <p xml:id="Vn7Pel-d36763-d1e237">
+        ¶ Primo re 
+        <lb ed="#A" n="84"/>spectu esse suiipius iuxta illud i. celi. Aliquid 
+        ha<lb ed="#A" n="85" break="no"/>bet virtutem vt semper sit. et secundum hoc diuine essentie 
+        <lb ed="#A" n="86"/>maximum quod potest in respectu ad sui esse 
+        duratio<lb ed="#A" n="87" break="no"/>nem: est hoc quod tota similis sine initio et fine existit. Unde 
+        <lb ed="#A" n="88"/>secundum hoc quantitas virtutis in deo est eternitas.
+      </p>
+               <p xml:id="Vn7Pel-d36763-d1e250">
+        ¶ 
+        Se<lb ed="#A" n="89" break="no"/>cundo vltimum virtutis partingit aliquid respectu operati 
+        <lb ed="#A" n="90"/>nis exterioris. Et sic quantitas virtutis in deo est 
+        omni<lb ed="#A" n="91" break="no"/>potentia
+      </p>
+               <p xml:id="Vn7Pel-d36763-d1e259">
+        ¶ Tertio respectu completionis sue natu 
+        <lb ed="#A" n="92"/>ture. Unde secundum philosophum virtus circuli dicitur quando attingit 
+        <lb ed="#A" n="93"/>complete diffinitionem suam circularem. Et sic si comporetur 
+        <lb ed="#A" n="94"/>deus ad perfectionem suam intrinsecam: maximum in quod potest 
+        <lb ed="#A" n="95"/>est perfectionis infinitas. Unde quantitas immensa virtutis 
+        <lb ed="#A" n="96"/>in deo sub ratione qua est essentia: est infinitas essentie 
+        <lb ed="#A" n="97"/>Nam sic <ref xml:id="Vn7Pel-d36763-Rd1e274">Aug. vi. de trin. dicit c. viii.</ref> quod in his qua non 
+        <lb ed="#A" n="98"/>mole magna sunt: hoc est maius esse quod e melius esse. Unde 
+        <lb ed="#A" n="99"/>in deo magnitudo est eius bonitas: quia qualibet res 
+        <lb ed="#A" n="100"/>tantum habet de bonitate quantum habet de perfectione. Hic ali 
+        <lb ed="#A" n="101"/>quem quai est perfectus in virtute sciaque et bonitate dicimus quod 
+        <lb ed="#A" n="102"/>est homo magnus
+      </p>
+               <p xml:id="Vn7Pel-d36763-d1e290">
+        ¶ Itaque deus dicitur summe bonus quia omnimo 
+        <lb ed="#A" n="103"/>de perfectionis qua omnia implet. dicitur etiam infinite virtutis quia omnia 
+        <lb ed="#A" n="104"/>otet. Et dicitur immense magnitudis quia si etiam infinitum spa 
+        <lb ed="#A" n="105"/>cium esset similis attingeret: tota virtutis diuine magnitu 
+        <lb ed="#A" n="106"/>do. Hec ex Rich. et Tho. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

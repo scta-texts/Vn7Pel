@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Intellectus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Intellectus</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="129"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d39715">
+            <head xml:id="Vn7Pel-d39715-Hd1e107">Intellectus</head>
+            <!-- left off (p. 129) 
+      
+    -->
+            <div xml:id="Vn7Pel-d39715-Dd1e112">
+               <head xml:id="Vn7Pel-d39715-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-d39715-d1e117">
+                  <lb ed="#A" n="75"/>INtellectus et in 
+        <lb ed="#A" n="76"/>telligentia vnde et quibus modis dicitur 
+        <lb ed="#A" n="77"/>Nota secundum Guil. in primo di. iii. parte 
+        <lb ed="#A" n="78"/>ii. arti. i. Intellectus dicitur ab intus et legens. quasi 
+        <lb ed="#A" n="79"/>intus legens. Sicut enim sensus ad exteriora 
+        oc<lb ed="#A" n="80" break="no"/>cupatur. sic intellectus intus vel interioribus vacat. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e133">
+                  <lb ed="#A" n="81"/>¶ Sed et nota quod intellectus multipliciter dicitur. 
+        <lb ed="#A" n="82"/>Uno modo prout est vnum donum spiritus sancti 
+        Esa<lb ed="#A" n="83" break="no"/>i. Requiescet super eum spiritus sapientie et 
+        intelle<lb ed="#A" n="84" break="no"/>ctus. Et sic capitur intellectus secundum Lyram pro donc 
+        <lb ed="#A" n="85"/>a deo infuso quo perficitur speculatiua ratio ad  
+        <lb ed="#A" n="86"/>apprehensione veritatis: sicut ratio practica 
+        ha<lb ed="#A" n="87" break="no"/>bet perfici in apprehensione veritatis per donum con 
+        <lb ed="#A" n="88"/>silii. Et ratio speculatiua. perficitur ad recte 
+        iudi<lb ed="#A" n="89" break="no"/>candum per donum sapientie. Practica vero ad recte 
+        <lb ed="#A" n="90"/>iudicandum perficitur per donum scientie et tc. Secundo modo 
+        <lb ed="#A" n="91"/>dicitur intellectus noticia principiorum. De quo philosophus 
+        <lb ed="#A" n="92"/>vi. Eth. dicit quod intellectus est habitus principiorum 
+        <lb ed="#A" n="93"/>sue per se nota habentur statim cum ab intellectu 
+        perci<lb ed="#A" n="94" break="no"/>piuntur vt quod omne totum est maius sua parte. Tertio 
+        <lb ed="#A" n="95"/>modo intellectus accipitur pro actu intelligendi sicut cum dicitur. 
+        <lb ed="#A" n="96"/>Hic est intellectus meus vel tuus. Quarto capitur 
+        <lb ed="#A" n="97"/>pro potentia intellectiua anime etc. Et de intellectu hoc 
+        <lb ed="#A" n="98"/>modo capiendo pro potentia anime agemus lib. ii 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e176">
+               <head xml:id="Vn7Pel-d39715-Hd1e178">2</head>
+               <p xml:id="Vn7Pel-d39715-d1e181">
+                  <lb ed="#A" n="99"/>¶ Sed de diuisione intellectus 
+        <lb ed="#A" n="100"/>fiota secundum e. Guil. ibidem quod iuxta Alexan. et 
+        The<lb ed="#A" n="101" break="no"/>ophrastum Peripateticos: Intellectus diuiditur in 
+        <lb ed="#A" n="102"/>tres. scilicet In intellectum agentem. In potentialem. Et 
+        <lb ed="#A" n="103"/>in speculatiuum. Et nota quod intellectus agens se 
+        ha<lb ed="#A" n="104" break="no"/>bet ad modum lucis. Sed possibilis seu potentia 
+        <lb ed="#A" n="105"/>lis se habet ad modum perspicui simplicis. Specu 
+        <lb ed="#A" n="106"/>latiuus autem intellectus se habet ad modum perspicui ia illiu 
+        <lb ed="#A" n="107"/>strati. Unde secundum eosdem duo primi scilicet Intellectus agens 
+        <lb ed="#A" n="108"/>et potentialis vel possibilis sunt vnum per se. sed tertius intelle 
+        <lb ed="#A" n="109"/>ctus est vnum per accidens. Et sic patet. Hec ibi.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e208">
+               <head xml:id="Vn7Pel-d39715-Hd1e210">3</head>
+               <p xml:id="Vn7Pel-d39715-d1e213">
+                  <lb ed="#A" n="110"/>Item de intelligentia. Nota 
+        <lb ed="#A" n="111"/>secundum e. Guill. supra parte. iii. ari ist quod intelligentia dicitur tribus 
+        <!--129.xml-->
+        <pb ed="#A" n="130"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>modis. Uno modo vt intelligentia diuiditur contra 
+        <lb ed="#A" n="2"/>intellectum. Et sic Aug. lib. de spiritu et anima dicit. quod in 
+        <lb ed="#A" n="3"/>patria intellectus vertetur in intelligentiam et 
+        intelligen<lb ed="#A" n="4" break="no"/>tia in deum. Unde isto modo intelligentia est quedam por 
+        <lb ed="#A" n="5"/>ciuncula anime qua in quiete summo bono inheremus. In 
+        <lb ed="#A" n="6"/>de est quod Angelici spiritus intelligentie nuncupantur. 
+        <lb ed="#A" n="7"/>Secundo modo dicitur intelligentia vt condiuiditur 
+        volun<lb ed="#A" n="8" break="no"/>tati. Et isto modo loquuntur philosophiponentes duas 
+        potem<lb ed="#A" n="9" break="no"/>tias non alligatas organis in operado scilicet 
+        itelle<lb ed="#A" n="10" break="no"/>ctum et voluntatem. Et sic capitur cum dicitur quod in mente 
+        <lb ed="#A" n="11"/>seu intelligentia hominis imago consistit trinitatis. 
+        Ter<lb ed="#A" n="12" break="no"/>tio modo dicitur intelligentia vel capitur pro ipsamet intel 
+        <lb ed="#A" n="13"/>lectiua potentia vt informata est actu intellectionis 
+        <lb ed="#A" n="14"/>Et isto modo assignatur ab Aug. x. de trinitate secunda 
+        <lb ed="#A" n="15"/>pars imaginis. sic etiam. ix. de trinitate dicit quod in his 
+        <lb ed="#A" n="16"/>tribus imago trinitatis consisti scilicet In mente accipien 
+        <lb ed="#A" n="17"/>do nente pro memoria: quia mens a meminisse desnco 
+        <lb ed="#A" n="18"/>dit. Et in noticia. hoc est in intelligentia et in amore 
+        <lb ed="#A" n="19"/>vel voluntate etc. Hec ex Guill. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e270">
+               <head xml:id="Vn7Pel-d39715-Hd1e272">4</head>
+               <p xml:id="Vn7Pel-d39715-d1e275">
+                  <lb ed="#A" n="20"/>¶ Utrum in deo sit intellectus for 
+        <lb ed="#A" n="21"/>maliter: Ad hoc respondetur secundum Fran. maro. in confla 
+        <lb ed="#A" n="22"/>super i. dist. xxxvi. q. i
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e284">
+        ¶ Primo notan quod opinio 
+        <lb ed="#A" n="23"/>fuit aliquorum vt sentit Tho. et super i. dist. xxxv. vice 
+        <lb ed="#A" n="24"/>quod in diuinis non est potentia intellectiua aut aliquio 
+        <lb ed="#A" n="25"/>ne habens per modum habitus sed tantummodo per 
+        mo<lb ed="#A" n="26" break="no"/>dum actus intelligendi: ita vicem quod deus intelligere 
+        <lb ed="#A" n="27"/>dicatur prout intelligere est quoddam subsistens. Et hec 
+        <lb ed="#A" n="28"/>opinio est satis probabilis tali ratione. Quia omnis po 
+        <lb ed="#A" n="29"/>tentia cum sit per actu perfectibilis semper dicit imperfecti 
+        <lb ed="#A" n="30"/>onem sicut materia. ergo non est in deo Sed argumto 
+        <lb ed="#A" n="31"/>Constat quod intellectus est perfectio simpliciter. ergo sequitur 
+        <lb ed="#A" n="32"/>quod est in deo formaliter etc.
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e308">
+        ¶ Secundo ergo nota secundum e. 
+        <lb ed="#A" n="33"/>Fran. vbi. supra. quod sicut in creatura sunt quattuor mo 
+        <lb ed="#A" n="34"/>di perfectionum intellectualium vice. Potentia: habitus 
+        <lb ed="#A" n="35"/>species et actus intelligendi ita in diuinis primo pe 
+        <lb ed="#A" n="36"/>nitur intelligere. Et secundo ponitur sapientia. Tertie 
+        <lb ed="#A" n="37"/>actus intelligendi. Quarto ponuntur loco specieri 
+        <lb ed="#A" n="38"/>exemplaria scilicet Idee. Amotis omnibus imperfectio 
+        <lb ed="#A" n="39"/>nibus quas habent in creaturis quae per accidens eis 
+        <lb ed="#A" n="40"/>competunt etc. Ad euidentiam tamen fundamenti oppositi. 
+        <lb ed="#A" n="41"/>Tertio nota secundum et Fran. Intelligendum est inqui 
+        <lb ed="#A" n="42"/>quod quadruplex est potentia quantum ad propositum spe 
+        <lb ed="#A" n="43"/>ctat. Una quidem productiua. Alia factiua. Alia ope 
+        <lb ed="#A" n="44"/>ratiua. Alia receptiua. Potentia autem productiua 
+        <lb ed="#A" n="45"/>abstrahit a factiua et ideo in diuinis est ad intra 
+        <lb ed="#A" n="46"/>prima: scilicet productiua. sed non est secunda scilicet factiua quia in 
+        <lb ed="#A" n="47"/>altero extremorum. hec secunda includit imperfectionem. Et 
+        <lb ed="#A" n="48"/>eodem modo potentia operatiua abstrahit a 
+        recepti<lb ed="#A" n="49" break="no"/>ua. Sicut ci productum se habet ad factionem: ita operari ad  
+        <lb ed="#A" n="50"/>recipere. Ideoque licet in creaturis operari id est 
+        intellige<lb ed="#A" n="51" break="no"/>re non sit nisi actum recipere. Unde. iii. de anima philosophus ait. 
+        <lb ed="#A" n="52"/>Intelligere est pati eo quod oportet intelligentem 
+        phan<lb ed="#A" n="53" break="no"/>tasmata speculari. Sed tamen non sic est in diuinis quia 
+        <lb ed="#A" n="54"/>deus nudam essentiam suam intelligit. Unde ficut in 
+        di<lb ed="#A" n="55" break="no"/>uinis produci est sine fieri. Ita operari iest intelligere 
+        <lb ed="#A" n="56"/>est sine recipere: sed solum est in se formaliter actum 
+        ha<lb ed="#A" n="57" break="no"/>bere. Et talis potentialitas abstrabit a materiali¬ 
+        <!--129.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 130 -->
+                  <lb ed="#A" n="58"/>tate et ab omni imperfectione. Et ideo poni potest in deo. Hec 
+        <lb ed="#A" n="59"/>Fran
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e376">
+        ¶ Ex si obiiciatur quod nec intellectus agens 
+        <lb ed="#A" n="60"/>nec intellectus possibilis est in deo quia nec agere 
+        <lb ed="#A" n="61"/>nec pati ergo in deo non est intellectus. Ad hec 
+        <lb ed="#A" n="62"/>patebit responsio ex subsequentibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e386">
+               <head xml:id="Vn7Pel-d39715-Hd1e388">5</head>
+               <p xml:id="Vn7Pel-d39715-d1e391">
+                  <lb ed="#A" n="63"/>¶ An in deo sit intellectus agens 
+        <lb ed="#A" n="64"/>Ad hoc respondendo Fran. maro. vbi supra inducit 
+        <lb ed="#A" n="65"/>plures opiniones.
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e400">
+        ¶ Primo namque aliqui inquit 
+        <lb ed="#A" n="66"/>dicunt quod intellectus agens non ponitur nisi in anima cor 
+        <lb ed="#A" n="67"/>pori coniuncta. Ratio: quia intellectus agens non habi 
+        <lb ed="#A" n="68"/>aliquam operationem nisi secundum quod irradiat super 
+        phanta<lb ed="#A" n="69" break="no"/>smata. Tertum est autem quod propter hunc actum non debet 
+        <lb ed="#A" n="70"/>poni in deo. Nec in angelis nec in anima separata 
+        <lb ed="#A" n="71"/>eo quod ista non intelligant per phantasmata et per consequens 
+        <lb ed="#A" n="72"/>intellectus irradiatio super phantasmata non est 
+        <lb ed="#A" n="73"/>eis necessaria ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e420">
+        ¶ Secundo aliorum opinio est quod 
+        <lb ed="#A" n="74"/>exquo intellectus agens non solum habet 
+        irradia<lb ed="#A" n="75" break="no"/>re super phantasmata. sed etiam intellectum possibilem 
+        <lb ed="#A" n="76"/>illustrare qui se habet per modum diaphani obscuri 
+        <lb ed="#A" n="77"/>naturaliter. Ideo isti dicunt quod non solum in anima 
+        <lb ed="#A" n="78"/>cniuncta corpori sed etiam in anima separata est 
+        intelle<lb ed="#A" n="79" break="no"/>ctus agens eo quod intellectus possibilis istam 
+        ob<lb ed="#A" n="80" break="no"/>scuritatem retinet etiam post separationem. In angelis 
+        <lb ed="#A" n="81"/>autem et praeserti in deo non est quia nulla obscuritas est ibi. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e440">
+                  <lb ed="#A" n="82"/>¶ Tertia opinio est quam tenet idem Fran. tamquam 
+        <lb ed="#A" n="83"/>magis vera vt videtur. scilicet quod in angelis Et etiam in 
+        <lb ed="#A" n="84"/>deo ponendus est formaliter intellectus agens. Et 
+        <lb ed="#A" n="85"/>huius vt dicit est ratio: quia hoc dicit perfectionem cum 
+        <lb ed="#A" n="86"/>sit productiuus. Nam nobilissima potentiarum 
+        in<lb ed="#A" n="87" break="no"/>tellectiuarum est intellectus agens quia Aug. lib. de 
+        <lb ed="#A" n="88"/>trinitate ponit quod homo secundum ipsam potentiam nobilissi 
+        <lb ed="#A" n="89"/>mam factus est ad imagine dei. Et sic intellectus 
+        <lb ed="#A" n="90"/>agens videtur poni intra rationem imagis: hinc est ergo 
+        <lb ed="#A" n="91"/>quod in angelis et in deo eminentissime debet poni 
+        <lb ed="#A" n="92"/>Confirmatur quia intellectus agens non ponitur nisi ad  
+        <lb ed="#A" n="93"/>producendum verbum vel noticia sicut intellectus possi 
+        <lb ed="#A" n="94"/>bilis ponitur ad ipsum formaliter recipiendum. Quia. iii. 
+        <lb ed="#A" n="95"/>de anima dicitur quod intellectus agentis est omnia facere sicut 
+        <lb ed="#A" n="96"/>possibilis omnia fieri. Talis autem productio verbi po 
+        <lb ed="#A" n="97"/>nitur in diuinis ergo inquit Fran. istam opinionem 
+        te<lb ed="#A" n="98" break="no"/>neo quia videtur magis vera. Hec Fran. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e480">
+               <head xml:id="Vn7Pel-d39715-Hd1e482">6</head>
+               <p xml:id="Vn7Pel-d39715-d1e485">
+                  <lb ed="#A" n="99"/>¶ Qualiter ergo in deo ponitur 
+        <lb ed="#A" n="100"/>intellectus agens: Sciendum est secundum e. Fran. ibidem. 
+        <lb ed="#A" n="101"/>q. i. et ii. similis colligendo
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e494">
+        ¶ Primo prinotando quod in 
+        <lb ed="#A" n="102"/>nobis ponuntur due nature intellectus nostri vel 
+        <lb ed="#A" n="103"/>duo actus intellectus: quarum vna est natura 
+        acti<lb ed="#A" n="104" break="no"/>ua. et alia passiua. Nam intellectui agenti 
+        compe<lb ed="#A" n="105" break="no"/>tit agere: et repugnat passibilitas. intellectui autem 
+        <lb ed="#A" n="106"/>possibili competit passibilitas. Unde quia in 
+        <lb ed="#A" n="107"/>nobis intelligere est pati vt dicitur. iii. de anima. ideo 
+        <lb ed="#A" n="108"/>intelligere et cogitare secundum omnes doc. conuenit ex na 
+        <lb ed="#A" n="109"/>tura rei ipsi intellectui possibili: hoc autem non 
+        <lb ed="#A" n="110"/>conuenit intellectui agenti. sed solum conuenit 
+        <lb ed="#A" n="111"/>ei intellectionem facere secundum multos doctores scilicet 
+        <lb ed="#A" n="112"/>actuando speciem intelligibilem et immutando 
+        <lb ed="#A" n="113"/>intellectum possibilem: eidem aliquid imprimen 
+        <lb ed="#A" n="114"/>do ac sic cau sando actum intelligendi. Unde  
+        <!--130.xml-->
+        <pb ed="#A" n="131"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>philosophis iii. de anima dicit quod intellectus agens est vt lumen 
+        <lb ed="#A" n="2"/>quia sicut lumen facit colorem visibile in potentia vt sit 
+        <lb ed="#A" n="3"/>actu visibilis. Sic intellectus agens intelligibilia 
+        <lb ed="#A" n="4"/>n potentia facit actu intelligibilia et esse intellecta 
+        <lb ed="#A" n="5"/>Hec ille scilicet philosophus. Propterea intellectus agens ab 
+        <lb ed="#A" n="6"/>actione denominatur quia imprimere et actuare est quoddam: 
+        <lb ed="#A" n="7"/>agere. Sed intellectus possibilis a passione denominatur 
+        <lb ed="#A" n="8"/>Et sic distinguuntur formaliter per actiuum et passiuum 
+        <lb ed="#A" n="9"/>tamquam per differetias oppositas sed non sic est in deo etc. 
+        <lb ed="#A" n="10"/>Secundo ergo nota iuxta e. Fran. quod quia in deo nul 
+        <lb ed="#A" n="11"/>la est vel potest esse passio: ideo aliter est in eo quam in  
+        <lb ed="#A" n="12"/>nobis. Unde in deo non ponitur passio aliqua. sed bene 
+        <lb ed="#A" n="13"/>ibi ponuntur duo quorum vnum est productiuum verbi 
+        <lb ed="#A" n="14"/>scilicet intellectus agens. Et reliquum operatiuun 
+        <lb ed="#A" n="15"/>scilicet intellectus possibilis: quia intelligere et 
+        cog<lb ed="#A" n="16" break="no"/>tare est ipsius intellectus possibilis vt dictum est 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e566">
+                  <lb ed="#A" n="17"/>¶ Tertio ergo nota secundum eundem Fran. quod nec in 
+        <lb ed="#A" n="18"/>tellectus vt perficiens: nec intellectus vt mouens 
+        <lb ed="#A" n="19"/>nec intellectus vt causans actum intelligendi: po 
+        <lb ed="#A" n="20"/>nitur in deo. licet in creatura inueniatur habere illa 
+        <lb ed="#A" n="21"/>sed precise ponitur in deo vt producens ipsum 
+        ver<lb ed="#A" n="22" break="no"/>bum per modum intellectus: ergo oportet quod ibi 
+        <lb ed="#A" n="23"/>sit intellectus productiuus formaliter scilicet 
+        intelle<lb ed="#A" n="24" break="no"/>ctus agens etc. Hec ex Fran.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e587">
+               <head xml:id="Vn7Pel-d39715-Hd1e589">7</head>
+               <p xml:id="Vn7Pel-d39715-d1e592">
+                  <lb ed="#A" n="25"/>Utrum intellectus possibilis 
+        <lb ed="#A" n="26"/>sit formaliter in deo: Respondet ibidem Fran. maro. quod 
+        <lb ed="#A" n="27"/>licet inquit aliqui dicant quod non: eo quod 
+        imperfectio<lb ed="#A" n="28" break="no"/>nem dicit sicut materia sensibilium.
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e603">
+        ¶ Sed 
+        contra<lb ed="#A" n="29" break="no"/>quia nobilissima potentia est deo attribuenda. In 
+        <lb ed="#A" n="30"/>tellectus autem possibilis est huiusmodi quia ipse beatificabilis est 
+        <lb ed="#A" n="31"/>quoniam ipse immediate attingit deum et obiectum beatificum. non 
+        <lb ed="#A" n="32"/>autem agens. Nam intellectus agens nullo suo actu 
+        at<lb ed="#A" n="33" break="no"/>tingit obiectum beatificum immediate. cum omnis sua 
+        <lb ed="#A" n="34"/>operatio sit respectu alicuius creati. Nihil enim 
+        <lb ed="#A" n="35"/>agit circa obiectum sed circa intellectum possibilem 
+        <lb ed="#A" n="36"/>Toncluditur ergo quod in deo est intellectus possibi 
+        <lb ed="#A" n="37"/>lis
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e625">
+        ¶ Ad idem alia ratio est quia deus est formaliter 
+        <lb ed="#A" n="38"/>intelligens sed nil formaliter intelligit nisi in se 
+        <lb ed="#A" n="39"/>habeat formaliter intellectum possibile cuius est 
+        <lb ed="#A" n="40"/>intelligere. Quia sicut ad voluntatem partinet vello 
+        <lb ed="#A" n="41"/>ita ad intellectum possibile partinet intelligere. quamuis 
+        <lb ed="#A" n="42"/>ad intellectum agentem partineat facere huiusmodi 
+        intel<lb ed="#A" n="43" break="no"/>lectionem. ergo sicut deo attribuitur voluntas ad quam 
+        <lb ed="#A" n="44"/>partinet velle: eodem modo deo attribuitur Intellectus 
+        <lb ed="#A" n="45"/>possibilis ad quem partinet intelligere.
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e645">
+        ¶ Confirma<lb ed="#A" n="46" break="no"/>tur: quia sicut ad intellectum agente partinet dicere sic 
+        <lb ed="#A" n="47"/>ad possibilem partinet intelligere: sed multo 
+        perfe<lb ed="#A" n="48" break="no"/>etius est intelligere quam dicere. Imo intelligere 
+        di<lb ed="#A" n="49" break="no"/>cit perfectionem simpliciter sed dicere non: ergo deo attribui 
+        <lb ed="#A" n="50"/>tur intellectus possibilis sicut et agens. Preterea 
+        <lb ed="#A" n="51"/>n quocumque est sapientia: ibi est fundamentum sa 
+        <lb ed="#A" n="52"/>pientie: sed in deo est sapientia. Et intellectus pos 
+        <lb ed="#A" n="53"/>sibilis est eius fundamentum quia ipsius est reci 
+        <lb ed="#A" n="54"/>pere et retinere noticiam. ergo sequitur 
+        conclu<lb ed="#A" n="55" break="no"/>sio vera. scilicet quod intellectus possibilis secundum suam 
+        <lb ed="#A" n="56"/>rationem formalem est in deo. Hec ex Fran. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e672">
+               <head xml:id="Vn7Pel-d39715-Hd1e674">8</head>
+               <p xml:id="Vn7Pel-d39715-d1e677">
+                  <lb ed="#A" n="57"/>¶ Sed quo ponitur in deo intel 
+        <!--130.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 131 -->
+                  <lb ed="#A" n="58"/>lectus possibilis cum sit passiuus: Nota secundum eundem 
+        <lb ed="#A" n="59"/>Franciscum supra quod intellectus possibilis in 
+        crea<lb ed="#A" n="60" break="no"/>turis habet quadruplicem habitudinem secundum quam 
+        <lb ed="#A" n="61"/>potest quadrupliciter considerari. Primo enim 
+        <lb ed="#A" n="62"/>est vt passiuus respectu intellectus agentis. 
+        Se<lb ed="#A" n="63" break="no"/>tundo. Ut receptiuus et vt sic comparatur ad 
+        <lb ed="#A" n="64"/>species habitus et actus vt sibi inherentes. Ter 
+        <lb ed="#A" n="65"/>tio inquantum operatiuus vel intellectiuus et vt sic 
+        <lb ed="#A" n="66"/>respicit actum intelligendi sicut fundamentum 
+        <lb ed="#A" n="67"/>Quarto vt fundatiuus tantummodo non vt ope 
+        <lb ed="#A" n="68"/>ratiuus actu. Isto modo respicit virtutes 
+        intel<lb ed="#A" n="69" break="no"/>lectuales scilicet Sapientiam: scientiam et huiusmodi 
+        <lb ed="#A" n="70"/>iptas enim fundare: non est operari actu nec per 
+        <lb ed="#A" n="71"/>hoc quod sunt in aliquo dicitur illud operans sed 
+        <lb ed="#A" n="72"/>habens denominationes suas sibi 
+        competen<lb ed="#A" n="73" break="no"/>tes vt scilicet dicatur sapiens et sciens etc
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e723">
+        ¶ Modo 
+        <lb ed="#A" n="74"/>due prime habitudines conueniunt intellectui 
+        <lb ed="#A" n="75"/>creato possibili inquantum est limitatus. Quia pa 
+        <lb ed="#A" n="76"/>ti et recipere sunt signa imperfectionis. Alie vero 
+        <lb ed="#A" n="77"/>due conueniunt sibi inquantum est talis potentia 
+        <lb ed="#A" n="78"/>hoc est inquantum est intellectus possibilis. Et ideo 
+        <lb ed="#A" n="79"/>et sic scilicet secundum istam duplicem habitudinem poni 
+        <lb ed="#A" n="80"/>tur in deo. Dicitur enim deus operari vel intelli 
+        <lb ed="#A" n="81"/>gere ex eo quod intellectus eius habet in se formali 
+        <lb ed="#A" n="82"/>ter intellectionem. Et dicitur sapiens quia habet 
+        <lb ed="#A" n="83"/>in se formaliter sapientiam diuinam. Hec ex Fran. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e747">
+                  <lb ed="#A" n="84"/>¶ Utrum intellectus diuinus 
+        <lb ed="#A" n="85"/>sit practicus. Uide vbi Praxis. §. iii. 
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e754">
+                  <lb ed="#A" n="86"/>¶ An intellectus diuinus moue 
+        <lb ed="#A" n="87"/>atur a scibili vbi Theologia. §. ii. Et vbi Idea. 
+        <lb ed="#A" n="88"/>§. xxvii. in fine. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e764">
+               <head xml:id="Vn7Pel-d39715-Hd1e766">9</head>
+               <p xml:id="Vn7Pel-d39715-d1e769">
+                  <lb ed="#A" n="89"/>¶ Utrum diuinus intellectus pos 
+        <lb ed="#A" n="90"/>sit plura intelligere quam intelligat? Respondetur 
+        <lb ed="#A" n="91"/>summatim secundum Franciscum ea. dist. xxxvi. q. iii. quod 
+        re<lb ed="#A" n="92" break="no"/>pectu necessariorum qualia sunt diuina: non potest 
+        <lb ed="#A" n="93"/>lura intelligere. cum naturali necessitate feratur 
+        <lb ed="#A" n="94"/>in omnia talia. Sed respectu contingentium di 
+        <lb ed="#A" n="95"/>co inquit quod sicut voluntas diuina potest plura 
+        <lb ed="#A" n="96"/>velle quam velit eo quod potest plura facere que non 
+        fa<lb ed="#A" n="97" break="no"/>cit. vel pauciora etiam potest quam facit Sic dico de 
+        <lb ed="#A" n="98"/>intellectu diuino vel scientia eius. Unde sicut vo 
+        <lb ed="#A" n="99"/>untas diuina potest augeri vel minui sic 
+        noti<lb ed="#A" n="100" break="no"/>tia de futuris contingentibus. intelligendo de 
+        <lb ed="#A" n="101"/>noticia visionis et approbationis. non tamen 
+        <lb ed="#A" n="102"/>ex parte dei sed sine mutabilitate scientie et volun 
+        <lb ed="#A" n="103"/>tatis in deo. Ut patet per Magistrum dist. xxxix. 
+        <lb ed="#A" n="104"/>Non sequitur ergo ex hoc quod deus possit esse veb 
+        <lb ed="#A" n="105"/>esset mutabilis. Sed talis mutatio augmenti 
+        <lb ed="#A" n="106"/>el diminutionis possibilis est ex parte 
+        creatu<lb ed="#A" n="107" break="no"/>rarum quia solum est productio vel mutatio 
+        <lb ed="#A" n="108"/>talium obiectorum in esse volito vel cognito 
+        <lb ed="#A" n="109"/>que incipit vel desinit sine ipsa mutatione 
+        diui<lb ed="#A" n="110" break="no"/>na sicut productio in esse existentie incipit sine 
+        ali<lb ed="#A" n="111" break="no"/>qua mutatione diuina: cum ipse deus ab eterno 
+        <!--131.xml-->
+        <pb ed="#A" n="132"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sciuit se sic velle et operari vel non operari pro 
+        <lb ed="#A" n="2"/>isto tempore. Et de hoc latius patebit vbi de Sci 
+        <lb ed="#A" n="3"/>entia dei. §. xvi. xviii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e836">
+               <head xml:id="Vn7Pel-d39715-Hd1e838">10</head>
+               <p xml:id="Vn7Pel-d39715-d1e841">
+                  <lb ed="#A" n="4"/>¶ An primum obiectum diuini in 
+        <lb ed="#A" n="5"/>tellectus sit ipsa essentia diuina? Respondetur secundum 
+        <lb ed="#A" n="6"/>eundem Fran. vbi supra. per conclusionem quod sic. Et 
+        di<lb ed="#A" n="7" break="no"/>citur primum obiectum. Primo quide primitate 
+        <lb ed="#A" n="8"/>ade quationis. sicut habere tres angulos 
+        trian<lb ed="#A" n="9" break="no"/>gulo primo conuenit quia adequate. sic diuina esse 
+        <lb ed="#A" n="10"/>tia dicitur primum obiectum intellectus diuini: quia 
+        <lb ed="#A" n="11"/>sic ei est adequata quod non potest habere actum 
+        <lb ed="#A" n="12"/>aliquem qui non terminetur primo ad essentiam 
+        <lb ed="#A" n="13"/>diuinam. Secundo dicitur primum obiectum prius 
+        <lb ed="#A" n="14"/>mitate perfectionis. Quia essentia diuina est 
+        per<lb ed="#A" n="15" break="no"/>fectissimum obiectum inter omnia illa in que potest 
+        <lb ed="#A" n="16"/>tendere intellectus diuinus: et in ea relucent omnia. 
+        <lb ed="#A" n="17"/>¶ Tertio est primum obiectum primitate intuitionis 
+        <lb ed="#A" n="18"/>Quia ipsa primo est intuita ab eterno in qua 
+        vi<lb ed="#A" n="19" break="no"/>dentur omnia a deo. Intuitiua autem cognitio 
+        <lb ed="#A" n="20"/>est simpliciter prima vtpote immediata. Hec Fran. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e880">
+                  <lb ed="#A" n="21"/>¶ Ad idem vbi Obiectum. Et vbi Cogscere. §. iiii. 
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e885">
+                  <lb ed="#A" n="22"/>¶ An intellectus diuinus 
+        com<lb ed="#A" n="23" break="no"/>prehendat diuinam essentiam. Uide vbi 
+        Incom<lb ed="#A" n="24" break="no"/>prehensibilitas diuina. §. ii. et. iii. Et vbi Essentia 
+        <lb ed="#A" n="25"/>diuina. §. iiii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e897">
+               <head xml:id="Vn7Pel-d39715-Hd1e899">11</head>
+               <p xml:id="Vn7Pel-d39715-d1e902">
+                  <lb ed="#A" n="26"/>¶ Utrum intellectus diuinus 
+        in<lb ed="#A" n="27" break="no"/>telligat discursiue enunciabilia componendo vel 
+        <lb ed="#A" n="28"/>diuidendo: Ad hoc primo nota secundum Richar. de 
+        <lb ed="#A" n="29"/>media villa super lib. iii. dist. xiiii. arti. iiii. q. i. quod 
+        <lb ed="#A" n="30"/>deus vnico simplici verbo dicit et vnico actu in  
+        <lb ed="#A" n="31"/>telligendi intelligit propositiones affirmatiuas et 
+        <lb ed="#A" n="32"/>negatiuas. Non autem componendo vel 
+        diuiden<lb ed="#A" n="33" break="no"/>do intelligit illas. Unde quamuis formationem 
+        syllo<lb ed="#A" n="34" break="no"/>gismorum et discursum intelligat optime: non 
+        ta<lb ed="#A" n="35" break="no"/>men intelligit discurrendo vel syllogit ando. 
+        Ra<lb ed="#A" n="36" break="no"/>tio quia intelligere discurrendo et 
+        ratiocinan<lb ed="#A" n="37" break="no"/>do deuenire in cognitionem: est imperfectionis cum 
+        <lb ed="#A" n="38"/>sit intelligere vnum per aliud: ergo non potest 
+        <lb ed="#A" n="39"/>conuenire deo. Unde Dionysius. vii. ca. de diui 
+        <lb ed="#A" n="40"/>nomnibus dicit. Quod beati angeli simplas et beatas 
+        ha<lb ed="#A" n="41" break="no"/>bent intelligentias. ergo simplici aspectu intelli 
+        <lb ed="#A" n="42"/>gunt. Et a fortiori anima christi quamuis incompara 
+        <lb ed="#A" n="43"/>biliter inferiori modo quam deus
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e944">
+        ¶ Secundo nota et 
+        <lb ed="#A" n="44"/>eodem Rich. ibidem. Et etiam super primo dist. xxxviii 
+        <lb ed="#A" n="45"/>q. iiii. concor. Tho. simul colligendo quod quamuis deus 
+        <lb ed="#A" n="46"/>et etiam angeli ac anima christi non intelligant 
+        discurren<lb ed="#A" n="47" break="no"/>do vt praedictum est tamen intelligunt compositionem et 
+        diui<lb ed="#A" n="48" break="no"/>sionem et enunciationem ac sylloginationem et modum 
+        <lb ed="#A" n="49"/>eorum. Nam deus affirmando vel negando multa 
+        <lb ed="#A" n="50"/>praedixit per pophetas. Et hoc est componere praedicatum scilicet 
+        <lb ed="#A" n="51"/>cum subiecto vel diuidere a subiecto. Et sic patet quod 
+        <lb ed="#A" n="52"/>intelligat compositionem et diuisionem. tamen huiusmodi non 
+        <lb ed="#A" n="53"/>intelligunt componendo vel diuidendo quia 
+        in<lb ed="#A" n="54" break="no"/>telligere componendo est primo intelligere sub 
+        <lb ed="#A" n="55"/>iectum per se et postea per alium actum intelligere praedi¬ 
+        <!--131.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 132 -->
+                  <lb ed="#A" n="56"/>catum ac postmodum ita componere in enunciatione vel 
+        <lb ed="#A" n="57"/>propoatione et tandem ex propatinibus syllogitare et concludere. 
+        <lb ed="#A" n="58"/>Unde deus et praedicti dicunt hominem esse animal vno 
+        <lb ed="#A" n="59"/>actu simplici intellectualiter. Et vno eodem actu 
+        <lb ed="#A" n="60"/>simplici dicunt hominem non esse asinum: quod nobis non 
+        <lb ed="#A" n="61"/>est possibile propter debilitatem intellectus nostri et 
+        cla<lb ed="#A" n="62" break="no"/>ritatis eius modicitatem. Ut latius patebit aliis 
+        <lb ed="#A" n="63"/>libris sequentibus
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e996">
+        ¶ Tertio ergo nota conclusionem ex 
+        <lb ed="#A" n="64"/>ipsis praedictis docto. quod deus intelligit et prescit omnia 
+        <lb ed="#A" n="65"/>enunciabilia et omnia futura. Non per discursum nec 
+        <lb ed="#A" n="66"/>componendo aut diuidendo sed vnico simplici intel 
+        <lb ed="#A" n="67"/>ligendi actu. Sicut ei deus intelligit et scit materialia per 
+        <lb ed="#A" n="68"/>modum immaterialem: ita scit omnia et compositionem et 
+        di<lb ed="#A" n="69" break="no"/>uisionem per actum intelligendi simplice: Nec tamen 
+        compo<lb ed="#A" n="70" break="no"/>nit nec diuidit. scit tamen compositionem et diuisionem  
+        <lb ed="#A" n="71"/>etc. Hec ex praedictis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39715-Dd1e1017">
+               <head xml:id="Vn7Pel-d39715-Hd1e1019">12</head>
+               <p xml:id="Vn7Pel-d39715-d1e1022">
+                  <lb ed="#A" n="72"/>¶ Sed difficultas oriter ex dictis 
+        <lb ed="#A" n="73"/>phocpi i. Peri her. dicentis quod veritas et falsitas sunt 
+        <lb ed="#A" n="74"/>circa compositionem et diuisionem. Quomodo ergo potest veritas 
+        <lb ed="#A" n="75"/>sciri non componendo vel diuidendo. Ite. iii de anima 
+        <lb ed="#A" n="76"/>dicit idem quod quando intellectus intelligit affirmationem et ne 
+        <lb ed="#A" n="77"/>gationem fit quedam compositio et diuisio. Si ergo in 
+        <lb ed="#A" n="78"/>intellectu dei nulla est compositio vel diuisio quomod 
+        <lb ed="#A" n="79"/>cognoscit enunciabilia etc. Respondetur secundum praedictos 
+        <lb ed="#A" n="80"/>Rich. et Tho. e. dist. xxxviii. primi. quod hec dicta philosop 
+        <lb ed="#A" n="81"/>et similia intelligenda sunt quo ad nostrum intellectum 
+        <lb ed="#A" n="82"/>referendo non qui ad diuinum. Quia intelligere in no 
+        <lb ed="#A" n="83"/>pis est dicere componendo et diuidendo. scilicet dicere 
+        <lb ed="#A" n="84"/>Hoc est hoc. puta iusticia est bona Uel Hoc non 
+        <lb ed="#A" n="85"/>est hoc. puta iniusticia non est bona. Et sic est in 
+        <lb ed="#A" n="86"/>vnum redigere seorsum intellecta. Sed deus quamuis 
+        <lb ed="#A" n="87"/>dicat quod iusticia est bona: et iniusticia non est bona 
+        <lb ed="#A" n="88"/>tamen hoc non dicit redigendo seorsum intellecta: sicut 
+        <lb ed="#A" n="89"/>nos facimus sed omnia per suam essentiam quae est simplici 
+        <lb ed="#A" n="90"/>sima et per vnum actum simplicissimum intelligit non tamen 
+        <lb ed="#A" n="91"/>componit nec diuidit. Sed sicut cognoscedo esse 
+        <lb ed="#A" n="92"/>tiam suam cognoscit omnem rem: ita cogscendo esse suum 
+        <lb ed="#A" n="93"/>cognoscit esse cuiuslibet rei. Quia esse suum non 
+        <lb ed="#A" n="94"/>est aliud ab essentia sua in qua relucent omnis 
+        <lb ed="#A" n="95"/>vt in causa tam affirmationes quam negationes etc. 
+        <lb ed="#A" n="96"/>Hec ex predictis docto. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e1079">
+                  <lb ed="#A" n="97"/>¶ Item plura de intellectu diui 
+        <lb ed="#A" n="98"/>no. Uide vbi de Scientia diuina. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39715-d1e1086">
+                  <lb ed="#A" n="99"/>¶ Item de intellectum Agente et 
+        <lb ed="#A" n="100"/>Possibili vt sunt in nobis libro. ii etc.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

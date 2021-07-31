@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Missio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Missio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="152"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d47197">
+            <head xml:id="Vn7Pel-d47197-Hd1e107">Missio</head>
+            <div xml:id="Vn7Pel-d47197-Dd1e110">
+               <head xml:id="Vn7Pel-d47197-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d47197-d1e115">
+                  <lb ed="#A" n="61"/>MIssio a mitto mit 
+        <lb ed="#A" n="62"/>tis dicitur. 
+        <lb ed="#A" n="63"/>De missione primo in communi. 
+        Quer<lb ed="#A" n="64" break="no"/>tur quid sit. Ad quod dicendum secundum Guill. super i. di. xiiii 
+        <lb ed="#A" n="65"/>et .xv. quod missio non est nisi quadam actio velis passio seu qua 
+        <lb ed="#A" n="66"/>dam respectus missi ad mittentem: seu mittentis ad missum. 
+        <lb ed="#A" n="67"/>Unde missio proprie ex creaturis transfertur ad creatorem 
+        <lb ed="#A" n="68"/>Missio quippe secundum Bon. in i. di. xv. q. i. In creatu 
+        <lb ed="#A" n="69"/>ris passiue dicta ad tria comperatur. Nam comperatur Primo 
+        <lb ed="#A" n="70"/>ad principium. Secundo ad terminum. Terton ad missum. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e139">
+                  <lb ed="#A" n="71"/>¶ Primo ad principium sub triplici habitudie comporatur. 
+        <lb ed="#A" n="72"/>Aut vt ad dantem. et sic mittitur radius a sole. Aut vt 
+        <lb ed="#A" n="73"/>ad dantem virtutem. et sic mittitur iaculum a proiectore. Aut 
+        <lb ed="#A" n="74"/>vt dantem iurisdictionem seu auctoritatem. et sic mittitur 
+        num<lb ed="#A" n="75" break="no"/>cius a praeceptore. et isto modo reperitur in deo patre missio 
+        a<lb ed="#A" n="76" break="no"/>ctiua. in filio autem et spiritu saco missio passiua. quia tam 
+        <lb ed="#A" n="77"/>filius quam spiritus sanctus habent esse et virtutem et iurisdictionem ope 
+        <lb ed="#A" n="78"/>randi a patre: sic et spiritus sanctus a filio.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e159">
+        ¶ Secundo modo mi 
+        <lb ed="#A" n="79"/>sio comperatur ad terminum etiam tripliciter. Aut vt ad locum 
+        <lb ed="#A" n="80"/>in quo quietatur. sicut lapis mittitur deorsum. Aut vt ad 
+        <lb ed="#A" n="81"/>aliquem a quo habeatur. sicut donum alicui mittitur. Aut 
+        <lb ed="#A" n="82"/>ad alique vt in eo operetur. Istis modis mittit pater fili 
+        <lb ed="#A" n="83"/>um et spiritum scantum. et filius mittit spiritum scantum. et etiam filius se 
+        <lb ed="#A" n="84"/>ipsum. et spiritus sanctus seipsum scilicet ad quiescendum in nobis et 
+        <lb ed="#A" n="85"/>possidendum ab anima saca: ac operandum in ea sanctificationem 
+        <lb ed="#A" n="86"/>et opera meritoria
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e179">
+        ¶ Tertio modo missio in creaturi 
+        <lb ed="#A" n="87"/>comperatur ad missum. et pec hbent imperfectionem. quia missus 
+        <lb ed="#A" n="88"/>separatur a mittente: vt cum quis a roma mittit aliquem pa 
+        <lb ed="#A" n="89"/>risius. et quia missum non est vbi mittitur sed mutat locum. 
+        <lb ed="#A" n="90"/>Ideoque ista comperatio non competit personis divinis. quia 
+        <lb ed="#A" n="91"/>piritus sancus dum mittitur non separatur a patre et filio nec 
+        mu<lb ed="#A" n="92" break="no"/>tat locum: cum tres persone sint vbique praesentes. sed tamen 
+        ad<lb ed="#A" n="93" break="no"/>uenire dicitur ad locum aliquem vel hominem. non per loci mu 
+        <lb ed="#A" n="94"/>tationem. sed per alicus effectus et respectus productionem ibi 
+        <lb ed="#A" n="95"/>de nouo. sicut filius dicitur missus in carnem: quia operatus est ibi 
+        <lb ed="#A" n="96"/>nouum effectum scilicet assumptionis humane nature etc. et spit 
+        <lb ed="#A" n="97"/>ritus sanctus dicitur misius quando operatur in anima sanctificationem et 
+        do<lb ed="#A" n="98" break="no"/>ni gratiae infusionem. et per consequens nouo respectu aliter se 
+        <lb ed="#A" n="99"/>se hbet creatura ad deum quam prius: quia ia est vt amans 
+        <lb ed="#A" n="100"/>deum. ergo etc. Ad idem infra. §. x. et. xi. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e213">
+               <head xml:id="Vn7Pel-d47197-Hd1e215">2</head>
+               <p xml:id="Vn7Pel-d47197-d1e218">
+                  <lb ed="#A" n="101"/>¶ Quottuplex distiguitur missio in 
+        <lb ed="#A" n="102"/>divinis; Respondetur secundum Scoto. in i. di. xiiii. et .xv. q. ii con 
+        <lb ed="#A" n="103"/>cor. alios. quod in divinis missio est duplex. videlicet 
+        <lb ed="#A" n="104"/>Pria dicitur ad intra. et hec est vnam personam esse vel produ 
+        <lb ed="#A" n="105"/>ci ab alia. Isto modo filius et spiritus sanctus dicuntur mitti: quia 
+        <lb ed="#A" n="106"/>habent persona aliam scilicet patris de qua sunt. sed pater non mitnitur 
+        <lb ed="#A" n="107"/>quia a nullo est
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e236">
+        ¶ Secunda missio dicitur ad extra scilicet 
+        <lb ed="#A" n="108"/>ad creaturas. et ista etiam est duplex secundum 
+        magi<lb ed="#A" n="109" break="no"/>strum in primo. distin. xvi. cap. i.t Una est 
+        visibi<lb ed="#A" n="110" break="no"/>lis. sicut dei filius dum in mundum missus 
+        visi<lb ed="#A" n="111" break="no"/>biliter in carne humana apparuit. Et dum 
+        spi<lb ed="#A" n="112" break="no"/>ritus sanctus in signo visibili super christum. et in die pente 
+        <lb ed="#A" n="113"/>costes super discipulos missus est.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e252">
+        ¶ Alia est missio 
+        <!--152.xml-->
+        <pb ed="#A" n="153"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>inuisibilis. qua dei filius et spiritus sanctus mentibus 
+        fide<lb ed="#A" n="2" break="no"/>lium inuisibiliter quotidie illabitur. Ioan. xiiii. Siquis 
+        <lb ed="#A" n="3"/>diligit me etc. ad eum veniemus et mansio. apud eum fa 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e269">
+               <head xml:id="Vn7Pel-d47197-Hd1e271">3</head>
+               <p xml:id="Vn7Pel-d47197-d1e274">
+                  <lb ed="#A" n="4"/>¶ An aliqua persona diuina mittat 
+        se<lb ed="#A" n="5" break="no"/>ipam; Respondetur secundum Guill. et Scotorlis. vbi. supra. scilicet 
+        <lb ed="#A" n="6"/>di. xiiii. et .xv. quod quamuis antiqui doctores plures ande tempus 
+        <lb ed="#A" n="7"/>magistri sententiarum opiati sint quod non. sed decepti sunt. 
+        Ideo<lb ed="#A" n="8" break="no"/>quae tenenda et opi. magistri. quod persona divina qualibet mittit 
+        <lb ed="#A" n="9"/>seipsam missione actiua. Ratio quia mittere est aliquem 
+        <lb ed="#A" n="10"/>effectum operari vel agere ad extra: in quo manifestatur per 
+        <lb ed="#A" n="11"/>sona quae mittitur. sed omnia opera dei ad extra sunt 
+        indiui<lb ed="#A" n="12" break="no"/>sa secundum Aug. ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e296">
+        ¶ Item mittere  mitti habent se sicut 
+        <lb ed="#A" n="13"/>incarnare et incarnari. sed incarnare conuenit tribus pr 
+        <lb ed="#A" n="14"/>sonis: licet incarnari sit proprium vni tantum. ergo et mittere conn 
+        <lb ed="#A" n="15"/>est tribus. licet mitti non sit. Item manifestare angelico 
+        <lb ed="#A" n="16"/>vultui vel nobis aliquam persone proprietatem dicit perfectionem 
+        <lb ed="#A" n="17"/>et ita commune est tribus personis hac facere nec vlli negandum 
+        <lb ed="#A" n="18"/>sequitur est quod cum vna persona mittit aliam quilibet persona 
+        <lb ed="#A" n="19"/>mittit. et sic ipsa etiam met persona mittit seipsam: et 
+        <lb ed="#A" n="20"/>mittitur ab omnibus similis Unde filium misit ad incarnandum to 
+        <lb ed="#A" n="21"/>ta trinitas: et spiritum scantum misit trinitas
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e318">
+        ¶ Si dicas. 
+        <lb ed="#A" n="22"/>mittere dicit auctotem: quia opetet mittentem habere auctorita 
+        <lb ed="#A" n="23"/>tem super missum. sed nulla persona accipit auctoritatem a seipa. 
+        <lb ed="#A" n="24"/>ergo etc. Dicendum cum Guill. et Scoto. quod mittere dicit ai 
+        <lb ed="#A" n="25"/>ctoritatem. quod mittere bene dicit auctoritatem: accipiendo 
+        au<lb ed="#A" n="26" break="no"/>ctoritatem pro ordie principii ad intra. Sed accipiendo 
+        <lb ed="#A" n="27"/>pro causalitate ad extra respectu creature non opet quod 
+        <lb ed="#A" n="28"/>semper mittens quilibet hebeat auctortem istam. sed sufficit quod 
+        ha<lb ed="#A" n="29" break="no"/>beat vnus aut duo. Tertum est enim quod scriptura Esa. 
+        omni<lb ed="#A" n="30" break="no"/>dicit filium missum in mundum a spiritu snco vbi het. Spiritus 
+        <lb ed="#A" n="31"/>domini super me scilicet filium. pauperibus euangeliare misi 
+        <lb ed="#A" n="32"/>me. et tamen spiritus sanctus non habet auctoritatem illa ad intra super 
+        <lb ed="#A" n="33"/>filio. sed solus pater mittens habet auctoritatem. Tamen illud Esa 
+        <lb ed="#A" n="34"/>supra. loquitur de christo secundum humanitatem: qua est inferior 
+        <lb ed="#A" n="35"/>spiritu sancto. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e352">
+               <head xml:id="Vn7Pel-d47197-Hd1e354">4</head>
+               <p xml:id="Vn7Pel-d47197-d1e357">
+                  <lb ed="#A" n="36"/>¶ Sed quid de missione passiua. 
+        <lb ed="#A" n="37"/>Respondetur secundum. e. Guill. supra. quod mitti passiue non conuenit pa 
+        <lb ed="#A" n="38"/>tri: sed tantum filio et spiritu snco. Unde magister in littera. e. di. xv. ci 
+        <lb ed="#A" n="39"/>Aug. iiii. de trini. c. xxvii. ait. Paitus nusquam legitur 
+        miss<lb ed="#A" n="40" break="no"/>sed filius dicitur missus a patre Io. . quem pr scificauit et 
+        <lb ed="#A" n="41"/>misit in mundum: et etiam spiritus sanctus. Io. xvii. Spiritus san 
+        <lb ed="#A" n="42"/>ctus quem mittet pater in nomine meo etc. Ratio. quia mitti est 
+        <lb ed="#A" n="43"/>manifestare quod persona missa procedit ab alia persona 
+        <lb ed="#A" n="44"/>in diuinis. Unde nil mittitur nisi quod procedit ab alio scilic 
+        <lb ed="#A" n="45"/>pater non procedit ab alio quia est a se. ergo pater non mittitur etc. 
+        <lb ed="#A" n="46"/>quauis at pater aliquando apperuit patribus per aliquas visibiles 
+        <lb ed="#A" n="47"/>formas: vt dicit Aug. vii. de trini. et apperuit super christum 
+        <lb ed="#A" n="48"/>in baptismo. dii. Hic est filius meus dilectus. tamen nusquam 
+        <lb ed="#A" n="49"/>apperuit vt missus ab aliquo: sed vt mittens filium et spiritum 
+        <lb ed="#A" n="50"/>sanctum: vt etiam. supra patuit. vbi Apparere etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e394">
+               <head xml:id="Vn7Pel-d47197-Hd1e396">5</head>
+               <p xml:id="Vn7Pel-d47197-d1e399">
+                  <lb ed="#A" n="51"/>¶ Item restat difficultas adhuc quo 
+        <lb ed="#A" n="52"/>aliqua persona dicitur mittere seipam: cum nil agit in seipsum 
+        <lb ed="#A" n="53"/>praesertim in diuinis.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e408">
+        ¶ Item quia mitti est originari. se go 
+        <lb ed="#A" n="54"/>mittere est origiare se. quod est impossibile Sed hec consequentia 
+        <lb ed="#A" n="55"/>nden valet. quia actiuum. et passiuum mltum differt: vt. supra patet 
+        <lb ed="#A" n="56"/>art. iii de incarnare et incarnari.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e417">
+        ¶ Unde respondetur secundum 
+        <!--152.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 153 -->
+                  <lb ed="#A" n="57"/>Scotorlis. vbi. supra. et Guill. similis quod diuina persona potest 
+        <lb ed="#A" n="58"/>agere in seipsam isto modo. quod causet in se solum rationis 
+        <lb ed="#A" n="59"/>respectum. Nam per illam missionem qua persona mittit seipsam non 
+        <lb ed="#A" n="60"/>ponitur in ea nisi quidam respectus rationis. quia dei ad creatu 
+        <lb ed="#A" n="61"/>ram nulla est relatio realis quae sit in deo formaliter. sed est tantum 
+        <lb ed="#A" n="62"/>relaton secundum dici. vt patebit infra. vbi Relaton
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e439">
+        ¶ Nota 
+        <lb ed="#A" n="63"/>pro euidentia secundum. e. Guill. supra. tripliciter dicitur missio. Uno 
+        <lb ed="#A" n="64"/>modo vt est quodam tiomune vniuocum actiue et etiam passiue 
+        <lb ed="#A" n="65"/>missioni. Secundo modo dicitur actiue. et missio ista est manife 
+        <lb ed="#A" n="66"/>stare personam qua mittitur per aliquem effectum ad extra. Ter 
+        <lb ed="#A" n="67"/>tio modo est missio passiue dicta. et ista habet triplicem 
+        re<lb ed="#A" n="68" break="no"/>spectum. Unum ad producentem. Nam vt Aug. dicit iiii. de 
+        tri<lb ed="#A" n="69" break="no"/>ni. c. xviii. Filio vel spiritu sco mitti non est aliud nisi ma 
+        <lb ed="#A" n="70"/>nifestari quod procedat a patre et iste primus respectus est 
+        rea<lb ed="#A" n="71" break="no"/>lis semper sicut producentis realiter ad productum. Secundus re 
+        <lb ed="#A" n="72"/>spectus est missi ad mittentem. et iste est respectus rationis tantum 
+        <lb ed="#A" n="73"/>cum persona seipsam mittit: quia eiusdem ad se non fit rela 
+        <lb ed="#A" n="74"/>tio realis. Tertius respectus est ad id ad quod mittitur id est ad 
+        <lb ed="#A" n="75"/>creaturam. et iste est etiam rationis. vel secundum dici vt dictum est etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e471">
+               <head xml:id="Vn7Pel-d47197-Hd1e473">6</head>
+               <p xml:id="Vn7Pel-d47197-d1e476">
+                  <lb ed="#A" n="76"/>¶ An sancta trinitas tota mittat 
+        se<lb ed="#A" n="77" break="no"/>ipsam. Et arguitur quod sic. quia mitti personam est ipsam vet 
+        <lb ed="#A" n="78"/>nire ad inhabitandum in creatura de nouo. Sed tota 
+        <lb ed="#A" n="79"/>trinitas veit ad animam conuersam a peccatis cum sibi 
+        infun<lb ed="#A" n="80" break="no"/>ditur gratia. Iuxta illud Io. xiiii. Ad eum veniemus et 
+        <lb ed="#A" n="81"/>mansio. apud eum fa. ergo mittit se.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e492">
+        ¶ Respondetur breviter secundum 
+        <lb ed="#A" n="82"/>Bona. in primo. di. xv. q. iii. et iiii. Missio passiua 
+        <lb ed="#A" n="83"/>non solum dicit vel importat aduentum dei ad 
+        <lb ed="#A" n="84"/>habitandum. sed magis principaliter importat 
+        <lb ed="#A" n="85"/>ex suo intellectu emanationem. scilicet persone 
+        <lb ed="#A" n="86"/>misse a persona mittente. et manifestatione scilicet hus ema 
+        <lb ed="#A" n="87"/>nationis. vt patet per Aug. iiii. de trini. et Scotist. in p. 
+        <lb ed="#A" n="88"/>cedentibus. Sed quia tota trinitas non emanat vel non 
+        <lb ed="#A" n="89"/>procedit ab aliquo. Nam trinitas tota comprehendit etiam per 
+        <lb ed="#A" n="90"/>sonam patris qui a nullo procedit. Ideoque quamuis tota tri 
+        <lb ed="#A" n="91"/>nitas veniat ad habitandum in anima cum ei infunditur 
+        <lb ed="#A" n="92"/>gratia etc. vt argumentum praemissum probat. tamen sicut 
+        perso<lb ed="#A" n="93" break="no"/>na patris: ita et trinitas non dicitur mitti vel missa: quia non 
+        <lb ed="#A" n="94"/>habet a quo mitti. Unde ista est propria simpliciter et omnio. videli 
+        <lb ed="#A" n="95"/>cet quod pater mittit filium et spiritum sanctum. Hec autem minus 
+        pro<lb ed="#A" n="96" break="no"/>pria. quod filius vel spiritus sanctus mittit se. ideo ad bonum 
+        <lb ed="#A" n="97"/>sensum est exponenda. quia non recedit omnio a 
+        proprieta<lb ed="#A" n="98" break="no"/>te id est filius vel spiritus sanctus manifestat se procedere a 
+        patre<lb ed="#A" n="99" break="no"/>sed ista. pater mittit se. vel trinitas mittit se. est omnio 
+        impro<lb ed="#A" n="100" break="no"/>pria. Hec ex Bona. concor. Tho. et Rich. etc 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e537">
+               <head xml:id="Vn7Pel-d47197-Hd1e539">7</head>
+               <p xml:id="Vn7Pel-d47197-d1e542">
+                  <lb ed="#A" n="101"/>¶ Quomodo vna persona possit mitti sine 
+        <lb ed="#A" n="102"/>alterius missione: cum sint omnio inseparabiles et 
+        indiuisi<lb ed="#A" n="103" break="no"/>biliter coniuncte ipse divine persone et vnum in 
+        <lb ed="#A" n="104"/>essentia. et per consequens inseparabiliter sese ce 
+        <lb ed="#A" n="105"/>mitantes vbicunque Respondetur secundum Rich. super. 
+        <lb ed="#A" n="106"/>di. xv. concor. Bonauen. ac etiam Guill. et Scotorlis. 
+        <lb ed="#A" n="107"/>super. iii. li. di. i. q. ii quod loquendo de missione visibili: 
+        <lb ed="#A" n="108"/>bene potest vna persona sine alia mitti. vt patet de 
+        <lb ed="#A" n="109"/>ncarnatione quando solus filius missus est. et in specie colum 
+        <lb ed="#A" n="110"/>be ac in specie ignis die pentecostes solus spiritus sanctus 
+        <lb ed="#A" n="111"/>fuit missus. Unde ad rationem de inseparabilitate persona 
+        <lb ed="#A" n="112"/>rum dicendum. quod quamuis tres persone sint inseparabiles iu 
+        <lb ed="#A" n="113"/>vnica essentia. tamen quia missio terminatur ad personam non 
+        <!--153.xml-->
+        <pb ed="#A" n="154"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ad essentiam. ergo vna persona mitti potest sine alia. Et de 
+        <lb ed="#A" n="2"/>hoc exinten i. §. viii. Tatius autem li. iii. patebit. Sed loquendo 
+        <lb ed="#A" n="3"/>de missione inuisibili aliter est dicendum quam de visibili: quia 
+        <lb ed="#A" n="4"/>in exterioribus effectibus scilicet visibilibus non est tanta 
+        con<lb ed="#A" n="5" break="no"/>nexio quanta est in gratuitis habitibus et formatis quai 
+        <lb ed="#A" n="6"/>connectuntur in charitate. ideo in missione proprie dicta: 
+        <lb ed="#A" n="7"/>qua simpliciter et vere datur persona quae mittitur inuisibiliter: 
+        <lb ed="#A" n="8"/>vna non mittitur sine alia. cum talis missio non potest esse 
+        <lb ed="#A" n="9"/>sine ipsa charitate et gratia gratum faciente. Numquam enim da 
+        <lb ed="#A" n="10"/>tur gra gratum faciens quae appropriatur spiritu sancto: quin detur 
+        <lb ed="#A" n="11"/>etiam sapientia chara: quae appropriatur filio. et econuerso. quia 
+        <lb ed="#A" n="12"/>cum habitu charitatis semper infunditur a deo aliquis habi 
+        <lb ed="#A" n="13"/>tus illuminatiuus vel augmentum eius et econuerso. Et 
+        <lb ed="#A" n="14"/>sic patet quod vna persona non mittitur missione inuisibili si 
+        <lb ed="#A" n="15"/>ne alia. Unde licet tota trinitas iustificet hominem 
+        per<lb ed="#A" n="16" break="no"/>gratiam. tamen ad faciendum hanmc scilicet iustificationem non dicitur pater 
+        <lb ed="#A" n="17"/>missus sed tantum filius et spiritus sanctus. vt dicit est Lyra super ecmi. 
+        <lb ed="#A" n="18"/>xxiiii. Uerum tamenm missione improprie dicta: quae est missio 
+        <lb ed="#A" n="19"/>secundum quid. hoc est secundum aliquod donum gratiae gratis date tantum: et 
+        <lb ed="#A" n="20"/>non gratum facientis. sic bene mittitur aliquando spiritus sanctus et 
+        <lb ed="#A" n="21"/>non filius et econuerso. Hec ex Rich.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e626">
+               <head xml:id="Vn7Pel-d47197-Hd1e628">8</head>
+               <p xml:id="Vn7Pel-d47197-d1e631">
+                  <lb ed="#A" n="22"/>Sed quomodo potest intelligi quod tres 
+        perso<lb ed="#A" n="23" break="no"/>ne mittat: et tamen sole due mittantur vi vna sola:; Respondet 
+        <lb ed="#A" n="24"/>Guill. supra. secundum doc. subti. e. di. xv. qui dat exemplum in  
+        <lb ed="#A" n="25"/>bis tribus potentiis anime. Memoria. intelligentia. et vo 
+        <lb ed="#A" n="26"/>luntate. Nam menoriam manifestant vel declarant: tam me 
+        <lb ed="#A" n="27"/>moria quam intelligentia quam voluntas: et tamen sola memo 
+        <lb ed="#A" n="28"/>ria est declarata. sic in proposito. Item Bonauen. in. iii. 
+        <lb ed="#A" n="29"/>distin i. aliud exemplum dat. Si tres homines 
+        in<lb ed="#A" n="30" break="no"/>duant vnum ipsorum: ibi vnus tantum induitur. Item in igne est 
+        <lb ed="#A" n="31"/>substantia splendor et calor inseparabiliter: et tamen in spe culo 
+        <lb ed="#A" n="32"/>opposito apparet solus splendor et non calor nec 
+        <lb ed="#A" n="33"/>ignis realis etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e661">
+               <head xml:id="Vn7Pel-d47197-Hd1e663">9</head>
+               <p xml:id="Vn7Pel-d47197-d1e666">
+                  <lb ed="#A" n="34"/>¶ An vna persona mittat aliam per aliam: 
+        <lb ed="#A" n="35"/>puta si pater mittit spiritum sanctum per filium: Respondent Guill. 
+        <lb ed="#A" n="36"/>supra. quod sic. Sicut enim ista conceditur quod pater producit spi 
+        <lb ed="#A" n="37"/>ritum sanctum per filium. et quod pater creat omnia per filium vel ope 
+        <lb ed="#A" n="38"/>ratur per filium. ita ista conceditur. pater mittit spiritum sanctum 
+        <lb ed="#A" n="39"/>er filium. ita quod lyper dicat subautoritatem in filio et 
+        <lb ed="#A" n="40"/>autoritatem in patre. Nam pater a se mittit: sed filius ab 
+        <lb ed="#A" n="41"/>alio quia a patre. Hec ex Guill. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e687">
+               <head xml:id="Vn7Pel-d47197-Hd1e689">10</head>
+               <p xml:id="Vn7Pel-d47197-d1e692">
+                  <lb ed="#A" n="42"/>¶ Qualiter mitti competit deo vel rt 
+        <lb ed="#A" n="43"/>one diuine: cum importet imperfectionem aliquam. Nam 
+        <lb ed="#A" n="44"/>mportat quandam inferioritatem gradus et 
+        in<lb ed="#A" n="45" break="no"/>dignitatem circa missum Unde angeli 
+        inferio<lb ed="#A" n="46" break="no"/>tes mittuntur a superioribus. et suprami angeli non mit 
+        <lb ed="#A" n="47"/>tuntur ad nos propter suam dignitatem: sed assistunt. secundum 
+        <lb ed="#A" n="48"/>Dio. persona autem diuina est in infinitum dignior: 
+        <lb ed="#A" n="49"/>quametiam supramus angelus. ergo etc Respondetur secundum Tho. 
+        <lb ed="#A" n="50"/>e. dist. xv. q. i. arti. i. quod aliud est de deo et de 
+        ange<lb ed="#A" n="51" break="no"/>lo quia missio angeli indignitatem et inferioritatem 
+        gra<lb ed="#A" n="52" break="no"/>dus ponit circa missum vt probat argumentum 
+        <lb ed="#A" n="53"/>et etiam ponit loci mutationem. Angelus enim missus 
+        <lb ed="#A" n="54"/>mouetur localiter de celo in terram quia cum est in celo non 
+        <lb ed="#A" n="55"/>est in terra. Sed persone diuine missio non ponit 
+        <lb ed="#A" n="56"/>aliquam inferioritatem gradus nec indignitatem cum 
+        <lb ed="#A" n="57"/>amnes persone divine sint equalis dignitatis omni¬ 
+        <!--153.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 154 -->
+                  <lb ed="#A" n="58"/>mode. Sed tantummodo ponit autoritatem vel 
+        <lb ed="#A" n="59"/>subauctoritatem originis. Et nouum effectum quem 
+        fa<lb ed="#A" n="60" break="no"/>cit deus trinitas immediate: non per angelum: videlicet 
+        <lb ed="#A" n="61"/>influentiam gratie gratum facientis et lic nouum respe 
+        <lb ed="#A" n="62"/>ctum creature ad deum. Unde nec ponit loci 
+        muta<lb ed="#A" n="63" break="no"/>tionem vel motum: quia deus est vbique semper et sic 
+        nul<lb ed="#A" n="64" break="no"/>ama imperfectionem deo tribuit. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e753">
+               <head xml:id="Vn7Pel-d47197-Hd1e755">11</head>
+               <p xml:id="Vn7Pel-d47197-d1e758">
+                  <lb ed="#A" n="65"/>¶ Sed. d. Numquid ergo huiusmodi missio 
+        <lb ed="#A" n="66"/>diuina potest dici vere missio an metaphorice vel 
+        si<lb ed="#A" n="67" break="no"/>militudinarie tantum dicitur. Respondetur secundum Bona. et Rich. 
+        <lb ed="#A" n="68"/>aliosque quod vere missio est. Ratio quia in dono 
+        gratum<lb ed="#A" n="69" break="no"/>faciente vere datur persona diuina cum suo dono vt 
+        <lb ed="#A" n="70"/>patebit infra. §. Item quia quandocumque datur aliquid vt 
+        absen<lb ed="#A" n="71" break="no"/>ti vere dicitur mitti secundum tale donum Sed quia tota trinitas 
+        <lb ed="#A" n="72"/>diuina est absens peccatori secundum gratiam gratumfacientem 
+        <lb ed="#A" n="73"/>et praesens sit essentialiter et potentialiter vbique. sequitur 
+        <lb ed="#A" n="74"/>ergo quod quando datur donum spiritus sancti gratum faciens: vere 
+        <lb ed="#A" n="75"/>nittitur spiritus sanctus de nouo quo ad tale donum. 
+        <lb ed="#A" n="76"/>quia non sic id est non tali dono erat prius in ipso 
+        pecca<lb ed="#A" n="77" break="no"/>tore. Nam prius erat tantummodo vt in creatura 
+        <lb ed="#A" n="78"/>generali modo: nunc autem est in ipso modo 
+        specia<lb ed="#A" n="79" break="no"/>i scilicet vt in cognoscente et amante deum et sic 
+        san<lb ed="#A" n="80" break="no"/>ctificato etc. Unde ibi non erit de nouo per loci 
+        mu<lb ed="#A" n="81" break="no"/>tationem sed per nouum effectum vt tactum est. supra § i.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e798">
+               <head xml:id="Vn7Pel-d47197-Hd1e800">12</head>
+               <p xml:id="Vn7Pel-d47197-d1e803">
+                  <lb ed="#A" n="82"/>Si adhuc. dicit quod scriptura dicit spiritu 
+        <lb ed="#A" n="83"/>ritum sanctum in specie columbe de celo venisse et 
+        sedis<lb ed="#A" n="84" break="no"/>se super christum Item quod super discipulos de celo venit 
+        <lb ed="#A" n="85"/>repentino sonitum tanquam flatum vehementissimo et 
+        <lb ed="#A" n="86"/>sedit super eos in specie ligue ignite. ergo vietur quod per motum de 
+        <lb ed="#A" n="87"/>scendit spiritus sanctus in istis speiebus. Ad hec et similia 
+        <lb ed="#A" n="88"/>Respondetur secundum magistrum in primi li. di. xvi. c. ii. quod spiritus sanctus ipse 
+        <lb ed="#A" n="89"/>non mouebatur tunc nec temporali motu descendit. Sed  
+        <lb ed="#A" n="90"/>tantummodo species create visibiles videlicet columbe. so 
+        <lb ed="#A" n="91"/>ni et ignis etc. mouebantur et per illum motum temporalem 
+        cre<lb ed="#A" n="92" break="no"/>ature: significabatur spiritualis et inuisibilis infusio spi 
+        <lb ed="#A" n="93"/>ritus sancti vel plenitudo Nam spiritus sancti natura vel 
+        <lb ed="#A" n="94"/>substantia non videbatur. nec in illis creaturis 
+        ma<lb ed="#A" n="95" break="no"/>tis erat quam in omnibus aliis creaturis sed erat in ilis ad  
+        <lb ed="#A" n="96"/>iliud scilicet de clarandum. Hec secundum magistrum. Ad hec 
+        <lb ed="#A" n="97"/>etiam infra. §. xxxv.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e841">
+               <head xml:id="Vn7Pel-d47197-Hd1e843">13</head>
+               <p xml:id="Vn7Pel-d47197-d1e846">
+                  <lb ed="#A" n="98"/>Issio secundo scilicet speci 
+        <lb ed="#A" n="99"/>alius de missione inuisibili. Queritur ex qua 
+        <lb ed="#A" n="100"/>dictum est quod due persone scilicet filius et spiritus san 
+        <lb ed="#A" n="101"/>ctus habent mitti Qualibus ergo donis cognosci potest 
+        <lb ed="#A" n="102"/>quod mittitur filius dei inuisibiliter in hominem. vel quod 
+        mit<lb ed="#A" n="103" break="no"/>itur spiritus sanctus: Nam vt magister in primo di. xv. ait cum 
+        <lb ed="#A" n="104"/>Aug. iiii. li. de trini. Dei filius sicut semel tantum 
+        <lb ed="#A" n="105"/>missus est in modm quando visibilis apperuit carne indu 
+        <lb ed="#A" n="106"/>tus Ita inuisibiliter mittitur quatidie in animas pias et 
+        <lb ed="#A" n="107"/>nctans vt ab eis percipiatur et cognoscatur Et di. xvi. 
+        con<lb ed="#A" n="108" break="no"/>similiter dicit etiam de spiritu sancto quod datus est visibiliter in die 
+        <lb ed="#A" n="109"/>Pentecostes. et datur inuisibiliter quatidie illabendo men 
+        <lb ed="#A" n="110"/>tibus fidelium. opus est ergo vt sciamus discernere in quibus do 
+        <lb ed="#A" n="111"/>nis habet mitti filius et in quibus habet mitti scilicet Respondetur secundum guil. 
+        <lb ed="#A" n="112"/>e. di. xv. cum Bona. ibidem parte. ii. q. ii quod de donis 
+        <lb ed="#A" n="113"/>dei tripliciter loqui possumus.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e883">
+        ¶ Uno modo quantum ad  
+        <!--154.xml-->
+        <pb ed="#A" n="155"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>radicem: que dicitur gratia gratum faciens. et sic missio filii et 
+        <lb ed="#A" n="2"/>spiritus sancti inuisibilis: non distinguuntur separatim 
+        <lb ed="#A" n="3"/>quia ambo mittuntur in dono gratiae gratum facientis scilicet fi 
+        <lb ed="#A" n="4"/>lius et spiritus sanctus: et non vnus sine alio.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e901">
+        ¶ Secundo modo 
+        <lb ed="#A" n="5"/>possumus loqui quantum ad habitum. et quoniam habitus 
+        di<lb ed="#A" n="6" break="no"/>stinguuntur tripliciter. Primo enim quidam sunt affectiui 
+        <lb ed="#A" n="7"/>pure: qua inflammant amore: et in istis mittitur spiritus san 
+        <lb ed="#A" n="8"/>ctus. Secundo quidam sunt habitus cognitiui: quia illumi 
+        <lb ed="#A" n="9"/>nant et ducunt in manifestationem verbi et filii dei: 
+        si<lb ed="#A" n="10" break="no"/>cut est sapientia. et hec appropriatur filio. ergo in tali mitti 
+        <lb ed="#A" n="11"/>filius. Sed si habitus est pure cognitiuus sicut scaita vl 
+        <lb ed="#A" n="12"/>reuelatio occultorum. et prophetia: quae sunt per gratiam gratis 
+        <lb ed="#A" n="13"/>datam. In tali nec filius nec spiritus sanctus mittitur. patet de 
+        <lb ed="#A" n="14"/>Balaa propheta etc. Tertio itaque quidam sunt habitus; 
+        <lb ed="#A" n="15"/>simul cognitiui et affectiui: vt sapientia proprie dicta: quae 
+        <lb ed="#A" n="16"/>est cum gratia gratum faciente coniuncta. et in talibus mittitur 
+        <lb ed="#A" n="17"/>filius inquantum sunt cognitiui: et etiam mittitur spiritus sanctus 
+        <lb ed="#A" n="18"/>inquantum sunt affectiui etc.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e934">
+        ¶ Tertio modo possumus 
+        <lb ed="#A" n="19"/>loquie de donis dei: quantum ad actus consequentes et 
+        <lb ed="#A" n="20"/>differentes: quae sunt illuminatio intellectus. et in tali 
+        <lb ed="#A" n="21"/>mittitur filius. Et inflammatio scilicet affectus et in tali mittitur 
+        <lb ed="#A" n="22"/>spiritus sanctus. Unde Rho. v. Charitas dei diffusa est in 
+        <lb ed="#A" n="23"/>cordibus nostris per spiritum qui datus est nobis Sed quoniam am 
+        <lb ed="#A" n="24"/>be missiones inuisibiles scilicet filii et spiritus sancti: sunt indi 
+        <lb ed="#A" n="25"/>uise: et de potentia ordinata sunt inseparabiles. ideo 
+        <lb ed="#A" n="26"/>nunquam mittitur filius inuisibiliter: quin mittatur 
+        spiri<lb ed="#A" n="27" break="no"/>tus sanctus et econuerso. vt patuit. supra. etiam §. vii. Hec 
+        <lb ed="#A" n="28"/>praescripta ex Guill. cum Bona. etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e959">
+               <head xml:id="Vn7Pel-d47197-Hd1e961">14</head>
+               <p xml:id="Vn7Pel-d47197-d1e964">
+                  <lb ed="#A" n="29"/>¶ An quotienscunque quis de nouo 
+        <lb ed="#A" n="30"/>cognoscit veritatem: mittatur filius semper in talem 
+        hominem<lb ed="#A" n="31" break="no"/>Respondetur secundum Rich. super i. dcti. e. xv. q. fi. concor. Tho. ea. 
+        <lb ed="#A" n="32"/>dis. q. v. quod quamuis cognitiolveitatis: sicut sapientia: 
+        ap<lb ed="#A" n="33" break="no"/>propriatur filio: et in tali filius hebeat mitti: vt in praecedo 
+        <lb ed="#A" n="34"/>ti dictum est. tamen non in quolibet effectu sibi appropa 
+        <lb ed="#A" n="35"/>to: hoc est non in qualibet cognitione veritatis cuiuscum: 
+        <lb ed="#A" n="36"/>quam filius mittitur de nouo: sed tantum in effectu 
+        supernatu<lb ed="#A" n="37" break="no"/>rali: sibi a ppropato. Declaratur: quia certum est quod homo per 
+        <lb ed="#A" n="38"/>lumen naturale rationis potest deuenire in 
+        cognitio<lb ed="#A" n="39" break="no"/>nem multarum veritatum de nouo: sine hoc quod ei infundatur 
+        <lb ed="#A" n="40"/>de nouo aliquis habitus illuminatiuus a deo. Idem 
+        <lb ed="#A" n="41"/>non semper mittitur filius: quotiens homo aliquam veritatem 
+        <lb ed="#A" n="42"/>cognoscit de nouo: nisi restringendo donum cognis 
+        <lb ed="#A" n="43"/>tionis ad aliquem habitum illuminatiuum supernatura 
+        <lb ed="#A" n="44"/>liter infusum. Nam et certum est quod muilti peccatores 
+        quano<lb ed="#A" n="45" break="no"/>que cognoscunt aliquam veritatem: absque hoc quod habeant 
+        <lb ed="#A" n="46"/>dei filium ad fruendum. Persona aut mittitur in 
+        do<lb ed="#A" n="47" break="no"/>no sibi appropriato: ita quod ad fruendum habeatur: quod 
+        <lb ed="#A" n="48"/>fieri non potest nisi per charitatem. ergo etc 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1011">
+               <head xml:id="Vn7Pel-d47197-Hd1e1013">15</head>
+               <p xml:id="Vn7Pel-d47197-d1e1016">
+                  <lb ed="#A" n="49"/>¶ Sed an in praeceptibili augmento sceti 
+        <lb ed="#A" n="50"/>veritatis et illustratiois: semper de nouo mittatur filius. 
+        <lb ed="#A" n="51"/>Cum emim Augustinus li. slicet. quaestio. q. N dicat. quod soli deo 
+        con<lb ed="#A" n="52" break="no"/>uenit illuminare animas. ergo videtur quod talis illustratio sit 
+        <lb ed="#A" n="53"/>a dei filio misso: Respondetur secundum . e. Rich. quod soli deo 
+        <lb ed="#A" n="54"/>conuenit illuminare animas luie gratiae et glorie: sed aliter est 
+        <lb ed="#A" n="55"/>de luie adquisito. Tali eim luine adquisito: quamuis 
+        sol<lb ed="#A" n="56" break="no"/>deus illuminet principaliter: tamen secundario et non principaliter 
+        <lb ed="#A" n="57"/>homo per seipsum studendo et ratiocinando potest illumiari. 
+        <!--154.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 155 -->
+                  <lb ed="#A" n="58"/>et docendo alium illuminat. Unde Augustinus xii. li. confes. dicit. 
+        <lb ed="#A" n="59"/>Si ambo videmus verum esse quod dicis: et ambo 
+        vi<lb ed="#A" n="60" break="no"/>demus verum esse quod dico. vbi quaeso illud videmus. Nec 
+        <lb ed="#A" n="61"/>ego vtique in me: nec tu in me. sed ambo in ipsa quae supra 
+        <lb ed="#A" n="62"/>mentes nostras est: incommutabili veritate. Hec ille. 
+        <lb ed="#A" n="63"/>Et hoc Augustinus dicit pro tanto secundum Rich. quia intelligimus 
+        <lb ed="#A" n="64"/>ista quae naturaliter intelligere dicimus in naturali iuie: 
+        <lb ed="#A" n="65"/>quod nobis est a prima veritate impressum. sicut dicimus 
+        <lb ed="#A" n="66"/>videre in sole: quia videmus in luine quod facit sol etc
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1064">
+        ¶ Ad  
+        <lb ed="#A" n="67"/>quesitum ergo dicedum secundum. e. Rich. ibidem. quod per augmen 
+        <lb ed="#A" n="68"/>tum illustrationis sancie: etiamsi fiat perceptibiliter tale au 
+        <lb ed="#A" n="69"/>gmentum: non semper mittitur filius: quia tale augmentum scieite 
+        <lb ed="#A" n="70"/>potest fieri per adquisitionem. nec per hoc homo fit sanctior: sicut 
+        <lb ed="#A" n="71"/>fit per augmentum charitatis. imo vt ait apostolus i. Corum. 
+        <lb ed="#A" n="72"/>viii. Scia inflat: sed charitas edificat. ergo etc. Unde  
+        <lb ed="#A" n="73"/>etiam philosophus Algamel. v. lib. physicorum dicit. Qui crescit 
+        <lb ed="#A" n="74"/>in scientia et non crescit in bona vita: elongabitur a 
+        <lb ed="#A" n="75"/>deo. Hec ex Richardo. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1087">
+               <head xml:id="Vn7Pel-d47197-Hd1e1089">16</head>
+               <p xml:id="Vn7Pel-d47197-d1e1092">
+                  <lb ed="#A" n="76"/>¶ An in quolibet deuotois vel cha 
+        <lb ed="#A" n="77"/>ritatis feruore mittatur spiritus sanctus de nouo: Respondetur 
+        <lb ed="#A" n="78"/>secundum. e. Rich. supra. quod non: sed tantum in affectu supernaturali 
+        <lb ed="#A" n="79"/>et gratum faciente feruore charitatis. Declaratur: quia potest 
+        <lb ed="#A" n="80"/>quis per habitum charitatis adquisitum: vel per assuefactionem 
+        <lb ed="#A" n="81"/>inflammari ad deuotionem: et amorem dei: ita quod non 
+        fi<lb ed="#A" n="82" break="no"/>at hoc per habitum charitatis gratuite. Nam isti actus sunt 
+        <lb ed="#A" n="83"/>multum consimiles vt discernere nos communiter nequeamus; 
+        <lb ed="#A" n="84"/>prpterea certi esse non possumus an simus in charitate 
+        <lb ed="#A" n="85"/>gratuita. Iuxta illud Eces. q. Nemo scit an amore 
+        <lb ed="#A" n="86"/>vel odio dignus sit. Item potest etiam contingere quod aliquis 
+        <lb ed="#A" n="87"/>inflammetur ad amandum deum: qui tamen exinde superbit: et cor 
+        <lb ed="#A" n="88"/>ruit in pecatum spirituale: quamuis contineat se a peccato carna 
+        <lb ed="#A" n="89"/>li: vt expsse patet per Ber. li. de amore dei. vbi 
+        repre<lb ed="#A" n="90" break="no"/>hendit eos qui superbiunt de deuotione. Denique aliqui sunt 
+        <lb ed="#A" n="91"/>qui credunt se fortiter diligere deum: qui tamen in tentatione 
+        <lb ed="#A" n="92"/>positi experiuntur se non tam fortiter diligere vt credebant: 
+        <lb ed="#A" n="93"/>quoniam teste Grego. Probatio dilectionis est 
+        exhibi<lb ed="#A" n="94" break="no"/>tio operis. Unde ex his patet quod charitas quo ad feruorem 
+        <lb ed="#A" n="95"/>etsi augeatur: hoc fit per gratiam prius habitam et vsum eius. 
+        <lb ed="#A" n="96"/>Nec semper datur spiritus sanctus de nouo: nisi dum charitas 
+        <lb ed="#A" n="97"/>augetur quo ad essentiam. vel quando augetur quo ad nouorum 
+        <lb ed="#A" n="98"/>donorum aut vsuum collatione. patet etiam i. § sequi. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1146">
+               <head xml:id="Vn7Pel-d47197-Hd1e1148">17</head>
+               <p xml:id="Vn7Pel-d47197-d1e1151">
+                  <lb ed="#A" n="99"/>¶ Sed in quali vel quanto augmento 
+        <lb ed="#A" n="100"/>gratiae seu charitatis: spiritus sanctus de nouo mitti vel 
+        ad<lb ed="#A" n="101" break="no"/>uenire cogscitur. Respondetur. recolligendo secundum Bona. e. di. 
+        <lb ed="#A" n="102"/>xv. et Tho. ac Rich. similis colligendo: quod augmentum gratiae 
+        <lb ed="#A" n="103"/>in homine potest fieri
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1164">
+        ¶ Primo mo imperceptibiliter. et tunc 
+        <lb ed="#A" n="104"/>non mittitur de nouo: sed spiritus sanctus prius habitus operatur in 
+        <lb ed="#A" n="105"/>homine abundantius. Ratio: quia vt Augustinus q. de trini. dicit. 
+        <lb ed="#A" n="106"/>Tunc dicitur spiritus sanctus vel etiam filius dari vel miti scilicet de 
+        <lb ed="#A" n="107"/>nouo: cum a quoquam cogscitur atque mente percipitur: quantum 
+        co<lb ed="#A" n="108" break="no"/>gnosci et percipi potest pro captum vel proficientis in deum: vel 
+        <lb ed="#A" n="109"/>perfecte in deo anime rationalis. Hec ille.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1180">
+        ¶ Secundo potest au 
+        <lb ed="#A" n="110"/>geri gratia vel charitas prerceptibiliter. tamen secundum intensionem 
+        <lb ed="#A" n="111"/>eiusdem virtutis. Nam gratia vel charitas potest augeri 
+        quati<lb ed="#A" n="112" break="no"/>die in feruore vel profectu gratiae prius habite: quandoque perce 
+        <lb ed="#A" n="113"/>ptibiliter et quandoque imperceptibilit. et tunc etiam non dicitur de no 
+        <lb ed="#A" n="114"/>uo mitti spiritus sanctus scilicet in tali augmento perceptibilia 
+        <!--155.xml-->
+        <pb ed="#A" n="156"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>feruoris: nisi cum hac augeretur gratia vel charitas qua ad  
+        <lb ed="#A" n="2"/>substantiam gradus altioris
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1204">
+        ¶ Tertio modo potest fieri au 
+        <lb ed="#A" n="3"/>gmentum gratiae vel charitatis: ita quod proficiat in actum vel 
+        <lb ed="#A" n="4"/>donum noue gratiae. Sicut dum aliquis sanctus accipit de 
+        <lb ed="#A" n="5"/>nouo donum prophetandi vel intelligendi per 
+        inspiratio<lb ed="#A" n="6" break="no"/>nem supernaturalem diuina mysteria et prophetias etc. tunc 
+        <lb ed="#A" n="7"/>de nouo mittitur sibi spiritus sanctus vel filius. Similiter quando in 
+        <lb ed="#A" n="8"/>aliquo sancto charitas vel gratia ita accenditur vt virtute 
+        <lb ed="#A" n="9"/>spiritus sancti sine difficultate possit vincere omnem tenta 
+        <lb ed="#A" n="10"/>tionem. vel aliquid huiusmodi: de nouo mittitur spiritus sanctus. 
+        <lb ed="#A" n="11"/>Denique similiter quando virtus charitatis et gratiae excrescit 
+        <lb ed="#A" n="12"/>intantum vt conferatur tali sancto alius vsus nouus gratiae: pu 
+        <lb ed="#A" n="13"/>ta miracula facere. vel in gratia confirmari: ita vt non 
+        <lb ed="#A" n="14"/>possit excidere. tunc de nouo datur vel mittitur spiritus san 
+        <lb ed="#A" n="15"/>ctus. Sicut exemplum de apostolis. qui cum essent sancti et profi 
+        <lb ed="#A" n="16"/>ciebant in charitate et gratia. postea quando in die 
+        penteco<lb ed="#A" n="17" break="no"/>stes fuerunt eis noua dona et noui vsus scilicet miracu 
+        <lb ed="#A" n="18"/>lorum et prophetiarum et linguarum collata. et confirmati sunt 
+        <lb ed="#A" n="19"/>in gratia. tunc de nouo missus est spiritus sanctus. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1244">
+               <head xml:id="Vn7Pel-d47197-Hd1e1246">18</head>
+               <p xml:id="Vn7Pel-d47197-d1e1249">
+                  <lb ed="#A" n="20"/>¶ Utrum quando cotingit gratia remitti 
+        <lb ed="#A" n="21"/>in homine per negligentia recedat ab eo spiritus sanctus. 
+        si<lb ed="#A" n="22" break="no"/>cut mittitur quando augetur. Respondetur secundum Bona. vbi. supra ar 
+        <lb ed="#A" n="23"/>ti. vl. in solutione vltimi argumenti. quod gratia augetur in 
+        <lb ed="#A" n="24"/>homine tam quantum ad substantiam quam etiam quantum ad feruorem. 
+        <lb ed="#A" n="25"/>Sed remitti non potest nisi quantum ad feruorem solum. 
+        <lb ed="#A" n="26"/>Potest quippe quantum ad substantiam extingui omnino per pec 
+        <lb ed="#A" n="27"/>tatum mortale subsequens: sed remitti quantum ad 
+        sub<lb ed="#A" n="28" break="no"/>stantiam non potest. sed tantummodo quantum ad feruorem. sicut 
+        <lb ed="#A" n="29"/>patet de igne qui extingui potest omnino. sed non remitti a ca 
+        <lb ed="#A" n="30"/>lore subali: licet possit remitti a feruore maioris 
+        ar<lb ed="#A" n="31" break="no"/>doris: sicut in proposito. Sed quoniam spiritus sanctus mittitur 
+        <lb ed="#A" n="32"/>non in augmento feruoris sed in augmento substantie 
+        cha<lb ed="#A" n="33" break="no"/>ritatis. Ion quando contingit remitti feruorem charitatis non 
+        <lb ed="#A" n="34"/>recedit spiritus sanctus manente substantia charitatis. alias se 
+        <lb ed="#A" n="35"/>queretur quod quando homo sanctus peccaret venialiter: tunc omnio 
+        per<lb ed="#A" n="36" break="no"/>deret spiritum sanctum quod est flcuntum: quia veniale peccatum non est 
+        <lb ed="#A" n="37"/>charitatem: sed tantum minuit feruorem charitatis. et sic patet 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1292">
+               <head xml:id="Vn7Pel-d47197-Hd1e1294">19</head>
+               <p xml:id="Vn7Pel-d47197-d1e1297">
+                  <lb ed="#A" n="38"/>¶ An spiritus sanctus quanocunque datur 
+        sem<lb ed="#A" n="39" break="no"/>per mittatur cum dono charitatis vel gratiae gratum facien 
+        <lb ed="#A" n="40"/>tis. Respondetur breviter secundum Richar. et Bona. similis. quod 
+        <lb ed="#A" n="41"/>missio spiritus sancti est duplex. Una proprie et simpliciter di 
+        <lb ed="#A" n="42"/>cta scilicet quando datur ad inhabitandum et sanctificandum aut fru 
+        <lb ed="#A" n="43"/>endum. Et tunc non datur nisi in dono gratiae gratum facien 
+        <lb ed="#A" n="44"/>tis. hoc est in dono charitatis gratuite: quia sine tali do 
+        <lb ed="#A" n="45"/>no non potest anima sanctificari vel saluari nec habet faculta 
+        <lb ed="#A" n="46"/>tem fruendi spiritus sancto: vt patet per magistrum. exxv. di. primi li¬r 
+        <lb ed="#A" n="47"/>bri. cum augustinus xv. de trini. c. xvii.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1321">
+        ¶ Alia est missio 
+        <lb ed="#A" n="48"/>spiritus sancti non simpliciter et proprie dicta. Sed secundum quid et impro 
+        <lb ed="#A" n="49"/>prie dicta scilicet quando datur ad auxilium vel vsum in aliquo 
+        <lb ed="#A" n="50"/>dono gratiae eratis date in quibus manifestatur spiritus sanctus 
+        <lb ed="#A" n="51"/>Et vt sic mittitur spiritus sanctus etiam sine gratia gratum facien 
+        <lb ed="#A" n="52"/>te: vt patet de Saul. i. Regum. xvi. qui prophetabat. et de 
+        <lb ed="#A" n="53"/>Iuda qui inter discipulos miracula faciebat vt 
+        <lb ed="#A" n="54"/>ceteri. et de aliis multis. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1340">
+               <head xml:id="Vn7Pel-d47197-Hd1e1342">20</head>
+               <p xml:id="Vn7Pel-d47197-d1e1345">
+                  <lb ed="#A" n="55"/>¶ Utrum in propria persona mittater 
+        spi<lb ed="#A" n="56" break="no"/>ritus sanctus semper quando datur donum eius. An tantummodo ideo di 
+        <lb ed="#A" n="57"/>catur mitti quia datur eius donum vel effectus sine persona 
+        <!--155.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 156 -->
+                  <lb ed="#A" n="58"/>Respondetur secundum Rich. in i. di. xiiii. concor. Bona. et tho. 
+        <lb ed="#A" n="59"/>ea. di. q. ii arti i. ponendo conclusionem. quod spiritus sanctus 
+        <lb ed="#A" n="60"/>in propria persona datur semper in suo dono gratuito
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1367">
+        ¶ Et 
+        <lb ed="#A" n="61"/>probatur primo auctoritate magistrie. di. vbi expsse illud asserit. 
+        <lb ed="#A" n="62"/>Item auctoritate Augustinus xv. dici tri. d. Spiritus sanctus dicitur donum 
+        <lb ed="#A" n="63"/>quia datur. Quantus ergo deus est scilicet dominus Iesus qui dat deum 
+        <lb ed="#A" n="64"/>Idem super illud Rho. v. Charitais dei diffusa est etc. dici 
+        <lb ed="#A" n="65"/>Magna dei nostri mina: quia dat nobis spiritum sanctum donum 
+        <lb ed="#A" n="66"/>quippe dat equale sibi: quia donum eius spiritus sanctus est. Hec 
+        <lb ed="#A" n="67"/>ille. sequitur esgt quod si spiritus sanctus personaliter est donum: ergo 
+        per<lb ed="#A" n="68" break="no"/>sonaliter datur
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1387">
+        ¶ Secundo probatur ratione ex predictis doc. quia 
+        <lb ed="#A" n="69"/>dare spiritum sanctum vel eius donum gratuitum homini est facere 
+        <lb ed="#A" n="70"/>vt hebeat facultatem fruendi ipso spiritu sancto. Recta autem 
+        <lb ed="#A" n="71"/>ratio dat non nisi ipso deo fruendum qui solus propter se est di 
+        <lb ed="#A" n="72"/>ligendus. Sed quia hanc facultatem fruendi homo non potest 
+        <lb ed="#A" n="73"/>hre nisi per gratiam vel charitatem per quam anima habet coniungi 
+        <lb ed="#A" n="74"/>deo. Ion sequitur. quod cum datur homini donum gratiae vel 
+        chari<lb ed="#A" n="75" break="no"/>tatis: tunc datur persona etiam spiritus sancti cui commuiungimur 
+        <lb ed="#A" n="76"/>per eius dona. Et ipso spiritu sancto fruimur propter seipsum 
+        <lb ed="#A" n="77"/>diligendo. et sic patet propositum.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1409">
+        ¶ Tertio onditur 
+        ex<lb ed="#A" n="78" break="no"/>emplari declaratione: quia certum est et euidens quod poste 
+        <lb ed="#A" n="79"/>rius donum non potest dari sine priori. Sicut exempli gratia. 
+        <lb ed="#A" n="80"/>Uita datur homini mortuo dum resuscitatur a deo. non aliter 
+        <lb ed="#A" n="81"/>nisi realiter et proprie detur ipsi anima: quia vita est ab anima tan 
+        <lb ed="#A" n="82"/>quam a principio formali vite. sic in proposito patet: quia 
+        <lb ed="#A" n="83"/>spiritus sanctus est amor et primum donum: quae donantur omnia 
+        <lb ed="#A" n="84"/>etc. Ad hec vbi. Spiritus sanctus. §. xl. et. xlii. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1428">
+               <head xml:id="Vn7Pel-d47197-Hd1e1430">21</head>
+               <p xml:id="Vn7Pel-d47197-d1e1433">
+                  <lb ed="#A" n="85"/>¶ Sed quod horum datur per prius. cu spiritus san 
+        <lb ed="#A" n="86"/>ctus similis datur cum dono. An spiritus sanctus an dona eius. E 
+        <lb ed="#A" n="87"/>arguitur quod spiritus sanctus: quia ipse est primum donum per quod 
+        <lb ed="#A" n="88"/>dantur alia. Sed in oppositum est: quia dona ipsa dispo 
+        <lb ed="#A" n="89"/>nunt nos ad habendum spiritum sanctum. ergo etc. Respondetur secundum 
+        <lb ed="#A" n="90"/>Tho. e. dis. xiiii. q. ii ar i. Quod si consideramus ex parte re 
+        <lb ed="#A" n="91"/>cipientis vel materie: sic dispositio est prior. vt patet 
+        <lb ed="#A" n="92"/>in cera quae prius dent disponi mollificando anquam 
+        reci<lb ed="#A" n="93" break="no"/>biat in se figuram sigilli. et sic per prius recipit anima dona 
+        <lb ed="#A" n="94"/>spiritus sancti quam spiritum sanctum ipsum: licet similis tempore. quia per ipsa do 
+        <lb ed="#A" n="95"/>na scilicet fidei et charitatis recepta in anima contungimur 
+        spi<lb ed="#A" n="96" break="no"/>ritui sancto. Sed si consideramus ex parte agentis et finis. sic 
+        <lb ed="#A" n="97"/>per prius scilicet ordie perfectionis recipimus spiritum sanctum quam 
+        do<lb ed="#A" n="98" break="no"/>na eius: quia ipse spiritus sanctus habet rationem primi doni qua alia 
+        <lb ed="#A" n="99"/>donantur. et sic deus pater et filius per suum amorem donat 
+        <lb ed="#A" n="100"/>nobis alia dona. et hoc est simpliciter esse prius. hec ex Tho. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1471">
+               <head xml:id="Vn7Pel-d47197-Hd1e1473">22</head>
+               <p xml:id="Vn7Pel-d47197-d1e1476">
+                  <lb ed="#A" n="101"/>¶ An spiritus sanctus mittatur diuisim a 
+        <lb ed="#A" n="102"/>patre et filio ad creaturam. Respondet Magister. e. di. xiiii. quod non 
+        <lb ed="#A" n="103"/>Sed sicut ab eterno similis procedit spiritus sanctus ab vtroque sailice 
+        <lb ed="#A" n="104"/>a patre et filio: ita et in tempore communiter et similis ab vtroque mittitur 
+        <lb ed="#A" n="105"/>vel procedit. et hoc probat per Augusti. xv. de trinita. d. 
+        <lb ed="#A" n="106"/>sic. Spiritus sanctus non de patre procedit in filium: et de filio 
+        <lb ed="#A" n="107"/>ad creaturam. sed similis de vtroque procedit: quamuis hoc 
+        fi<lb ed="#A" n="108" break="no"/>lio pater dederit: vt sicut de se ita etiam de illo procedat. 
+        <lb ed="#A" n="109"/>Hec ille. De hoc plura vbi De processione Spiritus sancti 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1500">
+               <head xml:id="Vn7Pel-d47197-Hd1e1502">23</head>
+               <p xml:id="Vn7Pel-d47197-d1e1505">
+                  <lb ed="#A" n="110"/>¶ Utrum mittatur spiritus sanctus vel dari 
+        <lb ed="#A" n="111"/>possit ab aliqua sancto homine. Cum enim creator a creatura 
+        <lb ed="#A" n="112"/>dari non possit. ergo spiritus sanctus ab homine non po 
+        <lb ed="#A" n="113"/>test dari. Sed in oppositum est: quia legitur actr. viii. quod 
+        <lb ed="#A" n="114"/>per manus apitlorum dabatur spiritus sanctus credentibus. 
+        <!--156.xml-->
+        <pb ed="#A" n="157"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Item christus erat homo et tamen. Ioam. xx. Insufflauit et 
+        <lb ed="#A" n="2"/>dixit accipite spiritum sanctum etc. ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1529">
+        ¶ Respondetur secundum 
+        Bo<lb ed="#A" n="3" break="no"/>nauem. supra. q. et ar. vl. concor. Rich. quod spiritum sanctum dari 
+        <lb ed="#A" n="4"/>est tripliciter. Primo per modum autoritatis sicut 
+        <lb ed="#A" n="5"/>a producente principali siue a principio effectiuo et sic 
+        <lb ed="#A" n="6"/>a solo deo dari potest. quia solus potest producere spiritum 
+        <lb ed="#A" n="7"/>sanctum. et solus potest efficere in nobis charitatem vel 
+        <lb ed="#A" n="8"/>gratiam gratum facientem in qua mittitur vel datur spiritus san 
+        <lb ed="#A" n="9"/>ctus. Alio modo per modum impetrandi scilicet per oronem 
+        <lb ed="#A" n="10"/>vel alia operabona. et sic datur a sanctis. Tertio 
+        per<lb ed="#A" n="11" break="no"/>modum misterii vel sicut a mistrante sacstra siue ab an 
+        <lb ed="#A" n="12"/>nunciante salubria documenta. et sic dari potest etiam 
+        <lb ed="#A" n="13"/>a malis mistris vel praesbyteris. vnde Aug. xii. de tri. 
+        <lb ed="#A" n="14"/>dicit quod christus accepit a patre spiritum sanctum et effudit 
+        <lb ed="#A" n="15"/>Accepit quippe vt homo: et effudit vt deus
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1560">
+        ¶ Nos 
+        <lb ed="#A" n="16"/>autem accipere hoc donum pro modulo possumus. 
+        ef<lb ed="#A" n="17" break="no"/>fundere autem super alios non vtique possumus. Sed 
+        <lb ed="#A" n="18"/>vt hoc fiat deum super eos inuocamus. Hec ille. Et 
+        <lb ed="#A" n="19"/>per hec patet responsio ad obiecta. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1572">
+               <head xml:id="Vn7Pel-d47197-Hd1e1574">24</head>
+               <p xml:id="Vn7Pel-d47197-d1e1577">
+                  <lb ed="#A" n="20"/>¶ Utrum missio spiritus sancti 
+        aliqua<lb ed="#A" n="21" break="no"/>do fiat etiam ad irrationales creaturas Respondetur secundum 
+        <lb ed="#A" n="22"/>Tho. super i. di. xv. q. v. ar. i quod exquo missio 
+        diui<lb ed="#A" n="23" break="no"/>ne persone fit solummodo in donis gratiae gratum 
+        facien<lb ed="#A" n="24" break="no"/>tis. Ideo ad illos solum fit missio spiritus sancti qui 
+        <lb ed="#A" n="25"/>sunt huiusmodi doni susceptibiles. hoc est ad solas 
+        <lb ed="#A" n="26"/>creaturas rationales et non ad irrationales nec ad 
+        in<lb ed="#A" n="27" break="no"/>animata.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1597">
+        ¶ Si obiicitur de asina Balaam que 
+        locu<lb ed="#A" n="28" break="no"/>ta fuit vera. Dicedum quod hoc non fuit spiritu sancto misso. sed 
+        <lb ed="#A" n="29"/>per angelum apperentem miraculose etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1604">
+                  <lb ed="#A" n="30"/>¶ Item si adhuc obiicitur. quia in sacra 
+        <lb ed="#A" n="31"/>metis continetur gratia et fit missio spiritus sancti. Et tantu 
+        <lb ed="#A" n="32"/>sunt insensibiles creature. Respondetur secundum e. 
+        Tho<lb ed="#A" n="33" break="no"/>concor. Rich. ibidem. quod in sacramentis non habetur gratia 
+        <lb ed="#A" n="34"/>sicut in subiecto. Sed sicut in instrumento vel in 
+        <lb ed="#A" n="35"/>signo instituto quo repraesentatur gratiam conferri homin 
+        <lb ed="#A" n="36"/>Unde sanctificatio sacramentorum fit secundum modum qua ad 
+        <lb ed="#A" n="37"/>vsum dei aliquid accommodatur. vt vasa et templum 
+        <lb ed="#A" n="38"/>dicuntur sanctificata. sic sacramenta sunt sanctificata in 
+        <lb ed="#A" n="39"/>strumenta quadammodo. In quibus vt in signis confertu 
+        <lb ed="#A" n="40"/>gratia ipsis homnibus ita quod ad sacramenta que sunt in 
+        <lb ed="#A" n="41"/>sensibilia. vt sic non fit missio spiritus sancti. Sed per ea mit 
+        <lb ed="#A" n="42"/>titur homnibus et per ea representatur gratia spiritus sancti vt in 
+        si<lb ed="#A" n="43" break="no"/>gnis Hec simul ex predictis doc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1638">
+               <head xml:id="Vn7Pel-d47197-Hd1e1640">25</head>
+               <p xml:id="Vn7Pel-d47197-d1e1643">
+                  <lb ed="#A" n="44"/>¶ An ad omnes bonos a principio 
+        <lb ed="#A" n="45"/>mundi missus fuerit spiritus sanctus: Respondetur secundum Ric 
+        <lb ed="#A" n="46"/>e. di. xv. concor. Tho. quod ad omnes bonos bonitate 
+        <lb ed="#A" n="47"/>simpliciter qua reddit bonum hominem dignum vita 
+        eterna<lb ed="#A" n="48" break="no"/>a principio mundi quicumque fuerunt in fide mediato 
+        <lb ed="#A" n="49"/>ris scilicet christi: vere spiritus sanctus fuit missus inuisibilit 
+        <lb ed="#A" n="50"/>quia per gratiam spiritus sancti habuerunt vt essent boni et sancti 
+        <lb ed="#A" n="51"/>in charitate vera. vnde etiam ad peccatores qui non 
+        fue<lb ed="#A" n="52" break="no"/>runt obstinati dum conuersi sunt ad praesentiam missus 
+        <lb ed="#A" n="53"/>est spiritus sanctus inuisibiliter semper a principio mundi. Et 
+        <lb ed="#A" n="54"/>ad iustos missus est secundum augmeutum gratiae noue su 
+        <lb ed="#A" n="55"/>perinfuse. vel vsus noui vt patuit supra § xvii. Nam 
+        <lb ed="#A" n="56"/>secundum magistrum. Missio spiritus sancti fit semper ad sanctificandum 
+        <!--156.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 157 -->
+                  <lb ed="#A" n="57"/>creaturam. Et hoc secundum Bonauem. ibi scilicet di. xiiii. Uno 
+        <lb ed="#A" n="58"/>modo de non sancto faciendo sanctum. Secundo sanctum in  
+        <lb ed="#A" n="59"/>sanctitate augendo et confirmando. Tertio aliis hoc 
+        <lb ed="#A" n="60"/>manifestando etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1690">
+               <head xml:id="Vn7Pel-d47197-Hd1e1692">26</head>
+               <p xml:id="Vn7Pel-d47197-d1e1695">
+                  <lb ed="#A" n="61"/>¶ Quid de angelis et beatis in ce 
+        <lb ed="#A" n="62"/>lo. An ad eos fiat aliquando vel fuerit missus 
+        spi<lb ed="#A" n="63" break="no"/>ritus sanctus in celo: Ad hoc magister. e. di. xv. et 
+        <lb ed="#A" n="64"/>presse dicit quod sic.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1706">
+        ¶ Sed quomodo hoc cum sint in termi 
+        <lb ed="#A" n="65"/>no vite Btem neque datur eis de nouo gratia neque au 
+        <lb ed="#A" n="66"/>getur beatitudo eorum essentialis: Respondetur secundum Tho. 
+        <lb ed="#A" n="67"/>supra. quod quamuis visionis dei essentialis beatitudo 
+        <lb ed="#A" n="68"/>ac charitas non augeatur in angelis et beatis exquo 
+        <lb ed="#A" n="69"/>facti sunt beati tamen per hoc non tollitur. quin alique re 
+        <lb ed="#A" n="70"/>uelationes noue fiant in eis. Cum quantumcumque 
+        <lb ed="#A" n="71"/>perficiatur eorum cognitio: in infinitum a dei cognitione ex 
+        <lb ed="#A" n="72"/>cedatur. Et secundum illas nouas reuelationes consurgunt 
+        <lb ed="#A" n="73"/>ad dei a morem. non quidem vt magis ament sed vt 
+        <lb ed="#A" n="74"/>subsalia ratione eorum amor dirigatur. in deum. Ideoque 
+        <lb ed="#A" n="75"/>secundum Rich. Dicendum Quod angelis bonis in 
+        princi<lb ed="#A" n="76" break="no"/>pio cum ad deum conuersi fuerut missio filii et spiritus 
+        <lb ed="#A" n="77"/> sancti facta est in ipsa collatione gratiae et glorie quia prius 
+        <lb ed="#A" n="78"/>ordine nature habuerunt esse: quam habuerit gratiam 
+        <lb ed="#A" n="79"/>vel gloriam. Et secundum Tho. Ulterius etiam postquam bea 
+        <lb ed="#A" n="80"/>ti sunt effecti. fit ad eos scilicet Angelos et beatos 
+        mis<lb ed="#A" n="81" break="no"/>sio filii et spiritus sancti secundum nouas reuelationes et no 
+        <lb ed="#A" n="82"/>uos modos amandi deum. Unde quamuis non fiat ad  
+        <lb ed="#A" n="83"/>eos missio secundum augmentum gratie vel glorie 
+        intensi<lb ed="#A" n="84" break="no"/>ue. fit tamen extensiue secundum quod eorum gratia ad 
+        plu<lb ed="#A" n="85" break="no"/>ra quodammodolaugetur ex nouis reuelationibus 
+        <lb ed="#A" n="86"/>quas accipiunt inferiores a superioribus secundum quod 
+        <lb ed="#A" n="87"/>superiores cooperantur diuinis personis in illu 
+        <lb ed="#A" n="88"/>minatione inferiorum
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1761">
+        ¶ Si dicas. sequitur ergo quod erit 
+        <lb ed="#A" n="89"/>processus in infinitum in beatitudine. Ad hoc patet solu 
+        <lb ed="#A" n="90"/>tio ex his que scripta sunt. supra. c. charitas. §. i v. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1769">
+               <head xml:id="Vn7Pel-d47197-Hd1e1771">27</head>
+               <p xml:id="Vn7Pel-d47197-d1e1774">
+                  <lb ed="#A" n="91"/>¶ Quid de chro. Respondetur secundum 
+        <lb ed="#A" n="92"/>Tho. supra. concor. Bonauen. di. xiiii. quod ad christum secundum 
+        <lb ed="#A" n="93"/>naturam humanam fuit missus spiritus sanctus a 
+        prin<lb ed="#A" n="94" break="no"/>cipio sue conceptionis tanta plenitudine quod 
+        po<lb ed="#A" n="95" break="no"/>stea nulla fuit augtantatio elis inouatio. Sed 
+        mis<lb ed="#A" n="96" break="no"/>sio visibilis in specie columbe fuit postea propter ma 
+        <lb ed="#A" n="97"/>nifestandum aliis eius gratie plenitudinem.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1793">
+               <head xml:id="Vn7Pel-d47197-Hd1e1795">28</head>
+               <p xml:id="Vn7Pel-d47197-d1e1798">
+                  <lb ed="#A" n="98"/>MIssio tertio scilicet di 
+        <lb ed="#A" n="99"/>sibilis spiritus sancti. Queritur de hoc Utrum 
+        <lb ed="#A" n="100"/>missio visibilis siue filii siue spiritus 
+        san<lb ed="#A" n="101" break="no"/>cti ordinetur ad missionem inuisibile: Respondetur secundu 
+        <lb ed="#A" n="102"/>Guil. e. di. xv. aliosque per conclusionem quod sic. Est 
+        ve<lb ed="#A" n="103" break="no"/>ro inuisibilis missio vocata que fit in donis anime 
+        <lb ed="#A" n="104"/>vt in dono sapientie pietatis ac gratie gratumfacient 
+        <lb ed="#A" n="105"/>Sed vocatur missio visibilis que apparet oculis sicut 
+        <lb ed="#A" n="106"/>missio filii dei quando assumpsit carnem humanam vel 
+        <lb ed="#A" n="107"/>spiritus sancti in igne super apulos. Et probatur 
+        conclu<lb ed="#A" n="108" break="no"/>simo predicta quia omne signum ordinatur ad signatum. Nam 
+        <lb ed="#A" n="109"/>signum est signati gratia Sicut patet in pila dum ponitur pro 
+        <lb ed="#A" n="110"/>signo quod venditur ibi vinum et huiusmodi. Sed quia 
+        mis<lb ed="#A" n="111" break="no"/>sio visibilis est signum inuisibilis scilicet gratiae vel 
+        pleni<lb ed="#A" n="112" break="no"/>tudis eius. ergo etc. Sicut exempli gratia Columba. super 
+        <!--157.xml-->
+        <pb ed="#A" n="158"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>christum visibiliter descendens significauit plenitudinem 
+        <lb ed="#A" n="2"/>gratiae in christo vt in alios redundaret quos redimeret 
+        <lb ed="#A" n="3"/>sicut in lege per columbe oblationem primogenita re 
+        <lb ed="#A" n="4"/>dempta signabantur. Item flatus christi in apulos scilice 
+        <lb ed="#A" n="5"/>du ait Accipite spiritum sanctum Io. xx. significauit redum 
+        <lb ed="#A" n="6"/>dantiam sensus et vitam gratiae quam apostolis influebant in 
+        ali<lb ed="#A" n="7" break="no"/>os mediantibus sacrametis Flatus enim in animali on 
+        <lb ed="#A" n="8"/>dit quod viuit etc. Item lingua quae in duo nature opera 
+        <lb ed="#A" n="9"/>deseruit vt philosophus dicit in proble. habet enim gustare 
+        ci<lb ed="#A" n="10" break="no"/>bum et formare verbum. significauit ergo in apostolis gustum 
+        <lb ed="#A" n="11"/>sapidum vere sapientie in dulcore gratiae. Ac donu omnium 
+        <lb ed="#A" n="12"/>liguarum quibus docerent gentes. Denique nubes lucida 
+        <lb ed="#A" n="13"/>in qua etiam apparuit spiritus sncs super christum in transfi 
+        <lb ed="#A" n="14"/>guratione significauit quod sicut nubes celesti virtute ge 
+        <lb ed="#A" n="15"/>neratur et refrigerium praestat contra estum ac resoluitur in 
+        plu<lb ed="#A" n="16" break="no"/>uiam vel rorem. sic chrus celesti id est spiritus sancti virtute 
+        conce<lb ed="#A" n="17" break="no"/>ptus a vergine nullum estum concupiscentie habuit et do 
+        <lb ed="#A" n="18"/>ctrinam salutaris sapientie ac rore gratiae et misercordie abi 
+        <lb ed="#A" n="19"/>dantissime effudit tamquam pluuia. iuxta illud Deuter 
+        <lb ed="#A" n="20"/>Concrescat in pluuiam doctria me. etc. Preterea quod 
+        <lb ed="#A" n="21"/>in specie ignis apparuit super discipulos significat ar 
+        <lb ed="#A" n="22"/>dorem charitatis etc 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1889">
+               <head xml:id="Vn7Pel-d47197-Hd1e1891">29</head>
+               <p xml:id="Vn7Pel-d47197-d1e1894">
+                  <lb ed="#A" n="23"/>¶ Quare spiritus sanctus non apparuit 
+        <lb ed="#A" n="24"/>in specie aque effuse super discipulos de celo cum tamen 
+        <lb ed="#A" n="25"/>per aquam fuerit designatus in scripturis Eech 
+        <lb ed="#A" n="26"/>xxxvi. Effundam super vos aquam mundam et munda 
+        <lb ed="#A" n="27"/>bimini ab omnibus in quinamentis vestris Item Ioam. vii. 
+        <lb ed="#A" n="28"/>christus ait. Qui credit in me flumina de verre eius 
+        <lb ed="#A" n="29"/>fluent aque viue. hoc autem dixit de spiritu sancto: Respondetur quod 
+        <lb ed="#A" n="30"/>quod sicut Hollot. super lib. Sap. lec. xcix. dicit Spiritu 
+        <lb ed="#A" n="31"/>sanctus dicitur pro tanto sanctus. quia eos quos replet sancti 
+        <lb ed="#A" n="32"/>ficat et ab amore terrenorum transfert ad amorem caele 
+        <lb ed="#A" n="33"/>stium. ideo non conueniebat eum in specie aque mitti. quia 
+        <lb ed="#A" n="34"/>aqua diuersis partibus superficiei terre coheret et 
+        ad<lb ed="#A" n="35" break="no"/>miscetur. quamuis in scriptura figuratus sit per aquam 
+        <lb ed="#A" n="36"/>inquantum habet abluere peccata. sicut aqua sordes. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e1928">
+               <head xml:id="Vn7Pel-d47197-Hd1e1930">30</head>
+               <p xml:id="Vn7Pel-d47197-d1e1933">
+                  <lb ed="#A" n="37"/>¶ An spiritus sanctus visibiliter mixti 
+        <lb ed="#A" n="38"/>debuit tempore vereris testamenti Respondetur secundum 
+        Sco<lb ed="#A" n="39" break="no"/>torlis. in primo di. xvi. q. iii. ac Bonauen. ibidem. q. ii 
+        <lb ed="#A" n="40"/>Et Rich. ibidem per conclusionem. quod spiritus sanctus non de 
+        <lb ed="#A" n="41"/>buit visibiliter mitti tempore vereris testamenti. Ra 
+        <lb ed="#A" n="42"/>tio. quia tempore quo non fuit plenitudo gratie 
+        <lb ed="#A" n="43"/>non debuit mitti in signo plenitudinis gratiae. Sed 
+        <lb ed="#A" n="44"/>quia in ve. te. non fuit tempus plenitudinis gratie 
+        <lb ed="#A" n="45"/>Tale autem signum visibile missionis spiritus sancti est 
+        <lb ed="#A" n="46"/>signum plenitudinis gratie. ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1957">
+        ¶ Alia ratio. 
+        <lb ed="#A" n="47"/>quia spiritus sanctus non debuit visibiliter mitti an miss 
+        <lb ed="#A" n="48"/>one filii. probatur. quia sicut productio spiritus sancti 
+        praesuppo<lb ed="#A" n="49" break="no"/>nit generationem filii. ita visibilis missio spiritus sancti 
+        <lb ed="#A" n="50"/>debet praesuponere visibile missionem filii. Sed tempum 
+        <lb ed="#A" n="51"/>ve. te. non erat visibiliter missus filius dei. ergo nec 
+        <lb ed="#A" n="52"/>spiritus sanctus debuit mitti
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e1973">
+        ¶ Si petas. none ergo patres 
+        <lb ed="#A" n="53"/>ve. te. habuerunt plenitudinem spiritus sancti: Dicedum secundum 
+        <lb ed="#A" n="54"/>Rich. et Bonauem. ibidem quod habuerunt quo ad suffic 
+        <lb ed="#A" n="55"/>entiam sanctificationis. quia sufficientur erant sanctificati quantum 
+        <lb ed="#A" n="56"/>status ve. te. requirebat. habuerunt etiam 
+        plenitu<lb ed="#A" n="57" break="no"/>dinem spiritus sancti quae ad redundantiam in alios. tamen non in 
+        <!--157.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 158 -->
+                  <lb ed="#A" n="58"/>tanta abundantia vtcommuiter sicut habuerunt sancti post 
+        <lb ed="#A" n="59"/>christum. Et sic intelligendum est illud scriptum Ioam. vii 
+        <lb ed="#A" n="60"/>nondum erat missus spiritus sanctus scilicet tata abundantia 
+        <lb ed="#A" n="61"/>et tam visibili miraculo missionis. subditur. quia 
+        non<lb ed="#A" n="62" break="no"/>dum erat Iesus glorificatus
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2005">
+               <head xml:id="Vn7Pel-d47197-Hd1e2007">31</head>
+               <p xml:id="Vn7Pel-d47197-d1e2010">
+                  <lb ed="#A" n="63"/>Sed quare moderno tempore non 
+        <lb ed="#A" n="64"/>mittitur visibiliter spiritus sanctus Respondetur secundum Scotorlis. 
+        <lb ed="#A" n="65"/>supra et Bonauen. quia spiritus sanctus fuit missus et mittitur 
+        <lb ed="#A" n="66"/>visibiliter ad fidei confirmationem pro ecclesie vtilitate. iu 
+        <lb ed="#A" n="67"/>xta illud. i. Corum. iii. Unicuique datur manifestatio scilice 
+        <lb ed="#A" n="68"/>visibilis spiritus sancti ad vtilitate scilicet ecclesie. Sed quia nunc 
+        <lb ed="#A" n="69"/>fides ecclesie est optime radicata et confirmata. Ideo 
+        <lb ed="#A" n="70"/>sicut cessauerunt miracula ita et visibilis missio 
+        spiritus<lb ed="#A" n="71" break="no"/>sancti. vnde non oportet iam mitti visibiliter spiritum sanctum. quia 
+        <lb ed="#A" n="72"/>ecclesia est sufficienter in fide roborata. Et qui non cre 
+        <lb ed="#A" n="73"/>dit factis miraculis: indignus est de faciedis vt 
+        <lb ed="#A" n="74"/>dandis dei donis. Exantenm ponit idem Grego. de 
+        ar<lb ed="#A" n="75" break="no"/>bustis plantatis quae oportet sepius irrigari anquam 
+        ra<lb ed="#A" n="76" break="no"/>dix in terra figatur et roboretur et conualescat. Sed post 
+        <lb ed="#A" n="77"/>quam iam bene est roborata non oportet irrigari. Sic et in 
+        <lb ed="#A" n="78"/>proposito. Nam et circa tempora vltima scilicet quando ipse antichristus 
+        <lb ed="#A" n="79"/>veniet omnino cessabunt miracula vt ondatur sanctorum pa 
+        <lb ed="#A" n="80"/>tientia et peruersitas impiorum etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2053">
+               <head xml:id="Vn7Pel-d47197-Hd1e2055">32</head>
+               <p xml:id="Vn7Pel-d47197-d1e2058">
+                  <lb ed="#A" n="81"/>¶ Quare ergo debuit visibiliter 
+        <lb ed="#A" n="82"/>mitti spiritus sanctus tempore ecclesie primitiue: Respondetur secundum et 
+        <lb ed="#A" n="83"/>Scotorlis. et Bonauem. supra quod hoc debuit propter vtili 
+        <lb ed="#A" n="84"/>tatem ecclesie. Primo ratione vicem roborationis fidei 
+        ar<lb ed="#A" n="85" break="no"/>due. Secundo ratione praesentie diuine ondende. Tertio 
+        <lb ed="#A" n="86"/>ratione deuotionis in credentibus excitande
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2074">
+        ¶ Nam 
+        pri<lb ed="#A" n="87" break="no"/>mo constat quod vbi sunt credenda ardua et maxime diffi 
+        <lb ed="#A" n="88"/>cultatis: ibi debent adhiberi maxima miracula et si 
+        <lb ed="#A" n="89"/>gna pro testimonio talis veritatis. Sed ardue e ma 
+        <lb ed="#A" n="90"/>xime difficultatis erat credere articulos fidei qui 
+        <lb ed="#A" n="91"/>praedicabantur in principio ecclesie. ergo debuit tunc adhibe 
+        <lb ed="#A" n="92"/>ri maximum signum et miraculu missionis spiritus sancti. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2090">
+                  <lb ed="#A" n="93"/>¶ Secundo sic. quia sicut miracula ostendunt 
+        diui<lb ed="#A" n="94" break="no"/>nam potentia. ita signa missionis spiritus sancti on 
+        <lb ed="#A" n="95"/>dunt diuinam praesentia. Sed vtile fuit et necessarium 
+        <lb ed="#A" n="96"/>fidem nostram manuduci per miracula ad 
+        cogniti<lb ed="#A" n="97" break="no"/>onem divine potentie. ergo pari ratione per talia 
+        si<lb ed="#A" n="98" break="no"/>gna visibilia spiritus sancti debuit manuduci ad co 
+        <lb ed="#A" n="99"/>gnitionem praesentie divine in ecclesia
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2108">
+        ¶ Tertio. quia 
+        <lb ed="#A" n="100"/>nil ita excitat hominem ad deuotione et dei amorem 
+        <lb ed="#A" n="101"/>sicut dum cognoscit quod deus ipsum amat hominem 
+        <lb ed="#A" n="102"/>vt dicit Ambro. Sed quia nemo scit. vtrum 
+        amo<lb ed="#A" n="103" break="no"/>re vel odio dignus sit nisi deus dignetur ostende 
+        <lb ed="#A" n="104"/>re. Hoc autem deus ostendit in primitiua ecclesia per 
+        <lb ed="#A" n="105"/>signa visibilia spiritus sancti. et sic excitauit deuotio 
+        <lb ed="#A" n="106"/>nem ad fidem  
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2127">
+               <head xml:id="Vn7Pel-d47197-Hd1e2129">33</head>
+               <p xml:id="Vn7Pel-d47197-d1e2132">
+                  <lb ed="#A" n="107"/>¶ Cur spiritus sanctus non apparu 
+        <lb ed="#A" n="108"/>it visibiliter in creatura rationali sicut filius scilic 
+        <lb ed="#A" n="109"/>in homine. Sed in irrationali puta columba et 
+        <lb ed="#A" n="110"/>insensibili scilicet igne nube. etc. nec vno modo spiritus san 
+        <lb ed="#A" n="111"/>ctus apparuit sicut filius sed pluribus modis. 
+        <lb ed="#A" n="112"/>cum tamen spiritus sanctus sit equi nobilis persona vt filius. ergo vi 
+        <lb ed="#A" n="113"/>detur quod debuit in creatura equi nobili apparere Re 
+        <!--158.xml-->
+        <pb ed="#A" n="159"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>spondetur secundum Bonauem. e. di. xvi. libri primi. q. iii. Quod 
+        <lb ed="#A" n="2"/>exquo finis mouet causam et imponit necessitatem 
+        <lb ed="#A" n="3"/>his que sunt ad finem vt dicitur. ii. Phy. Ideo propter 
+        di<lb ed="#A" n="4" break="no"/>uersum finem apparitionis et operationis accipienda est 
+        <lb ed="#A" n="5"/>ratio huius diuersitatis. Nam quia filius apparebat in 
+        <lb ed="#A" n="6"/>carne vt esset mediator dei et hominim et saluator ad 
+        <lb ed="#A" n="7"/>btitudinem perducens. Sed medium sapit naturam 
+        ex<lb ed="#A" n="8" break="no"/>tremorum vel participat vt dicitur. v. Phy. Ideo debuit 
+        <lb ed="#A" n="9"/>apparere vt eet deus et homo deo vnibilis. et sic beatifica 
+        <lb ed="#A" n="10"/>bilis. Etiquia mediator inter duo: vnus est secundum apsltum 
+        <lb ed="#A" n="11"/>Ideo fuit appearitio vnica.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2180">
+        ¶ Denique. quia spiritus sanctus 
+        <lb ed="#A" n="12"/>non apparebat vt esset mediator. sed vt eet doctor 
+        <lb ed="#A" n="13"/>veritatis Ioam. vi. Cum venerit ille scilicet spiritus veritatis 
+        <lb ed="#A" n="14"/>docebit vos omnem veritatem. Et quia apperuit in 
+        crea<lb ed="#A" n="15" break="no"/>tura vt signatum in signo. vsui autem significationis 
+        <lb ed="#A" n="16"/>pure: magis conuenit creatura irrationalis quam 
+        rationa<lb ed="#A" n="17" break="no"/>lis. ne forte crederetur vnita et non tantummodo signifi 
+        <lb ed="#A" n="18"/>causas ideo apparuit in irrationali creatura tali qua habet 
+        <lb ed="#A" n="19"/>conuenientem proprietatem ad significandum Sicut flatis 
+        <lb ed="#A" n="20"/>significat spirationem spiritus sancti a christo. Ignis chari 
+        <lb ed="#A" n="21"/>tatem. columba redemptionem etc. Et quia spiritus sanctus non 
+        <lb ed="#A" n="22"/>assumpsit istas creaturas irrationales in vnitatem 
+        <lb ed="#A" n="23"/>persone. Sed tantummodo formando et instituendo or 
+        <lb ed="#A" n="24"/>dinabat ad significandum. Ideo similis cum apperitione in 
+        <lb ed="#A" n="25"/>ceperunt et desierunt esse. Rursus. propter donorum 
+        mil<lb ed="#A" n="26" break="no"/>tiplicitatem spiritus sanctus non potuit perfecte significari 
+        <lb ed="#A" n="27"/>in vnico signo. ideo oportuit plures spes 
+        forma<lb ed="#A" n="28" break="no"/>ri pro significatione spiritus sancti apparentis. vnde quamuis equi 
+        <lb ed="#A" n="29"/>nobilis sit persona spiritus sancti sicut et filii. tamen propter ali 
+        <lb ed="#A" n="30"/>um et alium finem ac modum debuit fieri aliter 
+        apperi<lb ed="#A" n="31" break="no"/>tio filii et aliter spiritus sancti etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2227">
+               <head xml:id="Vn7Pel-d47197-Hd1e2229">34</head>
+               <p xml:id="Vn7Pel-d47197-d1e2232">
+                  <lb ed="#A" n="32"/>¶ Item cur spiritus sanctus in alia specie 
+        <lb ed="#A" n="33"/>apparuit super christum quam super apulos Ad hoc 
+        Respon<lb ed="#A" n="34" break="no"/>detur secundum Bonauem. ibidem quod ideo. quia in christo manife 
+        <lb ed="#A" n="35"/>stabat plenitudinem redundantie tamquam ex capite ad 
+        <lb ed="#A" n="36"/>menbra que fuit perfectissima gratia per omnem modum. 
+        <lb ed="#A" n="37"/>et per redemptionem. Ideo in specie columbe apperuit ad 
+        <lb ed="#A" n="38"/>id significandum vt patuit supra. § xxviii. Sed in 
+        di<lb ed="#A" n="39" break="no"/>scipulis manifestabat redundantiam per adminstrat 
+        <lb ed="#A" n="40"/>onem sactrorum et doctrie
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2254">
+        ¶ Unde secundum Scotorlis. e. di. xv 
+        <lb ed="#A" n="41"/>q. iii. duplex distinguit gratia. Una personalis. Alia 
+        <lb ed="#A" n="42"/>causalis scilicet quo ponitur in capite per redundantiam ad  
+        <lb ed="#A" n="43"/>mebra. et hec fuit in christo manifestata per aduentum 
+        <lb ed="#A" n="44"/>spiritus sancti super eum. Personalis autem fuit plenitudo 
+        <lb ed="#A" n="45"/>gratie in apostolis redundans in alios per adminstrati 
+        <lb ed="#A" n="46"/>onem. ergo patet propositum etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2272">
+               <head xml:id="Vn7Pel-d47197-Hd1e2274">35</head>
+               <p xml:id="Vn7Pel-d47197-d1e2277">
+                  <lb ed="#A" n="47"/>¶ Utrum columba illa in qua 
+        appa<lb ed="#A" n="48" break="no"/>ruit spiritus sanctus formabatur et mouebatur immediate a 
+        <lb ed="#A" n="49"/>deo. An per misterium angeli: Respondetur secundum Bonauen. 
+        <lb ed="#A" n="50"/>e. di. xvi concor. Rich. ibidem. q. iiii. quod sicut Aug. iiii. de 
+        <lb ed="#A" n="51"/>tri. dicit probabile est quod illa columba in qua apperuit spiritus 
+        <lb ed="#A" n="52"/>sanctus: secundum misterium angeli formabatur et mouebatur 
+        <lb ed="#A" n="53"/>verum tamen vt Bonauem. dicit. Super hoc aliquid inuenire 
+        <lb ed="#A" n="54"/>difficile est. Ettemere affirmare non expedit. Quod 
+        <lb ed="#A" n="55"/>si obiicitur. quia scriptura dicit quod spiritus sanctus mittebatur vel 
+        <lb ed="#A" n="56"/>aduenit in tali specie Rich. dicit quod vere spiritus sanctus 
+        <lb ed="#A" n="57"/>mittebatur in illa specie qui non videbatur Et spiritus sanctus 
+        <!--158.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 159 -->
+                  <lb ed="#A" n="58"/>apparebat tamum in illis apperitionibus Angelus operaba 
+        <lb ed="#A" n="59"/>tur minsterialiter formando et mouendo. Nam vt 
+        <lb ed="#A" n="60"/>etiam Magister dicit in littera di. e. xvi. Non tempora 
+        <lb ed="#A" n="61"/>li motu venit tunc vel descendit spiritus sanctus quia 
+        <lb ed="#A" n="62"/>deus ipse est immobilis et vbique Sed per illum 
+        tem<lb ed="#A" n="63" break="no"/>poralem motum specierum. que scilicet motum faciebat an 
+        <lb ed="#A" n="64"/>gelussignificata est inuisibilis missio spiritus sancti 
+        <lb ed="#A" n="65"/>vt latius patuit. supra. §. xii. Euod si adhuc petas
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2327">
+        ¶ Num 
+        <lb ed="#A" n="66"/>quid deus possit per seipsum facere vel fecisse talem 
+        <lb ed="#A" n="67"/>formationem et motum creature. Respondetur secundum Rich. 
+        <lb ed="#A" n="68"/>Ibidem quod optime potuisset si voluisset. Sed ad  
+        <lb ed="#A" n="69"/>ondendum affluentiam bonitatis sue et maiestatis: vo 
+        <lb ed="#A" n="70"/>luit illa facere mediante causa secunda. Et huic sententie 
+        con<lb ed="#A" n="71" break="no"/>cordant doc scilicet Aug. vbi. supra. Item Diony. ca. iiii. de 
+        <lb ed="#A" n="72"/>Angelica Hieris. dicit quod sapienter docent 
+        theologi<lb ed="#A" n="73" break="no"/>ci per angelos legem ad nos peruenire tamquam diuino 
+        <lb ed="#A" n="74"/>legali ordine Item Gre. dicit quod angelus loque 
+        <lb ed="#A" n="75"/>batur Moysi in persona dei dum dabat legem in 
+        mon<lb ed="#A" n="76" break="no"/>te Sinai. Et consimiliter dicit fore in aliis apperitio 
+        <lb ed="#A" n="77"/>nibus factis patribus vereris testamenti Und 
+        <lb ed="#A" n="78"/>et apostolus dicit quod lex ordinata est per angelos Gal. 
+        <lb ed="#A" n="79"/>iii. Et Heb. ii. Et pluribuscripturis patet.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2360">
+        ¶ Nec 
+        <lb ed="#A" n="80"/>valet siquis obiiciat quod angelus dixit Mo. Ego 
+        <lb ed="#A" n="81"/>um deus israel etc. Quia in talibus semper 
+        ange<lb ed="#A" n="82" break="no"/>lus loquebatur et operabatur vt dicit Rich. vbi. supra. 
+        can<lb ed="#A" n="83" break="no"/>quam vicarius dei. representans ipsum deum Ideo ipsa 
+        <lb ed="#A" n="84"/>actio deo attribuitur. non angelo. Sicut madatum per prae 
+        <lb ed="#A" n="85"/>conem factum eloquendo: regi attribuitur vel iudici 
+        <lb ed="#A" n="86"/>non preconi. Unde non dicitur. Ita dicit praeco: sed ita 
+        <lb ed="#A" n="87"/>dicit Rex.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2380">
+        ¶ Sed circa hec adhuc difficultates  
+        <lb ed="#A" n="88"/>restant de quibusdam scripturis Scilicet 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2386">
+               <head xml:id="Vn7Pel-d47197-Hd1e2388">36</head>
+               <p xml:id="Vn7Pel-d47197-d1e2391">
+                  <lb ed="#A" n="89"/>¶ Quid de illa voce <quote xml:id="Vn7Pel-d47197-Qd1e2395">Hic est filius
+          <lb ed="#A" n="90"/> meus dilectus</quote> etc. Mat. iii. Similiter de illa vo 
+        <lb ed="#A" n="91"/>ce que venit de celo super christum. di. Et clarificaui 
+        <lb ed="#A" n="92"/>et iterum clarificabo etc. Ioan. xii. De his Lyra 
+        di<lb ed="#A" n="93" break="no"/>cit quod fuit formata a tota trinitate cum eius opera 
+        <lb ed="#A" n="94"/>sint indiuisa. Tamen fuit vox dei patris quia fuit 
+        <lb ed="#A" n="95"/>formata ad representandum personam patris. Sed 
+        <lb ed="#A" n="96"/>sanctus Gre. xxviii. moralis. versus fi. dicit sic Uer 
+        <lb ed="#A" n="97"/>bis namque per angelum loquitur deus cum nil in imagi 
+        <lb ed="#A" n="98"/>ne ostenditur sed superne verba locutionis adiungun 
+        <lb ed="#A" n="99"/>tur Sicut dicente domino Pater clarifica filium tuum vt fi 
+        <lb ed="#A" n="100"/>lius tuus clarificet te: protinus Respondetur: et clarifi 
+        <lb ed="#A" n="101"/>caui et iterum clarificabo. De celo enim deus loquens 
+        <lb ed="#A" n="102"/>verba ista sua que ab homnibus audiri voluit: 
+        ro<lb ed="#A" n="103" break="no"/>nali creatura adminstrante formauit. Hec Greg. 
+        <lb ed="#A" n="104"/>Concorditer Aug. iii. de trini. c. xi. Et. iiii. de trini. 
+        <lb ed="#A" n="105"/>c. vl. sentit. Unde satis probabiliter potest dici quod huiusmodi 
+        <lb ed="#A" n="106"/>voces sint a deo facte vel formate principaliter Et in 
+        <lb ed="#A" n="107"/>quantum inuisibiliter sunt a deo. tamen sensibiliter in 
+        <lb ed="#A" n="108"/>aere et articulatim sunt formate minsterio angelico. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2441">
+               <head xml:id="Vn7Pel-d47197-Hd1e2443">37</head>
+               <p xml:id="Vn7Pel-d47197-d1e2446">
+                  <lb ed="#A" n="109"/>¶ Sed ex quo deus immediate 
+        <lb ed="#A" n="110"/>formauit corpus christi in quo apperuit filius dei 
+        <lb ed="#A" n="111"/>Cura simili columbam et ignem no sola dei virtus 
+        <lb ed="#A" n="112"/>formasse dicitur. sed Angelus pro spiritus sancti 
+        apperitio<lb ed="#A" n="113" break="no"/>ne Respondetur secundum Rich. supra. et doctur. quod non est simile 
+        <lb ed="#A" n="114"/>Nam filius vniuit sibi humanam naturam vel corpus 
+        <!--159.xml-->
+        <pb ed="#A" n="160"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>christi in eodem instanti quae formatum est Ideo a solo deo 
+        <lb ed="#A" n="2"/>immediate formari debuit nec potuit angelus in 
+        <lb ed="#A" n="3"/>instanti formare corpus. Et a fortiori non potuit fa 
+        <lb ed="#A" n="4"/>cere vt mox esset deitati vnitum. Sed ignis vel 
+        colun<lb ed="#A" n="5" break="no"/>ba non fuerunt vnita spiritu sancto. ergo talia potuit forma 
+        <lb ed="#A" n="6"/>re angelus minsterialiter sicut semper talia fiunt misterio 
+        <lb ed="#A" n="7"/>angelico in creatura non vnita deo secundum Aug. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2484">
+               <head xml:id="Vn7Pel-d47197-Hd1e2486">38</head>
+               <p xml:id="Vn7Pel-d47197-d1e2489">
+                  <lb ed="#A" n="8"/>¶ Utrum illa columba in quae 
+        appa<lb ed="#A" n="9" break="no"/>ruit spiritus sanctus fuerit vera columba: Similiter et de igne 
+        <lb ed="#A" n="10"/> An fuerit verus ignis. et de aliis specebus quari potest. 
+        <lb ed="#A" n="11"/>Respondetur secundum Bonauem. e. di. xvi. Et Rich ac Tho. 
+        <lb ed="#A" n="12"/>ibidem. q. iii. et iii per. q. xxxix. etc. eliciendo conclusiones 
+        <lb ed="#A" n="13"/>Prima quod spes ille in quibus apparuit spiritus sanctus 
+        <lb ed="#A" n="14"/>fuerunt vere res corporales quae sensu particulari potue 
+        <lb ed="#A" n="15"/>runt apprehendi. Nam alio quin fuissent non vere 
+        apperi<lb ed="#A" n="16" break="no"/>tiones sed illusiones sicut sunt phantasmata 
+        demo<lb ed="#A" n="17" break="no"/>num et magorum praestigia. quod non decuit fidei veritatem 
+        <lb ed="#A" n="18"/>vnde Greg. in home. epiphanie quadam dicit quod signa 
+        <lb ed="#A" n="19"/>fidei nostre sunt verissima. sequitur est quod erant vere res 
+        <lb ed="#A" n="20"/>corporales formate ex ethere purissimo minsterio 
+        <lb ed="#A" n="21"/>angelorum. vt dicit Aug. et patuit supra. §. xxxv. Sicut et 
+        <lb ed="#A" n="22"/>Gabriel angelus apperuit beate vergini Marie in 
+        <lb ed="#A" n="23"/>corpore assumpto ex ethere in specie humana secundum 
+        ma<lb ed="#A" n="24" break="no"/>gnum Alb. super Missus est Et huiusmodi species corporales 
+        <lb ed="#A" n="25"/>expleto officio in praeiacentem materiam sunt mox 
+        re<lb ed="#A" n="26" break="no"/>solute.
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2533">
+        ¶ Secunda conclusio quod columba illa in qua ap 
+        <lb ed="#A" n="27"/>paruit spiritus sanctus non fuit verum animal habens animam 
+        sen<lb ed="#A" n="28" break="no"/>sitiuam. Nec ignis ille fuit vere ignis ardens. 
+        quam<lb ed="#A" n="29" break="no"/>uis fuerit res vel spcies corporales. Nam si columba 
+        <lb ed="#A" n="30"/>fuisset verum animal. habens animam et penas mox cum desiit 
+        <lb ed="#A" n="31"/>post apperitionem fuisset occisum. quod non solet poni 
+        <lb ed="#A" n="32"/>Etsi ignis fuisset verus ignis: habuisset vim 
+        <lb ed="#A" n="33"/>oburedi. quod tamen non humit vnde etiam ecemria canit in offe 
+        <lb ed="#A" n="34"/>ephetie. Descendit spiritus sanctus corporali specie sicut co 
+        <lb ed="#A" n="35"/>lumba Et iterum In columbe specie spiritus sanctus visus 
+        <lb ed="#A" n="36"/>est etc. Ecce similitudinarie dicit tantum speciem: non veram co 
+        <lb ed="#A" n="37"/>lumbam viuam. Et Act. ii dicitur Apperuerunt illis disperdi 
+        <lb ed="#A" n="38"/>te ligue tamquam ignis. Cum dicit tanquam: similitudinem notais 
+        <lb ed="#A" n="39"/>non verum ignem nec veram liguam quae est carnee nature s.cte 
+        <lb ed="#A" n="40"/>dicit tantum figuram ligue ignee vt patet ibi per Dio
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2566">
+        ¶ Ter 
+        <lb ed="#A" n="41"/>tia conclusio. quod flatus christi in quo missus fuit spiritus; 
+        <lb ed="#A" n="42"/>sanctus fuit vere flatus. et nubes lucida in qua appa 
+        <lb ed="#A" n="43"/>ruit spiritus sanctus super christut: vere conceditur fuisse nubes 
+        <lb ed="#A" n="44"/>Nam hec manifeste sic sonat scriptura. vt patet consi 
+        <lb ed="#A" n="45"/>deranti. Sed de igne et columba similitudinarie vt 
+        pa<lb ed="#A" n="46" break="no"/>tuit
+      </p>
+               <p xml:id="Vn7Pel-d47197-d1e2582">
+        ¶ Si obiicitur. Quia si columba non fuit vera co 
+        <lb ed="#A" n="47"/>lumba viua et ignis non fuit vere ignis. sequitur quod fi 
+        <lb ed="#A" n="48"/>dei signa non fuerunt verissima sed ficticia et falsa quod 
+        <lb ed="#A" n="49"/>est contra dicta Gregorii supra etc. Dicendum secundum 
+        Bo<lb ed="#A" n="50" break="no"/>nauem. quod ex hoc non sequitur ibi fore falsitatem vel 
+        ficti<lb ed="#A" n="51" break="no"/>onem. quia erat veritas in significando. cum propterea illa 
+        si<lb ed="#A" n="52" break="no"/>militudo offerebatur sensui vt significaretur quod ibi 
+        <lb ed="#A" n="53"/>vere erat spiritus sanctus. nec significabatur quod esset vera co 
+        <lb ed="#A" n="54"/>lumba vel ignis.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d47197-Dd1e2603">
+               <head xml:id="Vn7Pel-d47197-Hd1e2605">39</head>
+               <p xml:id="Vn7Pel-d47197-d1e2608">
+        ¶ Sed quare spiritus sanctus non apperuit 
+        <lb ed="#A" n="55"/>in vero animali columbe et in vero igne. cum dici filius apperue 
+        <lb ed="#A" n="56"/>rit in vero homine. patet ex praedictis. quia humanitas vnita fu 
+        <lb ed="#A" n="57"/>it dei filio. sed columba non fuit vnita spiritu sancto vnione 
+        <!--159.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 160 -->
+                  <lb ed="#A" n="58"/>hypostatica. vnde nec debuit adorari adoratione la 
+        <lb ed="#A" n="59"/>trie sicut adoratur corpus christi ratione vnionis etc. 
+        <lb ed="#A" n="60"/>Similiter nec ignis nec alie species vnite sunt spiritu sancto 
+        <lb ed="#A" n="61"/>in vnitate persone ergo etc 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

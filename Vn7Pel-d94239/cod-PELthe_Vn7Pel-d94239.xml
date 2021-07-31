@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vita</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Vita</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="302"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d94239">
+            <head xml:id="Vn7Pel-d94239-Hd1e107">Vita</head>
+            <div xml:id="Vn7Pel-d94239-Dd1e110">
+               <head xml:id="Vn7Pel-d94239-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d94239-d1e115">
+                  <lb ed="#A" n="27"/>UIta dnde 
+        dici<lb ed="#A" n="28" break="no"/>tur et quibus modis accipitur. Nota 
+        <lb ed="#A" n="29"/>secundum Guill. dist. xxxvi. Uita a vi dicitur. 
+        <lb ed="#A" n="30"/>Nam super esse quae est prima rerum 
+        perfe<lb ed="#A" n="31" break="no"/>ctio. vt docet Diony. v. de di. no. addit vita vim 
+        <lb ed="#A" n="32"/>spiritualem. Uita autem quantum spectat ad propositum solet tri 
+        <lb ed="#A" n="33"/>pliciter accipi etc.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e133">
+        ¶ Primo modo vita dicitur actus 
+        prae<lb ed="#A" n="34" break="no"/>mus in quo et a quo vigor talis egreditur: iet in deo est 
+        <lb ed="#A" n="35"/>intellectus in actu primo: similiter in spiritibus. In ceters 
+        <lb ed="#A" n="36"/>autem est anima. Et isto modo philosophus. ii de anima dicit quod viuere 
+        <lb ed="#A" n="37"/>est viuentibus esse. patet quia est viuum esse quod est per animam 
+        <lb ed="#A" n="38"/>quae est actus primus corporis organici physici etc.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e146">
+        ¶ Se 
+        <lb ed="#A" n="39"/>cundo vita dicitur interior operatio seu actus secundus vicem a 
+        <lb ed="#A" n="40"/>tali actu primo progrediens. Et isto modo Commen. dicit 
+        <lb ed="#A" n="41"/>super. xix. propatione de causis diffiniendo vitam sic. Uita 
+        <lb ed="#A" n="42"/>est processio procedens ab ente primo quieto et sempiterno 
+        
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e157">
+                  <lb ed="#A" n="43"/>¶ Et nota quod in deo dicitur ista vita continuum intelligere su 
+        <lb ed="#A" n="44"/>ipius et aliorum per ideas. Hoc enim intelligere quasi pro 
+        <lb ed="#A" n="45"/>cedit a diuino intellectu et diuina essentia quae sunt ens 
+        <lb ed="#A" n="46"/>primum: ens quietum: et sempiternum. In spiritibus autem bea 
+        <lb ed="#A" n="47"/>tis et in nobis ista vita dicitur operatio interior continua. 
+        <lb ed="#A" n="48"/>vicem. In angelis per continuam dei contemplationem. In nobis 
+        <lb ed="#A" n="49"/>vero aut contemplatione veritatis aut corpus viuificando 
+        <lb ed="#A" n="50"/>Et Commentator dicit quod procedit ab ente primo scilicet ab 
+        es<lb ed="#A" n="51" break="no"/>sentia anime seu angeli. Et ab ente quieto quia secundum philosophum 
+        <lb ed="#A" n="52"/>vii. philosophycorum. Anima sedendo et quiescendo fit prudens et 
+        <lb ed="#A" n="53"/>sapiens. Item procedit ab ente sempiterno. Hoc intelli¬ 
+        <!--301.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 302 -->
+                  <lb ed="#A" n="54"/>gitur simpliciter si ad deum referatur a quo originatur omnis vt 
+        <lb ed="#A" n="55"/>ta. Si autem intelligatur de angelis et anima rationali 
+        intel<lb ed="#A" n="56" break="no"/>ligitur ens sempiternum supposita voluntate dei Unde 
+        <lb ed="#A" n="57"/>Plato in Timeo loques in persona dei angelis. dicit  
+        <lb ed="#A" n="58"/>O dii deorum quorum ego opifex idemque pater vos opera 
+        <lb ed="#A" n="59"/>mea estis. natura quidem dissolubilia: me autem vo 
+        <lb ed="#A" n="60"/>lente indissolubilia etc. In anima autem vegetabili et 
+        <lb ed="#A" n="61"/>sensitiua dicitur ens sempiternum respectiue quia 
+        varia<lb ed="#A" n="62" break="no"/>tis operationibus permanet plus anima ita quod sit 
+        sen<lb ed="#A" n="63" break="no"/>sus in sempiternum id est durans multum sicut illud. iii. 
+        <lb ed="#A" n="64"/>Regum. v. Uiuat Rex in eternum id est multum. Multum. 
+        <lb ed="#A" n="65"/>autem durant tales anime respectu suarum operationum. 
+        <lb ed="#A" n="66"/>Nota etiam quod ista vita in nobis est triplex vt innuitur 
+        <lb ed="#A" n="67"/>in commento. iii propositionis de causis. videlicet 
+        aia<lb ed="#A" n="68" break="no"/>lis intellectualis et diuinalis. Dicitur autem animalis 
+        in<lb ed="#A" n="69" break="no"/>quantum influit in corpus. dicitur intellectualis inquan 
+        <lb ed="#A" n="70"/>tum cogitatione creaturas meditatur. dicitur vero diuinals 
+        <lb ed="#A" n="71"/>dum per extasim in creatorem subleuatur.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e230">
+        ¶ Tertio vi 
+        <lb ed="#A" n="72"/>ta dicitur exterior viuentis operatio. et sic symbolice deo 
+        <lb ed="#A" n="73"/>vita attribuitur dum extra se operatur Et isto modo 
+        <lb ed="#A" n="74"/>de motoribus orbium philosophi dicunt quod eorum vita est 
+        mo<lb ed="#A" n="75" break="no"/>uere caelum. Sic etiam philosophus in liro ethicorum dicit quod 
+        vnius<lb ed="#A" n="76" break="no"/>cuiusque vita est id in quo se occupat. Unde vt iam 
+        <lb ed="#A" n="77"/>dictum est. vita est in deo. omne quod est in ipso. etiam 
+        crea<lb ed="#A" n="78" break="no"/>tura quecumque vt est in deo. accipiendo vitam secundo 
+        <lb ed="#A" n="79"/>modo predico scilicet pro operatione interiori seu 
+        ha<lb ed="#A" n="80" break="no"/>bitu interno. Hec omnia Guil. Et ad idem in sequen. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e253">
+               <head xml:id="Vn7Pel-d94239-Hd1e255">2</head>
+               <p xml:id="Vn7Pel-d94239-d1e258">
+                  <lb ed="#A" n="81"/>¶ Utrum omnia creata et creabilia sint 
+        <lb ed="#A" n="82"/>vitam in deo. Ad hoc reontuntur per conclionem quod sic Quia 
+        <lb ed="#A" n="83"/>expresse dicit scriptura Ioan i. Quod factum est scilicet 
+        <lb ed="#A" n="84"/>in toto modo. In ipso scilicet deo vita erat. Sed videndum 
+        <lb ed="#A" n="85"/>quid est viuere in deo. Secundo quomodo intelligendum 
+        <lb ed="#A" n="86"/>nit hoc. Et tertio de qualibus creaturis scilicet an 
+        positi<lb ed="#A" n="87" break="no"/>uis tantum vel etiam de priuatiuis sit idem tenendum. 
+        <lb ed="#A" n="88"/>Unde ad primum articulum scilic 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e279">
+               <head xml:id="Vn7Pel-d94239-Hd1e281">3</head>
+               <p xml:id="Vn7Pel-d94239-d1e284">
+                  <lb ed="#A" n="89"/>¶ Quid est proprie viuere in deo 
+        <lb ed="#A" n="90"/>Respondetur secundum Guil. e. di. xxxvi. quod viuere in deo proprie 
+        <lb ed="#A" n="91"/>nihil aliud est nisi habere in deo ideam.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e293">
+        ¶ 
+        Pro<lb ed="#A" n="92" break="no"/>inde patet defectus Auicenne et algam elis 
+        abbre<lb ed="#A" n="93" break="no"/>uiatoris eius dicentium quod deus cognoscit sola 
+        vni<lb ed="#A" n="94" break="no"/>uersalia et particularia nonnisi in vniuersali. Sed  
+        <lb ed="#A" n="95"/>hoc patet falsum quia dei prouidentiam cui cura est de 
+        <lb ed="#A" n="96"/>omnibus oportet omnia distincte cognoscere vt omnibus 
+        <lb ed="#A" n="97"/>prouideat quod suum est vsque ad minima. Unde et christus 
+        <lb ed="#A" n="98"/>dixit Uestri autem et capilli capitis omnes numerati sunt 
+        <lb ed="#A" n="99"/>Et Unus inquit passer non est in obliuione coram deo 
+        <lb ed="#A" n="100"/>etc. Et latius de his habitum est vbi Prouidentia etc. 
+        <lb ed="#A" n="101"/>Et vbi Scientia etc.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e317">
+        ¶ Sed de secundo scilicet 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e321">
+               <head xml:id="Vn7Pel-d94239-Hd1e323">4</head>
+               <p xml:id="Vn7Pel-d94239-d1e326">
+                  <lb ed="#A" n="102"/>¶ Quomodo dicunt vita in deo ea quae 
+        <lb ed="#A" n="103"/>facta sunt vel fienda: Nota ad huius intellectum 
+        <lb ed="#A" n="104"/>secundum Lyram in postillis super Ioan i. quod vt philosophus do 
+        <lb ed="#A" n="105"/>cet. ii lib. de anima. Quattuor sunt gradus vite 
+        <lb ed="#A" n="106"/>seu viuentium scilicet vegetatiuum: sensitiuum: 
+        <lb ed="#A" n="107"/>motiuum secundum locum. et intellectiuum. Et inter 
+        <lb ed="#A" n="108"/>istos gradus predictos intellectiuum tenet sum 
+        <lb ed="#A" n="109"/>mum locum. Et ideo ea que sunt in aliquo secundum 
+        <!--302.xml-->
+        <pb ed="#A" n="303"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>modum intelligibilem sunt in eo secundum modum vitalem 
+        <lb ed="#A" n="2"/>Creature autem preexistunt in verbo sicut in conceptu 
+        <lb ed="#A" n="3"/>artis vel intellectus et per consequens sunt in eo per modum 
+        <lb ed="#A" n="4"/>vite intellectiue. quia intelligere verbi est suum esse et 
+        <lb ed="#A" n="5"/>suum viuere ergo etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e365">
+               <head xml:id="Vn7Pel-d94239-Hd1e367">4B</head>
+               <p xml:id="Vn7Pel-d94239-d1e370">
+                  <lb ed="#A" n="6"/>¶ Unde ergo probatur id quod factum 
+        <lb ed="#A" n="7"/>est in re fore ab eterno vita in deo Dicedum secundum Ly 
+        <lb ed="#A" n="8"/>ram. supra. concor. Guil. e. di. xxxvi. similis colligen. Quod ad 
+        <lb ed="#A" n="9"/>productionem rerum requiritur speraliter triplex diuinum 
+        <lb ed="#A" n="10"/>attributum scilicet potentia: scientia: et voluntas. Et secundum 
+        <lb ed="#A" n="11"/>hec tria precipua sunt de hoc quesito dicenda 
+        
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e386">
+                  <lb ed="#A" n="12"/>¶ Primum quod potentia vt sic non sufficit ad hoc quod 
+        <lb ed="#A" n="13"/>creabilia viuant in deo. Quia si per impossibile iu 
+        <lb ed="#A" n="14"/>xta imaginationem quorundam gentilium sol esset caus 
+        <lb ed="#A" n="15"/>prima produceret creabilia et tamen in sole illa non viue 
+        <lb ed="#A" n="16"/>rent cum etiam ipse sol non habet vitam. sed potentia cum 
+        <lb ed="#A" n="17"/>scata bene hec duo sufficerent Et sic a fortiori in deo 
+        <lb ed="#A" n="18"/>sufficiunt vt dicantur res in deo viuere. quia potest deus 
+        <lb ed="#A" n="19"/>omnes res et nosse et operari.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e406">
+        ¶ Secundum ergo ex quae 
+        <lb ed="#A" n="20"/>potest probari. videlicet quod id quod factum est in re ab 
+        <lb ed="#A" n="21"/>eterno est vita ex dici scientia. Quia quod factum est in re 
+        <lb ed="#A" n="22"/>extra: erat ab eterno in deo per ideam que idem 
+        <lb ed="#A" n="23"/>est quod essentia diuina et vita. quia deus et diuina 
+        essen<lb ed="#A" n="24" break="no"/>tia est vita per seipam ita quod deus non solum est 
+        vi<lb ed="#A" n="25" break="no"/>uens sed etiam vita per essentiam et quia creature sunt 
+        <lb ed="#A" n="26"/>in deo secundum modum intellectualem scilicet per ideam que 
+        <lb ed="#A" n="27"/>est in essentia. ergo vita etc.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e426">
+        ¶ Tertium ex quo proba 
+        <lb ed="#A" n="28"/>ri potest: est. Ex dei voluntate. inquantum creature pexistunt 
+        <lb ed="#A" n="29"/>in voluntate verbi Nam secundum philosophum pri. de anima illa 
+        <lb ed="#A" n="30"/>dicuntur viuentia que mouent seipsa. Hoc autem 
+        ma<lb ed="#A" n="31" break="no"/>xime competit voluntati quone mouet seipsam vt dici 
+        <lb ed="#A" n="32"/>Ansel. et etiam alias potentias mouet ad agendum 
+        <lb ed="#A" n="33"/>Et ideo ea que sunt in voluntate verbi dicuntur 
+        <lb ed="#A" n="34"/>vita in ipso verbo Et quia sic est de creaturis 
+        inquan<lb ed="#A" n="35" break="no"/>tum dependent ex voluntate dei. ergo patet propositum 
+        <lb ed="#A" n="36"/>videlicet quod creature in deo erant vita ab eterno quod 
+        <lb ed="#A" n="37"/>antequam fierent erant in voluntate verbi ad produce 
+        <lb ed="#A" n="38"/>dum eas vel non producendum quoniam produxit omnino liba 
+        <lb ed="#A" n="39"/>re. Per hoc excluditur error quorumdam philosophoru. d. 
+        <lb ed="#A" n="40"/>quod deus de necessitate producit creaturas. Quod patet 
+        <lb ed="#A" n="41"/>falsum quia voluntas non vult aliquod bonum de 
+        neces<lb ed="#A" n="42" break="no"/>sitate nisi illud bonum ad quod habet necessariam 
+        ha<lb ed="#A" n="43" break="no"/>bitudinem. voluntas autem diuina cum sit infinita non 
+        <lb ed="#A" n="44"/>habet necessariam habitudinem nisi ad bonum infini 
+        <lb ed="#A" n="45"/>tum quod est bonum proprium. ergo nullam creaturam vult de 
+        <lb ed="#A" n="46"/>necessitate sed libere. et sic producit contingenter. filius 
+        <lb ed="#A" n="47"/>autem dei naturali necessitate producitur etc. Ad hec 
+        <lb ed="#A" n="48"/>difficultas. §. vir 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e475">
+               <head xml:id="Vn7Pel-d94239-Hd1e477">5</head>
+               <p xml:id="Vn7Pel-d94239-d1e480">
+                  <lb ed="#A" n="49"/>¶ Item an etiam priuatiua vt vicia 
+        <lb ed="#A" n="50"/>et defectus viuere dicantur in deo: Dicendum secundum 
+        <lb ed="#A" n="51"/>Guil. e. di. xxxvi. quod non. quia vt predictum est nihil 
+        vi<lb ed="#A" n="52" break="no"/>uit in deo nisi habeat ideam in ipso. viuere enim in 
+        <lb ed="#A" n="53"/>deo est ideari in eo sed huiusmodi privatiua et quicumque de 
+        <lb ed="#A" n="54"/>fectus non habent ideam in deo ergo etc. vide vbi 
+        vdea<lb ed="#A" n="55" break="no"/>§
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e498">
+        ¶ Proinde subtiliter Io i. dicitur Omnia per ipsum facta sed 
+        <lb ed="#A" n="56"/>et sine ipso factum est nihil id est peccatum seu privatio quae causam 
+        <lb ed="#A" n="57"/>non habet efficientem sed deficientem. et sic concluditur ibi 
+        <!--302.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 303 -->
+                  <lb ed="#A" n="58"/>dem quod factum est in ipso scilicet verbocquod idem est quod 
+        <lb ed="#A" n="59"/>conceptus diuini intellectus) vita erat 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e517">
+               <head xml:id="Vn7Pel-d94239-Hd1e519">6</head>
+               <p xml:id="Vn7Pel-d94239-d1e522">
+                  <lb ed="#A" n="60"/>¶ An aliqua perfectius pre aliis 
+        <lb ed="#A" n="61"/>viuant in deo: Dicit Guill. ibidem quod non: quia idee non 
+        <lb ed="#A" n="62"/>dicunt perfectionem simpliciter sed bene principalitatem. 
+        Re<lb ed="#A" n="63" break="no"/>lationes etiam licet non dicant perfectionem dicunt tamen princi 
+        <lb ed="#A" n="64"/>palitatem. Unde et Hilarius patri autoritatem attribuit 
+        <lb ed="#A" n="65"/>et filio subautoritatem. Item quidam relatiua sunt 
+        supra<lb ed="#A" n="66" break="no"/>positionis vt dominus et praelatus. quaedam suppositionis vt 
+        <lb ed="#A" n="67"/>seruus subditus. Hec Guill. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e542">
+                  <lb ed="#A" n="68"/>¶ An idee creaturarum viuant in 
+        <lb ed="#A" n="69"/>deo. Uide vbi vdea. §. xxiii. et sequen. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e550">
+               <head xml:id="Vn7Pel-d94239-Hd1e552">7</head>
+               <p xml:id="Vn7Pel-d94239-d1e555">
+                  <lb ed="#A" n="70"/>¶ Qualis est vita qua creabilia 
+        <lb ed="#A" n="71"/>viuunt in deo scilicet An speculatiua an practica: 
+        Do<lb ed="#A" n="72" break="no"/>ctor subtilis in reportatis Parien. e. di. xxxvi. q. iiii. 
+        <lb ed="#A" n="73"/>Et cum eo Guill. Respondet quod est practica: quia idee super 
+        <lb ed="#A" n="74"/>exemplaria ad modum artis dirigen. summum artificem 
+        <lb ed="#A" n="75"/>in operis executione. Hec Guill. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e572">
+               <head xml:id="Vn7Pel-d94239-Hd1e574">8</head>
+               <p xml:id="Vn7Pel-d94239-d1e577">
+                  <lb ed="#A" n="76"/>¶ Sed quo contingentia 
+        dican<lb ed="#A" n="77" break="no"/>tur viuere in deo et per consequens creature omnes cum sint com 
+        <lb ed="#A" n="78"/>tingentes ex libera voluntate dei vt patuit. §. iiii. 
+        <lb ed="#A" n="79"/>maxime quia vt dicitur i. posteriorum. scicentia est neciorum
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e588">
+        ¶ Item 
+        <lb ed="#A" n="80"/>quia contingentia non videntur ideam habere in deo. Uiuere autem 
+        <lb ed="#A" n="81"/>in deo nil aliud est quam propriam in deo habere ideam. Unde 
+        <lb ed="#A" n="82"/>Aug. v. super Gen. ad litteram ait. Omnia dicuntur in ipso 
+        <lb ed="#A" n="83"/>fuisse vita non in sua natura: sed quia omnia nouerat an 
+        <lb ed="#A" n="84"/>tequam fierent. Cum ergo cuncta ad extra contingenter producantur 
+        <lb ed="#A" n="85"/>Sequitur quod nullius creature sit idea in deo et per consequens 
+        <lb ed="#A" n="86"/>nula creatura viuit in deo. Ad hec respondetur ex Guill. 
+        <lb ed="#A" n="87"/>e. di. xxxvi. quod cum dicitur. Scaita est necessariorum. Dicendum 
+        <lb ed="#A" n="88"/>inquit quod ista necitas est in esse ideali in mente diuina 
+        <lb ed="#A" n="89"/>non in esse quiditatiuo vel esse essentie. vt quidam 
+        dixe<lb ed="#A" n="90" break="no"/>rum scilicet Fran. sed in mente diuina. vbi a phantasiis 
+        <lb ed="#A" n="91"/>depurati clare vident veritatem. Ut declarat doctur 
+        <lb ed="#A" n="92"/>subti. in primo di. iii. q. iiii.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e619">
+        ¶ Ista emim contemplabilia 
+        <lb ed="#A" n="93"/>videntur in li. vite tripliciter
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e624">
+        ¶ Primo tanquam in 
+        causan<lb ed="#A" n="94" break="no"/>te nobis noticiam horum
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e630">
+        ¶ Secundo tanquam in continete 
+        <lb ed="#A" n="95"/>ista obiecta propria proxima: quia idee sunt in essentia 
+        <lb ed="#A" n="96"/>diuina quae est idem diuio intellectui Unde Aug. ix. de 
+        tri<lb ed="#A" n="97" break="no"/>nita. c. vi. dicit Intueamur inuiolabilem veritatem ex qua 
+        <lb ed="#A" n="98"/>diffiniamus qualis esse mens hominis sempiternis rationibus 
+        <lb ed="#A" n="99"/>debeat. Et e. c. xvii. et. xviii. Artem inquit ineffabiliter 
+        <lb ed="#A" n="100"/>pulcram super aciem mentis simplici intelligentia 
+        capien<lb ed="#A" n="101" break="no"/>tes. in illa veritate ex qua temporaliter temporalia facta sunt omnia 
+        <lb ed="#A" n="102"/>formam conspicimus atque inde conceptam veracem 
+        noti<lb ed="#A" n="103" break="no"/>ciam tanquam verbum apud nos habemus. Item. xiiii.  
+        <lb ed="#A" n="104"/>lib. de trin. c. xv. dicit. Ubi sunt ille regule scripte nisi 
+        <lb ed="#A" n="105"/>in libro lucis. Tiber vero lucis vocatur intellectus diuinus 
+        
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e656">
+                  <lb ed="#A" n="106"/>¶ Tertio videtur ista contemplabilia in libro vite sicut in 
+        <lb ed="#A" n="107"/>obiecto remoto: ad deum cuncta referendo. Unde 
+        perfe<lb ed="#A" n="108" break="no"/>ctius triangulum nouit qui refert vt est trinitatis 
+        <lb ed="#A" n="109"/>summe vestigium quam qui nouit solum vt Euclides 
+        diffi<lb ed="#A" n="110" break="no"/>niuit. Hec omnia Guill.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e669">
+        ¶ Denique cum dicitur quod 
+        contin<lb ed="#A" n="111" break="no"/>gentia non habent ideam. Respondet ide Guill. di. xl. primi 
+        <!--303.xml-->
+        <pb ed="#A" n="304"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod bene non habent ideam inquantum sunt contingentia sed 
+        <lb ed="#A" n="2"/>sola cognoscuntur determinatione voluntatis et 
+        <lb ed="#A" n="3"/>vt sic habent viuere in deo
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e688">
+               <head xml:id="Vn7Pel-d94239-Hd1e690">9</head>
+               <p xml:id="Vn7Pel-d94239-d1e693">
+                  <lb ed="#A" n="4"/>Item quo vita in deo dicitui 
+        <lb ed="#A" n="5"/>fore lux homininm Ioam i. Et vitam erat inquit lux 
+        homi<lb ed="#A" n="6" break="no"/>num.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e702">
+        ¶ Nota secundum <name xml:id="Vn7Pel-d94239-Nd1e704">Lyram</name> ibidem quod animalia quae sunt infra 
+        <lb ed="#A" n="7"/>hominem habent bene aliquam cognitionem 
+        sensibi<lb ed="#A" n="8" break="no"/>lium. Nam asinus cognoscit stabulum suamque domum. 
+        <lb ed="#A" n="9"/>sed homo vltra hec est capax dei cognoscendo et aman 
+        <lb ed="#A" n="10"/>do vtpote ad imaginem dei factus. Et quia omnis co 
+        <lb ed="#A" n="11"/>gnitio actu fit in aliquo lumie vel intrinseco vt 
+        <lb ed="#A" n="12"/>intellectualis. vel extrinseco vt sensualis. Lux autm 
+        <lb ed="#A" n="13"/>per essentiam quae est deus et eius verbum ipsum quod est 
+        vi<lb ed="#A" n="14" break="no"/>ta vt in praecedentibus patuit. Ticet non possit esse for 
+        <lb ed="#A" n="15"/>ma intellectus nostri tamen intellectus agens qui est 
+        <lb ed="#A" n="16"/>potentia anime est quedam lux deriuata a diuina li. 
+        <lb ed="#A" n="17"/>coper quam potest homo diuina cognoscere aliquo modo sal 
+        <lb ed="#A" n="18"/>tem naturaliter. vt philosophi cognouerunt. Ideo Psalmus dicit 
+        <lb ed="#A" n="19"/>Signatum est super nos lumen vultus tui domine. Et 
+        <lb ed="#A" n="20"/>quia hec cognitio naturalis ex seipso est 
+        defectuo<lb ed="#A" n="21" break="no"/>sa ideo vt tenebra non comprehendit illam lucem diuinan 
+        <lb ed="#A" n="22"/>sed a verbo diuino quae est vita per essentiam illustrata 
+        <lb ed="#A" n="23"/>cognoscit deum altius etc. Ideo hec vita in deo id 
+        <lb ed="#A" n="24"/>est verbum diuinum est lux etc.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e749">
+               <head xml:id="Vn7Pel-d94239-Hd1e751">1</head>
+               <p xml:id="Vn7Pel-d94239-d1e754">
+                  <lb ed="#A" n="25"/>UNitas dei vnu 
+        <lb ed="#A" n="26"/>siue vnicum etc. Utrum dicat aliquid 
+        po<lb ed="#A" n="27" break="no"/>sitiuum: Respondetur secundum Guil. in primo 
+        <lb ed="#A" n="28"/>dist. vii. quod vnum dicit puram privationem seu negationem 
+        <lb ed="#A" n="29"/>nec formaliter dicit aliquid positiuum sed solam diuisionis in 
+        <lb ed="#A" n="30"/>uationem. Fundametaliter autem dicit positionem quia non pa 
+        <lb ed="#A" n="31"/>nisi in ente fundari. Unde ista est falsa homo et chime 
+        <lb ed="#A" n="32"/>mera sunt vnum.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e774">
+        ¶ Ad idem infra. §. vii. et. viii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e778">
+               <head xml:id="Vn7Pel-d94239-Hd1e780">2</head>
+               <p xml:id="Vn7Pel-d94239-d1e783">
+                  <lb ed="#A" n="33"/>¶ Quibus modis accipitur vnum 
+        <lb ed="#A" n="34"/>vel vnitas: Nota secundum e. Guill. supra. quod ista tria vnitas 
+        <lb ed="#A" n="35"/>vnum vnitio habent principium conforme sed diuersum finem 
+        <lb ed="#A" n="36"/>et differunt.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e794">
+        ¶ Unitio enim capitur vno modo actiue et sic 
+        <lb ed="#A" n="37"/>est illa actio quae vnit aliqua ad inuicem. Alio modo 
+        passi<lb ed="#A" n="38" break="no"/>ue et sic est illa passio qua aliqua vniuntur formaliter. et 
+        op<lb ed="#A" n="39" break="no"/>ponitur non distinctioni sed diuisioni
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e803">
+        ¶ Unitas vero tri 
+        <lb ed="#A" n="40"/>pliciter dicitur. Uno modo vt est principium nueri. Et si 
+        <lb ed="#A" n="41"/>Plato dicit quod vnitas est rerum principium. Secundo modo 
+        <lb ed="#A" n="42"/>dicitur vnitas vt est passio entis cum eo conuertibilis vt dicitur 
+        <lb ed="#A" n="43"/>vi. Meta. Tertio capitur vnitas vt est quoddam commune 
+        <lb ed="#A" n="44"/>vniuocum quod dicitur de vnitate primo modo et secundo modo prae 
+        <lb ed="#A" n="45"/>dicta
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e819">
+        ¶ Unum autem est concretum et eius abstractum vnitas 
+        <lb ed="#A" n="46"/>sicut homo et humanitas. Et secundum philosophum. v. meta. dicitur tripul 
+        <lb ed="#A" n="47"/>Primo vnum in substantia et sic dicitur identitas. Secundo vnim 
+        <lb ed="#A" n="48"/>in quantitate et dicitur equalitas. Tertio vnum in qualitate et 
+        <lb ed="#A" n="49"/>dicitur similitudo. Item secundum e. philosophum. i. Topicis. Aliqua dicuntur 
+        <lb ed="#A" n="50"/>vnum in goere tantum sicut homo et asinus. Secundo vnum in spi 
+        <lb ed="#A" n="51"/>tie sicut sortes et plato in homine. Tertio aliqua dicunt 
+        <lb ed="#A" n="52"/>vnum numero: et hoc iterum trifurcatur scilicet Unum numero sicut 
+        <lb ed="#A" n="53"/>subiectum et accidens vt sortes et musica eius. 
+        Se<lb ed="#A" n="54" break="no"/>cundo: vnum numero sicut diffinitio et diffinitum 
+        <lb ed="#A" n="55"/>vt homo et animal rationale etc. Tertio vnum sicut diusa 
+        nomin<lb ed="#A" n="56" break="no"/>idem sectatia vt Marcus Tullius Simon Petrus 
+        <!--303.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 304 -->
+                  <lb ed="#A" n="57"/>Et ab hoc nomine vnum venit vnicum idem signans inr 
+        <lb ed="#A" n="58"/>omnia Et differt tantum in hoc quod ex consuetudis 
+        <lb ed="#A" n="59"/>consortium negat ly vnicum quasi vno cum: conuertendo 
+        <lb ed="#A" n="60"/>id est: cum vno. Sed vnum non negat hoc consortium 
+        <lb ed="#A" n="61"/>Unde est illud Unica sola pecus inficit omne pecus 
+        <lb ed="#A" n="62"/>Ticet etiam aliquando vnum ad vnicum limitetur iuxta illud 
+        <lb ed="#A" n="63"/>TLucani. Una salus victis nullam sperare salutem 
+        <lb ed="#A" n="64"/>Ibi vna diciturid est vnica. Hec Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e870">
+               <head xml:id="Vn7Pel-d94239-Hd1e872">3</head>
+               <p xml:id="Vn7Pel-d94239-d1e875">
+                  <lb ed="#A" n="65"/>¶ Quomodo vnum vel vnitas se habeat 
+        <lb ed="#A" n="66"/>respectu entis.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e882">
+        ¶ Respondetur secundum metaphysicos. iiii. 
+        <lb ed="#A" n="67"/>li. metaph. quod primo se habent couertibiliter quia ens et 
+        <lb ed="#A" n="68"/>vnum conuertuntur secundum philosophum. Ibidem Ionque seircant ean 
+        <lb ed="#A" n="69"/>dem naturam ita quod vnum: nullam rem vel naturam 
+        ad<lb ed="#A" n="70" break="no"/>dit supra ens. quia vnum additum enti nullam 
+        diuersi<lb ed="#A" n="71" break="no"/>tatem nature affert quia idem est dicere ens et vnum 
+        <lb ed="#A" n="72"/>ens. vel ens homo. et vnus homo Tamen differunt 
+        <lb ed="#A" n="73"/>ex natura rei per rationes quia illa sunt eadem in re vel na 
+        <lb ed="#A" n="74"/>tura que eadem generatione generantur et eadem 
+        cor<lb ed="#A" n="75" break="no"/>ruptione corrumpuntur sed similis generantur ens homo et 
+        <lb ed="#A" n="76"/>vnus homo. ergo sunt idem etc.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e906">
+        ¶ Secundo Iidem metaphysic 
+        <lb ed="#A" n="77"/>upra dicunt quod ens et vnum differunt secundum rationem ex 
+        natu<lb ed="#A" n="78" break="no"/>ra rei quia entis ratio est esse vel dicit actum essendi. Et 
+        <lb ed="#A" n="79"/>vnum dicit quod est indiuisum in se et diuisum ab alio 
+        <lb ed="#A" n="80"/>sed hoc non dicit ens. Unde dicendo vnum ens ibi non 
+        <lb ed="#A" n="81"/>est nugatio. quia licet serncent eandem naturam tamen 
+        diuer<lb ed="#A" n="82" break="no"/>sis rationibus. quae diuersitas rationis ex natura rei su 
+        <lb ed="#A" n="83"/>ficit ad tollendum nugationem Ex quo patet etiam quod non 
+        <lb ed="#A" n="84"/>sunt synonymam ratione eadem.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e926">
+        ¶ Tertio dicunt quod respe 
+        <lb ed="#A" n="85"/>ctu entis vnum se habet per modum passionis sicui 
+        <lb ed="#A" n="86"/>et verum et bonum. quia sicut passio addit aliquid quaestio non 
+        <lb ed="#A" n="87"/>est de intellectu subiecti primo per se ita: et vuun 
+        <lb ed="#A" n="88"/>addit aliquid ad ens quod non est de intellectu entis. 
+        <lb ed="#A" n="89"/>Similiter verum et bonum etc.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e940">
+        ¶ Nota ergo quod sex sunt 
+        tran<lb ed="#A" n="90" break="no"/>scendentia que conuertibilia sunt. videlicet Res¬: 
+        <lb ed="#A" n="91"/>Ets: Uerum. Bonum: Aliquid: Unum. Unde versus 
+        Tran<lb ed="#A" n="92" break="no"/>scendunt cucta que signat dictio reubau id est littere hu 
+        <lb ed="#A" n="93"/>ius dictionis a quibus inchoantur praedicta 
+        transcen<lb ed="#A" n="94" break="no"/>dentia secundum primas litteras etc. Nempe tria horum 
+        tran<lb ed="#A" n="95" break="no"/>scendentium. videlicet ens res et aliquid: sunt ex 
+        par<lb ed="#A" n="96" break="no"/>te subiecti sed secundum rationes differentes. Ticet dicant 
+        <lb ed="#A" n="97"/>idem in natura. Nam primo. ens dicit naturam secundum 
+        <lb ed="#A" n="98"/>quod est Secundo: res: dicit eandem vt est in sua realitats 
+        <lb ed="#A" n="99"/>vel quiditate essentiali. Tertio: aliquid: dicit idem vt 
+        <lb ed="#A" n="100"/>est alio quid id est ab omni alio quid distinctum.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e966">
+        ¶ 
+        Deni<lb ed="#A" n="101" break="no"/>que tria transcendentia alia. videlicet verum bonum vnum 
+        <lb ed="#A" n="102"/>addunt super ens quasi passiones entis. Ita quod non 
+        <lb ed="#A" n="103"/>sunt de esse quiditatiuo entis. sed de tertio modo 
+        <lb ed="#A" n="104"/>dicendi per se Nam verum: addit super ens ordinem ade  
+        <lb ed="#A" n="105"/>quationis ad intellectum quia veritas est adequatio 
+        <lb ed="#A" n="106"/>rei ad intellectum secundum quod dicit Isaac in suis diffinitio 
+        <lb ed="#A" n="107"/>nibus. Denique bonum addit supra ens ordinem vel 
+        <lb ed="#A" n="108"/>habitudinem mentis ad appetitum quia Bonum est 
+        <lb ed="#A" n="109"/>quod omnia appetunt. Unum vero addit supra ens 
+        <lb ed="#A" n="110"/>indiuisionem rei in se et diuisionem a quolibet alio 
+        <lb ed="#A" n="111"/>etc. Hec secundum metaphysicos. iiii. metaph. lib. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e992">
+                  <lb ed="#A" n="112"/>¶ Unum esse deum probatur vbi 
+        <lb ed="#A" n="113"/>Deus. §. i.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1000">
+               <head xml:id="Vn7Pel-d94239-Hd1e1002">4</head>
+               <p xml:id="Vn7Pel-d94239-d1e1005">
+        <!--304.xml-->
+                  <pb ed="#A" n="305"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Utrum vnitas sit vere in deo 
+        <lb ed="#A" n="2"/>vt possit dici deus vnus Respondetur secundum Tho. 
+        <lb ed="#A" n="3"/>in scrip. primi di. xxiiii. q. i. ar. i. quod deus vere et summo 
+        <lb ed="#A" n="4"/>vnus est. Ratio quia secundum quod aliquid se habet ad 
+        in<lb ed="#A" n="5" break="no"/>diuisionem ita se habet ad vnitatem. Nam secundum philosophum 
+        <lb ed="#A" n="6"/>iiii. Meta. Ens dicitur vnum in eo quod non diuidiu 
+        <lb ed="#A" n="7"/>Et ideo illa que sunt indiuisa per se: verius sunt 
+        <lb ed="#A" n="8"/>vnum quam illa que sunt indiuisa per accidens: sicut 
+        <lb ed="#A" n="9"/>album et sortes in eodem. Et inter ea que sunt vnum 
+        <lb ed="#A" n="10"/>per se: verius sunt vnum que sunt indiuisa simplic 
+        <lb ed="#A" n="11"/>ter quam que sunt indiuisa respectu alicuius gene 
+        <lb ed="#A" n="12"/>ris vel specici vel proportionis. vnde etiam non 
+        di<lb ed="#A" n="13" break="no"/>cuntur simpliciter vnum sed cum determinatione scilicet vnum 
+        <lb ed="#A" n="14"/>in genere vel vnum in specie vel huiusmodi Quod 
+        <lb ed="#A" n="15"/>autem simpliciter est indiuisum: dicitur 
+        simpli<lb ed="#A" n="16" break="no"/>titer vnum quod est vnum numero. Sed quia in deo 
+        <lb ed="#A" n="17"/>est summa indiuisio in quo nulla est partium 
+        com<lb ed="#A" n="18" break="no"/>positio nec dimensio nec accidens nec aliquid 
+        in<lb ed="#A" n="19" break="no"/>herens ergo est summe et verissime vnum. Unde Bo 
+        <lb ed="#A" n="20"/>etius libro de trinitate dicit. Hoc vere vnum est in 
+        <lb ed="#A" n="21"/>quo nullus numerus est et si dici libeat vnissim 
+        <lb ed="#A" n="22"/>est. Ex qua eliditur error Democriti et Orphei 
+        ponen<lb ed="#A" n="23" break="no"/>tium infinitos esse deos quorum ira exagitatur 
+        <lb ed="#A" n="24"/>terremotus. 
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1066">
+                  <lb ed="#A" n="25"/>¶ Quomodo numerus sit in deo 
+        <lb ed="#A" n="26"/>cum sit summe vnum. Uide vbi Numerus. §. ii. et iii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1074">
+               <head xml:id="Vn7Pel-d94239-Hd1e1076">5</head>
+               <p xml:id="Vn7Pel-d94239-d1e1079">
+                  <lb ed="#A" n="27"/>¶ An deus possit tanquam vnum 
+        con<lb ed="#A" n="28" break="no"/>numerari creature:
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1086">
+        ¶ Arguitur secundum Thomam. supra. si 
+        <lb ed="#A" n="29"/>Omne quod est vnum est connumerabile alteri. S 
+        <lb ed="#A" n="30"/>deus non est connumerabilis alicui creature. Tum 
+        <lb ed="#A" n="31"/>quia deus et creatura in nullo conueniunt quoniam hoc 
+        <lb ed="#A" n="32"/>esset prius vtroque. Tum quia quod alteri 
+        con<lb ed="#A" n="33" break="no"/>numeratur est pars pluralitatis resultantis et 
+        <lb ed="#A" n="34"/>exceditur ab ea. quod deo non competit. ergo 
+        de<lb ed="#A" n="35" break="no"/>us non est vnus
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1104">
+        ¶ Respondetur secundum Tho. supra 
+        <lb ed="#A" n="36"/>concor. Rich. ead. dist. xxiiii. q. i. quod quamuis deus et 
+        <lb ed="#A" n="37"/>creatura non conueniant in aliquo vno secundum aliquem 
+        <lb ed="#A" n="38"/>modum conuenientie: tamen est considerare inter deum 
+        <lb ed="#A" n="39"/>et creaturam communitatem analogie secundum quod creati 
+        <lb ed="#A" n="40"/>re imitantur deum inquantum possunt. Unde aliquo 
+        <lb ed="#A" n="41"/>modo deus potest connumerari aliis rebus vt 
+        <lb ed="#A" n="42"/>dicatur deus et angelus sunt due res. Tamen 
+        ta<lb ed="#A" n="43" break="no"/>lis connumeratio non fit ita simpliciter et proprie sicut cre 
+        <lb ed="#A" n="44"/>ature ad inuicem conumerantur. que vniuoce in aliquo 
+        <lb ed="#A" n="45"/>vno conueniunt sicut dicimus duos homines in vna 
+        spe<lb ed="#A" n="46" break="no"/>cie vel duos equos etc. Denique ex hoc non sequitur vt ai 
+        <lb ed="#A" n="47"/>guitur vicem quod deus sit pars alicuius. vel quod deus et angelus 
+        <lb ed="#A" n="48"/>unt aliquid maius quam deus: sed sequitur tantummodo quod sint plures 
+        <lb ed="#A" n="49"/>res. Hec Tho
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1137">
+        ¶ Si ergo quiratur an deus et lapis sin 
+        <lb ed="#A" n="50"/>duo. Respondetur secundum Rich. ibidem quod ex quo vnitas dei et vni 
+        <lb ed="#A" n="51"/>tas creature non constituunt vnum simpliciter. Quoniam ea 
+        <lb ed="#A" n="52"/>que constituunt vnum simpliciter: in aliquo vniuocanut 
+        <lb ed="#A" n="53"/>sub qua conumerantur puta in genere vel specie. Nil autem 
+        <lb ed="#A" n="54"/>est commune vniuocum vnitati dici et vnitati creature 
+        <lb ed="#A" n="55"/>Unde non debet inquit concedi proprie loquendo quod deus 
+        <!--304.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 305 -->
+                  <lb ed="#A" n="56"/>et lapis sint duo. nam quamuis verissime dicatur quod 
+        <lb ed="#A" n="57"/>deus est vnns et hic lapis est vnus Non tamen 
+        <lb ed="#A" n="58"/>sequitur quod ergo deus et lapis sint duo proprie loquenm 
+        <lb ed="#A" n="59"/>do eo quod iste vnus non est ille vnus. Posunt tamen concedi 
+        <lb ed="#A" n="60"/>vel dici esse duo eo modo quo aliqua contingit sub 
+        <lb ed="#A" n="61"/>vno communi de eis analogice dicto connumerari 
+        <lb ed="#A" n="62"/>Hec Rich. Exntun cum ly Canis equiuoce dicitur de 
+        anima<lb ed="#A" n="63" break="no"/>li et de stella Ion non conceditur simpliciter proprie hec: animal 
+        <lb ed="#A" n="64"/>et stella sunt duo canes. quia iste canis non est ille 
+        ca<lb ed="#A" n="65" break="no"/>nis. sed conceditur esse duas substantias.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1182">
+        ¶ Ad que 
+        <lb ed="#A" n="66"/>situm ergo patet responsio quod deus licet sit vnus iuxta illud 
+        <lb ed="#A" n="67"/>Deutro. vi. Audi israel deus tuus deus vnus est 
+        <lb ed="#A" n="68"/>verumtamen proprie loquendo non potest connumerari 
+        crea<lb ed="#A" n="69" break="no"/>turis. quia cum deus sit in omnibus creaturis si posset 
+        <lb ed="#A" n="70"/>connumerari. ergo omnis res vna: esset due res quarum 
+        <lb ed="#A" n="71"/>vna esset deus quod est inconueniens. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1199">
+               <head xml:id="Vn7Pel-d94239-Hd1e1201">6</head>
+               <p xml:id="Vn7Pel-d94239-d1e1204">
+                  <lb ed="#A" n="72"/>¶ Sed quomodo ergo in christo 
+        conu<lb ed="#A" n="73" break="no"/>meratur deus et homo in vnum iuxta illud Athana. in 
+        <lb ed="#A" n="74"/>symbo. Dominus noster Iesus christus dei filius deus et homo 
+        <lb ed="#A" n="75"/>est. non duo tamen sed vnus est christus sicut anima rationalis et 
+        <lb ed="#A" n="76"/>caro vnus est homo ita deus et homo vnus est christus. Item 
+        <lb ed="#A" n="77"/>quomodo etiam scriptura loquitur quod christus dicit Ioh. xvii. 
+        <lb ed="#A" n="78"/>vt sint vnum scilicet fideles sicut et nos vnum sumus scilicet Pa 
+        <lb ed="#A" n="79"/>ter et filius et spiritus sanctus vnum in essentia. Et. i. 
+        <lb ed="#A" n="80"/>Corum. vi. Apistolus dicit. Qui adheret deo vnus spiritus fit 
+        <lb ed="#A" n="81"/>cumeo. ergo deus connumeratur vnum cum creatura.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1228">
+        ¶ Responde 
+        <lb ed="#A" n="82"/>detur secundum Bona. in primo dis. xxxi. per. ii. q. ii arti i. simul 
+        <lb ed="#A" n="83"/>et Lyram in postilis. super praedictas autoritates Quod ad  
+        <lb ed="#A" n="84"/>esse vnum simpliciter: requiritur conuenientia nature vt dici 
+        <lb ed="#A" n="85"/>etiam Aug. vi. de Trinitate Deus autem et creatura 
+        <lb ed="#A" n="86"/>non conueniunt in natura. ergo non possunt dici vnum 
+        sim<lb ed="#A" n="87" break="no"/>liciter sed tantummodo secundum aliquid
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1244">
+        ¶ Unde nota secundum e. 
+        <lb ed="#A" n="88"/>predictos doctur. quod vnitas dicitur quedam equalitatis sicut 
+        <lb ed="#A" n="89"/>est in diuinis personis quae habent vnitatem essentialem 
+        equa<lb ed="#A" n="90" break="no"/>liter per omnia. Secundo quedam est vnitas personalis 
+        <lb ed="#A" n="91"/>sicut est in christo dei et hominis vnitas personalis 
+        <lb ed="#A" n="92"/>Et secundum istam vnitatem connumeratur deus et homo in christo. 
+        <lb ed="#A" n="93"/>non quidem per mixtionem naturarum. sed salua 
+        proprie<lb ed="#A" n="94" break="no"/>tate vtriusque nature vt dicit Teo papa. nec per 
+        con<lb ed="#A" n="95" break="no"/>positionem partium integralium. nec per confusionem. Sed 
+        <lb ed="#A" n="96"/>per vnionem qua assumpsit deus humanam natu 
+        <lb ed="#A" n="97"/>ram. Tertio quedam est vnitas charitatis et 
+        volun<lb ed="#A" n="98" break="no"/>tatis et fidei que est vnitas imitationis et 
+        conformi<lb ed="#A" n="99" break="no"/>tatis Et de tali intelligitur illud Ioan. xvii. vt sint 
+        <lb ed="#A" n="100"/>vnum scilicet fideles per fidem et charitatem sine scismate et 
+        <lb ed="#A" n="101"/>per conformitatem imitationis diuine in voluntate et opera 
+        <lb ed="#A" n="102"/>tione. Similiter de huiusmodi vnitate intelligitur dictum apostolis 
+        <lb ed="#A" n="103"/>upra. Qui adheret deo vnus spiritus fit cum eo. Ibi enim 
+        <lb ed="#A" n="104"/>piritus non accipitur pro substantia sed pro volunta 
+        <lb ed="#A" n="105"/>te et amore id est vnius charitatis et voluntatis: fit cum 
+        <lb ed="#A" n="106"/>deo quia quod deus vult et amat: hoc et ipse homo 
+        <lb ed="#A" n="107"/>conformis per omnia in voluntate deo 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1292">
+               <head xml:id="Vn7Pel-d94239-Hd1e1294">7</head>
+               <p xml:id="Vn7Pel-d94239-d1e1297">
+                  <lb ed="#A" n="108"/>¶ Utrum vnitas de deo dicatur 
+        <lb ed="#A" n="109"/>secundum substantiam An secundum relationem. Respondetur secundum 
+        <lb ed="#A" n="110"/>Bonauen. in pri. di. xxiiii. q. i. ar. ii quod magistri et 
+        <lb ed="#A" n="111"/>aliquorum opinio fuit quod vnitas non dicitur in deo 
+        <lb ed="#A" n="112"/>positiue sed tantum priuatiue. vt per hoc quod dicitur 
+        <!--305.xml-->
+        <pb ed="#A" n="306"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>vinus deus non aliud significatur nisi quod multitudo 
+        <lb ed="#A" n="2"/>deorum excluditur. Similiter cum dicitur: vnus est pat 
+        <lb ed="#A" n="3"/>vel vnus filius: hoc dicitur quia non sunt plures 
+        pa<lb ed="#A" n="4" break="no"/>tres vel filii. et ita de similibus. Sed hec positio 
+        <lb ed="#A" n="5"/>communiter non tenetur Ratio quia cum vnum: multo completius 
+        <lb ed="#A" n="6"/>et perfectius sit in deo quam in creaturis multo 
+        for<lb ed="#A" n="7" break="no"/>malius ibi dicitur positiue. Et de hoc patuit etiam 
+        <lb ed="#A" n="8"/>vbi Numerus. §. iiii.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1334">
+        ¶ Unde melius dicendunm secundum 
+        <lb ed="#A" n="9"/>eundem Bonauen. concor. Guil. et doctur. quod exquo 
+        <lb ed="#A" n="10"/>ratio vnitatis dicit distinctionem cum indiuisione quia 
+        <lb ed="#A" n="11"/>vnum est quod in se est indiuisum et diuisum vel 
+        di<lb ed="#A" n="12" break="no"/>stinctum ab aliis. In diuinis autem essentia in se est 
+        <lb ed="#A" n="13"/>indistincta vel indiuisa et ab aliis per seipsam di 
+        <lb ed="#A" n="14"/>stincta. similiter vnaqueque persona est in se indiui 
+        <lb ed="#A" n="15"/>sa et ab aliis personis distincta per proprietatem 
+        perso<lb ed="#A" n="16" break="no"/>nalem. Ideo in diuinis est vnitas essentialis et 
+        <lb ed="#A" n="17"/>etiam est in vnaquaque persona vnitas personalis. Quoniam 
+        <lb ed="#A" n="18"/>autem in deo persona non est aliud ab essentia secundum na 
+        <lb ed="#A" n="19"/>turam. Ideo vnitas essentie et persone non sunt due 
+        <lb ed="#A" n="20"/>vnitates secundum rem essentialem sed vna scilicet natura 
+        di<lb ed="#A" n="21" break="no"/>uina in re: licet differens et distincta secundum proprietates  
+        <lb ed="#A" n="22"/>relatiuas. Unde quando ly vnus adiectiuum adiungi 
+        <lb ed="#A" n="23"/>tur termino substantiali dicit vnitatem substantialem 
+        <lb ed="#A" n="24"/>vt dicendo vnus deus. vna natura diuina etc. 
+        <lb ed="#A" n="25"/>Qando vero adiungitur termino personali dicit vnitatem 
+        <lb ed="#A" n="26"/>personalem. vt dicendo vna persona vnum suppositum. 
+        <lb ed="#A" n="27"/>etc. Patet ergo quod vnitas de deo dicitur quandoque secundum 
+        sub<lb ed="#A" n="28" break="no"/>stantiam et quandoque secundum relationem Hec Bona. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1381">
+               <head xml:id="Vn7Pel-d94239-Hd1e1383">8</head>
+               <p xml:id="Vn7Pel-d94239-d1e1386">
+                  <lb ed="#A" n="29"/>¶ Sed quid de vnitate qua 
+        perso<lb ed="#A" n="30" break="no"/>ne divine sunt vnum. An sit aliquid positiuum vel pri 
+        <lb ed="#A" n="31"/>uatiuum: Respondet Guil. in primo dis. ii difficultate 
+        <lb ed="#A" n="32"/>ii. quod illa vnitas potest capi dupliciter. Uno modo fun 
+        <lb ed="#A" n="33"/>damentaliter. et sic dicit positiuum vel positionem. quia 
+        <lb ed="#A" n="34"/>diuinam essentiam. Alio modo formaliter et sic dicit nega 
+        <lb ed="#A" n="35"/>tionem. quia formaliter non dicit nisi indiuisionem. Hec 
+        <lb ed="#A" n="36"/>Guil. Ad idem. supra. § i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1407">
+               <head xml:id="Vn7Pel-d94239-Hd1e1409">9</head>
+               <p xml:id="Vn7Pel-d94239-d1e1412">
+                  <lb ed="#A" n="37"/>¶ An vnitas attribuatur vel 
+        ap<lb ed="#A" n="38" break="no"/>proprietur patri. An spiritu sancto: Respondetur secundum Guil. 
+        <lb ed="#A" n="39"/>in primo di. xxxi. quod vnitas dicitur tripliciter. Uno modo 
+        <lb ed="#A" n="40"/>vt est passio entis secundum quod metaphysici dicunt quod ista 
+        <lb ed="#A" n="41"/>tria vnum. verum. bonum. sunt passiones entis vt. supra § 
+        <lb ed="#A" n="42"/>iii. Et isto modo nec appropatur patri nec spiritui san 
+        <lb ed="#A" n="43"/>cto. quia sic predicta capiendo conuertuntur cum ente. et 
+        <lb ed="#A" n="44"/>sic conueniunt etiam creaturis omnibus.
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1432">
+        ¶ Secundo modo 
+        <lb ed="#A" n="45"/>dicitur vnitas vt est principium numeri et sic appro 
+        <lb ed="#A" n="46"/>priatur patri quia sicut vnitas in numero nil 
+        praesup<lb ed="#A" n="47" break="no"/>bonit. sic pater in diuinis nullam praesuponit perso 
+        <lb ed="#A" n="48"/>nam cum sit prima Rursum sicut ex vnitate prodeunt 
+        <lb ed="#A" n="49"/>omnes numeri sic ex patre alie persone Unde in gre 
+        <lb ed="#A" n="50"/>co patri attribuitur monas quod signat vnitatem Hinc 
+        <lb ed="#A" n="51"/>est illud Mercurii seu Hermetis Termegisti in li. 
+        <lb ed="#A" n="52"/>diffinitionum dei. Monas gignit monadem. et in se 
+        <lb ed="#A" n="53"/>praeo reflectit ardorem: alias amorem. Hoc est Unus pa 
+        <lb ed="#A" n="54"/>ter gignit vnum filium et ambo spiritum sanctum qui est 
+        ar<lb ed="#A" n="55" break="no"/>dor. Unuod dicitur Fons viuus ignis charitas. Isto 
+        <lb ed="#A" n="56"/>modo accipiendo vnitate scilicet pro principio numeri 
+        <lb ed="#A" n="57"/>Aug. primo de doctur. christiana attribuit patri. dit. 
+        <!--305.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 306 -->
+                  <lb ed="#A" n="58"/>In patre est vnitas. In filio equalitas. Inspiritus 
+        <lb ed="#A" n="59"/>ancto vnitatis equalitatis quam concordia et
+      </p>
+               <p xml:id="Vn7Pel-d94239-d1e1474">
+        ¶ Ter 
+        <lb ed="#A" n="60"/>tio vnitas capitur vt dicitur ab vnione: et quia spiritus sanctus dicitur 
+        <lb ed="#A" n="61"/>nexus patris et filii qua vniuntur amore: Ideo vnitas 
+        <lb ed="#A" n="62"/>sic accepta appropriatur spiritu sancto. Et sic intellecit ma 
+        <lb ed="#A" n="63"/>gister in primo dist. x. vbi attribuit hec tria nomina 
+        <lb ed="#A" n="64"/>spiritu sancto vicem vnitatem sanctitatem et charitatem. Non est 
+        <lb ed="#A" n="65"/>ergo in ista attributione vnitatis contradictio quia potest 
+        at<lb ed="#A" n="66" break="no"/>ribui spiritu sancto et etiam patri. diuerso modo accipien 
+        <lb ed="#A" n="67"/>do vt patuit. Hec Guill. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1495">
+               <head xml:id="Vn7Pel-d94239-Hd1e1497">10</head>
+               <p xml:id="Vn7Pel-d94239-d1e1500">
+                  <lb ed="#A" n="68"/>¶ Qualis est vnio amoris quo 
+        <lb ed="#A" n="69"/>vniuntur tres persone divine:. Respondetur secundum Guil. in 
+        <lb ed="#A" n="70"/>primo dist. ii difficultate. iii quod est amor tripliciter 
+        di<lb ed="#A" n="71" break="no"/>ctus. Unus est amor essentialis qui est in tribus sicut 
+        <lb ed="#A" n="72"/>et essentia. Secundus est qui est in patre et filio spiritum sanctum 
+        <lb ed="#A" n="73"/>producentibus. et vocatur amor iste spiratio actiua. Ita 
+        <lb ed="#A" n="74"/>uod spiratio actiua est qua vniuntur quasi vinculo 
+        <lb ed="#A" n="75"/>amoris pater et filius in productione spiritus sancti 
+        <lb ed="#A" n="76"/>Tertius est amor qui dicitur spiratio passiua. et in 
+        <lb ed="#A" n="77"/>sta vniuntur pater et filius sicut in suo 
+        producto<lb ed="#A" n="78" break="no"/>Hec Guill. Ad hec latius vbi Diligere. §. ii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d94239-Dd1e1527">
+               <head xml:id="Vn7Pel-d94239-Hd1e1529">11</head>
+               <p xml:id="Vn7Pel-d94239-d1e1532">
+                  <lb ed="#A" n="79"/>¶ An omnia sint vnum vel 
+        habe<lb ed="#A" n="80" break="no"/>ant esse vnum propter patrem. similiter et omnia sunt 
+        equa<lb ed="#A" n="81" break="no"/>lia propter filium dei ac omnia connexa et in concordia 
+        <lb ed="#A" n="82"/>ppter spiritum sanctum. Nota de hoc quod Aug. in primo libro. 
+        <lb ed="#A" n="83"/>de doctrina christiana videtur dicere quod sic. vt allega 
+        <lb ed="#A" n="84"/>tur a magistro in primo libro. sententiarum di. xxxi. Dicit enim 
+        <lb ed="#A" n="85"/>sic. In patre est vnitas. In filio equalitas In 
+        spiritu<lb ed="#A" n="86" break="no"/>sancto vnitatis equalitatis que concordia et hec 
+        tria<lb ed="#A" n="87" break="no"/>vnum omnia propter patrem: equalia omnia propter filium. 
+        con<lb ed="#A" n="88" break="no"/>nexa omnia propter spiritum sanctum. Hec Augustinus et magister ibi. 
+        <lb ed="#A" n="89"/>Sed quomodo hec intelligi debeant Bonauen ibidem. q. 
+        <lb ed="#A" n="90"/>vlti. arti. vlt. dicit quod si accipitur vt ly omnia distribuat 
+        <lb ed="#A" n="91"/>pro creatis. tunc ly propter dicit causam formalem. 
+        Exen<lb ed="#A" n="92" break="no"/>larem secundum rem et appropriationem quia omnis vnitas 
+        <lb ed="#A" n="93"/>habet exemplar in vnitate patris. et omnis 
+        equa<lb ed="#A" n="94" break="no"/>litas in equalitate filii. et concordia in spiritu sancto. Si 
+        <lb ed="#A" n="95"/>autem ly omnia distribuit pro creatis et increatis: tunc 
+        <lb ed="#A" n="96"/>ly propter dicit causam formalem exemplar. secundum rationem 
+        <lb ed="#A" n="97"/>intelligendi appropriatam tantummodo. quia intellectus 
+        <lb ed="#A" n="98"/>noster non intelligit equalitatem in patre nisi propter 
+        <lb ed="#A" n="99"/>hoc quod habet filium per omnia exprimentem naturam 
+        <lb ed="#A" n="100"/>et potentiam in equalitate. similiter et de aliis. Denique 
+        <lb ed="#A" n="101"/>si ly propter dicit causam efficientem vel finalem cum 
+        <lb ed="#A" n="102"/>tota trinitas sit causa efficiens et finis omnis rei. 
+        <lb ed="#A" n="103"/>Ideo vt sic tam vnitas quam equalitas quam concordia 
+        <lb ed="#A" n="104"/>est tam propter patrem quam propter filium et spiritum sanctum 
+        <lb ed="#A" n="105"/>Hec Bonauen. Ad idem Tho. ibide concor. dicit 
+        <lb ed="#A" n="106"/>quod exquo vnitas est principium numeri. et in patre 
+        <lb ed="#A" n="107"/>statim inuenitur ratio principii primi. Ion propter patrem 
+        <lb ed="#A" n="108"/>in quo primo vnitas inuenitur secundum ordinem 
+        <lb ed="#A" n="109"/>nature omnia dicuntur vnum. Item quia filius 
+        <lb ed="#A" n="110"/>primo procedit a patre alius. Et sic equalitas prie 
+        <lb ed="#A" n="111"/>mo in ipsis duobus reperitur quia filius primo omnim 
+        <lb ed="#A" n="112"/>adequatur patri. ergo omnia propter filium sunt equa lia. Item quia spiritus 
+        <lb ed="#A" n="113"/>sanctus primo procedit vt amor qui habet nectere per 
+        concor<lb ed="#A" n="114" break="no"/>diam. ergo omnia propter spiritum sanctum sunt conexa etc.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

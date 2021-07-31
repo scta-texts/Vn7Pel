@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Actus animae</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Actus animae</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de6250">
+            <head xml:id="Vn7Pel-de6250-Hd1e107">Actus animae</head>
+            <div xml:id="Vn7Pel-de6250-Dd1e110">
+               <head xml:id="Vn7Pel-de6250-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de6250-d1e115">
+                  <lb ed="#A" n="22"/>Actus anime. 
+        No<lb ed="#A" n="23" break="no"/>ta secundum Guil. in i. dist. iii. Et etiam in. ii 
+        <lb ed="#A" n="24"/>li. dist. iii. parte. iii. concor. Scotorlis. quod 
+        <lb ed="#A" n="25"/>actus anime accipiuntur in triplici differentia.
+      </p>
+               <p xml:id="Vn7Pel-de6250-d1e126">
+        ¶ 
+        Pri<lb ed="#A" n="26" break="no"/>mo dicitur quaedam actus primus. et est potentia 
+        anim<lb ed="#A" n="27" break="no"/>me antequam operetur actualiter: vt dicit Philosophus. ii de 
+        <lb ed="#A" n="28"/>anima. Unde actus primus generaliter est qui inest habi 
+        <lb ed="#A" n="29"/>tualiter in quocunque: veluti in anima scientia vel 
+        cog<lb ed="#A" n="30" break="no"/>nitio habitualis. Uel scire est actus primus. similis 
+        <lb ed="#A" n="31"/>intellectus. Ab hoc actu primo procedit actus 
+        se<lb ed="#A" n="32" break="no"/>cundus: vicem considerare vel speculari actualiter 
+        <lb ed="#A" n="33"/>secundum istam sanciam vel secundum intellectum. Consimiliter in 
+        <lb ed="#A" n="34"/>voluntate velle est primus actus: a quo procedit 
+        <lb ed="#A" n="35"/>actus secundus: puta volitio actualis: vel 
+        ama<lb ed="#A" n="36" break="no"/>re actualiter: placere: et eligere. Itaque primus actus 
+        <lb ed="#A" n="37"/>dicitur res in habitu. et secundus actus dicitur 
+        opera<lb ed="#A" n="38" break="no"/>tio eius. Sicut lucere est primus effectus ignis. 
+        <lb ed="#A" n="39"/>et secundus actus eius est illuminare. Hec patent 
+        <lb ed="#A" n="40"/>per philosophum. ii de anima. et Commentatorem.
+      </p>
+               <p xml:id="Vn7Pel-de6250-d1e161">
+        ¶ Secundo er 
+        <lb ed="#A" n="41"/>go quidam dicitur actus secundus: vt est ipsa 
+        con<lb ed="#A" n="42" break="no"/>sideratio vel intellectio actualis in intellectu. et 
+        <lb ed="#A" n="43"/>volitio actualis in voluntate
+      </p>
+               <p xml:id="Vn7Pel-de6250-d1e170">
+        ¶ Tertio limitatur 
+        <lb ed="#A" n="44"/>actus pro exteriori operatione. Et sic Eustracius in. i 
+        <lb ed="#A" n="45"/>Eth. dicit: quod praxis est secundum electionem energia id est 
+        <lb ed="#A" n="46"/>effectus vel efficacia. Praxis enim in greco est 
+        <lb ed="#A" n="47"/>actus vel operatio in latino. Et isto modo Primo fit 
+        <lb ed="#A" n="48"/>in intellectum consideratio. Secundo electio in 
+        volun<lb ed="#A" n="49" break="no"/>tate. Tertio actus in executiua potentia. Ex 
+        quae<lb ed="#A" n="50" break="no"/>bus patet quod vt Guil. in i. li. supra ponit Duo sunt 
+        <lb ed="#A" n="51"/>tantummodo actus primi anime in quibus scilicet habet 
+        <lb ed="#A" n="52"/>esse imago trinitatis: puta intellectus et 
+        volun<lb ed="#A" n="53" break="no"/>tas Et similiter actus secundi sunt duo tantum istorum. v 
+        <lb ed="#A" n="54"/>actus scilicet intellectio et volitio: in quibus est imago.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6250-Dd1e197">
+               <head xml:id="Vn7Pel-de6250-Hd1e199">2</head>
+               <p xml:id="Vn7Pel-de6250-d1e202">
+                  <lb ed="#A" n="55"/>Si queras. Quid de Demo 
+        <lb ed="#A" n="56"/>ria que est tertia potentia anime An habeat huiusmodi 
+        <!--22.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 23 -->
+                  <lb ed="#A" n="57"/>actus: Guill. e. dist. iii. primi dicit: quod Memoria 
+        <lb ed="#A" n="58"/>dicit solum intellectum addito obiecto prout dicitur 
+        pa<lb ed="#A" n="59" break="no"/>res seu fecunda memoria. Nam memorie est tantum 
+        <lb ed="#A" n="60"/>modo recipere et retinere speciem intelligibilem: vt pate 
+        <lb ed="#A" n="61"/>pit li. ii. vbi Memoria. Ideo inquit Memoria 
+        <lb ed="#A" n="62"/>non habet actum quammaxime absolutum distinctum 
+        <lb ed="#A" n="63"/>ib actu intellectus et voluntatis. Et notanter 
+        in<lb ed="#A" n="64" break="no"/>quit dixi: absolutum. quia memoria bene habet actum 
+        <lb ed="#A" n="65"/>de praedicamento actionis scilicet dictionem actiuam et 
+        gigni<lb ed="#A" n="66" break="no"/>tionem. quia memoria gignit noticiam. Differunt autem 
+        <lb ed="#A" n="67"/>ictio et gignitio. quia omnis dictio est gignitio non 
+        <lb ed="#A" n="68"/>conuerso. nam lux a sole gignitur: sed non dicitur. Unde 
+        <lb ed="#A" n="69"/>et memoria habeat actum respectiuum: non tamen 
+        <lb ed="#A" n="70"/>absolutum distinctum ab actu intellectus et 
+        volun<lb ed="#A" n="71" break="no"/>tatis. De his vide vbi Anima. §. viii. hoc eodem li. 
+        <lb ed="#A" n="72"/>pro. Ibidem habetur in quibus actibus est imago 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6250-Dd1e251">
+               <head xml:id="Vn7Pel-de6250-Hd1e253">3</head>
+               <p xml:id="Vn7Pel-de6250-d1e256">
+                  <lb ed="#A" n="73"/>¶ Sed an aliquis actus dicatur me 
+        <lb ed="#A" n="74"/>llus: Guil. ibidem ponit etiam actum medium: vicem 
+        <lb ed="#A" n="75"/>quo a primo actu ad secundum deuenitur. Unde ipsa 
+        <lb ed="#A" n="76"/>elicitio actiua vel passiua actus producti dicitur actus 
+        <lb ed="#A" n="77"/>medius secundum eundem et Scotorlis. Ueruntamen 
+        veri<lb ed="#A" n="78" break="no"/>us dicitur actio vel passio quam actus. Hec Guill. 
+        <lb ed="#A" n="79"/>Ad idem pro euidentia praedictorum omnium Nota secundum 
+        <lb ed="#A" n="80"/>
+                  <name xml:id="Vn7Pel-de6250-Nd1e275">Nicolaum de Lyra</name> super Ios. vl. Quod actus primus 
+        <lb ed="#A" n="81"/>est principium actus secundi. Et accipitur actus 
+        secun<lb ed="#A" n="82" break="no"/>dus pro operatione que consistit in agere vel pati. 
+        <lb ed="#A" n="83"/>Exempli gratia Intelligere: sentire: audire: videre 
+        <lb ed="#A" n="84"/>et huiusmodi. siue dicantur actiones eius qui intelligit vel 
+        <lb ed="#A" n="85"/>sentit etc. vt quidam opinantur: siue sint passiones ab 
+        <lb ed="#A" n="86"/>pbiecto: vt alii dicunt: tamen sunt actus 
+        secun<lb ed="#A" n="87" break="no"/>di. quia necessario praesuponunt et prequirunt actum 
+        <lb ed="#A" n="88"/>primum in eodem subiecto: hoc est potentiam intelle 
+        <lb ed="#A" n="89"/>ctiuam et sensitiuam. Nam lapis non potest 
+        senti<lb ed="#A" n="90" break="no"/>re vel audire nisi habeat potentiam sensitiuam vel 
+        <lb ed="#A" n="91"/>auditiuam. Unde actio vel passio quae elicitur talis actus 
+        <lb ed="#A" n="92"/>secundus a primo: dicitur actus medius 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6250-Dd1e306">
+               <head xml:id="Vn7Pel-de6250-Hd1e308">4</head>
+               <p xml:id="Vn7Pel-de6250-d1e311">
+                  <lb ed="#A" n="93"/>¶ Quibus modis potest dici ali 
+        <lb ed="#A" n="94"/>uis actus esse primus: Nota secundum e. Guill. li. ii. 
+        <lb ed="#A" n="95"/>pist. iii. quod tripliciter. Uno modo. quia in re primo 
+        <lb ed="#A" n="96"/>inest. Et secundus quia secundo in est. Sicut si in men 
+        <lb ed="#A" n="97"/>te primo insit grammatica sceita. et secundo logica: il 
+        <lb ed="#A" n="98"/>la dicitur actus primus: ista secundus. Alio modo 
+        <lb ed="#A" n="99"/>quia prior perfectione. et sic sapientia est actus 
+        pri<lb ed="#A" n="100" break="no"/>mus. prudentia secundus. Tertio modo vt dicatur p. 
+        <lb ed="#A" n="101"/>mus in habitu res. secundus operatio eius vt praedictum est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6250-Dd1e335">
+               <head xml:id="Vn7Pel-de6250-Hd1e337">5</head>
+               <!-- 5 not listed in margin, but seems appropriate -->
+               <p xml:id="Vn7Pel-de6250-d1e342">
+                  <lb ed="#A" n="102"/>¶ Utrum in deo sit actus secun 
+        <lb ed="#A" n="103"/>dus Uide vbi Uerbum. §. xxiii.  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Summum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Summum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d89221">
+            <head xml:id="Vn7Pel-d89221-Hd1e107">Summum</head>
+            <div xml:id="Vn7Pel-d89221-Dd1e110">
+               <head xml:id="Vn7Pel-d89221-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d89221-d1e115">
+                  <lb ed="#A" n="34"/>SUmmum vel 
+        su<lb ed="#A" n="35" break="no"/>mitas. De hoc nota secundum doc. subti. in 
+        <lb ed="#A" n="36"/>iii. li. di. xiii. q. i. capitur dupliciter summi 
+        <lb ed="#A" n="37"/>tas. tertium addit Guil. in i. di. ix.
+      </p>
+               <p xml:id="Vn7Pel-d89221-d1e126">
+        ¶ Uno modo sum 
+        <lb ed="#A" n="38"/>mitas dicitur negatie. Et sic dicit idem quod non excedi ab al 
+        <lb ed="#A" n="39"/>quo. Sic ergo diuinum verbum vel ssius dicitur sumum. quia a nullo 
+        <lb ed="#A" n="40"/>exceditur.
+      </p>
+               <p xml:id="Vn7Pel-d89221-d1e135">
+        ¶ Secundo modo summitas vel summum dicitur affir 
+        <lb ed="#A" n="41"/>matiue scilicet quod omnia excedit. Istous si computetur pater autu 
+        <lb ed="#A" n="42"/>ssus inter omnia. tunc verbum diuinum non est summum. quia non et 
+        <lb ed="#A" n="43"/>cedit patrem nec spiritum sanctum. Similiter et de spiritu sancto intelli 
+        <lb ed="#A" n="44"/>gendum est. Sed si intelligantur omnia scilicet distincta in essentia 
+        <lb ed="#A" n="45"/>sic est bene summum verbum dei. Similiter sus. Et his duob 
+        <lb ed="#A" n="46"/>modis capitur summitas formaliter et non dicit nisi 
+        quem<lb ed="#A" n="47" break="no"/>dam respectum rationis: aut negatiuum sicut primo modo: aut 
+        <lb ed="#A" n="48"/>affirmatiuum sicut secundo modo
+      </p>
+               <p xml:id="Vn7Pel-d89221-d1e155">
+        ¶ Tertious summitas dicitur 
+        <lb ed="#A" n="49"/>fundamentaliter. et sic dicit quanda naturam infinitam in quo 
+        <lb ed="#A" n="50"/>fundatur iste respectus vice diuinam essentiam quae est 
+        <lb ed="#A" n="51"/>summa res et summum bonum infinitum etc.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d89221-Dd1e165">
+               <head xml:id="Vn7Pel-d89221-Hd1e167">1</head>
+               <p xml:id="Vn7Pel-d89221-d1e170">
+                  <lb ed="#A" n="52"/>TEmpus. de hoc 
+        <lb ed="#A" n="53"/>nota secundum Guil. in i. di. xxx. quod tempus de 
+        <lb ed="#A" n="54"/>tripliciter
+      </p>
+               <p xml:id="Vn7Pel-d89221-d1e179">
+        ¶ Uno modo vt continet omnem men 
+        <lb ed="#A" n="55"/>suram durationis sub eternitate scilicet ta euum quam tempus 
+        <!--285.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 286 -->
+                  <lb ed="#A" n="56"/>proprie dictum. Et sic capiendo dicit quedanglo. super illud 
+        <lb ed="#A" n="57"/>Sen. i. In principio creauit deus celu et terram In 
+        <lb ed="#A" n="58"/>principio id est nunc temporis. Tertum est enim secundum Aug. primo 
+        <lb ed="#A" n="59"/>libro contra manicheos quod non prius conditum est celum 
+        <lb ed="#A" n="60"/>quam angeli qui mensurantur Cuo et non tempore vt patebit. ii 
+        <lb ed="#A" n="61"/>lib. quia Euum est mensura incorruptibilium sed tempors 
+        <lb ed="#A" n="62"/>corruptibilium.
+      </p>
+               <p xml:id="Vn7Pel-d89221-d1e205">
+        ¶ Secundo dicitur tempors vt est mensura tam 
+        <lb ed="#A" n="63"/>motus primi modobilis quam cuiuslibet mutationis. et sic 
+        <lb ed="#A" n="64"/>accipitur ab Augu. super Gen. ad lit. vbi Dicit quod deus 
+        <lb ed="#A" n="65"/>mouet corpora per tempus et locum. Spiritus vero per 
+        <lb ed="#A" n="66"/>tempus solum Tertum est autem quod volitiones 
+        angeli<lb ed="#A" n="67" break="no"/>ce non mensurantur motu primi mobilis sed Euo. quod 
+        <lb ed="#A" n="68"/>proprie est illa duratio quae habuit principium sed non ha 
+        <lb ed="#A" n="69"/>bebit finem
+      </p>
+               <p xml:id="Vn7Pel-d89221-d1e223">
+        ¶ Tertio tempors dicitur vt est numerus motus  
+        <lb ed="#A" n="70"/>secundum prius et posterius et sic est mensura primi mobi 
+        <lb ed="#A" n="71"/>lis secundum Aristo. iiii. physi. et est secundum magistrum Nicolatum 
+        <lb ed="#A" n="72"/>boneti quidam respectus fundatus in motu primi mo 
+        <lb ed="#A" n="73"/>bilis et terminatus ad eternitatem primi motoris id est dei 
+        <lb ed="#A" n="74"/>Ita quod secundum eundem: tempors formaliter est quidam respectus 
+        <lb ed="#A" n="75"/>sed materialiter quantitas Hec Guil.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d89221-Dd1e240">
+               <head xml:id="Vn7Pel-d89221-Hd1e242">2</head>
+               <p xml:id="Vn7Pel-d89221-d1e245">
+                  <lb ed="#A" n="76"/>Ex istis patet etiam secundum 
+        Ri<lb ed="#A" n="77" break="no"/>char. de med. vil. super. ii. di. ii. q. i. Quod deus non dicitur 
+        <lb ed="#A" n="78"/>esse in tempore. Nec etiam angeli. quia secundum philosophum. iiii. 
+        physi<lb ed="#A" n="79" break="no"/>esse in tempore est mensurari tempore. Nil aut mensuratur tempori 
+        <lb ed="#A" n="80"/>nisi motus vel ratione motus. Unde licet Quies mensu 
+        <lb ed="#A" n="81"/>retur tamen inquantum est priuatio motus. Sic ergo motus per se habet 
+        <lb ed="#A" n="82"/>esse in tempore. et illud cuius esse est cum motu. ratione mod 
+        <lb ed="#A" n="83"/>mensuratur tempore. Sed quoniam esse dei est sine omni motu et 
+        <lb ed="#A" n="84"/>mutatione. ergo non est in tempore Similiter esse angeli non est mo 
+        <lb ed="#A" n="85"/>tus nec de necessitate existens in motu ergo non est in tempore 
+        <lb ed="#A" n="86"/>Unde sicut deo competit eternitas: Ita angelo Euiterni 
+        <lb ed="#A" n="87"/>tas est mensura. et corruptibilium tempors De his vbi 
+        <lb ed="#A" n="88"/>Eternitas. §. xi. et se. et li. ii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d89221-Dd1e277">
+               <head xml:id="Vn7Pel-d89221-Hd1e279">3</head>
+               <p xml:id="Vn7Pel-d89221-d1e282">
+                  <lb ed="#A" n="89"/>¶ Sed vnde est quod deus non dicitur ita in 
+        <lb ed="#A" n="90"/>tempore sicut dicitur in loco quolibet: Respondetur secundum e. Guil. in p. 
+        <lb ed="#A" n="91"/>di. xxxvii. Quia tempors sercat per modum fluxus Ideo si 
+        <lb ed="#A" n="92"/>diceretur deus in tempore sercaretur motus inesse sibi et per consequens 
+        <lb ed="#A" n="93"/>mutabilis esset Tocus autem signat per modum quietis. et 
+        <lb ed="#A" n="94"/>quies quammaxime deo attribuitur Ideo verius dicitur in lo 
+        <lb ed="#A" n="95"/>co quam in tempore Hec Guil.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

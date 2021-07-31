@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OBduratio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>OBduratio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="175"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d54349">
+            <head xml:id="Vn7Pel-d54349-Hd1e107">OBduratio</head>
+            <div xml:id="Vn7Pel-d54349-Dd1e110">
+               <head xml:id="Vn7Pel-d54349-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d54349-d1e115">
+                  <lb ed="#A" n="22"/>OBduratio Quid 
+        <lb ed="#A" n="23"/>sit et vnde dicatur. Nota secundum Guil. in pri 
+        <lb ed="#A" n="24"/>mo di. xli. iuxta sententiam Aug. lib. de 
+        <lb ed="#A" n="25"/>Predestina. sanctorum. Quod obdurari est obuiare dei man 
+        <lb ed="#A" n="26"/>datis et resistere diuine inspirationi ex voluntatis ma 
+        <lb ed="#A" n="27"/>licia. Unde secundum Bonauen. in primo dist. xl. ar. iii. q. i. 
+        <lb ed="#A" n="28"/>concor. Rich. e. dist. Obduratio in spiritualibus transla 
+        <lb ed="#A" n="29"/>tiue dicitur a duricia corporali. Nam vt dicitur. iiii. Methe. 
+        <lb ed="#A" n="30"/>Durum in corporalibus est quod non cedit tactui. Et ita 
+        <lb ed="#A" n="31"/>cor humanum dicitur obduratum quando non cedit tactui 
+        di<lb ed="#A" n="32" break="no"/>uine inspirationis et praeceptis diuinis rebellat. Et de 
+        <lb ed="#A" n="33"/>tali scribitur. Ecci. iii. Cor durum male habebit in no 
+        <lb ed="#A" n="34"/>uissimo. Et qui amat periculum peribit in illo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e147">
+               <head xml:id="Vn7Pel-d54349-Hd1e149">2</head>
+               <p xml:id="Vn7Pel-d54349-d1e152">
+                  <lb ed="#A" n="35"/>¶ Utrum obduratio sit culpa an 
+        <lb ed="#A" n="36"/>pena: Respondetur secundum Bona. vbi supra et Rich. aliosque 
+        <lb ed="#A" n="37"/>Quod sicut durum corporaliter habet tres proprietates. 
+        <lb ed="#A" n="38"/>Prima quod non suscipit impressionem. patet de sigillo quod 
+        <lb ed="#A" n="39"/>non imprimitur cere dure. Secunda quod stabilis est ad 
+        per<lb ed="#A" n="40" break="no"/>manendum in se dure patet in lapide. Tertia quod for 
+        <lb ed="#A" n="41"/>titer resistit tactui. Ita spiritualiter anima dicitur indurata 
+        <lb ed="#A" n="42"/>Primo quando non est habilis ad susceptionem gratiae eo 
+        <lb ed="#A" n="43"/>quod deus in penam peccati commissi subtrahit gratiam qua 
+        ha<lb ed="#A" n="44" break="no"/>beret mollificare cor hominis. et sic est passio consequens 
+        <lb ed="#A" n="45"/>culpam. Et hoc modo ita est pena quod non culpa vt 
+        pa<lb ed="#A" n="46" break="no"/>tebit infra Secundo quando firmiter adheret pecatis et perti 
+        <lb ed="#A" n="47"/>naciter stat in eis in tantum quod decedit in voluntate 
+        <lb ed="#A" n="48"/>obdurata. et sic est dispositio peccati praecedentis in homine 
+        <lb ed="#A" n="49"/>Tertio quando est rebellis diuinis madatis et fortiter 
+        <lb ed="#A" n="50"/>resistit inspirationi dei. Et quia huiusmodi rebellio ex ma 
+        <lb ed="#A" n="51"/>litia procedit. Ideo est peccatum graue. Nam et secundum moder 
+        <lb ed="#A" n="52"/>nos doc. potest quis peccare ex malicia dupliciter. Uno 
+        <lb ed="#A" n="53"/>modo ex malicia id est ex habitu vicioso malicie inclinan 
+        <lb ed="#A" n="54"/>te ad eligendum malum. et sic est peccatum sed non in 
+        spiritum<lb ed="#A" n="55" break="no"/>sanctum. Alio modo ex malicia certa ita quod studiose 
+        con<lb ed="#A" n="56" break="no"/>tendit abiicere omne illud quod posset impedire ele¬ 
+        <!--174.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 175 -->
+                  <lb ed="#A" n="57"/>ctionem peccati. et contemnit dei inspirationem ac abiicit vt 
+        <lb ed="#A" n="58"/>liberius peccet et hoc est peccatum in spiritum sanctum et per con 
+        <lb ed="#A" n="59"/>sequens grauissimum. vt patet in sum. Ange. et Anthon. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e216">
+               <head xml:id="Vn7Pel-d54349-Hd1e218">3</head>
+               <p xml:id="Vn7Pel-d54349-d1e221">
+                  <lb ed="#A" n="60"/>¶ Utrum obduratio cordis sit a 
+        <lb ed="#A" n="61"/>deo: arguitur quod sic. quia Rho. ix. dicitur quod deus cuius vult 
+        <lb ed="#A" n="62"/>miseretur et quem vult indurat. Item. ii Corum. iiii. De 
+        <lb ed="#A" n="63"/>us huius seculi excecauit mentes infidelium. Et Exo. 
+        <lb ed="#A" n="64"/>iiii. dicit dominus. Ego indurabo cor pharaon. In oppo 
+        <lb ed="#A" n="65"/>situm Psalmus dicit psalm. xciiii. Hodie si vocem domini aud. no 
+        <lb ed="#A" n="66"/>ite obdurare corda vestra. ergo hominis est obdurare 
+        <lb ed="#A" n="67"/>Item Aug. dicit quod deo autore non fit homo deterior. hoc 
+        <lb ed="#A" n="68"/>autem fieret si deus esset causa obdurationis. ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e243">
+        ¶ 
+        Dicen<lb ed="#A" n="69" break="no"/>dum ergo ad obiecta ex scipturis praetactis quod omnes huiusmodi 
+        <lb ed="#A" n="70"/>auctoritates quae sonant quod a deo est obduratio: 
+        intelli<lb ed="#A" n="71" break="no"/>gende sunt permissiue tantum. Et per accidens inquantum scilicet 
+        <lb ed="#A" n="72"/>deus non impertitur gratiam emollientem cor hominis illi qui non 
+        <lb ed="#A" n="73"/>vult eam habere. Et hoc iusto iudicio vt infra patebit 
+        <lb ed="#A" n="74"/>statim. Non sunt autem intelligende sic quod deus sit causa ob 
+        <lb ed="#A" n="75"/>durationis operatiue vel causatiue scilicet imittendo ma 
+        <lb ed="#A" n="76"/>liciam obdurationis etc.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e263">
+        ¶ Respondetur ergo ad quaesitum 
+        recol<lb ed="#A" n="77" break="no"/>igendo secundum Bonauem. Rich. et Tho. in scripto primi 
+        <lb ed="#A" n="78"/>di. xl. q. vlti. nec non Lyram in postil. super Heb. iii. etc 
+        <lb ed="#A" n="79"/>quod de obduratione dupliciter est loqui. et sic 
+        diuersimo<lb ed="#A" n="80" break="no"/>de potest attribui. deo vel homini sicut idem effectus 
+        di<lb ed="#A" n="81" break="no"/>uersis causis
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e276">
+        ¶ Uno modo enim obduratio dicit men 
+        <lb ed="#A" n="82"/>tem obstinatam in malo culpe. Et quia sic est peccatum. ideo 
+        <lb ed="#A" n="83"/>non est a deo. quia deus non est causa peccati vt dicit Augu. 
+        <lb ed="#A" n="84"/>Sed est a voluntate mala hominis inchoatiue et 
+        deme<lb ed="#A" n="85" break="no"/>ritorie inquantum per liberum arbitrium adheret peccato. et per 
+        <lb ed="#A" n="86"/>consequens auersus a deo totaliter quantum in se est: 
+        deme<lb ed="#A" n="87" break="no"/>retur quod deus subtrahat sibi gratiam suam mollificantem 
+        <lb ed="#A" n="88"/>cor. ideo per peccatum homo obduratur
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e295">
+        ¶ Alio modo obdura 
+        <lb ed="#A" n="89"/>tio est quedam pena iuste inflicta. et sic dicit 
+        priuatio<lb ed="#A" n="90" break="no"/>nem gratiae quae est in penam peccati perpetrati. Et sic est a deo in  
+        <lb ed="#A" n="91"/>quantum est pena iuste inflicta. Nam omne iustum est 
+        bo<lb ed="#A" n="92" break="no"/>num. et omne bonum est a deo. ergo etc. Et declaratur sic. 
+        <lb ed="#A" n="93"/>Quero namque vnde est quod iste peccator non habet gratiam 
+        <lb ed="#A" n="94"/>mollificantem cor. Ad hoc Diony. Aug. Anselmus. ac 
+        san<lb ed="#A" n="95" break="no"/>cti communiter dicunt quod non ideo. quia deus nollet dare gratiam 
+        <lb ed="#A" n="96"/>cum praesto sit omnibus dare vt patet per scripturas. Sed  
+        <lb ed="#A" n="97"/>ideo quia ipse homo non vult gratiam recipere vel 
+        ha<lb ed="#A" n="98" break="no"/>bere nec vult petere aut praeparare se ad eam vt de 
+        <lb ed="#A" n="99"/>bet. Propterea deus non infundit sibi. et hoc est 
+        iu<lb ed="#A" n="100" break="no"/>stum vt gratia non detur ei qui non vult eam. Sicut iu 
+        <lb ed="#A" n="101"/>stum est vt rex non det donum suum ei qui non vult 
+        <lb ed="#A" n="102"/>accipere Et sol non det lucem ei qui claudit oculos 
+        <lb ed="#A" n="103"/>ne videat. sic ergo fit iusto iudicio vt peccator obdu 
+        <lb ed="#A" n="104"/>retur ex malicia sua de se. et non est hoc a deo nisi 
+        <lb ed="#A" n="105"/>inquantum pena iusta pro peccato hominis illius etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e335">
+               <head xml:id="Vn7Pel-d54349-Hd1e337">4</head>
+               <p xml:id="Vn7Pel-d54349-d1e340">
+                  <lb ed="#A" n="106"/>¶ Sed difficultas est. quia idem 
+        <lb ed="#A" n="107"/>per sui praesentiam et absentiam est causa contrariorum vt 
+        di<lb ed="#A" n="108" break="no"/>citur. ii. Phy. Nauta enim per sui praesentiam est causa 
+        <lb ed="#A" n="109"/>salutis nauis et per sui absentiam est causa periclitati 
+        <lb ed="#A" n="110"/>onis eiusdem. Sed deus per sui praesentiam est causa 
+        <lb ed="#A" n="111"/>mollificationis cordis. ergo per sui absentiam est 
+        <lb ed="#A" n="112"/>causa obdurationis hominis. Item habetur extra de 
+        <lb ed="#A" n="113"/>iniur.. et dam. dato c. Si culpa. Qui occasionem  
+        <!--175.xml-->
+        <pb ed="#A" n="176"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>damni dat damnum dedisse videtur. Exemplum de ion 
+        <lb ed="#A" n="2"/>lato qui posset subditum reucare a peccato. et non 
+        re<lb ed="#A" n="3" break="no"/>uocat talis est causa malorum in subdito. Similiter fa 
+        <lb ed="#A" n="4"/>me morienti cum posses subuenire et non subuenis 
+        <lb ed="#A" n="5"/>es causa mortis. Sic in proposito
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e377">
+        ¶ Dicendum ad ir 
+        <lb ed="#A" n="6"/>mum quod non aliud concludit nisi quod sicut absentia 
+        nau<lb ed="#A" n="7" break="no"/>te est causa non per se sed per accidens periclitationis 
+        <lb ed="#A" n="8"/>nauis ita deus est causa per accidens obdurationis scilic 
+        <lb ed="#A" n="9"/>permissiue iusto iudicio. Denique secundum Ric. et 
+        Bo<lb ed="#A" n="10" break="no"/>nauem. Ad secundum dicendum quod ista argumenta bene 
+        <lb ed="#A" n="11"/>concluderent in casu scilicet de illis qui obligantur praecaue 
+        <lb ed="#A" n="12"/>re pericula talia. Deus autem quamuis posset omnia peri 
+        <lb ed="#A" n="13"/>cusa praecauere. tamen non obligatur. ideoque permittendo 
+        ob<lb ed="#A" n="14" break="no"/>durationem non dicitur causa obdurationis efficiens 
+        <lb ed="#A" n="15"/>maxime cum hoc faciat iusto iudicio. Sicut si 
+        <lb ed="#A" n="16"/>quis iudicatur occidi fame tunc nemo debet ei 
+        sub<lb ed="#A" n="17" break="no"/>uenire nec propter hoc est causa mortis illius. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e408">
+               <head xml:id="Vn7Pel-d54349-Hd1e410">5</head>
+               <p xml:id="Vn7Pel-d54349-d1e413">
+                  <lb ed="#A" n="18"/>¶ Unde est quod deus piissimus 
+        ali<lb ed="#A" n="19" break="no"/>quos induratos peccatores liberat a peccatis emolli 
+        <lb ed="#A" n="20"/>endo ad praeneintam. aliis relictis in duricia sua: 
+        Responde<lb ed="#A" n="21" break="no"/>tur secundum Tho. contra gentiles lib. iii. c. clxxxi. Et Ray 
+        <lb ed="#A" n="22"/>ne. in sum. quod hoc fit ex tribus.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e426">
+        ¶ Primo ex 
+        abun<lb ed="#A" n="23" break="no"/>dantia divine bonitatis. Nimirum quiam quamuis huiusmodi 
+        <lb ed="#A" n="24"/>induratus peccator secundum exigentiam diuine iusticie ni 
+        <lb ed="#A" n="25"/>esset dignus vt sibi infunderetur gratia emolliens 
+        <lb ed="#A" n="26"/>cor: Tamen deus vt ostendat suam bonitatem 
+        <lb ed="#A" n="27"/>immensam hoc facere dignatur praeter ordinem rebus 
+        <lb ed="#A" n="28"/>inditum. Sicut exempli gratia. Cum cecum aliquem 
+        <lb ed="#A" n="29"/>illuminat vel mortuum suscitat hoc facit preter or 
+        <lb ed="#A" n="30"/>dinem rebus inditum ex sua bonitate gratuita 
+        <lb ed="#A" n="31"/>Sed quod non omnes cecos illuminat nec omnes mor 
+        <lb ed="#A" n="32"/>tuos suscitat. licet eque posset hoc facit iuste secundum 
+        <lb ed="#A" n="33"/>ordinem rebus inditu. Sic in proposito quod aliquos 
+        <lb ed="#A" n="34"/>induratos liberat etc. Secundo hoc fit ex euiden 
+        <lb ed="#A" n="35"/>tia divine pietatis vt sicut in reprobis ostendit 
+        <lb ed="#A" n="36"/>deus ordinem iusticie eos damnando iuste. ita in re 
+        <lb ed="#A" n="37"/>uocatis aliquibus iuduratis puta Paulo aplo 
+        <lb ed="#A" n="38"/>latrone iuxta crucem pendente etc. ostenderet ma 
+        <lb ed="#A" n="39"/>gnitudinem misericordie et pietatis. Et hoc docet 
+        <lb ed="#A" n="40"/>apostolus Rho. ix. etc. Nam si nullus durus reuca 
+        <lb ed="#A" n="41"/>retur non appareret dici misercordia tammagna Etsi omnes 
+        <lb ed="#A" n="42"/>duri reucarentur ac nullus damnaretur non appare 
+        <lb ed="#A" n="43"/>ret dici iusticia
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e474">
+        ¶ Tertio fit ex complacentia diuine 
+        <lb ed="#A" n="44"/>voluntatis. Sicut enim ex voluntate dei processit vt 
+        <lb ed="#A" n="45"/>fierent creature ex nihilo: et quedam aliis dignie 
+        <lb ed="#A" n="46"/>res. Et sicut ex voluntate artificis puta figuli 
+        pro<lb ed="#A" n="47" break="no"/>cedit vt ex eadem materia luti similiter disposita: 
+        que<lb ed="#A" n="48" break="no"/>dam vasa formaret ad vsus honorabiles scilicet pic 
+        <lb ed="#A" n="49"/>caria pro mensa amphoras etc. Et quedam ad vsus 
+        <lb ed="#A" n="50"/>ignobiles vt ollas et cacabos igne deturpandos  
+        <lb ed="#A" n="51"/>vrinale et huiusmodi. Sic in proposito vt docet etiam apo 
+        <lb ed="#A" n="52"/>stolus ad Rho. ix. hoc eodem exemplo. Exquo et 
+        <lb ed="#A" n="53"/>tota natura humani generis facta est massa cor 
+        <lb ed="#A" n="54"/>rupta et vilis per peccatu primorum parentum. Siquas 
+        <lb ed="#A" n="55"/>deus ex hominibus velit liberare vt sint ad gloriam 
+        <lb ed="#A" n="56"/>celestem facit ex bonitate sua secundum complacentiam sue 
+        <lb ed="#A" n="57"/>voluntatis. et ex misericordia Quod aut alios in cul 
+        <!--175.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 176 -->
+                  <lb ed="#A" n="58"/>pa relinquit iuste facit sicut ille demeruit etc.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e516">
+        ¶ Ad  
+        <lb ed="#A" n="59"/>id exatum ponit Aug. xxiii. q iiii. c. 
+        Nabuchodono<lb ed="#A" n="60" break="no"/>sor. de pharaone qui flagellis induratus est et 
+        <lb ed="#A" n="61"/>periit. Et de Nabuchodo. qui flagellatus peni 
+        <lb ed="#A" n="62"/>tuit et regnum quod perdiderat reaccepit deo ordinam 
+        <lb ed="#A" n="63"/>te et iuste Cum tamen ambo essent conformes In natura 
+        <lb ed="#A" n="64"/>quia homines In dignitate quia reges. et in causa quia am 
+        <lb ed="#A" n="65"/>bo captiuum dei populum tenebant. Quid ergo fecit 
+        <lb ed="#A" n="66"/>eorum fines diuersos. Nisi quia iste ingemuit Ille autem 
+        <lb ed="#A" n="67"/>repugnauit contra misercordiam dei Et concludit ibi 
+        <lb ed="#A" n="68"/>Augu. quod boni per gratiam dei corriguntur non 
+        neces<lb ed="#A" n="69" break="no"/>sitate predestinationis Mali autem libero arbitrio 
+        <lb ed="#A" n="70"/>pereunt. Et vtrumque iustum est a deo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e546">
+               <head xml:id="Vn7Pel-d54349-Hd1e548">6</head>
+               <p xml:id="Vn7Pel-d54349-d1e551">
+                  <lb ed="#A" n="71"/>¶ Sed vnde est quod deus permittit 
+        <lb ed="#A" n="72"/>indurari aliquos in peccatis ita vt pereant. Cum tamt 
+        <lb ed="#A" n="73"/>dicente psalmos. Suauis dominus vniuersis et misera 
+        <lb ed="#A" n="74"/>tiones est. super o. etc. Respondetur secundum Alex. de Ales. 
+        pri<lb ed="#A" n="75" break="no"/>ma parte et Tho. ac Rayne. in summa. Aliosque doc. 
+        <lb ed="#A" n="76"/>super i. distin. xli. concor. quod huius est triplex causa 
+        <lb ed="#A" n="77"/>concurrens insimul scilicet Prima est causa deficiens. 
+        <lb ed="#A" n="78"/>Et hoc est liberum arbitrium quod eligit malum et sic 
+        de<lb ed="#A" n="79" break="no"/>ficit a bono. Secunda causa est per mittens scilicet deus cuius 
+        <lb ed="#A" n="80"/>iusticia dictat vt homines permittat in suo libero 
+        ar<lb ed="#A" n="81" break="no"/>bitrio. Et non cogat eum qui non vult accipere gratiam 
+        <lb ed="#A" n="82"/>nec surgere a peccatis. Et patet ex precedentibus. Ter 
+        <lb ed="#A" n="83"/>tia est causa promerens scilicet peccatum. tam originale quam 
+        <lb ed="#A" n="84"/>actuale Nam homo per peccatum suum demeretur 
+        per<lb ed="#A" n="85" break="no"/>dere gratiam dei et separari a deo Esa. lix. Iniquita 
+        <lb ed="#A" n="86"/>tes vestre diuiserunt inter vos et deum. Et per 
+        conse<lb ed="#A" n="87" break="no"/>quens homo induratur ex propria malicia.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e590">
+        ¶ De pre 
+        <lb ed="#A" n="88"/>scriptis istis duobus. §. vide etiam vbi de Prede 
+        <lb ed="#A" n="89"/>stinatione. §. xix. et se. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e598">
+               <head xml:id="Vn7Pel-d54349-Hd1e600">7</head>
+               <p xml:id="Vn7Pel-d54349-d1e603">
+                  <lb ed="#A" n="90"/>¶ Quibus viciis occasionaliter 
+        <lb ed="#A" n="91"/>indurari magis demeretur homo Nota secundum doctur. 
+        <lb ed="#A" n="92"/>sertim Anton. in sua summa per. ii. ti. viii. c. ix. 
+        col<lb ed="#A" n="93" break="no"/>ligendo
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e614">
+        ¶ Primo hominem praecipue fac indurari in 
+        <lb ed="#A" n="94"/>malicia sua Auaricia. Unde Bern. ad Euge. dici 
+        <lb ed="#A" n="95"/>Prudentius te abstrahe a curis huius seculi quam 
+        <lb ed="#A" n="96"/>traharis ab illis ne paulatim ducaris ad cor du 
+        <lb ed="#A" n="97"/>rum Exemplum de Iuda proditore et principibus sa 
+        <lb ed="#A" n="98"/>cerdotum ac phariseis quos indurauit auaricia. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e627">
+                  <lb ed="#A" n="99"/>¶ Secundo indurat bonorum temporalium prospera fortu 
+        <lb ed="#A" n="100"/>na Unde Aug. ad marcellinum dicit Nil infelicius 
+        <lb ed="#A" n="101"/>felicitate: id est prosperitate peccantium quia mala vo 
+        <lb ed="#A" n="102"/>luntas velut hostis interior roboratur id est induratur 
+        <lb ed="#A" n="103"/>in sua malicia ex prosperitate sua Exemplum de An 
+        <lb ed="#A" n="104"/>tiocho rege durissimo in prosperitate sed postea 
+        <lb ed="#A" n="105"/>in infirmitate se recoguit. ii. Mach. ix.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e645">
+        ¶ Tertio 
+        <lb ed="#A" n="106"/>indurat criminum assuefactio diutina Nam secundum 
+        <lb ed="#A" n="107"/>philosophum de memoria et reminiscen. Consuetudo est 
+        <lb ed="#A" n="108"/>altera natura. Et Greg. dicit Difficile surgit quem 
+        <lb ed="#A" n="109"/>moles male consuetudinis premit Exemplum de 
+        <lb ed="#A" n="110"/>assuetis in luxuria et huiusmodi.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e659">
+        ¶ Quarto indurat 
+        <lb ed="#A" n="111"/>diuturna ira odium et inuidia quia sic frigescit 
+        <lb ed="#A" n="112"/>cor a dei amore et congelatur sicut glacies ex 
+        frigi<lb ed="#A" n="113" break="no"/>ditate indurata. Sen. xlix. Maledictus furor eorum 
+        <!--176.xml-->
+        <pb ed="#A" n="177"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quia pertinax et indignatio eorum quia dura etc.
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e677">
+        ¶ 
+        Ui<lb ed="#A" n="2" break="no"/>timo indurat emende contemptus etiam per flagella. Et 
+        <lb ed="#A" n="3"/>ideo Greg. dicit. Quos praesentia flagella non 
+        corri<lb ed="#A" n="4" break="no"/>gunt ad futura supplicia perpetua perducunt. Nam 
+        <lb ed="#A" n="5"/>Ecci. iii. Cor durum male habebit in nouissimo. 
+        <lb ed="#A" n="6"/>Exemplum de iudeis a deo multipliciter flagellatis 
+        <lb ed="#A" n="7"/>et de regno eiectis et adhuc induratis  
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d54349-Dd1e694">
+               <head xml:id="Vn7Pel-d54349-Hd1e696">8</head>
+               <p xml:id="Vn7Pel-d54349-d1e699">
+                  <lb ed="#A" n="8"/>¶ An homo qui cadit a 
+        iusticia<lb ed="#A" n="9" break="no"/>induratur in malicia coronam suam sic perdat quod alius 
+        <lb ed="#A" n="10"/>resurgens a malicia illam accipiat: Ad hoc 
+        scriptu<lb ed="#A" n="11" break="no"/>ra satis clara est Apoc. iii dicit. Tene quod habes no 
+        <lb ed="#A" n="12"/>alius accipiat coronam tuam Super quo Aug. lib. de 
+        <lb ed="#A" n="13"/>praedestina. sanctorum dicit sic. Predestinatorum ita certus 
+        <lb ed="#A" n="14"/>est numerus vt nec addatur eis quicquam. nec 
+        minu<lb ed="#A" n="15" break="no"/>atur ex eis. Tene ergo quod habes ne alius accipi 
+        <lb ed="#A" n="16"/>at coronam tuam. Si autem alius non est accepturus  
+        <lb ed="#A" n="17"/>nisi iste perdideritcertus est numerus electorum Hec 
+        <lb ed="#A" n="18"/>ille. Ex auibus patet ad quesitum
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e725">
+        ¶ Sed restant du 
+        <lb ed="#A" n="19"/>bia scilicet
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e730">
+        ¶ Quo coronam suam homo dicitur perdere. Ad 
+        <lb ed="#A" n="20"/>quod respondetur secundum Tho. prima parte. q. xxiii. ar. vi. in 
+        sol<lb ed="#A" n="21" break="no"/>primi argumenti dicit quod corona dicitur esse alicuius du 
+        <lb ed="#A" n="22"/>pliciter vicem. Uno modo ex praedestinatione diuina. 
+        <lb ed="#A" n="23"/>et sic nullus perdit coronam suam quam deus ille prae 
+        <lb ed="#A" n="24"/>uidit. Alio modo ex merito gratie. Quod enim me 
+        <lb ed="#A" n="25"/>remur quodammodo nostrum est. Et sic homo 
+        quam<lb ed="#A" n="26" break="no"/>diu est in gratia meretur coronam. Et potest illam perdere 
+        <lb ed="#A" n="27"/>per peccatum subsequens etc. Qui si iterum conuertitur ad pe 
+        <lb ed="#A" n="28"/>nitentiam recuperare potest eam. Si aut induratur non 
+        <lb ed="#A" n="29"/>recuprabit. Sed in tali duricia moriens in pecca 
+        <lb ed="#A" n="30"/>tis in eternum peribit
+      </p>
+               <p xml:id="Vn7Pel-d54349-d1e756">
+        ¶ Sed quomodo coronam vnius 
+        <lb ed="#A" n="31"/>perditam alter accipiat Tho. ibidem dicit quod 
+        duo<lb ed="#A" n="32" break="no"/>bus modis. Uno modo inquantum in officium eius 
+        <lb ed="#A" n="33"/>vel in locum illius surrogatur. quia vt ait idem et 
+        <lb ed="#A" n="34"/>concor. Lyra in postilla super Apoc. iii. Deus non sic 
+        <lb ed="#A" n="35"/>permittit aliquos cadere quin alios erigat secundum 
+        il<lb ed="#A" n="36" break="no"/>lud Iob. xxxiiii. Conteret multos et inumerabiles 
+        <lb ed="#A" n="37"/>alios stare faciet pro eis. Sic enim in locum caden 
+        <lb ed="#A" n="38"/>tium angelorum substituti sunt homines. Et in 
+        lo<lb ed="#A" n="39" break="no"/>cum Iude apostolis Matthias. Et in locum gentis 
+        iu<lb ed="#A" n="40" break="no"/>daice christiani. Alio modo inquantum de bonis 
+        <lb ed="#A" n="41"/>que alius fecit in patria gaudebit iste specialiter 
+        <lb ed="#A" n="42"/>substitutus. Nam ibi vnusquisque gaudebit de bo 
+        <lb ed="#A" n="43"/>nis tam a se quam ab aliis factis. Hec ex Tho. Item 
+        <lb ed="#A" n="44"/>exemplum de. xl. Martyribus quorum vnus 
+        ceci<lb ed="#A" n="45" break="no"/>dit et eius coronam clauicularius ad fidem conuei 
+        <lb ed="#A" n="46"/>sus accepit patet in legenda:
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Affectus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Affectus</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="20"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de5364">
+            <head xml:id="Vn7Pel-de5364-Hd1e107">Affectus</head>
+            <div xml:id="Vn7Pel-de5364-Dd1e110">
+               <head xml:id="Vn7Pel-de5364-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de5364-d1e115">
+                  <lb ed="#A" n="52"/>Affectus scilicet 
+        amo<lb ed="#A" n="53" break="no"/>ris dei. Circa hoc Queritur primo de 
+        <lb ed="#A" n="54"/>affectus ad deum magnitudine. 
+        Se<lb ed="#A" n="55" break="no"/>cundo de fortitudine. Tertio de 
+        dul<lb ed="#A" n="56" break="no"/>cedine. seu teneritudine. De his patet per se. q.
+      </p>
+               <p xml:id="Vn7Pel-de5364-d1e128">
+        <!--19.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 20 -->
+                  <lb ed="#A" n="57"/>¶ Utrum deus super omnia maiori  
+        <lb ed="#A" n="58"/>effectu sit amandus: Respondetur breviter secundum 
+        Sco<lb ed="#A" n="59" break="no"/>tum super. iii. li. di. xx vii. aliosque per conclusionem quod 
+        <lb ed="#A" n="60"/>sic. Ratio. Preceptum est enim quod deus diligatur super 
+        <lb ed="#A" n="61"/>omnia: vtpote summum bonum. Istud autem diligere su 
+        <lb ed="#A" n="62"/>per omnia: intelligendum est tam extensiue quam intensiue. 
+        <lb ed="#A" n="63"/>Extensiue inquam: ita quod magis velit omnia alia etiam 
+        <lb ed="#A" n="64"/>seipsum non esse quam deum non esse: vel omnia alia 
+        <lb ed="#A" n="65"/>offendere aut amittere quam deum. Intensiue autem hoc 
+        <lb ed="#A" n="66"/>est quod ex maiori affectum velit deo bene esse et eius 
+        <lb ed="#A" n="67"/>praecepta implere quam alteri cuicumque parere contra dei 
+        <lb ed="#A" n="68"/>voluntate. prout de his modis diligendi latius 
+        pa<lb ed="#A" n="69" break="no"/>tebit. iii. li. de dei dilectione vel amore. ergo etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5364-Dd1e166">
+               <head xml:id="Vn7Pel-de5364-Hd1e168">2</head>
+               <p xml:id="Vn7Pel-de5364-d1e171">
+                  <lb ed="#A" n="70"/>¶ Quid siquis affectum 
+        fortio<lb ed="#A" n="71" break="no"/>rem siue feruentiorem et magis ardente sentit in se 
+        <lb ed="#A" n="72"/>erga filium vel fratrem aut vxorem et huiusmodi: quam erga 
+        <lb ed="#A" n="73"/>deum: Respondetur secundum Scotum vbi supra quod affectio 
+        di<lb ed="#A" n="74" break="no"/>lectionis dei debet esse super omnia quantum ad 
+        firmi<lb ed="#A" n="75" break="no"/>tatem: non quantum ad feruorem seu dulcedinem. Unod 
+        <lb ed="#A" n="76"/>talis affectionis passio erga filios vel huiusmodi non 
+        <lb ed="#A" n="77"/>obstat: dum tamen quis firmior sit in repugnando 
+        <lb ed="#A" n="78"/>opposito dilectionis divine id est peccato. Unde in 
+        <lb ed="#A" n="79"/>dilectione dei ille est fortior qui fortius repugnat 
+        <lb ed="#A" n="80"/>contra peccatum mortale. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5364-Dd1e198">
+               <head xml:id="Vn7Pel-de5364-Hd1e200">3</head>
+               <p xml:id="Vn7Pel-de5364-d1e203">
+                  <lb ed="#A" n="81"/>¶ Utrum deum diligere dulcio 
+        <lb ed="#A" n="82"/>ri vel teneriori affectu sit maioris charitatis ve  
+        <lb ed="#A" n="83"/>ra probatio in actu vel effectu: et eius essentiali 
+        gra<lb ed="#A" n="84" break="no"/>dum: Respondetur secundum Scotum ibidem per conclusionem quod 
+        <lb ed="#A" n="85"/>non. quia vt praedictum est dilectio et charitas dei 
+        de<lb ed="#A" n="86" break="no"/>bet esse super omnis quantum ad firmitatem: non quantum 
+        <lb ed="#A" n="87"/>ad feruore vel etiam dulcedinem amoris. 
+        Proba<lb ed="#A" n="88" break="no"/>io. Quia hoc solum magis diligitur veracius quod di 
+        <lb ed="#A" n="89"/>ligitur firmius. ita quod cuicunque magis volo bo 
+        <lb ed="#A" n="90"/>num et accidere malum omnino nollem sed pro illius 
+        <lb ed="#A" n="91"/>bono saluando ex amore meipsum exponerem for 
+        <lb ed="#A" n="92"/>ius vel constantia firmiori: illum vere dicor 
+        ma<lb ed="#A" n="93" break="no"/>gis diligere. Quod patet per philosophum. viii. Eth. 
+        di<lb ed="#A" n="94" break="no"/>centem quod amor vere amicicie fundatur super beniuo 
+        <lb ed="#A" n="95"/>entia: hoc est vt bonum velim ipsi dilecto. Et hoc 
+        <lb ed="#A" n="96"/>loquendo de amore qui est actus voluntatis: non 
+        <lb ed="#A" n="97"/>de illo amore qui est passio appetitus sensitiui. 
+        <lb ed="#A" n="98"/>Unde patet quod dulcius vel teneriori affectu 
+        dilige<lb ed="#A" n="99" break="no"/>re non probat esse maiorem charitatem. sed diligere 
+        fir<lb ed="#A" n="100" break="no"/>mius bene probat. quoniam christo teste Iobs. xv. 
+        Ma<lb ed="#A" n="101" break="no"/>iorem charitatem nemo habet quam vt animam suam 
+        <lb ed="#A" n="102"/>ponat quis pro amicis suis. Unde concluditur secundum 
+        Sco<lb ed="#A" n="103" break="no"/>tum quod deum debemus diligere super omnia tam extensiue 
+        <lb ed="#A" n="104"/>quam intensiue id est maiori affectu: simpliciter 
+        loquen<lb ed="#A" n="105" break="no"/>do de amoris affectum tali qui scilicet magis 
+        repu<lb ed="#A" n="106" break="no"/>gnat opposito effectui id est peccato mortali: ita quod 
+        ma<lb ed="#A" n="107" break="no"/>gis eligeret quis mori quam deum offenderet 
+        cuius<lb ed="#A" n="108" break="no"/>cunque creature amore etc. vt patet in exemplo de 
+        <lb ed="#A" n="109"/>martyribus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5364-Dd1e269">
+               <head xml:id="Vn7Pel-de5364-Hd1e271">4</head>
+               <p xml:id="Vn7Pel-de5364-d1e274">
+                  <lb ed="#A" n="110"/>¶ Sed dicit. Unde est ergo quod aliqui 
+        <lb ed="#A" n="111"/>diligunt deum dulcius et feruentius: licet non 
+        firmi<lb ed="#A" n="112" break="no"/>us: Respondetur secundum eundem Sco. quod hoc non est 
+        <!--20.xml-->
+        <pb ed="#A" n="21"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ex excessu vel maioritate charitatis vel amoris  
+        <lb ed="#A" n="2"/>intellectiui in eis. sed forte ex passione amoris 
+        alio<lb ed="#A" n="3" break="no"/>cuius sensitiui in tali hominie. Sicut Exempli gratia 
+        <lb ed="#A" n="4"/>Aliqui deuoti sentiunt aliquam maiorem dulcedinem. 
+        <lb ed="#A" n="5"/>quam alii multo solidiores in amore dei qui centu 
+        <lb ed="#A" n="6"/>plo promptius sustinerent martyrium quam illi deuo 
+        <lb ed="#A" n="7"/>ti. Nec talis dulcedo amoris est actus voluntati 
+        <lb ed="#A" n="8"/>elicitus: sed passio quaedam actui attributa quae de 
+        <lb ed="#A" n="9"/>allicit peruulos: ne deficiant in via Hec ex Sco 
+        <lb ed="#A" n="10"/>Unde secundum Bern. tales deuoti non debent se 
+        nimi<lb ed="#A" n="11" break="no"/>efferre propter huiusmodi dulcedinem deuotionis quasi ipsi 
+        <lb ed="#A" n="12"/>sint maioris charitatis prae aliis carentibus tali 
+        dul<lb ed="#A" n="13" break="no"/>cedie: quia falluntur tali errore. Sicut enim mustum 
+        <lb ed="#A" n="14"/>plus quidem feruet quam vetus vinum: non tamen propterea 
+        se<lb ed="#A" n="15" break="no"/>quitur quod sit vel erit melius vinum quam hoc verus bao 
+        <lb ed="#A" n="16"/>num vinum. Sic in proposito. Ad idem secundum Bona 
+        <lb ed="#A" n="17"/>uen. super. iii. dist. xxxii. Quamuis Iobnes apostolus 
+        di<lb ed="#A" n="18" break="no"/>lexit christum dulcius et familiarius: Petrus tamo 
+        <lb ed="#A" n="19"/>dilexit fortius. Uerumtamen quis eorum maioris sit 
+        chari<lb ed="#A" n="20" break="no"/>tatis et altioris sanctitatis: in praesenti iudicare non 
+        <lb ed="#A" n="21"/>possumus. sed in patria videbimus. quia ille 
+        ma<lb ed="#A" n="22" break="no"/>ior est qui firmius exposuisset se pro dei amore ad 
+        <lb ed="#A" n="23"/>mortem et quancunque penam sustinendum. 
+        Proba<lb ed="#A" n="24" break="no"/>tio enim dilectionis est exhibitio operis secundum Gres 
+        <lb ed="#A" n="25"/>et maxime in sufferendo quique aduersa. Ted enim tam 
+        <lb ed="#A" n="26"/>Petrus quam Iobnes apostolis ambo se morti 
+        exposuis<lb ed="#A" n="27" break="no"/>sent pro christo libentissime: tamen vnus eorum maiori 
+        cha<lb ed="#A" n="28" break="no"/>ritate id fecisset quam alter. et sic ille esset maior. De 
+        <lb ed="#A" n="29"/>hoc libro. iii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

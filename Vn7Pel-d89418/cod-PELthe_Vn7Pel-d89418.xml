@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Theologia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Theologia</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="286"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d89418">
+            <head xml:id="Vn7Pel-d89418-Hd1e107">Theologia</head>
+            <div xml:id="Vn7Pel-d89418-Dd1e110">
+               <head xml:id="Vn7Pel-d89418-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d89418-d1e115">
+                  <lb ed="#A" n="96"/>Theologia De 
+        <lb ed="#A" n="97"/>hoc vnde sic dicatur: Nota secundum Guil. 
+        <lb ed="#A" n="98"/>in prol. primi li.o quod theologia iuxta Gran. 
+        <lb ed="#A" n="99"/>maticos dicitur a theos quod est deus et lc 
+        <lb ed="#A" n="100"/>gos quod est sermo vel ratio quaesi sermo de deo vel ratio 
+        <lb ed="#A" n="101"/>Et accipitur tripliciter. videlicet communiter. et prie. et 
+        propriissi<lb ed="#A" n="102" break="no"/>me. vt habter in prolo. hus libro q. vii. §. xxv. Unde hoc partranseo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d89418-Dd1e134">
+               <head xml:id="Vn7Pel-d89418-Hd1e136">2</head>
+               <p xml:id="Vn7Pel-d89418-d1e139">
+                  <lb ed="#A" n="103"/>¶ An theologicum obiectum solum 
+        <lb ed="#A" n="104"/>mouet in deo intentionem eius ad omne scibile: Respondet 
+        <lb ed="#A" n="105"/>Guil. supra. quod sic Et dicit quod omnis sectia est deo theologia. 
+        <lb ed="#A" n="106"/>Non sic est in beatis Angelis. et in nobis. quia habemus 
+        <lb ed="#A" n="107"/>intellectum mobilem a quiditatibus creatis Sed in deo solum 
+        <lb ed="#A" n="108"/>obiectum theologicum(quod est essentia dici) mouet intentionem 
+        <lb ed="#A" n="109"/>seu intuitionem dici ad omne scibile. vel dicam quai mouet: 
+        pro<lb ed="#A" n="110" break="no"/>pter modum intelligendi quia in deo non est motus nec discuris  
+        <!--286.xml-->
+        <pb ed="#A" n="287"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Unde deus in omnibus intendit seipsum prouer. xvi. Uniuersa pro 
+        <lb ed="#A" n="2"/>piter seipsum operatus est dominus. Ad hoc vbi vdea. §. xxvii. in fi. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d89418-Dd1e171">
+               <head xml:id="Vn7Pel-d89418-Hd1e173">3</head>
+               <p xml:id="Vn7Pel-d89418-d1e176">
+                  <lb ed="#A" n="3"/>¶ Sed inter hec duo Theologia 
+        <lb ed="#A" n="4"/>et Theurgia quae differentia sit notat idem Guil. supra quod 
+        <lb ed="#A" n="5"/>secundum commentatorem super ecclesiastica hierar. Dionysiui 
+        <lb ed="#A" n="6"/>inter theologiam et theurgiam differentia est ista. quia 
+        <lb ed="#A" n="7"/>Theologia artatur ad verus testamtum. Theurgia 
+        <lb ed="#A" n="8"/>autem ad nouum. Ita quod theologia dicitur noticia antio 
+        <lb ed="#A" n="9"/>testamenti. Sed theurgia noticia noui vbi christus per 
+        <lb ed="#A" n="10"/>fectius docuit operari. Theurgia enim idem est quod 
+        <lb ed="#A" n="11"/>scatia bene operandi de deo. Hec ex Guil. orli. etc 
+        
+      </p>
+               <p xml:id="Vn7Pel-d89418-d1e198">
+                  <lb ed="#A" n="12"/>¶ De theologie subiecto patuit 
+        <lb ed="#A" n="13"/>in quaestione prol. et plura ibi.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liberum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liberum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="137"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d42306">
+            <head xml:id="Vn7Pel-d42306-Hd1e107">Liberum</head>
+            <div xml:id="Vn7Pel-d42306-Dd1e110">
+               <head xml:id="Vn7Pel-d42306-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d42306-d1e115">
+                  <lb ed="#A" n="101"/>Liberum vel liber 
+        <lb ed="#A" n="102" break="no"/>tas arbitrii. Nota secundum Guil. super 
+        <lb ed="#A" n="103"/>primo di. vi. Tibertas dicitur a liber 
+        li<lb ed="#A" n="104" break="no"/>bera liberum. Quia libitum et placitum ipsius 
+        <lb ed="#A" n="105"/>sunt voluntatis  
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d42306-Dd1e129">
+               <head xml:id="Vn7Pel-d42306-Hd1e131">2</head>
+               <p xml:id="Vn7Pel-d42306-d1e134">
+                  <lb ed="#A" n="106"/>¶ Unde notat idem quod tria ista se 
+        <lb ed="#A" n="107"/>habent per ordinem et differunt vicem. Tiberum 
+        <lb ed="#A" n="108"/>simplicitur. Tiberum arbitrium et Ticitum
+      </p>
+               <p xml:id="Vn7Pel-d42306-d1e143">
+        ¶ Liberum sim 
+        <lb ed="#A" n="109"/>pliciter enim est indifferens ad necessitatem et 
+        contin<lb ed="#A" n="110" break="no"/>gentiam sicut patet in diuinis Eadem enim voluntate dei 
+        <lb ed="#A" n="111"/>pitus sanctus necio producitur et creature contingenter
+      </p>
+               <p xml:id="Vn7Pel-d42306-d1e152">
+        <!--137.xml-->
+                  <pb ed="#A" n="138"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Liberum arbitrium vero coartatur ad 
+        contingen<lb ed="#A" n="2" break="no"/>tiam. Unde proprie liberum arbitrium duo aspicit In 
+        <lb ed="#A" n="3"/>tellectum et voluntatem. Ut ratione liberi 
+        volun<lb ed="#A" n="4" break="no"/>tatem. et ratione arbitrii intellectum denotet qua 
+        <lb ed="#A" n="5"/>si qui est arbiter et iudex quid faciendum sit et quid 
+        <lb ed="#A" n="6"/>non: quod solum est in contingentibus. Nullus enim 
+        <lb ed="#A" n="7"/>arbitratur de aliquo impossibili vel necessario. si 
+        <lb ed="#A" n="8"/>sit sapiens.
+      </p>
+               <p xml:id="Vn7Pel-d42306-d1e178">
+        ¶ Sed licitum dicitur quod licet. Unde  
+        <lb ed="#A" n="9"/>licitum proprie est in contingentibus sed non in omnibus 
+        <lb ed="#A" n="10"/>sicut liberum arbitrium quod est in bonis et malis. Ti 
+        <lb ed="#A" n="11"/>citum enim est tantummodo in rectis et honestis. nisi 
+        <lb ed="#A" n="12"/>large capiatur et tunc etiam necessaria licita sunt. Hec 
+        <lb ed="#A" n="13"/>ex Guill. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d42306-d1e192">
+                  <lb ed="#A" n="14"/>¶ De libero arbitrio tractandum 
+        <lb ed="#A" n="15"/>Relinquo ad lib. ii 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d42306-Dd1e200">
+               <head xml:id="Vn7Pel-d42306-Hd1e202">3</head>
+               <p xml:id="Vn7Pel-d42306-d1e205">
+                  <lb ed="#A" n="16"/>¶ An deus pater producat filium 
+        <lb ed="#A" n="17"/>libera voluntate an natura: Cum emim secundum philosophum 
+        <lb ed="#A" n="18"/>ii. philosophycorum. diuidat agentia. in agentia a natura 
+        <lb ed="#A" n="19"/>et in agentia a proposito id est intellectum et voluntate vt 
+        <lb ed="#A" n="20"/>ibi innuitur in textu. Sed quia omne productum per na 
+        <lb ed="#A" n="21"/>turam est mutabile quia vt e. ii philosophycorum dicitur 
+        Na<lb ed="#A" n="22" break="no"/>tura est principium motus et quietis eius in quo est 
+        <lb ed="#A" n="23"/>per se et non secundum accidens. Sequitur ergo quod diuina 
+        <lb ed="#A" n="24"/>generatio si fit naturaliter et non ex mera volun 
+        <lb ed="#A" n="25"/>tate est mutabilis: quod est impossibile. Sed ad hec 
+        <lb ed="#A" n="26"/>respondetur secundum Guill. e. dist. vi. primi. quod philosophus ibi 
+        <lb ed="#A" n="27"/>loquitur de natura naturata: hoc est creata: non 
+        <lb ed="#A" n="28"/>autem de natura naturante cuiusmodi est na 
+        <lb ed="#A" n="29"/>tura diuina que est immutabilis.
+      </p>
+               <p xml:id="Vn7Pel-d42306-d1e238">
+        ¶ Ad quesitum 
+        <lb ed="#A" n="30"/>ergo secundum eundem Guill. dicendum. Quod deus pater 
+        <lb ed="#A" n="31"/>natura producit filium quia generatione 
+        natu<lb ed="#A" n="32" break="no"/>rali. Unde filius est nomen nature. Ideoque Hi 
+        <lb ed="#A" n="33"/>larius lib. de synod. dicit sic omnibus creaturis  
+        <lb ed="#A" n="34"/>substantiam dei voluntas attulit: sed filio natu 
+        <lb ed="#A" n="35"/>ra dedit. Proinde reprobatur pessimus error 
+        <lb ed="#A" n="36"/>Eubomii quem de ore nostro euomat deus: ipse 
+        <lb ed="#A" n="37"/>enim posuit filium dei non natura produci sed vo 
+        <lb ed="#A" n="38"/>luntate sicut innuit Magister praedicta dist. vi. 
+        <lb ed="#A" n="39"/>primi. De ista autem materia latius patuit supra. 
+        <lb ed="#A" n="40"/>de Generatione. §. vii. viii. et. xxx. ac consequenter 
+        <lb ed="#A" n="41"/>vsque ad xxxiiii. Ideo hic pertranseo etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d42306-d1e267">
+                  <lb ed="#A" n="42"/>¶ Liberum arbitrium an sit in 
+        <lb ed="#A" n="43"/>deo. Uide libro. ii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Imago</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Imago</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="118"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d36068">
+            <head xml:id="Vn7Pel-d36068-Hd1e107">Imago</head>
+            <div xml:id="Vn7Pel-d36068-Dd1e110">
+               <head xml:id="Vn7Pel-d36068-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d36068-d1e115">
+                  <lb ed="#A" n="21"/>Imago Quot mo 
+        <lb ed="#A" n="22"/>dis dicitur imago: Nota secundum Guil. in p. 
+        <lb ed="#A" n="23"/>mo dis. iii. q. iii. Imago dicitur tripliciter 
+        <lb ed="#A" n="24"/>Uno modo imago dicitur id ad cuius exemplar fit 
+        <lb ed="#A" n="25"/>aliud Et isto modo beata trinitas est imago 
+        no<lb ed="#A" n="26" break="no"/>stra ad quam facti sumus Gen. i. Secundous imago diei 
+        <lb ed="#A" n="27"/>productum modo nature per omnia equale suo pro 
+        <lb ed="#A" n="28"/>ducenti. et sic filius dei est solus imago patris quod 
+        <lb ed="#A" n="29"/>equalis patri Sic loquitur Hylarius libro. de synodis 
+        <lb ed="#A" n="30"/>Imago est rei ad rem coequandam imaginata et 
+        de<lb ed="#A" n="31" break="no"/>terminata similitudo Et dixi quod productum sit 
+        per<lb ed="#A" n="32" break="no"/>modum nature. Unde spiritus sanctus non dicitur proprie 
+        ima<lb ed="#A" n="33" break="no"/>go. licet sit equalis patri quia non est productus mo 
+        <lb ed="#A" n="34"/>do nature id est per generationem sed per modum voli 
+        <lb ed="#A" n="35"/>tatis et amoris. Damascenus tantum more Grecorim 
+        <lb ed="#A" n="36"/>vtitur imaginis nomine in spiritu sancto. Sed hoc no 
+        <lb ed="#A" n="37"/>est proprie. Tertio modo imago dicitur imitatiuum sui 
+        arti<lb ed="#A" n="38" break="no"/>ficis seu imaginati in quadam proprietate scilicet similitu 
+        <lb ed="#A" n="39"/>dinis licet differat per essentiam sicut imago 
+        Cesa<lb ed="#A" n="40" break="no"/>ris cesarem representat etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36068-Dd1e162">
+               <head xml:id="Vn7Pel-d36068-Hd1e164">2</head>
+               <p xml:id="Vn7Pel-d36068-d1e167">
+                  <lb ed="#A" n="41"/>¶ Que requiruntur ad rationem ima 
+        <lb ed="#A" n="42"/>ginis: Ad hoc nota secundum doc. subti. ea. di. iii. q. ix. et 
+        <lb ed="#A" n="43"/>post eum Guil. quod ad rationem imagis proprie tria 
+        exi<lb ed="#A" n="44" break="no"/>guntur. Primum est quod totum representet. et in hoc dis 
+        <lb ed="#A" n="45"/>fert a vestigio vt patebit in se. Uestigium enim plante 
+        <lb ed="#A" n="46"/>non dicitur proprie imago quia representat hominem secundum pas 
+        <lb ed="#A" n="47"/>tem scilicet pedem. Secundum est imitatio Unde imago 
+        <lb ed="#A" n="48"/>dicitur quasi imitago id est imitationem ago. non dicitur 
+        <lb ed="#A" n="49"/>ergo imago nisi sit imitatio posterioris ad prius 
+        <lb ed="#A" n="50"/>id est ad eum cuius est imago. quamuis sit similitudo 
+        hui<lb ed="#A" n="51" break="no"/>ad illum Exemplum secundum Aug. li. lxxxiii. q. Si 
+        essen<lb ed="#A" n="52" break="no"/>duo oua omnino similia in figura quantitate et colore 
+        <lb ed="#A" n="53"/>et tamen vnum non esset imago alterius quia non imitatur illud. li. 
+        <lb ed="#A" n="54"/>sit simile. non enim sequitur vnum eorum aliud sicut posterius. facti 
+        <lb ed="#A" n="55"/>ad imaginem poris. Tertium est quod imago ad imaginm 
+        <lb ed="#A" n="56"/>tum referatur. vnde imago cesaris proprie dicitur inquantum cesarenm 
+        <!--117.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 118 -->
+                  <lb ed="#A" n="57"/>representat. et non inquantum est pictura tamteun etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36068-Dd1e214">
+               <head xml:id="Vn7Pel-d36068-Hd1e216">3</head>
+               <p xml:id="Vn7Pel-d36068-d1e219">
+                  <lb ed="#A" n="58"/>¶ Quomodo differunt ista inter se 
+        <lb ed="#A" n="59"/>Imago: vestigium et vmbra: Ad hoc notanda sunt 
+        <lb ed="#A" n="60"/>aliqua. Primo quod secundum viam Tho. parte. i. q. xl v. ar. vii. 
+        <lb ed="#A" n="61"/>Opinio est quod imago repraesentat distincte sub ratione 
+        <lb ed="#A" n="62"/>indiuidui. Sed vestigium repraesentat indisticte quia sub 
+        <lb ed="#A" n="63"/>ratione speciei. Quemadmodum si transiret equus super 
+        <lb ed="#A" n="64"/>pulueres: impressio derelicta ex pedibus equi esset 
+        <lb ed="#A" n="65"/>in vestigium et cognosceretur quod transiens fuit equus 
+        <lb ed="#A" n="66"/>et non homo. Imago autem repraesentat sub ratione indiuidui 
+        <lb ed="#A" n="67"/>Quia imago cesaris non solum in cognitionem ho 
+        <lb ed="#A" n="68"/>minis ducit sed etiam cesaris ipsius.
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e245">
+        ¶ Sed contra 
+        <lb ed="#A" n="69"/>hoc arguit Scotorelis. Quia si esset tantum vnum animal 
+        <lb ed="#A" n="70"/>ibi vel in vniuerso. puta vnus equus. et transiret 
+        <lb ed="#A" n="71"/>per pulueres: adhuc vestigium eius non esset ima 
+        <lb ed="#A" n="72"/>go. Et tantum illud vestigium representaret distincte equum 
+        <lb ed="#A" n="73"/>sub ratione indiuidui. Ideoque hec opinio improbatur 
+        <lb ed="#A" n="74"/>a scotistis
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e261">
+        ¶ Unde alit respondendo secundo notadum iuxta 
+        <lb ed="#A" n="75"/>Guil. in primo. di. iii. q. ii colligendo et Scotorels. 
+        <lb ed="#A" n="76"/>quod ista tria praedicta se habent per ordinem et differunt in 
+        <lb ed="#A" n="77"/>pluribus. Precipue autem dimissis aliis in hoc quia 
+        <lb ed="#A" n="78"/>vmbra est obscura et consistit in quadam elongatio 
+        <lb ed="#A" n="79"/>ne confusiue respectu rei cuius est vmbra. 
+        Uesti<lb ed="#A" n="80" break="no"/>gium vero in quadam elongatione et distinctione repur 
+        <lb ed="#A" n="81"/>sentando partem vel secundum partem: sicut patet in ve 
+        <lb ed="#A" n="82"/>stigio plante quo non representatur totus cesar. Etsi 
+        <lb ed="#A" n="83"/>ex vestigio plante cesaris impresso in terra 
+        represen<lb ed="#A" n="84" break="no"/>tatur totus cesar. Hoc fit solum arguitiue. no 
+        prin<lb ed="#A" n="85" break="no"/>cipali repraestentatione vestigii illius Sed imago reptu 
+        <lb ed="#A" n="86"/>sentat per modum totius et consistit in quadam propinquita 
+        <lb ed="#A" n="87"/>te et distinctione. Nam imago cesaris repraesentat ce 
+        <lb ed="#A" n="88"/>sarem secundum se totum distincte.
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e294">
+        ¶ Ad propositum ad diui 
+        <lb ed="#A" n="89"/>na applicando iuxta aliorum dicta. Omnis creatura 
+        <lb ed="#A" n="90"/>considerata indeterminate in confuso. prout habet esse. 
+        <lb ed="#A" n="91"/>tanquam vmbra est respectu dei qui habet esse verum 
+        <lb ed="#A" n="92"/>per essentiam. Sed si consideratur respectu dei sub ratione 
+        <lb ed="#A" n="93"/>triplicis cause scilicet efficientis formalis hoc est 
+        exen<lb ed="#A" n="94" break="no"/>plaris et finalis: vestigium dicitur Imago vero dei dicitur 
+        <lb ed="#A" n="95"/>ipa anima hummana quantum ad tria quae sunt in ea scilicet Mi 
+        <lb ed="#A" n="96"/>moria: intellectus et voluntas
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e315">
+        ¶ Tertio quam 
+        notan<lb ed="#A" n="97" break="no"/>dum est secundum eundem Guill. ibidem. quod vestigium 
+        <lb ed="#A" n="98"/>dei in sacra scriptura tripliciter accipitur. Aliquand 
+        <lb ed="#A" n="99"/>enim accipitur pro prouidentia occulta dei: si 
+        <lb ed="#A" n="100"/>cut cum dicitur Iob. xi. Forsitan vestigia dei com 
+        <lb ed="#A" n="101"/>prehendes id est occulta dei iudicia non 
+        pote<lb ed="#A" n="102" break="no"/>ris comprehendere tu homo. Secundo modo 
+        <lb ed="#A" n="103"/>Uestigium aliquando accipitur pro opere chri 
+        <lb ed="#A" n="104"/>sti in mundo vel pro exemplis eius sancte vite 
+        <lb ed="#A" n="105"/>iuxta illud Iob. Uestigia eius secutus est pes 
+        <lb ed="#A" n="106"/>meus. Tertio modo accipitur pro quodam 
+        ra<lb ed="#A" n="107" break="no"/>dio creature qui nos ducit in cognitionem 
+        cre<lb ed="#A" n="108" break="no"/>atoris. Sicut enim vestigium ducit in cognitio 
+        <lb ed="#A" n="109"/>nem aliquam illius cuius est secundum partem. vt pre 
+        <lb ed="#A" n="110"/>dictum est. et in quadam elongatione id est re 
+        <lb ed="#A" n="111"/>mota cognitione. Puta quia vestigium equi 
+        <lb ed="#A" n="112"/>cognoscitur quod ibi fuit equus. Ita omnis 
+        crea<lb ed="#A" n="113" break="no"/>tura dicitur vestigium quia ducit in cognitionem dei ipsius 
+        <!--118.xml-->
+        <pb ed="#A" n="119"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tanquam effectus in cognitionem cause quasi secundum partem 
+        <lb ed="#A" n="2"/>inferiorem secundum esse. scilicet non secundum intelligentiam. Non autem 
+        <lb ed="#A" n="3"/>tanquam imago dei de ppinquo repriestentat et cognoscere 
+        <lb ed="#A" n="4"/>facit trinitatem etc.
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e369">
+        ¶ Sed an imago sit inseparabils 
+        <lb ed="#A" n="5"/>ab anima. Uide vbi Anima. §. xi.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36068-Dd1e375">
+               <head xml:id="Vn7Pel-d36068-Hd1e377">4</head>
+               <p xml:id="Vn7Pel-d36068-d1e380">
+                  <lb ed="#A" n="6"/>Quius respectu in diuinis est 
+        <lb ed="#A" n="7"/>imago in mente attendenda: Respondetur secundum Scoto 
+        <lb ed="#A" n="8"/>relis. ibidem scilicet di. iii. lib. primi. Exquo sic est trinitas 
+        <lb ed="#A" n="9"/>personarum est quasi vt totu: et in intellectu nostro 
+        con<lb ed="#A" n="10" break="no"/>sistit quoddam totum numerale potentiarum trium 
+        <lb ed="#A" n="11"/>scilicet Memorie: intellectus et voluntatis. Et perso 
+        <lb ed="#A" n="12"/>ne diuine intelliguntur quasi partes totius trinitatis nume 
+        <lb ed="#A" n="13"/>rales sicut et potentie anime sunt partes totius anime quodam 
+        <lb ed="#A" n="14"/>modo. Sic ergo imago dei non attenditur in nobis 
+        re<lb ed="#A" n="15" break="no"/>spectu vnius persone divine tantum. Nec respectu esse 
+        <lb ed="#A" n="16"/>tie in qua sunt vnum. Sed respectu totius 
+        vnita<lb ed="#A" n="17" break="no"/>tis et trinitatis personarum. Hec ex Scotorelis. Et ad 
+        <lb ed="#A" n="18"/>idem latius patuit supra. vbi Anima. Sed quoniam 
+        <lb ed="#A" n="19"/>ipsa anima humana est non solum ad imaginem 
+        <lb ed="#A" n="20"/>nedentiam ad similitudinem dei facta Gen. primo. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e415">
+                  <lb ed="#A" n="21"/>¶ Quomodo ergo imago differenter 
+        <lb ed="#A" n="22"/>assignetur in anima. Et quo anima humana dicitur 
+        <lb ed="#A" n="23"/>ad similitudinem dei. De his tractabimus. li. ii. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36068-Dd1e426">
+               <head xml:id="Vn7Pel-d36068-Hd1e428">5</head>
+               <p xml:id="Vn7Pel-d36068-d1e431">
+                  <lb ed="#A" n="24"/>¶ Utrum solus filius sit vere et 
+        pro<lb ed="#A" n="25" break="no"/>prie imago perfecta dei patris: Ad hoc scriptura sa 
+        <lb ed="#A" n="26"/>cra expresse dicit Heb i. quod filius sit splendor glo 
+        <lb ed="#A" n="27"/>rie et figura substantie eius scilicet patris. Ubi 
+        figu<lb ed="#A" n="28" break="no"/>ra accipitur pro imagine secundum Lyram et docotres communi 
+        <lb ed="#A" n="29"/>ter. Unde et magister primo libro. dist. xxvii. Et etiam. xxxi. 
+        <lb ed="#A" n="30"/>filio appropriat esse imaginem dei patris. Sed 
+        <lb ed="#A" n="31"/>quomodo hec intelligantur: hic plures articuli occurrunt 
+        <lb ed="#A" n="32"/>subsequenter declarandi.
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e453">
+        ¶ Pro euidentia etc. 
+        <lb ed="#A" n="33"/>Primo quare filius dicitur spiendor glorie patri 
+        <lb ed="#A" n="34"/>et figura etc. cum non sint similia. Respondetur brevite 
+        <lb ed="#A" n="35"/>secundum Lyram in Postil. ibidem quod filius dicitur 
+        splen<lb ed="#A" n="36" break="no"/>dor patris pro tanto quia procedit a patre vt splendor: 
+        <lb ed="#A" n="37"/>a sole. Item quia sicut splendor est coeuus soli et esset coeternus 
+        <lb ed="#A" n="38"/>si soleet eternus: sic filius est patri coeternus. Et 
+        <lb ed="#A" n="39"/>sic est aliqua similitudo licet non plena. vt patuit vbi Sec 
+        <lb ed="#A" n="40"/>neratio. §. vi. Item filius dicitur non solum splendor sed etiam 
+        <lb ed="#A" n="41"/>splendor glorie: quia gloria inquit est clara noticia cum 
+        <lb ed="#A" n="42"/>laude. Unde gloria dicitur quasi claria. c. mutata in g. 
+        <lb ed="#A" n="43"/>Et quia filius procedit a patre sicut noticia de 
+        noti<lb ed="#A" n="44" break="no"/>tia: quia filius est sapientia genita et verbum patris 
+        <lb ed="#A" n="45"/>et ideo dicitur splendor glorie. Denique dicitur 
+        fi<lb ed="#A" n="46" break="no"/>gura. Accipitur autem hic figura inquit pro imagine quia 
+        <lb ed="#A" n="47"/>filius est imago patris
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e488">
+        ¶ Item addendo dicitur 
+        <lb ed="#A" n="48"/>figura substantie patris quia est imago natura 
+        <lb ed="#A" n="49"/>lis et simillima vtpote sine aliqua dissimilitudie 
+        <lb ed="#A" n="50"/>in identitate essentie vel nature Hec ex Lyra supra. si 
+        <lb ed="#A" n="51"/>mulque Tho. et Bonauen. dist. xxxi. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36068-Dd1e500">
+               <head xml:id="Vn7Pel-d36068-Hd1e502">6</head>
+               <p xml:id="Vn7Pel-d36068-d1e505">
+                  <lb ed="#A" n="52"/>¶ Secundus articulus an esse 
+        ima<lb ed="#A" n="53" break="no"/>ginem conueniat etiam spiritu sacto vel soli filio: Ad hoc argui 
+        <lb ed="#A" n="54"/>tur quia Damasce. dicit quod spiritus sanctus est imago filii. 
+        <lb ed="#A" n="55"/>videtur ergo quod non debeat appropari soli filio in diui¬ 
+        <!--118.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 119 -->
+                  <lb ed="#A" n="56"/>nis esse imaginem. Respondetur secundum Bona. e. dist. xxxi. per. ii. 
+        <lb ed="#A" n="57"/>q. iii. Et Guil. ibidem recolligendo quod ex quo in diuis 
+        <lb ed="#A" n="58"/>omnia quae ponuntur sunt in summo et perfectissimo modo eminem 
+        <lb ed="#A" n="59"/>tie secundum Diony. Ergo sequitur quod in diuins imago non 
+        <lb ed="#A" n="60"/>solum dicit expressionem persone simpliciter prout vna persona 
+        <lb ed="#A" n="61"/>imitatur aliam quocunque modo sed dicit talem expressionem et 
+        <lb ed="#A" n="62"/>imitationem etiam in summo et perfectissimo modo Cum 
+        <lb ed="#A" n="63"/>autem solus filius imitetur patrem in summo et primo modo 
+        <lb ed="#A" n="64"/>infinito scilicet in hoc quod sicut pater producere habet personam 
+        <lb ed="#A" n="65"/>Ita et filius producere habet personam 
+        spiran<lb ed="#A" n="66" break="no"/>do videlicet spiritum sanctum. Sed spiritus sanctus non habet pro 
+        <lb ed="#A" n="67"/>ducere aliquam personam ergo soli filio conuenit proprie et per 
+        <lb ed="#A" n="68"/>fectissime esse imagine. Sed spiritu sancto non tam pro 
+        <lb ed="#A" n="69"/>prie Illud ergo damasceni dictum vel etiam Augustini 
+        <lb ed="#A" n="70"/>consimile dictum scilicet quod spiritus sanctus est imago filii: 
+        Ac<lb ed="#A" n="71" break="no"/>cipiendum est et intelligendum exponendo sane. quia 
+        <lb ed="#A" n="72"/>Greci vt fuit damascenus nimis imprope vtuntur 
+        <lb ed="#A" n="73"/>nomine imagis. non ita latini Intelligi ergo dicitet illud sic quod 
+        <lb ed="#A" n="74"/>spiritus sanctus est imago filii causaliter quia reformat 
+        <lb ed="#A" n="75"/>nos ad imaginem christi filii dei Hec Bon
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e566">
+        ¶ Item 
+        <lb ed="#A" n="76"/>erfectio summa imaginis secundum eundem Guil. tria 
+        requi<lb ed="#A" n="77" break="no"/>rit quorum si aliquod deficit non erit summa. Primu 
+        <lb ed="#A" n="78"/>est quod quasi representet imaginatum etiam in 
+        exteriori<lb ed="#A" n="79" break="no"/>bus. Iomnque licet verbum nostrum iternum representet memo 
+        <lb ed="#A" n="80"/>riam a qua producitur quia tamen hoc totum est interius ergo 
+        ver<lb ed="#A" n="81" break="no"/>pum nostrum non dicitur imago. Secundo quod imago sit 
+        eiusden<lb ed="#A" n="82" break="no"/>nature cum suo imaginato Et ideo mens nostra non 
+        <lb ed="#A" n="83"/>est proprie imago dei. Sed magis dicitur ad imaginem 
+        <lb ed="#A" n="84"/>dei et sic sonat etiam scriptura Sen. i. Tertio quod 
+        <lb ed="#A" n="85"/>imago procedat per modum nature. et sic excluditur 
+        spi<lb ed="#A" n="86" break="no"/>ritus sanctus qui procedit per modum voluntatis. Unde exquo 
+        <lb ed="#A" n="87"/>ista tria habet solus filius dei qui est eiusdem nature cum 
+        pa<lb ed="#A" n="88" break="no"/>tre et procedit per modum nature. Et quia vt dictum est. 
+        prae<lb ed="#A" n="89" break="no"/>moconuenit cum patre in spiratione actiua quae est quasi 
+        <lb ed="#A" n="90"/>aduenticia quia aduenit post esse completum patris et fi 
+        <lb ed="#A" n="91"/>lii et sic repraesentat patrem quasi in exteriori etiam ergo etc 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d36068-Dd1e604">
+               <head xml:id="Vn7Pel-d36068-Hd1e606">7</head>
+               <p xml:id="Vn7Pel-d36068-d1e609">
+                  <lb ed="#A" n="92"/>¶ Tertio An aliquo creatura 
+        pos<lb ed="#A" n="93" break="no"/>sit vere dici imago dei: Ad hoc Respondetur quod si accipia 
+        <lb ed="#A" n="94"/>tur imago proprie: soli filio conuenit vt iam dictum est 
+        <lb ed="#A" n="95"/>n proximo. Unde Aug. lib. de imagine ait quod homo vel 
+        <lb ed="#A" n="96"/>angelus verius est ad imaginem dei quam sit imago dici. 
+        <lb ed="#A" n="97"/>Ideoque et scriptura notantur dicit Sen. i. Faciamus 
+        <lb ed="#A" n="98"/>hominem ad imaginem etc.
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e627">
+        ¶ Nota ergo differentiam 
+        <lb ed="#A" n="99"/>triplicis assignationis circa hoc ex copendio 
+        veri<lb ed="#A" n="100" break="no"/>tatis Aureolis Aut alii putant Thome Prima quod 
+        <lb ed="#A" n="101"/>imago quedam est equalitatis perfectissime. et sic solus 
+        <lb ed="#A" n="102"/>filius dei est imago patris. Quedam est imago 
+        imi<lb ed="#A" n="103" break="no"/>tationis et sic homo factus est ad imaginem de scilicet vt ipsum co 
+        <lb ed="#A" n="104"/>grascat et amare studeat imitando in virtutibus. Que 
+        <lb ed="#A" n="105"/>dam autem est imago repraesentationis. Et sic modos dicitur specu 
+        <lb ed="#A" n="106"/>lum et imago bonitatis dici velut vmbra representans etc. 
+        <lb ed="#A" n="107"/>Unde i. Corum. xiii. Uidemus noces per speclum in enigmate 
+        <lb ed="#A" n="108"/>licet vmbratico etc.
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e651">
+        ¶ Secunda differentia ibidem pro elucidatione 
+        <lb ed="#A" n="109"/>et quod quidam est imagodo non ad imaginem sicut filius dei. 
+        <lb ed="#A" n="110"/>Quedam autem est imago ad imaginem vt est homo vel an 
+        <lb ed="#A" n="111"/>gelus Item quedam est non imago sed ad imaginem 
+        <lb ed="#A" n="112"/>vt modos qui non est imago quia non est capax dei per 
+        <!--119.xml-->
+        <pb ed="#A" n="120"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>amorem et cognitionem. Sed tantummodo est vestigium. 
+        <lb ed="#A" n="2"/>creatoris etc
+      </p>
+               <p xml:id="Vn7Pel-d36068-d1e673">
+        ¶ Tertia differentia ad hoc declara 
+        <lb ed="#A" n="3"/>tiua quod queda est imago naturaliter genita sicut 
+        fi<lb ed="#A" n="4" break="no"/>lii Regis ad regem. sic est christus respectu dei patris 
+        <lb ed="#A" n="5"/>Queda autem est imago creata vt anima humana 
+        <lb ed="#A" n="6"/>et angelus. Quedam vero est imago facta quasi artifici 
+        <lb ed="#A" n="7"/>alis vt est in numo vel denario regis vel statua 
+        <lb ed="#A" n="8"/>que ipsum regem representat. Et hec copetit 
+        creatu<lb ed="#A" n="9" break="no"/>ris etc. Hec vbi supra.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

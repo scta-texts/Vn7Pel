@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Intentio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Intentio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="132"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d40706">
+            <head xml:id="Vn7Pel-d40706-Hd1e107">Intentio</head>
+            <div xml:id="Vn7Pel-d40706-Dd1e110">
+               <head xml:id="Vn7Pel-d40706-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d40706-d1e115">
+                  <lb ed="#A" n="101"/>INtentio prima 
+        <lb ed="#A" n="102"/>et secunda intentio vel secunda 
+        im<lb ed="#A" n="103" break="no"/>positio quomodo differunt: Nota 
+        <lb ed="#A" n="104"/>secundum Guill. super primo circa dist. xxv
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e126">
+        ¶ Prima 
+        <lb ed="#A" n="105"/>intentio est rei quiditas extra animam in re 
+        ha<lb ed="#A" n="106" break="no"/>bens existentiam. Et dicitur prima intentio quia primo tendit in 
+        <lb ed="#A" n="107"/>animam seu intellem scilicet mouendo: vt intelligatur sicut est hu 
+        <!--132.xml-->
+        <pb ed="#A" n="133"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>manitas et termini prime intentionis scilicet homo lapitus et huiusmodi. 
+        <lb ed="#A" n="2"/>Secunda intentio est quidam respectus rationis ex 
+        <lb ed="#A" n="3"/>collatione prime intentionis ad cetera ortus. 
+        Si<lb ed="#A" n="4" break="no"/>cut hoc genus scilicet substantiam comparando ad suas 
+        <lb ed="#A" n="5"/>species. et hominem ad sua indiuidua nascitur secunda 
+        <lb ed="#A" n="6"/>intentio que dicitur genus vel species et huiusmodi. Et dicitur 
+        <lb ed="#A" n="7"/>secunda intentio quia secundo intelligitur et in prima funda 
+        <lb ed="#A" n="8"/>tur et est ens rationis
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e159">
+        ¶ Scuna autem impositio nil 
+        <lb ed="#A" n="9"/>aliud est nisi secunda intentio explicita: aut in vocem 
+        <lb ed="#A" n="10"/>aut in scripto de quibus est impositio. Unde 
+        di<lb ed="#A" n="11" break="no"/>cimus alique scilicet terminum esse secunde impositionis 
+        Pu<lb ed="#A" n="12" break="no"/>ta iste terminus genus vel spies: differentia: 
+        no<lb ed="#A" n="13" break="no"/>men: pronomen. verbum: aduerbium: commuiunctio 
+        par<lb ed="#A" n="14" break="no"/>ticipium etc. quia sunt secunde intentionis. Unde 
+        secun<lb ed="#A" n="15" break="no"/>da impositio relatiue ad secundam intentionem cum 
+        <lb ed="#A" n="16"/>sit idem cum ea materialitsus) dicitur secunda Sed in nume 
+        <lb ed="#A" n="17"/>ro posset dici tertia respectu prime intentionis etc. 
+        <lb ed="#A" n="18"/>Hec ex Guil. Ad idem concor. Scotorlis. ea. dici. dci 
+        <lb ed="#A" n="19"/>Declarando quod res habet duplex esse Unum extra 
+        <lb ed="#A" n="20"/>animam et sic nominatur nomine prime intentionis. vt ho 
+        <lb ed="#A" n="21"/>mo nominatur homo. et asinus dicitur asinus. Aliud 
+        <lb ed="#A" n="22"/>esse habet in intellectu per intellectonm vel cognitio 
+        <lb ed="#A" n="23"/>nem. et sic nominatur nomine secunde intentionis. Puta cum 
+        in<lb ed="#A" n="24" break="no"/>tellectus hominem intelligit esse speiem coparando ad 
+        <lb ed="#A" n="25"/>indiuidua et animal esse genus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d40706-Dd1e199">
+               <head xml:id="Vn7Pel-d40706-Hd1e201">2</head>
+               <p xml:id="Vn7Pel-d40706-d1e204">
+                  <lb ed="#A" n="26"/>¶ Questio theologica ergo hic 
+        <lb ed="#A" n="27"/>occurrit. Utrum nomen persone sit prime intentionis an 
+        <lb ed="#A" n="28"/>secunde: Circa hoc primo nota vnam opinionem non 
+        te<lb ed="#A" n="29" break="no"/>nendam. Nam Uarro li. i. dicit quod persona est nomen 
+        <lb ed="#A" n="30"/>secunde intentionis. et hanc tenet etiam Fran. maro. di. 
+        <lb ed="#A" n="31"/>xxiii. primi. q. i. arti. ii Et ratio quia sicut indiuiduum 
+        <lb ed="#A" n="32"/>se habet in omni natura. Ita persona in natura in 
+        <lb ed="#A" n="33"/>tellectuali Sed indiuiduum est nomen secunde 
+        inten<lb ed="#A" n="34" break="no"/>tionis ergo et persona. Sed ad hanc rationem 
+        Sco<lb ed="#A" n="35" break="no"/>torlis. ea. dist. xxiii. q. i. Respondet quod hoc argumentum 
+        <lb ed="#A" n="36"/>est magis ad oppositum quia indiuiduum no dicit secundam 
+        <lb ed="#A" n="37"/>intentionem si accipiatur pro prima substantia. Ticet 
+        <lb ed="#A" n="38"/>sit terminus secunde intentionis vt distinguitur contra 
+        <lb ed="#A" n="39"/>vniuersale Nam ex. vii. metaph. Prima 
+        substan<lb ed="#A" n="40" break="no"/>tia fiue indiuiduum est res ad extra que per se 
+        gene<lb ed="#A" n="41" break="no"/>ratur et per se operatur. Item etiam secundum Fran. supra. 
+        Indiui<lb ed="#A" n="42" break="no"/>duum est communius quam persona. quia persona solum est in 
+        <lb ed="#A" n="43"/>natura intellectuali sed indiuiduum etiam in aliis ergo 
+        <lb ed="#A" n="44"/>non est simile. de persona et de indiuiduo
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e248">
+        ¶ Pre<lb ed="#A" n="45" break="no"/>terea pro hac opinione idem Fran. Arguit sic Si 
+        <lb ed="#A" n="46"/>enim persona esset nomen prime intentionis sequitur quod 
+        <lb ed="#A" n="47"/>esset bonum argumentum hoc. Pater est persona Sed 
+        <lb ed="#A" n="48"/>pater non est persona filii. ergo pater non est pater filii. Ad 
+        <lb ed="#A" n="49"/>hoc Guil. e. di. xxiii. Respondet dico inquit cum 
+        reueren<lb ed="#A" n="50" break="no"/>tia scilicet tanti doctoris quod hoc argumentum non valet. 
+        <lb ed="#A" n="51"/>Nec illa est huius causa quare non valeat. Sed hec 
+        <lb ed="#A" n="52"/>est causa quia additur in minori vna condicio que 
+        <lb ed="#A" n="53"/>non est in maiori. et quotiens fit: non valet 
+        sylogi<lb ed="#A" n="54" break="no"/>smus quia lyfilii additur medio in minori etc Do 
+        in<lb ed="#A" n="55" break="no"/>quit simile Quicumque dicit te esse lapidem dicit 
+        te<lb ed="#A" n="56" break="no"/>esse substantiam. Sed quicumque dicit te esse substantiam dicit 
+        <lb ed="#A" n="57"/>verum ergo quicunque dicit te esse lapidem dicit verum. De 
+        <!--132.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 133 -->
+                  <lb ed="#A" n="58"/>fectus est ibi. quia verum: est in minori non in maiori. 
+        <lb ed="#A" n="59"/>sic in proposito. Item praedictum argumentum etiam non 
+        <lb ed="#A" n="60"/>valet: quia arguit in tertia figura ex minori 
+        nega<lb ed="#A" n="61" break="no"/>tiua particulari scilicet pater non est persona filii quod non 
+        <lb ed="#A" n="62"/>valet formaliter etc. Hec Guill.
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e296">
+        ¶ Secundo nota 
+        <lb ed="#A" n="63"/>aliam opinionem tenendam scilicet Scoti et 
+        sequen<lb ed="#A" n="64" break="no"/>tium eum Scotist. e. dist. xxiii. vicem quod persona 
+        di<lb ed="#A" n="65" break="no"/>cit non secundam sed primam intentionem. Probatio. 
+        <lb ed="#A" n="66"/>quia persona est terminus realis productionis in 
+        <lb ed="#A" n="67"/>diuinis et signat substantiam vt dicit Anselmus; 
+        <lb ed="#A" n="68"/>in fine Monolis. Et Hugo. lib. de sacram. parte. i. 
+        <lb ed="#A" n="69"/>lib. iii. dicit. quod est nomen substantiale vnum solum 
+        <lb ed="#A" n="70"/>scilicet persona quod de singulis dicitur singulariter in 
+        <lb ed="#A" n="71"/>summa: tamen non singulariter sed pluraliter 
+        pro<lb ed="#A" n="72" break="no"/>nunciatur etc. Item Rich. iiii. de trinitate 
+        diffini<lb ed="#A" n="73" break="no"/>ens personam dicit quod persona est intellectualis nature 
+        <lb ed="#A" n="74"/>indiuidua subsistentia. Similiter Boetius etc. 
+        Diffi<lb ed="#A" n="75" break="no"/>nitio autem exprimit id quod est esse rei. Ergo expremit 
+        <lb ed="#A" n="76"/>primam intentionem persone et per consequens est prime 
+        <lb ed="#A" n="77"/>intentionis Preterea. trinitas diuina non 
+        consi<lb ed="#A" n="78" break="no"/>stit in conceptibus sicut sunt secunde intentiones 
+        <lb ed="#A" n="79"/>sed consistit in personis realibus. ergo etc Preterea. 
+        <lb ed="#A" n="80"/>secunda intentio non adoratur sed persona adoratur 
+        <lb ed="#A" n="81"/>ergo etc Preterea. persona est obiectum fruitionis 
+        <lb ed="#A" n="82"/>beate: sed nulla persona est obiectum fruitionis. 
+        <lb ed="#A" n="83"/>ergo hec opinio est tenenda vicem quod persona dicit 
+        pri<lb ed="#A" n="84" break="no"/>mam intentionem.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d40706-Dd1e347">
+               <head xml:id="Vn7Pel-d40706-Hd1e349">3</head>
+               <p xml:id="Vn7Pel-d40706-d1e352">
+                  <lb ed="#A" n="85"/>¶ Tertio nota difficultatem 
+        sol<lb ed="#A" n="86" break="no"/>uendam scilicet que occurrit circa hec.
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e359">
+        ¶ Quomodo nomen 
+        <lb ed="#A" n="87"/>persone potest dici prime intentionis cum dicat 
+        in<lb ed="#A" n="88" break="no"/>communicabilitatem quae est negatio. Negatio autem omnis est 
+        <lb ed="#A" n="89"/>ecunde intentionis vtpote ens rationis quia per actum rationis 
+        <lb ed="#A" n="90"/>habet esse. Respondetur secundum Guill. vbi supra scilicet di. xxiii. cum 
+        do<lb ed="#A" n="91" break="no"/>ctore subti. ibidem. Et di. ii. primi li. q. iii.
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e372">
+        ¶ Communicabile 
+        <lb ed="#A" n="92"/>dupliciter dicitur Uno modo sicut vniuersale suo singula 
+        <lb ed="#A" n="93"/>ri: sicut communicatur humanitas platoni et sorti. et ista dicitur 
+        <lb ed="#A" n="94"/>communicabilitas quod: et non solum quo sed vtriusque tam quo quam 
+        <lb ed="#A" n="95"/>quod. Quia illud cui communicatur est illud communicatum: sicut 
+        <lb ed="#A" n="96"/>plato dicitur homo: et non solum quo dicitur homo. Nam humanita 
+        <lb ed="#A" n="97"/>te plato est homo et cum hoc est id quod homo
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e388">
+        ¶ Secundo modo 
+        <lb ed="#A" n="98"/>aliquid communicatur sicut forma materie. puta sicut anima 
+        cor<lb ed="#A" n="99" break="no"/>pori. Ista communicabilitas dicitur quo et non quod. Unde 
+        cor<lb ed="#A" n="100" break="no"/>pus cui communicatur anima non est anima. sed bene est 
+        <lb ed="#A" n="101"/>corpus anima animatum
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e400">
+        ¶ Unde incommunicabilis dicitur perso 
+        <lb ed="#A" n="102"/>na quia ista duplex communicabilitas predicta 
+        <lb ed="#A" n="103"/>negatur in ea. Persona enim diuina nec commui 
+        <lb ed="#A" n="104"/>nicatur vt vniuersale suis inferioribus quia est vlti 
+        <lb ed="#A" n="105"/>mum. vtpote singulare. nec vt quo ad quod: quia non se habet 
+        <lb ed="#A" n="106"/>ad modum quo. Non enim paternitate est deus vt dicit Aug. 
+        <lb ed="#A" n="107"/>Essentia vero diuina econtra se habet: quia essetia est quo 
+        di<lb ed="#A" n="108" break="no"/>vuine persone sunt deus. Et praedicatur vt quod quia pater est deus 
+        <lb ed="#A" n="109"/>et filius est deus. Hec ex Guill. Additur tertia icommunicabis 
+        <lb ed="#A" n="110"/>litas secundum Bonauem. di. xxv. q. ii concor. Tho. et Rich. 
+        <lb ed="#A" n="111"/>quia persona exquo est nomen dignitatis et 
+        di<lb ed="#A" n="112" break="no"/>cit suppositum intellectualis nature distinctum 
+        <lb ed="#A" n="113"/>proprietate ad dignitatem pertinente: ergo est 
+        in<lb ed="#A" n="114" break="no"/>communicabilis nisi digniori. Et hoc quammaxie conuenit 
+        <!--133.xml-->
+        <pb ed="#A" n="134"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>personis diuinis vt infra latius dicetur vbi de 
+        <lb ed="#A" n="2"/>Persona vel nomine persone agetur
+      </p>
+               <p xml:id="Vn7Pel-d40706-d1e442">
+        ¶ Unde cum 
+        <lb ed="#A" n="3"/>inquiritur in praedicta difficultate et obiectionem: An 
+        <lb ed="#A" n="4"/>nomen persone dicat incommunicabilitatem que est 
+        nega<lb ed="#A" n="5" break="no"/>tio. Dicendum secundum Scotorelis. supra. quod persona 
+        sub<lb ed="#A" n="6" break="no"/>sistentiam dicit: et subsistentia non dicit negatio 
+        <lb ed="#A" n="7"/>nem sed positionem. Et cum dicitur quod importat 
+        incommuni<lb ed="#A" n="8" break="no"/>cabilitate que est negatio. Dico inquit quod ista in 
+        <lb ed="#A" n="9"/>communicabilitas dicit entitatem alteri non 
+        communicabi<lb ed="#A" n="10" break="no"/>lem. Hec ex Scotorelis.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

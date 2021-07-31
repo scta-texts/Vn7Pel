@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ratio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Ratio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d76968">
+            <head xml:id="Vn7Pel-d76968-Hd1e107">Ratio</head>
+            <div xml:id="Vn7Pel-d76968-Dd1e110">
+               <head xml:id="Vn7Pel-d76968-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d76968-d1e115">
+                  <lb ed="#A" n="30"/>RAtio quibus mo 
+        <lb ed="#A" n="31"/>dis dicitur. Nota secundum Guil. in primi. di. i. Ratio 
+        <lb ed="#A" n="32"/>dicitur tripliciter. Uno modo dicitur vis intellectia 
+        <lb ed="#A" n="33"/>l et sic Porphirius dicit. Sumus ei rationa 
+        <lb ed="#A" n="34"/>les nos et dii: sed immortale additum nobis separat nos 
+        <lb ed="#A" n="35"/>ab illis. Secundo dicitur ratio forma constituens hominem seu 
+        <lb ed="#A" n="36"/>modus cognoscendi inquantum distinguitur ab an 
+        <lb ed="#A" n="37"/>gelicis spiritibus. quia homo cum discursu intelligit 
+        An<lb ed="#A" n="38" break="no"/>gelus autem non cum tali discutsu. et sic ratio distinguitur ab 
+        <lb ed="#A" n="39"/>intelligentia proprie.
+      </p>
+               <p xml:id="Vn7Pel-d76968-d1e139">
+        ¶ Tertio modo ratio accipitur pro 
+        diffini<lb ed="#A" n="40" break="no"/>tione alicuius entis vel pro quiditate seu ratione for 
+        <lb ed="#A" n="41"/>mali sicut dicitur quod entitas est ratio subiectiua entis. 
+        <lb ed="#A" n="42"/>Et hoc modo dicimus quod attributa diuina 
+        distin<lb ed="#A" n="43" break="no"/>guuntur for mali ratione inter se et ab essentia. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d76968-d1e150">
+                  <lb ed="#A" n="44"/>¶ Rationis ens quibus modis su 
+        <lb ed="#A" n="45"/>mitur vide vbi Uoluntas. §. vii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

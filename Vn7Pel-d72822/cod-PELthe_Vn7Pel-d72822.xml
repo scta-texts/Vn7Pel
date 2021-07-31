@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PRivatio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>PRivatio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="234"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d72822">
+            <head xml:id="Vn7Pel-d72822-Hd1e107">PRivatio</head>
+            <div xml:id="Vn7Pel-d72822-Dd1e110">
+               <head xml:id="Vn7Pel-d72822-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d72822-d1e115">
+                  <lb ed="#A" n="49"/>PRiuatio quibus 
+        <lb ed="#A" n="50"/>modis dicitur. Nota secundum <ref xml:id="Vn7Pel-d72822-Rd1e121">fran. mayro. in 
+          <lb ed="#A" n="51"/>conflat. primi di. xxviii. aliosque.</ref> Quod sicut 
+        <lb ed="#A" n="52"/>docet philosophus. v. lib. Meta. Priuatio est caretia ali 
+        <lb ed="#A" n="53"/>cuius forme in apto nato. Unde ad rationem priuatio 
+        <lb ed="#A" n="54"/>nis duo concurrunt: vnum est aptitudo ad formam ali 
+        <lb ed="#A" n="55"/>quam. puta hominis aptitudo ad videndum. Aliud est 
+        <!--233.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 234 -->
+                  <lb ed="#A" n="56"/>carentia. vnde lapis licet careat visu. tamen non dicitur 
+        ce<lb ed="#A" n="57" break="no"/>eo quod non habet aptitudinem videndi.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e147">
+        ¶ Itaque ex 
+        per<lb ed="#A" n="58" break="no"/>te aptitudinis ponuntur quattuor modi priuatois secundum 
+        <lb ed="#A" n="59"/>e. Fran.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e154">
+        ¶ Primus est quando priuatio est in apto na 
+        <lb ed="#A" n="60"/>to secundum indiuiduum idem numero. vicem quia caret ali 
+        <lb ed="#A" n="61"/>quo quod aptum est habere idem numero 
+        indiuidu<lb ed="#A" n="62" break="no"/>um secundum indiuiduum. Exemplum catulus natus an 
+        <lb ed="#A" n="63"/>diem nonum. licet careat visu. non dicitur cecus proprie. quia 
+        <lb ed="#A" n="64"/>cum postea videre habeat: fieret a priuatione ad  
+        <lb ed="#A" n="65"/>habitum transitus per naturam quod est contra philosophum in 
+        prae<lb ed="#A" n="66" break="no"/>dicamentis. Sed catulus dicitur privatus visu quem 
+        <lb ed="#A" n="67"/>postea aptus est habere.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e174">
+        ¶ Secundus modus est. quando 
+        <lb ed="#A" n="68"/>puatio est in apto nato non secundum idem indiuiduum. sed 
+        <lb ed="#A" n="69"/>secundum speciem eandem. hoc est quando caret quis aliquo quod 
+        <lb ed="#A" n="70"/>aptus esset habere secundum suam speiem. licet non possit ha 
+        <lb ed="#A" n="71"/>bere vt indiuiduum. sicut homo dicitur cecus. quia secundum 
+        <lb ed="#A" n="72"/>speciem id est inquantum homo aptus esset videre. non tantum 
+        <lb ed="#A" n="73"/>inquantum iste homo. Similiter de equo ceco et 
+        asino<lb ed="#A" n="74" break="no"/>etc.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e193">
+        ¶ Tertius modus quando quis caret al qua quod ap 
+        <lb ed="#A" n="75"/>tum natum est habere secundum genus tantum. Sicut talpa apta 
+        <lb ed="#A" n="76"/>esset videre inquantum animal in genere. non inquantum talpa 
+        <lb ed="#A" n="77"/>in specie.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e202">
+        ¶ Quartus est quando quis caret aliquo quod 
+        <lb ed="#A" n="78"/>aptum natu est habere secundum transcedens solummodo.  
+        <lb ed="#A" n="79"/>sicut substantia secundum suum genus generalissimum est depen 
+        <lb ed="#A" n="80"/>dens et caret independentia quam apta nata esset 
+        <lb ed="#A" n="81"/>habere inquantum ens transcendenter captum.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e213">
+        ¶ Item 
+        <lb ed="#A" n="82"/>ex parte carentie etiam ponuntur quattuor modi 
+        priua<lb ed="#A" n="83" break="no"/>tionum. v. Meta. Primus est omnino non habere id quod 
+        <lb ed="#A" n="84"/>quis aptus natus esset habere. vt homo cecus omnino 
+        <lb ed="#A" n="85"/>Isto modo monoculus non dicitur cecus. Secundus est 
+        <lb ed="#A" n="86"/>habere aliquo modo tantum praue vel turpe. sicut ethiops 
+        <lb ed="#A" n="87"/>dicitur privatus colore. quia prauum habet. et claudus dict 
+        <lb ed="#A" n="88"/>tur sine pede. quia licet habeat pedem tantum prauum 
+        <lb ed="#A" n="89"/>Tertius modus est modicum habere de eo quod na 
+        <lb ed="#A" n="90"/>tum est habere. sicut homo qui modicum videt dicitur 
+        <lb ed="#A" n="91"/>sine visum vel cecus. et sic de aliis. Quartus est non 
+        <lb ed="#A" n="92"/>facile posse habere. sicut eger non facile curabilis 
+        <lb ed="#A" n="93"/>dicitur sine vita. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d72822-Dd1e243">
+               <head xml:id="Vn7Pel-d72822-Hd1e245">2</head>
+               <p xml:id="Vn7Pel-d72822-d1e248">
+                  <lb ed="#A" n="94"/>¶ Utrum in deo ponenda sit aliquo 
+        <lb ed="#A" n="95"/>priuatio: Respondetur secundum Fran. e. di. xxviii. q. i. Priuat 
+        <lb ed="#A" n="96"/>ones dicuntur a priuando aliquid positiuum. ergo secundum op 
+        <lb ed="#A" n="97"/>posita positiua distinguuntur. Primo namque sunt 
+        <lb ed="#A" n="98"/>quedam privationes que privant perfectionem 
+        simpli<lb ed="#A" n="99" break="no"/>pliciter. et talia nullo modo poni possunt in deo. quia 
+        <lb ed="#A" n="100"/>dicunt imperfectionem simpliciter. vt est ignorantia 
+        <lb ed="#A" n="101"/>impotentia etc Secundo quedam privant perfectionem secundum 
+        <lb ed="#A" n="102"/>quid et non perfectionem simpliciter. Sicut est inanimatum 
+        <lb ed="#A" n="103"/>Nam sicut animatum dicit perfectionem secundum quid solun 
+        <lb ed="#A" n="104"/>scilicet in genere corporalium. sic eius priuaton vicem 
+        in<lb ed="#A" n="105" break="no"/>animatum dicit imperfectionem secundum quid. Et huiusmodi eti 
+        <lb ed="#A" n="106"/>am non conueniunt deo inquantum imperfectionis sunt 
+        <lb ed="#A" n="107"/>Tertio quedam priuant imperfectionem. et per consequens 
+        di<lb ed="#A" n="108" break="no"/>cunt perfectionem. sic Incorruptibilitas et 
+        immor<lb ed="#A" n="109" break="no"/>talitas. Ideo huiusmodi sunt in deo. Quarto quedam 
+        <lb ed="#A" n="110"/>privant ea que nec perfectionem nec imperfectionem 
+        di<lb ed="#A" n="111" break="no"/>cunt in deo vt ingenitum. innascibile. hesunt in deo 
+        <lb ed="#A" n="112"/>patet vbi Ingenitum
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e292">
+        ¶ Nota etiam quod nulla privatiua 
+        <!--234.xml-->
+        <pb ed="#A" n="235"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>relatio constituit personam in diuinis. vide vbi 
+        No<lb ed="#A" n="2" break="no"/>tio. §. v. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d72822-Dd1e306">
+               <head xml:id="Vn7Pel-d72822-Hd1e308">3</head>
+               <p xml:id="Vn7Pel-d72822-d1e311">
+                  <lb ed="#A" n="3"/>¶ Sed quomodo priuatio potest poni in 
+        <lb ed="#A" n="4"/>deo: cum priuatio dicat negationem in subiecto apto 
+        <lb ed="#A" n="5"/>nato. Deus autem nullius habet negationem quod sit aptum na 
+        <lb ed="#A" n="6"/>tum haberi in deo. ergo videtur quod priuatio non est ponenda 
+        <lb ed="#A" n="7"/>in deo etc. Respondetur secundum. e. Fran. supra. Quod quamuis propter istam 
+        <lb ed="#A" n="8"/>rationem dictam aliqui voluerunt dicere: quod innascibile 
+        <lb ed="#A" n="9"/>et ingenitum. et similiter ea quae sonant privatiue: non dicunt 
+        prae<lb ed="#A" n="10" break="no"/>uatones in deo. sed positiua quedam. et dicunt omnio 
+        <lb ed="#A" n="11"/>non esse priuationem ponendam in deo.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e333">
+        ¶ Sed hoc inquit 
+        <lb ed="#A" n="12"/>Fran. non valet dicere. nec potest stare. Primo quia 
+        <lb ed="#A" n="13"/>Aug. v. de trini. dicit Cum dicimus patrem ingenitu: non 
+        <lb ed="#A" n="14"/>quid nit sed quid non sit designatur. ergo non est positiuum 
+        <lb ed="#A" n="15"/>Secundo quia in deo est carentia finis: secundum quam accipit 
+        <lb ed="#A" n="16"/>ratio infinitatis. et sic quod inquantum substantia est: non repugt 
+        <lb ed="#A" n="17"/>deo aptitudo finiri. sed inquantum summum bonum 
+        <lb ed="#A" n="18"/>repugnat. Similiter quia deus dicitur incorporeus. nullus er 
+        <lb ed="#A" n="19"/>go pot negare quin in deo sit negatio vel carentia 
+        fi<lb ed="#A" n="20" break="no"/>nis et forme corporalis. Dico ergo inquit: quod in deo 
+        ve<lb ed="#A" n="21" break="no"/>re sunt priuationes multe: large capiendo. sicut 
+        acci<lb ed="#A" n="22" break="no"/>pitur priuatio: quae dicit aptitudinem ratione transcendentis. 
+        <lb ed="#A" n="23"/>videlicet entis etc
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e362">
+        ¶ Unde idem Fran. concludendo diicit quod 
+        <lb ed="#A" n="24"/>loquendo de priuatione tribus primis modis in primo 
+        <lb ed="#A" n="25"/>arti. vel. §. supra accepta. non ponitur in deo inquantum pri 
+        <lb ed="#A" n="26"/>uatio. quia quicquid est possibile poni in deo: totum 
+        <lb ed="#A" n="27"/>est ibi in actu. et quia deus non est in specie nec in genere 
+        
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e373">
+                  <lb ed="#A" n="28"/>¶ Sed quarto modo ibidem posito. videlicet prout priuatio 
+        <lb ed="#A" n="29"/>dicit aptitudinem ratione transcendentis. bene deo 
+        conue<lb ed="#A" n="30" break="no"/>nit. Nam deus dicitur incorruptibilis privatiue. non quod 
+        <lb ed="#A" n="31"/>per positionem vel priuationem generis vel speciei hoc sibi 
+        <lb ed="#A" n="32"/>conueni at. sed quia inquantum Ens sibi non repugnat. et 
+        <lb ed="#A" n="33"/>ita per suum transcendens secundum quod ens habet aptitudine 
+        <lb ed="#A" n="34"/>ad aliquid quod non habet. Uerumtamen deus sub ratione propria non 
+        <lb ed="#A" n="35"/>est aptus natus ad aliquid quod non habeat. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d72822-Dd1e394">
+               <head xml:id="Vn7Pel-d72822-Hd1e396">4</head>
+               <p xml:id="Vn7Pel-d72822-d1e399">
+                  <lb ed="#A" n="36"/>¶ Sed adhuc restat difficultas quomod 
+        <lb ed="#A" n="37"/>in deo potest poni etiam ratione transcendentis: quod deus 
+        <lb ed="#A" n="38"/>aliquid aptus sit habere quod non hebeat. cum hoc dicere necessario. 
+        <lb ed="#A" n="39"/>importat aliquam imperfectionem in deo. quia sic sequitur 
+        <lb ed="#A" n="40"/>quod deus priuatur aliquo quod aptus est habere. sed quia deus nil est 
+        <lb ed="#A" n="41"/>aptus natus habere: nisi quod est perfectissimum bonum. ergo si ali 
+        <lb ed="#A" n="42"/>quid tale non habet priuatur perfectione.
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e417">
+        ¶ Respondet 
+        Fran<lb ed="#A" n="43" break="no"/>Ibidem. quod in divinis nil dicitur imperfectum ratione deitatis: qua 
+        <lb ed="#A" n="44"/>omnia continet supereminenter. Ideoque sicut nec ratio substanti 
+        <lb ed="#A" n="45"/>in angelo dicitur imperfectior: eo quod non habet illud quod sibi 
+        <lb ed="#A" n="46"/>secundum se conuenit vel non repugnat: quando substantia habet adiun 
+        <lb ed="#A" n="47"/>ctam meliorem perfectione scilicet angelice nature. sic in 
+        pro<lb ed="#A" n="48" break="no"/>posito. Exempli gratia. Angelus dicitur ingenitus et 
+        immor<lb ed="#A" n="49" break="no"/>talis. quia nullo modo potest generari: sed habet creari a deo. 
+        <lb ed="#A" n="50"/>et tamen angelo inquantum substantia non repuget generari. li 
+        <lb ed="#A" n="51"/>cet repugnet inquantum angelo. sed talis repugnantia 
+        <lb ed="#A" n="52"/>in eo est melioris adiuncti. Ion no generari in ange 
+        <lb ed="#A" n="53"/>lo: non dicit imperfectionem sed perfectionem angelice natu 
+        <lb ed="#A" n="54"/>re. A simili quodammodo. Ex quo deitatis ratio: omnia bona et 
+        <lb ed="#A" n="55"/>omnes perfectiones contineat in summo. ergo sequitur quod ex 
+        <lb ed="#A" n="56"/>aliqua priuatione imperfectionis. puta ex corruptibili 
+        <lb ed="#A" n="57"/>tatis vel mortalitatis negatone: nil in deo dicitur im¬ 
+        <!--234.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 235 -->
+                  <lb ed="#A" n="58"/>perfectum: sed potius perfectissimum. quoniam et huiusmodi 
+        priua<lb ed="#A" n="59" break="no"/>tio vel negatio imperfectionis: facit ad plenitudinem 
+        <lb ed="#A" n="60"/>perfectionis. quia etiam ex. iii. Topi. Illud est albius vel 
+        <lb ed="#A" n="61"/>perfectius: quod est impermixtius nigro vel 
+        imperfe<lb ed="#A" n="62" break="no"/>ctione. Hec ex Fran. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d72822-Dd1e471">
+               <head xml:id="Vn7Pel-d72822-Hd1e473">5</head>
+               <p xml:id="Vn7Pel-d72822-d1e476">
+                  <lb ed="#A" n="63"/>¶ An priuationes proprias habeat 
+        qua<lb ed="#A" n="64" break="no"/>libet persona in divinis: Respondetur. secundum Fran. e. di. xxviii. 
+        <lb ed="#A" n="65"/>quod Prima persona scilicet patris habet proprias priuationes. 
+        <lb ed="#A" n="66"/>scilicet Ingenitum et innascibile. Tertia etiam persona. 
+        vi<lb ed="#A" n="67" break="no"/>delicet spiritus sancti: habet non productiuitatem. est enim non 
+        <lb ed="#A" n="68"/>producens. Sed persona media. videlicet filii: 
+        nul<lb ed="#A" n="69" break="no"/>lam propriam negationem habet. quia omnis negatio vel 
+        priua<lb ed="#A" n="70" break="no"/>tio quae competit filio: competit etiam patri vel spiritus sancto. Et 
+        <lb ed="#A" n="71"/>satet de infinitate. immensitate. immutabilitate. et 
+        <lb ed="#A" n="72"/>huiusmodi. quae sunt communia tribus. Item patet etiam de ista 
+        no<lb ed="#A" n="73" break="no"/>tione: Inspirabilitas. quae competit non tantum filio sed etiam 
+        <lb ed="#A" n="74"/>patri. vt claruit. supra vbi Ingenitum. §. viii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d72822-Dd1e506">
+               <head xml:id="Vn7Pel-d72822-Hd1e508">6</head>
+               <p xml:id="Vn7Pel-d72822-d1e511">
+                  <lb ed="#A" n="75"/>¶ Sed quod est fundamentum in quo fun 
+        <lb ed="#A" n="76"/>dantur huiusmodi privationes proprie vel negationes 
+        persona<lb ed="#A" n="77" break="no"/>rum: Respondetur secundum . e. Fran. ea. di. xxviii. quod huiusmodi priua 
+        <lb ed="#A" n="78"/>tiones proprie personarum scilicet Ingenitum. innascibile. et sic 
+        <lb ed="#A" n="79"/>de aliis. non fundantur in essentia vel super essentiam 
+        <lb ed="#A" n="80"/>immediate: quia cum in filio sit essentia. ergo esset in filio 
+        <lb ed="#A" n="81"/>innascibilitas. Nec etiam fundatur in paternitate: quia 
+        <lb ed="#A" n="82"/>paternitati non repugnat esse nascibile. sed fundam 
+        <lb ed="#A" n="83"/>tur super primitate originis: quae est in persona patris. 
+        <lb ed="#A" n="84"/>Ratio: quia super illo fundatur priuatio. quo posito 
+        <lb ed="#A" n="85"/>ponitur. et quo sublato aufertur. sed isto modo est in 
+        pro<lb ed="#A" n="86" break="no"/>posito. Nam supposita primitate originis in deo: vt 
+        <lb ed="#A" n="87"/>sic repugnat sibi esse ab alio. et circumscripta 
+        primi<lb ed="#A" n="88" break="no"/>tate: non repugnat esse ab alio. ergo etc. Hec Francis. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d72822-d1e544">
+                  <lb ed="#A" n="89"/>¶ De hoc etiam patuit. supra. Ingenitum. §. v. Et ibi de 
+        <lb ed="#A" n="90"/>Priuatione plura. Sed de non productiuitate vel im 
+        <lb ed="#A" n="91"/>productiuitate: suo modo patet ex dictis. quod funda 
+        <lb ed="#A" n="92"/>tur in spiratione passiua: vel in spiritu sancto: cui repugt 
+        <lb ed="#A" n="93"/>esse productiuum.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

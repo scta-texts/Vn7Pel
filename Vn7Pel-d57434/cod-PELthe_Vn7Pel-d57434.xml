@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Perfectio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Perfectio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="184"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d57434">
+            <head xml:id="Vn7Pel-d57434-Hd1e107">Perfectio</head>
+            <div xml:id="Vn7Pel-d57434-Dd1e110">
+               <head xml:id="Vn7Pel-d57434-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d57434-d1e115">
+                  <lb ed="#A" n="96"/>PErfectio Quid sit 
+        <lb ed="#A" n="97"/>vel qualibus modis dicatur. Nota secundum 
+        <lb ed="#A" n="98"/>Guil. in primo dist. xxxvi. Perfectum est 
+        <lb ed="#A" n="99"/> cui nihil deest. Et dicitur tripliciter secundum Aristo. v. 
+        <lb ed="#A" n="100"/>metaph
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e128">
+        ¶ Uno modo dicitur perfectum secundum Esse 
+        <lb ed="#A" n="101"/>cilicet cuius nihil est extra accipere Sicut homo dicitur 
+        <lb ed="#A" n="102"/>perfectus cui non deest aliqua pars homini debi 
+        <lb ed="#A" n="103"/>ta. Et nota quod possumus loqui vel de perfecto sim 
+        <lb ed="#A" n="104"/>pliciter. Uel secundum quid scilicet in genere. Si simpliciter 
+        <lb ed="#A" n="105"/>sic solus. deus dicitur perfectus hoc primo modo quia 
+        <lb ed="#A" n="106"/>solus est cui nihil deest sed habet omnia bona. 
+        <lb ed="#A" n="107"/>Aut formaliter: auteminenter: aut exemplariter 
+        <lb ed="#A" n="108"/>aut virtualiter Si autem secundum quid. sic dicitur ho 
+        <lb ed="#A" n="109"/>mo perfectus quando ea habet qua requiruntur ad  
+        <!--184.xml-->
+        <pb ed="#A" n="185"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>esse perfectum hominis et nil de his sibi deest vt patuit 
+        <lb ed="#A" n="2"/>Secundo modo perfectum dicitur secundum virtutem scilicet quod ham 
+        <lb ed="#A" n="3"/>det virtutem in esse completam et non deficit. sed habet 
+        <lb ed="#A" n="4"/>intantum quod non exceditur ab aliquo in tali virtute. et 
+        <lb ed="#A" n="5"/>sic etiamsi loquimur simpliciter. solus deus dicitur 
+        <lb ed="#A" n="6"/>perfectus. Si secundum quid: sic dicitur iste medicus perfectus vel 
+        <lb ed="#A" n="7"/>grammaticus qui habet talem artem sine defectu 
+        il<lb ed="#A" n="8" break="no"/>lius artis intantum quod a nullo in tali arte excedium 
+        <lb ed="#A" n="9"/>Et iste modus capiendi perfectum solet aliquando etiam 
+        <lb ed="#A" n="10"/>ad mala tranfferri. vt cum dicimus Iste est 
+        perfe<lb ed="#A" n="11" break="no"/>ctus latro vel perfectus deceptor sicut bonus la 
+        <lb ed="#A" n="12"/>tro etc.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e183">
+        ¶ Tertio modo dicitur secundum finem scilicet quod est asse 
+        <lb ed="#A" n="13"/>cutum suum finem ad quem ordinatur. sicut homo 
+        bo<lb ed="#A" n="14" break="no"/>nus dicitur perfectus quando adeptus est salutem. et sic eti 
+        <lb ed="#A" n="15"/>am perfectu solet quandoque tranfferri ad mala: dicendo 
+        <lb ed="#A" n="16"/>Hoc est perfecte perditum vel corruptum etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e195">
+               <head xml:id="Vn7Pel-d57434-Hd1e197">2</head>
+               <p xml:id="Vn7Pel-d57434-d1e200">
+                  <lb ed="#A" n="17"/>¶ Sed qualibus modis per oppo 
+        <lb ed="#A" n="18"/>situm dicatur imperfectum. Nota secundum e. Guil. ibidem quod tri 
+        <lb ed="#A" n="19"/>bus etiam modis iuxta regulam philosophi. v. Metaph. 
+        <lb ed="#A" n="20"/>Quot modis dicitur vnum oppositorum tot modis di 
+        <lb ed="#A" n="21"/>citur et reliquum etc.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e213">
+        ¶ Primo modo dicitur 
+        imperfe<lb ed="#A" n="22" break="no"/>ctum quo ad esse. Et hoc dupliciter. quia aut 
+        tota<lb ed="#A" n="23" break="no"/>liter caret esse sicut sunt pure negationes. et 
+        pec<lb ed="#A" n="24" break="no"/>cata: formaliter capiendo. Aut quia aliquo 
+        ca<lb ed="#A" n="25" break="no"/>ret esse quod sibi posset inesse vel ratione entis vel 
+        <lb ed="#A" n="26"/>teneris sui. vel nature proprie. Isto modo 
+        queli<lb ed="#A" n="27" break="no"/>bet creatura est imperfecta. quia cuilibet inquantum 
+        <lb ed="#A" n="28"/>est ens non repugnat infinitas que est perfectio. et 
+        <lb ed="#A" n="29"/>tamen quelibet creatura est finita. Queadmodum 
+        <lb ed="#A" n="30"/>et de priuatione vbi supra Aristo. dicit quod talpa di 
+        <lb ed="#A" n="31"/>citur ceca non inquantum talpa sed inquantum anima 
+        <lb ed="#A" n="32"/>quia animali non repugnat visio vel videre. sed 
+        <lb ed="#A" n="33"/>talpe vt talpa repugnat.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e242">
+        ¶ Secundo modo dici 
+        <lb ed="#A" n="34"/>tur imperfectum quo ad virtutem. quod scilicet non habet ple 
+        <lb ed="#A" n="35"/>nam virtutem sibi debitam vel correspondentem. 
+        si<lb ed="#A" n="36" break="no"/>cut dicitur imperfectus medicus qui non habet art 
+        <lb ed="#A" n="37"/>sufficientem.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e253">
+        ¶ Tertio modo dicitur imperfectum quo 
+        <lb ed="#A" n="38"/>ad finem scilicet quod caret debito fine. sicut sunt peruer 
+        <lb ed="#A" n="39"/>si spiritus maligni. Et etiam ea que auertunt a fine id est 
+        <lb ed="#A" n="40"/>a deo vel a beatitudie vt sunt mala. Hec omnia 
+        <lb ed="#A" n="41"/>ex Guil. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e265">
+               <head xml:id="Vn7Pel-d57434-Hd1e267">3</head>
+               <p xml:id="Vn7Pel-d57434-d1e270">
+                  <lb ed="#A" n="42"/>¶ Quid est perfectio simpliciter et 
+        <lb ed="#A" n="43"/>Respondetur secundum Guil. in. secundi lib. prologo. Et Fran. may. 
+        <lb ed="#A" n="44"/>in conflat. primi dist. xxxiiii. quod sicut docet Ansel. in 
+        <lb ed="#A" n="45"/>suo Monol. c. xv. Perfectio simpliciter est que 
+        <lb ed="#A" n="46"/>in qualibet melius est ipsam esse quam non esse. Et secundum 
+        <lb ed="#A" n="47"/>mentem doc. subti. in primo suo dist. ii. q. iiii. non 
+        de<lb ed="#A" n="48" break="no"/>bet intelligi absolute quod in qualibet natura est me 
+        <lb ed="#A" n="49"/>lius vnam perfectionem simpliciter esse quam non esse. 
+        <lb ed="#A" n="50"/>Sed debet intelligi in quolibet supposito 
+        abso<lb ed="#A" n="51" break="no"/>lute considerato non considerata eius natura. patet 
+        ex<lb ed="#A" n="52" break="no"/>emplo. Sapientia enim est perfectio simpliciter. no 
+        <lb ed="#A" n="53"/>tamen melius est cani inquantum canis scilicet quod sit sa 
+        <lb ed="#A" n="54"/>piens quam quod non sit sapiens. Si enim esset sapiens 
+        <lb ed="#A" n="55"/>iam non esset canis. Sed melius esset supposite 
+        <lb ed="#A" n="56"/>canis. non considerata canis natura. Hec ex Guil. 
+        <lb ed="#A" n="57"/>supra.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e308">
+               <head xml:id="Vn7Pel-d57434-Hd1e310">4</head>
+               <p xml:id="Vn7Pel-d57434-d1e313">
+        <!--184.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 185 -->
+                  <lb ed="#A" n="58"/>¶ Utrum omnia ea que ponuntur 
+        <lb ed="#A" n="59"/>in diuinis dicant perfectionem simpliciter 
+        Responde<lb ed="#A" n="60" break="no"/>tur secundum Fran. mayro. in conflat. primi dist. xxxiiii. 
+        <lb ed="#A" n="61"/>vbi inter multa dicit Notando quod perfectio 
+        simpli<lb ed="#A" n="62" break="no"/>citer secundum mentem doc. nostri est illa que est melior 
+        <lb ed="#A" n="63"/>quocumque sibi incompossibili. Propterea sapientia 
+        <lb ed="#A" n="64"/>est perfectio simpliciter. quia nata est habere 
+        mo<lb ed="#A" n="65" break="no"/>dum infinitatis. Et habere hoc scilicet modum infinita 
+        <lb ed="#A" n="66"/>tis repugnat ei quod non est perfectio 
+        simplici<lb ed="#A" n="67" break="no"/>ter. quia nullum tale potest esse infinitum formaliter 
+        <lb ed="#A" n="68"/>Ideoque perfectio simpliciter melior est quocumque si 
+        <lb ed="#A" n="69"/>bi incompossibili.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e348">
+        ¶ Unde pro regula generali est te 
+        <lb ed="#A" n="70"/>nendum quod omnis perfectio que est in deo formaliter 
+        <lb ed="#A" n="71"/>est melior omni perfectione que non est in deo forma 
+        <lb ed="#A" n="72"/>liter Nam alioquin deus posset intelligi melior si 
+        <lb ed="#A" n="73"/>vicem haberet quod est melius quod in se non habet. Et: 
+        <lb ed="#A" n="74"/>hoc est inconueniens quia Anselmus. supra dicit quod 
+        de<lb ed="#A" n="75" break="no"/>us est summum bonum quo maius vel minus 
+        in<lb ed="#A" n="76" break="no"/>telligi non potest.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e366">
+        ¶ Sed ad quesitum vicem. An 
+        <lb ed="#A" n="77"/>omnia ea que ponuntur in diuinis dicant perfectionem 
+        <lb ed="#A" n="78"/>simpliciter. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e375">
+               <head xml:id="Vn7Pel-d57434-Hd1e377">5</head>
+               <p xml:id="Vn7Pel-d57434-d1e380">
+                  <lb ed="#A" n="79"/> Adhuc pro euidentia Nota 
+        se<lb ed="#A" n="80" break="no"/>cundo ex eodem Franc. supra. Quod in creaturis Primo 
+        <lb ed="#A" n="81"/>sunt quedam que imperfectionem includunt 
+        quiditati<lb ed="#A" n="82" break="no"/>ue. et primo modo dicendi per se. sicut cecitas que est 
+        <lb ed="#A" n="83"/>puatio visus. et huiusmodi. Secundo quedam sunt que im 
+        <lb ed="#A" n="84"/>perfectionem includunt in secundo modo dicendi per se 
+        <lb ed="#A" n="85"/>sicut humanitas et quelibet species cuiuscumque 
+        ge<lb ed="#A" n="86" break="no"/>neris. quia potest demonstrari creabilitas. et per con 
+        <lb ed="#A" n="87"/>sequens finitas et huiusmodi in secundo modo per se In 
+        omni<lb ed="#A" n="88" break="no"/>bus enim creaturis que non sunt perfectio 
+        simplici<lb ed="#A" n="89" break="no"/>ter isto modo includitur imperfecton. Tertio quedam 
+        <lb ed="#A" n="90"/>sunt que solum per accidens includunt imperfectionem si 
+        <lb ed="#A" n="91"/>cut sapientia in creaturis. Nam sapientia in 
+        crea<lb ed="#A" n="92" break="no"/>tura est finita. ideo vt sic dicit imperfectionem secundum 
+        <lb ed="#A" n="93"/>quid et diminutam. tamen secundum eius rationem forma 
+        <lb ed="#A" n="94"/>lem vt abstrahit a finito et infinito dicit 
+        perfectio<lb ed="#A" n="95" break="no"/>nem simpliciter. quia vt sic nata est habere modum 
+        <lb ed="#A" n="96"/>infinitatis vt in precedenti proximo notabili patuit 
+        <lb ed="#A" n="97"/> Sed humanitas et species cuiuscumque generis. 
+        <lb ed="#A" n="98"/>et albedo. et talia dicunt tantummodo perfectionem secundum quid scilicet 
+        <lb ed="#A" n="99"/>in determinato genere. sed null omodo dicunt 
+        <lb ed="#A" n="100"/>perfectionem simpliciter. quia illa non conueniunt esse 
+        <lb ed="#A" n="101"/>formaliter in deo sicut sapientia est. Denique 
+        proprie<lb ed="#A" n="102" break="no"/>tates absolute sicut intellectus. scientia. 
+        volun<lb ed="#A" n="103" break="no"/>tas. potentia. et talia dicunt perfectionem simplice 
+        <lb ed="#A" n="104"/>ter. quia talia melius est simpliciter habere quam non 
+        <lb ed="#A" n="105"/>habere. que sunt in diuina essentia per modum rei 
+        <lb ed="#A" n="106"/>intrinsece. vnde talia inquantum accipiuntur in gene 
+        <lb ed="#A" n="107"/>rali: analogice de creatore et creatura dicunt 
+        per<lb ed="#A" n="108" break="no"/>fectionem simpliciter. sed non inquantum accipiun 
+        <lb ed="#A" n="109"/>tur cum modo quo determinantur ad creaturam 
+        <lb ed="#A" n="110"/>vt patuit etiam supra vbi Attributa. §. vi. Quar 
+        <lb ed="#A" n="111"/>to modo quadam sunt qua nullo modo includunt imperfectionem 
+        <lb ed="#A" n="112"/>sicut deitas. Et sola ista de quarto et de tertio tantum modis 
+        <lb ed="#A" n="113"/>dicunt perfectionem simpliciter. ista quidem de quarto de se. sed illa 
+        <lb ed="#A" n="114"/>de tertio per accts quia non conuenit eis perfectio simpliciter 
+        <!--185.xml-->
+        <pb ed="#A" n="186"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>nisi per accidens scilicet vt sunt vel nata sunt esse in deo 
+        <lb ed="#A" n="2"/>per modum rei intrinsece Secus vt sunt in creatu 
+        <lb ed="#A" n="3"/>ris. Et sic ad quesitum Respondendum est quod non omnia que 
+        <lb ed="#A" n="4"/>ponuntur in diuinis dicunt perfectionem simpliciter vt 
+        pa<lb ed="#A" n="5" break="no"/>tet de illis que sunt de secundo modo predicto et de 
+        <lb ed="#A" n="6"/>relationibus de quibus clarius in sequentibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e481">
+               <head xml:id="Vn7Pel-d57434-Hd1e483">6</head>
+               <p xml:id="Vn7Pel-d57434-d1e486">
+                  <lb ed="#A" n="7"/>¶ Sed que sunt illa que dicunt 
+        per<lb ed="#A" n="8" break="no"/>fectionem simpliciter Nota secundum Fran. supra. Regulas 
+        
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e493">
+                  <lb ed="#A" n="9"/>¶ Prima est. Quod nulla perfectio quiditatiua dicit 
+        <lb ed="#A" n="10"/>perfectionem simpliciter. Sed voco inquit perfectionem 
+        <lb ed="#A" n="11"/>quiditatiuam que est perfectio artata specifica vel de 
+        <lb ed="#A" n="12"/>genere substantie vel etiam de quocumque alio 
+        gene<lb ed="#A" n="13" break="no"/>re. accipiendo proprie talia quae per se sunt in genere. Nam 
+        <lb ed="#A" n="14"/>inter illas spens natura angelica tenet primum gra 
+        <lb ed="#A" n="15"/>dum et tamen non est perfecton simpliciter. Unde a fortiori humani 
+        <lb ed="#A" n="16"/>tas vel equinitas et huiusmodi non sunt perfectiones 
+        sim<lb ed="#A" n="17" break="no"/>pliciter. licet nobilius habeant esse in deo quam in se 
+        <lb ed="#A" n="18"/>De hoc supra. vbi Attributa
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e517">
+        ¶ Si dicas Sapien 
+        <lb ed="#A" n="19"/>tia est de genere qualitatis et tamen est perfectio 
+        simplici<lb ed="#A" n="20" break="no"/>ter Dico inquit Fran. quod sapientia quae est perfectio sim 
+        <lb ed="#A" n="21"/>pliciter non est in genere per se sed per eam circumloqui 
+        <lb ed="#A" n="22"/>mur aliquid in genere scilicet sapientia creatam que est in 
+        <lb ed="#A" n="23"/>genere qualitatis Similiter. spiritus vt in deo perfectio sim 
+        <lb ed="#A" n="24"/>pliciter. non est in genere. licet dicamus spiritum ange 
+        <lb ed="#A" n="25"/>licum qui est in genere substantie etc.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e535">
+        ¶ Secunda 
+        <lb ed="#A" n="26"/>regula quod nulla perfectio in creaturis si non 
+        inue<lb ed="#A" n="27" break="no"/>niatur in deo est perfectio simpliciter Sicut est fides: spes: 
+        <lb ed="#A" n="28"/>temperantia et huiusmodi. Ratio quia quecunque non 
+        inue<lb ed="#A" n="29" break="no"/>niuntur in deo repugnat eis infinitas Est autem 
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e547">
+                  <lb ed="#A" n="30"/>¶ Tertia scilicet regula Ex generaliter omnis perfectio cui 
+        re<lb ed="#A" n="31" break="no"/>pugnat infinitas repugnat ei esse perfectionem 
+        sim<lb ed="#A" n="32" break="no"/>pliciter. Unde philosophus. v. metaph. ca. de perfecto dicit Sim 
+        <lb ed="#A" n="33"/>pliciter perfectum est illud in quo reperiuntur omnes 
+        no<lb ed="#A" n="34" break="no"/>bilitates cuiuslibet entis. per modum tamen altiorem 
+        <lb ed="#A" n="35"/>ergo perfectum simpliciter non potest esse nisi vnum quod est deus 
+        <lb ed="#A" n="36"/>qui solus est infinitus et ea que sunt in eo 
+        essen<lb ed="#A" n="37" break="no"/>tialia
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e567">
+        ¶ Quarta regula. Quecumque sunt in deo nisi 
+        <lb ed="#A" n="38"/>sint communia tribus personis non dicunt perfectionem 
+        sim<lb ed="#A" n="39" break="no"/>pliciter. Unde paternitas: filiatio spiratio: etc. 
+        nul<lb ed="#A" n="40" break="no"/>lam dicunt perfectonm loquendo formaliter. Nec di 
+        <lb ed="#A" n="41"/>cunt imperfectionem vt dicit etiam Guil. sed 
+        loquen<lb ed="#A" n="42" break="no"/>do identice dicunt perfectonm cum sint idem cum 
+        di<lb ed="#A" n="43" break="no"/>uina essentia. Nam si dicerent formaliter perfectionem 
+        <lb ed="#A" n="44"/>equeretur quod aliqua scilicet perfectio esset in patre qua non 
+        <lb ed="#A" n="45"/>esset in filio et econuerso. quia paternitas est in patre 
+        <lb ed="#A" n="46"/>non in filio formaliter. et filiatio est in filio formaliter 
+        <lb ed="#A" n="47"/>non in patre. et sic vna esset perfectior. Patuit vbi 
+        <lb ed="#A" n="48"/>Notio. §. ix. in fi.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e593">
+        ¶ Quinta regula. Quod omnia quae di 
+        <lb ed="#A" n="49"/>cunt esse absolutum in deo dicunt perfectionem 
+        sim<lb ed="#A" n="50" break="no"/>pliciter sicut in deo Ratio: subsantie: spiritus: entitatis deitatis 
+        <lb ed="#A" n="51"/>et etiam heceitatis diuine que scilicet heceitas in deo se 
+        <lb ed="#A" n="52"/>habet per modum indiuidui Et vt sic scilicet in deo est infinita 
+        <lb ed="#A" n="53"/>Itaque omnia absoluta accipiendo ab indiuiduo 
+        <lb ed="#A" n="54"/>vsque ad transcendens dicunt perfectionem simpliciter 
+        <lb ed="#A" n="55"/>vt sunt in deo. Secus vt in creaturis quia vt sic 
+        <lb ed="#A" n="56"/>repugnat eis infinitas etc.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e613">
+        ¶ Unde nota quod 
+        dei<lb ed="#A" n="57" break="no"/>tas et omnes proprietates absolute sicut intellectus: 
+        <!--185.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 186 -->
+                  <lb ed="#A" n="58"/>voluntas et potentia. scientia. sapientia. Et omnes 
+        qua<lb ed="#A" n="59" break="no"/>si per se passiones proprie solius dei absolute sicut in 
+        <lb ed="#A" n="60"/>finitas. eternitas. necessitas. etc. sunt perfectiones 
+        <lb ed="#A" n="61"/>simpliciter etc. Dico quasi. quia deitas se habet 
+        <lb ed="#A" n="62"/>ad modum speciei specialissime ad deum sicut 
+        huma<lb ed="#A" n="63" break="no"/>nitas ad hominem. Infinitas autem et eternitas et 
+        hu<lb ed="#A" n="64" break="no"/>iusmodi se habent sicut risibilitas.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e639">
+        ¶ Sexta 
+        re<lb ed="#A" n="65" break="no"/>gula de relatiuis scilicet quod nulla relatio dicit 
+        perfecti<lb ed="#A" n="66" break="no"/>onem simpliciter. Nam sicut tiomune est omni 
+        relatio<lb ed="#A" n="67" break="no"/>ni quod non sit quanta nec vna est maior alia secundum 
+        for<lb ed="#A" n="68" break="no"/>male esse relationis non enim maior relatio est 
+        in<lb ed="#A" n="69" break="no"/>ter patrem et filium quam inter fratrem et sororem licet 
+        ma<lb ed="#A" n="70" break="no"/>ior sit cognatio secundum gradum consanguinitatis ibi quam 
+        <lb ed="#A" n="71"/>hic. Ita etiam commune est omni relationi quod vicem nul 
+        <lb ed="#A" n="72"/>lam perfectionem dicat. Et hec regula expresse 
+        patu<lb ed="#A" n="73" break="no"/>it vbi Notio. §. ix. in fi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e662">
+               <head xml:id="Vn7Pel-d57434-Hd1e664">7</head>
+               <p xml:id="Vn7Pel-d57434-d1e667">
+                  <lb ed="#A" n="74"/>¶ Sed quid de relationibus con 
+        <lb ed="#A" n="75"/>munibus respicientibus aliquid ad extra sicut est 
+        iu<lb ed="#A" n="76" break="no"/>sticia. misericordia et huiusmodi. Respondet idem Fran. 
+        <lb ed="#A" n="77"/>Et pro regula sit quod omnia que sunt ad creaturam non 
+        <lb ed="#A" n="78"/>sunt perfectio simpliciter loquendo formaliter scilicet 
+        in<lb ed="#A" n="79" break="no"/>quantum relatio ad creaturam. licet inquantum sunt idem 
+        <lb ed="#A" n="80"/>cum essentia in deo possint dici perfectio. Simili 
+        <lb ed="#A" n="81"/>ter dicit etiam de scientia visionis quod vicem non est 
+        perfe<lb ed="#A" n="82" break="no"/>ctio simpliciter. Sicut nec iusticia nec misericor 
+        <lb ed="#A" n="83"/>dia et talia: que sunt ad creaturam. Hec omnia praedi 
+        <lb ed="#A" n="84"/>cta ex Fran.
+      </p>
+               <p xml:id="Vn7Pel-d57434-d1e693">
+        ¶ Ad hec etiam vide vbi Omnipotentia 
+        <lb ed="#A" n="85"/>§. xxv. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d57434-Dd1e699">
+               <head xml:id="Vn7Pel-d57434-Hd1e701">8</head>
+               <p xml:id="Vn7Pel-d57434-d1e704">
+                  <lb ed="#A" n="86"/>¶ An sit perfectionis in deo gene 
+        <lb ed="#A" n="87"/>rare sibi simile: Arguitur quod sic. quia philosophus. iiii. Me 
+        <lb ed="#A" n="88"/>theo. dicit quod vnumquoque tunc perfectum est cum 
+        po<lb ed="#A" n="89" break="no"/>test producere sibi simile. ergo etc. Sed in oppositum 
+        <lb ed="#A" n="90"/>quia generare est in patre et non in filio nec in spiritu 
+        <lb ed="#A" n="91"/>iancto. ergo pater erit perfectior filio et spiritu sancto. 
+        <lb ed="#A" n="92"/>Respondetur secundum Rich. super primo dist. ii. q. i. quod praedicta 
+        <lb ed="#A" n="93"/>autoritas philosophi est intelligenda in generabilibus 
+        <lb ed="#A" n="94"/>et corruptibilibus tantummodo. Nam solem non 
+        iudica<lb ed="#A" n="95" break="no"/>mus esse imperfectum eo quod non potest alium solem 
+        <lb ed="#A" n="96"/>generare nec angelum eo quod non potest alium angelum 
+        <lb ed="#A" n="97"/>generare. vnde producere sibi simile non est perfecti 
+        <lb ed="#A" n="98"/>onis in incorruptibilibus. et per consequens nec 
+        insdiui<lb ed="#A" n="99" break="no"/>nis dicit perfectionem etc. Ex praedictis itaque patet quod ge 
+        <lb ed="#A" n="100"/>neratio sicut et paternitas in diuinis nec perfectio 
+        <lb ed="#A" n="101"/>nem aliquam dicit nec imperfectionem. quia alio quin 
+        <lb ed="#A" n="102"/>non posset vitari quin aliquod suppositu diuinum ha 
+        <lb ed="#A" n="103"/>beret perfectionem diminuta. vt patet per Scotum et 
+        <lb ed="#A" n="104"/>Fran. supra.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

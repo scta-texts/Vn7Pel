@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Infinitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Infinitas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="125"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d38321">
+            <head xml:id="Vn7Pel-d38321-Hd1e107">Infinitas</head>
+            <div xml:id="Vn7Pel-d38321-Dd1e110">
+               <head xml:id="Vn7Pel-d38321-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d38321-d1e115">
+                  <lb ed="#A" n="19"/>Infinitas siue 
+        in<lb ed="#A" n="20" break="no"/>finitum dicitur tripliciter vel est tripler 
+        <lb ed="#A" n="21"/>
+               </p>
+               <p xml:id="Vn7Pel-d38321-d1e124">
+        ¶ secundum Guil. in i. di. xliii. art. i. Primo 
+        <lb ed="#A" n="22"/>dicitur Infinitum extensiue. Secundo intensiue. Tertio 
+        <lb ed="#A" n="23"/>extensiue et intensiue simul.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e131">
+        ¶ Primum infinitum 
+        <lb ed="#A" n="24"/>extensiue dicitur tripliciter. Primo in quantitate continua. 
+        <lb ed="#A" n="25"/>sicut si daretur aqua continua infinita seu linea per 
+        <lb ed="#A" n="26"/>extensionem. Secundo in quantitate discreta. sicut est in 
+        <lb ed="#A" n="27"/>numeris qui ascendit ab vnitate in infinitum. De 
+        <lb ed="#A" n="28"/>istis modis infinitis dicit Philosophus. iii. Physicus. Infi 
+        <lb ed="#A" n="29"/>nitum est cuius quantitatem accipientibus semper est aliquid 
+        <lb ed="#A" n="30"/>extra accipere. Unde secundum eum huiusmodi infinitum semper extat in 
+        <lb ed="#A" n="31"/>potentia assumendi vnum post aliud et nunque in actu 
+        <lb ed="#A" n="32"/>completo. Et dat Exemplum de diebus olympiadi 
+        <lb ed="#A" n="33"/>bus qui in infinitum procedunt. quia qualibet quinquinnio 
+        <lb ed="#A" n="34"/>reuoluuntur. Nam olympias secundum Catholicon est 
+        <lb ed="#A" n="35"/>solennis ludus quida qui fiebat ad honorem 
+        Io<lb ed="#A" n="36" break="no"/>uis semel per quinquennium: ne si vlterius protenderetur 
+        <lb ed="#A" n="37"/>obliuioni daretur. vel si citra quinquennium caelebra 
+        <lb ed="#A" n="38"/>retur: expense nimietas grauaret. Item lex erat quod qui 
+        <lb ed="#A" n="39"/>victor existeret ibi in aliquo ludo: haberet 
+        quodcun<lb ed="#A" n="40" break="no"/>que munus vellet requirere. Tertio dicitur infinitum exten 
+        <lb ed="#A" n="41"/>siue virtute vel potentia ad infinita se extendendo. 
+        <lb ed="#A" n="42"/>Et hoc primo passiue: sicut est in materia prima quae se 
+        <lb ed="#A" n="43"/>extendit ad infinitas formas. secundo actiue in primo 
+        ef<lb ed="#A" n="44" break="no"/>ficiente id est deo qui se extendit ad effectus infinitos. Et 
+        <lb ed="#A" n="45"/>tertio actiue et passiue similis vt in intellectu nostro 
+        <lb ed="#A" n="46"/>seu angelico qui est in potentia ad infinitas intelle 
+        <lb ed="#A" n="47"/>ctiones. Causa est horum partialis. quia dicente Aug. ix. 
+        <lb ed="#A" n="48"/>de trini. Obiectum et potentia semper pariunt noticiam. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e189">
+               <head xml:id="Vn7Pel-d38321-Hd1e191">2</head>
+               <p xml:id="Vn7Pel-d38321-d1e194">
+                  <lb ed="#A" n="49"/>¶ Secundum Infinitum intensiue 
+        <lb ed="#A" n="50"/>dictu potest intelligi etiam tripliciter. Primo modo 
+        <lb ed="#A" n="51"/>in actuali existentia alicuius creature. sicut si pone 
+        <!--124.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 125 -->
+                  <lb ed="#A" n="52"/>remus charitatem infinitam actu in anima christi cui non 
+        <lb ed="#A" n="53"/>est datus spiritus ad mensuram. vt scribitur Ioan. iii. 
+        <lb ed="#A" n="54"/>Uerumtamen secundum Ly. non est intelligendum quod gratia habintuals 
+        <lb ed="#A" n="55"/>vel charitas in christo homine sit infinita. sed quia habet 
+        <lb ed="#A" n="56"/>gratiam secundum omnem eius rationem et effectum. et tota capaci 
+        <lb ed="#A" n="57"/>tas anime christi fuit repleta gratia vel charitate: adeo 
+        <lb ed="#A" n="58"/>vt de plenitudine eius omnes homines etiam infiniti 
+        ac<lb ed="#A" n="59" break="no"/>cipere possint gratiam. Ideo dicitur ei datus spiritus non 
+        <lb ed="#A" n="60"/>ad mensuram scilicet determinatam. Secundo potest intelligi 
+        <lb ed="#A" n="61"/>infinitum intensiue in esse quiditatiuo creature: sicut 
+        <lb ed="#A" n="62"/>si ponatur vna species in qua concurrant omnes denomnina 
+        <lb ed="#A" n="63"/>tiones perfectionis simpliciter vt summa a deo creabil 
+        <lb ed="#A" n="64"/>Tertio intelligitur infinitum intensiue in quo de natu 
+        <lb ed="#A" n="65"/>ra sua omnis extat perfectio simpliciter principio carens et 
+        <lb ed="#A" n="66"/>fine. Apoca i. Ego sum alpha et o. Et hoc modo ca 
+        <lb ed="#A" n="67"/>piendo diffinit doc. subtilis in i. di. ii. q. i. in via fi. 
+        <lb ed="#A" n="68"/>infinitum sic
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e246">
+        ¶ Infinitum est quod aliquod finitum datum 
+        <lb ed="#A" n="69"/>secundum nullam habitudinem finitam excedit: sed vltra 
+        <lb ed="#A" n="70"/>omnem assignabilem habitudinem adhuc excedit. Et 
+        <lb ed="#A" n="71"/>isto modo solus deus est immensus et infinitus. Ex qua 
+        <lb ed="#A" n="72"/>patet quod vltra summam creaturam creabilem adhuc 
+        <lb ed="#A" n="73"/>sunt inter eam et deum distantie infinite seu gradus 
+        <lb ed="#A" n="74"/>(infiniti 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e262">
+                  <lb ed="#A" n="75"/>¶ Tertium Infinitum scilicet simul extensiue 
+        <lb ed="#A" n="76"/>et intensiue. hoc proprie loquendo conuenit 
+        formali<lb ed="#A" n="77" break="no"/>ter omnipotentie dei quae dicitur infinita intensiue. quia est 
+        <lb ed="#A" n="78"/>idem realiter cum diuina essentia. sed dicitur 
+        infini<lb ed="#A" n="79" break="no"/>ta extensiue. quia ad infinitos se extendit effectus. 
+        <lb ed="#A" n="80"/>Unde infinitum dicitur quasi non finitum. Hec ex Guill. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e279">
+               <head xml:id="Vn7Pel-d38321-Hd1e281">3</head>
+               <p xml:id="Vn7Pel-d38321-d1e284">
+                  <lb ed="#A" n="81"/>¶ Notandum vlterius de 
+        Infini<lb ed="#A" n="82" break="no"/>to secundum Alex. de Al i. per. summe scilicet collatione de 
+        immensi<lb ed="#A" n="83" break="no"/>tate diuine essentie. Et etiam Guill. supra quod Infinitum 
+        <lb ed="#A" n="84"/>tripliciter accipitur scilicet Negatiue: Priuatiue: et 
+        Contra<lb ed="#A" n="85" break="no"/>rie.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e297">
+        ¶ Negatiue infinitum dicitur quod nullo modo natum 
+        <lb ed="#A" n="86"/>est vel aptum finiri: sicut deus. Priuatiue 
+        infini<lb ed="#A" n="87" break="no"/>tum dicitur quod de se non est finitum: tamen aptum natum est 
+        fini<lb ed="#A" n="88" break="no"/>ri: sicut dicunt aliqui de materia prima quod de se non est 
+        <lb ed="#A" n="89"/>finita: sed finitur per formam. Unde materia prima dicitur 
+        infi<lb ed="#A" n="90" break="no"/>nita privatiue.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e310">
+        ¶ Contrarie vero dicitur infinitum id quod 
+        <lb ed="#A" n="91"/>habet contraria dispositionem ad hoc vt finiatur. Et 
+        <lb ed="#A" n="92"/>hoc etiam modo deus dicitur infinitus. quia ratione diuine 
+        essen<lb ed="#A" n="93" break="no"/>tie repugnat sibi finitas. His concor. Tho. in scri 
+        <lb ed="#A" n="94"/>pto i. dist. xliii. q. i. ar. i. Et Bonauem. et Aureolus. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e322">
+               <head xml:id="Vn7Pel-d38321-Hd1e324">4</head>
+               <p xml:id="Vn7Pel-d38321-d1e327">
+                  <lb ed="#A" n="95"/>¶ Quomodo deus dicitur esse infini 
+        <lb ed="#A" n="96"/>tus: Cum infinitum dicitur per abnegationem finis quasi non 
+        <lb ed="#A" n="97"/>finitum. hoc autem est esse non completum. sed deus est 
+        com<lb ed="#A" n="98" break="no"/>pletissimus et perfectissimus. ergo non est in deo 
+        infini<lb ed="#A" n="99" break="no"/>tas. Respondetur secundum Bonauen. super i. di. xliii. q. ii. simul 
+        <lb ed="#A" n="100"/>et Aur. in compend. quod Infinitum dicitur per 
+        abnegatio<lb ed="#A" n="101" break="no"/>nem finis. Tripliciter autem dicitur finis. Uno modo Finis 
+        di<lb ed="#A" n="102" break="no"/>citur id quod est complementum alicuius rei vel perfectio 
+        <lb ed="#A" n="103"/>ipsius rei. Et sic infinitum est quod non habet 
+        complemen<lb ed="#A" n="104" break="no"/>tum vel esse perfectum. sicut scilicet Physi. materia prima 
+        <lb ed="#A" n="105"/>dicitur infinita quia imperfecta ex se et in potentia ad hoc 
+        <lb ed="#A" n="106"/>vt perficiatur quacumque forma. Hoc modo non est in deo 
+        <lb ed="#A" n="107"/>infinitas. quia deus est perfectissimus actus: vt 
+        ar<lb ed="#A" n="108" break="no"/>gutum est. Alio modo Finis dicitur terminus sicut finis 
+        <lb ed="#A" n="109"/>agri. et sic infinitum est quod caret termino vel statu 
+        <!--125.xml-->
+        <pb ed="#A" n="126"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Unde quantitas continua potentia dicitur infinita 
+        <lb ed="#A" n="2"/>quia potest diuidi in puncta infinita nec est 
+        termi<lb ed="#A" n="3" break="no"/>nus in eius diuisione Similiter quantitas discre 
+        <lb ed="#A" n="4"/>ta dicitur potentia infinita quia potest per additionem 
+        <lb ed="#A" n="5"/>numerus crescere in infinitu. nec habet statum etc. 
+        <lb ed="#A" n="6"/>Tertio modo dicitur finis illud propter quod vni 
+        <lb ed="#A" n="7"/>quodque est. Sicut finis hominis dicitur beatitu 
+        <lb ed="#A" n="8"/>do vel deus etc.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e386">
+        ¶ Ad quesitum ergo dicendum quod deus 
+        <lb ed="#A" n="9"/>nullo modo dicitur finitus secundum substantiam nisi fini 
+        <lb ed="#A" n="10"/>tum accipiatur primo modo vt dicit esse completum. 
+        <lb ed="#A" n="11"/>perfectum. Nam exquo infinitum includit negatione 
+        <lb ed="#A" n="12"/>scilicet non. quia dicitur infinitum id est non finitum Ideo oritur di 
+        <lb ed="#A" n="13"/>uersitas infiniti: vt accipiatur hec negato non aliquando nn 
+        <lb ed="#A" n="14"/>gatiue: alquando privatiue: et aliquando contrarie. vt patuit. §. i 
+        <lb ed="#A" n="15"/>Deus autem dicitur infinitus non quidem priuatiue scilic 
+        <lb ed="#A" n="16"/>contrarie et negatiue quia non habet finem virtutis et 
+        bo<lb ed="#A" n="17" break="no"/>nitatis etc. Nec est aptum habere propter summam 
+        im<lb ed="#A" n="18" break="no"/>mensitatem Sed quoniam in deo idem sunt potentia: sa 
+        <lb ed="#A" n="19"/>pieutia: bonitas. virtus et eternitas quod essentia di 
+        <lb ed="#A" n="20"/>uina ergo sicut deus est infinite virtutis. potentie. sa 
+        <lb ed="#A" n="21"/>pienuie etc. sic est etiam infinite essentie omnimo 
+        <lb ed="#A" n="22"/>de Denique deus cum sit rerum omnium causa effici 
+        <lb ed="#A" n="23"/>ens non effecta Iia est causa finalis omnium non 
+        fi<lb ed="#A" n="24" break="no"/>nita. quia deus non ordinatur in aliud sed omnia in deum 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e423">
+                  <lb ed="#A" n="25"/>¶ Item quod essentia diuina sit 
+        ve<lb ed="#A" n="26" break="no"/>re infinita patuit supra vbi essentia diuina.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e430">
+        ¶ Si 
+        <lb ed="#A" n="27"/>militer an esse infinitum soli deo conueniat patuit 
+        <lb ed="#A" n="28"/>ibidem. §. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e439">
+               <head xml:id="Vn7Pel-d38321-Hd1e441">5</head>
+               <p xml:id="Vn7Pel-d38321-d1e444">
+                  <lb ed="#A" n="29"/>¶ Quomodo deus cum sit infinitus esse 
+        <lb ed="#A" n="30"/>dicitur in rebus creatis finitis: Nam infinitum non 
+        <lb ed="#A" n="31"/>capitur a finito. cum finiti ad infinitum proportio sit 
+        <lb ed="#A" n="32"/>nulla. viii. physi. Respondetur secundum Aureolum in com 
+        <lb ed="#A" n="33"/>pen. quod sicut potentia dei dicitur infinita pro eo quod 
+        <lb ed="#A" n="34"/>non potest in tot quin possit in plura sic et essentie 
+        <lb ed="#A" n="35"/>dei dicitur infinita prout est in creatis rebus pro et 
+        <lb ed="#A" n="36"/>quia non est ita in omnibus rebus quin possit esse 
+        <lb ed="#A" n="37"/>in pluribus imo si essent aut fieri possent 
+        mun<lb ed="#A" n="38" break="no"/>di infiniti deus omnes illos repleret. Unde deus licet 
+        <lb ed="#A" n="39"/>infinitus capitur a rebus finitis. non per inclnsio 
+        <lb ed="#A" n="40"/>nem vel comprehensionem sed participatie a 
+        crea<lb ed="#A" n="41" break="no"/>turis pro earum capacitate vt dictat etiam Bonauem. supra 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e476">
+               <head xml:id="Vn7Pel-d38321-Hd1e478">6</head>
+               <p xml:id="Vn7Pel-d38321-d1e481">
+                  <lb ed="#A" n="42"/>¶ Unde probari potest 
+        efficaci<lb ed="#A" n="43" break="no"/>deum esse infinitum: Respondetur secundum Scotorlis. super p. 
+        <lb ed="#A" n="44"/>mo dist. xlii. q. i. quod circa istam questionem omnes doc 
+        <lb ed="#A" n="45"/>theologi et philosophi etiam concordant quia omnes concludum 
+        <lb ed="#A" n="46"/>et ponunt deum esse infinitum. Sed diuersitas est in 
+        <lb ed="#A" n="47"/>modo probandi Ion oportet hoc diuersorum rationes 
+        <lb ed="#A" n="48"/>adducere et ventilare.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e499">
+        ¶ Nam primo philosophus. viii 
+        <lb ed="#A" n="49"/>physi. et. xii. metaph. probat sic Quod mouet motu 
+        <lb ed="#A" n="50"/>infinito. vel potest mouere infinito motu habet potentiam 
+        <lb ed="#A" n="51"/>infinitam. sed deus mouet vel potest mouere motu infinito 
+        <lb ed="#A" n="52"/>quia aeterno. ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e510">
+        ¶ Ista probatio non valet. quia mior fi 
+        <lb ed="#A" n="53"/>datur in philosophica positione de eternitate motus et temporie 
+        <lb ed="#A" n="54"/>Hoc autem est contra fidem que ponit modm non esse 
+        <lb ed="#A" n="55"/>eternum nec potuisse produci ab eterno vt patebit 
+        <lb ed="#A" n="56"/>lib. ii Preterea etiam secundum viam philosophi propter maiorem du 
+        <!--125.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 126 -->
+                  <lb ed="#A" n="57"/>rationem rei non habetur maior vel infinita perfectio. 
+        <lb ed="#A" n="58"/>Nam non est maioris perfectionis albedo que durat 
+        <lb ed="#A" n="59"/>decem diebus quam que durat vno die: vt dicitur. i. 
+        <lb ed="#A" n="60"/>Eth. Unde probatio ista non valet. sed potius secundum 
+        <lb ed="#A" n="61"/>Philosophos probatur deum esse infinitum per effectus 
+        infi<lb ed="#A" n="62" break="no"/>nitos deo possibiles. sic causa habens in virtute 
+        <lb ed="#A" n="63"/>sua actiua effectus infinitos possibiles 
+        produce<lb ed="#A" n="64" break="no"/>re: est infinita. sed deus est huiusmodi. quia habet in vi 
+        <lb ed="#A" n="65"/>tute sua actiua causalitatem omnim causarum 
+        secunda<lb ed="#A" n="66" break="no"/>rum. ergo deus est infinitus
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e549">
+        ¶ Secundo Tho i. per. q. vii. 
+        <lb ed="#A" n="67"/>probat infinitatem dei sic. Forma non recepta in 
+        ma<lb ed="#A" n="68" break="no"/>teria est infinita. sed forma scilicet essentia diuina non 
+        <lb ed="#A" n="69"/>est recepta in materia. ergo deus est infinitus. Sed 
+        <lb ed="#A" n="70"/>salua reuerentia sancti doc. nec ista probatio valet 
+        <lb ed="#A" n="71"/>quia vt ipse idem dicit Forma angeli est forma non 
+        <lb ed="#A" n="72"/>recepta in materia. et tamen non sequitur quod angelus 
+        <lb ed="#A" n="73"/>sit infinitus. Sed respondet ad hoc i. per. q. i. ar. 
+        <lb ed="#A" n="74"/>ii. quod licet angelus sit finitus qua ad superius. est tamen in 
+        <lb ed="#A" n="75"/>finitus qua ad inferius. Deus autem vtroque modo 
+        <lb ed="#A" n="76"/>est infinitus
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e574">
+        ¶ Sed contra. Formalitas infini 
+        <lb ed="#A" n="77"/>tatis debet accipi per intrinsecum essentie: et non per 
+        <lb ed="#A" n="78"/>extrinsecum. Et sic non bene probatur infinitas in 
+        re<lb ed="#A" n="79" break="no"/>spectu ad causam extra. per cuius comperationem. 
+        <lb ed="#A" n="80"/>dicunt angelum esse infinitum.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e585">
+        ¶ Tertio ergo 
+        me<lb ed="#A" n="81" break="no"/>lius ad probandum deum esse infinitum sunt rationes 
+        <lb ed="#A" n="82"/>iste secundum Scotorlis.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e592">
+        ¶ Una Ex parte diuini 
+        intelle<lb ed="#A" n="83" break="no"/>ctus. Nam intelligibilia sunt infinita: 
+        accipien<lb ed="#A" n="84" break="no"/>do alterum post alterum semper et non tot quin plura. ergo 
+        <lb ed="#A" n="85"/>si aliquis intellectus similis intelligit omnia illa: erit in 
+        <lb ed="#A" n="86"/>finitus. Et patet consequentia. quia quicunque sunt 
+        in<lb ed="#A" n="87" break="no"/>finita accipiendo alterum post alterum: illa si sunt 
+        si<lb ed="#A" n="88" break="no"/>mils sunt infinita. sed intellectus diuinus similis intel 
+        <lb ed="#A" n="89"/>ligit omnia intelligibilia. ergo deus habet intellectum 
+        <lb ed="#A" n="90"/>infinitum. et per consequens essentiam: et potentiam: et sapien 
+        <lb ed="#A" n="91"/>tiam infinitam: et omnia que in deo: sunt infinite virtutis. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e614">
+                  <lb ed="#A" n="92"/>¶ Alia ratio Ex terminatione nostri appetitus. quia 
+        <lb ed="#A" n="93"/>nibil terminat vltimate actum appetitus vel volun 
+        <lb ed="#A" n="94"/>tatis nostre nisi sit infinitum. quia quacumque finito 
+        <lb ed="#A" n="95"/>dato: voluntas potest vltra appetere. Sed quod 
+        ter<lb ed="#A" n="96" break="no"/>minat vltimate actum voluntatis nostre est deus. ergo 
+        de<lb ed="#A" n="97" break="no"/>us est infinitus
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e630">
+        ¶ Tertia ratio Ex eminentia 
+        sum<lb ed="#A" n="98" break="no"/>ma qua non potest intelligi maius scilicet deo vel 
+        perfe<lb ed="#A" n="99" break="no"/>ctius Et hec ratio habetur supra vbi de Essentia diui 
+        <lb ed="#A" n="100"/>na. §. xxxix. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e640">
+               <head xml:id="Vn7Pel-d38321-Hd1e642">7</head>
+               <p xml:id="Vn7Pel-d38321-d1e645">
+                  <lb ed="#A" n="101"/>¶ Sed difficultas oritur ex hoc 
+        <lb ed="#A" n="102"/>Quo potest esse malum in vniuerso: cum deus sit 
+        in<lb ed="#A" n="103" break="no"/>finite bonitatis potestatis: et maiestatis: Nam ex. iii. 
+        <lb ed="#A" n="104"/>Physicus. Si vnum contrariorum est infinitum: non 
+        pati<lb ed="#A" n="105" break="no"/>tur esse aliud scilicet contrarium sibi. sed destruit illud 
+        <lb ed="#A" n="106"/>Sicut si sol haberet calorem infinitum destrueret 
+        <lb ed="#A" n="107"/>simpliciter omne frigus Etsi lux infinita esset diffusa 
+        vbi<lb ed="#A" n="108" break="no"/>que: nulle essent tenebre. sequitur est quod si deus est infi 
+        <lb ed="#A" n="109"/>nite bonitatis et potestatis: nullum patitur esse 
+        ma<lb ed="#A" n="110" break="no"/>lum in mundo
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e669">
+        ¶ Respondetur secundum eundem Scotorlis 
+        <lb ed="#A" n="111"/>quod illa autoritas. iii. Physicus. intelligenda est quando 
+        <lb ed="#A" n="112"/>id quod habet talem potentiam vel bonitatem 
+        infini<lb ed="#A" n="113" break="no"/>tam agit de necessitate nature. deus autem nil agit 
+        <!--126.xml-->
+        <pb ed="#A" n="127"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>extra se de necessitate nature sed voluntarie. ideo 
+        <lb ed="#A" n="2"/>non valet arguere a simili in his que agunt de 
+        ne<lb ed="#A" n="3" break="no"/>cessitate nature. vt de sole etc. Deus emim vult per 
+        <lb ed="#A" n="4"/>mittere malum in vniuerso vt inde eliciat bona 
+        <lb ed="#A" n="5"/>sicut Auc. dicit in Enchiridion. et patebit infra. 
+        <lb ed="#A" n="6"/>vbi de Malo etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e698">
+                  <lb ed="#A" n="7"/>¶ De infinito plura vide vbi de 
+        <lb ed="#A" n="8"/>Potentie dei Infinitate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38321-Dd1e706">
+               <head xml:id="Vn7Pel-d38321-Hd1e708">8</head>
+               <p xml:id="Vn7Pel-d38321-d1e711">
+                  <lb ed="#A" n="9"/>IN infinitum pro 
+        <lb ed="#A" n="10"/>cessus. Circa hoc: questione contingit 
+        <lb ed="#A" n="11"/>sepre versari. Utrum i causarum generibus 
+        <lb ed="#A" n="12"/>us procedatur in infinitum: Ad hoc summatim respondetur 
+        <lb ed="#A" n="13"/>secundum Philosophum. ii Meta. dicentem. quod in nullo genere 
+        <lb ed="#A" n="14"/>causarum contingit ire in infinitum: sed est semper deue 
+        <lb ed="#A" n="15"/>nire ad aliquod quod est primum in illo genere cause 
+        <lb ed="#A" n="16"/>vnde contingit deuenire ad primum efficiens et ad 
+        <lb ed="#A" n="17"/>primum finem. ad primam formam. et ad primam materiam 
+        <lb ed="#A" n="18"/>Hec ille
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e735">
+        ¶ Declaratur secundum Metaphysicos per 
+        sin<lb ed="#A" n="19" break="no"/>gula genera quattuor causarum.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e740">
+        ¶ Primo in cau 
+        <lb ed="#A" n="20"/>sis efficientibus vbi est status in sursum et deorsum 
+        <lb ed="#A" n="21"/>Nam in deorsum patet manifeste quod sunt aliqui 
+        <lb ed="#A" n="22"/>vltimi effectus qui non sunt cause aliorum. puta in 
+        <lb ed="#A" n="23"/>filio vltimo non generante: vel in artificialibus etc. 
+        <lb ed="#A" n="24"/>ergo ibi est status procedendi. Item in sursum etiam patet 
+        <lb ed="#A" n="25"/>quia omnes cause siue per naturam siue per artem 
+        <lb ed="#A" n="26"/>que etiam producunt effectus diuersos et 
+        contrari<lb ed="#A" n="27" break="no"/>os reducuntur ad primam causam que vniuersaliter 
+        <lb ed="#A" n="28"/>continet omnes virtutes que particulariter repe 
+        <lb ed="#A" n="29"/>riuntur in causis posterioribus que cessabunt non 
+        <lb ed="#A" n="30"/>mouente prima causa. Et sic ibi est status ergo etc 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e766">
+                  <lb ed="#A" n="31"/>¶ Secudo in causis materialibus vbi notum est 
+        <lb ed="#A" n="32"/>quod aliquid est subiectum primum quod se habet vt 
+        <lb ed="#A" n="33"/>basis et fundamentum aliorum vtpote materia prius 
+        <lb ed="#A" n="34"/>ma. Et sic ibi est status: quia est deuenire in illam 
+        <lb ed="#A" n="35"/>primam materiam que est pura potentia. ex qua 
+        <lb ed="#A" n="36"/>nunt elementa. Ex elementis autem fiunt mixta 
+        in<lb ed="#A" n="37" break="no"/>animata et sic consequenter Quod si fiat circulatio que 
+        <lb ed="#A" n="38"/>dam a materia prima in reditum ad priorem 
+        for<lb ed="#A" n="39" break="no"/>mam: nihilo minus in prima materia est status. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e789">
+                  <lb ed="#A" n="40"/>¶ Tertio declaratur in causis formalibus vbi inter 
+        <lb ed="#A" n="41"/>tormas ordinatas ad inuicem vna praesuponit aliam 
+        <lb ed="#A" n="42"/>sicut forma hominis praesuponit formam animalis: et 
+        <lb ed="#A" n="43"/>ista formam corporis. hec autem formam substantie. Ibi est 
+        <lb ed="#A" n="44"/>status ad sursum in genere generalissimo. Et ad 
+        <lb ed="#A" n="45"/>deo: sum in specie specialissima. Et sic non est pa 
+        <lb ed="#A" n="46"/>cessus in infinitum. Nam species et genera non sunt 
+        <lb ed="#A" n="47"/>infinita: quia si essent infinita non possent sciri: quoniam 
+        <lb ed="#A" n="48"/>infinitum vt infinitum non est scibile ii. Meta. Sed quia 
+        <lb ed="#A" n="49"/>sciuntur et tunc vnumquodque scire arbitramur cum cau 
+        <lb ed="#A" n="50"/>sas eius cognoscimus i. philosophycorum. et i. posterior 
+        <lb ed="#A" n="51"/>ergo non est ibi processus in infinitum.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e818">
+        ¶ Quarto in 
+        cau<lb ed="#A" n="52" break="no"/>sis finalibus patet quia est status in vltimo fine omnium etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e823">
+                  <lb ed="#A" n="53"/>¶ Sed d. Uidetur quod sit preocessus in infinitum in praedi 
+        <lb ed="#A" n="54"/>ctis causis singulis. Tum quia cause efficientes possunt 
+        <lb ed="#A" n="55"/>esse infinite per accidens. puta quod domificator sit al 
+        <!--126.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 127 -->
+                  <lb ed="#A" n="56"/>bus vel niger etc. Tum quia materia est in 
+        poten<lb ed="#A" n="57" break="no"/>tia ad infinitas formas suscipiendas. Tum quia 
+        <lb ed="#A" n="58"/>forma specifica potest multiplicari per indiuidua 
+        <lb ed="#A" n="59"/>successiue infinita: praesertim si ponatur mundi eterni 
+        <lb ed="#A" n="60"/>tas secundum philosophum. Tum quia innumeris actibus 
+        huma<lb ed="#A" n="61" break="no"/>nis fines varii prestituuntur ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d38321-d1e851">
+        ¶ Respondetur secundum 
+        <lb ed="#A" n="62"/>eosdem metaphysicos. ii meta. Quod iste obiectiones 
+        <lb ed="#A" n="63"/>procedunt de causis per accidens que possunt esse 
+        <lb ed="#A" n="64"/>infinite: quia infinita vni accidunt. Sed praemissa di 
+        <lb ed="#A" n="65"/>cta philosophi. scilicet quod in nullo genere cause contingit ire 
+        <lb ed="#A" n="66"/>in infinitu: intelligenda sunt de causis per se et 
+        essen<lb ed="#A" n="67" break="no"/>tialiter subordinatis quarum vna praecedit vel praesup 
+        <lb ed="#A" n="68"/>ponit aliam. Nam in aliis causis scilicet que sunt 
+        <lb ed="#A" n="69"/>accidentaliter subordinate et quarum vna non pre 
+        <lb ed="#A" n="70"/>suponit aliam. puta forma equi et forma asini 
+        <lb ed="#A" n="71"/>Similiter  materia equi et materia asini etc. Eo 
+        <lb ed="#A" n="72"/>dem modo forma vel materia sortis et platonis 
+        <lb ed="#A" n="73"/>ac aliorum indiuiduorum In talibus nil prohibet fieri pro 
+        <lb ed="#A" n="74"/>cessum in infinitum saltem in potentia et secundum successi 
+        <lb ed="#A" n="75"/>onem: quia species specialissima potest quidem diuidi 
+        <lb ed="#A" n="76"/>per indiuidua infinita successiue: sed talis diuisio 
+        <lb ed="#A" n="77"/>non est per differentias essentiales sicut est diuisio 
+        <lb ed="#A" n="78"/>generis. sed est per differentias accidentales. scilicet indi 
+        <lb ed="#A" n="79"/>uiduales proprietates. Propterea Porphirius 
+        <lb ed="#A" n="80"/>de vniuersalibus dicit quod descendente a 
+        generalis<lb ed="#A" n="81" break="no"/>simis ad specialissima iubet plato quiescere. Er 
+        <lb ed="#A" n="82"/>go in specie specialissima est status vt patuit etc.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

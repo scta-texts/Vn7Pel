@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amare vel amor</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Amare vel amor</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="24"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de6700">
+            <head xml:id="Vn7Pel-de6700-Hd1e107">Amare vel amor</head>
+            <div xml:id="Vn7Pel-de6700-Dd1e110">
+               <head xml:id="Vn7Pel-de6700-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de6700-d1e115">
+                  <lb ed="#A" n="61"/>Amare vel amor 
+        <lb ed="#A" n="62"/>scilicet dei. Circa hoc consideranda fo 
+        <lb ed="#A" n="63"/>lrent plurima. Sed quia eorumdem 
+        amplio<lb ed="#A" n="64" break="no"/>ra partinent ad tertium libru vbi agetur de Charitate 
+        <lb ed="#A" n="65"/>Dic igitur solum de amore prout est in deo aliquas 
+        quaesti<lb ed="#A" n="66" break="no"/>ones tractemus. 
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e131">
+                  <lb ed="#A" n="67"/>¶ Questio Prima de amoris in 
+        <lb ed="#A" n="68"/>Utrum Amor sit in deo: Ar¬
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e138">
+        ¶ Ueo existentia. 
+        <lb ed="#A" n="69"/>guitur quod non. quia in deo nulla potest esse passio 
+        <lb ed="#A" n="70"/>nec odii nec ire etc. vt patet etiam per Philosophos et 
+        Pla<lb ed="#A" n="71" break="no"/>tonem in Phedrone. sed amor est passio quaedam. 
+        <lb ed="#A" n="72"/>ergo non potest esse in deo nisi metaphorice.
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e149">
+        ¶ Con 
+        <lb ed="#A" n="73"/>tra. Deus charitas est. i. Iob. iiii. Et hec est 
+        prdi<lb ed="#A" n="74" break="no"/>catio essentialis. et non per causam: sicut dicendo 
+        De<lb ed="#A" n="75" break="no"/>us est fortitudo mea et huiusmodi id est causans fortitu 
+        <lb ed="#A" n="76"/>dinem in me: secundum Aug. ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e161">
+        ¶ Ad hec obiecta et 
+        <lb ed="#A" n="77"/>id quaestionem respondendo tripliciter procedemus vt sequitur. 
+        
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e166">
+                  <lb ed="#A" n="78"/>¶ Primo quada preambula permittuntur Et quidem  
+        <lb ed="#A" n="79"/>ex Cho i. pere. q. xx. ar. i.
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e173">
+        ¶ Primum est. Quod amor: 
+        <lb ed="#A" n="80"/>odium: ita: et huiusmodi passiones accipiuntur dupliciter 
+        <lb ed="#A" n="81"/>Uno modo inquantum sunt actus appetitus sensitiui 
+        <lb ed="#A" n="82"/>Et sic dicuntur passiones proprie Et vt sic nullo modo 
+        <lb ed="#A" n="83"/>possunt esse in deo. quia alias deus esset alterabilis: quod est 
+        <lb ed="#A" n="84"/>mpossibile. vnde et secundum philosophos procul a deo remouetur 
+        <lb ed="#A" n="85"/>omnis passio: vt dictum est in argumento. Alio 
+        <lb ed="#A" n="86"/>modo accipiuntur inquantum sunt actus appetitus 
+        intel<lb ed="#A" n="87" break="no"/>lectiui. Et sic non sunt passiones. vnde sic ponuntur 
+        <lb ed="#A" n="88"/>in deo. quia vt Philosophus. vii. Eth. dicit. Deus vna 
+        <lb ed="#A" n="89"/>et simplici operatione gaudet. et eadem ratione sine 
+        <lb ed="#A" n="90"/>passione amat. Cum enim deus charitas est 
+        essen<lb ed="#A" n="91" break="no"/>tialiter secundum Aug. ergo in deo charitatis amor est. 
+        
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e202">
+                  <lb ed="#A" n="92"/>¶ Secundum preambulum. Ex eodem Thoma vbi 
+        <lb ed="#A" n="93"/>supra. est Notandum quod huiusmodi actus passionum vel 
+        passi<lb ed="#A" n="94" break="no"/>ines quae secundum suum esse formale dicunt aliquam 
+        im<lb ed="#A" n="95" break="no"/>perfectionem Sicut exempli gratia. Desiderium dicit 
+        affe<lb ed="#A" n="96" break="no"/>ctum boni non habiti. similiter et tristicia que est de aliquo 
+        <lb ed="#A" n="97"/>contrario: et ira: et odium: et huiusmodi ipsi deo non possunt 
+        <lb ed="#A" n="98"/>conuenire. sed dicuntur de deo metaphorice propter 
+        <lb ed="#A" n="99"/>similitudinem effectus scilicet quia deus facit quandoque 
+        ali<lb ed="#A" n="100" break="no"/>quid ad modum irati vel odientis puta cum punit. 
+        <lb ed="#A" n="101"/>Sed passiones que nullam imperfectionem 
+        impor<lb ed="#A" n="102" break="no"/>tant formaliter dicuntur de deo proprie: vt amor et 
+        <lb ed="#A" n="103"/>gaudium. tamen sine passione: vt praedictum est Hec 
+        <lb ed="#A" n="104"/>Tho. supra. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6700-Dd1e234">
+               <head xml:id="Vn7Pel-de6700-Hd1e236">2</head>
+               <p xml:id="Vn7Pel-de6700-d1e239">
+                  <lb ed="#A" n="105"/>¶ Secundo ergo principaliter 
+        Con<lb ed="#A" n="106" break="no"/>clusio responsiua ponitur secundum eundem Tho. vbi supra. 
+        <lb ed="#A" n="107"/>Quod amorem necesse est ponere in deo. Ratio. quia 
+        <lb ed="#A" n="108"/>voluntas ponitur in deo: vt patet per multas scriptu 
+        <lb ed="#A" n="109"/>ras ve. ac no. testamenti. et per rationes infra vbi de 
+        <lb ed="#A" n="110"/>Uoluntate dei. Sed quoniam primus motus voluntatis 
+        <lb ed="#A" n="111"/>et cuiussibet appetitiue virtutis est amor. ergo necesse 
+        <lb ed="#A" n="112"/>est amorem ponere in deo sicut et voluntatem: tantum 
+        <lb ed="#A" n="113"/>sine omni passione: vt patuit.
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e261">
+        <!--24.xml-->
+                  <pb ed="#A" n="25"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Tertio declaratur. Quia voluntatis et appetitus 
+        <lb ed="#A" n="2"/>pincipale et proprium obiectum est bonum: quoniam in illud 
+        te<lb ed="#A" n="3" break="no"/>dit. Etsi aliquod malum vult: illud est obiectum secun 
+        <lb ed="#A" n="4"/>dario et per aliud: inquantum scilicet sibi apparet aliquo modo 
+        <lb ed="#A" n="5"/>bonum. Unde sequitur quod amor naturaliter est primus 
+        <lb ed="#A" n="6"/>actus voluntatis et appetitus. Quod etiam claret 
+        <lb ed="#A" n="7"/>ex pluribus signis. Primum. quia propter hoc scilicet quod 
+        <lb ed="#A" n="8"/>Amor naturaliter est primus actus voluntatis et 
+        ap<lb ed="#A" n="9" break="no"/>petitus: experimur quod omnes alii motus appetitiui 
+        prae<lb ed="#A" n="10" break="no"/>supponunt amorem quasi primam radicem. Nullus enim 
+        <lb ed="#A" n="11"/>desiderat aliquid nisi bonum amatum: nec gaudet: 
+        <lb ed="#A" n="12"/>nec delectatur nisi de bono amato. ergo patet propositum. 
+        <lb ed="#A" n="13"/>Secundum signum. quia quicquid homo vult et appetit 
+        <lb ed="#A" n="14"/>hoc non est nisi quia illud amat. Tertium per 
+        opposi<lb ed="#A" n="15" break="no"/>tum. quia odium et tristicia et dolor non est nisi de eo 
+        <lb ed="#A" n="16"/>quod contrariatur rei amate. Clarum est ergo quod amor est na 
+        <lb ed="#A" n="17"/>turaliter primus actus voluntatis. Unde optime 
+        sequi<lb ed="#A" n="18" break="no"/>tur quod vbicunque vel in quocunque est voluntas: in 
+        <lb ed="#A" n="19"/>eo oportet ponere amorem. sed in deo ponitur volun 
+        <lb ed="#A" n="20"/>tas necessario. ergo ex amor. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6700-Dd1e314">
+               <head xml:id="Vn7Pel-de6700-Hd1e316">3</head>
+               <p xml:id="Vn7Pel-de6700-d1e319">
+                  <lb ed="#A" n="21"/>¶ Ex predictis difficultas est Que 
+        <lb ed="#A" n="22"/>figura est vel committitur. dum metaphorice deo 
+        ali<lb ed="#A" n="23" break="no"/>qua passio attribuitur. Respondetur secundum quod habetur in li. 
+        <lb ed="#A" n="24"/>Catholicon. Quando illud quod est hominis attribuitur deo: 
+        <lb ed="#A" n="25"/>vt sunt irasci: gaudere: penitere: odire: furere: et 
+        <lb ed="#A" n="26"/>huiusmodi. iuxta illud Psalmus Domine ne in furore tuo 
+        ar<lb ed="#A" n="27" break="no"/>guas me: neque in ira tua etc. tunc est figura que 
+        <lb ed="#A" n="28"/>vocatur Anthropospatos. et dicitur ab anthropos 
+        <lb ed="#A" n="29"/>quod est homo in latino. et pasis vel patos: quod est 
+        pas<lb ed="#A" n="30" break="no"/>sio: quasi humana passio deo attributa. Similiter an 
+        <lb ed="#A" n="31"/>thropospatos est quando fit et conuerso scilicet quod est dei at 
+        <lb ed="#A" n="32"/>tribuitur homini: vt tonare: coruscare: fulminare 
+        <lb ed="#A" n="33"/>Item ea que. ii. Machab. ix. leguntur de Antiocho 
+        <lb ed="#A" n="34"/>superbo scilicet sidera attingere: fluctibus maris 
+        impera<lb ed="#A" n="35" break="no"/>re etc. licet talia etiam dicta sint hyperbolice ad 
+        desi<lb ed="#A" n="36" break="no"/>gnandum magnitudinem eius superbie: vt dicit Lyra. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6700-Dd1e357">
+               <head xml:id="Vn7Pel-de6700-Hd1e359">4</head>
+               <p xml:id="Vn7Pel-de6700-d1e362">
+                  <lb ed="#A" n="37"/>¶ Questio secunda de amore dei 
+        <lb ed="#A" n="38"/>(quo ad se et ad alia. 
+        <lb ed="#A" n="39"/>Utrum deus eadem di  
+        <lb ed="#A" n="40"/>lectione diligat se et alia omnia: Ratio quaestionis. 
+        <lb ed="#A" n="41"/>quia vt Magister li. iii. dist. xxxii. dicit. Dilectio dei 
+        <lb ed="#A" n="42"/>ad se non recipit maius et minus. Dilectio autem 
+        <lb ed="#A" n="43"/>ad creaturas recipit maius et minus. ergo non 
+        vide<lb ed="#A" n="44" break="no"/>tur quod eadem dilectio sit illa et ista. Sed in 
+        oppo<lb ed="#A" n="45" break="no"/>situm est. quia deus eodem actu cognoscendi 
+        cog<lb ed="#A" n="46" break="no"/>noscit se et creaturas. ergo et eodem actu diligendi et 
+        <lb ed="#A" n="47"/>volendi diligit se et creaturas. alias deus non esset 
+        <lb ed="#A" n="48"/>simplicissimus. Respondetur breviter secundum <name xml:id="Vn7Pel-de6700-Nd1e390">Richar.</name> 
+                  <lb ed="#A" n="49"/>super. iii. li. dist. xxxii. ar. i. q. iiii. per distinctionem Quod 
+        <lb ed="#A" n="50"/>de dilectione qua diligit nos deus loqui possumus du 
+        <lb ed="#A" n="51"/>pliciter. Uno modo de ipsa dilectione diuina quantum 
+        <lb ed="#A" n="52"/>ad sui essentiam. et sic proprie loquimur de ea. Unde sic 
+        <lb ed="#A" n="53"/>dicendum est: quod realiter eadem est dilectio quae deus 
+        di<lb ed="#A" n="54" break="no"/>ligit se et creaturam omnem. Ratio. quia eodem actu 
+        <lb ed="#A" n="55"/>volendi qui realiter est idem quod ipse deus vult sibi 
+        <lb ed="#A" n="56"/>bonum increatum: et creature bonum creatum. Diffe 
+        <lb ed="#A" n="57"/>runt tamen secundum quasdam relationes rationis. quia in 
+        <lb ed="#A" n="58"/>illo actu diligendi inquantum est respectu creature 
+        <!--24.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 25 -->
+                  <lb ed="#A" n="59"/>est relatio quaedam rationis ad creaturam. Sed inquantum 
+        <lb ed="#A" n="60"/>in illo actu est aliqua relatio rationis ad deum est 
+        <lb ed="#A" n="61"/>relatio quaedam ad creatorem. Alio modo loqui 
+        pos<lb ed="#A" n="62" break="no"/>sumus de ipsa dilectione ratione boni voliti per eam. 
+        <lb ed="#A" n="63"/>Et sic dicendum quod non est eadem dilectio illa et 
+        <lb ed="#A" n="64"/>ista. quia deus diligendo se vult sibi bonum 
+        in<lb ed="#A" n="65" break="no"/>creatum per essentiam: et illo eodem actu vult 
+        crea<lb ed="#A" n="66" break="no"/>ture aliquam illius boni imitationem in creaturis  
+        <lb ed="#A" n="67"/>secundum plus vel minus iuxta diuersitatem graduum 
+        <lb ed="#A" n="68"/>earum perfectionum. Et sic solui possunt obiecta pro 
+        <lb ed="#A" n="69"/>et contra. quia argumentum vel ratio principalis 
+        pro<lb ed="#A" n="70" break="no"/>cedit de dilectione secundo modo scilicet ratione boni 
+        voli<lb ed="#A" n="71" break="no"/>ti vel optati. Sed illud in oppositum procedit de 
+        <lb ed="#A" n="72"/>dilectione primo modo scilicet ratione sui secundum essentiam 
+        <lb ed="#A" n="73"/>Hec ex Richar. De hac tamen materia patebit la 
+        <lb ed="#A" n="74"/>tius infra vbi erit questio scilicet Utrum pater et filius 
+        <lb ed="#A" n="75"/>diligant se et nos spiritu sancto etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de6700-Dd1e461">
+               <head xml:id="Vn7Pel-de6700-Hd1e463">5</head>
+               <p xml:id="Vn7Pel-de6700-d1e466">
+                  <lb ed="#A" n="76"/>¶ Questio tertia de amoris 
+        or<lb ed="#A" n="77" break="no"/>dinatione et praeintelligentia. scilicet Utrum prius fu 
+        <lb ed="#A" n="78"/>erit creatura bona quam a deo dilecta in 
+        praeordina<lb ed="#A" n="79" break="no"/>tione diuina: Respondetur secundum Rich. super. iii. dist. xxxii. 
+        <lb ed="#A" n="80"/>ar. i. q. iii. Quod creaturam fuisse bonam: tripliciter 
+        po<lb ed="#A" n="81" break="no"/>test intelligi
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e482">
+        ¶ Uno modo In effectu. et sic planum 
+        <lb ed="#A" n="82"/>est quod prius fuerit creatura a deo dilecta quam fuerit 
+        <lb ed="#A" n="83"/>bona. Ratio. quia fuit dilecta ab eterno a deo. 
+        <lb ed="#A" n="84"/>sed non fuit bona: sicut non fuit ens nisi in tempore quo 
+        <lb ed="#A" n="85"/>facta est. Unde Magister di. qua supra dicit in littera: quod omnia 
+        <lb ed="#A" n="86"/>bona nostra nobis proueniunt ex dilectione dei ad  
+        <lb ed="#A" n="87"/>nos. ergo prius sumus a deo dilecti quam boni. 
+        
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e498">
+                  <lb ed="#A" n="88"/>¶ Secundo modo potest intelligi in potentia 
+        <lb ed="#A" n="89"/>ordinata ad effectum. et sic secundum rationem 
+        intelligen<lb ed="#A" n="90" break="no"/>di creatura prius fuit bona quam a deo dilecta. quia 
+        <lb ed="#A" n="91"/>rationabiliter ideo res diligenda est scilicet quod bona 
+        <lb ed="#A" n="92"/>est vel bona esse potest.
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e511">
+        ¶ Unde nota quod non quia 
+        <lb ed="#A" n="93"/>deus voluit posse fieri creaturam bonam: ideo 
+        <lb ed="#A" n="94"/>potuit a deo fieri creatura bona: quod est ipsam 
+        <lb ed="#A" n="95"/>esse bonam in potentia. sed quia a deo potuit fi 
+        <lb ed="#A" n="96"/>eri creatura bona: ideo voluit deus ipsam fieri 
+        <lb ed="#A" n="97"/>bonam. Hoc est dictu: quod ideo vult deus vt 
+        fi<lb ed="#A" n="98" break="no"/>at aliquod futurum bonum: puta resurrectionem 
+        <lb ed="#A" n="99"/>corporum futuram et huiusmodi. quid illud 
+        fie<lb ed="#A" n="100" break="no"/>ri posse est bonum. Nam si hoc fieri posse esset malum: 
+        <lb ed="#A" n="101"/>deus nollet fieri. Et sic patet.
+      </p>
+               <p xml:id="Vn7Pel-de6700-d1e534">
+        ¶ Tertio modo 
+        <lb ed="#A" n="102"/>potest intelligi creaturam fuisse bonam prius quam 
+        <lb ed="#A" n="103"/>dilectam secundum rationem intelligendi vel in esse 
+        in<lb ed="#A" n="104" break="no"/>tellecto. Et sic prius fuit creatura bona quam a deo 
+        <lb ed="#A" n="105"/>dilecta. Ratio. quia secundum rationem intelligendi prius 
+        <lb ed="#A" n="106"/>intellexit deus bonitatem creature quam vellet 
+        ei<lb ed="#A" n="107" break="no"/>dem bonum reale vel bonum secundum rationem. Nam 
+        <lb ed="#A" n="108"/>nil volitum nisi prius cognitum aliquo modo 
+        <lb ed="#A" n="109"/>Ex. ii de anima. Unde creatura nunquam fuit 
+        diligi<lb ed="#A" n="110" break="no"/>bilis nisi inquantum bona: vel in effectu reali: vel in 
+        <lb ed="#A" n="111"/>potentia: vel in esse intellecto. Et quamuis non fuit 
+        <lb ed="#A" n="112"/>bona in effectu prius quam a deo dilecta: tamen secundum 
+        <lb ed="#A" n="113"/>rationem intelligendi prius fuit bona in poten 
+        <lb ed="#A" n="114"/>tia diligentis et in esse intellecto quam a deo dilecta 
+        <lb ed="#A" n="115"/>Hec ex Rich.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

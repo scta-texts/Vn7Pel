@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Voluntas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Voluntas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d95778">
+            <head xml:id="Vn7Pel-d95778-Hd1e107">Voluntas</head>
+            <div xml:id="Vn7Pel-d95778-Dd1e110">
+               <head xml:id="Vn7Pel-d95778-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d95778-d1e115">
+                  <lb ed="#A" n="3"/>Voluntas primo 
+        <lb ed="#A" n="4"/>l¶ in communi. Notandum secundum Guil. in primi. di. x. 
+        <lb ed="#A" n="5"/>Quod voluntas dicitur a volito volitas. quia sicut res 
+        quasi<lb ed="#A" n="6" break="no"/>ad animam veniunt quando intelliguntur. sic anima quasi ad rei 
+        <lb ed="#A" n="7"/>volitat: quando hanc vel illam rem vult et amat. Unde est illud 
+        <lb ed="#A" n="8"/>Augu. Anima verius est vbi amat quam vbi animat. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e131">
+                  <lb ed="#A" n="9"/>¶ Quibus modis dicitur 
+        volun<lb ed="#A" n="10" break="no"/>tas. Nota secundum. e. Guil. in primi. dist. xl v. Uoluntas dicitur 
+        <lb ed="#A" n="11"/>pluribus modis
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e140">
+        ¶ Uno modo voluntas dicitur quicunque 
+        <lb ed="#A" n="12"/>appetitus generaliter. siue sit sensitiuus siue rationalis. 
+        <lb ed="#A" n="13"/>siue creatus siue increatus Quo modo accipit voluntatie 
+        <lb ed="#A" n="14"/>doc. subti. in. iii. li. di. xvii. Ubi distinguit triplicem 
+        <lb ed="#A" n="15"/>voluntatem in chro scilicet voluntate increata. et voluntati 
+        <lb ed="#A" n="16"/>creatam rationalem. et appetitum sensitiuum. quem quandoque 
+        vo<lb ed="#A" n="17" break="no"/>cat voluntatem: hoc emim modo et vsus habet quia dicimus. Hio 
+        <lb ed="#A" n="18"/>canis vult comedere. cum non hebeat nisi appetitum sen 
+        <lb ed="#A" n="19"/>sitiuum
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e160">
+        ¶ Secundo modo dicitur voluntas appetitus rationalis 
+        <lb ed="#A" n="20"/>creatus solum. et hoc modo Aug. li. de libe. arb. diffinit 
+        di<lb ed="#A" n="21" break="no"/>Uoluntas est rationalis motus sensui praesidens et 
+        appeti<lb ed="#A" n="22" break="no"/>tui. Nam hoc modo voluntas est regina anime nostre: imperans 
+        <lb ed="#A" n="23"/>ceteris potentiis: vt prosequatur aliquid aut fugiat 
+        <lb ed="#A" n="24"/>etc. Et secundum venerabilem Hug. de sco vic. libro de volun 
+        <lb ed="#A" n="25"/>tatibus christi. Hec ipsa voluntas creata est triplex. scilicet  
+        <lb ed="#A" n="26"/>Uoluntas rationis: inquantum sequitur scilicet rationis deliberat 
+        <lb ed="#A" n="27"/>onem. Et voluntas pietatis: inquantum compatitur patient 
+        <lb ed="#A" n="28"/>malum. Et voluntas charitatis dicitur: inquantum informa 
+        <lb ed="#A" n="29"/>ta dono dei specieali se conformat: pro viribus voluntat 
+        <lb ed="#A" n="30"/>increate seu divine. et sic est perfectior praedictis duabus. quoe 
+        <lb ed="#A" n="31"/>charitas quae superadditur: perficit ipsam et dirigit. sicut 
+        <lb ed="#A" n="32"/>sessor equum. Hec Guil. addit. di. xl viii primi
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e192">
+        ¶ Ter 
+        <lb ed="#A" n="33"/>tio modo secundum. e. Guil. supradcam di. xl v. Rursus volun 
+        <lb ed="#A" n="34"/>tas potest accipi pro ipsa virtute volitiua: quae distinguitur 
+        <lb ed="#A" n="35"/>contra intellectum etc.
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e201">
+        ¶ Quarto praeterea pro ipsa operationem 
+        <lb ed="#A" n="36"/>respectu finis. Et hoc modo accipit voluntatem Arist. i 
+        <lb ed="#A" n="37"/>Ethi. vbi distinguit ista tria. electionem. consilium. et vd 
+        <lb ed="#A" n="38"/>luntatem. Consilium emim est actus intellectus: quem sequitur 
+        ele<lb ed="#A" n="39" break="no"/>ctio. ita quod vbi desinit consilium: incipit electio. Unde  
+        <lb ed="#A" n="40"/>electio secundum ipsum est acceptio praeconsiliati. Rursus 
+        <lb ed="#A" n="41"/>vbi desinit electio: incipit voluntas. Electio enim est 
+        <lb ed="#A" n="42"/>entium ad finem. sed voluntas est ipsius finis. Nam finis li. 
+        <lb ed="#A" n="43"/>cet prior sit intentione. tamen est vltimus executione. Itaque 
+        <lb ed="#A" n="44"/>ibi voluntas accipitur pro ipsa operatione respectu finis 
+        
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e223">
+                  <lb ed="#A" n="45"/>¶ Ultimo voluntas dicitur ipsum obiectum volitum. hoc modo 
+        <lb ed="#A" n="46"/>voluntas signi: sicut est preceptio vel prohibitio dicitur 
+        <lb ed="#A" n="47"/>voluntas. Unde apstolus dicit. Hec est voluntas dei sanct 
+        <lb ed="#A" n="48"/>ficatio vestra etc. Hec omnia ex Guil. licet variis 
+        passi<lb ed="#A" n="49" break="no"/>bus et alio modo diuisionis.
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e236">
+        ¶ Item de voluntatis diui. 
+        <lb ed="#A" n="50"/>sione in voluntatem signi et bnplaciti. et in ancedenti 
+        <lb ed="#A" n="51"/>et consequentem. patebit infra prosequendo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d95778-Dd1e244">
+               <head xml:id="Vn7Pel-d95778-Hd1e246">3</head>
+               <p xml:id="Vn7Pel-d95778-d1e249">
+                  <lb ed="#A" n="52"/>¶ Quomodo voluntas dicitur in deo et in 
+        <lb ed="#A" n="53"/>creaturis: Respondetur quod sicut Guil. dicit e. di. xl v. 
+        Uolun<lb ed="#A" n="54" break="no"/>tas potest capi pro quodam communi appetitu vniuoco deo 
+        <lb ed="#A" n="55"/>et creaturis. Et hoc modo Alex. de Al. primi parte summe difi 
+        <!--306.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 307 -->
+                  <lb ed="#A" n="56"/>finit di. Uoluntas est vis cognoscens domina sui 
+        <lb ed="#A" n="57"/>actus. Per hoc quod dicitur vis cognoscens: differt a parte 
+        <lb ed="#A" n="58"/>sensitiua: in qua non cognitio proprie. licet sit 
+        aliqua<lb ed="#A" n="59" break="no"/>lis sui obiecti perceptio. Per hoc autem quod dicitur domins 
+        <lb ed="#A" n="60"/>sui actus. differt ab intellectu: qui mere naturalier 
+        <lb ed="#A" n="61"/>mouetur ex parte sui: in obiectum suum. non sic voluntas. 
+        <lb ed="#A" n="62"/>seu nostra seu diuina: sed libere mouetur. Unde lic 
+        <lb ed="#A" n="63"/>voluntas divina sit principium producendi spiritum sanctum 
+        <lb ed="#A" n="64"/>necessario. non tamen naturaliter: sed per modum liberalitati 
+        <lb ed="#A" n="65"/>et amoris. Hec ex Guill. Et de hoc latius vbi De 
+        <lb ed="#A" n="66"/>Spiritu sancto
+      </p>
+               <p xml:id="Vn7Pel-d95778-d1e291">
+        ¶ Aduertendum autem. quod voluntas 
+        di<lb ed="#A" n="67" break="no"/>uina increataquam. et voluntas creata scilicet angelica et 
+        <lb ed="#A" n="68"/>humana maxima distant differentia secundum. e. Alex. de 
+        <lb ed="#A" n="69"/>Al. quia voluntas divina est ab eterno: et vsque in 
+        eter<lb ed="#A" n="70" break="no"/>num inuariabilis omnino etc. Sed voluntas humana sper 
+        <lb ed="#A" n="71"/>est vertibilis: et ante electionem et postea: quandiu est 
+        <lb ed="#A" n="72"/>in via Ticet post terminum vite hoc faciat homini 
+        <lb ed="#A" n="73"/>mors: quod fecit angelis casus. vt dieDamascis. Unde 
+        <lb ed="#A" n="74"/>post mortem erit inuertibilis voluntas. Uoluntas 
+        <lb ed="#A" n="75"/>autem angelica ante electionem fuit ad vtrumlibet 
+        ver<lb ed="#A" n="76" break="no"/>tibilis: sed post electionem fit vel facta est 
+        inuerti<lb ed="#A" n="77" break="no"/>bilis. et sic quasi medium tenet inter diuinam et hominis 
+        <lb ed="#A" n="78"/>viatoris voluntatem etc. Hinc est quod augelus bonus 
+        <lb ed="#A" n="79"/>qui elegit semel in principio bonum. iam nunquam po 
+        <lb ed="#A" n="80"/>test velle malum: vel contra deum. Sed angelus 
+        ma<lb ed="#A" n="81" break="no"/>lus qui aelegit malum: nunquam potest expost velle 
+        <lb ed="#A" n="82"/>bonum
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

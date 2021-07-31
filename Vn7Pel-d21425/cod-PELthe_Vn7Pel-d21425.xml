@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diuinus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Diuinus</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d21425">
+            <head xml:id="Vn7Pel-d21425-Hd1e107">Diuinus</head>
+            <div xml:id="Vn7Pel-d21425-Dd1e110">
+               <head xml:id="Vn7Pel-d21425-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d21425-d1e115">
+                  <lb ed="#A" n="40"/>DIuinus diuia di 
+        <lb ed="#A" n="41"/>uinum a deo dicitur Et secundum Guill. super primo 
+        <lb ed="#A" n="42"/>dist. ix. Nota quod ista tria se habent per ordi 
+        <lb ed="#A" n="43"/>ne scilicet Deus diuinus et diuinitus. Nam deus significai 
+        <lb ed="#A" n="44"/>ipsam naturam. Diuinus vero id quod ipsam habet. Diuini 
+        <lb ed="#A" n="45"/>tus autem opus factum a deo. sicut dicimus quod hoc miraculum 
+        <lb ed="#A" n="46"/>factum est diuinitus etc.
+      </p>
+               <p xml:id="Vn7Pel-d21425-d1e133">
+        ¶ Nota etiam quod diuinus dicitur 
+        <lb ed="#A" n="47"/>tripliciter.
+      </p>
+               <p xml:id="Vn7Pel-d21425-d1e138">
+        ¶ Primo modo dicitur diuinus ille qui diuinam esse 
+        <lb ed="#A" n="48"/>tiam in vnitate essentiali et reali habet. Et isto modo pater et 
+        <lb ed="#A" n="49"/>filius et spiritus sanctus dicuntur persone diuine. Sic etiam 
+        <lb ed="#A" n="50"/>bonitas diuina etc.
+      </p>
+               <p xml:id="Vn7Pel-d21425-d1e147">
+        ¶ Secundus dicitur diuinum id quod in 
+        <lb ed="#A" n="51"/>quodam attributo repraesentat ipsum deum. Isto modo 
+        <lb ed="#A" n="52"/>solet magister Alexan. de Ales in sua summa dicere quod 
+        <lb ed="#A" n="53"/>aliqui dicuntur diuini vel dii quia representant dei po 
+        <lb ed="#A" n="54"/>tentiam vt praelati. De quibus in lege Diis populr id est praelat 
+        <lb ed="#A" n="55"/>non detrahes. Alii dicuntur dii quia reprsentant dei 
+        <!--71.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 72 -->
+                  <lb ed="#A" n="56"/>sapientiam. Isto modo antiqui philosophi status 
+        studen<lb ed="#A" n="57" break="no"/>tiu philosophiam diuiserunt. Quosdam vocitantes 
+        <lb ed="#A" n="58"/>theologos siue diuinos sicut Platonicos. et quol 
+        <lb ed="#A" n="59"/>dam sapientes sicut fuerunt septe quos consecrauit 
+        <lb ed="#A" n="60"/>Apollo. et quosdam philosophos. Denique alii dicuntur 
+        di<lb ed="#A" n="61" break="no"/>quia repraesentant dei bonitatem. De quibus Psalmus Ego 
+        <lb ed="#A" n="62"/>dixi dii estis.
+      </p>
+               <p xml:id="Vn7Pel-d21425-d1e183">
+        ¶ Tertio modo dicitur diuinus qui 
+        <lb ed="#A" n="63"/>per quandam abstranctionem a sensibus secluso specia 
+        <lb ed="#A" n="64"/>li dei influxum de futuri praesagit. Et hoc secundum Mar 
+        <lb ed="#A" n="65"/>cum Tullium i. lib. de diuinatione dicitur vaticinium De 
+        <lb ed="#A" n="66"/>quo partranseo quia fide christiana talia reprobantur
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

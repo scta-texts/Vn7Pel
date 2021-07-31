@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circumincessio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circumincessio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="50"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d14700">
+            <head xml:id="Vn7Pel-d14700-Hd1e107">Circumincessio</head>
+            <div xml:id="Vn7Pel-d14700-Dd1e110">
+               <head xml:id="Vn7Pel-d14700-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d14700-d1e115">
+                  <lb ed="#A" n="85"/>CIrcumincessio secundum 
+        <lb ed="#A" n="86"/>Guil. super i. distinctionem. xix. dicitur a circum et incedo 
+        <lb ed="#A" n="87"/>incedis quia illa quae sunt simul 
+        circuminces<lb ed="#A" n="88" break="no"/>sione similis ad inuicem incedunt puta A est 
+        <lb ed="#A" n="89"/>in B et B est in A. Sic in trinitate pater est in filio 
+        <lb ed="#A" n="90"/>et econuerso. et similiter de spiritu sancto. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e132">
+               <head xml:id="Vn7Pel-d14700-Hd1e134">2</head>
+               <p xml:id="Vn7Pel-d14700-d1e137">
+                  <lb ed="#A" n="91"/>¶ Quid est circumincessio. Respon 
+        <lb ed="#A" n="92"/>detur secundum subti. doc. super i. di. xix. q. ii ar. ii 
+        Circumin<lb ed="#A" n="93" break="no"/>cessio est subsistentis in subsistente realiter distinctio mu 
+        <lb ed="#A" n="94"/>tua praesentialitatis. assistentia in eadem substantia sibi 
+        inui<lb ed="#A" n="95" break="no"/>cem intimate. 
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e150">
+        ¶ Ex quae paest. quod scilicet ad circumincessionem 
+        <lb ed="#A" n="96"/>tria exiguntur vel requirunt
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e155">
+        ¶ primo quod illa que sic 
+        <lb ed="#A" n="97"/>sunt: mutuo habeant eandem substantiam numero. Et 
+        <lb ed="#A" n="98"/>propter hoc duo corpora si essent simlis in eodem loco licet sint sub 
+        <lb ed="#A" n="99"/>sistentia et mutuo praesentia. quia tamen non habent eandem numero 
+        <lb ed="#A" n="100"/>substantiam non sunt circumincessiue in se inuicem. Secundo 
+        <lb ed="#A" n="101"/>quod illa quae sic sunt similis sint subsistentia. vnde quamuis 
+        at<lb ed="#A" n="102" break="no"/>tributa diuina sint idem cum diuina essentia et idem inter 
+        <lb ed="#A" n="103"/>se quia tantum non subsistunt propria subsistentia licet habeant 
+        <lb ed="#A" n="104"/>existentiam diuine essentie. non dicuntur adinuicem per 
+        circum<lb ed="#A" n="105" break="no"/>incessionem. Tertio requiritur quod subsistentes sint 
+        di<lb ed="#A" n="106" break="no"/>sticti realiter. vnde persone diuie licet eandem hebeant 
+        essen<lb ed="#A" n="107" break="no"/>tia numero et sint subsistentes. si tamen per impossibile non 
+        <lb ed="#A" n="108"/>differrent realiter. non essent in se inuicem 
+        circumincessi<lb ed="#A" n="109" break="no"/>ue.
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e186">
+        ¶ Exemplum ad hec secundum eundem Sco. Potentie 
+        <lb ed="#A" n="110"/>anime sunt idem realiter cum anima. secundum Aug. Etsi daremus quod 
+        <lb ed="#A" n="111"/>essent distincta supposita in anima recte essent in se 
+        in<lb ed="#A" n="112" break="no"/>uicem per circumincessionem. Nam primo haberent eandem 
+        <lb ed="#A" n="113"/>essentiam numero. secundo essent supposita. tertio essent di 
+        <lb ed="#A" n="114"/>stincta realiter. ergo etc. Sic in diuinis pater et filius ex 
+        <!--50.xml-->
+        <pb ed="#A" n="51"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>spiritus sanctus primohabent eandem essentiam numero et secundo st 
+        <lb ed="#A" n="2"/>supposita. et tertio sunt distincta realiter id est 
+        persona<lb ed="#A" n="3" break="no"/>liter ideo mutuo in se inuicem sunt per 
+        circumincessio<lb ed="#A" n="4" break="no"/>nem Ioam. xiiii. Ego in patre et pater in me est etc. hec 
+        <lb ed="#A" n="5"/>ex Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e218">
+               <head xml:id="Vn7Pel-d14700-Hd1e220">3</head>
+               <p xml:id="Vn7Pel-d14700-d1e223">
+                  <lb ed="#A" n="6"/>¶ In citra deu. scilicet in aliqua 
+        crea<lb ed="#A" n="7" break="no"/>tura sit circumincessio Respondetur secundum Bona. et Rich. 
+        <lb ed="#A" n="8"/>ac Tho. super i. dist. xix. quod circumincessio in essendo 
+        <lb ed="#A" n="9"/>ponit distinctionem similis et vnitatem. Et quia in solo deo 
+        <lb ed="#A" n="10"/>est vnitas cum distinctione ita quod distinctio sit incon 
+        <lb ed="#A" n="11"/>fusa et vnitas indistincta. hinc est quod in solo deo et 
+        <lb ed="#A" n="12"/>in nula creatura est circumincessio perfecta. quia vnitas 
+        <lb ed="#A" n="13"/>essentie cum distinetione personarum solius dei est proprium 
+        <lb ed="#A" n="14"/>Sed tantum minus perfecte circumincessionis in creatura ha 
+        <lb ed="#A" n="15"/>demus aliqua exempla licet dissimilia. Nam videmus quod 
+        <lb ed="#A" n="16"/>ppter conuenientiam generis ad spes: genus est in spe 
+        <lb ed="#A" n="17"/>ciebus et econuerso. puta animal in homine. et iterum specites in 
+        <lb ed="#A" n="18"/>indiuiduis et econuerso. Item videmus consimiliter. quod totum 
+        <lb ed="#A" n="19"/>est in partibus et econuerso propter conuenientiam totius ad 
+        per<lb ed="#A" n="20" break="no"/>tes. Sed quia maior est conuenientia in diuins personis 
+        <lb ed="#A" n="21"/>quam generis ad spes et speciei ad indiuidua. Aut 
+        to<lb ed="#A" n="22" break="no"/>tius ad partes. ergo ibi est a fortiori circumincessio¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e263">
+               <head xml:id="Vn7Pel-d14700-Hd1e265">4</head>
+               <p xml:id="Vn7Pel-d14700-d1e268">
+                  <lb ed="#A" n="23"/>¶ Utrum inter diuinas personas sit tam 
+        <lb ed="#A" n="24"/>perfecta equalitas quod sint mutuo in se inuicem 
+        circumin<lb ed="#A" n="25" break="no"/>cessiue respondetur secundum Scotorlis. super i. di. xix. concorditur 
+        <lb ed="#A" n="26"/>Guil. et alios. quod in ista quaestione aliquid est certum. Et 
+        <lb ed="#A" n="27"/>aliquid est dubium. Nam hoc certum est quod vna persona est 
+        <lb ed="#A" n="28"/>in alia per circumincessionem. Sicut patet per scripturam Io. 
+        <lb ed="#A" n="29"/>xiiii. Ego in patre et pater in me est. Item patet per Aug. 
+        <lb ed="#A" n="30"/>li. de fide ad pe. dicit propter vnitatem naturalem totus pater in 
+        <lb ed="#A" n="31"/>filio et scilicet est. totus quam scilicet in patre et filio est. nullus horum ex 
+        <lb ed="#A" n="32"/>tra quemlibet ipsorum est Idem testatur etiam Hilarius. iii. 
+        <lb ed="#A" n="33"/>de trini. Et Amb. ii epistula ad Corum. sicut allegat magister 
+        <lb ed="#A" n="34"/>e. dist. xix. primi. Ratio ad idem secundum Bona. Quia in 
+        <lb ed="#A" n="35"/>quaocumque est substantia vel essentia patris in eo est pater. Sed 
+        <lb ed="#A" n="36"/>ubstantia patris est in filio. ergo pater est in filio. Et eadem ratione 
+        <lb ed="#A" n="37"/>filius in patre. et similiter scilict Nam si vna persona esset extra 
+        <lb ed="#A" n="38"/>aliam. sequitur quod differrent per substantiam quoniam illa quarum vnum est 
+        <lb ed="#A" n="39"/>extra alterum differunt per substantiam. Exemplum de Ioanno 
+        <lb ed="#A" n="40"/>et eius filio etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e312">
+               <head xml:id="Vn7Pel-d14700-Hd1e314">5</head>
+               <p xml:id="Vn7Pel-d14700-d1e317">
+                  <lb ed="#A" n="41"/>¶ Sed dubium est in quastione ista. 
+        <lb ed="#A" n="42"/>de modo quo vna persona est in alia. Nam de hoc varie 
+        <lb ed="#A" n="43"/>sunt opiniones Quas partransiens: videtur melior ista 
+        <lb ed="#A" n="44"/>opinio Scotistarum. vicem quod vna persona est in alia non 
+        <lb ed="#A" n="45"/>sic natura in supposito nec sicut forma in 
+        mate<lb ed="#A" n="46" break="no"/>ria. Sed sicut subsistens in subsistente. Subsistere 
+        <lb ed="#A" n="47"/>autem id est incommunicabiliter per se esse conuenit persone 
+        pri<lb ed="#A" n="48" break="no"/>mo. et sic vna persona est in alia secundum se totam per praesentiam 
+        <lb ed="#A" n="49"/>intimitatis
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e339">
+        ¶ Que autem sit ratio istius linexistentie 
+        de<lb ed="#A" n="50" break="no"/>clarant iidem Scotis. Primo quod tota huius ratio non est 
+        <lb ed="#A" n="51"/>praecise diuina essetia sola. probatur. quia cum pater hebeat 
+        essen<lb ed="#A" n="52" break="no"/>tiam diuinam in seipso. sequeretur quod pater esset in se eo modo 
+        <lb ed="#A" n="53"/>quo pater est in filio. quod non conceditur. quia ista inexistentia 
+        <lb ed="#A" n="54"/>requirit distinctionem. pater autem non distinguitur a seipso 
+        <lb ed="#A" n="55"/>ergo isto modo non est in seipso. Secundo declarant quod tota  
+        <lb ed="#A" n="56"/>ratio huius non est relatio originis sola. tum quia si sic 
+        <!--50.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 51 -->
+                  <lb ed="#A" n="57"/>esset sequeretur quod cum creature originentur a deo. ergo 
+        crea<lb ed="#A" n="58" break="no"/>ture essent in deo et econuerso per circumincessionem 
+        <lb ed="#A" n="59"/>quod non conceditur. Tum quia in creaturis quando pater generat 
+        <lb ed="#A" n="60"/>filium est inter eos relatio origis. et tamen pater puta Ioam 
+        <lb ed="#A" n="61"/>nes non est in suo filio scilicet petro nec econuerso. quia non 
+        <lb ed="#A" n="62"/>habent identitatem nature etc. Tum quia relationes in di 
+        <lb ed="#A" n="63"/>uinis non sunt eiusdem rationis. et sic persone non 
+        vnifor<lb ed="#A" n="64" break="no"/>miter essent in se inuicem Terto ergo declarant iidem 
+        Sco<lb ed="#A" n="65" break="no"/>tiste quod ratio tota istius inexistentie circumincessiue est ipsa 
+        <lb ed="#A" n="66"/>essentia diuina et relatio similis Nam neutrum per se suffi 
+        <lb ed="#A" n="67"/>cit sed ambo concurrunt quamuis essentia diuina sit 
+        <lb ed="#A" n="68"/>principalior ro huius Hec ex Scotorlis. et Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e390">
+               <head xml:id="Vn7Pel-d14700-Hd1e392">6</head>
+               <p xml:id="Vn7Pel-d14700-d1e395">
+                  <lb ed="#A" n="69"/>¶ Sed difficultas est. Si ex his 
+        <lb ed="#A" n="70"/>predictis sequitur quod sit confusio personarum in diuis: 
+        con<lb ed="#A" n="71" break="no"/>tra illud symboli. neque confundentes personas etc. nam 
+        <lb ed="#A" n="72"/>Aristo i. Phy. dicit quod ponere quodlibet in qualibet est 
+        <lb ed="#A" n="73"/>confusio. ergo similiter i proposito videtur etc. Respondetur secundum 
+        Sco<lb ed="#A" n="74" break="no"/>torlis. quod non sequitur confusio in personis. quia ponere quodli 
+        <lb ed="#A" n="75"/>bet in qualibet esse sicut partem vniuscuiusque vel aliquid 
+        <lb ed="#A" n="76"/>eius bene est confusio vt dicit philosophus contra Anaxagoram vbi supra. 
+        <lb ed="#A" n="77"/>Sed persona non ponitur in persona esse sicut pars vel 
+        ali<lb ed="#A" n="78" break="no"/>quid eius. ideo non sequitur confusio quam ponebant Sabel 
+        <lb ed="#A" n="79"/>liani confundentes personas. dicendo quod eadem eet 
+        perso<lb ed="#A" n="80" break="no"/>na pris quae et filii et spiritus sancti. et dum pater vellet 
+        vo<lb ed="#A" n="81" break="no"/>cauerit se patrem in scriptura. ac dum vellet: filium se vo 
+        <lb ed="#A" n="82"/>caret. vel spiritums sanctum sicque vnam essentiam trium persona 
+        <lb ed="#A" n="83"/>ram confusiue ponebant propter quod in symbolo contra 
+        eosden<lb ed="#A" n="84" break="no"/>icitur. neque confundentes personas etc. vnde in proposito non 
+        <lb ed="#A" n="85"/>sic est vna persona in alia. Sed sic quod in vnica 
+        essen<lb ed="#A" n="86" break="no"/>tia sunt distincte persone in seipis subsistentes. 
+        quae<lb ed="#A" n="87" break="no"/>rum vna est in alia per praesentiam intimitatis in identitate 
+        <lb ed="#A" n="88"/>essentie. Exemplum ponit secundum Diony. Bonauem. licet 
+        <lb ed="#A" n="89"/>non sit simile nisi imperfecte. vicem si essent multa lumi 
+        <lb ed="#A" n="90"/>na in eodem aere inconfusa et distincta cuius distin 
+        <lb ed="#A" n="91"/>ctionis signum est quod quando lumen vnum aufertur: inde 
+        secun<lb ed="#A" n="92" break="no"/>trahit lumen suum. nil de aliis conuellens etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e451">
+               <head xml:id="Vn7Pel-d14700-Hd1e453">7</head>
+               <p xml:id="Vn7Pel-d14700-d1e456">
+                  <lb ed="#A" n="93"/>¶ Item contra praedicta de circuminces 
+        <lb ed="#A" n="94"/>sione personarum posset dialectice argui. Omne quod est 
+        <lb ed="#A" n="95"/>in filio est in patre. sed pater est in filio. ergo pater est in patre 
+        <lb ed="#A" n="96"/>Respondetur secundum Bona supra. quod non valet quia est fallacia 
+        <lb ed="#A" n="97"/>accidentis. quia li in est nota distinctionis. sicut etiam 
+        <lb ed="#A" n="98"/>nccidentis fallacia esset arguendo. petrus est similis 
+        <lb ed="#A" n="99"/>paulo. et praulus est similis petro. ergo petrus est similis 
+        <lb ed="#A" n="100"/>petro.
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e476">
+        ¶ Item adhuc posset argui sic. Quicquid est 
+        <lb ed="#A" n="101"/>in deo est deus. propter simplicitate. ergo quicquid est in filio 
+        <lb ed="#A" n="102"/>est filius. sed pater est in filio. ergo pater est filius. Respondetur 
+        <lb ed="#A" n="103"/>secundum eundem Bonauem. quod non valet. quia est fallacia 
+        fi<lb ed="#A" n="104" break="no"/>gure dictionis. nam mutatur quid in quis scilicet in minore 
+        <lb ed="#A" n="105"/>cum assumitur sic. Pater est in filio. pater enim et filius 
+        <lb ed="#A" n="106"/>non dicit quid sed quis secundum regulam theologicam
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e492">
+        ¶ Item de 
+        <lb ed="#A" n="107"/>praepositionibus conuenientibus personarum circumincessioni. vt 
+        <lb ed="#A" n="108"/>de ca. praepositiones.
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e499">
+        ¶ Item adhuc arguitur sic. 
+        Circu<lb ed="#A" n="109" break="no"/>lo demonstrari est impossibile scilist Poste. quia sic idem 
+        <lb ed="#A" n="110"/>esset causa suiipsius. Sed si in diuinis esset 
+        circumin<lb ed="#A" n="111" break="no"/>cessio esset circulus. ergo etc. respondetur secundum Guil. quod non 
+        <lb ed="#A" n="112"/>est sic in proposito. non enim dicitur pater in filio vt causa 
+        <lb ed="#A" n="113"/>in causato nec econuerso. sed quia habent eandem numero 
+        <!--51.xml-->
+        <pb ed="#A" n="52"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>essentiam. Et sunt diuersa supposita. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d14700-d1e522">
+                  <lb ed="#A" n="2"/>¶ Item de circumincessione 
+        vide<lb ed="#A" n="3" break="no"/>vbi spiritus sanctus. §. xxxii. et. xxxiii.  
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d14700-Dd1e530">
+               <head xml:id="Vn7Pel-d14700-Hd1e532">8</head>
+               <p xml:id="Vn7Pel-d14700-d1e535">
+                  <lb ed="#A" n="4"/>¶ Utrum vna persona sit in alia per illapsum. et sic per cir 
+        <lb ed="#A" n="5"/>cumincessionem. respondetur secundum Bonaue. e. di. ix. primi 
+        <lb ed="#A" n="6"/>quod non potest vna persona illabi alteri. quia ad hoc quod ali 
+        <lb ed="#A" n="7"/>quid sit in alio per illapsum. requiritur primo essentiarum 
+        di<lb ed="#A" n="8" break="no"/>uersitas quia idem non illabitur sibiipi. Secundo requiritur quod 
+        <lb ed="#A" n="9"/>aliquo modo vnum se hebeat vt materiale respectu alteri 
+        <lb ed="#A" n="10"/>ilicet qui illabitur. Tertio quod vna sit magis spiritualis quae scilic 
+        <lb ed="#A" n="11"/>possit illabi minus spirituali Sicut exempli gratia de 
+        <lb ed="#A" n="12"/>cum sit summe spiritualis bene potest illabi angelo et anime quia 
+        <lb ed="#A" n="13"/>sunt multo minus spirituales. vnde si per impossibili 
+        <lb ed="#A" n="14"/>essent due essentie diuine vna non posset illabi alteri 
+        <lb ed="#A" n="15"/>cum eque essent spirituales. Sed quia persone diuine sunt 
+        <lb ed="#A" n="16"/>vnius essentie et equa spirituales ergo etc
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

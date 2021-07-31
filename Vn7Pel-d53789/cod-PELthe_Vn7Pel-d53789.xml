@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Numerus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Numerus</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="173"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d53789">
+            <head xml:id="Vn7Pel-d53789-Hd1e107">Numerus</head>
+            <div xml:id="Vn7Pel-d53789-Dd1e110">
+               <head xml:id="Vn7Pel-d53789-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d53789-d1e115">
+                  <lb ed="#A" n="53"/>NUmerus 
+        No<lb ed="#A" n="54" break="no"/>ta de hoc secundum Guil. in primo dist. xxii. 
+        <lb ed="#A" n="55"/>cum Alber. in suo philosophie compendio 
+        
+      </p>
+               <p xml:id="Vn7Pel-d53789-d1e124">
+                  <lb ed="#A" n="56"/>¶ Quod triplex extat numerus Nam primus dicitur 
+        <lb ed="#A" n="57"/>numerus numeratus. sicut. iiii. Phy. habetur quod 
+        <!--172.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 173 -->
+                  <lb ed="#A" n="58"/>tempus est numarus motus secundum prius et posterius. 
+        <lb ed="#A" n="59"/>similiter quelibet res numerata sic dicitur etc. Secundus 
+        <lb ed="#A" n="60"/>est numerus arithmeticus scilicet quo numeramus. sicut 
+        <lb ed="#A" n="61"/>vnum duo tria et huiusmodi. et iste numerus est obiectum 
+        <lb ed="#A" n="62"/>arithmetice Et est quoddam ens reale de praedicamen 
+        <lb ed="#A" n="63"/>to quantitatis. est emim quantitas discreta etc. Ter 
+        <lb ed="#A" n="64"/>tius est numerus numerans. et est anima vel alia 
+        <lb ed="#A" n="65"/>intellectualis natura quae numerat res et sic forsitan. 
+        <lb ed="#A" n="66"/>intellexit Plato. dicit quod anima est numerus seipsam mo 
+        <lb ed="#A" n="67"/>uens
+      </p>
+               <p xml:id="Vn7Pel-d53789-d1e159">
+        ¶ Nota etiam secundum eundem Guil. ibidem quod ista 
+        <lb ed="#A" n="68"/>tria se habent per ordinem multitudo: numerus: 
+        ag<lb ed="#A" n="69" break="no"/>gregatio. Omne enim aggregatum numeratur non econ 
+        <lb ed="#A" n="70"/>uerso Nam trinitas in diuinis est numerus non tantum 
+        <lb ed="#A" n="71"/>aggregatum. non enim collectiue sunt tres persone in di 
+        <lb ed="#A" n="72"/>uinis sed identice Ut patet Extra De Trinitate 
+        <lb ed="#A" n="73"/>et fide. ca. c. damnamus. Rursum Omnis numerus  
+        <lb ed="#A" n="74"/>est multitudo non tamen proprie econtra. Nam numerus 
+        <lb ed="#A" n="75"/>secundum Ari. x. metaph. multitudie mensuratur. 
+        Men<lb ed="#A" n="76" break="no"/>sura aut quodam signo praecedit mensuratum Hec 
+        <lb ed="#A" n="77"/>ex Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e184">
+               <head xml:id="Vn7Pel-d53789-Hd1e186">2</head>
+               <p xml:id="Vn7Pel-d53789-d1e189">
+                  <lb ed="#A" n="78"/>¶ Utrum in diuinis sit numerus  
+        <lb ed="#A" n="79"/>formaliter et proprie: Et videtur quod non. quia Boetius lib. 
+        <lb ed="#A" n="80"/>de trinitate dicit quod in deo nullus est numerus cum 
+        <lb ed="#A" n="81"/>sit summe vnum: Sed contra Bernardus dicit vna 
+        <lb ed="#A" n="82"/>est essentia in diuinis et tres persone quis numerum 
+        <lb ed="#A" n="83"/>neget etc. Respondetur secundum Guil. in primo dist. xxv. per con 
+        <lb ed="#A" n="84"/>clusionem quod numerus formaliter in diuinis reperit 
+        <lb ed="#A" n="85"/>Ratio quia vbi est reparire vere vnitatem et trinitatem ibi est 
+        <lb ed="#A" n="86"/>numerus sed in diuins est vere vnitas et trinitas ergo etc 
+        <lb ed="#A" n="87"/>Item Tritas est vere numerus etc. Sed in diuins 
+        <lb ed="#A" n="88"/>e tritas ergo etc. Ad obiectum dicendum secundum Tho. in 
+        scri<lb ed="#A" n="89" break="no"/>pto primi di. xxiiii. q. i. ar. ii quod Boetius loquitur de vnita 
+        <lb ed="#A" n="90"/>te essentiali quia in essentia diuina nullus numeitus 
+        <lb ed="#A" n="91"/>cadit sed in personis tantum ergo etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e223">
+               <head xml:id="Vn7Pel-d53789-Hd1e225">3</head>
+               <p xml:id="Vn7Pel-d53789-d1e228">
+                  <lb ed="#A" n="92"/>¶ Sed difficultas est Quo in di 
+        <lb ed="#A" n="93"/>uinis proprie dicitur numerus et formaliter: Quia secundum 
+        <lb ed="#A" n="94"/>Aristo. iii physi. numerus causatur ex diuisione conm 
+        <lb ed="#A" n="95"/>tinui. Sed in diuinis non est continuum nec 
+        diuisi<lb ed="#A" n="96" break="no"/>ergo etc. Ad hoc Tho. vbi supra dicit quod licet in personis  
+        <lb ed="#A" n="97"/>diuinis cadat numerus non in essentia tamen etiam ille 
+        <lb ed="#A" n="98"/>non est simpliciter et absolute numerus. quia ratio 
+        nume<lb ed="#A" n="99" break="no"/>ri absolute consistit in diuisione Unde que 
+        inueni<lb ed="#A" n="100" break="no"/>mus diuisa: simpliciter dicimus esse plura. vt lineam 
+        <lb ed="#A" n="101"/>diuisam in duas partes dicimus esse duas lineas. 
+        <lb ed="#A" n="102"/>Sed in deo nulla est diuisio. Est tantum numerus qui 
+        <lb ed="#A" n="103"/>dam scilicet trinitas personarum. et hoc ex numero relatio 
+        <lb ed="#A" n="104"/>num. Nam pluralitas personarum non est aliud nisi ipse 
+        <lb ed="#A" n="105"/>persone secundum quod sunt distincte per relationes. non in 
+        es<lb ed="#A" n="106" break="no"/>sentia Hec Tho. concor. Rich.
+      </p>
+               <p xml:id="Vn7Pel-d53789-d1e263">
+        ¶ Sed Guil. vbi 
+        <lb ed="#A" n="107"/>supra aliter dicit et forte melius. quod bene numerus 
+        ma<lb ed="#A" n="108" break="no"/>terialis causatur ex diuisione continui. et de illo 
+        nu<lb ed="#A" n="109" break="no"/>mero loquitur philosophus. Sed tamen est alius numerus 
+        for<lb ed="#A" n="110" break="no"/>maliter dictus qui solum requirit vnionem in vniuocatis 
+        <lb ed="#A" n="111"/>sicut Abraham Isaac et Iacob dicuntur tres homines. 
+        <lb ed="#A" n="112"/>de quo numero loquitur Augu. vii. de trinitate Et 
+        <lb ed="#A" n="113"/>iste nummerus est in diuinis in tribus personis que 
+        <lb ed="#A" n="114"/>distincte sunt suis proprietatibus. sed sunt idem in es¬ 
+        <!--173.xml-->
+        <pb ed="#A" n="174"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sentia. Hec Guil. Unde et Scotorlis. ea. di. xxiiii. dicit 
+        <lb ed="#A" n="2"/>quod omnis numerus fundatur super vnitatem. Unitas 
+        <lb ed="#A" n="3"/>autem est triplex. Una que conuertitur cum ente. Alia 
+        <lb ed="#A" n="4"/>que se habet in ratione partis. Tertia que est 
+        princi<lb ed="#A" n="5" break="no"/>pium continui. In diuinis autem est numerus qui 
+        aspi<lb ed="#A" n="6" break="no"/>cit vnitatem primo modo. quia est pluralitas 
+        supposi<lb ed="#A" n="7" break="no"/>torum. sed non est ibi numerus qui aspicit vnitatem secundo 
+        <lb ed="#A" n="8"/>modo nec terton modo. quia in diuinis non est ratio 
+        per<lb ed="#A" n="9" break="no"/>tis nec ratio continui. Hec Scotorlis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e310">
+               <head xml:id="Vn7Pel-d53789-Hd1e312">4</head>
+               <p xml:id="Vn7Pel-d53789-d1e315">
+                  <lb ed="#A" n="10"/>¶ Utrum in diuinis numerus 
+        di<lb ed="#A" n="11" break="no"/>cat aliquid positiuum. vel ipsi termini numerales in 
+        <lb ed="#A" n="12"/>diuinis dicant solam priuationem vel negationem: Ad 
+        <lb ed="#A" n="13"/>hoc respondetur quod magistri sententiarum opinio est in primo libro. 
+        <lb ed="#A" n="14"/>dist. xxiiii. et di. iii. Quod numerus in diuinis est ne 
+        <lb ed="#A" n="15"/>gatiue vel privatiue. vtputa quando dicimus sunt tres 
+        <lb ed="#A" n="16"/>persone. signamus quod in diuinis non est solitudo. 
+        <lb ed="#A" n="17"/>Et munit se magister dictis beati Hilarii et Augu. 
+        <lb ed="#A" n="18"/>Sed salua sua reuerentia communiter a doctoribus in l 
+        <lb ed="#A" n="19"/>non tenetur vt dicit Bonauem. et Guil. addit quod nec Hi 
+        <lb ed="#A" n="20"/>larius nec Aug. est pro eo. quia negant solum pluralita 
+        <lb ed="#A" n="21"/>tem essentie. et non dicunt quin in diuinis positiue sit 
+        <lb ed="#A" n="22"/>numerus personarum. Denique si solum privatiue dicere 
+        <lb ed="#A" n="23"/>mus in deo tres personas. eo quod non vna tantum vel due 
+        <lb ed="#A" n="24"/>¶ Tunc sequeretur quod pari ratione posset dici quod chimere 
+        <lb ed="#A" n="25"/>sunt tres. quia non sunt vna vel due. sed hoc non dicitur. 
+        <lb ed="#A" n="26"/>ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d53789-d1e354">
+        ¶ Unde ad questionem dicendum sicut communis ma 
+        <lb ed="#A" n="27"/>gistrorum perisienus tenet sententia secundum Bonauem. et Guil. 
+        <lb ed="#A" n="28"/>quod in diuinis est numerus positiuus. Probatur. 
+        <lb ed="#A" n="29"/>Omne includens positiuum est positiuum. quia impossi 
+        <lb ed="#A" n="30"/>bile est positiuum constitui ex priuatiuis. Sed 
+        nu<lb ed="#A" n="31" break="no"/>merus includit distinctionem que est quoddam po 
+        <lb ed="#A" n="32"/>sitiuum. omne enim quod numeratur distinguitur. ergo omnis 
+        nu<lb ed="#A" n="33" break="no"/>merus est distinctio. tenet per locum a coniugatis  
+        <lb ed="#A" n="34"/>Hec Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e376">
+               <head xml:id="Vn7Pel-d53789-Hd1e378">5</head>
+               <p xml:id="Vn7Pel-d53789-d1e381">
+                  <lb ed="#A" n="35"/>¶ Sed quomodo positiue cadit nume 
+        <lb ed="#A" n="36" break="no"/>
+                  <!-- line break error -->
+                  <lb ed="#A" n="37"/>rus in deum: Cum numerus in creaturis sit accisens 
+        <lb ed="#A" n="38"/>in deum autem nullum cadit accidens. Respondetur secundum .e. 
+        <lb ed="#A" n="39"/>Guil. quod numerus in creaturis bene est accidens 
+        <lb ed="#A" n="40"/>quodda. Sed in deo non est accisuens. quia in deo 
+        nu<lb ed="#A" n="41" break="no"/>merus sicut et persona est et conuenit deo sub ratione en 
+        <lb ed="#A" n="42"/>tis transcendentis. et sic abstrahit ab accidente et sub 
+        <lb ed="#A" n="43"/>stantia. a limitatione et illimitatione et similibus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e406">
+               <head xml:id="Vn7Pel-d53789-Hd1e408">6</head>
+               <p xml:id="Vn7Pel-d53789-d1e411">
+                  <lb ed="#A" n="44"/>¶ Sed quid importaut positiue 
+        <lb ed="#A" n="45"/>in diuinis termini numerales Respondetur supra. secundum Bo 
+        <lb ed="#A" n="46"/>nauem. quod ex quo in diuinis est distinctio tantum a proprie 
+        <lb ed="#A" n="47"/>tatibus relatiuis. ideo termini distinctiui et 
+        nume<lb ed="#A" n="48" break="no"/>rales dicuntur de deo secundum relationem et non secundum substantia 
+        <lb ed="#A" n="49"/>et important ipsas notiones. Unde ly Tres 
+        impo<lb ed="#A" n="50" break="no"/>tat proprietatem trium personarum. quia dicuntur persone tres 
+        <lb ed="#A" n="51"/>tribus proprietatibus distincte. Proinde quando dicitur: tres no 
+        <lb ed="#A" n="52"/>tiones vel tres proprietates: non dicit aliud nisi notio 
+        <lb ed="#A" n="53"/>nes ipsas. quia notiones et proprietates seipsis 
+        distin<lb ed="#A" n="54" break="no"/>guuntur. Hec Bonauen. vum et Tho. supra dicit quod 
+        plura<lb ed="#A" n="55" break="no"/>litas personarum in diuinis non est aliud nisi ipse 
+        perso<lb ed="#A" n="56" break="no"/>ne secundum quod sunt distincte per relatiuas proprietates. 
+        <lb ed="#A" n="57"/>et sic etiam numerus personarum est ipe persone vt ster numerate
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e445">
+               <head xml:id="Vn7Pel-d53789-Hd1e447">17</head>
+               <p xml:id="Vn7Pel-d53789-d1e450">
+        <!--173.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 174 -->
+                  <lb ed="#A" n="58"/>¶ Queritur ergo An numerus 
+        ham<lb ed="#A" n="59" break="no"/>beat aliqua entitate in re: Respondetur secundum Scotorlis. 
+        <lb ed="#A" n="60"/>ea. dist. xxiiii. primi. quod due sunt opiniones. vna dici 
+        <lb ed="#A" n="61"/>quod non. quia philosophus. iiii. Phy. dicit quod numerus non est si 
+        <lb ed="#A" n="62"/>ne numerante. ergo non est extra intellectum.
+      </p>
+               <p xml:id="Vn7Pel-d53789-d1e470">
+        ¶ Alia opinio 
+        <lb ed="#A" n="63"/>icit quod numerus habet entitatem in re. vnde Auicenna 
+        <lb ed="#A" n="64"/>iii. Meta. c. v. dicit quod numerus habet esse inrebus et 
+        <lb ed="#A" n="65"/>habet esse in anima. Et probatur ratione. quia numerus est 
+        <lb ed="#A" n="66"/>speiens quantitatis. et sic praedicamenti positiui. ergo per quanti 
+        <lb ed="#A" n="67"/>tatem ponit entitatem in re. Item quicquid est per se 
+        sensibi<lb ed="#A" n="68" break="no"/>le habet entitatem in re Sed numerus est per se sen 
+        <lb ed="#A" n="69"/>sibilis ex. ii de anima. Dicendum ergo sicut ponit Commen 
+        <lb ed="#A" n="70"/>tator. iiii. Phy. quod aliqua entia sunt totaliter extra 
+        in<lb ed="#A" n="71" break="no"/>tellectum. aliqua totaliter in intellectum. Et aliqua partim 
+        <lb ed="#A" n="72"/>in re partim in intellectum. Isto tertio modo est nul 
+        <lb ed="#A" n="73"/>merus. vnde prima opinio non satis firmatur auctoritate philosophi 
+        <lb ed="#A" n="74"/>quia licet numerus non est sine numerante quo ad illud 
+        <lb ed="#A" n="75"/>scilicet quod est ab anima vel numerante. tamen habet entitatem 
+        <lb ed="#A" n="76"/>in se quam anima percipit in re. Hec et Scotorlis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e504">
+               <head xml:id="Vn7Pel-d53789-Hd1e506">8</head>
+               <p xml:id="Vn7Pel-d53789-d1e509">
+                  <lb ed="#A" n="77"/>¶ Quare iste numerus scilicet trinitas 
+        <lb ed="#A" n="78"/>non dicitur collectiue in diuinis. cum tameum magister in primo libr 
+        <lb ed="#A" n="79"/>di. xxii. dicat quod trinitas est nomen quanim collectiuum 
+        <lb ed="#A" n="80"/>etc. Respondetur secundum Bonauem. in q. circa litteram e. di. xxii. 
+        <lb ed="#A" n="81"/>concor. Tho. di. xxiiii. ar. fi. Quod hoc nomen trinitas 
+        <lb ed="#A" n="82"/>habet aliquid simile cum nomine collectiuo. tamen non est vere 
+        <lb ed="#A" n="83"/>nomen collectiuum. Ideo magister non dicit quod sit 
+        collecti<lb ed="#A" n="84" break="no"/>uum simpliciter sed quasi collectiuum. nam deficit a nomine 
+        <lb ed="#A" n="85"/>proprie collectiuo Primo in hoc quod illa que nomi 
+        <lb ed="#A" n="86"/>collectiuum colligit habent simpliciter diuersitatem Et secum 
+        <lb ed="#A" n="87"/>do. quia habent secundum quid vnitatem vt patet de hoc nomine populus 
+        <lb ed="#A" n="88"/>vel turba. Sed econtra est in hoc nomine trinitas in 
+        <lb ed="#A" n="89"/>diuinis vbi est verissima vnitas essentialis et diuer 
+        <lb ed="#A" n="90"/>sitas tantummodo personarum. Tertio quia vt Bern. dicit 
+        <lb ed="#A" n="91"/>vnitas collectiua est minima inter vnitates 
+        ali<lb ed="#A" n="92" break="no"/>as. Sed vnitas diuine trinitatis arcem tenet inter 
+        <lb ed="#A" n="93"/>omnes vnitates. Nam vnitas collectia est quoaniam plures 
+        <lb ed="#A" n="94"/>res diuersarum essentiarum numero conueniunt in ali 
+        <lb ed="#A" n="95"/>quod vnum. Sed in diuinis vna est numero essentia 
+        <lb ed="#A" n="96"/>in tribus personis. ergo non collectio. Uerumtamen in hoc est 
+        <lb ed="#A" n="97"/>tantummodo similitudo. quia sicut nomen collectiuum 
+        <lb ed="#A" n="98"/>vt popululus etc. dicit simul plures et de nullo per se praedica 
+        <lb ed="#A" n="99"/>tur. ita hoc nomen trinitas in diuinis etc 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e562">
+               <head xml:id="Vn7Pel-d53789-Hd1e564">9</head>
+               <p xml:id="Vn7Pel-d53789-d1e567">
+                  <lb ed="#A" n="100"/>¶ Unde est quod iuxta numerum 
+        perso<lb ed="#A" n="101" break="no"/>narum non possumus dicere vel numerare tres 
+        de<lb ed="#A" n="102" break="no"/>os: Respondetur secundum Bonauen. in primo. di. xxiii. q. vlti. 
+        <lb ed="#A" n="103"/>et alios. Primo quia contradicit scriptura Deuter. vi. 
+        Au<lb ed="#A" n="104" break="no"/>di istlis deus tuus deus vnus est etc. Secunda quia contradicit fi 
+        <lb ed="#A" n="105"/>des catholica in symbolo dicit. deus pater deus filius deus 
+        <lb ed="#A" n="106"/>spiritus sanctus. non tamen tres dii etc. Tertio quia non patit 
+        <lb ed="#A" n="107"/>ratio theologica. quia hoc nom deus dicit diuinam naturam 
+        <lb ed="#A" n="108"/>vel essentiam solam sine proprietate relatiua. quae est vnica 
+        <lb ed="#A" n="109"/>et simplicissima. ergo non potest plurificari vel numera 
+        <lb ed="#A" n="110"/>ri. ergo non potest dici pluraliter dii. Sed hoc nomen per 
+        <lb ed="#A" n="111"/>sona tam in singulari quam in plurali dictum de deo 
+        si<lb ed="#A" n="112" break="no"/>gnificat diuinam substantiam sub relatiua proprietate si 
+        <lb ed="#A" n="113"/>ae hypostasim cum proprietate. Ideoque ratione proprietatis. 
+        <!--174.xml-->
+        <pb ed="#A" n="175"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>relatiue que in deo numerantur potest plurificari. et 
+        <lb ed="#A" n="2"/>pluraliter dici numerando tres personas diuinas 
+        <lb ed="#A" n="3"/>Hec ex Bonauem. concor. communiter doctores. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d53789-Dd1e614">
+               <head xml:id="Vn7Pel-d53789-Hd1e616">10</head>
+               <p xml:id="Vn7Pel-d53789-d1e619">
+                  <lb ed="#A" n="4"/>¶ Quid de illis locutionibus hu 
+        <lb ed="#A" n="5"/>iusmodi quae negat Athanasius in symbolo dicit quod non 
+        <lb ed="#A" n="6"/>sunt tres omnipotentes sed vnus omnipotens. non tres 
+        <lb ed="#A" n="7"/>eterni sed vnus eternus. Sicut non tres increati 
+        <lb ed="#A" n="8"/>nec tres immensi. sed vnus increatus et vnus 
+        immen<lb ed="#A" n="9" break="no"/>sus. non tres domini sed vnus dominus. Similiter est secundum doc. 
+        <lb ed="#A" n="10"/>de illa non tres creatores. sed vnus creator
+      </p>
+               <p xml:id="Vn7Pel-d53789-d1e637">
+        ¶ Re 
+        <lb ed="#A" n="11"/>spondet Fran. Mayro. in conflat. primi di. xii. q. i. ar. 
+        <lb ed="#A" n="12"/>ii. quod huiusmodi locutiones de vi sermonis non essent 
+        negan<lb ed="#A" n="13" break="no"/>de qua negat athanasius sed propter timorem erroris. ne 
+        <lb ed="#A" n="14"/>tres deos suspicaremur dicendo tres eternos 
+        <lb ed="#A" n="15"/>tres omnipotentes et huiusmodi. Sed Guil. e. di. xii. dicit quod 
+        <lb ed="#A" n="16"/>hoc ideo est quia nomina diuina substantiue sumpta si 
+        <lb ed="#A" n="17"/>gnificantia essentiam non dicuntur in plurali. sicut non 
+        <lb ed="#A" n="18"/>dicitur tres dii vel domini vel omnipotentes. nisi termini isti 
+        <lb ed="#A" n="19"/>caperentur adiectiue. Et patet vbi Nomen diuinum. 
+        ter<lb ed="#A" n="20" break="no"/>tio vice. §. xxiiii. ex regula sexta ibi posita. Ad idem 
+        <lb ed="#A" n="21"/>aliqua vbi Principium. §. x. et. xi.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

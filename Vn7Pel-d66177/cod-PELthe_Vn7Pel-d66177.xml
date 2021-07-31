@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praxis</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praxis</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="213"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d66177">
+            <head xml:id="Vn7Pel-d66177-Hd1e107">Praxis</head>
+            <div xml:id="Vn7Pel-d66177-Dd1e110">
+               <head xml:id="Vn7Pel-d66177-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d66177-d1e115">
+                  <lb ed="#A" n="20"/>PRaxis del 
+        pra<lb ed="#A" n="21" break="no"/>cticum est nomen grecum et secundum Fran. ma 
+        <lb ed="#A" n="22"/>ro. in primo di. xl viii. Idem est quod 
+        <lb ed="#A" n="23"/>operatio in latino.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e126">
+        ¶ Quid ergo sit 
+        pra<lb ed="#A" n="24" break="no"/>xis ad quam practica cognitio dicitur extendi Scotorlis. 
+        <lb ed="#A" n="25"/>in prolo. sententiarum. q. iii diffinit sic Praxis est 
+        alteri<lb ed="#A" n="26" break="no"/>us potentie quam intellectus: naturaliter posterior 
+        in<lb ed="#A" n="27" break="no"/>tellectione: natus elici conformiter rationi recte vt sit re 
+        <lb ed="#A" n="28"/>ctus.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e139">
+        ¶ Huius diffinitionis prima particula est quod 
+        <lb ed="#A" n="29"/>praxis est alterius potentie quam intellectus quia sisten 
+        <lb ed="#A" n="30"/>do precise in actibus intellectus non est extra se 
+        ten<lb ed="#A" n="31" break="no"/>sio aliqua sed praxis dicit quandam extensionem. 
+        <lb ed="#A" n="32"/>videlicet extra se ad operandum
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e150">
+        ¶ Si dicas. actus 
+        <lb ed="#A" n="33"/>intellectus est discursiuus. ergo ibi est extensio hoc 
+        <lb ed="#A" n="34"/>non valet quia tunc sequeretur quod logica esset scetia practi 
+        <lb ed="#A" n="35"/>ca cum sit de actibus discursiuis. Nam primus actus 
+        <lb ed="#A" n="36"/>logice est rationcinari. Secundus est discurrere. Ticet ergo 
+        <lb ed="#A" n="37"/>discursus dirigatur per rationcinationem. non propter hoc logica est 
+        <lb ed="#A" n="38"/>practica sed rationalis quia posterior actus intellectus 
+        <lb ed="#A" n="39"/>numquam habet rationem praxis: licet dirigatur a praeori actu 
+        <lb ed="#A" n="40"/>intellectus. ergo actus discursiuus intellectus non ex 
+        <lb ed="#A" n="41"/>tenditur extra se etc.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e173">
+        ¶ Secunda particula quod praxis na 
+        <lb ed="#A" n="42"/>turaliter est posterior intellectione quia est actus 
+        vo<lb ed="#A" n="43" break="no"/>luntatis elicitus vel imparatus et omnis talis naturaliter 
+        <lb ed="#A" n="44"/>est posteriorintellectione. Unde operatio vegetatia vl 
+        <lb ed="#A" n="45"/>sensitiua licet sit alterius potentie quam intellectie. tamen 
+        <lb ed="#A" n="46"/>non est praxis. Tum quia ille operationes praecedunt actum in  
+        <lb ed="#A" n="47"/>tellectus. tum quia communes sunt nobis et brutis ergo non 
+        <lb ed="#A" n="48"/>sunt volitiue tantummodo. Si autem aliquo modo dicantur 
+        <lb ed="#A" n="49"/>pratis in nobis: hoc est inquantum moderantur ab 
+        <lb ed="#A" n="50"/>intellectione et sunt ea posteriores.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e195">
+        ¶ Tertia particu 
+        <lb ed="#A" n="51"/>la diffinitionis est quod pratis est nata elici conformit 
+        <lb ed="#A" n="52"/>rationi recte vt sit recta Nam. vi. ethico. dicitur quod electon re 
+        <lb ed="#A" n="53"/>cta indiget raectam ratione vt sit rctam. Electio autem est quidam 
+        prae<lb ed="#A" n="54" break="no"/>xis quia est actus voluntatis requirens rationem 
+        re<lb ed="#A" n="55" break="no"/>ctam cui conformatur. Hec secundum mentem Scoti. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e209">
+               <head xml:id="Vn7Pel-d66177-Hd1e211">2</head>
+               <p xml:id="Vn7Pel-d66177-d1e214">
+                  <lb ed="#A" n="56"/>¶ Quomodo differunt scientia 
+        <!--212.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 213 -->
+                  <lb ed="#A" n="57"/>practica et speculatiua: Respondetur colligendo ex 
+        di<lb ed="#A" n="58" break="no"/>ctis magistrorum scholasticorum in i. et vi. meta. quod 
+        diffe<lb ed="#A" n="59" break="no"/>unt tam ex parte obiecti quam ex parte finis.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e232">
+        ¶ Nam primo ex 
+        <lb ed="#A" n="60"/>parte obiecti quia speculatiua est qua considerat res non 
+        <lb ed="#A" n="61"/>operabiles a sciente. sed praectica operabiles vel inquantum ta 
+        <lb ed="#A" n="62"/>les considerat Et hec praectica diuiditur. quia quaedam est 
+        praecti<lb ed="#A" n="63" break="no"/>ca factiua quae considrat de operabilibustranseuntibus i manm 
+        <lb ed="#A" n="64"/>exteriorem sicut sunt mechanice artes. Quedam autem est prae 
+        <lb ed="#A" n="65"/>ctiea actiua quae considerat operationes manentes in agem 
+        <lb ed="#A" n="66"/>te sicut est sctia moralis
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e250">
+        ¶ Secundo differunt ex parte finis: 
+        <lb ed="#A" n="67"/>quia finis praectice est opus: sed speculatiue finis est 
+        <lb ed="#A" n="68"/>icire. ii de anima. vnde metaphyca plhsopyca et matheatica 
+        <lb ed="#A" n="69"/>unt partes speculatiue non pecctice. Et differenter se 
+        <lb ed="#A" n="70"/>habent quia phsophca considerat ea quae sunt coniuncta cum materia 
+        <lb ed="#A" n="71"/>et motu sensibili tam secundum esse quam secundum rationem. sicut simum 
+        <lb ed="#A" n="72"/>put est in naso recuruato sursum secundum Catholicon 
+        <lb ed="#A" n="73"/>Sed metaphyca ea quae sunt separata a materia secundum esse 
+        <lb ed="#A" n="74"/>et secundum rationem vt sunt substantie immateriales. Mathema 
+        <lb ed="#A" n="75"/>tica vero coniuncta materie secundum esse sed non secundum rationem 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e273">
+               <head xml:id="Vn7Pel-d66177-Hd1e275">3</head>
+               <p xml:id="Vn7Pel-d66177-d1e278">
+                  <lb ed="#A" n="76"/>¶ Utrum intellectus diuinus sit 
+        <lb ed="#A" n="77"/>practicus Respondet Rich. super. iiii. di. xlix. ar. i. q. viii 
+        <lb ed="#A" n="78"/>in solutione primi argumenti etc. Quod intellectus diuinus 
+        <lb ed="#A" n="79"/>primo intelligit essentiam suam: et secundo per essentiam suam 
+        <lb ed="#A" n="80"/>itelligit creaturas. Et dicit quod diuinus intellectus 
+        <lb ed="#A" n="81"/>respectu creaturarum practicus est: non tamen eo modo quo 
+        <lb ed="#A" n="82"/>ntur intellectus respectu effectuum: quia intellectus nostur 
+        de<lb ed="#A" n="83" break="no"/>terminat voluntatem non necessitando sed inclinando 
+        <lb ed="#A" n="84"/>Ideo enim artifex disponit partes domus taliter 
+        <lb ed="#A" n="85"/>vel taliter. Quia dictamen sui intellectus 
+        incli<lb ed="#A" n="86" break="no"/>nat ipsum ad sic faciendum. Non sic est de intellectu di 
+        <lb ed="#A" n="87"/>uino respectu voluntatis sue. Non enim ideo deus 
+        <lb ed="#A" n="88"/>voluit creare mundum: quia intellectus suus 
+        dicta<lb ed="#A" n="89" break="no"/>bat bonum esse mundum creari. sed econuerso.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e311">
+        ¶ Decla 
+        <lb ed="#A" n="90"/>rat. Quero inquit quare fuit bonum mundum creari: Si 
+        <lb ed="#A" n="91"/>dicas quia deus voluit. habeo propositum. Si 
+        au<lb ed="#A" n="92" break="no"/>tem dicas quod ideo: Quia diuinus intellectus 
+        di<lb ed="#A" n="93" break="no"/>ctabat bonum esse mundum creari. Contra. Non 
+        <lb ed="#A" n="94"/>enim ideo fuit bonum mundum creari: quia diuinus in 
+        <lb ed="#A" n="95"/>tellectus dictabat bonum esse mundum creari. 
+        <lb ed="#A" n="96"/>sed econuerso hoc est quia bonum erat mundum cre 
+        <lb ed="#A" n="97"/>ari: ideo diuinus intellectus hoc dictabat. vt vo 
+        <lb ed="#A" n="98"/>luntas ponatur pro causa creationis cuius ob 
+        <lb ed="#A" n="99"/>iectum est bonum. Et sic videtur sentire etiam 
+        Ma<lb ed="#A" n="100" break="no"/>gister in. ii di i. c. iii. dicit quod res ex dei voluntate et bo 
+        <lb ed="#A" n="101"/>nitate existunt. Nam in contingentibus voluntas 
+        <lb ed="#A" n="102"/>dei est prima regula. Uide de Predestinatione 
+        <lb ed="#A" n="103"/>§. xxii.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e344">
+        ¶ Si dicas Mundum creari erat bonum 
+        ab<lb ed="#A" n="104" break="no"/>solute non in comperatione ad diuinum intellectum vel 
+        <lb ed="#A" n="105"/>voluntatem. Tunc sequitur quod non poterat non esse 
+        <lb ed="#A" n="106"/>bonum: ergo diuinus intellectus non poterat hoc non 
+        <lb ed="#A" n="107"/>dictare. Et quia diuina voluntas non potest discorda 
+        <lb ed="#A" n="108"/>re a dictamine sui intellectus. ergo si deus ideo mundum 
+        <lb ed="#A" n="109"/>creare voluit: quia intellectus dictabat bonum esse mun 
+        <lb ed="#A" n="110"/>dum creari sequitur quod deus non potuisset non velle 
+        crea<lb ed="#A" n="111" break="no"/>re mundum quod falsum est. Et est in contraium articulus 
+        <lb ed="#A" n="112"/>excommunicatus a domino Stephanmo epo Parisien. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e367">
+               <head xml:id="Vn7Pel-d66177-Hd1e369">4</head>
+               <p xml:id="Vn7Pel-d66177-d1e372">
+                  <lb ed="#A" n="113"/>¶ Sed an respectu essentie sue di 
+        <!--213.xml-->
+        <pb ed="#A" n="214"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>uinus intellectus sit practicus: Dicit idem Rich. 
+        <lb ed="#A" n="2"/>quod licet non sit practicus secundum quod praxis dicitur ab exterio 
+        <lb ed="#A" n="3"/>ri operatione. Tame extendendo praxim ad dilectionem 
+        <lb ed="#A" n="4"/>practicus est et affectiuus inquantum se perfecte intel 
+        <lb ed="#A" n="5"/>ligit vt se perfecte diligat Speculatiuus autem est 
+        respe<lb ed="#A" n="6" break="no"/>ctum essentie sue inquantum essentia sua per eum operabilis 
+        <lb ed="#A" n="7"/>non est nec etiam per alium Hec omnia Rich
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e398">
+        ¶ Et in hoc 
+        con<lb ed="#A" n="8" break="no"/>corditer Fran. maro. in confla. primi. dis. xl viii. q. i. dici 
+        <lb ed="#A" n="9"/>per conclusioem. Quod scaia dei quam habet de sua essentia 
+        <lb ed="#A" n="10"/>est practica Probatio quia sicut deus se cognoscit di 
+        <lb ed="#A" n="11"/>igendum ita se diligit Etsi per impossibile non sic se 
+        <lb ed="#A" n="12"/>diligeret haberet actum inordinatum ergo illa cognitio 
+        <lb ed="#A" n="13"/>est practica. Item quia omnis cognitio est practica quae prius 
+        <lb ed="#A" n="14"/>or est actu voluntatis et cui actus voluntatis si est 
+        <lb ed="#A" n="15"/>rectus necessario conformatur. sed cognitio dei de 
+        essen<lb ed="#A" n="16" break="no"/>tia sua et aliis necessariis est huiusmodi. Nam si se vteretur 
+        <lb ed="#A" n="17"/>esset inordinata quia praecognoscit se esse subiectum 
+        frui<lb ed="#A" n="18" break="no"/>tionis ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e424">
+        ¶ Sed. d. Ubi est naturalis inclinaton 
+        <lb ed="#A" n="19"/>mere ibi non est necessaria regula sed deus naturaliter 
+        <lb ed="#A" n="20"/>e diligit ex toto impetu ergo etc. Respondet Franc. quod lec 
+        <lb ed="#A" n="21"/>in deo nulla sit contingentia. tamen necessario est confor 
+        <lb ed="#A" n="22"/>mitas dilectionis ad cognitionem Et illa talis confor 
+        <lb ed="#A" n="23"/>mitas necessaria sufficit ad ponendum cognitionem 
+        <lb ed="#A" n="24"/>practicam. Unde si deus aliter quam cognoscit se diligeret 
+        <lb ed="#A" n="25"/>peccaret quod est impossibile Hec Fran. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e444">
+               <head xml:id="Vn7Pel-d66177-Hd1e446">5</head>
+               <p xml:id="Vn7Pel-d66177-d1e449">
+                  <lb ed="#A" n="26"/>¶ Sed an scientia quam deus in se 
+        forma<lb ed="#A" n="27" break="no"/>liter habet de aliis sit praectica vel speculatia Idem Fran. 
+        <lb ed="#A" n="28"/>maro. e. di. xl viii. q. i. ponit plures conclusiones
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e458">
+        ¶ Pri 
+        <lb ed="#A" n="29"/>ma Quod sacia quam habet deus de naturalibus est 
+        specula<lb ed="#A" n="30" break="no"/>tiua quia est de obiecto speculabili. sicut nostra sctia ergo spe 
+        <lb ed="#A" n="31"/>culatiua.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e467">
+        ¶ Sed. dit. Ois sancia factiua est praectica. sed 
+        <lb ed="#A" n="32"/>sctita de naturalibus in deo est factiua quia deus 
+        natura<lb ed="#A" n="33" break="no"/>lia per modum artis producit ergo est praectica. Respondet idem 
+        <lb ed="#A" n="34"/>Fran. quod deus de naturalibus habet scetiam et artem. Et ista 
+        <lb ed="#A" n="35"/>differunt quia secentia tractat de passionibus vniuersalibus 
+        <lb ed="#A" n="36"/>sicut quod caelum est mobile et non de particularibus. Ars 
+        <lb ed="#A" n="37"/>autem considerat de eis vt sunt producibiles in esse et per 
+        <lb ed="#A" n="38"/>artem nouit quomodo debeant produci in esse particulari etc. 
+        <lb ed="#A" n="39"/>Sicut exemplum mathematicus habet sctiam speculati 
+        <lb ed="#A" n="40"/>uam de sphera. vidlet quod sphera est cuius omnes linee du 
+        <lb ed="#A" n="41"/>cte a centro vsque ad circumferentiam sunt equales. Et 
+        <lb ed="#A" n="42"/>tantum mathematicus si faciat spheram hoc erit per artem non 
+        <lb ed="#A" n="43"/>per scentiam mathematicam. sic in proposito de deo
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e496">
+        ¶ Se 
+        <lb ed="#A" n="44"/>cunda conclusio quod scaia quam habet deus de moralibus est 
+        <lb ed="#A" n="45"/>speculatiuam. quia est sui gratia et non ordinatur ad aliquio 
+        <lb ed="#A" n="46"/>aliud regulandum vel dirigendum. Non enim potest regu 
+        <lb ed="#A" n="47"/>are actum voluntatis divine eo quod in contingentibus 
+        <lb ed="#A" n="48"/>actus voluntatis praecedit actum intellectus. omne autem quod 
+        <lb ed="#A" n="49"/>ordinatur in aliud vt in regulandum ab eo. est priu 
+        <lb ed="#A" n="50"/>eo quod regulatur.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e515">
+        ¶ Si dicas Scita moralis in nobis 
+        <lb ed="#A" n="51"/>est practica vel in creaturis. Dicit idem Franc. quod 
+        <lb ed="#A" n="52"/>verum est quia in nobis et creaturis habet qualitatem 
+        <lb ed="#A" n="53"/>annexam ratione cuius in nobis est practica. scilicet quia 
+        <lb ed="#A" n="54"/>applicabilis est ad opus directiuum in nobis sed 
+        <lb ed="#A" n="55"/>non in deo. ergo non sequitur quod in deo sit praectica
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e528">
+        ¶ Ter 
+        <lb ed="#A" n="56"/>tia conclusio quod scientia quam habet deus de 
+        mathe<lb ed="#A" n="57" break="no"/>maticis est speculatiua. Ratio: quia est circa obie¬ 
+        <!--213.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 214 -->
+                  <lb ed="#A" n="58"/>ctum circa quod non potest voluntas errare vt opor 
+        <lb ed="#A" n="59"/>teat dirigi eam vtpote quod triangulus habeat tres 
+        <lb ed="#A" n="60"/>angulos certum est. et sic de singulis ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e548">
+        ¶ Quar 
+        <lb ed="#A" n="61"/>ta conclusio quod scientia de metaphysicis est specula 
+        <lb ed="#A" n="62"/>tiua. Quia quiditates metaphysice 
+        consideratio<lb ed="#A" n="63" break="no"/>nis: non sunt tales res circa quas voluntas possit 
+        <lb ed="#A" n="64"/>errare eo quod non habet circa ipas nisi actum simpli 
+        <lb ed="#A" n="65"/>cis complacentie qui necessario rectus est. Hec Fran. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e562">
+               <head xml:id="Vn7Pel-d66177-Hd1e564">6</head>
+               <p xml:id="Vn7Pel-d66177-d1e567">
+                  <lb ed="#A" n="66"/>¶ Sed an deus de angelis vel 
+        in<lb ed="#A" n="67" break="no"/>telligentiis habeat scientiam practicam: Exquo enim 
+        <lb ed="#A" n="68"/>voluntas diuina sic causat angelos sicut intelle 
+        <lb ed="#A" n="69"/>ctus diuinus dictat eos diligendos. puta vt deus 
+        <lb ed="#A" n="70"/>plus diligat eos in maioribus bonis naturalibus 
+        <lb ed="#A" n="71"/>et plus glorificet. Ac minus diligat in minoribus 
+        <lb ed="#A" n="72"/>etc. Sequitur est quod scia de illis sit practica et per consequens 
+        <lb ed="#A" n="73"/>metaphyca de quiditatibus eorum est practica. 
+        Re<lb ed="#A" n="74" break="no"/>spondet ibidem Fran. quod licet metaphyca proprie vt 
+        <lb ed="#A" n="75"/>est de entitate et quiditatibus abstractis non sit 
+        <lb ed="#A" n="76"/>directiua voluntatis: quia circa talia voluntas non habet 
+        <lb ed="#A" n="77"/>nisi actum simplicis complacentie: veruntamen de 
+        <lb ed="#A" n="78"/>ingelis possunt cum hoc alie proprietates sciri vtpo 
+        <lb ed="#A" n="79"/>te quod sic debent causari et sic sunt diligendi. Et vt 
+        <lb ed="#A" n="80"/>sic de talibus non est proprie metaphyca sed ars prout 
+        <lb ed="#A" n="81"/>sunt factibiles. Et moralis prout sunt diligibiles. 
+        <lb ed="#A" n="82"/>Hec ex Francisco. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e607">
+               <head xml:id="Vn7Pel-d66177-Hd1e609">7</head>
+               <p xml:id="Vn7Pel-d66177-d1e612">
+                  <lb ed="#A" n="83"/>¶ An scientia quam habet deus de 
+        <lb ed="#A" n="84"/>futuris contingentibus sit practica: Respondet ibidem Fran. 
+        <lb ed="#A" n="85"/>uod de contingentibus futuris. puta de incarnatione dei 
+        <lb ed="#A" n="86"/>et passione Item de antichristi aduentu. De iudicio et 
+        <lb ed="#A" n="87"/>resurrectione et huiusmodi non est sceita praectica in deo 
+        Pro<lb ed="#A" n="88" break="no"/>patur quia intellectus regulat et dirigit determiate id 
+        <lb ed="#A" n="89"/>quod dictat. sed voluntas potest ad opposita. ergo tunc volun 
+        <lb ed="#A" n="90"/>tas non esset recta cum non esset conformis actui 
+        intel<lb ed="#A" n="91" break="no"/>lectus. Unde posito quod intellectus praecognoscat 
+        ad<lb ed="#A" n="92" break="no"/>entum antichristi futurum et quod hec cognitio sit practi 
+        <lb ed="#A" n="93"/>ta. puta propter finem operabilem vtpote probentur 
+        iu<lb ed="#A" n="94" break="no"/>sti et mereantur et huiusmodi. Tamen certum est quod voluntas di 
+        <lb ed="#A" n="95"/>uina potest oppositum et sine sui obliquitate ergo illa 
+        praeco<lb ed="#A" n="96" break="no"/>gnitio non est regula: quia tunc voluntas non posset op 
+        <lb ed="#A" n="97"/>positum. Hec sufficiant ex Fran. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e647">
+                  <lb ed="#A" n="98"/>¶ An scia quam habent angeli sit 
+        <lb ed="#A" n="99"/>practica Uide vbi Angelica theologia. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e654">
+                  <lb ed="#A" n="100"/>¶ De scientia practica etiam in 
+        <lb ed="#A" n="101"/>prologo. §. xxvii. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e662">
+               <head xml:id="Vn7Pel-d66177-Hd1e664">8</head>
+               <p xml:id="Vn7Pel-d66177-d1e667">
+                  <lb ed="#A" n="102"/>¶ Utrum beatitudo consistat in intel 
+        <lb ed="#A" n="103"/>lectu pratico magis quam speculatiuo: Respondetur secundum Rich. supra 
+        <lb ed="#A" n="104"/>vicem li.o iiii. di. xlix. ar. i. q. viii. quod beatitudo principalius 
+        <lb ed="#A" n="105"/>consistit in actu intellectus praecctici quam speculatiui. extenden 
+        <lb ed="#A" n="106"/>do nomen praexis ad praexim qua dicitur dilecton. Sed si proprie 
+        <lb ed="#A" n="107"/>quois loquatur de praexi secundum quod dicitur ab exteriori operatione sic non 
+        <lb ed="#A" n="108"/>stat beatitudo in intellectu praectico sed speculatiuo. Nam 
+        <lb ed="#A" n="109"/>intellectus beatus quamuis speculetur bonum summum quod non 
+        <lb ed="#A" n="110"/>est operabile per nos non tantum speculatur ipsum propter scire 
+        <lb ed="#A" n="111"/>tantummodo sed propter scire in ordine ad perfectam 
+        <lb ed="#A" n="112"/>eius dilectionem. Unde et principalius speculatur rationem 
+        <lb ed="#A" n="113"/>bonitatis quam veritatis non sic intelligendo quod clarius  
+        <!--214.xml-->
+        <pb ed="#A" n="215"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>videat vnam quam aliam sed quia vnam in ordine ad aliam spo 
+        <lb ed="#A" n="2"/>culatur et sic patet propositum etc. Hinc est quod 
+        tbeologi<lb ed="#A" n="3" break="no"/>ta scia dicitur principalius esse practica quam 
+        speculati<lb ed="#A" n="4" break="no"/>ua. vt patuit in quaestionibus prologi. §. xxxiii. et. xxxiiii. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d66177-d1e711">
+                  <lb ed="#A" n="5"/>¶ Sed d. Auc i. lib. de trinitate. c. x. dicit quod in 
+        con<lb ed="#A" n="6" break="no"/>teplatione dei est finis omnium bonarum actionum et re 
+        <lb ed="#A" n="7"/>quies. Sed contemplatio dei est actus intellectus 
+        spe<lb ed="#A" n="8" break="no"/>culatiui: ergo beatitudo magis consistit in intellectu spe 
+        <lb ed="#A" n="9"/>culatiuo. Respondet Rich. ibidem quod Aug. ibi accipit 
+        <lb ed="#A" n="10"/>contemplationem pro vita contemplatiua quae principalius 
+        <lb ed="#A" n="11"/>consistit in dilectione quam in cognitione quia vita anime 
+        di<lb ed="#A" n="12" break="no"/>lectio est vnde cognitio ad dilectionem ordinatur. Et 
+        <lb ed="#A" n="13"/>sicno procedit obiectio. Hec ex Rich. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66177-Dd1e734">
+               <head xml:id="Vn7Pel-d66177-Hd1e736">9</head>
+               <p xml:id="Vn7Pel-d66177-d1e739">
+                  <lb ed="#A" n="14"/>¶ An practica scientia nobilior 
+        <lb ed="#A" n="15"/>sit quam speculatiua: Et videtur quod sic quia theologia cum 
+        <lb ed="#A" n="16"/>sit nobilissima est practica ergo etc. Sed in 
+        opposi<lb ed="#A" n="17" break="no"/>tum est quod dicitur in prologo. meta. Speculatiua scien 
+        <lb ed="#A" n="18"/>tia nobilior est quam practica. Quia Speculatiua 
+        <lb ed="#A" n="19"/>est gratia sui. Practica autem gratia vsus. Item. vi. eth. 
+        <lb ed="#A" n="20"/>Sapeinia est capunt inter omnes alias scatitas. Sapien 
+        <lb ed="#A" n="21"/>tia autem est speculatiua. Respondet Scotorelis. in prolo 
+        <lb ed="#A" n="22"/>go primi. q. iii. quod dicta philosophi praeallegata intelligenda 
+        <lb ed="#A" n="23"/>sunt sic quod speculatiua bene est nobilior quam 
+        pra<lb ed="#A" n="24" break="no"/>ctica hum anitus inuenta quia huiusmodi est respectu eorum 
+        <lb ed="#A" n="25"/>quae sunt ad finem. Sed practica vt est theologia quoe 
+        <lb ed="#A" n="26"/>est respectu finis vltimi est nobilior etc.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

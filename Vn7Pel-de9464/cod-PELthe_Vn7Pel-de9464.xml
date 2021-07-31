@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Apparere scilicet Deum in creatura</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Apparere scilicet Deum in creatura</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de9464">
+            <head xml:id="Vn7Pel-de9464-Hd1e107">Apparere scilicet Deum in creatura</head>
+            <div xml:id="Vn7Pel-de9464-Dd1e110">
+               <head xml:id="Vn7Pel-de9464-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de9464-d1e115">
+                  <lb ed="#A" n="46"/>Pparere 
+        scili<lb ed="#A" n="47" break="no"/>cet deum in creatura. Clarum est 
+        <lb ed="#A" n="48"/>dei filium et etiam spiritum sanctum 
+        <lb ed="#A" n="49"/>apparuisse visibiliter in mundo 
+        <lb ed="#A" n="50"/>Sed questio restat.
+      </p>
+               <p xml:id="Vn7Pel-de9464-d1e128">
+        ¶ Utrum 
+        de<lb ed="#A" n="51" break="no"/>us pater aliquado apparuerit visibiliter in 
+        crea<lb ed="#A" n="52" break="no"/>tura. Respondetur secundum Bonauen super primo. dist. xvi 
+        <lb ed="#A" n="53"/>arti i. q. i. quod apparitio dei distinguitur.
+      </p>
+               <p xml:id="Vn7Pel-de9464-d1e137">
+        ¶ Nam 
+        <!--32.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 33 -->
+                  <lb ed="#A" n="54"/>primo apparitio quedam est in qua manifestatur 
+        <lb ed="#A" n="55"/>diuina persona vt operans tantummodo. Et sic 
+        to<lb ed="#A" n="56" break="no"/>ta trinitas apparet in qualibet creatura: quia in 
+        <lb ed="#A" n="57"/>omnibus relucet vestigium creatoris et sanctissime 
+        <lb ed="#A" n="58"/>trinitatis. Psalmus. Scitote quoniam dominus ipse est deus ipse 
+        <lb ed="#A" n="59"/>fecit nos et non ipsi nos.
+      </p>
+               <p xml:id="Vn7Pel-de9464-d1e159">
+        ¶ Secundo quedam est 
+        ap<lb ed="#A" n="60" break="no"/>paritio in qua manifestatur diuina persona non tantum 
+        <lb ed="#A" n="61"/>vt operans: sed etiam vt inhabitans vel inexistens 
+        <lb ed="#A" n="62"/>per specialem effectum gratie. Et sic deus pater 
+        <lb ed="#A" n="63"/>quandoque apparuisse putatur patribus et prophetis. 
+        <lb ed="#A" n="64"/>Nam Augustinus vii. de trinitate ait. Temerarium est 
+        <lb ed="#A" n="65"/>inquit dicere patrem prophetis et patribus per ali 
+        <lb ed="#A" n="66"/>quas visibiles formas numquam apparuisse. Et patet 
+        <lb ed="#A" n="67"/>quia in baptismo christi et transtiguratione apparuit 
+        <lb ed="#A" n="68"/>deus pater in voce d. Hic est filius meus 
+        dile<lb ed="#A" n="69" break="no"/>ctus etc. Sic etiam apparuit pater filius et 
+        spiri<lb ed="#A" n="70" break="no"/>tus sanctus Abrae quando tres vidit et vnum 
+        ado<lb ed="#A" n="71" break="no"/>rauit.
+      </p>
+               <p xml:id="Vn7Pel-de9464-d1e189">
+        ¶ Tertio quedam est apparitio in qua 
+        ma<lb ed="#A" n="72" break="no"/>nifestatur diuina persona non tantum vt operans et etiam 
+        <lb ed="#A" n="73"/>inhabitans: sed etiam vt emanans et ab alio 
+        ve<lb ed="#A" n="74" break="no"/>niens. Et sic pater nunquam apparuit quia pater in di 
+        <lb ed="#A" n="75"/>uinis a nullo est ergo a nullo mittitur. Sed vt sic 
+        <lb ed="#A" n="76"/>filius et spiritus sanctus in nouo testamento 
+        appa<lb ed="#A" n="77" break="no"/>ruerunt. In vereri testamento autem filius non ap 
+        <lb ed="#A" n="78"/>paruit vt inhabitans sed vt inhabitaturum se 
+        prae<lb ed="#A" n="79" break="no"/>monstrans id est incarnandum ideo pro illo 
+        tem<lb ed="#A" n="80" break="no"/>pore non dicitur missus filius: sed tantummodo 
+        <lb ed="#A" n="81"/>in nouo testamento Gal. iiii. At vbi venit pleni 
+        <lb ed="#A" n="82"/>tudo temporis misit deus filium etc. Item spiritus 
+        san<lb ed="#A" n="83" break="no"/>ctus in vereri testamento licet apparuerit pluries 
+        <lb ed="#A" n="84"/>sanctis loquens patribus per angelos in prophetis 
+        <lb ed="#A" n="85"/>Similiter et filius et pater sed tamen spiritus sanctus 
+        <lb ed="#A" n="86"/>apparuit non vt in omnimoda plenitudie gratie 
+        re<lb ed="#A" n="87" break="no"/>dundantis per totum mundum inhabitans: quia 
+        <lb ed="#A" n="88"/>secundum quod Rich. e. dist. xvi. q. ii Ac Lyra dictant pa 
+        <lb ed="#A" n="89"/>tres vereris testamenti quamuis habuerint 
+        pleni<lb ed="#A" n="90" break="no"/>tudinem spiritus sancti ad sufficientiam sanctificatio 
+        <lb ed="#A" n="91"/>nis in se et etiam ad aliquam redundantiam in alios 
+        <lb ed="#A" n="92"/>sed non ad tamplenariam redundantiam sicut in 
+        <lb ed="#A" n="93"/>nouo testamento. Ideo scribitur Ioam. vii. Nondum 
+        <lb ed="#A" n="94"/>est spiritus sanctus datus scilicet tanta plenitudine. quia 
+        <lb ed="#A" n="95"/>nondum erat iesus glorificatus. Hinc est quod pro 
+        il<lb ed="#A" n="96" break="no"/>lo tempore vereris testamenti nec filius nec 
+        spi<lb ed="#A" n="97" break="no"/>ritus sanctus dicitur missus visibiliter. vt dicit 
+        <lb ed="#A" n="98"/>Augustinus iiii. de trinitate. Et etiam protunc quando le 
+        <lb ed="#A" n="99"/>gitur deus apparuisse patribus et prophetis non 
+        <lb ed="#A" n="100"/>per seipsum deus apparuit sed per angelos in 
+        figu<lb ed="#A" n="101" break="no"/>ris et creaturis illis. Ut probat idem Augustinus iii de 
+        <lb ed="#A" n="102"/>trinitate dicit. Constat firmitate autoritatis et 
+        proba<lb ed="#A" n="103" break="no"/>bilitate rationis cum antiquis patribus deus di 
+        <lb ed="#A" n="104"/>citur apparuisse: voces illas ab agelis factas 
+        es<lb ed="#A" n="105" break="no"/>se. Propterea Gal. iii. Et Heb. ii apostolus dicit quod 
+        <lb ed="#A" n="106"/>lex ordinata est per angelos etc. 
+      </p>
+               <p xml:id="Vn7Pel-de9464-d1e267">
+                  <lb ed="#A" n="107"/>¶ De apperitione plura vbi Hissio. 
+        <!--does this belong with above section or below sections -->
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

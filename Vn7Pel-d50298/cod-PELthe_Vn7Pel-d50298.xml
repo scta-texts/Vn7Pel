@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Modi perseitatis</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Modi perseitatis</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d50298">
+            <head xml:id="Vn7Pel-d50298-Hd1e107">Modi perseitatis</head>
+            <div xml:id="Vn7Pel-d50298-Dd1e110">
+               <head xml:id="Vn7Pel-d50298-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d50298-d1e115">
+                  <lb ed="#A" n="25"/>MOdi perseitatis  
+        <lb ed="#A" n="26"/>mm vel ipsius per se praedicationis secundum philosophum. i. 
+        <lb ed="#A" n="27"/>Poste. et. v. Meta. sunt quattuor qui 
+        <lb ed="#A" n="28"/>etiam dicuntur modi rei secundum se. Primus modus 
+        <lb ed="#A" n="29"/>est vt dicit philosophus dum quecumque insunt: ipsa in ratio 
+        <lb ed="#A" n="30"/>ne quod quid est insunt. vt trianguli est linea. et pum 
+        <lb ed="#A" n="31"/>ctus linee. vnde secundum Fran. Mayro. et communiter 
+        <lb ed="#A" n="32"/>Scotis. Iste modus partinet mere ad quiditater 
+        <lb ed="#A" n="33"/>quia accipitur prout diffinitio quiditatiua vel 
+        <lb ed="#A" n="34"/>pars eiusdem diffinitionis dicitur de diffinito. vt 
+        <lb ed="#A" n="35"/>homo est animal rationale et huiusmodi. Secundus 
+        mo<lb ed="#A" n="36" break="no"/>dus quando aliqua insunt ipsa ratione essentia 
+        <lb ed="#A" n="37"/>li vel quiditatiua primo et immediate: vt color 
+        su<lb ed="#A" n="38" break="no"/>perficiei. et sic etiam propositiones immediate dicun 
+        <lb ed="#A" n="39"/>tur per se. puta vbi praedicatur idem de se. vicem. 
+        di<lb ed="#A" n="40" break="no"/>cendo homo est homo. dicitur per se vera. quia hu 
+        <lb ed="#A" n="41"/>ius propositionis nulla est causa. licet huius. homo 
+        <lb ed="#A" n="42"/>est animal rationale sit causa scilicet vt sit ad dei ima 
+        <lb ed="#A" n="43"/>ginem beatificabilis Tertius modus est 
+        quo<lb ed="#A" n="44" break="no"/>pria passio per se inest subiecto vt hominem esse 
+        <lb ed="#A" n="45"/>risibilem. Quartus modus quo per se: 
+        signifi<lb ed="#A" n="46" break="no"/>cat solitudinem vt homo solus dicitur per se et 
+        <lb ed="#A" n="47"/>sic patet ex philosopho.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d50298-Dd1e168">
+               <head xml:id="Vn7Pel-d50298-Hd1e170">Modi quibus</head>
+               <p xml:id="Vn7Pel-d50298-d1e173">
+                  <lb ed="#A" n="48"/>MOdi quibus dici 
+        <lb ed="#A" n="49"/>Itur secundum quid sunt: quittuor. vt patet secundum e. philosophum 
+        <lb ed="#A" n="50"/>Primus est secundum habitudinem cause fori 
+        <lb ed="#A" n="51"/>malis. vt homo dicitur bonus secundum bonitatem. Secundus est 
+        <lb ed="#A" n="52"/>vt dicit habitudinem proximi susceptiui vt aliquid dicitur al 
+        <lb ed="#A" n="53"/>bum secundum superficiem que de proximo suscipit albedinem 
+        <!--161.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 162 -->
+                  <lb ed="#A" n="54"/>a qua denominatur res alba. Tertius est secundum quid mi 
+        <lb ed="#A" n="55"/>dus qui vniuersaliter dicit habitudinem cuiusliber 
+        <lb ed="#A" n="56"/>cause prout dicimus secundum quid docuit ille 
+        grammati<lb ed="#A" n="57" break="no"/>cus. hoc est secundum modum grammatice sancie. Quartus 
+        <lb ed="#A" n="58"/>est prout significat positionem et locum. vt cum dicitur iste 
+        <lb ed="#A" n="59"/>secundum hunc id est iuxta huc. Et iste modus magis appa 
+        <lb ed="#A" n="60"/>ret in idiomate greco. Hec etiam philosophus. v. Meta. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d50298-d1e210">
+                  <lb ed="#A" n="61"/>¶ De modis plurimorum aliorum ver 
+        <lb ed="#A" n="62"/>borum vel dictionum et sententiarum partranseo. tum quia non tam 
+        <lb ed="#A" n="63"/>sunt necessarii in materia theologica. Tum quia 
+        <lb ed="#A" n="64"/>etsi occurrerent in aliquo passu theologico ibi 
+        suffi<lb ed="#A" n="65" break="no"/>cienter patebit de eis quantum partinebit ad nostrum 
+        <lb ed="#A" n="66"/>propositum.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Asserere aliquid de deo</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Asserere aliquid de deo</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de9806">
+            <head xml:id="Vn7Pel-de9806-Hd1e107">Asserere aliquid de deo</head>
+            <div xml:id="Vn7Pel-de9806-Dd1e110">
+               <head xml:id="Vn7Pel-de9806-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de9806-d1e115">
+                  <lb ed="#A" n="45"/>ASserere aliquid 
+        <lb ed="#A" n="46"/>de deo. Queritur de hoc vtrum liceat 
+        <lb ed="#A" n="47"/>aliquid quod non est nobis certum de 
+        <lb ed="#A" n="48"/>deo asserere. Respondetur breviter quod secundum quod 
+        ha<lb ed="#A" n="49" break="no"/>betur in compendio veri. theolo. Primo aliquid  
+        <!--33.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 34 -->
+                  <lb ed="#A" n="50"/>asseritur de deo per Synderesim id est per naturalem 
+        <lb ed="#A" n="51"/>rationem que dictat quod vnus est deus 
+        remune<lb ed="#A" n="52" break="no"/>rator bonorum et punitor malorum. Secundo 
+        <lb ed="#A" n="53"/>per fidem qua dicimus deum esse vnum in sub 
+        <lb ed="#A" n="54"/>stantia et trinum in personis. Tertio per sacram 
+        <lb ed="#A" n="55"/>scripturam. Quarto per rationes probabiles. Quinto per 
+        <lb ed="#A" n="56"/>exteriorem predicationem. Sed istis duobus 
+        vlti<lb ed="#A" n="57" break="no"/>mis modis non est innitendum nisi firmitatem 
+        ha<lb ed="#A" n="58" break="no"/>beamus ab aliquo trium predictorum. Unde  
+        <lb ed="#A" n="59"/>pro regula tenendum est quod Quicumque asserit 
+        ali<lb ed="#A" n="60" break="no"/>quid de deo quod non est sibi certum per 
+        natu<lb ed="#A" n="61" break="no"/>ralem rationem: nec per fidem nec per sacram 
+        scri<lb ed="#A" n="62" break="no"/>pturam. talis presumit et peccat. 
+        
+      </p>
+               <p xml:id="Vn7Pel-de9806-d1e163">
+                  <lb ed="#A" n="63"/>¶ Ad idem vbi Opinio. §. i. et 
+        se<lb ed="#A" n="64" break="no"/>quentibus etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

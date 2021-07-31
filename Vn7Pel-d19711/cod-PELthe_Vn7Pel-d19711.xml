@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicere vel dictio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dicere vel dictio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="66"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d19711">
+            <head xml:id="Vn7Pel-d19711-Hd1e107">Dicere vel dictio</head>
+            <div xml:id="Vn7Pel-d19711-Dd1e110">
+               <head xml:id="Vn7Pel-d19711-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d19711-d1e115">
+                  <lb ed="#A" n="97"/>DIcere del dictio 
+        <lb ed="#A" n="98"/>Adico dicis solet capi tripliciter secundum 
+        <lb ed="#A" n="99"/> Guill. super i. dist. xxxi. Uno modo 
+        <lb ed="#A" n="100"/>pro operatione vitali intellectus siue 
+        <lb ed="#A" n="101"/>actiua siue passiua. Actiua qua verbum produ 
+        <lb ed="#A" n="102"/>cit actiue intelligens. Passiua qua verbum exit 
+        <lb ed="#A" n="103"/>productum. Unde isto modo capiendo solius in 
+        <lb ed="#A" n="104"/>tellectus est dicere actiue. Et solius verbi est 
+        di<lb ed="#A" n="105" break="no"/>ci passiue. De quo in Psalmus Ipse dixit et facta sunt 
+        <lb ed="#A" n="106"/>Ubi Augustinus exponit id est verbum sibi 
+        coequa<lb ed="#A" n="107" break="no"/>le genuit in quo cuncta disposuit. De hoc dicere 
+        <lb ed="#A" n="108"/>vide plura vbi de Uerbo. Secundo modo 
+        di<lb ed="#A" n="109" break="no"/>ctio capitur pro quocumque verbo exterius 
+        prola<lb ed="#A" n="110" break="no"/>to siue sit complexum siue incomplexum. Et sic 
+        so<lb ed="#A" n="111" break="no"/>let sepius capi in Biblia etc. vbi legitur Hec dicit dominus 
+        <!--66.xml-->
+        <pb ed="#A" n="67"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Tertio modo capitur vt opponitur contra complexum 
+        <lb ed="#A" n="2"/>vt sit dictio que non habet sensum veritatis aut 
+        <lb ed="#A" n="3"/>falsitatis formaliter sed solum virtualiter. Sicut 
+        <lb ed="#A" n="4"/>est illud i. Peri her. vbi Aristo. orationem diffinit 
+        <lb ed="#A" n="5"/>Oratio est vox significatiua cuius partium aliquod 
+        <lb ed="#A" n="6"/>significatiuum est vt dictio non vt affirmatio. 
+        Exem<lb ed="#A" n="7" break="no"/>plum de quocumque termino propositionis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d19711-Dd1e173">
+               <head xml:id="Vn7Pel-d19711-Hd1e175">2</head>
+               <p xml:id="Vn7Pel-d19711-d1e178">
+                  <lb ed="#A" n="8"/>¶ Nota autem quod in animalibus 
+        <lb ed="#A" n="9"/>ista tria se habent per ordinem scilicet Uox et dictio et in 
+        <lb ed="#A" n="10"/>terpretatio. Ut trahi potest ex commento Boecii. lib. 
+        <lb ed="#A" n="11"/>Peri herm. Nam vox est sonus ab ore 
+        anima<lb ed="#A" n="12" break="no"/>lis prolatus. Sed dictio addit super hoc quandam 
+        <lb ed="#A" n="13"/>articulationem. Unde boues licet habeant vocem 
+        <lb ed="#A" n="14"/>non tamen dicuntnec habent dictionem: quia non habent 
+        vo<lb ed="#A" n="15" break="no"/>cem articulatam. Denique interpraetatio addit super 
+        di<lb ed="#A" n="16" break="no"/>ctionem declarationem. Unde multe sunt dictiones 
+        <lb ed="#A" n="17"/>nibil significantes. sicut busfte bafter. Interpretatio 
+        <lb ed="#A" n="18"/>vero declaratiua est Hec Guill. Scotist. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d19711-Dd1e205">
+               <head xml:id="Vn7Pel-d19711-Hd1e207">3</head>
+               <p xml:id="Vn7Pel-d19711-d1e210">
+                  <lb ed="#A" n="19"/>¶ Utrum ea que dicuntur de deo 
+        <lb ed="#A" n="20"/>ex tempore dicantur per se an per accidens. Ad hanc 
+        que<lb ed="#A" n="21" break="no"/>stionem Magister in i. dist. xxx. dicit sic. Ea que ex 
+        te<lb ed="#A" n="22" break="no"/>pore de deo dicuntur eique temporaliter conueniunt sine sui 
+        <lb ed="#A" n="23"/>mutatione et relatiue dicuntur secundum accidens. non quod 
+        <lb ed="#A" n="24"/>accidit deo: sed quod accidit creaturis vt creato: 
+        <lb ed="#A" n="25"/>dominus datum vel donatum refugium et huiusmodi. Unde  
+        <lb ed="#A" n="26"/>Augustinus v. de trinitate dicit. Terte vt dominus hominis 
+        es<lb ed="#A" n="27" break="no"/>et ex tempore accidit deo. Sed in oppositum idem 
+        <lb ed="#A" n="28"/>Augustinus v. de trinita. dicit. Quod nil secundum accidens dicitur 
+        <lb ed="#A" n="29"/>de deo. Respondetur ergo secundu Rich. e. di. xxx. primi. q. ii siml 
+        <lb ed="#A" n="30"/>Bonauen. Quod aliqua dici per accidens de deo potest 
+        <lb ed="#A" n="31"/>intelligi pluribus modis.
+      </p>
+               <p xml:id="Vn7Pel-d19711-d1e241">
+        ¶ Uno modo tanquam 
+        acci<lb ed="#A" n="32" break="no"/>dentia deo inherentia. Et sic nullo modo potest dici de 
+        <lb ed="#A" n="33"/>deo aliquid per accidens. Neque ab eterno neque ex tem 
+        <lb ed="#A" n="34"/>pore. Sic enim accidens dicitur contra substantiam. sed 
+        <lb ed="#A" n="35"/>quicquid est in deo est substantia diuina. et nullum 
+        <lb ed="#A" n="36"/>accidens potest cadere in deum. vii. Metaph. ergo dicit 
+        <lb ed="#A" n="37"/>Aug. supra. quod nibil secundum accidens dicitur de deo. alias 
+        <lb ed="#A" n="38"/>mutaretur. Secundo modo aliqua dicuntur de deo sicut 
+        <lb ed="#A" n="39"/>accidentia non in deo sed in creatura existentia licet 
+        <lb ed="#A" n="40"/>referendo ad deum. vt dominus creator etc. sicut Magister 
+        <lb ed="#A" n="41"/>dicit supr
+      </p>
+               <p xml:id="Vn7Pel-d19711-d1e265">
+        ¶ Tertio modo dicuntur aliqua de deo 
+        ta<lb ed="#A" n="42" break="no"/>quam Contingentia. Et sic per accidens capiedo per oppo 
+        <lb ed="#A" n="43"/>situm ad necessarium prout illud dicitur accidere quod non 
+        <lb ed="#A" n="44"/>necessario inest: sicut mundum esse a deo factum et 
+        <lb ed="#A" n="45"/>uiusmodi. Et sic plura dicuntur de deo secundum accidens vel 
+        <lb ed="#A" n="46"/>per accidens. Deus enim quicquid facit. voluntarie facit 
+        <lb ed="#A" n="47"/>et non de necessitate ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d19711-d1e281">
+        ¶ Quarto modo aliqua di 
+        <lb ed="#A" n="48"/>cuntur deo per accidens tanquam per aliud extrinsecum 
+        <lb ed="#A" n="49"/>in natura vel essentia. Et sic per accidens dicitur per op 
+        <lb ed="#A" n="50"/>positum ad per se. sicut cum dicitur. quod paries disgregatis 
+        <lb ed="#A" n="51"/>visum. Hoc enim non facit paries per se sed per aliud 
+        <lb ed="#A" n="52"/>in natura scilicet per albedinem. Similiter cum dicitur 
+        ali<lb ed="#A" n="53" break="no"/>quid de superiori per inferius tunc dicitur per accidens 
+        <lb ed="#A" n="54"/>puta Animal esse hominem. vel figuram habere tres 
+        <lb ed="#A" n="55"/>angulos quoniam posterius accidit priori. Et sic de deo 
+        <lb ed="#A" n="56"/>dicuntur aliqua per accidens quia non per se sed per aliud 
+        <lb ed="#A" n="57"/>scilicet in assumpta natura. puta ratione humani¬ 
+        <!--66.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 67 -->
+                  <lb ed="#A" n="58"/>tatis. dicendo. Deus est passus mortuus et huiusmodi 
+        <lb ed="#A" n="59"/>Sed de deo in se vel in propria natura nil potest dici 
+        <lb ed="#A" n="60"/>per accidens secundum rem cum in deo realiter non sit aliquid 
+        <lb ed="#A" n="61"/>rius et posterius. Sed tantum secundum intelligendi 
+        mo<lb ed="#A" n="62" break="no"/>dum. Cui bene correspondet ordo ex natura rei etc. 
+      </p>
+               <p xml:id="Vn7Pel-d19711-d1e324">
+                  <lb ed="#A" n="63"/>¶ Ad hec plura vide vbi de 
+        Re<lb ed="#A" n="64" break="no"/>latioe scilicet Creature ad deum et econuerso. §. xiii. et se. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d19711-Dd1e332">
+               <head xml:id="Vn7Pel-d19711-Hd1e334">4</head>
+               <p xml:id="Vn7Pel-d19711-d1e337">
+                  <lb ed="#A" n="65"/>DIcere in deo 
+        tri<lb ed="#A" n="66" break="no"/>pliciter accipitur secundum Scotorelis. Et 
+        <lb ed="#A" n="67"/>Guill. dist. xxxii. primi lib. Uno 
+        mo<lb ed="#A" n="68" break="no"/>do Essentialiter. Et sic idem est quod intelligere. Unde 
+        <lb ed="#A" n="69"/>Ansel. Monol. lxiii. c. Dicere nil aliud est summo 
+        <lb ed="#A" n="70"/>spiritui nisi cogitando intueri. Et sic tam pater quam 
+        <lb ed="#A" n="71"/>filius et spiritus sanctus dicunt verbum id est intelligunt. 
+        <lb ed="#A" n="72"/>Secundo modo pure notionaliter. Et sic idem est 
+        <lb ed="#A" n="73"/>quod generare quod soli patri conuenit. Tertio modo 
+        <lb ed="#A" n="74"/>partim essentialiter et partim notionaliter. Et sic idem 
+        <lb ed="#A" n="75"/>est quod exprimere vel representare et declarare 
+        ver<lb ed="#A" n="76" break="no"/>bi gignitionem. Quia dicere: respectum origis includit 
+        <lb ed="#A" n="77"/>qui est actus notionalis. Includit etiam respectum decla 
+        <lb ed="#A" n="78"/>ratiui qui est essentialis. vide vbi de Uerbo. §. xxiiii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

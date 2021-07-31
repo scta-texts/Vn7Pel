@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Se</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Se</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d84133">
+            <head xml:id="Vn7Pel-d84133-Hd1e107">Se</head>
+            <div xml:id="Vn7Pel-d84133-Dd1e110">
+               <head xml:id="Vn7Pel-d84133-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d84133-d1e115">
+                  <lb ed="#A" n="26"/>SE. est pronomen 
+        <lb ed="#A" n="27"/>Et vt notat Guil. in i. di. xxxii. cum Pe 
+        <lb ed="#A" n="28"/>tro Helie. super principium constructionis. et Guil. 
+        Het<lb ed="#A" n="29" break="no"/>temb. in suis Sophismatibus. aliquando est pronomen recipro 
+        <lb ed="#A" n="30"/>cum. aliquando retransitiuum. Unde solet capi tripliciter. Uno 
+        <lb ed="#A" n="31"/>modo pure retransitiue. sicut in illo sophismate. Isti pu 
+        <lb ed="#A" n="32"/>gnant vt vicant se. non esim significat quod pugnans vincat 
+        <lb ed="#A" n="33"/>seipsum: sed compugnantem. Secundo capitur pure reciproce. 
+        <lb ed="#A" n="34"/>Sicut in Alex. de vil. dici. in principio constructionum. Uos 
+        <lb ed="#A" n="35"/>diligitis vos. Similiter petrus diligit se. Tertio capitur re 
+        <lb ed="#A" n="36"/>ciproce et retransitiue similis vt cum dicitur. In divinis: pater et fi 
+        <lb ed="#A" n="37"/>lius diligunt se spiritu snco. quia pater diligit se spiritu sancto. et fili 
+        <lb ed="#A" n="38"/>diligit se spiritu sanco. et pater ac filius se mutuo diligunt 
+        <lb ed="#A" n="39"/>spiritu sco. vt patuit vbi Diligere. §. ix. 
+        <lb ed="#A" n="40"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

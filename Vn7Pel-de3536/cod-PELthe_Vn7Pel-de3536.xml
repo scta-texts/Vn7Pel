@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abstractum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Abstractum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="14"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de3536">
+            <head xml:id="Vn7Pel-de3536-Hd1e107">Abstractum</head>
+            <div xml:id="Vn7Pel-de3536-Dd1e110">
+               <head xml:id="Vn7Pel-de3536-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de3536-d1e115">
+                  <lb ed="#A" n="70"/>ABstractuet con 
+        <lb ed="#A" n="71"/>cretum differunt vt clarum est secundum logicos 
+        <lb ed="#A" n="72"/>quia abstractum dicit solam formam in se. sicut 
+        <lb ed="#A" n="73"/>Castitas: veritas: albedo etc. Sed concretum dicit duo 
+        <lb ed="#A" n="74"/>(scilicet formam cum substrato vels subiecto similis sicut castum 
+        <lb ed="#A" n="75"/>verum album etc. Unde Aug. li. i. Solilo dicit. aliud est ca 
+        <lb ed="#A" n="76"/>stitas. aliud castum. aliud veritas. aliud verum. Non 
+        <lb ed="#A" n="77"/>enim casto castitas. sed castitate fit castum Et cum 
+        ca<lb ed="#A" n="78" break="no"/>stus quis moritur non moritur castitas. Hec Augu. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3536-Dd1e138">
+               <head xml:id="Vn7Pel-de3536-Hd1e140">2</head>
+               <p xml:id="Vn7Pel-de3536-d1e143">
+                  <lb ed="#A" n="79"/>¶ Quot ste genera abstractionum 
+        <lb ed="#A" n="80"/>Respondetur secundum doc. subti. Et post eum Pe. de aqui. ac 
+        <lb ed="#A" n="81"/>Guil. Scotis. super primo di. v. Quod tria sunt genera 
+        <lb ed="#A" n="82"/>abstractionum. Quia prima in substantia. Secunda in 
+        acci<lb ed="#A" n="83" break="no"/>dentibus absolutis. Tertia abstractio in 
+        accuden<lb ed="#A" n="84" break="no"/>tibus relatiuis. Nimirum in substantia est vnica 
+        abstra<lb ed="#A" n="85" break="no"/>ctio tantum scilicet quoditatis a supposito singulari Sicut 
+        <lb ed="#A" n="86"/>ab homine abstrahitur humanitas. ab equo equinitas 
+        <lb ed="#A" n="87"/>vt dicit Auicen. etc. Item in accidentibus absolutis sunt 
+        <lb ed="#A" n="88"/>due abstractiones vna accidentis a subiecto sicut a 
+        <lb ed="#A" n="89"/>bedinis ab albo. Alia autem quiditatis a 
+        supposi<lb ed="#A" n="90" break="no"/>to vel proprio singulari suo. puta quiditas albedinis 
+        <lb ed="#A" n="91"/>abstrahitur ab ista albedine Nam album est concretum 
+        <lb ed="#A" n="92"/>a quo primo abstrahitur scilicet a sbiecto et dicitur albedo. Et 
+        <lb ed="#A" n="93"/>dehinc abstrabitur a singulari suo supposito et dicitur 
+        <lb ed="#A" n="94"/>quiditas albedinis. Sed in accidentibus relatis 
+        <lb ed="#A" n="95"/>vel respectiuis est triplex abstractio quia in talibus 
+        <lb ed="#A" n="96"/>fieri possunt tres abstractiones. Una relationis et etiam 
+        <lb ed="#A" n="97"/>fundamenti a subiecto. Puta si abstrahatur 
+        intel<lb ed="#A" n="98" break="no"/>lectu paternitas et pater ab homine. Secunda est relationis 
+        <lb ed="#A" n="99"/>a fundamento. puta cum abstrahitur paternitas a pa 
+        <lb ed="#A" n="100"/>tre. Tertia est quiditatis a supposito vel a singu 
+        <lb ed="#A" n="101"/>lari suo proprio scilicet paternitatis a paternitate ista Ad  
+        <lb ed="#A" n="102"/>idem Guil. supra ponit tale Exem scilicet Cum dicitur ignis 
+        <lb ed="#A" n="103"/>calefacit Calefacere primo abstrahit a subiecto 
+        <lb ed="#A" n="104"/>et dicitur calor. Secundo abstrahit a suo singulari 
+        sup<lb ed="#A" n="105" break="no"/>posito et dicitur potentia calefaciendi scilicet vniuersaliter. Ter 
+        <lb ed="#A" n="106"/>tio a suo fundamto et dicitur caliditas. Ad hec vbi 
+        <lb ed="#A" n="107"/>Relatio. §. ii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3536-Dd1e209">
+               <head xml:id="Vn7Pel-de3536-Hd1e211">31</head>
+               <p xml:id="Vn7Pel-de3536-d1e214">
+                  <lb ed="#A" n="108"/>¶ Abstractio vltima que vel 
+        qua<lb ed="#A" n="109" break="no"/>lis dicitur. Respondetur secundum supradictos ibidem quod 
+        vlti<lb ed="#A" n="110" break="no"/>mata abstractio est In qua nihil aliud concipitur 
+        <lb ed="#A" n="111"/>de re nisi quod est ipsius quiditatis. hoc est quando ali¬ 
+        <!--14.xml-->
+        <pb ed="#A" n="15"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>aliquid in sua solam ratione formali funditus 
+        cogi<lb ed="#A" n="2" break="no"/>tatur. Sicut Auicem. v. meta. dicit. Equinitas est 
+        <lb ed="#A" n="3"/>tatum equinitas etc. Unde isti qui rationes 
+        quiditati<lb ed="#A" n="4" break="no"/>uas pure nudas sic possunt contemplari secundum Au 
+        <lb ed="#A" n="5"/>gustinum. ix. de trinitate. c. vii. assimilantur 
+        homini<lb ed="#A" n="6" break="no"/>bus in montibus eleuatis purum aerem 
+        inspicien<lb ed="#A" n="7" break="no"/>tibus. Qui vero non possunt propter ruditatem inge 
+        <lb ed="#A" n="8"/>nii assimilantur stantibus in valle cum aere calignioso etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3536-Dd1e250">
+               <head xml:id="Vn7Pel-de3536-Hd1e252">4</head>
+               <p xml:id="Vn7Pel-de3536-d1e255">
+                  <lb ed="#A" n="9"/>¶ Circa hec vt applicemus ad 
+        <lb ed="#A" n="10"/>ppositum in theologica materia. Questio est vel 
+        <lb ed="#A" n="11"/>occurrit. Quomodo dicitur abstracta vltimate ipsa 
+        diui<lb ed="#A" n="12" break="no"/>na essentia. Respondetur secundum Scotist. ex praedictis quod 
+        di<lb ed="#A" n="13" break="no"/>uina essentia dicitur vltimate abstracta quando consideratur 
+        <lb ed="#A" n="14"/>in tanta puritate quod ad nil posterius respicit nec 
+        <lb ed="#A" n="15"/>gratiare nec generari nec procedere. sed mere cogitatur 
+        <lb ed="#A" n="16"/>prout est deitas in se. Tunc enim nihil praedicatur de 
+        <lb ed="#A" n="17"/>eo vt sic nisi diuinitas. Unde e. dist. v. primi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3536-Dd1e279">
+               <head xml:id="Vn7Pel-de3536-Hd1e281">5</head>
+               <p xml:id="Vn7Pel-de3536-d1e284">
+                  <lb ed="#A" n="18"/>¶ Pro regula ponit Scotus di 
+        <lb ed="#A" n="19"/>cens quod quancumque est aliquid abstractum vltimata 
+        <lb ed="#A" n="20"/>abstractione: Nihil de eo penitus predicatur nisi 
+        <lb ed="#A" n="21"/>sit praedicatio in primo modo dicendi per se: Aut per 
+        <lb ed="#A" n="22"/>identitatem. Ita quod nulla sit distinctio inter 
+        subie<lb ed="#A" n="23" break="no"/>ctum et predicatum talis propositionis. Nec aliquid 
+        <lb ed="#A" n="24"/>denominatiue potest vere predicari de tali. Et hanc 
+        <lb ed="#A" n="25"/>regulam nota bene quia placebit ad sequentia 
+        in<lb ed="#A" n="26" break="no"/>telligenda clarius.
+      </p>
+               <p xml:id="Vn7Pel-de3536-d1e306">
+        ¶ Hec autem regula vt dicit Guill. 
+        <lb ed="#A" n="27"/>supra: Intelligi debet in primis non in secundis inten 
+        <lb ed="#A" n="28"/>tionibus quia ea quae notant secundas intentiones bene 
+        praedi<lb ed="#A" n="29" break="no"/>cantur de vltimate abstractis dicendo. Deitas est 
+        in<lb ed="#A" n="30" break="no"/>tellecta. considerata. vel abstracta. Et humanitas est 
+        <lb ed="#A" n="31"/>intellecta etc. Et tamen talis predicatio non est in primo 
+        <lb ed="#A" n="32"/>modo dicendi per se nec per identitatem sed denominatiue 
+        <lb ed="#A" n="33"/>quia lyintellecta: abstracta: et huiusmodi notant in proposito 
+        <lb ed="#A" n="34"/>secundas intentiones. non primas.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3536-Dd1e327">
+               <head xml:id="Vn7Pel-de3536-Hd1e329">6</head>
+               <p xml:id="Vn7Pel-de3536-d1e332">
+                  <lb ed="#A" n="35"/> Sed difficultas est quia de ipsa 
+        <lb ed="#A" n="36"/>diuina essentia sic abstracta vere predicatur quod est 
+        <lb ed="#A" n="37"/>res summa. bona. infinita. eterna. et huiusmodi extra de 
+        sum<lb ed="#A" n="38" break="no"/>trini. et fi. catho. c. Damnamus. Respondet Fran. 
+        ma<lb ed="#A" n="39" break="no"/>quod essentia diuina vltimate abstracta non abstrahit  
+        <lb ed="#A" n="40"/>ab istis quae non differunt ab ea formaliter. cuiusmodi 
+        <lb ed="#A" n="41"/>sunt inquit respectus fundamentales sicut summitas 
+        <lb ed="#A" n="42"/>realitas: bonitas: veritas. et etiam negationes quae 
+        ne<lb ed="#A" n="43" break="no"/>gant diuisionem vt vnitas. identitas. idiuisibilitas 
+        <lb ed="#A" n="44"/>etc. Ac etiam modi intrinseci sicut est infinitas: 
+        neces<lb ed="#A" n="45" break="no"/>sitas. eternitas. et huiusmodi. Unde talia bene praedicantur de 
+        <lb ed="#A" n="46"/>essentia Sed iste modus respondendi salua reueren 
+        <lb ed="#A" n="47"/>tia tanti doc. non valet vt dicit Guill. Tum quia omnia 
+        <lb ed="#A" n="48"/>ista quadam nature signo ste posteriora quam ipsa 
+        diui<lb ed="#A" n="49" break="no"/>na si sit vltimate abstracta. ergo etiam ab istis abi 
+        <lb ed="#A" n="50"/>trahit. Tum quia bonitas et veritas sunt passiones 
+        <lb ed="#A" n="51"/>vel quasi passiones diuine essentie. ergo 
+        forma<lb ed="#A" n="52" break="no"/>liter differunt a suo subiecto vt dicit etiam Fran 
+        <lb ed="#A" n="53"/>dist. ii primi. q. ii conclusione. ii Aliter ergo dicen 
+        <lb ed="#A" n="54"/>dum est quod scilicet omnia ista predicantur de essentia 
+        <lb ed="#A" n="55"/>diuina per identitatem et hoc sufficit ad saluandum 
+        <lb ed="#A" n="56"/>regulam dictam quia ponit exceptionem dicens nisi sit 
+        prae<lb ed="#A" n="57" break="no"/>dicatio in primo per se. Aut nisi sit per identitate 
+        <!--14.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 15 -->
+                  <lb ed="#A" n="58"/>predicatio. Hec Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de3536-Dd1e394">
+               <head xml:id="Vn7Pel-de3536-Hd1e396">7</head>
+               <p xml:id="Vn7Pel-de3536-d1e399">
+                  <lb ed="#A" n="59"/>¶ Item difficultas alia Quare 
+        <lb ed="#A" n="60"/>de essentia diuina abstracta non potest predicari 
+        ge<lb ed="#A" n="61" break="no"/>nerare vel generari praedicatione identica cum omnia que 
+        <lb ed="#A" n="62"/>stet in deo sint idem Respondet idem Guil. quod non est simile 
+        <lb ed="#A" n="63"/>de istis et illis. Nam generare et generari sfercant 
+        per<lb ed="#A" n="64" break="no"/>modum actionis vel motus et fluxus ideo solum deno 
+        <lb ed="#A" n="65"/>minatiue dicuntur. nec per consequens conueniunt in praedicationis 
+        <lb ed="#A" n="66"/>identitatem. Sed illa predicta significant per 
+        mo<lb ed="#A" n="67" break="no"/>dum habitus et quietis ideo conueniunt in predicationis 
+        <lb ed="#A" n="68"/>identitatem. Nec valet inferre Omnia in deo sunt idem. 
+        <lb ed="#A" n="69"/>rgo omnia de se inuicem praedicantur quia homo et humanitas 
+        <lb ed="#A" n="70"/>sunt idem in re. et tamen hec est falsa: homo est 
+        humani<lb ed="#A" n="71" break="no"/>tas propter diuersum modum significandi. Item 
+        Sco<lb ed="#A" n="72" break="no"/>torlis. e. di. v. dat rationem aliam. quia essentia est ad se et quid  
+        <lb ed="#A" n="73"/>absolutum sed generare vel generari est relatio. Quod 
+        <lb ed="#A" n="74"/>autem est ad se non est idem in primo modo per se cum relatione. 
+        <lb ed="#A" n="75"/>ergo generare vel generari non possunt praedicari de 
+        es<lb ed="#A" n="76" break="no"/>sentia per identitatem Nam essentia nec generat nec 
+        <lb ed="#A" n="77"/>generatur. Unde claret quod praedicta regula est velr vera
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

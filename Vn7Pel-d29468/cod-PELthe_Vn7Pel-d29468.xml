@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Finitum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Finitum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d29468">
+            <head xml:id="Vn7Pel-d29468-Hd1e107">Finitum</head>
+            <div xml:id="Vn7Pel-d29468-Dd1e110">
+               <head xml:id="Vn7Pel-d29468-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d29468-d1e115">
+                  <lb ed="#A" n="29"/>Finitum dicitur a 
+        <lb ed="#A" n="30"/>fine eo quod habet finem. Nota ergo secundum Guil. 
+        <lb ed="#A" n="31"/>l in i. di. xliii. quod finitum triplicitur dicit. secundum quod 
+        <lb ed="#A" n="32"/>et finis dicitur trppliciter. Uno modo finis rei dicitur eius 
+        <lb ed="#A" n="33"/>terminus iuxta philosophum. v. Meta. c. de termino. 
+        si<lb ed="#A" n="34" break="no"/>cut cum dicimus hic terminatur motus seu finitur. 
+        <lb ed="#A" n="35"/>Et hoc modo dicitur finitum esse quod certis clauditur 
+        <lb ed="#A" n="36"/>limitibus. aut loco aut duratione. aut suo esse 
+        limi<lb ed="#A" n="37" break="no"/>tato vt est in omnibus creaturis. aut quantitate et sic de 
+        <lb ed="#A" n="38"/>aliis praedicamtis. Secundo modo dicitur finis idem quod 
+        <lb ed="#A" n="39"/>perfectio. hoc modo dicimus materiam primam 
+        infini<lb ed="#A" n="40" break="no"/>tam quia extat imperfecta et in potentia ad formas 
+        <lb ed="#A" n="41"/>quasi infinitas isto modo. Quanto aliquid est 
+        im<lb ed="#A" n="42" break="no"/>perfectius tanto est minus finitum id est completum. et 
+        <lb ed="#A" n="43"/>quanto aliquid est perfectius tanto est magis finitum id est 
+        <lb ed="#A" n="44"/>completum. Exempli gratia. sicut in generatione hominis vel 
+        <lb ed="#A" n="45"/>animalis quanto magis completur introductio forme de 
+        <lb ed="#A" n="46"/>bite finitur. Tertio modo dicitur finis vt est illud cuius 
+        <lb ed="#A" n="47"/>giatracetera fiunt ex. ii. Phy. et. v. Meta. Et hoc mo 
+        <lb ed="#A" n="48"/>do solus deus est infinitus quia ad nullum alium finem ordi 
+        <lb ed="#A" n="49"/>natur nec potest ordinari nisi ad seipsum cum sit summum 
+        <lb ed="#A" n="50"/>bonum. cetera autem omnia dicuntur finita quia ad ipsum 
+        or<lb ed="#A" n="51" break="no"/>dinantur et ordinata sunt Prouer. xvi. vniuersa 
+        pro<lb ed="#A" n="52" break="no"/>pter semetipsum operatus est altissimus Hec ex Guil. 
+        <lb ed="#A" n="53"/>Item ad idem. vide vbi Infinitum. §. iiii. et aliis. Nam 
+        <lb ed="#A" n="54"/>oppositorum eadem est disciplina secundum philosophum i. Priorum. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d29468-d1e174">
+                  <lb ed="#A" n="55"/>¶ Item An materia finitatur per 
+        <!--96.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 97 -->
+                  <lb ed="#A" n="56"/>formam lib. ii vide vbi Materia. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

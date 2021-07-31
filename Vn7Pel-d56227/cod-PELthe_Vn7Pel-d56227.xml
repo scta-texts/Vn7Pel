@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ordo</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Ordo</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="180"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d56227">
+            <head xml:id="Vn7Pel-d56227-Hd1e107">Ordo</head>
+            <div xml:id="Vn7Pel-d56227-Dd1e110">
+               <head xml:id="Vn7Pel-d56227-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d56227-d1e115">
+                  <lb ed="#A" n="108"/>Ordo quid sit: 
+        no<lb ed="#A" n="109" break="no"/>ta secundum Guil. di. xx. primi et di. xliiii. eiusdem libro vt 
+        <lb ed="#A" n="110"/>diffinit <ref xml:id="Vn7Pel-d56227-Rd1e123">Aug. xix. de ciui. dei.</ref> Ordo est parium 
+        dispa<lb ed="#A" n="111" break="no"/>riumque rerum. sua cuique loca tribuens dispositon. Si et 
+        <lb ed="#A" n="112"/>iquit Aug. omnia essent equalia iam non essent ordinata Ideus 
+        <!--180.xml-->
+        <pb ed="#A" n="181"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>dicit parium: dispariumquam. Nam si omnia Sol: vbi esset luna 
+        <lb ed="#A" n="2"/>etsi omnia homo vbi leo et sic de aliis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d56227-Dd1e143">
+               <head xml:id="Vn7Pel-d56227-Hd1e145">2</head>
+               <p xml:id="Vn7Pel-d56227-d1e148">
+                  <lb ed="#A" n="3"/>¶ Quottuplex distinguitur ordo est 
+        <lb ed="#A" n="4"/>Nota secundum . Guil ibiud ac Bo. in i. d. xx. q. i. ar. ii 
+        <lb ed="#A" n="5"/>Ordo distinguitur triplex. Primus ordo est secundum 
+        <lb ed="#A" n="6"/>situm vel positionem. Qui attenditur inter illa quorum 
+        <lb ed="#A" n="7"/>vnum est superius et aliud inferius. vel loco sicut so 
+        <lb ed="#A" n="8"/>por est quam mercurius eo quod est superior. Uel digni 
+        <lb ed="#A" n="9"/>tate. si cut homo est prieor. quia perfectior leone etc. Secundus 
+        <lb ed="#A" n="10"/>ordo est secundum ancessionem. Et hoc vel temporis sicut an 
+        <lb ed="#A" n="11"/>tiquum est prius nouo. vel rationis quando aliquid 
+        natura<lb ed="#A" n="12" break="no"/>li intelligentia praecedit aliud. Exempli gratia. Sicut esse 
+        <lb ed="#A" n="13"/>praecedit agere et cognoscere. vel nature sicut causa 
+        prae<lb ed="#A" n="14" break="no"/>cedit causatum naturali esse et intelligentia vel ratione 
+        <lb ed="#A" n="15"/>Tertius ordo est secundum naturam. alias. secundum originem 
+        <lb ed="#A" n="16"/>sicut praecedit producens productum. et pater filiii. et dicitur 
+        <lb ed="#A" n="17"/>ordo origis. Et dicitur simpliciter ordo nature.
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e183">
+        ¶ Not 
+        <lb ed="#A" n="18"/>etiam secundum e. Guil. supra. di. xliiii. quod loquendo large ordo 
+        <lb ed="#A" n="19"/>nature iudicatur multiplex. Primus secundum originem 
+        <lb ed="#A" n="20"/>sicut in diuinis proter praecedit filium. Secundus secundum perfecti 
+        <lb ed="#A" n="21"/>onem sicut homo praecedit asinum. Tertius secundum nature su 
+        <lb ed="#A" n="22"/>perioritatem. sicut animal praecedit hominem. quia ab eo 
+        <lb ed="#A" n="23"/>non conuertitur vicem subsistendi consequentia. Hec ex 
+        <lb ed="#A" n="24"/>Guil. qui de aliis modis partransit etc
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e201">
+        ¶ Et nota pro re 
+        <lb ed="#A" n="25"/>gula quod communiora sunt priora secundum naturam iuxta 
+        <lb ed="#A" n="26"/>Aristo. in postpredicamentis. vnde homo per prius 
+        habe<lb ed="#A" n="27" break="no"/>esse substantiaque animal. et animal quam homo. De istis et aliis mo 
+        <lb ed="#A" n="28"/>dis praoritatis. vbi Primum vel Prioritas. §. ii. la 
+        <lb ed="#A" n="29"/>tius. Sed contra ista regulam potest fieri iustantia de 
+        <lb ed="#A" n="30"/>spiratione actiua quae est communior quam gignitio. sed non 
+        prae<lb ed="#A" n="31" break="no"/>cedit. vide vbi Spiratio. §. iii. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d56227-Dd1e220">
+               <head xml:id="Vn7Pel-d56227-Hd1e222">3</head>
+               <p xml:id="Vn7Pel-d56227-d1e225">
+                  <lb ed="#A" n="32"/>¶ Utrum in diuinis psonis sit 
+        or<lb ed="#A" n="33" break="no"/>do vel paeoritas naturalis: Respondetur secundum Guil. in 
+        <lb ed="#A" n="34"/>primo di. xx. per conclusionem quod sic.
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e234">
+        ¶ Probatur primo 
+        <lb ed="#A" n="35"/>auctoritate scilicet Aug. contra Maximum. Cum dicitur inquit filius 
+        <lb ed="#A" n="36"/>a patre non signatur inequalitas substantie sed ordo nature. 
+        <lb ed="#A" n="37"/>Hoc autem dictum secundum Bonauem. supra et Rich. e. di. xx. 
+        <lb ed="#A" n="38"/>q. iii. et iiii. Non est intelligendum sic quod in diuinis 
+        <lb ed="#A" n="39"/>sit ordo nature vel essentie ita quod ordinetur natura 
+        <lb ed="#A" n="40"/>vel essentia quasi ibi ordinate nature plures 
+        essen<lb ed="#A" n="41" break="no"/>tum sint idem omnino in natura ipse persone divine. vnde non 
+        <lb ed="#A" n="42"/>est ibi ordo nature ordinate. Sed est ibi in eadem 
+        <lb ed="#A" n="43"/>natura ordo persone. Dicitur tamen ordo nature per 
+        Au<lb ed="#A" n="44" break="no"/>gu. quia est ordo naturalis originis. Natura enim 
+        <lb ed="#A" n="45"/>dicit vim productiuam. quia est vis insita rebus similia 
+        <lb ed="#A" n="46"/>ex similibus producens. vt habetur. ii. Phy. vnde genitiuus  
+        <lb ed="#A" n="47"/>cilicet nature non construitur ibi subiectiue. sicut dicendo al 
+        <lb ed="#A" n="48"/>bedo petri. Sed ex vi declarationis essentie sicut 
+        <lb ed="#A" n="49"/>dicendo albedo claritatis. vt sit sensus. ordo na 
+        <lb ed="#A" n="50"/>ture id est naturalis originis. quia in eadem vel ex eadem 
+        <lb ed="#A" n="51"/>natura ordo iste oritur.
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e273">
+        ¶ Secundo probatur ratione. quia 
+        per<lb ed="#A" n="52" break="no"/>fectiones quae sunt in deo distinguuntur et habent ordinem 
+        <lb ed="#A" n="53"/>ex ratione formali. vtputa pror est intellectus quam vo 
+        <lb ed="#A" n="54"/>luntas praeor. sceia quam dilecton. sicut patet manifeste in 
+        <lb ed="#A" n="55"/>nobis vbi sunt realiter distincta. ergo et in diuins hunc ha 
+        <lb ed="#A" n="56"/>bent ordinem ex ratione formali vbi non distinguuntur ni 
+        <!--180.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 181 -->
+                  <lb ed="#A" n="57"/>si formaliter. Nam generaliter hoc verum est quod quando aliquoa 
+        <lb ed="#A" n="58"/>vbi distinguuntur realiter scilicet in nobis habent ordinem ex 
+        <lb ed="#A" n="59"/>suam ratione formali. Etiam illum ordinem fruant vbi non 
+        <lb ed="#A" n="60"/>sunt distincta realiter. scilicet in diuinis. quia stante ratione 
+        <lb ed="#A" n="61"/>formali stat distinctio et ordo. Hec Guil.
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e304">
+        ¶ Ter 
+        <lb ed="#A" n="62"/>tio onditur declaratione secundum Bona. Rich. et Tho. 
+        <lb ed="#A" n="63"/>quia ecclesia ordinate dicit patrem esse primam personam et fili 
+        <lb ed="#A" n="64"/>um secundam et spiritum sanctum tertiam. Sed primum. ii et iii 
+        di<lb ed="#A" n="65" break="no"/>cunt ordinem. vnde licet in diuinis non sit ordo secundum 
+        po<lb ed="#A" n="66" break="no"/>sitionem nec secundum ancessionem. quia tolleretur simultas 
+        <lb ed="#A" n="67"/>vel equalitas eternitatis. Est tamtum ibi ordo secundum originem 
+        <lb ed="#A" n="68"/>et emanationem qua est inter producentem et productum. Qua 
+        <lb ed="#A" n="69"/>propter sicut in diuins non est numerus proprie nisi cum deter 
+        <lb ed="#A" n="70"/>minatione scilicet numerus personarum. sic non debet dici quod 
+        <lb ed="#A" n="71"/>ibi sit ordo simpliciter nisi cum determinatione scilicet ordo 
+        <lb ed="#A" n="72"/>origis qua vnus est ab alio. Hec ex praedictis doc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d56227-Dd1e331">
+               <head xml:id="Vn7Pel-d56227-Hd1e333">4</head>
+               <p xml:id="Vn7Pel-d56227-d1e336">
+                  <lb ed="#A" n="73"/>¶ Sed an in diuinis cum ordie sit 
+        <lb ed="#A" n="74"/>etiam prioritas nature. De hoc est vna opinio scilicet 
+        Tho<lb ed="#A" n="75" break="no"/>in scrip. primi di. xx. q. iii. quod inter diuinas personas est 
+        <lb ed="#A" n="76"/>ordo. et non prius vel praioritas nature. sed rationis vel 
+        <lb ed="#A" n="77"/>intellectus tantum. Et dicit quod inter patrem et filium est ordo 
+        <lb ed="#A" n="78"/>origis. non tamen pater est prior filio. Sed secundum Guil. e. di. 
+        <lb ed="#A" n="79"/>ac Scotorlis. concor. Non sufficit iste modus dicendi 
+        <lb ed="#A" n="80"/>Quia praeoritas est passio ordis. non est ergo 
+        intelligibi<lb ed="#A" n="81" break="no"/>le quod in aliquo ordine ex parte rei sint aliqua ordinata. Et 
+        <lb ed="#A" n="82"/>tamtum illo modo vnum non praecedat aliud. Preterea secundum 
+        <lb ed="#A" n="83"/>Fran. Mayro. di. xii. primi. q. ii ar. ii arguitur sic. In 
+        <lb ed="#A" n="84"/>diuinis est primum. vt patet etiam per ipsum Tho. supra. et per 
+        <lb ed="#A" n="85"/>vsum loquendi et per sanctos doctores qui nominant 
+        <lb ed="#A" n="86"/>patrem esse primam personam. Sed vbicumque est 
+        super<lb ed="#A" n="87" break="no"/>latiuum ibi est et comparatiuum tamquam posterius in po 
+        <lb ed="#A" n="88"/>ri. Si ergo est prima persona in diuis. sequitur quod est praeor 
+        <lb ed="#A" n="89"/>quam illa persona quae est posterior. et sic patet.
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e375">
+        ¶ Alia ergo est 
+        <lb ed="#A" n="90"/>opinio quae fundatur in dictis doc. subti. secundum Scotor. 
+        <lb ed="#A" n="91"/>in primo di. ix. distinguedo quod prioritas potest accipi 
+        <lb ed="#A" n="92"/>quinque modis. Prima enim est prioritas durationis 
+        <lb ed="#A" n="93"/>Secunda nature. Tertia perfec tionis. Quarta ra 
+        <lb ed="#A" n="94"/>tionis. Quinta originis. In diuinis autem non ca 
+        <lb ed="#A" n="95"/>dunt prima et tertia poritates. quia vt dicit Aug. 
+        <lb ed="#A" n="96"/>lib. de fide ad Petr. de personis Nullus ait horum 
+        <lb ed="#A" n="97"/>praecedit alium eternitate: aut excedit 
+        magnitudi<lb ed="#A" n="98" break="no"/>ne. aut superat potestate. Ponitur autem in patre praoritas rationis 
+        <lb ed="#A" n="99"/>et origis respectu filii. quia agere praesupponit esse. Sed 
+        <lb ed="#A" n="100"/>pater producit filium. ergo aliquius ratione et origine pater praor est filio 
+        <lb ed="#A" n="101"/>Per istam autem praoritatem origis nihil aliud intelligo 
+        <lb ed="#A" n="102"/>nisi a quo alius et ipse a nullo. Sed praeoritatis 
+        natu<lb ed="#A" n="103" break="no"/>re signa bene ponuntur in diuins. patet infra. §. vi. Pre 
+        <lb ed="#A" n="104"/>terea sexta praioritas ponitur secundum Bonauem. licet ad 
+        prae<lb ed="#A" n="105" break="no"/>dictos modos possit reduci scilicet praeoritas auctoritis  
+        <lb ed="#A" n="106"/>vt prius dicatur id est principalius. et hec etiam cadit in deo 
+        <lb ed="#A" n="107"/>rt patet vbi Spiritus sanctus. §. xxvii.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d56227-Dd1e419">
+               <head xml:id="Vn7Pel-d56227-Hd1e421">5</head>
+               <p xml:id="Vn7Pel-d56227-d1e424">
+                  <lb ed="#A" n="108"/>Item An in diuinis sit gradus 
+        <lb ed="#A" n="109"/>sicut est ordo: Respondetur secundum e. Guil. e. di. xx. primi 
+        <lb ed="#A" n="110"/>quod in diuinis est ordo. sed non gradus. Unde  
+        <lb ed="#A" n="111"/>
+                  <name xml:id="Vn7Pel-d56227-Nd1e434">Eusebius</name>. In diuinis est numerus. sed non or 
+        <lb ed="#A" n="112"/>do id est gradus secundum Glosas. Et ratio est. quia 
+        <lb ed="#A" n="113"/>gradus est a magis perfecto ad minus perfectum In 
+        <!--181.xml-->
+        <pb ed="#A" n="182"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>diuinis autem omnia eque perfecta sunt identice. ergo 
+        <lb ed="#A" n="2"/>etc. Unde et gradus dicitur inquantum id quod secundo or 
+        <lb ed="#A" n="3"/>dinatur: imperfectius est primo. quia plus distat 
+        <lb ed="#A" n="4"/>ab illo ad quod ordinatur vt innuit Glo. superillud 
+        <lb ed="#A" n="5"/>Exo. xx. Non ascendes per gradus ad altare Glo. di 
+        <lb ed="#A" n="6"/>cit Per gradus ad altare ascendit qui patrem dicit ma 
+        <lb ed="#A" n="7"/>iorem filio aut spiritu sancto Ideoque licet sint ordo et 
+        <lb ed="#A" n="8"/>notio in diuinis non tamen gradus. vbi omnia vnum 
+        <lb ed="#A" n="9"/>sunt infinita deitate. vnde Hiero. et habetur dist 
+        <lb ed="#A" n="10"/>xxv. libri primi sententiarum dicit. Non est prorsus in 
+        dei<lb ed="#A" n="11" break="no"/>tate gradus. Hec Guil 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d56227-Dd1e474">
+               <head xml:id="Vn7Pel-d56227-Hd1e476">6</head>
+               <p xml:id="Vn7Pel-d56227-d1e479">
+                  <lb ed="#A" n="12"/>¶ Qualis ordo seruari debet in 
+        <lb ed="#A" n="13"/>diuinis pro signo praeoritatis vel posterioritatis: No 
+        <lb ed="#A" n="14"/>ta secundum Guil. di. xii. primi. et di. xx. colligendo quod in di 
+        <lb ed="#A" n="15"/>uinis solet poni triplex signum vicem nature. origi 
+        <lb ed="#A" n="16"/>nis. et perfectionis. et ordo consequenter fundatus in 
+        <lb ed="#A" n="17"/>ter ista signa
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e495">
+        ¶ Primo est in diuinis signum nal 
+        <lb ed="#A" n="18"/>ture et vocatur ordo nature in deo. non quod ibi sint plu 
+        <lb ed="#A" n="19"/>res nature. Sed quod in eadem natura. istud est in per 
+        <lb ed="#A" n="20"/>mo signo illius nature. et istud est in secundo signo 
+        <lb ed="#A" n="21"/>Isto modo praor est intellectus quam voluntas. Et or 
+        <lb ed="#A" n="22"/>do positus inter hoc primum signum et istud secundum vo 
+        <lb ed="#A" n="23"/>catur ordo nature vt patuit etiam. §. iii.
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e511">
+        ¶ Secundum 
+        <lb ed="#A" n="24"/>signum est originis et ordo consequens vocantur ordo 
+        <lb ed="#A" n="25"/>originis qui est inter producentem personam et productam 
+        <lb ed="#A" n="26"/>Nam producens persona dicitur in primo signo 
+        origi<lb ed="#A" n="27" break="no"/>nis esse. quia a se. et producta in secundo signo. quia ab 
+        <lb ed="#A" n="28"/>alio. ita quod esse a se et ab alio sunt signa originis. 
+        <lb ed="#A" n="29"/>et relatio primi ad secundum dicitur ordo origis
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e527">
+        ¶ Eertium 
+        <lb ed="#A" n="30"/>signum: perfectionis: vocatur. Et est dum vnum dicit per 
+        <lb ed="#A" n="31"/>fectionem formaliter. reliquum non. Et reparitur inter 
+        <lb ed="#A" n="32"/>essentialia et notionalia. Nam essentialia omnia 
+        <lb ed="#A" n="33"/>dicunt perfectionem simpliciter. sed notionalia non. 
+        <lb ed="#A" n="34"/>Nam si paternitas diceret perfectionem: aliqua esse 
+        <lb ed="#A" n="35"/>perfectio in patre que non esset in filio. vt patuit su 
+        <lb ed="#A" n="36"/>pra Notio. §. ix. in finali regula. Itaque primum si 
+        <lb ed="#A" n="37"/>gnum dicitur in eo quod dicit perfectionem simpliciter 
+        <lb ed="#A" n="38"/>secundum in eo quod non dicit. In diuinis enim aliqua di 
+        <lb ed="#A" n="39"/>cunt perfectionem et a se et in se sicut deitas. Alia in se 
+        <lb ed="#A" n="40"/>sed non a se sicut attributa. Tertia nec a se nec in 
+        <lb ed="#A" n="41"/>se vel ex se formaliter quamuis bene identice sicut rela 
+        <lb ed="#A" n="42"/>tiones. Unde ordo exinde ortus dicitur ordo perfe 
+        <lb ed="#A" n="43"/>ctionis. In primo enim signo sunt essentialia. in si 
+        <lb ed="#A" n="44"/>cundo attributa. in tertio notionalia. et in quarto 
+        <lb ed="#A" n="45"/>ea que dicunt respectum ad creaturas siue sint es 
+        <lb ed="#A" n="46"/>sentialia sicut scientia. siue notionalia sicut 
+        donum<lb ed="#A" n="47" break="no"/>Et huius ratio est. quia prius est quod est a se quam quod est 
+        <lb ed="#A" n="48"/>ad aliud. Et prius quod solum refertur ad distinctum in 
+        per<lb ed="#A" n="49" break="no"/>sona quam ad distinctum in essentia cuiusmodi sunt 
+        <lb ed="#A" n="50"/>creature. Proinde in diuinis est prius natura. prgo 
+        <lb ed="#A" n="51"/>us origine. et prius perfectione modo exposito. et fun 
+        <lb ed="#A" n="52"/>datur talis praeoritas in his que dicuntur hac praeora: si 
+        <lb ed="#A" n="53"/>cut similitudo in his quae dicuntur similia. Hec omnia ex Guil. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d56227-Dd1e583">
+               <head xml:id="Vn7Pel-d56227-Hd1e585">7</head>
+               <p xml:id="Vn7Pel-d56227-d1e588">
+                  <lb ed="#A" n="54"/>¶ Qualis est ordo in diuinis re 
+        <lb ed="#A" n="55"/>lationibus Respondetur secundum Guil. di. xviii. primi. quod in 
+        di<lb ed="#A" n="56" break="no"/>uinis relationibus ordo est iste. Quod in primo ordie 
+        <!--181.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 182 -->
+                  <lb ed="#A" n="57"/>sunt relationes personas constituentes sicut sunt 
+        ge<lb ed="#A" n="58" break="no"/>neratio actiua et passiua. Spiratio actiua et pass 
+        <lb ed="#A" n="59"/>siua In secundo ordie sunt relationes communes sicut 
+        <lb ed="#A" n="60"/>sunt equalitas similitudo et identitas etc. In tertio 
+        <lb ed="#A" n="61"/>ordine sunt relationes dei ad creaturam sicut donum 
+        <lb ed="#A" n="62"/>et donabilitas. Et nota quod omnes iste relationes in ter 
+        <lb ed="#A" n="63"/>tio ordine sunt relationes rationis sicut donum vel 
+        <lb ed="#A" n="64"/>donabilitas. Ideo ei donum quia alicui creature de 
+        <lb ed="#A" n="65"/>nabile est. dei autem ad creaturam est relatio rationis vl 
+        <lb ed="#A" n="66"/>secundum dici tantum. Sed relationes in primo ordine et 
+        se<lb ed="#A" n="67" break="no"/>cundo dicunt ens reale. et sic sunt relationes reales 
+        <lb ed="#A" n="68"/>vnde <ref xml:id="Vn7Pel-d56227-Rd1e629">Augu. libro. de doctrina christiana</ref> dicite 
+        <lb ed="#A" n="69"/>Sunt enim in diuinis tres res relatiue. Est enim 
+        <lb ed="#A" n="70"/>libi generatio et spiratio realis personarum. 
+        <lb ed="#A" n="71"/>Ordo rerum appropriatur spiritui 
+        san<lb ed="#A" n="72" break="no"/>cto. vide vbi Potentia. §. lxxiiii.  
+      </p>
+               <p xml:id="Vn7Pel-d56227-d1e641">
+                  <lb ed="#A" n="73"/>¶ Item ordinatum vel 
+        ordinabi<lb ed="#A" n="74" break="no"/>le tripliciter dicitur. vide vbi Malum. §. xv.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

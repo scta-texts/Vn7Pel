@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Affirmatio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Affirmatio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-de5613">
+            <head xml:id="Vn7Pel-de5613-Hd1e107">Affirmatio</head>
+            <div xml:id="Vn7Pel-de5613-Dd1e110">
+               <head xml:id="Vn7Pel-de5613-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-de5613-d1e115">
+                  <lb ed="#A" n="30"/>Ffirmatio delatis 
+        <lb ed="#A" n="31"/>firmatiua propositio et negatiua quomod 
+        <lb ed="#A" n="32"/>se habent adinuicem: Nota secundum Guill. 
+        <lb ed="#A" n="33"/>in i. dist. xii. iuxta philosophum. ii Periher. et. iiii. Me 
+        <lb ed="#A" n="34"/>taph. pro Regula generali Quod omnis propositionis 
+        <lb ed="#A" n="35"/>negatiue veritas fundatur semper in affirmatiua 
+        <lb ed="#A" n="36"/>sua. Uerbi gratia. Si quaratur: quare ista 
+        negati<lb ed="#A" n="37" break="no"/>ua est vera: homo non est asinus. Respondendum 
+        <lb ed="#A" n="38"/>est quod ideo: quia homo est homo: et asinus est asinus. 
+        <lb ed="#A" n="39"/>ergo homo non est asinus. Nam ex i. Posterurn. nulla 
+        <lb ed="#A" n="40"/>negatio conuenit alicui enti nisi ratione positionis al 
+        <lb ed="#A" n="41"/>cuius
+      </p>
+               <p xml:id="Vn7Pel-de5613-d1e144">
+        ¶ Proinde de diuins si quaeratur. Quare est quod 
+        <lb ed="#A" n="42"/>essentia diuina existente vnica in patre et filio et sper 
+        <lb ed="#A" n="43"/>ritum sancto: pater non est filius vel spiritus sanctus et econ 
+        <lb ed="#A" n="44"/>uerso: Respondendum est quod ideo hec est vera: 
+        pa<lb ed="#A" n="45" break="no"/>ter non est filius: et filius non est pater. quia pa 
+        <lb ed="#A" n="46"/>ter est pater: et filius est filius. licet essentia sit eadem 
+        <lb ed="#A" n="47"/>numero in qualibet persona diuina. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5613-Dd1e161">
+               <head xml:id="Vn7Pel-de5613-Hd1e163">2</head>
+               <!-- no marginal marking but I think this should be 2 -->
+               <p xml:id="Vn7Pel-de5613-d1e168">
+                  <lb ed="#A" n="48"/>¶ Item affirmare de deo aliquid 
+        <lb ed="#A" n="49"/>quod non certum: an sit peccatum. Uide vbi 
+        Asse<lb ed="#A" n="50" break="no"/>rere. et vbi Opinio. §. i. et sequentibus; 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-de5613-Dd1e178">
+               <head xml:id="Vn7Pel-de5613-Hd1e180">3</head>
+               <!-- no marginal marking but I think this should be 3 -->
+               <p xml:id="Vn7Pel-de5613-d1e185">
+                  <lb ed="#A" n="51"/>¶ Item qualis affirmatio aliquem 
+        <lb ed="#A" n="52"/>reddit fore hereticum. Uide vbi Opinio. §. i. et 
+        <lb ed="#A" n="53"/>presertim. §. v 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

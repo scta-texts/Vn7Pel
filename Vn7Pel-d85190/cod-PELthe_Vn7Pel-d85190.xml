@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Species</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Species</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d85190">
+            <head xml:id="Vn7Pel-d85190-Hd1e107">Species</head>
+            <div xml:id="Vn7Pel-d85190-Dd1e110">
+               <head xml:id="Vn7Pel-d85190-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d85190-d1e115">
+        <!--272.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 273 -->
+                  <lb ed="#A" n="57"/>Species. Nota 
+        <lb ed="#A" n="58"/>
+                  <!-- line coord error -->
+               </p>
+               <p xml:id="Vn7Pel-d85190-d1e130">
+        ¶ de hoc secundum Guil. in i. di. xxxi. quod species ca 
+        <lb ed="#A" n="59"/>itur tripliciter.
+      </p>
+               <p xml:id="Vn7Pel-d85190-d1e135">
+        ¶ Uno modo grammatice. vt est modus nominum 
+        <lb ed="#A" n="60"/>quo diuiduntur scilicet nomina in speciem primitiuam. et in speciem 
+        de<lb ed="#A" n="61" break="no"/>riuatiuam. vt habet Donatus. Unde et in li. Cathol. iii. per. 
+        <lb ed="#A" n="62"/>dicitur. Spes est orici clice dispositio dicictionis: per quam fit p. 
+        <lb ed="#A" n="63"/>mitiui et deriuatiui discretio. Exntun. Mons est no 
+        <lb ed="#A" n="64"/>men primitiuum. In montanus veint deriuatiuum. Similiter. 
+        <lb ed="#A" n="65"/>deus. inde divinus. et a christo: christianus etc.
+      </p>
+               <p xml:id="Vn7Pel-d85190-d1e151">
+        ¶ Secundo modo 
+        <lb ed="#A" n="66"/>pes capitur logice. et sic diffinit Porphi. Spes est 
+        <lb ed="#A" n="67"/>quod praedicatur de pluribus numero differentibus. in eo quod 
+        <lb ed="#A" n="68"/>ud
+      </p>
+               <p xml:id="Vn7Pel-d85190-d1e161">
+        ¶ Tertio modo capitur physice. et sic tripliciter. Uno 
+        <lb ed="#A" n="69"/>modo capitur pro repraesentatione exteriori. sicut dicimus. Spes 
+        <lb ed="#A" n="70"/>pami digna e imperio. Alio modo pro qualibet quod est de esse 
+        <lb ed="#A" n="71"/>quiditatiuo alicuius. et sic Damascit. libro suarum sententiarum 
+        <lb ed="#A" n="72"/>dicit. Quod divina essentia est spes trium personarum. vt hetur apud 
+        <lb ed="#A" n="73"/>Magistrum sententiarum. li. i. di. xxix.
+      </p>
+               <p xml:id="Vn7Pel-d85190-d1e174">
+        ¶ Ultimo capitur species. vt 
+        <lb ed="#A" n="74"/>complectitur vtrumque. et sic capit Hila . libro de synodis. di 
+        <lb ed="#A" n="75"/>Imago est eius ad quem imaginatur species indstrns. Nam 
+        <lb ed="#A" n="76"/>tilius dei est imago patris: repntans patrem. tam in essentiali 
+        <lb ed="#A" n="77"/>bus. quam in spiratione actiua. quae quasi est ambobus aduenti 
+        <lb ed="#A" n="78"/>cia. Unde speciens et pulcritudo: capiuntur pro eodem ab 
+        <lb ed="#A" n="79"/>Hilario. et attribuuntur imagini. hoc est dici filio. quie est ima 
+        <lb ed="#A" n="80"/>go et pulcritudo patris
+      </p>
+               <p xml:id="Vn7Pel-d85190-d1e192">
+        ¶ De his etiam habetur. supra. vbi 
+        <lb ed="#A" n="81"/>Tumen. §. iiii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Modi quibus aliqua</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Modi quibus aliqua</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="161"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d50208">
+            <head xml:id="Vn7Pel-d50208-Hd1e107">Modi quibus aliqua</head>
+            <div xml:id="Vn7Pel-d50208-Dd1e110">
+               <head xml:id="Vn7Pel-d50208-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d50208-d1e115">
+        <!--161.xml-->
+                  <pb ed="#A" n="162"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>MOdi quibus 
+        ali<lb ed="#A" n="2" break="no"/>qua dicuntur esse eadem. vel idem aut 
+        <lb ed="#A" n="3"/>vnum: sunt duo in generali secundum philosophum. v. 
+        <lb ed="#A" n="4"/>Meta. quia aut dicuntur eadem secundum accidens. aut 
+        <lb ed="#A" n="5"/>secundum se. Et quodlibet istorum habet tres modos in 
+        spe<lb ed="#A" n="6" break="no"/>ciali. ergo erunt sex. Nam secundum accidens aliqua dicuntur 
+        <lb ed="#A" n="7"/>eadem. Primo idem subiecto sicut album et musici 
+        <lb ed="#A" n="8"/>dicuntur eadem si insunt socrati Secundo dicuntur eadem 
+        <lb ed="#A" n="9"/>quorum vnum accidit alteri sicut album est idem Sor 
+        <lb ed="#A" n="10"/>ti si sibi insit. Tertio econuerso. quando illud cui acci 
+        <lb ed="#A" n="11"/>dit alterum dicitur idem accidenti. sicut sortes est idem 
+        <lb ed="#A" n="12"/>albo sorti etc.
+      </p>
+               <p xml:id="Vn7Pel-d50208-d1e150">
+        ¶ Item secundum se aliqua dicuntur eadem.  
+        <lb ed="#A" n="13"/>Primo eadem numero. Secundo eadem specie. Ter 
+        <lb ed="#A" n="14"/>tio eadem genere. Et licet possint poni plures mo 
+        <lb ed="#A" n="15"/>di idem sicut et vnius tamen reducuntur ad istos. Hec 
+        <lb ed="#A" n="16"/>v. Metaphysice. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

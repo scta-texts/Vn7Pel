@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ingenitum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Ingenitum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="127"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d39118">
+            <head xml:id="Vn7Pel-d39118-Hd1e107">Ingenitum</head>
+            <div xml:id="Vn7Pel-d39118-Dd1e110">
+               <head xml:id="Vn7Pel-d39118-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d39118-d1e115">
+                  <lb ed="#A" n="83"/>INgenitum et 
+        ina<lb ed="#A" n="84" break="no"/>scibilitas qualiter dicuntur. Nota secundum 
+        <lb ed="#A" n="85"/>Guill. super primo dist. xxviii. concor. 
+        <lb ed="#A" n="86"/>Scotorelis ibidem. q. i. Quod ingenitum et inascibile di 
+        <lb ed="#A" n="87"/>cuntur multipliciter. Ratio est quia quotienscumque 
+        ali<lb ed="#A" n="88" break="no"/>qua dictio est composita ex aliquo termino multi 
+        <lb ed="#A" n="89"/>plici: et ex aliqua negatione vel particula priuatiua 
+        <lb ed="#A" n="90"/>talis dictio est multipliciter multiplex et per consequens distin 
+        <lb ed="#A" n="91"/>guenda tam ratione multiplicitatis ipius aff. rma 
+        <lb ed="#A" n="92"/>tiue dictionis quam ratione negationis vel priuationis. 
+        <lb ed="#A" n="93"/>Sicut facit philosophus. v. Meta. et ix. vbi hanc 
+        dictio<lb ed="#A" n="94" break="no"/>nem impotentia distinguit penes multiplicitatem po 
+        <lb ed="#A" n="95"/>tentie et penes multiplicitatem huius negationis 
+        <lb ed="#A" n="96"/>In. Sed quia ingenitu et innascibile sunt huiusmodi di 
+        <lb ed="#A" n="97"/>ctiones composite scilicet ex priuatione in. et genitum. ad 
+        <lb ed="#A" n="98"/>nascibile quae miltipliciter dicuntur. ergo ex parte ammborum possunt 
+        <lb ed="#A" n="99"/>distingui etc
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e154">
+        ¶ Unde quo ad propositum ingenitum 
+        <lb ed="#A" n="100"/>dicitur tripliciter. Et similiter est de innascibilitate. 
+        <lb ed="#A" n="101"/>Primo modo vt proprie negetur esse genitum seu 
+        produ<lb ed="#A" n="102" break="no"/>ctum per generationem et isto modo tam pater quam spiritus 
+        <lb ed="#A" n="103"/>sanctus sunt ingeniti quia non sunt producti per 
+        genera<lb ed="#A" n="104" break="no"/>tionem. Secundo modo dicitur ingenitum quod non est communicatum 
+        <lb ed="#A" n="105"/>generatione. sicut est essentia diuina et sapientia 
+        <lb ed="#A" n="106"/>et cetera communia que communicantur filio per generationem. Et 
+        <lb ed="#A" n="107"/>isto modo etiam tam pater quam spiritus sanctus dicuntur 
+        <lb ed="#A" n="108"/>ingeniti quia non sic communicantur. Tertio modo dicitur 
+        inge<lb ed="#A" n="109" break="no"/>nitum quod penitus negat omnem passiuam productionem 
+        <lb ed="#A" n="110"/>siue vt quo siue vt quod et isto modo solus 
+        pa<lb ed="#A" n="111" break="no"/>ter in diuinis dicitur ingenitus. quia nec vt quo hoc 
+        <!--127.xml-->
+        <pb ed="#A" n="128"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>est vt terminus formalis. Nec vt quod. hoc est 
+        <lb ed="#A" n="2"/>vt terminus totalis producitur. Unde Aug. xv. de 
+        tri<lb ed="#A" n="3" break="no"/>nitate. c. xvi. dicit quod pater solus non est ab alio et 
+        <lb ed="#A" n="4"/>ideo appellatur ingenitus. Et ad Horosium dicit. Non 
+        <lb ed="#A" n="5"/>duos ingenitos esse certa fides declarat: quamuis 
+        <lb ed="#A" n="6"/>enim spiritus sanctus non gignatur tamen producitur ideo sic non di 
+        <lb ed="#A" n="7"/>citur ingenitus. Hec Guill. supra. Et plura ibidem 
+        <lb ed="#A" n="8"/>inuehendo contra Fran. Maro. ponit quae pertranseo. 
+        <lb ed="#A" n="9"/>Ad hec infra. §. ix 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e210">
+               <head xml:id="Vn7Pel-d39118-Hd1e212">2</head>
+               <p xml:id="Vn7Pel-d39118-d1e215">
+                  <lb ed="#A" n="10"/>¶ Quomodo differunt ista scilicet 
+        Inge<lb ed="#A" n="11" break="no"/>nitum et Innascibile: Ad quod nota secundum eundem Guill. 
+        <lb ed="#A" n="12"/>ibidem quod ista se habent per ordinem. Natiuitas: Dominatio 
+        <lb ed="#A" n="13"/>et Productio. vt patuit etiam. supra Ominatio. §. iii. etc 
+        <lb ed="#A" n="14"/>Natiuitas enim solum est viuentium: sed generatio etiam 
+        <lb ed="#A" n="15"/>non viuentium substantiarum. Unde ignem dicimus gene 
+        <lb ed="#A" n="16"/>rari ab igne. Productio autem non solum est substan 
+        <lb ed="#A" n="17"/>tiarum sed etiam qualitatum sicut dicimus quod 
+        calidi<lb ed="#A" n="18" break="no"/>tas producit calorem. Proinde omne quod nascitur 
+        <lb ed="#A" n="19"/>gignitur non econuerso et omne quod gignitur producitur 
+        <lb ed="#A" n="20"/>non econuerso. Ita appositis negationibus est 
+        ordi<lb ed="#A" n="21" break="no"/>ne econuerso. Ut dicendo. Innascibile: ingenitum et 
+        <lb ed="#A" n="22"/>improductum. quia negato superiori negatur inferius  
+        <lb ed="#A" n="23"/>Unde omne improductum est ingenitum non 
+        econtra<lb ed="#A" n="24" break="no"/>Quia angelus est ingenitus non tamen improductus 
+        <lb ed="#A" n="25"/>Iterum omne ingenitum est inascibile non econtra: sicut 
+        <lb ed="#A" n="26"/>gnis non nascitur non tamen est ingenitus. ita quod 
+        innasci<lb ed="#A" n="27" break="no"/>bile est superius ad ingenitum. Hec Guill. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e258">
+               <head xml:id="Vn7Pel-d39118-Hd1e260">3</head>
+               <p xml:id="Vn7Pel-d39118-d1e263">
+                  <lb ed="#A" n="28"/>¶ In ingenitum sit proprietas 
+        <lb ed="#A" n="29"/>atris Respondetur secundum Scotorels. e. di. xxviii. q. i. 
+        <lb ed="#A" n="30"/>arti. ii quod quamuis vna opinio dicat quod non dicit inge 
+        <lb ed="#A" n="31"/>nitum proprie personalem proprietatem eo quod non spectat ad 
+        <lb ed="#A" n="32"/>dignitatem cum dicat negationem. Uerumtameum melius vi 
+        <lb ed="#A" n="33"/>detur dicendum quod ingenitum sub propria ratione vt dicit 
+        <lb ed="#A" n="34"/>non esse ab alio: est proprietas patris: et non oportet 
+        <lb ed="#A" n="35"/>quod dicat dignitatem sed sufficit sibi quod non dicat 
+        op<lb ed="#A" n="36" break="no"/>positum scilicet indignitatem. Unde sicut relationes origis 
+        <lb ed="#A" n="37"/>puta paternitas: filiatio etc. non dicunt perfectionem simplicite 
+        <lb ed="#A" n="38"/>nec imperfectionem Ita ingenitum et innascibilitas non 
+        di<lb ed="#A" n="39" break="no"/>cunt dignitatem nec indignitatem etc.
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e292">
+        ¶ Nec valet 
+        <lb ed="#A" n="40"/>argumentum si inferatur Non dicunt perfectionem. ergo dicunt 
+        <lb ed="#A" n="41"/>imperfectionem quia est fallacia consequentis sicut si argua 
+        <lb ed="#A" n="42"/>tur. Iste scilicet puer nunc natus non est iustuo. ergo  
+        <lb ed="#A" n="43"/>est iniustus. Hec addidi ex Guill. supra arti i. Quod si 
+        <lb ed="#A" n="44"/>omnino velis concedere quod proprietas dicat dignitatem 
+        <lb ed="#A" n="45"/>dico cum Scotorelis. ibdem quod ingenitum licet non 
+        di<lb ed="#A" n="46" break="no"/>cat dignitatem absolutam. tamen potest concedi quod dicat 
+        di<lb ed="#A" n="47" break="no"/>gnitatem personalem. ergo est proprietas etsi non constitutiua 
+        <lb ed="#A" n="48"/>patris formaliter vt patet in se. Quod autem dicat nobili 
+        <lb ed="#A" n="49"/>tatem dignitatis. habetur clarius vbi Pater. §. iiii. 
+        <lb ed="#A" n="50"/>In quo fundamento fundatur ingenitum et innasci 
+        <lb ed="#A" n="51"/>bue. infra. §. v. et vbi Priuatio. §. vi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e322">
+               <head xml:id="Vn7Pel-d39118-Hd1e324">4</head>
+               <p xml:id="Vn7Pel-d39118-d1e327">
+                  <lb ed="#A" n="52"/>¶ An ingenitum vel inascibilitas 
+        <lb ed="#A" n="53"/>it proprietas constitutiua patris Respondetur secundu 
+        <lb ed="#A" n="54"/>doc. subti. in reportatione paris. et post eum Guill. 
+        <lb ed="#A" n="55"/>ac Scotorelis. e dist. xxviii. per conclusionem quod in 
+        diui<lb ed="#A" n="56" break="no"/>nis pater non genitus: nec ingenito nec innascibi¬ 
+        <!--127.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 128 -->
+                  <lb ed="#A" n="57"/>li constituitur in esse. Sed paternitate formaliter ipsa 
+        <lb ed="#A" n="58"/>persona prima censetur constitui. Et ad hoc est communis 
+        <lb ed="#A" n="59"/>opinio ex verbis magistri et Augustini ac Hilarii 
+        <lb ed="#A" n="60"/>vt dicit etiam Bonaue. ibidem. q. iii. quod notio persona 
+        <lb ed="#A" n="61"/>lis patris est paternitas. Unde ibi magister inducit 
+        Au<lb ed="#A" n="62" break="no"/>gusti. vi. de trinitate dicit. Non est inquit hoc dicere 
+        <lb ed="#A" n="63"/>ingenitum quod est patrem dicere: quia et si filium non 
+        genu<lb ed="#A" n="64" break="no"/>sset nil prohiberet eum dici ingenitum. Etsi gignat 
+        <lb ed="#A" n="65"/>quisque filium: non ex eo ipse est ingenitus: quia geniti 
+        <lb ed="#A" n="66"/>homines gignunt alios. Non ergo ideo dicitur pater quia in 
+        <lb ed="#A" n="67"/>genitus. Sed pater dicitur secundum proprietate 
+        generati<lb ed="#A" n="68" break="no"/>onis. Hec in littra. Huius autem ratio claruit supra. 
+        <lb ed="#A" n="69"/>vbi Identica praedicatio. §. iii. Unde et secundum Rich. e. di. 
+        <lb ed="#A" n="70"/>xxviii. q. ii Innascibilitas vel ingenitum licet sit no 
+        <lb ed="#A" n="71"/>tio soli patri conueniens tamen non est persone constitutiua 
+        <lb ed="#A" n="72"/>eo quod non importat realem relationem actu: nec de prima 
+        <lb ed="#A" n="73"/>rio signato. quod est non esse ab alio. Nec de secundario 
+        <lb ed="#A" n="74"/>significato quod est primitas ad actum generandi et ad  
+        <lb ed="#A" n="75"/>actum spirandi. quod tamen requiritur ad constituendum personam. 
+        <lb ed="#A" n="76"/>et quoniam hanc relationem realem importat patrnitas. ergo 
+        con<lb ed="#A" n="77" break="no"/>stituit personam.
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e392">
+        ¶ Ad hec vbi Notio. §. vii. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e395">
+                  <lb ed="#A" n="78"/>¶ Sed dt. Proprietas constitutiua est 
+        incommunicabi<lb ed="#A" n="79" break="no"/>us: sed paternitas non est incommunicabilis cum reperiatur 
+        <lb ed="#A" n="80"/>in creaturis. Innascibilitas autem est incommunicabilis 
+        <lb ed="#A" n="81"/>ergo innascibilitas constituit patrem magis quam 
+        pa<lb ed="#A" n="82" break="no"/>ternitas. Respondetur secundum Scotorelis. quod proprietas 
+        consti<lb ed="#A" n="83" break="no"/>tutiua non tantum debet esse incommunicabilis sed etiam posi 
+        <lb ed="#A" n="84"/>tiua. Sed innascibilitas non est proprietas 
+        positi<lb ed="#A" n="85" break="no"/>ua. Cum autem dicis quod paternitas est communicabilis cre 
+        <lb ed="#A" n="86"/>aturis: dico inquit quod paternitas inquantum paternitas est communi 
+        <lb ed="#A" n="87"/>cabilis sed non inquatum diuina etc.
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e419">
+        ¶ Ad praedicta 
+        vi<lb ed="#A" n="88" break="no"/>de etiam vbi Pater vel Paternitas. §. vi. et. vii. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e426">
+               <head xml:id="Vn7Pel-d39118-Hd1e428">5</head>
+               <p xml:id="Vn7Pel-d39118-d1e431">
+                  <lb ed="#A" n="89"/>¶ Sed qualiter se habent ingeni 
+        <lb ed="#A" n="90"/>tum et innascibile ad hoc constitutiuum pris. scilicet 
+        <lb ed="#A" n="91"/>ad paternitatem: Respondetur secundum e. Guill. ibidem. Et 
+        <lb ed="#A" n="92"/>Fran. quod ingenitum et innascibile sunt in primitate 
+        <lb ed="#A" n="93"/>originis fundata. Probatur. Nam fundamentum 
+        <lb ed="#A" n="94"/>primum est a quo accipiunt primum suum esse 
+        funda<lb ed="#A" n="95" break="no"/>ta in ipso: sicut similitudo quae est in albedine fundata etc. 
+        <lb ed="#A" n="96"/>Sed ingenitum et innascibile accipiunt suum esse a 
+        <lb ed="#A" n="97"/>primitate originis vt a fundamento. Hoc 
+        decla<lb ed="#A" n="98" break="no"/>ratur sic. quia primitas originis est esse a se: et a quo 
+        <lb ed="#A" n="99"/>alius est. Ista enim duo importat ipsa primitas. Sed 
+        <lb ed="#A" n="100"/>ingenitum et innascibile quid aliud dicit nisi non 
+        <lb ed="#A" n="101"/>esse ab aliquo. Et sic dicit primum signum originis 
+        <lb ed="#A" n="102"/>quasi parte primam talis originis per quam constituitur 
+        <lb ed="#A" n="103"/>partim. sed quia formaliter ipsa persona patris habet constitui per 
+        <lb ed="#A" n="104"/>relationem vel respectum ad filium qui respectus signatur per 
+        <lb ed="#A" n="105"/>he quod dico a quo alius. Et quoniam ista pars signati scilice 
+        <lb ed="#A" n="106"/>a quo alius ordine nature preintelligitur in patre 
+        <lb ed="#A" n="107"/>a quo est filius: quia pater respectu filii habet 
+        <lb ed="#A" n="108"/>dici prius quam dicatur non esse ab alio. Et ita prius 
+        <lb ed="#A" n="109"/>intelligitur esse pater respectu filii quam esse ingenitus 
+        <lb ed="#A" n="110"/>et innascibilis. Ita quod est ordo iste vicem Inde primo 
+        <lb ed="#A" n="111"/>signo est paternitas. In secundo primitas 
+        origi<lb ed="#A" n="112" break="no"/>nis. In tertio ingenitum et innascibilitas. Et sic 
+        <lb ed="#A" n="113"/>patet quod fundamentum ingeniti et innascibilita¬ 
+        <!--128.xml-->
+        <pb ed="#A" n="129"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tis est primitas originis. Hec Guillermus. 
+        <lb ed="#A" n="2"/>Ad idem vbi priuatio. §. vi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e500">
+               <head xml:id="Vn7Pel-d39118-Hd1e502">6</head>
+               <p xml:id="Vn7Pel-d39118-d1e505">
+                  <lb ed="#A" n="3"/>¶ Sed queritur. Si paternitate 
+        <lb ed="#A" n="4"/>conestituitur prima persona diuina et relatiua sunt simul 
+        <lb ed="#A" n="5"/>natura quomodo potest prima persona secundam 
+        praecedere<lb ed="#A" n="6" break="no"/>Respondetur secundum doc. subti. e. dist. xxviii. q. iii. quod sicut 
+        <lb ed="#A" n="7"/>cum simultate nature stat prioritas perfectionis. 
+        <lb ed="#A" n="8"/>Exemplum homo et risibilitas simul stant licet homo 
+        <lb ed="#A" n="9"/>perfectior et prior sit risibilitate: ita cum simultate 
+        <lb ed="#A" n="10"/>nature stat prioritas originis. Unde Aug. in li.ro 
+        <lb ed="#A" n="11"/>de triplici habitaculo dicit. Quod cum erimus in pa 
+        <lb ed="#A" n="12"/>tria videbimus qualiter pater praecedit filium origi 
+        <lb ed="#A" n="13"/>ne et non tempore etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e532">
+               <head xml:id="Vn7Pel-d39118-Hd1e534">7</head>
+               <p xml:id="Vn7Pel-d39118-d1e537">
+                  <lb ed="#A" n="14"/>¶ Quomodo ingenitum et inascibile po 
+        <lb ed="#A" n="15"/>nuntur esse notiones cum sint negationes: Respondetur 
+        <lb ed="#A" n="16"/>secundum Guill. e. dist. xxviii. vbi inducit Fran. maro 
+        <lb ed="#A" n="17"/>dicit quod notioni assignantur quattuor conditiones Pri 
+        <lb ed="#A" n="18"/>ma quod importat dignitatem vnde improductiuitas quia 
+        <lb ed="#A" n="19"/>non importat dignitatem. accipiedo eam ad intra. ide 
+        <lb ed="#A" n="20"/>non dicitur notio. Secunda conditio quod est commune ad 
+        <lb ed="#A" n="21"/>positiuum et negatiuum: quia aliqua negatio est notio 
+        <lb ed="#A" n="22"/>sicut inquit ingenitum. Et aliqua positiua sicut cetere. scilice 
+        <lb ed="#A" n="23"/>Beneratio et processio. Tertia conditio quod non est commune 
+        <lb ed="#A" n="24"/>tribus ideo infinitas non est notio. Similiter nec 
+        proprie<lb ed="#A" n="25" break="no"/>tates essentiales alie. Quarta conditio ponitur secundum 
+        <lb ed="#A" n="26"/>eundem Fran. quod non est communis duabus personis 
+        <lb ed="#A" n="27"/>Et ideo inquit spiratio actiua non est notio. Sed 
+        <lb ed="#A" n="28"/>Guill. dicit quod quamuis in primis tribus conditionibus 
+        <lb ed="#A" n="29"/>bene dixerit. Sed in quarta vt suum malum compleat 
+        <lb ed="#A" n="30"/>quaternarium. Non bene dixit ipse Fran. quia dicere 
+        <lb ed="#A" n="31"/>quod spiratio actiua non est notio est contra vniuers 
+        <lb ed="#A" n="32"/>tate magistrorum et maxime contra suum magistrum 
+        <lb ed="#A" n="33"/>dist. xxviii. primi. li. q. i. in solu. vltimi argumeni 
+        <lb ed="#A" n="34"/>vbi expresse ponit spirationem actiuam esse notionem. 
+        <lb ed="#A" n="35"/>Hec Guill. Et sic patet quod negatio in ingenito et 
+        <lb ed="#A" n="36"/>innascibili non obest quin ponantur notiones esse. 
+        <lb ed="#A" n="37"/>Uerumtamen secundum Rich. et Tho. Ingenitus licet sit no 
+        <lb ed="#A" n="38"/>tio in patre: tamen in spiritu sancto non est notio vt patebit 
+        <lb ed="#A" n="39"/>infra vbi Notio. §. v. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e597">
+               <head xml:id="Vn7Pel-d39118-Hd1e599">8</head>
+               <p xml:id="Vn7Pel-d39118-d1e602">
+                  <lb ed="#A" n="40"/>¶ Item An inspirabilitas sit no 
+        <lb ed="#A" n="41"/>tio sicut Ingenitum: Ad hoc nota secundum Guill. et 
+        <lb ed="#A" n="42"/>dist. xxviii. quod Bonauen. q. vlti. e. dist. tenet quod non 
+        <lb ed="#A" n="43"/>Quia includitur in innascibilitate  Nam 
+        innasci<lb ed="#A" n="44" break="no"/>bile dicitur quod omnem negat productionem et ita 
+        spi<lb ed="#A" n="45" break="no"/>rationem passiuam negat. Sed doctor subtilis sub 
+        <lb ed="#A" n="46"/>dubio relinquere videtur aut quodammodo inuere 
+        <lb ed="#A" n="47"/>quod sit notio. et sic esset sex notiones vicem. quattuor in patre 
+        <lb ed="#A" n="48"/>quia due affirmatiue. scilicet Seneratio actiua et spira 
+        <lb ed="#A" n="49"/>tio actiua. Et due negatiue scilicet Ingenitum vel 
+        ina<lb ed="#A" n="50" break="no"/>scibile et inspirabile
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e628">
+        ¶ Item in filio est generatio 
+        <lb ed="#A" n="51"/>passiua. et in spiritu sancto est spiratio passiua. 
+        De<lb ed="#A" n="52" break="no"/>nique in filio ponuntur in toto tres notiones ex 
+        eis<lb ed="#A" n="53" break="no"/>dem predictis. scilicet vna negatiue Inspirabile. Et 
+        <lb ed="#A" n="54"/>due positiue scilicet Seneratio passiua et spiratio act 
+        <lb ed="#A" n="55"/>ua. In spiritu sancto autem ponitur vnica scilicet 
+        Spira<lb ed="#A" n="56" break="no"/>tio passiua. Ticet communius assignentur. tantum v. noti 
+        <!--128.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 129 -->
+                  <lb ed="#A" n="57"/>ones praedicte praeter imspirabile Et potest teneri ista vel 
+        <lb ed="#A" n="58"/>illa via. Hec ex Guill. Ad idem vbi Notio. §. ii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d39118-Dd1e655">
+               <head xml:id="Vn7Pel-d39118-Hd1e657">9</head>
+               <p xml:id="Vn7Pel-d39118-d1e660">
+                  <lb ed="#A" n="59"/>¶ Quomodo pater dicitur ingenitus 
+        <lb ed="#A" n="60"/>Et de hoc licet patuit aliquo modo supra. e. c. § i. 
+        <lb ed="#A" n="61"/>Nota tamen pro euidentia secundum Scotorelis. dist. xxviii. 
+        <lb ed="#A" n="62"/>primi. quod Ingenitum dicitur tripliciter. Uno modo secundum 
+        <lb ed="#A" n="63"/>quod dicit negationem extra genus praedicamenti quia non 
+        <lb ed="#A" n="64"/>est ab aliquo nec per generationem nec per 
+        spiratio<lb ed="#A" n="65" break="no"/>nem nec per aliquam productionem. et sic soli patri con 
+        <lb ed="#A" n="66"/>uenit. Alio modo prout dicit negationem intra 
+        ge<lb ed="#A" n="67" break="no"/>nus id est prout negat vnum modum producendi qui di 
+        <lb ed="#A" n="68"/>citur generatio. Et sic spiritus sanctus potest dici inge 
+        <lb ed="#A" n="69"/>nitus quia non generatur. Tertio modo prout dicit 
+        ne<lb ed="#A" n="70" break="no"/>gatione productionis in ratione termini producti 
+        tota<lb ed="#A" n="71" break="no"/>liter vt totalitas aspicit suppositum puta incommunicabi 
+        <lb ed="#A" n="72"/>lem subsistentiam. Et sic essentia potest dici ingenita. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d39118-d1e693">
+                  <lb ed="#A" n="73"/>¶ Ad hec predicta Uide vbi Priuatio. et vbi 
+        Ne<lb ed="#A" n="74" break="no"/>gatio.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

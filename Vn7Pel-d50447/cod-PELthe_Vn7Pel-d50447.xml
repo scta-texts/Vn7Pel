@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Motus vel mutatio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Motus vel mutatio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d50447">
+            <head xml:id="Vn7Pel-d50447-Hd1e107">Motus vel mutatio</head>
+            <div xml:id="Vn7Pel-d50447-Dd1e110">
+               <head xml:id="Vn7Pel-d50447-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d50447-d1e115">
+                  <lb ed="#A" n="72"/>MOtus dei 
+        muta<lb ed="#A" n="73" break="no"/>m Itio distinguitur duplex sicut et actio. vt 
+        <lb ed="#A" n="74"/> tractat <ref xml:id="Vn7Pel-d50447-Rd1e123">Fran. mayro. in conflat. primi 
+          <lb ed="#A" n="75"/>distinct. xxvii.</ref> Una est mutatio motus vel actio 
+        <lb ed="#A" n="76"/>physica. Alia est metaphysica. Prima scilicet actio 
+        <lb ed="#A" n="77"/>phhsophyca requirit determinatum situm inter agens et 
+        <lb ed="#A" n="78"/>patiens. Actio autem metaphysica abstrahit ab 
+        o<lb ed="#A" n="79" break="no"/>mni situ et loco. Si enim omnis situs et locus de 
+        <lb ed="#A" n="80"/>strueretur: adhuc angelus se intelligeret. Et 
+        ta<lb ed="#A" n="81" break="no"/>is actio est in quantuncumque distans. Nam si vna 
+        <lb ed="#A" n="82"/>albedo ponatur in oriente et alia in occidente pro 
+        <lb ed="#A" n="83"/>ducitur relatio similitudinis inter eas nec ex hoc 
+        <lb ed="#A" n="84"/>mutantur ipse albedines.
+      </p>
+               <p xml:id="Vn7Pel-d50447-d1e149">
+        ¶ Ex his ergo notanda 
+        <lb ed="#A" n="85"/>sunt duo documenta generalia
+      </p>
+               <p xml:id="Vn7Pel-d50447-d1e154">
+        ¶ Unum est quod 
+        <lb ed="#A" n="86"/>relationes in rebus inducuntur sine 
+        mutatio<lb ed="#A" n="87" break="no"/>ne philosophica. sed non sine mutatione metaphysica. imo 
+        <lb ed="#A" n="88"/>videtur mirabile quod totum vniuersum continue 
+        <lb ed="#A" n="89"/>sit in fluxum et in continuo motu. et moto vno mo 
+        <lb ed="#A" n="90"/>uentur omnia saltem motione metaphysica non 
+        <lb ed="#A" n="91"/>tamen motione philosophica. Istud autem non est incon 
+        <lb ed="#A" n="92"/>ueniens quantum ad relationes vel respectus siue 
+        <lb ed="#A" n="93"/>habitudies. imo hoc est necessarium quia in quo 
+        <lb ed="#A" n="94"/>libet instanti quelibet res temporalis habet 
+        ali<lb ed="#A" n="95" break="no"/>am et aliam habitudinem ad tempus. et quando. 
+        <lb ed="#A" n="96"/>et respectus.
+      </p>
+               <p xml:id="Vn7Pel-d50447-d1e180">
+        ¶ Secundum est. dato quod in se deus 
+        <lb ed="#A" n="97"/>referretur de nouo ad creaturam: adhuc nulla 
+        <lb ed="#A" n="98"/>esset in deo mutatio realis. sed tantummodo secundum quid  
+        <lb ed="#A" n="99"/>que non est mutatio vera. vt patuit supra. c. Im 
+        <lb ed="#A" n="100"/>mutabilitas. §. x. Ad hec vbi Mobile
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

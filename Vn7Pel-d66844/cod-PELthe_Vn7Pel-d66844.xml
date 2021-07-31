@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Precipere</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Precipere</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="215"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d66844">
+            <head xml:id="Vn7Pel-d66844-Hd1e107">Precipere</head>
+            <div xml:id="Vn7Pel-d66844-Dd1e110">
+               <head xml:id="Vn7Pel-d66844-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d66844-d1e115">
+                  <lb ed="#A" n="27"/>PRecipere del 
+        Fe<lb ed="#A" n="28" break="no"/>ptum 
+        <lb ed="#A" n="29"/>aut praeceptio tripliciter dicitur secundum Guil. in p. 
+        <lb ed="#A" n="30"/>mo dis. xl vii.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e126">
+        ¶ Uno modo dicitur praeceptum 
+        <lb ed="#A" n="31"/>quocquid sub mandato cadit. Et isto modo in vereri lege 
+        <lb ed="#A" n="32"/>tam lege decalogi praeceprta quam cerimonialia quam 
+        iudi<lb ed="#A" n="33" break="no"/>cialia praecepta erant
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e135">
+        ¶ Secundo mo praeceptum capitur vt 
+        <lb ed="#A" n="34"/>distinguitur contracerimonialia et iudicialia. Et sic proprie 
+        <lb ed="#A" n="35"/>decem praecepta dicebantur in prima et secunda tabula 
+        scri<lb ed="#A" n="36" break="no"/>pta. De quibus Matth. xix. Si vis ingredi ad vitam 
+        <lb ed="#A" n="37"/>serua madata scilicet decalogi
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e146">
+        ¶ Tertious praeceptum acci 
+        <lb ed="#A" n="38"/>pitur vt opponitur prohibitioni. et sic praeceptio est de affir 
+        <lb ed="#A" n="39"/>matiuis. sicut illud Sabbata sanctifices. Et honora 
+        <lb ed="#A" n="40"/>pa. sed prohibitio est de negatiuis. sicut illud Non ado 
+        <lb ed="#A" n="41"/>rabis deos alie. Non occides etc. sic etiam magister in p. 
+        <lb ed="#A" n="42"/>mo di. xl vi. accipit cum ponit signa voluntatis praecepti 
+        <lb ed="#A" n="43"/>onem et prohibitionem. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66844-Dd1e163">
+               <head xml:id="Vn7Pel-d66844-Hd1e165">2</head>
+               <p xml:id="Vn7Pel-d66844-d1e168">
+                  <lb ed="#A" n="44"/>¶ Unde dicitur preceptio. nota 
+        <lb ed="#A" n="45"/>secundum e. Guil. ibid. Preceptio dicitur vel deriuatur quaesi prae 
+        <lb ed="#A" n="46"/>aliis captio. Et sic a in e mutando dicitur praeceptio. Ion 
+        <lb ed="#A" n="47"/>quia praeceptum prius capitur in mente praecipientis quam ad 
+        subie<lb ed="#A" n="48" break="no"/>ctum deriuetur. Et quia secundum papiam Precepta sunt qui aut 
+        <lb ed="#A" n="49"/>quid faciendum sit aut non faciendum docent et prae aliis obli 
+        <lb ed="#A" n="50"/>gant etc.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e186">
+        ¶ De praeceptis specialius agemus lib. iii. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66844-Dd1e190">
+               <head xml:id="Vn7Pel-d66844-Hd1e192">3</head>
+               <p xml:id="Vn7Pel-d66844-d1e195">
+                  <lb ed="#A" n="51"/>¶ Utrum deus possit precipere 
+        ma<lb ed="#A" n="52" break="no"/>lu: Ad hoc respondendo secundum Guil. nota. et Scotor. concor. 
+        <lb ed="#A" n="53"/>Bonauem. Rich. Tho. et alios e. dis. xl vii. primi. quod 
+        <lb ed="#A" n="54"/>malum scilicet culpe distinguitur in malum occasionaliter et 
+        <lb ed="#A" n="55"/>malum in se. et malum secundum se. sicut de istis patuit supra. c. 
+        <lb ed="#A" n="56"/>Malum. Et sic quoddam est malum formaliter scilic 
+        <!--214.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 215 -->
+                  <lb ed="#A" n="57"/>vt dicit rationem defectiuam excludendo rationem boni omnino. 
+        <lb ed="#A" n="58"/>Quoddam autem est malum materialiter vel quasi 
+        mate<lb ed="#A" n="59" break="no"/>rialius scilicet quando tale esset malum nisi fieret ex praecepto dici. Et 
+        <lb ed="#A" n="60"/>ista possunt fieri bona et bene fiunt ex praecepto dei. quia 
+        <lb ed="#A" n="61"/>deus praecipiendo tale facit illud esse bonum. sicut 
+        ter<lb ed="#A" n="62" break="no"/>ram vel bona aliena si deus praecipit quod sit meum proprium. 
+        <lb ed="#A" n="63"/>Et ego hoc accipio in proprium meum iam non est malum sed  
+        <lb ed="#A" n="64"/>bonum. quemadmodum si rex concederet mihi bona ali 
+        <lb ed="#A" n="65"/>cuius infidelis conuicti: iusto iudicio de crimie le 
+        <lb ed="#A" n="66"/>se maiestatis. possem licite occupare etc.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e239">
+        ¶ Ad 
+        quae<lb ed="#A" n="67" break="no"/>situm ergo dicendum Primo quod deus bene potest praecipere 
+        ma<lb ed="#A" n="68" break="no"/>lum in se vel materialiter dictum. Ratio quia in malo in se ita 
+        <lb ed="#A" n="69"/>est quod non necessario ei iuncta est malicia ideo deus 
+        <lb ed="#A" n="70"/>potest praecipere talis mali substratum vel actum 
+        materi<lb ed="#A" n="71" break="no"/>alem et non maliciam formalem talis actus. quia sic illud 
+        <lb ed="#A" n="72"/>quod videtur malum non erit malum sed vi praecepti remoue 
+        <lb ed="#A" n="73"/>pitur malicia illius. sicut interficere hominem. quae 
+        vide<lb ed="#A" n="74" break="no"/>tur innocens cum deus praecipit non est malum ex vi praecepti 
+        <lb ed="#A" n="75"/>similiter furari.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e261">
+        ¶ Ad id accipiamus exempla theologi 
+        <lb ed="#A" n="76"/>ca de quibus posset fieri argumentatio.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e266">
+        ¶ Primum 
+        <lb ed="#A" n="77"/>quia licet furari sit peccatum in se. Tamen deus precepit filiis 
+        <lb ed="#A" n="78"/>israel quod sub fide accommodationis furetur et spolient egte. 
+        <lb ed="#A" n="79"/>ptum accipiedo ab eis vasa aurea etc. Et hoc iuste deus 
+        <lb ed="#A" n="80"/>fecit praecipiendo Tum quia potuit transferre dominium rei 
+        <lb ed="#A" n="81"/>aliene in illos sicut dominus omnium Tum quia egyptii cum 
+        <lb ed="#A" n="82"/>essent pessimi demerebantur priuari bonis omnibus. 
+        <lb ed="#A" n="83"/>Tum quia egyptii tenebantur filiis israel pro mercede 
+        <lb ed="#A" n="84"/>fruitutis Quod si aliqui filiorum israel habuerunt 
+        inten<lb ed="#A" n="85" break="no"/>tionem fraudulentam et malignam in petendo vasa et 
+        <lb ed="#A" n="86"/>vestes: hoc non praecepit dominus sed ex propria fuit 
+        mali<lb ed="#A" n="87" break="no"/>cia secundum Rich. et concor. Guil.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e293">
+        ¶ Secundum exemplum 
+        <lb ed="#A" n="88"/>quia deus praecepit Abrae occidere filium suum innocen 
+        <lb ed="#A" n="89"/>tem immolando. quod esset peccatum sed ex vi praecepti dei 
+        <lb ed="#A" n="90"/>non fuit malum: imo iustum quia ex peccato origiali Isaac 
+        <lb ed="#A" n="91"/>erat debitor mortis de iure et ita deus habuit au 
+        <lb ed="#A" n="92"/>toritatem committendi Abrae super huiusmodi exactione 
+        mor<lb ed="#A" n="93" break="no"/>tis. constat autem quod vterque scilicet Abraam et Isaac meruerunt 
+        <lb ed="#A" n="94"/>ex obdientia ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e311">
+        ¶ Tertium exemplum. quia licet sit 
+        ma<lb ed="#A" n="95" break="no"/>lum fornicari et tamen deus praecepit Ose prophete accipere forni 
+        <lb ed="#A" n="96"/>cariam et facere filios fornicatonm. Sed tamen secundum doc. 
+        <lb ed="#A" n="97"/>mulier illa dicitur fornicaria spiritualiter videlicet 
+        idola<lb ed="#A" n="98" break="no"/>tra anquam fuit a propheta in vxorem accepta. aut si carna 
+        <lb ed="#A" n="99"/>liter fuit fornicaria hoc fuit anquam accepit eam Ose in 
+        <lb ed="#A" n="100"/>vxorem Ala illicitum fuisset eam cogno scere ex 
+        concupi<lb ed="#A" n="101" break="no"/>scentia fornicaria.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e329">
+        ¶ Secundo denique de malo secundum 
+        <lb ed="#A" n="102"/>se dicendum quod deus non potest praecipere talia quia sunt ma 
+        <lb ed="#A" n="103"/>la formaliter nec vllo modo possunt bene fieri vel bona: etiam 
+        <lb ed="#A" n="104"/>ex vi praecepti. Sicut sunt odium dei. blasphemia: periu 
+        <lb ed="#A" n="105"/>rium idolatria et huiusmodi. Ratio quia talia auertunt a deo. et 
+        <lb ed="#A" n="106"/>sic de ratione eorum est deordinatio et malicia. Si ergo deus 
+        <lb ed="#A" n="107"/>possit huiusmodi praecipere sequitur quod posset facere seipsum auto 
+        <lb ed="#A" n="108"/>rem esse mali et per consequens se non esse deum. quia quie praecipit malum 
+        <lb ed="#A" n="109"/>est autor mali. hoc autem est impossibile deo ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e349">
+        ¶ Ex quae 
+        <lb ed="#A" n="110"/>patet defectus Fran. maro. in confla. primi dist. 
+        <lb ed="#A" n="111"/>xvii. q. ii dicit quod deus potentia absoluta posset 
+        or<lb ed="#A" n="112" break="no"/>dinare vt quicunque deum blasphemaret esset 
+        <lb ed="#A" n="113"/>in charitate et saluatus. patet oppositum ex 
+        pre<lb ed="#A" n="114" break="no"/>dictis. Sequitur enim quod maxme se auertens a deo 
+        <!--215.xml-->
+        <pb ed="#A" n="216"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>per blasphemiam maxime coniungeretur deo per salutem 
+        <lb ed="#A" n="2"/>quod implicat contradictionem. Hec Guil. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66844-Dd1e374">
+               <head xml:id="Vn7Pel-d66844-Hd1e376">4</head>
+               <p xml:id="Vn7Pel-d66844-d1e379">
+                  <lb ed="#A" n="3"/>¶ Sed in qualibus praeceptis post 
+        <lb ed="#A" n="4"/>deus dispensare: Respondetur secundum Guil. supra. et 
+        Bo<lb ed="#A" n="5" break="no"/>nauen. quod vt etiam Bern. lib. de dispen. et praecep. dicit 
+        <lb ed="#A" n="6"/>quod in omnibus praeceptis secunde tabule potest deus dispen 
+        <lb ed="#A" n="7"/>sare quia illa ordinant ad proximum diligendum Et potes 
+        <lb ed="#A" n="8"/>contrarium praecipere speriali praecepto. Nec ex hoc sequitur 
+        <lb ed="#A" n="9"/>quod praeciperet contraria quia tunc mandatum speciale sicut 
+        <lb ed="#A" n="10"/>priuilegium speriale absoluit a communi lege. Sed in 
+        <lb ed="#A" n="11"/>praeceptis prime tabule non potest deus dispensare Ratio 
+        <lb ed="#A" n="12"/>quia ista ordinant de suam ratione in deum directe et sic 
+        eo<lb ed="#A" n="13" break="no"/>rum opposita. deordinatonm dicunt. Unde in istis non 
+        <lb ed="#A" n="14"/>potest deus dispensare quia non potest facere quin res si 
+        <lb ed="#A" n="15"/>in deum ordinentur et non subsint deo potentia obedi 
+        <lb ed="#A" n="16"/>bili. Nam et si in istis deus contrarium praeciperet tunc 
+        <lb ed="#A" n="17"/>praeciperet deus contra seipsum sed impossibile est vt deus 
+        <lb ed="#A" n="18"/>faciat contra se quia esset negare se. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d66844-Dd1e418">
+               <head xml:id="Vn7Pel-d66844-Hd1e420">5</head>
+               <p xml:id="Vn7Pel-d66844-d1e423">
+                  <lb ed="#A" n="19"/>¶ An deus possit precipere 
+        ali<lb ed="#A" n="20" break="no"/>quid quod non velit fieri: Respondetur secundum Guil. supra. quod vt 
+        <lb ed="#A" n="21"/>Aug. et Chrys. dicunt duplex est dei praeceptum. Unum 
+        <lb ed="#A" n="22"/>dicitur obligationis sicut sunt precepta decalogi et talem 
+        <lb ed="#A" n="23"/>vult omnino vt seruetur. Aliud est praeccptum instructionis 
+        <lb ed="#A" n="24"/>in quo deus non vult fieri illud quod praecipitur sed quid 
+        <lb ed="#A" n="25"/>per hoc significatur. Sicut dum praecepit deus Abrae vt im 
+        <lb ed="#A" n="26"/>molaret suum filium hoc tamen fieri nolebat sed 
+        obedi<lb ed="#A" n="27" break="no"/>entiam abrae et christi in cruce immolationem instrue 
+        <lb ed="#A" n="28"/>re et figurare volebat. similiter quando christus praecepit leproso 
+        <lb ed="#A" n="29"/>Matth. viii. ne cui diceret suam sanationem. similiter 
+        de<lb ed="#A" n="30" break="no"/>moniaco Marec. vii. instruebat nos fugere va 
+        <lb ed="#A" n="31"/>nam gloriam etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d66844-d1e454">
+                  <lb ed="#A" n="32"/>¶ De praeceptis decalogi agemus 
+        <lb ed="#A" n="33"/>libro tertio. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

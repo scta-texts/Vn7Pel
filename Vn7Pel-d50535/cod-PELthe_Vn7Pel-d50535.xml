@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mundus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Mundus</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="162"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d50535">
+            <head xml:id="Vn7Pel-d50535-Hd1e107">Mundus</head>
+            <div xml:id="Vn7Pel-d50535-Dd1e110">
+               <head xml:id="Vn7Pel-d50535-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d50535-d1e115">
+                  <lb ed="#A" n="101"/>Mundus distigun 
+        <lb ed="#A" n="102" break="no"/>tur triplex secundum philosophos vt ponit Guil. super 
+        <lb ed="#A" n="103"/>primo dist. xlviii. siue tripliciter capitur 
+        <lb ed="#A" n="104"/>mundus. Uno modo pro mundo architypo 
+        <lb ed="#A" n="105"/>seu exemplari Ab archos quod est princeps et 
+        <lb ed="#A" n="106"/>typus quod est mundus quasi mundus prin¬ 
+        <!--162.xml-->
+        <pb ed="#A" n="163"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cipalis. et sic mundus nil aliud est nisi esse rerum 
+        <lb ed="#A" n="2"/>creabilium cognitum. seu Idea. vt sunt 
+        incom<lb ed="#A" n="3" break="no"/>plexa necessaria. aut voluntatis determinatione vt 
+        <lb ed="#A" n="4"/>luti contingentia. De isto mundo loquitur Boe. iii. 
+        <lb ed="#A" n="5"/>de consol. metro. x. ad deum dcit. Tum cuncta superno du 
+        <lb ed="#A" n="6"/>cis ab exemplo pulcrum pulcerrimus ipse Mun 
+        <lb ed="#A" n="7"/>dum mente gerens similique imagine formas. Et isto 
+        <lb ed="#A" n="8"/>modo accipiendo mundum dicitur a mundicia quia in 
+        <lb ed="#A" n="9"/>tali mundo sine labe aut vicio decor est 
+        vniuer<lb ed="#A" n="10" break="no"/>sus
+      </p>
+               <p xml:id="Vn7Pel-d50535-d1e159">
+        ¶ Secundo mundus dicitur exemplum illius mum 
+        <lb ed="#A" n="11"/>di exemplaris in deo constituti. Et sic a summo an 
+        <lb ed="#A" n="12"/>gelo seraphin vsque ad vltimum et infimum indiui 
+        <lb ed="#A" n="13"/>duum totum dicitur mundus. Et a platonicis dicitur 
+        <lb ed="#A" n="14"/>mundus sensibilis. capiendo sensibile 
+        communi<lb ed="#A" n="15" break="no"/>ter pro intelligibili et sensibili. Et sic capiendo Ari 
+        <lb ed="#A" n="16"/>sto. lib. de mundo quem misit Alexandro diffini 
+        <lb ed="#A" n="17"/>d. Mundus est quidam decor per deos et pro diis re 
+        <lb ed="#A" n="18"/>fiuatus. Uocat aut deos intelligentias seu 
+        an<lb ed="#A" n="19" break="no"/>gelos. sicut dicitur in psalm. Deus deorum dominus locut 
+        <lb ed="#A" n="20"/>est etc Isto modo modos dicitur a modo quia a modo exempla 
+        <lb ed="#A" n="21"/>ri in deo hic mundus egressus est. Tertio mun 
+        <lb ed="#A" n="22"/>dus dicitur inclusum sub globo lunari. vbi sum 
+        <lb ed="#A" n="23"/>rerum corruptiones et generationes continue. Et sic ac 
+        <lb ed="#A" n="24"/>cipitur mundus cum dicitur Incipit liber de celo et mun 
+        <lb ed="#A" n="25"/>do. per caelum emim intelligitur tota sphera superior a glo 
+        <lb ed="#A" n="26"/>bolunari. per mundum inferior. et sic dicitur mun 
+        <lb ed="#A" n="27"/>dus a motu secundum Isido. iii. Etynm. quia semper est 
+        <lb ed="#A" n="28"/>in motu in rerum generatione et corruptione. Hec 
+        <lb ed="#A" n="29"/>Guil. Item vt dicitur lib. catholicon. quamuis 
+        mun<lb ed="#A" n="30" break="no"/>dus dicitur a mouendo quia semper in motu est. cum 
+        <lb ed="#A" n="31"/>nulla sit requies in elementis. tamen o mutatur in 
+        <lb ed="#A" n="32"/>v. et sic debet scribi mundus per v. in prima 
+        sylla<lb ed="#A" n="33" break="no"/>ba. Et accipitur quandoque pro macrocosmo id est 
+        maio<lb ed="#A" n="34" break="no"/>ri modo. quandoque pro microcosmo id est minori mu 
+        <lb ed="#A" n="35"/>do. hoc est pro homine qui dicitur microcosmus. quoes 
+        <lb ed="#A" n="36"/>ad similitudinem mundi magni celum rationis et 
+        <lb ed="#A" n="37"/>terram corporis habet 
+        
+      </p>
+               <p xml:id="Vn7Pel-d50535-d1e220">
+                  <lb ed="#A" n="38"/>¶ Mundi hierarcha quis sit 
+        vide<lb ed="#A" n="39" break="no"/>sub lictera H¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d50535-Dd1e228">
+               <head xml:id="Vn7Pel-d50535-Hd1e230">2</head>
+               <p xml:id="Vn7Pel-d50535-d1e233">
+                  <lb ed="#A" n="40"/>¶ Nota etiam secundum Bonauem. super. ii dist. i. ar. ii. 
+        <lb ed="#A" n="41"/>q. i. Et Lyram in postilla aliosque quod in sacra scriptu 
+        <lb ed="#A" n="42"/>ra mundus variis modis accipitur. Aliquando 
+        <lb ed="#A" n="43"/>enim capitur pro mundana creatura. vt cum dicitur 
+        <lb ed="#A" n="44"/>Et mundus per ipsum factus est. Ibi nomine mundi 
+        o<lb ed="#A" n="45" break="no"/>mnis creatura intelligitur. Aliquando autem accipitur pro 
+        mnun<lb ed="#A" n="46" break="no"/>dana conuersatione siue pro mundanis homnibus 
+        <lb ed="#A" n="47"/>mundialiter viuentibus. vt cum dicitur. et mundus 
+        <lb ed="#A" n="48"/>eum non cognouit Ioam i. Et iterum cum christus 
+        <lb ed="#A" n="49"/>ait Regnum meum non est de hoc mundo id est de 
+        <lb ed="#A" n="50"/>mundana conuersatione. quia christus non regnat 
+        <lb ed="#A" n="51"/>in malis homnibus sed in bonis Sic etiam aliquando 
+        <lb ed="#A" n="52"/>accipitur mundus pro mundi delectabilibus et viciis 
+        <lb ed="#A" n="53"/>vt. i. Ioam. ii Nolite diligere mundum id est mundi de 
+        <lb ed="#A" n="54"/>lectabilia inordinate. Neque ea que in mundo sunt 
+        <lb ed="#A" n="55"/>id est vicia etc. Hec sufficiant.
+      </p>
+               <p xml:id="Vn7Pel-d50535-d1e270">
+        <!--162.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 163 -->
+                  <lb ed="#A" n="56"/>¶ Item de mundo et eius 
+        crea<lb ed="#A" n="57" break="no"/>tione plurima vide lib. ii Item hoc lib. vbi 
+        Poten<lb ed="#A" n="58" break="no"/>tia. vii. et vbi Praxis. §. iii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d50535-Dd1e287">
+               <head xml:id="Vn7Pel-d50535-Hd1e289">3</head>
+               <p xml:id="Vn7Pel-d50535-d1e292">
+                  <lb ed="#A" n="59"/>¶ An extra mundum sit imaginan 
+        <lb ed="#A" n="60"/>dum spacium infinitum. Nam vniuersum est finitum. ergo clats 
+        <lb ed="#A" n="61"/>ditur aliquo. Et de illo quiro sicut de modo scilicet quo illud clauditur 
+        <lb ed="#A" n="62"/>et sic in infinitum Hec fuit ratio antiquorum philosophorum 
+        <lb ed="#A" n="63"/>ad probandum infinitum esse. Sed rsacuntntur secundum Scotorlis. 
+        <lb ed="#A" n="64"/>in primo di. xliii. Cum philosopho. iii. physi. Quod imagina 
+        <lb ed="#A" n="65"/>tioni tali non est credendum quia imaginatio debet se 
+        <lb ed="#A" n="66"/>qui ens. non econuerso scilicet ens imaginationem
+      </p>
+               <p xml:id="Vn7Pel-d50535-d1e312">
+        ¶ Ad  
+        <lb ed="#A" n="67"/>argumentum dicendum secundum philosophum ibidem. quod aliud est 
+        <lb ed="#A" n="68"/>claudi siue terminari et aliud est finiri Nam quod 
+        <lb ed="#A" n="69"/>clauditur: aliquo ciauditur. sed quod finitur potest seipso 
+        fi<lb ed="#A" n="70" break="no"/>niri. Unde dico inquit quod vniuersum est finitum. cum ergo 
+        <lb ed="#A" n="71"/>infers quod aliquo clauditur Nego inquit sed concedo 
+        <lb ed="#A" n="72"/>quod fiuitur in se. Ad idem vbi Locus. §. fi.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

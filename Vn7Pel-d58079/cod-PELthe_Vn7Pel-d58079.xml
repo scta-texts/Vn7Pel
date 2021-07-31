@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Permissio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Permissio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="186"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d58079">
+            <head xml:id="Vn7Pel-d58079-Hd1e107">Permissio</head>
+            <div xml:id="Vn7Pel-d58079-Dd1e110">
+               <head xml:id="Vn7Pel-d58079-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d58079-d1e115">
+                  <lb ed="#A" n="105"/>Ermissio. de hoc 
+        <lb ed="#A" n="106"/>nota secundum Guil. in primo dist. xl vii. 
+        <lb ed="#A" n="107"/>quod in theologia permissio solet capi tri 
+        <lb ed="#A" n="108"/>pliciter. Dicitur enim primo permittere vt opponitur 
+        <lb ed="#A" n="109"/>punitioni. Et tunc idem est quod non punire sicut 
+        <lb ed="#A" n="110"/>christus dicit Matth. xix. Permisit Moyses li. 
+        <lb ed="#A" n="111"/>bellum repudiid est non puniuit. Secundo dicitur 
+        per<lb ed="#A" n="112" break="no"/>missio vt opponitur prohibitioni. quia non prohibetur sicnut 
+        <!--186.xml-->
+        <pb ed="#A" n="187"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>apistolus. i. Corum. vii. permisit vxorari. quia non prohibu 
+        <lb ed="#A" n="2"/>it praecepto. nec praecepit virginitatem. Tertio modo di 
+        <lb ed="#A" n="3"/>citur permissio vt opponitur cohibitioni. et sic dicitur deus 
+        <lb ed="#A" n="4"/>mala permittere id est non cohibere. vnde sic capiendo 
+        per<lb ed="#A" n="5" break="no"/>missionem est vnum de signis diuine voluntatis  
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d58079-Dd1e153">
+               <head xml:id="Vn7Pel-d58079-Hd1e155">2</head>
+               <p xml:id="Vn7Pel-d58079-d1e158">
+                  <lb ed="#A" n="6"/>¶ Que exiguntur ad diuinam 
+        permis<lb ed="#A" n="7" break="no"/>sionem Respondetur secundum Guil. supra. quod tria Primum est scita 
+        <lb ed="#A" n="8"/>Unde praelatus dum ignorat quod subditus facit mali 
+        <lb ed="#A" n="9"/>non permittere dicitur. Secundum est non velle. Nam actus di 
+        <lb ed="#A" n="10"/>uine voluntatis. aut accipitur per modum volitionis.  
+        <lb ed="#A" n="11"/>sic dicitur volitio. aut per modu nolitionis vt dicatur no 
+        <lb ed="#A" n="12"/>litio. et ambo sunt positiui actus ad modum duo 
+        <lb ed="#A" n="13"/>rum contrariorum. Aut accipitur vt signetur per modum nom 
+        <lb ed="#A" n="14"/>volitionis. Et dicitur non volitio actus pure nega 
+        <lb ed="#A" n="15"/>tiuus nil ponens. et sic nolitio opponitur contrarie 
+        <lb ed="#A" n="16"/>volitioni sicut odium et amor. Sed non volitio 
+        <lb ed="#A" n="17"/>opponitur contradictorie volitioni. Unde ad propositum 
+        lo<lb ed="#A" n="18" break="no"/>quendo proprie. Deus habet velle respectu bonorum 
+        <lb ed="#A" n="19"/>Et habet nolle respectu malorum quae ex toto impe 
+        <lb ed="#A" n="20"/>dit ne fiant. Sed habet non velle respectu malorum 
+        <lb ed="#A" n="21"/>que permittit. vnde communius est non velle quam nolle 
+        <lb ed="#A" n="22"/>quia nolle est respectu malorum tantum que omnino prohi 
+        <lb ed="#A" n="23"/>bet Sed non velle tam respectu malorum qua omnino prohi 
+        <lb ed="#A" n="24"/>bet quam respectu malorum que permittit. sicut 
+        album<lb ed="#A" n="25" break="no"/>nigrum sunt contraria. sed album et non album contrad 
+        <lb ed="#A" n="26"/>ctoria. Et non album communius est quam nigrum patet. quia 
+        <lb ed="#A" n="27"/>omne nigrum est non album. sed non omne non 
+        al<lb ed="#A" n="28" break="no"/>bum est nigrum. sicut rubeum est non album. nec 
+        <lb ed="#A" n="29"/>tamen est nigru etc. Mon sic est quod deus si haberet 
+        sim<lb ed="#A" n="30" break="no"/>plex nolle ne hoc malum puta homicidium fieret 
+        <lb ed="#A" n="31"/>nunquam posset fieri. hoc autem non habet. sed habet 
+        <lb ed="#A" n="32"/>non velle. et sic permittit. licet non velit fieri
+      </p>
+               <p xml:id="Vn7Pel-d58079-d1e219">
+        ¶ Et nota 
+        <lb ed="#A" n="33"/>quod in nobis velle et nolle sunt duo actus positium 
+        <lb ed="#A" n="34"/>Sed in deo sunt vnicus actus voluntatis sim 
+        <lb ed="#A" n="35"/>plicis sed est ibi differentia tantum ratione obiectorum 
+        <lb ed="#A" n="36"/>Tertio exigitur vel requiritur ad permissionem diuinan 
+        <lb ed="#A" n="37"/>quod sit aliquod velle diuinum reflexum super huiusmod 
+        <lb ed="#A" n="38"/>non velle praedictum. Ut sic sit accipienda 
+        permissio<lb ed="#A" n="39" break="no"/>Primo deus praeuidet et scit quod fiunt mala. Secundo 
+        <lb ed="#A" n="40"/>habet non velle mala fieri. Tertio habet quod 
+        <lb ed="#A" n="41"/>dam velle quo vult se non velle mala fieri. et hoc vel 
+        <lb ed="#A" n="42"/>le est actus reflexus super istud nolle. Et sic patet 
+        <lb ed="#A" n="43"/>quod permissio diuina dicit tria. vnum in intellectu vicem 
+        <lb ed="#A" n="44"/>scientiam. et duo in voluntate scilicet non velle. et velle 
+        <lb ed="#A" n="45"/>non velle etc. Hec ex Guil. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d58079-Dd1e251">
+               <head xml:id="Vn7Pel-d58079-Hd1e253">3</head>
+               <p xml:id="Vn7Pel-d58079-d1e256">
+                  <lb ed="#A" n="46"/>¶ Si ergo querat arguendo 
+        so<lb ed="#A" n="47" break="no"/>phistice sic. Aut diuina voluntas vult fieri ma 
+        <lb ed="#A" n="48"/>la que permittit. Aut vult mala non fieri Hec enim 
+        <lb ed="#A" n="49"/>videntur esse contradictoria. Si dicas quod vult non fie 
+        <lb ed="#A" n="50"/>ri. ergo non permittit fieri. Si autem dicis quod vult fieri 
+        <lb ed="#A" n="51"/>ergo est causa malorum. Respondet doc. subti. in 
+        repor<lb ed="#A" n="52" break="no"/>tatis parisius. e. dist. xl vii. primm. q. i. EtGuil etc. quod 
+        <lb ed="#A" n="53"/>neutra pars est vera. vnde iste non contradicunt vel 
+        <lb ed="#A" n="54"/>le fieri et velle non fieri. Sed siquis velit habere 
+        <lb ed="#A" n="55"/>contradictionem. dicat sic Aut deus vult mala fier 
+        <lb ed="#A" n="56"/>aut deus non vult mala fieri. ita quod praeponatur 
+        ne<lb ed="#A" n="57" break="no"/>gatio huic quod dico vult. et non solum ad ly fieri. et 
+        <!--186.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 187 -->
+                  <lb ed="#A" n="58"/>ista secunda est vera scilicet quod deus non vult mala fieri 
+        <lb ed="#A" n="59"/>et idem est quod per mittere¬ 
+        
+      </p>
+               <p xml:id="Vn7Pel-d58079-d1e295">
+                  <lb ed="#A" n="60"/>¶ De permissione vide plura vbi 
+        <lb ed="#A" n="61"/>Malum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d58079-Dd1e303">
+               <head xml:id="Vn7Pel-d58079-Hd1e305">4</head>
+               <p xml:id="Vn7Pel-d58079-d1e308">
+                  <lb ed="#A" n="62"/>¶ Quomodo se habet dei voluntas inper 
+        <lb ed="#A" n="63"/>mittendo mala: Nam voluntas que posset impi 
+        <lb ed="#A" n="64"/>dire malum sed non vult impedire videtur esse mala. 
+        <lb ed="#A" n="65"/>sed dei voluntas sic se habet ergo etc. Maior patet 
+        <lb ed="#A" n="66"/>per illud Aug. lxxxiii. dis. error. Ubi dicitur Error cui non 
+        <lb ed="#A" n="67"/>resistitur approbatur. Et Rho i. Digni ster morte non 
+        <lb ed="#A" n="68"/>solum qui faciunt sed qui consentiunt etc. Sed hec ob 
+        <lb ed="#A" n="69"/>iectio iam extat soluta supra vbi malum. §. viii. quia 
+        <lb ed="#A" n="70"/>iustum est vt deus permittat mala.
+      </p>
+               <p xml:id="Vn7Pel-d58079-d1e330">
+        ¶ Sed ad quesi 
+        <lb ed="#A" n="71"/>tum. Respondetur secundum Guil. supra quod voluntas dei in 
+        per<lb ed="#A" n="72" break="no"/>missione mali non habet se per modum actus 
+        posi<lb ed="#A" n="73" break="no"/>tiui sed negatiui Ideoque non potest ex hoc dici mala 
+        pa<lb ed="#A" n="74" break="no"/>tet Exemplo. Si emim ego scirem quod petrus fac 
+        homi<lb ed="#A" n="75" break="no"/>cidium et voluntas mea se habeat ad illud omnino 
+        ne<lb ed="#A" n="76" break="no"/>gatiue hoc est non volendo. et quantum in me est Pe 
+        <lb ed="#A" n="77"/>trum moneone faciat: non debet ex hoc iudicari vo 
+        <lb ed="#A" n="78"/>luntas mea fore mala imo bona Sic in proposito 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d58079-Dd1e352">
+               <head xml:id="Vn7Pel-d58079-Hd1e354">5</head>
+               <p xml:id="Vn7Pel-d58079-d1e357">
+                  <lb ed="#A" n="79"/>¶ Sed adhuc difficultas est. quod 
+        <lb ed="#A" n="80"/>si deus non permitteret: nulla fierent mala quia 
+        vo<lb ed="#A" n="81" break="no"/>luntas eius est tam potentissima vt quicquid 
+        no<lb ed="#A" n="82" break="no"/>lit non fiat Sed quoniam illud est causa alicuius: quo 
+        <lb ed="#A" n="83"/>posito ponitur. et quo remoto remouetur. sicut nauta 
+        <lb ed="#A" n="84"/>per sui presentiam est causa salutis nauis et per ab 
+        <lb ed="#A" n="85"/>sentiam est causa periclitationis ex. ii physi. ergo sequitur 
+        <lb ed="#A" n="86"/>quod deus permittens mala est causa eorum.
+      </p>
+               <p xml:id="Vn7Pel-d58079-d1e377">
+        ¶ Respondetur 
+        <lb ed="#A" n="87"/>secundum Guil. ibidem quod praedicta regula tunc habet veri 
+        <lb ed="#A" n="88"/>tatem quando vno posito necessario ponitur aliud sicui 
+        <lb ed="#A" n="89"/>patet in causis necessariis puta Orto sole fit 
+        ne<lb ed="#A" n="90" break="no"/>tessario dies. alias non tenet veritatem Patet a simili 
+        <lb ed="#A" n="91"/>Tet nempa voluntas non velit nisi primo assit actus 
+        intelle<lb ed="#A" n="92" break="no"/>lectus non tantum intellectus est causa volitionis. Sic in proposito. non 
+        <lb ed="#A" n="93"/>est necesse mala fieri ex dei permissione sed solum deus 
+        <lb ed="#A" n="94"/>dimittit res vt libere agant suas operationes. Et 
+        <lb ed="#A" n="95"/>vult bonum per se Malum autem per accidens ex hominis 
+        <lb ed="#A" n="96"/>defectu et voluntate fieri permittit vt bonum in 
+        <lb ed="#A" n="97"/>de eliciat 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d58079-Dd1e404">
+               <head xml:id="Vn7Pel-d58079-Hd1e406">6</head>
+               <p xml:id="Vn7Pel-d58079-d1e409">
+                  <lb ed="#A" n="98"/>¶ Sed diceres Quomodo potest deus 
+        vel<lb ed="#A" n="99" break="no"/>le bonum quod ex malo elicitur et tamen no ipsum malum. quod 
+        <lb ed="#A" n="100"/>enim posset quis velle consequens et non eius antece 
+        <lb ed="#A" n="101"/>dens. Dicit idem Guil. Exemplum ponendo quod dum ca 
+        <lb ed="#A" n="102"/>dit aliquis ad terram clarum est quod possum velle quod 
+        <lb ed="#A" n="103"/>surgat et quod non cexiderit. quamuis surgere sit consequens ad 
+        <lb ed="#A" n="104"/>ad cecidisse Sic in proposito.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

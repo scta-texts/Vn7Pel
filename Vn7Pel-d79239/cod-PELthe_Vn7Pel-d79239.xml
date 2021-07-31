@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reprobatio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Reprobatio</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="254"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d79239">
+            <head xml:id="Vn7Pel-d79239-Hd1e107">Reprobatio</head>
+            <div xml:id="Vn7Pel-d79239-Dd1e110">
+               <head xml:id="Vn7Pel-d79239-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d79239-d1e115">
+                  <lb ed="#A" n="71"/>REprobatio quid 
+        <lb ed="#A" n="72"/>sit diffinitiue. Notat Guil. in primo 
+        <lb ed="#A" n="73"/>di. xli. quod secundum Aug. vt allegatur a magistero 
+        <lb ed="#A" n="74"/>libidem. Reprobatio est praescientia iniquitati quorudam 
+        <lb ed="#A" n="75"/>et praeparatio eorumdem ad damnationem. Unde repros 
+        <lb ed="#A" n="76"/>patio tria importat. Primo odium dei eternum propter 
+        <lb ed="#A" n="77"/>maliciam alicuius praeuisam ab eterno etc. Secundo 
+        ob<lb ed="#A" n="78" break="no"/>durationem reprobati quae secundum Aug. nil aliud est quam 
+        <lb ed="#A" n="79"/>dei mandatis obuiare. Tertio damnationem eter 
+        <lb ed="#A" n="80"/>nam seu punitionem. Primum est ex parte dei. alia ex 
+        <lb ed="#A" n="81"/>parte ipsius hominis reprobati. sed secundum scilicet 
+        obdura<lb ed="#A" n="82" break="no"/>tio hominis est ex sue voluntatis malicia. Tertium vero 
+        <lb ed="#A" n="83"/>scilicet pena eterna est ex dei iusticia qua reddit 
+        vni<lb ed="#A" n="84" break="no"/>cuique secundum opera sua.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e148">
+                  <lb ed="#A" n="85"/>De reprobatione plura vide 
+        <lb ed="#A" n="86"/>vbi Predestinatio. et vbi Obduratio pluribus. et 
+        <lb ed="#A" n="87"/>vbi Prescientia. §. xxi. xxii. et aliis etc.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e157">
+                  <lb ed="#A" n="88"/>REs et Realitas 
+        <lb ed="#A" n="89"/>primo communiter secundum esse formale in 
+        di<lb ed="#A" n="90" break="no"/>uinis quibus modis dicitur. Nota secundum 
+        <lb ed="#A" n="91"/>Guill. primo di. xi. cum magistro Nico. Boneti in sua 
+        <lb ed="#A" n="92"/>metaph vca quod res dicitur tripliciter. Primo per modum 
+        sub<lb ed="#A" n="93" break="no"/>iecti. Et sic omnia quae sunt in vno idiuiso: dicuntur res 
+        <lb ed="#A" n="94"/>vnica realitate quae eis subiicitur: sicut omnia quae sunt in ali 
+        <lb ed="#A" n="95"/>quo quanto. dicuntur quanta vnica quantitate. Secundo 
+        <lb ed="#A" n="96"/>modo dicitur res per modum suppositi. Et sic omne positi 
+        <lb ed="#A" n="97"/>uum dicitur res sicut et dicitur ens. Unde Auice i. meta. c. v. dici 
+        <lb ed="#A" n="98"/>Ens et res prima impressione in anima imprimuntur. Ter 
+        <lb ed="#A" n="99"/>tio modo res dicitur per modum constituti. Et sic indiuiduum 
+        <lb ed="#A" n="100"/>dicitur res quod constituitur ex his qua ipsum constituunt et partes 
+        <lb ed="#A" n="101"/>eius seu quasi partes dicuntur aliquid rei. sicut homo est persona: et 
+        <lb ed="#A" n="102"/>eius anima non est persona: nec corpus est persona: sed aliquid  
+        <lb ed="#A" n="103"/>persone. Hec ex Guill. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e195">
+               <head xml:id="Vn7Pel-d79239-Hd1e197">2</head>
+               <p xml:id="Vn7Pel-d79239-d1e200">
+                  <lb ed="#A" n="104"/>¶ Quid sit realitas Respondetur 
+        <lb ed="#A" n="105"/>secundum Fran. in confla. primi di. xxxiii. q. penulti. vbi dicit 
+        <lb ed="#A" n="106"/>Aliqui inquit dicunt quod quicquid est extra animam est realitas 
+        <lb ed="#A" n="107"/>quia ens diuiditur in ens reale quod est extra animam et in 
+        <lb ed="#A" n="108"/>ens rationis quod est in anima: Sed datur instantia quia eiusde 
+        <!--254.xml-->
+        <pb ed="#A" n="255"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ationis formalis ponitur homo in esse cognito in anima et etiam 
+        <lb ed="#A" n="2"/>in re quia vniformiter diffinitur. Et tamen in re habet 
+        realita<lb ed="#A" n="3" break="no"/>tem non in esse cognito. Io inquit Fran. dico quod realitas 
+        <lb ed="#A" n="4"/>est modus intrinsecus formalitatis sicut finitas vel 
+        infi<lb ed="#A" n="5" break="no"/>nitas est modus intrinsecus entis. sicut enim finitas vel infi 
+        <lb ed="#A" n="6"/>nitas aduenien. non variant rationem formalem 
+        diffini<lb ed="#A" n="7" break="no"/>tiuam alicuius quaditatis ita nec realitas. Hec Fran. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e236">
+               <head xml:id="Vn7Pel-d79239-Hd1e238">3</head>
+               <p xml:id="Vn7Pel-d79239-d1e241">
+                  <lb ed="#A" n="8"/>¶ Sed quare necesse est ponere 
+        re<lb ed="#A" n="9" break="no"/>alitatem ista dicit idem Fran. quod scilice paeter rationes 
+        forma<lb ed="#A" n="10" break="no"/>les. de quibus patuit vbi Forma. Istam realitatem nec 
+        <lb ed="#A" n="11"/>est ponere.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e252">
+        ¶ prio ad vitandum realem distinctionem vt 
+        <lb ed="#A" n="12"/>scilicet ea quae sunt in eandem persona non distinguantur realiter ad quia 
+        <lb ed="#A" n="13"/>ppartet quod respondeat eis vnica realitas vt sit vna res. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e259">
+                  <lb ed="#A" n="14"/>¶ Secundo ad vitandum in diuis quaternitatem rerum: quia cum 
+        <lb ed="#A" n="15"/>tres persone sint tres res relatiue. si ergo ponatur in aliqua 
+        <lb ed="#A" n="16"/>persona quod in ea sunt plures realitates quam vnica: puta 
+        <lb ed="#A" n="17"/>vna realitas essetie: alia proprietatis tunc sequeretur quod erit 
+        <lb ed="#A" n="18"/>quaternitas rerum et non tantum trinitas in diuins et sic 
+        redi<lb ed="#A" n="19" break="no"/>ret error Ioachim vnde oportet ponere ibi realitates  
+        <lb ed="#A" n="20"/>tres. gus ad saluandum quaternitatem relationum quia si relati 
+        <lb ed="#A" n="21"/>in diuis esset omnimode sua realitas. Sequitur quod sicut 
+        <lb ed="#A" n="22"/>sunt quattuor relationes sic erunt quattuor res. Nam quattu 
+        <lb ed="#A" n="23"/>orponuntur relationes in diuins: sed non ergo quattuor res. 
+        pa<lb ed="#A" n="24" break="no"/>tuit supra. relatio. §. xxvii. et in sequentibus patebit 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e286">
+               <head xml:id="Vn7Pel-d79239-Hd1e288">4</head>
+               <p xml:id="Vn7Pel-d79239-d1e291">
+                  <lb ed="#A" n="25"/>¶ Sed quomodo et quot realitates con 
+        <lb ed="#A" n="26"/>uenit assiguere in personis diuins. Nota secundum Fraun vbi 
+        <lb ed="#A" n="27"/>upra quattuor conclusiones elucidantes huiusmodi veritatem. Pri 
+        <lb ed="#A" n="28"/>ma conclusio quod in vnaquaque persona est inuenire vnam 
+        reali<lb ed="#A" n="29" break="no"/>tate per qua omnia quae sunt in vna persona diuina sunt vna 
+        <lb ed="#A" n="30"/>res. Nam quacumque sunt vna res sunt vnum per vnam realita 
+        <lb ed="#A" n="31"/>tem. Sed quicumque sunt in vna persona sunt vna res ergo per 
+        <lb ed="#A" n="32"/>vnam realitatem. patuit. §. i. Secunda conclusio quod in qualibet per 
+        <lb ed="#A" n="33"/>sona non est inuenire nisi vnam tantum realitatem. Proba 
+        <lb ed="#A" n="34"/>tur quia vbicumque est inuenire rem et rem: ibi est inuenire 
+        di<lb ed="#A" n="35" break="no"/>stinctionem realem sed talis distinctio non est in aliqua vna 
+        <lb ed="#A" n="36"/>ersona ergo in vna persona non est nisi vna realitas etc. 
+        <lb ed="#A" n="37"/>Tertia conclusio quod in tribus personis est inuenire tres reali 
+        <lb ed="#A" n="38"/>tates per quas ad inuicem distiguuntur realiter. Probatio 
+        <lb ed="#A" n="39"/>quia quaelibet persona est res distincta realiter ab alia. ergo tres 
+        <lb ed="#A" n="40"/>persone habent tres realitates quibus distinguuntur. Quar 
+        <lb ed="#A" n="41"/>ta conclusio quod in diuins non est inuenire plures nisi tantummodo 
+        <lb ed="#A" n="42"/>tres realitates. Probatio: quia si esset quattuor cum 
+        <lb ed="#A" n="43"/>non sint nisi tres persone tunc operteret quod esset due in 
+        <lb ed="#A" n="44"/>vna persona quod est falsum quia sic esset ibi quaternitas 
+        <lb ed="#A" n="45"/>Hec ex Francisco. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e341">
+               <head xml:id="Vn7Pel-d79239-Hd1e343">5</head>
+               <p xml:id="Vn7Pel-d79239-d1e346">
+                  <lb ed="#A" n="46"/>¶ An due realitates dici possint 
+        <lb ed="#A" n="47"/>in vna persona ex eo quod ibi est inuenire vnam 
+        realita<lb ed="#A" n="48" break="no"/>tem absolutam scilicet essentiam diuinam et aliam relatiuam scilicet 
+        pro<lb ed="#A" n="49" break="no"/>prietatem distinctiuam. Respondetur secundum e. Fran. supra. quod in 
+        perso<lb ed="#A" n="50" break="no"/>na vna est realitas vnica quiditatiue. Sicut ei ex anima 
+        <lb ed="#A" n="51"/>et corpore vna quiditas resultat hominis. ita quodammodo ex 
+        <lb ed="#A" n="52"/>essentia et proprietate vna realitas persone extat quidi 
+        <lb ed="#A" n="53"/>tatiue. Ticem hoc exemplum deficiat a diuins vt patet vbi 
+        <lb ed="#A" n="54"/>Proprie. §. xi. Tamen quodammodo ad declarandum conuenit 
+        <lb ed="#A" n="55"/>proposito. Denique exquo realitas inquantum realitas abi 
+        <lb ed="#A" n="56"/>trahit ab absoluto et relatimo. sicut et ens vel entitas 
+        <lb ed="#A" n="57"/>et quiditas secundum se nec est absolutum nec relatiuum: sic 
+        <!--254.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 255 -->
+                  <lb ed="#A" n="58"/>nec realitas in persona sed tamen denominatione 
+        extrinse<lb ed="#A" n="59" break="no"/>ca potest dici et est vtrumque. Quia denominatur ipsa eadem 
+        <lb ed="#A" n="60"/>realitas persone tam absolutam ratione essetie quam etiam 
+        <lb ed="#A" n="61"/>relatiuam ratione relationis realis. sicut eadem natura 
+        <lb ed="#A" n="62"/>puta humana denominatiue dicitur vniuersalis et etiam 
+        <lb ed="#A" n="63"/>particularis. Unde licet idem non possit esse similis absolutum et 
+        <lb ed="#A" n="64"/>relatiuum quiditatiue: sed denominatiue bene potest 
+        <lb ed="#A" n="65"/>esse. Hec Fran. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e399">
+               <head xml:id="Vn7Pel-d79239-Hd1e401">6</head>
+               <p xml:id="Vn7Pel-d79239-d1e404">
+                  <lb ed="#A" n="66"/>¶ Sed difficultas est quia cum 
+        <lb ed="#A" n="67"/>qualibet realitatum istarum quae sunt in personis dicatur abso 
+        <lb ed="#A" n="68"/>luta propter diuinam essentiam sicut dicitur relatiua propter 
+        <lb ed="#A" n="69"/>relationem. Uidetur ergo quod ita debeant in diuinis dici 
+        <lb ed="#A" n="70"/>tres realitates absolute sicut dicuntur tres relatiue 
+        <lb ed="#A" n="71"/>Respondet Fran. quod verum esset si illud a quae dicitur realitas 
+        <lb ed="#A" n="72"/>absoluta: multiplicaretur in diuinis sicut 
+        multipli<lb ed="#A" n="73" break="no"/>catur illud a quo dicitur realitas relatiua. cuius oppositum 
+        <lb ed="#A" n="74"/>est de facto. Ticet enim qualibet trium realitatum sit 
+        abso<lb ed="#A" n="75" break="no"/>lutam ratione essentie. non tamen dicimus tres realitates  
+        <lb ed="#A" n="76"/>absolutas: sicut quodlibet attributorum dicitur infinitu 
+        <lb ed="#A" n="77"/>non tantum plures infinitates aut sicut qualibet persona est 
+        <lb ed="#A" n="78"/>deus non tamen tres dii. Hec Fran. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e436">
+               <head xml:id="Vn7Pel-d79239-Hd1e438">7</head>
+               <p xml:id="Vn7Pel-d79239-d1e441">
+                  <lb ed="#A" n="79"/>¶ An ista res que est in persona 
+        <lb ed="#A" n="80"/>sit communicabilis vel incommunicabilis: Respondetur secundum Fran. 
+        <lb ed="#A" n="81"/>ibidem exquo sic est quod aliquando aliquis terminus suppo 
+        <lb ed="#A" n="82"/>nit pro se vt ibi album disgregat visum. aliquando pro alio scilicet 
+        <lb ed="#A" n="83"/>pro subiecto: vt dicendo albu currit. sic et in proposito 
+        <lb ed="#A" n="84"/>realitas vel res praecise quae est in persona patris potest acci 
+        <lb ed="#A" n="85"/>pi prout supponit pro se et sic est incommunicabilis sicut et 
+        <lb ed="#A" n="86"/>vnica est personalitas patris. Secus est autem cum sup 
+        <lb ed="#A" n="87"/>ponit pro essentia denominatiue per attributionem etc. 
+        <lb ed="#A" n="88"/>Si dicit. Numquid ergo persone divine sunt idem realiter si re 
+        <lb ed="#A" n="89"/>ilitas accipitur pro essentia quae est vnica in personis. Re 
+        <lb ed="#A" n="90"/>spondet idem Fran. quod sic scilicetad hunc sensum quod persone. 
+        <lb ed="#A" n="91"/>divine sunt idem realiter id est sunt eadem essentia et sic sunt 
+        <lb ed="#A" n="92"/>vnum quod est res denominatiue: tamen quiditatiue non posse 
+        <lb ed="#A" n="93"/>verificari quia persone non sunt aliquid vnum quod sit quidita 
+        <lb ed="#A" n="94"/>tiue res. Si autem accipitur realitas vt supponit pro se 
+        <lb ed="#A" n="95"/>sic distinguuntur per res quia se in eis tresreales entitates  
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e481">
+               <head xml:id="Vn7Pel-d79239-Hd1e483">8</head>
+               <p xml:id="Vn7Pel-d79239-d1e486">
+                  <lb ed="#A" n="96"/>¶ An ergo tres persone divine 
+        <lb ed="#A" n="97"/>possint tres res dici vel tres entes: Arguitur quod sic 
+        <lb ed="#A" n="98"/>quia Aug. de doctri. christiana dicit quod pater et filius et 
+        spi<lb ed="#A" n="99" break="no"/>ritus sanctus sunt tres res quibus fruendum est quia nos 
+        <lb ed="#A" n="100"/>btons faciunt Idem dicit et magister in primo di. xxv. Tres 
+        <lb ed="#A" n="101"/>inquit personas dicimus tres res. Denique 
+        Damasce<lb ed="#A" n="102" break="no"/>nus ait In deitate vnam naturam confitemur et tres 
+        <lb ed="#A" n="103"/>hypostases secundum veritatem entes etc.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e506">
+        ¶ In oppositum. 
+        <lb ed="#A" n="104"/>extra de summa trinitate dicitur quod scilicet in tribus personis 
+        <lb ed="#A" n="105"/>est vna summa res. Sed res et ens conuertuntur. vi. 
+        <lb ed="#A" n="106"/>meta: ergo etc. Respondetur secundum Tho. et doc. in primo dist. 
+        <lb ed="#A" n="107"/>xxv. concor. Fran. quod res in diuinis dupliciter dicitur. 
+        <lb ed="#A" n="108"/>Uno modo absolute scilicet a forma absoluta et sic di 
+        <lb ed="#A" n="109"/>citur essentialiter Isto modo tres persone sunt vna 
+        <lb ed="#A" n="110"/>res sicut vna essentia et vnum ens. Alio modo 
+        relati<lb ed="#A" n="111" break="no"/>ue scilicet a proprietate siue a forma relatiua. Et sic 
+        di<lb ed="#A" n="112" break="no"/>cuntur tres persone tres res. Sunt enim tres persone 
+        <lb ed="#A" n="113"/>tres res accipiendo rem notionaliter quia sic dicitur 
+        <lb ed="#A" n="114"/>relatiue relatione non explicita sed implicita: quia inclu 
+        <!--255.xml-->
+        <pb ed="#A" n="256"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>dit in suo intellectu proprietatem relatiuam. sed 
+        abso<lb ed="#A" n="2" break="no"/>te accipiendo rem scilicet essentialiter sunt vna summa res 
+        <lb ed="#A" n="3"/>scilicet deitas vna. Etem res communiter accipitur ad essetiam 
+        <lb ed="#A" n="4"/>et ad prsonam. Sed ens significat sola essentiam et in 
+        <lb ed="#A" n="5"/>hoc differt ens a re: quia res est communius et dici 
+        <lb ed="#A" n="6"/>quiditatem entis. Ens vero esse quiditatis vt dicit Auicen 
+        <lb ed="#A" n="7"/>primo Meta. c. v. Unde licet tres persone possint dic 
+        <lb ed="#A" n="8"/>tres res. non tantum possunt dici tria entia sed vnum ens 
+        <lb ed="#A" n="9"/>quia vnica essentia et vnum esse.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e558">
+        ¶ Sed an sint tres 
+        <lb ed="#A" n="10"/>entes. Nota secundum e. Tho. quod ly ens potest capi vel sub 
+        <lb ed="#A" n="11"/>stantiue scilicet in neutro genere. Et sic non plurificatur 
+        <lb ed="#A" n="12"/>in diuinis: quia significat essentiam quae non potest plurif 
+        <lb ed="#A" n="13"/>cari vnde tres persone non sunt tria entia. Uel potes 
+        <lb ed="#A" n="14"/>capi adiectiue scilicet ens id est existens. Et sic tres 
+        person<lb ed="#A" n="15" break="no"/>sunt tres entes id est existentes. Nomina enim 
+        essentiali<lb ed="#A" n="16" break="no"/>adiectiue tenta plurificantur in diuinis vt patet in 
+        <lb ed="#A" n="17"/>hoc verbo sunt et participio existentes et in hoc verbo 
+        <lb ed="#A" n="18"/>creant: quia potest dici quod pater et filius sunt: et quod pater et filius cre 
+        <lb ed="#A" n="19"/>ant vel existunt.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e582">
+        ¶ Ad hec propter obiecta vide infra 
+        <lb ed="#A" n="20"/>§. xi. et vbi Trinitas. §. v. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e588">
+               <head xml:id="Vn7Pel-d79239-Hd1e590">9</head>
+               <p xml:id="Vn7Pel-d79239-d1e593">
+                  <lb ed="#A" n="21"/>¶ An ergo in diuinis poni possint
+        <lb ed="#A" n="22"/>quattuor res. Una absolutissima vicem essentia et 
+        <lb ed="#A" n="23"/>tres relatiue scilicet tres persone. Respondetur secundum Fran. supr 
+        <lb ed="#A" n="24"/>vicem dist. xxxiii. q. penulti. quod sicut eadem existentia 
+        <lb ed="#A" n="25"/>existit in diuinis essentia et persona sic eadem realita 
+        <lb ed="#A" n="26"/>te sunt res. Nam existentia et realitas sunt modi 
+        <lb ed="#A" n="27"/>adequati. Sed tamtum illa realitas abstrahit ab 
+        ab<lb ed="#A" n="28" break="no"/>soluto et respectiuo: sicut et ratio entis. 
+        Uerunta<lb ed="#A" n="29" break="no"/>men dicitur denominatiue absoluta et relatiua secundum 
+        <lb ed="#A" n="30"/>quod sunt quiditates quarum est talis realitas Unde  
+        <lb ed="#A" n="31"/>essentia si praescindatur a personis non potest dici res acc 
+        <lb ed="#A" n="32"/>piendo rem quiditatiue sed tantum denominatiue et in qua 
+        <lb ed="#A" n="33"/>dam attributione sic potest dici res. Et isto modo in 
+        decre<lb ed="#A" n="34" break="no"/>tali dicitur quod in diuinis est vna summa res prout scilicet res 
+        <lb ed="#A" n="35"/>supponit pro essentia. et quoniam essentia vna numere 
+        <lb ed="#A" n="36"/>est in personis. Et ideo quocumque sibi adu eniente ni 
+        <lb ed="#A" n="37"/>otest distingui realiter. nec personaliter distinguitur per a 
+        <lb ed="#A" n="38"/>tributionem ad personas: ideo non ponit in numerum 
+        <lb ed="#A" n="39"/>sed idem est realiter cum generante et generato et spira 
+        <lb ed="#A" n="40"/>to vt patuit vbi Essentia. §. xliiii. xl v. xl vi. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e640">
+               <head xml:id="Vn7Pel-d79239-Hd1e642">10</head>
+               <p xml:id="Vn7Pel-d79239-d1e645">
+                  <lb ed="#A" n="41"/>¶ Sed quare est quod per has 
+        rea<lb ed="#A" n="42" break="no"/>litates tres: in diuinis non distinguitur essentia 
+        <lb ed="#A" n="43"/>eodem modo sicut paternitas realiter distingui 
+        <lb ed="#A" n="44"/>tur a filiatione per has realitates cum eandem  
+        <lb ed="#A" n="45"/>realitatem habeat paternitas et essentia in patre 
+        <lb ed="#A" n="46"/>Respondetur secundum eundem Fran. quod hoc ideo est: 
+        <lb ed="#A" n="47"/>quia paternitas hanc realitatem quam habet sic 
+        ha<lb ed="#A" n="48" break="no"/>bet quod ea realitate caret filiatio. Ergo distingui. 
+        <lb ed="#A" n="49"/>tur ab illa realiter. Essentia autem eandem reali 
+        <lb ed="#A" n="50"/>tatem habendo non caret simpliciter alia realita 
+        <lb ed="#A" n="51"/>te scilicet filiationis et spirationis: hinc est quod ipsa non 
+        <lb ed="#A" n="52"/>distinguitur realiter ab alia. Unde patet ratio di 
+        <lb ed="#A" n="53"/>uersitatis etc
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e676">
+        ¶ Item exemplum ponit idem Fran. 
+        <lb ed="#A" n="54"/>quod sicut accidentia diuersorum suppositorum 
+        distin<lb ed="#A" n="55" break="no"/>guuntur suppositaliter. Ticem accidentia illa non 
+        <lb ed="#A" n="56"/>sint ipsa supposita tamen hoc habent per attribum 
+        <lb ed="#A" n="57"/>tionem ad ipsa. Ita distincte relationes distinguum 
+        <!--255.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 256 -->
+                  <lb ed="#A" n="58"/>tur realiter per attributionem ad diuersas 
+        reali<lb ed="#A" n="59" break="no"/>tates quas habent in personis distinctis. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e700">
+               <head xml:id="Vn7Pel-d79239-Hd1e702">11</head>
+               <p xml:id="Vn7Pel-d79239-d1e705">
+                  <lb ed="#A" n="60"/>¶ Sed difficultas adhuc est. quia 
+        <lb ed="#A" n="61"/>realitas et existentia sunt modi adequati. Nam 
+        <lb ed="#A" n="62"/>ens et res conuertuntur. vi. Meta. ergo 
+        adequam<lb ed="#A" n="63" break="no"/>tur. Sed in diuinis non ponitur nisi vna existem 
+        <lb ed="#A" n="64"/>tia. ergo nec realitas est ibi ponenda nisi vna. Re 
+        <lb ed="#A" n="65"/>spondetur secundum Fran. eadem dist. xxxiii. et etiam. xlii. 
+        <lb ed="#A" n="66"/>quod res et ens conuertuntur si accipiatur res precise 
+        <lb ed="#A" n="67"/>cum ente actum existente. Et sic existentia et realitas bene 
+        <lb ed="#A" n="68"/>adequantur quantum ad hoc quod vbicumque est vnum 
+        <lb ed="#A" n="69"/>ibi et reliquum. Ubicumque eim est existentia ibi est et re 
+        <lb ed="#A" n="70"/>alitas. Et vbi est res ibi et ens: et econuerso. Quia 
+        <lb ed="#A" n="71"/>omnis res est ens vel existens et econuerso. Sed 
+        <lb ed="#A" n="72"/>tamen non est propterea talis et tanta 
+        adequa<lb ed="#A" n="73" break="no"/>tio quod ad multiplicationem vnius sequatur 
+        mul<lb ed="#A" n="74" break="no"/>tiplicatio alterius. Nam multiplicata re vel res 
+        <lb ed="#A" n="75"/>litate non necessario multiplicatur ens vel enti 
+        <lb ed="#A" n="76"/>tas aut existentia vt patet in diuinis. vbi sunt 
+        <lb ed="#A" n="77"/>tres realitates in vnica existentia diuina. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e747">
+                  <lb ed="#A" n="78"/>¶ De realitate an sit idem quod 
+        <lb ed="#A" n="79"/>formalitas. vide vbi Formalitas. §. iiii. Et 
+        plu<lb ed="#A" n="80" break="no"/>ra ad hec eodem capitulo. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e757">
+               <head xml:id="Vn7Pel-d79239-Hd1e759">12</head>
+               <p xml:id="Vn7Pel-d79239-d1e762">
+                  <lb ed="#A" n="81"/>REs secundo di 
+        <lb ed="#A" n="82"/>delicet creata secundum quod esse habet 
+        <lb ed="#A" n="83"/>in deo. Utrum quelibet res fuerti 
+        <lb ed="#A" n="84"/>ab eterno et quomodo. Nota secundum Bonauentum 
+        <lb ed="#A" n="85"/>ram dist. xxxvi. parte. i. q. i. quod aliquid dicitur esse 
+        <lb ed="#A" n="86"/>in aliquo tripliciter. Uno modo secundum actualem 
+        <lb ed="#A" n="87"/>existentiam. Et sic sunt res in vniuerso et non in 
+        <lb ed="#A" n="88"/>deo. Secundo modo secundum similitudinis presen 
+        <lb ed="#A" n="89"/>tiam. Et sic res sunt in deo quia deus ab eterno 
+        <lb ed="#A" n="90"/>est cognoscens res et in mente habens. Tertio 
+        mo<lb ed="#A" n="91" break="no"/>do secundum creatiuam potentiam: et sic etiam sunt res 
+        <lb ed="#A" n="92"/>in deo quia ab eterno deus est potens creare vel 
+        <lb ed="#A" n="93"/>producere rem etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e794">
+               <head xml:id="Vn7Pel-d79239-Hd1e796">13</head>
+               <p xml:id="Vn7Pel-d79239-d1e799">
+                  <lb ed="#A" n="94"/>¶ An omnes res create 
+        dican<lb ed="#A" n="95" break="no"/>tur esse in dei essentia: Nota secundum Thomam in scri 
+        <lb ed="#A" n="96"/>pto primi. dist. xxxvi. q. i. arti. iii. quod aliud est esse 
+        <lb ed="#A" n="97"/>in scientia dei. Aliud esse in deo. Et aliud esse in 
+        <lb ed="#A" n="98"/>essentia diuina. Nam scientia nominat 
+        cogniti<lb ed="#A" n="99" break="no"/>onem. Unde nil aliud est esse in scientia dei quam a 
+        <lb ed="#A" n="100"/>deo cognosci. Et isto modo tam bona quam mala 
+        <lb ed="#A" n="101"/>dicuntur esse in scientia dei secundum cognitionem. Sed  
+        <lb ed="#A" n="102"/>essentia significat per modum forme vel nature 
+        <lb ed="#A" n="103"/>Unde esse in essentia dei nil aliud est quam subsiste 
+        <lb ed="#A" n="104"/>re in natura diuina vel esse idem nature divine 
+        <lb ed="#A" n="105"/>Et ideo creature non possunt dici in essentia 
+        di<lb ed="#A" n="106" break="no"/>uina esse. sed tantummodo persone diuine et 
+        pro<lb ed="#A" n="107" break="no"/>prietates et attributa dicuntur esse in essentia di 
+        <lb ed="#A" n="108"/>uina. Sed hoc nomen deus significat rem 
+        sub<lb ed="#A" n="109" break="no"/>sistentem cuius esse est operari Unde esse in deo dupliciter 
+        in<lb ed="#A" n="110" break="no"/>telligi potest. vel quod est in esse ipsius dei. et sic create res 
+        <!--256.xml-->
+        <pb ed="#A" n="257"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>non sunt in deo cum sit simplicissimus et 
+        incomponi<lb ed="#A" n="2" break="no"/>bilis Ulis quod subiacet operi dei. sicut dicimus quod opera 
+        <lb ed="#A" n="3"/>quorum domini sumus in nobis sunt tanquam effectus in caus 
+        <lb ed="#A" n="4"/>Et per modum istum omnia que a deo sunt: in deo esse 
+        <lb ed="#A" n="5"/>dicuntur. Non autem mala que ab ipso non sunt nec 
+        priua<lb ed="#A" n="6" break="no"/>tiones vt sic. Predicta ergo tria se habent secundum quendam ordi 
+        <lb ed="#A" n="7"/>nem. quoniam quicquid est in essentia diuina est in deo 
+        <lb ed="#A" n="8"/>quasi partinens ad esse ipsius sed non conuertitur: quia 
+        <lb ed="#A" n="9"/>ea que subiacent operi eius in ipso sunt sed non in 
+        essen<lb ed="#A" n="10" break="no"/>tia eius Rursus quicquid est in deo est in scientia eius 
+        <lb ed="#A" n="11"/>sed non conuertitur vt patet de malis. Unde in deo 
+        ni<lb ed="#A" n="12" break="no"/>hil est diuersum ab ipso. Nam et creature secundum id quod 
+        <lb ed="#A" n="13"/>in deo sunt non sunt: aliud a deo quia creature in deo 
+        <lb ed="#A" n="14"/>sunt creatrix essentia vt dicit Anselms. in monolis. Sunt 
+        <lb ed="#A" n="15"/>enim in deo per suam similitudinem Ipsa autem dei 
+        essen<lb ed="#A" n="16" break="no"/>tia est similitudo omnium que a deo sunt. Hec 
+        Tho<lb ed="#A" n="17" break="no"/>concor. Bona. e. di. circa lit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e883">
+               <head xml:id="Vn7Pel-d79239-Hd1e885">14</head>
+               <p xml:id="Vn7Pel-d79239-d1e888">
+                  <lb ed="#A" n="18"/>¶ Quis est excellentior modus 
+        <lb ed="#A" n="19"/>essendi in deo: Nota secundum Guil. e. di. xxxvi. quod 
+        crea<lb ed="#A" n="20" break="no"/>tura tripliciter dicitur esse in deo videlicet. per eminentiam in 
+        <lb ed="#A" n="21"/>diuinitate. et per virtutem in potentia Et per exem 
+        <lb ed="#A" n="22"/>plar in intellectu secundum esse ideale. Et de his clare pa 
+        <lb ed="#A" n="23"/>tuit supra. vbi Ens et esse. §. xxx. Unde de istis 
+        mo<lb ed="#A" n="24" break="no"/>dis queritur hic Quis sit excellentior. Et rsconontur 
+        ibi<lb ed="#A" n="25" break="no"/>dem scilicet di. xxxvi. primi secundum Guil. quod equalis sunt 
+        <lb ed="#A" n="26"/>nobilitatis identice cum sint vnus deus. Tamen esse 
+        <lb ed="#A" n="27"/>per eremplar diuinum est formaliter nobilior modus 
+        <lb ed="#A" n="28"/>quia alios duos includit cum sit vltimus. praesuppo 
+        <lb ed="#A" n="29"/>nit enim eminentiam in diuinitate et virtutem in ptate 
+        <lb ed="#A" n="30"/>non econuerso 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e920">
+               <head xml:id="Vn7Pel-d79239-Hd1e922">15</head>
+               <p xml:id="Vn7Pel-d79239-d1e925">
+                  <lb ed="#A" n="31"/>¶ An res creata vt est in deo sit 
+        <lb ed="#A" n="32"/>idem quod essentia diuina. Ad hoc Ansls. in monolis. 
+        <lb ed="#A" n="33"/>dicit quod creatura in creatore est creatrix essentia Sed 
+        <lb ed="#A" n="34"/>secundum Bona. in primo dist. xxxvi. circa lit. hoc intelli 
+        <lb ed="#A" n="35"/>gendum est non sic quod creatura in proprio genere sit 
+        <lb ed="#A" n="36"/>essentia diuina Sed quod idea creature vel simili 
+        <lb ed="#A" n="37"/>tudo est in diuina essentia per identitatem Nam deus 
+        <lb ed="#A" n="38"/>per suam essentiam cognoscit omnem creaturam Unde idea 
+        <lb ed="#A" n="39"/>vel similitudo rei in deo est eterna et ipse deus 
+        iden<lb ed="#A" n="40" break="no"/>tice patet etiam per Guil. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e950">
+               <head xml:id="Vn7Pel-d79239-Hd1e952">16</head>
+               <p xml:id="Vn7Pel-d79239-d1e955">
+                  <lb ed="#A" n="41"/>¶ Utrum res sint in deo verius et 
+        <lb ed="#A" n="42"/>excellentius quam in seipsis id est in propria existentia vel in 
+        <lb ed="#A" n="43"/>proprio genere: Respondetur secundum Guil. e. di. xxxvi. per 
+        con<lb ed="#A" n="44" break="no"/>clusionem quod sic. Probatur per Augu. v. super Gen. ad 
+        <lb ed="#A" n="45"/>lit. dicit. sic Omnia priusquam fierent erat in noticia facien 
+        <lb ed="#A" n="46"/>tis Et vtique ibi meliora vbi eterna: vbi veriora et 
+        <lb ed="#A" n="47"/>incommutabilia. Hec ille Hoc idem probatur Secundo 
+        <lb ed="#A" n="48"/>ratione. quia nobilius est res vbi habet esse diuinum et 
+        <lb ed="#A" n="49"/>extat deus quam vbi extat pura creatura. Sed in deo 
+        <lb ed="#A" n="50"/>creatura est deus vt patet praecedenti. §. xv. per Anselmus. in 
+        <lb ed="#A" n="51"/>monol. dicit. Creatura in creatore: est creatrix 
+        essen<lb ed="#A" n="52" break="no"/>tia. Sed in genere proprio est pura vanitas Ec 
+        <lb ed="#A" n="53"/>clesiastes i. Uanitatum vanitas et omnia 
+        vani<lb ed="#A" n="54" break="no"/>tas. ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e988">
+        ¶ Si arguatur. Quia res in 
+        pro<lb ed="#A" n="55" break="no"/>prio genere vel existentia est secundum propriam 
+        enti<lb ed="#A" n="56" break="no"/>titatem et essentiam et singularem realitatem. Sed 
+        <lb ed="#A" n="57"/>in deo est solum secundum quid. scilicet secundum similitudinem. 
+        <!--256.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 257 -->
+                  <lb ed="#A" n="58"/>vel ideam que est respectus rationis. Sed veri 
+        <lb ed="#A" n="59"/>us est res vbi est peri suam essentiam quam vbi est 
+        <lb ed="#A" n="60"/>per suam similitudinem ergo res verius est in 
+        <lb ed="#A" n="61"/>se.
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e1012">
+        ¶ Dicendum licet Philosophus libro de anima vult quod 
+        <lb ed="#A" n="62"/>lapis verius est extra animam quod in anima tantum: 
+        <lb ed="#A" n="63"/>quia lapis non est in anima sed tantum species 
+        lapi<lb ed="#A" n="64" break="no"/>dis. Unde ibi non attribuitur ipsi lapidi operatio 
+        <lb ed="#A" n="65"/>vel proprietas propria. Quia lapis in anima vel 
+        <lb ed="#A" n="66"/>in oculo non mouetur deorsum nec premit gra 
+        <lb ed="#A" n="67"/>uedine: nec ledit etc. sicut facit in propria rei existen 
+        <lb ed="#A" n="68"/>tia etc. Tamen idem Guil cum Bonauentura 
+        <lb ed="#A" n="69"/>eadem dist. q. iiii. notat quod exquo res habet esse 
+        <lb ed="#A" n="70"/>triplex. scilicet In deo. In anima. et in mundo 
+        sensi<lb ed="#A" n="71" break="no"/>bili. Ideoque si comparatur res ad seipsam tunc 
+        <lb ed="#A" n="72"/>pene conceditur quod in seipsa verius habet esse quam 
+        <lb ed="#A" n="73"/>in cognoscente anima vel deo: Quia in seipa vel 
+        <lb ed="#A" n="74"/>in proprio genere habet propriam entitatem quam 
+        <lb ed="#A" n="75"/>non habet alibi. Et sic bene procedit 
+        argumen<lb ed="#A" n="76" break="no"/>tum et philosophi dictum. Si autem compara 
+        <lb ed="#A" n="77"/>tur res ad similitudinem suam quam habet in deo 
+        <lb ed="#A" n="78"/>vt sit sensus questionis. Quid habet esse verius 
+        <lb ed="#A" n="79"/>et nobilius an ipsa res in se: vel eius similitudo 
+        <lb ed="#A" n="80"/>in deo. Sic concedendum est simpliciter quod simi 
+        <lb ed="#A" n="81"/>litudo rei in deo habet esse verius et nobilius quam 
+        <lb ed="#A" n="82"/>ipsa res in se vel in mundo. aut quam in anima. Quia 
+        <lb ed="#A" n="83"/>umilitudo rei in deo est eterna et immutabilis et 
+        <lb ed="#A" n="84"/>est deus. ratione eius quod est in deo creatrix 
+        essen<lb ed="#A" n="85" break="no"/>tia vt in precedentibus dictum est per Anselmum 
+        
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e1067">
+                  <lb ed="#A" n="86"/>¶ Exemplum. Si lapidis imago fiat ex auro: 
+        <lb ed="#A" n="87"/>tunc lapidis illius similitudo habet esse precio¬s 
+        <lb ed="#A" n="88"/>sius quam res ipsa lapidis. Denique si comparetur res 
+        <lb ed="#A" n="89"/>ad animam intellectiuam in qua est per cogniti 
+        <lb ed="#A" n="90"/>onem tunc verius et nobilius esse habet 
+        ratio<lb ed="#A" n="91" break="no"/>ne eius in quo est id est ratione intellectus quam in 
+        <lb ed="#A" n="92"/>se. Quia ibi habet esse spirituale et intellectuale 
+        <lb ed="#A" n="93"/>sed in proprio genere vel in se est quandoque 
+        cor<lb ed="#A" n="94" break="no"/>orale. Ratione autem eius quod est verius: et no 
+        <lb ed="#A" n="95"/>bilius esse habet in se quia est substantia. Sed  
+        <lb ed="#A" n="96"/>in anima habet esse accidentale. et sic patet etc. Hec 
+        <lb ed="#A" n="97"/>Guill. cum Bonauen. et Tho. concor. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d79239-Dd1e1098">
+               <head xml:id="Vn7Pel-d79239-Hd1e1100">17</head>
+               <p xml:id="Vn7Pel-d79239-d1e1103">
+                  <lb ed="#A" n="98"/>¶ Quod est inter omnes res cre 
+        <lb ed="#A" n="99"/>atas perfectissimum et quod imperfectissimum: 
+        Re<lb ed="#A" n="100" break="no"/>spondetur secundum Guill. supra. per illud 
+        Augusti<lb ed="#A" n="101" break="no"/>ni lib. confel. O domine duo formasti. Unum 
+        <lb ed="#A" n="102"/>ppe te. Aliud prope nihil. Prope te naturam ange 
+        <lb ed="#A" n="103"/>licam. Prope nihil materiam primam. Hec ille 
+        
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e1119">
+                  <lb ed="#A" n="104"/>¶ An omnes res que sunt in deo 
+        <lb ed="#A" n="105"/>sint vita et lux. Uide vbi Uita. plura ibi. 
+      </p>
+               <p xml:id="Vn7Pel-d79239-d1e1126">
+                  <lb ed="#A" n="106"/> Item quomodo in omnibus rebus dicitur 
+        <lb ed="#A" n="107"/>esse deus. Uide vbi Locus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

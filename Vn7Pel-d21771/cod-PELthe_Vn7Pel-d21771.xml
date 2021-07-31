@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elementum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Elementum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="73"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d21771">
+            <head xml:id="Vn7Pel-d21771-Hd1e107">Elementum</head>
+            <div xml:id="Vn7Pel-d21771-Dd1e110">
+               <head xml:id="Vn7Pel-d21771-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d21771-d1e115">
+                  <lb ed="#A" n="47"/>ELementu. causa 
+        <lb ed="#A" n="48"/>et principium. Ista tria secundum Guill. super 
+        <lb ed="#A" n="49"/>primo di. xxix. Iuxta Auerr. v. meta 
+        <lb ed="#A" n="50"/>se habent secundum sub et supra. Nam omne elementum est causa sed non econ 
+        <lb ed="#A" n="51"/>uerso. Finis enim est causa sed non elementum. quia elementum 
+        <lb ed="#A" n="52"/>solum est in causa intrinseca. Iterum. omnis causa est principium sed non 
+        <lb ed="#A" n="53"/>econuerso quia locus vnde exit motus est ipsius principium 
+        <lb ed="#A" n="54"/>non tamen causa. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e136">
+               <head xml:id="Vn7Pel-d21771-Hd1e138">2</head>
+               <p xml:id="Vn7Pel-d21771-d1e141">
+                  <lb ed="#A" n="55"/>¶ De elemento queritur An con¬ 
+        <!--72.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 73 -->
+                  <lb ed="#A" n="56"/>ueniat dici de deo: Ad quod Guil. Ubi supra. 
+        No<lb ed="#A" n="57" break="no"/>tat quod secundum philosophum. v. metaph. Elementum est ex quo 
+        <lb ed="#A" n="58"/>aliquid coponitur Primo vbi diffiniendo idem 
+        <lb ed="#A" n="59"/>dicit quod Elementum et ex quo primo componitur aliquio 
+        <lb ed="#A" n="60"/>inexistente indiuisibili specie in aliam speiem. hoc est 
+        <lb ed="#A" n="61"/>quod elementum habeat speciem que non est diuisibilis in 
+        <lb ed="#A" n="62"/>diuersas speens. et sic excluditur materia prima quae non 
+        <lb ed="#A" n="63"/>habet speiem. et etiam mixta que resolubilia sunt in 
+        <lb ed="#A" n="64"/>corpora specie differentia Hec ex metaph. etc. Pro 
+        <lb ed="#A" n="65"/>indeAlex. peripateticus in primo physi. 
+        Elemen<lb ed="#A" n="66" break="no"/>ta dicit esse materiam scilicet secundam et formam
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e176">
+        ¶ Unde secundum 
+        <lb ed="#A" n="67"/>eundem Guil. est Notandum quod elementum dicitur 
+        tri<lb ed="#A" n="68" break="no"/>pliciter. Uno modo logice et sic termini sunt ele 
+        <lb ed="#A" n="69"/>menta propositionum. Et principia sunt 
+        elem<lb ed="#A" n="70" break="no"/>ta conclusionum sicut hoc principum De quoli 
+        <lb ed="#A" n="71"/>bet affirmatio vel negatio et de nullo ambo simul: 
+        <lb ed="#A" n="72"/>est elementum et principium prime demonstrationis 
+        <lb ed="#A" n="73"/>Ut declarat Alber. Primo posteriorum et Franci. 
+        <lb ed="#A" n="74"/>maro. q. i. sui conflatus. Secundo modo dicitur 
+        <lb ed="#A" n="75"/>elementum philosophice. et sic secundum philosophum secundo de generatione 
+        <lb ed="#A" n="76"/>sunt quattuor elementa cuiuslibet rei naturalis 
+        <lb ed="#A" n="77"/>scilicet Ignis: Terra: et Aer: Aqua. Et sic dicitur elemen 
+        <lb ed="#A" n="78"/>tum quasi alimentum quia ex eodem elemento sumus 
+        <lb ed="#A" n="79"/>et nutrimur teste eodem philosopho. Tertio modo dici 
+        <lb ed="#A" n="80"/>tur elementum metaphyce. Et sic quiditates superio 
+        <lb ed="#A" n="81"/>res sicut Animalitas: Substantia: sunt elemen 
+        <lb ed="#A" n="82"/>ta inferiorum puta hominis leonis et ceterorum Pre 
+        <lb ed="#A" n="83"/>terea elementum accipitur grammatice pro litteris ex quod 
+        <lb ed="#A" n="84"/>bus componi habent dictiones Sed de hoc per 
+        trans<lb ed="#A" n="85" break="no"/>eo.
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e220">
+        ¶ Ad questionem itaque Respondetur secundum Guil. 
+        <lb ed="#A" n="86"/>Scotis. vbi supra per conclusione scilicet quod 
+        elemen<lb ed="#A" n="87" break="no"/>tum. non conuenit dici in diuinis. Nec ad intra nec 
+        <lb ed="#A" n="88"/>ad extra Ratio quia omne elementum aut tenet locum ma 
+        <lb ed="#A" n="89"/>terie aut locum forme Sed deus nec materia nec forma 
+        <lb ed="#A" n="90"/>Nam deus est summum Ens entium. materia autem 
+        <lb ed="#A" n="91"/>inter entia infima et prope nihil vt dicit etiam Aug. li. 
+        <lb ed="#A" n="92"/>confes. Forma etiam habet naturam partis in composito 
+        <lb ed="#A" n="93"/>et limitationis ergo non conuenit deo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e241">
+               <head xml:id="Vn7Pel-d21771-Hd1e243">3</head>
+               <p xml:id="Vn7Pel-d21771-d1e246">
+                  <lb ed="#A" n="94"/>¶ Sed difficultas est Quia 
+        Pro<lb ed="#A" n="95" break="no"/>clus propositione. xxxv. dicit quod vnumquodque 
+        perfe<lb ed="#A" n="96" break="no"/>ctum est cum redit ad id vnde exiuit hoc est ad deum 
+        <lb ed="#A" n="97"/>a quo omnia exierunt. vnde Apoca i. Ego sum 
+        <lb ed="#A" n="98"/>alpha et o principium et finis dicit deus. ergo omnia 
+        re<lb ed="#A" n="99" break="no"/>soluuntur in deum. Sed elementum dicitur primum fun 
+        <lb ed="#A" n="100"/>damentum in compositione et vltimum in resolutono 
+        <lb ed="#A" n="101"/>secundum Auerroim. ergo deus est elementum omnium 
+        
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e266">
+                  <lb ed="#A" n="102"/>¶ Respondetur secundum e. Guil. supra quod dicta autoritas 
+        Pro<lb ed="#A" n="103" break="no"/>cli intelligendam est quod omnia resoluuntur in deum 
+        <lb ed="#A" n="104"/>resolutione intellectuali dum intellectus omnia 
+        <lb ed="#A" n="105"/>refert in deum tanquam in causam primariam. Non 
+        <lb ed="#A" n="106"/>autem resolutione materiali que est in principia 
+        <lb ed="#A" n="107"/>intrinseca et in materiam primam elementarem. 
+        <lb ed="#A" n="108"/>ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e285">
+               <head xml:id="Vn7Pel-d21771-Hd1e287">4</head>
+               <p xml:id="Vn7Pel-d21771-d1e290">
+                  <lb ed="#A" n="109"/>De Causa. Queritur an 
+        dica<lb ed="#A" n="110" break="no"/>tur de deo vel de personis Respondetur secundum Guil. 
+        <lb ed="#A" n="111"/>e. distin. xxix. concor. Scotorlis. quod in diuinis que 
+        <lb ed="#A" n="112"/>ad intra nou ponitur causa. sed quo ad extra conce¬ 
+        <!--73.xml-->
+        <pb ed="#A" n="74"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ditur Efficiens et finalis non autem materialis nec 
+        <lb ed="#A" n="2"/>formalis nisi exemplaris. Uide vbi Persona. 
+        <lb ed="#A" n="3"/>§. xiii. Ratio: quia vt Boecius in Topicis 
+        di<lb ed="#A" n="4" break="no"/>cit. Causa est ad cuius esse sequitur aliud. hoc est 
+        <lb ed="#A" n="5"/>effectus. Unde inter causam et effectum causatum 
+        <lb ed="#A" n="6"/>semper est distinctio essetialis. Et hoc notatur per li. 
+        <lb ed="#A" n="7"/>aliud neutri generis. Sed quoniam ad esse dei patris 
+        <lb ed="#A" n="8"/>non sequitur aliud: hoc est distinctum in essentia. lice 
+        <lb ed="#A" n="9"/>sequatur alius scilicet filius et spiritus sanctus qui distinguum 
+        <lb ed="#A" n="10"/>tur personaliter ergo pater non est causa filii nec spiritus sancti 
+        <lb ed="#A" n="11"/>Quia vero Creatura omnis est aliud a deo 
+        essentia<lb ed="#A" n="12" break="no"/>liter. ergo deus respectu creature est causa daus esse 
+        <lb ed="#A" n="13"/>Uerutamen deus non potest esse causa materialis 
+        <lb ed="#A" n="14"/>nec formalis alicuius quia tunc esset 
+        componibi<lb ed="#A" n="15" break="no"/>lis alteri quod repugnat summe simplicitati divine 
+        <lb ed="#A" n="16"/>Sed deus est causa efficiens et finalis. Unde  
+        <lb ed="#A" n="17"/>Prouerb. xvi. Uniuersa propter semetipsum operatus 
+        <lb ed="#A" n="18"/>est dominus. Dum dicit propter se. tangitur causa finalis. dum 
+        <lb ed="#A" n="19"/>dicit operatus est tangitur efficies 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e351">
+               <head xml:id="Vn7Pel-d21771-Hd1e353">5</head>
+               <p xml:id="Vn7Pel-d21771-d1e356">
+                  <lb ed="#A" n="20"/>¶ Sed difficultas est quia Chrus 
+        <lb ed="#A" n="21"/>onstomus dicit quod in diuinis pater est causa filii 
+        <lb ed="#A" n="22"/>Respondetur secundum e. Guil. quod greci pro eodem capiunt 
+        cau<lb ed="#A" n="23" break="no"/>sam et principium. Unde philosophus. v. Meta. dicit. 
+        Cau<lb ed="#A" n="24" break="no"/>sa dicitur sicut principium. ideo sicut apud grecum cu 
+        <lb ed="#A" n="25"/>iusmodi fuit Chrys. ista est vera. pater est 
+        princi<lb ed="#A" n="26" break="no"/>pium filii. ita et ista. Pater est causa filii. Sed nos 
+        <lb ed="#A" n="27"/>aliter vtimur nomine cause et nomine principii differen 
+        <lb ed="#A" n="28"/>ter. Quia causa a causato semper distinguitur essen 
+        <lb ed="#A" n="29"/>tialiter. Non sic principiatum a principio sed sufficit 
+        <lb ed="#A" n="30"/>realis distinctio. cuiusmodi est inter personas 
+        di<lb ed="#A" n="31" break="no"/>uinas. Ideo nos licet concedamus istam pater est 
+        <lb ed="#A" n="32"/>principium filii. Tamen non concedimus quod pater est 
+        <lb ed="#A" n="33"/>causa filii. Ex dictis eliditur error Arrii qui posuit 
+        <lb ed="#A" n="34"/>verbum dei creaturam puram. Similiter eliditur 
+        er<lb ed="#A" n="35" break="no"/>ror Macedonii ponentis spiritum sanctum creaturam etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e394">
+               <head xml:id="Vn7Pel-d21771-Hd1e396">6</head>
+               <p xml:id="Vn7Pel-d21771-d1e399">
+                  <lb ed="#A" n="36"/>¶ An deus ex hoc dicatur causa 
+        <lb ed="#A" n="37"/>tinalis creaturarum quia condidit eas: Respondetur secundum 
+        <lb ed="#A" n="38"/>Guill. supra. quod non. Unde si dato per impossibile quod 
+        <lb ed="#A" n="39"/>essemus conditi. non a deo sed ab aliquo alio. adhuc 
+        <lb ed="#A" n="40"/>ipse deus esset finis nostr et propter se amandus a nobis. 
+        <lb ed="#A" n="41"/>Quia finis noster est deus inquantum est summum 
+        <lb ed="#A" n="42"/>bonum. Ut bene tangit Franciscus Maro. dist 
+        <lb ed="#A" n="43"/>v. primi. q. vii. et. viii. Proinde deus est finis no 
+        <lb ed="#A" n="44"/>ster per diuinam essentiam vicem proprie. Sed 
+        cau<lb ed="#A" n="45" break="no"/>sa efficiens est per diuinam voluntatem. Hec et 
+        <lb ed="#A" n="46"/>Guill. Uide vbi finis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e426">
+               <head xml:id="Vn7Pel-d21771-Hd1e428">7</head>
+               <p xml:id="Vn7Pel-d21771-d1e431">
+                  <lb ed="#A" n="47"/>¶ Que causa arguit in deo maio 
+        <lb ed="#A" n="48"/>rem perfectionem: An efficiens an finalis. Respondetur 
+        <lb ed="#A" n="49"/>secundum Guill. supra. quod licet in deo eadem sit infinitas di 
+        <lb ed="#A" n="50"/>uinorum omnium per Identitatem: sed tamen formaliter lo 
+        <lb ed="#A" n="51"/>quendo dico inquit quod causa finalis arguit 
+        maio<lb ed="#A" n="52" break="no"/>rem perfectionem quam causa efficiens. Ratio quia finis 
+        <lb ed="#A" n="53"/>noster est deus per diuinam essentiam. Efficiens autem 
+        <lb ed="#A" n="54"/>per voluntatem. Sed essentia diuina est radix perfectis 
+        <lb ed="#A" n="55"/>sima a qua cetera pullulant secundum Dionysium ergo propter esse 
+        <lb ed="#A" n="56"/>tiam debet summe diligi a nobis et non propter creatio¬ 
+        <!--73.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 74 -->
+                  <lb ed="#A" n="57"/>nis vtilitatem tantum etc.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e465">
+               <head xml:id="Vn7Pel-d21771-Hd1e467">8</head>
+               <p xml:id="Vn7Pel-d21771-d1e470">
+                  <lb ed="#A" n="58"/>De principio queritur an dicatur 
+        <lb ed="#A" n="59"/>de deo: Ad quod nota secundum e. Guill. e. dist. xxix. 
+        primi<lb ed="#A" n="60" break="no"/>Quod principium solet capi tripliciter.
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e479">
+        ¶ Uno modo Rhe 
+        <lb ed="#A" n="61"/>torice. Et sic est prima pars exordii quae dicitur proemium secundum 
+        <lb ed="#A" n="62"/>Tullium in noua rhetorica.
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e486">
+        ¶ Secundo modo philosophice 
+        <lb ed="#A" n="63"/>Et sic tripliciter dicitur secundum Aristo. v. Meta. ca. de prin 
+        <lb ed="#A" n="64"/>cipio Principium inquit dicitur aut vnde res est. Aut fit 
+        <lb ed="#A" n="65"/>aut cognoscitur etc. Unde principium dicitur primo aut relati 
+        <lb ed="#A" n="66"/>ue ad causam agentem vel efficientem. Et hoc dupli 
+        <lb ed="#A" n="67"/>citer vel per modum nature sicut pater est principium filii. 
+        <lb ed="#A" n="68"/>Uel per modum voluntatis sicut princeps in policia. Sed 
+        <lb ed="#A" n="69"/>cundo aut respectiue ad causam materialem siue 
+        in<lb ed="#A" n="70" break="no"/>trinsecam vnde res fit. Et hoc etiam dupliciter. quia vel illa 
+        <lb ed="#A" n="71"/>materia non manet in facto. Et sic est sicut in 
+        ma<lb ed="#A" n="72" break="no"/>gnitudine vnde incipit motus. Exemplum ex Meta 
+        <lb ed="#A" n="73"/>Motus celi vnde incipit est oriens et dicitur princi 
+        <lb ed="#A" n="74"/>pium motus celi. Similiter in motum locali prima pars 
+        <lb ed="#A" n="75"/>magnitudis vnde incipit motus supra magnitu 
+        <lb ed="#A" n="76"/>dine talem dicitur principium motus. Et ibi materia id 
+        <lb ed="#A" n="77"/>est magnitudo non manet in facto id est in motu etc. 
+        <lb ed="#A" n="78"/>Uel quinque illa materia manet in facto. sic est sicut 
+        <lb ed="#A" n="79"/>fundamentum in domo dicitur principium. Tertio 
+        princi<lb ed="#A" n="80" break="no"/>pium dicitur. Aut respectiue ad cognoscentem. Et sic illud 
+        <lb ed="#A" n="81"/>vnde primo incipit cognitio dicitur principium cognitionis si 
+        <lb ed="#A" n="82"/>cut sunt prima principia sceitarum etc. Iste acceptiones 
+        <lb ed="#A" n="83"/>principii habentur ex Philosopho. v. lib. Meta
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e534">
+        ¶ Tertio 
+        <lb ed="#A" n="84"/>modo principium capitur theologice. Et sic tripliciter dicitur 
+        <lb ed="#A" n="85"/>Uno modo essentialiter. sicut du dicimus quod tres persone 
+        <lb ed="#A" n="86"/>sunt principium creaturarum. Secundo modo personaliter. Et 
+        <lb ed="#A" n="87"/>sic dicit Aug. quod pater est principium totius deitatis 
+        <lb ed="#A" n="88"/>Tertio modo notionaliter. Et sic dicimus quod spiratio 
+        <lb ed="#A" n="89"/>actiua est principium spiritus sancti
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e551">
+        ¶ Ad quaesitum ergo respondetur 
+        <lb ed="#A" n="90"/>secundum e. Guill. per conclusionem. quod in diuins tam quo ad intra 
+        <lb ed="#A" n="91"/>quam qua ad extra principium dicitur. Et patet Ioam. i. In 
+        princi<lb ed="#A" n="92" break="no"/>pio erat verbum id est in patre filius secundum glo. Et infra: omnia per 
+        <lb ed="#A" n="93"/>ipsum facta sunt. Unde Basilius in hexameron dicit Ad 
+        <lb ed="#A" n="94"/>cipere esse ab alio: est commune tam verbo dei quam creaturis. 
+        <lb ed="#A" n="95"/>Est itaque in diuinis primo principium non de principio 
+        <lb ed="#A" n="96"/>et hoc est pater. Secundo est principium de principio. et hoc 
+        <lb ed="#A" n="97"/>est filius. Tertio est principiatum de principio sed non 
+        <lb ed="#A" n="98"/>principium scilicet ad intra et hoc est spiritus sanctus Et postea si 
+        <lb ed="#A" n="99"/>mul tres persone vnicum sunt creature principium. 
+        <lb ed="#A" n="100"/>Et sic patet propositum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d21771-Dd1e578">
+               <head xml:id="Vn7Pel-d21771-Hd1e580">9</head>
+               <p xml:id="Vn7Pel-d21771-d1e583">
+                  <lb ed="#A" n="101"/>¶ An principium dicatur vniuoce 
+        <lb ed="#A" n="102"/>de deo vt est intra ad personas. Et etiam vt est ad 
+        ex<lb ed="#A" n="103" break="no"/>tra ad creaturas: Respondet doctor subtilis e. dist. 
+        <lb ed="#A" n="104"/>xxix. primi. Et Scotorelis. quod ad intra respectu gene 
+        <lb ed="#A" n="105"/>rationis filii. Et respectu spirationis spiritus sancti 
+        <lb ed="#A" n="106"/>vniuoce dicitur: Quia sunt reales relationes. Sed qua 
+        <lb ed="#A" n="107"/>ad intra: et quo ad extra equiuoce dicitur. Ratio. 
+        <lb ed="#A" n="108"/>quia enti reali et enti rationis non est commune 
+        <lb ed="#A" n="109"/>vniuocum Sicut nec ei quod habet esse simpliciter. et 
+        <lb ed="#A" n="110"/>quod habet esse secundum quid vt est homo viuus et 
+        mor<lb ed="#A" n="111" break="no"/>tuus vel pictus vt patet ex diffinitione 
+        equiuo<lb ed="#A" n="112" break="no"/>ci in antepdicamentis vbi dicitur. Equiuoca sunt 
+        <lb ed="#A" n="113"/>quorum nome commune non eadem ratione predicatur de 
+        <!--74.xml-->
+        <pb ed="#A" n="75"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pluribus vt canis etc. Sed quoniam principium vt est 
+        <lb ed="#A" n="2"/>dei ad creaturas loquendo formaliter est solum ens 
+        <lb ed="#A" n="3"/>rationis. quia est relatio secundum dici tantummodo. sed vt est 
+        <lb ed="#A" n="4"/>patris et filii spiritus sancti: est Ens reale. ergo equi 
+        <lb ed="#A" n="5"/>uoce dicitur de istis etc. 
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e631">
+                  <lb ed="#A" n="6"/>¶ De Principio plura vide infra. 
+        <lb ed="#A" n="7"/>vbi de Spiritu sancto. §. xxviii. Item capitulo Principium 
+        <lb ed="#A" n="8"/>§. iiii. et sequen. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d21771-d1e640">
+                  <lb ed="#A" n="9"/>¶ Nota etiam secundum <name xml:id="Vn7Pel-d21771-Nd1e644">Bonauen.</name> e. di. quod in diuinis 
+        no<lb ed="#A" n="10" break="no"/>men principii et principiati recipitur sed non intentione 
+        <lb ed="#A" n="11"/>prioris et posterioris sed tantum producentis et producti. 
+        <lb ed="#A" n="12"/>Sed nomen initii et iniciati non recipitur. Nec finis et 
+        <lb ed="#A" n="13"/>eius quod est ad finem quia dicunt imperfectonem durationis: et 
+        <lb ed="#A" n="14"/>ordinationis etc. Patet vbi Principium. §. iii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

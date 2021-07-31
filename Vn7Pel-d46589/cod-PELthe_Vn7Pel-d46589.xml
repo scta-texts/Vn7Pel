@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Meritum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Meritum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="150"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d46589">
+            <head xml:id="Vn7Pel-d46589-Hd1e107">Meritum</head>
+            <div xml:id="Vn7Pel-d46589-Dd1e110">
+               <head xml:id="Vn7Pel-d46589-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d46589-d1e115">
+                  <lb ed="#A" n="85"/>MEritum. Quid sit 
+        <lb ed="#A" n="86"/>nota secundum doctorem subtilem: et post eum 
+        <lb ed="#A" n="87"/>Guill super id est di. xvii. q. scilicet art. principali 
+        <lb ed="#A" n="88"/>diffinitur sic. Meritum est acius libere voluntati: 
+        median<lb ed="#A" n="89" break="no"/>te dono gratiae elicitus a divina voluntate acceptus vt 
+        prae<lb ed="#A" n="90" break="no"/>miabilis beatitudine. Et dicitur meritum a mereor me 
+        <lb ed="#A" n="91"/>reris. quia meretur premium heatirudinis. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d46589-Dd1e134">
+               <head xml:id="Vn7Pel-d46589-Hd1e136">2</head>
+               <p xml:id="Vn7Pel-d46589-d1e139">
+                  <lb ed="#A" n="92"/>¶ Unde nota secundum eundem ibidem. quod in 
+        <lb ed="#A" n="93"/>merito sunt tria praecipua. Primum est ipsius actus substantia: 
+        <lb ed="#A" n="94"/>et istud est quoddam ens reale. Secundm est productio 
+        <lb ed="#A" n="95"/>passiua. quia iste actus a voluntate elicitur: et sic est 
+        respe<lb ed="#A" n="96" break="no"/>ctus quidam. Tertium est acceptatio diuina ad pre 
+        <lb ed="#A" n="97"/>mium beatitudinis: et hoc est ens solum rationis: et 
+        dici<lb ed="#A" n="98" break="no"/>tur formale meriti. Unde quilibet tantum meretur 
+        <lb ed="#A" n="99"/>quantum est deo acceptabilis etc. Accpitur autem meritum 
+        <lb ed="#A" n="100"/>aliquando proprie: vt ad solum bonum ordinatur: et sic nomi 
+        <lb ed="#A" n="101"/>natur meritum. Aliquando accipitur vt ordinatur ad ma 
+        <lb ed="#A" n="102"/>lum seu ad penam: et sic dicitur meritum malum secundum Au 
+        <lb ed="#A" n="103"/>gusti. lib. de libero arbitrio. hoc etiam proprie demeri 
+        <lb ed="#A" n="104"/>tum nominatur. Aliquando autem accipitur communiter pro hoc et pro 
+        <lb ed="#A" n="105"/>illo. Hec Guill. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d46589-Dd1e173">
+               <head xml:id="Vn7Pel-d46589-Hd1e175">3</head>
+               <p xml:id="Vn7Pel-d46589-d1e178">
+                  <lb ed="#A" n="106"/>¶ Quottuplex distinguitur meritum. 
+        <lb ed="#A" n="107"/>Nota secundum Guil. super primo. di. xli. cum Bon. e. dist. 
+        <lb ed="#A" n="108"/>xli. q. i. quod triplex est meritum. scilicet de congruo. et 
+        <lb ed="#A" n="109"/>de digno et de condigno
+      </p>
+               <p xml:id="Vn7Pel-d46589-d1e189">
+        ¶ Meritum scilicet de 
+        con<lb ed="#A" n="110" break="no"/>gruo dicitur quando peccaor facit quod in se est vt gratiam dei percipi 
+        <!--150.xml-->
+        <pb ed="#A" n="151"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1" break="no"/>at
+      </p>
+               <p xml:id="Vn7Pel-d46589-d1e202">
+        ¶ Meritum de digno seu digni est quando iustus 
+        <lb ed="#A" n="2"/>orat pro peccatore. Etem peccator de se indignus est. etiam 
+        <lb ed="#A" n="3"/>pane qua vescitur. secundum Aug. Rursus: quia orans pro illo er 
+        <lb ed="#A" n="4"/>iustus. non splum ergo habet meritum de congruo. sicut du peccator 
+        <lb ed="#A" n="5"/>orat pro seipso sed hect meritum digni: quia ex parte orantis 
+        <lb ed="#A" n="6"/>est dignitus. licet ex parte eus pro qua oratur sit indignitas 
+        
+      </p>
+               <p xml:id="Vn7Pel-d46589-d1e215">
+                  <lb ed="#A" n="7"/>¶ Meritum vero de condigno est quando iustus pro seipo orat 
+        <lb ed="#A" n="8"/>Nam condignum est exaudiri ad salutem Similiter quando ex tanta 
+        <lb ed="#A" n="9"/>charitate meretur quis tantam gloram quantam iustum est 
+        <lb ed="#A" n="10"/>sibi dari a deo etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d46589-d1e227">
+                  <lb ed="#A" n="11"/>¶ De merito plura habes vbi Eha 
+        <lb ed="#A" n="12"/>ritas. §. vii. et sequentibus. Item li. ii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

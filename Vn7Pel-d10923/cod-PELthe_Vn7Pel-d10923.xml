@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bonitas vel bonum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Bonitas vel bonum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="38"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d10923">
+            <head xml:id="Vn7Pel-d10923-Hd1e107">Bonitas vel bonum</head>
+            <div xml:id="Vn7Pel-d10923-Dd1e110">
+               <head xml:id="Vn7Pel-d10923-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d10923-d1e115">
+                  <lb ed="#A" n="12"/>Bonitas vel 
+        bo<lb ed="#A" n="13" break="no"/>num. primo in communi. vnde 
+        dici<lb ed="#A" n="14" break="no"/>tur. Respondetur secundum Guill. super 
+        <lb ed="#A" n="15"/>primo dist. xxxiiii. Ex bonum 
+        dici<lb ed="#A" n="16" break="no"/>tur a boo boas quod est voco vocas. ex commen 
+        <lb ed="#A" n="17"/>to super. iiii. de diuinis nominibus. quia omnia 
+        <lb ed="#A" n="18"/>bonum appetunt i. Ethicorum. Et omnia bonum 
+        <lb ed="#A" n="19"/>ad se vocant et sic boant naturaliter appetende 
+        <lb ed="#A" n="20"/>bonum. Nam appetitus non fertur naturaliter 
+        <lb ed="#A" n="21"/>nisi in bonum vel verum vel apparens. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e140">
+               <head xml:id="Vn7Pel-d10923-Hd1e142">2</head>
+               <p xml:id="Vn7Pel-d10923-d1e145">
+                  <lb ed="#A" n="22"/>¶ Quod est hoc bonum quod 
+        na<lb ed="#A" n="23" break="no"/>turaliter et communiter omnia appetunt: 
+        Re<lb ed="#A" n="24" break="no"/>spondetur secundum Thom. et Albertum super primo 
+        <lb ed="#A" n="25"/>Ethico. Et post eos <ref xml:id="Vn7Pel-d10923-Rd1e155">
+                     <name xml:id="Vn7Pel-d10923-Nd1e157">Antoninus floren</name>. parte. i. 
+          <lb ed="#A" n="26"/>summe titu. xiii. §. iiii.</ref> Ac secundum Rayne. in sua summa. 
+        <lb ed="#A" n="27"/>Ex hoc bonum quod omnia appetunt est 
+        perpetua<lb ed="#A" n="28" break="no"/>tio in esse. Nam appetitus non solum est boni non 
+        ha<lb ed="#A" n="29" break="no"/>biti sed etiam boni habiti vt melius habeatur. 
+        <lb ed="#A" n="30"/>Et licet esse sit bonum habitum in creatura 
+        ta<lb ed="#A" n="31" break="no"/>men semper appetitur esse cum modo id est cum 
+        <lb ed="#A" n="32"/>perpetuatione ipsius esse vel vt melius 
+        habea<lb ed="#A" n="33" break="no"/>tur. Probatio: quia sicut nulla res appetit 
+        cor<lb ed="#A" n="34" break="no"/>ruptionem suiipius: eo quod corruptio sit non ens 
+        <lb ed="#A" n="35"/>et per conseques non cadit sub appetitu: ita per 
+        <lb ed="#A" n="36"/>contrarium conseruatio in esse est bonum quod ab 
+        <lb ed="#A" n="37"/>omnibus appetitur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e189">
+               <head xml:id="Vn7Pel-d10923-Hd1e191">3</head>
+               <p xml:id="Vn7Pel-d10923-d1e194">
+                  <lb ed="#A" n="38"/>¶ Quid est bonum diffinitiue. 
+        <lb ed="#A" n="39"/>Respondetur secundum Rayne. in summa. quod secundum 
+        Dio<lb ed="#A" n="40" break="no"/>nysium de diuinis nominibus ca. iiui. Bonum est quod 
+        <lb ed="#A" n="41"/>suiipsius est diffusiuum.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e205">
+        ¶ Sed an de rationem 
+        <lb ed="#A" n="42"/>boni sit quod suiipius sit diffusiuum et 
+        communica<lb ed="#A" n="43" break="no"/>tiuum. Respondetur secundum supradictos doctores 
+        <lb ed="#A" n="44"/>ibidem quod sic. Ratio. quia in omni bono est 
+        essen<lb ed="#A" n="45" break="no"/>tia. Et econuerso in omni essentia est bonum. Nam 
+        <lb ed="#A" n="46"/>bonum et ens conuertuntur. vi. Metaphysi. Ab 
+        <lb ed="#A" n="47"/>essentia autem fluit potentia: et a potentia fluit 
+        <lb ed="#A" n="48"/>actus vel actio. Actio autem boni est communica 
+        <lb ed="#A" n="49"/>re seipsum. Ad hoc enim ordinatum est tanquam ad 
+        <lb ed="#A" n="50"/>finem scilicet ad communicandum seipsum ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e228">
+               <head xml:id="Vn7Pel-d10923-Hd1e230">4</head>
+               <p xml:id="Vn7Pel-d10923-d1e233">
+                  <lb ed="#A" n="51"/>¶ Nota autem quod differenter 
+        con<lb ed="#A" n="52" break="no"/>municant se bonum creatum et bonum 
+        increa<lb ed="#A" n="53" break="no"/>tum. Nam bonum creatum communicat et diffun 
+        <!--37.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 38 -->
+                  <lb ed="#A" n="54"/>dit se tribus modis vt videmus.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e251">
+        ¶ 
+        Primoper<lb ed="#A" n="55" break="no"/>sui diuisionem sicut totum in partes punta quia 
+        <lb ed="#A" n="56"/>totum bonum creatum non habetur in vno sed 
+        <lb ed="#A" n="57"/>per partes in pluribus. Et huiusmodi diuisi com 
+        <lb ed="#A" n="58"/>municatio tollit plenitudinem et adunationem que 
+        <lb ed="#A" n="59"/>erat in toto. Sed bonum increatum scilicet deus se 
+        <lb ed="#A" n="60"/>communicat omnibus entibus sine suiipius 
+        di<lb ed="#A" n="61" break="no"/>uisione. Nam dans omnibus esse: et sic se commu 
+        <lb ed="#A" n="62"/>nicando non diuiditur sed in se manet totus. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e271">
+                  <lb ed="#A" n="63"/>¶ Secundo modo bonum creatum diffundit vel 
+        con<lb ed="#A" n="64" break="no"/>municat se per sui multiplicationem numeralem 
+        <lb ed="#A" n="65"/>Sicut ex vno genere proueniunt multe species 
+        <lb ed="#A" n="66"/>et ex vna specie multa indiuidua. Illud autem 
+        <lb ed="#A" n="67"/>vnum sic multiplicatum est commune non singula 
+        <lb ed="#A" n="68"/>re: sed dei bonitas se diffundit sine sui 
+        multipli<lb ed="#A" n="69" break="no"/>catione quia producendo diuersa et successiue etiam 
+        <lb ed="#A" n="70"/>si produceret infinita: non minoratur quin 
+        sem<lb ed="#A" n="71" break="no"/>er amplius possit communicari cum eius bonitas sit 
+        in<lb ed="#A" n="72" break="no"/>finita: et ipsa non multiplicatur numeraliter sicut 
+        com<lb ed="#A" n="73" break="no"/>mune in singularibus sed est singularissimus 
+        <lb ed="#A" n="74"/>in omnibus entibus manens ab omnibus 
+        se<lb ed="#A" n="75" break="no"/>gregatus etc.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e302">
+        ¶ Tertio modo bonum creatum communis 
+        <lb ed="#A" n="76"/>cat se per effusionem sicut ex vno fonte procedunt 
+        <lb ed="#A" n="77"/>multi riuuli et hoc fit cum quadam egressionem 
+        <lb ed="#A" n="78"/>scilicet inquantum aqua a suo fonte egrediens in 
+        mul<lb ed="#A" n="79" break="no"/>tos riuulos diffunditur. Sed diuina bonitas 
+        <lb ed="#A" n="80"/>sine sui effusione communicatur et manens in sua 
+        <lb ed="#A" n="81"/>essentia indistincta in se: tamen multiplicatur in 
+        <lb ed="#A" n="82"/>sua similitudine in creaturis participantibus 
+        <lb ed="#A" n="83"/>ipsam diuinam bonitatem. Nam cum sua boni. 
+        <lb ed="#A" n="84"/>tas sit idem essentialiter quod sua essentia que est 
+        <lb ed="#A" n="85"/>vnica: multiplicari in se non potest sed multipli 
+        <lb ed="#A" n="86"/>catur in sua similitudine in effectibus. Hec Tho. 
+        <lb ed="#A" n="87"/>super Diony. de diuinis nomnibus etc. Unde patet quod 
+        <lb ed="#A" n="88"/>nos debemus deum super omnia amare et imi 
+        <lb ed="#A" n="89"/>tari in communicando bona nobis data ab ipso¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e337">
+               <head xml:id="Vn7Pel-d10923-Hd1e339">5</head>
+               <p xml:id="Vn7Pel-d10923-d1e342">
+                  <lb ed="#A" n="90"/>¶ Quid est bonitas entitatiua. 
+        <lb ed="#A" n="91"/>Respondetur secundum Richar. dist. xl v. arti. i. q. iii 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e349">
+                  <lb ed="#A" n="92"/>¶ Quod bonitas non est aliud nisi entitas rei per quam 
+        <lb ed="#A" n="93"/>est appetibilis vel amabilis. Unde Aristo i. eth. 
+        <lb ed="#A" n="94"/>dicit. Bene annunciatur bonum quod omnia appe 
+        <lb ed="#A" n="95"/>tunt. Et huius ratio. Quia quicumque rem aliquam 
+        <lb ed="#A" n="96"/>amat: non nisi sub hac ratione scilicet bonitatis amas 
+        <lb ed="#A" n="97"/>Et vnumquodque quantum habet de bonitate tantum ha 
+        <lb ed="#A" n="98"/>bet de eligibilitate. ii et. vi. Topicorum: ergo 
+        boni<lb ed="#A" n="99" break="no"/>tas rei est entitas qua est amabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e370">
+               <head xml:id="Vn7Pel-d10923-Hd1e372">6</head>
+               <p xml:id="Vn7Pel-d10923-d1e375">
+                  <lb ed="#A" n="100"/>¶ Utrum omne ens sit bonum. 
+        <lb ed="#A" n="101"/>Respondetur secundum Richardum ibidem et Thoman 
+        <lb ed="#A" n="102"/>prima parte. q. v. arti. iii. Quod in deo et in omni ente 
+        <lb ed="#A" n="103"/>est bonitas entitatiua: quia ista bonitas entis: 
+        <lb ed="#A" n="104"/>non est aliud quam eius entitas quam res ipsa debet 
+        <lb ed="#A" n="105"/>habere. Sed hanc habet a deo omnis res creata eo 
+        <lb ed="#A" n="106"/>ipso quod est ens. habet enim esse et entitatem omnis 
+        <lb ed="#A" n="107"/>creatura quam debet habere iuxta gradum sue 
+        es<lb ed="#A" n="108" break="no"/>sentie. Ideo scriptura dicit Gen. i. Uidit deus 
+        <lb ed="#A" n="109"/>cuncta que fecerat et erant valde bona. Augusti 
+        <lb ed="#A" n="110"/>Omnia eoipso quod sunt: bona sunt. Ratio: quia 
+        <!--38.xml-->
+        <pb ed="#A" n="39"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>omne ens inquantum ens est in actu et quodammo 
+        <lb ed="#A" n="2"/>do perfectum. Quia omnis actus perfectio 
+        que<lb ed="#A" n="3" break="no"/>dam est. Omne autem perfectum habet 
+        ratio<lb ed="#A" n="4" break="no"/>nem appetibilis et per consequens rationem 
+        bo<lb ed="#A" n="5" break="no"/>ni: ergo omne ens est bonum. Unde et Aposto¬. 
+        <lb ed="#A" n="6"/>lus i. Timo. iiii. dicit. Omnis creatura dei 
+        bo<lb ed="#A" n="7" break="no"/>na est. Et Aristoteles. vii Metaphysice. Ens et 
+        <lb ed="#A" n="8"/>bonum conuertuntur ergo patet propositum 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e425">
+                  <lb ed="#A" n="9"/>¶ Si dicas: Demones sunt mali. peccatores etiam 
+        <lb ed="#A" n="10"/>homines sunt mali. Et venena sunt mala quia mortifo 
+        <lb ed="#A" n="11"/>ra. pena: mors: infernus mala sunt. Respondo 
+        <lb ed="#A" n="12"/>tur quod angeli: mali facti sunt sua propria 
+        volun<lb ed="#A" n="13" break="no"/>tate. Crantenim creati boni a deo: et sic ipsi ac ho 
+        <lb ed="#A" n="14"/>mines peccatores: Ticet non sint boni bonitate 
+        <lb ed="#A" n="15"/>moris nihilo minus sunt boni bonitate entis 
+        <lb ed="#A" n="16"/>inquantum sunt. similiter et omnia creata. Tum quod 
+        <lb ed="#A" n="17"/>vt Magister dicit libro. ii distin. iii. Non 
+        potu<lb ed="#A" n="18" break="no"/>it creator optimus autor mali esse. Et ideo totum 
+        <lb ed="#A" n="19"/>bonum est quod ex deo est. Cui consonat Pla 
+        <lb ed="#A" n="20"/>to in Timeo. Optimus est mundi autor in 
+        opti<lb ed="#A" n="21" break="no"/>mis naturis productis: longe ab eo inuidia re 
+        <lb ed="#A" n="22"/>legatur: ergo non potuit facere nisi bonum in 
+        <lb ed="#A" n="23"/>omnibus. Tum quoque quia omnia creata 
+        ha<lb ed="#A" n="24" break="no"/>bent entitatem substantie quam debent habere 
+        <lb ed="#A" n="25"/>ac esse. Entitatem autem habere vel esse est bonum 
+        <lb ed="#A" n="26"/>et appetibile ergo etc. Tum denique quia omnia sunt 
+        <lb ed="#A" n="27"/>a deo ordinata in bonum: puta venena in me 
+        <lb ed="#A" n="28"/>dicinas valent. Et pene sunt quedam medicine 
+        <lb ed="#A" n="29"/>Ut dicitur. ii Ethicorum. Et infernus et mors 
+        va<lb ed="#A" n="30" break="no"/>lent ad dei iusticiam manifestandum in 
+        pecca<lb ed="#A" n="31" break="no"/>torum punitione. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e478">
+               <head xml:id="Vn7Pel-d10923-Hd1e480">7</head>
+               <p xml:id="Vn7Pel-d10923-d1e483">
+                  <lb ed="#A" n="32"/>¶ Quomodo notificatur descri 
+        <lb ed="#A" n="33"/>bendo bonum entitatiuum. Respondetur secundum 
+        <lb ed="#A" n="34"/>Rayne. in summa sua quod bonum quoddam est 
+        <lb ed="#A" n="35"/>increatum vt deus. Et hoc bonum quomodo 
+        <lb ed="#A" n="36"/>notificatur describendo: Patebit in sequentibus. 
+        <lb ed="#A" n="37"/>Quoddam autem est bonum creatum. Et hoc 
+        <lb ed="#A" n="38"/>describitur ex tribus modis. Primo sic. Boni. 
+        <lb ed="#A" n="39"/>creatum dicitur bonum: quia a bono causatur 
+        <lb ed="#A" n="40"/>Secundo dicitur bonum quia in bono 
+        funda<lb ed="#A" n="41" break="no"/>tur. Tertio quia ad bonum ordinatur etc. Ex priu 
+        <lb ed="#A" n="42"/>mo bonum ipsum dicitur habere modumquia habet certum essen 
+        <lb ed="#A" n="43"/>di modum. scilicet. Esse sibi proportionatum vel 
+        <lb ed="#A" n="44"/>commensuratum. Ex secundo habet speciem sci 
+        <lb ed="#A" n="45"/>licet formam specificantem et distinguentem ab 
+        <lb ed="#A" n="46"/>aliis bonis et rebus. Ex tertio bonum habet or 
+        <lb ed="#A" n="47"/>dinem: Quia habet inclinationem naturalem 
+        <lb ed="#A" n="48"/>ad suum finem ad quem ordinatur. Sic ergi 
+        <lb ed="#A" n="49"/>bonum describitur. scilicet. Est creatum a bo 
+        <lb ed="#A" n="50"/>no causatum: in bono fundatum: et ad bonum 
+        <lb ed="#A" n="51"/>ordinatum. Proinde Augustinus libro de natu 
+        <lb ed="#A" n="52"/>ra boni dicit sic. Omnia quanto magis modem 
+        <lb ed="#A" n="53"/>rata speciosa et ordinata sunt: tanto magis 
+        bo<lb ed="#A" n="54" break="no"/>na sunt. Ubi hec tria sunt magna: magna bona 
+        <lb ed="#A" n="55"/>sunt. Ubi parua: parua sunt. Ubi nulla: nulla 
+        <lb ed="#A" n="56"/>sunt. Hec Augustinus Idem de ciuitate dei. xi 
+        <lb ed="#A" n="57"/>dicit sic. A deo est omnis modus: omnis speci¬ 
+        <!--38.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 39 -->
+                  <lb ed="#A" n="58"/>es: omnis ordo: sine quibus nil in rebus 
+        inue<lb ed="#A" n="59" break="no"/>niri potest aut excogitari. Ideoque Sap. xi. Omnia 
+        <lb ed="#A" n="60"/>disponit in numero pondere t mensura. Aug. 
+        <lb ed="#A" n="61"/>Mensura est idem quod modus. Species idem 
+        <lb ed="#A" n="62"/>quod numerus. Quia specificatio forme facit 
+        di<lb ed="#A" n="63" break="no"/>stinctionem et sic facit numerum. Sed ordo ibi 
+        <lb ed="#A" n="64"/>idem est quod pondus. Quia sicut corpus 
+        pon<lb ed="#A" n="65" break="no"/>dere fertur ad suum locum: sic res in finem na 
+        <lb ed="#A" n="66"/>turaliter tendit in quem ordinatur. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e568">
+                  <lb ed="#A" n="67"/>¶ Item in quo consistit mundis 
+        <lb ed="#A" n="68"/>bonitas vbi Potentia. §. lxxiiii.  
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e575">
+                  <lb ed="#A" n="69"/>¶ Utrum bonorum omnium 
+        cau<lb ed="#A" n="70" break="no"/>sa sit dei voluntas. Uide vbi de Uoluntate dei.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e583">
+               <head xml:id="Vn7Pel-d10923-Hd1e585">8</head>
+               <p xml:id="Vn7Pel-d10923-d1e588">
+                  <lb ed="#A" n="71"/>Bonitas secudo 
+        <lb ed="#A" n="72"/>specialis. Nota quod secundum Aristotelem. i 
+        <lb ed="#A" n="73"/>Ethicorum. Bonum diuiditur in 
+        tri<lb ed="#A" n="74" break="no"/>plex bonum scilicet in Bonum 
+        hone<lb ed="#A" n="75" break="no"/>stum. Bonum vtile. Et bonum delectabile. Et secundum 
+        <lb ed="#A" n="76"/>Guill. differunt hec tria. Ut inquit Alexan. de 
+        <lb ed="#A" n="77"/>Ales i. parte collatione de bono. concor. Thom. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e606">
+                  <lb ed="#A" n="78"/>¶ Quia bonum honestum respicit partem rationa 
+        <lb ed="#A" n="79"/>lem anime. Unde Tullius. iiii. Rhetor. noue di 
+        <lb ed="#A" n="80"/>cit. Honestum est quod sua virtute nos attrahit et 
+        <lb ed="#A" n="81"/>dulcedine allicit. Et inde dicitur honestum quasi 
+        <lb ed="#A" n="82"/>honoris status id est bonum per se vel propter se 
+        <lb ed="#A" n="83"/>diligibile: Aut simpliciter sicut est deus. Aut secundum 
+        <lb ed="#A" n="84"/>quid vt sunt virtutes: quia de seipsis habent vn 
+        <lb ed="#A" n="85"/>de desiderentur. Bonum autem honestum 
+        preci<lb ed="#A" n="86" break="no"/>pue reperitur in virtutibus infusis secundum Tho. x 
+        <lb ed="#A" n="87"/>parte. q. v. arti. vi. Unde et Sap. vii. Uenerunt 
+        <lb ed="#A" n="88"/>autem mihi omnia bona pariter cum illa scilic 
+        <lb ed="#A" n="89"/>sapientia infusa: et innumerabilis honestas per 
+        <lb ed="#A" n="90"/>ma. etc.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e637">
+        ¶ Sed bonum delectabile respicit vim con 
+        <lb ed="#A" n="91"/>cupiscibiie in qua est delectatio. Unde bonum 
+        de<lb ed="#A" n="92" break="no"/>lectabile est in quo quis vt in re concupita 
+        qui<lb ed="#A" n="93" break="no"/>escit. Talia ergo bona non habent aliam 
+        ratio<lb ed="#A" n="94" break="no"/>nem appetibilitatis nisi delectationem. Cum aliquando 
+        <lb ed="#A" n="95"/>sint etiam noxia et inhonesta sicut delectationes 
+        ci<lb ed="#A" n="96" break="no"/>borum. ludorum. venereorum et honorum. diuitiarum et 
+        <lb ed="#A" n="97"/>huiusmodi.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e655">
+        ¶ Bonum vero vtile respicit vim 
+        <lb ed="#A" n="98"/>irascibilem que semper in ardua tendit sicuti ipsum 
+        <lb ed="#A" n="99"/>est ad aliud ordinabile. Unde bonum vtile est 
+        <lb ed="#A" n="100"/>quod non propter se sed propter aliud appetitur 
+        <lb ed="#A" n="101"/>Sicut sumere cibum vel potionem amaram 
+        <lb ed="#A" n="102"/>appetitur propter sanitatem. Hec ex Alexan. et Tho¬
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e669">
+               <head xml:id="Vn7Pel-d10923-Hd1e671">9</head>
+               <p xml:id="Vn7Pel-d10923-d1e674">
+                  <lb ed="#A" n="103"/>¶ Sed de quo predictorum 
+        di<lb ed="#A" n="104" break="no"/>citur bonum honestum per prius. 
+        Responde<lb ed="#A" n="105" break="no"/>tur secundum Tho. ibidem scilicet i. parte. q. v. art. vi. quod per 
+        <lb ed="#A" n="106"/>prius praedicatur de bono honesto Nam bonum analogi 
+        <lb ed="#A" n="107"/>ce dicitur de istis. Et primo dicitur de bono honesto: quia 
+        <lb ed="#A" n="108"/>illud est vere bonum et propter se desiderabile et sic est 
+        prae<lb ed="#A" n="109" break="no"/>cipuum in quo inuenitur vtilitas maxima vt 
+        <!--39.xml-->
+        <pb ed="#A" n="40"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pote in diuinis et virtutihus scilicet Consecutio 
+        sa<lb ed="#A" n="2" break="no"/>lutis: pax mentis: ac edificatio proximi. Ideo prae 
+        <lb ed="#A" n="3"/>fertur bono vtili de quo bonum predicatur. Se 
+        <lb ed="#A" n="4"/>cundo denique prefertur a fortiori bono 
+        delecta<lb ed="#A" n="5" break="no"/>bili de quo bonum predicatur. Tertio. Nam in 
+        <lb ed="#A" n="6"/>bono honesto est et vtilitas et delectatio 
+        maxi<lb ed="#A" n="7" break="no"/>ma et verissima. Sed in bono delectabili est bo 
+        <lb ed="#A" n="8"/>nitas sepe fallax et minus vera etc. Q ergo quanstulti 
+        <lb ed="#A" n="9"/>qui preeligunt hec illis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e719">
+               <head xml:id="Vn7Pel-d10923-Hd1e721">10</head>
+               <p xml:id="Vn7Pel-d10923-d1e724">
+                  <lb ed="#A" n="10"/>¶ Quomodo iudicatur vnum 
+        <lb ed="#A" n="11"/>bonum fore melius altero: Respondetur secundum 
+        <lb ed="#A" n="12"/>Raynerium in sua summa Quod preeminentia 
+        perfe<lb ed="#A" n="13" break="no"/>ctionis accipitur ex sex rationibus. Primo quia 
+        <lb ed="#A" n="14"/>est diuturnius ergo securius possidetur et sic 
+        prae<lb ed="#A" n="15" break="no"/>eligitur ne amittatur. Unde beatitudo celestis  
+        <lb ed="#A" n="16"/>melior est omni bono mundi. Secundo quia 
+        <lb ed="#A" n="17"/>est purius. Nam secundum Philosophum. Bonum quod 
+        <lb ed="#A" n="18"/>est sine omni malo impermixtu est maius et 
+        pre<lb ed="#A" n="19" break="no"/>eligendum: sicut Gaudium sine tristicia 
+        preeli<lb ed="#A" n="20" break="no"/>gitur quam cum tristicia. Tertio quia est communius 
+        <lb ed="#A" n="21"/>Nam i. Ethicorum Bonum quanto communius 
+        tan<lb ed="#A" n="22" break="no"/>to diuinius. et melius: quia tale est bonum sim 
+        <lb ed="#A" n="23"/>pliciter. Sed bonum particulare est bonum ali 
+        <lb ed="#A" n="24"/>cui tantum. Unde bonum reipublice prefertur 
+        bo<lb ed="#A" n="25" break="no"/>no particulari alicuius etc. Quarto: quia est su 
+        <lb ed="#A" n="26"/>ficientius Illud enim bonum est melius quo 
+        <lb ed="#A" n="27"/>habito nullo indigemus quam sit illud quo habi 
+        <lb ed="#A" n="28"/>to adhuc indigemus. Unde charitas melior est 
+        <lb ed="#A" n="29"/>quam castitas. Quinto: quia est honorabilius vel 
+        <lb ed="#A" n="30"/>laudabilius quia maior honor et laus debetur 
+        <lb ed="#A" n="31"/>meliori bono. iii. Ethicorum. Unde benefacere ex 
+        <lb ed="#A" n="32"/>traneis est melius et laudabilius quam con sangu. 
+        <lb ed="#A" n="33"/>neis et benefactoribus ceteris paribus. Sexto 
+        <lb ed="#A" n="34"/>quia est preciosius. Nam preciosiora sunt 
+        ma<lb ed="#A" n="35" break="no"/>gis eligibilia: quia precium est quedam digni 
+        <lb ed="#A" n="36"/>tas et mensura rei: sicut aurum prefertur argento 
+        <lb ed="#A" n="37"/>Septio: quia est diuinius. Nam bonum diuinum est per 
+        essen<lb ed="#A" n="38" break="no"/>tiam bonum. alia autem per participationem: Ideo 
+        <lb ed="#A" n="39"/>bonum quod est deo similius et proximius est me 
+        <lb ed="#A" n="40"/>lius aliis. Sicut melius est esse vere sanum qua 
+        <lb ed="#A" n="41"/>apparenter sanum. Et sic gratia prefertur omn 
+        <lb ed="#A" n="42"/>bono. Octauo: quia est efficacius in causando 
+        <lb ed="#A" n="43"/>maius bonum: Et sic medicina licet amara que 
+        <lb ed="#A" n="44"/>est magis causatiua sanitatis melior est cibe 
+        <lb ed="#A" n="45"/>dulci. Nam illa efficit vel causat sauitatem: iste 
+        <lb ed="#A" n="46"/>autem delectationem. sed melior est sanitas 
+        de<lb ed="#A" n="47" break="no"/>lectatione ergo etc. Similiter si proponantur hec 
+        <lb ed="#A" n="48"/>duo bona. scilicet amicicia et diuitie. Amicicia est me 
+        <lb ed="#A" n="49"/>lior et preeligenda: quia est efficacior ad causan 
+        <lb ed="#A" n="50"/>dum maius bonum scilicet delectationem pacem 
+        <lb ed="#A" n="51"/>et alia bona que non efficiunt intantum diuitie qua po 
+        <lb ed="#A" n="52"/>tius causa discordie sunt. Unde Aristo. viii. Ethi. 
+        <lb ed="#A" n="53"/>dicit. Amicicia melior est multo quam pecunia: nul 
+        <lb ed="#A" n="54"/>lus emim sane eligeret viuere sine amicis reliqua beo 
+        <lb ed="#A" n="55"/>na habens. Hec ille. Nono: quia ordinabilius vel fi 
+        <lb ed="#A" n="56"/>ni propinquius siue ipse finis alterius. Nam finis 
+        <lb ed="#A" n="57"/>est melior ordinatis in finem: sicut sanitas me¬ 
+        <!--39.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 40 -->
+                  <lb ed="#A" n="58"/>lior est quam medicina i. Eth. Sic etiam virtus 
+        me<lb ed="#A" n="59" break="no"/>lior est quam scientia: quia virtus immediate ordinatur 
+        <lb ed="#A" n="60"/>ad finem vltimum scilicet ad beatitudinem. Scientia autem 
+        <lb ed="#A" n="61"/>mediante virtute etc. Decimo: quia vtilius. Unde  
+        <lb ed="#A" n="62"/>equus melior est quam simia: Quia licet simia sit 
+        <lb ed="#A" n="63"/>homini in dispositione corporali similior quam equus: 
+        <lb ed="#A" n="64"/>tamen equus in fortitudine vtilior est homini: ergo 
+        me<lb ed="#A" n="65" break="no"/>lior etc. Hec omnia Rayne. in summa sua.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e856">
+               <head xml:id="Vn7Pel-d10923-Hd1e858">11</head>
+               <p xml:id="Vn7Pel-d10923-d1e861">
+                  <lb ed="#A" n="66"/>Bonitas. III. scili 
+        <lb ed="#A" n="67"/>cet moris. Nota secundum Guill. super . i. 
+        <lb ed="#A" n="68"/>dist. vlti. Sicut potest trahi ex decretis 
+        <lb ed="#A" n="69"/>dist. i. Mos est consuetudo longa tran 
+        <lb ed="#A" n="70"/>cta ex actibus hominim moralibus frequentatis Bonum 
+        <lb ed="#A" n="71"/>moris ergo habet esse ex actibus virtuosis frequin 
+        <lb ed="#A" n="72"/>tatis Unde bonum moris non est in malis angelis 
+        <lb ed="#A" n="73"/>vel demonibus. Similiter nec in homnibus malis licet 
+        <lb ed="#A" n="74"/>in vtrisque sit bonum entis vt patuit supra. §. vi 
+        <lb ed="#A" n="75"/>Et aduertendum quod ista tria se habent per ordinem. 
+        <lb ed="#A" n="76"/>Mos: Consuetudo: Tex. sicut patet ex decretis 
+        <lb ed="#A" n="77"/>supra. Nam consuetudo supra more addit quod 
+        ali<lb ed="#A" n="78" break="no"/>quando pro lege capitur. Unde ibidem dicitur. 
+        Consue<lb ed="#A" n="79" break="no"/>tudo est ius quoddam moribus institutum quod pro 
+        le<lb ed="#A" n="80" break="no"/>ge suscipitur quando deficit lex. Tex vero supra 
+        mo<lb ed="#A" n="81" break="no"/>rem et consuetudinem addit quod sit constitutio scripta. vt 
+        <lb ed="#A" n="82"/>enim lex dicatur scribi conuenit. Unde ibidem dicitur. 
+        <lb ed="#A" n="83"/>Tex est constitutio scripta. Inde est quod lex a 
+        legen<lb ed="#A" n="84" break="no"/>do dicitur etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e906">
+               <head xml:id="Vn7Pel-d10923-Hd1e908">12</head>
+               <p xml:id="Vn7Pel-d10923-d1e911">
+                  <lb ed="#A" n="85"/>¶ Que requiruntur ad bonitatem 
+        <lb ed="#A" n="86"/>actus moralis: Respondetur secundum eundem Guill. 
+        <lb ed="#A" n="87"/>vbi supra. quod requiruntur nouem. Primo ipse actus scilicet 
+        <lb ed="#A" n="88"/>sit rectus et bonus in se.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e922">
+        ¶ Sed hoc aduerte quod actus 
+        <lb ed="#A" n="89"/>bonus requirit tria. Ut patet extra de voto. ca 
+        <lb ed="#A" n="90"/>Magne. Primum quid liceat secundum equitatem: que est 
+        <lb ed="#A" n="91"/>iusticia dulcore temporata: vt dicit Eiprianus. Se 
+        <lb ed="#A" n="92"/>cundum requirit quid decet secundum honestatem: Et est 
+        <lb ed="#A" n="93"/>diuersum a verbo licet. quia multa licent que non 
+        <lb ed="#A" n="94"/>decent: vt patebit in subsequentibus. Tertium: quid 
+        <lb ed="#A" n="95"/>expedit secundum vtilitatem. Nam filie sine consensu pa 
+        <lb ed="#A" n="96"/>tris. licet matrimonium contrahere vt patet. xxvii. 
+        <lb ed="#A" n="97"/>q. ii c. Sufficiat. sed tamen non decet. Ut habe 
+        <lb ed="#A" n="98"/>tur de despon. impub. ca i. Nec etiam expedit cum 
+        <lb ed="#A" n="99"/>mulieres sepe laborent contra propria commoda. 
+        C<lb ed="#A" n="100" break="no"/>de spon. l. pater. in fine. Secundo ad bonitatem 
+        <lb ed="#A" n="101"/>actus moralis requiritur: quis agit vt scilicet 
+        <lb ed="#A" n="102"/>ei talis actus conueniat. Unde peccauit Ornias 
+        <lb ed="#A" n="103"/>rex offerendo thus quod sibi non 
+        conuenie<lb ed="#A" n="104" break="no"/>bat: sed sacerdoti. Ideo fuit lepra percussus. ii 
+        <lb ed="#A" n="105"/>Paralis. xxvi. Tertio: cui oportet scilicet talem talem 
+        fie<lb ed="#A" n="106" break="no"/>ri. Unde peccauit Salomon qui offerebat 
+        sa<lb ed="#A" n="107" break="no"/>crificia idolis quibus non debebat. Ideo 
+        pri<lb ed="#A" n="108" break="no"/>uatus fuit integra successione regni. Ut 
+        patu<lb ed="#A" n="109" break="no"/>it tertii Regum vndecimo. Et quarti Regum. 
+        <lb ed="#A" n="110"/>Quarto vbi oportet: vnde peccauit populus in 
+        <lb ed="#A" n="111"/>srael sacrificans in Bethel relicto templo similiter 
+        <lb ed="#A" n="112"/>cum sacrificaret domino quidam sed non vbi oporte¬ 
+        <!--40.xml-->
+        <pb ed="#A" n="41"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>bat. sed in excelsis vt habetur. iiii. Reg. xv. Quinto 
+        <lb ed="#A" n="2"/>quantu oportet vnd peccauit Toth quia bibit de 
+        <lb ed="#A" n="3"/>vino plus quam oportuit. vnde et in icestum lapsus est. vt 
+        <lb ed="#A" n="4"/>natet SGen. xix. c. etc. Sexto qualiter oportet vnuod 
+        <lb ed="#A" n="5"/>peccauit Esau qui importune petiit cibum a Ia 
+        <lb ed="#A" n="6"/>cob. Septio quando oportet vndem peccauit et lapi 
+        <lb ed="#A" n="7"/>datus est ille qui colligebat ligna in Sabbato 
+        <lb ed="#A" n="8"/>Numeri. xv. Octauo per quid vel quo mediante. vn 
+        <lb ed="#A" n="9"/>peccauit Saul qui veritatem de futuris inquisiuit 
+        <lb ed="#A" n="10"/>per phitonissam et non a deo i. Reg. xxviii. Simili 
+        <lb ed="#A" n="11"/>Oporias consulens deum Aharon. iiii. Regum. i 
+        <lb ed="#A" n="12"/>Nono propter quid. vnde peccant Hypocrite qui 
+        <lb ed="#A" n="13"/>non propter deum faciunt bona sed vt videantur ab 
+        <lb ed="#A" n="14"/>omnibus Similiter quae faciunt bona quidem 
+        ope<lb ed="#A" n="15" break="no"/>ra sed mala intentione puta dat quis elemosynam 
+        pau<lb ed="#A" n="16" break="no"/>peri mulieri vt familiaritatem cum ea contrahat ad 
+        <lb ed="#A" n="17"/>ucuriam etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1021">
+               <head xml:id="Vn7Pel-d10923-Hd1e1023">13</head>
+               <p xml:id="Vn7Pel-d10923-d1e1026">
+                  <lb ed="#A" n="18"/>¶ Ex quo dictum est supra quod (hos 
+        <lb ed="#A" n="19"/>est consuetudo longa tracta ex actibus frequen 
+        <lb ed="#A" n="20"/>tatis quaestioritur: Quantum tempus requiritur ad hoc 
+        <lb ed="#A" n="21"/>quod vim legis habeat aliqua consuetudo populi 
+        <lb ed="#A" n="22"/>ita quod valeat ad excum sandum a pena: Respondetur secundum Pa 
+        <lb ed="#A" n="23"/>norm. Extra de consuetu. c fi. quod licet varie sint opi 
+        <lb ed="#A" n="24"/>niones tamen sibi videtur quod si loquimur de 
+        iu<lb ed="#A" n="25" break="no"/>re ciuili tunc consuetudo vt habeat vim excum sandi a 
+        <lb ed="#A" n="26"/>pena requiritur tempus decem annorum quia iura re 
+        <lb ed="#A" n="27"/>quirunt tempus longum ad introducendam 
+        con<lb ed="#A" n="28" break="no"/>suetudinem. Si autem loquimur de iure 
+        canoni<lb ed="#A" n="29" break="no"/>to tunc aut consuetudo est praeter ius scriptum. Et ad  
+        <lb ed="#A" n="30"/>d sufficit tempus decem annorum facit glo. c. fi de 
+        <lb ed="#A" n="31"/>consue. lib. vi. limita secundum Inno. in c. Cum dilect 
+        <lb ed="#A" n="32"/>de consue. Nisi talis consuetudo veniret ad detra 
+        <lb ed="#A" n="33"/>hendum iuri ecclesie particularis vel vniuersalis 
+        <lb ed="#A" n="34"/>Aut consuecudo est contra ius canonicum. et sic non 
+        <lb ed="#A" n="35"/>habet vim tuendi nisi habeat tempus. xl. 
+        anno<lb ed="#A" n="36" break="no"/>rum quia oportet quod sit praescripta.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1070">
+        ¶ Ad hec ponatur 
+        <lb ed="#A" n="37"/>pulcer casus. An ex consuetudine possit 
+        introdu<lb ed="#A" n="38" break="no"/>ti vt exigatur aliquid pro spirituali. siue 
+        simo<lb ed="#A" n="39" break="no"/>nia Respondet idem Panorm. extra de simonia. c. 
+        <lb ed="#A" n="40"/>SGuam. quod sic quando non precessit exactio sed ex 
+        me<lb ed="#A" n="41" break="no"/>ra liberalitate et deuotione populi a decem annis 
+        <lb ed="#A" n="42"/>talis consuetudo est introducta facit. c. Ad 
+        apo<lb ed="#A" n="43" break="no"/>stolicam. de simo. Ubi dicit compellendos ad lau 
+        <lb ed="#A" n="44"/>dabilem consuetudinem seruandam in 
+        huius<lb ed="#A" n="45" break="no"/>modi Si vero exactio precedens dedit causam 
+        <lb ed="#A" n="46"/>consuetudini tunc non valet cum habeat initium 
+        <lb ed="#A" n="47"/>viciosum etc. Denique tertio si loquimur de iudicio 
+        di<lb ed="#A" n="48" break="no"/>uino Sic quamuis vt dictum est communis 
+        con<lb ed="#A" n="49" break="no"/>suetudo excuset a pena huius seculi presertim sei 
+        <lb ed="#A" n="50"/>consuetudinis prauitas nondum est 
+        declara<lb ed="#A" n="51" break="no"/>ta per ius secundum glo. distinctur. iiii. ca. Denique. tamen 
+        <lb ed="#A" n="52"/>quo ad deum non excusat. Nec etiam ignorantia ex 
+        <lb ed="#A" n="53"/>cusat si sit crassa praesertiem in his que sunt contra ius 
+        <lb ed="#A" n="54"/>naturale. xxvii. q. ii Flagicia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1113">
+               <head xml:id="Vn7Pel-d10923-Hd1e1115">14</head>
+               <p xml:id="Vn7Pel-d10923-d1e1118">
+                  <lb ed="#A" n="55"/>¶ Quot autem requirantur ad 
+        <lb ed="#A" n="56"/>hoc quod consuetudo habeat vim legis. Nota si¬ 
+        <!--40.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 41 -->
+                  <lb ed="#A" n="57"/>cut habetur a Canonistis doctoribus quod quinquam 
+        <lb ed="#A" n="58"/>requiruntur de necessitate. Primum quod consuetudo 
+        <lb ed="#A" n="59"/>sit rationabilis: quia de substantia legis est vt 
+        <lb ed="#A" n="60"/>sit rationabilis. <ref xml:id="Vn7Pel-d10923-Rd1e1139" target="http://scta.info/resource/gd-p1d4-d1e135" synch="1-2">iiii. dist. Erit autem</ref>. Unde si sit 
+        <lb ed="#A" n="61"/>contraria saluti anime puta qui nutrit peccatum vel 
+        <lb ed="#A" n="62"/>praeceptis dei et legi naturali numquam habebit vim 
+        le<lb ed="#A" n="63" break="no"/>gis. Secundum est quod mores et actus hominum per 
+        <lb ed="#A" n="64"/>quos introducitur consuetudo sint tales quod pro 
+        <lb ed="#A" n="65"/>pabiliter arguant consensum populi illius qui 
+        <lb ed="#A" n="66"/>otest facere consuetudinem vicem quod tales actus 
+        <lb ed="#A" n="67"/>sunt notorii et frequentati ac publice fiunt a po 
+        <lb ed="#A" n="68"/>pulo. Tertium est: vt sit introducta ex certa 
+        scien<lb ed="#A" n="69" break="no"/>tia non per errorem etc. Quartum est quod maior 
+        <lb ed="#A" n="70"/>pars populi sit vsa illa consuetudine. Quintum est 
+        <lb ed="#A" n="71"/>tempus debitum: de quo patuit in praecedenti 
+        que<lb ed="#A" n="72" break="no"/>stione. De his latius habetur in summa de casibus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1170">
+               <head xml:id="Vn7Pel-d10923-Hd1e1172">16</head>
+               <p xml:id="Vn7Pel-d10923-d1e1175">
+                  <lb ed="#A" n="73"/>¶ Quot actus requiruntur ad 
+        <lb ed="#A" n="74"/>hoc vt quis dicatur habere aliquid in 
+        consuetu<lb ed="#A" n="75" break="no"/>dine: Respondetur quod Glo. xxv. q. ii Ita nos. 
+        <lb ed="#A" n="76"/>Et de causa poss. et propri. ca. Cum ecclesia. dicit 
+        <lb ed="#A" n="77"/>Quod in criminalibus binus actus facit 
+        consuetu<lb ed="#A" n="78" break="no"/>dinem. Sed hoc intelligendum est accipiendo 
+        <lb ed="#A" n="79"/>consuetudinem valde large: non sic accipitur hic. 
+        <lb ed="#A" n="80"/>Unde tres vel quattuor actus non faciunt 
+        con<lb ed="#A" n="81" break="no"/>suetudinem proprie nisi sit legitime prescripta 
+        <lb ed="#A" n="82"/>Ut patet. di. glo. supra. Hec in summa eadem. 
+        <lb ed="#A" n="83"/> Utrum omnis consuetudo pro 
+        <lb ed="#A" n="84"/>prie dicta sit obligatoria sub pena mortalis pec 
+        <lb ed="#A" n="85"/>cati: Respondetur ex Angelica quod non. Quia 
+        quam<lb ed="#A" n="86" break="no"/>uis sit lex siue habeat vim legis consuetudo. 
+        ta<lb ed="#A" n="87" break="no"/>men sicut non omnis lex obligat ad mortale sic 
+        <lb ed="#A" n="88"/>nec omnis consuetudo. Sola ergo illa 
+        consue<lb ed="#A" n="89" break="no"/>tudo obligat ad mortale quane introducta est ea 
+        <lb ed="#A" n="90"/>mente: vt sit prohibitiua vel preceptiua sub pec 
+        <lb ed="#A" n="91"/>cato mortali. Quod potest perpendi quando communiter 
+        <lb ed="#A" n="92"/>tenetur ab omnibus: quod faciens contra peccat 
+        <lb ed="#A" n="93"/>mortaliter. Denique vt notat Panorm. in ca. Cum 
+        <lb ed="#A" n="94"/>olim. De consuetur. locum non habet 
+        consuetu<lb ed="#A" n="95" break="no"/>do nisi in illis locis vbi viguit et non in aliis 
+        lo<lb ed="#A" n="96" break="no"/>cis. Ex dictis in exemplo patet quid tenendum 
+        <lb ed="#A" n="97"/>sit vbi consuetum est in feria quarta non 
+        come<lb ed="#A" n="98" break="no"/>dere carnes sicut in Polonia. Siquis inibi co 
+        <lb ed="#A" n="99"/>medat existens de terra aliena: quomodo 
+        pec<lb ed="#A" n="100" break="no"/>cat quia non mortaliter. tamen abstinere 
+        debe<lb ed="#A" n="101" break="no"/>ret propter scandalum illorum vitandum. Si 
+        <lb ed="#A" n="102"/>militer vbi est consuetum ieiunare feria sexta. 
+        <lb ed="#A" n="103"/>sicut in Hungaria et huiusmodi consuetudini 
+        <lb ed="#A" n="104"/>pus. Nam fertur beatum Ambrosium ad 
+        ma<lb ed="#A" n="105" break="no"/>erem sancti Augustini dixisse. Cum fueris 
+        Rho<lb ed="#A" n="106" break="no"/>me rhomano vtito more. Si sis Mediolani 
+        <lb ed="#A" n="107"/>mediolano vtito m ore. Hec sufficiant etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1253">
+                  <lb ed="#A" n="108"/>¶ Item de bono vel malo moris. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1258">
+                  <lb ed="#A" n="109"/>¶ Utrum bonum sit in mundo 
+        <!--41.xml-->
+        <pb ed="#A" n="42"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>fieri mala moralia scilicet peccata. Et 
+        huiusmo<lb ed="#A" n="2" break="no"/>di questiones plures. Uide infra vbi agemus 
+        <lb ed="#A" n="3"/>de Malo. sub littera. M.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1277">
+               <head xml:id="Vn7Pel-d10923-Hd1e1279">17</head>
+               <p xml:id="Vn7Pel-d10923-d1e1282">
+                  <lb ed="#A" n="4"/>nitas quarto 
+        <lb ed="#A" n="5"/>modo scilicet diuina que est 
+        sum<lb ed="#A" n="6" break="no"/>ma.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1291">
+        ¶ Queritur primo Utrum 
+        de<lb ed="#A" n="7" break="no"/>us sit summum bonum Ad quod 
+        <lb ed="#A" n="8"/>respondendo tripliciter procedemus. Primo ra 
+        <lb ed="#A" n="9"/>tionis circa hoc difficultatem soluendo. Secun 
+        <lb ed="#A" n="10"/>do conclusionem responsiuam ponendo. Tertio 
+        <lb ed="#A" n="11"/>eandem probando.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1304">
+        ¶ Primo inquam soluemus 
+        <lb ed="#A" n="12"/>difficultatem rationis. circa hoc arguitur namque quod 
+        <lb ed="#A" n="13"/>deus non debet dici summum bonum Quia 
+        sum<lb ed="#A" n="14" break="no"/>mum dixitur in comparatione aliorum sicut 
+        sum<lb ed="#A" n="15" break="no"/>mum calidum in comperatione ad alia calida. Et 
+        <lb ed="#A" n="16"/>sol dicitur summe lucidus in comperatione ad alia 
+        <lb ed="#A" n="17"/>sidera vel lucida. Sed quia que non sunt vnius ge 
+        <lb ed="#A" n="18"/>neris non sunt commperabilia Exempli gratia 
+        auri<lb ed="#A" n="19" break="no"/>licet dicatur optimum in comperatione aliorum 
+        me<lb ed="#A" n="20" break="no"/>tallorum Non tamen in comperatione respectu ani 
+        <lb ed="#A" n="21"/>me quia aurum et anima non sunt eiusdem generis 
+        <lb ed="#A" n="22"/>ergo non sunt comprabilia Tunc ad propositum. Deus 
+        <lb ed="#A" n="23"/>non est in eodem genere cum aliis bonis. ergo 
+        <lb ed="#A" n="24"/>non est sumum bonum respectu illorum. cum deus 
+        <lb ed="#A" n="25"/>sit bonum increatum. Alia autem creata. Ad hanc 
+        <lb ed="#A" n="26"/>ergo rationem Dicendum est secundum Thomam prima 
+        per<lb ed="#A" n="27" break="no"/>te. q. vi. arti. ii aliosque Quod deus dicitur summu¬m 
+        <lb ed="#A" n="28"/>bonum respectu quidem aliorum non per 
+        comperatio<lb ed="#A" n="29" break="no"/>nem vel connumerationem cum aliis bonis. quia vni 
+        <lb ed="#A" n="30"/>uersa bona alia non possunt deo connumerari. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1348">
+                  <lb ed="#A" n="31"/>¶ Sed deus dicitur summum bonum respectu omnium 
+        <lb ed="#A" n="32"/>per excessum quia est extra omne genus et principi 
+        <lb ed="#A" n="33"/>um omnium bonorum Ex quia excedit omnia im 
+        <lb ed="#A" n="34"/>proportionabiliter et incomprabiliter sicut infinitum 
+        <lb ed="#A" n="35"/>bonum finita bona. Nam finiti ad infinitum proportio 
+        <lb ed="#A" n="36"/>nulla et per consequens nec comperatio aliqua. primo 
+        <lb ed="#A" n="37"/>celi etc.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1367">
+        ¶ Secudo. ad questionem Conclusio 
+        respon<lb ed="#A" n="38" break="no"/>salis ponitur affirmatiua. videlicet quod deus est vel 
+        <lb ed="#A" n="39"/>rissime et ineffabiliter summum bonum. vnde Augu. 
+        <lb ed="#A" n="40"/>primo de trinitate dicit Trinitas diuinarum perso 
+        <lb ed="#A" n="41"/>narum est summum bonum quod purgatissimis 
+        <lb ed="#A" n="42"/>mentibus cernitur. Hec ille.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1380">
+        ¶ Tertio hec conclusio 
+        <lb ed="#A" n="43"/>probatur declarando secundum Richar. super primo 
+        <lb ed="#A" n="44"/>dist. xl v. arti. i. q. iii. simulque secundum sanctum 
+        Tho<lb ed="#A" n="45" break="no"/>prima par. vbi. supra. Primam ratione quia deus est bo 
+        <lb ed="#A" n="46"/>num habens omnes entium perfectiones simplicit 
+        <lb ed="#A" n="47"/>per seipsum et a seipso et in eo sunt omnia bona 
+        <lb ed="#A" n="48"/>desiderabilia in summo ita quod impossibile est deum 
+        <lb ed="#A" n="49"/>a summo bonitatis deficere in aliquo. ergo deus 
+        <lb ed="#A" n="50"/>est summum bonum vtpote in quo sunt 
+        eminen<lb ed="#A" n="51" break="no"/>tissime omnia bona. Secunda ratione. quia a 
+        <lb ed="#A" n="52"/>deo effluunt omnia bona in creaturas sicut a fon 
+        <lb ed="#A" n="53"/>te et prima causa omnis boni et ab ipso omnia 
+        <lb ed="#A" n="54"/>alia participant esse bonum. ergo deus est 
+        sum<lb ed="#A" n="55" break="no"/>mum bonum Ex quo sunt omnia bona sicut a 
+        <!--41.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 42 -->
+                  <lb ed="#A" n="56"/>summo principio. Tertia ratione quia in deo bo 
+        <lb ed="#A" n="57"/>nitas est infinita. in aliis omnibus finita et defe 
+        <lb ed="#A" n="58"/>ctibilis ergo etc. Quarta ratione quia in deo est 
+        <lb ed="#A" n="59"/>summa bonitas rei et summa bonitas volunta 
+        <lb ed="#A" n="60"/>tis et est in ipso bonitas per essentiam et a seipso 
+        <lb ed="#A" n="61"/>In aliis autem est per accidens a deo participam 
+        <lb ed="#A" n="62"/>do: ergo deus est summum bonum. Exemplum 
+        <lb ed="#A" n="63"/>Tux solis lucet per seipsam: sed colores eandent 
+        <lb ed="#A" n="64"/>vel lucent participando lucem sine qua nec 
+        ap<lb ed="#A" n="65" break="no"/>parent in tenebris etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1441">
+               <head xml:id="Vn7Pel-d10923-Hd1e1443">18</head>
+               <p xml:id="Vn7Pel-d10923-d1e1446">
+                  <lb ed="#A" n="66"/>¶ Utrum deus sit bonus ideo 
+        <lb ed="#A" n="67"/>quiam vult seipsum: Ande econuerso scilicet quod 
+        de<lb ed="#A" n="68" break="no"/>us vult seipsum et amat ideo est bonus etc. Re 
+        <lb ed="#A" n="69"/>pondetur secundum Richardum vbi supra. Tres veri 
+        <lb ed="#A" n="70"/>tates circa hoc eliciendo.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1459">
+        ¶ Prima quasi 
+        pre<lb ed="#A" n="71" break="no"/>ambula quod in deo est bonitas summa tam entis 
+        <lb ed="#A" n="72"/>quam voluntatis. Huius probatio quia in deo est 
+        <lb ed="#A" n="73"/>bonitas substantialis et a seipso est etiam 
+        volun<lb ed="#A" n="74" break="no"/>tas dei ipsa essentia dei volens immutabiliter id 
+        <lb ed="#A" n="75"/>quod debet velle. Sed quia omnis voluntas 
+        <lb ed="#A" n="76"/>que est bona moraliter debet velle deum 
+        pro<lb ed="#A" n="77" break="no"/>ter se et super omnia vtpote summum bonum 
+        <lb ed="#A" n="78"/>Uoluntas autem dei vult seipsum deum et omnia 
+        <lb ed="#A" n="79"/>alia vult propter suiipsius bonitatem. Ergo in  
+        <lb ed="#A" n="80"/>peo est summa bonitas tam entis quam 
+        volunta<lb ed="#A" n="81" break="no"/>tis. Et hec bonitas scilicet. voluntatis dicitur in 
+        <lb ed="#A" n="82"/>nobis bonitas moris.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1488">
+        ¶ Secunda veritas quod 
+        <lb ed="#A" n="83"/>vtraque propositio vera est. videlicet quod deus ideo 
+        <lb ed="#A" n="84"/>vult se quia est bonus. Et econuerso deus ideo 
+        <lb ed="#A" n="85"/>est bonus quia vult se et amat se. Sed hec 
+        veri<lb ed="#A" n="86" break="no"/>ficantur secundum aliam et aliam rationem. 
+        Declara<lb ed="#A" n="87" break="no"/>tur sic. Quia si loquimur de bonitate entis: tunc 
+        <lb ed="#A" n="88"/>constat quod secundum rationem intelligendi. Deus 
+        pri<lb ed="#A" n="89" break="no"/>us est amabilis in se quam amet se. Nimirum vt eti 
+        <lb ed="#A" n="90"/>am Thom. prima parte. q. v. arti. ii dicit. Ens 
+        <lb ed="#A" n="91"/>vel esse prius est secundum rationem intelligendi quam 
+        <lb ed="#A" n="92"/>ponum. prius enim cadit ens in conceptum 
+        in<lb ed="#A" n="93" break="no"/>tellectus. Quia vnumquodque cognoscibile est 
+        in<lb ed="#A" n="94" break="no"/>quantum est ens actu. ix. Metaphysice. Unde ens 
+        <lb ed="#A" n="95"/>est proprium obiectum intellectus et sic est 
+        pri<lb ed="#A" n="96" break="no"/>mum intelligibile. sicut sonus est primum 
+        au<lb ed="#A" n="97" break="no"/>dibile etc. Unde prius est esse quam bonum vel 
+        ama<lb ed="#A" n="98" break="no"/>bile. Et prius: esse bonum quam amare bonum. Sed  
+        <lb ed="#A" n="99"/>quoniam omnis res: etiam ipse deus: est 
+        ama<lb ed="#A" n="100" break="no"/>bilis per bonitatem entis quam habet. Ut 
+        pa<lb ed="#A" n="101" break="no"/>tuit supra. Bonitas primo. §. v. et. vi. Ergo si 
+        <lb ed="#A" n="102"/>loquimur de bonitate entis: deus ideo vult se: 
+        <lb ed="#A" n="103"/>et volendo amat se: Quia bonus et summe 
+        bo<lb ed="#A" n="104" break="no"/>nus est. Et non econuerso: quia non ideo 
+        bo<lb ed="#A" n="105" break="no"/>nus est entitatiue quod vult se. Non enim ideo 
+        ha<lb ed="#A" n="106" break="no"/>bet esse quod amat se. sed quia habet esse amat se etc. 
+        <lb ed="#A" n="107"/>Sed si loquimur de bonitate voluntatis que 
+        <lb ed="#A" n="108"/>consistit in debita conuenientia actus volendi 
+        <lb ed="#A" n="109"/>ad rem volitam. Hoc est in eo quod vult id quod 
+        <lb ed="#A" n="110"/>debet velle. Et hoc in nobis homnibus dicitur bonitas mo 
+        <lb ed="#A" n="111"/>ris sic loquendo Deus ideo est bonus vicem bonitate 
+        <!--42.xml-->
+        <pb ed="#A" n="43"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>voluntatis quia vult se et amat etc. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1562">
+                  <lb ed="#A" n="2"/>¶ Tertia veritas Euxod simpliciter vera est ista Deus 
+        <lb ed="#A" n="3"/>fuit et amat se summe. ideo quia summe 
+        bo<lb ed="#A" n="4" break="no"/>nus est. Declaratur. Exquo enim in deo vtraque 
+        bo<lb ed="#A" n="5" break="no"/>nitas est idem secundum rem licet differant formaliter 
+        <lb ed="#A" n="6"/>vel modaliter. Et quoniam secundum rationem intelligendi prius 
+        <lb ed="#A" n="7"/>us est esse quam velle. ergo secundum rationem intelligendi 
+        pi<lb ed="#A" n="8" break="no"/>us est deum esse summe bonum bonitate entis quam 
+        <lb ed="#A" n="9"/>velle et amare se summe. et sic patet quod simpliciter 
+        <lb ed="#A" n="10"/>vera est propositio dicta. hec ex Rich. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1585">
+               <head xml:id="Vn7Pel-d10923-Hd1e1587">19</head>
+               <p xml:id="Vn7Pel-d10923-d1e1590">
+                  <lb ed="#A" n="11"/>¶ Utrum solus deus sit bonus 
+        <lb ed="#A" n="12"/>per essentiam Ad hoc respondetur Primo argumentoe 
+        <lb ed="#A" n="13"/>rum difficultatem soluendo. Secundo conclusionem 
+        <lb ed="#A" n="14"/>responsalem ponendo Tertio ipsam rationibus de 
+        <lb ed="#A" n="15"/>clarando et probando pariformitur vt consueuim.  
+        <lb ed="#A" n="16"/>et decreuimus facere in multis aliis quaestionibus vbi 
+        <lb ed="#A" n="17"/>materia sic dictat procedendum.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1608">
+        ¶ Primo itaque an 
+        <lb ed="#A" n="18"/>guitur. Quod non solu deus est bonus per essentiam 
+        <lb ed="#A" n="19"/>sed etiam alia. quia esse cuiuslibet rei est eius be 
+        <lb ed="#A" n="20"/>num essentiale: quelibet autem res habet esse et est ens 
+        <lb ed="#A" n="21"/>per suam essentiam. ergo est bona per essentiam Con 
+        <lb ed="#A" n="22"/>firmatur quia omne ens est vnum per suam essentiam. iiii. 
+        <lb ed="#A" n="23"/>metaph. ergo a simili omne ens est bonum per suam 
+        <lb ed="#A" n="24"/>essentiam quia ens vnum et bonum conuertuntur Et per 
+        <lb ed="#A" n="25"/>consequens non solum deus est bonus per essen 
+        <lb ed="#A" n="26"/>tiam. Ad hec secundum Tho id is. par. q. vi. arti. iii. Dicen 
+        <lb ed="#A" n="27"/>dum quod licet vnumquodque sit bonum inquantum habet 
+        <lb ed="#A" n="28"/>esse et est ens per suam essen iam. Tamen essentia 
+        rei<lb ed="#A" n="29" break="no"/>create non est esse suum. quia essentia et esse in omni 
+        <lb ed="#A" n="30"/>bus creatis differunt. vt patebit vbi de Esse. Et 
+        <lb ed="#A" n="31"/>go non sequitur quod res aliqua creata sit bomo per essen 
+        <lb ed="#A" n="32"/>tiam. Sed hoc est solius dei scilicet quod est bonus pe 
+        <lb ed="#A" n="33"/>essentiam quia in ea essentia et ipsum esse suum et 
+        bo<lb ed="#A" n="34" break="no"/>nitas idem sunt Ad confirmationem Dicendum secundum et 
+        <lb ed="#A" n="35"/>quod vnum et bonum licet conuertantur tamen non est simile de 
+        <lb ed="#A" n="36"/>eis in proposito. quia vnum non importat rationem 
+        per<lb ed="#A" n="37" break="no"/>fectionis sed indiuisionis tantum. que indiuisio 
+        <lb ed="#A" n="38"/>vni cuique rei competit secundum suam essentiam. ergo 
+        vna<lb ed="#A" n="39" break="no"/>queque res est vna per suam essentiam vnicam 
+        nume<lb ed="#A" n="40" break="no"/>ro. Secus autem est de bonitate quia hec dicit 
+        perfe<lb ed="#A" n="41" break="no"/>ctionem. ergo non est a simili argumentum.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1663">
+        ¶ 
+        Se<lb ed="#A" n="42" break="no"/>cundo ponitur conclusio ad questionem Quod solus 
+        <lb ed="#A" n="43"/>ipse deus est bonus per essentiam. vnd Mat. xix 
+        <lb ed="#A" n="44"/>Nemo bonus nisi solus deus Glosa. Nemo 
+        bo<lb ed="#A" n="45" break="no"/>nus scilicet per essentiam nisi solus deus. Alia 
+        <lb ed="#A" n="46"/>autem omnia sunt bona a deo per participationem 
+        <lb ed="#A" n="47"/>vt dicit Boetius libro de ebdomadibus. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1679">
+                  <lb ed="#A" n="48"/>¶ Exemplum sicut omnes numeri participant 
+        <lb ed="#A" n="49"/>vnitatem que est prima omnium: et ipsa est per se 
+        <lb ed="#A" n="50"/>non participans numerum aliquem. Ita deus est 
+        <lb ed="#A" n="51"/>per se bonus essentialiter non habens 
+        bonita<lb ed="#A" n="52" break="no"/>tem ab alio: sicut nec deitatem habens ab alio. 
+        <lb ed="#A" n="53"/>Omnis autem bonitas creature participatiue 
+        <lb ed="#A" n="54"/>est ipsa bonitas diuina secundum Dionysium. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1698">
+                  <lb ed="#A" n="55"/>¶ Tertio: Hec conclusio probatur declarando 
+        <lb ed="#A" n="56"/>secundum eundem Tho. vbi. supra. tali ratione quia vnumquodque 
+        <lb ed="#A" n="57"/>dicitur bonum secundum quod est perfectum quia secundum hoc habet 
+        <!--42.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 43 -->
+                  <lb ed="#A" n="58"/>rationem appetibilis vel amabilis Sed cum per 
+        <lb ed="#A" n="59"/>fectio alicuius rei sit triplex. Una perfectio sui esse 
+        <lb ed="#A" n="60"/>vel qua constituitur in esse. Secunda prout ei aliqua 
+        <lb ed="#A" n="61"/>accidentia superadduntur ad suam operationem perfe 
+        <lb ed="#A" n="62"/>ctam necessaria. Tertia est perfectio qua 
+        attin<lb ed="#A" n="63" break="no"/>git suum finem. Exempli gra. homo dicitur 
+        perfe<lb ed="#A" n="64" break="no"/>ctus per suam formam substantialem Et secundo 
+        di<lb ed="#A" n="65" break="no"/>citur perfectus inquantum habet perfectam 
+        opera<lb ed="#A" n="66" break="no"/>tionem anime in corpore scilicet loqui ambulare etc. 
+        <lb ed="#A" n="67"/>Tertio dicitur homo perfectissimus quando 
+        at<lb ed="#A" n="68" break="no"/>tingit suum finem vltimum scilicet beatitudinem ad 
+        <lb ed="#A" n="69"/>qua facta est et c. Sed quoniam hec triplex 
+        perfe<lb ed="#A" n="70" break="no"/>ctio nulli creato competit secundum suam essentiam ni 
+        <lb ed="#A" n="71"/>si tantummodo soli deo. Nam solius dei essentia 
+        <lb ed="#A" n="72"/>est suum esse et cui non adueniunt aliqua 
+        acciden<lb ed="#A" n="73" break="no"/>tia. Denique ipse deus ad nil aliud ordinatur 
+        si<lb ed="#A" n="74" break="no"/>cut ad finem: sed ipse est vltimus finis omnium 
+        <lb ed="#A" n="75"/>Unde manifestum est quod solus deus habet omni. 
+        <lb ed="#A" n="76"/>modam perfectionem secundum suam essentiam: ergo 
+        <lb ed="#A" n="77"/>solus deus est bonus essentialiter. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1758">
+               <head xml:id="Vn7Pel-d10923-Hd1e1760">20</head>
+               <p xml:id="Vn7Pel-d10923-d1e1763">
+                  <lb ed="#A" n="78"/>¶ Utrum omnia sint bona 
+        boni<lb ed="#A" n="79" break="no"/>tate diuina: Circa istam questionem pariformiter 
+        <lb ed="#A" n="80"/>vt in preceden. q.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1772">
+        ¶ Primo arguitur. Quia Au 
+        <lb ed="#A" n="81"/>gusti. viii. de trinitate dicit. Bonum est hoc et 
+        bo<lb ed="#A" n="82" break="no"/>num est illud. Tolle hoc et illud et vide ipsum 
+        bo<lb ed="#A" n="83" break="no"/>num si potes. Ita deum videbis non alio bono 
+        <lb ed="#A" n="84"/>bonum: sed bonum omnis boni. Hec ille. Sed  
+        <lb ed="#A" n="85"/>quia vnumquodque est bonum proprio bono suo: ita 
+        <lb ed="#A" n="86"/>ergo quodlibet est bonum diuino bono quod est bo 
+        <lb ed="#A" n="87"/>num omnis boni: et ad quod ordinantur omnia vt 
+        <lb ed="#A" n="88"/>sint bona per participationem illius. Sed hec difi 
+        <lb ed="#A" n="89"/>ficultas vel obiectio soluitur in subscriptis 
+        hu<lb ed="#A" n="90" break="no"/>ius questionis.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1796">
+        ¶ Secundo ergo conclusio 
+        po<lb ed="#A" n="91" break="no"/>nitur quod sic omnia dicuntur bona bonitate propria 
+        <lb ed="#A" n="92"/>quod cum hoc etiam omnia dicuntur bona bonita 
+        <lb ed="#A" n="93"/>te diuina participata. Ratio: quia omnia sunt 
+        <lb ed="#A" n="94"/>bona inquantum sunt: sed non sunt per esse diuinum: 
+        <lb ed="#A" n="95"/>quia sunt per esse proprium: ergo sunt bona bo 
+        <lb ed="#A" n="96"/>nitate propria et etiam diuina vt patebit.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1812">
+        ¶ 
+        Ter<lb ed="#A" n="97" break="no"/>tio declaratur secundum eundem Tho. vbi supra arti. 
+        <lb ed="#A" n="98"/>iiii. dicen. Quod nihil prohibet in his que 
+        relatio<lb ed="#A" n="99" break="no"/>nem important aliquid ab extrinseco etiam 
+        de<lb ed="#A" n="100" break="no"/>nominari sicut aliquando denominatur locatum a 
+        <lb ed="#A" n="101"/>loco: et mensuratum a mensura et 
+        econuersocpu<lb ed="#A" n="102" break="no"/>ta dicendo vas vini et huiusmodi: vnum denominat 
+        <lb ed="#A" n="103"/>alterum¶ Sed quia hoc absolute verum est quod 
+        <lb ed="#A" n="104"/>deus per suam essentiam est ens et primum 
+        bo<lb ed="#A" n="105" break="no"/>num etiam secundum Aristo. igitur ab ipso primo 
+        bo<lb ed="#A" n="106" break="no"/>no potest vnumquodque dici bonum et ens inquantum 
+        par<lb ed="#A" n="107" break="no"/>ticipat ipsum per modum cuiusdam 
+        assimilatio<lb ed="#A" n="108" break="no"/>nis licet remote et deficienter. Sic ergo est dicen 
+        <lb ed="#A" n="109"/>dum quod vnumquodque dicitur bonum bonitate diuina 
+        <lb ed="#A" n="110"/>per participationem sicut a primo principio 
+        ef<lb ed="#A" n="111" break="no"/>fectiuo exemplari et finali totius bonitatis. 
+        Ni<lb ed="#A" n="112" break="no"/>hilo minus tamen cum hoc etiam vnumquodque 
+        di<lb ed="#A" n="113" break="no"/>citur bonum bonitatis diuine similitudine sibi 
+        inheren<lb ed="#A" n="114" break="no"/>te quae est formaliter sua propria bonitas denomninans ipsum 
+        <!--43.xml-->
+        <pb ed="#A" n="44"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Et sic omnium entium est bonitas vna. scilicet diuina 
+        <lb ed="#A" n="2"/>quam participant. et cum hoc multe bonitates 
+        <lb ed="#A" n="3"/>proprie secundum gradum varium similitudinum. Hec ex Tho. 
+        <lb ed="#A" n="4"/>Exemplum ponamus quod tu sis valud pulcer et fa 
+        <lb ed="#A" n="5"/>cias fieri aliquas plures imagines te 
+        represen<lb ed="#A" n="6" break="no"/>tantes pulcre tunc imagines ille habent quidem 
+        <lb ed="#A" n="7"/>pulcritudinem propriam. Sed denominantur pulcre ex 
+        <lb ed="#A" n="8"/>te pulcro. Tum quia tum es causa effectiua et exempla 
+        <lb ed="#A" n="9"/>ris illarum. Tum quia facte sunt ad hunc finem vt repitum 
+        <lb ed="#A" n="10"/>tent in seipsis tuam pulcritudinem Sic aliquo 
+        mo<lb ed="#A" n="11" break="no"/>do est in proposito de bonitate dei in creaturis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1885">
+               <head xml:id="Vn7Pel-d10923-Hd1e1887">21</head>
+               <p xml:id="Vn7Pel-d10923-d1e1890">
+                  <lb ed="#A" n="12"/>¶ Quomodo notificatur et 
+        descri<lb ed="#A" n="13" break="no"/>bitur bonum increatum scilicet deus. Respondetur secundum Diony. 
+        <lb ed="#A" n="14"/>de di. no. iiii. c. Et post eum Rayne. in Summa quod 
+        tri<lb ed="#A" n="15" break="no"/>pliciter.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1901">
+        ¶ Primo sic Bonum increatum est in quo 
+        <lb ed="#A" n="16"/>omnia preexistut Exquo habet rationem omnia 
+        continen<lb ed="#A" n="17" break="no"/>tis.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1908">
+        ¶ Secuno sic. est ex quo omnia subsistunt. exquo 
+        <lb ed="#A" n="18"/>habet rationem omnia efficientis et conseruantis.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1913">
+        ¶ 
+        Ter<lb ed="#A" n="19" break="no"/>tio sic est quod omnia appetunt Exquo habet rationem 
+        <lb ed="#A" n="20"/>vltimi finis.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1921">
+        ¶ Circa primam descriptionem 
+        Scien<lb ed="#A" n="21" break="no"/>dum secundum magistrum Herueum in tractatu de verbi 
+        <lb ed="#A" n="22"/>diuino. q. ii quod omnis res nobilius esse habet in deo 
+        <lb ed="#A" n="23"/>quam in seipsa. Primo quia ibi habet esse vt in causa 
+        prin<lb ed="#A" n="24" break="no"/>cipali causante et sustentante totum esse rei Sed 
+        <lb ed="#A" n="25"/>in seipsa habet esse vt in effectu vel quasi in ra 
+        <lb ed="#A" n="26"/>mo sustentato a stipite vel radice. Secundo quia in 
+        <lb ed="#A" n="27"/>deo habet esse spirituale: eternale: et diuinum. Sed in 
+        <lb ed="#A" n="28"/>seipsa habet esse materiale: temporale: et creatum. 
+        <lb ed="#A" n="29"/>Nobilius autem est esse spirituale: eternale: et diuinum qua 
+        <lb ed="#A" n="30"/>naturale etc.
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1945">
+        ¶ Exemplum secundum Anto. per i. ti. xiii. §. 
+        <lb ed="#A" n="31"/>iiii. sicut Argenteus denarius est in floreno aureo: 
+        <lb ed="#A" n="32"/>non quidem in materia propria sed in valore et 
+        precio<lb ed="#A" n="33" break="no"/>sitate multo maiori etnobiliori: sic quodammodo 
+        <lb ed="#A" n="34"/>in proposito. omnia enim bona quae appetuntur excellentiori 
+        <lb ed="#A" n="35"/>modo et perfectius. et sine defectu sunt in deo qua 
+        <lb ed="#A" n="36"/>in seipsis. et sic patet prima descriptio predicta etc 
+        
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e1961">
+                  <lb ed="#A" n="37"/>¶ Secunda etiam patet quia omnia creata conseruantur a deo 
+        <lb ed="#A" n="38"/>nisi enim conseruarentur ab ipso sicut de nihilo creata 
+        <lb ed="#A" n="39"/>sunt ita in nihilum redigerentur vt dicit Augu. super 
+        <lb ed="#A" n="40"/>Ben. ad lit. Et Grego. in morlis. vnod omnia vanitas 
+        <lb ed="#A" n="41"/>Ecces i. sicut enim aer praesente luine statim fit lucidus 
+        <lb ed="#A" n="42"/>quo subtracto statim lux illa in eo perit et obtene 
+        <lb ed="#A" n="43"/>bratur sic in proposito. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e1980">
+               <head xml:id="Vn7Pel-d10923-Hd1e1982">22</head>
+               <p xml:id="Vn7Pel-d10923-d1e1985">
+                  <lb ed="#A" n="44"/>¶ Sed circa tertiam descriptionem 
+        <lb ed="#A" n="45"/>quomodo omnia appetunt deum. Notandum quod omnia 
+        natu<lb ed="#A" n="46" break="no"/>raliter appetunt deum tripliciter. Primo sicut princi 
+        <lb ed="#A" n="47"/>pium suum a quo habent esse bonum. nam vt Aug. viii. 
+        <lb ed="#A" n="48"/>de trini. ait deus est omnis rei bonum scilicet causaliter vel 
+        <lb ed="#A" n="49"/>efficienter: exemplariter et finaliter: vt dictum est. supra. q§ 
+        <lb ed="#A" n="50"/>iiii. Et ista bonitate dei efficiente: exemplari. et 
+        fi<lb ed="#A" n="51" break="no"/>nali: multo magis bona est vnaquique res quam ipsa 
+        <lb ed="#A" n="52"/>bonitate propria inherente et in se habita ideoque 
+        <lb ed="#A" n="53"/>si cessaret talis bonitas dei in tali creatura 
+        cessa<lb ed="#A" n="54" break="no"/>ret tota bonitas illius creature vnde omnia na 
+        <lb ed="#A" n="55"/>turali inclinatione desiderant deum tanquam suum 
+        bo<lb ed="#A" n="56" break="no"/>num a quo habent vt sint bona. Secundo omnia 
+        <lb ed="#A" n="57"/>creata desiderant deum vt suum auxilium quo in esse 
+        <!--43.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 44 -->
+                  <lb ed="#A" n="58"/>conseruantur. Heb i. portans omnia verbo 
+        vir<lb ed="#A" n="59" break="no"/>tatis sue etc. Tertio omnia desiderant deum 
+        natu<lb ed="#A" n="60" break="no"/>raliter. vt finem vel terminum vltimum in quo omnis 
+        <lb ed="#A" n="61"/>apbetitus quietatur. hec ex Rayne. et Anto. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d10923-Dd1e2034">
+               <head xml:id="Vn7Pel-d10923-Hd1e2036">23</head>
+               <p xml:id="Vn7Pel-d10923-d1e2039">
+                  <lb ed="#A" n="62"/>¶ Utrum de bonitate immensa 
+        <lb ed="#A" n="63"/>dei habeant vel possint cogitare demones et in 
+        <lb ed="#A" n="64"/>inferno damnati: Respondetur breviter secundum 
+        <lb ed="#A" n="65"/>Richardum et Thomam in quarto. dist. vltima. 
+        <lb ed="#A" n="66"/>Quod demones et damnati non possunt cogitare 
+        <lb ed="#A" n="67"/>de deo nisi inquantum est puniens eos. Et sic 
+        ma<lb ed="#A" n="68" break="no"/>xime cogitant. non quidem ex amoressed ex odic 
+        <lb ed="#A" n="69"/>in quo sunt obstinati contra deum. Iuxta illud 
+        <lb ed="#A" n="70"/>Psalmiste. Superbia eorum qui te oderunt: 
+        <lb ed="#A" n="71"/>ascendit semper. Unde patet quod de bonitate dei 
+        <lb ed="#A" n="72"/>et misericordia non cogitant: quia eam odiunt. 
+        <lb ed="#A" n="73"/>Nec hoc eis conceditur quia esset delectatio de 
+        <lb ed="#A" n="74"/>bonitate dei ex amore cogitare vel admirari etc. 
+      </p>
+               <p xml:id="Vn7Pel-d10923-d1e2070">
+                  <lb ed="#A" n="75"/>¶ Utrum deus ex infinita 
+        boni<lb ed="#A" n="76" break="no"/>tate sua velit omnibus bona et 
+        <lb ed="#A" n="77"/>salutem. Et plura huiusmodi. Uide infra vbi 
+        <lb ed="#A" n="78"/>de voluntate dei etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Equalitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Equalitas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="84"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d25353">
+            <head xml:id="Vn7Pel-d25353-Hd1e107">Equalitas</head>
+            <div xml:id="Vn7Pel-d25353-Dd1e110">
+               <head xml:id="Vn7Pel-d25353-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d25353-d1e115">
+                  <lb ed="#A" n="71"/>EQuautas. 
+        No<lb ed="#A" n="72" break="no"/>Istandum circa hoc secundum Guil. in i. dist. 
+        <lb ed="#A" n="73"/>sxix. quod iuxta Aristote. v. Metaph. tr 
+        <lb ed="#A" n="74"/>plex est relationum genus in vnitate fundatum. 
+        <lb ed="#A" n="75"/>Primum est quod fundatur in substantia. et dicitur Identitas 
+        <lb ed="#A" n="76"/>Secundum fundatur in quantitate. et dicitur Equalitas. Ter 
+        <lb ed="#A" n="77"/>tium in qualitate. et dicitur Similitudo. Sed equalitas 
+        <lb ed="#A" n="78"/>quando perfecta est tunc supponit etiam pro similitudine. 
+        <lb ed="#A" n="79"/>vnde equalitas quasi equa qualitas dicta est. Quando enim 
+        <lb ed="#A" n="80"/>aliqua dicuntur equalitatem plenariam habere: tunc etiam 
+        <lb ed="#A" n="81"/>habent plenam similitudinem: cum qualitas in 
+        quanti<lb ed="#A" n="82" break="no"/>tate fundetur. et ita in eadem quantitate est eadem quali 
+        <lb ed="#A" n="83"/>tas. Inde est quod quia persone diuine sunt equales in 
+        <lb ed="#A" n="84"/>perfectionibus dicimus quod etiam sunt similes. Hec Guill. 
+        <lb ed="#A" n="85"/>Concor. Tho. e. dist. xix. q. i. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e150">
+                  <lb ed="#A" n="86"/>¶ An equalitas dicat relationem 
+        <lb ed="#A" n="87"/>realem: Uide Relatio. §. xxvii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e158">
+               <head xml:id="Vn7Pel-d25353-Hd1e160">2</head>
+               <p xml:id="Vn7Pel-d25353-d1e163">
+                  <lb ed="#A" n="88"/>¶ Utrum in diuinis sit vere equa 
+        <lb ed="#A" n="89"/>litas personarum Respondetur secundum fidem catholica expssi 
+        <lb ed="#A" n="90"/>id docentem: quod sine dubio vere est equalitas personarum 
+        <lb ed="#A" n="91"/>Unde Athanasius in symbolo dicit sic. In hac trinita 
+        <lb ed="#A" n="92"/>te nil maius aut mius nil prius aut posterius. sed 
+        to<lb ed="#A" n="93" break="no"/>te tres persone coeterne sibi sunt et coequiles
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e179">
+        ¶ Sed 
+        <lb ed="#A" n="94"/>quoniam Philosophus. ii. Metaph. dicit quod sicut non potest 
+        solue<lb ed="#A" n="95" break="no"/>re nodum qui non nouit intricationem nodi: ita nec 
+        <lb ed="#A" n="96"/>potest quaestionem dubitabilem soluere qui intricationes  
+        <lb ed="#A" n="97"/>ignorat rationum ex vtraque parte. Proinde aliquo 
+        <lb ed="#A" n="98"/>de hoc per rationes contrarias inquiruntur: vt patebit 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e192">
+                  <lb ed="#A" n="99"/>¶ Ideo Arguitur sic. Fundamen¬ (in subscriptis. 
+        <lb ed="#A" n="100"/>tum equalitatis proprium est quantitas: sicut Philosophus libro de 
+        <lb ed="#A" n="101"/>praedicamentis dicit quod proprium est quantitatis secundum eam equale 
+        <lb ed="#A" n="102"/>vel inequale dici. Sed quia in deo non est vere et reali 
+        <lb ed="#A" n="103"/>ter quantitas: cum Augustinus vi. de trini. dicat: quod deus 
+        <lb ed="#A" n="104"/>est magnus sine quantitate. ergo in deo non est equalitas. 
+        <lb ed="#A" n="105"/>Ad hoc protinus respondetur secundum Scotorlis. Bonauem. et 
+        <lb ed="#A" n="106"/>Richar. concor. in i. dist. xix. Quod quantitas est 
+        du<lb ed="#A" n="107" break="no"/>plex vt ponit etiam Philosophus. ii de generatione. vicem. 
+        <lb ed="#A" n="108"/>Quantitas molis: et Quantitas virtutis. Prima 
+        <!--84.xml-->
+        <pb ed="#A" n="85"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>non ponitur in deo. quia est diuisibilis. sed ponitur in 
+        <lb ed="#A" n="2"/>deo sola quantitas virtutis: vt dicit etiam Philosophus. viii. 
+        <lb ed="#A" n="3"/>Physi. Et sic ergo in quantitate sola virtute scilicet 
+        bonita<lb ed="#A" n="4" break="no"/>tis: potentie: sapine: et huiusmodi fundatur equalitas persona 
+        <lb ed="#A" n="5"/>rum. Unde quid sit quantitas virtutis Augustinus v. de trini. 
+        <lb ed="#A" n="6"/>ostendit dicit quod in his quae non sunt mole magna: sicut 
+        <lb ed="#A" n="7"/>in spiritualibus idem est maius quod melius. et per consequens inter 
+        <lb ed="#A" n="8"/>personas est equalitas. quia equaliter sunt in sume 
+        opti<lb ed="#A" n="9" break="no"/>mo. Nec habent magnitudinem virtutis secundum magis vel 
+        <lb ed="#A" n="10"/>minus nec secundum prius vel posterius 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e245">
+               <head xml:id="Vn7Pel-d25353-Hd1e247">3</head>
+               <p xml:id="Vn7Pel-d25353-d1e250">
+                  <lb ed="#A" n="11"/>¶ Sed quid est fundamentum 
+        equa<lb ed="#A" n="12" break="no"/>litatis in diuinis eam efficiens: Respondetur sicut 
+        pa<lb ed="#A" n="13" break="no"/>tuit in primo huius capistulis. §. ex dictis Philosophi. v. Meta 
+        <lb ed="#A" n="14"/>phy. quod identitatem inquit facit vnitas in substantia. 
+        Equa<lb ed="#A" n="15" break="no"/>itatem vnitas in quantitate. Similitudinem vnitas in 
+        <lb ed="#A" n="16"/>qualitate. Unde fundamentum remotum identitatis est 
+        <lb ed="#A" n="17"/>substantia. sed propinquum fundamentum identitatis est 
+        <lb ed="#A" n="18"/>substantie vnitas. Sic et equalitatis est vnitas quantitatis:  
+        <lb ed="#A" n="19"/>et similitudinis vnitas qualitatis est propinquum 
+        fu<lb ed="#A" n="20" break="no"/>damentum. Sed remota fundamenta horum sunt: 
+        quan<lb ed="#A" n="21" break="no"/>titas scilicet equalitatis: et qualitas similitudinis 
+        funda<lb ed="#A" n="22" break="no"/>mentum. Ex quo igitur divine persone sunt vnum in 
+        sub<lb ed="#A" n="23" break="no"/>stantia: ideo ibi est identitas vera. Sunt etiam 
+        <lb ed="#A" n="24"/>vnum in quantitate scilicet maiestatis et eternitatis: ideo ibi 
+        <lb ed="#A" n="25"/>est equalitas vera. Denique sunt vnum in qualitate scilicet 
+        <lb ed="#A" n="26"/>sapine: bonitatis etc. Ideo ibi est similitudo vera. Hec 
+        <lb ed="#A" n="27"/>Bonauen.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e289">
+        ¶ Ad idem infra e. ca. §. vii.  
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e293">
+               <head xml:id="Vn7Pel-d25353-Hd1e295">4</head>
+               <p xml:id="Vn7Pel-d25353-d1e298">
+                  <lb ed="#A" n="28"/>¶ Sed quo persone divine sunt 
+        <lb ed="#A" n="29"/>equales in virtute: cum non sint equales in personali 
+        pro<lb ed="#A" n="30" break="no"/>prietate nec in fecunditate. Et sic aliquid potest pitur scilicet 
+        <lb ed="#A" n="31"/>generare quod non potest alia persona: Respondetur secundum 
+        Ri<lb ed="#A" n="32" break="no"/>char. e. di. xix. quod quamuis persone diuine non sint 
+        equa<lb ed="#A" n="33" break="no"/>les in proprietate personali. Etem pater habet tres 
+        <lb ed="#A" n="34"/>proprietates scilicet innascibilitatem: paternitatem: et spira 
+        <lb ed="#A" n="35"/>tionem actiuam. Filius autem duas tantum. vicem generationem 
+        <lb ed="#A" n="36"/>passinam: et spirationem actiuam. Spiritus sanctus solum 
+        <lb ed="#A" n="37"/>vnam scilicet spirationem passiuam. Tamen ex hoc non sequitur 
+        <lb ed="#A" n="38"/>quod sint inequales in quantitate virtutis. quia n plus est 
+        <lb ed="#A" n="39"/>de bonitate et sapientia ac potentia et huiusmodi in persona 
+        <lb ed="#A" n="40"/>habente plures proprietates quam in habente vnam tantum. Fe 
+        <lb ed="#A" n="41"/>cunditas emim maior facit ad emanationem 
+        pluri<lb ed="#A" n="42" break="no"/>um personarum. sed non facit ad maioritatem bonitatis 
+        <lb ed="#A" n="43"/>vel virtut
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e335">
+        ¶ Unde secundum Scotorlis et doc. Nota quod 
+        <lb ed="#A" n="44"/>magnitudo virtutis non accipitur per comperationem ad 
+        <lb ed="#A" n="45"/>actus notionales siue ad intra. sed per comperationem 
+        <lb ed="#A" n="46"/>ad extra. Unde quia omnem virtutem ad extra quam 
+        ha<lb ed="#A" n="47" break="no"/>bet vna persona: habet et alia: non magis vel minus; 
+        <lb ed="#A" n="48"/>nec prius vel posterius. ideo sunt equales. Non sequitur 
+        <lb ed="#A" n="49"/>ergo quod spiritus sanctus qui non producit personam habeat minus 
+        <lb ed="#A" n="50"/>de bonitate quam filius qui vnam producit personam: et quam pa 
+        <lb ed="#A" n="51"/>ter qui duas producit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e357">
+               <head xml:id="Vn7Pel-d25353-Hd1e359">5</head>
+               <p xml:id="Vn7Pel-d25353-d1e362">
+                  <lb ed="#A" n="52"/>¶ Sed difficultas est. Quia de 
+        <lb ed="#A" n="53"/>ratione boni est quod sit sui diffusiuum: ex i. Eth. 
+        Bo<lb ed="#A" n="54" break="no"/>num inquit quanto communius tanto melius et diuinius. 
+        <lb ed="#A" n="55"/>Sed pater magis se diffundit et communicat quam filius et 
+        <lb ed="#A" n="56"/>spiritus sanctus. Pater enim generat et spirat. filius autem 
+        <lb ed="#A" n="57"/>tantum spirat. et spiritus sanctus nec generat nec spirat. ergo 
+        <!--84.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 85 -->
+                  <lb ed="#A" n="58"/>sequitur quod maioris bonitatis est. pater quam filius et 
+        <lb ed="#A" n="59"/>pus sanctus
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e388">
+        ¶ Respondetur secundum Bonauen. e. dist. quod de 
+        <lb ed="#A" n="60"/>ratione boni est quod sit sui diffusiuum: diffusione ad  
+        <lb ed="#A" n="61"/>extra in productione effectus cui communicat suam bonitatem. 
+        <lb ed="#A" n="62"/>In huiusmodi enim diffusione attenditur proprie ratio bonitatis: 
+        <lb ed="#A" n="63"/>et non in diffusione ad intra quae persona producit perso 
+        <lb ed="#A" n="64"/>nam in vnitate nature. hec emim proprie non est diffu 
+        <lb ed="#A" n="65"/>sio: nec consequitur bonum inquantum bonum: sed bonum 
+        <lb ed="#A" n="66"/>in hypostasi. vnde secundum talem diffusionem ad intra non 
+        <lb ed="#A" n="67"/>potest dici vna persona melior altera vel perfectior 
+        <lb ed="#A" n="68"/>sed secundum diffusionem ad extra. Et in hac: vna persona 
+        <lb ed="#A" n="69"/>non excedit aliam.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e412">
+        ¶ Ad idem vide vbi Notio. §. ix 
+        <lb ed="#A" n="70"/>in fine. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e418">
+               <head xml:id="Vn7Pel-d25353-Hd1e420">6</head>
+               <p xml:id="Vn7Pel-d25353-d1e423">
+                  <lb ed="#A" n="71"/>¶ An in diuinis sit summa 
+        equa<lb ed="#A" n="72" break="no"/>litas: Respondetur quod sic.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e430">
+        ¶ Et probatur Primo autorita 
+        <lb ed="#A" n="73"/>te Augusti in libro de fide ad Pe. et allegatur per Ma 
+        <lb ed="#A" n="74"/>gistrum vbi dicit quod nulla persona aliam praecedit eternita 
+        <lb ed="#A" n="75"/>te: aut excedit magnitudie: aut superat potestate. 
+        <lb ed="#A" n="76"/>Ob hoc ergo tres personas recte credimus et dicimus 
+        <lb ed="#A" n="77"/>vnum deum. quia vna prorsus eternitas: vna 
+        vniuersi<lb ed="#A" n="78" break="no"/>tas: vna trium personarum naturalis est diuinitas 
+        <lb ed="#A" n="79"/>Hec Aug.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e448">
+        ¶ Secundo probatur ratione Bonauenture supra. 
+        <lb ed="#A" n="80"/>quia non potest maior equalitas excongitari quam vbi vnum 
+        <lb ed="#A" n="81"/>equatur et vni: et pluribus et omnibus sed in diuinis sic est 
+        <lb ed="#A" n="82"/>quia tantus est pater quantus filius. et etiam tantus est filius 
+        <lb ed="#A" n="83"/>intus pater et spiritus sanctus. et tantus etiam filius quantus omnes 
+        <lb ed="#A" n="84"/>tres. vt Magister ibidem scilicet din. xix. dicit et Augustinus Non enim 
+        <lb ed="#A" n="85"/>maior est essentia in tribus quam in duabs: nec in du 
+        <lb ed="#A" n="86"/>abus quam in vna. quia tota est in singulis et similis in 
+        <lb ed="#A" n="87"/>omnibus
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e468">
+        ¶ Tertio onditur inductione. Nam secundum 
+        Bona<lb ed="#A" n="88" break="no"/>uen. supra. et similis di. et. primi. et Scotorlis. aliosque re 
+        <lb ed="#A" n="89"/>colligendo. Inequalitas siue magis et minus potest 
+        con<lb ed="#A" n="90" break="no"/>siderari pluribus modis. Primo in comperatione ad ori 
+        <lb ed="#A" n="91"/>ginem. sicut in creaturis maius dicitur quod est prius: puta 
+        <lb ed="#A" n="92"/>pater dicitur maior suo filio originaliter. Hec no est in 
+        <lb ed="#A" n="93"/>peo. quia ibi est equalitas omnimoda coeternitatis. 
+        <lb ed="#A" n="94"/>Secundo potest considerari magis vel minus in 
+        quanti<lb ed="#A" n="95" break="no"/>tatis mole vel extensione. sicut mons maior est col 
+        <lb ed="#A" n="96"/>le. Hec etiam non est in diuinis: vt patuit supra. 
+        Ter<lb ed="#A" n="97" break="no"/>tio in valore vel appreciatione. sicut dicimus quod au 
+        <lb ed="#A" n="98"/>rum maioris praeciositatis et valoris est argento. Nec ta 
+        <lb ed="#A" n="99"/>lis inequalitas est in diuins personis. quia ibi est omnimo 
+        <lb ed="#A" n="100"/>da equalitas virtutis. Quarto potest considerari in po 
+        <lb ed="#A" n="101"/>testate per comperationem ad effectum. sicut sol 
+        poten<lb ed="#A" n="102" break="no"/>tior est in cau sando quam stella. Sed nec talis 
+        ine<lb ed="#A" n="103" break="no"/>qualitas habet in personis diuins locum: quoniam vt dicit 
+        <lb ed="#A" n="104"/>Aug. opera trinitatis sunt indiuisa. Ideo taliter 
+        <lb ed="#A" n="105"/>vna persona non est maior altera. Quinto in 
+        sub<lb ed="#A" n="106" break="no"/>tantiali entitate. sicut dicimus quod substantia est 
+        ma<lb ed="#A" n="107" break="no"/>gis ens quam accidens. Et nec ista habet locum in 
+        <lb ed="#A" n="108"/>piuinis personis vbi est eadem essentia et nullum 
+        ac<lb ed="#A" n="109" break="no"/>cidens. Sexto in perfectione et virtute siue bonitate 
+        <lb ed="#A" n="110"/>Sicut dicimus quod in diuinis est equalitas. et nulla 
+        <lb ed="#A" n="111"/>inequalitas est in attributali perfectione: puta 
+        poten<lb ed="#A" n="112" break="no"/>tia: sapientia: iusticia: pietate: bonitate: et huiusmodi. 
+        <lb ed="#A" n="113"/>Et sic patet quod in deo est summa et omnimoda equali 
+        <lb ed="#A" n="114"/>tas que nullam admittit inequalitatem 
+        perfectio<lb ed="#A" n="115" break="no"/>nis: vt claruit
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e532">
+        ¶ Preterea summa equalitas perso¬ 
+        <!--85.xml-->
+        <pb ed="#A" n="86"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>narum diuinarum patet ex hoc quod sunt circumincessiue 
+        <lb ed="#A" n="2"/>i se inuicem mutuo De ista Circumincessione patuit 
+        <lb ed="#A" n="3"/>supra capulo speciali¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e549">
+               <head xml:id="Vn7Pel-d25353-Hd1e551">7</head>
+               <p xml:id="Vn7Pel-d25353-d1e554">
+                  <lb ed="#A" n="4"/>¶ In quibus ponitur Equalitas 
+        <lb ed="#A" n="5"/>in diuinis: Respondetur secundum Guil. in primo di. xix. quod 
+        <lb ed="#A" n="6"/>Aug. de fide ad petrum posuit Equalitatem 
+        diuin<lb ed="#A" n="7" break="no"/>rum personarum in tribus istis scilicet Magnitudo. Eter 
+        <lb ed="#A" n="8"/>nitas: et potentia.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e567">
+        ¶ Sed quomod praedicta tria scilicet Ma 
+        <lb ed="#A" n="9"/>gnitudo: Eternitas: et Potentia in deo differunt: 
+        <lb ed="#A" n="10"/>Notandum secundum e. Guil. quod Magnitudo dicitur tripliciter 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e574">
+                  <lb ed="#A" n="11"/>¶ Uno modo dicitur magnum vt opponitur multo. Nam 
+        <lb ed="#A" n="12"/>sic magnitudo solum est in quatitate continua emul 
+        <lb ed="#A" n="13"/>titudo in quantitate discreta. Ut patet per philosophum 
+        <lb ed="#A" n="14"/>x. metaph. Quamuis autem in diuinis non sit magni 
+        <lb ed="#A" n="15"/>tudo quantitatis continue que est in quantitate 
+        mo<lb ed="#A" n="16" break="no"/>lis tamen ibi est magnitudo virtutis infinite. Et in 
+        <lb ed="#A" n="17"/>fingulis personalis est infinitas equaliter. Item iu 
+        <lb ed="#A" n="18"/>xta nostrum modum intelligendi secundum Bona. est 
+        ali<lb ed="#A" n="19" break="no"/>quid in deo quod habet se ad modum quantitatis con 
+        <lb ed="#A" n="20"/>tinue Sicut etiam ibi non est qualitas proprie accidenta 
+        <lb ed="#A" n="21"/>est tamen aliquid quod se habet per modum qualitatis  
+        <lb ed="#A" n="22"/>puta sapientia iusticia: misercordia: potentia et huiusmodi. Et 
+        <lb ed="#A" n="23"/>sic etiam idem Guil. dicit quod quamuis in deo non sit quat 
+        <lb ed="#A" n="24"/>titas continua. Tamen eternitas se habet ad modum 
+        <lb ed="#A" n="25"/>quantitatis continue. Et ipse persone dicuntur 
+        Equa<lb ed="#A" n="26" break="no"/>les in eternitate quia ab eterno sunt et erunt semper etc 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e611">
+                  <lb ed="#A" n="27"/>¶ Secundo magnum dicitur vt opponitur paruo. Et sic lo 
+        <lb ed="#A" n="28"/>quitur Diony. ix. de di. no. Deus quippe magnus 
+        <lb ed="#A" n="29"/>dicitur quia cuncta creata perua sunt in conspectu ipsius 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e621">
+                  <lb ed="#A" n="30"/>¶ Sed tertio modo dicitur magnum absolute et sic lo 
+        <lb ed="#A" n="31"/>quitur Aug. de fide ad pte. dum ponit equalitatem perso 
+        <lb ed="#A" n="32"/>narum diuinarum in his tribus scilicet in Magnitudie Ete 
+        <lb ed="#A" n="33"/>nitate et Potentia secundum Bona. Et Guil. in 
+        eterni<lb ed="#A" n="34" break="no"/>tate considerando ad prius quia nil prius. in magnitudi 
+        <lb ed="#A" n="35"/>ne autem quo ad se cum eque sint virtutis infinite et bo 
+        <lb ed="#A" n="36"/>nitatis. Et in potentia quo ad posterius quia equali 
+        <lb ed="#A" n="37"/>potentia cuncta causant et condunt creata. ergo sunt 
+        <lb ed="#A" n="38"/>Coequales persone in predictis tribus. Item Et 
+        <lb ed="#A" n="39"/>litas fundatur in magnitudine. sed virtutis infini 
+        <lb ed="#A" n="40"/>tas que est magnitudo dici pullulat a diuina essen 
+        <lb ed="#A" n="41"/>tia secundum Diony. de di. no. Ergo equalitas est in 
+        iden<lb ed="#A" n="42" break="no"/>titate essentiali virtutis eternitatis et operationis vl 
+        <lb ed="#A" n="43"/>potestatis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e655">
+               <head xml:id="Vn7Pel-d25353-Hd1e657">8</head>
+               <p xml:id="Vn7Pel-d25353-d1e660">
+                  <lb ed="#A" n="44"/>¶ An sicut hec conceditur Filius 
+        <lb ed="#A" n="45"/>
+                  <!-- line coord error -->
+                  <lb ed="#A" n="46"/>est equalis patri: sic et econuerso. hec concedatur 
+        <lb ed="#A" n="47"/>pater est equalis filio: Et arguitur quod sic quia relatio 
+        <lb ed="#A" n="48"/>equiperantie semper est conuertibilis quoniam sicut vnum simi 
+        <lb ed="#A" n="49"/>le dicitur ad aliud simile. sic econuerso. 
+        Equali<lb ed="#A" n="50" break="no"/>tas autem est relatio equiparantie sicut et simile ergo prae 
+        <lb ed="#A" n="51"/>dicta propositio bene conuertitur et concedi debet etc. 
+        <lb ed="#A" n="52"/>Sed in oppositum est quia Chrys. super illud 
+        <lb ed="#A" n="53"/>Heb. i. Qui cum sit splendor: dicit quod filius est 
+        equa<lb ed="#A" n="54" break="no"/>lis patri sed non pater filio etc
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e689">
+        ¶ Respondetur secundum Guil. 
+        <lb ed="#A" n="55"/>supra quod Equalitas aliquando nominat solum respe 
+        <lb ed="#A" n="56"/>ctum equiperancie et sic bene est conuertibilis quia 
+        si<lb ed="#A" n="57" break="no"/>cut filius est Equalis patri: sic et filio Equalis est 
+        <lb ed="#A" n="58"/>pater. Aliquando autem Equalitas vltra illum respe¬ 
+        <!--85.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 86 -->
+                  <lb ed="#A" n="59"/>ctum nominat quaendam modum habendi ab alio illam 
+        equa<lb ed="#A" n="60" break="no"/>litatem. Et isto modo conceditur quod filius est equalis patri quia hoc 
+        <lb ed="#A" n="61"/>habet a patre. Et quia non habet equalitatem pater a filio 
+        <lb ed="#A" n="62"/>ergo vt sic ista non conceditur: pater est equalis filio vt di 
+        <lb ed="#A" n="63"/>cit Chrys. Exemplum clarum. Sint rex et miles in 
+        cam<lb ed="#A" n="64" break="no"/>po. si tunc dicatur: rex est cum milite. et lycum: solum 
+        di<lb ed="#A" n="65" break="no"/>cat praesentiam: sic est verum. Si autem cum hoc dicat associa 
+        <lb ed="#A" n="66"/>tionem: sic est falsum. quia rex non associat militem: sed  
+        <lb ed="#A" n="67"/>e conuerso miles regem. Hec Guill. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e727">
+               <head xml:id="Vn7Pel-d25353-Hd1e729">9</head>
+               <p xml:id="Vn7Pel-d25353-d1e732">
+                  <lb ed="#A" n="68"/>¶ Utrum inter diuinas personas 
+        <lb ed="#A" n="69"/>equalitas sit vnica nuero: an plurificatur: Ad hanc 
+        <lb ed="#A" n="70"/>quaestionem respondendo ponam opiniones doctorum. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e741">
+                  <lb ed="#A" n="71"/>¶ Prima opinio est <ref xml:id="Vn7Pel-d25353-Rd1e745">
+                     <name xml:id="Vn7Pel-d25353-Nd1e747">Rich. de meud.</name> villa super i. 
+          <lb ed="#A" n="72"/>dist. xix. ar. iii.</ref> Quod in tribus personis diuis est vna 
+        <lb ed="#A" n="73"/>equalitas numero. Cuius ratio est. quia ex quo relatio mul 
+        <lb ed="#A" n="74"/>tiplicatur ad multiplicationem fundamenti: ideo 
+        equa<lb ed="#A" n="75" break="no"/>litas non potest numerari vel multiplicari nisi numeretur 
+        <lb ed="#A" n="76"/>proprium eius fundamentum. sed quia in personis diuinis 
+        <lb ed="#A" n="77"/>est vnicum fundamentum equalitatis: puta essentia 
+        di<lb ed="#A" n="78" break="no"/>uina et eius magnitudo siue infinitas virtutis quae 
+        <lb ed="#A" n="79"/>est quantitas spiritualis. ergo etc 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e769">
+                  <lb ed="#A" n="80"/>¶ Sed dit. Auicenna. vii. Heta 
+        <lb ed="#A" n="81"/>phy. ca. de relatione: dicit. quod in duobus fratribus sunt 
+        <lb ed="#A" n="82"/>due fraternitates. ergo a simili in duobus equalibus sunt 
+        <lb ed="#A" n="83"/>pue equalitates. Item in vno patre tres filios habente 
+        <lb ed="#A" n="84"/>tres sunt respectus. quia respectus vel relationes 
+        nu<lb ed="#A" n="85" break="no"/>merantur per nuerationem terminorum. subiecto manen 
+        <lb ed="#A" n="86"/>te vno. ergo similiter in diuinis.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e787">
+        ¶ Respondetur secundum eundem 
+        <ref xml:id="Vn7Pel-d25353-Rd1e789">Rir<lb ed="#A" n="87" break="no"/>char. ibidem</ref>: quod aliter est in deo et aliter in creaturi 
+        <lb ed="#A" n="88"/>Nam in creaturis numeratur quantitas et equalitas ad  
+        <lb ed="#A" n="89"/>ipsum obiectum. vnde in duobus fratribus sunt due 
+        fra<lb ed="#A" n="90" break="no"/>ternitates. quia sunt duo propria et proxima 
+        fundamen<lb ed="#A" n="91" break="no"/>ta fraternitatis: quoniam due substatie. aliam enim substantia 
+        <lb ed="#A" n="92"/>habet a patre vnus frater: et alius aliam. et per aliud et 
+        <lb ed="#A" n="93"/>aliud genitum esse. etiamsi gemelli frens nascerentur similis 
+        <lb ed="#A" n="94"/>In tribus autem personis diuinis vnicum numero est 
+        fun<lb ed="#A" n="95" break="no"/>damentum equalitatur scilicet vna essentia diuina infinita 
+        <lb ed="#A" n="96"/>ideo non est a simili argumentum. et sic non concludit. 
+        <lb ed="#A" n="97"/>Ad aliud idem Rich. dicit quod in casu dum vnus pat 
+        <lb ed="#A" n="98"/>pabet tres filios concedendum est quod in illo patre 
+        <lb ed="#A" n="99"/>sunt tres paternitates ad tres filios sicut sunt tres 
+        <lb ed="#A" n="100"/>respectus numero: eoquod tres generationes de 
+        sub<lb ed="#A" n="101" break="no"/>stantia patris: etiamsi gemelli nascerentur. nam alia 
+        <lb ed="#A" n="102"/>virtute formatiua formatus esset vnus et alia alius. 
+        <lb ed="#A" n="103"/>Sed quia relationis esse et differre dependet non so 
+        <lb ed="#A" n="104"/>um a subiecto sed etiam a termino et a causa. 
+        hu<lb ed="#A" n="105" break="no"/>iusmodi autem relationis paterne plures filii sunt 
+        <lb ed="#A" n="106"/>plures termini paternitatis. et plures sunt cause 
+        <lb ed="#A" n="107"/>per quas sunt termi ipsi filii. Similiter ex parte patris respe 
+        <lb ed="#A" n="108"/>ctu plurium filiorum: cause paternitatis proprie et proxie 
+        <lb ed="#A" n="109"/>plures sunt. ergo etc. Sed in diuins tres persone vnum 
+        <lb ed="#A" n="110"/>sunt in re per quam est in eis equalitas: hoc est in re 
+        <lb ed="#A" n="111"/>bonitatis et virtutis essentialis. quia vnica numero 
+        <lb ed="#A" n="112"/>essentia: vna magnitudo: et quantitas infinite 
+        virtu<lb ed="#A" n="113" break="no"/>tis. ergo vna est numero equalitas. Hec Rich. 
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e852">
+                  <lb ed="#A" n="114"/>¶ Secunda opinio est Petri de Aqula dicti 
+        Sco<lb ed="#A" n="115" break="no"/>torlis. quod Equalitas in diuis etiam plurificatur. Ratio. 
+        <!--86.xml-->
+        <pb ed="#A" n="87"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quia exquo equalitas ibi accipitur penes perfectiones 
+        <lb ed="#A" n="2"/>attributales: puta penes sapientiam: iusticiam et 
+        hu<lb ed="#A" n="3" break="no"/>iusmodi. et iste perfectiones attributales non sunt 
+        omni<lb ed="#A" n="4" break="no"/>no idem extra intellectum: imo distinguuntur ex natu 
+        <lb ed="#A" n="5"/>ra rei: vt patuit supra vbi de Distinctione. sequitur est quod 
+        <lb ed="#A" n="6"/>equalitas in diuinis plurificatur et numeratur: quoniam 
+        vbi<lb ed="#A" n="7" break="no"/>cunque plurificantur fundamenta: illo modo quod non sunt 
+        <lb ed="#A" n="8"/>totaliter idem extra intellectum: ibi plurificantur et 
+        re<lb ed="#A" n="9" break="no"/>
+               </p>
+               <p xml:id="Vn7Pel-d25353-d1e885">
+        ¶ Utraque opinio potest teneri. Qui clationes. 
+        <lb ed="#A" n="10"/>autem vult hanc secundam opinionem tenere: potest ad 
+        <lb ed="#A" n="11"/>rationem Richar. dicere cum Scotorlis. quod licet in deo 
+        <lb ed="#A" n="12"/>non sit nisi vnica infinitas fundamentaliter sumpta 
+        <lb ed="#A" n="13"/>et radicaliter: tamen loquendo formaliter quodlibet 
+        attri<lb ed="#A" n="14" break="no"/>butum habet suam infinitatem: ita quod hec formaliter non 
+        <lb ed="#A" n="15"/>est illa. vnde infinitas sapientie non est eadem formalie 
+        <lb ed="#A" n="16"/>cum alia infinitate scilicet bonitatis. et sic de aliis. Quod 
+        <lb ed="#A" n="17"/>patet sic. quia illud quod remanet formaliter infini 
+        <lb ed="#A" n="18"/>tum alio circumscripto habet propriam infinitatem. sed 
+        quod<lb ed="#A" n="19" break="no"/>libet attributum est huiusmodi. nam alio circumscripto per 
+        <lb ed="#A" n="20"/>impossibile remanet propria infinitas. ergo etc. Hec 
+        <lb ed="#A" n="21"/>Scotorlis. Item secundum Fran. quia quadlibet attributum 
+        ha<lb ed="#A" n="22" break="no"/>bet formale et quiditatiuam diffinitionem propriam. ergo etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e917">
+               <head xml:id="Vn7Pel-d25353-Hd1e919">11</head>
+               <p xml:id="Vn7Pel-d25353-d1e922">
+                  <lb ed="#A" n="23"/>¶ Sed instantia est. Quia cum in 
+        <lb ed="#A" n="24"/>deo sint vt videtur proprietates vel perfectiones 
+        attri<lb ed="#A" n="25" break="no"/>butales infinite: sequitur quod in deo erunt infinite 
+        in<lb ed="#A" n="26" break="no"/>finitates. Ad hoc Scotorlis. respondet ibidem com 
+        <lb ed="#A" n="27"/>dicionalitur scilicet et indeterminate. Quod si sunt infinite 
+        <lb ed="#A" n="28"/>perfectiones attributales in deo: tunc oportet conce 
+        <lb ed="#A" n="29"/>dere quod erunt infinite infinitates. Si autem non sunt 
+        <lb ed="#A" n="30"/>in deo infinite perfectiones attributales: tunc non 
+        <lb ed="#A" n="31"/>sunt ibi infinite infinitates. Hec Scotorlis. Sed  
+        <lb ed="#A" n="32"/>an sic vel sic sit in deo: vide Guill. opinionem vbi 
+        <lb ed="#A" n="33"/>de Attributis. §. ix. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e950">
+               <head xml:id="Vn7Pel-d25353-Hd1e952">12</head>
+               <p xml:id="Vn7Pel-d25353-d1e955">
+                  <lb ed="#A" n="34"/>¶ An in diuinis sit 
+        commensura<lb ed="#A" n="35" break="no"/>tio quantitatis vel magnitudinis per equalitatem 
+        <lb ed="#A" n="36"/>personarum: Et arguitur quod sic secundum Bonauen. super 
+        <lb ed="#A" n="37"/>i. di. xxxi. q. i. Quia Euclides diffinit equale sic. 
+        <lb ed="#A" n="38"/>Equale est quod alteri suppositum nec excedit nec 
+        <lb ed="#A" n="39"/>exceditur. ergo Equalitas dicit commensurationem quan 
+        <lb ed="#A" n="40"/>titatis. Si ergo in diuinis ponitur vere equalitas per 
+        <lb ed="#A" n="41"/>sonarum. ergo erit et commensuratio
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e975">
+        ¶ Sed in 
+        opposi<lb ed="#A" n="42" break="no"/>tum est. quia in diuinis sunt omnia imense 
+        vir<lb ed="#A" n="43" break="no"/>tutis. ergo non potest esse commensuratio
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e982">
+        ¶ Respondetur 
+        <lb ed="#A" n="44"/>ergo secundum Bonauen. ibidem quod in diuinis quamuis non 
+        <lb ed="#A" n="45"/>possit esse commensuratio simpliciter: tamen ibi est 
+        com<lb ed="#A" n="46" break="no"/>mensuratio quae ad immensitatem virtutis. Quia in di 
+        <lb ed="#A" n="47"/>uinis licet non sit quantitas mensurata quae ponit commen 
+        <lb ed="#A" n="48"/>surationem simpliciter. est tamen conuenientia in infini 
+        <lb ed="#A" n="49"/>tate virtutis. Et sic est conuenientia in magnitudie 
+        <lb ed="#A" n="50"/>infinita. quia omnia eque infinita sunt in deo. Nam 
+        <lb ed="#A" n="51"/>et Augustinu omnia attributa diuina in deo dicit esse 
+        e<lb ed="#A" n="52" break="no"/>qualia. et siccommensurata licet infinita.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1004">
+        ¶ Ad hec 
+        <lb ed="#A" n="53"/>etiam infra c. Eternitas. §. xi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1010">
+               <head xml:id="Vn7Pel-d25353-Hd1e1012">13</head>
+               <p xml:id="Vn7Pel-d25353-d1e1015">
+                  <lb ed="#A" n="54"/>¶ Utrum tres persone sint 
+        equa<lb ed="#A" n="55" break="no"/>les in omnipotentia? Respondetur per conclusionem 
+        <lb ed="#A" n="56"/>quod sic. Et Primo Magisteri di. xx. primi. probatur autoris 
+        <lb ed="#A" n="57"/>tate. dici. Sciendum inquit quod non est potentior pater filio: 
+        <!--86.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 87 -->
+                  <lb ed="#A" n="58"/>nec filius et pater spiritu sancto. nec maiorem potentiam 
+        ha<lb ed="#A" n="59" break="no"/>pent duo vel tres similis quam singulus eorum. quia 
+        omnipoten<lb ed="#A" n="60" break="no"/>tiam quam habet pater: et filius accepit nascedo: et spiritu sa 
+        <lb ed="#A" n="61"/>sanctus procedendo. Quod Augustinus li. contra Maximum 
+        do<lb ed="#A" n="62" break="no"/>cet di. Nihil inquit patre minus habet filius quae dicit. 
+        <lb ed="#A" n="63"/>Omnia quae habet pater mea sunt: Ioan. xvii. Nam si minus 
+        <lb ed="#A" n="64"/>habet in potestate aliquid filius quam pater: non sunt eius omnia quae 
+        <lb ed="#A" n="65"/>habet pater. sed quia eius sunt omnia quae habet pater. Tanta: 
+        <lb ed="#A" n="66"/>ergo potestatem habet filius quantam pater. Ad idem est 
+        autori<lb ed="#A" n="67" break="no"/>tas Athanasii in fidei symbolo di. Omnipotens 
+        patr<lb ed="#A" n="68" break="no"/>omnipotens filius: omnipotens spiritus sanctus. Et tamen non tres 
+        <lb ed="#A" n="69"/>o. sed vnus omnipotens.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1059">
+        ¶ Secundo onditur similitudie secundum 
+        <lb ed="#A" n="70"/>Aug. quia omnis pater naturaliter vellet generare si 
+        <lb ed="#A" n="71"/>posset de sua substantia filium sibi coequalem in 
+        no<lb ed="#A" n="72" break="no"/>bilitate et potentia: ac perfectione omni. ergo magis hoc ipse 
+        <lb ed="#A" n="73"/>deus. Nam generatio vniuoca naturaliter tendit ad 
+        <lb ed="#A" n="74"/>equalitatem. vnde ignis generat ignem equalem
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1072">
+        ¶ Tertio 
+        <lb ed="#A" n="75"/>probatur ratione quam idem Magiter supra cum Aug. ponit sic 
+        <lb ed="#A" n="76"/>Aut enim deus pater genuit filium sibi equalem in 
+        po<lb ed="#A" n="77" break="no"/>tentia. Aut non. Si sic: habetur propositum. Si non. 
+        <lb ed="#A" n="78"/>Aut hoc ideo quia noluit. et sic fuisset inuidus: quod 
+        <lb ed="#A" n="79"/>est absurdum. Aut ideo quia non potuit. et sic fuisset 
+        <lb ed="#A" n="80"/>impotens et infirmus. Relinquitur est quod voluit et po 
+        <lb ed="#A" n="81"/>tuit: et per consequens fecit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1091">
+               <head xml:id="Vn7Pel-d25353-Hd1e1093">14</head>
+               <p xml:id="Vn7Pel-d25353-d1e1096">
+                  <lb ed="#A" n="82"/>¶ Sed difficultas oritur ex isto 
+        <lb ed="#A" n="83"/>argumento Magistri cum Augustino. videlicet 
+        <lb ed="#A" n="84"/>An deus posset aliquam creaturam facere sibi 
+        equa<lb ed="#A" n="85" break="no"/>em in potentia: Circa hoc <ref xml:id="Vn7Pel-d25353-Rd1e1106">Rich. e. dist. xx. ar. ii</ref> 
+                  <lb ed="#A" n="86"/>Arguit sic. Si deus argueretur ex hoc fore inuidus quia 
+        <lb ed="#A" n="87"/>scilicet non voluisset generare filium sibi equalem cum posse 
+        <lb ed="#A" n="88"/>prout arguebat Magister cum Augu. A simili posset 
+        ar<lb ed="#A" n="89" break="no"/>gui quod deus cum posset et nollet facere creaturam sibi 
+        <lb ed="#A" n="90"/>equalem in potentia: videretur esse inuid
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1121">
+        ¶ Ad quod respondetur 
+        <lb ed="#A" n="91"/>secundum e. Rich. concor. Tho. circa litteram ibidem: quod 
+        predi<lb ed="#A" n="92" break="no"/>ctum argumentum Magistri et Augusti valet in consequin 
+        <lb ed="#A" n="93"/>tia materiali: non formali. Nam non est a simili. quia 
+        natu<lb ed="#A" n="94" break="no"/>ra filii dei exigit vt equetur patri cum sit idem deus 
+        <lb ed="#A" n="95"/>cum patre. Ideoque si hoc sibi deus pater negaret cum posset 
+        <lb ed="#A" n="96"/>inuidie esset. Quando enim negatur alicui id quod sibi 
+        de<lb ed="#A" n="97" break="no"/>beturinuidie est. Sed de creaturis aliter est. quia hoc 
+        crea<lb ed="#A" n="98" break="no"/>ture non debetur quod sit equalis deo. ergo non est inuidie hoc 
+        <lb ed="#A" n="99"/>negare creature. Nam creature non debetur maior per 
+        <lb ed="#A" n="100"/>fectio quam illud quod consequitur principia nature Si qugo 
+        <lb ed="#A" n="101"/>aliquid in naturam rationali superadditur: gratiae imputatur. Et 
+        <lb ed="#A" n="102"/>hoc etiam sine inuidia posse subtrahi ab ea secundum Tho. 
+        <lb ed="#A" n="103"/>Denique quod creature non datur omnipotentia ab ipso deo: 
+        <lb ed="#A" n="104"/>hoc non est ex dei infirmitate vel impotentia: sicut nec ex 
+        inui<lb ed="#A" n="105" break="no"/>dia. sed est ex impotentia creature. quia cum habeat cre 
+        <lb ed="#A" n="106"/>atura esse finitum: non potest capere virtutem infinitam. sed  
+        <lb ed="#A" n="107"/>filius dei cum sit verus deus coequils patri potest capere infinitam 
+        <lb ed="#A" n="108"/>virtutem. ergo non est simile de filio dei et de creatura. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1164">
+               <head xml:id="Vn7Pel-d25353-Hd1e1166">15</head>
+               <p xml:id="Vn7Pel-d25353-d1e1169">
+                  <lb ed="#A" n="109"/>¶ Item alia difficultas est ex eodem 
+        <lb ed="#A" n="110"/>argummento. Quia cum deus posset in modo milta bona 
+        <lb ed="#A" n="111"/>facere: praeserti multos peccatores saluando quis tamen non 
+        <lb ed="#A" n="112"/>saluat. An ergo inuidus esse argui possit eo quod non facu 
+        <lb ed="#A" n="113"/>hoc quod potest
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1182">
+        ¶ Respondetur secundum e. Rich. vbi supra. 
+        Ali<lb ed="#A" n="114" break="no"/>qui inquit dixerunt quod omnibus computatis semper deus in creatu 
+        <!--87.xml-->
+        <pb ed="#A" n="88"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ra facit quicquid est melius fieri possibile. Et sic pro isto 
+        <lb ed="#A" n="2"/>statu in vniuersitate creaturarum nihil melius fieri 
+        <lb ed="#A" n="3"/>potuit quam quod factum est et fit a deo. Exempli gratia 
+        <lb ed="#A" n="4"/>Si in cithara bene proportionata vnam chorda 
+        adde<lb ed="#A" n="5" break="no"/>res: non valeret ad talem armoniam faciendam in reso 
+        <lb ed="#A" n="6"/>nantia tali. Sed alii tutius dicunt secundum eundem Ri 
+        <lb ed="#A" n="7"/>char. quod eoipso quod deus vult sic et non aliter: melius 
+        <lb ed="#A" n="8"/>est sic fieri quam aliter. Ideoque bona quae deus vult non fa 
+        <lb ed="#A" n="9"/>cere: melius est non fieri quam fieri. et per consequens quod sic fe 
+        <lb ed="#A" n="10"/>cit sicut voluit non potest inuidus reputari nec du 
+        <lb ed="#A" n="11"/>re agere. Nam dato quod melius esset plures saluari 
+        <lb ed="#A" n="12"/>tamen omnibus computatis melius est quod sic fiat sicut deus 
+        <lb ed="#A" n="13"/>voluit. quia in damnatis maxime apparet iusticia dei. 
+        <lb ed="#A" n="14"/>nec propter eorum multitudinem pauciores saluabuntur 
+        <lb ed="#A" n="15"/>quam sit numerus a deo praeordinatus. Ad hec vbi Potem 
+        <lb ed="#A" n="16"/>tia. §. lxviii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1229">
+               <head xml:id="Vn7Pel-d25353-Hd1e1231">16</head>
+               <p xml:id="Vn7Pel-d25353-d1e1234">
+                  <lb ed="#A" n="17"/>¶ An pater argui possit 
+        poten<lb ed="#A" n="18" break="no"/>tior filio: ex hoc vicem quod pater a nullo accipit potestatem 
+        <lb ed="#A" n="19"/>vel virtutem: filius autem a pre accipit: et spiritus sanctus ab 
+        <lb ed="#A" n="20"/>vtroque: Sed videmus in creaturis quod accipiens virtu 
+        <lb ed="#A" n="21"/>tem ab alio non est equalis virtutis cum illo. sicut aer reci 
+        <lb ed="#A" n="22"/>piens lumen a sole non potest equaliter lucere vel 
+        illumina<lb ed="#A" n="23" break="no"/>re vt sol. ergo a simili etc
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1252">
+        ¶ Respondetur secundum Scotorlis. e. di 
+        <lb ed="#A" n="24"/>xx. q. i. quod recipiens virtutem actiuam ab alio non equatur 
+        <lb ed="#A" n="25"/>illi in potentia. hoc verum est: si recipit virtutem 
+        distin<lb ed="#A" n="26" break="no"/>ctam. sed quando est eadem virtus numero in recipiente et 
+        dan<lb ed="#A" n="27" break="no"/>te: tunc non oportet: sicut est in proposito. quia persone 
+        di<lb ed="#A" n="28" break="no"/>vine sunt idem in essentia et eandem virtutem habent 
+        nu<lb ed="#A" n="29" break="no"/>mero actiuam. ergo non est a simili. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1269">
+               <head xml:id="Vn7Pel-d25353-Hd1e1271">17</head>
+               <p xml:id="Vn7Pel-d25353-d1e1274">
+                  <lb ed="#A" n="30"/>¶ Sed an pater possit dici 
+        poten<lb ed="#A" n="31" break="no"/>tior filio: ex hoc vicem quod pater potest operari et per se et per 
+        <lb ed="#A" n="32"/>filium. filius autem n potest per patrem operari proprie loquin 
+        <lb ed="#A" n="33"/>do. similiter pater et filius operantur per se et per spiritum sanctum. 
+        <lb ed="#A" n="34"/>non autem est couerso. Unde Ioam i. Omnia per ipsum scilicet filium 
+        <lb ed="#A" n="35"/>facta sunt scilicet a patre. Et psalm. Uerbo domini celi firma 
+        <lb ed="#A" n="36"/>ti sunt et spiritu o etc. Sed quicumque potest tam per se quam per alium: 
+        <lb ed="#A" n="37"/>plus potest quam qui per se tantummodo potest. ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1294">
+        ¶ Respondetur secundum 
+        <lb ed="#A" n="38"/>Bonauem. e. dist. xx. q. ii quod posse per alium est duplicite 
+        <lb ed="#A" n="39"/>Uno modo per alium tanquam per cam inferiorem super quo habe 
+        <lb ed="#A" n="40"/>dominium. et sic pater non operatur per filium vel per spiritum sanctum 
+        <lb ed="#A" n="41"/>Alio modo per alium tanque per personam consubstantialem 
+        <lb ed="#A" n="42"/>super qua habet tantummodo autoritatem propter originem. et sic non 
+        <lb ed="#A" n="43"/>dicit maioritatem potatis nec dinium. hoc modo pater 
+        ope<lb ed="#A" n="44" break="no"/>ratur per filium et vterque per spiritum sanctum. Nam hoc dicto si 
+        <lb ed="#A" n="45"/>gnatur autoritas in patre: sicut et cum dicitur quod filius esse et 
+        <lb ed="#A" n="46"/>posse habet a patre: significatur subautoritas in filio et 
+        <lb ed="#A" n="47"/>origo tantum: non autem minoritas potentie. Et sic patet 
+        <lb ed="#A" n="48"/>ad argumentum. Nam posse per se et per alium primo modo 
+        <lb ed="#A" n="49"/>est plus posse quam per se tantummodo. sed non secundo modo 
+        <lb ed="#A" n="50"/>vt est in proposito. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1327">
+               <head xml:id="Vn7Pel-d25353-Hd1e1329">18</head>
+               <p xml:id="Vn7Pel-d25353-d1e1332">
+                  <lb ed="#A" n="51"/>¶ Quomodo diuine persone dicantur ed 
+        <lb ed="#A" n="52"/>omnipotentes: cum potentia patris et filii se extendat in plus 
+        <lb ed="#A" n="53"/>quam potentia spiritus sancti: Probatur: quia potentia patris et fi 
+        <lb ed="#A" n="54"/>lii se extendit tam ad increatum scilicet producendo diuinam 
+        per<lb ed="#A" n="55" break="no"/>sonam quam ad creaturas. sed potentia spiritus sancti non pte 
+        <lb ed="#A" n="56"/>producere personam diuinam: sed tantum creaturas. ergo etc 
+        <!--87.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 88 -->
+                  <lb ed="#A" n="57"/>Item pater potest generare. filius autem non potest generare. 
+        <lb ed="#A" n="58"/>ego non est equalis omnipotentia in eis.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1358">
+        ¶ Respondetur: quod de hoc 
+        <lb ed="#A" n="59"/>varie sunt opiniones
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1363">
+        ¶ Una opinio e qua sequitur 
+        <lb ed="#A" n="60"/>Rich. de med. vil. super i. di. xx. q. i. Et Egidius de 
+        <lb ed="#A" n="61"/>Rhomona: quod tres persone sunt equales in omnipotentia tam 
+        <lb ed="#A" n="62"/>extensiue quam intensiue. Declaratur. quia sub omnipotentia 
+        <lb ed="#A" n="63"/>nden continetur nisi actus possibilis: quem posse est tali 
+        per<lb ed="#A" n="64" break="no"/>sone divine posse. nam si non est sibi posse: non dero 
+        <lb ed="#A" n="65"/>gat eius omnipotentie quod talem actum non potest Sicut posse 
+        <lb ed="#A" n="66"/>dormire vel currere de loco ad locum non dicitur posse in 
+        <lb ed="#A" n="67"/>deo: nec propterea quod talia non potest: dicitur non equa omnipo 
+        <lb ed="#A" n="68"/>tens. Et ita generare quamuis sit posse in patre: non tamen 
+        <lb ed="#A" n="69"/>est posse in filio. Tum quia hoc includeret ipsum filium non 
+        <lb ed="#A" n="70"/>esse perfectum filium: eoquod tota substantia patris non adequate 
+        <lb ed="#A" n="71"/>generaret filium. Tum etiam quia patrem generare filium est 
+        <lb ed="#A" n="72"/>potentie vt in persona. sed filium hoc non posse non est impo 
+        <lb ed="#A" n="73"/>tentie: sed proprietas personalis. imo filium posse 
+        gi<lb ed="#A" n="74" break="no"/>gnere sicut et esse patrem est impossibile. quia sic fieret mu 
+        <lb ed="#A" n="75"/>tabilitas in personis diuis: si filius de non patre posset 
+        <lb ed="#A" n="76"/>fieri pater: cum tamen deus sit immutabilis necessario. Similiter 
+        <lb ed="#A" n="77"/>posse spirare non est posse in spiritu sancto: sed tantum in patre 
+        <lb ed="#A" n="78"/>et filio. Et ponit Exeplum idem Egidius adden. quod 
+        <lb ed="#A" n="79"/>agens non debet iudicari impotens si non potest quod ei non 
+        <lb ed="#A" n="80"/>couenit. Sicut ignis non dicitur impotens si non frigefacit 
+        <lb ed="#A" n="81"/>quia frigefacere n conuenit igni. Denique ibidem 
+        Ri<lb ed="#A" n="82" break="no"/>char. subdit: quod exquo eadem est potentia in tribus 
+        perso<lb ed="#A" n="83" break="no"/>nis: et equi nobiliter et perfecte quod eadem est essentia: ideo 
+        <lb ed="#A" n="84"/>e filius non potest generare: pater autem potest. tamen ex hoc filius non 
+        <lb ed="#A" n="85"/>est minus potes quam pater. quia tante potentie est in filio pos 
+        <lb ed="#A" n="86"/>se generari sicut in patre est posse generare. et similiter in 
+        <lb ed="#A" n="87"/>spiritu sancto posse spirari est tante potentie sicut in patre et 
+        <lb ed="#A" n="88"/>filio est posse spirare. Hec Rich. Hec itaque 
+        opi<lb ed="#A" n="89" break="no"/>nio tenet quod potentia generandi cadit sub omnipotentia 
+        <lb ed="#A" n="90"/>patris: et non sub omnipotentia filii. Unde cum dico inquit: pater 
+        <lb ed="#A" n="91"/>est omnipotens: sub hoc cadit posse generare. sed cum dico 
+        <lb ed="#A" n="92"/>Eilius est omnipotens: non cadit ibi posse generare. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1437">
+                  <lb ed="#A" n="93"/>¶ Sed alia est opinio Scotistarum tenentium quod po 
+        <lb ed="#A" n="94"/>tentia generandi non cadit sub omnipotentia. quia si 
+        ca<lb ed="#A" n="95" break="no"/>deret sequeretur quod filius non esset omnipotens: cum non po 
+        <lb ed="#A" n="96"/>test generare. Nec valet exemplum de igne inductum 
+        <lb ed="#A" n="97"/>scilicet quod non dicitur minus potens si non frigefacit: quoniam ignis 
+        <lb ed="#A" n="98"/>habet solum calefacere et non frigefacere. ideo bene 
+        <lb ed="#A" n="99"/>sequitur quod ignis non est omnipotens. Sic ex hoc eodem 
+        exen<lb ed="#A" n="100" break="no"/>plo a simili si generare diceret potentiam sub 
+        omnipoten<lb ed="#A" n="101" break="no"/>tia: sequeretur quod quia filius non potest generare non esset 
+        omnipo<lb ed="#A" n="102" break="no"/>tens. Ideo hec similitudo est potius contra eosdem. Melius ergo 
+        <lb ed="#A" n="103"/>dicendum est cum Scotistis quod potentia generandi non 
+        ca<lb ed="#A" n="104" break="no"/>dit sub omnipotentia. sed diuina omnipotentia censetur et 
+        at<lb ed="#A" n="105" break="no"/>tenditur per comperationem ad extra solum scilicet 
+        respe<lb ed="#A" n="106" break="no"/>ctum creatorum vel creabilium: vt etiam infra pate 
+        <lb ed="#A" n="107"/>pit vbi Potentia. §. xvii. Ratio. quia omnipotentia secundum 
+        <lb ed="#A" n="108"/>sanctorum vsum eadem est numero in patre et filio etc. 
+        <lb ed="#A" n="109"/>quia in eadem essentia producentis et producti. Et proprie 
+        <lb ed="#A" n="110"/>est ad termiuum creatum et possibile sine respectu 
+        <lb ed="#A" n="111"/>contingentis scilicet creature. et non ad terminum 
+        increa<lb ed="#A" n="112" break="no"/>tum et necessarium. Sed quoniam nulla persona diuina est 
+        <lb ed="#A" n="113"/>ossibilis: imo necessaria est. et filius ac spiritus sanctus 
+        <lb ed="#A" n="114"/>licet producantur: tamen necessario. non autem contingenter. ergo pa 
+        <!--88.xml-->
+        <pb ed="#A" n="89"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tentia generandi vel spirandi non continetur sub 
+        omnipo<lb ed="#A" n="2" break="no"/>tentia. Hec Guill. et Scotorlis.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1499">
+        ¶ Ad quaesitum ergo pa 
+        <lb ed="#A" n="3" break="no"/>tet quod potentia patris non se extendit in praelus qua ad extra. 
+        <lb ed="#A" n="4"/>quod autem quo ad intra se in plus extendit: hoc non conclum 
+        <lb ed="#A" n="5"/>dit inequalitatem potentie. Unde Augustinus vbi supr scilicet di. xx. 
+        <lb ed="#A" n="6"/>primi dicit. Non secundum hoc quod pater genuit: et filius 
+        ge<lb ed="#A" n="7" break="no"/>nitus est: et spiritus sanctus procedit ab vtroque: equalitas 
+        <lb ed="#A" n="8"/>vel inequalitas ibi existit. Hec ille 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d25353-Dd1e1516">
+               <head xml:id="Vn7Pel-d25353-Hd1e1518">19</head>
+               <p xml:id="Vn7Pel-d25353-d1e1521">
+                  <lb ed="#A" n="9"/>¶ Sed difficultas ex dictis oritur 
+        <lb ed="#A" n="10"/>Unde est hoc quod potentia generandi filium simpliciter 
+        <lb ed="#A" n="11"/>dicitur potentia in diuinis: et tamen non dicitur communiter filius 
+        po<lb ed="#A" n="12" break="no"/>tentialis potentia passiua seu obiectiua: 
+        Respon<lb ed="#A" n="13" break="no"/>detur secundum quod dicit Scotus e. di. xx. primi libro Et post eum 
+        <lb ed="#A" n="14"/>Scotorlis. et Guill. quod huius ratio est. quia nomina 
+        <lb ed="#A" n="15"/>quae dicunt perfectionem attribuuntur diuinis. Ea autem 
+        <lb ed="#A" n="16"/>que dicunt imperfectionem in creaturis non possunt 
+        <lb ed="#A" n="17"/>tranfferri ad diuina. Sed quia potentie actiue ve  
+        <lb ed="#A" n="18"/>productiue nomen in creaturis dicit perfectionem. ideo 
+        <lb ed="#A" n="19"/>recte dicitur in deo patre potentia actiua generandi. 
+        Po<lb ed="#A" n="20" break="no"/>tentie vero passiue nomen: siue possibile 
+        correspon<lb ed="#A" n="21" break="no"/>dens ipsi potentie actiue tanque suum correlatiuum: 
+        <lb ed="#A" n="22"/>dicit imperfectionem. Ideo non ponitur in diuins vt 
+        di<lb ed="#A" n="23" break="no"/>cit imperfectionem. sed sub ratione principii. Et sic 
+        poten<lb ed="#A" n="24" break="no"/>tia generandi est ad filium tanque ad principiatum. non 
+        <lb ed="#A" n="25"/>autem solet dici in filio potentia passiua.
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1560">
+        ¶ Et idem 
+        <lb ed="#A" n="26"/>Guil. ibi ponit Exemplum clarum. Quia vt habetur 
+        <lb ed="#A" n="27"/>xvi. di. primi. Hilarius attribuit hoc nomen: maior: 
+        <lb ed="#A" n="28"/>deo patri: eoquod dicit perfectionem. et tamen non vult quod fi 
+        <lb ed="#A" n="29"/>lius dicatur minor. quia hoc dicit imperfectionem. 
+        Si<lb ed="#A" n="30" break="no"/>militer est in proposito. Et sic patet. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1573">
+                  <lb ed="#A" n="31"/>¶ Ad premissa vide plura vbi de 
+        <lb ed="#A" n="32"/>Omnipotentia et de Potentia. et vbi de Generandi po 
+        <lb ed="#A" n="33"/>tentia. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1582">
+                  <lb ed="#A" n="34"/>¶ Item de equalitatis relatione 
+        <lb ed="#A" n="35"/>plurima Uide vbi de Relatione. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d25353-d1e1590">
+                  <lb ed="#A" n="36"/>¶ Item quomodo filius dicitur minor 
+        pa<lb ed="#A" n="37" break="no"/>tre vel etiam spiritu sancto. Uide vbi Maior. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

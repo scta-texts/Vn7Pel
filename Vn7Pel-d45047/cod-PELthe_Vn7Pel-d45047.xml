@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lumen Luminosum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Lumen Luminosum</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d45047">
+            <head xml:id="Vn7Pel-d45047-Hd1e107">Lumen Luminosum</head>
+            <div xml:id="Vn7Pel-d45047-Dd1e110">
+               <head xml:id="Vn7Pel-d45047-Hd1e112">1</head>
+               <!-- left off p. 146 -->
+               <p xml:id="Vn7Pel-d45047-d1e117">
+                  <lb ed="#A" n="14"/>Lumen Luminosum 
+        <lb ed="#A" n="15"/>
+                  <!-- line coord error -->
+                  <lb ed="#A" n="16"/>et Lux. Ista tria per ordinem se habent secundu 
+        <lb ed="#A" n="17"/>Guill. super i. dis. iii. per. ii ar. i. Nam lux dicitur 
+        <lb ed="#A" n="18"/>fontalis origo luis. sed lumiosum est subiectum lu 
+        <lb ed="#A" n="19"/>cis: vt aer luminosus dicitur. Tumen vero lucis effectus in 
+        <lb ed="#A" n="20"/>aere vel alio perspicuo corpore multiplicatus. Unde lux 
+        <lb ed="#A" n="21"/>triplicem habet effectum. Primum est suu corpus seu 
+        subie<lb ed="#A" n="22" break="no"/>ctu luminosum efficere. Secundum seipsam lucidam fa 
+        <lb ed="#A" n="23"/>cere. Unde et lucere principalis est eus effectus. Tertium est 
+        <lb ed="#A" n="24"/>alia illumiare: et ab isto tertio lumen vocatur.
+      </p>
+               <p xml:id="Vn7Pel-d45047-d1e146">
+        ¶ Nec 
+        <lb ed="#A" n="25"/>tenendum est vt Empedo. posuit. quod lumen est deci 
+        <lb ed="#A" n="26"/>sio corporis lucidi in aere. sic enim esset substantia. sed est 
+        <lb ed="#A" n="27"/>quodam accisdens subiectiue existens in aere: quod est species 
+        <lb ed="#A" n="28"/>corporis lucidi. sicut colores in aere ponuntur 
+        species<lb ed="#A" n="29" break="no"/>scilicet multiplicate ad visum. Hec ex Guill. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d45047-Dd1e160">
+               <head xml:id="Vn7Pel-d45047-Hd1e162">2</head>
+               <p xml:id="Vn7Pel-d45047-d1e165">
+                  <lb ed="#A" n="30"/>¶ Sed spiritualiter quid dicatur lumen. Respondet 
+        <lb ed="#A" n="31"/>idem Guill. ibidem. quod spiritualiter lumen est quodam mentis 
+        <lb ed="#A" n="32"/>accistens quod nobis lux vera deus effundit. quae luie 
+        intelle<lb ed="#A" n="33" break="no"/>ctus nostur potest per creaturas deum et snctam trinitatem cogsce 
+        <lb ed="#A" n="34"/>re. Unde Io i. de christo scribitur. Erat lux vera qui 
+        illumi<lb ed="#A" n="35" break="no"/>nat omnem hominem venientem in hunc mundum etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d45047-Dd1e182">
+               <head xml:id="Vn7Pel-d45047-Hd1e184">3</head>
+               <p xml:id="Vn7Pel-d45047-d1e187">
+                  <lb ed="#A" n="36"/>¶ Item nota etiam quod in luce sunt iterum 
+        <lb ed="#A" n="37"/>alia tria scilicet radius. splendor et fulgor. secundum. e. Guill. 
+        <lb ed="#A" n="38"/>Radius dicitur respectu corporis lucidi ad aliquod quid tei 
+        <lb ed="#A" n="39"/>minatum. Sed splendor dicitur radius reprercussus in corpore 
+        <lb ed="#A" n="40"/>opaco. Fulgor vero lumen tenebris mixtum. Hec 
+        <lb ed="#A" n="41"/>Guill. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d45047-d1e203">
+                  <lb ed="#A" n="42"/>¶ Item de lumine divino et splendore. 
+        vide<lb ed="#A" n="43" break="no"/>sicet quomodo filius dei dicitur lumen de luie: et splendor etera 
+        <lb ed="#A" n="44"/>ne lucis. vide vbi Seneratio. §. vi. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d45047-Dd1e213">
+               <head xml:id="Vn7Pel-d45047-Hd1e215">4</head>
+               <p xml:id="Vn7Pel-d45047-d1e218">
+                  <lb ed="#A" n="45"/>¶ Sed quare lucis divine pulcritu 
+        <lb ed="#A" n="46"/>do et splendor attribuitur filio: dicente aplo. quod filius st 
+        <lb ed="#A" n="47"/>splendor glortie patrne. Heb i. et per consequens pulcritudo eus t 
+        <lb ed="#A" n="48"/>Respondetur secundum Guil. in i. di. xxxi. cum Tho. in scrip. e. di. quod 
+        <lb ed="#A" n="49"/>ad rationem pulcritudis concurrunt tria. Unum est 
+        conso<lb ed="#A" n="50" break="no"/>nantia menbrorum id est proportio debita. Aliud est claritas. 
+        <lb ed="#A" n="51"/>hec duo hebentur per Dio. iiii. c. de di. no. Unde dicimus 
+        <lb ed="#A" n="52"/>hominem pulcrum: qui hebet mebra proportionata et colorem 
+        <lb ed="#A" n="53"/>splendentem. Tertio concurrit debita magnitudo. quia 
+        <lb ed="#A" n="54"/>philosophis. iiii. Ethy. dicit quod perui homines non sunt pulcri: sed 
+        <!--145.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 146 -->
+                  <lb ed="#A" n="55"/>bene sunt formosi et commensurati. et secundum hec tria pu 
+        <lb ed="#A" n="56"/>critudo conuenit cum propriis filii dei: qui est image 
+        <lb ed="#A" n="57"/>patris. Extat enim pulter inquantum in eo sunt depicte rati 
+        <lb ed="#A" n="58"/>nes omnium clare cogscendi: vt dicit Aug. vi. de trini. et 
+        <lb ed="#A" n="59"/>sic in eo est claritas glore irradiantis super omnia: et in quo omnia 
+        <lb ed="#A" n="60"/>resplendent. Item pulcrior est inquantum representat deum pa 
+        <lb ed="#A" n="61"/>trem per consonantia equalitatis per omnia ad patrem. Item est 
+        pul<lb ed="#A" n="62" break="no"/>cerrimus inquantum est idem summus deus. sequitur ergo quod 
+        pul<lb ed="#A" n="63" break="no"/>critudo spenldoris filio attribuitur.
+      </p>
+               <p xml:id="Vn7Pel-d45047-d1e268">
+        ¶ Si dicas 
+        <lb ed="#A" n="64"/>Dio. supra. dicit quod bonum et pulcrum idem sunt. vn et propinon 
+        <lb ed="#A" n="65"/>sunt in greco. qui bonum vocant Calos. pulcrum callos 
+        <lb ed="#A" n="66"/>et adeo se conscquuntur: quod omnia bonum et pulcrum appetunt 
+        <lb ed="#A" n="67"/>Sed bonitas attribuitur spiritu sancto. ergo et pulcritudo 
+        <lb ed="#A" n="68"/>Respondet Bon. quod Dio. non vult dicere nisi quod sunt vnum 
+        <lb ed="#A" n="69"/>re: licet differant ratione. ergo propter rationis diuersitate: bonum 
+        <lb ed="#A" n="70"/>conuenit vni: et pulcrum alteri etc.
+      </p>
+               <p xml:id="Vn7Pel-d45047-d1e286">
+                  <lb ed="#A" n="71"/>MAgnitudo diuina 
+        <lb ed="#A" n="72"/>De hoc vide vbi Immensitas.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Incomprehensibilitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Incomprehensibilitas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="124"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d38011">
+            <head xml:id="Vn7Pel-d38011-Hd1e107">Incomprehensibilitas</head>
+            <div xml:id="Vn7Pel-d38011-Dd1e110">
+               <head xml:id="Vn7Pel-d38011-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d38011-d1e115">
+                  <lb ed="#A" n="27"/>Incomprehensibili<lb ed="#A" n="28" break="no"/>tas 
+        diuina. Queritur de hoc. Utrum 
+        <lb ed="#A" n="29"/>deus sit incomprehensibilis ab omni 
+        <lb ed="#A" n="30"/>creatura: Ad quod ponitur responsiua conclusio quod sic. 
+        <lb ed="#A" n="31"/>Probatur primo autoritatibus. Nam apostolus expresse 
+        <lb ed="#A" n="32"/>dicit quod deus habitat lucem inaccessibile id est incompre 
+        <lb ed="#A" n="33"/>hensibile. Et Rho. xi. exclamat di. O altitudo di 
+        <lb ed="#A" n="34"/>uitiarum sapientie et scientie dei 
+        quamincomprehensibi<lb ed="#A" n="35" break="no"/>lia sunt iudicia eius. Item Boecius. lib de trini 
+        <lb ed="#A" n="36"/>tate dicit. Quod trinitas sibi soli nota est. intelligitur 
+        <lb ed="#A" n="37"/>scilicet comprehensiue. Addit quod et homini christo. Sed hoc non 
+        <lb ed="#A" n="38"/>est intelligendum comprehesiue. licet super omnia creata 
+        <lb ed="#A" n="39"/>videat. Ad idem Bern. Nil deo inquit praestantius 
+        <lb ed="#A" n="40"/>est et nil incomprehensibilius. Quid nempe cuique rei praestam 
+        <lb ed="#A" n="41"/>tius quam esse suum: sane esse omnium dixeri deum. Non quia 
+        <lb ed="#A" n="42"/>illa sunt quod sunt ille scilicet deus. Sed quia ex ipso et per ipsum 
+        <lb ed="#A" n="43"/>et in ipso sunt omnia. Est enim intelligentia nostra ad illam 
+        <lb ed="#A" n="44"/>lucem inaccessibile multo minus quam visus noctue 
+        <lb ed="#A" n="45"/>ad solem. Ut etiam patet. ii. Meta. Proinde etiam Au 
+        <lb ed="#A" n="46"/>gusti. li.ro de videndo deo. quod aliud est videre deum 
+        <lb ed="#A" n="47"/>aliud comprehendere quod est totum videndo capere vt nil 
+        <lb ed="#A" n="48"/>eius lateat videnti. Idemque dicit quod licet sufficit in patria 
+        <lb ed="#A" n="49"/>videbimus maiestatis diuine essentiam sicuti est. et eo 
+        <lb ed="#A" n="50"/>espicacius videbit vnusquisque quo hic vixerit purius 
+        <lb ed="#A" n="51"/>Tamen nec in via nec patria totaliter deum comprehendere 
+        <lb ed="#A" n="52"/>poterimus. Et de his satis patuit. supra. vbi Cogscere 
+        <lb ed="#A" n="53"/>comprehensiue.
+      </p>
+               <p xml:id="Vn7Pel-d38011-d1e176">
+        ¶ Secundo probatur rationibus. Nam. viii. philosophen. 
+        <lb ed="#A" n="54"/>Et primo Celi habetur et constat quod finiti ad infi 
+        <lb ed="#A" n="55"/>nitum proportio nulla. Sed omnis crcatura est 
+        <!--123.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 124 -->
+                  <lb ed="#A" n="56"/>finita Deus autem est infinitus. ergo improportionabiliter 
+        <lb ed="#A" n="57"/>deficit omnis creatura tam in presenti quam in patria 
+        <lb ed="#A" n="58"/>a dei captu pleno quod est comprehendere. Item secundum 
+        <lb ed="#A" n="59"/>Grammaticos etiam et theologos. vt patet etiam in libro 
+        <lb ed="#A" n="60"/>Catholicon Comprehendere dicitur a com quod est similis et prem 
+        <lb ed="#A" n="61"/>dere quod est capere quasi totum simul capere. Si ergo 
+        <lb ed="#A" n="62"/>deus totus similis posset comprehendi a creatura. 
+        sequi<lb ed="#A" n="63" break="no"/>tur quod posset limitari et sic non esset infinitus nec 
+        <lb ed="#A" n="64"/>summum bonum. per consequens posset deus non esse deus 
+        <lb ed="#A" n="65"/>quod est impossibile ergo etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38011-Dd1e212">
+               <head xml:id="Vn7Pel-d38011-Hd1e214">2</head>
+               <p xml:id="Vn7Pel-d38011-d1e217">
+                  <lb ed="#A" n="66"/>¶ Sed an deus suo intellectu 
+        com<lb ed="#A" n="67" break="no"/>prehendat seipsum: Ad hoc respondetur praesertim secundum san 
+        <lb ed="#A" n="68"/>ctum Tho. in scripto super primo di. lxiii. q. i. arti. i. 
+        <lb ed="#A" n="69"/>Ad quartum argumentum quod de ratione 
+        comprehensio<lb ed="#A" n="70" break="no"/>nis duo sunt vnum est quod fines rei apprehendantur vebl 
+        <lb ed="#A" n="71"/>contingantur aut contineantur. et sic infinitum puta deus 
+        <lb ed="#A" n="72"/>nullo modo comprehenditur neque a finito neque ab 
+        <lb ed="#A" n="73"/>infinito. Unde nec ipse deus comprehendit se hoc modo 
+        <lb ed="#A" n="74"/>quia fines non habet cum sit infinitus Aliud de ratione 
+        <lb ed="#A" n="75"/>comprehensionis est quod nihil comprehensi sit extra 
+        con<lb ed="#A" n="76" break="no"/>prehensorem et sic infinitum seipsum comprehendit. Unde 
+        <lb ed="#A" n="77"/>sic intellectus diuinus comprehendit essentiam suam 
+        <lb ed="#A" n="78"/>et potentiam cum nihil extra ipsum est quam adequat 
+        <lb ed="#A" n="79"/>Hec ex Tho. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d38011-Dd1e251">
+               <head xml:id="Vn7Pel-d38011-Hd1e253">3</head>
+               <p xml:id="Vn7Pel-d38011-d1e256">
+                  <lb ed="#A" n="80"/>¶ Sed quomodo intellectus diuinus 
+        <lb ed="#A" n="81"/>comprehendat se deum vel essentia diuinam: Difficul 
+        <lb ed="#A" n="82"/>tatem in hoc facit verbum Augustini. xi. de ciui. dei 
+        <lb ed="#A" n="83"/>c. xviii. Aut vt allegat Tho. lib. de videndo deum 
+        <lb ed="#A" n="84"/>vbi dicit sic Quicquid scitur scientis comprehensione. 
+        <lb ed="#A" n="85"/>finitur. Idem vel consimile dicit etiam philosophus. ii. metaph. 
+        <lb ed="#A" n="86"/>vbi ait sic Infinitum non est scibile. sed quicquid intel 
+        <lb ed="#A" n="87"/>lectus intelligit id finit. Hec ibi. Ex quibus Fran. 
+        <lb ed="#A" n="88"/>maro. in confla. super primo di. xxxv. vel. xxxvi. q. vl 
+        <lb ed="#A" n="89"/>Arguit quod cum deus sit sibi comprehensibilis sequitur 
+        <lb ed="#A" n="90"/>quod comprehendit se vt obiectum secundum aliquam deter 
+        <lb ed="#A" n="91"/>minatam mensuram: soli deo comprehensibilem Et 
+        <lb ed="#A" n="92"/>sic sciendo se comprehenditur a seipso tanquam infint 
+        <lb ed="#A" n="93"/>tum ab infinito. Sed tamen secundum Bonauem. et Rich. 
+        <lb ed="#A" n="94"/>super i. dist. xliii. q. ii diuinus intellectus vere 
+        co<lb ed="#A" n="95" break="no"/>gnoscit et iudicat diuinam essentiam esse infinitam. ergo deo 
+        <lb ed="#A" n="96"/>non est finita vel sub determinata mensura cogni 
+        <lb ed="#A" n="97"/>ta cum non possit ipsa essentia diuina limitari. Unde 
+        <lb ed="#A" n="98"/>Rich. Ibidem dicit quod illud verbum Augustini 
+        Quic<lb ed="#A" n="99" break="no"/>id scitur finitur etc. Similiter philosophi. Sic intelligendum est 
+        <lb ed="#A" n="100"/>y comprehensum a scientia ita perfecte capitur ab il 
+        <lb ed="#A" n="101"/>la comprehensione sicut capitur aliquod finitum ab 
+        ali<lb ed="#A" n="102" break="no"/>quo comprehendente. Ego autem concedo inquit 
+        <lb ed="#A" n="103"/>quod diuinus intellectus cognoscendo ita perfectissi 
+        <lb ed="#A" n="104"/>me comprehendit infinita sicut finita. Hec Rich. 
+        <lb ed="#A" n="105"/>Unde concluditur quod diuinus ipse intellectus 
+        con<lb ed="#A" n="106" break="no"/>prehendit se deum vel diuinam suam essentiam. 
+        cogno<lb ed="#A" n="107" break="no"/>scendo vere eam esse infinitam. et comprehendit illam: 
+        <lb ed="#A" n="108"/>infinita scientia et sapientia sua Non enim repu 
+        <lb ed="#A" n="109"/>gnat rationi quod infinitum comprehendat et capiat 
+        <lb ed="#A" n="110"/>totum infinitum. Sicut et linea infinita bene 
+        ha<lb ed="#A" n="111" break="no"/>bet et continet infinitas partes etc.
+      </p>
+               <p xml:id="Vn7Pel-d38011-d1e328">
+        ¶ Nec valet 
+        <lb ed="#A" n="112"/>argumentum tale Diuina essentia comphenditur et equitur 
+        <!--124.xml-->
+        <pb ed="#A" n="125"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>intellectui diuino. ergo est finita. Sicut non sequitur 
+        <lb ed="#A" n="2"/>Hoc equatur infinito. ergo est finitum. quia est 
+        fal<lb ed="#A" n="3" break="no"/>lacia a secundum quid ad simpliciter. imo potius sequitur 
+        op<lb ed="#A" n="4" break="no"/>positum quod ergo non est finitum. Sic etiam est in 
+        propo<lb ed="#A" n="5" break="no"/>sito iudicandum. Hec ex Bonauen. concor. Tho. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d38011-d1e350">
+                  <lb ed="#A" n="6"/>¶ Ad hec habes plura vbi de Essentia diuina. § 
+        <lb ed="#A" n="7"/>xl. et vbi Scientia. §. xxiii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

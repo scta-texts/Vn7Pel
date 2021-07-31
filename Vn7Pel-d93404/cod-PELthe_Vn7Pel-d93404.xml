@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vertias</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Vertias</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="299"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d93404">
+            <head xml:id="Vn7Pel-d93404-Hd1e107">Vertias</head>
+            <div xml:id="Vn7Pel-d93404-Dd1e110">
+               <head xml:id="Vn7Pel-d93404-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d93404-d1e115">
+                  <lb ed="#A" n="75"/>UEritas. Utrum 
+        <lb ed="#A" n="76"/>veritas principalius sit in re an in 
+        <lb ed="#A" n="77"/>intellectum: Ad hoc respondetur secundum 
+        Sco<lb ed="#A" n="78" break="no"/>torelis. in primo di. viii. q. i. quod vna opi 
+        <lb ed="#A" n="79"/>nio est dicit quod verum et falsum principalius sunt in 
+        intel<lb ed="#A" n="80" break="no"/>lectu: et secundario sunt in re. Quia philosophus. vi. meta. 
+        <lb ed="#A" n="81"/>dicit quod verum et falsum sunt in anima. Bonum autem 
+        <lb ed="#A" n="82"/>et malum sunt in rebus. Idem dicit. iii de anima
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e135">
+        ¶ Alia 
+        <lb ed="#A" n="83"/>opinio est omnino contraria. vicem quod principalius sit in 
+        <lb ed="#A" n="84"/>re. Quia veritas in intellectum est propter veritatem 
+        <lb ed="#A" n="85"/>que est in re. Nam ab eo quod res est vel non est 
+        ora<lb ed="#A" n="86" break="no"/>tio dicitur vera vel falsa. Sed propter vnumquodque tale 
+        <lb ed="#A" n="87"/>et illud magis ex i. posteriorum. ergo veritas 
+        principa<lb ed="#A" n="88" break="no"/>lius et magis est in re.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e151">
+        ¶ Tertia opinio est media 
+        <lb ed="#A" n="89"/>et melior que dicit quod veritas potest accipi dupli 
+        <lb ed="#A" n="90"/>citer. Uno modo fundamentaliter. Et sic veritas 
+        <lb ed="#A" n="91"/>est in re principalius vt dicit et probat secunda 
+        opi<lb ed="#A" n="92" break="no"/>nio. Ueritas enim fundatur principalius in re et 
+        conse<lb ed="#A" n="93" break="no"/>cutiue est in intellectum. Nam Ens et verum conuertum 
+        <lb ed="#A" n="94"/>tur: similiter falsum et non ens. sed ens principalius 
+        <lb ed="#A" n="95"/>est in re ergo et verum. Alio modo formaliter scilicet vt dicit 
+        habi<lb ed="#A" n="96" break="no"/>tudinem rei ad intellectum in manifestatione: et sic 
+        sum<lb ed="#A" n="97" break="no"/>pta veritas principalius est in intellectu. Secundario 
+        <lb ed="#A" n="98"/>autem in re vt dicit prima opinio. Quia veritas secundum suam 
+        <lb ed="#A" n="99"/>rationem formalem diffinitur secundum Isaac de diffinitionibus 
+        <lb ed="#A" n="100"/>quod est adequatio rei ad intellectum. Ista autem adequatio 
+        <lb ed="#A" n="101"/>principalius est intellectu et actiue: in re vero passiue 
+        <lb ed="#A" n="102"/>ergo patet propositum. Et sic intelligitur dictum philosophi. vi. meta. 
+        <lb ed="#A" n="103"/>quod verum et falsum sunt in intellectum vel in anima. 
+        <lb ed="#A" n="104"/>etc. Hec ex Scotorelis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e189">
+               <head xml:id="Vn7Pel-d93404-Hd1e191">2</head>
+               <p xml:id="Vn7Pel-d93404-d1e194">
+                  <lb ed="#A" n="105"/>¶ Utrum veritas sit propria esse 
+        <lb ed="#A" n="106"/>diuino: Arguitur quod sic. quia Hieron. ad Marcellan 
+        <lb ed="#A" n="107"/>icit. Deus solus qui exordium non habet vere essetie nomen 
+        <lb ed="#A" n="108"/>tenuit. Solus ergo deus vere est: cuius essetie comparatum 
+        <lb ed="#A" n="109"/>esse nostrum non est. Hec ille. Sed in oppositum quia. vi. 
+        <lb ed="#A" n="110"/>Meta. Ens et verum conuertuntur similiter falsum et non 
+        <lb ed="#A" n="111"/>ens. Et Aug. solilo. dicit Uerum est id quod est: ergo 
+        veri<lb ed="#A" n="112" break="no"/>tas est ipsa entitas: sed entitas non est propria soli 
+        <lb ed="#A" n="113"/>deo ergo nec veritas.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e216">
+        ¶ Ad hec simul et Ad quaesitum 
+        <!--299.xml-->
+        <pb ed="#A" n="300"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>respondetur secundum Bonauen. super primo dist. viii. q. i. similis 
+        <lb ed="#A" n="2"/>cum Tho. ibidem. quod veritas potest accipi.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e229">
+        ¶ Uno modo 
+        <lb ed="#A" n="3"/>vt est passio propositionis et distinguitur contra falsitatem. et sic 
+        <lb ed="#A" n="4"/>non est proprietas ipsius dei: sic etiam capiendo non 
+        con<lb ed="#A" n="5" break="no"/>uertitur cum ente vt patet. Nam portio falsa est ens et 
+        cre<lb ed="#A" n="6" break="no"/>atura sicut et propositio vera.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e240">
+        ¶ Secundo veritas capitur pro 
+        <lb ed="#A" n="7"/>ut est passio entis et distinguitur contra permixtionem 
+        <lb ed="#A" n="8"/>siue impuritatem. Ita quod verum ens vel esse dicatur illud 
+        <lb ed="#A" n="9"/>quod nihil habet admixtum de vanitate vel falsitate. id 
+        <lb ed="#A" n="10"/>est non entitate vel de possibilitate. sicut aurum 
+        ve<lb ed="#A" n="11" break="no"/>rum proprie dicitur quod nil alterius metalli habet admixtum 
+        <lb ed="#A" n="12"/>sed est purissimum aurum. Isto modo entitatis veritas 
+        <lb ed="#A" n="13"/>soli deo propria est. Quia in deo non cadit aliquo permi 
+        <lb ed="#A" n="14"/>xtio nec vanitas nec possibilitas: nec praeteritio: nec 
+        <lb ed="#A" n="15"/>futuritio. Sed omnis creatura vanitati subiecta est 
+        <lb ed="#A" n="16"/>etc. isto modo intelligitur dictum Hieron. supra
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e265">
+        ¶ Tertio 
+        <lb ed="#A" n="17"/>veritas capitur vt est passio quidem entis communiter. Et 
+        <lb ed="#A" n="18"/>sic conuertitur cum ente in communi accepto: nec soli deo 
+        <lb ed="#A" n="19"/>conuenit sed omni enti etiam creato inquantum habet esse ve 
+        <lb ed="#A" n="20"/>rum secundum suum modum quo imitatur deum in esse. quamuis 
+        <lb ed="#A" n="21"/>ens creatum habeat esse impurum et permixtum vanitati 
+        <lb ed="#A" n="22"/>vel falsitati vel possibilitati. Tamen inquantum est verum 
+        <lb ed="#A" n="23"/>est sicut et bonum est: veritate et bonitate entis. vt 
+        <lb ed="#A" n="24"/>patet in argumento in oppositum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e286">
+               <head xml:id="Vn7Pel-d93404-Hd1e288">3</head>
+               <p xml:id="Vn7Pel-d93404-d1e291">
+                  <lb ed="#A" n="25"/>¶ An deus sit prima et summa 
+        ve<lb ed="#A" n="26" break="no"/>ritas: Respondetur secundum Tho. prima parte. quia xvi. arti. v. et 
+        <lb ed="#A" n="27"/>communiter omnes doc. et philosophos quod sic. Declaratur quia veritas 
+        <lb ed="#A" n="28"/>in intellectum inuenitur secundum quod apprehendit rem et est in 
+        <lb ed="#A" n="29"/>re ad extra secundum quod habet esse conformabile intellectui. 
+        <lb ed="#A" n="30"/>Hoc autem maxie inuenitur in deo: quia esse suum non so 
+        <lb ed="#A" n="31"/>lum est conformabile sed imo est ipsummet suum 
+        intellige<lb ed="#A" n="32" break="no"/>re essentialiter. Et suum intelligere est mensura et 
+        cau<lb ed="#A" n="33" break="no"/>sa omnis alterius esse et alterius intelligere. Unde sequitur 
+        <lb ed="#A" n="34"/>quod in ipso deo non solum est veritas sed quod ipse sit prima 
+        <lb ed="#A" n="35"/>et summa veritas sicut ipse dominus ait Ioan. xiiii. Ego 
+        <lb ed="#A" n="36"/>sum via veritas et vita. Item Aug. lib. de vera re 
+        <lb ed="#A" n="37"/>ligione dicit. Ueritas est qui ostenditur id quod est. Sed  
+        <lb ed="#A" n="38"/>veritas quae est deus est lumen intellectus participatum 
+        <lb ed="#A" n="39"/>per quod unusqusque creatus intellectus recte iudicat de re 
+        <lb ed="#A" n="40"/>bus. Et sic est regula omnis veritatis reductiua in deum 
+        <lb ed="#A" n="41"/>sicut in causam efficientem et exemplarem ergo veritas di 
+        <lb ed="#A" n="42"/>uina est prima omnium et summa. Hec ex Tho. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e334">
+               <head xml:id="Vn7Pel-d93404-Hd1e336">4</head>
+               <p xml:id="Vn7Pel-d93404-d1e339">
+                  <lb ed="#A" n="43"/>¶ Utrum in deo fuerit ab eterno 
+        <lb ed="#A" n="44"/>vnica sola veritas an plures: Arguitur quod vnica. 
+        <lb ed="#A" n="45"/>Quia ab eterno non fuit nisi solus deus vnicus: 
+        <lb ed="#A" n="46"/>sed in deo non est nisi vnica veritas quoniam quicquid est 
+        <lb ed="#A" n="47"/>in deo est idem quod deus ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e352">
+        ¶ Sed contra Ab 
+        eter<lb ed="#A" n="48" break="no"/>no fuerunt in deo tres prione quarum qualibet est veritas 
+        <lb ed="#A" n="49"/>ergo fuerunt plures veritates: quia ab eterno hec fuit 
+        ve<lb ed="#A" n="50" break="no"/>ra. pater est deus et hec filius est deus. et hec etiam spiritus sanctus  
+        <lb ed="#A" n="51"/>est deus ergo etc. Item ab eterno sciuit deus quod homo erit et asi 
+        <lb ed="#A" n="52"/>nus erit. et sic plura.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e365">
+        ¶ Respondetur secundum Rich. super i. di. xix. 
+        <lb ed="#A" n="53"/>arti. et. q. vlti. concor. Tho. per conclusionem quo scilicet sicut vni 
+        <lb ed="#A" n="54"/>ca est essentia diuina: ita vnica tantum est veritas eterna.. 
+        <lb ed="#A" n="55"/>Ut patet per magistrum e. di. xix. cum Aug. viii. de trini. et 
+        <lb ed="#A" n="56"/>sic per consequens nulla fuit pluralitas veritatum ab eterno secundum 
+        <lb ed="#A" n="57"/>rem. Et probatur. quia si consideratur veritas vt est in intelle 
+        <!--299.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 300 -->
+                  <lb ed="#A" n="58"/>ctu constat quod ab eterno non fuit nisi vnicus intellectus scilicet 
+        <lb ed="#A" n="59"/>diuinus in quo quicquid est: idem est realiter cum essentia diuina  ergo patet 
+        <lb ed="#A" n="60"/>positum. Si autem consideratur prout veritas est in re ad 
+        <lb ed="#A" n="61"/>extra sicut dicimus quod essentia lapidis est vera: et quod homo 
+        <lb ed="#A" n="62"/>verus et diuina essentia vera: sic etiam ab eterno in fuit nisi 
+        <lb ed="#A" n="63"/>vnica veritas secundum rem scilicet veritas diuine essentie quae vnica 
+        <lb ed="#A" n="64"/>sola est ab eterno et immutabilis in qua fuerunt ab 
+        eter<lb ed="#A" n="65" break="no"/>no omnes veritates future praeintellecte. Unde sicut ve 
+        <lb ed="#A" n="66"/>ritas diuine essentie est vnica secundum rem: ita etiam ve 
+        <lb ed="#A" n="67"/>ritas omnium rationum et creaturarum est vnica in deo 
+        <lb ed="#A" n="68"/>secundum rem et non multiplicata nisi secundum respectum ad di 
+        <lb ed="#A" n="69"/>uersas creaturas. Unde ex pluralitate rerum 
+        creata<lb ed="#A" n="70" break="no"/>rum non probatur quod sint plures veritates ab 
+        eter<lb ed="#A" n="71" break="no"/>no sed hoc solum quod illa vnica veritas diuina sit 
+        <lb ed="#A" n="72"/>multorum secundum rationem et respectum
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e417">
+        ¶ Item de 
+        <lb ed="#A" n="73"/>regulis veritatis eternis vbi Esse. §. xxxi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e424">
+               <head xml:id="Vn7Pel-d93404-Hd1e426">5</head>
+               <p xml:id="Vn7Pel-d93404-d1e429">
+                  <lb ed="#A" n="74"/>¶ An autem tres persone dican 
+        <lb ed="#A" n="75"/>tur tres veritates in deo sicut arguebatur in 
+        obie<lb ed="#A" n="76" break="no"/>cto ad contrarium. Dicendum secundum e. Rich. quod tres perso 
+        <lb ed="#A" n="77"/>ne quamuis sint tres res notionales tantum vnica 
+        veri<lb ed="#A" n="78" break="no"/>tate sunt vere. Sicut enim in diuinis non possumus 
+        <lb ed="#A" n="79"/>ponere nisi vnam deitatem. ita non nisi vnicam verita 
+        <lb ed="#A" n="80"/>tem essentialem ponere possumus
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e448">
+               <head xml:id="Vn7Pel-d93404-Hd1e450">6</head>
+               <p xml:id="Vn7Pel-d93404-d1e453">
+        ¶ Si dicas 
+        <lb ed="#A" n="81"/>Res et verum conuertuntur. Cum ergo tres persone sunt 
+        <lb ed="#A" n="82"/>tres res. sequitur quod sunt tres veritates. Respondetur 
+        <lb ed="#A" n="83"/>secundum Rich. quod res et verum conuertuntur. vi. Meta. 
+        <lb ed="#A" n="84"/>intelligendum est de re essentialiter accepta non de 
+        <lb ed="#A" n="85"/>re notionali ergo etc. Nam in diuinis vna est res 
+        es<lb ed="#A" n="86" break="no"/>sentialis licet tres res notionales: ideo non concludit 
+        <lb ed="#A" n="87"/>argumentum. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e471">
+                  <lb ed="#A" n="88"/>¶ Sed difficultas est. quia sicut 
+        <lb ed="#A" n="89"/>ab eterno fuit illa veritas quae deus est. Ita ab 
+        eter<lb ed="#A" n="90" break="no"/>no fuit verum quod malum est malum: falsum est falsum. 
+        <lb ed="#A" n="91"/>nihil est nihil. materia est materia. Sed iste veri 
+        <lb ed="#A" n="92"/>tates non sunt illa veritas quae deus est cum in deo non 
+        <lb ed="#A" n="93"/>sit malum vel falsum vel nihil etc. ergo plures 
+        verita<lb ed="#A" n="94" break="no"/>tes fuerunt ab eterno. Respondetur secundum Rich. supra quod si ab 
+        <lb ed="#A" n="95"/>eterno ponantur fore vera ista. scilicet Malum est malum 
+        <lb ed="#A" n="96"/>et falsum est falsum et sic de aliis. Hoc fuit verum 
+        <lb ed="#A" n="97"/>in intellectum solum diuino per comparationem ad  
+        <lb ed="#A" n="98"/>rem intellectam loquendo de comparatione secundum ra 
+        <lb ed="#A" n="99"/>tionem. Ex quo enim ab eterno nullus alius fuit 
+        <lb ed="#A" n="100"/>intellectus nisi diuinus. Ideo ante mundi 
+        con<lb ed="#A" n="101" break="no"/>stitutionem malum esse malum et falsum esse falsum 
+        <lb ed="#A" n="102"/>et huiusmodi non potuit esse verum nisi veritate existen 
+        <lb ed="#A" n="103"/>te in intellectu diuino et sic habetur propositum vicet quod 
+        <lb ed="#A" n="104"/>vna sola veritate diuina que fuit ab eterno 
+        fue<lb ed="#A" n="105" break="no"/>runt vera omnes iste et alie veritates. Si autem 
+        <lb ed="#A" n="106"/>ponetur quod deus noluisset ab eterno habere 
+        in<lb ed="#A" n="107" break="no"/>tellectu tales veritates rerum creatarum. vel de 
+        <lb ed="#A" n="108"/>malo et falso et nihilo. sed solummodo illam veritatem 
+        <lb ed="#A" n="109"/>que deus est. Tunc non fuisset neque veritas creata 
+        <lb ed="#A" n="110"/>neque falsitas neque loquens vel cogitans de veri 
+        <lb ed="#A" n="111"/>tate secundum quod est in re nec secundum quod est in intellectu: quia 
+        <lb ed="#A" n="112"/>tunc nullus fuisset intellectus in qua veritas vel 
+        <lb ed="#A" n="113"/>falsitas formaliter esse potuisset et per consequens 
+        <lb ed="#A" n="114"/>nec veritas fuisset cum verum et falsum non ha 
+        <!--300.xml-->
+        <pb ed="#A" n="301"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>beat esse formale nisi in anima. vi. Meta. et iii de 
+        <lb ed="#A" n="2"/>anima. Hec Rich. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e544">
+               <head xml:id="Vn7Pel-d93404-Hd1e546">7</head>
+               <p xml:id="Vn7Pel-d93404-d1e549">
+                  <lb ed="#A" n="3"/>¶ Utrum omnia vera vna sola ve  
+        <lb ed="#A" n="4"/>ritate increata sint vera: Respondetur secundum Tho. prima 
+        <lb ed="#A" n="5"/>parte. q. xvi. arti. vi. quod quodammodo bene. sic. 
+        quo<lb ed="#A" n="6" break="no"/>dammodo autem non. Quia loquendo de veritate in 
+        <lb ed="#A" n="7"/>creata vt est principium effectiuum et exemplare omnis 
+        <lb ed="#A" n="8"/>veritatis: sic vna est illa veritas scilicet increata qua 
+        <lb ed="#A" n="9"/>omnia vera sunt vt a principio effectiuo et 
+        exem<lb ed="#A" n="10" break="no"/>plari. Si autem loquimur de veritate prout est in 
+        in<lb ed="#A" n="11" break="no"/>tellectum creato formaliter sic in multis 
+        intellecti<lb ed="#A" n="12" break="no"/>bus creatis sunt multe veritates et etiam in eodem 
+        <lb ed="#A" n="13"/>intellectu secundum plura cognita formaliter. Unde super 
+        <lb ed="#A" n="14"/>illud Psalmus Diminute sunt veritates a filiis 
+        ho<lb ed="#A" n="15" break="no"/>minum. Glosa dicit quod sicut ab vna facie hominis 
+        <lb ed="#A" n="16"/>resultant plures similitudines in speculis 
+        diuer<lb ed="#A" n="17" break="no"/>sis. siciab vna veritate diuina resultat plures 
+        verita<lb ed="#A" n="18" break="no"/>tes
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e586">
+        ¶ Denique si loquimur de veritate prout est 
+        <lb ed="#A" n="19"/>in rebus. scilicet fundamentaliter. Sic omnes etiam 
+        <lb ed="#A" n="20"/>sunt vere vna prima veritate cui vnumquodque 
+        as<lb ed="#A" n="21" break="no"/>similatur secundum suam entitatem. Et sic quamuis 
+        plu<lb ed="#A" n="22" break="no"/>res sint essentie et forme rerum. Tamen vna est 
+        <lb ed="#A" n="23"/>veritas diuini intellectus secundum quam omnes res de 
+        <lb ed="#A" n="24"/>nominantur vere res. Proinde etiam secundum eundem 
+        <lb ed="#A" n="25"/>Tho. in scrip. primi. dist. xix. q. iiii. arti. ii 
+        Dicen<lb ed="#A" n="26" break="no"/>dum quod sicut est vnum esse diuinum quo omnia 
+        <lb ed="#A" n="27"/>sunt sicut a principio effectiuo et exemplari. 
+        Ni<lb ed="#A" n="28" break="no"/>hilo minus tamen in rebus diuersis est esse 
+        di<lb ed="#A" n="29" break="no"/>uersum quo formaliter res est Ita etiam est vna 
+        <lb ed="#A" n="30"/>veritas dinina quae omnia vera: sunt vera sicut a 
+        prin<lb ed="#A" n="31" break="no"/>cipio effectiuo et exemplari. Nihilo minus plu 
+        <lb ed="#A" n="32"/>res veritates sunt in rebus creatis quibus 
+        di<lb ed="#A" n="33" break="no"/>cuntur vere formaliter. Sicut enim vnica boni. 
+        <lb ed="#A" n="34"/>tate diuina omnia sunt bona sic et vnica 
+        verita<lb ed="#A" n="35" break="no"/>te diuina omnia sunt vera effectiue et exemplari 
+        <lb ed="#A" n="36"/>ter. Unde omnes veritates reducuntur in deum 
+        <lb ed="#A" n="37"/>sicut in causam efficientem et exemplarem. 
+        Si<lb ed="#A" n="38" break="no"/>cut enim omnia entia participant bonitatem ita et 
+        veri<lb ed="#A" n="39" break="no"/>tatem a deo qui est prima et summa veritas et bonitas etc. 
+        <lb ed="#A" n="40"/>Hec ex Thoma. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e637">
+               <head xml:id="Vn7Pel-d93404-Hd1e639">8</head>
+               <p xml:id="Vn7Pel-d93404-d1e642">
+                  <lb ed="#A" n="41"/>¶ Numquid ergo veritas est maior men 
+        <lb ed="#A" n="42"/>tem humana. Respondetur secundum e. Tho. supra. quod veritas prima quae est 
+        <lb ed="#A" n="43"/>deus maior est anima et omni creatura. Sed veritas creata 
+        <lb ed="#A" n="44"/>quae formaliter est in intellectu nostro est maior anima. non 
+        <lb ed="#A" n="45"/>simpliciter sed secundum quid inquantum est perfectio eius sicut etiam sceita 
+        <lb ed="#A" n="46"/>posset dici maior anima similiter charitas. Sed dicit quod anima 
+        <lb ed="#A" n="47"/>iudicat de veritate ergo anima est maior. Dicit Tho. ibidem 
+        <lb ed="#A" n="48"/>quod anima vel mens non iudicat de veritate sed bene iudicat 
+        <lb ed="#A" n="49"/>omnia secundum veritatem ergo non sequitur etc. Quod si adhuc 
+        obiici<lb ed="#A" n="50" break="no"/>as quia. vii. meta. Omnis substantia est melior omni accistente Ud 
+        <lb ed="#A" n="51"/>ritas autem creata est accistens et anima est substantia ergo etc. Respondetur secundum 
+        <lb ed="#A" n="52"/>Fran. ma. in confla. primi. di. xliii. q. vl. quod sicut infiniti asi 
+        <lb ed="#A" n="53"/> 
+                  <lb ed="#A" n="54"/>infiniti colores vnum gradum charitatis. ita nec 
+        infini<lb ed="#A" n="55" break="no"/>ta charitas creata vnam substantiam puta animam rationalem 
+        <lb ed="#A" n="56"/>Sed quo ad perfectionem accidentalem secus est. Similiter 
+        <lb ed="#A" n="57"/>dicendum de veritate creata respectu anime.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e682">
+               <head xml:id="Vn7Pel-d93404-Hd1e684">9</head>
+               <p xml:id="Vn7Pel-d93404-d1e687">
+        <!--300.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 301 -->
+                  <lb ed="#A" n="58"/>Item difficultas est quia mala 
+        fie<lb ed="#A" n="59" break="no"/>ri est verum. An ergo hoc verum: sit a deo vel a veritate 
+        <lb ed="#A" n="60"/>increata que deus est. Si dicis quod sic ergo sequitur quod ma 
+        <lb ed="#A" n="61"/>lum fieri. putaantichristum peccare vel fornicari istum 
+        <lb ed="#A" n="62"/>cum sit verum: ert a deo vel a veritate que deus est Sed 
+        <lb ed="#A" n="63"/>quicquid dicitur sse a deo: dicitur esse ab eo vt a causa prima 
+        <lb ed="#A" n="64"/>omnium. sicut dicim quod esse dei est causa omnis esse. ergo malum vel 
+        <lb ed="#A" n="65"/>peccatum erit a deo quod est falsum. Si autem dicis quod hoc 
+        <lb ed="#A" n="66"/>verum. videlicet ralum fieri non est a deo sequitur quod non 
+        <lb ed="#A" n="67"/>omne verum est a deo vl a veritate quae est deus
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e718">
+        ¶ Respondetur secundum 
+        <lb ed="#A" n="68"/>Tho. prima per. q. xvarti. v. Quod priuationes et mala 
+        <lb ed="#A" n="69"/>siue peccata non habent ex eipsis veritatem sed solum ex 
+        <lb ed="#A" n="70"/>apprehensione intelectus. omis autem 
+        apprehen<lb ed="#A" n="71" break="no"/>sio intellectus a deo et Unde quicquid est veritatis  
+        <lb ed="#A" n="72"/>in hoc quod dico antichrisinpeccare vel istum 
+        fornica<lb ed="#A" n="73" break="no"/>ri et huiusmodi. Totum veritatis si a deo. Sed si infertur. ergo 
+        <lb ed="#A" n="74"/>istum fornicari vel antichrumneccare est a deo: est fal 
+        <lb ed="#A" n="75"/>lacia accidentis. Hec Thc Nam secundum philosophum lib. ii 
+        <lb ed="#A" n="76"/>Elencho. et Commentatur. Fallcia accidentis est quando 
+        <lb ed="#A" n="77"/>quodlibet assignatur inesse rei abiecte et 
+        acciden<lb ed="#A" n="78" break="no"/>ti eius consimiliter. cum tamen dissimiliter nsit. sicut est hic. quia 
+        <lb ed="#A" n="79"/>peccatum esse inquantum verum est: a de est talis 
+        veri<lb ed="#A" n="80" break="no"/>tas sed non deformitas. Ad idem in cpotit. super i. 
+        di<lb ed="#A" n="81" break="no"/>xix. vbi. supra Idem Tho. dicit quod quamuis malumnon sit ad deo 
+        <lb ed="#A" n="82"/>nec sit bonum: tamen intelligere malum: esibonum. et vt 
+        <lb ed="#A" n="83"/>sic a deo est Ideoque veritas que consistr in commen 
+        <lb ed="#A" n="84"/>suratione intellectus ad malum vel ad pruationem 
+        <lb ed="#A" n="85"/>existentem extra animam bona est. et inquantibona et 
+        <lb ed="#A" n="86"/>vera: a deo est Propterea Ambro. dicit quae omne 
+        <lb ed="#A" n="87"/>verum a quocumque dicatur a spiritu sancto est. Et hominest 
+        in<lb ed="#A" n="88" break="no"/>telligendum causaliter et exemplariter vt a prima cau 
+        <lb ed="#A" n="89"/>sa et inquantum illud est verum Hec Tho. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d93404-Dd1e769">
+               <head xml:id="Vn7Pel-d93404-Hd1e771">10</head>
+               <p xml:id="Vn7Pel-d93404-d1e774">
+                  <lb ed="#A" n="90"/>¶ An ergo omne verum: dictum sit a 
+        <lb ed="#A" n="91"/>spiritu sancto vel quomodo hoc verificetur: Bonauen. in primi di 
+        <lb ed="#A" n="92"/>xlvi. circa lit. Arguit sic Ambrosius dicit quod veruma 
+        <lb ed="#A" n="93"/>quocumque dicatur a spiritu sancto est ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e785">
+        ¶ Sed 
+        contra<lb ed="#A" n="94" break="no"/>Cum detractor dicit verum detrahendo. non a spiritu sancto 
+        <lb ed="#A" n="95"/>est Similiter peccatores et pagani et demones 
+        fre<lb ed="#A" n="96" break="no"/>quenter dicunt verum. cum non sit in ceis spiritus sanctus. 
+        <lb ed="#A" n="97"/>ergo etc. Denique habemus est scripturas sacras pro 
+        <lb ed="#A" n="98"/>et contra. Ut patebit in prosequen. responsionem.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e798">
+        ¶ Ad  
+        <lb ed="#A" n="99"/>hec ergo dicendum colligendo similis ex Bonauen. supra. 
+        <lb ed="#A" n="100"/>et Lyra in postilla super i. Corum. xii. Quod pluribus 
+        <lb ed="#A" n="101"/>modis potest quis dicere verum a spiritu sancto.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e807">
+        ¶ Uno modo 
+        <lb ed="#A" n="102"/>sic quod dicit a spiritu sancto mouente tantu generali in 
+        <lb ed="#A" n="103"/>fluxu. non tamen habita spiritus sancti gratia. Et sic dicit 
+        Am<lb ed="#A" n="104" break="no"/>brosius quod omne verum a quocumque dicatur a spiritu sancto est 
+        <lb ed="#A" n="105"/>Intelligendo vt a causa prima inquantum illud est 
+        <lb ed="#A" n="106"/>verum. quia nemo potest loqui nec aliquid facere sicut 
+        <lb ed="#A" n="107"/>nec esse in re sine generali influxum dei. Ticet ergo 
+        <lb ed="#A" n="108"/>peccator et paganus et demones non habeant spiritus sanctum 
+        <lb ed="#A" n="109"/>tamen hoc quod sunt. et verum dicunt. a deo est causaliter
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e828">
+        ¶ Alio modo 
+        <lb ed="#A" n="110"/>potest quis dicere verum sic quod dicit illud a spiritu sancto mouente 
+        <lb ed="#A" n="111"/>et sperali influxum maxime in his quae excedunt facltatem natre 
+        <lb ed="#A" n="112"/>licet n habinto spiritu sncto Istous Balaam milta vera prophetauit et 
+        <lb ed="#A" n="113"/>dixit Nu. xxiiii. Similiter Caiphas prophetauit a sius 
+        mo<lb ed="#A" n="114" break="no"/>uente. licet non habinto: quod Iesus deberet mori pro gente Io. xi.
+      </p>
+               <p xml:id="Vn7Pel-d93404-d1e841">
+        <!--301.xml-->
+                  <pb ed="#A" n="302"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Tertio modo aliquando dicit quis verum non 
+        <lb ed="#A" n="2"/>solum a spiritu sancto generaliter mouente nec eiam speci 
+        <lb ed="#A" n="3"/>aliter per spiritus sancti influxum. vt in praedictis. Sed  
+        <lb ed="#A" n="4"/>orterea etiam in spiritu sancto ipso mouenteet per gratiam 
+        <lb ed="#A" n="5"/>habito. Et sic intelligendum est quod apostolus. Corum. xii. 
+        <lb ed="#A" n="6"/>ait. Nemo potest dicere dominus iesus nisi spiritu sancto. 
+        <lb ed="#A" n="7"/>Nam licet multi peccatores et a spiritu santo alieni 
+        di<lb ed="#A" n="8" break="no"/>cant hoc verum dominus iesus christus est et. Teste christo 
+        <lb ed="#A" n="9"/>Matth. vii. Non omnis qui dicit mhi domine domine in 
+        <lb ed="#A" n="10"/>trabit in regnum caelorum. Tamen nin potest dicere vere 
+        <lb ed="#A" n="11"/>et perfecta locutione vicem. cordis: omnis: et operis. Isto 
+        <lb ed="#A" n="12"/>tertio modo intelligendo nisi ii spiritu sancto. Si enim 
+        <lb ed="#A" n="13"/>veraciter dicit dominus iesus: tun vere talis est 
+        ser<lb ed="#A" n="14" break="no"/>aus huius domini iesu quod norpotent esse nisi per 
+        spiri<lb ed="#A" n="15" break="no"/>tum sanctum inhabitantem in eo. Ut patet etiam secundum Alex. 
+        <lb ed="#A" n="16"/>de Ales et praedictos. Sic patet ad quaesitum quod omne 
+        <lb ed="#A" n="17"/>verum a quocumque dicatur es a spiritu sancto vel habito vl 
+        <lb ed="#A" n="18"/>saltem generaliter mol este causaliter et exempla 
+        <lb ed="#A" n="19"/>riter inquantum illud est verum. Ut patuit etiam 
+        <lb ed="#A" n="20"/>secundum Tho. §. precedoti etc.
+        <lb ed="#A" n="21"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

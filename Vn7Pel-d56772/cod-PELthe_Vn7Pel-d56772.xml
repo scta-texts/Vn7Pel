@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Originari</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Originari</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d56772">
+            <head xml:id="Vn7Pel-d56772-Hd1e107">Originari</head>
+            <div xml:id="Vn7Pel-d56772-Dd1e110">
+               <head xml:id="Vn7Pel-d56772-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d56772-d1e115">
+                  <lb ed="#A" n="75"/>ORiginari. de hoc 
+        <lb ed="#A" n="76"/>ota secundum Guil. in primo di. xxvii. quod ista 
+        <lb ed="#A" n="77"/>tria differunt scilicet originari. pullulare. 
+        <lb ed="#A" n="78"/>et communicari. Unde proprie loquedo inter originans 
+        <lb ed="#A" n="79"/>et originatum est distinctio realis sicut inter 
+        pro<lb ed="#A" n="80" break="no"/>ducens et productum cum capiatur communiter si 
+        <lb ed="#A" n="81"/>cut dicitur passio originari a subiecto que tamen 
+        <lb ed="#A" n="82"/>non semper ab eo realiter distinguitur. Et patuit de hoc 
+        <lb ed="#A" n="83"/>etiam vbi Seneratio. §. ii. Denique iter pullulans 
+        <lb ed="#A" n="84"/>et id a quo pullulat: solum exigitur distinctio ex na 
+        <lb ed="#A" n="85"/>tura rei sicut est inter diuinam essentiam et attribu 
+        <lb ed="#A" n="86"/>ta que ab ea pullulant vt dicit Diony. de di. 
+        no<lb ed="#A" n="87" break="no"/>ii. vbi propterea attributa vocantur frutices Sed in 
+        <lb ed="#A" n="88"/>ter communicans et communicatum solum extat distin 
+        <lb ed="#A" n="89"/>ctio rationis. Idem enim seipsum communicat. et ita 
+        o<lb ed="#A" n="90" break="no"/>mne quod originatur pullulat. non econtra. Et omne 
+        <lb ed="#A" n="91"/>quod pullulat communicatur non econuerso. Hec Guil.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

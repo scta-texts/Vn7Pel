@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Si</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Si</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="270"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d84182">
+            <head xml:id="Vn7Pel-d84182-Hd1e107">Si</head>
+            <div xml:id="Vn7Pel-d84182-Dd1e110">
+               <head xml:id="Vn7Pel-d84182-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d84182-d1e115">
+                  <lb ed="#A" n="41"/>SI est coniunctio 
+        <lb ed="#A" n="42"/>causalis secundum Donatum. et solet capi 
+        tri<lb ed="#A" n="43" break="no"/>liciter. secundum Guil. in i. di. xi. Uno modo 
+        <lb ed="#A" n="44"/>capitur pro quia. vt in Catone. Si deus est animus no 
+        <lb ed="#A" n="45"/>bis vt carmina dicunt. Item. iii. Regum. xvi. Si de 
+        <lb ed="#A" n="46"/>est deus: sequimi eum. Etsi scriptura sacra est vera: 
+        <lb ed="#A" n="47"/>peribit omnis malus. Ibi capitur si id est quia sic est et etc. 
+        <lb ed="#A" n="48"/>Secundo modo capitur pro non. vt in psalmus. Ipsi vero non 
+        co<lb ed="#A" n="49" break="no"/>gnouerunt vias meas: quibus iuraui in ira mea. si 
+        <lb ed="#A" n="50"/>introibunt in requiem meam. si id est non introibunt etc. 
+        <lb ed="#A" n="51"/>Tertio modo capitur vt notat conditionem. et hinc dicitur 
+        pro<lb ed="#A" n="52" break="no"/>positio hypothetica conditionalis. sicut illud 
+        Io<lb ed="#A" n="53" break="no"/>xiiii. Si quis diligit me ser. meum serua. Unde ver. Si 
+        <lb ed="#A" n="54"/>quia. sique negat. si signat conditionem etc
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e149">
+               <head xml:id="Vn7Pel-d84182-Hd1e151">2</head>
+               <p xml:id="Vn7Pel-d84182-d1e154">
+        <!--269.xml-->
+                  <cb ed="#A" n="b"/>
+                  <!-- 270 -->
+                  <lb ed="#A" n="55"/>Nota etiam secundum. e. Guil. Ibidem. 
+        <lb ed="#A" n="56"/>quod cum ista coniunctione si. potest triplex quonum modus 
+        <lb ed="#A" n="57"/>exordiri.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e170">
+        ¶ Primus modus est. quando tam ante 
+        <lb ed="#A" n="58"/>cedens quam consequens habet veritatem. Queritur tamen de 
+        <lb ed="#A" n="59"/>onexione antecedentis cum consequente. Sicut illud 
+        <lb ed="#A" n="60"/>Boetii de consola. Si deus est vnde mala: Nam 
+        <lb ed="#A" n="61"/>verum est et deum esse: et mala esse. Sed queritur. An 
+        <lb ed="#A" n="62"/>ad deum esse: sequitur mala esse vel non
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e183">
+        ¶ Secundus mo 
+        <lb ed="#A" n="63"/>dus est. Quando aut antecedens aut consequens 
+        <lb ed="#A" n="64"/>vnum illorum habet falsitatem. tamen in extrinsecis qua 
+        <lb ed="#A" n="65"/>ritur de illa consequentia Utrum. scilicet ad vnum: aliud  
+        <lb ed="#A" n="66"/>sequatur. Sicut in philosopho. iiii. physi. queritur. Utrum si 
+        <lb ed="#A" n="67"/>in spacio aliquo esset solum sonus seu color. an 
+        <lb ed="#A" n="68"/>illud spacium esset vacuum. Nam illa que sunt in 
+        <lb ed="#A" n="69"/>spacio: extrinseca sunt spacio
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e201">
+        ¶ Item in quastione 
+        <lb ed="#A" n="70"/>theologica consimiliter est. videlicet ista. Utrum spiri 
+        <lb ed="#A" n="71"/>ritus sanctus si a patre solo procederet: 
+        distingue<lb ed="#A" n="72" break="no"/>retur ex natura rei a filio Nam imaginor inquit in 
+        <lb ed="#A" n="73"/>filio duplicem relationem scilicet filiationem. et spirationem. 
+        <lb ed="#A" n="74"/>actiuam. Et antequam filius spiret spiritum sanctum 
+        <lb ed="#A" n="75"/>in quodam signo. intelligo filium in esse suo com 
+        <lb ed="#A" n="76"/>stitutum ex diuina essentia et filiatione. et ita in 
+        se<lb ed="#A" n="77" break="no"/>cundo signo spirationem sibi aduenire. et per 
+        conse<lb ed="#A" n="78" break="no"/>quens de esse quiditatiuo filii non esse. licet Petrus  
+        <lb ed="#A" n="79"/>Aureoli dixerit oppositum. ponendo filium constitui 
+        <lb ed="#A" n="80"/>ex tribus. ex diuina essentia. filiatione. et spiratione 
+        <lb ed="#A" n="81"/>actiua. Modo huiusmodi questio admittenda est. 
+        quam<lb ed="#A" n="82" break="no"/>uis antecedens sit falsum et impossibile scilicet quod spirit 
+        <lb ed="#A" n="83"/>ritus sanctus a solo patre procedat. Nec ista quaestio 
+        <lb ed="#A" n="84"/>ponit quod ita sit. sed querit: si ita esset. quid esset di 
+        <lb ed="#A" n="85"/>cendum etc.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e239">
+        ¶ Tettius modus est. quando fit quaestio 
+        <lb ed="#A" n="86"/>de si. ita quod in antecedente vel consequente est falsi 
+        <lb ed="#A" n="87"/>tas quo ad intrinseca. Queritur tamen de consequen 
+        <lb ed="#A" n="88"/>tia: an sequatur. Sicut illud Richar. iii. de trini. 
+        <lb ed="#A" n="89"/>ca. vi. Si tantum vna persona esset haberet sapientie 
+        <lb ed="#A" n="90"/>plenitudinem eque: vt nunc. Persona enim prima 
+        <lb ed="#A" n="91"/>vel vna constituitur in esse persone per respectum ad  
+        <lb ed="#A" n="92"/>secundam personam. et ita ponitur falsitas in esse 
+        quidita<lb ed="#A" n="93" break="no"/>tiuo. Hec ex Guill. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e259">
+                  <lb ed="#A" n="94"/>¶ Nota denique de conditionaliter 
+        <lb ed="#A" n="95"/>secundum Lyram super Epistola Gal id est et logicos: ac communiter 
+        <lb ed="#A" n="96"/>Mgros. quod aliqua propositio conditionalis potest esse 
+        <lb ed="#A" n="97"/>vera. cuius tamen vtraque pars est falsa. vt est ista. Sed 
+        <lb ed="#A" n="98"/>homo volat: homo habet alas. est propositio vera hypotheti 
+        <lb ed="#A" n="99"/>ca. et tamen vtraque eius pars est falsa scilicet hominem 
+        vola<lb ed="#A" n="100" break="no"/>re: et habere alas. Similiter illud Apostolis Gal. i. Si angelus 
+        <lb ed="#A" n="101"/>de celo euangeliemaret contra veritatem euangelii: anathema 
+        <lb ed="#A" n="102"/>sit: licet vera sit locutio: tamen anbe partes eius ster fle: vt patet.
+        <lb ed="#A" n="103"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e286">
+               <head xml:id="Vn7Pel-d84182-Hd1e288">1</head>
+               <p xml:id="Vn7Pel-d84182-d1e291">
+                  <lb ed="#A" n="104"/>SImplex del sim 
+        <lb ed="#A" n="105"/>plicitas. De hoc nota secundum Guil. in pi. 
+        <lb ed="#A" n="106"/>di. viii. quod simplex dicitur quasi sine plica 
+        <lb ed="#A" n="107"/>eo quod caret partibus Unde philosophus dicit. xii. 
+        me<lb ed="#A" n="108" break="no"/>taphysi. aut totum cognoscitur simplex. aut totum 
+        <lb ed="#A" n="109"/>ignoratur. Simplicitas enim loquendo formaliter so 
+        <lb ed="#A" n="110"/>lum dicit respectum negatiuum compositionis. licet funda 
+        <lb ed="#A" n="111"/>mentaliter aliquando dicat positionem sed non semper quia bene di 
+        <!--270.xml-->
+        <pb ed="#A" n="271"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cimus negationes simplices.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e320">
+        ¶ Unde nota quod ista tria 
+        <lb ed="#A" n="2"/>bile. Hec Guil. 
+        <lb ed="#A" n="3"/>differunt. videlicet vnitas: identitas: simplicitas. 
+        <lb ed="#A" n="4"/>uiduantur. et ita ille forme sunt supposita 
+        subsisten<lb ed="#A" n="5" break="no"/>Nam vnitas opponitur diuisioni identitas 
+        distin<lb ed="#A" n="6" break="no"/>materia sint in se subsistentes. et per hoc ex seipsis 
+        indi<lb ed="#A" n="7" break="no"/>ctioni. Sed simplicitas compositioni. Hec Guil. 
+        <lb ed="#A" n="8"/>sunt essentia et suppositum. Et licet forme separate a 
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e338">
+                  <lb ed="#A" n="9"/>¶ Unde secundum Metap. in separatis subitanis. non omnino idem 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e344">
+               <head xml:id="Vn7Pel-d84182-Hd1e346">2</head>
+               <p xml:id="Vn7Pel-d84182-d1e349">
+                  <lb ed="#A" n="10"/>¶ Sed qualiter ista differunt 
+        sim<lb ed="#A" n="11" break="no"/>ex qua est. et quod est. patuit vbi Quo est. §. iii. et iiii. 
+        <lb ed="#A" n="12"/>plex. simpliciter simplex. Et omnimode simplex vel 
+        sum<lb ed="#A" n="13" break="no"/>Compoato. §. ii. Tertio nec ex essentia et supposito. nec 
+        <lb ed="#A" n="14"/>me simplex.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e362">
+        ¶ Nota simplex dicitur illud quod vnico 
+        <lb ed="#A" n="15"/>titatiuis. quia deus est indiuisibilis. Uide de istis vbi 
+        <lb ed="#A" n="16"/>actu intelligendi apprehendi potest sicut est vna quidi 
+        <lb ed="#A" n="17"/>ma. quia hoc esset imperfectionis. Nec secundo scilicet ex partibus quan 
+        <lb ed="#A" n="18"/>tas vt homo vel animal. Unde sic acceptum simplex 
+        distin<lb ed="#A" n="19" break="no"/>Prio enim non potest in deo esse compo ex materia et for 
+        <lb ed="#A" n="20"/>guitur contra complexum etc.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e378">
+        ¶ Simpliciter simplex vero dicitur 
+        <lb ed="#A" n="21"/>te. Sed nulla harum est in deo. Ergo etc. 
+        <lb ed="#A" n="22"/>conceptus irresolubilis penitus sicut sunt conceptus 
+        <lb ed="#A" n="23"/>genere et differentia. Sexta ex subiecto et acciden 
+        <lb ed="#A" n="24"/>entis primarii. et vltimarum differentiarum quae sunt ens tran 
+        <lb ed="#A" n="25"/>scendes et ens praedicamntale. vt tagit doc. subti. di 
+        <lb ed="#A" n="26"/>et supposito. Quarta ex essentia et esse. Quinta ex 
+        <lb ed="#A" n="27"/>iii. primi. q. ii Et ad tmlle oportet peruenire et stare quia alias  
+        <lb ed="#A" n="28"/>cunda ex partibus quantitatis. Tertia ex essentia 
+        <lb ed="#A" n="29"/>esset processus in infinitum in ordinatis essentialise 
+        <lb ed="#A" n="30"/>tum fit compositio. Una est ex materia et forma. Se 
+        
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e402">
+                  <lb ed="#A" n="31"/>¶ Summe simplex autem dicitur quod in se omni caret compaone nec 
+        <lb ed="#A" n="32"/>quia secundum metaphysicos super. xii. li. Sex modis 
+        tan<lb ed="#A" n="33" break="no"/>alii est componibile. nec aliud cum eo vni tertio. Et in 
+        <lb ed="#A" n="34"/>secundum Aug. et philosophum. ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e414">
+        ¶ Alia via onditur inductie. 
+        <lb ed="#A" n="35"/>his vltimis duabus differentiis differt summo 
+        <lb ed="#A" n="36"/>litas vel diuersitas. Sed omne quod est in deo est deus 
+        <lb ed="#A" n="37"/>simplex a simpliciter simplici. licet emim simpliciter simplex 
+        <lb ed="#A" n="38"/>tas et identitas ita quod nulla est in deo rerum plura 
+        <lb ed="#A" n="39"/>non sit compositum: tamen est componibile cum alio et aliud cum 
+        <lb ed="#A" n="40"/>merus. ergo compositio. Sed quoniam in deo est suma vni 
+        <lb ed="#A" n="41"/>eo. Hec omnia idem Guil. vbi. supra. Unde ex his etiam 
+        <lb ed="#A" n="42"/>merus. et vbi Diuisio ibi pluralitas et per consequens nul 
+        <lb ed="#A" n="43"/>idem notat quod ex simplicibus fit compositio bene. puta 
+        <lb ed="#A" n="44"/>logicam deductionem. vbi est pluralitas ibi est nul 
+        <lb ed="#A" n="45"/>ex quiditatibusgeneris et differentie componitur spees 
+        <lb ed="#A" n="46"/>rum secundum grammaticos a con quod est similis et positio. Et secund 
+        <lb ed="#A" n="47"/>Ite ex compositis resolubilia sed non semper secundum mentem 
+        <lb ed="#A" n="48"/>positionem. Compositio autem dicit similis positionem 
+        aliquo<lb ed="#A" n="49" break="no"/>philosophorum quia secundum eos Celum est compositum. non tamen 
+        resolu<lb ed="#A" n="50" break="no"/>d. viii. q. vl. Probatur sic. Simplicitatis ratio privat con 
+        <lb ed="#A" n="51"/>theologicis rationibus.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e453">
+        ¶ Primo secundum Fran. maro. et 
+        <lb ed="#A" n="52"/>est omnino simplex. Unde istud probatur tam physicis quam 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e460">
+               <head xml:id="Vn7Pel-d84182-Hd1e462">3</head>
+               <p xml:id="Vn7Pel-d84182-d1e465">
+                  <lb ed="#A" n="53"/>¶ Utrum diuina essentia vel deus 
+        <lb ed="#A" n="54"/>etiam philosophus. xii. metaph. dicit quod prima substantia que est deus 
+        <lb ed="#A" n="55"/>sit Summesimplex per omnimodam carentiam 
+        composi<lb ed="#A" n="56" break="no"/>vi. de Trinitate per conclusionem. Quod sic. et concordat 
+        <lb ed="#A" n="57"/>tionis; Respondetur secundum magistri sententiam in primi. di. viii. et Aug. 
+        <!--270.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 271 -->
+                  <lb ed="#A" n="58"/>tia. tamen diuersum est in eis quo est. et quod est. sed in deo 
+        <lb ed="#A" n="59"/>dem sunt essentia et suppositum. et quo est. et quod est. 
+        <lb ed="#A" n="60"/>scilicet deitas et deus. ergo etc. Non sic autem est in 
+        compo<lb ed="#A" n="61" break="no"/>sitis ex materia et forma. vbi essentia et 
+        supposi<lb ed="#A" n="62" break="no"/>tum non sunt idem. puta Humanitas et 
+        Sor<lb ed="#A" n="63" break="no"/>tes. Hec patent per Boetium. libro de Ebdomadibus. 
+        <lb ed="#A" n="64"/>Quarto in deo non est compotn ex essentia et esse. vt ptunit 
+        <lb ed="#A" n="65"/>vbi Ens et Esse. §. xxxvi. etc. Quinto. non est compo ex 
+        <lb ed="#A" n="66"/>genere et differentia. quia deus non est in genere: cum sit 
+        transcen<lb ed="#A" n="67" break="no"/>dens omnia. Sexto. nec ex sbiecto et accistente. quia in deum 
+        <lb ed="#A" n="68"/>nullum cadit accismuns. xii. metap. etc. De istis vltimis 
+        <lb ed="#A" n="69"/>duabus latius in se. §. v. et. vi. Ad praedicta est infra. §. x. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e512">
+               <head xml:id="Vn7Pel-d84182-Hd1e514">4</head>
+               <p xml:id="Vn7Pel-d84182-d1e517">
+                  <lb ed="#A" n="70"/>¶ Sed an summa simplicitas dei sit per 
+        <lb ed="#A" n="71"/>caretiam compaonis etiam aptitudialis. ita quod nec deus possit 
+        <lb ed="#A" n="72"/>alteri componi: nec aliud deo. Respondetur secundum Scotorlis. in i. 
+        <lb ed="#A" n="73"/>di. viii. q. iii. et Ric. e. dis. art. iii. q. i. aliosque communitur. per 
+        <lb ed="#A" n="74"/>conclusioem quod sic. Probatio praecipua Scotor. Quia in 
+        <lb ed="#A" n="75"/>finitum non est alteri componibile. sed deus est infinitus. ergo etc 
+        <lb ed="#A" n="76"/>Maior patet. quia omne componibile caret perfectione eius cum 
+        <lb ed="#A" n="77"/>i est componibile. cum sit in potentia ad illud. sed infinitum 
+        <lb ed="#A" n="78"/>non caret perfectione aliqua. alias non esset infinitum simpliciter: 
+        <lb ed="#A" n="79"/>sed finite perfectionis. ergo deus cum omnio sit infinite perfectionis. 
+        <lb ed="#A" n="80"/>non est alteri componibilis. nec aliud sibi. quia a nullo perficitur. 
+        <lb ed="#A" n="81"/>Item secundum Rich. supra probatur. quia deus est summe ens et vere. vt 
+        <lb ed="#A" n="82"/>dicit Aug. ii de li. ar. ergo nihil habet de possibilitate. quia pos 
+        <lb ed="#A" n="83"/>sibilitas est recessus a summo entitatis. eo quod summum ens 
+        <lb ed="#A" n="84"/>necesse habet esse. vt dicit Auicem. viii. metap. c. iiii. Unde idem 
+        <lb ed="#A" n="85"/>iiii. metur. c. ii. dicit quod omnis potentia est imperfectio: inquantum est 
+        <lb ed="#A" n="86"/>in potentia. ergo summe ens scilicet deus: non potest componi ex aliis. 
+        <lb ed="#A" n="87"/>nec alteri est componibili. nec aliquid sibi est componibile. 
+        <lb ed="#A" n="88"/>quamuis aliquid sit eidem vnibile. sicut patet de humana natu 
+        <lb ed="#A" n="89"/>ra vnita deitati in christo. non tamen per compatonem. vt pate 
+        <lb ed="#A" n="90"/>bit li. iii. ergo deus est summe simplex etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e566">
+               <head xml:id="Vn7Pel-d84182-Hd1e568">5</head>
+               <p xml:id="Vn7Pel-d84182-d1e571">
+                  <lb ed="#A" n="91"/>¶ An dei summa simplicitas sit per ca 
+        <lb ed="#A" n="92"/>rentiam et compionis ex gratioe et differentia. vel possit poni compon 
+        <lb ed="#A" n="93"/>gristiois et differenet in deo bendcon. Respondetur. secundum Scotor. supra. et 
+        <lb ed="#A" n="94"/>concor. metaphycos. libro xii. metur. quod de hac opiniones stu 
+        <lb ed="#A" n="95"/>Una opi. dicit quod in deo est compon ex gratioe et differentia. quia hoc non 
+        <lb ed="#A" n="96"/>obstat simplicitati. cum angeli sint simplices: et tamen 
+        <lb ed="#A" n="97"/>ponuntur in gente. Et probat per Boet. li. iii. de tri. qui vet po 
+        <lb ed="#A" n="98"/>nere duo gratia in divinis scilicet substantiam et relationem. Sed hanc 
+        <lb ed="#A" n="99"/>opi. non tenent Scotiste. Nec valet argumentum de an 
+        <lb ed="#A" n="100"/>gelis. quia non habent illam simplicitatem quam deus habet. Nam 
+        <lb ed="#A" n="101"/>n eis est compon ex essentia et esse. et ex subiecto et accistente 
+        <lb ed="#A" n="102"/>Nec concludit ex dicto Boetii. quia non ponit duo ge 
+        <lb ed="#A" n="103"/>nera in divinis: sed duos modos praedicandi. videlicet 
+        <lb ed="#A" n="104"/>ad se: et ad aliud
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e604">
+        ¶ Melior ergo est Alia opinio quam 
+        <lb ed="#A" n="105"/>sequor. videlicet quod deus non est in genere. Probatur 
+        <lb ed="#A" n="106"/>secundum Scotor. quia si deus esset in greatioe. maxime esset in 
+        ge<lb ed="#A" n="107" break="no"/>nere substantie. sed hoc genus dicitur a substando. eo quod substati 
+        <lb ed="#A" n="108"/>accidentibus. Quod patet per Aug. x. de trini. Deus autem 
+        <lb ed="#A" n="109"/>non substat accidentibus. ergo etc. Item secundum 
+        Me<lb ed="#A" n="110" break="no"/>taphy. probatur. Quia vt notant dupliciter est aliquid in 
+        <lb ed="#A" n="111"/>gatiae. videlicet. Uno modo proprie et simpliciter. sicut species et 
+        <lb ed="#A" n="112"/>indiuidua. Alio modo per reductionem. sicut principia 
+        <lb ed="#A" n="113"/>sunt in genere principiari. vt psunctus et vnitas sunt in ge 
+        <lb ed="#A" n="114"/>nere quantitatis Sic etiam priuationes ste reductiue in 
+        <!--271.xml-->
+        <pb ed="#A" n="272"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>greatiae sui habitus. Ad propositum Deus non est in gratioe 
+        <lb ed="#A" n="2"/>primous. nec secundous Nam deus non est genus. nec est in gratione 
+        <lb ed="#A" n="3"/>vt genus quia Senus est pars constitutiua Speciei. deus autem est 
+        <lb ed="#A" n="4"/>simplicissimus non habens partem: nec est componibilis 
+        alicui<lb ed="#A" n="5" break="no"/>Item Senus praedicatur de pluribus Spece difitruntibus. quod non 
+        <lb ed="#A" n="6"/>conuenit deo ergo non est genus Nec est in gratioe vt spiecies. quia 
+        <lb ed="#A" n="7"/>Benus secundum intellectum prius est specie. Patet. Sed deus est quo 
+        <lb ed="#A" n="8"/>nil prius intelligi potest. ergo deus non est in gratiae vt Spens 
+        <lb ed="#A" n="9"/>Ite in omni Spe aliquid est potentiale a quo sumitur genus 
+        <lb ed="#A" n="10"/>et aliquid formale a quo sumitur diftura. Sed in deo nulla est 
+        <lb ed="#A" n="11"/>potentia ergo haber dpositum.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e659">
+        ¶ Si di. Substantia est ens per se 
+        <lb ed="#A" n="12"/>subsistens et hoc maxime conuenit deo. ergo est in gratioe substantie 
+        <lb ed="#A" n="13"/>espondetur secundum Tho. et Metaphycos quod ratio substanti prout est 
+        <lb ed="#A" n="14"/>genus est per se esse. ita quod difftra substet differens ab esse. 
+        <lb ed="#A" n="15"/>Nam ea quae sunt in gratiae conueniunt in essentia generis quod de 
+        <lb ed="#A" n="16"/>eis dicitur in eo quod quid. Et differunt per esse. ergo in omni eo quod 
+        <lb ed="#A" n="17"/>est in gratiae differunt essentia et esse. Sed quia deus est suum ee omnio. 
+        <lb ed="#A" n="18"/>ratio substanti proprie deo non conuenit Patet vbi Substantia 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e678">
+               <head xml:id="Vn7Pel-d84182-Hd1e680">6</head>
+               <p xml:id="Vn7Pel-d84182-d1e683">
+                  <lb ed="#A" n="19"/>¶ An diuina Simplicitas 
+        care<lb ed="#A" n="20" break="no"/>at compaone accsntis: Respondetur secundum Scotorlis. e. di. viii. supra per 
+        <lb ed="#A" n="21"/>conclusionem quod in deo nullo modo potest esse compo ex subiecto 
+        <lb ed="#A" n="22"/>et accistente Probaus quia accisens comperatur ad subiectum sicut 
+        <lb ed="#A" n="23"/>actus ad potentiam Sed in deo non potest esse ponna. quia vt Bo 
+        <lb ed="#A" n="24"/>ecis dicit est forma simplex. eo quod est purissimus actus san 
+        <lb ed="#A" n="25"/>omni potentia et compatone. ergo etc
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e701">
+        ¶ Nota ergo quod deus non sic 
+        <lb ed="#A" n="26"/>dicitur forma vt veniat in compatone alicuius. sicut et quidam 
+        <lb ed="#A" n="27"/>extimauerunt dicentes Deu esse formam omnium. quia for 
+        <lb ed="#A" n="28"/>ma et efficiens non conincidunt in idem numero. vt dicit 
+        <lb ed="#A" n="29"/>philosophis. ii physus. Sed deus est efficiens et dans esse omnibus et in 
+        <lb ed="#A" n="30"/>se forma sbsistens Denique quod in deum nullum potest cadere 
+        <lb ed="#A" n="31"/>accisdens declaratur sic secundum e. Scotor. Quia nec accisens 
+        <lb ed="#A" n="32"/>corporale sicut est quantitas. qualitas. etc. potest esse in deo. Nec 
+        <lb ed="#A" n="33"/>Spirituale sicut est intellectio et volitio accistentalis. quia 
+        <lb ed="#A" n="34"/>omne accisens transmutationem arguit. sed deus est immutabils 
+        <lb ed="#A" n="35"/>ergo in deum nullum cadit accises vtet xii. metaph. per philosophu 
+        <lb ed="#A" n="36"/>De hoc dem est etiam. supra. vbi Compo. §. ii.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e727">
+        ¶ Item Sco 
+        <lb ed="#A" n="37"/>tor. supra. probat rationibus philosophi xii. metur. Prio. quia si in deo 
+        <lb ed="#A" n="38"/>esset aliud intelligere a deo tunc vilesceret eius intello 
+        <lb ed="#A" n="39"/>ctus Secundo quia illud intelligere esset cum labore et fati 
+        <lb ed="#A" n="40"/>gatione. quia intellens eius esset praecise in potentia contracommnis 
+        <lb ed="#A" n="41"/>Unde in deo ex quo idem se potentia scilicet Intelles. et ob 
+        <lb ed="#A" n="42"/>iectum scilicet essentia. et Actus scilicet itellecton Io nulula ibi est compon 
+        <lb ed="#A" n="43"/>Sed in creatura scilicet in angelo licet intelligat se. tamen 
+        a<lb ed="#A" n="44" break="no"/>ctus intelligendi et essendi non ste idem. ideo est compoton 
+        acci<lb ed="#A" n="45" break="no"/>dentis. Hec Scotorlis 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e750">
+               <head xml:id="Vn7Pel-d84182-Hd1e752">7</head>
+               <p xml:id="Vn7Pel-d84182-d1e755">
+                  <lb ed="#A" n="46"/>¶ Utrum summe Simplicitati diui 
+        <lb ed="#A" n="47"/>ne sit deturmentum ponere Trinitatem in deo vel plu 
+        <lb ed="#A" n="48"/>ralitatem persone
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e764">
+        ¶ Primo arguitur quod sic. quia Simplici 
+        <lb ed="#A" n="49"/>us est quod nullam habet pluralitatem sed tantummodo vnitatem sine 
+        <lb ed="#A" n="50"/>omni numero quam illud quod habet. Sic in pro 
+        <lb ed="#A" n="51"/>posito. ergo etc. Ad hoc protinus respondetur secundum Bona. 
+        <lb ed="#A" n="52"/>in primi. dis. viii. par. secunda. quaestio i. quod huius rationis Maior 
+        <lb ed="#A" n="53"/>non est vera simpliciter loquendo. quia vele habet pluralitatem in 
+        <lb ed="#A" n="54"/>indiuiduis: in quibus multiplicatur. et tamen simplici 
+        <lb ed="#A" n="55"/>est vniuersale quam singulare: non habens pluralitatem. 
+        <lb ed="#A" n="56"/>Sed bene illa maior habet veritatem quando aliquid plurificatur. 
+        <lb ed="#A" n="57"/>ita quod in pluribus diuersificatur. In deo autem eadem essen¬ 
+        <!--271.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 272 -->
+                  <lb ed="#A" n="58"/>tia numero manet in pluribus personis. nec diuersificatur. 
+        <lb ed="#A" n="59"/>ergo etc.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e797">
+        ¶ Secundo ad quaesitum ergo seondietur per conclusionem. quod summe 
+        <lb ed="#A" n="60"/>simplicitati divine: nullum est detrimentum vel diminu 
+        <lb ed="#A" n="61"/>tio ex pluralitate persoarum: quinpotius maior ex hac 
+        commen<lb ed="#A" n="62" break="no"/>datur simplicitas in do: quam ex negatione trinitatis di 
+        <lb ed="#A" n="63"/>vine. Declaratur.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e808">
+        ¶ Tertio notado secundum. e. Bona. 
+        <lb ed="#A" n="64"/>Ibidem. quod aliquid dicitur simplicius alio dupliciter. Uno modo 
+        <lb ed="#A" n="65"/>quando vnum aliquid multiplicatum in pluribus simplicius 
+        <lb ed="#A" n="66"/>est: quam dum est vnum in alio vno. Sicut vele dicitur 
+        simpli<lb ed="#A" n="67" break="no"/>cius singulari. eo quod eadem natura velis est in pluribus. vt pr 
+        <lb ed="#A" n="68"/>dictum est. Secundo modo adhuc multo simplicius dicitur. quandia 
+        <lb ed="#A" n="69"/>vnum aliquid est in pluribus non multiplicatum. et hoc mo est 
+        <lb ed="#A" n="70"/>in deo. vbi vna numero essentia eadem non miltiplicata 
+        <lb ed="#A" n="71"/>est in tribus personis. et ideo simplicior est deus qui est in 
+        omni<lb ed="#A" n="72" break="no"/>bus non multiplicatus: quam si esset in vno solo: vel in plut 
+        <lb ed="#A" n="73"/>ribus mltiplicatus Proinde vere dicitur deus eminentissime 
+        <lb ed="#A" n="74"/>simplicissimus in trinitate sanctissima personarum. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e835">
+               <head xml:id="Vn7Pel-d84182-Hd1e837">8</head>
+               <p xml:id="Vn7Pel-d84182-d1e840">
+                  <lb ed="#A" n="75"/>¶ Sed an ad vnitatem simplice dei 
+        <lb ed="#A" n="76"/>addat pluralitas personarum aliquid. Si dicas quod addit. 
+        <lb ed="#A" n="77"/>ergo erit compositio scilicet additon alicuius numeri respcum sim 
+        <lb ed="#A" n="78"/>plicis vnitatis divine. Si autem dicas quod nihil addit. ergo 
+        <lb ed="#A" n="79"/>trinitas nibil signat in divinis. Respondetur secundum. e. Bon. 
+        <lb ed="#A" n="80"/>Ibidem. distingendo. quod pluralitas potest esse in aliquo dupli 
+        <lb ed="#A" n="81"/>citur. Uno modo sic quod plus denotat in duobus quam in vno. 
+        <lb ed="#A" n="82"/>vt quando in duobus homnibus plus est de bonitate: quam in vno 
+        <lb ed="#A" n="83"/>eorum. et tunc pluritas addit supra vnitatem: et repugt sim 
+        <lb ed="#A" n="84"/>plicitati. Unde tunc non potest dici bonitas simplex in illis. 
+        <lb ed="#A" n="85"/>Alio modo pluralitas potest esse sic: quod tantum est in pluribus 
+        <lb ed="#A" n="86"/>quantum in vno. et quantum similis in omnibus eis. Et taliter est in di 
+        <lb ed="#A" n="87"/>uinis. quia tantum et in vna per sona de esse et beoenitate et 
+        <lb ed="#A" n="88"/>virtute ac potestate et sapientia ac omni perfectione: quantum in plu 
+        <lb ed="#A" n="89"/>ribus et tribus omnibus similis. Et ista pluralitas nihil addit 
+        <lb ed="#A" n="90"/>ad vnitatem. et ideo nullam omnio ponit compositionem. nec pri 
+        <lb ed="#A" n="91"/>uat simplicitatem. Et sic in divinis numerus trinitatis 
+        <lb ed="#A" n="92"/>addit vltra vnitatem simplicem: veram existentiam 
+        perso<lb ed="#A" n="93" break="no"/>narum. sed non facit compositionem. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e886">
+               <head xml:id="Vn7Pel-d84182-Hd1e888">9</head>
+               <p xml:id="Vn7Pel-d84182-d1e891">
+                  <lb ed="#A" n="94"/>¶ Sed quomodo ibi dicitur simplicitas: sine 
+        <lb ed="#A" n="95"/>omni compositione. cum ibi sit diuersitas et distinctio ac nu 
+        <lb ed="#A" n="96"/>merus personarum. Respondetur secundum Bon. ibidem. quod diuersitas. 
+        <lb ed="#A" n="97"/>quaedam est ex additione. vt est in propetatibus absolutis: quae di 
+        <lb ed="#A" n="98"/>uerse se in diuersis. vt albedo in petro pau. et 
+        Io<lb ed="#A" n="99" break="no"/>et talis ponit compositionem. Sed quadam est diuersitas ex ori 
+        <lb ed="#A" n="100"/>gine sola proueniens. et talis non ponit compositionem. sed so 
+        <lb ed="#A" n="101"/>lum ordinem et respectum ad alterum. nec prope dicitur 
+        diuersi<lb ed="#A" n="102" break="no"/>tas sed distinctio et discretio. Sicut exmten patet in puncto: quae 
+        <lb ed="#A" n="103"/>idem est principium et finis respectu linearum diuersarum. 
+        <lb ed="#A" n="104"/>Isto secundo modo est diuersitas in divinis proprietatum et 
+        <lb ed="#A" n="105"/>personarum. ergo nullam facit compositionem etc. 
+        
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-d84182-Dd1e921">
+               <head xml:id="Vn7Pel-d84182-Hd1e923">10</head>
+               <p xml:id="Vn7Pel-d84182-d1e926">
+                  <lb ed="#A" n="106"/>¶ Utrum simplicitas sit propria solius 
+        <lb ed="#A" n="107"/>dei. an conueniat etiam creatis: Respondetur secundum Bon. ea. 
+        <lb ed="#A" n="108"/>di. viii. q. ii concor. Alex. de Al primi per et Tho. ac Ric. 
+        <lb ed="#A" n="109"/>quod summa simplicitas soli deo est propria. Nam summa sim 
+        <lb ed="#A" n="110"/>plicitas est: quod nullam habet compositionem partium nec depen 
+        <lb ed="#A" n="111"/>dentiam. nec multiplicitate formarum siue actionum. 
+        <lb ed="#A" n="112"/>nec alteri est componibile nec aliquid sibi componi potest 
+        <lb ed="#A" n="113"/>et hec essentialiter summa simplicitas soli deo 
+        con<lb ed="#A" n="114" break="no"/>uenit. Primo ratione primitatis quia solus deus est 
+        <!--272.xml-->
+        <pb ed="#A" n="273"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ens primum. Si autem esset deus compositus 
+        seque<lb ed="#A" n="2" break="no"/>retur quod sua componentia essent priora. et per consequens deus 
+        <lb ed="#A" n="3"/>non esset primum ens. ergo esset dependens scilicet a 
+        princi<lb ed="#A" n="4" break="no"/>piis suis et sic non esset prima causa omnium.
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e963">
+        ¶ Secundo 
+        <lb ed="#A" n="5"/>ratione perfectissime bonitatis. quia deus solus est ens 
+        <lb ed="#A" n="6"/>perfectissimum et optimum habens omnem bonitatem. ergo nul 
+        <lb ed="#A" n="7"/>la caret bonitate aliqua et perfectione. Sed in omni re 
+        com<lb ed="#A" n="8" break="no"/>posita est aliquid quod caret bonitate aliqua et perfecti 
+        <lb ed="#A" n="9"/>one. Tum quia partes rei composite non habent 
+        bonita<lb ed="#A" n="10" break="no"/>tem illam que toti conuenit nisi in potentia Patet de 
+        <lb ed="#A" n="11"/>corpore et anima in homine. Tum quia diuersa sunt in 
+        compo<lb ed="#A" n="12" break="no"/>sito que requirunt aliquod vniens illa diuersa Et 
+        <lb ed="#A" n="13"/>ab illo tanquam a causa vniente dependet esse talis 
+        <lb ed="#A" n="14"/>rei composite. Si ergo deus esset compositus sequerctu 
+        <lb ed="#A" n="15"/>quod non habet necesse esse per se. sed a tali causa vniente 
+        <lb ed="#A" n="16"/>dependeret et talis causa perfectior esset et melioris 
+        vir<lb ed="#A" n="17" break="no"/>tutis quam deus et per consequens deus non esset per 
+        <lb ed="#A" n="18"/>ectissimus per se. que omnia sunt impossibilia. ergo etc 
+        
+      </p>
+               <p xml:id="Vn7Pel-d84182-d1e996">
+                  <lb ed="#A" n="19"/>¶ Tertio ratione infinitatis. quia vnum componentium limi 
+        <lb ed="#A" n="20"/>tat et finit aliud sicut actus potentiam. Si ergo deus 
+        <lb ed="#A" n="21"/>esset compositus esset ens finitum et per consequens 
+        <lb ed="#A" n="22"/>non deus esset Unde simplicitas summa deo conuenit 
+        <lb ed="#A" n="23"/>Sed omnis creatura est composita aliquo modo 
+        <lb ed="#A" n="24"/>quamuis secundum quid aliqua creatura dicatur simplex Pu 
+        <lb ed="#A" n="25"/>ta angelus respectu hominis etciis. Uerumtamen exquo omnis 
+        <lb ed="#A" n="26"/>creatura habet esse mixtum ex actu et potentia. et habet 
+        <lb ed="#A" n="27"/>etiam esse limitatum et ita in genere et specie contractum 
+        per<lb ed="#A" n="28" break="no"/>additionem eo quod habet esse aliunde datum. ergo vere compo 
+        <lb ed="#A" n="29"/>sita dicitur omnis res citra deum. Declaratur secundum saupra dictos 
+        <lb ed="#A" n="30"/>doc. Quia primo est compositio quedam ex partibus 
+        <lb ed="#A" n="31"/>essentialibus et hec est per se in omnibus creatis quia 
+        <lb ed="#A" n="32"/>vt dicit Boetius in omnibus citra deum differt quo en 
+        <lb ed="#A" n="33"/>et quod est id est essentia et esse. Et hoc claret etiam in 
+        sub<lb ed="#A" n="34" break="no"/>stantiis separatis. quia in eis esse aduenit aliunde 
+        essen<lb ed="#A" n="35" break="no"/>tie: et quiditas vel essentia earum intelligi potest sine 
+        <lb ed="#A" n="36"/>hoc quod intelligatur esse earum Nam possem intelligere 
+        <lb ed="#A" n="37"/>quoditatem siue essentiam angeli. Ignorando an ange 
+        <lb ed="#A" n="38"/>us esset in rerum nata. Secundo alia est compositio ex 
+        per<lb ed="#A" n="39" break="no"/>tibus integrantibus Et hec est in omnibus corporalibus 
+        <lb ed="#A" n="40"/>etiam in celo. Tertio alia est ex partibus dissimilibus 
+        <lb ed="#A" n="41"/>Et hec est in omnibus animatis et viuentibus in quibus 
+        pa<lb ed="#A" n="42" break="no"/>tet esse animam vel vite principium et corpus. et sic ex 
+        <lb ed="#A" n="43"/>partibus sunt dissimilibus et repugnantibus. Denique quam 
+        <lb ed="#A" n="44"/>to aliqua res istorum modorum compositionis plures mo 
+        <lb ed="#A" n="45"/>dos habuerit tanto compositior est vt patet de homine 
+        <lb ed="#A" n="46"/>in quo sunt plures modoi huiusmodi. ergo prae aliis est compo 
+        <lb ed="#A" n="47"/>situs etc. Et sic patet quod omnis res citra deum est 
+        composi<lb ed="#A" n="48" break="no"/>ta. Ion dicunt Boetius et Auicenna. De quod est citra 
+        <lb ed="#A" n="49"/>primum: habet ab alio quod sit et ab alio quod hoc sit. Hoc 
+        <lb ed="#A" n="50"/>est habet aliquid quae est ens et aliquid quo est hoc ens: et per 
+        <lb ed="#A" n="51"/>consequens habet pluralitatem et compationem Hec ex praedicti 
+        <lb ed="#A" n="52"/>doctoribus colligendo.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

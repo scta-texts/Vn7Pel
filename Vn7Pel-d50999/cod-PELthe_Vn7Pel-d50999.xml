@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Necessitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Necessitas</title>
+               <date when="2021-07-31">July 31, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELthe">Augsburg 1536</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="NaN"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-d50999">
+            <head xml:id="Vn7Pel-d50999-Hd1e107">Necessitas</head>
+            <div xml:id="Vn7Pel-d50999-Dd1e110">
+               <head xml:id="Vn7Pel-d50999-Hd1e112">1</head>
+               <p xml:id="Vn7Pel-d50999-d1e115">
+                  <lb ed="#A" n="47"/>NEcessitas secundum 
+        <lb ed="#A" n="48"/>Guil. in primo distin. vi. dicitur de 
+        <lb ed="#A" n="49"/>non et cesso cessas quasi non cessans 
+        <lb ed="#A" n="50"/>esse. Unde nota secundum Bonauen. ea. 
+        <lb ed="#A" n="51"/>distin. questi. i. et ii Ac Richardum et Thomam 
+        <lb ed="#A" n="52"/>ibidem concor. colligendo quod necessitas 
+        distin<lb ed="#A" n="53" break="no"/>guitur multipliciter. Primo quedam dicitur ne 
+        <lb ed="#A" n="54"/>cessitas violentie que mouet contra naturam 
+        <!--163.xml-->
+        <cb ed="#A" n="b"/>
+                  <!-- 164 -->
+                  <lb ed="#A" n="55"/>vt lapis proiectus necessitatur sursum moueri. Se 
+        <lb ed="#A" n="56"/>cunda dicitur necessitas coactionis que est contra volun 
+        <lb ed="#A" n="57"/>tatem. Tertia dicitur indigentie vt cibi et potus in pau 
+        <lb ed="#A" n="58"/>bere etc. Quarta ineuitabilitatis sicut est in 
+        pri<lb ed="#A" n="59" break="no"/>mis motibus de quibus psalm. De necessitatibus 
+        me<lb ed="#A" n="60" break="no"/>is eripe me. Quinta dicitur exigentie que est in 
+        ma<lb ed="#A" n="61" break="no"/>teria disponenda ad formam vel disposita. Sexta 
+        <lb ed="#A" n="62"/>dicitur necessitas immutabilitatis eterne sicut 
+        sor<lb ed="#A" n="63" break="no"/>lem lucere. Hec sola vltima necessitas eadit in 
+        de<lb ed="#A" n="64" break="no"/>um. et nulla alia. Ratio quia hec necessitas immu 
+        <lb ed="#A" n="65"/>tabilitatis non repugnat libertati voluntatis sed  
+        <lb ed="#A" n="66"/>solum vertibilitati. Isto modo ergo accipitur 
+        neces<lb ed="#A" n="67" break="no"/>sitas cum dicitur quod deus pater necessario gignit 
+        <lb ed="#A" n="68"/>filium. vnde Augu. contra maxim. dicit Pater eo 
+        mo<lb ed="#A" n="69" break="no"/>do quo deus est genuit. Sed pater necessario de 
+        <lb ed="#A" n="70"/>us est. ergo genuit necessario scilicet non necessitate 
+        <lb ed="#A" n="71"/>coactionis vel indigentie et etc. sed tantummodo necessi 
+        <lb ed="#A" n="72"/>tate immutabilitatis eterne. Et de hoc latissime pa 
+        <lb ed="#A" n="73"/>tuit vbi Seneratio. §. xxx. et. xxxi. et se 
+        
+      </p>
+               <p xml:id="Vn7Pel-d50999-d1e183">
+                  <lb ed="#A" n="74"/>¶ Quibus modis dicuntur aliqua 
+        <lb ed="#A" n="75"/>necessaria fore vel euenire. vbi Prescientia. §. ix. 
+        
+      </p>
+               <p xml:id="Vn7Pel-d50999-d1e190">
+                  <lb ed="#A" n="76"/>¶ Item necessariorum regula 
+        pri<lb ed="#A" n="77" break="no"/>ma quid sit. vide vbi Uoluntas. §. xii.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
