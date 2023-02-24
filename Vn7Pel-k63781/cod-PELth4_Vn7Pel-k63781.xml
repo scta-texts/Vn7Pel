@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Infamia </title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title> Infamia </title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="219"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k63781">
+            <head xml:id="Vn7Pel-k63781-Hd1e100"> Infamia </head>
+            <div xml:id="Vn7Pel-k63781-Dd1e102">
+               <head xml:id="Vn7Pel-k63781-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k63781-d1e106">
+                  <lb ed="#A" n="23"/>INfamia est lese 
+      <lb ed="#A" n="24"/>dignitatis qualitas reprobata quantum 
+      <lb ed="#A" n="25"/>ad vitam et mores per argumentum a 
+      com<lb ed="#A" n="26" break="no"/>trario sensu. sicut fama est illese 
+      di<lb ed="#A" n="27" break="no"/>gnitatis status vita et moribus comprobatus et in 
+      nul<lb ed="#A" n="28" break="no"/>lo diminutus. ff. de vari. et extraordi idlist cognitio. 
+      <lb ed="#A" n="29"/>Et est triplex infamia scilicet facti: hoc prouenit ex communi 
+      ho<lb ed="#A" n="30" break="no"/>minum locutione. vt dicit Bar idlcet de minore. Secunda est 
+      <lb ed="#A" n="31"/>itiris: quae incurritur per sententiam. et regulare est quod non 
+      in<lb ed="#A" n="32" break="no"/>curratur infamia iuris criminibus publicis nisi per 
+      sen<lb ed="#A" n="33" break="no"/>tentiam: vt dicit Panor. extra de testi. et excep. c. 
+      testi<lb ed="#A" n="34" break="no"/>monium
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e135">
+      ¶ Item incurritur ipso facto infamia iuris in 
+      <lb ed="#A" n="35"/>quibus iure cauetur quod incurratur ipso facto. vt cum 
+      impera<lb ed="#A" n="36" break="no"/>tor militi aufert insignia: vel mittit aliquem in exilium 
+      <lb ed="#A" n="37"/>ff. de his qui no. infa ilet quod ait.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e144">
+      ¶ Item qui exercent improbum 
+      <lb ed="#A" n="38"/>fenus vsuras vsurarum exigentes. iii. q. vii. § porro. 
+      <lb ed="#A" n="39"/>cum glo
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e151">
+      ¶ Item cum aliquis dephenditur in adulterio. ff. 
+      de<lb ed="#A" n="40" break="no"/>ritu nuper. vel contrahit simulcum duabus vel simul habet 
+      du<lb ed="#A" n="41" break="no"/>as sponsas.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e159">
+      ¶ Item qui lenocinium exercent vel filias vel 
+      <lb ed="#A" n="42"/>nepotes prostituunt
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e164">
+      ¶ Item qui pugnant cum fera. Et nota 
+      <lb ed="#A" n="43"/>quod omnes infanies secundum leges sunt etiam infames secundum 
+      <lb ed="#A" n="44"/>canones. Similiter omnes qui ex culpis suis ad ordines son 
+      <lb ed="#A" n="45"/>possunt promoueri: vt in c. omnes. § porro. cum glo. Et 
+      <lb ed="#A" n="46"/>talis infamia tollit secundum Panor. executionem 
+      ordi<lb ed="#A" n="47" break="no"/>num et priuat titulo beneficii et aliis dignitatibus
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e177">
+      ¶ 
+      Ter<lb ed="#A" n="48" break="no"/>tia est infamia canonica: et hec incurritur per quodlibust 
+      <lb ed="#A" n="49"/>pecatum mortale. vt. vi. q. i. infames. et in glo.a et ista 
+      <lb ed="#A" n="50"/>durat donec sublatum sit crimen. Ideo post poenitentiam 
+      <lb ed="#A" n="51"/>secundum Panor. cessat talis infamia. Infamia at facti 
+      <lb ed="#A" n="52"/>tollitur per contrarium factum etc. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k63781-Dd1e191">
+               <head xml:id="Vn7Pel-k63781-Hd1e193"> 2a </head>
+               <p xml:id="Vn7Pel-k63781-d1e195">
+                  <lb ed="#A" n="53"/>¶ Utrum iudex pro sola infamia 
+      nul<lb ed="#A" n="54" break="no"/>lo existente accusatore debeat ex officio procedere ad 
+      <lb ed="#A" n="55"/>et inquisitionem: Arguitur quod non. quia dicitur extra de accusa. 
+      <!--218.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>c1. Si iesgitimus non fuerit accusator non fatiget 
+      <lb ed="#A" n="57"/>accusatus. ergo multo fortius si nullus est accusator homo 
+      fa<lb ed="#A" n="58" break="no"/>tigari non debet.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e215">
+      ¶ Item non est faciliter praecedendum ad 
+      il<lb ed="#A" n="59" break="no"/>lud pro quohomo repelliter ab honoribus obtinendis. sed eo 
+      <lb ed="#A" n="60"/>ipso quod inquiritur con aliquem de crimine ille contra quem inquiritur 
+      <lb ed="#A" n="61"/>ante plenam facti discussionem ad honore promoueri non 
+      <lb ed="#A" n="62"/>debet. extra de accusationibus omnipotens deus. Cum ergo 
+      fa<lb ed="#A" n="63" break="no"/>ma quandoque leuiter insurgat non semper debet iudex ad inquisiti 
+      <lb ed="#A" n="64"/>onem procedere si non fuerit accusator.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e231">
+      ¶ Item. iiii. q. iiii. 
+      <lb ed="#A" n="65"/>nullus introducatur. dicitur quod accusatores et iudices 
+      no<lb ed="#A" n="66" break="no"/>idem sintsci secet si iudex pro sola fama procederet ad 
+      inquisi<lb ed="#A" n="67" break="no"/>tionem ipse esset accusator et iudex. eo pro sola infamina etc. 
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e240">
+                  <lb ed="#A" n="68"/>¶ In contrarium dicitur Gen. xviii. Clamor sodomorum et 
+      go<lb ed="#A" n="69" break="no"/>morreorum multiplicatus est: et clamor eorum 
+      aggraua<lb ed="#A" n="70" break="no"/>ius est nis. descendam et videbo vtrum clamorem qui venit 
+      <lb ed="#A" n="71"/>ad me opere compleuerint. ergo similiter in famia existente debet 
+      prae<lb ed="#A" n="72" break="no"/>latus inquirendo descendere vtrum ita sit
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e254">
+      ¶ Respondetur secundum 
+      <lb ed="#A" n="73"/>Rich. in. iiii. di. xix. ar. iii. q. iii. quod infamia quandoque est 
+      <lb ed="#A" n="74"/>a certo motore: quando que ab incerto. de conse. dis. iiii. 
+      san<lb ed="#A" n="75" break="no"/>ctum est. quando habet ortum ab incerto motore si ad 
+      au<lb ed="#A" n="76" break="no"/>res praelati peruenerit per clamorosam insinuationem et 
+      <lb ed="#A" n="77"/>ex ea scandalum in populo generetur procedere debet ad 
+      inquisi<lb ed="#A" n="78" break="no"/>tionem quamuis nullus sit quie se offerat ad accusandum in 
+      <lb ed="#A" n="79"/>famiam. Sciendum tamen quod infamiam non faciunt dicta 
+      pau<lb ed="#A" n="80" break="no"/>corum talem vt propter illam praelatus procedere debet ad inquisi 
+      <lb ed="#A" n="81"/>tionem. extra de accu. Inquisitionis. vbi glo.a dicta 
+      pau<lb ed="#A" n="82" break="no"/>corum non infamant. Infamia enim debet esse per villa 
+      si<lb ed="#A" n="83" break="no"/>ue per parochiam ad hoc vt fiat inquisitio. vt habetur in glo. c. 
+      <lb ed="#A" n="84"/>praedicti. omnipotens deus. Et cumprocedit ad inquirendum in 
+      <lb ed="#A" n="85"/>quiri non debet super his de quibus infamia non precesserit. 
+      <lb ed="#A" n="86"/>Si autem ortum habet a certo motore vela certis 
+      mo<lb ed="#A" n="87" break="no"/>toribus: aut sunt inimici et maliuoli: aute non constat 
+      <lb ed="#A" n="88"/>ita esse sub certitudine. sed solum per praesumptiones non 
+      vio<lb ed="#A" n="89" break="no"/>sentas. Et tunc etiam praelatus ad inquisitionem procedere debas 
+      <lb ed="#A" n="90"/>Si autem constat ita esse vel per legitimam probationem: vel 
+      <lb ed="#A" n="91"/>per propriam confessionem: vel per violentas praesumptiones: et 
+      <lb ed="#A" n="92"/>infamatus alias fuerit boni nominis et persona notabilis 
+      <lb ed="#A" n="93"/>non credo quod praelatus procedere debeat ad inquisitionem. ex 
+      <lb ed="#A" n="94"/>tra de canoni. pur. Cum iuuentute. et de accusationibus 
+      <lb ed="#A" n="95"/>qualiter et quando. ii Quidam tamen dicunt quod vndecunque fuerit 
+      <lb ed="#A" n="96"/>exorta infamia: procedendum est ad inquisitionem et 
+      infa<lb ed="#A" n="97" break="no"/>mato canonica purgatio indicanda propter scandalum 
+      <lb ed="#A" n="98"/>extra de pur. cano. accedens. Sed hoc credo verum esse 
+      <lb ed="#A" n="99"/>intelligendum quando illi a quibus infamia ortum habuit non 
+      <lb ed="#A" n="100"/>probantur sufficienter maliuoli vel inimici.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e317">
+      ¶ Ad 
+      pri<lb ed="#A" n="101" break="no"/>mum argumentum est dicendum quod ad correctionem 
+      infa<lb ed="#A" n="102" break="no"/>mie procedi potest per accusationem vel denunciationem. ex 
+      <lb ed="#A" n="103"/>tra de accu. super his. et per inquisitionem. hos tres 
+      mo<lb ed="#A" n="104" break="no"/>dos simul habes extra de accu. qualiter et quando. Procede 
+      <lb ed="#A" n="105"/>re autem ad correctionem infamati in modum 
+      accusa<lb ed="#A" n="106" break="no"/>tionis praelatus non debet procedere si legitimus non fuerit 
+      <lb ed="#A" n="107"/>accusatar. et sic intelligi debet auctoritas.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e335">
+      ¶ Ad 
+      secum<lb ed="#A" n="108" break="no"/>dum dicendum quod propter famam leuem insurgentem a 
+      ma<lb ed="#A" n="109" break="no"/>liuolis vel inimicis procedi non debet ad inquisitionem. 
+      <lb ed="#A" n="110"/>vt dictum est: nisi alias persona non sit boni nominis. fama 
+      <lb ed="#A" n="111"/>autem ortum habens a prouidis et honestis viris non est 
+      <lb ed="#A" n="112"/>res leuis.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e348">
+      ¶ Ad tertium dicendum quod vt dicitur extra de accu. 
+      <lb ed="#A" n="113"/>qualiter et quand. ii. non idem est actor et iudex cum denuncian¬ 
+      <!--219.xml-->
+      <pb ed="#A" n="220"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>te fama vel referente tlamore officium suum index ex 
+      <lb ed="#A" n="2"/>equitu. tunc enim fama est quasi loco accusatoris 
+    </p>
+            </div>
+            <!-- there is another section here that is lost in the photos-->
+            <div xml:id="Vn7Pel-k63781-Dd1e367">
+               <head xml:id="Vn7Pel-k63781-Hd1e369"> 2b </head>
+               <p xml:id="Vn7Pel-k63781-d1e371">
+                  <lb ed="#A" n="3"/>¶ Utrum infamatus possit in 
+      ali<lb ed="#A" n="4" break="no"/>quo casu repellere accusatorem: Arguitur quod in nullo 
+      <lb ed="#A" n="5"/>casu. quia quanto accusatur de crimine grauiori tato debet 
+      <lb ed="#A" n="6"/>habere libiorem defensionem. In criminali enim causa requiruntur 
+      <lb ed="#A" n="7"/>canonice et districtissime probationes. v. q. vl. 
+      Epi<lb ed="#A" n="8" break="no"/>phanium. Sed cum homo accusatur de crimine heresis 
+      ne<lb ed="#A" n="9" break="no"/>potest repellere accusatorem. quia in accusatione criminis 
+      qui<lb ed="#A" n="10" break="no"/>libet criminosi et infames admittuntur. ii q. vii. 
+      praesu<lb ed="#A" n="11" break="no"/>munt. ergo multofortius in nullo alio casu accusatus 
+      prae<lb ed="#A" n="12" break="no"/>accusatorem repellere.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e395">
+      ¶ Item accusatio non nocet 
+      nisi<lb ed="#A" n="13" break="no"/>accusanti si non probatur. pro qualiscumque sit accusans 
+      nul<lb ed="#A" n="14" break="no"/>lum praeiudicium fit accusato.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e402">
+      ¶ In contrarium. ii. q. i. prohibs 
+      <lb ed="#A" n="15"/>tur mulieres impuberes et pauperes et plures repelluntur 
+      <lb ed="#A" n="16"/>ab accusatione. Respondetur secundum Rich. quod 
+      accusa<lb ed="#A" n="17" break="no"/>tus potest repellere accusatorem vel ratio ne modi 
+      accu<lb ed="#A" n="18" break="no"/>sandi: vtpote si accusat de crimine absens per litteras 
+      <lb ed="#A" n="19"/>quia de crimine non potest quis accusari per scripta: nec absens 
+      <lb ed="#A" n="20"/>ii. q. vii. per scripta. Et. iii. q. ix. absente. autm quia non vult 
+      <lb ed="#A" n="21"/>inscribere. quia sicut dicitur extra de accu. qualiter et quando. ii 
+      ac<lb ed="#A" n="22" break="no"/>cusationem praecedere debet legitima inscriptio. Uel pro 
+      <lb ed="#A" n="23"/>pter conditiones accusantis. quia multi sunt qui ad 
+      accu<lb ed="#A" n="24" break="no"/>sandum secundum iura non admitturtr scilicet heretici: pagani. 
+      <lb ed="#A" n="25"/>apostate et alii infideles. ii q. i. pagani.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e428">
+      ¶ Item 
+      crimi<lb ed="#A" n="26" break="no"/>nosi. vi. q. i. crimen. Crimem proprie est mortale peccatum: 
+      <lb ed="#A" n="27"/>vt di. xxv. §. criminis. Item conspiratores. iii. q. iiii. 
+      con<lb ed="#A" n="28" break="no"/>spiratores Item incestuosi. iii. q. iiii. consangui.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e438">
+      ¶ Item 
+      <lb ed="#A" n="29"/>illi qui sunt male opiniois. iii. q. v. suspectos. Itemlitigio 
+      <lb ed="#A" n="30"/>si et calumniatores. iii. q. v. nullus. Item infames. iii. quod 
+      <lb ed="#A" n="31"/>iiii. nuli. Item excommunicati. vt patuit supra. Item imimici. extra de 
+      <lb ed="#A" n="32"/>accu. cum operteat. et iii. q. iiii. detractores. Item mulsies 
+      <lb ed="#A" n="33"/>res impuberes et pauperes. ii q.scilicet prohibentur. Item sortile 
+      <lb ed="#A" n="34"/>gi et diuinatores. iii. q. v. constituimus. Item qui sacrandotes 
+      <lb ed="#A" n="35"/>fieri nequeunt sacerdotes accusare no possunt. ii q. v. ipsi 
+      <lb ed="#A" n="36"/>apostoli. Item episcotum laici passiet accusare no possunt. ii. q. vii. 
+      <lb ed="#A" n="37"/>c. i. Item nec laici passim possunt accusare clericos 
+      <lb ed="#A" n="38"/>ii. q. vii. nullus laicus. Item accusatus reaccusare non 
+      prae<lb ed="#A" n="39" break="no"/>nisi primo purgatio praecesserit et nisi accuset de maio 
+      <lb ed="#A" n="40"/>ri crimine. iii. q. xi. neganda. i. q. ii contra talem ei non esset 
+      praesum<lb ed="#A" n="41" break="no"/>ptio quod accusaret ex odio. Item accusator debet esse libr 
+      <lb ed="#A" n="42"/>gene non seruus. ii q. vii quaerendum. Item qui non ex velo sed ex 
+      <lb ed="#A" n="43"/>odio accusant vel denuciant non sunt audiedi. extra de accu. 
+      <lb ed="#A" n="44"/>cum operteat. Item cohitantes inimicis. extra de accu. 
+      repel<lb ed="#A" n="45" break="no"/>lantur. Item qui lurauit non accusare illum quem accusat. exim 
+      <lb ed="#A" n="46"/>de accu. veniens. Item qui tulit testionium contra aliquem in 
+      can<lb ed="#A" n="47" break="no"/>criminali non potest vt dicunt aliqui ipset accusare de eadem 
+      ca<lb ed="#A" n="48" break="no"/>quia iam esset accusator suspectus ex de accu. cum. pr. 
+      Mam<lb ed="#A" n="49" break="no"/>conella tamen praesbyter bonus non tantum fuit ab accusatione. prae. quia 
+      <lb ed="#A" n="50"/>fuisset adductus pro teste contra ipaet. sed quia erit frat. I laici 
+      <lb ed="#A" n="51"/>qui ipsum pr. prious accusauerat. Et quamuis praedicta vera sint 
+      <lb ed="#A" n="52"/>vt in pluribus tamen multi admittuntur de praenoinatis ad 
+      accusan<lb ed="#A" n="53" break="no"/>dum in aliquibus casibus vtpote si suam vel suorum iniuriam. ii 
+      <lb ed="#A" n="54"/>q. i. prohibetur. et in aliquibus casibus valent
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e497">
+      ¶ Ad primum ar 
+      <lb ed="#A" n="55"/>gumentum dicendum quod non valet. Quandoque escrimen est ita 
+      peri<lb ed="#A" n="56" break="no"/>culosum quod ad eius deprehensionem plures vie inueniende 
+      sur<lb ed="#A" n="57" break="no"/>qua contra crimina alia. maxime quando crimen est notabi¬ 
+      <!--219.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>liter infectiuum: sicut est heresis. quamuis tamen ad 
+      <lb ed="#A" n="59"/>accusandum de illo crimine et aliis criminibus 
+      exce<lb ed="#A" n="60" break="no"/>ptis: sicut sunt crimen simonie et crimem lese 
+      maiesta<lb ed="#A" n="61" break="no"/>tis admittantur criminosi et infames: non tamen nisicontra 
+      in<lb ed="#A" n="62" break="no"/>famatum. extra de simonia. Tante est labes. Inimus 
+      <lb ed="#A" n="63"/>ci vero in illo casu admittuntur. extra de accu. Cum 
+      pre<lb ed="#A" n="64" break="no"/>manconella. in glo.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e526">
+      ¶ Ad secundm dicendum quod maior est 
+      fal<lb ed="#A" n="65" break="no"/>sa. eo enim ipso quod aliquis de crimine accusatur coram iud 
+      <lb ed="#A" n="66"/>ce et admittitur accusator iam aliquo modo notatur 
+      accusa<lb ed="#A" n="67" break="no"/>tus et grauatur eius opinio: ita vt interim ad 
+      hono<lb ed="#A" n="68" break="no"/>res non debeat promoueri. extra de accu. omnipotens de 
+      <lb ed="#A" n="69"/>us. simul cum glo. et di. Si tantis Daniel. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k63781-Dd1e541">
+               <head xml:id="Vn7Pel-k63781-Hd1e543">3</head>
+               <p xml:id="Vn7Pel-k63781-d1e545">
+                  <lb ed="#A" n="70"/>¶ Utrum accusatus de infamia 
+      pos<lb ed="#A" n="71" break="no"/>sit in aliquo casu recusare iudicem: Arguitur quod non: quia 
+      <lb ed="#A" n="72"/>philosophs. viii. Ethic. dicit. Non est possibile filio 
+      abnega<lb ed="#A" n="73" break="no"/>re patrem. sed iudex alicuius pater est eius. ergo nulli licet 
+      <lb ed="#A" n="74"/>iudicem recusare.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e558">
+      ¶ Item extra de vi. et ho. cle vfa. et 
+      <lb ed="#A" n="75"/>clericis et praesbyteris quamquam fornicariis quamdiu ab 
+      ecc<lb ed="#A" n="76" break="no"/>clesia tolerartur: nec habet cuidentiam operis licite diuil 
+      <lb ed="#A" n="77"/>na mysteria audiantur et alia recipiantur sacramenta 
+      ecclesia<lb ed="#A" n="78" break="no"/>stica. sed omnem quem ecclesia indicem constituit tolerat. ergo eot 
+      <lb ed="#A" n="79"/>ecceiam facurt quicumque iudicem suum recusat. In contrarium dicitur ili 
+      <lb ed="#A" n="80"/>q. vii. Quod suspecti. liceat ei qui suspectum sibi iudictur 
+      <lb ed="#A" n="81"/>putat antequam lis inchoetur eum recusare vt ad alium 
+      recur<lb ed="#A" n="82" break="no"/>rat. Respondetur secundum Rich. vbi supra. ar. iiii. q. ii quod in 
+      ali<lb ed="#A" n="83" break="no"/>quibus casibus licitum est iudicem recusare infamato. Ratio 
+      <lb ed="#A" n="84"/>nabile enim est rem non conuenientem ad aliquem actum ab 
+      i<lb ed="#A" n="85" break="no"/>lo actu repellere per viam licitam. quandoque autem accidit quod 
+      si<lb ed="#A" n="86" break="no"/>le qui ponitur loco iudicisad actu iudicandi simpliciter in 
+      <lb ed="#A" n="87"/>conueniens est. vel per comparationem ad aliquam causam 
+      <lb ed="#A" n="88"/>Si autem simpliciter est inconueniens ab officio simplicir 
+      <lb ed="#A" n="89"/>ter remouendus est. Si autem quantum ad aliquam 
+      cau<lb ed="#A" n="90" break="no"/>sam et ad aliam personam pro illa causa ab illa persona 
+      <lb ed="#A" n="91"/>recusari potest. Est inconueniens quandoque propter defectum 
+      <lb ed="#A" n="92"/>rationis vt perpetuo furiosus. vel propter sexum vt 
+      fe<lb ed="#A" n="93" break="no"/>mine. vel conditionem: vt serui. vel etatem vt impuberes. 
+      <lb ed="#A" n="94"/>vel propter auditus defectum vt surdus. vel loquele vt 
+      <lb ed="#A" n="95"/>mutus. vel propter defectum boni nominis vt infamis. 
+      <lb ed="#A" n="96"/>De omnibus istis habetur. iii. q. vii. Infamis. Unde si aliquis 
+      <lb ed="#A" n="97"/>talium assignaretur alicui pro iudice reus illum recusart 
+      <lb ed="#A" n="98"/>posset. Si etiam eius iudex esset: quia idem non debet esse 
+      <lb ed="#A" n="99"/>accusator et iudex. ii. q. i. multi.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e615">
+      ¶ Item si merito susu 
+      <lb ed="#A" n="100"/>pectus est ei. extra de appel. Cum speciali. Suspect 
+      <lb ed="#A" n="101"/>autem potest esse multis de causis scilicet si est eius inimicus 
+      <lb ed="#A" n="102"/>iii. q. v. c. vl.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e624">
+      ¶ Item si est de terra aduersarii nimia 
+      <lb ed="#A" n="103"/>ei familiaris. extra vt lite non conte accedens. ii
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e630">
+      ¶ Itum 
+      <lb ed="#A" n="104"/>si habet causm consimulem cum aduersario. extra de 
+      iudi<lb ed="#A" n="105" break="no"/>ciis. Causam quae
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e637">
+      ¶ Item si consanguineus aduersarii. et 
+      <lb ed="#A" n="106"/>ra de appel. posffemo.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e642">
+      ¶ Item si iudex grauat eum. ii 
+      <lb ed="#A" n="107"/>q. vi. omnis oppressus. Unde et aulus cum grauaretur a iut 
+      <lb ed="#A" n="108"/>ce cesarem appellauit Act. xxv. Si tamen iudices datus 
+      <lb ed="#A" n="109"/>sunt de consensu vtriusque partis non possunt recusari. 
+      e<lb ed="#A" n="110" break="no"/>tra de ca proprie. et pos. Cum olim. Si autem aliquis 
+      recu<lb ed="#A" n="111" break="no"/>sat iudice ex causa iniusta vel modo iniusto est 
+      punien<lb ed="#A" n="112" break="no"/>dus. ii. q. vi. omni modo.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e658">
+      ¶ Ad primum argumentum dicndum 
+      <lb ed="#A" n="113"/>quod quamdiu iudex habet conditiones iudici conuenientes et 
+      <lb ed="#A" n="114"/>facit quod facere debet: tunc assimilatur patri nec recusari 
+      <!--220.xml-->
+      <pb ed="#A" n="221"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>deie. se qundo non est talr vt iudex esm debeat: vel 
+      iusti<lb ed="#A" n="2" break="no"/>ciam deserit iam patrem se non ostendit et potest recusari
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e676">
+      ¶ Ad 
+      <lb ed="#A" n="3"/>secundum dicendum quod non est simile: quia homo in recipiendo sacramenta 
+      <lb ed="#A" n="4"/>a fornicario quamdiu toleratur ab ecclesia: nec facti 
+      eui<lb ed="#A" n="5" break="no"/>dentiam habet in nullo sibi praeiudicat. sed frequenter homo 
+      si<lb ed="#A" n="6" break="no"/>bi praeiudicaret si nunquam iudicem per viam licitam 
+      recusa<lb ed="#A" n="7" break="no"/>ret. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k63781-Dd1e690">
+               <head xml:id="Vn7Pel-k63781-Hd1e692"> 4 </head>
+               <p xml:id="Vn7Pel-k63781-d1e694">
+                  <lb ed="#A" n="8"/>¶ Utrum accusatus possit in aliquo 
+      <lb ed="#A" n="9"/>casum excipere contra testes: Respondet Rich. vbi supra. q. iii. quod 
+      <lb ed="#A" n="10"/>sic: testes adducuntur ad confirmationem veritatis incerte 
+      <lb ed="#A" n="11"/>iudici inquantum iudex. et ideo contra hos adductos in 
+      testi<lb ed="#A" n="12" break="no"/>monium de quibus est probabile secundum iura quod de facili 
+      de<lb ed="#A" n="13" break="no"/>clinarent averitate potest excipere reus ad suam defensionem et 
+      <lb ed="#A" n="14"/>ideo excipere praet contra quasdam propter notabilem intellectus defectum qeo 
+      <lb ed="#A" n="15"/>faciliter praeiudicarent veritati. sicut sunt furiosi: mente 
+      capti<lb ed="#A" n="16" break="no"/>minores. xiiii. annis in causa ciuili In criminali. xx. 
+      <lb ed="#A" n="17"/>anis. Item potest excipere quosdam propter notabilem maliciam 
+      vo<lb ed="#A" n="18" break="no"/>luntatis. et ideo repelluntur de crimine conuicti. extra de 
+      te<lb ed="#A" n="19" break="no"/>stibus. testimonium. in gloria Et infames. quia si bona 
+      fa<lb ed="#A" n="20" break="no"/>ma defuerit fide carebunt. extra de ver. sig. forus. 
+      <lb ed="#A" n="21"/>Item secularis potest exciper contra eum qui confitetur se eiusdem crimi 
+      <lb ed="#A" n="22"/>nis socium esse. extra de confes. c. i. testes tamen possunt esse socii 
+      cri<lb ed="#A" n="23" break="no"/>minis cum agitur in modum inquisitionis: quia licet non 
+      faci<lb ed="#A" n="24" break="no"/>ant plenam probationem: faciunt tamen praesumptionem. ex de testibus 
+      <lb ed="#A" n="25"/>Quoniam recipiuntur etiam socii criminis ad detegendam 
+      consyi<lb ed="#A" n="26" break="no"/>rationem. extra de testi. cogen. venerabilis. cum gloia Et quia 
+      <lb ed="#A" n="27"/>homines ex odio nimio et amore et timore et munerum 
+      sub<lb ed="#A" n="28" break="no"/>ceptione faciliter a veritate declinant: ideo inimici dome 
+      <lb ed="#A" n="29"/>stici et familiares et producti de domo actoris vel 
+      <lb ed="#A" n="30"/>accusatoris
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e746">
+      ¶ Item potest excipi contra patrem ne sit testis pro 
+      fi<lb ed="#A" n="31" break="no"/>lio et econuerso in criminali. potest tamen testari pro etate vel 
+      <lb ed="#A" n="32"/>cognatione filii
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e753">
+      ¶ Item quia serui metu dominorum 
+      suppri<lb ed="#A" n="33" break="no"/>munt veritatem: ideo repelluntur et pro domino et aduersus dominum 
+      <lb ed="#A" n="34"/>sed pro facto suo possunt vt quando per eos dicitur aliquid 
+      commoda<lb ed="#A" n="35" break="no"/>tum vel depositum.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e762">
+      ¶ Item quia probabile est quod nimia 
+      pauper<lb ed="#A" n="36" break="no"/>tate laborante s faciter propter releuationem sue inopie a 
+      vo<lb ed="#A" n="37" break="no"/>ritate declinarent. iiii. q. iii
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e770">
+      ¶ Item testionium quod non est 
+      <lb ed="#A" n="38"/>intelligendum de illis qui voluntarie elegerunt propter deum 
+      pau<lb ed="#A" n="39" break="no"/>pertate: quia de receptione munerum non sunt suspecti cum pro 
+      <lb ed="#A" n="40"/>pter deum omnia reliquerunt quae hebebant et habere poterant.
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e779">
+      ¶ Item 
+      <lb ed="#A" n="41"/>propter nimiam mutabilitatem femine possunt repelli Et 
+      no<lb ed="#A" n="42" break="no"/>ta quod aliquando aliquis admittitur ad accusandum qui non ac 
+      <lb ed="#A" n="43"/>mitteretur ad testificandum. e tra de his qui matri. 
+      accu<lb ed="#A" n="44" break="no"/>fare possunt
+    </p>
+               <p xml:id="Vn7Pel-k63781-d1e790">
+      ¶ Item nota quod aliquando potest aliquis denunciare et 
+      <lb ed="#A" n="45"/>non potest accusare. extra de despon. impu. ad dissoluendum 
+      <lb ed="#A" n="46"/>et ad testificandum admissum debet iudex interrogare 
+      de<lb ed="#A" n="47" break="no"/>dece scilicet de causis: personis loco: tempore. de auditu: 
+      vi<lb ed="#A" n="48" break="no"/>su:scientia et certitudine: credulitate: fama. extra de testi. 
+      <lb ed="#A" n="49"/>Cum causam. cum gloia Et dicunt concordare testes in his quae in 
+      <lb ed="#A" n="50"/>hoc versiculo continentur. Res: persona: locus: gradus sint 
+      con<lb ed="#A" n="51" break="no"/>sona tempus. Quod autem dicunt concordare in reet persona probatur 
+      <lb ed="#A" n="52"/>per hoc quod si non concordarentur essent testes singulares. 
+      ta<lb ed="#A" n="53" break="no"/>les secundum iura non probant. extra de elec. Cum dilectus. Et de pro 
+      <lb ed="#A" n="54"/>bationibus licet. Quod etiam in loco concordent. probatur per illud 
+      <lb ed="#A" n="55"/>Dan. xiii. de illis senibus quorum vnus dixit iuuenem cum 
+      Su<lb ed="#A" n="56" break="no"/>sanna sub cyno et alius sub prino. Quod etiam in gradu cum 
+      <lb ed="#A" n="57"/>testificantur de perentela. probatur per illud quod dicitur. xxxv. q. vi. 
+      <!--220.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>de perentela. Quod etiam intpre. probat prilod quiod dictr.ii. quia 
+      <lb ed="#A" n="59"/>ix. nihilominus etc. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

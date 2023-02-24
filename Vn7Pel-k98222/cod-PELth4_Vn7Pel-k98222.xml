@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scandalum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Scandalum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="346"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k98222">
+            <head xml:id="Vn7Pel-k98222-Hd1e100">Scandalum</head>
+            <p xml:id="Vn7Pel-k98222-d1e102">
+               <lb ed="#A" n="48"/>SCandalum non omne 
+      <lb ed="#A" n="49"/>est peccatum mortale. quia scandalum passiuum 
+      <lb ed="#A" n="50"/>est tantum impactio ad veniale peccatum. 
+      pu<lb ed="#A" n="51" break="no"/>ta cum aliquis ex dicto alterius mouetur ad peccatum 
+      veni<lb ed="#A" n="52" break="no"/>ale. et sic est veniale peccatum. Si vero est impactio ad 
+      <lb ed="#A" n="53"/>mortale: sic est mortale. non tamen aliud mortale 
+      spi<lb ed="#A" n="54" break="no"/>ciale ab illo quod committitur. quia sumere occasionem. ex 
+      <lb ed="#A" n="55"/>dicto vel facto alterius non constituit specialem rationem 
+      pecca<lb ed="#A" n="56" break="no"/>quia non importat deformitatem speciali virtuti oppositam 
+      <!--345.xml-->
+      <cb ed="#A" n="b"/>
+               <lb ed="#A" n="57"/>sed solum ipsum peccatum quod committitur. Similiter est 
+      intelli<lb ed="#A" n="58" break="no"/>gendum de scandalo actiuo. quia quod est per accantens non 
+      consti<lb ed="#A" n="59" break="no"/>tuit speciem: potest tamen esse veniale vel mortale 
+    </p>
+            <div xml:id="Vn7Pel-k98222-Dd1e135">
+               <head xml:id="Vn7Pel-k98222-Hd1e137"> 1 </head>
+               <p xml:id="Vn7Pel-k98222-d1e139">
+                  <lb ed="#A" n="60"/>¶ Utrum scandalum sit dictum vel 
+      fa<lb ed="#A" n="61" break="no"/>ctum minus rectum praebens alteri occasionem ruine: 
+      Ar<lb ed="#A" n="62" break="no"/>guitur quod non. quia i. Petr. ii dicitur de christo: quod factus sit 
+      la<lb ed="#A" n="63" break="no"/>pis offensionis et petra scandali his qui offendunt 
+      verbo<lb ed="#A" n="64" break="no"/>nec credunt in quo et positi sunt Et christus nihil dixit vel 
+      <lb ed="#A" n="65"/>fecit minus rectu. ergo etc.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e155">
+      ¶ Item Mat. xvi. dixit 
+      salua<lb ed="#A" n="66" break="no"/>tor petro. Scandalum mihi es. sed petrus phiseo n praebuit 
+      <lb ed="#A" n="67"/>occasionem ruine. ergo etc.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e162">
+      ¶ Item homines quandoque scandalizam 
+      <lb ed="#A" n="68"/>tur ex bono. ergo scandalum no est semper dictum vel factum 
+      mi<lb ed="#A" n="69" break="no"/>nus rectum.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e169">
+      ¶ In contrarium dicit glo. super illud Mat. xviii 
+      <lb ed="#A" n="70"/>Si manus tud vel pes tuus scandalizat te: scandalizat 
+      <lb ed="#A" n="71"/>qui dicto vel facto minus recto dat occasionem ruine 
+      <lb ed="#A" n="72"/>Respondetur secundum Rich. vbi supra. di. xxxviii. ar. vl. q. i. quod 
+      sca<lb ed="#A" n="73" break="no"/>dalum dicitur a scandalon grece quod est offendiculum vel 
+      <lb ed="#A" n="74"/>offensio: vel ruina: vel in pactio pedum. translatum est autm 
+      <lb ed="#A" n="75"/>a corporalibus ad spiritualia. Et sicut in corporalibus accipere 
+      <lb ed="#A" n="76"/>tur actiue scilicet pro appositione offendiculi in via ad hoc 
+      <lb ed="#A" n="77"/>vt ambulans impingat vel ruat. Et passiue scilicet pro 
+      <lb ed="#A" n="78"/>impactione vel ruina impingentis vel ruentis sic in via 
+      <lb ed="#A" n="79"/>morum accipitur scandalum actiue et passiue. Primo modo 
+      <lb ed="#A" n="80"/>est scandalizantis actio scilicet dictum vel factum minus rectum 
+      <lb ed="#A" n="81"/>alteri praebens occasionem ruine. Secundo modo est scanda 
+      <lb ed="#A" n="82"/>lizanti ipsa passio scilicet ruina occasionata ex dicto vels 
+      <lb ed="#A" n="83"/>facto minus recto.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e203">
+      ¶ Ad primum argumentum dicendum quod qu¶ 
+      <lb ed="#A" n="84"/>in isto verbo christus no bicitur fuisse scandalum sed petra qua 
+      <lb ed="#A" n="85"/>scandalum est secutum. non a petra datum sed a malis 
+      ho<lb ed="#A" n="86" break="no"/>minibus acceptum de quibus hic loquitur. Unde fuerunt 
+      scan<lb ed="#A" n="87" break="no"/>dalizati scandalizantes: quia sibi occasionem ruine 
+      praebu<lb ed="#A" n="88" break="no"/>erunt
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e216">
+      ¶ Ad secundum dcenum quod quamuis christus non potuerit rue 
+      <lb ed="#A" n="89"/>re nec fuerit: tamen Petrus quantum in se fuit dedit sibi 
+      <lb ed="#A" n="90"/>occasionem ruine inquantum sibi suadebat non subire 
+      <lb ed="#A" n="91"/>passionem quam subire diuina voluntas imparabat.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e225">
+      ¶ Ad 
+      <lb ed="#A" n="92"/>tertium dicendum quod bonum opus nunquam tribuit alii 
+      oclasi<lb ed="#A" n="93" break="no"/>onem ruine: quamuis quandoque homines mali viso bono opere 
+      <lb ed="#A" n="94"/>sibiipsis impendant occasionem ruine. Unde licet 
+      nul<lb ed="#A" n="95" break="no"/>lum dictum vel factum minus rectum praebeat occasionem 
+      rui<lb ed="#A" n="96" break="no"/>ne necitate absoluta: sed bene necitate conditionata. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98222-Dd1e239">
+               <head xml:id="Vn7Pel-k98222-Hd1e241">2</head>
+               <p xml:id="Vn7Pel-k98222-d1e243">
+                  <lb ed="#A" n="97"/>¶ Utrum aliqua bona opera sint pro 
+      <lb ed="#A" n="98"/>pter scandalum vitandum omittenda: Arguitur quod non: quia 
+      <lb ed="#A" n="99"/>in moralibus bonum principalius est quam verum. sed sic dicit 
+      <lb ed="#A" n="100"/>glo. super illud Mat. xviii. Qui scandalizauerit etc. 
+      <lb ed="#A" n="101"/>pro scandalo veritas relinqui non debt. Et extra de reg. iur. 
+      <lb ed="#A" n="102"/>Qui scandalizauerit vtilius scandalum nasci permita 
+      <lb ed="#A" n="103"/>titur quam veritas relinquatur. ergo multo minus est bonum 
+      di<lb ed="#A" n="104" break="no"/>mittendum propter vitandum scandalum.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e263">
+      ¶ Item dicit apostolus 
+      <lb ed="#A" n="105"/>Rho. iii. Non sunt facienda mala vt veniant bona. ergo 
+      <lb ed="#A" n="106"/>a simili non sunt omittenda bona vt veniant mala. i 
+      <lb ed="#A" n="107"/>In contrarium arguitur: quia propter scandalum quandoque est 
+      omitten<lb ed="#A" n="108" break="no"/>dum quod de iure esset faciendum. vt dicitur dis. li. aliquantos. 
+      <lb ed="#A" n="109"/>secr quod de iure faciendum est bonum est. ergo etc
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e276">
+      ¶ Item apostolus 
+      <lb ed="#A" n="110"/>i. Cor. viii. Si escam scandalizat frem mtu non manm 
+      <lb ed="#A" n="111"/>ducabo carnem in eternum. ergo saltem bonum temporale omit 
+      <lb ed="#A" n="112"/>tendum est propter scandalum. Respondet Rich. vbi supra. q. ii 
+      <lb ed="#A" n="113"/>quod quaestio rationabiliter intelligi non potest de scandalo acti 
+      <!--346.xml-->
+      <pb ed="#A" n="347"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>noquia peromissionem boni non vitat hoc in seriso 
+      ve<lb ed="#A" n="2" break="no"/>bum vel factum minus rectum. quia nec operatio boni est 
+      <lb ed="#A" n="3"/>in operante occasio dicti vel facti minus recti. Est 
+      <lb ed="#A" n="4"/>ergo intelligenda de scandalo passiuo sub hoc sensu scilcet 
+      <lb ed="#A" n="5"/>Utrum aliquis teneatur omittere bonum opus ne proximus 
+      <lb ed="#A" n="6"/>scandalizetur
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e307">
+      ¶ Ad cuius intelligentia sciendum quod 
+      bo<lb ed="#A" n="7" break="no"/>norum operum quaedam sunt necessaria ad salutem: vt 
+      <lb ed="#A" n="8"/>opera praeceptorum. Quedam supererogationis: vt 
+      oper<lb ed="#A" n="9" break="no"/>consiliorum. Quedam sunt in differentia ex genere: vt 
+      <lb ed="#A" n="10"/>comedere carnes. bibere vinum. temporalia modo 
+      <lb ed="#A" n="11"/>licito adquirere. adquisita custodire. debita repetere. 
+      <lb ed="#A" n="12"/>et sic de aliis. Scandalum enim proximi oriri potest in ipso 
+      <lb ed="#A" n="13"/>ex sua malicia vel infirmitate vel ignorantia. 
+      Ope<lb ed="#A" n="14" break="no"/>ra necessaria ad salutem non sunt omittenda ad vitam 
+      <lb ed="#A" n="15"/>dum proximi scandalum ex quacumque radice 
+      proueni<lb ed="#A" n="16" break="no"/>at. quia nullus debet omittere salutem propriam 
+      ac<lb ed="#A" n="17" break="no"/>vitandum proximi damnationem. Nullum etiam bonum 
+      <lb ed="#A" n="18"/>opus est omittendum ad vitandum proximi scandalum 
+      <lb ed="#A" n="19"/>proueniens ex malicia: ne per hoc volentibus maliciose 
+      <lb ed="#A" n="20"/>impedire opera bona et exercere mala daretur 
+      occa<lb ed="#A" n="21" break="no"/>sio malignadi. Opera vero supererogationis quamuis non 
+      <lb ed="#A" n="22"/>sint simpliciter et ex toto omitteda propter quodcumque 
+      <lb ed="#A" n="23"/>proximi scandalum: tamen quandoque ad tempus sunt 
+      in<lb ed="#A" n="24" break="no"/>termittenda ad vitandum scandalum proueniens ex in 
+      <lb ed="#A" n="25"/>firmitate vel ignorantia quousque scilicet adhibeatur 
+      sub<lb ed="#A" n="26" break="no"/>ficiens diligentia ad hoc vt instruatur ignorans et 
+      <lb ed="#A" n="27"/>infirmus aliquo modo confortetur vt non de bono opere 
+      <lb ed="#A" n="28"/>scandalum sibi sumat. nec sic opus supererogationis in 
+      <lb ed="#A" n="29"/>termittens peccat. quia meretur equale pramium 
+      pre<lb ed="#A" n="30" break="no"/>mio debito operi supererogationis vel maius quod 
+      <lb ed="#A" n="31"/>omittit ad tempus. quia talis omissio nihil dimi 
+      <lb ed="#A" n="32"/>nuit de perfectione charitatis sed magis disponit 
+      <lb ed="#A" n="33"/>ad augmentum. Opera vero indifferentia ex genere 
+      <lb ed="#A" n="34"/>quorum omissio nulli praeiudicat nisi operanti et 
+      eti<lb ed="#A" n="35" break="no"/>am in temporalibus tantum omittenda sunt ad vitandum 
+      <lb ed="#A" n="36"/>scand alum proximi proueniens ex infirmitate vel igno 
+      <lb ed="#A" n="37"/>rantia quando probabiliter apparet quod nisi opus tale omit 
+      <lb ed="#A" n="38"/>tatur proximus scandalizabitur. Etsi probabile est quod scta 
+      <lb ed="#A" n="39"/>dalizabitur mortaliter: tunc omissio illius operis est in 
+      <lb ed="#A" n="40"/>praecepto. Si autem non scandalizaretur nisi venialiter tunc 
+      <lb ed="#A" n="41"/>omissio illius operis est in consilio. postquam tamen 
+      <lb ed="#A" n="42"/>poximo est ostensum quod ex tali opere scandalizari 
+      <lb ed="#A" n="43"/>non debet non tenetur homo omittere illud opus. quia si sic 
+      <lb ed="#A" n="44"/>scandalizaretur iam non ex infirmitate et ignorantia: 
+      <lb ed="#A" n="45"/>sed ex malicia proueniret.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e395">
+      ¶ Ad primum argumentum 
+      <lb ed="#A" n="46"/>dicendum quod procedit de veritate cuius locutio vel 
+      ope<lb ed="#A" n="47" break="no"/>ratio est necessaria ad salutem.
+    </p>
+               <p xml:id="Vn7Pel-k98222-d1e402">
+      ¶ Ad secundum 
+      dicen<lb ed="#A" n="48" break="no"/>dum quod non est simile. operatio mali culpe non potest esse 
+      <lb ed="#A" n="49"/>bona. sed omissio boni supererogationis vel 
+      indiffe<lb ed="#A" n="50" break="no"/>rentis in aliquo casu potest esse bona vt supra visum est 
+      <lb ed="#A" n="51"/>in responsione. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98222-Dd1e414">
+               <head xml:id="Vn7Pel-k98222-Hd1e416"> 3 </head>
+               <p xml:id="Vn7Pel-k98222-d1e418">
+                  <lb ed="#A" n="52"/>¶ Sed diceres: Nunquid quodlibet 
+      <lb ed="#A" n="53"/>bonum sit faciendum ne proximus scandalizetur: 
+      Respon<lb ed="#A" n="54" break="no"/>detur secundum Alexam. de ales. ii ii tractatum de scandalo. quod 
+      <lb ed="#A" n="55"/>autm bonum quod expctit proximus rationabiliter 
+      pe<lb ed="#A" n="56" break="no"/>tit. puta quia pauper petit vestimentum et huiusmodi. et 
+      <lb ed="#A" n="57"/>tunc si ad hoc teneor ex praecepto casus est clarus. 
+      <!--346.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>Si vero non teneor ex praecepto tunc teneori ei 
+      dectla<lb ed="#A" n="59" break="no"/>rare quomodo non teneor: et quomdo rationabiliter illud no 
+      fa<lb ed="#A" n="60" break="no"/>cio. Unde Augu. expones illucl. Omni petenti te 
+      tri<lb ed="#A" n="61" break="no"/>bui scilicet vel quantum ad verbum rationabiliter te 
+      excusan<lb ed="#A" n="62" break="no"/>do: vel quantum ad factum quando rationabiliter teneris. et 
+      <lb ed="#A" n="63"/>sic patet quomodo debeat intelligi illud. Utilius 
+      scauda<lb ed="#A" n="64" break="no"/>lum nssci permittitur quam veritas deserar scilicet veritas vi 
+      <lb ed="#A" n="65"/>te que comprehendit praecepta. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

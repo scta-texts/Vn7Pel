@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Chrisma</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Chrisma</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="104"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k29872">
+            <head xml:id="Vn7Pel-k29872-Hd1e100">Chrisma</head>
+            <div xml:id="Vn7Pel-k29872-Dd1e102">
+               <head xml:id="Vn7Pel-k29872-Hd1e104"> 1 </head>
+               <!-- only has 1 section but margin still contains a section numbering -->
+               <p xml:id="Vn7Pel-k29872-d1e108">
+                  <lb ed="#A" n="68"/>Chrisma siue omnis 
+      <lb ed="#A" n="69"/>um sanctum dicitur triplex quod per episcopos in die 
+      ce<lb ed="#A" n="70" break="no"/>ne consecratur. Primum principale dicitur 
+      chri<lb ed="#A" n="71" break="no"/>sma sanctum quod de oleo et balsamo fit: et 
+      <lb ed="#A" n="72"/>cum isto benedicuntur fontes baptismales: calix: 
+      pate<lb ed="#A" n="73" break="no"/>na: ecclesia et altare: et puer baptizatus in virtice et fron 
+      <lb ed="#A" n="74"/>te: et episcopi quando consecrantur in manibus et capite: et omnes 
+      fi<lb ed="#A" n="75" break="no"/>deles cum chrismantur. et istud est annuatim 
+      consecra<lb ed="#A" n="76" break="no"/>dum et innouandum. vt patet de conse. dist. iiii. c. si quis de 
+      <lb ed="#A" n="77"/>alio. Et grauiter punitur sacerdos qui in baptismo 
+      <lb ed="#A" n="78"/>vtitur de alio quam de nouo. Secundum oleum sanctum est 
+      ca<lb ed="#A" n="79" break="no"/>thecuminorum: et dicitur oleum benedictum siue sanctum. et isto 
+      <lb ed="#A" n="80"/>inunguntur baptizandi inter scapulas et in pectore 
+      <lb ed="#A" n="81"/>et manus sacerdotis cum ordinatur. Item principes et 
+      re<lb ed="#A" n="82" break="no"/>ges in brachio et humero. Item ecclesia et altare ante 
+      <lb ed="#A" n="83"/>chrismationem. Tertium oleum sanctum est ex quo inunguntur 
+      <lb ed="#A" n="84"/>infirmi in articulo mortis. de quo infra Extrema 
+      <lb ed="#A" n="85"/>vnctis ec. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

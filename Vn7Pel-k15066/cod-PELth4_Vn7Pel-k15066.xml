@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beneficium</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Beneficium</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="53"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k15066">
+            <head xml:id="Vn7Pel-k15066-Hd1e100">Beneficium</head>
+            <div xml:id="Vn7Pel-k15066-Dd1e102">
+               <head xml:id="Vn7Pel-k15066-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k15066-d1e106">
+                  <lb ed="#A" n="39"/>Beneficium 
+      ecclesi<lb ed="#A" n="40" break="no"/>asticum quottuplex est: Respondetur quod aliud est 
+      <lb ed="#A" n="41"/>religiosum: aliud seculare. 
+      Religio<lb ed="#A" n="42" break="no"/>sum aliud simplex: vt canonicatus 
+      re<lb ed="#A" n="43" break="no"/>gularis. Aliud duplex: vt abbatia: prioratus. Uel 
+      <lb ed="#A" n="44"/>aliud habens iurisdicionem. Seculare vero aliud sum 
+      <lb ed="#A" n="45"/>mum: vt papatus. aliud maius: vt eprcatus. aliud 
+      medio<lb ed="#A" n="46" break="no"/>cre: vt dignitatus vel personatus. vel aliud habens curam 
+      <lb ed="#A" n="47"/>animarum. Aliud minus seu simplex: vt canonia: 
+      capel<lb ed="#A" n="48" break="no"/>lania: aduocatoria: et huiusmodi. Aliud non habens 
+      admi<lb ed="#A" n="49" break="no"/>nistrationem. et hoc large dicitur beneficium: et est quando quis 
+      ha<lb ed="#A" n="50" break="no"/>bene ficium non in titulum: vt sunt capellani ad nutum 
+      <lb ed="#A" n="51"/>amouibiles. Sed quando habet in titulum aliquod 
+      benefi<lb ed="#A" n="52" break="no"/>cium cui assignata est dos quantumcumque sit simplex: dicet 
+      <lb ed="#A" n="53"/>haber e beneficium cum administratione secundum Gemi. extra de 
+      <lb ed="#A" n="54"/>offi. ordi. c. praesenti. liro vi. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e144">
+               <head xml:id="Vn7Pel-k15066-Hd1e146">2</head>
+               <p xml:id="Vn7Pel-k15066-d1e148">
+                  <lb ed="#A" n="55"/>¶ Utrum prebenda sit quid 
+      spirituale<lb ed="#A" n="56" break="no"/>Respondet Panor. extra de praeben ca. dilecto quod si est 
+      <!--52.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>annexa iuri canonie partim est spirituale et partim 
+      temn<lb ed="#A" n="58" break="no"/>porale. Si vero non est annexa canonie: vtpote quia 
+      <lb ed="#A" n="59"/>in ecclesia non sunt praebende distincte: sed omnia communia: et per 
+      <lb ed="#A" n="60"/>capoituolum assignatur isti vnum praedium in praebenda et alteri 
+      <lb ed="#A" n="61"/>aliud vel quid simile Uel etiam si sunt distincte: tamen 
+      <lb ed="#A" n="62"/>non sunt canonicatibus annexe: quia non est ibi 
+      nume<lb ed="#A" n="63" break="no"/>rus canonicorum: tunc est mere temporale: et potest 
+      con<lb ed="#A" n="64" break="no"/>cedi etiam laico ad ipsius sustentationem. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e178">
+               <head xml:id="Vn7Pel-k15066-Hd1e180">3</head>
+               <p xml:id="Vn7Pel-k15066-d1e182">
+                  <lb ed="#A" n="65"/>¶ Utrum altaria que dantur in titulum 
+      <lb ed="#A" n="66"/>perpetuum dicantur beneficia: Respondetur secundum glo. in cle. i. 
+      <lb ed="#A" n="67"/>de decimis. quod sic. et appellatione officii altaria pre 
+      <lb ed="#A" n="68"/>dicta intelliguntur. Secus si non dantur in titulum: quia 
+      <lb ed="#A" n="69"/>pencficium non dicuntur proprie. Et bencficium debet dari 
+      <lb ed="#A" n="70"/>ecclesiasticum per ordinarium regulariter: nisi ex 
+      speci<lb ed="#A" n="71" break="no"/>ali statuto vel consuetudine ad alium pertineat. 
+      Sede<lb ed="#A" n="72" break="no"/>vero vacante illud beneficium cuius collatio ad 
+      episco<lb ed="#A" n="73" break="no"/>pum pertinet: caxitulum conferre non potest. sed 
+      bene<lb ed="#A" n="74" break="no"/>illud quod ad episcopum et capitulum communiter pertine 
+      <lb ed="#A" n="75"/>bat. Et idem potest episcopus quando capoistolum esset 
+      ex<lb ed="#A" n="76" break="no"/>communicatum. Si autem pertinet ad episcopum 
+      colla<lb ed="#A" n="77" break="no"/>tio beneficii cum assensu et consilio capituli: non 
+      po<lb ed="#A" n="78" break="no"/>test se capitulum intromittere: nisi suspensus 
+      episco<lb ed="#A" n="79" break="no"/>pus esset in mora petendi relaxationis. extra ne sede 
+      <lb ed="#A" n="80"/>vacan. c. si ad episcopum. lir.o vi. ibidem plura vido¬ 
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e219">
+                  <lb ed="#A" n="81"/>¶ Quid de beneficiis vacantibus in curia: 
+      Re<lb ed="#A" n="82" break="no"/>spondetur quod omnia beneficia: dignitates et personatus 
+      <lb ed="#A" n="83"/>vacantes in curia non possunt conferri nisi per 
+      pa<lb ed="#A" n="84" break="no"/>pam. Similiter accedentium vel recedentium de 
+      cu<lb ed="#A" n="85" break="no"/>ria praedictorum beneficia si in locis vicinis decedunt 
+      <lb ed="#A" n="86"/>curie infra duas dietas legales: quae faciunt viginti 
+      <lb ed="#A" n="87"/>miliaria italicalia pro die i ls.t ic. ff. si quis cautur. Et ita 
+      <lb ed="#A" n="88"/>notat glo. extra de praeben. c. praesenti. libro vi. vnde si 
+      di<lb ed="#A" n="89" break="no"/>starent per quadraginta vnum miliaria non 
+      include<lb ed="#A" n="90" break="no"/>rentur: excipiuntur tamen si moriantur in loco proprii 
+      do<lb ed="#A" n="91" break="no"/>micilii etc. Similiter a patronis praesentati 
+      capitu<lb ed="#A" n="92" break="no"/>io sede vacante capitulum potest instituere tales: 
+      <lb ed="#A" n="93"/>etiam si ad episcopum si viueret pertinuisset. vt pater 
+      <lb ed="#A" n="94"/>extra de institu. c. si capitulum. li. vi.
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e252">
+      ¶ Quid si 
+      epi<lb ed="#A" n="95" break="no"/>scopo mandatur a papa vt pauperi clefico prouideat 
+      <lb ed="#A" n="96"/>de beneficio: et interim ille aliud est consecutus: 
+      <lb ed="#A" n="97"/>Respondetur quod non tenetur. vt patet extra de preben. c. si 
+      <lb ed="#A" n="98"/>pauper. lib. vi. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e264">
+               <head xml:id="Vn7Pel-k15066-Hd1e266">4</head>
+               <p xml:id="Vn7Pel-k15066-d1e268">
+                  <lb ed="#A" n="99"/>¶ Utrum episcopus teneatur 
+      ordi<lb ed="#A" n="100" break="no"/>natis per ipsum prouidere de beneficio 
+      Responde<lb ed="#A" n="101" break="no"/>tur quod sic: si est in sacris ordinatus. extra de 
+      preben<lb ed="#A" n="102" break="no"/>dis. c. cum secundum. intellige etiam si commisisset quod 
+      or<lb ed="#A" n="103" break="no"/>dinaretur per alium. et hoc est verum nisi habeat suam 
+      <lb ed="#A" n="104"/>vel paternam hereditatem vnde possit sustentari: secundum 
+      <lb ed="#A" n="105"/>glosam in dicto. c. si episcopi. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e288">
+               <head xml:id="Vn7Pel-k15066-Hd1e290">5</head>
+               <p xml:id="Vn7Pel-k15066-d1e292">
+                  <lb ed="#A" n="106"/>¶ Utrum promittens alicui 
+      proui<lb ed="#A" n="107" break="no"/>dere de beneficio ecclesiastico non vacante vel 
+      quali<lb ed="#A" n="108" break="no"/>tercumque permittat cum valuerit teneatur: Respondetur quod 
+      <lb ed="#A" n="109"/>non. quia talis promissio est nulla. extra de concess. 
+      <lb ed="#A" n="110"/>praeben. lir.o vi. c. detestanda. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e306">
+               <head xml:id="Vn7Pel-k15066-Hd1e308">7a</head>
+               <!-- margin numbering mistakenly says 7 -->
+               <p xml:id="Vn7Pel-k15066-d1e312">
+                  <lb ed="#A" n="111"/>¶ Utrum recipiens beneficium 
+      eccle<lb ed="#A" n="112" break="no"/>siasticum de manu laici: incidat in aliquam penam: 
+      <!--53.xml-->
+      <pb ed="#A" n="54"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Respondet Innoc. de elec. quod est ineligibilis ipso iure: 
+      <lb ed="#A" n="2"/>potest tamen epus dispensare cum eo. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e331">
+               <head xml:id="Vn7Pel-k15066-Hd1e333">6</head>
+               <p xml:id="Vn7Pel-k15066-d1e335">
+                  <lb ed="#A" n="3"/>¶ Utrum filius sacerdotis possit 
+      <lb ed="#A" n="4"/>obtinere beneficium in ecclesia patris: Respondetur quod si alias est 
+      le<lb ed="#A" n="5" break="no"/>gitimus dummodo non ad illas dignitates vel praebendas 
+      <lb ed="#A" n="6"/>quas habuit immediate pater eius promoueatur: vt patet 
+      <lb ed="#A" n="7"/>extra de fi. praesby. c. constitutus. Et nomine filiorum in hoc 
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e348">
+                  <lb ed="#A" n="8"/>¶ Quis potest cum ille veniunt etiam nepotes. 
+      <lb ed="#A" n="9"/>gitimis dispensare: Respondetur: epistus vt obtineant 
+      ecclesiasti<lb ed="#A" n="10" break="no"/>cum beneficium simplex cui non imminet cura animarum: et dum 
+      <lb ed="#A" n="11"/>modo non cadat in nomen dignitatis et personatus. de filiis 
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e359">
+                  <lb ed="#A" n="12"/>¶ Queritur infra (presby. is qui libro vi. plura ibidem 
+      <lb ed="#A" n="13"/>quod tempus conferri debet beneficium vacans:
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e366">
+      ¶ Respondet panor. in 
+      <lb ed="#A" n="14"/>cet nulla. de conces. praebem. quod ecclesia stica beneficia non de 
+      <lb ed="#A" n="15"/>bent vacare vltra sex menses: quibus elapsis de epirceatu 
+      <lb ed="#A" n="16"/>deuoluitur ad capoistulum et econuerso: et demum ad proxime 
+      su<lb ed="#A" n="17" break="no"/>priorem: et sic potestas conferendi deuoluitur ad superiore gradatim 
+      <lb ed="#A" n="18"/>Potest enim beneficium multo vacare tempore. nam caposuolum 
+      ha<lb ed="#A" n="19" break="no"/>bet sex menses: si non confert deuoluitur potestas ad episcotum: t 
+      <lb ed="#A" n="20"/>etiam habet alios sex menses. et eo negligente deuolui 
+      <lb ed="#A" n="21"/>tur ad metropolitanum: qui habet alios sex menses. et 
+      <lb ed="#A" n="22"/>eo non conferente deuoluitur ad patriarcham. Si autem non 
+      <lb ed="#A" n="23"/>haberet superiorem tunc deuolueretur ad papam. Et incipit 
+      <lb ed="#A" n="24"/>currere praedictum tempus non a tempore vacationis: sed a tempore 
+      <lb ed="#A" n="25"/>noticie vel scientic. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e396">
+               <head xml:id="Vn7Pel-k15066-Hd1e398">7b</head>
+               <p xml:id="Vn7Pel-k15066-d1e400">
+                  <lb ed="#A" n="26"/>¶ Utrum liceat alicui sibi procura 
+      <lb ed="#A" n="27"/>re ecclesiasticum beneficium: Respondet sanctus Tho. et 
+      <lb ed="#A" n="28"/>Ray. quod bene ficium cum cura animarum non licet: quia 
+      idone<lb ed="#A" n="29" break="no"/>non potest administrare sine gratia seu charitate quam 
+      sci<lb ed="#A" n="30" break="no"/>re se habere non potest. ergo esset praesumptuosus. secus de aliis 
+      <lb ed="#A" n="31"/>panteficinis. quia si indiget potest sibi petere. Augustinus 
+      tamen<lb ed="#A" n="32" break="no"/>de ancho. libro de potestate pape tenet generaliter non posso 
+      <lb ed="#A" n="33"/>procurari sine peccato quod verum estimandum est quando 
+      princi<lb ed="#A" n="34" break="no"/>paliter procurat vt habeat beneficium: secus quando 
+      princi<lb ed="#A" n="35" break="no"/>paliter procurat vt posset prodesse. Rodo. vero glosator 
+      <lb ed="#A" n="36"/>Ray. quod hec opinio videtur dura. vnde credit quod aliquis 
+      <lb ed="#A" n="37"/>pro se petere potest nisi sit indignus. Si vero sit dignus etiam 
+      <lb ed="#A" n="38"/>beneficium cum cura animarum exeplo Esaie dicentis: 
+      Ecco<lb ed="#A" n="39" break="no"/>ego mitte me. Sed prima opinio tutior est: quia qui 
+      pe<lb ed="#A" n="40" break="no"/>tit bene ficium: autem se credit dignum aut indignum. si 
+      cre<lb ed="#A" n="41" break="no"/>dit se dignum: iam est praesumptuosus: ergo indignus et 
+      pro<lb ed="#A" n="42" break="no"/>ces porrigit pro indigno: et sic dat munus a 
+      lingua<lb ed="#A" n="43" break="no"/>Si vero credit se indignum: fatuus est et peruersus: etiam 
+      <lb ed="#A" n="44"/>si petat propter bonum opus: quia sine tali beneficio potest 
+      be<lb ed="#A" n="45" break="no"/>nefacere. Fatuus vero est qui animam suam obligat pro 
+      <lb ed="#A" n="46"/>animabus aliorum sponte. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e449">
+               <head xml:id="Vn7Pel-k15066-Hd1e451">8</head>
+               <p xml:id="Vn7Pel-k15066-d1e453">
+                  <lb ed="#A" n="47"/>¶ Utrum occupans bene ficium 
+      viuen<lb ed="#A" n="48" break="no"/>tis scienter faciens se institui sit infamis: Respondet 
+      Pa<lb ed="#A" n="49" break="no"/>nor. extra de concels. praeben. c. i. quod sic: et solus papa 
+      dispen<lb ed="#A" n="50" break="no"/>sat cum eo: sicut cum illo qui viuente vxorem aliam accepit. 
+      <lb ed="#A" n="51"/>extra de eo qui duxit in vxo. quam pol. per adul. c. fina. 
+      <lb ed="#A" n="52"/>Similiter dicit de his qui de facto occupant vel per 
+      bra<lb ed="#A" n="53" break="no"/>chium seculare se in vacantibus beneficienis intrudunt: si 
+      <lb ed="#A" n="54"/>non faciunt mentionem in impetratione de tali 
+      occupa<lb ed="#A" n="55" break="no"/>tione: quia omne illud ex quo non ita faciter obtineretur 
+      taci<lb ed="#A" n="56" break="no"/>tam inducit surreptione: vt patet extra de praebem. c. cum iam du¬ 
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e477">
+                  <lb ed="#A" n="57"/>¶ Quot beneficia potest quis habere: Respont Panor. extra de 
+      <!--53.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>cle. non resi. c. conquirentes. quod habens beneficium quantumcumque 
+      <lb ed="#A" n="59"/>simplex quod per se sufficit ad vitam beneficiati non potest 
+      <lb ed="#A" n="60"/>aliud tenere sine mortali peccato. vt patet in. c. dudum. 
+      <lb ed="#A" n="61"/>de elec. Quod limitat panor. si propter se solum habet. sec 
+      <lb ed="#A" n="62"/>vero si collata sibi essent non ratione sui: sed propter vtilita 
+      <lb ed="#A" n="63"/>tem beneficiorum vt quia est homo industriosus et bone 
+      con<lb ed="#A" n="64" break="no"/>scientie. vt notat in. c. cum iam dudum. de praeben. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e502">
+               <head xml:id="Vn7Pel-k15066-Hd1e504">9</head>
+               <p xml:id="Vn7Pel-k15066-d1e506">
+                  <lb ed="#A" n="65"/>¶ Utrum habens plura quando vnum 
+      <lb ed="#A" n="66"/>sufficit: excusetur per dispensationem: Respondet glo. praedicta 
+      <lb ed="#A" n="67"/>quod sic. sed Panor. in dicto. c. dudum dicit: quod habet ¬ 
+      <lb ed="#A" n="68"/>indubitato quod non sit tutus quo ad ecclesiam triumphate. 
+      <lb ed="#A" n="69"/>et dispensatus per papam quando dispensatus est propter se et ad 
+      su<lb ed="#A" n="70" break="no"/>am vtilitatem: quia in hoc casu non solum alteratur iuris 
+      <lb ed="#A" n="71"/>positiui dispositio: sed etiam christi paterimonium 
+      iniuste<lb ed="#A" n="72" break="no"/>dispergitur. Cum ergo papa non possit sine causa bona ecclesie 
+      <lb ed="#A" n="73"/>alienare sine graui peccato: vt dicit archi. xii. q. ii non 
+      li<lb ed="#A" n="74" break="no"/>ceat pape. ergo multo minus potest dare licentiam alteri 
+      <lb ed="#A" n="75"/>ipsum dispergendi. vt patet in. c. nuper. de resti. do. post 
+      <lb ed="#A" n="76"/>di. Et sic conuincitur ratio Inno in. c. cum ad monasterium. 
+      <lb ed="#A" n="77"/>de statu mona. quia hoc non solum violatur ius positiuum: 
+      <lb ed="#A" n="78"/>sed potius diuinum. Hoc idem tenet Hostie. in dicto 
+      <lb ed="#A" n="79"/>c. dudum. quem sequitur Ioan. an. Dicit sanctus Tho. in 
+      <lb ed="#A" n="80"/>x. quodli. q. v. quod habere plures praebendas absolute 
+      consi<lb ed="#A" n="81" break="no"/>derandum est quid de se inordinatum: vtpote quia non potest 
+      <lb ed="#A" n="82"/>in diuersis ecclesiis quibus quasi pro stipedio probende sunt 
+      <lb ed="#A" n="83"/>ordinate vt ministrantibus in eis dentur. Est etiam 
+      dimi<lb ed="#A" n="84" break="no"/>nutio diuini cultus. vnde vnus loco plurium constituitur 
+      <lb ed="#A" n="85"/>Est etiam inequalitas: vnde vnus habet multa hbaen ficia: 
+      <lb ed="#A" n="86"/>et alius non potest habere vnum. Continet et aliquando 
+      defrauda<lb ed="#A" n="87" break="no"/>tionem voluntatum testatoris: qui vt certus numerus 
+      deser<lb ed="#A" n="88" break="no"/>uientium deputaretur talia contulerunt et multa alia. Et 
+      <lb ed="#A" n="89"/>nisi aliqua circumstantia superueniat quo remoueat totali 
+      <lb ed="#A" n="90"/>ter inordinationem eius nunquam erit sine peccato. sicut nec 
+      <lb ed="#A" n="91"/>homicidium potest fieri etiam cum dispensatione: nisi habeat 
+      <lb ed="#A" n="92"/>circumstantiam quae remoueat eius iordinationem. Secundum 
+      <lb ed="#A" n="93"/>tamen Goffre. est triplex circumstantia quae potest remouere 
+      <lb ed="#A" n="94"/>talem inordinationem: ita quod dispensatio sit legitima: et 
+      <lb ed="#A" n="95"/>tutus dispensatus. Prima necessitas: puta quia plures 
+      no<lb ed="#A" n="96" break="no"/>iueniuntur idonei. Secunda vtilitas ecclesiarum et eorum 
+      qui<lb ed="#A" n="97" break="no"/>bus praesunt. Tertia praerogatiua meritorum. Nec valet 
+      <lb ed="#A" n="98"/>consuetudo secundum panor i in. dict c. dudum. et iura siue 
+      glo<lb ed="#A" n="99" break="no"/>se quae dicunt valere intelliguntur pro neceste seu vtilitate 
+      be<lb ed="#A" n="100" break="no"/>neficiorum: vel pro praerogatia meritorum quia plus valet 
+      ab<lb ed="#A" n="101" break="no"/>sens quam alius praesens. vel pro potentia retinentia plura 
+      benefi<lb ed="#A" n="102" break="no"/>cia simplicia: sed non vt fructus lucrifaciat sibi ad 
+      vti<lb ed="#A" n="103" break="no"/>litatem priuatam: vel ad augendum patrimonium: vel vt 
+      lau<lb ed="#A" n="104" break="no"/>cius viuat: vel vt facilius ad maiorem dignitatem 
+      ascen<lb ed="#A" n="105" break="no"/>dat: quia cum tali intentione etiam vnum beneficium habere de se est 
+      <lb ed="#A" n="106"/>iordinatum. quia estcontra omnem rationem. vt patet extra de praebem. c. 
+      nul<lb ed="#A" n="107" break="no"/>la ratio. cum ibi notatis. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e604">
+               <head xml:id="Vn7Pel-k15066-Hd1e606">10</head>
+               <p xml:id="Vn7Pel-k15066-d1e608">
+                  <lb ed="#A" n="108"/>¶ Utrum habens bene ficium cum cura cot 
+      <lb ed="#A" n="109"/>si fecipiat secundum cum cura ipso iure sit priuatus 
+      <lb ed="#A" n="110"/>primo: Respondetur quod sic statim adepta pacifica 
+      <lb ed="#A" n="111"/>possessione. vt patet extra de praeben. c. de multa. et 
+      <lb ed="#A" n="112"/>nisi primum resignet in manu ordinarii vel cui 
+      com<lb ed="#A" n="113" break="no"/>petit: ipso iure est privatus est secundo et inhabilis ad quodcumque 
+      <lb ed="#A" n="114"/>beneficium et etiam ordines sacros et ad papam pertinet di¬ 
+      <!--54.xml-->
+      <pb ed="#A" n="55"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pensatio per extranagantem Io. xxii. que incipit 
+      Exe<lb ed="#A" n="2" break="no"/>crabilis. et ideo non potest absoluere subditos ratione 
+      pri<lb ed="#A" n="3" break="no"/>mi beneficii. Fallit hoc in septem casibus. Primus: quando se 
+      <lb ed="#A" n="4"/>cundum annectitur primo de preben. lir.o vi. c. super eo. 
+      Se<lb ed="#A" n="5" break="no"/>cundus casus: quando expendit de bonis propriis in vtili 
+      <lb ed="#A" n="6"/>tatem primi beneficii: et ipsum retinet donec sit sibi 
+      satis<lb ed="#A" n="7" break="no"/>factum. Tertius casus quando acceptat calore iracundie: 
+      <lb ed="#A" n="8"/>secundum Io. de ligna. et facit ad hoc glo. ex litetis. de diuor. 
+      <lb ed="#A" n="9"/>quae vult quod confessio ex iracundia facta non preiudicet. 
+      <lb ed="#A" n="10"/>Quartus casus quando acceptat ad trus: puta donec 
+      <lb ed="#A" n="11"/>aliter fuerit beneficio prouisum secundum Petrum de 
+      an<lb ed="#A" n="12" break="no"/>cho. in ca i. de consue. li. vi. Quintus casus est 
+      quam<lb ed="#A" n="13" break="no"/>do commutauit vnum beneficium in aliud habens alia 
+      <lb ed="#A" n="14"/>beneficia curata dummodo possessionem fuerit nactus 
+      <lb ed="#A" n="15"/>illius in quod commutauit: vt patet in clemen. de praeben. 
+      <lb ed="#A" n="16"/>si plures. Sextus casus: quando per dispensationem vt in 
+      di<lb ed="#A" n="17" break="no"/>cto ca. dudum. Septimus casus in episcatu qui non 
+      va<lb ed="#A" n="18" break="no"/>cat per secundum: in dicto ca. de nulla. et sic tenet Inno. 
+      <lb ed="#A" n="19"/>in ca. cum nostris. de conces. praeben. et do. Anto. dicit: quod hec 
+      <lb ed="#A" n="20"/>decretalis non habet locum in episceapatibus. et similiter 
+      Io<lb ed="#A" n="21" break="no"/>and. Sed prima opinio videtur tutior. quia eadem ratio 
+      <lb ed="#A" n="22"/>imo maior in episcopo quam in aliorcum ipse. sit magis 
+      <lb ed="#A" n="23"/>al ligatus ecclesie quam ceteri. c. requisisti. de testa. ergo qui 
+      <lb ed="#A" n="24"/>magis delinquit debet magis puniri. Et hanc 
+      par<lb ed="#A" n="25" break="no"/>tem tenet glo. xxi. q. i. c. relatio. et forte christus in 
+      iu<lb ed="#A" n="26" break="no"/>dicio tenebit.
+    </p>
+               <p xml:id="Vn7Pel-k15066-d1e689">
+      ¶ Quis potest dispensare vt quis hebeat 
+      <lb ed="#A" n="27"/>plura beneficia legitima causa interueniente: 
+      Respon<lb ed="#A" n="28" break="no"/>detur quod in pluribus simplicibus vel in vno curato et 
+      <lb ed="#A" n="29"/>alio simplici potest tempus dispensare vt in diuers ecclesiis 
+      <lb ed="#A" n="30"/>habeat. Sed in vna ecclesia potest si sunt simpliciam: 
+      <lb ed="#A" n="31"/>secundum glo. extra de concels. praeben. c.litteras vestras quod est 
+      <lb ed="#A" n="32"/>quando beneficia sunt difformia. In duobus aut conformi 
+      <lb ed="#A" n="33"/>bus non potest vt quis habeat canonicatum et canoni 
+      <lb ed="#A" n="34"/>catum. In personatibus vero vel dignitatibus autem 
+      offici<lb ed="#A" n="35" break="no"/>is perpetuis quocumque nomine censeantur non potest nisi 
+      pa<lb ed="#A" n="36" break="no"/>pa dispensare. vt patet in i scilicet in eadem ecclesia vel 
+      <lb ed="#A" n="37"/>diuersis. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e716">
+               <head xml:id="Vn7Pel-k15066-Hd1e718">11</head>
+               <p xml:id="Vn7Pel-k15066-d1e720">
+                  <lb ed="#A" n="38"/>¶ Utrum fructus beneficii vacantis 
+      <lb ed="#A" n="39"/>sint seruandi successori: Respondetur quod sic. vel in 
+      vtili<lb ed="#A" n="40" break="no"/>tatem ecclesie expendendi: alias contrafacientes si sunt 
+      ca<lb ed="#A" n="41" break="no"/>pitula: conuentus: collegia vel singulares persone in 
+      <lb ed="#A" n="42"/>cathedralibus ecclesiis et regularibus vel collegiatis 
+      <lb ed="#A" n="43"/>sunt suspensi ipso facto ab officio et beneficio doneo 
+      <lb ed="#A" n="44"/>plene restituerint quicquid perceperunt non obstantibus 
+      <lb ed="#A" n="45"/>priuilegiis vel consuetudinibus vel statutis etiam 
+      iura<lb ed="#A" n="46" break="no"/>mento sedis apostolice auctoritae firmatis. extra de electione 
+      <lb ed="#A" n="47"/>c. quia sepe. li. vi. Similiter praelati qui bona ecclesiarum 
+      digni<lb ed="#A" n="48" break="no"/>tatum: prioratuum et personatuum vacantium sibi subiecta 
+      <lb ed="#A" n="49"/>rum occupant nisi speciali priuilegio vel consuetudine 
+      <lb ed="#A" n="50"/>praescripta vel aliqua rationabili causa hoc faciunt episcopi et 
+      su<lb ed="#A" n="51" break="no"/>periores sunt suspensi ab ingressum ecclesie et alii ab 
+      <lb ed="#A" n="52"/>officiis et beneficiis. Unde canonici et alii beneficiati 
+      <lb ed="#A" n="53"/>clerici qui diuins officiis non intersunt non possunt percipere quo 
+      <lb ed="#A" n="54"/>tidianas distributiones: nec valet consuetudo i contrari 
+      <lb ed="#A" n="55"/>um alias non faciunt eas suas et tenentur ad restitutio 
+      <lb ed="#A" n="56"/>nem nisi excuset eos infirmitas vel inusta et rationabilis 
+      <lb ed="#A" n="57"/>corporis necesitas aut euidens ecclesie vtilitas: extra de 
+      <!--54.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>cle. non resi. c. i. li. vl. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k15066-Dd1e773">
+               <head xml:id="Vn7Pel-k15066-Hd1e775">12</head>
+               <p xml:id="Vn7Pel-k15066-d1e777">
+                  <lb ed="#A" n="59"/>¶ Quid de iniuste possidentibus eo 
+      <lb ed="#A" n="60"/>beneficia ecclesiastica: Respondetur quod resignare tenentur in 
+      <lb ed="#A" n="61"/>manu illius qui potest accipere resignatione: vel si esset in 
+      <lb ed="#A" n="62"/>articulo mortis alicui alteri recipienti nomine illius cui 
+      <lb ed="#A" n="63"/>est facienda: secundum Inno. Et etiam tenetur fructus perceptos 
+      <lb ed="#A" n="64"/>restituere. extra de renum. c. post transitionem. Et dicit 
+      <lb ed="#A" n="65"/>archi. quod si aliquis minus canonice obtinet beneficium scilicet 
+      <lb ed="#A" n="66"/>simoniace vel per fraudem aut surreptionem aliquam in 
+      <lb ed="#A" n="67"/>perpetuum non praescribit. extra de cle. ex. mi. c. postulasti. 
+      <lb ed="#A" n="68"/>dicit tamen Hostien. quod vite necessaria stricte 
+      pote<lb ed="#A" n="69" break="no"/>rit retinere de consilio confessoris: ita quod solum non egeat 
+      <lb ed="#A" n="70"/>alios fructus in vtilitatem ecclesie conuertat: alias non potest 
+      <lb ed="#A" n="71"/>absolui nisi obtineat dispensationem ab eo qui potest. nec 
+      <lb ed="#A" n="72"/>in foro anime tenentur ei subditi obedire vel soluere 
+      ali<lb ed="#A" n="73" break="no"/>quid quando sciunt pro certo quia soluendo non liberantur. 
+      Plu<lb ed="#A" n="74" break="no"/>res enim nec soluere nec ligare possunt. Unde cleri 
+      <lb ed="#A" n="75"/>cus beneficiatus conuertens redditus beneficii in vsus 
+      <lb ed="#A" n="76"/>inhonestos tenetur restituere secundum Panor. extra de 
+      <lb ed="#A" n="77"/>praeben. c. cum secundum. et restituit ecclesie: si habet de 
+      pa<lb ed="#A" n="78" break="no"/>trimonio vel aliunde: quia de altari debet viuere: 
+      <lb ed="#A" n="79"/>non luxuriari 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

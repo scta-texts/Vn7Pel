@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oratio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Oratio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="305"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k89466">
+            <head xml:id="Vn7Pel-k89466-Hd1e100">Oratio</head>
+            <div xml:id="Vn7Pel-k89466-Dd1e102">
+               <head xml:id="Vn7Pel-k89466-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k89466-d1e106">
+                  <lb ed="#A" n="48"/>Oratio dicta est 
+      <lb ed="#A" n="49"/>quasi oris ratio. et accipitur tripliciter 
+      <lb ed="#A" n="50"/>Primo apud logicum dicitur vox 
+      com<lb ed="#A" n="51" break="no"/>plexa generans sensum verum autem 
+      fal<lb ed="#A" n="52" break="no"/>sum in animo auditoris. Secundo apud rhetoricum 
+      <lb ed="#A" n="53"/>Dicitur oratio quaelibet propositio persuasiua. et inde 
+      rhe<lb ed="#A" n="54" break="no"/>tor orator dicitur. Tertio apud theologum est quidam 
+      <lb ed="#A" n="55"/>mentis sapor in deum terminatus: quam sic diffiniunt 
+      <!--304.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>Oratio est pius mentis affectus in deum directus. Ubi trla 
+      <lb ed="#A" n="57"/>tanguntur. Primo genus ortionis: cum dicitur: pius affect 
+      <lb ed="#A" n="58"/>Ex quo patet quod oratio principaliter est affectio: non 
+      cog<lb ed="#A" n="59" break="no"/>nitio. Ista autem pietas debet capi pro thecosebia id est 
+      <lb ed="#A" n="60"/>cultum dei completo. quia secundum Augustgins. in enchi. Fide: 
+      spe<lb ed="#A" n="61" break="no"/>et charitate colitur deus. ideo ista tria oratio complectitur. 
+      <lb ed="#A" n="62"/>Secundo tangitur subiectum orationis: cum dicitur: mentis id est 
+      <lb ed="#A" n="63"/>partis intellectualis a supereminendo. In parte enim 
+      sen<lb ed="#A" n="64" break="no"/>sitiua formaliter oratio non collocatur. Tertio tangitur 
+      ob<lb ed="#A" n="65" break="no"/>iectum orationis: cum dicitur. in deum directus. vnde Damascc. 
+      <lb ed="#A" n="66"/>diffiniens eam dicit: Oratio est ascensus mentis in deum 
+      <lb ed="#A" n="67"/>sed mens in deum non ascendit nisi purgetur. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e157">
+               <head xml:id="Vn7Pel-k89466-Hd1e159">2</head>
+               <p xml:id="Vn7Pel-k89466-d1e161">
+                  <lb ed="#A" n="68"/>¶ Utrum oratio sit actus 
+      volunta<lb ed="#A" n="69" break="no"/>tis: Arguitur quod sic: quia eius est orare cuius est desidera 
+      <lb ed="#A" n="70"/>re rem quae in oratione petitur. sed desiderare actus est volum 
+      <lb ed="#A" n="71"/>tatis. ergo et orare.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e172">
+      ¶ Item eius est orare cuius est 
+      exaudi<lb ed="#A" n="72" break="no"/>ri: quia oratio ordinatur ad exauditionem. sed voluntas est 
+      <lb ed="#A" n="73"/>quae exauditur: iuxta illud Psalmus Desiderium pauperum 
+      ex<lb ed="#A" n="74" break="no"/>audiuit dominus. ergo orare est actus voluntatis
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e181">
+      ¶ In contrarium 
+      <lb ed="#A" n="75"/>dicit Damasc. li. iii. quod oratio est ascensus intellectus 
+      <lb ed="#A" n="76"/>ad dominum. Idem ibidem: Oratio est petitio deccentium a deo. 
+      <lb ed="#A" n="77"/>sed petere est loqui. loqui est actus intellectus. ergo orare est 
+      <lb ed="#A" n="78"/>actus intellectus. Respondet Rich. i. iiii. di. xv. ar. iiii. 
+      <lb ed="#A" n="79"/>q. i. quod orare dupliciter potest accipi. Uno modo pro 
+      deside<lb ed="#A" n="80" break="no"/>rio obtinendi aliquid a deo: quo desiderans ordinctur ad 
+      <lb ed="#A" n="81"/>ipsum. et sic oratio est quidam ascensus anime intellectiue ad 
+      <lb ed="#A" n="82"/>deum: qui est voluntatis vt elicientis et intellectus vt diri 
+      <lb ed="#A" n="83"/>gentis. vnde glo. super illud Psalmus Accedite ad deum: dicit 
+      <lb ed="#A" n="84"/>Fide inherendo: et secundo pedibus gemine charitatis 
+      <lb ed="#A" n="85"/>currendo. Primum pertinet ad directionem intellectus: 
+      <lb ed="#A" n="86"/>secundum ad sensum affectus. Et sic accipitur oratio secundum quiod 
+      <lb ed="#A" n="87"/>i. Timo. ii distinguitur contra obsecrationem: postulati. 
+      <lb ed="#A" n="88"/>nem: et gratiarum actionem. Et etiam in glo. super illud Psams 
+      <lb ed="#A" n="89"/>Domine ante te omne desiderium meum. Ubi dicitur: Numquam de 
+      <lb ed="#A" n="90"/>sinit orare qui non desinit amare. Alio modo orare idem 
+      <lb ed="#A" n="91"/>est quod praedictu desiderium loquendo deo proponere: non per 
+      <lb ed="#A" n="92"/>modum indicatiuum scilicet supplicatiuum. et sic orare actus 
+      <lb ed="#A" n="93"/>est intellectus vt elicientis: et voluntatis vt mouentis. 
+      <lb ed="#A" n="94"/>Et sic Isid. libro etyn. x. dicit quod orare est dicere. Et 
+      <lb ed="#A" n="95"/>philosophus. i. ethi. dicit quod ad optima deprecatur oratio.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e229">
+      ¶ Ad 
+      <lb ed="#A" n="96"/>argumenta ad prima parte dicendum: quod procedut de 
+      <lb ed="#A" n="97"/>oratione primo modo dicta.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e237">
+      ¶ Ad aliam partem dicendum: quod ibi 
+      <lb ed="#A" n="98"/>accipit Damasce. intellectum pro anima intellectiua: quae 
+      com<lb ed="#A" n="99" break="no"/>prehendit intellectum et voluntatem. Et sicut petere ita ora 
+      <lb ed="#A" n="100"/>re accipitur duplici modo supraedicto. Desiderium enim 
+      <lb ed="#A" n="101"/>obtinedi aliquid si innotescit petitio quaedam est. et cum deus 
+      <lb ed="#A" n="102"/>videat desiderium nostrum: ideo desiderando petimus. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e251">
+               <head xml:id="Vn7Pel-k89466-Hd1e253">3</head>
+               <p xml:id="Vn7Pel-k89466-d1e255">
+                  <lb ed="#A" n="103"/>¶ Utrum oratio sit actus latrie. 
+      Ar<lb ed="#A" n="104" break="no"/>gustur quod non: quia orare est actus poenitentie: cum sit pars satis. 
+      <lb ed="#A" n="105"/>tactionis. sed praestentia alia virtus est a latria: quia poenitentia 
+      red<lb ed="#A" n="106" break="no"/>dit deo debitum pro commisso: et latria pro 
+      beneficio<lb ed="#A" n="107" break="no"/>recepto. ergo orare non est actus latrie.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e268">
+      ¶ Item 
+      nul<lb ed="#A" n="108" break="no"/>lus actus inutilis est actus latric: nec alterius 
+      cu<lb ed="#A" n="109" break="no"/>iusquam virtutis. sed orare deum est inutile: quia ad hoc 
+      <lb ed="#A" n="110"/>oratur quicunque oratur vt ille qui orat desiderium suum 
+      il<lb ed="#A" n="111" break="no"/>li exprimat: et vt ipsum flectat. sed deus scit quid 
+      no<lb ed="#A" n="112" break="no"/>vis opus est vt habetur Matth. vi. Deus scit quia 
+      <!--305.xml-->
+      <pb ed="#A" n="306"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>his omnibus indigentis. Nec flecti potest: vt dicitur. i. 
+      Re<lb ed="#A" n="2" break="no"/>gum. xv. Penitudine non flectitur. ergo orare nullius 
+      <lb ed="#A" n="3"/>virtutis est.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e294">
+      ¶ In contrarium dicit glo. super illud 
+      Lu<lb ed="#A" n="4" break="no"/>ce. xviii. Oportet semper orare. quod homo non desinit 
+      <lb ed="#A" n="5"/>orare nisi cum desinit iustus esse. ergo orare actus est 
+      <lb ed="#A" n="6"/>iusticie: sed non videtur ita esse actus alicuius partis 
+      iu<lb ed="#A" n="7" break="no"/>sticie: sicut latria. ergo est actus eius. Respondet Rich. 
+      <lb ed="#A" n="8"/>vbi. supra. q. ii quod ad virtutem latrie pertinet deo exhibere 
+      <lb ed="#A" n="9"/>honorem testificantem in ipso summum dominium: inquantum 
+      <lb ed="#A" n="10"/>ipse solus est creationis et conseruationis mundi principium: 
+      <lb ed="#A" n="11"/>Homo autem cum orando aliquid petit a deo quo in ipsum 
+      <lb ed="#A" n="12"/>ordinetur sicut in bonorum suorum principalem auctorem si 
+      <lb ed="#A" n="13"/>bi exhibet honorem protestante in eo summum dominium. 
+      <lb ed="#A" n="14"/>Unde sequitur quod oratio est actus virtutis latrie.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e320">
+      ¶ Ad 
+      <lb ed="#A" n="15"/>eoprmum argumentum dicendum: quod oratio est actus 
+      peni<lb ed="#A" n="16" break="no"/>tentie et latrie: sub ratione tamen alia et alia. quia inquantum 
+      <lb ed="#A" n="17"/>homo orat deum vt sibi exhibeat honorem in 
+      recog<lb ed="#A" n="18" break="no"/>nitionem summi dominii actus est latrie. Nec mirum. vnus 
+      <lb ed="#A" n="19"/>enim et idem actus plurium est vitiorum inquantum refertur ac 
+      <lb ed="#A" n="20"/>finem alium et alium. Unde secundum Philosophum. v. ethic. Ille qui 
+      me<lb ed="#A" n="21" break="no"/>chatur lucrandi gratia aumarus est: qui autem propter 
+      concu<lb ed="#A" n="22" break="no"/>piscentiam luxuriosus est.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e341">
+      ¶ Ad secundum dicendum quod 
+      <lb ed="#A" n="23"/>orare deum est maxime vtile non ad hoc vt diuina 
+      <lb ed="#A" n="24"/>dispositio mutetur. sed quia vt dicit Aug. libro de 
+      pre<lb ed="#A" n="25" break="no"/>destinatione sanctorum: Cum deus vult fieri quod non nisi 
+      vo<lb ed="#A" n="26" break="no"/>lentibus hominibus oportet fieri inclinat eorum corda vt 
+      <lb ed="#A" n="27"/>hoc velint. Idem eodem lib. Fortasse sic praedestinati 
+      <lb ed="#A" n="28"/>sunt aliqui vt nostris orationibus concedantur. Sub diui 
+      <lb ed="#A" n="29"/>uina enim prouidentia non tantum cadit qui effectus fiant: 
+      <lb ed="#A" n="30"/>sed etiam ex quibus causis et quo ordine proueniant. Ex 
+      <lb ed="#A" n="31"/>his patet responsio ad alia. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e364">
+               <head xml:id="Vn7Pel-k89466-Hd1e366"> 4 </head>
+               <p xml:id="Vn7Pel-k89466-d1e368">
+                  <lb ed="#A" n="32"/>¶ Utrum solus deus sit orandus 
+      <lb ed="#A" n="33"/>Arguitur quod sic: quia solus deus est latria colendus 
+      <lb ed="#A" n="34"/>ergo solus deus est orandus
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e377">
+      ¶ Item frustra oramus 
+      <lb ed="#A" n="35"/>illos qui non cognoscunt orationes hsabtras: sed sicut dicit Augustinus 
+      <lb ed="#A" n="36"/>lli. i. de cura pro mortuis habenda ibi sunt spiritus 
+      de<lb ed="#A" n="37" break="no"/>functorum vbi non vident quaecunque aguntur aut eueniunt 
+      <lb ed="#A" n="38"/>In ista vita hominibus ergo anime sanctorum non sunt orande. 
+      <lb ed="#A" n="39"/>In contrarium dicitur Iob. v. Ad aliquem sanctorum conuerte 
+      <lb ed="#A" n="40"/>re. Respondet Rich. vbi. supra q. iii quod dupliciter porrigitur 
+      <lb ed="#A" n="41"/>alicui oratio. Aut tanquam per ipsum implenda. aut vt 
+      per<lb ed="#A" n="42" break="no"/>ipsum cius impletio impetretur. Primo modo solus de 
+      <lb ed="#A" n="43"/>prandus est: quia illa bona que principaliter petenda 
+      <lb ed="#A" n="44"/>unt in oratione scilicet gratia et gloria a solo deo dari 
+      pos<lb ed="#A" n="45" break="no"/>sunt. Temporalia etiam bona eo modo quo in 
+      ora<lb ed="#A" n="46" break="no"/>s tione petenda sunit scilicet inquantum nobis deseruiunt ad 
+      aco<lb ed="#A" n="47" break="no"/>sitionem virtutum a solo deo dari possunt. 
+      Secundo<lb ed="#A" n="48" break="no"/>modo sancti orandi sunt: quia a deo impetrant 
+      exau<lb ed="#A" n="49" break="no"/>ditionem orationum nostrarum. Et hoc significatum est 
+      <lb ed="#A" n="50"/>Apoc. viii. vbi dicitur: quod ascendit fumus incensorum 
+      de<lb ed="#A" n="51" break="no"/>oraionibus sanctorum de manu angeli coram deo.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e416">
+      ¶ Ad 
+      <lb ed="#A" n="52"/>primum argumentum dicendum: quod orando illi soli cultum 
+      <lb ed="#A" n="53"/>latrie exhibemus a quo intendimus impetrare quod 
+      <lb ed="#A" n="54"/>petimus. A sanctis autem non intendimus impetrare quia 
+      <lb ed="#A" n="55"/>petimus: sed a deo per adiutorium eorum.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e427">
+      ¶ Ad secundum 
+      <lb ed="#A" n="56"/>dicendum quod quamuis anime sanctorum naturali cognitione non 
+      <lb ed="#A" n="57"/>cognoscant omnia quae in hac vita aguntur: et maxime in¬ 
+      <!--305.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>teriores motus cordis: in verbo tamtum vident ea quae decet 
+      <lb ed="#A" n="59"/>eas de nostris actibus cognoscere de quibus sunt 
+      is<lb ed="#A" n="60" break="no"/>la quibus eos oramus. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e447">
+               <head xml:id="Vn7Pel-k89466-Hd1e449">5</head>
+               <p xml:id="Vn7Pel-k89466-d1e451">
+                  <lb ed="#A" n="61"/>¶ Utrum aliquid determinate 
+      peten<lb ed="#A" n="62" break="no"/>dum sit in oratione: Arguitur quod non: quia dicitur Matth. 
+      <lb ed="#A" n="63"/>vi. Scit pater vester quid opus sit vobis antequam 
+      pe<lb ed="#A" n="64" break="no"/>tatis. ergo superfluum est ab eo aliquid detur minate 
+      pete<lb ed="#A" n="65" break="no"/>re: cum homo non debeat petere nisi quod sibi opus est. Item 
+      <lb ed="#A" n="66"/>nullus debet aliquid determinate petere: nesciens quid 
+      <lb ed="#A" n="67"/>oporteat ipsum petere. Sed sicut dicit Apostols 
+      Ro<lb ed="#A" n="68" break="no"/>viii. Quid oramus sicut oportet nescimus. ergo in 
+      ora<lb ed="#A" n="69" break="no"/>tione nihil determinate debemus petere.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e473">
+      ¶ In contrarium 
+      <lb ed="#A" n="70"/>Matth. vi. christus docuit discipulos line oratione 
+      <lb ed="#A" n="71"/>dominica aliquid determinate petere. Respondet Richar. 
+      <lb ed="#A" n="72"/>vbi. supra. q. iiii. quod quedam sunt quibus non possumus 
+      male<lb ed="#A" n="73" break="no"/>vti: sicut virtutes: gratia et gloria: et talia determinate 
+      <lb ed="#A" n="74"/>sunt petenda in oratine. Quedam sunt quibus possumus 
+      be<lb ed="#A" n="75" break="no"/>ne et male vti: et illa non sunt in oratione petenda 
+      ab<lb ed="#A" n="76" break="no"/>solute: sed sub condicioe scilicet si deus praeuidet illa ad 
+      sa<lb ed="#A" n="77" break="no"/>lutem nostram fore vtilia. Illa autem quibus bene vti non 
+      <lb ed="#A" n="78"/>possumus nullo modo sunt petenda.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e495">
+      ¶ Ad primum 
+      <lb ed="#A" n="79"/>argumentum dicendum: quod sicut dicit Ausg. in epistola ad 
+      <lb ed="#A" n="80"/>Probam: ille qui nouit quid nobis necessarium sit 
+      pri<lb ed="#A" n="81" break="no"/>us quam petamus non voluntatem nostram vult sibi per 
+      ora<lb ed="#A" n="82" break="no"/>tionem innotescere: quia eam non potest ignorare: sed vult 
+      <lb ed="#A" n="83"/>exerceri in orationibus desiderium nostrum: quo possumus 
+      ca<lb ed="#A" n="84" break="no"/>pere quod praeparauit dare.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e511">
+      ¶ Ad secundm dicendum: quod quamuis 
+      <lb ed="#A" n="85"/>ex virtute nostra quid oramus sicut oporteret nesciamus: 
+      <lb ed="#A" n="86"/>nan spiritus sanctus in hoc adiuuat infirmitatem nostram: 
+      <lb ed="#A" n="87"/>faciendo nos petere quod oportet. Unde apostolis post 
+      ver<lb ed="#A" n="88" break="no"/>ba praemissa subdit: Spiritus postulat pro nobis id est 
+      po<lb ed="#A" n="89" break="no"/>stulare nos facit. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e525">
+               <head xml:id="Vn7Pel-k89466-Hd1e527">6</head>
+               <p xml:id="Vn7Pel-k89466-d1e529">
+                  <lb ed="#A" n="90"/>¶ Utrum orandum sit vocaliter. 
+      <lb ed="#A" n="91"/>Arguitur quod non: quia saluator Mat. vi. dicit: Orantes 
+      <lb ed="#A" n="92"/>nolite multum loqui: licet multum est orandum: vnde Augug. i poistuola 
+      <lb ed="#A" n="93"/>ad probam
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e540">
+      ¶ Non desit multa praecatio. ergo non est oradum 
+      vo<lb ed="#A" n="94" break="no"/>caliter.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e545">
+      ¶ In contrarium eadem epistola ait: Nobi verba necessaria sit 
+      <lb ed="#A" n="95"/>quibus commoneamur et inspiciamus quid petamus: non quibus 
+      <lb ed="#A" n="96"/>deum seu docendum seu flectendum esse credamus. Respondet 
+      <lb ed="#A" n="97"/>Rich. vbi. supra. q. v. quod duplex est oratio. Quedam communis scilicet 
+      <lb ed="#A" n="98"/>quae per ministros ecclesie in persona totius fidelur populi deo 
+      of<lb ed="#A" n="99" break="no"/>fertur. et talis debet inotescere popsulo pro quo offertur vt excitetur 
+      <lb ed="#A" n="100"/>ad deuotionem. et ne possit suspicari quis in ministris. 
+      <lb ed="#A" n="101"/>ecclesie illius debite orationis omissionem. et ideo talis oratio dieibut 
+      <lb ed="#A" n="102"/>esse vocalis. Alia est singularis orao scilicet quo offertur ab homine 
+      <lb ed="#A" n="103"/>inquantum est singularis persona siue oret pro se siue pro 
+      <lb ed="#A" n="104"/>alio. et talem orationem quamuis non sit neccessarium esse cum 
+      sensi<lb ed="#A" n="105" break="no"/>bili voce: nisi ad hoc vt homo sit obligatus ex voto: quando 
+      <lb ed="#A" n="106"/>que tamen expedit ad meritum vt mentali adiungatur 
+      voca<lb ed="#A" n="107" break="no"/>lis: vt per vocalem feruor cordismagis excitetur Ex quadam 
+      <lb ed="#A" n="108"/>enim naturali vnione anite ad corpus motus corporis 
+      di<lb ed="#A" n="109" break="no"/>uersimode animi affectiones excitant. et affectiones 
+      <lb ed="#A" n="110"/>anime eorum maxime si sint fortes diuersas mutationes 
+      <lb ed="#A" n="111"/>in corpore excitant. vnde Aug. ad probam: Per certa ait 
+      <lb ed="#A" n="112"/>interualla horarum et temporum etiam verbis rogamus 
+      <lb ed="#A" n="113"/>deum vt illis rerum signis nosipsos admoneamus 
+      <lb ed="#A" n="114"/>quantumcunque in hoc desiderio profecerimus nobisipsis 
+      <!--306.xml-->
+      <pb ed="#A" n="307"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>innotescamus. et ad hoc agendum nosipsos acrius ex 
+      <lb ed="#A" n="2"/>citemus. Expedit etiam ad hoc vt de lingua nostra deo 
+      <lb ed="#A" n="3"/>seruiamus. Si tamen in casu vocalis oratio remitte 
+      <lb ed="#A" n="4"/>ret interiorem feruorem: tunc non esset vocaliter orandumr 
+      <lb ed="#A" n="5"/>oratione singulari. Quandoque etiam prorumpit homo in 
+      voca<lb ed="#A" n="6" break="no"/>lem orationem ex excessu feruoris mentis. quia sic dicit Augustis. 
+      <lb ed="#A" n="7"/>vbi supra Dignior sequitur effectus quem praecedit 
+      ferue<lb ed="#A" n="8" break="no"/>tior affectus.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e615">
+      ¶ Ad primum argumentum dicendum quod 
+      <lb ed="#A" n="9"/>non est orandum in multiloquio tanquam eo fiat vt 
+      exau<lb ed="#A" n="10" break="no"/>diamur quo loquaciores sumus. quia secundum Augus. vbi supra 
+      <lb ed="#A" n="11"/>multum loqui in orando est rem necessariam superfluis 
+      age<lb ed="#A" n="12" break="no"/>re verbis. Et sic planum est quod non est vocaliter orandum 
+      <lb ed="#A" n="13"/>Sic enim potest exponi illud saluatoris verbum. Et cum 
+      <lb ed="#A" n="14"/>dicit Aug. multum esse orandum intelligit de deprecatione 
+      <lb ed="#A" n="15"/>mentali. Unde dicit. Non desit multa praecatio si feruens per 
+      <lb ed="#A" n="16"/>seueret intentio. Et sic quando inuenitur quod paucis orandum 
+      <lb ed="#A" n="17"/>sit verbis intelligitur quando impedirent 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e638">
+               <head xml:id="Vn7Pel-k89466-Hd1e640">7</head>
+               <!-- says 17 in margin but is actually 7 -->
+               <p xml:id="Vn7Pel-k89466-d1e644">
+                  <lb ed="#A" n="18"/>¶ Utrum vocalis oratio sit 
+      satiffa<lb ed="#A" n="19" break="no"/>ctoria: Arguitur quod non. quia dist. xxxviii. c. sedulo. et sun 
+      <lb ed="#A" n="20"/>ptum est ab Augustinus. in libro de cathecizandis rudi 
+      <lb ed="#A" n="21"/>bus dicitur sic. Nouerit non esse voces ad aures dei 
+      <lb ed="#A" n="22"/>nisi affectu animi. sed nunquam voces sunt satisfacto 
+      <lb ed="#A" n="23"/>rie nisi audiantur a deo. ergo non est satisfactoria vocalis 
+      <lb ed="#A" n="24"/>oratio sine attentione interiori
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e662">
+      ¶ In contrarium dicit philosophus 
+      <lb ed="#A" n="25"/>ii. Topic. Non possumus intelligere plura simul. 
+      <lb ed="#A" n="26"/>Sed orans vocaliter debet cogitare de deo: ergo non 
+      te<lb ed="#A" n="27" break="no"/>netur cogitare de sua vocali oratione. Respondet Rich. 
+      <lb ed="#A" n="28"/>vbi supra. q. vi. quod orationis triplex est efficacia scilicet in 
+      me<lb ed="#A" n="29" break="no"/>rendo: et sic est satisfactoria. et in impetrando: et orantem 
+      <lb ed="#A" n="30"/>spiritualiter et experimentaliter reficiendo. Et nullam istarum 
+      <lb ed="#A" n="31"/>efficaciarum habet vocalis oratio si eam non praecedat aut 
+      <lb ed="#A" n="32"/>concomitetur conrcors meditatio: aliter enim non esset moralis. 
+      <lb ed="#A" n="33"/>Actus enim moralis exterior non est nisi per comparationem 
+      <lb ed="#A" n="34"/>ad actum rationis interiorem. Si autem assit intentio 
+      debi<lb ed="#A" n="35" break="no"/>ta et actualis in princspio vocalis orationis quamuis 
+      post<lb ed="#A" n="36" break="no"/>ea non concomitetur: tamen orantio vocalis est meritoria et 
+      im<lb ed="#A" n="37" break="no"/>petratiua per virtutem prime intentionis nisi postea 
+      inter<lb ed="#A" n="38" break="no"/>rumpatur per intentionem contrariam. Sicut aliquis ex bona 
+      <lb ed="#A" n="39"/>intentione incipit peregrinari vel elemosynam dare totis 
+      <lb ed="#A" n="40"/>actus sequens meritorius est virtute intentionis prime quam 
+      <lb ed="#A" n="41"/>uis cesset sua intentio actualis. licet efficaciam 
+      spiritua<lb ed="#A" n="42" break="no"/>liter reficiendi orantem non habet vocalis oratio nisi quae 
+      <lb ed="#A" n="43"/>diu eam concomitatur intentio. Et sic intelligitur illud 
+      <lb ed="#A" n="44"/>verbum apostoli. i. Corum. xiiii. Si orem lingua spiritus meus 
+      <lb ed="#A" n="45"/>de. imaginatio mea orat. mens autem mea sine fructu 
+      <lb ed="#A" n="46"/>est.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e712">
+      ¶ Sciendum tamen quod tripliciter potest applicari intentio 
+      <lb ed="#A" n="47"/>vocali orationi scilicet autem applicando eam ad verba quae dicuntur 
+      <lb ed="#A" n="48"/>autm ad illud quod petitur. autm ad illum cui oratio 
+      porrigi<lb ed="#A" n="49" break="no"/>tur. et quocumque istorum modorum assit intentio est 
+      efficax<lb ed="#A" n="50" break="no"/>ad satisfaciendum vocalis oratio. sed secunda intentio 
+      <lb ed="#A" n="51"/>melior est quam prima: et tertia quam secunda. Unde Hugo 
+      <lb ed="#A" n="52"/>de virtute oradi
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e729">
+      ¶ Pura inquit oratio est quando ex 
+      abundan<lb ed="#A" n="53" break="no"/>tia deuotionis fnes ita accenditur vt cum se ad deum 
+      po<lb ed="#A" n="54" break="no"/>stulatura conuertit prae amoris eius magnitudine etiam 
+      <lb ed="#A" n="55"/>petitionis sue obliuiscitur
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e738">
+      ¶ Ad argumentum 
+      dicen<lb ed="#A" n="56" break="no"/>dum quod illud decretum intelligitur quando debita intentio nec 
+      <lb ed="#A" n="57"/>praecedit nec concomitatur qua non audit deus.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e746">
+               <head xml:id="Vn7Pel-k89466-Hd1e748">8</head>
+               <p xml:id="Vn7Pel-k89466-d1e750">
+      <!--306.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Utrum oratio debito modo 
+      fa<lb ed="#A" n="59" break="no"/>cta semper exaudiatur: Arguitur quod non: quia Thren. iii. 
+      <lb ed="#A" n="60"/>dicitur ad deum: Opposuisti nubem tibi ne transeat oratio 
+      <lb ed="#A" n="61"/>Item omnis oratio quae exauditur est meritoria: sed oratio existentis 
+      <lb ed="#A" n="62"/>in peccato mortali non est meritoria: quia bona in peccato 
+      <lb ed="#A" n="63"/>mortali facta meritoria non sunt. ergo oratio existentis 
+      <lb ed="#A" n="64"/>in peccato mortali non exauditur.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e772">
+      ¶ In contrarium dicitur Mat. 
+      <lb ed="#A" n="65"/>vii. Omnis qui petit accipit. Item Ps. Uoluntatem timen 
+      <lb ed="#A" n="66"/>tium se faciet: et depraecationem eorum exaudiet. ergo si fiat 
+      <lb ed="#A" n="67"/>debito modo id est cum dei timore exaudietur. Respondet idem 
+      <lb ed="#A" n="68"/>Rich. vbi. supra. q. vii. quod omnis oratio facta debito modo ex 
+      <lb ed="#A" n="69"/>auditur non semper statim sed pro illo tempore quo diuina misericordia 
+      <lb ed="#A" n="70"/>conspicit exauditionem vtiliorem esse omnibus pensatis. vnde 
+      <lb ed="#A" n="71"/>Aug. super Ioan. ait: Quedam non negantur. sed vt 
+      con<lb ed="#A" n="72" break="no"/>gruo dentur tempore differuntur. Ad hoc autem quod oratio fiat 
+      <lb ed="#A" n="73"/>modo debito quattuor requiritur scilicet vt ille qui petit petat 
+      <lb ed="#A" n="74"/>humiliter et feruenter et bona intentione: quod est pie 
+      pete<lb ed="#A" n="75" break="no"/>re et etiam perseueranter. et vtilia ad salutem. et quod orans 
+      <lb ed="#A" n="76"/>sit constanter fundatus in fide. vnde Iaco. i. Postulet in 
+      <lb ed="#A" n="77"/>fide nihil hesitans. Talis autem oratio semper exauditur 
+      inquan<lb ed="#A" n="78" break="no"/>tum homo orat pro se: quamuis non semper inquantum orat pro 
+      <lb ed="#A" n="79"/>aliis. vnde Aug. super Ioan. Exaudtuntur omnes sancti 
+      <lb ed="#A" n="80"/>pro seipsis: non autem pro aliis omnibus exaudiuntur: 
+      tamen<lb ed="#A" n="81" break="no"/>vt dicitur. i. q. i. ipsi. quanto digniores fuerint 
+      oran<lb ed="#A" n="82" break="no"/>tes pro populo tanto facilius in necessitatibus pro 
+      <lb ed="#A" n="83"/>quibus clamant exaudiuntur.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e816">
+      ¶ Ad primum 
+      argu<lb ed="#A" n="84" break="no"/>mentum dicendum: quod illud verbum intelligitur de 
+      <lb ed="#A" n="85"/>oratione qua petebant iudei liberari a 
+      tempora<lb ed="#A" n="86" break="no"/>li persecutione. que oratio non fuit exaudita: quia non 
+      <lb ed="#A" n="87"/>petebant necessaria ad salutem: sed magis erat 
+      in<lb ed="#A" n="88" break="no"/>utilis ipsis. ergo etc.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e829">
+      ¶ Ad secundum dicendum: quod non 
+      <lb ed="#A" n="89"/>est idem orationem exaudiri: et eam meritoriam esse: 
+      <lb ed="#A" n="90"/>quia debito debetur merces secundum iusticiam. sed 
+      peti<lb ed="#A" n="91" break="no"/>tio orantis exauditur per gratiam. et ideo quamuis 
+      ora<lb ed="#A" n="92" break="no"/>tiones facte in mortali peccato non sint 
+      merito<lb ed="#A" n="93" break="no"/>rie proprie loquendo de merito. e xaudiuntur tamen 
+      <lb ed="#A" n="94"/>quantum ad illud quod pro se petunt peccatores si assint 
+      <lb ed="#A" n="95"/>condiciones quattuor predicte. Unde Augustinus. supet 
+      <lb ed="#A" n="96"/>Ioan. reprehendens illud verbum ceci nati. 
+      Sci<lb ed="#A" n="97" break="no"/>mus quia peccatores deus non exaudit. dicit: 
+      Si<lb ed="#A" n="98" break="no"/>enim deus peccatores non exaudiret: frustra ille 
+      pu<lb ed="#A" n="99" break="no"/>blicanus oculos in terram demittens et pectus suum 
+      <lb ed="#A" n="100"/>percutiens diceret: Deus propicius esto mihi peccatori. 
+      <lb ed="#A" n="101"/>Ideo illud ceci nati dictum debet intelligi de peccato 
+      <lb ed="#A" n="102"/>ribus obstinatis non habentibus praedictas condiciones. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e863">
+               <head xml:id="Vn7Pel-k89466-Hd1e865">9</head>
+               <p xml:id="Vn7Pel-k89466-d1e867">
+                  <lb ed="#A" n="103"/>¶ Sed diceres: An oratio sit in 
+      <lb ed="#A" n="104"/>precepto: ita quod quilibet teneatur ad eam: 
+      Respon<lb ed="#A" n="105" break="no"/>det frater Angelus de Clauasio: quod sic: non tantum ad 
+      <lb ed="#A" n="106"/>mentalem sicut viri perfecti: sed etiam ad vocalem vti 
+      <lb ed="#A" n="107"/>imperfecti. quia tales mentalem orationem non possunt 
+      <lb ed="#A" n="108"/>habere sine vocali. Et quod oratio si t de praecepto 
+      proba<lb ed="#A" n="109" break="no"/>tur ratione sic: Homo tenetur de iure naturali ad omnia 
+      <lb ed="#A" n="110"/>illa quae recta ratio dictat non posse sine ipsis salutem 
+      conse<lb ed="#A" n="111" break="no"/>qui. Patet: quia ea necessitate qua quis vult aliquid ea 
+      <lb ed="#A" n="112"/>necessitate vult illud sine quo tale quid non 
+      po<lb ed="#A" n="113" break="no"/>test habere: vt dicitur. ii Physi. Finis imponit 
+      <lb ed="#A" n="114"/>necessitatem his que sunt ad finem. Sed homo non 
+      <!--307.xml-->
+      <pb ed="#A" n="308"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>potest salutem consequi sine oratione. ergo ad eam 
+      <lb ed="#A" n="2"/>tenetur de necessitate. Minor probatur per illud. ii ad 
+      <lb ed="#A" n="3"/>Cor. iii. Non sumus sufficientes a nobis etiam bonum 
+      <lb ed="#A" n="4"/>cogitare. ergo multo minus operari: nisi ex gratia dei 
+      <lb ed="#A" n="5"/>vel donetur posse. quod quidem non donat regulariter 
+      ad<lb ed="#A" n="6" break="no"/>ultis nisi petat: per arg. a contrario Ioan. xvi. Petite et 
+      <lb ed="#A" n="7"/>accipietis. Ergo cum sine bona operatione nullus 
+      pos<lb ed="#A" n="8" break="no"/>sit saluari: quia ille habitabit in tabernaculo dei 
+      quo<lb ed="#A" n="9" break="no"/>operatur iusticiam secundum Psalmus Et bona operatio non possit 
+      <lb ed="#A" n="10"/>esse sine oratione. ergo habetur propositum.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e924">
+      ¶ Confirmatur 
+      <lb ed="#A" n="11"/>Exo. xx. Memento vt diem sabbati sanctifices. quod 
+      si<lb ed="#A" n="12" break="no"/>ne oratione fieri non potest: Luc. xviii. Oportet semper 
+      <lb ed="#A" n="13"/>orare. Superquo Chrys. dicit: Oportet necessita 
+      <lb ed="#A" n="14"/>tem dicit. patet exemplo in practica qua communiter homines non 
+      <lb ed="#A" n="15"/>timent deum: quia non habent orationem. Econtrario sid 
+      <lb ed="#A" n="16"/>est aliquis timor dei: inuenies in habente gratiam 
+      ora<lb ed="#A" n="17" break="no"/>tionis. Merito ergo dicit Hiero. super Matth. 
+      <lb ed="#A" n="18"/>In tentationem intrat qui orare negligit. Et super illud 
+      <lb ed="#A" n="19"/>Matth. xvii. Hoc genus demoniorum non eiicitur 
+      nis<lb ed="#A" n="20" break="no"/>in oratione et ieiunio. Non sanat oculum quod sanat calca 
+      <lb ed="#A" n="21"/>neum. Ieiunio sanantur pestes corporis: oratione vero 
+      pe<lb ed="#A" n="22" break="no"/>stes mentis. Sed aduerte quod praeceptum de oratione est 
+      <lb ed="#A" n="23"/>affirmatiuum quod obligat pro semper aliquos plus: 
+      ali<lb ed="#A" n="24" break="no"/>quos minus. Quanto enim quis est debilior: tato 
+      ma<lb ed="#A" n="25" break="no"/>gis indiget oratione Et ideo certa meta vel hora non 
+      <lb ed="#A" n="26"/>est determinata: sed tantum quilibet de praecepto tenetur quantum 
+      <lb ed="#A" n="27"/>iudicium sue rationis dictat sibi fore necessarium orare vt 
+      <lb ed="#A" n="28"/>a peccatis desistat et in bono perseueret. Determinatum 
+      <lb ed="#A" n="29"/>tamen tempus et modum habent clerici et religiosi in oratione 
+      <lb ed="#A" n="30"/>communi. sed seculares secundum Tho. in. iiii. di. xv. tenentur 
+      <lb ed="#A" n="31"/>diebus festiuis diuinis officiis interesse: vt ministri 
+      <lb ed="#A" n="32"/>pro poplulo orantibus se conforment in diuinis. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k89466-Dd1e975">
+               <head xml:id="Vn7Pel-k89466-Hd1e977">10</head>
+               <p xml:id="Vn7Pel-k89466-d1e979">
+                  <lb ed="#A" n="33"/>¶ Utrum inter alias orationes 
+      ora<lb ed="#A" n="34" break="no"/>tio dominica sit efficacior: Respondet Rich. vbi. supra. q. viii. 
+      <lb ed="#A" n="35"/>quod sic: et hoc ostendit auctoris dignitas. Christus 
+      <lb ed="#A" n="36"/>enim ore suo immediate illam fecit et discipulos docuit. 
+      <lb ed="#A" n="37"/>vt habetur Matth. vi. Et etiam orationis sententiose 
+      <lb ed="#A" n="38"/>brevitas: quae multum commendat orationem vocalem. vnde 
+      <lb ed="#A" n="39"/>Aug. in epistola ad Probam. Dicuntur frens in 
+      egypte<lb ed="#A" n="40" break="no"/>crebras hre orationes: et eas tamen breuissimas. 
+      <lb ed="#A" n="41"/>Hoc etiam ostendit petitorum vtilitas: quia omnia quae 
+      deside<lb ed="#A" n="42" break="no"/>rare debemus et petere: in hac oratione petuntur. Unde 
+      <lb ed="#A" n="43"/>Augustinus. vbi. supra Quelibet alia verba dicamus orando 
+      <lb ed="#A" n="44"/>nihil aliud dicimus quam quod in ista dominica oratione 
+      po<lb ed="#A" n="45" break="no"/>situm est: si recte et congruenter oramus. et eo ordine 
+      pe<lb ed="#A" n="46" break="no"/>sita sunt quo sunt desideranda et petenda. In principie 
+      <lb ed="#A" n="47"/>enim exhibetur reuerentia illi cui porrigenda est oratio 
+      <lb ed="#A" n="48"/>cum dicitur: Pater noster qui es in celis. in quo captat 
+      <lb ed="#A" n="49"/>orans beniuolentiam dei. Que quidem oratio 
+      dnica<lb ed="#A" n="50" break="no"/>secundum Ly. super Matth. vi. sic exponitur. In ipsa enim 
+      <lb ed="#A" n="51"/>exprimitur quicquid decet hominem petere a deo: et quicquio 
+      <lb ed="#A" n="52"/>decet deu dare homini. Et similiter ordinatissime hoc 
+      de<lb ed="#A" n="53" break="no"/>scribitur: quia illud quod maxime desiderari debet ab 
+      <lb ed="#A" n="54"/>homine et peti: a deo ponitur. et quod peti debet 
+      secun<lb ed="#A" n="55" break="no"/>dario: in secundo loco. et sic consequenter vsque in 
+      finen<lb ed="#A" n="56" break="no"/>Illud autem quod primo cadit in appetitu hominis est 
+      <lb ed="#A" n="57"/>seatitudo. Secundo illud per quod homo beatitu¬ 
+      <!--307.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>dinem consequitur. et illud fecundo petitur ibi: Fiat 
+      vol<lb ed="#A" n="59" break="no"/>luntas tua etc. Beatitudo autem dupliciter dicitur. Uno 
+      <lb ed="#A" n="60"/>modo obiectiue scilicet ipsa bonitas diuina in seipsa: per 
+      <lb ed="#A" n="61"/>cuius fruitionem efficimur beati: et ideo ipsam 
+      bo<lb ed="#A" n="62" break="no"/>nitatem diuinam pre omnibus amare debemus: et per 
+      con<lb ed="#A" n="63" break="no"/>sequens gloriam eius pre omnibus desiderare. Et hoc est 
+      <lb ed="#A" n="64"/>quod petimus primo Pater noster qui es in cels: 
+      san<lb ed="#A" n="65" break="no"/>ctificetur nome tuum. Dicitur enim pater omnium genera 
+      <lb ed="#A" n="66"/>liter ratione creationis. additur: noster. quia est pater 
+      <lb ed="#A" n="67"/>specialis iustorum per gratiam: tamen specialissime ex 
+      <lb ed="#A" n="68"/>cellentia eius relucet in beatis per gloriam. Sancti 
+      <lb ed="#A" n="69"/>ficetur nomen tuum. non petimus quod aliqua sanctitas 
+      <lb ed="#A" n="70"/>ei de nouo accrescat: quia hoc est impossibile. sed 
+      <lb ed="#A" n="71"/>quod sanctitas que ei eternaliter inest reluceat amplius 
+      <lb ed="#A" n="72"/>in creaturis: et primo et principaliter queratur in 
+      oper<lb ed="#A" n="73" break="no"/>bus humanis: secundum quod dicit Apostolus silit Cor. x. Omnia 
+      <lb ed="#A" n="74"/>in gloriam dei facite.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e1077">
+      ¶ Alia est beatitudo dicta 
+      for<lb ed="#A" n="75" break="no"/>maliter que est actus vltimate et perfecte coniungens 
+      <lb ed="#A" n="76"/>nos deo: scilicet visio et fruitio. et illud est quod secundo 
+      lo<lb ed="#A" n="77" break="no"/>copetimus a deo: vt scilicet simus participes sue bonitatis: 
+      <lb ed="#A" n="78"/>quod fit in visione beata. et hoc petimus cum dicimus 
+      <lb ed="#A" n="79"/>Adueniat regnum tuum. Et bene dicitur: adueniat: 
+      <lb ed="#A" n="80"/>quia non possumus ad eum venire per gratiam et 
+      glo<lb ed="#A" n="81" break="no"/>riam nisi ipse primo veniat ad nos. Augustinus. 
+      super<lb ed="#A" n="82" break="no"/>Ioan. Ille enim venit quem gratia dei preuenit. 
+      Re<lb ed="#A" n="83" break="no"/>gnum tuum. Beatitudo enim eterna bene dicitur re 
+      <lb ed="#A" n="84"/>gnum: quia ibi habetur plena et perfecta copia omni 
+      <lb ed="#A" n="85"/>um bonorum. Fiat voluntas tua. Hic 
+      consequen<lb ed="#A" n="86" break="no"/>ter petitur illud per quod possumus beatitudinem 
+      <lb ed="#A" n="87"/>consequi. Et hoc dicitur dupliciter. Uno modo 
+      di<lb ed="#A" n="88" break="no"/>recte et per se. Alio modo indirecte et quasi per 
+      acci<lb ed="#A" n="89" break="no"/>dens. cuiusmodi est remotio impedimenti: quod 
+      po<lb ed="#A" n="90" break="no"/>nitur ibi: Et dimitte nobis. Prima adhuc in 
+      di<lb ed="#A" n="91" break="no"/>as. quia ad assecutionem beatitudinis facit aliquid 
+      <lb ed="#A" n="92"/>dupliciter. vno modo princlpaliter. alio modo qua 
+      <lb ed="#A" n="93"/>si instrumentaliter. Illud aut per quod 
+      principa<lb ed="#A" n="94" break="no"/>liter consequimur beatitudinem est impletio volum 
+      <lb ed="#A" n="95"/>tatis diuine per sanctam operationem. Et quia 
+      fre<lb ed="#A" n="96" break="no"/>quenter eius voluntas est nobis incognita: et 
+      quam<lb ed="#A" n="97" break="no"/>do cognoscimus adhuc sumus impotentes et 
+      pigri<lb ed="#A" n="98" break="no"/>ad implendum. ideo tertio petimus Fiat voluntas 
+      <lb ed="#A" n="99"/>tua id est inspires nobis virtutem et propositum 
+      implendi<lb ed="#A" n="100" break="no"/>tuum beneplacitum. Additur autem: sicut in celo et in 
+      ter<lb ed="#A" n="101" break="no"/>ra. Beati enim qui sunt in celo: quia sunt coniuncti 
+      <lb ed="#A" n="102"/>immediate regule diuine: ideo non possunt deficere 
+      <lb ed="#A" n="103"/>a diuina voluntate. nos vero qui sumus in via non 
+      su<lb ed="#A" n="104" break="no"/>mus sic coniuncti: ideo petimus vt diuina 
+      gra<lb ed="#A" n="105" break="no"/>tia hoc suppleat in nobis tenendo voluntatem 
+      no<lb ed="#A" n="106" break="no"/>tram in conformitate ad suam in operibtis 
+      no<lb ed="#A" n="107" break="no"/>stris: sicut conformantur illi qui sunt in celis. 
+      <lb ed="#A" n="108"/>Panem nostrum. Hic petitur illud per quod 
+      <lb ed="#A" n="109"/>instrumentaliter ducimur ad beatitudinem. Et 
+      <lb ed="#A" n="110"/>hoc accipitur dupliciter. Uno modo prout 
+      ali<lb ed="#A" n="111" break="no"/>quid est instrumentum dei: et sic sacramenta 
+      ec<lb ed="#A" n="112" break="no"/>clesie sunt quedam instrumenta quibus 
+      sanctifica<lb ed="#A" n="113" break="no"/>mur: et ad beatitudinem ducimur. Omnia 
+      au<lb ed="#A" n="114" break="no"/>tem sacramenta ordinantur ad sacramentum 
+      eu<lb ed="#A" n="115" break="no"/>charistie: quod petimus quarto: cum dicimus:. 
+      <!--308.xml-->
+      <pb ed="#A" n="309"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Panem nostrum supersubstantalem. Dicitur autem super. 
+      <lb ed="#A" n="2"/>substantialis: quia transcendit vitam corporalem et dat et 
+      nan<lb ed="#A" n="3" break="no"/>et petendo hoc sacramentum petimus omnia alia que 
+      <lb ed="#A" n="4"/>ordinantur ad ipsum. Luc. v. vocat eum panem quoti 
+      <lb ed="#A" n="5"/>dianum: quia quotidie ipsum sumimus per ministros 
+      <lb ed="#A" n="6"/>ecclesie: qui hoc sacramentum acaipiunt pro se et pro 
+      <lb ed="#A" n="7"/>tota communitate. Alio modo dicitur instrumentum 
+      <lb ed="#A" n="8"/>ad consecutionem beatitudinis ex parte anime: et 
+      <lb ed="#A" n="9"/>sic cum corpus sit instrumentum anime: per 
+      conse<lb ed="#A" n="10" break="no"/>quens vita corporalis instrumentaliter facit ad 
+      <lb ed="#A" n="11"/>consecutionem supernaturalis beatitudinis: inquantum 
+      <lb ed="#A" n="12"/>anima non exercet opera meritoria nisi in corpore 
+      <lb ed="#A" n="13"/>quia corpus durat tantum ad tempus huius vite. Ad 
+      <lb ed="#A" n="14"/>vitam autem corporalem necessario requiritur 
+      sufficien<lb ed="#A" n="15" break="no"/>tia victus. et hoc pecaitur cum dicitur: Panem nostrum 
+      quoti<lb ed="#A" n="16" break="no"/>dianum. per hoc omnia vite necessaria petuntur. Et 
+      di<lb ed="#A" n="17" break="no"/>mitte nobis. Hic consequenter petitur amotio 
+      impe<lb ed="#A" n="18" break="no"/>dimenti consecutionis beatitudinem: que sunt tria. 
+      <lb ed="#A" n="19"/>Primo prohibet peccatum commissum. Secundo 
+      pec<lb ed="#A" n="20" break="no"/>catum de proximo committendum. Et tertio illud quod 
+      <lb ed="#A" n="21"/>est ad vtrumque inclinatiuum. Primum petitur ibi: Et 
+      di<lb ed="#A" n="22" break="no"/>mitte nobis debita nostra etc. Secundum: Et ne nos 
+      <lb ed="#A" n="23"/>inducas etc. Tertium: ibi: Sed libera nos a malo. 
+      <lb ed="#A" n="24"/>Illud ergo quod primo et principaliter impedit nos 
+      <lb ed="#A" n="25"/>in consecutione beatitudinis est peccatu iam 
+      com<lb ed="#A" n="26" break="no"/>missum. Quia ad beatitudinem ingredi non 
+      possu<lb ed="#A" n="27" break="no"/>mus donec peccatum commissum sit totaliter 
+      dimis<lb ed="#A" n="28" break="no"/>sum. ideo hanc dimissionem petimus quinto loco: 
+      <lb ed="#A" n="29"/>cum dicimus. Et dimitte nobis. Et additur: sicut et 
+      <lb ed="#A" n="30"/>nos dimittimus. quia hec est regula nobis 
+      impo<lb ed="#A" n="31" break="no"/>sita: quod sicut volumus nobis dimitti peccatum nostrum 
+      <lb ed="#A" n="32"/>ta debemus dimittere pximo peccatum in nos 
+      com<lb ed="#A" n="33" break="no"/>missum. Ista tamen dimissio potest intelligi 
+      du<lb ed="#A" n="34" break="no"/>pliciter. Uno modo quantum ad offensam: et hoc est 
+      <lb ed="#A" n="35"/>necessitatis: quia tenemur omnes diligere ex 
+      cha<lb ed="#A" n="36" break="no"/>ritate. Alio modo quantum ad iniuriam: et hoc non est 
+      <lb ed="#A" n="37"/>necessitatis: licet sit supererogationis. Sicut enim 
+      pecu<lb ed="#A" n="38" break="no"/>niam ablatam no tenetur quis auferenti dimittere: sed 
+      pe<lb ed="#A" n="39" break="no"/>tere: sic in iniuria sibi illata potest recompensationem 
+      <lb ed="#A" n="40"/>petere secundum ordinem iusticie. Secundo impedit nos 
+      <lb ed="#A" n="41"/>a beatitudine consequenda peccatum: quod formidatur de 
+      <lb ed="#A" n="42"/>pximo committendum. Et hoc contingit quando 
+      su<lb ed="#A" n="43" break="no"/>nus constituti in graui tentatione cui probabiliter 
+      <lb ed="#A" n="44"/>timemus succumbere. Et ideo sexto petimus a nobis 
+      <lb ed="#A" n="45"/>amoueri: cum dicimus: Et ne nos inducas id est 
+      indu<lb ed="#A" n="46" break="no"/>ci permittas in tentationem. Non enim petimus vt non 
+      <lb ed="#A" n="47"/>tentemur: quia tentari non est malum: sed magis est 
+      <lb ed="#A" n="48"/>ad virtutis exercitium quando viriliter resistitur. sed 
+      <lb ed="#A" n="49"/>petimus ne in tentationem inducamur id est ne ab ipsa 
+      <lb ed="#A" n="50"/>deuincamur. Sed libera nos a malo.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e1283">
+      ¶ Tertio 
+      <lb ed="#A" n="51"/>impedit nos illud quod est impeditiuum Ad duo 
+      <lb ed="#A" n="52"/>predicta. quod est fomes peccati: qui est quedam 
+      pe<lb ed="#A" n="53" break="no"/>na ex peccato primi parentis derelicta. Et hoc 
+      ma<lb ed="#A" n="54" break="no"/>lum pene et alia mala presentis vite inquantum 
+      pos<lb ed="#A" n="55" break="no"/>sunt nos ad peccatum inducere. Septimo petimus 
+      <lb ed="#A" n="56"/>amoueri cum dicimus: Sed libera nos a malo. 
+      Se<lb ed="#A" n="57" break="no"/>quitur in fine: Amen. quod est verhum optatiuum 
+      <lb ed="#A" n="58"/>respectu precedentium. 
+      <!--308.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+               <p xml:id="Vn7Pel-k89466-d1e1307">
+                  <lb ed="#A" n="59"/>¶ Sed queritur: quare oratur deus 
+      <lb ed="#A" n="60"/>ex quo nihil sibi per orationem manifestatur: nec 
+      ani<lb ed="#A" n="61" break="no"/>mus etus in aliquo mutatur. et ideo videtur quod frustra 
+      <lb ed="#A" n="62"/>oretur: Respondet Lyra: quod praedestinatio diuina est 
+      <lb ed="#A" n="63"/>proparatio gratie in praesenti et glorie in futuro. et ideo 
+      <lb ed="#A" n="64"/>cum sit eterna sicut ab eterno praedestinauit aliquem 
+      <lb ed="#A" n="65"/>ad beatitudinem: ita praeordinauit modum per quem 
+      <lb ed="#A" n="66"/>daret sibi illam beatitudinem scilicet per merita sua et 
+      ora<lb ed="#A" n="67" break="no"/>tionem. et ideo non frustra orat deum: quia oratio est 
+      il<lb ed="#A" n="68" break="no"/>lud per quod ex ordinatione diuina debet 
+      consequi<lb ed="#A" n="69" break="no"/>gratiam et gloriam. Et eadem est ratio de omnibus aliis 
+      <lb ed="#A" n="70"/>bonis: quia cadunt sub ordine praedestinationis 
+      di<lb ed="#A" n="71" break="no"/>uine. Unde Grego. et habetur. xxiii. q. iiii
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e1339">
+      ¶ Pbtineri 
+      <lb ed="#A" n="72"/>inquit nequaquam possunt que praedestinata non 
+      fue<lb ed="#A" n="73" break="no"/>runt: sed ea que sancti viri orado efficiunt: ita 
+      pre<lb ed="#A" n="74" break="no"/>destinata sunt vt praecibus obtineantur. ergo vt praedictum 
+      <lb ed="#A" n="75"/>est non oramus vt deo aliquid imnotescat seu vt eum 
+      <lb ed="#A" n="76"/>imutemus sed vt obtineamus precibus quod dare 
+      dis<lb ed="#A" n="77" break="no"/>posuit.
+    </p>
+               <p xml:id="Vn7Pel-k89466-d1e1355">
+      ¶ Sed di. que est orationis efficacia siue vti 
+      <lb ed="#A" n="78"/>litas: Respondetur quod multiplex. Prima quia 
+      vin<lb ed="#A" n="79" break="no"/>cere facit tentationes. vnde Hiero. suu Matth. In 
+      <lb ed="#A" n="80"/>tentationem intrat qui orare negligit. Secunda: quia 
+      <lb ed="#A" n="81"/>augmentat merita. Tertia: quia immpetrat 
+      postu<lb ed="#A" n="82" break="no"/>lata: vt patuit ex supradictis. Quarta: quia 
+      vin<lb ed="#A" n="83" break="no"/>cit hostes: vt patet di. xxxvi. c. vlti. de moyse: qui 
+      <lb ed="#A" n="84"/>orans. vincebat hostes. Quinta: quia secreta diuina 
+      <lb ed="#A" n="85"/>reuelat. viii. q. i. si ergo. Sexta: quia celestia 
+      de<lb ed="#A" n="86" break="no"/>gustat. In ipsa enim experitur homo quam suauis est deus 
+      <lb ed="#A" n="87"/>Unde Augustinus. in enchi. c. xv. de quotidianis et breui 
+      <lb ed="#A" n="88"/>bcus leuibusque peccatis sine quibus vita non ducitur 
+      <lb ed="#A" n="89"/>quotidic oratio quotidiana satisfacit. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

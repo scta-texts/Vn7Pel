@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sepultura</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Sepultura</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="347"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k98333">
+            <head xml:id="Vn7Pel-k98333-Hd1e100">Sepultura</head>
+            <p xml:id="Vn7Pel-k98333-d1e102">
+               <lb ed="#A" n="66"/>SEpultura est 
+      po<lb ed="#A" n="67" break="no"/>sessio siue terra vbi aliquis sepeliendus est 
+      <lb ed="#A" n="68"/>Unde si talis possessio seu terra seu 
+      quodli<lb ed="#A" n="69" break="no"/>bet aliud vas pro sepeliendo sit per episcptum vel eius 
+      au<lb ed="#A" n="70" break="no"/>toritate ad sepulturam deputatum: sic est locus 
+      reli<lb ed="#A" n="71" break="no"/>giosus. siue ibi sit aliquis sepultus siue non: et 
+      ven<lb ed="#A" n="72" break="no"/>di non potest. vt habtur. xiii. q. ii. questa est. Si autem auctoritae 
+      <lb ed="#A" n="73"/>piscopi talis terra non est ad seplullturam deputata: licet 
+      <lb ed="#A" n="74"/>ibi sit aliquis sepultus: non propterea locus est 
+      religi<lb ed="#A" n="75" break="no"/>osus. secundum Innocen. extra de sepul. c. abolende. ven 
+      <lb ed="#A" n="76"/>di tamen non potest vt patet in praedicto c. questa est etc. 
+      <lb ed="#A" n="77"/>Notandum quod sepultura aliquando accipitur pro officio quod 
+      <lb ed="#A" n="78"/>impenditur sepeliendis. et talis sepultura vendi non 
+      <lb ed="#A" n="79"/>potest a clericis qui habent beneficium ratione cuius 
+      tenenm<lb ed="#A" n="80" break="no"/>tur: puta quia sacerdos parochialis et huiusmodi. imo 
+      si<lb ed="#A" n="81" break="no"/>moniam committerent si venderent. i. q. i. dictum. et. xiii. 
+      <lb ed="#A" n="82"/>q. ii praecipiendum. Et licet clerici petere non possint: 
+      <lb ed="#A" n="83"/>laici tamen tenentur ad laudabilem consuetudinem 
+      seruan<lb ed="#A" n="84" break="no"/>dam. et videtur quod nisi seruent peccent mortaliter. vt patet 
+      <lb ed="#A" n="85"/>extra de simonia. c. ad apostolicam: nisi ex aliqua 
+      rationabi<lb ed="#A" n="86" break="no"/>li causa desistant. Alii autem clerici qui ex beneficio non 
+      <lb ed="#A" n="87"/>tenentur ad tale officium poterunt vendere non quidem 
+      of<lb ed="#A" n="88" break="no"/>ficium: sed laborem suum. quia non tenentur de suo facere hoc 
+      <lb ed="#A" n="89"/>ar. xii. q. ii c. charitate. Et locus sepulture debet 
+      <lb ed="#A" n="90"/>fieri apud ecclesiam consecratam. 
+    </p>
+            <div xml:id="Vn7Pel-k98333-Dd1e159">
+               <head xml:id="Vn7Pel-k98333-Hd1e161"> 1 </head>
+               <p xml:id="Vn7Pel-k98333-d1e163">
+                  <lb ed="#A" n="91"/>¶ Utrum mortuis proficiat sepultum q§o 
+      <lb ed="#A" n="92"/>ra corporum suorum Arguitur quod non: quia dicit Aug. li. 
+      <lb ed="#A" n="93"/>de cura pro mortuis agenda: quod curatio funeris: 
+      con<lb ed="#A" n="94" break="no"/>ditio sepulture: pompe exequiarum magis sunt 
+      vi<lb ed="#A" n="95" break="no"/>uorum solatia quam subsidia mortuorum.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e176">
+      ¶ In contrarium 
+      <lb ed="#A" n="96"/>habetur in Gen. quod Abraam: Iacob et Idseph 
+      solici<lb ed="#A" n="97" break="no"/>te curarunt de sepultura tanquam re bona.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e183">
+      ¶ Item. xiii 
+      <lb ed="#A" n="98"/>q. ii quibus. et c. sequenti Impiis nocet sepultura. ergo 
+      <lb ed="#A" n="99"/>per contrarium praeisis prodest. Respondetur secundum Rich. in. iiii. di. 
+      <lb ed="#A" n="100"/>xlv. ar. vi. q.i. quod mortuis in charitate decedentibus 
+      <lb ed="#A" n="101"/>aliquid purgabile secum deferentibus prodest sepultu 
+      <lb ed="#A" n="102"/>ra corporum suorum non per se: sed per accidens inquantum scilicet 
+      <lb ed="#A" n="103"/>inspicientes sepulturam memoriam retinent defuncto 
+      <lb ed="#A" n="104"/>rum: et pro eis orent. Unde monumentum eo quod moncat 
+      <lb ed="#A" n="105"/>mentem id est admoneat nuncupatur. Sed vltra hoc 
+      pro<lb ed="#A" n="106" break="no"/>dest sepultura in loco sacro inquantum sepeliens 
+      <lb ed="#A" n="107"/>mortuum patrocinio alicuius sancti committit: et eius 
+      <lb ed="#A" n="108"/>dem praecibus credendum est adiuuari. Et quia ceteris 
+      pa<lb ed="#A" n="109" break="no"/>ribus ex diuina ordinatione triumphans ecclesia 
+      speali<lb ed="#A" n="110" break="no"/>ter orat pro illis qui in loco sacro sunt sepulti. Et 
+      <lb ed="#A" n="111"/>quia illi qui loco illo deseruiunt tenentur pro illis frequan 
+      <lb ed="#A" n="112"/>tius et specialius orare. His concordat Augum. liro 
+      <!--347.xml-->
+      <pb ed="#A" n="348"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>decura pro mortu. dicens. de sepultura et his quae fiunt 
+      <lb ed="#A" n="2"/>in sepulturis. quia ad hoc valent mortuis vt dum 
+      <lb ed="#A" n="3"/>viui recolunt vbi sunt posita eorum quos diligunt 
+      <lb ed="#A" n="4"/>corpora eisdem sanctis illos tanquam patronis susceptos 
+      <lb ed="#A" n="5"/>apud dominum adiuuando et orando commendant. 
+      <lb ed="#A" n="6"/>Luminaria etiam panni et alii sumptus qui fiunt 
+      <lb ed="#A" n="7"/>in sepulturis mortuis prodesse possunt peraccidens 
+      <lb ed="#A" n="8"/>inquantum per talia excitantur ad compatiendum: 
+      <lb ed="#A" n="9"/>et per consequens ad orandum pro eis et inquantum 
+      <lb ed="#A" n="10"/>pauperes inde fructum capiunt et ecclesia propter de 
+      <lb ed="#A" n="11"/>um honoratur. et sic Tobie. xii. sepultura inter 
+      ce<lb ed="#A" n="12" break="no"/>teras elemosynas computatur.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e251">
+      ¶ Ad argumentum 
+      <lb ed="#A" n="13"/>dicendum quod illa auctoritas Augustini intelligitur 
+      <lb ed="#A" n="14"/>de profectu per se etc.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e259">
+      ¶ Sed diceres. an proficiat 
+      <lb ed="#A" n="15"/>viuis sepultura mortuorum
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e264">
+      ¶ Respondet Richar. 
+      <lb ed="#A" n="16"/>vbi supra. q. ii quod sic. quia tale opus fidem resurre 
+      <lb ed="#A" n="17"/>ctionis astruit. Unde August. libro de cura 
+      pro<lb ed="#A" n="18" break="no"/>mortuis agenda ait. Homines ad faciendum 
+      eti<lb ed="#A" n="19" break="no"/>am elemosynas excitat. Idem dicit libr. i. de ciui 
+      <lb ed="#A" n="20"/>quod in hoc salubriter discitur quanta possit esse 
+      re<lb ed="#A" n="21" break="no"/>muneratio pro elemosynis quas viuentibus et 
+      sen<lb ed="#A" n="22" break="no"/>tientibus exhibemus si nec hoc apud deum perit quod 
+      ex<lb ed="#A" n="23" break="no"/>animis hominum fnembris officii diligentie 
+      persol<lb ed="#A" n="24" break="no"/>uitur. subuenit etiam in aliquo animabus defunctorum 
+      <lb ed="#A" n="25"/>secundum modum supra dictum immediate. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98333-Dd1e289">
+               <head xml:id="Vn7Pel-k98333-Hd1e291">2</head>
+               <p xml:id="Vn7Pel-k98333-d1e293">
+                  <lb ed="#A" n="26"/>¶ Utrum licitum sit cuicunque 
+      elte<lb ed="#A" n="27" break="no"/>gere sepulturam in quocumque sacro loco voluerit 
+      <lb ed="#A" n="28"/>Arguitur quod sic. extra de sepulturis. c. i. Nulli 
+      nege<lb ed="#A" n="29" break="no"/>mus propriam eligere sepulturam et etiam alienam. 
+      <lb ed="#A" n="30"/>Dominus enim et magister alienam elegit vt 
+      pro<lb ed="#A" n="31" break="no"/>priam.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e309">
+      ¶ In contrarium dicitur. xiii. q. ii facultates. §. sicut. 
+      <lb ed="#A" n="32"/>Coniugati in vno sepulcro videntur esse ponendi: 
+      Re<lb ed="#A" n="33" break="no"/>spondetur secundum Rich. vbi supra. q. iii. quod quilibet adultus 
+      con<lb ed="#A" n="34" break="no"/>pos sue mentis libere potest vbicumque voluerit in loco 
+      <lb ed="#A" n="35"/>magis religioso eligere sepulturam. Et locum magis 
+      <lb ed="#A" n="36"/>religiosum voco illum in quo frequentius et deuotius et 
+      ho<lb ed="#A" n="37" break="no"/>nestius pro viuis et mortuis celebratur. Et talia sunt 
+      <lb ed="#A" n="38"/>loca in quibus sunt conuentus religiosorum fratrum. extra de sepul. 
+      <lb ed="#A" n="39"/>fraturnitatem. Et dico adultus: quia infra annos 
+      constitu<lb ed="#A" n="40" break="no"/>tis non licet eligere. extra de sepultr. in nostra. Dico 
+      com<lb ed="#A" n="41" break="no"/>pos sue mentis: quia alias non potest eligere. extra de 
+      succes<lb ed="#A" n="42" break="no"/>ab intesta. Cum dilectus. Et dico in loco magis 
+      relie<lb ed="#A" n="43" break="no"/>gioso. quia in minus fligioso quam parochialis si eligat vt 
+      <lb ed="#A" n="44"/>detur hoc facere ex odio vel superbia vel alia temeritati 
+      <lb ed="#A" n="45"/>Goffre. tamen dicit quod eligi potest sepultura etiam in loco 
+      mi<lb ed="#A" n="46" break="no"/>nus religioso dummodo non fiat ex odio vel contemptum 
+      pro<lb ed="#A" n="47" break="no"/>prii sacerdotis. extra de sepul. inostra. Sed hodie vni 
+      <lb ed="#A" n="48"/>cuique licitum est eligere vbi quis voluerit ex 
+      consuetu<lb ed="#A" n="49" break="no"/>dine.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e351">
+      ¶ Ad argumentum dicendum quod illa auctoritas 
+      <lb ed="#A" n="50"/>est intelligenda exceptis illis qui in corpore quaestionis ex 
+      <lb ed="#A" n="51"/>cepti sunt et ideo quilibet fidels habens liberumarbitrium et etatem 
+      <lb ed="#A" n="52"/>legitimam quamuis sit in potestate patris: tamen potest eligere sine 
+      <lb ed="#A" n="53"/>consensu patris. extra de sepul. c. licet. li. vi. Impubes vero 
+      <lb ed="#A" n="54"/>et qui est furiosus et similiter religiosus no potest eligere 
+      se<lb ed="#A" n="55" break="no"/>pulturam. secus si commode ad suam ecclesiam corpus 
+      de<lb ed="#A" n="56" break="no"/>ferri non possit: quia tunc potest eligere vbi placet. extra 
+      <lb ed="#A" n="57"/>de sepul. c. religiosi. li. vi. Item pater potest eligere pro fi¬ 
+      <!--347.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lio impubere: cum ipse impubes eligere non possit. 
+      <lb ed="#A" n="59"/>pro adulto tantum non potest eligere. nec similiter dominus proseruoc 
+      <lb ed="#A" n="60"/>nec decapitandus potest eligere si sententia est data. nec 
+      <lb ed="#A" n="61"/>appellatione suspensa. quia nullam vltimam voluntatem 
+      <lb ed="#A" n="62"/>potest dimittere. Secus si sententia non est data vel 
+      <lb ed="#A" n="63"/>appellatione suspensa secundum Io. an. extr. de instrum. editer. 
+      <lb ed="#A" n="64"/>Potest tamen omnia sacramenta petere et recipere. extra de pe. et re. 
+      <lb ed="#A" n="65"/>in gle. i. Huic concordat Spe. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98333-Dd1e394">
+               <head xml:id="Vn7Pel-k98333-Hd1e396">3</head>
+               <p xml:id="Vn7Pel-k98333-d1e398">
+                  <lb ed="#A" n="66"/>¶ Ubi debet quis sepeliri quam 
+      <lb ed="#A" n="67"/>do non elegit sepulturam: Respondetur per vndecim casus 
+      <lb ed="#A" n="68"/>Primus est de parochianis qui debent sepeliri non in 
+      <lb ed="#A" n="69"/>parochia sed in ecclesia vbi sunt maiores sui. extra de 
+      se<lb ed="#A" n="70" break="no"/>pul. ca. i. in glo. li. vi. Maiores autem sui sunt pater et 
+      <lb ed="#A" n="71"/>auus.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e414">
+      ¶ Secundus est quando non apparet vbi sunt 
+      sepul<lb ed="#A" n="72" break="no"/>cra matiorum. quia tunc sepelietur in ecclesia vbi audiuit 
+      <lb ed="#A" n="73"/>diuina et percepit sacramenta. vt patet dicto c. i. et c. is 
+      qui<lb ed="#A" n="74" break="no"/>Tertius est quando quis non habet sepulcra maiorum 
+      <lb ed="#A" n="75"/>et in vna ecclesia audiuit diuina et in alia percepit 
+      sa<lb ed="#A" n="76" break="no"/>cramenta. vel est parochianus duarum ecclesiarum. et 
+      <lb ed="#A" n="77"/>tunc si vtraque habet ius funerandi tunc locus est pre 
+      <lb ed="#A" n="78"/>uentioni. extra de rescp. c. duobus. libr.o vi. Sed obuentiones 
+      <lb ed="#A" n="79"/>quarte diuidentur. extra de sepul. c. cum quis. liro vi. Et si 
+      <lb ed="#A" n="80"/>non est praeuentio sed contendunt tunc diocesanus habet 
+      con<lb ed="#A" n="81" break="no"/>cordare partes: cuius sententie standum est.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e438">
+      ¶ Quartus 
+      <lb ed="#A" n="82"/>est quando ecclesia est interdicta vel cimiterium vbi de 
+      iu<lb ed="#A" n="83" break="no"/>re deberet sepeliri: et tunc si est ecclesia sepulcri ma 
+      <lb ed="#A" n="84"/>iorum suorum sepelicetur in parochia. Si vero est 
+      paro<lb ed="#A" n="85" break="no"/>chia sepelietur in ecclesia cathedrali. Etsi omnes iste 
+      es<lb ed="#A" n="86" break="no"/>sent interdicte: cum nullus ibi debeat sepeliri. extra de 
+      <lb ed="#A" n="87"/>priui. c. cum priuilegia. et c. si ecclesia. li. vi. et c. fi. de se 
+      <lb ed="#A" n="88"/>pul.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e456">
+      ¶ Quintus casus est de peregrinis et 
+      adue<lb ed="#A" n="89" break="no"/>nis: qui sepelientur in parochia vbi moriuntur 
+      <lb ed="#A" n="90"/>si non scitur vbi sunt sepulcra maiorum suorum. vel 
+      <lb ed="#A" n="91"/>si scitur et non possunt commode deferri: tenent In 
+      <lb ed="#A" n="92"/>nocentius et Hostiensis extra de sepul. scilicet quod in 
+      ec<lb ed="#A" n="93" break="no"/>clesia cathedrali. Alii autem quod vtraque ecclesia 
+      ha<lb ed="#A" n="94" break="no"/>bet ius: et locus est preuentioni. Et istud est 
+      ve<lb ed="#A" n="95" break="no"/>rius. Idem dicendum est de damnatis ad 
+      mor<lb ed="#A" n="96" break="no"/>tem sicut de peregrinis si permittuntur illi 
+      scpe<lb ed="#A" n="97" break="no"/>liri.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e479">
+      ¶ Sextus casus est de filio pubere. et 
+      de<lb ed="#A" n="98" break="no"/>bet sepeliri apud maiores: vt in primo casu. vel 
+      <lb ed="#A" n="99"/>si est secundus iuxta secundum casum vel terti 
+      <lb ed="#A" n="100"/>um casum sicut contigerit.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e488">
+      ¶ Septimus casus est 
+      <lb ed="#A" n="101"/>de filiis illegitimis si sunt naturales tantum 
+      sepeli<lb ed="#A" n="102" break="no"/>untur cum patre: nisi pater fuisset in dignitate. 
+      <lb ed="#A" n="103"/>l. ex facto. §. Si quis. Si autem sunt spurii non 
+      <lb ed="#A" n="104"/>sepelientur cum patre: quia nec filii nominandi 
+      <lb ed="#A" n="105"/>sepelientur ergo tales in sepulcro matris. Si ve 
+      <lb ed="#A" n="106"/>ro sint filii adoptiui vel arrogati: si viuente 
+      pa<lb ed="#A" n="107" break="no"/>tre moriuntur: in eius sepulcro sepelientur. Secus 
+      <lb ed="#A" n="108"/>si mortuo: quia tunc sepelientur cum patre 
+      natu<lb ed="#A" n="109" break="no"/>rali. extra de cognatione legali. c. vnico. Filii spiritu 
+      <lb ed="#A" n="110"/>rii non habent ius etiamsi legitimentur.
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e512">
+      ¶ 
+      Octa<lb ed="#A" n="111" break="no"/>uus casus de vxore: que si carnaliter cognita: vel 
+      <lb ed="#A" n="112"/>ad domum viri ducta tunc sepelietur in sepostuolcro viri. quia 
+      <lb ed="#A" n="113"/>iam consecuta est domicilium mariti per conductionem idlestcum quae 
+      <lb ed="#A" n="114"/>dam puella. sc de iurisom. iu. vel quia effecta viri caro 
+    </p>
+               <p xml:id="Vn7Pel-k98333-d1e523">
+      <!--348.xml-->
+                  <pb ed="#A" n="349"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Nonus casus de nouiciis religiosis: qui si non 
+      <lb ed="#A" n="2"/>erant obligati religioni in genere debent sepeliri in 
+      <lb ed="#A" n="3"/>ecclesia vbi de iure conuenit: non in monasterio. vt 
+      di<lb ed="#A" n="4" break="no"/>cit Archi. extra de sepul. c. Cum quis. li. vi. Idem 
+      <lb ed="#A" n="5"/>est de illis qui non sunt plene tranflati. Decimus 
+      ca<lb ed="#A" n="6" break="no"/>sus est de praelatis ecclesiarum. nam regulariter debent 
+      <lb ed="#A" n="7"/>sepeliri in ecclesia vbi habent praelaturam. Et si in 
+      <lb ed="#A" n="8"/>duabus: locus est praeuentioni. Uel dicendum quod in 
+      il<lb ed="#A" n="9" break="no"/>la in qua moritur erit sepeliendus. Alii autem clerici 
+      <lb ed="#A" n="10"/>vbi sunt beneficiati ibi sepelientur. Undecimus 
+      ca<lb ed="#A" n="11" break="no"/>sus est de illo qui habet domicilium in ciuitate ve 
+      <lb ed="#A" n="12"/>villa: et se transfert ad villam ruralem causa 
+      re<lb ed="#A" n="13" break="no"/>creationis: vel vt rura colat qui sepelietur in sepulcro 
+      <lb ed="#A" n="14"/>maiorum suorum. Prohibetur autem ecclesiastica 
+      sepul<lb ed="#A" n="15" break="no"/>tura Primo excommunicatis. Secundo manisest 
+      <lb ed="#A" n="16"/>vsurariis. Tertio qui in torneamento moriuntur. 
+      <lb ed="#A" n="17"/>Quarto raptoribus qui pertinaciter cum possint in 
+      <lb ed="#A" n="18"/>vita non satisfaciunt: et in morte non possunt. extra 
+      <lb ed="#A" n="19"/>de raptoribus. c. ii Quinto blasphematoribus dei et 
+      <lb ed="#A" n="20"/>sanctorum. extra de maledicia. c. ii. Sexto qui non 
+      <lb ed="#A" n="21"/>communicant semel in anno: nec confitentur. extra des 
+      <lb ed="#A" n="22"/>pe. et re. c. omnis. nisi signa contritionis ostendant 
+      <lb ed="#A" n="23"/>Septimo qui moritur in peccato mortali notorie 
+      <lb ed="#A" n="24"/>xiii. q. ii cum grauia. Octauo nominatim 
+      inter<lb ed="#A" n="25" break="no"/>dicti. ethoc sub excommunicationis pena. Nono 
+      <lb ed="#A" n="26"/>illi cui est interdictus ingressus ecclesie. extra des 
+      <lb ed="#A" n="27"/>sen. excom. is qui. li. vi. Decimo illi qui sacerdotem 
+      <lb ed="#A" n="28"/>tutorem filiis suis instituit. lxxxviii. di. neque. Unde 
+      <lb ed="#A" n="29"/>cimo iudeis vel paganis. de conse. di. i. c. ecclesiame 
+      <lb ed="#A" n="30"/>Duodecimo corporibus exenteratis vel diuisis 
+      <lb ed="#A" n="31"/>Qui si de facto sepeliantur debent exhumari si 
+      <lb ed="#A" n="32"/>discerni possunt: alias non. similiter paganus vel 
+      puer<lb ed="#A" n="33" break="no"/>qui extrahitur de ventre matris mortuus: non sunt 
+      <lb ed="#A" n="34"/>in sacro loco sepeliendi. Si vero mortua matre 
+      <lb ed="#A" n="35"/>puer viueret: deberet scindi mater et puer 
+      baptiza<lb ed="#A" n="36" break="no"/>ri. et sic in sacro loco sepeliri¬ 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98333-Dd1e612">
+               <head xml:id="Vn7Pel-k98333-Hd1e614"> 4 </head>
+               <p xml:id="Vn7Pel-k98333-d1e616">
+                  <lb ed="#A" n="37"/>¶ Notandum quod habentes ius 
+      fu<lb ed="#A" n="38" break="no"/>nerandi possunt intrare alterius parochiam: et 
+      <lb ed="#A" n="39"/>per se accipere funus et alia consueta facere si habent 
+      <lb ed="#A" n="40"/>ex priuilegio pape vt habeant liberam sepulturam 
+      <lb ed="#A" n="41"/>sicut sunt fratres minores et praedicatores. vt patet 
+      <lb ed="#A" n="42"/>extra de sepul. in cle. dudum. Qui vero ad sepultu 
+      <lb ed="#A" n="43"/>ram recipiunt aliquem in casu non concesso tenentur 
+      <lb ed="#A" n="44"/>ad restitutionem corporum si petatur: et omnium que oc 
+      <lb ed="#A" n="45"/>casione illius receperunt. extra eodem. fraternitatem 
+      <lb ed="#A" n="46"/>Unde clerici et religiosi cuiuscumque status aut 
+      com<lb ed="#A" n="47" break="no"/>ditionis existant qui ad vouendum vel iurandum 
+      <lb ed="#A" n="48"/>seu alias gromittendum aliquem inducunt quod apud 
+      eo<lb ed="#A" n="49" break="no"/>rum ecclesias eligant sepulturam: vel iam electam vlteri 
+      <lb ed="#A" n="50"/>us non mutent sunt excommunicati. a qua praeterquam 
+      <lb ed="#A" n="51"/>in mortis articulo non possunt absolui citra 
+      sede<lb ed="#A" n="52" break="no"/>apostolicam. extra de penis. Cupientes. in cle. et 
+      tenen<lb ed="#A" n="53" break="no"/>tur restituere corpus. et hoc intellige cum effectu 
+      <lb ed="#A" n="54"/>quia tunc omnia tenentur restituere recepta. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98333-Dd1e659">
+               <head xml:id="Vn7Pel-k98333-Hd1e661">5</head>
+               <p xml:id="Vn7Pel-k98333-d1e663">
+                  <lb ed="#A" n="55"/>¶ Utrum possit fieri pactio 
+      super<lb ed="#A" n="56" break="no"/>electione sepulture: Respondetur secundum Hosti. quod quicquid 
+      <lb ed="#A" n="57"/>temporale datur vel promittitur vt talis in tali loco sepeli¬ 
+      <!--348.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>atur simonia est. i. q. i. quam pio. et extra de pactis. c. 
+      <lb ed="#A" n="59"/>fi. Similiter habentes sepulcrum vbi sepeliuntur tantum 
+      con<lb ed="#A" n="60" break="no"/>fratres vel canonici si faciunt pactum pro 
+      quan<lb ed="#A" n="61" break="no"/>to extraneus debeat ibi sepeliri simonia est. extra 
+      <lb ed="#A" n="62"/>de simo. audiuimus. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98333-Dd1e688">
+               <head xml:id="Vn7Pel-k98333-Hd1e690">6</head>
+               <p xml:id="Vn7Pel-k98333-d1e692">
+                  <lb ed="#A" n="63"/>¶ Utrum valeat statutum factum 
+      a<lb ed="#A" n="64" break="no"/>laicis Co non valeat nisi tantum expendi ad sepulturam: 
+      <lb ed="#A" n="65"/>Respondetur secundum Ludo. de rto. quod non: quia licet non sit 
+      <lb ed="#A" n="66"/>factum super spiritualibus est tamen super annexis eisdem 
+      <lb ed="#A" n="67"/>Nota quod praetextu debiti sepultura impediri non 
+      de<lb ed="#A" n="68" break="no"/>bet. c. de sepul. viols. cum sit. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

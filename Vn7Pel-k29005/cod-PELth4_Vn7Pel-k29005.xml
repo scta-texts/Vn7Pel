@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Correctio </title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title> Correctio </title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="101"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k29005">
+            <head xml:id="Vn7Pel-k29005-Hd1e100"> Correctio </head>
+            <div xml:id="Vn7Pel-k29005-Dd1e102">
+               <head xml:id="Vn7Pel-k29005-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k29005-d1e106">
+                  <lb ed="#A" n="65"/>Correctio frater 
+      <lb ed="#A" n="66"/>na vtrum sit sub praecepto: Arguitur quod non: 
+      <lb ed="#A" n="67"/>quia secundum Aug. i. de ciui. dei. Aliquando a 
+      cor<lb ed="#A" n="68" break="no"/>ripiendis fratribus desistunt homines vel 
+      <lb ed="#A" n="69"/>propter laborem vel verecundiam vel euitationem 
+      nocu<lb ed="#A" n="70" break="no"/>menti temporalis: quamuis displiceat eis malum eorum nec 
+      <lb ed="#A" n="71"/>tamen incidunt in illam damnationem que post hanc 
+      vi<lb ed="#A" n="72" break="no"/>tam talibus praeparatur: sed si correctio fraterna esset 
+      prae<lb ed="#A" n="73" break="no"/>ceptum desistentes ab ea ad vitandum incommodum 
+      tem<lb ed="#A" n="74" break="no"/>porale incurrerent damnationis demeritum. ergo talis 
+      <lb ed="#A" n="75"/>correctio non est sub praecepto. Item nemo ex praecepto 
+      <lb ed="#A" n="76"/>obligatur ad corrigendum: quia cum assidue occurrat (
+      or<lb ed="#A" n="77" break="no"/>rigendi oporteret praetermissis aliis negociis 
+      alio<lb ed="#A" n="78" break="no"/>tum corrrectioni vacare. quod falsum est
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e139">
+      ¶ Preterea Ec 
+      <lb ed="#A" n="79"/>clesia. vii. dicitur. Considera opera dei quod nemo potest 
+      cor<lb ed="#A" n="80" break="no"/>rigere quem ille despexerit
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e146">
+      ¶ In contrarium ait saluator 
+      <lb ed="#A" n="81"/>Matth. xviii. Si peccauerit in te frater tuus 
+      cor<lb ed="#A" n="82" break="no"/>ripe eum. vbi glo. Ita peccat qui frem suum videt 
+      <lb ed="#A" n="83"/>peccare et tacet: sicut qui peccanti non indulget: sed 
+      <lb ed="#A" n="84"/>praeceptum est indulgere peccanti. ergo praeceptum est 
+      corri<lb ed="#A" n="85" break="no"/>pere frem. Respondet Rich. in. iiii. dist. xix. ar. ii. q. i. 
+      <lb ed="#A" n="86"/>Quod sicut corpori naturali patienti vno membro 
+      com<lb ed="#A" n="87" break="no"/>patiuntur alia et sibi inuicem subueniunt ad bonam 
+      con<lb ed="#A" n="88" break="no"/>sistentiam corporis in comparatione ad formam natura 
+      <lb ed="#A" n="89"/>lis vite. Sic ex necessitate diuini praecepti membra 
+      <lb ed="#A" n="90"/>corporis mystici quod est ecclesia tenentur sibi inuicem 
+      <lb ed="#A" n="91"/>subuenire ad conseruandam bonam vnitatem et 
+      disposi<lb ed="#A" n="92" break="no"/>tionem ecclesie in comparatione ad formam supernaturalis 
+      <lb ed="#A" n="93"/>vite que est gratia spiritus sancti. Unde non tantum sibi 
+      in<lb ed="#A" n="94" break="no"/>uicem tenentur subuenire quantum ad indigentias 
+      <lb ed="#A" n="95"/>corporales: sed multo magis quantum ad spiritua 
+      <lb ed="#A" n="96"/>les orando: delinquentibus parcendo: et ad bonum 
+      <lb ed="#A" n="97"/>monendo et delinquentes corrigendo: quia tamen 
+      <lb ed="#A" n="98"/>corrigere delinquentem preceptum est affirmati 
+      <lb ed="#A" n="99"/>uum. Reducitur enim ad primum preceptum secunde 
+      <lb ed="#A" n="100"/>tabule ad quod reducutur omnia precepta in 
+      be<lb ed="#A" n="101" break="no"/>nefaciendo proximis: ideo obligat semper non ta 
+      <lb ed="#A" n="102"/>men pro semper: sed pro loco et tempore quando 
+      <lb ed="#A" n="103"/>videlicet speratur correctio: nec est alius qui correcti 
+      <lb ed="#A" n="104"/>onem illam faciat: vel facere debeat ex officio. 
+      <lb ed="#A" n="105"/>Ad argumentum primum dicendum quod desistere d 
+      <lb ed="#A" n="106"/>correctione fraterna potest contingere tripliciter 
+      <lb ed="#A" n="107"/>Uno modo meritorie quando homo desistit 
+      cor<lb ed="#A" n="108" break="no"/>rigere: quia tempus non est nec locus. Alio 
+      mo<lb ed="#A" n="109" break="no"/>do perniciose quando scilicet homo probabiliter 
+      cre<lb ed="#A" n="110" break="no"/>dit et sperat quod suo verbo possit frem suum a 
+      pec<lb ed="#A" n="111" break="no"/>cato retrahere: sed omittit facere propter aliquod 
+      com<lb ed="#A" n="112" break="no"/>modum temporale. tunc enim ordinem charitatis 
+      per<lb ed="#A" n="113" break="no"/>uertit plus diligens bonum temporale quam animam proximi et 
+      <!--101.xml-->
+      <pb ed="#A" n="102"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>honorem dei. Tertio potest fraterna correctio omitti 
+      <lb ed="#A" n="2"/>ita quod non sit nisi peccatum veniale scilicet quando propter temporale commodum 
+      <lb ed="#A" n="3"/>list i commodum efficitur homo tardior l(sminus diligens ad 
+      cor<lb ed="#A" n="4" break="no"/>reptionem proximorum: non tamen intantum quin si constaret quod ips 
+      <lb ed="#A" n="5"/>posset a peccato mortali retrahere omitteret propter 
+      con<lb ed="#A" n="6" break="no"/>modum temporole. et hoc modo intelligitur auctoritas Aug. 
+      al<lb ed="#A" n="7" break="no"/>legata.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e242">
+      ¶ Ad secundm dicendum quod duplex est correctio 
+      <lb ed="#A" n="8"/>Queda quae pertinet ad praelatum ex officio. quedam quae 
+      parti<lb ed="#A" n="9" break="no"/>net ad zelum. et sic quilibet proximus debet habere curam 
+      ab<lb ed="#A" n="10" break="no"/>terius. Et prima correctio est iusticie vindicatiue 
+      <lb ed="#A" n="11"/>quae est coertio a malo per inflictionem recte pene. et hoc 
+      <lb ed="#A" n="12"/>solum pertinet ad superiores. Secunda est dilectionis quae est 
+      <lb ed="#A" n="13"/>per amicabilem instructionem et mali reprehensionem. et 
+      <lb ed="#A" n="14"/>hec respicit zelum ad quam quilibet tenetur pro loco et tempore. 
+      <lb ed="#A" n="15"/>igitur non opertet discurrere pro aliorum correctione: sed 
+      ma<lb ed="#A" n="16" break="no"/>gis pro suiipsius: et pro tempore vacare debet vtrique. Ad 
+      <lb ed="#A" n="17"/>autoritate dicendum quod nescimus qui sunt reprobati 
+      <lb ed="#A" n="18"/>vel praedestinati: ideo non debemus praetermittere 
+      corre<lb ed="#A" n="19" break="no"/>ctionem ne forte illorum correctioni protermitteremus quoqse 
+      <lb ed="#A" n="20"/>deus monuit corrigendos: ideo omnibus debemus 
+      corre<lb ed="#A" n="21" break="no"/>ctionem impendere sub spe diuini auxilii: quia si deus 
+      <lb ed="#A" n="22"/>non auxiliaretur nullum corrigere possemus ad 
+      emen<lb ed="#A" n="23" break="no"/>dam. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k29005-Dd1e280">
+               <head xml:id="Vn7Pel-k29005-Hd1e282"> 2 </head>
+               <p xml:id="Vn7Pel-k29005-d1e284">
+                  <lb ed="#A" n="24"/>¶ Utrum existentes in peccato morta 
+      <lb ed="#A" n="25"/>li teneantur corrigere alios peccatores: Arguitur quod sic: quia 
+      <lb ed="#A" n="26"/>nullitumt peccatum absoluit a praecepto diuino: sed correctio 
+      fra<lb ed="#A" n="27" break="no"/>terna cadit sub praecepto vt ostensum est. ergo ad illam 
+      <lb ed="#A" n="28"/>impendendam tenetur peccator. Item quanto homo est in 
+      pericu<lb ed="#A" n="29" break="no"/>lo: tato magis tenetur facere bona per quae ad liberationem 
+      <lb ed="#A" n="30"/>a periculo disponatur. Sed existens in mortali peccato est 
+      <lb ed="#A" n="31"/>in periculo maximo. ergo maxime tenetur elemosynam 
+      im<lb ed="#A" n="32" break="no"/>pendere proximo. quia vt dicitur Tobie. xii. Elemosyna a 
+      <lb ed="#A" n="33"/>morte liberat. Cum ergo correctio fraterna sit 
+      elemo<lb ed="#A" n="34" break="no"/>syna maxima existens in peccato mortali tenetur ad illam 
+      <lb ed="#A" n="35"/>proximo impendendam.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e313">
+      ¶ In contrarium dicit glo. super illue 
+      <lb ed="#A" n="36"/>salmus Peccatori autem dixit deus etc. laudem quaerit deus sed 
+      <lb ed="#A" n="37"/>nec turpis putet sibi hanc imperari prohibet ne 
+      lingua<lb ed="#A" n="38" break="no"/>praesumat laudare cui obuiat conscientia. Si corrigere 
+      <lb ed="#A" n="39"/>fremm est laus dei. ergo peccatores non debent corrigere 
+      <lb ed="#A" n="40"/>frens. Unde Magister in littera li. iiii. di. xix. hoc est 
+      potissi<lb ed="#A" n="41" break="no"/>mum crimen sacerdotum et detestabile qui non prius se 
+      iu<lb ed="#A" n="42" break="no"/>dicant quam aliosligant. ergo a simili illi crimem incurrunt qui 
+      <lb ed="#A" n="43"/>non prius se iudicant quam alios. Respondet idem Rich. vbi 
+      <lb ed="#A" n="44"/>supra. q. ii quod peccator aut est occultus aut manifestus 
+      <lb ed="#A" n="45"/>Correctio etiam aut est in occulto aut in 
+      manifesto<lb ed="#A" n="46" break="no"/>peccatori criminoso manifesto non licet frem corrigo 
+      <lb ed="#A" n="47"/>re in publico propter scandalum. et quia talis correctio 
+      <lb ed="#A" n="48"/>fit cum assumpitione verbi dei quod non debet propter sui 
+      di<lb ed="#A" n="49" break="no"/>gnitatem manifeste assumi peros manifeste pollutum 
+      <lb ed="#A" n="50"/>nc verbum dei in ore eius vilesceret in conspectu hominum 
+      <lb ed="#A" n="51"/>secus in peccato occulto. Sed Pe. de pal. in. iiii. 
+      di<lb ed="#A" n="52" break="no"/>xix. dicit: etiam si peccatum suum sit occultum: quia suspensus est 
+      <lb ed="#A" n="53"/>coram deo. Facit ad hoc. ii. q. vii. qui nec. et dicit idem 
+      Pe<lb ed="#A" n="54" break="no"/>trus: hoc est verum in plato in spiritualibus: 
+      se<lb ed="#A" n="55" break="no"/>cus de praelato in temporalibus: quia si iudex suspendit latro 
+      <lb ed="#A" n="56"/>nem existens in mortali ipse non peccat mortaliter. Unde slice 
+      <lb ed="#A" n="57"/>Tho. vbi supra. Idem est in pralato corrigente praedicando i 
+      <!--101.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>mortali etiam occulto quod peccat mortaliter: secus si 
+      cor<lb ed="#A" n="59" break="no"/>rigit per modum magisterii publice docendo id est 
+      legen<lb ed="#A" n="60" break="no"/>do scripturam sacra. quia si est occultus vt dicunt quidam 
+      <lb ed="#A" n="61"/>non peccat mortaliter: sed solum quando est notorius: quia 
+      sca<lb ed="#A" n="62" break="no"/>dalizat frens. verumtamen quando cumque habet oportunitatem 
+      conte<lb ed="#A" n="63" break="no"/>rendi corrigens de mortali si non conteritur: et sic 
+      corri<lb ed="#A" n="64" break="no"/>git peccat mortaliter cum sit suspensus quo ad se: ex quo 
+      exe<lb ed="#A" n="65" break="no"/>quitur officium interdictum.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e385">
+      ¶ Ad argumentum primum 
+      di<lb ed="#A" n="66" break="no"/>cendum quod peccata non absoluut hominem a praecepto: nec pro 
+      <lb ed="#A" n="67"/>pter hoc homo perplexus est: quia si homo vult facere quod in se 
+      <lb ed="#A" n="68"/>est deus paratus est remittere sibi peccatum
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e394">
+      ¶ Ad secundum 
+      di<lb ed="#A" n="69" break="no"/>cendum quod non concludit de peccato occulto sisi prout 
+      di<lb ed="#A" n="70" break="no"/>ctum est. In oppositum patet responsio ex praedictis. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k29005-Dd1e402">
+               <head xml:id="Vn7Pel-k29005-Hd1e404"> 3 </head>
+               <p xml:id="Vn7Pel-k29005-d1e406">
+                  <lb ed="#A" n="71"/>¶ Utrum peccet mortaliter platus 
+      <lb ed="#A" n="72"/>no corrigendo: Arguitur quod sic: quia dicitur Ezech. 
+      Custo<lb ed="#A" n="73" break="no"/>di virum istum qui si lapsus fuerit: anima tua erit pro anima eius: 
+      <lb ed="#A" n="74"/>Respondetur quod si loquamur de peccato omnino occulto non 
+      te<lb ed="#A" n="75" break="no"/>netur praelatus nisi secrete: nec debet. Si vero loquamur 
+      <lb ed="#A" n="76"/>de peccato manifesto: sic tenetur praelatus eam facere de prae 
+      <lb ed="#A" n="77"/>cepto id est sub pena mortalis peccati. vt patet dist. lxxxiii. 
+      <lb ed="#A" n="78"/>per totum. nisi in casu quando videret non expedire 
+      communitati<lb ed="#A" n="79" break="no"/>nec illi qui corrigendus est. quia dicitur. xxii. q. v. prodest. siue 
+      <lb ed="#A" n="80"/>plectendo siue ignoscendo hoc solum agitur vt vita hominum 
+      <lb ed="#A" n="81"/>corrigatur. Si vero non expediret communitati: nec etiam noce 
+      <lb ed="#A" n="82"/>ret: et omittendo proficere delinquanti ad emendationem 
+      <lb ed="#A" n="83"/>licite et ex debito omittitur. Si non expedit delinquan 
+      <lb ed="#A" n="84"/>ti correctio: sed tamen communitati non est omittenda. Si vero 
+      <lb ed="#A" n="85"/>ioquimur de correctione quae fit verbo vel doctrina: sic 
+      <lb ed="#A" n="86"/>tenetur multo magis quam alius: siue peccatum sit secretum 
+      <lb ed="#A" n="87"/>siue publicum: videlicet secretum secrete. publicum publice 
+      <lb ed="#A" n="88"/>alias si non corrigit et emendat cum potest peccat mortaliter 
+      <lb ed="#A" n="89"/>vt patet di. xliii. Sit rector. hoc verum est in 
+      criminali<lb ed="#A" n="90" break="no"/>bus. et sic intelligitur glo. xxv. dist. §. alias qua dicit quod 
+      ta<lb ed="#A" n="91" break="no"/>citurnitas in praelato est mortale peccatum
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e454">
+      ¶ Sed di. quid 
+      <lb ed="#A" n="92"/>si scio peccatum alterius quod qui commisit ignoratur
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e459">
+      ¶ Respondet 
+      <lb ed="#A" n="93"/>Monal. in titulo depoenitentia. quod si peccatum est lale quod non 
+      <lb ed="#A" n="94"/>excusat ignorantiam tuc aut non potest probari: quia occubus 
+      <lb ed="#A" n="95"/>tum. et sic si spero de correctione teneor dicere alias non. 
+      <lb ed="#A" n="96"/>vt patet. ii q. vii. plerumque. quia efficeretur peior sed debeo 
+      <lb ed="#A" n="97"/>secrete reuelare praelato qui possit prodesse. Si autem potest 
+      <lb ed="#A" n="98"/>probari tunc si est platus suus tenetur ei dicere: quia ei 
+      prae<lb ed="#A" n="99" break="no"/>cipitur. Si peccauerit in te frater tuus etc. Si vero 
+      <lb ed="#A" n="100"/>non est praelatus aut sperat de correctione et sic tenetur ei 
+      <lb ed="#A" n="101"/>dicere: aut non sperat sed potius de deterioratione. et tunc 
+      <lb ed="#A" n="102"/>non tenetur nisi quando sequeretur ex tali peccato aliorum periculum: vt 
+      <lb ed="#A" n="103"/>puta quia admistrat sacramenta cum non sit sacerdos et 
+      hu<lb ed="#A" n="104" break="no"/>iusmodi Panor. autem etiam tenet quod siue efficiatur 
+      me<lb ed="#A" n="105" break="no"/>lior siue peior tenetur corrigere in tali casu. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k29005-Dd1e491">
+               <head xml:id="Vn7Pel-k29005-Hd1e493"> 4 </head>
+               <p xml:id="Vn7Pel-k29005-d1e495">
+                  <lb ed="#A" n="106"/>¶ Utrum inferiores teneantur 
+      corri<lb ed="#A" n="107" break="no"/>gere superiores: Arguitur quod sic: quia. ii quae xvii. Sicut in 
+      <lb ed="#A" n="108"/>quit laudabile discretumque est reuerentia et honorem 
+      <lb ed="#A" n="109"/>prioribus exhibere: ita rectitudinis et discretionis est 
+      <lb ed="#A" n="110"/>si qua in eis displicent correctione nulla dissimulatione 
+      <lb ed="#A" n="111"/>postponere ne totum quod absit corpus morbus 
+      inua<lb ed="#A" n="112" break="no"/>dat si languor non fuerit curatus in tempore. Item 
+      Gre<lb ed="#A" n="113" break="no"/>in pastorali. Scire praelati debent quod si peruersa 
+      perpe<lb ed="#A" n="114" break="no"/>trant tot mortibus digni sunt quot ad subditos su¬ 
+      <!--102.xml-->
+      <pb ed="#A" n="103"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>do subditos ad perditionis exempla transmittunt. Unde 
+      <lb ed="#A" n="2"/>necesse est quod tanto se cautius a culpa custodiant quando 
+      <lb ed="#A" n="3"/>per praua quae faciunt non soli moriuntur: maxime ergo 
+      cor<lb ed="#A" n="4" break="no"/>rectione indigent. ergo si non assunt supiores 
+      corrigen<lb ed="#A" n="5" break="no"/>tes corrigi possunt per inferiores.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e534">
+      ¶ In contrarium dicitur 
+      <lb ed="#A" n="6"/>i. q. i. Multi secularium qui plus vita sacerdotum quam 
+      <lb ed="#A" n="7"/>suam discutiunt in magnum contemptionis diuinorum 
+      <lb ed="#A" n="8"/>sacramentorum crimen incurrunt. ergo videtur quod illicitum 
+      <lb ed="#A" n="9"/>est subditis sacerdotum ipsos corrigere sacerdotes 
+      <lb ed="#A" n="10"/>Item. ii. q. vii. Paulus dicit. Seniorem ne 
+      increpa<lb ed="#A" n="11" break="no"/>ucris. Sed hec regula tunc in eo obseruanda est 
+      <lb ed="#A" n="12"/>cum cumlpa senioris suo exemplo non trahit ad 
+      inte<lb ed="#A" n="13" break="no"/>ritum corda iuniorum. ergo saltem in casu illo non est 
+      lici<lb ed="#A" n="14" break="no"/>tum inferioribus corrigere superiores. Unde eadem 
+      quae<lb ed="#A" n="15" break="no"/>stione. c. Paulus Petrum reprehendit quod non auderet 
+      <lb ed="#A" n="16"/>nisi se non imparem sciret. Hic includit quod inferior 
+      <lb ed="#A" n="17"/>superiorem rephendere non debet. Respondet Rich. vbi 
+      <lb ed="#A" n="18"/>super. q. iii quod correctione quae est actus vindicatiue 
+      iu<lb ed="#A" n="19" break="no"/>sticie inferiores superiores corrigere non debent 
+      ni<lb ed="#A" n="20" break="no"/>si manifeste errarent in fide. tunc enim si non adessent 
+      <lb ed="#A" n="21"/>superiores vindicantes vel nollent: per inferiores 
+      <lb ed="#A" n="22"/>possunt puniri. quia heresis reddit hereticum omni 
+      <lb ed="#A" n="23"/>catholico inferiorem: non tantum in foro interiori sed etiam 
+      <lb ed="#A" n="24"/>exteriori. Sed loquendo de correctione quae est acts 
+      <lb ed="#A" n="25"/>zeli eliciti ex dilectione: inferiores tenentur superiores 
+      <lb ed="#A" n="26"/>corrigere loco et tempore pro peccatis morum non 
+      arro<lb ed="#A" n="27" break="no"/>gantur nec imperiose sed reuerenter cum humilitate. 
+      <lb ed="#A" n="28"/>Unde Grego. in pastorali. Admonendi sunt 
+      subdi<lb ed="#A" n="29" break="no"/>ti ne praepositorum vitam temere iudicent. si quid eos 
+      for<lb ed="#A" n="30" break="no"/>tasse agere rephensibiliter vident. ne vnde recte 
+      ma<lb ed="#A" n="31" break="no"/>la redarguunt inde per elationis impulsum in 
+      profun<lb ed="#A" n="32" break="no"/>diora mergantur. Admonendi etiam ne cum culpas 
+      prae<lb ed="#A" n="33" break="no"/>positorum considerant contra eos audaciores fiant. 
+      <lb ed="#A" n="34"/>Ad primum dicendum in contrarium quod in illa 
+      auctori<lb ed="#A" n="35" break="no"/>tate reprehenditur ille qui vitam propriam negligit 
+      quan<lb ed="#A" n="36" break="no"/>tum ad mores: et vitam superiorum nimis curiose 
+      di<lb ed="#A" n="37" break="no"/>cutit.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e606">
+      ¶ Ad secundum dicendum quod illam auctoritatem 
+      ex<lb ed="#A" n="38" break="no"/>ponit littera immediate sequens quae est hec. Ubi autem 
+      seni<lb ed="#A" n="39" break="no"/>or iuuenibus exemplum ad interitum prebet ibi 
+      distri<lb ed="#A" n="40" break="no"/>cta increpatione feriendus. Nam scriptum est Esa. xlii. 
+      <lb ed="#A" n="41"/>Laqueus iuuenum omnes vos.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e617">
+      ¶ Ad tertium 
+      dicen<lb ed="#A" n="42" break="no"/>dum quod resistere coram omnibus non est licitum subdito. 
+      <lb ed="#A" n="43"/>Unde Paulus reprehendisset sic Petrum nisi par 
+      illi<lb ed="#A" n="44" break="no"/>esset in fidei defensione quae minui videbatur in 
+      gen<lb ed="#A" n="45" break="no"/>tibus quarum Paulus apostolus erat: Unde ipse ait Gal. ii 
+      <lb ed="#A" n="46"/>Qui operatus est Petro in circumcisione operatus est et 
+      <lb ed="#A" n="47"/>Paulo inter gentes 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k29005-Dd1e635">
+               <head xml:id="Vn7Pel-k29005-Hd1e637"> 5 </head>
+               <p xml:id="Vn7Pel-k29005-d1e639">
+                  <lb ed="#A" n="48"/>¶ Notandum quod circa correctionem 
+      <lb ed="#A" n="49"/>fraternam est quaedam opinio ponens quod illud mandatum 
+      <lb ed="#A" n="50"/>de correctione solum se extendit ad eos qui sunt in 
+      ma<lb ed="#A" n="51" break="no"/>gistratum constituti. quia dicere quod omnes ad hoc 
+      <lb ed="#A" n="52"/>teneantur est omnes constituere transgressores: quod 
+      <lb ed="#A" n="53"/>durum videtur. Galterus de hoc loquens dicit quod 
+      homi<lb ed="#A" n="54" break="no"/>ni bone voluntatis non est multum timendum 
+      de<lb ed="#A" n="55" break="no"/>transgressione. quia hoc praeceptum cum sit affirma 
+      <lb ed="#A" n="56"/>tiuum ligat tantum pro tempore necessitatis vt praedictum est 
+      <lb ed="#A" n="57"/>Tunc autem est necessitas ipsum exequendi quando simlis 
+      <!--102.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>concurrunt sex conditiones. Quarum tres sunt ex parte 
+      fra<lb ed="#A" n="59" break="no"/>tris corripientis. Prima est certa peccati cognitio. 
+      Se<lb ed="#A" n="60" break="no"/>cunda est mansuetudo in corripiendo: quia corripiens 
+      <lb ed="#A" n="61"/>cum ira magis ad peius prouocat quam corripiat. 
+      Ter<lb ed="#A" n="62" break="no"/>tia quod in alio non sit tanta aptitudo ad corripiendum 
+      <lb ed="#A" n="63"/>quia si ipsum peccantem videant alii eque boni sicut ego 
+      <lb ed="#A" n="64"/>vel meliores: et ei forte familiariores vel prelatus 
+      <lb ed="#A" n="65"/>suus probabiliter supponere possum quod aliquis 
+      isto<lb ed="#A" n="66" break="no"/>rum illu corrigat. Ex parte vero fratris peccantis sunt tres 
+      <lb ed="#A" n="67"/>alie conditiones. Quarum prima est spes probabilis de eius 
+      <lb ed="#A" n="68"/>correctione. non enim debet fieri correctio cum peioratioe 
+      ti<lb ed="#A" n="69" break="no"/>metur Prouer. ix. Noli arguere derisore ne oderit 
+      <lb ed="#A" n="70"/>te. Secunda est quod suum peccatum sit mortale: quod innuitur cum 
+      <lb ed="#A" n="71"/>dicitur Mat. xviii. Si te auderit lucratus es frem 
+      tu<lb ed="#A" n="72" break="no"/>um qui scilicet per peccatum mortale perierat. Tertia est quod non 
+      <lb ed="#A" n="73"/>speretur maior oportunitas temporis correctionis ipsius. 
+      iu<lb ed="#A" n="74" break="no"/>xta illud Ezechiel. Si non annunciaueris 
+      impio<lb ed="#A" n="75" break="no"/>iniquitatem suam sanguinem eius de manu tua requiram. 
+      <lb ed="#A" n="76"/>Super quo interrogatus bcet pater Fraciscus senis a 
+      <lb ed="#A" n="77"/>quodam magistro in theologia: respondit. Si verbum hoc debet 
+      <lb ed="#A" n="78"/>generaliter intelligi: ego taliter accipiam ipsum: quia 
+      ser<lb ed="#A" n="79" break="no"/>uus dei debet sic sanctitate et vita fulgere vt luce 
+      exem<lb ed="#A" n="80" break="no"/>pli et vita sancte conuersationis omnes impios reprehendat: 
+      <lb ed="#A" n="81"/>et ita splendor vite eius: et odor fame annunciabit 
+      <lb ed="#A" n="82"/>omnibus iniquitates suas. Modum vero correctionis frater 
+      <lb ed="#A" n="83"/>ne exprimit christus dicit. Si peccauerit in te frater tuus 
+      <lb ed="#A" n="84"/>scilicet per lesionem vel per scientiam: quia te praesente autem sciente 
+      pec<lb ed="#A" n="85" break="no"/>cat. et hoc intelligitur de peccatis occultis: secundum san. Tho. 
+      <lb ed="#A" n="86"/>Rich. et Lyra. Quia qui publice peccat non solum in 
+      te<lb ed="#A" n="87" break="no"/>peccat: sed in alios quos scandalizat: et peccata publica 
+      <lb ed="#A" n="88"/>sunt publice arguenda maxime a praelatis. i. Tin. v 
+      <lb ed="#A" n="89"/>Peccantest cora omnibus argue vt ceteri timorem habe 
+      <lb ed="#A" n="90"/>ant. In peccatis igitur secretis in quibus correctio 
+      fra<lb ed="#A" n="91" break="no"/>terna habet locum. et iste processus vt homo corrigat 
+      fra<lb ed="#A" n="92" break="no"/>trem suum inter se et ipsum solum vt sic possit ipsum 
+      salua<lb ed="#A" n="93" break="no"/>re omnimoda integritate sue fame. Lesa enim fama 
+      ef<lb ed="#A" n="94" break="no"/>ficietur homo inuerecundus. et per conseques minus a peccato 
+      re<lb ed="#A" n="95" break="no"/>trahitur quam prius. Si autem non audierit te adhibe 
+      tecum<lb ed="#A" n="96" break="no"/>vnum vel duos etc. quia enim fama est minus bonum quam 
+      <lb ed="#A" n="97"/>sit bona vita: procedendum est vlterius ad 
+      salu<lb ed="#A" n="98" break="no"/>tem bone vite cum aliquali lesione fame: quae quidem fama 
+      <lb ed="#A" n="99"/>est conseruanda secundum possibilitatem corrigentis: puta 
+      as<lb ed="#A" n="100" break="no"/>sumendo vnum de illis qui peccatum fratris nouerunt si 
+      <lb ed="#A" n="101"/>qui fuerint: vel de illis qui possunt et volunt 
+      prodes<lb ed="#A" n="102" break="no"/>se et non obesse: et sunt vnus vel duo adhibendi ad 
+      <lb ed="#A" n="103"/>efficacius ostendendum fratri peccatum suum et reuocandum 
+      <lb ed="#A" n="104"/>ipsum ab eo. et est frater pluries monendus secundum 
+      san<lb ed="#A" n="105" break="no"/>Tho. quamdiu probabiliter praesumitur de eius correctione 
+      <lb ed="#A" n="106"/>Quod si se non correxerit: tuc dicendum est ecclesie id est 
+      prae<lb ed="#A" n="107" break="no"/>lato per publicam denunciationem. Si autem praeceptum 
+      praela<lb ed="#A" n="108" break="no"/>ti contempserit est per censuram ecclesiasticam a fidelibus se 
+      <lb ed="#A" n="109"/>parandus. de cuius sententie approbatione sequitur. 
+      Amen<lb ed="#A" n="110" break="no"/>dico vobis quecumque alligaueritis etc.
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e782">
+      ¶ 
+      Conside<lb ed="#A" n="111" break="no"/>randum tamen circa praedicta quod si tardatio corfectionis 
+      fu<lb ed="#A" n="112" break="no"/>erit in notabile praeiudicium communitatis: tunc secreta 
+      ad<lb ed="#A" n="113" break="no"/>monitio non esset expectanda: sed statim esset 
+      praela<lb ed="#A" n="114" break="no"/>to denunciandum qui posset periculo praecauere: vt si 
+      ali<lb ed="#A" n="115" break="no"/>quis secrete tractaret cum aliquibus ciuibus qualiter 
+      <!--103.xml-->
+      <pb ed="#A" n="104"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ciuitas hostibus tradenda esset. vel si hereticus in se 
+      <lb ed="#A" n="2"/>creto fideles corrumporet. Bonum siquidem commue est 
+      bo<lb ed="#A" n="3" break="no"/>no particulari praeferendum. nec hoc est contra formam 
+      le<lb ed="#A" n="4" break="no"/>gis euangelice datam de ordine correctionis. quia 
+      <lb ed="#A" n="5"/>lex est interpretanda ex legislatoris intentione. hoc enim 
+      <lb ed="#A" n="6"/>est epifeizare vt dicitur. v. Eth. Unde in his quae tradit 
+      do<lb ed="#A" n="7" break="no"/>minus seruanda aliquando opertet formam obseuare: vt 
+      <lb ed="#A" n="8"/>in sacramentis in quibus non licet recedere a 
+      praescri<lb ed="#A" n="9" break="no"/>ptis verborum formis: quia in ipsis sacramenti virtus consistit. 
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e821">
+                  <lb ed="#A" n="10"/>¶ Aliquando vero finis intentus magis attendi quam forma 
+      ver<lb ed="#A" n="11" break="no"/>borum: vt cum dominus dicit curato a lepra. Uade 
+      ne<lb ed="#A" n="12" break="no"/>mini dixeris: et tamen ille diffamauit eum. quia magis 
+      <lb ed="#A" n="13"/>attendit propter quid dixerit quam quidpixerit
+    </p>
+               <p xml:id="Vn7Pel-k29005-d1e832">
+      ¶ Per hoc 
+      <lb ed="#A" n="14"/>enim volebat dominus innuere quod homines non debeunt 
+      quae<lb ed="#A" n="15" break="no"/>rere gloriam humanam pro operibus virtuosis. Similiter 
+      <lb ed="#A" n="16"/>hic magis debet attendi finis correctionis scilicet 
+      emen<lb ed="#A" n="17" break="no"/>datio peccantis quam ordo verborum. Si quando igitur videa 
+      <lb ed="#A" n="18"/>tur frater peccans salubrius corripi per alium quam per se: 
+      <lb ed="#A" n="19"/>secure potest ei indicare. Et sic dicit Aug. expones ver 
+      <lb ed="#A" n="20"/>ba christi Matth. xviii. Aliquando nobis ab vxoribus 
+      <lb ed="#A" n="21"/>virorum adulteria virorum secreta produntur. nos ver 
+      <lb ed="#A" n="22"/>non prodimus: sed secrete corripimus vt vbi mali 
+      <lb ed="#A" n="23"/>contingit ibi moriatur. Unde cum vxores non reprehendam 
+      <lb ed="#A" n="24"/>tur de hoc quod manifestant secreta peccata virorum 
+      <lb ed="#A" n="25"/>patet quod non semper tenemur seruare ordinem praedictum. Nem 
+      <lb ed="#A" n="26"/>debet etiam secreta monitio praecedere denunciatio 
+      <lb ed="#A" n="27"/>nem cum probabiliter creditur quod non proficeret: sad peccator ma 
+      <lb ed="#A" n="28"/>gis exasperaretur contra corrigentem et praemunitus 
+      subter<lb ed="#A" n="29" break="no"/>fugia quaereret vt corrigi non posset 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k29005-Dd1e870">
+               <head xml:id="Vn7Pel-k29005-Hd1e872"> 6 </head>
+               <p xml:id="Vn7Pel-k29005-d1e874">
+                  <lb ed="#A" n="30"/>¶ Utrum praelatus praecipiens 
+      con<lb ed="#A" n="31" break="no"/>tra formam euangelii subdito vt reuelet peccantem 
+      <lb ed="#A" n="32"/>frem: Respondetur secundum Thomam quod non esset obedicndum 
+      <lb ed="#A" n="33"/>ei. quia opertet obedire deo magis quam hominibus. Ideo sed 
+      <lb ed="#A" n="34"/>praelatus praecipit vt sibi dicat quis quid sciuerit 
+      corri<lb ed="#A" n="35" break="no"/>gendum: intelligendum est saluo ordine correctio 
+      <lb ed="#A" n="36"/>nis fraterne siue praeceptum fiat communiter ad omnes siue 
+      <lb ed="#A" n="37"/>ad aliquem specialiter. et non solum non est obediendum 
+      <lb ed="#A" n="38"/>sed etiam ipse praecipiendo peccaret: quia ipse non est iudex 
+      <lb ed="#A" n="39"/>occultorum sed solus deus. Hoc dico nisi inquantum 
+      <lb ed="#A" n="40"/>pro aliqua indicia peccata manifestantur: puta per in 
+      <lb ed="#A" n="41"/>famiam praesumptiones: et huiusmodi. tunc enim praelatus potest 
+      preci<lb ed="#A" n="42" break="no"/>pere sicut et iudex alius iuramentum exigere. Unde 
+      <lb ed="#A" n="43"/>idem sanctus Tho. in solutione vltimi argumenti dicit 
+      <lb ed="#A" n="44"/>quod non repugnat ordini correctionis fraterne si 
+      pec<lb ed="#A" n="45" break="no"/>catum fratris ante adhibitionem testium dicatur praelato 
+      <lb ed="#A" n="46"/>non tanquam ecclesie seu loco iudicis residenti sed 
+      tan<lb ed="#A" n="47" break="no"/>quam singulari persone quae magis prodesse potest quam alii. 
+      <lb ed="#A" n="48"/>De hac denunciatione secreta dicit Rich. vt patuit supra 
+      <lb ed="#A" n="49"/>quod non est necessarium quod hanc praecedat monitio 
+      secre<lb ed="#A" n="50" break="no"/>ta: maxime quando denuncians ad hoc compelliter per sui 
+      praela<lb ed="#A" n="51" break="no"/>ti obedientiam. Si autem per signa valde 
+      probabilio<lb ed="#A" n="52" break="no"/>ra crederetur quod ex illa correctione fratrem correctum 
+      <lb ed="#A" n="53"/>infamare vellet: tunc crimen occultum fratris de 
+      <lb ed="#A" n="54"/>nunciari non deberet. quia correctio fraterna 
+      ve<lb ed="#A" n="55" break="no"/>etiam subditorum non debet fieri animo nocendi. quia 
+      <lb ed="#A" n="56"/>sic peccaret mortaliter si deliberate et in 
+      notabili<lb ed="#A" n="57" break="no"/>nocumento. secus si in modico malo vel indeli¬ 
+      <!--103.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>berate. sed debet fieri ad bonum deliquantis vt corris 
+      <lb ed="#A" n="59"/>gatur: vel ad aliorum bonum vt timeant vel quietius viuant 
+      <lb ed="#A" n="60"/>vt patet. xxii. q. v. prodest. Et debet esse cum lenitate vt 
+      <lb ed="#A" n="61"/>neque nimia asperitate vlcerentur subditi: nec nimia 
+      be<lb ed="#A" n="62" break="no"/>nignitate soluantur. vt patet di. xlv. disciplina. verumtamtum 
+      <lb ed="#A" n="63"/>si excedat modum non tenetur petere venia a subditis: 
+      <lb ed="#A" n="64"/>vt patet dis. lxxxvi. c. quando necessitas. Unde si excederet 
+      <lb ed="#A" n="65"/>modum praelatus in corrigendo: subditus potest 
+      appel<lb ed="#A" n="66" break="no"/>lare ab ea etiam si sit religiosus. vt patet extra de 
+      ap<lb ed="#A" n="67" break="no"/>pella. c. reprehensibilis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

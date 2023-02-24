@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Emptio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Emptio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="128"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k36770">
+            <head xml:id="Vn7Pel-k36770-Hd1e100">Emptio</head>
+            <div xml:id="Vn7Pel-k36770-Dd1e102">
+               <head xml:id="Vn7Pel-k36770-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k36770-d1e106">
+                  <lb ed="#A" n="45"/>Emptio et 
+      Dedi<lb ed="#A" n="46" break="no"/>tio est alienatio quaedam quae dominium 
+      <lb ed="#A" n="47"/>et possessio rei vendite transfertur per 
+      <lb ed="#A" n="48"/>traditionem ipsius domini rei in emente: 
+      <lb ed="#A" n="49"/>pro ipso soluto praecio. Sunt tamen quaedam quae vendi no 
+      <lb ed="#A" n="50"/>possunt. Primo spiritualia. Secundo liber homo. 
+      Ter<lb ed="#A" n="51" break="no"/>tio illa quorum vsus est solum malus. Quarto res 
+      <lb ed="#A" n="52"/>aliena. Quinto res pupilli etc.
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e126">
+      ¶ Utrum 
+      negocia<lb ed="#A" n="53" break="no"/>tio que consistit in emendo et vendendo quae 
+      vsitatio<lb ed="#A" n="54" break="no"/>ri nomine dicitur mercantia: sit licita
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e133">
+      ¶ Respondet 
+      <lb ed="#A" n="55"/>Alexan. de ales in. iii. parte summe in tractatum de 
+      iu<lb ed="#A" n="56" break="no"/>dicialibus. quod de se non est mala. nec illicita. sed po¬ 
+      <!--127.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>test fieri illicita ratione circumstantie: cause: perione: e 
+      <lb ed="#A" n="58"/>modi: temporis: loci et commercii. Ex circumstantia 
+      <lb ed="#A" n="59"/>cause scilicet quando propter cupiditatem vel aliud aliquod 
+      ma<lb ed="#A" n="60" break="no"/>lum fit. et sic tale peccatum est qualis finis propter quem fit 
+      <lb ed="#A" n="61"/>Unde ille qui per negociationem intendit lucrum tanquam 
+      <lb ed="#A" n="62"/>vltimum finem: et cupit sine labore viuere et solicitu 
+      <lb ed="#A" n="63"/>dine diuintias congregare eiicietur de templo 
+      paradisti<lb ed="#A" n="64" break="no"/>et sic patet quod mortaliter peccat. negociari autem propter pro 
+      <lb ed="#A" n="65"/>priam necessitatem vel pietatem scilicet ad dispensandum 
+      <lb ed="#A" n="66"/>in pios vsus lucrum. vel propter reipublice vtilitatem 
+      <lb ed="#A" n="67"/>vel proximi est causa legitima que facit vt fiat sine 
+      <lb ed="#A" n="68"/>peccato aliter non. Circumstantia personc facit 
+      illici<lb ed="#A" n="69" break="no"/>tum scilicet si est clericus vel religiosus qui peccauit 
+      <lb ed="#A" n="70"/>mortaliter negociando. quia dicit apostolis. Nemo 
+      <lb ed="#A" n="71"/>militans deo implicet se negociis secularibus. Ex 
+      <lb ed="#A" n="72"/>circumstantia modi fit illicita quando exercetur cum 
+      <lb ed="#A" n="73"/>dolo et cum mendaciis seu periuriis vel aliis 
+      pa<lb ed="#A" n="74" break="no"/>ctis. Et si sunt mendacia sicut mendacium quod 
+      dici<lb ed="#A" n="75" break="no"/>tur intentione decipiendi proximum etiam in magna re 
+      <lb ed="#A" n="76"/>si posset. vel periurium sit negociatio est mortale pec 
+      <lb ed="#A" n="77"/>catum. Ex circumstantia temporis scilicet festiui ab ecclesia 
+      pecc<lb ed="#A" n="78" break="no"/>pti. Ex circumstantia loci scilicet diuino cultui 
+      deputa<lb ed="#A" n="79" break="no"/>ti: sicut est ecclesia vel cimiterium. In ecclesia enim non 
+      <lb ed="#A" n="80"/>potest fieri sine mortatur peccato nisi magna necessitas 
+      <lb ed="#A" n="81"/>excuset. vt patet extra de immunitate ecle. c. decet 
+      do<lb ed="#A" n="82" break="no"/>mum dei. hoc intellige de actuali contractione rerum que 
+      <lb ed="#A" n="83"/>sine strepitu fieri no potest. secus est in vendendis 
+      <lb ed="#A" n="84"/>candelis que sine strepitu venduntur. Ex 
+      circumsta<lb ed="#A" n="85" break="no"/>tia commercii: quod quidem est damnosum 
+      reipu<lb ed="#A" n="86" break="no"/>plice. sicut cum quis emit vilius et carius vendat cum 
+      <lb ed="#A" n="87"/>damno reipublice: sicut sunt illi qui totum 
+      granu<lb ed="#A" n="88" break="no"/>emunt vel omnes merces et huiusmodi. vt postea 
+      ven<lb ed="#A" n="89" break="no"/>dant modo suo. Si vero commercium est vtile 
+      reipu<lb ed="#A" n="90" break="no"/>blice: sicut illud quo merces portantur de terra vbi 
+      <lb ed="#A" n="91"/>abundant ad aliam vbi deficiunt. vel illud quo de 
+      <lb ed="#A" n="92"/>vna re fit aliud: sicut faciunt artifices de lana 
+      pa<lb ed="#A" n="93" break="no"/>num: et de cera candelis et huiusmodi. vel illud 
+      <lb ed="#A" n="94"/>quo quis conseruat res quas emit vt vendat tem 
+      <lb ed="#A" n="95"/>pore debito eo quia quilibet non potest statim 
+      eme<lb ed="#A" n="96" break="no"/>re: sic istis licet negociari si alie circumstantie 
+      as<lb ed="#A" n="97" break="no"/>sunt. aliis autem est damnationis. et de eis 
+      loqui<lb ed="#A" n="98" break="no"/>tur Chrysostomus distinc. lxxxvii. ca. eiiciens. et 
+      <lb ed="#A" n="99"/>Magister in. iiii. distinc. xiiii. Miles vel negocia 
+      <lb ed="#A" n="100"/>tor vel alicui officio deditus quod sine peccato 
+      exeu<lb ed="#A" n="101" break="no"/>cere non potest: recognoscat se veram penitentia 
+      <lb ed="#A" n="102"/>non posse peragere etc. et Scotus pulcre declarat 
+      <lb ed="#A" n="103"/>in. iiii. dist. xv. q. ii ar. ii 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k36770-Dd1e247">
+               <head xml:id="Vn7Pel-k36770-Hd1e249"> 2 </head>
+               <p xml:id="Vn7Pel-k36770-d1e251">
+                  <lb ed="#A" n="104"/>¶ Utrum liceat rem carius 
+      ven<lb ed="#A" n="105" break="no"/>dere quam valeat: Respondetur quod non: quia 
+      iniu<lb ed="#A" n="106" break="no"/>stum est secundum se carius vendere rem quam valeat in 
+      ve<lb ed="#A" n="107" break="no"/>ritate: vel secundum estimationem hominum. sed 
+      iniu<lb ed="#A" n="108" break="no"/>stum est illicitum. ergo etc. Maior probatur: quia 
+      <lb ed="#A" n="109"/>iusticia est reddere vnicuique quod suum est. 
+      ven<lb ed="#A" n="110" break="no"/>dens vero carius non recipit quod suum est sed 
+      <lb ed="#A" n="111"/>vltra. ergo.
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e271">
+      ¶ In contrarium est illud vulgatum 
+      <lb ed="#A" n="112"/>prouerbium Quod res tantum valet quantum 
+      ven<lb ed="#A" n="113" break="no"/>di potest. Respondetur quod de hoc sunt varie opinionta 
+      <!--128.xml-->
+      <pb ed="#A" n="129"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>doctoru. xxtra de emp. et ven. Cum dilecii. tamen prout 
+      <lb ed="#A" n="2"/>colligi potest ex dictis Scoti in. iiii. dist. xv. res 
+      <lb ed="#A" n="3"/>tantum vendi potest quantum emptorem inuenit: et 
+      econ<lb ed="#A" n="4" break="no"/>trario emi potest quantum venditorem inuenit: 
+      dum<lb ed="#A" n="5" break="no"/>modo hec quattuor concurrant. Primum scienta scilicet quod 
+      <lb ed="#A" n="6"/>nulla sit deceptio ex parte alterius. sed quilibet 
+      ipu<lb ed="#A" n="7" break="no"/>sorum agnoscat rem et eius qualitatem et valorem. 
+      Se<lb ed="#A" n="8" break="no"/>cundum libertas voluntatis scilicet quod non faciat ex tali 
+      no<lb ed="#A" n="9" break="no"/>cessitate que excludat rationem voluntarii. quomodo 
+      au<lb ed="#A" n="10" break="no"/>tem possit perpendi quod non fiat voluntarie: 
+      considera<lb ed="#A" n="11" break="no"/>si talis res pertinet ad necessitatem vite. sicut sunt 
+      gra<lb ed="#A" n="12" break="no"/>num: vinum: medicine: vestis: domus et huiusmodi: 
+      si<lb ed="#A" n="13" break="no"/>ne quibus viuere quisque non potest. quia talia non 
+      pos<lb ed="#A" n="14" break="no"/>sunt vendi ad libitum. sed iustum praecium debet 
+      taxa<lb ed="#A" n="15" break="no"/>ri. Attenditur etiam quod non sit libera voluntate 
+      quando<lb ed="#A" n="16" break="no"/>quis vendere vel emere vult tali praecio propter 
+      eui<lb ed="#A" n="17" break="no"/>tandum notabile damnum. nisi quando quis vt vende 
+      <lb ed="#A" n="18"/>ret tali praecio vel emeret esset incursurus: puta 
+      amis<lb ed="#A" n="19" break="no"/>sionem maioris partis suorum bonorum vel notabilio 
+      <lb ed="#A" n="20"/>rem. certe ista necessitas et omnis timor qui cadit in 
+      <lb ed="#A" n="21"/>constanem virum excludit libertatem voluntatis. secus 
+      <lb ed="#A" n="22"/>in minori metu. qui enim sic necesse constricto vende 
+      <lb ed="#A" n="23"/>ret carius afflicto adderet afflictionem et faceret 
+      con<lb ed="#A" n="24" break="no"/>tra charitatem.
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e336">
+      ¶ Tertium quod sit prudens: quia 
+      magna<lb ed="#A" n="25" break="no"/>mentis leuitas redderet contractum illicitum
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e341">
+      ¶ 
+      Quar<lb ed="#A" n="26" break="no"/>to quod ille qui vendit vel emit plus debito possit 
+      do<lb ed="#A" n="27" break="no"/>nare. ar. extra de dona. c. ii. Si vero hec 
+      quattu<lb ed="#A" n="28" break="no"/>or non concurrunt: tunc no licet emere vel 
+      vende<lb ed="#A" n="29" break="no"/>re nisi iusto praecio. et scienter notabiliter plus 
+      ven<lb ed="#A" n="30" break="no"/>dens vel minus emens peccat mortaliter et tenetur 
+      <lb ed="#A" n="31"/>ad restitutionem. quod quidem praecium debet attendi secundum 
+      <lb ed="#A" n="32"/>communem estimationem. quomodo autem ista estimatio 
+      <lb ed="#A" n="33"/>debet fieri quando non est communitas talis commercii. 
+      Di<lb ed="#A" n="34" break="no"/>cendum quod pensatis raritate laboribus et periculis 
+      iu<lb ed="#A" n="35" break="no"/>dicio boni mercatoris determinabitur. quia alia 
+      re<lb ed="#A" n="36" break="no"/>gula non potest dari: et hoc in remobili. in 
+      immobi<lb ed="#A" n="37" break="no"/>li vero estimatur secundum fructus.
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e371">
+      ¶ Et nota quod quo ad 
+      <lb ed="#A" n="38"/>galorem attendi debet tempus contractus empitionis 
+      <lb ed="#A" n="39"/>nisi sit dubium an tempore solutionis sit plus 
+      va<lb ed="#A" n="40" break="no"/>litura.
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e380">
+      ¶ Aduerte tamen praedicta non habere locum 
+      <lb ed="#A" n="41"/>quando plus venditur ratione temporis: quia praecium 
+      <lb ed="#A" n="42"/>non soluitur: licet enim foret sciens et volens: tamen non 
+      <lb ed="#A" n="43"/>txcusaret vsuram.
+    </p>
+               <p xml:id="Vn7Pel-k36770-d1e389">
+      ¶ Sed d ¶ An liceat rem 
+      ven<lb ed="#A" n="44" break="no"/>dere secundum quod vendens eam sibi existimat vtilem: 
+      quam<lb ed="#A" n="45" break="no"/>uis emens non libere emat: Respondetur quod sic si ex 
+      tali<lb ed="#A" n="46" break="no"/>venditione tale damnum incurrat quantum plus 
+      ven<lb ed="#A" n="47" break="no"/>dit. vel quando talem affectionem ad rem habet. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Absolutio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Absolutio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="9"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k22711">
+            <head xml:id="Vn7Pel-k22711-Hd1e100">Absolutio</head>
+            <div xml:id="Vn7Pel-k22711-Dd1e102">
+               <head xml:id="Vn7Pel-k22711-Hd1e104">1</head>
+               <p xml:id="Vn7Pel-k22711-d1e106">
+                  <lb ed="#A" n="4"/>Absolutio 
+      pri<lb ed="#A" n="5" break="no"/>mo ab excommunicatione. notandum circa 
+      <lb ed="#A" n="6"/>hoc quod secundum san. Bonauen. in. iiii. 
+      <lb ed="#A" n="7"/>di. xviii. ar. iii. q. ii quod duplex est 
+      <lb ed="#A" n="8"/>excommunicatio. Quedam enim est a iure. quadam a iudice. 
+      Pri<lb ed="#A" n="9" break="no"/>ma excommunicatio est praeseruatiua. Secunda est curatiua. 
+      <lb ed="#A" n="10"/>Sententia dicitur ferri ab eo qui potest facere constitutionem 
+      gene<lb ed="#A" n="11" break="no"/>ralem vt papa: vel particularem vt legatus vel episcopus si 
+      sta<lb ed="#A" n="12" break="no"/>tuunt aliquid imperpetuum et ferunt sententiam in 
+      transgres<lb ed="#A" n="13" break="no"/>sores. Si autem statutum non sit perpetuum. vel feratur sententia 
+      <lb ed="#A" n="14"/>in fauorem vel odium aliquarum personarum particularium. 
+      ta<lb ed="#A" n="15" break="no"/>lis sententia non iuris dicenda est sed hominis. secundum Ro. Est 
+      <lb ed="#A" n="16"/>etiam sciendum quod duplex est absolutio. Una quae pertinet 
+      <lb ed="#A" n="17"/>ad forum poenitentiale. et hec solum ad sacerdotes pertinet. 
+      <lb ed="#A" n="18"/>Alia est quae mere pertinet ad forum contentiosum. et hec 
+      <lb ed="#A" n="19"/>potest committi diacono et inferioribus clericis. vel etiam 
+      <lb ed="#A" n="20"/>laico cui competit vt dicit Panor. extra de offi. 
+      ordi<lb ed="#A" n="21" break="no"/>c. Pastoralis. ita tamen quod absolutus a talibus opertet vt 
+      <lb ed="#A" n="22"/>postea absoluatur iterum a sacerdote ratione mortalis 
+      pecca<lb ed="#A" n="23" break="no"/>propter quod fuit excommunicatus. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e153">
+               <head xml:id="Vn7Pel-k22711-Hd1e155">2</head>
+               <p xml:id="Vn7Pel-k22711-d1e157">
+                  <lb ed="#A" n="24"/>¶ Utrum omnis sacerdos possit 
+      ab<lb ed="#A" n="25" break="no"/>soluere ab excommunicatione a iure: Respondetur quod duplex est 
+      <lb ed="#A" n="26"/>excommunicatio a iure scilicet maior et minor. Maior quae separat 
+      <lb ed="#A" n="27"/>a sacramentis et etiam consortio hominum. Minor quae separat tantum 
+      <lb ed="#A" n="28"/>a sacramentis percipiedis. et contrahitur participando in locut 
+      <lb ed="#A" n="29"/>one et huiusmodi cum excommunicatis maiori excommunicatione. 
+      Di<lb ed="#A" n="30" break="no"/>cendum ergo quod non omnis sacerdos potest absoluere ab ex 
+      <lb ed="#A" n="31"/>communicatione minori. Sed solum proprius episcopus vel 
+      cura<lb ed="#A" n="32" break="no"/>tus: vel habens licentiam ab eis vel a papa. ar. c. nuper. 
+      <lb ed="#A" n="33"/>de senten. excommuni. De excommunicatione autem maiore a 
+      iure<lb ed="#A" n="34" break="no"/>potest absolui ab episcopo vel proprio sacerdote: nisi 
+      condi<lb ed="#A" n="35" break="no"/>tor canonis sibi reseuauerit. extra eo. nuper. in fino 
+      <lb ed="#A" n="36"/>vbi sic dicitur. Uerum si difficile sit ex aliqua iusta caus quod 
+      <lb ed="#A" n="37"/>ad ipsum excommunicatorem absoluendus accedat: 
+      concedi<lb ed="#A" n="38" break="no"/>mus vt praestita iuxta formam ecclesie iuratoria 
+      cau<lb ed="#A" n="39" break="no"/>tione quod excommunicatoris mandato parcbit a suo 
+      absol<lb ed="#A" n="40" break="no"/>uatur episo vel proprio sacerdote: iusta causa assignatur 
+      <lb ed="#A" n="41"/>propter magnam distantiam. extra eo. dilatum. Et hanc 
+      <lb ed="#A" n="42"/>opinionem tenent theologi i. iiii. di. xviii. sicut sam. 
+      Bo<lb ed="#A" n="43" break="no"/>nauen. et Tho. et etiam summiste multi: sicut Monal. 
+      <lb ed="#A" n="44"/>titur. Excommunicatio. Cuius tamen contrarium tenet Panor. extra 
+      <lb ed="#A" n="45"/>de sen. excommuni. c. monachi. et c. mulieres. Utraque tamen 
+      <lb ed="#A" n="46"/>potest teneri si seruetur rationabiliter. Resuauit autem 
+      abso<lb ed="#A" n="47" break="no"/>lutionem ab excommunicatione sex casibus conditor iuris 
+      pa<lb ed="#A" n="48" break="no"/>pa. Primus si verberat clericum: in quo casu non potest ab 
+      <lb ed="#A" n="49"/>solui nisi a domino papa llegato octo casibus exceptis 
+      <lb ed="#A" n="50"/>Secundus casus de illo qui incendit ecclesiam et 
+      denuncia<lb ed="#A" n="51" break="no"/>tus est ab episcopo. Tertius casus de illo qui frangit 
+      ec<lb ed="#A" n="52" break="no"/>clesiam et denunciatus est. Quartus casus de eo 
+      <lb ed="#A" n="53"/>qui scienter et sponte participat cum excommunicatis a papa: et 
+      <lb ed="#A" n="54"/>recipit eos in officiis maxime quando nominatim 
+      expri<lb ed="#A" n="55" break="no"/>muntur. Quintus de illo qui falsat litteras apostolice sedis. 
+      <lb ed="#A" n="56"/>Sextus de illo qui communicat excommunicato in crimine: tunc 
+      <lb ed="#A" n="57"/>enim debet absolui ab eoqui excommunicauit si etiam non sit 
+      <!--8.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>eius subditus. A primo ero casu excipiuntur set casus. 
+      <lb ed="#A" n="59"/>Primus est si sit in articulo mortis. Secundus si 
+      fu<lb ed="#A" n="60" break="no"/>it ostiarius potentis: et percussit non ex odio vel 
+      pro<lb ed="#A" n="61" break="no"/>posito. Tertius si percutiens clericum sit mulier. 
+      Quar<lb ed="#A" n="62" break="no"/>tus si regularis regularem. Quintus si sit seruus et 
+      <lb ed="#A" n="63"/>non grauiter lesit: et dominus eius damnificaretur de eius 
+      ab<lb ed="#A" n="64" break="no"/>sentia: et ipse dominus est sine culpa. Sextus si sit 
+      pau<lb ed="#A" n="65" break="no"/>per. Septimus si sit impubes vel senex vel 
+      vali<lb ed="#A" n="66" break="no"/>tudinarius. Octauus si habet inimicicias capita 
+      <lb ed="#A" n="67"/>les. De excommunicatione vero illata a iudice nullus potest 
+      ab<lb ed="#A" n="68" break="no"/>solui nisi ab ipso iudice vel eius superiori excepto 
+      so<lb ed="#A" n="69" break="no"/>lo articulo mortis. Hec san. Bonauen. vbi supra 
+      di<lb ed="#A" n="70" break="no"/>cit idem quod ab excommunicatione minori potest absolui a 
+      quali<lb ed="#A" n="71" break="no"/>bet habente tunc potestatem absoluendi a peccato. vnde duo taliter 
+      <lb ed="#A" n="72"/>excommunicati inuicem se absoluere possunt. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e271">
+               <head xml:id="Vn7Pel-k22711-Hd1e273">3</head>
+               <p xml:id="Vn7Pel-k22711-d1e275">
+                  <lb ed="#A" n="73"/>¶ Utrum idem sit dicendum de 
+      excommuni<lb ed="#A" n="74" break="no"/>catione statutorum prouicialium conciliorum autm synodalium 
+      <lb ed="#A" n="75"/>seu quae faciunt legati in suis legationibus sicut de 
+      maio<lb ed="#A" n="76" break="no"/>ri excommunicatione a iure: Respondet quod sic: quia secundum Panor. 
+      <lb ed="#A" n="77"/>ex quo conditores nec sibi nec aliis reseuarunt videtur 
+      <lb ed="#A" n="78"/>aliis concessisse. Guil. autem intelligit etiam de propriis 
+      <lb ed="#A" n="79"/>sacerdotibus ex quo excipit religiosos: quibus est 
+      prohibi<lb ed="#A" n="80" break="no"/>tum a talibus sententiis prouincialibus aut synodalibus 
+      <lb ed="#A" n="81"/>absoluere. vt patet in cle. de priuile. religiosi. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e298">
+               <head xml:id="Vn7Pel-k22711-Hd1e300">4</head>
+               <p xml:id="Vn7Pel-k22711-d1e302">
+                  <lb ed="#A" n="82"/>¶ Utrum aliquis possit absolui 
+      inui<lb ed="#A" n="83" break="no"/>tus: Arguitur quod no: quia dictum est Petro. Quodcunque 
+      <lb ed="#A" n="84"/>ligaueris superterram erit ligatum et in celis. Ideo con 
+      <lb ed="#A" n="85"/>formari debet ligatio quae fit in terris ei quae fit in celis et 
+      <lb ed="#A" n="86"/>econuerso. Alioquin non fit vt debet sed in celis nullus 
+      ab<lb ed="#A" n="87" break="no"/>soluitur inuitus. ergo nec in terris dcbet. Item manente casa 
+      ma<lb ed="#A" n="88" break="no"/>nere debet et effectus: sed causa propter quam infligitur excommunicatio est 
+      <lb ed="#A" n="89"/>contumacia: sed quamdiu non vult absolui est rebellis et 
+      <lb ed="#A" n="90"/>contumax. ergo iuitus non debet absolui. In contrarium videtur quod 
+      pos<lb ed="#A" n="91" break="no"/>sit inuitus absolui ab excommunicatione: quia patr carnalis multa 
+      <lb ed="#A" n="92"/>bona praestat filio inuito. ergo videtur quod pater spiritualis possit 
+      <lb ed="#A" n="93"/>absoluere subditum ipso iuito
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e331">
+      ¶ Item pronior debet esse ad 
+      <lb ed="#A" n="94"/>mistradum quam ad condenadum: sed aliquis de iure pot 
+      excommuni<lb ed="#A" n="95" break="no"/>care inuitum: ergo multomagis absoluere. Respondetr. secilic. 
+      Bo<lb ed="#A" n="96" break="no"/>na. vbi supra quod aliud est facere et aliud iuste facere. Potest 
+      <lb ed="#A" n="97"/>ei quis excommunicari non seruato ordine iuris: et tamen est 
+      excommunica<lb ed="#A" n="98" break="no"/>tus. Similiter seruato iuris ordine excommunicatus est excommunicatus. 
+      <lb ed="#A" n="99"/>Similitr in absolutione potest quis absolui de iure vel de 
+      fa<lb ed="#A" n="100" break="no"/>cto. De iure nullus excommunicatus absolui potest nisi cesset a 
+      <lb ed="#A" n="101"/>contumacia: de facto absolui potest secundum voluntatem praelati in 
+      <lb ed="#A" n="102"/>cuius potestate est sententiam ferre et reuocare. Unde si talis 
+      ab<lb ed="#A" n="103" break="no"/>soluatur nc peccat nec est excommunicatus qui ei communicat: siue ex 
+      <lb ed="#A" n="104"/>communicatus fuerit iuste vel iniuste. verum sicut rationes probat: talis 
+      <lb ed="#A" n="105"/>absolui non debet si iuste est excommunicatus nec de iure ab 
+      <lb ed="#A" n="106"/>solui potest. Si autem excommunicatus fuisset iniusteposset eum pra 
+      <lb ed="#A" n="107"/>latus absoluere est iuitum non propter suum meritum: sed ad 
+      re<lb ed="#A" n="108" break="no"/>uocandum suum crrorem. Argumenta ergo quaehoc probant sunt 
+      conce<lb ed="#A" n="109" break="no"/>denda. Ad illud quod obiicitur de patre qui iuito filio praestat. 
+      <lb ed="#A" n="110"/>beneficium Docondum quod non est simile in beneficinis temporalibus et 
+      spiritu<lb ed="#A" n="111" break="no"/>alibus: quia temporalia prosunt inuitis: sed beneficium absolutionis 
+      <lb ed="#A" n="112"/>nullo iuito prodest: imoobest. Sicut fastidios non est 
+      <lb ed="#A" n="113"/>corporalis cibus igerendus: quia obest ei caut eiicit aut 
+      ma<lb ed="#A" n="114" break="no"/>gis illo grauatur. sic in proposito est intelligendum ad illud quod 
+      <lb ed="#A" n="115"/>potest excommunicare inuitum. Dicendum quod excommunicatio est cor¬ 
+      <!--9.xml-->
+      <pb ed="#A" n="10"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>reptio de contumacia: et ideo vtilis esttalis contumaci et 
+      <lb ed="#A" n="2"/>nolenti. econtra absolutio est vtilis redeuti non in 
+      <lb ed="#A" n="3"/>contumacia existenti. Et ideo talem excommunicatum absoluere 
+      <lb ed="#A" n="4"/>potius est praestare iram quam misericordiam: sicut ille qui dimiti 
+      <lb ed="#A" n="5"/>iit iniuria multam. Unde melius est sic quod sathane 
+      tra<lb ed="#A" n="6" break="no"/>datur corpus quam spiritus: sic melius isti est quod permaneat in 
+      <lb ed="#A" n="7"/>vinculo quam detur ei beneficium cum contemptu vt et alii distant 
+      <lb ed="#A" n="8"/>non rebellare et contradicere. sicut chore Dathan et Abirato 
+      <lb ed="#A" n="9"/>ergo sicut in foro poenitentiali non debet quis absoluere inuitum 
+      <lb ed="#A" n="10"/>sic nec in foro iudiciali quando excommunicatio est iuridice 
+      <lb ed="#A" n="11"/>facta. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e414">
+               <head xml:id="Vn7Pel-k22711-Hd1e416">5</head>
+               <p xml:id="Vn7Pel-k22711-d1e418">
+                  <lb ed="#A" n="12"/>¶ Utrum ille qui incurrit 
+      excommunica<lb ed="#A" n="13" break="no"/>tionem in vno episcapatu possit absolui ab alio in cuius 
+      <lb ed="#A" n="14"/>diocesi moratur: Respondetur secundum Rich. in. iiii. di. xviii 
+      <lb ed="#A" n="15"/>quod cum episcopus alicuius possit eum absoluere a peccatis: quod 
+      <lb ed="#A" n="16"/>extra suum episcapatum commisit probabile videtur quod etiam 
+      po<lb ed="#A" n="17" break="no"/>set ipsum absoluere ab excommunicatione quae est a iure quam 
+      <lb ed="#A" n="18"/>extra suum episcapatum contraxit: nisi conditor canonis 
+      si<lb ed="#A" n="19" break="no"/>bi absolutionem reseruasset: secus si est ab homine: quia 
+      <lb ed="#A" n="20"/>non tantum defertur excommunicationi quae est a iure sicut illi quae est 
+      ab<lb ed="#A" n="21" break="no"/>homine.
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e442">
+      ¶ Notandum secundum Rich. quod legatus postquam exiit 
+      <lb ed="#A" n="22"/>termins legationis sue absoluere non potest illum quem 
+      <lb ed="#A" n="23"/>intra terminum sue legationis excommunicauerat: nec episcopus 
+      <lb ed="#A" n="24"/>extra suam diocesim post aliquem absoluere ab 
+      excommuni<lb ed="#A" n="25" break="no"/>catione in foro contentioso ibi scilicet tribunali sedendo ad 
+      <lb ed="#A" n="26"/>cognoscendum de casm: quia hoc praeiudicaret alii episcopo: 
+      li<lb ed="#A" n="27" break="no"/>cet posset committere hoc alicui in sua diocesi: potest 
+      <lb ed="#A" n="28"/>tamen suum subditum vbique absoluere in foro poenitentiali non 
+      <lb ed="#A" n="29"/>tantum a peccatis sed etiam ab excommunicatione: quia in hoc nulli irn 
+      <lb ed="#A" n="30"/>iudicium facit. Episcopi tamen expulsi possunt extra suam dioco 
+      <lb ed="#A" n="31"/>sim iurisdicione suam exercere si hoc per se vel per alium 
+      <lb ed="#A" n="32"/>non possunt in sua diocesi. vt patet in cle. de fo. compe. 
+      quam<lb ed="#A" n="33" break="no"/>uis iudex a papa delegatus non valet absoluere eum 
+      <lb ed="#A" n="34"/>post annum quem excommunicauit. extra de offi. dele. quaerenti. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e474">
+               <head xml:id="Vn7Pel-k22711-Hd1e476">6</head>
+               <p xml:id="Vn7Pel-k22711-d1e478">
+                  <lb ed="#A" n="35"/>¶ An absolutus ab officiali 
+      epi<lb ed="#A" n="36" break="no"/>scopi excommunicati sit vere absolutus. Arguitur quod non: quia 
+      <lb ed="#A" n="37"/>si episcopus corporaliter moreretur aute deponeretur antequam 
+      offi<lb ed="#A" n="38" break="no"/>cialis inciperet vti suo officio: iurisdicio sibi 
+      con<lb ed="#A" n="39" break="no"/>cessa expiraret. extra de offi. dele. licet. in glor. ergo a simili 
+      <lb ed="#A" n="40"/>si absoluat aliquem. Respondetur secundum Rich. quod aute episcopus 
+      <lb ed="#A" n="41"/>instituit illum officialem suum postquam iam erat excommunicatus 
+      <lb ed="#A" n="42"/>vel ante. si primo modo talis non est vere absolutus: quia cum 
+      <lb ed="#A" n="43"/>episcopus excommunicatus maiori excommunicatione sit ab omni actu 
+      le<lb ed="#A" n="44" break="no"/>gitimo suspensus non potuit instituere officialem. Si 
+      <lb ed="#A" n="45"/>secundo modo est vere absolutus. vt patet extra de offi. 
+      vi<lb ed="#A" n="46" break="no"/>carii. Romana liro vi.
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e507">
+      ¶ Ad argumentum dicendum 
+      <lb ed="#A" n="47"/>quod non est simile de morte corporali et excommunicatione: quia 
+      <lb ed="#A" n="48"/>mors aufert potestatem imperpetuum. et similiter depositio 
+      au<lb ed="#A" n="49" break="no"/>fert potestatis executionem. Excommunicatio autem non scilset 
+      sus<lb ed="#A" n="50" break="no"/>pendit eam ad tempus. Sede autem vacante potest capitulum 
+      <lb ed="#A" n="51"/>absoluere a sententia a iure vel ab homine sic poterat chiscopus 
+      <lb ed="#A" n="52"/>extra de maio. et obe. liro vi. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e524">
+               <head xml:id="Vn7Pel-k22711-Hd1e526">7</head>
+               <p xml:id="Vn7Pel-k22711-d1e528">
+                  <lb ed="#A" n="53"/>¶ Utrum archiepos possit 
+      absolue<lb ed="#A" n="54" break="no"/>re excommunicatos a suis episois. Respondetur quod potest in casu 
+      con<lb ed="#A" n="55" break="no"/>cesso: puta quia per appellationem est ad se delata sententia 
+      <lb ed="#A" n="56"/>et sic vocatis partibus et cognito de appellatione alas 
+      <!--9.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>non valet. extra de appel. Romana libro vi. Si autem 
+      <lb ed="#A" n="58"/>episcopus absoluat excommunicatum per suum archidiaconum: 
+      de<lb ed="#A" n="59" break="no"/>canum vel plebanum tenet: quia est iudex ordinarius tam 
+      <lb ed="#A" n="60"/>tericorum quam laicorum sui epirscapatus. ar. xi. q. i. de persona. 
+      <lb ed="#A" n="61"/>Sed non debet sine conscientia illius et congrua satisfactione. 
+      <lb ed="#A" n="62"/>extra de offi. ordi. Cum ecclesiarum platis. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e558">
+               <head xml:id="Vn7Pel-k22711-Hd1e560">8</head>
+               <p xml:id="Vn7Pel-k22711-d1e562">
+                  <lb ed="#A" n="63"/>¶ An absolutio ex falsa causa 
+      va<lb ed="#A" n="64" break="no"/>leat. Respondetur secundum Innocen. et Hosti. quod non. quia sic 
+      <lb ed="#A" n="65"/>iudex non intendit absoluere: vtputa si 
+      absoluen<lb ed="#A" n="66" break="no"/>dus dicat se satisfecisse: vel iniuriam sibi remissam 
+      <lb ed="#A" n="67"/>esse vel aliquid tale quod non sit verum: alias absolutio 
+      si<lb ed="#A" n="68" break="no"/>ue sit iusta siue iniusta tenet quo ad ecclesiam 
+      mili<lb ed="#A" n="69" break="no"/>tantem. ar. extra de reg. iu. Omnis res. Si autem de 
+      fa<lb ed="#A" n="70" break="no"/>cto quis absoluit excommunicatum quem non poterat: et 
+      post<lb ed="#A" n="71" break="no"/>ea aduertat se non potuisse det si potest certificare eum 
+      <lb ed="#A" n="72"/>de errore et consulere quod petat absolutionem ab eo qui 
+      <lb ed="#A" n="73"/>potest. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e589">
+               <head xml:id="Vn7Pel-k22711-Hd1e591">9</head>
+               <p xml:id="Vn7Pel-k22711-d1e593">
+                  <lb ed="#A" n="74"/>¶ Utrum idem sit dicendum de 
+      suspen<lb ed="#A" n="75" break="no"/>sione aut interdicto quod imponitur a iure aut per 
+      sta<lb ed="#A" n="76" break="no"/>tuta prouincialia aut synodalia: sicut de excommunicatione 
+      <lb ed="#A" n="77"/>Respondetur quod sic. Ex quo enim conditor canonis non 
+      resua<lb ed="#A" n="78" break="no"/>uit. quod intellige quando suspensio non habetempus 
+      determina<lb ed="#A" n="79" break="no"/>tum: quia si habeat nullus inferior absoluere potest vt dicit 
+      <lb ed="#A" n="80"/>Panor. extra de testi. c. tam litteis.
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e611">
+      ¶ Quid si episcopus 
+      con<lb ed="#A" n="81" break="no"/>mittit alicui vices suas an talis valeat 
+      absolue<lb ed="#A" n="82" break="no"/>re supradictos sicut episcopus potest. Respondetur quod non: nisi hoc 
+      <lb ed="#A" n="83"/>expresse concedat. ar. de pe. et remis. Si episcopus li. vi. 
+      eti<lb ed="#A" n="84" break="no"/>am sisdiceret. committimus vobis vices nostras etiam in 
+      <lb ed="#A" n="85"/>his quae speciale mandatum exigunt: quia in tali mandato 
+      <lb ed="#A" n="86"/>maiora et grauiora non veniunt quam in commissione sunt 
+      <lb ed="#A" n="87"/>expressa. extra de procur. non potest. in cle. etc. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e630">
+               <head xml:id="Vn7Pel-k22711-Hd1e632">10</head>
+               <p xml:id="Vn7Pel-k22711-d1e634">
+                  <lb ed="#A" n="88"/>¶ Utrum illi qui habent excommunicatos u 
+      <lb ed="#A" n="89"/>absoluere possunt aliis committere. Respondetur secundum Befn. 
+      <lb ed="#A" n="90"/>extra de offi. iudicis ordi. eis quibus. quod illi possunt 
+      com<lb ed="#A" n="91" break="no"/>mittere qui possunt absoluere iure a principe delegato 
+      <lb ed="#A" n="92"/>vel iure ordinario seu ex priuilegio perpetuo ratione 
+      di<lb ed="#A" n="93" break="no"/>gnitatis vel officii concesso. Illi autem committere non 
+      <lb ed="#A" n="94"/>possunt quibus hoc competit non ex officio sed ex priuilegio eis 
+      <lb ed="#A" n="95"/>spenaliter concesso: quia certum ministerium eis committitur in 
+      <lb ed="#A" n="96"/>hac parte: non autem iurisdicio. vt patet extra de offi. 
+      de<lb ed="#A" n="97" break="no"/>sega. quoniam apostolica. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e660">
+               <head xml:id="Vn7Pel-k22711-Hd1e662">11</head>
+               <p xml:id="Vn7Pel-k22711-d1e664">
+                  <lb ed="#A" n="98"/>¶ Queritur cum de excommunicatione 
+      du<lb ed="#A" n="99" break="no"/>bitatur an debeat peti absolutio: Respondetur secundum Ro. 
+      <lb ed="#A" n="100"/>quod si quis dc hoc habeat conscientiam nimis scrupulosam 
+      <lb ed="#A" n="101"/>eam deponat ad consilium boni viri quam si noluerit vel 
+      <lb ed="#A" n="102"/>non possit deponere: vel habeat de hoc probabilem 
+      opi<lb ed="#A" n="103" break="no"/>nionem: quia in dubiis tutior via est eligenda: ideo 
+      faci<lb ed="#A" n="104" break="no"/>at se absoluere ad cautelam. ar. extra de sen. ex. inquisi 
+      <lb ed="#A" n="105"/>tioni. Excommunicatus etiam pluribus excommunicationibus ab vno vel 
+      <lb ed="#A" n="106"/>a diuers cpiscptis potest absolui ab vna absque hoc quod 
+      absol<lb ed="#A" n="107" break="no"/>uatur ab alia. quia secundum Bonauen. non sic est connexio 
+      in<lb ed="#A" n="108" break="no"/>absolutione sicut in gre infusione. Et legatus a plturibus 
+      iu<lb ed="#A" n="109" break="no"/>dicibus debet ab omnibus absolui: alias debet vitari. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e694">
+               <head xml:id="Vn7Pel-k22711-Hd1e696">12</head>
+               <p xml:id="Vn7Pel-k22711-d1e698">
+                  <lb ed="#A" n="110"/>¶ Utrum excommunicatus qui se offert u 
+      <lb ed="#A" n="111"/>ad iusticiam debeat absolui. Respondetur quod sic si 
+      compe<lb ed="#A" n="112" break="no"/>tens cautio de parendo iuri praestetur non obstante contradi¬ 
+      <!--10.xml-->
+      <pb ed="#A" n="11"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ctione vel appellationem aduersarii: extra de ap. qua fronte. 
+      <lb ed="#A" n="2"/>Fallit hoc i casu quando excommunicatus dicit excommunicationis sententiam 
+      <lb ed="#A" n="3"/>esse nullam: tamen petit absolui ad cautelam: quia tunc si ad 
+      <lb ed="#A" n="4"/>uersarius dicat eum excommunicatum pro manifesta offensa: etpro 
+      <lb ed="#A" n="5"/>bet infra terminum. viii. dierum. tunc non pot absolui nisi 
+      pri<lb ed="#A" n="6" break="no"/>sufficientem praestet emendam: vt patet extra de sen. ex. c. solet. 
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e727">
+                  <lb ed="#A" n="7"/>¶ An excommunicatus propter damnum de 
+      <lb ed="#A" n="8"/>beat satisfacere prius antequam absoluatur: Respondetur quod 
+      <lb ed="#A" n="9"/>sic si potest. si vero non potest debet praestare idoneam cautionem quod 
+      <lb ed="#A" n="10"/>satisfaciet cum ad praenguiorem veniat fortunam vt patet extra 
+      <lb ed="#A" n="11"/>de ver. sig. ex parte. Si autem quis mortuus fuerit in excommunica 
+      <lb ed="#A" n="12"/>tione: tamen sigugt contritionis ostenderit: debet absolui auctoritae eius 
+      <lb ed="#A" n="13"/>qui excommunicauit: vt patet de sen. excom. c. a nobis. et ad hoc 
+      <lb ed="#A" n="14"/>ufficit vnus testis fidedignus. nec debet exhumari 
+      <lb ed="#A" n="15"/>in sacro loco si sepultus sit. si vero non in sacro 
+      loco<lb ed="#A" n="16" break="no"/>debet exhumari et in loco sacro sepeliri etc. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e752">
+               <head xml:id="Vn7Pel-k22711-Hd1e754">13</head>
+               <p xml:id="Vn7Pel-k22711-d1e756">
+                  <lb ed="#A" n="17"/>¶ Utrum exemptus possit absolui ab 
+      <lb ed="#A" n="18"/>epo ab excommunicatione inflicta a canone quam conditor 
+      iu<lb ed="#A" n="19" break="no"/>ris sibi non reseruauit: Respondetur quod de hoc varie loquuntur 
+      <lb ed="#A" n="20"/>doctu. quidam dicunt quod sic. Iaco. de lig. et Panor. ex 
+      <lb ed="#A" n="21"/>de fo. con. c. sercasti. sed Io. an. in regu. scienti dicit quod non. 
+      <lb ed="#A" n="22"/>quia non est sue iurisdicionis: nec potest sce submittere sine 
+      <lb ed="#A" n="23"/>licentia pape. nec etiam in casu illo. c. religioso. nec 
+      non<lb ed="#A" n="24" break="no"/>alio exeptus possit absolui ab episcopo nisi vbi specialiter et 
+      <lb ed="#A" n="25"/>committitur a papa. et dictum. c. religioso. loquitur de non 
+      <lb ed="#A" n="26"/>exemptis: quos atea non poterat absoluere propter. c. cum 
+      illo<lb ed="#A" n="27" break="no"/>rum. de sen. excom. Unde si regularis percutiat religiosum 
+      <lb ed="#A" n="28"/>eiusdem claustri: a praelato proprio potet absolui. ex de sen. 
+      <lb ed="#A" n="29"/>excom. cum illorum. nisi excessus sit difficilis et enormis. 
+      <lb ed="#A" n="30"/>vt si ad mutilationem membri: vel ad effusionem 
+      san<lb ed="#A" n="31" break="no"/>guinis sit processum. et hoc ex vulnere inflicto quod 
+      desi<lb ed="#A" n="32" break="no"/>derat etiam medicum chirurgie vel secundum Hosti. aliorum 
+      <lb ed="#A" n="33"/>medicinalium effusio: siquidem abundantiam significat secun 
+      <lb ed="#A" n="34"/>Ber. hoc autem committendum est arbitrio iudicis: puta 
+      abba<lb ed="#A" n="35" break="no"/>tis: vel si in episcntum vel abbatem sit manus iniecta secundum 
+      glo<lb ed="#A" n="36" break="no"/>Ber. idem intelligitur de praelatis alio nomine dictis. Codem quoque 
+      <lb ed="#A" n="37"/>modo potest absolui regularis qui ante ingressum religionis 
+      ta<lb ed="#A" n="38" break="no"/>le quid commisisset. Si vero regularis percusserit 
+      regula<lb ed="#A" n="39" break="no"/>rem alterius claustri per abbatem proprium: et eius qui passus est 
+      <lb ed="#A" n="40"/>iiuriam absoluetur dicto. c. cum illorum. potest tamen vnus alteri 
+      <lb ed="#A" n="41"/>committere. Si vero regularis percusserit clericum scularem 
+      <lb ed="#A" n="42"/>non poterat pius absolui nisi per sedem apostolicam propter scandalum 
+      <lb ed="#A" n="43"/>vt pat in. c. cum illorum. oppositum tamen habst nunc habtur i. c. religs. 
+      <lb ed="#A" n="44"/>oso. li. vi. vbi dicitur quod talis potest per episcntum absolui sicut posset 
+      <lb ed="#A" n="45"/>clericus seclaris intellige de non exemptis. quia si de exemptis 
+      <lb ed="#A" n="46"/>itellexisset sic dixisset sicut dicitur in dicta cle cum ex eo. in fi. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e825">
+               <head xml:id="Vn7Pel-k22711-Hd1e827">14</head>
+               <p xml:id="Vn7Pel-k22711-d1e829">
+                  <lb ed="#A" n="47"/>¶ Quomodo debet excommunicatus absolui: 
+      <lb ed="#A" n="48"/>Respondetur quod non debet esse conditionalis: quia non valeret: 
+      <lb ed="#A" n="49"/>vt patet extra de re. iu. c. actus. libro vi. et secundum Panor. in. c. 
+      <lb ed="#A" n="50"/>de quibus de bap. itelligitur de conditione suspendente actum: 
+      <lb ed="#A" n="51"/>puta de futuro: vt si dicat: absoluo te a peccatis si 
+      <lb ed="#A" n="52"/>satiffeceris: quia talis non est simpliciter absolutio. Secus si 
+      <lb ed="#A" n="53"/>esset conditio de praeterito: quae proprie non est conditio: quia non 
+      sur<lb ed="#A" n="54" break="no"/>pendit actum: vtputa. baptizo te si tu non es baptiza. 
+      <lb ed="#A" n="55"/>No. etc. Unde debet absolues in forma absolutionis ista 
+      <lb ed="#A" n="56"/>quinque obseuare Primum quod faciat excommunicatum iurare 
+      <lb ed="#A" n="57"/>quod perebit mandati ipsius absoluentis. exra de sen. ex. c. ex 
+      <lb ed="#A" n="58"/>renio. quod fieri debtet secndum Hug in crimibus horrendis: non 
+      <lb ed="#A" n="59"/>ianm leuibus. Secundum quod antequam absoluat: sufficientem praestet 
+      <!--10.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="60"/>emendam lesis iuxta proprias facultates. extra eo. c. porro. 
+      <lb ed="#A" n="61"/>et. c. parachianos. Tertium quod absoluat cum praesalmo et 
+      <lb ed="#A" n="62"/>oratione dominica et aliis consuetis. extra eo c. a nobis. Quartum 
+      <lb ed="#A" n="63"/>quod praecipiat ei ne vnquam faciat contra illum canonem contra quem 
+      <lb ed="#A" n="64"/>faciendo incurrit excommunicatione: vt in dicto. c. ex teno. 
+      <lb ed="#A" n="65"/>Consuetudo est habet vt verberetur: quae seruanda est in masculis sed 
+      <lb ed="#A" n="66"/>non in feis nec in multum iuuenibus: praesertim in nudo. Qui 
+      <lb ed="#A" n="67"/>tum quod vtatur verbo absolutorio vel relaxatorio. vnde 
+      communi<lb ed="#A" n="68" break="no"/>ter obseuatur iste modus quod primo dicat paesalmum: 
+      puta<lb ed="#A" n="69" break="no"/>deus misereatur nobis. vel misrere mei. et dominicam orationem. 
+      <lb ed="#A" n="70"/>dein dicat: saluum fac ser. t. v. deus meus sperantem in te. 
+      <lb ed="#A" n="71"/>domine exau. ora. et cla. etc. Dominus vo. etc. Oatio: Deus 
+      <lb ed="#A" n="72"/>cui proprium est mi. etc. et hunc famum. tuum quem 
+      excommunica<lb ed="#A" n="73" break="no"/>tionis cate. constrin. mi. etc. Postea dicat: Ego te 
+      ab<lb ed="#A" n="74" break="no"/>oluo a vincu. excom. quam incur. pro iniectione manuum 
+      <lb ed="#A" n="75"/>violenta in clericum vel propter tale factum: et resti. etc. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e900">
+               <head xml:id="Vn7Pel-k22711-Hd1e902">15</head>
+               <p xml:id="Vn7Pel-k22711-d1e904">
+                  <lb ed="#A" n="76"/>¶ Utrum absolutio teneat si praefata 
+      <lb ed="#A" n="77"/>forma non seruetur: Arguitur quod sic: quia secundum Rich. i. iiii. 
+      <lb ed="#A" n="78"/>di. xviii. sicut potest absens excommunicari: ita etiam potest 
+      absol<lb ed="#A" n="79" break="no"/>ui. sed circa absentem praedicta forma seruari non potest: ergo 
+      <lb ed="#A" n="80"/>sine tali forma tenet absolutio: sicut apostolis 
+      excommunica<lb ed="#A" n="81" break="no"/>uit absens. ergo sicut nudo verbo excommunicari quis potest: ita 
+      <lb ed="#A" n="82"/>etiam absolui. extra de re. iii. omnis res per quascumque cauas 
+      na<lb ed="#A" n="83" break="no"/>scitur per easdem dissoluitur.
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e924">
+      ¶ Item per litteras quis ab 
+      excommunica<lb ed="#A" n="84" break="no"/>tione absoluitur. ergo etc. In conrium tamen dicitur extra de sen. ex. a 
+      no<lb ed="#A" n="85" break="no"/>bis. in fi. quod absolutionis forma seruetur vt fiat cum 
+      <lb ed="#A" n="86"/>oneniali pesalmo et oratine dominica. Et. c. desideres. dicitur quod 
+      <lb ed="#A" n="87"/>daebet excommunicatus iurare quod stabit mandatis ecclesie. Sed 
+      <lb ed="#A" n="88"/>omissa forma nihil fit: quia forma dat esse rei. ideo dicitur 
+      <lb ed="#A" n="89"/>extra de rescp. ca. cum dilecta. quod forma rescripti exacta 
+      <lb ed="#A" n="90"/>diligentia seruanda est ita vt nec ordo praeposteretur. 
+      Respon<lb ed="#A" n="91" break="no"/>detur secundum Rich. quod dicitur seruari forma: sicut dicunt 
+      decre<lb ed="#A" n="92" break="no"/>tales: et aliter faciens si non sit necessitas vel euidens 
+      vtili<lb ed="#A" n="93" break="no"/>tas peccat: tamen hoc omittens vere absoluitur. vnde glo. super 
+      <lb ed="#A" n="94"/>llud: cum desideres. dicit quod iuramentum non est de suba 
+      abso<lb ed="#A" n="95" break="no"/>lutionis: quia potius est ad cautelam quam rigorem canonum. 
+      <lb ed="#A" n="96"/>vnde est distiguendum: quia si absolutio sit alicui commissa 
+      <lb ed="#A" n="97"/>ab homine sub tali forma: non valet nisi seruetur ratio: quia quando 
+      <lb ed="#A" n="98"/>omittitur forma data ab homine nula competit 
+      iurisdi<lb ed="#A" n="99" break="no"/>cio: et propterea ratio valet actus deficiente potestate. Si vero 
+      <lb ed="#A" n="100"/>absol o competat alicui de iure vel simpliciter comittatur 
+      <lb ed="#A" n="101"/>tunc tenet: vt dicatur: absolueris istum ab excommunicatione: 
+      <lb ed="#A" n="102"/>Rto est: quia in absolutione ab excommunicatione sicut et in excommunica. 
+      <lb ed="#A" n="103"/>tione nulla est forma sbalis a iure: vt patet extra de sen. ex. c. 
+      <lb ed="#A" n="104"/>li. vi. et sic absolo solo verbo facta tiet. vnde quaedam 
+      ab<lb ed="#A" n="105" break="no"/>solutio ab excommunicatione est diminuta: quaedam sufficiens: 
+      <lb ed="#A" n="106"/>et quaedam perfecta. absolo diminuta quinpotius nula est 
+      <lb ed="#A" n="107"/>quando non vtitur verbo absolutorio vel relaxatorio vt 
+      di<lb ed="#A" n="108" break="no"/>cat: dominus deus absoluat te ab excommunicatione: quia hec 
+      po<lb ed="#A" n="109" break="no"/>tius est deprecatio quam absolo. Absolo sufficiens est quando 
+      <lb ed="#A" n="110"/>excommunicator dicit excommunicato: reuoco vel relaxo sententiam 
+      <lb ed="#A" n="111"/>quam in te tuli. et non dicit absoluo: quia secundum Rich. tenet 
+      <lb ed="#A" n="112"/>absolto ex vi iurisdicionis in foro exteriori. non sic de 
+      <lb ed="#A" n="113"/>illa quae fit in foro poenitentie. ratione enim sacramenti in ipsa magis sunt 
+      <lb ed="#A" n="114"/>pbseruanda verba. vnde debet dicere sacerdos: absol. te. etc. 
+      <lb ed="#A" n="115"/>Perfecta vero forma absolutionis est talis: Dominus noster 
+      ie<lb ed="#A" n="116" break="no"/>sus christus per merita sue sacratissie pas. te absoluat 
+      <lb ed="#A" n="117"/>et auctoritae qua fungor vel mihi commissa absol. te a viculo 
+      <!--11.xml-->
+      <pb ed="#A" n="12"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>excommunicationis quam incurristi. et restituo te communioni 
+      fi<lb ed="#A" n="2" break="no"/>delium et sacramentis ecclesiasticis.
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e1011">
+      ¶ Item eadem auctoritate 
+      <lb ed="#A" n="3"/>absoluo te ab omnibus peccatis tuls in nomine patris et filii et 
+      <lb ed="#A" n="4"/>spiritus sancti: amen. Si autem fiat dispensatio debet 
+      addi<lb ed="#A" n="5" break="no"/>et dispenso tecum in irregularitate quam contraxisti: et 
+      <lb ed="#A" n="6"/>habilito te ad executiones ordinum sacrorum. vnde si 
+      <lb ed="#A" n="7"/>alicui concederetur quod posset eligere confessorem qui ipsum 
+      <lb ed="#A" n="8"/>absolueret ab omnibus censuris ecclesiasticis et secum 
+      dispen<lb ed="#A" n="9" break="no"/>saret in irregularitatibus: ac plenariam remissionem si 
+      <lb ed="#A" n="10"/>bi concederet: Absoluens vti posset talibus verbis: 
+      Mi<lb ed="#A" n="11" break="no"/>ereatur tui opscepus deus etc. dominus noster iesus christus per merita 
+      <lb ed="#A" n="12"/>ue sacratissime passionis te absoluat: et ego auctorite 
+      <lb ed="#A" n="13"/>mihi commissa absoluo te ab omnibus sententiis 
+      excommuni<lb ed="#A" n="14" break="no"/>cationis suspensionis et interdicti quas incurristi: et 
+      dispen<lb ed="#A" n="15" break="no"/>so tecum in omnibus irregularitatibus quas contraxisti: et 
+      re<lb ed="#A" n="16" break="no"/>stituo te communioni fidelium et sacramentis ecclesiasticis et 
+      habi<lb ed="#A" n="17" break="no"/>lito te ad executiones ordinum sacrorum. Dicta 
+      aucto<lb ed="#A" n="18" break="no"/>absoluote ab omnibus peccatis tuis: et concedo tibi 
+      plena<lb ed="#A" n="19" break="no"/>riam remissionem omnium peccatorum tuorum in nomine patris et fi. etc. 
+      <lb ed="#A" n="20"/>Quia vero quandoque conceditur vnum sine alio: ideo varianda 
+      <lb ed="#A" n="21"/>est absolutio secundum variationem concessionum. Ex praedictui 
+      <lb ed="#A" n="22"/>patet ad argumenta. Si autem quaeras de illo qui absoluitur 
+      <lb ed="#A" n="23"/>per litteram: quando t alis absolutio sortiatur effectu: Respondetur 
+      <lb ed="#A" n="24"/>quod quando littera peruenit ad excommunicatum: et si littera non perueni 
+      <lb ed="#A" n="25"/>ret ad excommunicatum vsque post mortem absoluentis: tamen 
+      <lb ed="#A" n="26"/>absolutus est ex quosigillatur littera. et hoc expresse dicit 
+      glo<lb ed="#A" n="27" break="no"/>sa. xi. q. i. de manifesta. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e1069">
+               <head xml:id="Vn7Pel-k22711-Hd1e1071">16</head>
+               <p xml:id="Vn7Pel-k22711-d1e1073">
+                  <lb ed="#A" n="28"/>ABsolutio 
+      secun<lb ed="#A" n="29" break="no"/>do in foro poenitentiali. Circa quod est 
+      scien<lb ed="#A" n="30" break="no"/>dum quod in sacramento poenitentie aliquid est vt ma 
+      <lb ed="#A" n="31"/>teria: et aliquid vt forma. Materia 
+      <lb ed="#A" n="32"/>sacrameni poenitentie est nostri exterioris actus penitendi: vt sunt 
+      <lb ed="#A" n="33"/>confessio et exterior satisfactio. Forma vero est 
+      abso<lb ed="#A" n="34" break="no"/>lutio sacerdotalis. et licet poenitentia habeat tres partes scilcet 
+      <lb ed="#A" n="35"/>contritionem: confessionem et satisfactionem. secundum Mag. tamen 
+      <lb ed="#A" n="36"/>vbi est debita materia et forma: ibi infunditur gratia 
+      <lb ed="#A" n="37"/>scilicet per hoc sacramentum. quia sicut baptismus est solum intinctio 
+      <lb ed="#A" n="38"/>siue ablutio hominis in aqua: licet multa requirantur ad hoc 
+      <lb ed="#A" n="39"/>quod talis ablutio vere dicatur baptismus secundum Scotum in 
+      <lb ed="#A" n="40"/>iiii. di. iii. scilicet quod fiat in aqua elementari: et quod fiat cum 
+      <lb ed="#A" n="41"/>debita intentione. et sic de aliis: vt patebit infra. 
+      ba<lb ed="#A" n="42" break="no"/>ptismus. Sic in proposito videtur dicendum quod sola abso 
+      <lb ed="#A" n="43"/>lutio sacerdotalis sit sacramentum poenitentie: licet ad hoc quod illa 
+      <lb ed="#A" n="44"/>absolutio sit et vere dicatur sacramentum poenitentie multa requirantur. 
+      <lb ed="#A" n="45"/>quae per eius diffinitionem exprimuntur. vnde Sco. in. iiii. di. 
+      <lb ed="#A" n="46"/>tiiii. sic eam diffinit. Paenitentia est absolutio hominis 
+      confi<lb ed="#A" n="47" break="no"/>tentis facta certis verbis cum debita intentione prolatis a 
+      <lb ed="#A" n="48"/>sacerdote iurisditionem habente in eum ex institutione 
+      di<lb ed="#A" n="49" break="no"/>uina efficaciter significans absolutionem anime a peccato 
+      <lb ed="#A" n="50"/>Dicitur autem absolutio id est quaedam sententia diffinitiua 
+      absol<lb ed="#A" n="51" break="no"/>uens reum. que quidem non est sententia principalis iudicis sed 
+      <lb ed="#A" n="52"/>secundarii siue commissarii. potest enim quis cognoscere in caus 
+      <lb ed="#A" n="53"/>ex commissione et sententiare pro condemnatione rei si est indignus 
+      <lb ed="#A" n="54"/>vel pro absolutione eius si est dignus. Dicitur tandem in 
+      diffi<lb ed="#A" n="55" break="no"/>nitoe hominis confitentis: quia in foro poenitentie non absoluitur 
+      <lb ed="#A" n="56"/>unisi confitens et penitens id est penam tenes aliquo actu penitem 
+      <!--11.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>di scilicet imperando penam vel detestando culpam. Sic enim 
+      <lb ed="#A" n="58"/>videmus in iudicibus secularibus proteruum condennare et 
+      <lb ed="#A" n="59"/>penitentem quandoque absoluere tamquam non reum vel non 
+      punien<lb ed="#A" n="60" break="no"/>dum sententiare. Dicitur tandem in diffinitione: facta: quia 
+      com<lb ed="#A" n="61" break="no"/>gruum est hoc sacramentum poenitentie esse aliquod signum sensibile 
+      <lb ed="#A" n="62"/>exterius quod sercet interiorem anime absolutionem a peccato. 
+      <lb ed="#A" n="63"/>et congruum est illud sensibile signum esse a deo institutum 
+      <lb ed="#A" n="64"/>vt sit efficax signum absolutionis anime a peccato: vt 
+      ma<lb ed="#A" n="65" break="no"/>tis moueat et ducat intellectum in certitudinem et 
+      affe<lb ed="#A" n="66" break="no"/>ctum ad prtomoptitudinem suscipiendi illud signum 
+      sensibi<lb ed="#A" n="67" break="no"/>le quod est sacramentum. Et tale signum instituit dominus Mat 
+      <lb ed="#A" n="68"/>thei. xvi. cum dixit discipulis: Quodcumque solueritis super 
+      <lb ed="#A" n="69"/>terra etc. Et Ioan. xx. ait: Quorum remiseritis peccata 
+      <lb ed="#A" n="70"/>remittuntur eis etc. Dicitur etiam in diffinitione: certis 
+      <lb ed="#A" n="71"/>verbis. Dicit enim Scotus quod non oportet ita esse praecisa 
+      <lb ed="#A" n="72"/>verba in hoc sacramento sicut in baptismo vel in 
+      conse<lb ed="#A" n="73" break="no"/>cratione eucharistie. quia sufficit hoc quod exprimatur sententia 
+      <lb ed="#A" n="74"/>absoluentis. quia hoc sacramentum poenitentie est sacramentum 
+      iudicia<lb ed="#A" n="75" break="no"/>le vel est iudicium sacramentale. et ideo non oportet in eo esse 
+      <lb ed="#A" n="76"/>ita limitata verba sicut nec in iudicio publico. ait 
+      <lb ed="#A" n="77"/>enim vnus iudicum secularium de theodoro martyre: 
+      <lb ed="#A" n="78"/>Iubeo ignibus tradi. Alius de sancto Cypiano: 
+      Gla<lb ed="#A" n="79" break="no"/>dio animaduerti placet. Communiter tantum ista sunt verba apta: 
+      <lb ed="#A" n="80"/>Ego absoluo te a peccatis. Quecumque alia praemittantur 
+      <lb ed="#A" n="81"/>pel subsequantur fit secundum diuersam consuctudinem in 
+      di<lb ed="#A" n="82" break="no"/>uersis ecclesis. Hoc etiam vult sanctus Tho. in. iiii. 
+      <lb ed="#A" n="83"/>di. xiiii. art. i. q.i. in solutione secunde rationis quod in hoc 
+      <lb ed="#A" n="84"/>sacramento sunt aliquae reus scilicet psi exteriores actus. et sunt aliqua 
+      <lb ed="#A" n="85"/>verba scilicet sacerdotis absoluentis quibus exprimitur absolutionits 
+      <lb ed="#A" n="86"/>actus. Et subdit: Sed non requiritur tanta detrminatio 
+      ver<lb ed="#A" n="87" break="no"/>borum sicut inbaptismo et eucharistia: quia non est hoc aliqua 
+      <lb ed="#A" n="88"/>materia sanctificanda: sed magis consistit in remotione 
+      <lb ed="#A" n="89"/>alicuius materie scilicet peccati: quod est materia poenitentie saltem 
+      re<lb ed="#A" n="90" break="no"/>mota: quia propinqua est actus nostri vt detestatio peccati 
+      con<lb ed="#A" n="91" break="no"/>fessio et exterior satisfactio. talis autem remotio 
+      si<lb ed="#A" n="92" break="no"/>gnificatur cum a sacerdote dicitur. Ego te absoluo. nam 
+      <lb ed="#A" n="93"/>peccata sunt quaedam vincula: Prouer. v. Iniquitates sue 
+      <lb ed="#A" n="94"/>capiunt impium: et funibus peccatorum suorum quisque constringi 
+      <lb ed="#A" n="95"/>tur. Et quia sacerdos sicut minister dei absoluit: ideo 
+      co<lb ed="#A" n="96" break="no"/>uenienter addit in absolutione: Ego te absoluoa 
+      <lb ed="#A" n="97"/>peccatis tuis in nomine patris et filii et spiritus sancti amen. vel 
+      <lb ed="#A" n="98"/>auctoritae dei: autem per virtutem passionis christi etc. Quia 
+      <lb ed="#A" n="99"/>tamen hoc non est determinatum ab ecclesia vel ex verbis 
+      <lb ed="#A" n="100"/>christi: ideo relinquitur arbitrio sacerdotis: bonum est 
+      <lb ed="#A" n="101"/>tamen vt in hoc sequtur consuetudinem ecclesie sue. Illa enim oratio 
+      <lb ed="#A" n="102"/>Misereatur tui opisenus. non est de essentia absolutionis 
+      <lb ed="#A" n="103"/>nec ad eam pertinet vt pars eius. sed a quibusdam 
+      praemit<lb ed="#A" n="104" break="no"/>titur absolutioni sacramentali ne impediatur effectus sacramenti ex 
+      <lb ed="#A" n="105"/>parte confitentis. Et ideo si necessitas non vrgeat sacerdotem 
+      <lb ed="#A" n="106"/>bonum est istam formam in absolutione tenere: 
+      Mise<lb ed="#A" n="107" break="no"/>reatur tui opsceus deus et dimissis omnibus peccatis tuis 
+      perdu<lb ed="#A" n="108" break="no"/>cat te ad vitam dominus noster iesus cbristus qui te 
+      crea<lb ed="#A" n="109" break="no"/>uit et redemit: ipse te absoluat: et auctoritae eiusdem ego 
+      <lb ed="#A" n="110"/>te absoluo ab istis peccatis tuis mihi confessis et etiam 
+      <lb ed="#A" n="111"/>ab aliis in nomine patris et filii et spiritus sancti: amen. 
+      passio<lb ed="#A" n="112" break="no"/>christi et laborviginis et omnia bona opera per te facta et 
+      <lb ed="#A" n="113"/>fienda sint tibi in remissionem omnium peccatorum tuorum: et 
+      <lb ed="#A" n="114"/>in augmentum gratiae in praesenti et glorie in futuro: amen. 
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e1268">
+      <!--12.xml-->
+                  <pb ed="#A" n="13"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Notandum quod non est neces dicere in absolutione contri 
+      <lb ed="#A" n="2"/>tis: nec addere oblitis. Ratio est: quia antequam 
+      confessor<lb ed="#A" n="3" break="no"/>praeferat ly contritis iam confitens est absolutus nisi specialiter 
+      <lb ed="#A" n="4"/>confessor intenderet nullatenus absoluere: nisi haberet 
+      con<lb ed="#A" n="5" break="no"/>tritionem ante absolutionem: et tunc multos confitentes 
+      da<lb ed="#A" n="6" break="no"/>naret: pro eo quod multi non habent contritionem an absolutionem 
+      <lb ed="#A" n="7"/>ilicet sufficit quod detestentur peccatum: et in absolutione 
+      infun<lb ed="#A" n="8" break="no"/>ditur gratia. nec est necese exprimere oblitis: quia illa iterum si 
+      <lb ed="#A" n="9"/>occurrant memorie tenetur confiteri. illa aute de quibus est 
+      <lb ed="#A" n="10"/>absolutus non tenetur. Attendat autem confessor quod si 
+      confi<lb ed="#A" n="11" break="no"/>tens est excommunicatus: pios remoueat illam a confitente: di. 
+      <lb ed="#A" n="12"/>Absoluo te primo a vinculo excommunicationis: et 
+      resti<lb ed="#A" n="13" break="no"/>tuo te communioni fidelium ac sacramentis sancte ecclesie. et hoc 
+      <lb ed="#A" n="14"/>si habeat auctoritatem. di. postea: Iterum eadem auctoritate 
+      <lb ed="#A" n="15"/>absoluo te a peccatis tuis mihi modo confessis etc. 
+      <lb ed="#A" n="16"/>vt supra dictum est
+    </p>
+               <p xml:id="Vn7Pel-k22711-d1e1312">
+      ¶ Dicitur in diffinitione: cum debita 
+      <lb ed="#A" n="17"/>intentione prolatis. ita quod intendat eum absoluere a peccatis: 
+      <lb ed="#A" n="18"/>alias nihil facit. quia nula sacramenta ministrantur sine intentione 
+      <lb ed="#A" n="19"/>si non actuali vel habituali: saltem virtuali. Dicitur post 
+      <lb ed="#A" n="20"/>modum a sacerdote: quia a nullo alio quam a sacerdote 
+      <lb ed="#A" n="21"/>potest hoc sacramentum dispensari. vt habetur extra de su. tri. et fi. ca. 
+      <lb ed="#A" n="22"/>Et hoc congruum est vt sic idem habeat potestatem super 
+      cor<lb ed="#A" n="23" break="no"/>pus christi verum et super mysticum. et sic nihil pertinens ad 
+      <lb ed="#A" n="24"/>hoc sacramentum potest aliquo modo a laico dispensari: 
+      <lb ed="#A" n="25"/>sicut nec consecratio eucharistie. Ideo vt dicit 
+      <lb ed="#A" n="26"/>Scotus: confessio facta laico nihil valet virtute 
+      ope<lb ed="#A" n="27" break="no"/>ris operati. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e1340">
+               <head xml:id="Vn7Pel-k22711-Hd1e1342">17</head>
+               <p xml:id="Vn7Pel-k22711-d1e1344">
+                  <lb ed="#A" n="28"/>¶ Utrum omnis sacerdos possit 
+      ab<lb ed="#A" n="29" break="no"/>soluere: Respondetur secundum doct. communiter quod non: sed solum 
+      sacer<lb ed="#A" n="30" break="no"/>dos proprius: quia hoc est de praecepto iuris diuini et ecclesie. 
+      <lb ed="#A" n="31"/>vt patet extra de pe. et remis. c. omnis. nisi secundum Rich. in 
+      ca<lb ed="#A" n="32" break="no"/>su extreme necestis quando alicui imminet pericuium mortis 
+      <lb ed="#A" n="33"/>probabiliter: et proprium sacerdotem habere non potest: quia tunc 
+      qui<lb ed="#A" n="34" break="no"/>libet sacerdos potest absoluere ab omnibus peccatis et 
+      excommuni<lb ed="#A" n="35" break="no"/>cationibus ac aliis censuris. vt dicit glo. extra de offi. 
+      ordi<lb ed="#A" n="36" break="no"/>c. pastoralis. ita quod post talem absolutionem non opertet 
+      am<lb ed="#A" n="37" break="no"/>plius de illis confiteri vel ad aliquem recurrere etiam si 
+      <lb ed="#A" n="38"/>erat casus reseruatus. arg. extra de sen. excom. c. eos. li. 
+      <lb ed="#A" n="39"/>vi. excepto quod de absolutione ab excommunicatione debet 
+      iniun<lb ed="#A" n="40" break="no"/>gi vt si potuerit quamprimum repraestentet se ei qui eum potuit 
+      <lb ed="#A" n="41"/>absoluere. Dicit tamn sanctus Bona. i. iiii. di. xvii. dum 
+      <lb ed="#A" n="42"/>talis sacerdos non sit hereticus: excommunicatus: autm ab 
+      ec<lb ed="#A" n="43" break="no"/>clesia praecisus. Sed reuera nisi sit in confitente periculum 
+      <lb ed="#A" n="44"/>peruersionis: in tali articulo bene potest ab omnibus illis ab 
+      <lb ed="#A" n="45"/>solui. Ratio est. quia secundum Pe. autr. in. iiii. di. xvii. 
+      Po<lb ed="#A" n="46" break="no"/>testas clauis quae est absoluendi a peccato: et ex conseti ad 
+      <lb ed="#A" n="47"/>commutandam penam eternam in temporalem et ad gratiam actiue 
+      <lb ed="#A" n="48"/>conferendam per modum applicantis meritum passionis christi 
+      <lb ed="#A" n="49"/>fundatur in charactere sacerdotali: qui quidem est 
+      inde<lb ed="#A" n="50" break="no"/>lebilis. Et quamuis in tali sacerdote ab ecclesia sit 
+      liga<lb ed="#A" n="51" break="no"/>ta talis potestas: tamen talis necesitas non subiacet legi 
+      posi<lb ed="#A" n="52" break="no"/>tiue. vt patet extra de reg. iu. Quod non est licitum in 
+      lege<lb ed="#A" n="53" break="no"/>necesitas facit licitum. Et secundum Pe. de pal. in. iiii. sicut a 
+      <lb ed="#A" n="54"/>tali potest baptismum recipere: sic et poenitentiam: cum et ipsa 
+      sa<lb ed="#A" n="55" break="no"/>cramentum necestis sit. ergo in tali casu necestis licitum est 
+      <lb ed="#A" n="56"/>confiteri sacerdoti heretico: excommunicato vel preciso: si 
+      <lb ed="#A" n="57"/>alium habere non potest: et absolui ab illis: dummodo sit 
+      <!--12.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>paratus absoluere: quia talem ad hoc inducere non 
+      <lb ed="#A" n="59"/>licet. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e1421">
+               <head xml:id="Vn7Pel-k22711-Hd1e1423">18</head>
+               <p xml:id="Vn7Pel-k22711-d1e1425">
+                  <lb ed="#A" n="60"/>¶ Utrum vnus sacerdos 
+      paro<lb ed="#A" n="61" break="no"/>chialis aut canonicus vel secularis et huiusmodi 
+      pos<lb ed="#A" n="62" break="no"/>sit absolui ab alio sacerdote parochiano: 
+      Respon<lb ed="#A" n="63" break="no"/>detur quod non secundum omnes doctores. sed tenetur 
+      confi<lb ed="#A" n="64" break="no"/>teri suis prelatis vel de eorum licentia. quia dicitur de 
+      <lb ed="#A" n="65"/>peni. et remis. c. Si epircotus. liro vi. quod nulla consuetu 
+      <lb ed="#A" n="66"/>dine posset introduci vt quis eligat sibi 
+      confesso<lb ed="#A" n="67" break="no"/>rem sine sui superioris licentia scilicet autem tacita: 
+      vtpu<lb ed="#A" n="68" break="no"/>ta quia vident et tolerant cum possint prohibere 
+      <lb ed="#A" n="69"/>aut expressa. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k22711-Dd1e1450">
+               <head xml:id="Vn7Pel-k22711-Hd1e1452">19</head>
+               <p xml:id="Vn7Pel-k22711-d1e1454">
+                  <lb ed="#A" n="70"/>¶ Utrum sacerdos electus a 
+      lai<lb ed="#A" n="71" break="no"/>cis in plebanum possit absoluere sine licentia 
+      di<lb ed="#A" n="72" break="no"/>ocesani: Respondetur secundum Astexa. in summa libr. i. 
+      <lb ed="#A" n="73"/>quod de hoc sunt opiniones. Quidam enim dicunt quod non 
+      <lb ed="#A" n="74"/>possunt sine licentia episcopi. quia est ar. extra de 
+      <lb ed="#A" n="75"/>foro compe. c. significasti. si non habet 
+      iurisdicio<lb ed="#A" n="76" break="no"/>nem in actu non potest. Et priuatus non potest 
+      da<lb ed="#A" n="77" break="no"/>re iurisdicionem quam non habet scilicet priuatorum. 
+      <lb ed="#A" n="78"/>C. de iurisdi. omni. iudi. Alii autem dicunt quod qui 
+      <lb ed="#A" n="79"/>libet sacerdos exquo est ordinatus sacerdos 
+      ha<lb ed="#A" n="80" break="no"/>bet iurisdicionem solum: de ficit materia in qua 
+      <lb ed="#A" n="81"/>exerceatur. Et ideo cum sibi exhibetur materia 
+      po<lb ed="#A" n="82" break="no"/>test absoluere propria auctoritate quam habet. Et 
+      <lb ed="#A" n="83"/>istam opinionem tenet Hostien. in clemen. i. de pri 
+      <lb ed="#A" n="84"/>uilegiis. quem sequitur Panormi. licet prius 
+      tenuis<lb ed="#A" n="85" break="no"/>set contrarium. Dicitur vltimo in diffinitione: ex 
+      in<lb ed="#A" n="86" break="no"/>stitutione diuina efficaciter significans absolutionem 
+      <lb ed="#A" n="87"/>anime a peccato. Dicit enim Magister in. iiii. dist. xviii. 
+      <lb ed="#A" n="88"/>quod in soluendis culpis et retinendis ita operatur 
+      sacet<lb ed="#A" n="89" break="no"/>dos euangelicus sicut olim legalis in 
+      mundatio<lb ed="#A" n="90" break="no"/>ne leprosi. quos ille non faciebat leprosos vel munda 
+      <lb ed="#A" n="91"/>tos: sed discernebat qui essent mundi vel immundi. 
+      <lb ed="#A" n="92"/>Sed hoc communiter non tenetur. quia nimis videtur derogare 
+      <lb ed="#A" n="93"/>sacramento poenitentie. Nam si nunquam deleretur peccatum 
+      per<lb ed="#A" n="94" break="no"/>poenitentie sacramentum sed necesse esset ipsum prius deleri per 
+      contri<lb ed="#A" n="95" break="no"/>tionem ad hoc vt digne reciperet sacramentum poenitentia. tunc non 
+      vi<lb ed="#A" n="96" break="no"/>detur quomodo poenitentia esset secunda tabula post 
+      naufragi<lb ed="#A" n="97" break="no"/>um. Prima enim tabula dicitur nauis integra in 
+      ba<lb ed="#A" n="98" break="no"/>ptismo constructa. qua per peccatum fracta peccator 
+      ne<lb ed="#A" n="99" break="no"/>cesse est vt inhereat poenitentie tabule. Dicendum ergo 
+      <lb ed="#A" n="100"/>secundum Scotum ibidem quod peccator ex naturalibus ex 
+      con<lb ed="#A" n="101" break="no"/>muni influentia dei potest considerare peccatu 
+      com<lb ed="#A" n="102" break="no"/>missum vt dei offensiuum et contra eius legem et vt a 
+      <lb ed="#A" n="103"/>deo auersiuum et impeditiuum praemii et inductiuum 
+      <lb ed="#A" n="104"/>supplicii. et sub aliqua illarum rationum detestari. Et 
+      <lb ed="#A" n="105"/>iste motus potest intendi et continuari ante 
+      infusio<lb ed="#A" n="106" break="no"/>nem gratie. Potest etiam iste modus detestandi pec 
+      <lb ed="#A" n="107"/>catum esse bene circumstantionata ratione finis. et iste 
+      <lb ed="#A" n="108"/>motus dicitur attritio et est dispositio siue meritum de 
+      con<lb ed="#A" n="109" break="no"/>gruo ad deletionem peccati mortalis quae consequitur in 
+      ali<lb ed="#A" n="110" break="no"/>quo instanti temporis in quo a deo infunditur gratia. Et sic 
+      <lb ed="#A" n="111"/>idem motus qui fuit att itio gratia informatus fit contritio 
+      <lb ed="#A" n="112"/>ita quod per attritionem qui est actus informis deletur 
+      cul<lb ed="#A" n="113" break="no"/>pa: vt per dispositionem puiam. et per actum formatum qui dici 
+      <lb ed="#A" n="114"/>tur contritio: vt per actu concomitantem culpe deletionem 
+      <!--13.xml-->
+      <pb ed="#A" n="14"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Si autem poneretur peccator sine dispositione sufficiente: 
+      <lb ed="#A" n="2"/>de congruo iustificari esset difficile saluare quod apud 
+      <lb ed="#A" n="3"/>deu non sit acceptatio personarum. Sicut enim adultis 
+      <lb ed="#A" n="4"/>potest habere gratiam delentem originale peccatum duplici 
+      via<lb ed="#A" n="5" break="no"/>scilicet vel ex bono motu disponente de congruo ad 
+      gra<lb ed="#A" n="6" break="no"/>tiam: vel ex susceptione baptismi. Sic in proposito. et hoc 
+      <lb ed="#A" n="7"/>est maioris misericordie duplicem scilicet via instituere 
+      <lb ed="#A" n="8"/>per quam iustificetur peccator: quam ipsum ad vnam artare 
+      <lb ed="#A" n="9"/>Tum etiam quia in susceptione gre per hoc sacramentum poenitentie non 
+      <lb ed="#A" n="10"/>requiritur attritio quae sit meritoria de congruo situt in 
+      pri<lb ed="#A" n="11" break="no"/>ma susceptione scilicet sufficit quod suscipens sacramentum poenitentie non 
+      <lb ed="#A" n="12"/>ponat obicem peccati mortalis in voluntate tunc 
+      <lb ed="#A" n="13"/>actualiter existentis: et quod habeat aliqualem displicentiam 
+      <lb ed="#A" n="14"/>de peccatis commissis cum proposito cauendi de futuro: et 
+      <lb ed="#A" n="15"/>quod velit suscipere sacramentum poenitentie sicut dispensatur in ecclesia 
+      <lb ed="#A" n="16"/>Talis enim in vltimo instanti prolationis verborum recipit 
+      <lb ed="#A" n="17"/>effectum sacrame scilicet gratiam poenitentialem. Hec Sco. in. iiii. di. 
+      <lb ed="#A" n="18"/>xiiii. q. vlt. Idem dicit Petrus aureoli in. iiii. di. xvii. q. i 
+      <lb ed="#A" n="19"/>Nisi inquit meritum christi actualiter applicetur isti vel 
+      ill<lb ed="#A" n="20" break="no"/>nulla culpa deletur: quia solum per meritum passionis christi. 
+      <lb ed="#A" n="21"/>peccata remittuntur. Cum ergo sacramenta sint immediatum 
+      applica<lb ed="#A" n="22" break="no"/>tiuum passionis christi ad nos: ideo omnis culpa deletur 
+      me<lb ed="#A" n="23" break="no"/>diantibus sacramentis de facto exhibitis vel in voto. 
+      Pro<lb ed="#A" n="24" break="no"/>pterea cum poenitentia sit sacramentum et percipiatur in confessione: quia 
+      <lb ed="#A" n="25"/>per eam se homo subdit ministris ecclesie: qui sunt sacramentorum 
+      dispen<lb ed="#A" n="26" break="no"/>satores: Ideo confessio ex vi absolutionis 
+      coniuncti<lb ed="#A" n="27" break="no"/>culpam remittit: nisi confitens obicem peccati mortalis in 
+      <lb ed="#A" n="28"/>actu ponat: vt. supra secundum Scotum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

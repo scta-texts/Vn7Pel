@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Testamentum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Testamentum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="351"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k98555">
+            <head xml:id="Vn7Pel-k98555-Hd1e100">Testamentum</head>
+            <div xml:id="Vn7Pel-k98555-Dd1e102">
+               <head xml:id="Vn7Pel-k98555-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k98555-d1e106">
+                  <lb ed="#A" n="29"/>TEstamentum est dos 
+      <lb ed="#A" n="30"/>luntatis nostre iusta sententia de eo quod quis vult 
+      <lb ed="#A" n="31"/>post mortem fieri cum heredis institutione 
+      <lb ed="#A" n="32"/>Et testamentorum due sunt species. Una dicitur 
+      testa<lb ed="#A" n="33" break="no"/>mentum nuncupatiuum et sine scriptis. et est illud in 
+      <lb ed="#A" n="34"/>quo testatoris et heredis et legatariorum nomina: et omnia quo 
+      <lb ed="#A" n="35"/>in eis continentur coram testibus numncupantur id est 
+      manifestan<lb ed="#A" n="36" break="no"/>tur. et dicitur sine scriptis id est subscriptione testium et aliis 
+      <lb ed="#A" n="37"/>solennitatibus quae requiruntur in testamento in scriptis 
+      fa<lb ed="#A" n="38" break="no"/>cto. Et sine omni scriptura potest quis testificare 
+      nun<lb ed="#A" n="39" break="no"/>cupatiue coram testibus. Secundm dicitur testamentum in 
+      <lb ed="#A" n="40"/>scriptis. Et istud potest facere quis quando non vult quod 
+      <lb ed="#A" n="41"/>aliquis sciat suam dispositionem sic dicendo. coram 
+      no<lb ed="#A" n="42" break="no"/>tario et testibus volo quod heres meus faciet per omnia 
+      <lb ed="#A" n="43"/>prout continetur in quadam mea cedula scripta manu 
+      <lb ed="#A" n="44"/>mea que est apud talem religiosum et valebit. sed 
+      tu<lb ed="#A" n="45" break="no"/>tius est coram notario et testibus saltem septen. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98555-Dd1e146">
+               <head xml:id="Vn7Pel-k98555-Hd1e148"> 2 </head>
+               <p xml:id="Vn7Pel-k98555-d1e150">
+                  <lb ed="#A" n="46"/>¶ Quis potest facere testamentum: 
+      <lb ed="#A" n="47"/>Respondetur quod omnis quicumque non prohibetur. Sed prohibentur 
+      <lb ed="#A" n="48"/>viii. genera personarum. Primo furiosus qui non 
+      ha<lb ed="#A" n="49" break="no"/>bet lucida interualla. extra de testa. ca. fi. Secundo 
+      <lb ed="#A" n="50"/>surdus et mutus a natiuitate: cecus a casu et scit 
+      <lb ed="#A" n="51"/>scribere. Tertio non valens articulate loqui: ita vt non 
+      <lb ed="#A" n="52"/>possit exprimere nomen heredis nec scribere cilicet iubo 
+      <lb ed="#A" n="53"/>mus. C. eo. ti. Quarto impubes etc. Quinto 
+      fili<lb ed="#A" n="54" break="no"/>usfamilias: nisi de castrensi peculio. Sexto 
+      prodi<lb ed="#A" n="55" break="no"/>gus: cui est interdicta a iudice bonorum 
+      administra<lb ed="#A" n="56" break="no"/>tio. Septimo damnatus ad mortem naturalem vel ci¬ 
+      <!--350.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>uilem: vt sunt deportati etiam si fugiunt manum iudicis 
+      <lb ed="#A" n="58"/>et damnati ad perpetuos carceres: Secus si essent da 
+      <lb ed="#A" n="59"/>mnati ad penas inferiores. Octauo manifestus 
+      <lb ed="#A" n="60"/>vsurarius: nisi praestet prius cautionem secundum formam. 
+      co<lb ed="#A" n="61" break="no"/>quamquam. extra de vsu. li. vi. Nono excommunicati secundum quosdam. 
+      <lb ed="#A" n="62"/>extra de sen. excon. li. vi. Sed contrarium tenetur communiter. De 
+      <lb ed="#A" n="63"/>cimo vuus. xiii. q. ii. Illud
+    </p>
+               <p xml:id="Vn7Pel-k98555-d1e196">
+      ¶ UIndecimo quilibet re 
+      <lb ed="#A" n="64"/>ligiosus qui profitetur tria vota essentialia: vt dicitur xii. q. ii 
+      <lb ed="#A" n="65"/>no dicatis. Duodecimo hereticos: quia omnia illius 
+      bo<lb ed="#A" n="66" break="no"/>na sunt confiscata ipso iure. extra de here. c. Cum secundum 
+      <lb ed="#A" n="67"/>leges. li.o vi. Tertiodecimo dubius de suo statu 
+      <lb ed="#A" n="68"/>scilicet an sit in eo statu in quo testari potest: vel non. Exem 
+      <lb ed="#A" n="69"/>plum: captus a latronibus dubitat an sit seruus vel 
+      li<lb ed="#A" n="70" break="no"/>per. Quartodecimo obsides apud infideles 
+      da<lb ed="#A" n="71" break="no"/>ti. Quintodecimo damnatus ad libellum famosum 
+      <lb ed="#A" n="72"/>in iniuriam alterius. quia etiam infamis efficitur. 
+      Se<lb ed="#A" n="73" break="no"/>xtodecimo reus criminis lese maiestatis. 
+      Decimo<lb ed="#A" n="74" break="no"/>septimo est apud hostes captiuus. 
+      Decimoocta<lb ed="#A" n="75" break="no"/>ueis vtroque carens lumine: hodie tamen testatur. 
+      Ulti<lb ed="#A" n="76" break="no"/>mo additur episcopus qui non habet bona ex hereditate vel 
+      <lb ed="#A" n="77"/>artificio aut doctrina antequam esset epircotus: aut non 
+      <lb ed="#A" n="78"/>habet nisi redditus ecclesiasticos: et mobilia quae 
+      si<lb ed="#A" n="79" break="no"/>bi ex illis redditibus prouenerunt. de primis possunt te 
+      <lb ed="#A" n="80"/>stari. extra de testa. quia nos. Sed non de secndis nisi 
+      <lb ed="#A" n="81"/>ex speciali priuilegio pape habeant quod de mobilibus 
+      <lb ed="#A" n="82"/>possint testari: alias non. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98555-Dd1e241">
+               <head xml:id="Vn7Pel-k98555-Hd1e243">3</head>
+               <p xml:id="Vn7Pel-k98555-d1e245">
+                  <lb ed="#A" n="83"/>¶ Utrum aliquod testamentum sit 
+      in<lb ed="#A" n="84" break="no"/>fringendum: Arguitur quod sic: quia voluntas testatoris diebet 
+      <lb ed="#A" n="85"/>per omnia adimpleri. extra de testa. Iudicante. sed 
+      testa<lb ed="#A" n="86" break="no"/>mentum continet vltimam voluntatem testatoris. ergo quodlibet 
+      <lb ed="#A" n="87"/>testamentum dicibet per omnia adimpleri.
+    </p>
+               <p xml:id="Vn7Pel-k98555-d1e258">
+      ¶ In contrarium dicitur. 
+      <lb ed="#A" n="88"/>xvi. q. i. admonere volumus ne pie defunctorum 
+      <lb ed="#A" n="89"/>voluntates quod absit tua remissione cassentur 
+      <lb ed="#A" n="90"/>vbi dicit gloria quod secus si sunt iniuste. Respondet Rich. vbi 
+      <lb ed="#A" n="91"/>supra. ar. iiii. q. i. aut testamentum est rationabiliter factum 
+      <lb ed="#A" n="92"/>ita quod non sit contra equitatem nraturalis iuris: nec diuini 
+      <lb ed="#A" n="93"/>nec positiui. et tuc nullo modo est infringendum. et sic 
+      <lb ed="#A" n="94"/>procedit arguntum. Aut estfcnm contra equitatem iurisnaturalis 
+      <lb ed="#A" n="95"/>vel contra ius diuinum vel positiuum. et tunc non est 
+      adim<lb ed="#A" n="96" break="no"/>plendum: sed quod est ibi superfluum est resecandum. Scien 
+      <lb ed="#A" n="97"/>dum tamen quod testator exheredans suos heredes qui 
+      exhe<lb ed="#A" n="98" break="no"/>reditari non meruerit dans totum aliis: vel legitimam 
+      <lb ed="#A" n="99"/>portionem quae debetur heredibus facum contra equitatem iuri 
+      natu<lb ed="#A" n="100" break="no"/>ralis etiam si det ecclesie. xvii. q. vl. quicumque vult 
+      exhe<lb ed="#A" n="101" break="no"/>redato filio heredem facere ecclesiam quaerat alterum qui 
+      sus<lb ed="#A" n="102" break="no"/>cipiat non Aug. Et infra. quidam cum filios non haberet: nec 
+      <lb ed="#A" n="103"/>peraret: res suas omnes retento sibi vsufructu 
+      do<lb ed="#A" n="104" break="no"/>nauit ecclesie. nati sunt filii illi. reddidit episcopus omnia 
+      <lb ed="#A" n="105"/>illa que ille donauerat in potestatem: habebat episcopus 
+      <lb ed="#A" n="106"/>non reddere sed iuri. fori non iure poli: vbi 
+      testa<lb ed="#A" n="107" break="no"/>mentum infringitur
+    </p>
+               <p xml:id="Vn7Pel-k98555-d1e304">
+      ¶ Sed d. An persoue religio 
+      <lb ed="#A" n="108"/>se possit aliquid in tesiamento dimitti
+    </p>
+               <p xml:id="Vn7Pel-k98555-d1e309">
+      ¶ Respondetur secundum 
+      <lb ed="#A" n="109"/>Rich. vbi supra. q. ii quod legatum factum singulari 
+      perso<lb ed="#A" n="110" break="no"/>ne in religione tenet. Sed cum talis persona non possit habere 
+      <lb ed="#A" n="111"/>proprium: nec aliquid dare vel recipere sine superioris 
+      licen<lb ed="#A" n="112" break="no"/>tia: vt habetur. xii. q. i. non dicatis. sibi non adquiritur 
+      <lb ed="#A" n="113"/>us in illo legato: sed monasterio si est tale quod possit 
+      <!--351.xml-->
+      <pb ed="#A" n="352"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>aliquid possidere in communi tunc monasterium habet ius 
+      re<lb ed="#A" n="2" break="no"/>petendi quia monasterio quaeritur. xix. q. vl. Si qua. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98555-Dd1e334">
+               <head xml:id="Vn7Pel-k98555-Hd1e336"> 4 </head>
+               <p xml:id="Vn7Pel-k98555-d1e338">
+                  <lb ed="#A" n="3"/>¶ Utrum executores infra annum 
+      te<lb ed="#A" n="4" break="no"/>neantur executionem complere: Respondet Rich. vbi supra 
+      ar<lb ed="#A" n="5" break="no"/>ti. v. q. iii. quod aut testator tempus determinat infra qua 
+      <lb ed="#A" n="6"/>vult testamentum esse completum aut non. Si sic: non 
+      <lb ed="#A" n="7"/>tenentur executores tentione necessitatis vsque ad illum 
+      <lb ed="#A" n="8"/>tempus testamentum complere nisi viderent citius ex 
+      <lb ed="#A" n="9"/>plendo facere vtilitati anume defuncti. tunc enim etsi in 
+      <lb ed="#A" n="10"/>foro iudicii compelli non possent citius explere: tamteo 
+      <lb ed="#A" n="11"/>ipsorum conscientia deberet compellere quia supponendum 
+      <lb ed="#A" n="12"/>est quod testator voluit vt illo tempore quo vtilius explere 
+      po<lb ed="#A" n="13" break="no"/>terit testamentum explcatur. Si autem non determinauit 
+      <lb ed="#A" n="14"/>tirus tunc est distinguendum. quia aut executores 
+      <lb ed="#A" n="15"/>habent libere bona de quibus possunt statim 
+      testamen<lb ed="#A" n="16" break="no"/>tum implere aut non habet. Si habent: tunc 
+      imple<lb ed="#A" n="17" break="no"/>re tenentur quancitius possunt. quia debitores sunt illis 
+      <lb ed="#A" n="18"/>quibus legata facta susit. et sicut dicitur. fi. de regu. 
+      iur<lb ed="#A" n="19" break="no"/>In omnibus obligationibus in quibus dies non poni 
+      <lb ed="#A" n="20"/>tur presenti die hebetur. Preterea quanto citius 
+      te<lb ed="#A" n="21" break="no"/>stamentum impletur tanto citius anima defuncti 
+      <lb ed="#A" n="22"/>alleuiatur. Unde illi. executores qui penes se habent 
+      <lb ed="#A" n="23"/>in promptum et per longum tempus tardant suam 
+      execu<lb ed="#A" n="24" break="no"/>tionem implere necatoribus egentium comparantur. xiii. q. 
+      <lb ed="#A" n="25"/>ii. qui oblationes defunctorum aut negant ecclesiis: 
+      <lb ed="#A" n="26"/>aut difficile reddunt tanquam egentium necatores 
+      excom<lb ed="#A" n="27" break="no"/>municentur. Et secundum glosam ibidem hoc non intelligitur de 
+      <lb ed="#A" n="28"/>oblationibus voluntariis: sed de illis bonis quae 
+      reli<lb ed="#A" n="29" break="no"/>cta sunt ecclesiis sicut c. sequenti dicitur. Qui oblationes 
+      <lb ed="#A" n="30"/>defunctorum retinent et illi qui ecclesiis tradere 
+      demo<lb ed="#A" n="31" break="no"/>rantur vt infideles sunt ab ecclesia abiiciendi. 
+      execu<lb ed="#A" n="32" break="no"/>tores etiam si bona retinent pro seipsis sunt sicut fures 
+      <lb ed="#A" n="33"/>et raptores. eodem c. vnde et velut necatores pauperum 
+      <lb ed="#A" n="34"/>ab ecclesiis debent excludi quousque reddant. eadem 
+      <lb ed="#A" n="35"/>q. clerici. Et sacrilegium committunt. xvii. q. iiii. 
+      Sa<lb ed="#A" n="36" break="no"/>crilegium. Unde si executores infra annu saltem ad 
+      <lb ed="#A" n="37"/>monitione episcopi pias voluntates defunctorum non implent 
+      <lb ed="#A" n="38"/>cum possent si vellent per episcotum debent compelli. extra 
+      <lb ed="#A" n="39"/>de testa. nos quidem. et c. tua nobis. Si executores 
+      <lb ed="#A" n="40"/>non habent bona in promptum de quibus infra annum 
+      pos<lb ed="#A" n="41" break="no"/>sint testamentum implere non propter hoc post annum de 
+      <lb ed="#A" n="42"/>uoluitur potestas eorum ad epircotum. tenentur tamten facere quod in 
+      <lb ed="#A" n="43"/>se est vt bona habeant et habita debent distribue 
+      <lb ed="#A" n="44"/>re quancitius possunt. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98555-Dd1e434">
+               <head xml:id="Vn7Pel-k98555-Hd1e436"> 5 </head>
+               <p xml:id="Vn7Pel-k98555-d1e438">
+                  <lb ed="#A" n="45"/>¶ Utrum dilatio executionis in 
+      ali<lb ed="#A" n="46" break="no"/>quo praeiudicet anime testatoris: Arguitur quod non. quia. xx 
+      <lb ed="#A" n="47"/>iiii. q. ii ne quisquam. de eo qui in diuino est iudicio 
+      com<lb ed="#A" n="48" break="no"/>stitutus nobis fas non est aliud decernere praeter illud in 
+      <lb ed="#A" n="49"/>quo eum dies summus inuenit. ergo testator siue sui 
+      execu<lb ed="#A" n="50" break="no"/>tores exequantur ordinationem sue vltime voluntatis 
+      <lb ed="#A" n="51"/>siuc non: non propter hoc habebit nisi bonum vel malum 
+      <lb ed="#A" n="52"/>quod sibi debebatur pro illo statu in quo eum dies mortis in 
+      <lb ed="#A" n="53"/>uenit.
+    </p>
+               <p xml:id="Vn7Pel-k98555-d1e460">
+      ¶ In contrarium arguitur: quia operatio exterior vel 
+      <lb ed="#A" n="54"/>tra bonitatem actus interioris valet ad aliquod 
+      accide<lb ed="#A" n="55" break="no"/>tale praemium vt superius visum est. ergo a simili executio 
+      vle<lb ed="#A" n="56" break="no"/>time voluntatis testatoris vltra bonam voluntatem 
+      <!--351.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>quam habuit in praecipiendo sibi aliquid prodest ad anime 
+      <lb ed="#A" n="58"/>que alleuiationem. et per conscquens qui tardant exequi 
+      prae<lb ed="#A" n="59" break="no"/>iudicant. Respondetur secundum Rich. vbi supra. q. iiii. quod dila 
+      <lb ed="#A" n="60"/>tio executionis in aliquo praeiudicat anime testatoria. cu 
+      <lb ed="#A" n="61"/>ius duplex est ratio. Una: quia quanto citius 
+      ec<lb ed="#A" n="62" break="no"/>clesie et pauperes quibus legatum est recipiunt illud 
+      le<lb ed="#A" n="63" break="no"/>gatum: tato feruentius et citius orant pro anima 
+      defun<lb ed="#A" n="64" break="no"/>cti et orare tenentur. et quanto tardius recipiunt quod eis 
+      <lb ed="#A" n="65"/>legatum est: tanto sunt tepidiores ad orandum. 
+      acce<lb ed="#A" n="66" break="no"/>leratio autem feruentium orationum alleuiat animam 
+      de<lb ed="#A" n="67" break="no"/>functi. Alia ratio est: quia defuncti in charitate merue 
+      <lb ed="#A" n="68"/>runt in hac vita vt si elemosyne pro eis dentur prosint eis 
+      <lb ed="#A" n="69"/>non ad augmentum gratiae: sed ad abbreuiationem 
+      sue<lb ed="#A" n="70" break="no"/>pene. et ideo quanto citius testamenta exequentur: 
+      tan<lb ed="#A" n="71" break="no"/>to citius a pena liberantur: et econuerso quanto 
+      tardi<lb ed="#A" n="72" break="no"/>us tanto tardius. Si tamen legata sua nunquam 
+      solue<lb ed="#A" n="73" break="no"/>rentur per executores: non tamen propter hoc perpetuo 
+      remane<lb ed="#A" n="74" break="no"/>rent in pena: quamuis propter hoc multo tardius 
+      libe<lb ed="#A" n="75" break="no"/>rarentur a pena. Ex dictis patet quam grauissime peccat 
+      <lb ed="#A" n="76"/>retintis res estamenta: vel eorum impedientes executo 
+      <lb ed="#A" n="77"/>res: quia illis dicere possunt anime illud Iob. xix. qua 
+      <lb ed="#A" n="78"/>re persequimim me sicut deus et carnibus meis saturami. 
+      <lb ed="#A" n="79"/>Ad argumentum dicendum quod illud verbum intelligitur de 
+      <lb ed="#A" n="80"/>quoda heretico qui in sua heresi decesserat. et 
+      tali<lb ed="#A" n="81" break="no"/>nihil prodest quicquid postea pro eo fiat. Unde vsurarii. 
+      <lb ed="#A" n="82"/>vel alii aliena retinentes qui in testamento praecipiunt 
+      <lb ed="#A" n="83"/>vt sui executores restituat post mortem suam illis 
+      qui<lb ed="#A" n="84" break="no"/>bus tenentur. et nolunt quod fiat restitutio quamdiu viuunt 
+      <lb ed="#A" n="85"/>sed intendunt illa bona retinere si euadant de 
+      infir<lb ed="#A" n="86" break="no"/>mitate non prodest ad salutem anime sue tale testamentum 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

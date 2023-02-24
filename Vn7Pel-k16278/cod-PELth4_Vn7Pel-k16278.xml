@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Casus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Casus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="57"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k16278">
+            <head xml:id="Vn7Pel-k16278-Hd1e100">Casus</head>
+            <div xml:id="Vn7Pel-k16278-Dd1e102">
+               <head xml:id="Vn7Pel-k16278-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k16278-d1e106">
+                  <lb ed="#A" n="26"/>CAsus episcopis 
+      <lb ed="#A" n="27"/>reseruari de iure qui sint. de hoc 
+      diuenr<lb ed="#A" n="28" break="no"/>sitas est inter doctus. nam glo. extra de 
+      <lb ed="#A" n="29"/>pe. et remis. c. si episcopus li. vi. ponit sex. 
+      <lb ed="#A" n="30"/>Primum de excommunicatione maiori quam conditor 
+      cano<lb ed="#A" n="31" break="no"/>nis sibi vel alteri non reseuauit: vt patet extra de sen. 
+      <lb ed="#A" n="32"/>excom. c. nuper. Secundum de blasphemate publice deum 
+      <lb ed="#A" n="33"/>vel sanctos. hoc verum quando denunciatur episcopo: et potest conuinci 
+      <lb ed="#A" n="34"/>alas: potest absolui a proprio sacerdote: extra de male. 
+      <lb ed="#A" n="35"/>c. ii. Tertium de sortilegiis. extra de sortile. c. ii ibi 
+      ta<lb ed="#A" n="36" break="no"/>men habetur quod patriarche committitur illius sacerdotis 
+      <lb ed="#A" n="37"/>absolutio et dispensatio. ideo non videtur reseruatus. 
+      <lb ed="#A" n="38"/>Quartum commutationem votorum seu dispensationem 
+      il<lb ed="#A" n="39" break="no"/>lorum vt patet i. c. de voto. Quintum restitutionem 
+      incer<lb ed="#A" n="40" break="no"/>torum. extra de iudeis. c. cum sit. sed nihil facit. quia 
+      resti<lb ed="#A" n="41" break="no"/>tutio incertorum non est casus. Sextum casum ponit 
+      <lb ed="#A" n="42"/>contractum matrimonii contra interdictum ecclesie. et est 
+      <lb ed="#A" n="43"/>verum quando eprctus praeciperet alicui ne contraheret propter 
+      ali<lb ed="#A" n="44" break="no"/>qua causm rationabilem: et ille contenneret: quia talis ad episcotum 
+      <lb ed="#A" n="45"/>est mittendus propter honore. vt patet extra di praeben. c. 
+      <lb ed="#A" n="46"/>graue. Septimum clandestinum matrimonium contractum. 
+      <lb ed="#A" n="47"/>extra de cladesti. despon. c. cum nihibitio. sed nihil dicit 
+      <lb ed="#A" n="48"/>de hoc. Hostien. vero titulo de poenitentia ponit primum 
+      de<lb ed="#A" n="49" break="no"/>excommunicatione maiori: secundum commutationem voti. 
+      ter<lb ed="#A" n="50" break="no"/>tium de blasphemante. quartum ponit de solemni poenitentia. 
+      <lb ed="#A" n="51"/>et allegat idlist di. c. miror. sed illa tantum pro notorio 
+      impo<lb ed="#A" n="52" break="no"/>ni debet. Quintum ponit dispensationem irregularita 
+      <lb ed="#A" n="53"/>tis in clerico: et verum est. Sextum de incendiariis ante 
+      <!--56.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="54"/>denunciationem: vt patet. xxiii. q. viii. c. pessimam. Se 
+      <lb ed="#A" n="55"/>ptimum si audiuit epicotus confessionem alicuius. et eum 
+      no<lb ed="#A" n="56" break="no"/>luit absoluere ab aliquo peccato: quia tunc inferior non 
+      <lb ed="#A" n="57"/>se debet intromitterc. vt patet di. xxi. inferior. Unde 
+      <lb ed="#A" n="58"/>de casibus reseruatis a iure magis est standum 
+      deter<lb ed="#A" n="59" break="no"/>minationi summorum ponti ficum quam variis opinionibus 
+      <lb ed="#A" n="60"/>doctorum. Benedictus enim vndecimus ponit quattuor 
+      <lb ed="#A" n="61"/>casus. Primus est de peccato clerici: per quod incurrit 
+      ir<lb ed="#A" n="62" break="no"/>regularitatem. Secundus de incendiariis. Tertius vbi 
+      <lb ed="#A" n="63"/>est poenitentia solenis indicenda. Quartus est de excommunicatis. 
+      <lb ed="#A" n="64"/>Hos quoque confirmauit eugenius quartus. Ad istos quat: 
+      <lb ed="#A" n="65"/>tuor casus possunt reduci casus supradicti scilicet 
+      ho<lb ed="#A" n="66" break="no"/>micidium voluntarium seu truncatio membrorum aut 
+      vul<lb ed="#A" n="67" break="no"/>gatissima blasphematio ad solenem proesentiam. ergo solum 
+      <lb ed="#A" n="68"/>isti sunt casus in veritate reseruati episcopis. Similiter de 
+      <lb ed="#A" n="69"/>casibus per consuetudinem episcopis reseruatis magna 
+      di<lb ed="#A" n="70" break="no"/>uersitas est inter doctores: quibusdam ponentibus 
+      plu<lb ed="#A" n="71" break="no"/>res. quibusdam pauciores. Glo. tamen in ca. si episcopus. dicit 
+      <lb ed="#A" n="72"/>solet episcopis reseuari poaenitentia omnium publicorum enormium 
+      <lb ed="#A" n="73"/>criminum: oppressiones filiorum ex proposito: vel 
+      casu<lb ed="#A" n="74" break="no"/>cuiuilibet homicidii: falsi testionii vel 
+      instrumen<lb ed="#A" n="75" break="no"/>ti: periurii: incestus: corrupitionis monialium: cocuntis 
+      <lb ed="#A" n="76"/>cum brutis: et similia. Sed certe non potest dari de 
+      hu<lb ed="#A" n="77" break="no"/>iusmodi certa determinatio: quia vnaquaque diocesis 
+      <lb ed="#A" n="78"/>habet consuetudinem suam: ideo de talibus potest 
+      absol<lb ed="#A" n="79" break="no"/>uere parochianus: quia non sunt casus reseruati a iure. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k16278-Dd1e231">
+               <head xml:id="Vn7Pel-k16278-Hd1e233">2</head>
+               <p xml:id="Vn7Pel-k16278-d1e235">
+                  <lb ed="#A" n="80"/>¶ Utrum sacerdos proprius possit 
+      <lb ed="#A" n="81"/>absoluere subditum ab omnibus peccatis a iure episcopis 
+      <lb ed="#A" n="82"/>non reseruatis: Respondetur secundum Spe. in repertorio 
+      <lb ed="#A" n="83"/>in regula super quibus sit penitens ad episcotum remittendus 
+      <lb ed="#A" n="84"/>quod proprius sacerdos potest absoluere ab omnibus que 
+      <lb ed="#A" n="85"/>specialiter a iure non sunt reseruata episcopis vel aliis: et 
+      <lb ed="#A" n="86"/>que non sunt ipsis sacerdotibus directe vel per ali quanm 
+      <lb ed="#A" n="87"/>consequentiam interdicta. quia talis habet ordinariam 
+      <lb ed="#A" n="88"/>iurisdicionem super populum sibi commissum a iure. 
+      <lb ed="#A" n="89"/>vt patet de peni. et remils. c. omnis. Et quod episcopus potest 
+      <lb ed="#A" n="90"/>iterdicere dictis sacerdoti bus aliquos casus ne ab 
+      <lb ed="#A" n="91"/>soluant. Primo si talis sacerdos commisit crimen 
+      pro<lb ed="#A" n="92" break="no"/>pter quod meretur tali potestate priuari. Secundo quan 
+      <lb ed="#A" n="93"/>do ad vtilitatem ecclesie expediat: alias nec potest 
+      obliga<lb ed="#A" n="94" break="no"/>re sacerdotes parochiales quin absoluant. vt pat. xxv 
+      <lb ed="#A" n="95"/>q. ii c. priuilegia. et quamuis talis sacerdos habeat 
+      au<lb ed="#A" n="96" break="no"/>ctoritatem absoluendi: non tamen debet absoluere nisi 
+      <lb ed="#A" n="97"/>viderit expedire saluti anime confitentis: sed remittat 
+      <lb ed="#A" n="98"/>ad superiore. quia dicitur. ii. Cor. xiii. Potestatem dedit 
+      <lb ed="#A" n="99"/>in edificationem et non in destructione. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k16278-Dd1e282">
+               <head xml:id="Vn7Pel-k16278-Hd1e284">3</head>
+               <p xml:id="Vn7Pel-k16278-d1e286">
+                  <lb ed="#A" n="100"/>¶ Utrum religiosi diocesanis 
+      pre<lb ed="#A" n="101" break="no"/>sentati secundum forma decretalis. extra de sepul. dudum. 
+      <lb ed="#A" n="102"/>in clen. possint absoluere a casibus reseruatis episco 
+      <lb ed="#A" n="103"/>pis: Responetur quod non: cum non habeant maiorem auctoritaem 
+      absol<lb ed="#A" n="104" break="no"/>uendi quam curati. et hoc intellige de resuatis a iure. quia 
+      de<lb ed="#A" n="105" break="no"/>casibus quos episcopi sibi de consuetudine seu per statuta 
+      sino<lb ed="#A" n="106" break="no"/>dalia reseruant possunt bene absoluere. Sed in contrarium arguit 
+      <lb ed="#A" n="107"/>Ioam. monachi quod non possunt: quia episcopi possunt artare 
+      <lb ed="#A" n="108"/>potestatem ordinariam curatorum ergo a fortiori extraor 
+      <lb ed="#A" n="109"/>dinariam. tum quia licet fratres sint exempti: parochiani tamen 
+      <lb ed="#A" n="110"/>non: quos potest interdicere ne confiteantur religiosis. Sed conta 
+      <!--57.xml-->
+      <pb ed="#A" n="58"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ipsum est directorium libr i. titulo de penitentiis: quod licet 
+      <lb ed="#A" n="2"/>ipi religiosi non possint absoluere a sententiis 
+      excommuni<lb ed="#A" n="3" break="no"/>cationis: suspensionis ac interdicti per statuta 
+      prouincia<lb ed="#A" n="4" break="no"/>ia seu sinodalia promulgatis. vt patet extra de 
+      pri<lb ed="#A" n="5" break="no"/>uileg. religiosi. in cle posunt tamen absoluere a casibus in 
+      <lb ed="#A" n="6"/>quibus non est aliqua sententia lata: et qui episcopis non reseruantur de 
+      <lb ed="#A" n="7"/>lure: cum habeant tantam potestatem quantam curati: vt 
+      <lb ed="#A" n="8"/>praedictum est. Nec obstat quod consuetudo facit ius: quia 
+      <lb ed="#A" n="9"/>non facit ius quando a iure reprobatur. In fine autem illius 
+      <lb ed="#A" n="10"/>decretalis reuocat papa statuta et consuetudines 
+      prae<lb ed="#A" n="11" break="no"/>missis contrarias. Nec valet dicere quod reuocet 
+      pa<lb ed="#A" n="12" break="no"/>pa consuetudines et statuta quo ad aliqua praemissorum et 
+      <lb ed="#A" n="13"/>non quo ad alia. quia tunc non in cunctis equaliter 
+      procede<lb ed="#A" n="14" break="no"/>ret: cuius contrarium dicit ibi. Nos enim vt in cunctis equa 
+      <lb ed="#A" n="15"/>liter et pacifice fauente deo etc.
+    </p>
+               <p xml:id="Vn7Pel-k16278-d1e351">
+      ¶ Ad argumentum 
+      di<lb ed="#A" n="16" break="no"/>cendum quod non sequitur: epircotus potest artare potestatem curato 
+      <lb ed="#A" n="17"/>rum: ergo et religiosorum. quia curati sunt sibi subditi: 
+      <lb ed="#A" n="18"/>non autem religiosi. Quod etiam dicitur secundo quod licet frens sint 
+      <lb ed="#A" n="19"/>exempti: non tamen parochiani: non valet. Primo 
+      <lb ed="#A" n="20"/>ser statuta reuocantur praemissis contraria. Secundo quia 
+      <lb ed="#A" n="21"/>sicut conceditur fratribus quod possint libere absoluere 
+      <lb ed="#A" n="22"/>sic parochianis quod possint absolui. vnde nec hos 
+      <lb ed="#A" n="23"/>nec illos possunt episcoi impedire. cum non valeant illud 
+      <lb ed="#A" n="24"/>quod a papa eis conceditur auferre. vt patet de electione. ne 
+      <lb ed="#A" n="25"/>comani. in clem. Alias si hec ratio valeret possent 
+      epsi<lb ed="#A" n="26" break="no"/>scopi impedire ne fratribus confiterentur. et sic 
+      priuile<lb ed="#A" n="27" break="no"/>giu totaliter destrueretur. Tertio: quia sic dicere vt 
+      in<lb ed="#A" n="28" break="no"/>nuit illa ratio est fraudem priuilegio facere contra 
+      men<lb ed="#A" n="29" break="no"/>tem concedentis veniendo. arg. extra de priui. quanto. 
+      <lb ed="#A" n="30"/>vbi dicitur quod episcopi monachos a se exemptos excommunica 
+      <lb ed="#A" n="31"/>re non valentes excommunicando eos qui molunt in ipsorum 
+      mo<lb ed="#A" n="32" break="no"/>lendinis: vel alias ipsis communicant fraudem priuilegiis 
+      ipso<lb ed="#A" n="33" break="no"/>rum faciunt. Predictis concordat Ioan. de lig. addens 
+      <lb ed="#A" n="34"/>quod illud quod ponitur in cle. de priuileg. quod religiosi non 
+      <lb ed="#A" n="35"/>possunt absoluere a casibus episcopis reseruatis 
+      intelli<lb ed="#A" n="36" break="no"/>gitur a iure reseruatis. alias secus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

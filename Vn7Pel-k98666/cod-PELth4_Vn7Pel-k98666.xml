@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Votum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Votum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="352"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k98666">
+            <head xml:id="Vn7Pel-k98666-Hd1e100">Votum</head>
+            <div xml:id="Vn7Pel-k98666-Dd1e102">
+               <head xml:id="Vn7Pel-k98666-Hd1e104">1</head>
+               <p xml:id="Vn7Pel-k98666-d1e106">
+                  <lb ed="#A" n="87"/>Votum secundum <name xml:id="Vn7Pel-k98666-Nd1e110">Ric.</name>
+                  <lb ed="#A" n="88"/>vbi supra. di. xxxviii. ar. iii. q. ii est proposi 
+      <lb ed="#A" n="89"/>ti supererogationis promissio deo facta 
+      <lb ed="#A" n="90"/>propter bonum finem ex deliberatione firmata. Dicitur 
+      su<lb ed="#A" n="91" break="no"/>pererogationis boni: quia in voto de re ad salutem 
+      ne<lb ed="#A" n="92" break="no"/>cessaria non proprie inuenitur ratio voti
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e124">
+      ¶ Ratio quia votum 
+      pro<lb ed="#A" n="93" break="no"/>prie loquendo est quid voluntarium respectu principii a 
+      <lb ed="#A" n="94"/>quo procedit: et respectu eius quod vouetur: licet large 
+      <lb ed="#A" n="95"/>dicatur votum quod fit de necessario ad salutem. Unde 
+      gra<lb ed="#A" n="96" break="no"/>uius peccat qui praeuaricatur praeceptum diuinum quod 
+      vo<lb ed="#A" n="97" break="no"/>uit quam qui non vouit. Secundo dicitur promissio deo facta 
+      <lb ed="#A" n="98"/>ad differentiam promissionis homini facte que non proprie 
+      <lb ed="#A" n="99"/>habet rationem voti. Dicitur tertio propter bonum finem 
+      <lb ed="#A" n="100"/>ad excludendum vota que fiunt propter malum finem: 
+      <lb ed="#A" n="101"/>vt cum quis vouet se ieiunaturum vt possit occidere 
+      ini<lb ed="#A" n="102" break="no"/>m icum que non valent: sicut no valeret votum factum de 
+      <lb ed="#A" n="103"/>re mala: quia dcus non acceptat aliquid contra se. Sed si quis 
+      <lb ed="#A" n="104"/>voueret propter finem indifferentem respectu 
+      adeptio<lb ed="#A" n="105" break="no"/>nis vite eterne: sicut cum quis vouet aliquid propter aliquod 
+      <lb ed="#A" n="106"/>bonum temporale quod habere non est vtilius ei ad vitam eternam 
+      <lb ed="#A" n="107"/>quam eo carere. Si tamen veniret casus quod esset malum 
+      <lb ed="#A" n="108"/>tunc non obligaret: vt in voto Iepte. Unde Isido. 
+      <lb ed="#A" n="109"/>In malis promissis rescide fidem: et in turpi voto 
+      mu<lb ed="#A" n="110" break="no"/>ta decretum. impia enim promissio est quae cum scelere 
+      im<lb ed="#A" n="111" break="no"/>pletur. Et sicut vota inutilia ad salutem potius sunt 
+      de<lb ed="#A" n="112" break="no"/>ridenda quam seruanda: sicut sunt vota stulta mulierum 
+      <!--352.xml-->
+      <pb ed="#A" n="353"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>de non pectinando caput in sabbato: vel non 
+      come<lb ed="#A" n="2" break="no"/>dere de capite aliquo propter decollationem Ioan. 
+      ba<lb ed="#A" n="3" break="no"/>ptiste: et huiusmodi. Quarto dicitur ex deliberatione 
+      fir<lb ed="#A" n="4" break="no"/>mata ad differentiam votorum que fiunt ex 
+      surrepti<lb ed="#A" n="5" break="no"/>one et sine deliberatione: sicut faciunt aliqui positi 
+      <lb ed="#A" n="6"/>in angustia que non obligant de necessitate: sed tantum 
+      <lb ed="#A" n="7"/>de congruitate: ideo contra ipsa venire etiam propria 
+      au<lb ed="#A" n="8" break="no"/>toritate non est peccatum mortale. Et quando hoc fit potest 
+      <lb ed="#A" n="9"/>perpendi ex hoc quod transacto periculo sunt male 
+      con<lb ed="#A" n="10" break="no"/>tenti tale votum se fecisse: quia videtur indeliberate 
+      fa<lb ed="#A" n="11" break="no"/>ctum. Additur quintum per intentionem obligandi se ad 
+      <lb ed="#A" n="12"/>implendum promissum. Notandum quod votum habet 
+      di<lb ed="#A" n="13" break="no"/>uersos status secundum quos diuersa sortitur vocabula 
+      <lb ed="#A" n="14"/>et effectus diuersos. Primus status est in 
+      origi<lb ed="#A" n="15" break="no"/>ne scilicet cum quis se disponit aliquid boni facturum. et tuc 
+      <lb ed="#A" n="16"/>dicitur deliberatio. de qua dicitur. xvii. q. i. Qui 
+      bo<lb ed="#A" n="17" break="no"/>na agunt. et hoc confringere non est peccatum. 
+      Secun<lb ed="#A" n="18" break="no"/>dus statua est processus cum procedendo proponit 
+      fir<lb ed="#A" n="19" break="no"/>miter se facturum. et tunc dicitur propositum. xvii. q. ii nos 
+      <lb ed="#A" n="20"/>nouimus. et sic non obligat ad mortale: sed ad 
+      ve<lb ed="#A" n="21" break="no"/>niale. extra de voto. c. litteraturam. Tertius status 
+      <lb ed="#A" n="22"/>est consummationis scilicet cum quis firmiter quod proposuit 
+      <lb ed="#A" n="23"/>promittit animo obligandi se. quia nemo obligat se 
+      <lb ed="#A" n="24"/>nisi qui animum obligandi se habet: siue promissio 
+      fi<lb ed="#A" n="25" break="no"/>at corde siue simul ore. Quartus status voti est 
+      <lb ed="#A" n="26"/>solennizationis scilicet quod fit ore alicui homini: vel 
+      solen<lb ed="#A" n="27" break="no"/>nizatur per aliquem actum institutum ab ecclesia: vt est 
+      <lb ed="#A" n="28"/>ordo sacer et religionis professio etc.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e237">
+      ¶ Notandum 
+      <lb ed="#A" n="29"/>quque quod votum est duplex scilicet simplex et solene. 
+      Sim<lb ed="#A" n="30" break="no"/>plex est hodie omne aliud votum a voto solenni 
+      quan<lb ed="#A" n="31" break="no"/>tumcunque cum multis solennitatibus sit factum. Aliud 
+      <lb ed="#A" n="32"/>scilicet solenne est solummodo illud quod solennizatur 
+      per<lb ed="#A" n="33" break="no"/>susceptionem sacrorum ordinum: autem per professionem 
+      taci<lb ed="#A" n="34" break="no"/>tam vel expressam alicui de religionibus approbatis 
+      <lb ed="#A" n="35"/>extra de voto. c. vnico. li. vi. Item aliquod votum dicitur 
+      <lb ed="#A" n="36"/>ibsolutum: Aliquod vero conditionale. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e258">
+               <head xml:id="Vn7Pel-k98666-Hd1e260">2</head>
+               <p xml:id="Vn7Pel-k98666-d1e262">
+                  <lb ed="#A" n="37"/>¶ Utrum de omni bono possit 
+      fie<lb ed="#A" n="38" break="no"/>ri votum: Arguitur quod sic: quia omne bonum potest homo 
+      <lb ed="#A" n="39"/>spondere deo: et in tali sponsione obligatur. sed 
+      pro<lb ed="#A" n="40" break="no"/>missio non alia est quam votum. ergo etc. Unde in 
+      bapti<lb ed="#A" n="41" break="no"/>smo promittit quod est necessitatis. scilicet abrenunciare 
+      <lb ed="#A" n="42"/>sathane.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e278">
+      ¶ Item quod fit de bono minori: videtur 
+      <lb ed="#A" n="43"/>quia licitum est illud velle. ergo licite potest 
+      ho<lb ed="#A" n="44" break="no"/>mo se ad illud obligare. ergo licite vouere. Et istud 
+      <lb ed="#A" n="45"/>videtur per simile in matrimonio in quo quis 
+      obli<lb ed="#A" n="46" break="no"/>gat se ad statum perfectionis.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e289">
+      ¶ Item quod fiat de 
+      in<lb ed="#A" n="47" break="no"/>differenti: videtur quia cibus et potus quantum est ex 
+      <lb ed="#A" n="48"/>se dicuntur indifferentes actus: quia naturales sunt 
+      <lb ed="#A" n="49"/>sed circa cibum et potum contingit esse votum: puta 
+      <lb ed="#A" n="50"/>votum abstinentie. ergo circa indifferentia.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e300">
+      ¶ Item 
+      <lb ed="#A" n="51"/>videtur de malis quod possit fieri votum: quia occidere 
+      <lb ed="#A" n="52"/>innocentem est malum: Sed Iepte propter votum 
+      <lb ed="#A" n="53"/>occidit filiam suam virginem et laudatur de voto. Unde 
+      <lb ed="#A" n="54"/>de Hiero. dicit: quod ideo ponitur in catalogo 
+      san<lb ed="#A" n="55" break="no"/>ctorum quia deo placuit animus vouentis. ergo etc. 
+      <lb ed="#A" n="56"/>In contrarium quod non sit votum de bono 
+      praecepti<lb ed="#A" n="57" break="no"/>dlrtir glosuper ilud Palms. Uouete et redite: quod vo¬ 
+      <!--352.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>uere est voluntatis: sed reddere necessitatis. ergo 
+      so<lb ed="#A" n="59" break="no"/>um est votum faciendum ad que homo non obligatur. 
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e327">
+                  <lb ed="#A" n="60"/>¶ Item quod non de minori bono. quia votum est 
+      conce<lb ed="#A" n="61" break="no"/>ptio melioris propositi. ergo etc
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e334">
+      ¶ Respondetur secundum sanctum 
+      Bo<lb ed="#A" n="62" break="no"/>nauen. in. iiii. di. xxxviii. ar. i. q. ii quod votum 
+      generali<lb ed="#A" n="63" break="no"/>ter loquendo est de his que ad deum pertinent: et 
+      fa<lb ed="#A" n="64" break="no"/>ciunt salutem. simpliciter vero et proprie est de his 
+      <lb ed="#A" n="65"/>que promouent ad salutem vltra communem statum. Unde 
+      <lb ed="#A" n="66"/>quecumque sunt talia cadunt sub voto. que autem his 
+      <lb ed="#A" n="67"/>opposita sunt vt que ad dispendium salutis vergunt 
+      <lb ed="#A" n="68"/>sub voto cadere non possunt. Quoniam votum debet 
+      ha<lb ed="#A" n="69" break="no"/>bere comites quos habet iuramentum scilicet veritatem 
+      <lb ed="#A" n="70"/>udicium: et iusticiam. Primo nanque necesse est vt 
+      <lb ed="#A" n="71"/>in eo sit iuslicia scilicet vt illud quod vouetur spectet ad 
+      sa<lb ed="#A" n="72" break="no"/>lutem. et sic bonum est et honestum. Secundo necesse est 
+      <lb ed="#A" n="73"/>in eo esse iudicium: vt vouens deliberate voueat non 
+      <lb ed="#A" n="74"/>praecipitanter. Tertio quod sit in eo veritas vt discrete 
+      <lb ed="#A" n="75"/>voueat et hoc persoluat. Si ergo id vouetur quod facit 
+      <lb ed="#A" n="76"/>id detrimentum iusticie non est ibi lex voti: nec 
+      ob<lb ed="#A" n="77" break="no"/>ligatio ad seruandum sed ipsi voto iniuria. Quod enim 
+      <lb ed="#A" n="78"/>quaeritur. Utrum votum sit de omni bono scilicet praecepti et 
+      <lb ed="#A" n="79"/>consilii. Dicendum quod votum proprie loquendo est de 
+      bo<lb ed="#A" n="80" break="no"/>no supererogationis. large tanten si dicatur quecumque 
+      testi<lb ed="#A" n="81" break="no"/>ficatio potest esse de bono praecepti. Ex hoc patet 
+      respon<lb ed="#A" n="82" break="no"/>sio ad primum argumentum.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e382">
+      ¶ Ad secundum dicendum 
+      <lb ed="#A" n="83"/>quod mi nus bonu est dupliciter considerare. Uno 
+      <lb ed="#A" n="84"/>modo prout dicit statum quendam licitum. Alio modo 
+      <lb ed="#A" n="85"/>prout dicit priuationem maioris boni. Primo modo 
+      li<lb ed="#A" n="86" break="no"/>citum est vouere. Secundo vero modo est illicitum: vt si 
+      <lb ed="#A" n="87"/>quis voueat quod deo seruiet caste in statu seculari 
+      <lb ed="#A" n="88"/>et nunquam ingredietur religionem
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e398">
+      ¶ Primum votum est 
+      <lb ed="#A" n="89"/>icitum: sed secundum inquantum priuat statum altiorem est 
+      illici<lb ed="#A" n="90" break="no"/>tum: quia gratiam dei duro corde repellit: quod est in 
+      praeiu<lb ed="#A" n="91" break="no"/>dicium salutis.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e407">
+      ¶ Si tu dicas. licitum est sic esse. ergo et 
+      <lb ed="#A" n="92"/>vouere. Dicenidum quod sicut laudari non est malum: tamen 
+      <lb ed="#A" n="93"/>appetere laudem est malum. Sic in tali statu esse non 
+      <lb ed="#A" n="94"/>est malum: sed obligare se vt non possit ad meliorem 
+      <lb ed="#A" n="95"/>peruenire deo iniuriam facit
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e418">
+      ¶ Nec est simile de 
+      matri<lb ed="#A" n="96" break="no"/>monio: quia obligatio est facta alii persone que 
+      conten<lb ed="#A" n="97" break="no"/>ta est illo statu. Deus autem semper quaerit quod melius est
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e426">
+      ¶ Ad 
+      <lb ed="#A" n="98"/>tertium dicendum quod indifferens est duplicit¶ Unum quod 
+      infor<lb ed="#A" n="99" break="no"/>mabile est circumstantia virtutis sicut comedere et absti 
+      <lb ed="#A" n="100"/>nere. et hoc potest voueri. Aliud quod nihil facit 
+      quan<lb ed="#A" n="101" break="no"/>tum est de se: vt leuare festucam: vel ire ad pratu. et de 
+      <lb ed="#A" n="102"/>tali proprie non est votum.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e439">
+      ¶ Ad quartum dicndum quod aliquid 
+      <lb ed="#A" n="103"/>impliciter est malum. et hoc fullo modo potest quis vouere. et 
+      <lb ed="#A" n="104"/>si vouet peccat et non obligatur. Aliud est quod vno ca 
+      <lb ed="#A" n="105"/>su contingente potest esse bonum: et alio casu 
+      ma<lb ed="#A" n="106" break="no"/>lum. Et hoc potest quis vouere sub conditione 
+      <lb ed="#A" n="107"/>euentus boni. quod si vouetur in omnem 
+      euen<lb ed="#A" n="108" break="no"/>tum votum fuit indiscretum: et non tenetur ad 
+      il<lb ed="#A" n="109" break="no"/>lud.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e457">
+      ¶ Quod autem obiicitur de voto Iepte. 
+      dicen<lb ed="#A" n="110" break="no"/>dum quod quia vouit in omnem euentum votum fuit 
+      <lb ed="#A" n="111"/>indiscretum. sed tamen quia deuotio et fides mouit: sed 
+      in<lb ed="#A" n="112" break="no"/>discrete emisit. vnde duo fuerit in voti emissione. vnum 
+      <lb ed="#A" n="113"/>audabile: aliud vituparabile. Similiter in voti 
+      imple<lb ed="#A" n="114" break="no"/>tione duo fuerunt: scilicet figura et factum. factum fuit 
+      odi<lb ed="#A" n="115" break="no"/>bile: sed figura laudabilis. Ideo ab apotolo et Hie. 
+      <!--353.xml-->
+      <pb ed="#A" n="354"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ro. quantum ad fidem et deuotionem laudatur: sed 
+      quan<lb ed="#A" n="2" break="no"/>tum ad indiscretionem et crudelitatem vituperatur ab 
+      <lb ed="#A" n="3"/>Augu. qui dicit quod fuit in vouendo stultus: et in 
+      <lb ed="#A" n="4"/>reddendo fuit inpius. Uerumtamen secundum Lyram non 
+      <lb ed="#A" n="5"/>fuit filia Iepte immolata morte naturali: sed 
+      mor<lb ed="#A" n="6" break="no"/>te ciuili. quia fuit consecrata deo in perpetuarur Ainitate 
+      <lb ed="#A" n="7"/>qualis modus viuendi mors dicitur. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e495">
+               <head xml:id="Vn7Pel-k98666-Hd1e497">3</head>
+               <p xml:id="Vn7Pel-k98666-d1e499">
+                  <lb ed="#A" n="8"/>¶ Utrum omnes homines possunt 
+      vo<lb ed="#A" n="9" break="no"/>uere adulti: Arguitur quod sic: quia omnis talis habet 
+      <lb ed="#A" n="10"/>vsum libro ar. sed votum est a libertate lib. ar. ergo etc. sid 
+      <lb ed="#A" n="11"/>Item omnis discretionem habens rationis potest se 
+      volunta<lb ed="#A" n="12" break="no"/>rie obligare diabolo per peccatum nullo impediente. ergo 
+      <lb ed="#A" n="13"/>multo fortius potest se obligare deo per votum.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e515">
+      ¶ In 
+      <lb ed="#A" n="14"/>contrarium dicitur Num. xxx. quod si fuerit mulier in domo 
+      <lb ed="#A" n="15"/>viri et vouit aliquid: et vir statim vt audiuit 
+      contra<lb ed="#A" n="16" break="no"/>dixit non erit promissionis rea. ergo mulier 
+      coniuga<lb ed="#A" n="17" break="no"/>ta non potest vouere. Respondet sanctus Bonauen. vbi supra 
+      <lb ed="#A" n="18"/>q. iii. quod votum procedit a libera voluntate. omnis ergo qui 
+      li<lb ed="#A" n="19" break="no"/>bere potest facere quod vult nullo impedimento in se 
+      <lb ed="#A" n="20"/>existente: nullo homine praepediente: nullo iure 
+      prohiben<lb ed="#A" n="21" break="no"/>te potest simpliciter vouere. Qui autem in omnibus subest 
+      <lb ed="#A" n="22"/>non potest vouere. Quaniam ergo vxor subest viro: et puer 
+      pa<lb ed="#A" n="23" break="no"/>tri in regimine verite nihil possunt circa hoc 
+      voue<lb ed="#A" n="24" break="no"/>re sine autoritate eorum. Uir autem subest vxori in de 
+      <lb ed="#A" n="25"/>bito carnis: ideo illud non potest vouere. Religiosus 
+      <lb ed="#A" n="26"/>subest in omnibus que sunt infra religionem. et ideo 
+      ni<lb ed="#A" n="27" break="no"/>hil potest vouere sine prelati sui voluntate. Sed 
+      <lb ed="#A" n="28"/>seruus subest quantum ad seruitium 
+      corporale<lb ed="#A" n="29" break="no"/>ideo quod contra hoc fit non potest vouere nisi 
+      autorita<lb ed="#A" n="30" break="no"/>te domini. si autem quod potest facere illud potest vouere: puta 
+      <lb ed="#A" n="31"/>orationes breues et huiusmodi.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e557">
+      ¶ Ad primum argumentum 
+      <lb ed="#A" n="32"/>dicendum quod verum est quod omnes sunt adulti libere 
+      vo<lb ed="#A" n="33" break="no"/>luntatis ad vouendum: sed non omnes ad implendum 
+      <lb ed="#A" n="34"/>omne quod volunt.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e566">
+      ¶ Ad secundum dicendum quod 
+      obli<lb ed="#A" n="35" break="no"/>gatio diabolo fit sola voluntatis libertate: sed non 
+      <lb ed="#A" n="36"/>sic est de obligatione ad deum quantum ad votum. quoniam 
+      <lb ed="#A" n="37"/>respicit quod sepe libro ar. non potest facere.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e576">
+      ¶ Sed d. Utum 
+      <lb ed="#A" n="38"/>praelatus: tutor: maritus: dominus et huiumdi peccent 
+      reuo<lb ed="#A" n="39" break="no"/>cando vota praedictorum Respondetur quod non: nisi consensum 
+      <lb ed="#A" n="40"/>eis dederint. quia sine consensu illorum non potuerunt 
+      fa<lb ed="#A" n="41" break="no"/>cere votum: et ideo non peccant quia vtuntur iure suo. et 
+      <lb ed="#A" n="42"/>talis non facut iniuriam: etiam si fecissent votum antequam essent 
+      <lb ed="#A" n="43"/>sub tali impedimento possunt irritari.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e592">
+      ¶ Sed numquid pec 
+      <lb ed="#A" n="44"/>cauerit mortaliter tali impedimento asfumendo: 
+      puta<lb ed="#A" n="45" break="no"/>episcopus qui vouit ingressum religionis et acceptat 
+      <lb ed="#A" n="46"/>episcopiatum: vel mulier consentiendo matrimonio: 
+      Re<lb ed="#A" n="47" break="no"/>ipondetur quod sic: si de tali impedimento aduertebant 
+      <lb ed="#A" n="48"/>extra de voto. c. per tuas. Si vero tunc non cogitabant 
+      <lb ed="#A" n="49"/>de voto: sic credo quod non peccauerunt mortaliter: licet 
+      <lb ed="#A" n="50"/>debeant dolere quod votum explere non possunt: et 
+      recon<lb ed="#A" n="51" break="no"/>pensare in eo quo possunt: potuerunt tamen peccasse 
+      <lb ed="#A" n="52"/>mortaliter ex tardatione. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e615">
+               <head xml:id="Vn7Pel-k98666-Hd1e617">4</head>
+               <p xml:id="Vn7Pel-k98666-d1e619">
+                  <lb ed="#A" n="53"/>¶ Utrum sublato tali impedimento 
+      <lb ed="#A" n="54"/>in quo sunt postea teneantur implere voia: Responde 
+      <lb ed="#A" n="55"/>tur quod aut votum erat perpetuum: et aut fuit irritatum per 
+      <lb ed="#A" n="56"/>eum qui potuit. et sic amplius non tenetur nisi ad 
+      id<lb ed="#A" n="57" break="no"/>ad quod se potuit obligare. et iste casus proprie est in c¬ 
+      <!--353.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quidam. extra eo. et c. placet. Nam reuotatus ille qui 
+      <lb ed="#A" n="59"/>recit votum religionis sine licentia alterius coniugis 
+      <lb ed="#A" n="60"/>non tenetur illo mortuo redire ad religionem: sed 
+      so<lb ed="#A" n="61" break="no"/>um viuere caste: quia illud potuit promittere scilicet non 
+      <lb ed="#A" n="62"/>exigere: ideo tenetur seruare. aut votum perpetuum non 
+      fu<lb ed="#A" n="63" break="no"/>it irritatum ab eo qui potuit. et sic dicendum quod 
+      solu<lb ed="#A" n="64" break="no"/>ta patria potestate: vel vinculo quo impediebatur tene 
+      <lb ed="#A" n="65"/>tur illud implere. extra de conuer. coniuga. c. 
+      Consulu<lb ed="#A" n="66" break="no"/>it. vbi vir ingressus religionem vxore illum non petem 
+      <lb ed="#A" n="67"/>te in vita ea mortua cogitur stare in religione. Si 
+      <lb ed="#A" n="68"/>vero votum non erat perpetuum: sed temporale sic non tenetur 
+      <lb ed="#A" n="69"/>nisi intentio fuisset ad se obligandum ad tempus illud 
+      <lb ed="#A" n="70"/>faciendum in quo poterat se obligare. Si vero de il 
+      <lb ed="#A" n="71"/>lo cogitabat tempore voti: tunc si fuerit irritatum 
+      iam<lb ed="#A" n="72" break="no"/>non xenetur. Ex his iudica multa. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e671">
+               <head xml:id="Vn7Pel-k98666-Hd1e673">5</head>
+               <p xml:id="Vn7Pel-k98666-d1e675">
+                  <lb ed="#A" n="73"/>¶ Utrum votum possit commutari: e 
+      <lb ed="#A" n="74"/>Respondetur secundum sanctum Bonauen. vbi supra. ar. ii q. ii quod sic: 
+      <lb ed="#A" n="75"/>ex causa scilicet quia recipit dispensationem: sed non ex 
+      le<lb ed="#A" n="76" break="no"/>uitate nec ex propria voluntate quam obligauit 
+      <lb ed="#A" n="77"/>Sed ex necessitate siue vtilitate cum praelati 
+      autori<lb ed="#A" n="78" break="no"/>tate excepto voto religionis: vel etiam status 
+      perfe<lb ed="#A" n="79" break="no"/>ctioris in quod potest aliud votum commutari sine praelati 
+      li<lb ed="#A" n="80" break="no"/>centia. quia propter sui dignitatem licentiam dant iura. 
+      <lb ed="#A" n="81"/>Ratio autem quare votum est licitum mutare et 
+      commu<lb ed="#A" n="82" break="no"/>tare est propter necessitatem superuenientem: vel propter 
+      per<lb ed="#A" n="83" break="no"/>culum quod iminet frequenter in obsuatione: vel propter 
+      <lb ed="#A" n="84"/>maiorem vtilitatem: et vouentis et aliorum. In his enim 
+      <lb ed="#A" n="85"/>ratio recta et diuina illustratio manifeste clamat 
+      <lb ed="#A" n="86"/>quod per mediatorem debeat et possit prouideri vt homo 
+      <lb ed="#A" n="87"/>nqon damnificetur. nec iste periclitetur sed deus honoretur. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e711">
+               <head xml:id="Vn7Pel-k98666-Hd1e713">6</head>
+               <p xml:id="Vn7Pel-k98666-d1e715">
+                  <lb ed="#A" n="88"/>¶ Utrum summus pontifex possit quo 
+      <lb ed="#A" n="89"/>dispensare in voto: Arguitur quod non: quia dicitur 
+      ex<lb ed="#A" n="90" break="no"/>tra de statu monachorum. cum ad monasterium non 
+      <lb ed="#A" n="91"/>existimet abbas quod possit dispensare in voto 
+      pau<lb ed="#A" n="92" break="no"/>pertatis. quia sic annexa est conuersationi religiose 
+      <lb ed="#A" n="93"/>sicut votum castitatis in quo nec summus pontis 
+      <lb ed="#A" n="94"/>fex potest dispensare.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e733">
+      ¶ In contrarium est quod 
+      pa<lb ed="#A" n="95" break="no"/>pa potest dispensare in huiusmodi voto tam solemni quad 
+      <lb ed="#A" n="96"/>simplici: quia solennitas voti non est nisi ab 
+      epo<lb ed="#A" n="97" break="no"/>Unde dispensauit cum monacho. et factus fuit rex 
+      <lb ed="#A" n="98"/>iragonie. Respondetur secundum sanctum Bonauen. vbi supra. q. vl. 
+      <lb ed="#A" n="99"/>ti. quod dispensatio dicitur dupliciter. Uno modo est 
+      <lb ed="#A" n="100"/>iuris relaxatio. Alio modo est iuris declaratio. 
+      <lb ed="#A" n="101"/>Quidam dicunt quod papa potest in voto dispensare 
+      <lb ed="#A" n="102"/>secundum quod est iuris relaxatio. quia papa est omnium 
+      <lb ed="#A" n="103"/>immediatus prelatus: et ad ipsum spectat 
+      ordina<lb ed="#A" n="104" break="no"/>tio omnium quantum ad ea que sunt 
+      supereroga<lb ed="#A" n="105" break="no"/>tionis: ideo nullum votum aliter debet emitti 
+      ni<lb ed="#A" n="106" break="no"/>si sub hac conditione quod tunc credat irritum cum 
+      pa<lb ed="#A" n="107" break="no"/>pa aliter disposuerit: et ideo nullus obligatur ad 
+      vo<lb ed="#A" n="108" break="no"/>tum cum papa aliter disponit. Si tamen illam conditionem non 
+      <lb ed="#A" n="109"/>apponat non potest aliquio excludere quin 
+      subintel<lb ed="#A" n="110" break="no"/>ligatur. Alii dicunt contrarium: quia cum illa deo placent 
+      <lb ed="#A" n="111"/>et absque dubio bona sunt sine dispensatione totis 
+      <lb ed="#A" n="112"/>visceribus implenda sunt. et ideo dicunt quod 
+      pa<lb ed="#A" n="113" break="no"/>pa in malo voto tantum potest dispensare secundum quod 
+      dis<lb ed="#A" n="114" break="no"/>pensare est iuris relaxatio. quia obligatio voti 
+      <!--354.xml-->
+      <pb ed="#A" n="355"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pendet ex iure diuino non humano. ex iure 
+      nati<lb ed="#A" n="2" break="no"/>rali non ex constitutione patrum. Preterea 
+      pa<lb ed="#A" n="3" break="no"/>pa non habet posse in votum relaxando ius: quia illud non 
+      <lb ed="#A" n="4"/>est ei subiectum: habet tantum potestatem quantum sibi ius 
+      <lb ed="#A" n="5"/>dat: ideo dispensare potest secundum quod dispensatio est iuris 
+      <lb ed="#A" n="6"/>declaratio. Et hec positio est rationabilior et 
+      secur<lb ed="#A" n="7" break="no"/>or: quia magis per ipsam satisfit conscientie.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e801">
+      ¶ Ad intelligentiam 
+      <lb ed="#A" n="8"/>eius est notandum quod ius obligationis voti constituitur ex 
+      <lb ed="#A" n="9"/>buplici iure naturali. Ex hoc videlicet quod homo debet esse 
+      ve<lb ed="#A" n="10" break="no"/>rax in promisso. Et ex alio quod nihil debet homo promittere 
+      <lb ed="#A" n="11"/>nisi salua sua salute et diuine maiestatis honore. ergo 
+      <lb ed="#A" n="12"/>ex iure naturali est quod quis per votum non impediri de 
+      <lb ed="#A" n="13"/>bet quin facere possit sibi vtilius: et ideo acceptabilius 
+      <lb ed="#A" n="14"/>Et ideo in omni voto quod recipit recompensationem 
+      melio<lb ed="#A" n="15" break="no"/>ris boni siue simpliciter siue pro loco et tempore dominus 
+      papa<lb ed="#A" n="16" break="no"/>cuius est ius dei dilucidare: potest dispensare. Et in hoc 
+      <lb ed="#A" n="17"/>communiter omnes conueniunt: sed diuersificantur penes modum 
+      <lb ed="#A" n="18"/>dispensandi. Aliqui enim dicunt quod non est aliquod votum 
+      <lb ed="#A" n="19"/>quod pro loco et tempore non recipiat dispensationem: ideo 
+      nul<lb ed="#A" n="20" break="no"/>lum est in quo non possit dispensare. Unde dicunt quod bono 
+      <lb ed="#A" n="21"/>continentie praefertur bonum vniuersalis ecclesie vt pax. et ideo 
+      <lb ed="#A" n="22"/>in voto continentie de quo minus videtur potest dispensare vt 
+      <lb ed="#A" n="23"/>simpliciter vel ad tempus: sicut aliquando factum est. Alii autem 
+      di<lb ed="#A" n="24" break="no"/>cunt quod votum continentie non recipit recompensationem. qua 
+      <lb ed="#A" n="25"/>non est digna ponderatio continentis anime: quoniam obt 
+      <lb ed="#A" n="26"/>netur victoria de domestico hoste. In omnibus aliis est 
+      <lb ed="#A" n="27"/>recompensatio: ideo in aliis omnibus potest dispensari praeterquam e 
+      <lb ed="#A" n="28"/>hoc. Tertii dicunt quod perfectioni religionis quae est in 
+      imi<lb ed="#A" n="29" break="no"/>tatione christi nihil potest equari: nec pro illa recompensari. et 
+      <lb ed="#A" n="30"/>quia illa substantialiter consistit in triplici voo scilicet 
+      obedi<lb ed="#A" n="31" break="no"/>entie paupertatis et continentie: ideo in his tribus non potest 
+      <lb ed="#A" n="32"/>dispensari. perfectio enim consistit in assimulatione ad 
+      opti<lb ed="#A" n="33" break="no"/>mum: vt dicit Augs libro de vera religione. Et quia in nullo 
+      <lb ed="#A" n="34"/>tantum assimulatur homo christo sicut in his: nihil potest hec tria 
+      re<lb ed="#A" n="35" break="no"/>compensare. quoniam recompensatio non tantum aliorum respicit 
+      <lb ed="#A" n="36"/>bonum: veru etiam vouentis. quoniam deus vult quod magis 
+      <lb ed="#A" n="37"/>sit vnusquisque solicitus de sua salute quam aliorum. Et sub 
+      <lb ed="#A" n="38"/>dit sanctus Bonauen. Que autem istarum trium opinionum 
+      <lb ed="#A" n="39"/>sit verior fateor me nescire: et satis potest qualibet 
+      sus<lb ed="#A" n="40" break="no"/>tineri: ideo nullam assero. Sed frater Landul. in. iiii. 
+      <lb ed="#A" n="41"/>di. xxxviii. dicit: quod papa potest in voto castitatis. Tum pr 
+      <lb ed="#A" n="42"/>mo: quia dispensauit cum monacho. qui vt praedictum est: 
+      fa<lb ed="#A" n="43" break="no"/>ctus est rex aragonie. et cum alio qui factus est rex polonic 
+      <lb ed="#A" n="44"/>Tum secundo: quia non repugnat pape dispensatio: nec in 
+      <lb ed="#A" n="45"/>quantum votum nec inquantum solene: quia a papa est 
+      solen<lb ed="#A" n="46" break="no"/>nitas. extra de voto et voti redemp. c. vnico. li. vi. 
+      cu<lb ed="#A" n="47" break="no"/>ius contrarium tenm Ber. glosator super illud capisulum cum ad 
+      <lb ed="#A" n="48"/>monasterium: dicens primo quod nullum bonu est 
+      equiua<lb ed="#A" n="49" break="no"/>lens casti: ati: quia virginitas replet paradisum. xxxii. 
+      <lb ed="#A" n="50"/>q. i. nuptie. Tum secundo: quia castitas sola est quae cum 
+      fidu<lb ed="#A" n="51" break="no"/>ciapotet deo animas praesentare. In auten. de lenon. §. 
+      san<lb ed="#A" n="52" break="no"/>cimus. col. iii. Tum tertio quia non est digna 
+      ponde<lb ed="#A" n="53" break="no"/>ratio continentis anime Ecci. xxvi. Ad hec respondet sic 
+      Lan<lb ed="#A" n="54" break="no"/>dul. quod prima obiectio est ridiculosa. quia charitas in 
+      <lb ed="#A" n="55"/>rensa et oratio eleuata excedunt virtutem castitatis: vel ac 
+      <lb ed="#A" n="56"/>minus sunt equales. Et quod virginitas replet caelum: 
+      ve<lb ed="#A" n="57" break="no"/>rum est comparando ad nuptias replentes terram. sed 
+      cha<lb ed="#A" n="58" break="no"/>ritas longe plus replet celum: et cu maiori fiducia quam 
+      <!--354.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>virginitas. Et quod non est digna ponderatio anime 
+      continen<lb ed="#A" n="60" break="no"/>tis: hoc verum est prout continentia omnem continet virtutem. 
+      <lb ed="#A" n="61"/>Et ideo ex quo papa est mediatoninter deum et populum potest 
+      <lb ed="#A" n="62"/>dispensare in cunctis vbi secundum rectum iudicium 
+      iudi<lb ed="#A" n="63" break="no"/>cat popluslum melius ad deum reduci. Nec obstat. extra 
+      <lb ed="#A" n="64"/>de stat  monachorum. Cum ad monasterium. vbi dicitur 
+      <lb ed="#A" n="65"/>quod in v castitatis non potest summus poentifex 
+      dispen<lb ed="#A" n="66" break="no"/>sare. quia secundum Landul. hoc sane intelligitur. quia ibidem 
+      <lb ed="#A" n="67"/>dicitur: quod cum monacho non potest papa dispensare in 
+      vo<lb ed="#A" n="68" break="no"/>to paupertatis: et tamen certum est quod cum monachus 
+      auto<lb ed="#A" n="69" break="no"/>ritate pape fiat episcopus quod licet ei habere proprium: ideo sic debet 
+      <lb ed="#A" n="70"/>intelligi quod non potest papa dispensare cum 
+      monacho<lb ed="#A" n="71" break="no"/>remanete monacho vt non sit castus et habeat 
+      propri<lb ed="#A" n="72" break="no"/>um: quia contradictio est et oppositum in adiecto. Quo enim 
+      <lb ed="#A" n="73"/>dispensaret papea vt aliquis non teneretur seruare 
+      regu<lb ed="#A" n="74" break="no"/>lam sancti Francisci: aut in parte aut toto principali: vt 
+      <lb ed="#A" n="75"/>obedientia. sicut voluit beatus Franciscus: et esset fratur 
+      <lb ed="#A" n="76"/>minor: et haber et proprium in communi cum regula dicat. frens 
+      ni<lb ed="#A" n="77" break="no"/>hil sibi approprient: qui quomodo vult iudicet. quia et dominus 
+      <lb ed="#A" n="78"/>iudicabit proprietarios: sicut inobedientes et etiam 
+      im<lb ed="#A" n="79" break="no"/>pudicos.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e964">
+      ¶ Sed d. An inferior a papa possit 
+      dis<lb ed="#A" n="80" break="no"/>pensare in voto castitatis: Respondetur quod aut 
+      vo<lb ed="#A" n="81" break="no"/>tum castitatis est simplex et perpetuum: et tunc 
+      pro<lb ed="#A" n="82" break="no"/>pter duo episcopus potest dispensare. Primum si votum 
+      ca<lb ed="#A" n="83" break="no"/>stitatis fuit aliqualiter meticulosum a principio: 
+      li<lb ed="#A" n="84" break="no"/>cet non fuerit iustus metus. vt vult glo. in c. veni 
+      <lb ed="#A" n="85"/>ens. qui cle. vel vo. Secundum propter periculum fornicatio 
+      <lb ed="#A" n="86"/>nis quando verisimiliter timetur de incotinentia. et hoc tenet Car. 
+      <lb ed="#A" n="87"/>in dicto c. veniens. potest etiam dispensare cum eo qui 
+      vo<lb ed="#A" n="88" break="no"/>uit non nubere etc. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e987">
+               <head xml:id="Vn7Pel-k98666-Hd1e989">7</head>
+               <p xml:id="Vn7Pel-k98666-d1e991">
+                  <lb ed="#A" n="89"/>¶ Utrum peccet mortaliter totiens e 
+      <lb ed="#A" n="90"/>quotiens quis frangit votum: Respondctur quod si 
+      vo<lb ed="#A" n="91" break="no"/>tum est negatiuum nulli dubium quod sic. Si vero est 
+      <lb ed="#A" n="92"/>affirmatiuum: puta de ieiunando non nisi prima 
+      vi<lb ed="#A" n="93" break="no"/>ce qua comedit non secunda vel tertia vice 
+      come<lb ed="#A" n="94" break="no"/>dens si facit sine contemptum: sed quasi reputans si 
+      <lb ed="#A" n="95"/>bi impossibile plus illo die ieiunare. Secus si ex 
+      <lb ed="#A" n="96"/>contemptum: puta quia si etiam posset ieiunare non 
+      fa<lb ed="#A" n="97" break="no"/>ceret: et huiusmodi. Petrus etiam de Palud. tenet in 
+      <lb ed="#A" n="98"/>iiii. dist. xv. quod quando quis vouit ad certum diem 
+      <lb ed="#A" n="99"/>non bibere vinum: puta die sabbati quod solum 
+      pri<lb ed="#A" n="100" break="no"/>ma vice peccat mortaliter: Secus si fecisset 
+      vo<lb ed="#A" n="101" break="no"/>tum ad tempus perpetuum: vel ad certos dies. quia 
+      <lb ed="#A" n="102"/>sic obligaretur ad omne tempus illud. Si ad 
+      cer<lb ed="#A" n="103" break="no"/>tos dies solum dies est in obligatione. Et dat 
+      exem<lb ed="#A" n="104" break="no"/>plum de indulgentia que est imperpetuum in 
+      eccle<lb ed="#A" n="105" break="no"/>sia. quia totiens habetur quotiens intrat. Si est 
+      <lb ed="#A" n="106"/>ad diem solam habebit qui semel nec plus qui 
+      plu<lb ed="#A" n="107" break="no"/>ries in eodem die visitauerit. Si ad diuersos 
+      di<lb ed="#A" n="108" break="no"/>es: sic quolibet die visitauerit. et satis est 
+      benigna<lb ed="#A" n="109" break="no"/>ista opinio: sed prima est verior et tutior. quia 
+      exem<lb ed="#A" n="110" break="no"/>plum de indulgentia est valde dissimile. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e1042">
+               <head xml:id="Vn7Pel-k98666-Hd1e1044">8</head>
+               <p xml:id="Vn7Pel-k98666-d1e1046">
+                  <lb ed="#A" n="111"/>¶ Utrum possit quis sine 
+      aucto<lb ed="#A" n="112" break="no"/>ritate superioris votum suum commutare in 
+      meli<lb ed="#A" n="113" break="no"/>uis. Respondetur secundum communiter doctores quod sic: 
+      <lb ed="#A" n="114"/>extra de voto. c. scripture. licet sit tutius petere auctortaem. Sed 
+      <!--355.xml-->
+      <pb ed="#A" n="356"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in contrarium dicitur. extra de voto c.i. vbi sine arbitrio pre 
+      <lb ed="#A" n="2"/>sidentis non debet fieri etiam in melius commutatio. et sequitur 
+      <lb ed="#A" n="3"/>Ric. vbi supra ar. viii. q. i. Et ideo dcentum quod aut commutatur 
+      <lb ed="#A" n="4"/>in religionem. et sic potest fieri sine auctoritae superioris. vt 
+      <lb ed="#A" n="5"/>patet dicto c. scripture. Nam secundum Rich. vbi. supra. q. ii Cum 
+      <lb ed="#A" n="6"/>quis profitetur actualiter vel habitualiter intendens met aplius 
+      <lb ed="#A" n="7"/>teneri ad vota quae prius fecerat: sed solum votindi. igionis 
+      <lb ed="#A" n="8"/>absoluitur ab illis ipso iure. Secus si quando professionem fecus 
+      <lb ed="#A" n="9"/>intendebat actualiter vel habitualiter velle remanere obi 
+      <lb ed="#A" n="10"/>ligatus ils votis quae prius fecerat. quia sic indiget dispensa 
+      <lb ed="#A" n="11"/>tione. Posset etiam esse tale votum de quo probabiliter 
+      pos<lb ed="#A" n="12" break="no"/>set dubitari an melius esset illud seruare: aut eo dimis 
+      <lb ed="#A" n="13"/>so religionem intrare. vt si aliquis magnus rex fecisset 
+      ve<lb ed="#A" n="14" break="no"/>tum de adquirenda terra sanctam et huiusmodi. In quichu tunc 
+      papa<lb ed="#A" n="15" break="no"/>esset consulendus: et secundum eius auctoritem procedendum non simpliciter 
+      <lb ed="#A" n="16"/>ter in religionem commutandum. Similiter non commutatur in 
+      re<lb ed="#A" n="17" break="no"/>ligionis votum illud quo quis vouit aliquid dare in subsidium 
+      <lb ed="#A" n="18"/>terresctem sine lententia papi secundum Rodo. Secus si solum 
+      fe<lb ed="#A" n="19" break="no"/>cisset votum peregrinationis: quia absolueretur per ingressum 
+      <lb ed="#A" n="20"/>religionis. Aut commutatio voti vult fieri in aliud a 
+      <lb ed="#A" n="21"/>religione. et sic requiritur auctoritas superioris aliquando solum 
+      <lb ed="#A" n="22"/>petita licet non obtenta: vt quando certum est quod in quod mutat ien 
+      <lb ed="#A" n="23"/>melius et magis deo acceptum. extra de voto. c. licet. cum 
+      <lb ed="#A" n="24"/>est clarum quod comutatur votum in melius si etiam fiat sine 
+      <lb ed="#A" n="25"/>licentia superioris non incurritur peccatum. vt patet per ca. 
+      perue<lb ed="#A" n="26" break="no"/>nit. extra de voto. Si autem no est clarum quod commutetur 
+      <lb ed="#A" n="27"/>melius sic opertet quod auctoritas obtineatur. et multo magis quando 
+      <lb ed="#A" n="28"/>votum commutatur in eque bonum vel minus bonum est 
+      neces<lb ed="#A" n="29" break="no"/>saria dispensatio superioris.
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e1127">
+      ¶ Sed quid si votum erat 
+      <lb ed="#A" n="30"/>factum intuitu alicuius certe persone vel loci: puta talis 
+      <lb ed="#A" n="31"/>monasterii vel pauperis de dando sibi aliquid: Respondetur quod 
+      <lb ed="#A" n="32"/>licet acquiratur actio talibus ad agendum et compellatur 
+      redde<lb ed="#A" n="33" break="no"/>re quod vouit: tamen in religionem commutando absoluit 
+      <lb ed="#A" n="34"/>ab illa obligatione cum fuerit personalis. Secus si ex alio 
+      <lb ed="#A" n="35"/>aliquo se obligasset homini respectu: quia sic non absolueretur 
+    </p>
+               <p xml:id="Vn7Pel-k98666-d1e1143">
+                  <lb ed="#A" n="36"/>¶ Utrum expediat homini vouere: Respondet Rich. 
+      <lb ed="#A" n="37"/>vbi supra. ar. vi. q. i. Quod aut homo vouet bona quorum 
+      obse<lb ed="#A" n="38" break="no"/>uatio videtur probabiliter proportionata sue infirmitati. et 
+      <lb ed="#A" n="39"/>sic expedit homini vouere: quia per hoc amplius firrat volum 
+      <lb ed="#A" n="40"/>tatem suam in bono et pro maga parte excludit a se libtatem 
+      <lb ed="#A" n="41"/>malefaciendi et fac actum virtutis latrie: et ideo vouendo 
+      <lb ed="#A" n="42"/>meretur. Si vero vouet improportionata sic non expedit 
+      <lb ed="#A" n="43"/>nec licet: quia tale votum non haberet discretionem comitem: cum 
+      <lb ed="#A" n="44"/>hoc vouens magis videretur se illaquaeare 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k98666-Dd1e1166">
+               <head xml:id="Vn7Pel-k98666-Hd1e1168">9</head>
+               <p xml:id="Vn7Pel-k98666-d1e1170">
+                  <lb ed="#A" n="45"/>¶ Utrum sit magis meritorium opus bonum 
+      <lb ed="#A" n="46"/>faltum ex voto quam sine illo: Respondetursecndum Ric. vbi supra. qu. 
+      <lb ed="#A" n="47"/>quod sic. Et probat primo quia opus inferioris virtutis magis est 
+      <lb ed="#A" n="48"/>meritorium imperatum a superiori virtute quam inferiori. sed 
+      la<lb ed="#A" n="49" break="no"/>tria est superior quam abstinentia peregrinatio et huiusmodi. 
+      <lb ed="#A" n="50"/>Cum ergo vouere sit actus latrie: bonum ex voto factum en 
+      <lb ed="#A" n="51"/>magis meritorium: vtputa imperatum a latria. Secundo quia 
+      <lb ed="#A" n="52"/>quanto opus procedit a voluntate magis firmata in bono 
+      <lb ed="#A" n="53"/>tanto est virtuosius et conseter magis meritorium. quia ad 
+      <lb ed="#A" n="54"/>operari virtuose requiritur firmiter et imobiliter operari secundum 
+      <lb ed="#A" n="55"/>phlosophum. iii. Ethic. iiii. c. sed ceteris paribus volutas est 
+      fir<lb ed="#A" n="56" break="no"/>mior in voto quam sine illo de quo Ansss. libro de simili.o ponit 
+      <lb ed="#A" n="57"/>exemplum scilicet quod qui facum opus cum voto quasi qui dat arborem cum 
+      <lb ed="#A" n="58"/>fructibus: sed sine voto quasi qui dat fructus solum
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

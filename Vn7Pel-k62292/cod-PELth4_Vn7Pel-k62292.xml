@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Indulgentia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Indulgentia</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="214"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k62292">
+            <head xml:id="Vn7Pel-k62292-Hd1e100">Indulgentia</head>
+            <div xml:id="Vn7Pel-k62292-Dd1e102">
+               <head xml:id="Vn7Pel-k62292-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k62292-d1e106">
+                  <lb ed="#A" n="21"/>INdulgentia 
+      se<lb ed="#A" n="22" break="no"/>cundum Archi. extra de pe. et re. c. Ir 
+      <lb ed="#A" n="23"/>dulgentie. lib. vi. quando quam dicit remissionem 
+      <lb ed="#A" n="24"/>pene: quandoque concessionem gratiae: quandoque 
+      dis<lb ed="#A" n="25" break="no"/>pensationem: quandoquem accipitur pro vacare seu opera 
+      da<lb ed="#A" n="26" break="no"/>re. Unde dicitur. Indulgere gule noli quae ventris amica 
+      <lb ed="#A" n="27"/>est.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e124">
+      ¶ Sed hic accipiendum est pro indulgentiis quae dantur 
+      <lb ed="#A" n="28"/>in ecclesiis quaesic diffinitur. Indulgentia est quaidam 
+      re<lb ed="#A" n="29" break="no"/>missio pene debite pro peccato post contritionem habitam de 
+      <lb ed="#A" n="30"/>eo: vt colligitur extra de pe. et re.c. quod autem. quas quidem 
+      <lb ed="#A" n="31"/>indulgentias dant praelati 
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e135">
+                  <lb ed="#A" n="32"/>¶ Utrum relaxationes pene possint 
+      <lb ed="#A" n="33"/>fieri per indulgentias: Arguitur quod non. quia dicitur Esa. xl. 
+      <lb ed="#A" n="34"/>Dimissa est iniquitas illius: suscepit de manu domini 
+      du<lb ed="#A" n="35" break="no"/>plicia. ergo videtur quod pena ad perfectam remissionem sit 
+      du<lb ed="#A" n="36" break="no"/>plicanda. non relaxanda.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e148">
+      ¶ Item super illud. ii. Tin. ii 
+      <lb ed="#A" n="37"/>Negare seipsum non potest. gqloa. Quid faceret si dicta 
+      <lb ed="#A" n="38"/>sua non impleret. ergo necesse est quod dominus dicta sua 
+      im<lb ed="#A" n="39" break="no"/>pleat. Sed ipse praedixit Deut. xxv. Secundum mensu 
+      <lb ed="#A" n="40"/>ram delicti erit et plagarum modus. ergo necesse est ita 
+      pu<lb ed="#A" n="41" break="no"/>niri sicut peccator meruit: ergo non potest fieri relaxatio 
+      pe<lb ed="#A" n="42" break="no"/>ne
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e165">
+      ¶ Item ratione videtur. Facere dignos fructus poenitentie 
+      <lb ed="#A" n="43"/>est sdiuino praecepto a quo non potest quisque purus homo absol 
+      <lb ed="#A" n="44"/>uere. Sed dignos fructus facere est secundum 
+      magnitu<lb ed="#A" n="45" break="no"/>dinem sceleris magnifice satisfacere. ergo videtur quod non 
+      <lb ed="#A" n="46"/>sit de illo ecclesie munere satisfacere
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e176">
+      ¶ In contrarium 
+      <lb ed="#A" n="47"/>arguitur. quia vniuersalis ecclesia relaxatiods acceptat 
+      <lb ed="#A" n="48"/>sed constat quod ipsa non errat: ergo vere fiunt indulgentie. 
+      <lb ed="#A" n="49"/>Probatur minor. quia ita dictum est petro Lu. xxii. Ego 
+      <lb ed="#A" n="50"/>pro te rogaui Petre vt non deficiat fides tua. constat 
+      <lb ed="#A" n="51"/>quod hoc est dictum Petro in persona ecclesie. Sed christus ex 
+      <lb ed="#A" n="52"/>auditus in omnibus pro sua reuerentia: ergo et in isto. Et sic 
+      ec<lb ed="#A" n="53" break="no"/>clesia vniuersalis non errat nec decipitur.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e194">
+      ¶ Item. ii. 
+      <lb ed="#A" n="54"/>Cor. ii. Nam et ego si quid vobis donaui in persona 
+      chri<lb ed="#A" n="55" break="no"/>Glo. acsi christus condonasset. Sed si christus vere do¬ 
+      <!--213.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>nat vere est condonatum. ergo quod donauit apostolus vere. 
+      <lb ed="#A" n="57"/>donatum est. Respondet sanctus Bona. in. iiii. di. xx ar. 
+      <lb ed="#A" n="58"/>ii. q. ii post multa recitata: quod bonum obinemus ex 
+      <lb ed="#A" n="59"/>triplici merio scilicet ex merito proprio: et ex merito capi 
+      <lb ed="#A" n="60"/>tis et ex merito ecclesie vnitatis. Et quod ita sit in se 
+      ma<lb ed="#A" n="61" break="no"/>nifestum est: quia quilibet meretur sibi per gratiam quanm 
+      <lb ed="#A" n="62"/>habet: quod christus meruit nobis nemo dubitat 
+      ni<lb ed="#A" n="63" break="no"/>si qui fide caret. Quod ecclesia mereatur nobis patet 
+      per<lb ed="#A" n="64" break="no"/>verbum Augusgis libro de poenitentia. Nemo potest digne 
+      penite<lb ed="#A" n="65" break="no"/>re quem non sustinet vnitas ecclesie. per hunc modum 
+      si<lb ed="#A" n="66" break="no"/>cut meritum obtinendi est triplex: sic meritum 
+      liberan<lb ed="#A" n="67" break="no"/>di a malo. Meritum scilicet proprium et hoc est meritum 
+      no<lb ed="#A" n="68" break="no"/>stre contritionis: et per hoc meremur liberari a pena 
+      eter<lb ed="#A" n="69" break="no"/>na. ita quod sunt hec duosicut in angelis gratia et gloria. 
+      Se<lb ed="#A" n="70" break="no"/>cundo modo meritum christi: et hoc operatur in sacramentis 
+      <lb ed="#A" n="71"/>et potestate clauium: et per hoc remittitur pars pene. 
+      Ter<lb ed="#A" n="72" break="no"/>tio modo est meritum vnitatis ecclesiastice: et per illud 
+      <lb ed="#A" n="73"/>adhuc fit remissio. Et sic secundum triplex meritum 
+      tri<lb ed="#A" n="74" break="no"/>plex fit pene condonatio vt currat misercordia cum 
+      iusti<lb ed="#A" n="75" break="no"/>cia: et in qualibet est commutatio maioris in minus 
+      <lb ed="#A" n="76"/>Unde pena eterna primo mutatur in temporalem in 
+      re<lb ed="#A" n="77" break="no"/>missione culpe. Secundo temporalis magna et supra 
+      vi<lb ed="#A" n="78" break="no"/>res in penam competentem viribus commutatur in sacerdo 
+      <lb ed="#A" n="79"/>tis absolutione. Tertio vero commutatur pena ad quam 
+      <lb ed="#A" n="80"/>tenetur iudicio ecclesie adhuc in minorem in relaxatio 
+      <lb ed="#A" n="81"/>ne: et pro alio residuo merita ecclesie satisfaciunt: ita 
+      <lb ed="#A" n="82"/>quod in nullo praeiudicatur iusticie.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e264">
+      ¶ Ad primum 
+      argu<lb ed="#A" n="83" break="no"/>mentum dicendum: quod iuxta mensura delicti debet esse 
+      <lb ed="#A" n="84"/>et plagarum modus: quod peccatum nostrum satis punitum fuit 
+      <lb ed="#A" n="85"/>quando christus pro nobis penam subiit: et suam pro nobis 
+      <lb ed="#A" n="86"/>penam exposuit: et nostra fecit nos sufficienter 
+      iudi<lb ed="#A" n="87" break="no"/>camur puniri siue quantum ad duplice scilicet in anima et 
+      <lb ed="#A" n="88"/>in carne: siue quantum ad mensura acerbitatis 
+      pene<lb ed="#A" n="89" break="no"/>Similiter intelligendum est in proposito quod penalitates quae 
+      <lb ed="#A" n="90"/>fiunt in ecclesia: et quae sunt supererogationis pro eo cui 
+      <lb ed="#A" n="91"/>fit relaxatio subueniunt: vt deus reputet sibi 
+      satisfa<lb ed="#A" n="92" break="no"/>ctum.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e288">
+      ¶ Ad secundum quando obiiciebatur quod tenetur facere 
+      <lb ed="#A" n="93"/>dignos fructus poenitentie: dicendum quod facere dignos 
+      fru<lb ed="#A" n="94" break="no"/>ctus poenitentie est duplictur scilicet vere et interpretatiue. Et sic 
+      il<lb ed="#A" n="95" break="no"/>le dicitur dignos fructus poenitentie facere qui non solum 
+      per<lb ed="#A" n="96" break="no"/>seipsum sed etiam per suffragium alienum habet sufficiens 
+      <lb ed="#A" n="97"/>precium ad soluendum debitum. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e302">
+               <head xml:id="Vn7Pel-k62292-Hd1e304">2</head>
+               <p xml:id="Vn7Pel-k62292-d1e306">
+                  <lb ed="#A" n="98"/>¶ Utrum malus episcopus possit 
+      <lb ed="#A" n="99"/>dare indulgentias: Arguitur quod no: quia nullus 
+      sa<lb ed="#A" n="100" break="no"/>piens dominus committit innimico suo potestatem 
+      <lb ed="#A" n="101"/>dispensandi suum thesaurum. sed malus episcopus est 
+      <lb ed="#A" n="102"/>inimicus dei. Cum ergo sit sapientissimus dominus 
+      ma<lb ed="#A" n="103" break="no"/>lo episcopo talem potestatem non commisit.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e322">
+      ¶ Item 
+      <lb ed="#A" n="104"/>maius est indulgentiam dare quam recipere. sed 
+      ma<lb ed="#A" n="105" break="no"/>lus episcopus manens malus non potest 
+      indul<lb ed="#A" n="106" break="no"/>gentiam recipere. ergo nec dare.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e331">
+      ¶ In contrarium 
+      ar<lb ed="#A" n="107" break="no"/>guitur: quia maius est in foro penitentie absoluere 
+      <lb ed="#A" n="108"/>cum per talem absolutionem non tantum remittatur aliquid 
+      <lb ed="#A" n="109"/>de pena: sed etiam quandoque remittitur culpa scilicet cum 
+      absoluen<lb ed="#A" n="110" break="no"/>dus est attritus non contritus quam indulgentias dare per quas 
+      <lb ed="#A" n="111"/>non remittitur nisi pena. sed malus episcopus potest 
+      ab<lb ed="#A" n="112" break="no"/>soluere in foro poenitentie. ergo multo fortius indulgentias dare 
+      <!--214.xml-->
+      <pb ed="#A" n="215"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Respondet Rich. in. iiii. di. xx. ar. v. q. i. quod malus epscops 
+      <lb ed="#A" n="2"/>potest indulgentias dare: quia non facit indulgentias de 
+      <lb ed="#A" n="3"/>proprio merito qua priuatur per mortale peccatum sed de 
+      thesau<lb ed="#A" n="4" break="no"/>rtio ecclesie cuius peccatum non abstulit sibi dispensationem. 
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e362">
+                  <lb ed="#A" n="5"/>¶ Ad primum argumentum dicendum quod maior est 
+      ve<lb ed="#A" n="6" break="no"/>ra quando inimicus potest thesaurum dispensare praeter dominit 
+      <lb ed="#A" n="7"/>intentionem. malus autem episcopus pater intentionem dei 
+      spiritu<lb ed="#A" n="8" break="no"/>alem ecclesie thesaurum dispensare non potest. vnde si non 
+      <lb ed="#A" n="9"/>concordat diuine intentioni sua dispensatio nulla est 
+      <lb ed="#A" n="10"/>vnde nec bonus nec malus indulgentias concedere potest 
+      <lb ed="#A" n="11"/>nisi ex rationabili causa.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e381">
+      ¶ Ad secundum dicendum quod 
+      quam<lb ed="#A" n="12" break="no"/>uis indulgentiam dare maius sit quam recipere me: 
+      ori<lb ed="#A" n="13" break="no"/>tate auctoritis: econuerso tantum est loquendo de maios Inte 
+      <lb ed="#A" n="14"/>vtilitatis. peccatum vero mortale facilius impedit 
+      vti<lb ed="#A" n="15" break="no"/>litatem quam autoritatem. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e393">
+               <head xml:id="Vn7Pel-k62292-Hd1e395"> 3 </head>
+               <p xml:id="Vn7Pel-k62292-d1e397">
+                  <lb ed="#A" n="16"/>¶ Utrum aliquis non episcopus possit 
+      <lb ed="#A" n="17"/>dare indulgentias: Arguitur quod no: quia per 
+      indulgen<lb ed="#A" n="18" break="no"/>tias tatum remittitur de pena vel plus: quantum per abso. 
+      <lb ed="#A" n="19"/>lutionem in foro poenitentie. sed nullus non sacerdos potest 
+      <lb ed="#A" n="20"/>absoluere in foro poenitentie ergo nec indulgentias dare se 
+      <lb ed="#A" n="21"/>In contrarium electi in epsos et confirmati possunt dare in 
+      <lb ed="#A" n="22"/>dulgentias quamuis adhuc non sint sacerdotes. 
+      Respons<lb ed="#A" n="23" break="no"/>det Rich. vbi supra. q. ii quod non sacerdotibus competere 
+      <lb ed="#A" n="24"/>potest potestas iurisdicionis. Cum ergo dare indulgentias 
+      <lb ed="#A" n="25"/>competat alicui per potestatem iurisdicionis aliquis non 
+      <lb ed="#A" n="26"/>sacerdos potest concedere indulgentias
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e423">
+      ¶ Ad praemum 
+      ar<lb ed="#A" n="27" break="no"/>gumentum dicendum quod omnibus pensatio simpliciter 
+      digni<lb ed="#A" n="28" break="no"/>or est absolutio in foro poenitentie quam illa quae fit per 
+      concessio<lb ed="#A" n="29" break="no"/>nem indulgentie. quia per illa non tantum remittitur pars pene: 
+      <lb ed="#A" n="30"/>sed etiam culpa si ante non est remissa. et ille dispositus 
+      <lb ed="#A" n="31"/>est qui recipit absolutionem. Unde hec potestas respicit 
+      or<lb ed="#A" n="32" break="no"/>dinem et iurisdicionem in foro poenitentie. remissio autem 
+      cul<lb ed="#A" n="33" break="no"/>pe maior est quam remissio pene. nec tamen concedendum est 
+      <lb ed="#A" n="34"/>quod semper plus remittatur de pena per indulgentias quam 
+      <lb ed="#A" n="35"/>per absolutionem in foro poenitentie. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e446">
+               <head xml:id="Vn7Pel-k62292-Hd1e448"> 4 </head>
+               <p xml:id="Vn7Pel-k62292-d1e450">
+                  <lb ed="#A" n="36"/>¶ Utrum quilibet platus possit 
+      in<lb ed="#A" n="37" break="no"/>dulgentias dare. Arguitur quod sic: quia quilibet praelatus 
+      <lb ed="#A" n="38"/>potest concedere participationem bonorum congregationis sue 
+      <lb ed="#A" n="39"/>ergo a simili potest eius merita per indulgentiam aliis 
+      communica<lb ed="#A" n="40" break="no"/>re.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e463">
+      ¶ In huius contrarium: solis episcopis vel electis in episcopos 
+      <lb ed="#A" n="41"/>permittitur indulgentias dare. Respondet Rich. vbi supra 
+      <lb ed="#A" n="42"/>q. iii. quod illi soli possunt indulgentias dare quibus 
+      thesau<lb ed="#A" n="43" break="no"/>ri ecclesie dispensatio commissa est: et secundum mensuram 
+      con<lb ed="#A" n="44" break="no"/>missionis sue. Et quia vicario christi commissa est 
+      pleni<lb ed="#A" n="45" break="no"/>tudo ptestatis a christo. de pe. et re. Cum ex eo. ideo dare 
+      praes<lb ed="#A" n="46" break="no"/>indulgentias per ecclesiam totam militantem tantas 
+      quan<lb ed="#A" n="47" break="no"/>tas sibi placuerit dum tamen assit rationabilis caus. Alii autem 
+      <lb ed="#A" n="48"/>tantum habent de hac potestate quantum eis a vicario christi 
+      con<lb ed="#A" n="49" break="no"/>cessum est. Ipse autem per ius commue hoc non concessit nisi episcopis 
+      <lb ed="#A" n="50"/>vel electis in episcopos et suis legatis: et ideo nulli alii in 
+      <lb ed="#A" n="51"/>dulgentias possunt dare nisi ex speciali commissione. nec 
+      <lb ed="#A" n="52"/>possunt dare legati indulgentias nisi in prouincia sua. 
+      <lb ed="#A" n="53"/>nec episcopi nisi in suo episcapiatu. archiepiscopi possunt dare in episcopia 
+      <lb ed="#A" n="54"/>tibus suorum suffraganeorum. extra de pe. et re nostro. 
+      Isti<lb ed="#A" n="55" break="no"/>tamen in dedicatione basilice siue dedicetur ab vno epo si 
+      <lb ed="#A" n="56"/>ue a pluribus non debent extendere indulgentiam vltra 
+      an<lb ed="#A" n="57" break="no"/>num. neque in anniuersario dedicationis vltra quadra¬ 
+      <!--214.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ginta dies. exra de pe. et re.cum exeo. Lmitata ei. 
+      <lb ed="#A" n="59"/>est eis potestas a papa ne per immoderatas concessiones 
+      <lb ed="#A" n="60"/>claues ecclesie contennerentur et poenitentialis satisfactio 
+      ecua<lb ed="#A" n="61" break="no"/>cuaretur: vbi prius. Unde dicit Car. in cle. ii quod si excedant 
+      <lb ed="#A" n="62"/>hunc numeorum valent. vt extra de pe. et re. c. 
+      indulgen<lb ed="#A" n="63" break="no"/>tie. li. vi. quod secundum glo. ibidem intellige quo ad excessum 
+      <lb ed="#A" n="64"/>non quo ad numerum concessum. Cardi. extra de priuile. re 
+      <lb ed="#A" n="65"/>li. in cle. Et glo. in c. mensuram de pe. di. i. ac Panor. 
+      <lb ed="#A" n="66"/>extra de homi. sicut dignum. et allegat. c. que penitetr 
+      <lb ed="#A" n="67"/>de pe. di. i. Et Innoc. et Bern. in c. quod autm. tenent quod 
+      <lb ed="#A" n="68"/>sacerdotes omnes in foro poenitentiali possunt dare 
+      indulgenti<lb ed="#A" n="69" break="no"/>as illis quos possunt absoluere. Sed de quanto non 
+      deter<lb ed="#A" n="70" break="no"/>minatur nisi quod Aluarus dicit quod indulgentiam potest dare 
+      <lb ed="#A" n="71"/>annorum vel dierum sicut ei videbitur dummodo discrete 
+      faci<lb ed="#A" n="72" break="no"/>at. Hoc idem tenet Innocen. et archi. in d. c. 
+      indul<lb ed="#A" n="73" break="no"/>gentie. Et ad iura quae videntur contraria respondet archi. quod 
+      <lb ed="#A" n="74"/>est verum de generalibus autem publicis remissionibus quod 
+      <lb ed="#A" n="75"/>facere non possunt vel debent intelligi de poenitentia iniuncta a 
+      <lb ed="#A" n="76"/>superiore: puta episcopo quam remittere praesent. xxi. di. 
+      Infe<lb ed="#A" n="77" break="no"/>rior. quod intellige si inferior habet auctem 
+      absoluen<lb ed="#A" n="78" break="no"/>di a peccato propter quod fuit sibi imposita poenitentia a 
+      superi<lb ed="#A" n="79" break="no"/>ore. quia tunc potest facere illi absoluto a se 
+      indulgenti<lb ed="#A" n="80" break="no"/>as.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e556">
+      ¶ Ad argumentum dicndum quod non est simile: quia 
+      conces<lb ed="#A" n="81" break="no"/>sio participationis bonorum fit per mutuam charitatem: sed 
+      <lb ed="#A" n="82"/>donatio indulgentie per auctoritaem. vnde quilibet potest 
+      participa<lb ed="#A" n="83" break="no"/>tionem suorum bonorum concedere: sed non indulgentiam 
+      <lb ed="#A" n="84"/>dare debitorum suorum. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e569">
+               <head xml:id="Vn7Pel-k62292-Hd1e571">5</head>
+               <p xml:id="Vn7Pel-k62292-d1e573">
+                  <lb ed="#A" n="85"/>¶ Utrum indulgentie debent 
+      fie<lb ed="#A" n="86" break="no"/>ri pro spirituali bene ficio etiam temporali: Arguitur quod pro temporalibus 
+      <lb ed="#A" n="87"/>et corporalibus actibus fieri debeat vel etiam beneficiis: quia 
+      <lb ed="#A" n="88"/>indulgentie communiter dantur pro elemosynis 
+      pegrinationi<lb ed="#A" n="89" break="no"/>bus et visitationibus reliquiarum et huiusmodi.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e586">
+      ¶ Item ratione 
+      vi<lb ed="#A" n="90" break="no"/>detur quia huiusmodi relaxationes aliquo modo sacramentales sunt. sed 
+      <lb ed="#A" n="91"/>sacramenta attenduntur in rebus exterius gestis. ergo etq¶ Item 
+      <lb ed="#A" n="92"/>iste relaxationes non sunt a culpa sed a pena si recte 
+      com<lb ed="#A" n="93" break="no"/>mutatur. sed absolutio fit a pena exteriori in carne: 
+      <lb ed="#A" n="94"/>vtpote a ieiuniis et similibus ergo debet fieri commutatio 
+      <lb ed="#A" n="95"/>in penam exteriorem. ergo pro tali commutationes fieri debent 
+      <lb ed="#A" n="96"/>In contrarium arguitur. quia indulgentia dicit beneficium spiritua 
+      <lb ed="#A" n="97"/>le. sed quicumque dat spirituale pro temporali commitit simoniam. 
+      <lb ed="#A" n="98"/>ergo videtur quod in omnibus indulgentiis sit simonia si fuerit 
+      <lb ed="#A" n="99"/>pro exterioribus elemosynis vel obsequiis
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e610">
+      ¶ Item maior est 
+      <lb ed="#A" n="100"/>misericordia spiritualis quam corporalis. vnde maius est alicui 
+      <lb ed="#A" n="101"/>percere quam hospitio recipere vel elemosynam dare. ergo facit 
+      ma<lb ed="#A" n="102" break="no"/>gis hominem dignum indulgentia. ergo potius pro illo opere debet 
+      <lb ed="#A" n="103"/>fieri indulgentia
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e621">
+      ¶ Item in periculosiori ruina est 
+      ec<lb ed="#A" n="104" break="no"/>clesia in qua est scisma quam eceia cuius perietes minantur 
+      <lb ed="#A" n="105"/>ruinam. ergo magis indiget talis ecclesia muniri quam alia. 
+      <lb ed="#A" n="106"/>ergo indulgentia debet dari pro spirituali ruina reparanda vt 
+      qui<lb ed="#A" n="107" break="no"/>orat vt deus det ei concordia: indulgentiam hebeat
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e633">
+      ¶ Item 
+      <lb ed="#A" n="108"/>maioris perfectionis est religionem intrare quam cfucem 
+      <lb ed="#A" n="109"/>assumere. ergo potius debet dari indulgentia intrantibus 
+      fe<lb ed="#A" n="110" break="no"/>ligionem quam cuntibus vltra mare. Unde quaeritur si aliquis 
+      <lb ed="#A" n="111"/>accipit crucen et habet voluntatem ire vltra mare habeat 
+      <lb ed="#A" n="112"/>remissionem peccatorum. quod si sic: tunc indulgentia fit pro 
+      so<lb ed="#A" n="113" break="no"/>a voluntate: et ita pro re spirituali. Si vero non tunc 
+      ecclesia<lb ed="#A" n="114" break="no"/>non videtur conformis deo qui bonam volutatem reputat pro 
+      <!--215.xml-->
+      <pb ed="#A" n="216"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>bono facto. Respondet san. Bonauen. vbi supra. q. iiii quod 
+      <lb ed="#A" n="2"/>sicut videmus in policiis et communitatibus humanis quod 
+      thesau<lb ed="#A" n="3" break="no"/>rus reipublicepropter duo maxime consueuit conferri 
+      <lb ed="#A" n="4"/>exterius: Sic est in spiritualibus intelligendum. 
+      Pro<lb ed="#A" n="5" break="no"/>fertur nanque thesaurus ad dispergendum propter gloriam 
+      <lb ed="#A" n="6"/>principis. sicut faciunt reges curiales sicut fecit 
+      Asuer<lb ed="#A" n="7" break="no"/>Hester. li.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e672">
+      ¶ Alio modo propter vtilitatem communitatis vt 
+      <lb ed="#A" n="8"/>quando leditur communitas proferunt stipendia militibus vt eant 
+      <lb ed="#A" n="9"/>ad pugnam. Sic thesaurus ecclesie ab his qui habent 
+      <lb ed="#A" n="10"/>dispensare duplici ex causa debet distribui
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e681">
+      ¶ Una est 
+      <lb ed="#A" n="11"/>propter gloriam principis et honor dei est in scsis suis: 
+      <lb ed="#A" n="12"/>et sancti honorantur in constructione basilicarum et visitatione 
+      <lb ed="#A" n="13"/>earum. commemoratione virtutum suarum. et idem fit in 
+      praedica<lb ed="#A" n="14" break="no"/>tionibus: ideo pro his omnibus indulgentie recte fiunt.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e692">
+      ¶ Alia 
+      <lb ed="#A" n="15"/>causa est communis vtilitas: quae quide est defensio terre sanct 
+      <lb ed="#A" n="16"/>defensio fidei: promotio studii et consimilia. et ideo pro 
+      tali<lb ed="#A" n="17" break="no"/>bus debent fieri. Et quoniam hec consistunt in actibus exteri 
+      <lb ed="#A" n="18"/>oribus ideo maxime pro actibus exterioribus dicunt fieri 
+      indul<lb ed="#A" n="19" break="no"/>gentie.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e705">
+      ¶ Ad primum in oppositum quod obiicitur quod est si 
+      <lb ed="#A" n="20"/>monia: quia datur spirituale pro temporali. dicendum quod falsum est 
+      <lb ed="#A" n="21"/>imo maior pena commutatur in minorem: et residuum 
+      <lb ed="#A" n="22"/>soluit pastor ecclesie de gratia. Uel dicendum quod non 
+      da<lb ed="#A" n="23" break="no"/>indulgentiam pro elemosyna exteriori considerans datum sed 
+      fru<lb ed="#A" n="24" break="no"/>ctum: videlicet quia ex radice bone voluntatis procedit.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e718">
+      ¶ Ad 
+      <lb ed="#A" n="25"/>secundum quod spiritualis elemosyna maior est 
+      Di<lb ed="#A" n="26" break="no"/>cendum quod in donatione indulgentie no consideratur 
+      oper<lb ed="#A" n="27" break="no"/>nobilitas: quia tunc magis deberet dari docentibus quam 
+      <lb ed="#A" n="28"/>peregrinantibus. sed consideratur hoc quod illud opus sit 
+      me<lb ed="#A" n="29" break="no"/>re voluntatis non necesitatis. sit etiam quid taxabile. sit 
+      <lb ed="#A" n="30"/>etiam aliquo modo penale. hec omnia considerat qui 
+      indulgen<lb ed="#A" n="31" break="no"/>tiam praestat.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e737">
+      ¶ Ad illud quod obiicitur de ruina spirituali 
+      Di<lb ed="#A" n="32" break="no"/>cendum est quod pro talibus tenetur homo orare. tamen no est bonum 
+      <lb ed="#A" n="33"/>talia publicare. ruinam autem materialem ecclesie 
+      publi<lb ed="#A" n="34" break="no"/>care: nec dicit aliquid malum nec infamiam. Preterea 
+      ma<lb ed="#A" n="35" break="no"/>gis potest homo subuenire ecclesie ruinose quam discordar 
+      <lb ed="#A" n="36"/>tes concordare. quia illud opus hominis: hoc dei.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e750">
+      ¶ Ad 
+      il<lb ed="#A" n="37" break="no"/>lud quod obiicitur de ingressu religionis Dicedum quod 
+      <lb ed="#A" n="38"/>sicut indulgentie non debent dari indignis: ita nec dicunt 
+      <lb ed="#A" n="39"/>dari nisi idigentibus. Ueri autem religiosi qui statum 
+      ag<lb ed="#A" n="40" break="no"/>grediuntur perfectionis potius spiritualia aliis largiuntur 
+      <lb ed="#A" n="41"/>quam vendicent. Unde hic maxime verum est quod dicitur Actus. xx. 
+      <lb ed="#A" n="42"/>Beatius est magis dare quam accipere. In temporalibua 
+      <lb ed="#A" n="43"/>autem non habet veritatem nisi quando donas dat de proprio 
+      la<lb ed="#A" n="44" break="no"/>bore et accipiens accipit ex ope.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e770">
+      ¶ Ad vltimum cum quae 
+      <lb ed="#A" n="45"/>ritur de sola voluntate Docundum quod secundum peritos non habet 
+      <lb ed="#A" n="46"/>totam indulgentiam quicquid isti vulgares praedicatores 
+      di<lb ed="#A" n="47" break="no"/>cant: tamen valet eis tam nobile propositum ad augmentum 
+      <lb ed="#A" n="48"/>charitatis. et per conseques contritionis: et ita ad remissionem 
+      <lb ed="#A" n="49"/>pene. Indulgentie enim non intelliguntur dari pro 
+      sola<lb ed="#A" n="50" break="no"/>voluntate sed pro effectu. Unde qui habet voluntatem et 
+      ef<lb ed="#A" n="51" break="no"/>fectum: indulgentiam consequitur. alius qui habet 
+      volunta<lb ed="#A" n="52" break="no"/>tem tantum ex deuotione habet magnum meritum: sed non 
+      effe<lb ed="#A" n="53" break="no"/>cat. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e793">
+               <head xml:id="Vn7Pel-k62292-Hd1e795"> 6 </head>
+               <p xml:id="Vn7Pel-k62292-d1e797">
+                  <lb ed="#A" n="54"/>Notandum quod indulgentie 
+      conce<lb ed="#A" n="55" break="no"/>duntur variis modis et exprimuntur diuersis 
+      vocabi<lb ed="#A" n="56" break="no"/>dis. Carina seu carena secundum glo. super ca. accepisti. de 
+      <lb ed="#A" n="57"/>sponsa duorum. est vulgare intalicorum. et dicitur carina a 
+      <!--215.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>carentia hominum vel etiam cibariorum. Nam in illis. xl. 
+      <lb ed="#A" n="59"/>dicbus homines includuntur in aliquo loco secreto iuxta 
+      eco<lb ed="#A" n="60" break="no"/>clesiam vbi non habent consortium hominum. Unde et in 
+      supra<lb ed="#A" n="61" break="no"/>dicto c. accepisti. iniungitur cuidam qui accepcrat 
+      quan<lb ed="#A" n="62" break="no"/>dam in vxorem quam alter sibi desponsauit quod faciat ca 
+      <lb ed="#A" n="63"/>rinam id est xl. dies in pane et aqua cum. vii. sequentibus 
+      an<lb ed="#A" n="64" break="no"/>nis peniteat. Ut enim colligitur ex gestis sumorum 
+      poto<lb ed="#A" n="65" break="no"/>tificum differentia est inter septena vel septenarium: quae 
+      <lb ed="#A" n="66"/>dragenam et carenam quae etiam carentena aliquando dicitur. Nam 
+      <lb ed="#A" n="67"/>Clemens papa prius in stituit quadragenam per qua 
+      <lb ed="#A" n="68"/>designauit praesentiam. xl. dierum cum septem annis 
+      sequenti<lb ed="#A" n="69" break="no"/>bus: quam penam iniungebat ratione vnius peccati 
+      morta<lb ed="#A" n="70" break="no"/>lis:ita quod per istos. xl. dies penitentes excludcbantur 
+      <lb ed="#A" n="71"/>ab ecclesia et incedehant capite discooperto sparso 
+      cri<lb ed="#A" n="72" break="no"/>ne. et post eosdem dies iniungebatur eis poenitentia septennis 
+      <lb ed="#A" n="73"/>videlicet quod per eosdem. vii. annos feriis secudis semel vte 
+      <lb ed="#A" n="74"/>rentur lacticiniis quartis feriis vno ferculo 
+      concer<lb ed="#A" n="75" break="no"/>nente ieiunium. Sextis vero feriis haberent tria 
+      fru<lb ed="#A" n="76" break="no"/>sta panis cinere intincta. Et infra hos septem 
+      an<lb ed="#A" n="77" break="no"/>nos non vtebantur carnibus nec vino: nec etiam lecto: 
+      <lb ed="#A" n="78"/>nec balneo. sed dormiebant in terra aspera vel 
+      lapi<lb ed="#A" n="79" break="no"/>de. Quibus annis expletis licuit ipsos primo communicare 
+      <lb ed="#A" n="80"/>corpore dominico. Septenam autem Inno. papa 
+      iniunge<lb ed="#A" n="81" break="no"/>bat prius pro vno mortali peccato: sic quod die dominico 
+      de<lb ed="#A" n="82" break="no"/>bebant vti lacticiniis bis in die. Feria secunda 
+      ieiu<lb ed="#A" n="83" break="no"/>nare vno ferculo concernente ieiunium. Feria tertia 
+      <lb ed="#A" n="84"/>vtebantur bis lacticiniis siue ouis. Feria quarta vte 
+      <lb ed="#A" n="85"/>bantur pane et potu aliquo semel in die. Feria quinta 
+      si<lb ed="#A" n="86" break="no"/>militer bis lacticiniis et ouis. Feria sexta solo 
+      pa<lb ed="#A" n="87" break="no"/>ne et aqua simul. Die vero sabbati ibant peregrinatum 
+      <lb ed="#A" n="88"/>per ecclesias limitando limina sanctorum quando melius potu 
+      <lb ed="#A" n="89"/>erunt comedere lacticinia semel. Quibus explctis 
+      prae<lb ed="#A" n="90" break="no"/>pabita absolutione licuit ipsos communicare corpore 
+      dominico<lb ed="#A" n="91" break="no"/>et vocabatur huiusmodi poenitentia septenaria vel septena 
+      In<lb ed="#A" n="92" break="no"/>nocentii. Sed carena siue carentena erat pena 
+      in<lb ed="#A" n="93" break="no"/>cludens praesentiam quadragene et septene. quia sic 
+      peni<lb ed="#A" n="94" break="no"/>tentes abstinebant a cibis et a conuersatione hominum 
+      <lb ed="#A" n="95"/>et ieiunabant in paneet aqua. xl. diebus. Item post hoc 
+      <lb ed="#A" n="96"/>imponebatur eis septennalis poenitentia iuxta arbitrium 
+      sa<lb ed="#A" n="97" break="no"/>cerdotis vt ieiunarent qualibet septimana vnum dien. 
+      <lb ed="#A" n="98"/>et dicerent certas orationes: aut facerent aliqua pia 
+      ope<lb ed="#A" n="99" break="no"/>ra quae poenitentia iniungebatur pro quolibet mortali peccato secundum 
+      <lb ed="#A" n="100"/>canones: licet modo canones penitentiales sint 
+      arbi<lb ed="#A" n="101" break="no"/>trarie. Modo autem papa dans quadragenam vel se 
+      <lb ed="#A" n="102"/>ptenam vel carenam in litteis indulgentiarum praetendit 
+      ab<lb ed="#A" n="103" break="no"/>soluere illos qui debite vtuntur indulgentiis. vel 
+      tan<lb ed="#A" n="104" break="no"/>tam gratiam conferre remissionis quantam isti per easdem poenitentias 
+      <lb ed="#A" n="105"/>meruerut. et sic per annum penitentialem confert tantam 
+      <lb ed="#A" n="106"/>gratiam remissionis quantam homo mereretur per se penitendo 
+      <lb ed="#A" n="107"/>aitt. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e922">
+               <head xml:id="Vn7Pel-k62292-Hd1e924">7</head>
+               <p xml:id="Vn7Pel-k62292-d1e926">
+                  <lb ed="#A" n="108"/>¶ Utrum indulgentie tantum valeant 
+      <lb ed="#A" n="109"/>intum sonant: Arguitur quod non. quia tantum valerent danti 
+      <lb ed="#A" n="110"/>vnum denarium quantum danti centum libras. et venienti 
+      <lb ed="#A" n="111"/>visitare locum sanctum de prope sicut de longe cum in 
+      indul<lb ed="#A" n="112" break="no"/>gentiis contineatur quicumque dederit elemosynam suam 
+      <lb ed="#A" n="113"/>pro tali facto. vel visitauerit talem locum sanctum habcbit 
+      <lb ed="#A" n="114"/>tantum de indulgentia. Item cum danti elemosynam 
+      <!--216.xml-->
+      <pb ed="#A" n="217"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pro tali facto conceditur tertia pars remissionis pene sue 
+      <lb ed="#A" n="2"/>tunc dando vnum denarium: et alia vice alium: et tertia 
+      <lb ed="#A" n="3"/>vice alium liberaretur a tota pena peccatis suis debita. 
+      <lb ed="#A" n="4"/>quod videtur absurdum
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e959">
+      ¶ In contrarium dicitur Iob. xiii. Num 
+      <lb ed="#A" n="5"/>quid deus indiget nostro mendacio: q. dicit non. ergo pro qua 
+      <lb ed="#A" n="6"/>cumque vtilitate non debet homo mentiri. ergotatum valent 
+      indul<lb ed="#A" n="7" break="no"/>gentie quantum ecclesia dicit eas valere. Respondetur de ista quae 
+      <lb ed="#A" n="8"/>stione plures et varie fuerunt opiniones quas recitant 
+      <lb ed="#A" n="9"/>Rich. et san. Bonauen. vbi supra. Quidam dicunt quod 
+      tan<lb ed="#A" n="10" break="no"/>tum valent quantum sonant: ita quod quandoque duorum equaliter 
+      di<lb ed="#A" n="11" break="no"/>uitum quorum vnus dat vnum denarium alius decem. 
+      il<lb ed="#A" n="12" break="no"/>le qui minus dat obtinet remissionem vnius 
+      anni<lb ed="#A" n="13" break="no"/>sicut ille qui plus dat. nec propter hoc sequitur quod tantum remit 
+      <lb ed="#A" n="14"/>tatur vni de pena a deo taxata quantum alii. quia pena 
+      <lb ed="#A" n="15"/>vnius anni iu hac vita non tantum valet illi qui eam facitum 
+      <lb ed="#A" n="16"/>ex minori charitatis feruore et remissam sicut qui cam 
+      <lb ed="#A" n="17"/>facit ex maiori tasperam. Cum autem dicitur in forma 
+      indul<lb ed="#A" n="18" break="no"/>gentie quemlibet dantem elemosynam suam pro tali facte 
+      <lb ed="#A" n="19"/>remissionem habere pene vnius anni quam faceret in 
+      <lb ed="#A" n="20"/>hac vita. Cum ergo illi qui plus dat et ex maiori feruo 
+      <lb ed="#A" n="21"/>re respondeat annus efficacioris poenitentie quam illi qui minus 
+      <lb ed="#A" n="22"/>plus sibi remittitur de pena a deo taxata quam alii: et 
+      <lb ed="#A" n="23"/>tamen cuilibet valet vnum annum poenitentie in hac vita. Aliis 
+      <lb ed="#A" n="24"/>autem videtur dicendum quod cuilibet danti elemosynam 
+      <lb ed="#A" n="25"/>suam datur remissio intensionis pene anni vnius non 
+      <lb ed="#A" n="26"/>tamen equaliter: sed ille qui plus dat ceteris paribus obtinet 
+      <lb ed="#A" n="27"/>de intensionis remissione: ita quod si ponantur duo in 
+      <lb ed="#A" n="28"/>omnibus equales obligati ad morandum per annum vnum 
+      <lb ed="#A" n="29"/>in purgatorio. Si pro indulgentia vnius anni: vnus 
+      <lb ed="#A" n="30"/>bdat denarium vnum et alius decem quilibet in 
+      purgato<lb ed="#A" n="31" break="no"/>rio per totum annum illum minus punietur. sed ille qui des 
+      <lb ed="#A" n="32"/>dit decem minus quam ille qui non dedit nisi vnum: ita quod 
+      <lb ed="#A" n="33"/>erit alleuiatio secundum datorum proportionem.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1024">
+      ¶ Sed 
+      contra<lb ed="#A" n="34" break="no"/>hoc est: quia tunc per indulgentias non remitteretur pene 
+      <lb ed="#A" n="35"/>quantitas extensiua sed intensiua: et ideo Rich. 
+      vi<lb ed="#A" n="36" break="no"/>detur dicere quod quantum ad remissionem extensionis 
+      pe<lb ed="#A" n="37" break="no"/>ne pares sunt ille qui minus dat: et ille qui plus si 
+      <lb ed="#A" n="38"/>hoc continetur in forma indulgentie: sed quantum ad 
+      <lb ed="#A" n="39"/>remissionem intensionis pene: et quantum ad sui 
+      dis<lb ed="#A" n="40" break="no"/>positionem ad recipiendum augmentum gratiae impares 
+      <lb ed="#A" n="41"/>sunt. quia de illis duobus plus consequitur ille qui plus 
+      <lb ed="#A" n="42"/>dat nisi in casu in quo minus datum esset maius per 
+      <lb ed="#A" n="43"/>comparationem ad dantem quam maius datum per 
+      compa<lb ed="#A" n="44" break="no"/>rationem ad dantem. sicut patet in paupercula de 
+      qua<lb ed="#A" n="45" break="no"/>dicit dominus Marci. xii. quod plus ministrat in 
+      gazo<lb ed="#A" n="46" break="no"/>phylacium quam omnes alii. Et secundum dicta patet responsio ac 
+      <lb ed="#A" n="47"/>argumenta. Et huic concor. sanctus Tho. in. iiii. dist 
+      <lb ed="#A" n="48"/>xx. Si enim indulgentie dantur ab eo qui potest eas 
+      da<lb ed="#A" n="49" break="no"/>re. et propter rationabilem causam valent his qui sunt 
+      <lb ed="#A" n="50"/>in statu gratie: dum tamen faciant illud quod continetur in 
+      <lb ed="#A" n="51"/>forma indulgentie. per eas enim remittetur vel tota 
+      pe<lb ed="#A" n="52" break="no"/>na peccatis debita: vel eius portio secundum ipsarum 
+      teno<lb ed="#A" n="53" break="no"/>rem. valent enim quantum sonant: puta. xl. dies 
+      indu<lb ed="#A" n="54" break="no"/>gentie valent. xl. dies penitentie siue sit iniuncta 
+      si<lb ed="#A" n="55" break="no"/>ue non. Est autem in arbitrio dantis indulgentiam 
+      <lb ed="#A" n="56"/>taxare quantum remittatur de pena. vt dicit sanctus 
+      <lb ed="#A" n="57"/>Tho. Uel secundum alios tantum valent quantum 
+      sonan<lb ed="#A" n="58" break="no"/>secundum taxationem factam a sacerdote: vel a lege vel qa¬ 
+      <!--216.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>diuina iusticia. Si vero detur remissio plenaria omnium. 
+      <lb ed="#A" n="60"/>peccatorum ille qui ipsam lucratur si tunc moriatur 
+      <lb ed="#A" n="61"/>statim euolabit in paradisum. et sic vni tantum 
+      quan<lb ed="#A" n="62" break="no"/>doque valet plenaria indulgentia ad decem dies. 
+      <lb ed="#A" n="63"/>alii ad centum. alii ad mille. quia tantum tenebatur 
+      <lb ed="#A" n="64"/>Quibus solutis iam remanet expeditus.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1098">
+      ¶ Sed 
+      <lb ed="#A" n="65"/>diceres. an dies vel anni sint vtiles vel continui: 
+      <lb ed="#A" n="66"/>Respondet Hostien. de peni. et remis. c. cum ex 
+      <lb ed="#A" n="67"/>eo. quod dies erunt vtiles: annus vero continuus. vult 
+      <lb ed="#A" n="68"/>dicere quod si sacerdos imposuit alicui vt ieiunet quod 
+      <lb ed="#A" n="69"/>draginta dies siue continue siue interpolate 
+      con<lb ed="#A" n="70" break="no"/>sequendo indulgentiam quadraginta dierum erit 
+      ab<lb ed="#A" n="71" break="no"/>solutus. Si vero debet agere penitentiam per annum 
+      <lb ed="#A" n="72"/>qualiscunque sit illa penitentia: vtpote ieiunandi per 
+      <lb ed="#A" n="73"/>annum bis vel ter quod ista solummodo tollitur per in 
+      <lb ed="#A" n="74"/>dulgentiam anni: ita quod indulgentia non diuiditur 
+      per<lb ed="#A" n="75" break="no"/>dies sed valet respectu anni integri prout penitentia 
+      <lb ed="#A" n="76"/>est annualis. Sed hoc vltimum est verum 
+      quan<lb ed="#A" n="77" break="no"/>do indulgetur annus de iniunctis penitentiis. 
+      Se<lb ed="#A" n="78" break="no"/>cus autem quando simpliciter datur annus 
+      indul<lb ed="#A" n="79" break="no"/>gentie. quia sic est (vt videtur vtilis: et sic dimittit de 
+      <lb ed="#A" n="80"/>pena debita peccato in foro anime siue sit 
+      impo<lb ed="#A" n="81" break="no"/>sita a sacerdote: siue a iure: siue a diuina iusticia 
+      <lb ed="#A" n="82"/>ccclxv. dierum: si est plenaria statim euolatur si 
+      <lb ed="#A" n="83"/>in tali moritur. nec sentiet purgatorium secundum 
+      Ho<lb ed="#A" n="84" break="no"/>stien. Ex quibus infertur quod qui plenariam 
+      indul<lb ed="#A" n="85" break="no"/>gentiam consequitur et ibi corfitetur non est necesse 
+      <lb ed="#A" n="86"/>quod ille aliquam penitentiam a confessore iniunctam 
+      <lb ed="#A" n="87"/>qualemcumque assumat ex quo per indulgentiam 
+      <lb ed="#A" n="88"/>satisfactum est: suadetur tamen illi vt acceptet. et 
+      <lb ed="#A" n="89"/>illa penitentia cedet illi ad meritum. non sic autem 
+      <lb ed="#A" n="90"/>indulgentia. Nam in consecutione indulgentie. 
+      <lb ed="#A" n="91"/>duo sunt. Primum relaxatio pene: et ista tantum valet 
+      <lb ed="#A" n="92"/>ad purgarorium et non ad praemium. Secundum illud 
+      <lb ed="#A" n="93"/>opus per quod consequitur ipsam indulgentiam: et 
+      <lb ed="#A" n="94"/>ipsum valet etiam ad praemium. ita quod si non indiget 
+      pur<lb ed="#A" n="95" break="no"/>gatione quis nihil illi valent indulgentie concesse. 
+      <lb ed="#A" n="96"/>meretur tamen per illud opus per quod consequitur. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e1171">
+               <head xml:id="Vn7Pel-k62292-Hd1e1173">8</head>
+               <p xml:id="Vn7Pel-k62292-d1e1175">
+                  <lb ed="#A" n="97"/>¶ Unde assumuntur iste 
+      indulgen<lb ed="#A" n="98" break="no"/>tie: Respondet communis opinio doctorum quoed ex abum 
+      <lb ed="#A" n="99"/>dantia meritorum christi et sanctorum que vltra 
+      me<lb ed="#A" n="100" break="no"/>rita chisei sancti sustinuerunt. Sed Fran. maro in 
+      tra<lb ed="#A" n="101" break="no"/>ctatu de indulgentia dicit. quod cum merita sancto 
+      <lb ed="#A" n="102"/>rum sint vltra condignum remunerata a deo: et 
+      <lb ed="#A" n="103"/>sic exhausta quod solum dantur ex merito christi et 
+      <lb ed="#A" n="104"/>passionis eius. cuius minima gutta sanguinis 
+      <lb ed="#A" n="105"/>vel sudoris sufficeret ad expiationem omnium 
+      pec<lb ed="#A" n="106" break="no"/>catorum que vnquam fuerunt perpetrata vel 
+      perpe<lb ed="#A" n="107" break="no"/>trabuntur. quia eius respectu nihil sunt omnila. de 
+      <lb ed="#A" n="108"/>summa trini. c. damnamus. et de cele. mis. ca. cum 
+      <lb ed="#A" n="109"/>marthe. cuius dispensatio tradita est super terram 
+      <lb ed="#A" n="110"/>illi qui curam habet mystici corporis et clauem 
+      to<lb ed="#A" n="111" break="no"/>tius ecclesie militantis. vt patet extra de transla. c. 
+      <lb ed="#A" n="112"/>quanto. et. xxiii. q. i. c. quodcunque. Sed illud non 
+      vi<lb ed="#A" n="113" break="no"/>detur verum: quod merita sanctorum propter remunerationem 
+      <lb ed="#A" n="114"/>copiosam sint exhausta quantum ad indulgentiam: quia 
+      <lb ed="#A" n="115"/>alias fuperflue et ociose peteremus per merita scorum nobis 
+      <!--217.xml-->
+      <pb ed="#A" n="218"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>subueniri quibus prosunt indulgentie Respondetur secundum 
+      <lb ed="#A" n="2"/>san. Tho. vbi supra quod quattuor requruntur ad hoc vt 
+      va<lb ed="#A" n="3" break="no"/>seant. Primum quod sit contritus et confessus. videtur 
+      ta<lb ed="#A" n="4" break="no"/>men satis rationabile quod hoc intelligatur secundum ecclesie in 
+      <lb ed="#A" n="5"/>terpretationem. Unde ille qui fuit confessus in pasca et 
+      <lb ed="#A" n="6"/>post cecidit in mortale peccatum si conteratur de eo et 
+      <lb ed="#A" n="7"/>proponat confiteri in quadragesima futura 
+      censebil<lb ed="#A" n="8" break="no"/>confessus et contritus: et sic habebit iudulgentiam. 
+      <lb ed="#A" n="9"/>Et licet hanc opinionem teneant Cardi. Panor. 
+      <lb ed="#A" n="10"/>Ioan. and. et alii. tamen tutius est quod confiteantur: 
+      <lb ed="#A" n="11"/>maxime cum vix sciant seculares vere conteri. Si 
+      <lb ed="#A" n="12"/>vero confiteri non possunt commode: conterantur et 
+      ha<lb ed="#A" n="13" break="no"/>debunt indulgentias: sed non existentes in mortali non 
+      <lb ed="#A" n="14"/>contriti.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1256">
+      ¶ Secundum quod habeat fidem qua credat 
+      tan<lb ed="#A" n="15" break="no"/>tam potestatem esse apud ecclesiam. quia licet non 
+      <lb ed="#A" n="16"/>habeamus manifesta testimonia ante tempus 
+      Gre<lb ed="#A" n="17" break="no"/>gorii. tamen credendum est quod etiam ante faciebant 
+      <lb ed="#A" n="18"/>licet non ita frequenter. quia ante sua tempora raro 
+      <lb ed="#A" n="19"/>poterant fieri ita solennes et catholici stationes. 
+      <lb ed="#A" n="20"/>etiam quia erant magis perfecti: ideo non tantum 
+      in<lb ed="#A" n="21" break="no"/>digebant sicut modo
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1274">
+      ¶ Tertium quod subsit causa 
+      ra<lb ed="#A" n="22" break="no"/>tionabilis. quia dicit sanctus Bonauen. vbi 
+      supra<lb ed="#A" n="23" break="no"/>q. vi. Non enim credendum esset indulgentia 
+      alicu<lb ed="#A" n="24" break="no"/>ius valoris siquis daret eam euntibus videre tor 
+      <lb ed="#A" n="25"/>neamenta.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1285">
+      ¶ Quartum quod faciat illud pro quo 
+      da<lb ed="#A" n="26" break="no"/>tur Unde dicitur sanc. Bona. vbi supra quod vt valeant 
+      in<lb ed="#A" n="27" break="no"/>dulgentie duo requiruntur ex parte donantis scilicet 
+      Po<lb ed="#A" n="28" break="no"/>tentia et causa honesta. Et duo ex parte 
+      recipien<lb ed="#A" n="29" break="no"/>tis scilicet Confessio cum vera contritione et fides cum 
+      de<lb ed="#A" n="30" break="no"/>uotione.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1299">
+      ¶ Sed diceres. an indulgentie prosint 
+      reli<lb ed="#A" n="31" break="no"/>giosis: Respondet Rich. vbi supra. ar. iiii. q. ii quod sic 
+      <lb ed="#A" n="32"/>si faciunt illud pro quo datur: et hoc facere possunt. quia 
+      <lb ed="#A" n="33"/>quamuis non habeant proprium nec pro voluntate sua 
+      pos<lb ed="#A" n="34" break="no"/>nnt claustrum exire ad visitandum alia loca sancta: 
+      <lb ed="#A" n="35"/>superior tamen potest eis dare licentiam aliquid 
+      dan<lb ed="#A" n="36" break="no"/>di et eundi extra. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e1316">
+               <head xml:id="Vn7Pel-k62292-Hd1e1318"> 9 </head>
+               <p xml:id="Vn7Pel-k62292-d1e1320">
+                  <lb ed="#A" n="37"/>¶ Utrum indulgentie valeant 
+      praela<lb ed="#A" n="38" break="no"/>tis qui eos concedunt: Arguitur quod non. quia nullus 
+      hab<lb ed="#A" n="39" break="no"/>ptestatem absoluendi seipsum. sed si dantibus indulgem 
+      <lb ed="#A" n="40"/>tias prodessent ille indulgentie ad remissionem 
+      pene<lb ed="#A" n="41" break="no"/>dantes eas seipsos possent a pena absoluere.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1333">
+      ¶ In 
+      <lb ed="#A" n="42"/>contrarium: si non prodessent eis peioris essent 
+      condi<lb ed="#A" n="43" break="no"/>tionis quam alii: quod est inconueniens. Respondet 
+      <lb ed="#A" n="44"/>Richar. vbi supr. q. iii. quod prelatus sibiipsi non 
+      po<lb ed="#A" n="45" break="no"/>test indulgentias dare primo et principaliter et dire 
+      <lb ed="#A" n="46"/>cte. sed indulgentia aliis data ipse etiam sub eadem 
+      <lb ed="#A" n="47"/>forma vti potest: et sic sibi sicut aliis prodest.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1349">
+      ¶ Ad 
+      <lb ed="#A" n="48"/>argumentum dicendum quod quamuis prelatus non 
+      pos<lb ed="#A" n="49" break="no"/>sit seipsum absoluere directe potest tantum indirecte in 
+      <lb ed="#A" n="50"/>quantum alii potest concedere potestatem per quam ab illo 
+      po<lb ed="#A" n="51" break="no"/>test absolui. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k62292-Dd1e1361">
+               <head xml:id="Vn7Pel-k62292-Hd1e1363"> 10 </head>
+               <p xml:id="Vn7Pel-k62292-d1e1365">
+                  <lb ed="#A" n="52"/>¶ Utrum indulgentie valeant post 
+      <lb ed="#A" n="53"/>hanc vitam: Arguitur quod sic. quia omnes anime 
+      san<lb ed="#A" n="54" break="no"/>cte aut sunt de ecclesia triumphante aut 
+      militan<lb ed="#A" n="55" break="no"/>te. Sed anime sancte existentes in purgatorio non 
+      <lb ed="#A" n="56"/>sunt de triumphante: quia ibi nulla est pena. ergo 
+      <!--217.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>sunt de eeclesia militante. sad omnibus habentibus 
+      <lb ed="#A" n="58"/>gratiam in ecclesia militante prosunt indulgentie. 
+      ex<lb ed="#A" n="59" break="no"/>go prosunt illis qui sunt in purgatorio
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1389">
+      ¶ Item 
+      me<lb ed="#A" n="60" break="no"/>ritu indulgentie quod per indulgentias dispensatur 
+      <lb ed="#A" n="61"/>maius est quam meritum vnius singulare persone quod 
+      suf<lb ed="#A" n="62" break="no"/>fragatur existentibus in purgatorio. ergo multo 
+      for<lb ed="#A" n="63" break="no"/>tius illis valent indulgentie.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1400">
+      ¶ In contrarium dicitur 
+      <lb ed="#A" n="64"/>de pe. dist. i. Si cui. dominus par iul voluit soluendi 
+      <lb ed="#A" n="65"/>et ligandi esse . sed praelati eccie non possunt ligare eos 
+      <lb ed="#A" n="66"/>qui sant in purgatorio. ergo nec possunt eos 
+      sol<lb ed="#A" n="67" break="no"/>uere: quod verum non esset si illis prodessent 
+      indulgen<lb ed="#A" n="68" break="no"/>tie. Respondet Rich. vbi supra ar. iii. q. iii. quod 
+      indulgen<lb ed="#A" n="69" break="no"/>tie non prosunt illis qui non sunt de iurisdicione 
+      illi<lb ed="#A" n="70" break="no"/>us qui eas concessit. extra de pe. et re. Quod autem nec 
+      <lb ed="#A" n="71"/>illis qui non faciunt illud pro quo dantur indulgentie 
+      <lb ed="#A" n="72"/>quamuis habeant voluntatem faciendi. quamuis enim 
+      quan<lb ed="#A" n="73" break="no"/>tum ad praemium essentiale non potenti operari 
+      volun<lb ed="#A" n="74" break="no"/>tas reputatur pro facto: non oportet hoc esse verum 
+      quan<lb ed="#A" n="75" break="no"/>tum ad quodlibet praemium accidentale. vnde nec pro facto 
+      <lb ed="#A" n="76"/>reputatur quantum ad remissionem pene per 
+      indulgen<lb ed="#A" n="77" break="no"/>tias obtinende. Illi qui sunt in purgatorio non sunt 
+      <lb ed="#A" n="78"/>sub iurisdicione praelatorum ecclesie quod satis datur 
+      intelli<lb ed="#A" n="79" break="no"/>gi cum dominus dixit Petro. Quodcunque solueris super 
+      <lb ed="#A" n="80"/>terram. Addendo enim super terram videtur referre 
+      colla<lb ed="#A" n="81" break="no"/>tionem huius potestatis tantum super viuentes hac vita 
+      <lb ed="#A" n="82"/>mortali. Non potest etiam facere saltem de lege communi illud 
+      <lb ed="#A" n="83"/>quod continetur in forma indulgentie. quia et si orantes 
+      <lb ed="#A" n="84"/>pro aliquo principe vel aliquo speciali negocio 
+      eccle<lb ed="#A" n="85" break="no"/>sie concedantur indulgentie. tamen illi qui sunt in 
+      pur<lb ed="#A" n="86" break="no"/>gatorio hoc nesciunt nisi ex speciali reuelatione: et si 
+      <lb ed="#A" n="87"/>scirent quamuis orarent: non tamen esset eis penalis oratio 
+      <lb ed="#A" n="88"/>sicut est existentibus in hac vita mortali. Unde 
+      existen<lb ed="#A" n="89" break="no"/>ribus in purgatorio non prosunt indulgentie directe. 
+      <lb ed="#A" n="90"/>Indirecte tantum eis prosunt inquantum existentes in hac 
+      <lb ed="#A" n="91"/>vita faciunt pro eis illud quod continetur in forma 
+      indus<lb ed="#A" n="92" break="no"/>gentie maxime si detur indulgentia sub hac forma 
+      <lb ed="#A" n="93"/>Quicumque fecerit hoc vel illud sibi pro se vel pro 
+      pa<lb ed="#A" n="94" break="no"/>tre suo defuncto vel alia persona in purgatorio 
+      cxi<lb ed="#A" n="95" break="no"/>stente damus tot dies indulgentie. sed sic secundum quose 
+      <lb ed="#A" n="96"/>dam adhuc non prosunt eis nisi per modum su Fragii 
+      <lb ed="#A" n="97"/>quia non per modum autoritatis quam praelatus 
+      habe<lb ed="#A" n="98" break="no"/>at super eos: et ad hoc etiam vt sicut valeant eis 
+      co<lb ed="#A" n="99" break="no"/>peratur forma indulgentie praedicta: quia alia homo 
+      <lb ed="#A" n="100"/>non posset fructum indulgentie sue ad alium tratisi 
+      <lb ed="#A" n="101"/>ferre: quia eius non est applicare ad aliquam 
+      inten<lb ed="#A" n="102" break="no"/>tionem ecclesie per quam communicantur merita ecclesie ex quibus 
+      va<lb ed="#A" n="103" break="no"/>lent indulgentie
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1489">
+      ¶ Ad primum dicendum quod illi qui sunt in 
+      pur<lb ed="#A" n="104" break="no"/>gatorio cum eccia militante aliquo modo communicant in 
+      pe<lb ed="#A" n="105" break="no"/>na cum triumphante in impossibilitate peccandi cum vtraque 
+      <lb ed="#A" n="106"/>in charitate. et ideo quia coniuncti sunt cum militante 
+      ecclesia<lb ed="#A" n="107" break="no"/>per charitatem et maxime auxilio indigent: quia non sunt 
+      <lb ed="#A" n="108"/>in statu in quo possent assumere pena voluntariam per 
+      <lb ed="#A" n="109"/>quam citius admitterentur ad visionem beatam: ideo ecclesia 
+      <lb ed="#A" n="110"/>otest eos iuuare communicando eis merita viuorum: non tun 
+      <lb ed="#A" n="111"/>per modum auctoritis per quam directe iuuantur illi quibus 
+      di<lb ed="#A" n="112" break="no"/>recte prosunt indulgentie.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1512">
+      ¶ Ad secundum dicendum quod non plus 
+      <lb ed="#A" n="113"/>concludit nisi quod indulgentie possunt prodesse per modum 
+      sub<lb ed="#A" n="114" break="no"/>fragii concurrete ad hoc voluntate indulgentias dantis 
+      <!--218.xml-->
+      <pb ed="#A" n="219"/>
+                  <cb ed="#A" n="a"/>
+               </p>
+               <p xml:id="Vn7Pel-k62292-d1e1525">
+                  <lb ed="#A" n="1"/>¶ qum iodiuntate recpientia
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1530">
+      ¶ Ad terium solutum est e 
+      <lb ed="#A" n="2"/>dictis argumentum. et praeterea facere illud quod in 
+      in<lb ed="#A" n="3" break="no"/>dugentia continetur requiritur ad hoc quod recipiens sit de 
+      iu<lb ed="#A" n="4" break="no"/>risdicione dantis indulgentiam.
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1539">
+      ¶ Ad argumentum 
+      <lb ed="#A" n="5"/>in contrarium dicendum quod non plus concludit nisi quod 
+      in<lb ed="#A" n="6" break="no"/>dulgentie non prosunt eis directe. sed ex hoc non 
+      sequi<lb ed="#A" n="7" break="no"/>tur quin eis possunt prodesse per modum suffragii. 
+      Ali<lb ed="#A" n="8" break="no"/>qui tamen dicunt quod sicut sunt medii inter ecclesiam trium 
+      <lb ed="#A" n="9"/>phantem et militante: quod ita praelati ecclesie medio modo 
+      <lb ed="#A" n="10"/>se habent ad eas. quia illas de militante ecclesia possunt 
+      <lb ed="#A" n="11"/>ligare et soluere: illas de triumphante nec possunt 
+      <lb ed="#A" n="12"/>soluere nec ligare. Illas de purgatorio non 
+      pos<lb ed="#A" n="13" break="no"/>sunt ligare: possunt tantum eas soluere communicado 
+      <lb ed="#A" n="14"/>eis suffragia et indulgentias
+    </p>
+               <p xml:id="Vn7Pel-k62292-d1e1563">
+      ¶ Que est pena 
+      reli<lb ed="#A" n="15" break="no"/>giosorum pronunciantium vel praedicantium indulgentias 
+      <lb ed="#A" n="16"/>indiscrctas: Respondetur secundum quod habetur in clemen. de 
+      pri<lb ed="#A" n="17" break="no"/>ui. quod peccant mortaliter. quia prohibetur eis in virtute 
+      san<lb ed="#A" n="18" break="no"/>cte obedientie et pena maledictionis eterne. Et dicum 
+      <lb ed="#A" n="19"/>tur praedicare indulgentias indiscretas secundum glosam 
+      <lb ed="#A" n="20"/>quando pronunciant indulgentias non concessas. Nota tamen quod 
+      <lb ed="#A" n="21"/>tunc solummodo peccant mortaliter religiosi quando praedicant 
+      <lb ed="#A" n="22"/>non veras aut non validas <!-- coordinate error -->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Resurrectio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Resurrectio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="325"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k95535">
+            <head xml:id="Vn7Pel-k95535-Hd1e100">Resurrectio</head>
+            <div xml:id="Vn7Pel-k95535-Dd1e102">
+               <head xml:id="Vn7Pel-k95535-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k95535-d1e106">
+                  <lb ed="#A" n="107"/>REsurrectio 
+      gene<lb ed="#A" n="108" break="no"/>ralis mortuorum. Ultra enim illa que 
+      di<lb ed="#A" n="109" break="no"/>cta sunt supra li. iii. De resurrectione 
+      scien<lb ed="#A" n="110" break="no"/>dum quod resurrectio capitur tripliciter scilicet actiue. et sic 
+      ali<lb ed="#A" n="111" break="no"/>quando appropriatur patri. sicut actuum. ii. Quem 
+      <lb ed="#A" n="112"/>suscitauit a mortuis. Aliquando filio sicut Io. xi. 
+      <!--325.xml-->
+      <pb ed="#A" n="326"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Ego sum resurrectio et vita. Aliquando spiritu sancto: sicut 
+      <lb ed="#A" n="2"/>totum paruum credo appropriatur spiritui sancto: sicut magnum 
+      <lb ed="#A" n="3"/>patri et filio. et ibi dicitur carnis resurrectionem. Rtio est: 
+      <lb ed="#A" n="4"/>quia patris et filii et spiritus sancti vna est potentia qua 
+      fi<lb ed="#A" n="5" break="no"/>et resurrectio. Secundo resurrectio capitur pro 
+      suscita<lb ed="#A" n="6" break="no"/>tomomne anime a peccato mortali ad statum gratiae Apoc. xx. Hec 
+      <lb ed="#A" n="7"/>est resurrectio. prima beatus et sanctus qui habet partem in 
+      <lb ed="#A" n="8"/>resurrectione prima. De ista dicit apostolis Eph. v. Surgis 
+      <lb ed="#A" n="9"/>qui dormis: et exurge a mortuis et illuminabit 
+      te<lb ed="#A" n="10" break="no"/>christus. Tertio capitur pro reunione animarum rationalium in 
+      <lb ed="#A" n="11"/>sua corpora. de qua Mat. xxviii. Multa 
+      corpora<lb ed="#A" n="12" break="no"/>sanctorum surrexerunt et introierunt in sua ciuitatem. et sic 
+      <lb ed="#A" n="13"/>resurrectio est corporis facti incorruptibilis ad 
+      ani<lb ed="#A" n="14" break="no"/>mam iterata vnio. de qua queritur. 
+      <lb ed="#A" n="15"/>Utrum anime vnientur iterum corporibus Arguitur quod non 
+      <lb ed="#A" n="16"/>sid dicitur ii. Reg. xiiii. Omnes morimure quasi aqua 
+      <lb ed="#A" n="17"/>dilabimur in terram que non reuertetur. ergo post mortem 
+      <lb ed="#A" n="18"/>anime ad corpora non feunientur. Item Eccs. iii. dicitur. Unus 
+      <lb ed="#A" n="19"/>est interitus hominis et iumentorum et equa vtriusque 
+      <lb ed="#A" n="20"/>pditio. sed anime iumentorum corporibus iterum non reunient 
+      <lb ed="#A" n="21"/>ergo nec anime hominum.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e174">
+      ¶ In contrarium dicit Ans. li. ii Cur 
+      <lb ed="#A" n="22"/>deus homo. quod si primus homo nunquampeccasset 
+      nun<lb ed="#A" n="23" break="no"/>quam moreretur. Unde aperte futuram resurrectio probatur. 
+      quip<lb ed="#A" n="24" break="no"/>pe si homo perfecte restaurandus est talis debet restitur 
+      <lb ed="#A" n="25"/>qualis futurus erat si non peccasset. Sed non posset esse 
+      <lb ed="#A" n="26"/>resurrectio nisi anime iterum corporibus vnirentur. Respondet 
+      <lb ed="#A" n="27"/>sanctus Bonauen. in. iiii. di. xliii. ar. i. q. i. quod recta 
+      fi<lb ed="#A" n="28" break="no"/>des dicit resurrectionem corporum esse futuram. est ad hoc 
+      <lb ed="#A" n="29"/>credendum adiuuatur per fidem resurrectionis christi iam 
+      fa<lb ed="#A" n="30" break="no"/>cte. Si ergo christus est caput et membra debent conforma 
+      <lb ed="#A" n="31"/>ri capiti cum christus resurrexit: consequens est vt nos. 
+      re<lb ed="#A" n="32" break="no"/>surgamus. Ut enim credat fidelis resurrectionem 
+      <lb ed="#A" n="33"/>christi persuasum est sibi per multa testimonia 
+      apostolo<lb ed="#A" n="34" break="no"/>rum qui etiam per multa sunt argumenta certificati. persua 
+      <lb ed="#A" n="35"/>det etiam ipsa pietas fidei quae nullo modo corpus. christi 
+      <lb ed="#A" n="36"/>incineratum potest excogitare. Super hoc fundamentum 
+      su<lb ed="#A" n="37" break="no"/>peredificatur persuasio rationis. quia quod resurrectio sit 
+      fu<lb ed="#A" n="38" break="no"/>tura exigit remuneratio diuine iusticie quae homini retrs 
+      <lb ed="#A" n="39"/>buit sicut et meruit. Secundo confirmatio glorie omnem anime 
+      <lb ed="#A" n="40"/>appetitum quietabit. Tertio perfectio nature quae consistit 
+      <lb ed="#A" n="41"/>in toto composito non in altera eius parte. et he sunt rationes 
+      <lb ed="#A" n="42"/>supra fidem fundate.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e222">
+      ¶ Ad primum argumentum dicondum quod 
+      <lb ed="#A" n="43"/>in hoc est similitudo. quia sicut aquae dilabuntur et non reuertuntur 
+      <lb ed="#A" n="44"/>quausque fuerint ad mare: sic anime separate a corporibus non 
+      <lb ed="#A" n="45"/>reunientur de lege communi vsque ad generalem resurrectio 
+      <lb ed="#A" n="46"/>nem.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e233">
+      ¶ Ad secundum dicendum quod Salomon ibi loquitur 
+      mo<lb ed="#A" n="47" break="no"/>re conclonatoris. Unde hoc dicit concionando non diffiniendo 
+      <lb ed="#A" n="48"/>vel quantum ad illud quod apparet exteriori sensui. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e241">
+               <head xml:id="Vn7Pel-k95535-Hd1e243"> 2 </head>
+               <p xml:id="Vn7Pel-k95535-d1e245">
+                  <lb ed="#A" n="49"/>¶ Utrum in quolibuet homine resurgetur 
+      <lb ed="#A" n="50"/>Id fuit in eo de veritate humane nature: Arguitur quod 
+      <lb ed="#A" n="51"/>non: quia Gen. ii dicitur. Tulit deus costam vnam ex Adam et 
+      <lb ed="#A" n="52"/>edificauit in mulierem. igitur vel Eua non resurget 
+      to<lb ed="#A" n="53" break="no"/>taliter: vel Adam non ex toto quod fuit in eo de veritate na 
+      <lb ed="#A" n="54"/>ture humane: quia illa costa invno illorum resurget. Item 
+      <lb ed="#A" n="55"/>idem non resurget in diuersis. sed quod fuit de veritate 
+      car<lb ed="#A" n="56" break="no"/>inis in vno potest esse nutrimentum in alio. et per conseques 
+      <lb ed="#A" n="57"/>conuerti in naturam. Et ita idem potest esse successiue de 
+      <!--325.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>veritate nature in duobus. igitur in altero eorum non 
+      resu<lb ed="#A" n="59" break="no"/>xet quicquid fuit de veritate humane nature
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e276">
+      ¶ Item non 
+      oper<lb ed="#A" n="60" break="no"/>tet quod in quolibet resurgat quicquid fuit u ed de veritate 
+      <lb ed="#A" n="61"/>nature humane nisi vt redeat simpliciter idem quod cecidit 
+      <lb ed="#A" n="62"/>alias pari ratione operteret dicere de singulis membris 
+      <lb ed="#A" n="63"/>organicis. et tuc in qualibet parte operteret resurgere il 
+      <lb ed="#A" n="64"/>lud fuit de veritate cuiuflibet partis. quod est contra Augu. 
+      <lb ed="#A" n="65"/>Enchy. et Magistrum in littera dis. xliii. quarti. non ita inquit 
+      <lb ed="#A" n="66"/>praeporabitur vt ad easdem corporis partes vbi fuerunt 
+      redi<lb ed="#A" n="67" break="no"/>re necesse sit: alioquin sic capillus redit quem 
+      crebra<lb ed="#A" n="68" break="no"/>consura detraxit. Et subdit. quemadmodum si statua 
+      <lb ed="#A" n="69"/>metalli liquesceret et eam vellet artifex rursus ex 
+      <lb ed="#A" n="70"/>nateria reparare nihil inter ea esset ad eius 
+      integrita<lb ed="#A" n="71" break="no"/>tem quae particula materie cui membro stante redderetur: 
+      du<lb ed="#A" n="72" break="no"/>tamen tota restituta resurgeret: ita deus mirabiliter de 
+      to<lb ed="#A" n="73" break="no"/>to quo caro nostra extiterat eam mirabili celeritate 
+      restui<lb ed="#A" n="74" break="no"/>tuet: nec aliquid attinebit ad eius integritate an 
+      capil<lb ed="#A" n="75" break="no"/>li ad capillos redeant: an in partes alias reuoccntur 
+      cu<lb ed="#A" n="76" break="no"/>rante artificis prouidentia ne aliquid indecens fiat
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e315">
+      ¶ In 
+      <lb ed="#A" n="77"/>contrarium dicit ibide idem Aug. dicens: quod caro nostra 
+      restauri<lb ed="#A" n="78" break="no"/>bitur de toto quo extiterat. et. Luc. xxi. dicitur. Et capillus de 
+      <lb ed="#A" n="79"/>capite vro non peribit. vbi datur intelligi quod capillus 
+      <lb ed="#A" n="80"/>no resurget in alia parte corporis quam in capite. Respondetur 
+      <lb ed="#A" n="81"/>secundum Sco. in. iiii. di. xliii. quod multi sunt modi 
+      dicen<lb ed="#A" n="82" break="no"/>di de mutatione animalis quomodo fiat. quous pertranseo: et 
+      suppo<lb ed="#A" n="83" break="no"/>no istum satis communem modum scilicet aliquid dc nutrimento 
+      <lb ed="#A" n="84"/>sumpto transcat in veritatem naturt ipsius nutriti. 
+      superpo<lb ed="#A" n="85" break="no"/>no etiam quod ad veritatem humane nature pertinent non 
+      solu<lb ed="#A" n="86" break="no"/>partes essentiales scilicet materia et forma: sed etiam i 
+      <lb ed="#A" n="87"/>integrales naturem eterogenee: vt sunt 
+      man<lb ed="#A" n="88" break="no"/>des: caput etc. Et etiam omogente ex quibus 
+      con<lb ed="#A" n="89" break="no"/>cterogenee: vt sunt calrorossa: nerur 
+      <lb ed="#A" n="90"/>Id fuit vere aniatum anima intellectiua: vt 
+      <lb ed="#A" n="91"/>huriusmoi antato. his suppositis Prim 
+      <lb ed="#A" n="92"/>quicquid fuit in Pxtro pro tota vita tius 
+      <lb ed="#A" n="93"/>re sue resurgetin eo Probatur: quia ex quo 
+      <lb ed="#A" n="94"/>multe fluxerunt per resolutionem 
+      in<lb ed="#A" n="95" break="no"/>multe redierunt per nutritionem eius si omnes 
+      ille<lb ed="#A" n="96" break="no"/>niittrim re. euo sii caque ni c. 
+      <lb ed="#A" n="97"/>itatis vel imoderate quantitatis. Sed datontur 
+      <lb ed="#A" n="98"/>quicquid fuit de veritate humane nature in Pctro 
+      <lb ed="#A" n="99"/>gat in eo: est dubium. quem parteo resurgent in eo. 
+      <lb ed="#A" n="100"/>sit debite densitatis et magnitudinis tante quant 
+      <lb ed="#A" n="101"/>dem factus esset in fine trigesimi anni etatis sue si c 
+      <lb ed="#A" n="102"/>diu vixisset. quia tate quantiratis ponitur quodlibet 
+      refi<lb ed="#A" n="103" break="no"/>mandum in resurrectione: vt infra dicetur. quod 
+      <lb ed="#A" n="104"/>ligo si non fuisset orbatio ineo impediens 
+      <lb ed="#A" n="105"/>gere ad debitam quantitatem. De isto dubio S 
+      <lb ed="#A" n="106"/>tat duas vias. Una dicit quod regulariter pars 
+      prior<lb ed="#A" n="107" break="no"/>pore viuentis hominis est purior. et dico 
+      regula<lb ed="#A" n="108" break="no"/>ex impedimento accidentali: vel ex parte continentia 
+      <lb ed="#A" n="109"/>nociui adhibiti post aliud accidere. 
+      probabi<lb ed="#A" n="110" break="no"/>est quod corpus illud reparabitur ex partibus prioribus que 
+      <lb ed="#A" n="111"/>fuerunt huius torporia partes. igitur habebunt 
+      to<lb ed="#A" n="112" break="no"/>quod tractum est a perentibus. quia illud fuit 
+      purissin<lb ed="#A" n="113" break="no"/>aliis generatis ex nutrimento purioribus 
+      vsquea<lb ed="#A" n="114" break="no"/>titatem sufficientem toti corpori. Alia dicit quod nutritio 
+      <lb ed="#A" n="115"/>est de se necearia nisi ad restitutionem deparditi. arm 
+      <!--326.xml-->
+      <pb ed="#A" n="327"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>gmentatio est per se necessaria vt genitum ad debitam 
+      <lb ed="#A" n="2"/>quantitatem sue nature attingat. Aliquid enim conuertitur 
+      <lb ed="#A" n="3"/>propter conuersionem vt restauxetur illud quod fluxit. 
+      Ali<lb ed="#A" n="4" break="no"/>quid autem propter augmentationem vt scilicet adquiratur 
+      quan<lb ed="#A" n="5" break="no"/>titas debita etiam si nihil fluxisset. Et primum non est de 
+      <lb ed="#A" n="6"/>principali intentione nature simpliciter: sed aliter non potest 
+      <lb ed="#A" n="7"/>conscruare totum. Sed secundum est de principali 
+      intenti<lb ed="#A" n="8" break="no"/>one nature valentis attingere ad quantitatem 
+      perfe<lb ed="#A" n="9" break="no"/>ctam. ita quod secundum est intentum propter perfectionem adqui 
+      <lb ed="#A" n="10"/>rendam. Primum quasi occasionaliter propter 
+      imperfe<lb ed="#A" n="11" break="no"/>ctionem vitandam. Secundum ergo illam viam resurget 
+      cor<lb ed="#A" n="12" break="no"/>pus ex illo quod primo tractum est ex perentibus et ex aliis 
+      <lb ed="#A" n="13"/>partibus generatis ex nutrimento propter debitam 
+      cor<lb ed="#A" n="14" break="no"/>poris augmentationem vsque quantitatem specialem 
+      illi<lb ed="#A" n="15" break="no"/>corpori.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e441">
+      ¶ Sed d. Quomodo ergo resuscitatus habebit 
+      ean<lb ed="#A" n="16" break="no"/>dem carnem quam habuit viuus hic: Dicendum quod 
+      <lb ed="#A" n="17"/>non habebit praecise eandem carnem quam habuit hic 
+      in<lb ed="#A" n="18" break="no"/>aliquo instanti vite sue. sed nec habebit totam illam 
+      <lb ed="#A" n="19"/>qua habuit in aliquo tempore praeter illam quam traxit ex 
+      pa<lb ed="#A" n="20" break="no"/>rentibus. quia istam habebit totam: et alias partes quas 
+      suc<lb ed="#A" n="21" break="no"/>cessiue habuit in aliquo instanti determinato vel 
+      per<lb ed="#A" n="22" break="no"/>te aliqua vite sue. quia si esset idem illo praecise quod 
+      ha<lb ed="#A" n="23" break="no"/>huit pro illo instanti tunc esset magis aliud a corpore 
+      <lb ed="#A" n="24"/>suo quod habuit pro alio instanti.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e464">
+      ¶ Ad primum 
+      argumen<lb ed="#A" n="25" break="no"/>tum dicendum quod illa costa non fuit de veritate nature 
+      <lb ed="#A" n="26"/>Ade: quia praeter illam habuit costas sufficientes secundum quod 
+      <lb ed="#A" n="27"/>competut homi communiter
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e473">
+      ¶ Illa autem fuit illi data tanquam 
+      <lb ed="#A" n="28"/>superflua quo ad suppositum: sed necessaria quo ad 
+      <lb ed="#A" n="29"/>intentionem nature. Sicut in masculo est 
+      semen<lb ed="#A" n="30" break="no"/>non tanquam aliquid nature illius suprpositi sed 
+      propter<lb ed="#A" n="31" break="no"/>alttrius generationem est in illotar: quam in vase. Unde 
+      <lb ed="#A" n="32"/>non est ammatum anima ipsius: et ita fuit de costa. Si 
+      <lb ed="#A" n="33"/>vero omnino fingatur quod illa costa fuit omnino necessaria 
+      <lb ed="#A" n="34"/>sicut pars tius integralis. Respondetur quod sequitur in textu. 
+      <lb ed="#A" n="35"/>et repleuit carnem pro ea id est loco eius aliam costam carne. 
+      <lb ed="#A" n="36"/>vestitam. Primum videtur verius: Sed dato secundo 
+      <lb ed="#A" n="37"/>iam sic namn xesurget in Adam costa translata
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e497">
+      ¶ Ad fe 
+      <lb ed="#A" n="38"/>cundum dicit Scotus: credo quod nunquam fuit nic erit 
+      <lb ed="#A" n="39"/>vsque in finem mundi aliquod idem corpus equaliter 
+      <lb ed="#A" n="40"/>de veritate nature humane in duobus suppositis. et ideo 
+      <lb ed="#A" n="41"/>xxsurget in vno in quo praecise fuit magis de veritate 
+      <lb ed="#A" n="42"/>lature. magis inqua: quia in ipso purius. vel quia 
+      <lb ed="#A" n="43"/>nagis de intentione nature pars eius. Si autem omnino 
+      <lb ed="#A" n="44"/>concedantur quod simpliciter et cqualiter fuit de veritate nature 
+      <lb ed="#A" n="45"/>vtriusqui. Dico quod resurget in illo in quo prius fuiter 
+      <lb ed="#A" n="46"/>amimata. Et hot dicit Aug. et Magister in littera. Et hoc 
+      <lb ed="#A" n="47"/>est rationabile. quia per primam animationem facta est caro 
+      isti<lb ed="#A" n="48" break="no"/>nus hominis. et postea quamnis vsurpetur ab alio non imita 
+      <lb ed="#A" n="49"/>tur illa habitudo prima ad aliu. Si autem illi in quo 
+      fu<lb ed="#A" n="50" break="no"/>it secundo de veritate nature sufficiant ad quantitatem debitam 
+      <lb ed="#A" n="51"/>quae nernutritionem habuit: tunc ex illis reparabitur. Si autem 
+      <lb ed="#A" n="52"/>non suffiterent illa quae per successionem et nutritionem 
+      ha<lb ed="#A" n="53" break="no"/>buit ad debitam quantitatem tunc deus omnipotens 
+      supple<lb ed="#A" n="54" break="no"/>pit vnde voluerit. et sic dicatur de pueris et aliis qui 
+      ci<lb ed="#A" n="55" break="no"/>ra decectunt.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e539">
+      ¶ Ad tertium dicendum quod non est similis ratio de 
+      <lb ed="#A" n="56"/>toto et departe quia in primo intenditur restauratio 
+      eius<lb ed="#A" n="57" break="no"/>dem totius in resurrectione. non sic autem de parte maxime illa 
+      <lb ed="#A" n="58"/>quo non est principalis sine cuius identitat ratiotum potest esse 
+      <!--326.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>dem. Et si arguas de parte principali cuius veritas requiris 
+      <lb ed="#A" n="60"/>tur ad veritatem totius: tunc dic simpliciter sicut dictum est de 
+      <lb ed="#A" n="61"/>toto. quia partes omogenee spectantes ad quantitatem de 
+      <lb ed="#A" n="62"/>bitam resurgent in illa parte organica. Ille autem partes qua 
+      <lb ed="#A" n="63"/>fuerunt equaliter de veritate humane nature prius scilicet 
+      du<lb ed="#A" n="64" break="no"/>ratione. et quantum ad puritatem et quantum ad intentionem 
+      na<lb ed="#A" n="65" break="no"/>ture. Si autem in aliquo alio principalius fuerunt 
+      alte<lb ed="#A" n="66" break="no"/>ro illorum duorum modorum in illo resurgent. Hec 
+      Sco<lb ed="#A" n="67" break="no"/>tus 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e573">
+               <head xml:id="Vn7Pel-k95535-Hd1e575">3</head>
+               <p xml:id="Vn7Pel-k95535-d1e577">
+                  <lb ed="#A" n="68"/>¶ Utrum per reunionem anime ad idem 
+      cor<lb ed="#A" n="69" break="no"/>pus in nuero resurget idem homo in numero: Arguitur quod 
+      <lb ed="#A" n="70"/>non. quia apostolus i. Cor. xv. declarat hominem 
+      resurre<lb ed="#A" n="71" break="no"/>cturum post mortem per similitudinem grani quod primo 
+      mo<lb ed="#A" n="72" break="no"/>ritur: postea viuificatur dicens. Quod tu seminas non 
+      vi<lb ed="#A" n="73" break="no"/>uificatur nisi prius moriatur. sed non est idem granum in 
+      nu<lb ed="#A" n="74" break="no"/>mero quod prius moritur et postea viuificatur. ergo nec est idem 
+      <lb ed="#A" n="75"/>oteo qui moritur: et ille qui per resurrectionem viuificatur.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e597">
+      ¶ Item 
+      <lb ed="#A" n="76"/>secundum philosophum. ii de generatione. quorum non est incorruptibilis 
+      <lb ed="#A" n="77"/>ubstantia mota. sed corruptibilis necee est speim reiterari 
+      <lb ed="#A" n="78"/>numero autem non. Sed substantia hominis pro statu praesenti est 
+      cor<lb ed="#A" n="79" break="no"/>ruptibilis mota. ergo quamuis possit reuerti eadem specie: 
+      <lb ed="#A" n="80"/>non tamen numero. In contrarium tamen aposto scilicet Cor. xv. 
+      resurre<lb ed="#A" n="81" break="no"/>ctionem mortuorum probat futuram per christi resurrectionem 
+      <lb ed="#A" n="82"/>Sed christus resurrexit idem numero. ergo etc.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e615">
+      ¶ Item Iob. xix 
+      <lb ed="#A" n="83"/>dicit. Rursus circudabor pelle mea: ets carne mea 
+      <lb ed="#A" n="84"/>pidebo deum saluatorem meum quem visurus sum egoipeet 
+      <lb ed="#A" n="85"/>no alius. Respondetur secundum Rich. vbi supra. q. iii. quod diuina 
+      prui<lb ed="#A" n="86" break="no"/>dentia omnia ordinat in suum finem. electiones enim ordinat in 
+      <lb ed="#A" n="87"/>vltimum finem ratione finalis bonitatis eis debitam illam 
+      <lb ed="#A" n="88"/>bonitatem conferendo. reprobos vero ordinat in vltimum 
+      <lb ed="#A" n="89"/>finem eis debitum ratione finalis malicie non illam malicia 
+      <lb ed="#A" n="90"/>eis conferendo. quia malicia non est in deo: sed iuste 
+      permit<lb ed="#A" n="91" break="no"/>tendo eos decedere in malicia et illum finem illis 
+      iuste<lb ed="#A" n="92" break="no"/>infligendo. ille enim finis est vltima pena: sed homines 
+      <lb ed="#A" n="93"/>non consequentur finem suu in hac mortali vita. quia sicut dicit 
+      <lb ed="#A" n="94"/>Aug. xix. de ciui. Ilud est finis boni propter quod 
+      ap<lb ed="#A" n="95" break="no"/>petenda sunt cetera ipstet autem propter seipsum. et illud est finis 
+      <lb ed="#A" n="96"/>mali propter quod vitada sunt cetera. ipsutum autem propter seipsum 
+      <lb ed="#A" n="97"/>Et i Fines isti sunt summum bonum et summum malum 
+      ho<lb ed="#A" n="98" break="no"/>mines autem in hac mortali vita: nec perfecte consequentur 
+      <lb ed="#A" n="99"/>adeptionem summi boni: nec similiter summi mali. Ho 
+      eti<lb ed="#A" n="100" break="no"/>am non consequitur finem suum in morte: quia secundum philosophum. ii. 
+      <lb ed="#A" n="101"/>Physicus. Mors non est homi finis propter quem factus est 
+      <lb ed="#A" n="102"/>imo secundum ipsum hoc dicere est derisorium. homines ergo 
+      consequen<lb ed="#A" n="103" break="no"/>tur vltimum finem post mortem. non consequentur autem finem 
+      su<lb ed="#A" n="104" break="no"/>um quamdiu non sunt homines autem qui mortui sunt nunquam 
+      <lb ed="#A" n="105"/>erunt homines nisi resurgant. ergo de necesitate sequitur quod 
+      illi<lb ed="#A" n="106" break="no"/>iidem homines in numero qui mortui sunt resurgant: aliter 
+      nun<lb ed="#A" n="107" break="no"/>prae consequerentur vltimum suum finem. Dicendum ergo ad 
+      quaesti<lb ed="#A" n="108" break="no"/>onem quod quamuis anima et corpus humanum non constituut 
+      ho<lb ed="#A" n="109" break="no"/>minem nisi coniuncta: tamen nec ipsa coniunctio actiua 
+      neco<lb ed="#A" n="110" break="no"/>passiua sunt de hominis essentia: quamuis sit via in essentiam 
+      <lb ed="#A" n="111"/>icut generatio actio et generatio passio non sunt de 
+      ge<lb ed="#A" n="112" break="no"/>niti essentia. vnio ei secundum quod est nomen relationis: 
+      seu<lb ed="#A" n="113" break="no"/>relationem causate: vel causatarum ex coniunctione anime ad 
+      <lb ed="#A" n="114"/>corpus non est de essentia hominis. et io quamuis praedicta 
+      <lb ed="#A" n="115"/>ranseant in praeteritum: et eadem in numero non redean: ni¬ 
+      <!--327.xml-->
+      <pb ed="#A" n="328"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>hil praeiudicat materiali identitati prius hominis: cum 
+      eti<lb ed="#A" n="2" break="no"/>am anima rationalis ipsius hominis specifica forma et spe 
+      <lb ed="#A" n="3"/>cificum humani corporis complementum. Unde Auicene. 
+      <lb ed="#A" n="4"/>v. Meta. dicit. quod quiditas compositorum est illud quo est 
+      quic<lb ed="#A" n="5" break="no"/>quid est: forma existente coniuncta materie. Anime 
+      <lb ed="#A" n="6"/>itaque vnientur eisdem suis corporibus in numero: quia 
+      <lb ed="#A" n="7"/>inclinantur naturaliter ad illa corpora quae animauerunt. 
+      <lb ed="#A" n="8"/>Exemplum. Si ponantur due puelle in omnibus similes 
+      <lb ed="#A" n="9"/>excepto quod numero differunt: quamuis a principio 
+      indif<lb ed="#A" n="10" break="no"/>ferens esset viro ducere quamlibet istarum. tantem vna 
+      <lb ed="#A" n="11"/>ducta iam non est indifferens ad vtramque et si ambe 
+      <lb ed="#A" n="12"/>resurgerent in incorruptibili statu iterum nupture 
+      <lb ed="#A" n="13"/>magis inclinarctur ad illam cum quae familiaritatem 
+      <lb ed="#A" n="14"/>contraxerat. Et huic concordat Auicena. vi. 
+      natura<lb ed="#A" n="15" break="no"/>lium vel. v. dicens sic. In substantia anime quae incipit 
+      es<lb ed="#A" n="16" break="no"/>st cum aliquo corpore inest ex primis principiis affectio 
+      <lb ed="#A" n="17"/>inclinationis nati iralis ad occupandum se circa 
+      il<lb ed="#A" n="18" break="no"/>lud et regendum illud et prouidendum ei et adherendum 
+      <lb ed="#A" n="19"/>ei. et per hec omnia fit eius propria et alienatur ab omnibus 
+      <lb ed="#A" n="20"/>aliis corporibus. sed certum est quod per beatitudinem 
+      ter<lb ed="#A" n="21" break="no"/>minabitur omnis anime appetitus tam naturalis quam 
+      ali<lb ed="#A" n="22" break="no"/>us: ergo anime vniesitur eisdem corporibus in numero a 
+      qui<lb ed="#A" n="23" break="no"/>bus separate fuerant. quia deus in creatura non 
+      po<lb ed="#A" n="24" break="no"/>suit aliquem naturalem appetitum frustra nec vane 
+      <lb ed="#A" n="25"/>Frustra autem et vane esset in anima separata naturalis 
+      <lb ed="#A" n="26"/>appetitus ad corpus si ei reuniri non posset. Ideo propi 
+      <lb ed="#A" n="27"/>talem appetitum naturalem tam boni quam mali suis in 
+      <lb ed="#A" n="28"/>corporibus resurget: vt recipiat vnusquisque prout 
+      ger<lb ed="#A" n="29" break="no"/>sit in corpore siue bonum siue malum
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e758">
+      ¶ Ad primum 
+      anr<lb ed="#A" n="30" break="no"/>gumentum dicendum: quod apostolus per illam similitudinem 
+      <lb ed="#A" n="31"/>non intendit resurrectionem eiusdem in numero probare 
+      <lb ed="#A" n="32"/>sed eam ante per resurrectionem christi probatam supponens 
+      <lb ed="#A" n="33"/>intendit declarare quod corpus non resurget quale moritur. 
+      <lb ed="#A" n="34"/>Et quod hoc intendat patet. quia immediate ante illud 
+      ver<lb ed="#A" n="35" break="no"/>bum Insipiens quod seminas etc. dicitur. Dicet aliquis: quo 
+      <lb ed="#A" n="36"/>modo rsurgent mortui aut quali corpore venient etc. Uult 
+      <lb ed="#A" n="37"/>grgo dicere quod sicut granum quod seminatur putrescit: et tamen 
+      <lb ed="#A" n="38"/>granum quod inde surgit deus disponit sicut vult. 
+      <lb ed="#A" n="39"/>ita corpus humanum quod per generationem seminatur 
+      <lb ed="#A" n="40"/>et postea per mortem putrescit deus resuscitabit 
+      <lb ed="#A" n="41"/>et sibi dabit qualitates alias quas habuit quando fuit 
+      semi<lb ed="#A" n="42" break="no"/>natum.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e790">
+      ¶ Ad secundum dicedum quod ibi phlosophus loquitur de 
+      <lb ed="#A" n="43"/>iteratione qui fit per motum seu mutationem naturalem. 
+      re<lb ed="#A" n="44" break="no"/>surrectio autem erit supernaturalis 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e798">
+               <head xml:id="Vn7Pel-k95535-Hd1e800"> 4 </head>
+               <p xml:id="Vn7Pel-k95535-d1e802">
+                  <lb ed="#A" n="45"/>¶ Utrum omnia membra corporis 
+      re<lb ed="#A" n="46" break="no"/>surgent: Arguitur quod non. quia illa membra corporis sunt 
+      <lb ed="#A" n="47"/>frustra quae nullum vsum possunt habere. sed in resurre 
+      <lb ed="#A" n="48"/>ctione membra generatiue descruientia et expulsioni 
+      su<lb ed="#A" n="49" break="no"/>perfluitatum nullum tunc vsum habere poterunt. Cum 
+      <lb ed="#A" n="50"/>ergo in operatione dei nihil sit frustra: ideo 
+      membra<lb ed="#A" n="51" break="no"/>talia non resurgent
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e820">
+      ¶ Item si intestina resurgent: aut 
+      <lb ed="#A" n="52"/>resurgent plena aut vacua. Non plena: quia ille 
+      super<lb ed="#A" n="53" break="no"/>fluitates quarum sunt contentiua non resurgent. Nec 
+      va<lb ed="#A" n="54" break="no"/>cua: quia inconueniens est ponere vacuum: ergo non 
+      resur<lb ed="#A" n="55" break="no"/>gent.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e831">
+      ¶ In contrarium dicitur. ii. Macha. xiiii. quod Razi 
+      <lb ed="#A" n="56"/>as intestina proiecit deprecas omnipotentem vt redderet 
+      <lb ed="#A" n="57"/>ti.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e838">
+      ¶ Item si homo in innocentia stetisset sine alicu¬ 
+      <!--327.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ius diminutione membrorum fuisset ad immortali. 
+      <lb ed="#A" n="59"/>tatem translatus. sed homo conditus fuit cum intestinis 
+      <lb ed="#A" n="60"/>igitur habuisset ea in gloria: sed modo habebit illa que 
+      <lb ed="#A" n="61"/>tuc habuisset
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e855">
+      ¶ Respondetur secundum communiter doct. quod omnia 
+      men<lb ed="#A" n="62" break="no"/>bra corporis resurgent. Unde glo. super illud i. Cor. 
+      xi<lb ed="#A" n="63" break="no"/>Mortui resurgent incorrupti id est sine aliquo diminuti 
+      <lb ed="#A" n="64"/>one membrorum. Cuius duplex est ratio. Una perfectio 
+      na<lb ed="#A" n="65" break="no"/>ture: alia rectitudo diuine iusticie quae exigit vt omnia 
+      <lb ed="#A" n="66"/>membra corporis eo quod ab anima fuerunt perfecta cum ea 
+      pti<lb ed="#A" n="67" break="no"/>niantur aut permientur.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e871">
+      ¶ Ad primum argumentum 
+      dicin<lb ed="#A" n="68" break="no"/>dum quod maior est falsam. quia etsi non possunt vsum habe qui ad 
+      <lb ed="#A" n="69"/>vsum actuum secundum quem est agere. taten sunt necessaria ad 
+      <lb ed="#A" n="70"/>perfectam integritatem nature et etiam patientur doloris 
+      <lb ed="#A" n="71"/>passiones in inferno: vel delectationes honestas in 
+      par<lb ed="#A" n="72" break="no"/>diso.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e884">
+      ¶ Ad secundum dicendum quod intestina non 
+      resurgen<lb ed="#A" n="73" break="no"/>vacua nec plena sordibus sed puris humoribus. 
+      <lb ed="#A" n="74"/>Sed diceres. An capilli et vngues resurgnt: 
+      <lb ed="#A" n="75"/>Respondet Rich. vbisupra. dis. xliiii. ar. i. q. iii quo i corpus 
+      <lb ed="#A" n="76"/>quaedam sunt de principali intentione nature vt eaquaesunt 
+      <lb ed="#A" n="77"/>necessaria ad nature operationem. quaedam autem sunt de 
+      se<lb ed="#A" n="78" break="no"/>cundaria nature inrentione: vt ea quae sunt ad praedictorum 
+      <lb ed="#A" n="79"/>conseruationem et decorem: vt videmus folia in arboribus 
+      <lb ed="#A" n="80"/>Unde dicit philosophus. ii de anima. quod folium corticis est 
+      coopamen<lb ed="#A" n="81" break="no"/>cum. cortex autem fructus. Sic in humano corpore sunt 
+      ca<lb ed="#A" n="82" break="no"/>pilli et vngues. Pili autem barbe secndum Aug. xxii die ciuit 
+      <lb ed="#A" n="83"/>non sunt pro iuuameto sed pro virili ornameto. Et quia in 
+      <lb ed="#A" n="84"/>homine non resurget illud solum quod est de primaria cius 
+      persr<lb ed="#A" n="85" break="no"/>ctione et prima nature intentione: sed etiam illud quod est de 
+      li<lb ed="#A" n="86" break="no"/>cundaria eius perfectione et secundaria nature operationis 
+      <lb ed="#A" n="87"/>intentione. Et ideo vngues: pili: barbe et capilli 
+      resir<lb ed="#A" n="88" break="no"/>gent. Unde Matt. x. Uestri capilli capitis ones 
+      nuc<lb ed="#A" n="89" break="no"/>rati sunt. Et Luc. xxi. Capillus de capite vro non 
+      pri<lb ed="#A" n="90" break="no"/>bit. Resurgent tantum vngues: pili: barbe inilla quantitum 
+      <lb ed="#A" n="91"/>te quae magis erit ad ornamentum corporis et decore. Unde 
+      <lb ed="#A" n="92"/>non est intelligendum quod resurgat quicquid per tosuram et 
+      rasu<lb ed="#A" n="93" break="no"/>ram amotum est de praedictis. quia dicit Aug. i Cnchyri. Inde. 
+      <lb ed="#A" n="94"/>corum aliquid ibi non erit. Nec tamen intelligendum est quod reluilus 
+      <lb ed="#A" n="95"/>gant propter eorum quae sunt de prima intentione nature 
+      consrila<lb ed="#A" n="96" break="no"/>tionem. quia corpora resurgent incorruptibilia sed popter delir 
+      <lb ed="#A" n="97"/>rem et secundariam nature perfectionem. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e943">
+               <head xml:id="Vn7Pel-k95535-Hd1e945">5</head>
+               <p xml:id="Vn7Pel-k95535-d1e947">
+                  <lb ed="#A" n="98"/>¶ Utrum corpora resurgentium 
+      resur<lb ed="#A" n="99" break="no"/>gat cum deformitatibus suis: Arguitur quod sic. quia 
+      cica<lb ed="#A" n="100" break="no"/>trices in corporibus sunt deformitates. sed corpus chriti re 
+      <lb ed="#A" n="101"/>surrexit cum cicatricibus vt dicitur Io. xx. ergo multo 
+      for<lb ed="#A" n="102" break="no"/>ttus alia corpora cum suis deformitatibus. ¶Item quoridum 
+      <lb ed="#A" n="103"/>corporum sunt aliqua deformitates naturaltea. Se fsi 
+      <lb ed="#A" n="104"/>Aug. xxii. diei ci. nihil quod naturaliter inerat alicul cor 
+      <lb ed="#A" n="105"/>peri est ibi periturum ergo etc.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e967">
+      ¶ In contrarium dicit aoitos li. cor. 
+      <lb ed="#A" n="106"/>xx. Mortui resurgus e( incorrupti. Responiter ecitur 
+      <lb ed="#A" n="107"/>vbi supra. q. vi. sic accipi potest ex sententia Aug. xii. de cissi 
+      <lb ed="#A" n="108"/>Omnis deformitas reducitur vel ad illum quae est ex parte dl 
+      <lb ed="#A" n="109"/>minutionis partium vel quae est ex parte coloris vel quae ex stit 
+      <lb ed="#A" n="110"/>figure: vel ad illam quae est ex parte superabundantie. Dicendtum 
+      <lb ed="#A" n="111"/>ergo quod quocumque modorum praedictorum deformitate acceptu 
+      <lb ed="#A" n="112"/>corpora electorum sine omni deformitate resurgent. quia 
+      os<lb ed="#A" n="113" break="no"/>peformitas ad aliquod vicium pertinet. Corpora auntm dan 
+      <lb ed="#A" n="114"/>torum resurgent sine deformitate quaest ex parte dviminu. 
+      <!--328.xml-->
+      <pb ed="#A" n="329"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tionis partium. quia indistintte dicit apostolus Mortui resurgent 
+      <lb ed="#A" n="2"/>incorrupti. Sed vtrum resurgat cum deformitatibus aliisi. 
+      <lb ed="#A" n="3"/>dubium e. Et dicunt quidam quod manebunt in eis deformita 
+      <lb ed="#A" n="4"/>tes ad maiorem eorum contusione. Alii autem quod sine illis re 
+      <lb ed="#A" n="5"/>surgent. quia in reparatione corporum magis attenditur nature 
+      <lb ed="#A" n="6"/>perfectio quam conditio. quae fuit prius. Hoc tamen Aug. in 
+      En<lb ed="#A" n="7" break="no"/>chyist. indeterminatum reliquit dici. quod nos fatigare non dices 
+      <lb ed="#A" n="8"/>eorum incerta habitudo vel pulcritudo quorum certa et 
+      sem<lb ed="#A" n="9" break="no"/>pitna est damnatio
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1015">
+      ¶ Ad primum argumentum dicit Aug. 
+      <lb ed="#A" n="10"/>de ciui. li. xxii. quod cicatrices in corporibus martyrum non 
+      <lb ed="#A" n="11"/>erunt deformitates sed dignitates
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1022">
+      ¶ Ad secundm 
+      dicen<lb ed="#A" n="12" break="no"/>dum quod deformitates praedicte insunt ex debilitate seu 
+      <lb ed="#A" n="13"/>vicio nature. verbum autem Aug. intelligitur de hoc quod 
+      natu<lb ed="#A" n="14" break="no"/>raliter inest secundum rectum ordinem nature quae non peribit 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e1032">
+               <head xml:id="Vn7Pel-k95535-Hd1e1034"> 6 </head>
+               <p xml:id="Vn7Pel-k95535-d1e1036">
+                  <lb ed="#A" n="15"/>¶ Utrum corpora resurgentium erunt 
+      ca<lb ed="#A" n="16" break="no"/>lida vel frigida: Arguitur quod nec calida nec frigida 
+      <lb ed="#A" n="17"/>erunt. quia secundum philosophum. ii de gnatione caliditas 
+      frigidi<lb ed="#A" n="18" break="no"/>tas humiditas et siccitas sunt qualitates et cause aliarum 
+      <lb ed="#A" n="19"/>qualitatum. Inter quas ibidem philosophus enumerat gravitatem et 
+      leui<lb ed="#A" n="20" break="no"/>tatem. sed posita casa ponitur effectus. Cum ergo secundum Aug. xxii. 
+      <lb ed="#A" n="21"/>de ciui. a corporibus electorum auferetur grauitas: ex quo potest 
+      <lb ed="#A" n="22"/>argui a simili quod a corporibus damnatorum et auferetur 
+      leui<lb ed="#A" n="23" break="no"/>tas. videtur ergo quod nec corpora electorum nec damnatorum 
+      <lb ed="#A" n="24"/>erunt calida vel frigida
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1060">
+      ¶ In contrarium arguitur sic. Ubi 
+      <lb ed="#A" n="25"/>est effectus ibi et causa. sed colorcum sit de numnero secundarum 
+      quali<lb ed="#A" n="26" break="no"/>tatum causatur ex quattuor qualitatibus primis. Unde excessus 
+      <lb ed="#A" n="27"/>frigiditatis causat albedinem. excessus caloris 
+      nigre<lb ed="#A" n="28" break="no"/>dinem. sed corpora resurgent colorata secundum Aug. vbi supra ergo 
+      <lb ed="#A" n="29"/>in corporibus resurgentium tam electorum quam reproborum erunt 
+      <lb ed="#A" n="30"/>caliditas et frigiditas: humiditas et siccitas: quia erunt 
+      <lb ed="#A" n="31"/>complexionata. et natura ossium est magis sicca quam carnium 
+      <lb ed="#A" n="32"/>et caro humidior quam ossa: et corcalidius quam cerebrum etc. 
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1080">
+                  <lb ed="#A" n="33"/>¶ Ad argumentum dicendum quod quamuis prime quattuor quae 
+      <lb ed="#A" n="34"/>litates tangibilium sint in corpore ca granitatis. tamen talem 
+      ef<lb ed="#A" n="35" break="no"/>fectum deus potest separare a tali causa praesertim per dotem agilitatis 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e1090">
+               <head xml:id="Vn7Pel-k95535-Hd1e1092"> 7 </head>
+               <p xml:id="Vn7Pel-k95535-d1e1094">
+                  <lb ed="#A" n="36"/>¶ Utrum omnes resurgent in eadem etate 
+      <lb ed="#A" n="37"/>Arguitur quod non. quia etas aut accipitur pro toto tempore quo homo 
+      <lb ed="#A" n="38"/>vixit: autem pro statu quem in aliquo habuit. Sed primo modo 
+      <lb ed="#A" n="39"/>non resurgent omnes in eadem etate quia non omnes equali tempore 
+      vixe<lb ed="#A" n="40" break="no"/>runt. Nec secundo modo quia non omnes resurgent in equali virtute. 
+      <lb ed="#A" n="41"/>ergo non omnes resurgent in eadem etate. Item a resurgentibus 
+      ni<lb ed="#A" n="42" break="no"/>hil auferetur quod in eis erat dignitatis. Sed sicut dicitur 
+      Pro<lb ed="#A" n="43" break="no"/>uer. xvi. Cortina dignitatis senectus. ergo senes resurgent 
+      <lb ed="#A" n="44"/>in senili etate. sed iuuenes non resurget in senili etate: ergo 
+      <lb ed="#A" n="45"/>etc.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1118">
+      ¶ In contrarium dicit glo. super illud Eph. iiii. In mensura 
+      <lb ed="#A" n="46"/>etatis plceritudinis christi: omnes in eadem resurgent in quae christus 
+      <lb ed="#A" n="47"/>mortuus est et resurrexit cuiuscumque etatis mortui 
+      fue<lb ed="#A" n="48" break="no"/>rint. Respondetur secundum Aug. xxii. de ciui. dei dicentem. Quod 
+      con<lb ed="#A" n="49" break="no"/>memorauit apostolis de mensura etatis plenitudinis christi sic 
+      <lb ed="#A" n="50"/>accipiamus dictum vt nec vltra nec infra iuuenilem 
+      eta<lb ed="#A" n="51" break="no"/>tis formam resurgant corpora mortuorum: sed in etate et 
+      ro<lb ed="#A" n="52" break="no"/>bore vsque ad qua iesum christum peruenisse cognouimus 
+      <lb ed="#A" n="53"/>Propter ei perfectionem nature deciet vt resurgant in 
+      opti<lb ed="#A" n="54" break="no"/>mo statu corporis quem habueruit: vel si tantu vixssent 
+      <lb ed="#A" n="55"/>erant naturaliter habituri. ille autem status est in terminio motus 
+      per<lb ed="#A" n="56" break="no"/>ficiendi.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1144">
+      ¶ Ad primum argumentum dicendum quod no omnes 
+      re<lb ed="#A" n="57" break="no"/>surgent in efoli virtute naturali neque supernaturali: sed quilibet 
+      <!--328.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>resurget in naturali virtute quam erat habiturus 
+      natu<lb ed="#A" n="59" break="no"/>raliter in termino motus sui profectus.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1157">
+      ¶ Ad secundm 
+      dicen<lb ed="#A" n="60" break="no"/>dum quod senectus dicitur corona dignitatis: non propter conditio 
+      <lb ed="#A" n="61"/>nem corporis: quia tunc est in defectu: sed propter sapieniam quae 
+      in<lb ed="#A" n="62" break="no"/>eis praesumitur maior propter multam experientiam. Iob. xii. 
+      <lb ed="#A" n="63"/>In antiquis est sapientia.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1169">
+      ¶ Sed di. An omnes resurgent in 
+      <lb ed="#A" n="64"/>eadem statura: Respondet Rich. vbi supra. q. ix. quod non. quia 
+      <lb ed="#A" n="65"/>quilibet resurget in illa quantitate et statura quae 
+      vnicui<lb ed="#A" n="66" break="no"/>que indiuiduo debebatur in terminio motus perficiendi secundum 
+      <lb ed="#A" n="67"/>naturalem virtutem caloris extendentis humidum et humidi 
+      <lb ed="#A" n="68"/>suscipientis extensionem: natura non errante: vel per aliquod 
+      in<lb ed="#A" n="69" break="no"/>naturale accsens non impedita. quia per resurrectionem n 
+      re<lb ed="#A" n="70" break="no"/>ducetur tantummodo idem spe: sed etiam numero. et ideo 
+      rationabi<lb ed="#A" n="71" break="no"/>le est vt non tantum resurgant in statura quae debetur speci: sed 
+      <lb ed="#A" n="72"/>etiam in illa quae debetur indiuiduo modo praedicto. Si autem per 
+      <lb ed="#A" n="73"/>errorem nature vel nimiam superabundantiam materie esset 
+      in<lb ed="#A" n="74" break="no"/>debitus quantitatis excessus vel defectus diuina potentia 
+      <lb ed="#A" n="75"/>supplebit vel resecabit. Cui concordat Aug. xxii. de 
+      <lb ed="#A" n="76"/>ciui. dicens quod suam quasque recipiet mensuram quam vel 
+      ha<lb ed="#A" n="77" break="no"/>buit in iuuetute etiamsi senex mortuus fuerat. vel 
+      ha<lb ed="#A" n="78" break="no"/>biturus erat si ante est defunctus. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e1205">
+               <head xml:id="Vn7Pel-k95535-Hd1e1207">8</head>
+               <p xml:id="Vn7Pel-k95535-d1e1209">
+                  <lb ed="#A" n="79"/>¶ Utrum omnes resurgent in sexu 
+      vi<lb ed="#A" n="80" break="no"/>rili: Arguitur quod sic. quia homines resurgent sine 
+      defectu<lb ed="#A" n="81" break="no"/>et deformitate nature. sed sexus femineus est ex defectu 
+      <lb ed="#A" n="82"/>nature et praeter eius intentionem. sicut enim dicit philosophus. xvi. 
+      de<lb ed="#A" n="83" break="no"/>animalibus femina est quasi mas occasionatus iperfectus. ergo 
+      se<lb ed="#A" n="84" break="no"/>xus femineus non resurget.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1225">
+      ¶ In contrarium Aug. xxii. dei 
+      ci<lb ed="#A" n="85" break="no"/>ui. dicit. Mihi melius sapere videntur qui vtrumque sexum 
+      re<lb ed="#A" n="86" break="no"/>surgere non dubitant. Respondet Rich. vbi supra. q. x. Ad 
+      <lb ed="#A" n="87"/>istam quaestionem dixerunt aliqui quod omnes resurgent in sexu 
+      vi<lb ed="#A" n="88" break="no"/>rili. vnde Aug. vbi supra. Nonulli propter hoc quod dictum est: 
+      <lb ed="#A" n="89"/>donec occurramus omnes in virum perfectum: aiutem omnes in 
+      <lb ed="#A" n="90"/>virili sexu resurrecturos: quoniam deus fecet solum virum ex 
+      <lb ed="#A" n="91"/>imo: feminam ex viro. Sed hanc opinionem Augustinus 
+      <lb ed="#A" n="92"/>bidem redarguit: et merito. quia erronea est.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1245">
+      ¶ Dicendum 
+      <lb ed="#A" n="93"/>ergo quod non omnes resurgent in sexu virili: sed viri ic sexu vi 
+      <lb ed="#A" n="94"/>rili et femine in sexu femineo. quia hoc exigit natura 
+      indi<lb ed="#A" n="95" break="no"/>uidui et congruit perfectioni speci et erit occasio 
+      laudan<lb ed="#A" n="96" break="no"/>ti sapientiam dici. Et sicut dicit Aug. vbi supra membra feminea non 
+      <lb ed="#A" n="97"/>erunt accommodata vetri vsui sed nouo decori per quem 
+      <lb ed="#A" n="98"/>non alliciatur aspicientis concupiscentia quae nulla erit: sed dei 
+      lau<lb ed="#A" n="99" break="no"/>detur sapienia atque clementia: quia quod non erat fecut: et libauit 
+      <lb ed="#A" n="100"/>a corruptione quod fecit. Si autem in aliquibus est vterque 
+      <lb ed="#A" n="101"/>sexus inequaliter: resurget in sexu qui principaliter est in eis. 
+      <lb ed="#A" n="102"/>Si autem equaliter quod difficile est resurget in virili 
+      sexu<lb ed="#A" n="103" break="no"/>In vtroqueem sexu nullus resurget. quia hoc est ex errore 
+      <lb ed="#A" n="104"/>nature.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1274">
+      ¶ Ad argumentum dicendum quod quamuis mulier 
+      <lb ed="#A" n="105"/>generetur praeter intentionem nature particularis est tamen de 
+      <lb ed="#A" n="106"/>intentione nature velis quae vtrumque sexum requirit ad perfectio 
+      <lb ed="#A" n="107"/>nem humane speci: nec erit post resurrectionem confusio in 
+      il<lb ed="#A" n="108" break="no"/>lo sexu: quia non erit libido quae est confusionis causa. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e1286">
+               <head xml:id="Vn7Pel-k95535-Hd1e1288">9</head>
+               <p xml:id="Vn7Pel-k95535-d1e1290">
+                  <lb ed="#A" n="109"/>¶ Utrum omnes homines simul resurgent: 
+      <lb ed="#A" n="110"/>
+                  <!-- line coord error -->
+                  <lb ed="#A" n="111"/>Arguitur quod non. quia dicit Apostolis. i. Thes. iiii. Mortui 
+      <lb ed="#A" n="112"/>quo in christo sunt resurgent primi: deinde nos qui viuimus. 
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1303">
+                  <lb ed="#A" n="113"/>¶ In contrarium dicit idem apostolis. i. Cor. xv. Omnes quidem rsurge 
+      <lb ed="#A" n="114"/>mus: sed non omnes immutabimur: in momento in ictu 
+      <lb ed="#A" n="115"/>pclusli in nouissima tuba. Respondetur quod de quaestione est du¬ 
+      <!--329.xml-->
+      <pb ed="#A" n="330"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>plex opinio. Una est Scoti et Rich. i. iiii. dis. xliii. 
+      <lb ed="#A" n="2"/>dicentium quod in aduentum domini omnes qui iuenientur mortui 
+      re<lb ed="#A" n="3" break="no"/>urgen simulso omnes qui inuenientur viui simul morientur et similis 
+      re<lb ed="#A" n="4" break="no"/>surgent. Cumi videtur consonare illud Mortui qui in christo 
+      <lb ed="#A" n="5"/>sunt resurgent primi. Alia opinio est lyre quae mihi videtur 
+      <lb ed="#A" n="6"/>verior dicentis super. i. Thes. iiii. Hec vobis dicimus scilicet 
+      <lb ed="#A" n="7"/>de modo resurrectionis sicut reuelauit dominus. quia nos qui 
+      vt<lb ed="#A" n="8" break="no"/>uimus qui residui sumus ihc. modo a patribus defunctis non 
+      <lb ed="#A" n="9"/>praeueniemus eos in resurrectione futura qui dormicerunt 
+      ci<lb ed="#A" n="10" break="no"/>tius ils resurgendo. quia resurrectio fiet virtute diuina quae 
+      <lb ed="#A" n="11"/>operatur in instanti. quoniam ipse dominus Iesus in iussu dicen. 
+      <lb ed="#A" n="12"/>Surgite mortui ad iudicium: in voce archangeli scilicet 
+      <lb ed="#A" n="13"/>Michaclis qui est princeps eccime: sub quo intelliguntur alii 
+      an<lb ed="#A" n="14" break="no"/>geli qui ministerium exhibent in recolligendo cineres: et 
+      tu<lb ed="#A" n="15" break="no"/>ba dei. Ista tuba non est aliud quam vox praedicta quae dicitur 
+      tu<lb ed="#A" n="16" break="no"/>ba propter similitudinem tube veteris testamenti qua fiebat 
+      <lb ed="#A" n="17"/>cuocatio ad concilium: praeparatio ad bellum: et innitatio ad 
+      <lb ed="#A" n="18"/>festum. quia tunc omnes cogregabuntur in iudicio et armabitur 
+      <lb ed="#A" n="19"/>creatura i vltionem mimicorum: et iusti inuitabuntur ac 
+      <lb ed="#A" n="20"/>festum angelorum. Et hoc insinuat aposto scilicet Cor. xv. Omnes 
+      <lb ed="#A" n="21"/>quidem resurgemus in momento in ictu oculi tnouissima 
+      <lb ed="#A" n="22"/>tuba. Hec ille. Per hec patet responsio ad argunta 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e1367">
+               <head xml:id="Vn7Pel-k95535-Hd1e1369"> 10 </head>
+               <p xml:id="Vn7Pel-k95535-d1e1371">
+                  <lb ed="#A" n="23"/>¶ Sed diceres. vtrum restrrectio 
+      <lb ed="#A" n="24"/>cuiuslibet erit in instanti: Respondet Rich. vbi supra. ar. v 
+      <lb ed="#A" n="25"/>q. ii quod in resurrectione consideranda sunt tria.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1380">
+      ¶ 
+      Prepa<lb ed="#A" n="26" break="no"/>ratio ad corporum reformationem. et corporum reforma 
+      <lb ed="#A" n="27"/>tio. et corporum reformatorum cum suis animabus propriis 
+      <lb ed="#A" n="28"/>iterata vnio. Primum fiet creata virtute. quia puluerum 
+      <lb ed="#A" n="29"/>collectio fiet angelico ministerio. Uox tube procedet 
+      <lb ed="#A" n="30"/>a christo inquantum et homo quamuis ab ipso inquantum est deus sit 
+      <lb ed="#A" n="31"/>specialem virtutem supernaturalem habitura. et ista fient in tempore. 
+      <lb ed="#A" n="32"/>Alia duo erunt per virtutem diuinam et fient in eodem instanti 
+      <lb ed="#A" n="33"/>Ordie tamen nature vnio animarum ad corpora sequetur ipsorum 
+      <lb ed="#A" n="34"/>informationem quaest dispositio ad animarum susceptionem. 
+      <lb ed="#A" n="35"/>Ex quo infertur quod possibile est localem motum fieri in instant 
+      <lb ed="#A" n="36"/>Corpus autem reparandum maiorem locum occupabit quam eium 
+      <lb ed="#A" n="37"/>cineres. aut forsan minus secundum quod rarius et densius. 
+      Exquo<lb ed="#A" n="38" break="no"/>ergo formatio corporum fiet in instanti sequitur quod dictum est. 
+      <lb ed="#A" n="39"/>De vnione vero anime ad corpus Scotus vbi supra dicit tria. 
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1413">
+                  <lb ed="#A" n="40"/>¶ Primum quod fiet subito. Primo ex parte vnientis dei 
+      <lb ed="#A" n="41"/>Secundo ex parte anime vnibilis quae est simplex non extensa. 
+      Ter<lb ed="#A" n="42" break="no"/>tio ex parte corporis cui est vnienda. quod est primum animabile. 
+      <lb ed="#A" n="43"/>Ideo dico totum corpus vt comprehendantur manus et 
+      pe<lb ed="#A" n="44" break="no"/>des etc. tunc enim non est necesse. Sed voco primum 
+      animabi<lb ed="#A" n="45" break="no"/>le vt cor quod de necessitate eque primo aimandum est. 
+      re<lb ed="#A" n="46" break="no"/>lique vero partes corporis simul animabuntur: sed non ita de necesistate 
+      <lb ed="#A" n="47"/>Secundm dicit Sco. quod in eodem istanti in quo fiet corporis 
+      for<lb ed="#A" n="48" break="no"/>matio fiet anime vnio. quia est dispositio nec essitans non 
+      <lb ed="#A" n="49"/>absolute sed agentis volutate. Tertium quia formatio 
+      <lb ed="#A" n="50"/>erit mutatio non tamen vnio quia non est praecessio formationis 
+      <lb ed="#A" n="51"/>ad vnionem quod ad mutationem exigitur. ex. vi. physicus. 
+      <lb ed="#A" n="52"/>Et tunc forsan ad tempus erit vacuum: autm opertebit etiam 
+      <lb ed="#A" n="53"/>subito moueri aerem circumstantem localiter vt det locum 
+      <lb ed="#A" n="54"/>formato corpori: aut impleat vbi fuit aer ne detur 
+      va<lb ed="#A" n="55" break="no"/>cuum. aute fertio quod sipt duo corpora similis elige ex his quod 
+      <lb ed="#A" n="56"/>tibi placuerit.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1452">
+      ¶ Sed diceres. qua hora fiet 
+      resurre<lb ed="#A" n="57" break="no"/>ctio: Respondet Sco. vbi supra. q. v. per triplicem opinionem 
+      <!--329.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>possibilem. Prima quod in horaqua sui rexit christs: vt 
+      sitca<lb ed="#A" n="59" break="no"/>formitas. Secunda quod in hora in quai fuit iudicatusa 
+      <lb ed="#A" n="60"/>Pilato vt qui male fuit iudicatus contendat sebene iudi 
+      <lb ed="#A" n="61"/>care. Tertia quod in hora qua morti s est vt suam mortem 
+      <lb ed="#A" n="62"/>ostendat causm nostre resurrectionis. Sed mhiplus 
+      pla<lb ed="#A" n="63" break="no"/>cet dictum Rich. vt patuit supra Iudicinterti scilicet quod 
+      <lb ed="#A" n="64"/>motus celi cessabit circa solis ortum luna erisete in 
+      oc<lb ed="#A" n="65" break="no"/>cidente. quia in tali dispositione creduntur sol et luna 
+      cre<lb ed="#A" n="66" break="no"/>ati fuisse. Quia tantum quidam resurgunt inoriente: quidam 
+      inoc<lb ed="#A" n="67" break="no"/>cidente: ideo quidam resurgent de nocte per comparationem ad 
+      <lb ed="#A" n="68"/>locum in quo resurgent. per comparationem vo ad locum vbi te 
+      <lb ed="#A" n="69"/>nebitur iudicium crunt in ortum soul antequam aliquis resurgat 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k95535-Dd1e1489">
+               <head xml:id="Vn7Pel-k95535-Hd1e1491">11</head>
+               <p xml:id="Vn7Pel-k95535-d1e1493">
+                  <lb ed="#A" n="70"/>¶ Utrum mortui resur gent in eisdem 
+      <lb ed="#A" n="71"/>ocis in quibus fuerunt sepulti: Ar guitur quod non. quia resurte 
+      <lb ed="#A" n="72"/>ctio erit a mortuis. sed mori. magis deprope respicit 
+      <lb ed="#A" n="73"/>locum mortisquam sepulture. ergo resurget in locis inquibus de 
+      <lb ed="#A" n="74"/>cesserunt.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1506">
+      ¶ Item possibile est quod caput sepeliatur in vno 
+      <lb ed="#A" n="75"/>loco: cor in alio loco: pirtum corpus in tertio. ex quonon 
+      <lb ed="#A" n="76"/>esset possibile vt resurgat in loco sepulture. quod rel 
+      <lb ed="#A" n="77"/>surrecturum esset simul in diuers locis.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1515">
+      ¶ In contrium dictur 
+      Ex<lb ed="#A" n="78" break="no"/>chiel. xxxvii. Ecce ego aperiam tumulos vtros et 
+      cdu<lb ed="#A" n="79" break="no"/>causa vos de sepulcris vris popstule meus. Et Mat. xxvii. 
+      <lb ed="#A" n="80"/>Maulta corpora sanctorum qui dormierant sur. et exe. de 
+      mo<lb ed="#A" n="81" break="no"/>nu. etc. Respondet Rich. vbi supra. q. vi. quod mortui resurgent 
+      <lb ed="#A" n="82"/>in ills locis in quibus tempore resurrectionis erit pars principli. 
+      <lb ed="#A" n="83"/>or: siue ibi a principio fuerint sepulta eorum corpoa sit 
+      <lb ed="#A" n="84"/>ue non. Si autem illo tempore contigat alicuius corporis parta 
+      <lb ed="#A" n="85"/>eque principales esse in pluribus locis: vtpote quia medictas 
+      <lb ed="#A" n="86"/>capitis et medietas cordis et medietas omnium aliorum 
+      <lb ed="#A" n="87"/>membtorum in vno loco: et alia medietas in alio et sini 
+      <lb ed="#A" n="88"/>eque distantes a loco mortis et loco iudicii: tunc cumnen 
+      <lb ed="#A" n="89"/>sit ratio quare magis in vno loco quam in alio: rationabilius 
+      inpo<lb ed="#A" n="90" break="no"/>resurgat in illo loco in quo deus cum resurgere voluerit 
+      <lb ed="#A" n="91"/>Hoc cantum eoipso factum est rationabile quia deus vult illud 
+      <lb ed="#A" n="92"/>fieri.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1550">
+      ¶ Ad primum argumentum dicendum quod resurrectio 
+      <lb ed="#A" n="93"/>non tantum erit a morte sed etiam ab incineratione. 
+      Incince<lb ed="#A" n="94" break="no"/>ratio autem magis de prope respicit locum sepilture quo lo 
+      <lb ed="#A" n="95"/>cum mortis.
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1560">
+      ¶ Ad secundum dicendum quod secundum quosdam 
+      fictu<lb ed="#A" n="96" break="no"/>diuisione praedicta: alie partes tempore resurrectionis 
+      conge<lb ed="#A" n="97" break="no"/>gabuntur in loco vbi tunc erit cor. quia siut dicit Auicont 
+      <lb ed="#A" n="98"/>iii. libro de anmalibus. Corem primum principium venaum enrua 
+      <lb ed="#A" n="99"/>rum: et ab ipso tanquam a principio primo deriuatur per totum 
+      <lb ed="#A" n="100"/>corpus influentia anime vitalium motuum causatiua et alia 
+      <lb ed="#A" n="101"/>miembra congregabuntur sicut circa centrum. et cor est illud quil 
+      <lb ed="#A" n="102"/>vltimo moritur in homine. Alii dicunt quod homo resurget vbi 
+      <lb ed="#A" n="103"/>tunc crit caput. quia vt hater. fic. de reli. et sumper ful. um si 
+      <lb ed="#A" n="104"/>diuers. ibi est hominis sepultura vbi est sepultum caput. 
+    </p>
+               <p xml:id="Vn7Pel-k95535-d1e1582">
+                  <lb ed="#A" n="105"/>¶ Praeterea corpus humanum non resurget nisi propteranuam 
+      <lb ed="#A" n="106"/>conalem. ergo resurrectio erit vbi pars corporis eritqui ma 
+      <lb ed="#A" n="107"/>gis de propinquo respicit operationes anime rationalis. Hoc 
+      <lb ed="#A" n="108"/>autem est caput. quia in capite sunt sensus tam inteflotur 
+      <lb ed="#A" n="109"/>quam etiam exteriores etc.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

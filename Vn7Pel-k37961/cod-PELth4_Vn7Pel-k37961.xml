@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Altare</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Altare</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="14"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k37961">
+            <head xml:id="Vn7Pel-k37961-Hd1e100">Altare</head>
+            <div xml:id="Vn7Pel-k37961-Dd1e102">
+               <head xml:id="Vn7Pel-k37961-Hd1e104"> 1 </head>
+               <p xml:id="Vn7Pel-k37961-d1e106">
+                  <lb ed="#A" n="29"/>ALtare dupiex est 
+      <lb ed="#A" n="30"/>scilicet stabile et <sic>portatile</sic>. Stabile quidem in 
+      <lb ed="#A" n="31"/>ecclesia consecrata non potest construi: nisi quod 
+      <lb ed="#A" n="32"/>epircotus proprius consecrauerit vel consecrari permiseri scilicet ab 
+      <lb ed="#A" n="33"/>alio episo de conse. di. i. c. nullus. Et alia est consecratio 
+      <lb ed="#A" n="34"/>ecclesie: et alia altaris. ideo vna sine alia fieri potest. vt 
+      pi<lb ed="#A" n="35" break="no"/>extra de conse. ecclesie. c. i. Aliud altare dicitur viaticum scilicet 
+      via<lb ed="#A" n="36" break="no"/>portatile: et istud fit aliquando ex tabula et lapide: ita quod 
+      <lb ed="#A" n="37"/>lapis est sigillum et sepulchrum est in ligno. Aliquando ver 
+      <lb ed="#A" n="38"/>fit ex lapide solum: ita quod in ipso lapide est sepulchrum 
+      <lb ed="#A" n="39"/>Aliquando cum ligno et lapide: ita tamen quod in lapide est 
+      se<lb ed="#A" n="40" break="no"/>pulchrum et sigillum. et ponitur lignum pro augenda eius 
+      lati<lb ed="#A" n="41" break="no"/>tudine. Aliquando fit in lapide solo sine sepulchro et 
+      <lb ed="#A" n="42"/>reliquiis. et istis quattuor monis solummodo potest fieri. Et 
+      <lb ed="#A" n="43"/>debet sse tam latum quod super illud possit stare hostia et calix. 
+      <lb ed="#A" n="44"/>ar. de conse. di. i. c. concedimus.
+    </p>
+               <p xml:id="Vn7Pel-k37961-d1e145">
+      ¶ Nota quod secundum Panor. 
+      <lb ed="#A" n="45"/>extra de conse. ec. vel al. c. proposuisti. duobus modis 
+      exe<lb ed="#A" n="46" break="no"/>cratur altare. Primo quando mensa altaris est mota id est quando 
+      <lb ed="#A" n="47"/>tabula superior de loco cui compaginatur amouetur. et 
+      <lb ed="#A" n="48"/>hoc est verum in altari stabili. et licet in ipsa mensa sit 
+      for<lb ed="#A" n="49" break="no"/>ma consecrationis: tamen si remoueatur mensa a structura 
+      <lb ed="#A" n="50"/>execratur altare. quia consecratio intelligitur principaliter in 
+      com<lb ed="#A" n="51" break="no"/>iunctione lapidis superioris et structure inferioris. secus 
+      si<lb ed="#A" n="52" break="no"/>totum tranfferretur cum sibi coherentibus. secus etiam in 
+      porta<lb ed="#A" n="53" break="no"/>tili: quia non execratur nisi amoueatur illud paruum sigillum 
+      <lb ed="#A" n="54"/>continens consecrationem quando factum est ita quod in lapide sit se 
+      <lb ed="#A" n="55"/>pulchrum. sed quando lapis est pro sigillo in ligno: tunc secundum 
+      Io<lb ed="#A" n="56" break="no"/>an. in. c. ligneis. extra eo. amoto lapide a ligno est ex 
+      <lb ed="#A" n="57"/>ecratum. quando vero est factum tertio modo: tunc si lapis amo¬ 
+      <!--13.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ueatur a ligno Abbas et Ioan. an. in dicto. c. ligneis. 
+      <lb ed="#A" n="59"/>tenent quod non execratur: quia consecratio est in ipso lapide. 
+      <lb ed="#A" n="60"/>Panor. autem de hoc dubitat. Est ergo tenendum quod quando 
+      la<lb ed="#A" n="61" break="no"/>pis est ita paruus quod non potest contimere calicem cum hostia: 
+      <lb ed="#A" n="62"/>eo modo quo debet super ipsum poni ad celebrandum: tunc si 
+      la<lb ed="#A" n="63" break="no"/>pis amoueatur a ligno altare execratur. Ex quibus 
+      aduer<lb ed="#A" n="64" break="no"/>te quod non est necessarium: sicut dicit Pe. de pal. quod lapis debet ese 
+      <lb ed="#A" n="65"/>tam lonsginus quod recipiat hostia et calicem. Secundo execratur 
+      <lb ed="#A" n="66"/>quando enormiter est fractum. vt patet. d. c. ligneis. secus si 
+      fra<lb ed="#A" n="67" break="no"/>ctura non sit enormis: quae relinquitur iudicio episcopi 
+      discer<lb ed="#A" n="68" break="no"/>nenda. Isto solo modo execratur altare portatile quarto 
+      <lb ed="#A" n="69"/>modo dictum. Altare vero stabile frangitur enormiter et 
+      <lb ed="#A" n="70"/>execratur si aliquis de lapidibus tangentibus ipsam 
+      consecra<lb ed="#A" n="71" break="no"/>tionem vel sigillum est amotus. Et nota quod quando consecratur 
+      <lb ed="#A" n="72"/>altare fit in eo vnum paruum foramen in mesa lapidea 
+      <lb ed="#A" n="73"/>altaris vel ante altare vellatere dextro: et post consecratio 
+      <lb ed="#A" n="74"/>nem clauditur lapide paruo. et dicitur ille lapis sigillum. et potest 
+      <lb ed="#A" n="75"/>fieri etiam de latere si alius lapis defuerit. quia lapis 
+      <lb ed="#A" n="76"/>secundum Catholicom dicitur terra indurata. et ibi ponuntur reliquie 
+      <lb ed="#A" n="77"/>et nomen episcopi consecrantis: et sancti ad cuius honorem consecra 
+      <lb ed="#A" n="78"/>tur. verumtamen si desint reliquie altare portatile potest 
+      con<lb ed="#A" n="79" break="no"/>secrari sine eis secundum Astexa. li. vi. titr. xxxix. vnde in 
+      <lb ed="#A" n="80"/>missalibus antiquis dicitur: quod si reliquie non fuerit: omittitur 
+      <lb ed="#A" n="81"/>particula illius orationis: Oramus te domine per merita sanctorum 
+      <lb ed="#A" n="82"/>tuorum quorum reliquie hoc sunt. Iura autem quae videtur contradicere 
+      <lb ed="#A" n="83"/>intelliguntur de altari stabili. nullatenus tamen debet ibi 
+      po<lb ed="#A" n="84" break="no"/>ni corpus christi consecratum pro reliquiis. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k37961-Dd1e240">
+               <head xml:id="Vn7Pel-k37961-Hd1e242">2</head>
+               <p xml:id="Vn7Pel-k37961-d1e244">
+                  <lb ed="#A" n="85"/>¶ Utrum execrata ecclesia execretur 
+      <lb ed="#A" n="86"/>etiam altare: Respondetur secundum Panor id in. c. proposuisti. quod non 
+      <lb ed="#A" n="87"/>qia ecclesia potest destrui absque hoc quod destruatur altare. se 
+      <lb ed="#A" n="88"/>cus si polluatur: quia tunc etiam altare polluitur: et 
+      indige<lb ed="#A" n="89" break="no"/>reconciliatione. quod intelligitur de altari stabili solu¬ 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-k37961-Dd1e258">
+               <head xml:id="Vn7Pel-k37961-Hd1e260">3</head>
+               <p xml:id="Vn7Pel-k37961-d1e262">
+                  <lb ed="#A" n="90"/>¶ Utrum altare in ecclesia 
+      consecra<lb ed="#A" n="91" break="no"/>ta possit dirui sine licentia episcopi: Uidetur quod non. ar. de 
+      <lb ed="#A" n="92"/>conse. di. i. c. placuit. secus in ecclesia non consecrata. ar. a 
+      con<lb ed="#A" n="93" break="no"/>trario. Idem est intelligendum de erectione. Consecratio 
+      <lb ed="#A" n="94"/>enim altaris competit souls episcopis et non sacerdotibus. vt patet 
+      <lb ed="#A" n="95"/>xvi. q. vi. ministrare
+    </p>
+               <p xml:id="Vn7Pel-k37961-d1e278">
+      ¶ Est quam sciendum quod in altari in quo 
+      <lb ed="#A" n="96"/>episcopus celebrauit: eode die praesbyiter non potest celebrare. vt 
+      <lb ed="#A" n="97"/>patet de conse. di. ii. c. fi. nisi de licentia episcopi autm necestate 
+      <lb ed="#A" n="98"/>cum episcopus non potest perficere. vi. q. i. nihil. Hec gloin 
+      di<lb ed="#A" n="99" break="no"/>cto ca. finali. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

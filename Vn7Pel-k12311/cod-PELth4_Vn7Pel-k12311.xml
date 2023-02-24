@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth4">Augsburg 1503, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="1"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-k12311">
+            <head xml:id="Vn7Pel-k12311-Hd1e100">Prologus</head>
+            <p xml:id="Vn7Pel-k12311-d1e102"><!--0.xml-->
+               <pb ed="#A" n="1"/>
+               <cb ed="#A" n="a"/>
+               <lb ed="#A" n="1"/>¶ In nomine patris 
+      <lb ed="#A" n="2"/>et filii et spiritus sancti Amen. Ad 
+      eius<lb ed="#A" n="3" break="no"/>dem dei et domini Iesu gloriam atque 
+      <lb ed="#A" n="4"/>benedicte eius genitricis virginis 
+      <lb ed="#A" n="5"/>Marie laudem: nec non seraphici 
+      <lb ed="#A" n="6"/>patris nostri Francisci: omniumque 
+      bea<lb ed="#A" n="7" break="no"/>torum honorem Incipit Liber 
+      quar<lb ed="#A" n="8" break="no"/>tus Rosarii aurei Theologie.
+    </p>
+            <p xml:id="Vn7Pel-k12311-d1e127">
+               <lb ed="#A" n="9"/>Prologus 
+      <lb ed="#A" n="10"/>Cum deus sit 
+      <lb ed="#A" n="11"/>summe bonum et ineffabilis in 
+      <lb ed="#A" n="12"/>essencia sua exuperans omnem 
+      hu<lb ed="#A" n="13" break="no"/>mani et etiam angelici sensus 
+      na<lb ed="#A" n="14" break="no"/>turalem intelligentiam: Ideo ipse 
+      <lb ed="#A" n="15"/>diues in misercordia per spiritum sanctum dignatus est 
+      <lb ed="#A" n="16"/>nobis reuelare: quo inspirati locuti sunt sancti dei 
+      <lb ed="#A" n="17"/>homines. Ex quorum sermonibus Magister 
+      recolle<lb ed="#A" n="18" break="no"/>ctis tractat in primo li. sen. de ipsius essentia 
+      pri<lb ed="#A" n="19" break="no"/>mi principii ac proprietatibus eius: vt pote de 
+      persona<lb ed="#A" n="20" break="no"/>rum distinctione in vnitate substantie. Et sicut idem 
+      <lb ed="#A" n="21"/>deus est rerum omnium principium rector et gubernator 
+      <lb ed="#A" n="22"/>illorum sicut pulcre designatur in li. ii. sic est 
+      refe<lb ed="#A" n="23" break="no"/>ctiuum in redemptione: sicut patuit li. iii. Ita est et 
+      per<lb ed="#A" n="24" break="no"/>fectiuum in retributione: vt patebit in isto quarto 
+      <lb ed="#A" n="25"/>(deo concedenum) Celestis siquidem medicus humanum 
+      <lb ed="#A" n="26"/>genus tali modo reparauit sicut oportune competebat 
+      <lb ed="#A" n="27"/>egrotant: egritudini et occasioni egrotandi: et ipsius 
+      <lb ed="#A" n="28"/>egritudinis curationi. Egrotus enim erat homo: 
+      <lb ed="#A" n="29"/>morbus vero peccatum originale: origo vero illius 
+      <lb ed="#A" n="30"/>peccati licet principalius fuerit ex consensu rationis: 
+      occasio<lb ed="#A" n="31" break="no"/>nem tamen sumpsit ex sensibilibus carnis. Christus enim verbum 
+      <lb ed="#A" n="32"/>praesens cum sit summe ueritatis: summe bonitatis: summe virtutis 
+      <lb ed="#A" n="33"/>ratione summe bonitatis promisit praemia beatificantia: ratione 
+      <lb ed="#A" n="34"/>summe veritatis dedit praecepta dirigentia: ratione virtutis 
+      <lb ed="#A" n="35"/>instituit sacramenta adiuuantia: vt per sacramenta 
+      <lb ed="#A" n="36"/>reperetur virtus ad implenda praecepta: et per praecepta 
+      <lb ed="#A" n="37"/>perueniatur ad premia. Ad hoc quidem vt medicina 
+      <lb ed="#A" n="38"/>responderet morbo oportuit quod non tantum esset spiritualis 
+      <lb ed="#A" n="39"/>sed aliquid haberet de sensibilibus signis: vt sicut 
+      <lb ed="#A" n="40"/>sensibilia fuerunt homini occasio labendi: ita esset 
+      <lb ed="#A" n="41"/>ei occasio resurgendi. Ideo christus deus noster 
+      <lb ed="#A" n="42"/>remedia sacramentalia instituit in verbis 
+      inuisi<lb ed="#A" n="43" break="no"/>bilibus: et elementis id est signis visibilibus de quibus 
+      <lb ed="#A" n="44"/>in hoc quarto secundum ordinem Alphabeti sicuti in 
+      <lb ed="#A" n="45"/>prioribus libris vtcumque tractabitur. Cuius quidem 
+      <lb ed="#A" n="46"/>libri tractatui consonat illud quod Ecci. xxxvi. sapiens 
+      <lb ed="#A" n="47"/>deprecabatur di. Innoua signa immuta mirabilia 
+      <lb ed="#A" n="48"/>glorifica manum: et brachium dextrum: excita furorem: 
+      <lb ed="#A" n="49"/>et effunde iram. In quibus quattuor tanguntur. 
+      Pri<lb ed="#A" n="50" break="no"/>mo sacramentorum noue legis institutio et veterum 
+      euacua<lb ed="#A" n="51" break="no"/>tio: cum dicitur Inmoua signa. Secundo generalis 
+      <!--0.xml-->
+      <cb ed="#A" n="b"/>
+               <lb ed="#A" n="52"/>omnium resurrectio cum dicitur: et immuta mirabilia. 
+      Mi<lb ed="#A" n="53" break="no"/>rabilius enim opus faciet deus in mortuorum omnium 
+      <lb ed="#A" n="54"/>resurrectione quam modo sit hominum generatio. Tertio simul 
+      <lb ed="#A" n="55"/>electorum resurrectio et glorificatio: cum dicitur Glorifica 
+      <lb ed="#A" n="56"/>manum et brachium dextrum. Quarto reproborum 
+      resur<lb ed="#A" n="57" break="no"/>rectio et damnatio: cum dicitur: excita furorem: et effunde 
+      <lb ed="#A" n="58"/>iram. Per innouationem enim signorum intelligitur 
+      insti<lb ed="#A" n="59" break="no"/>tutio nouorum sacramentorum noue legis: quae sunt signa 
+      vir<lb ed="#A" n="60" break="no"/>tute medicinalia et mirabilia. De quibus potest 
+      expo<lb ed="#A" n="61" break="no"/>ni illud Exodi. xxxiiii. Signa faciam quae nunquam sunt 
+      <lb ed="#A" n="62"/>visa super terram nec vllis gentibus. In gente enim 
+      iu<lb ed="#A" n="63" break="no"/>deorum non erant talia signa visa: quia illa solum 
+      praefigu<lb ed="#A" n="64" break="no"/>rabant ista: vnde lex vetus secundum Apostolum: nil ad 
+      per<lb ed="#A" n="65" break="no"/>fectum adduxit. sed gratia et veritas quae per Iesum 
+      chri<lb ed="#A" n="66" break="no"/>stum facta est. Et quia talia signa cum sint 
+      medicina<lb ed="#A" n="67" break="no"/>lia et mirabilia: ideo dicunt suscipi et praedicari cum 
+      re<lb ed="#A" n="68" break="no"/>uerentia: vt vnusquisque illud Dan. iii. dicat: Placuit 
+      <lb ed="#A" n="69"/>mihi praedicare eius signa quia magna sunt Que quidem 
+      <lb ed="#A" n="70"/>instituit christus ad euacuandum veteris le. 
+      imperfectio<lb ed="#A" n="71" break="no"/>nem: et propter promissorum adimpletionem: et legis 
+      fa<lb ed="#A" n="72" break="no"/>ciliorem obseruationem: quia gratiam conferunt per quam legis 
+      <lb ed="#A" n="73"/>mandata faciter implentur. Ea propter ad nonnullorum 
+      <lb ed="#A" n="74"/>auisationem in scribendo inter prolixitatem et 
+      brevita<lb ed="#A" n="75" break="no"/>tem studui medium tenere vt et minus exercitatis non 
+      <lb ed="#A" n="76"/>esset difficilis: et etiam bene doctis vsquequaque non 
+      <lb ed="#A" n="77"/>foret despicabilis: dum sensus roseis floribus et 
+      <lb ed="#A" n="78"/>aurea luce rutilantibus inuenirentur prulchre referti 
+      <lb ed="#A" n="79"/>tanquam flosculis nouarum rerum conspicui: sanctorum 
+      vi<lb ed="#A" n="80" break="no"/>delicet doctorum Bonauenture Thome ac 
+      Richar<lb ed="#A" n="81" break="no"/>di potissime subtilitatibus Scoti lucubrati: 
+      nec<lb ed="#A" n="82" break="no"/>non aliorum. 
+    </p>
+            <p xml:id="Vn7Pel-k12311-d1e294">
+               <lb ed="#A" n="83"/>¶ Finit Prologus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
