@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fortuna</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Fortuna</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="214"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h65394">
+            <head xml:id="Vn7Pel-h65394-Hd1e110">Fortuna</head>
+            <div xml:id="Vn7Pel-h65394-Dd1e112">
+               <head xml:id="Vn7Pel-h65394-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h65394-d1e116">
+                  <lb ed="#A" n="36"/>¶ Fortuna del 
+      for<lb ed="#A" n="37" break="no"/>tuitum et casuale.
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e123">
+      ¶ De his Quid sit 
+      <lb ed="#A" n="38"/>quodlibet horum et quomodo differat hec inter se 
+      <lb ed="#A" n="39"/>Nota secundum Guil. in. ii di. xxxvii. quod fortua ab Aris. 
+      <lb ed="#A" n="40"/>ii. physicorum diffinitur. Est inquit causa per accmstens eorum quae 
+      <lb ed="#A" n="41"/>fiunt extra semper et frequenter in agentibus a proposito et 
+      pro<lb ed="#A" n="42" break="no"/>pter finem Ubi tanguntur tria. Primum ex parte cause est 
+      <lb ed="#A" n="43"/>icientis. dum dicit. Est causa per accntens in agentibus a proposi 
+      <lb ed="#A" n="44"/>to. Unde non debet dici causa per accidens sicut album dicitur 
+      <lb ed="#A" n="45"/>causa domus edificate ab albo. sed intelligitur ratione 
+      <lb ed="#A" n="46"/>effectus. quia scilicet praeter effectum intentum aliud accidit. 
+      pu<lb ed="#A" n="47" break="no"/>ta dum quis intendens fodere puteum: accidit 
+      inueni<lb ed="#A" n="48" break="no"/>re in terra thesaurum. Secundo tangitur causa finalis. dum dicit 
+      <lb ed="#A" n="49"/>In agentibus propter finem. quia si ages nihil intenderet 
+      <lb ed="#A" n="50"/>sicut quis fricans harbam absque deliberatione. hoc non 
+      di<lb ed="#A" n="51" break="no"/>ceretur fortuma proprie. Tertio tagitur modus huius cause 
+      <!--213.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>dum dicitur in his qui fiunt extra semper et frequenteri est quae raro 
+      <lb ed="#A" n="53"/>eueniunt. Et secundum doc. subti. in i. di. ii. q. vii. Istud 
+      <lb ed="#A" n="54"/>Raro: non comparatur ad tempus: sed ad causam Dato enim 
+      <lb ed="#A" n="55"/>quod quotidie fodiens praeter intentionem inueniret 
+      the<lb ed="#A" n="56" break="no"/>saurum: fortuna diceretur. Sed ideo raro: additur in 
+      dif<lb ed="#A" n="57" break="no"/>finitione. quia quo ad causam est raro: eo quod id 
+      fodi<lb ed="#A" n="58" break="no"/>ens non intendit
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e175">
+      ¶ Denique ibidem Philosophus Casum 
+      dif<lb ed="#A" n="59" break="no"/>finit di. Casus est causa per accntes in his que fiunt 
+      <lb ed="#A" n="60"/>raro praeter intentionem in agentibus a natura. Unde 
+      <lb ed="#A" n="61"/>in hoc differt casus a fortuna. quia casus proprie 
+      <lb ed="#A" n="62"/>capiendo solum est in agentibus a natura scilicet dum aliquid 
+      <lb ed="#A" n="63"/>accidit praeter intentionem. Sicut quando puer nascitur cum 
+      <lb ed="#A" n="64"/>sex digitis quod non intendebat natura. sed 
+      Fortu<lb ed="#A" n="65" break="no"/>na proprie est in agentibus a proposito: vt dictum est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e194">
+               <head xml:id="Vn7Pel-h65394-Hd1e196">2</head>
+               <p xml:id="Vn7Pel-h65394-d1e198">
+                  <lb ed="#A" n="66"/>¶ Sed quomo differunt inter se 
+      <lb ed="#A" n="67"/>ista scilicet fortuna et Fatum et Casus: Causa: et 
+      Occa<lb ed="#A" n="68" break="no"/>sio. Nota secundum e. Guill. supra simulque etiam 
+      Bona<lb ed="#A" n="69" break="no"/>uem. in i. di. xlvi. q. iii. quod differunt sic. Nam vt dicit 
+      Bo<lb ed="#A" n="70" break="no"/>ecius. iiii. de consol. est dispositio diuine prouidentie 
+      in<lb ed="#A" n="71" break="no"/>rebus. et sic non est praeter intentionem. Sed in 
+      for<lb ed="#A" n="72" break="no"/>tuna et casu effectus accidit praeter intentionem. ergo 
+      dif<lb ed="#A" n="73" break="no"/>fert fatum ab illis
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e218">
+      ¶ Item Casus secundum e. Boe. v. de 
+      <lb ed="#A" n="74"/>consol. est inopinatus rei euentus causis concurrenm 
+      <lb ed="#A" n="75"/>tibus ob aliud inceptis. Et differt a natura in 
+      agen<lb ed="#A" n="76" break="no"/>do a natura. Fortuna autem a proposito et propter finem 
+      <lb ed="#A" n="77"/>vt patuit supra. Rursus Causa est que efficit 
+      ali<lb ed="#A" n="78" break="no"/>quem effectum secundum intentionem. dum ex intentione. 
+      <lb ed="#A" n="79"/>medicus curat infirmum. Occasio vero nec per se efficit 
+      <lb ed="#A" n="80"/>causatum: nec intendit. sicut dum quis ex verbo 
+      ali<lb ed="#A" n="81" break="no"/>cuius inconsulte dicto alteri scilicet petro: alius scilicet paulus 
+      <lb ed="#A" n="82"/>irascitur. tale verbum nec est causa ire. nec a 
+      dicen<lb ed="#A" n="83" break="no"/>te dicebatur propter iram huiusmodi. Itaque Causa ponit 
+      <lb ed="#A" n="84"/>et intentione et causalitatem. Occasio negat vtrumque. 
+      <lb ed="#A" n="85"/>In medio est casus negans intentionem et 
+      po<lb ed="#A" n="86" break="no"/>nens causalitatem. Fortuna autem licet differentur a 
+      <lb ed="#A" n="87"/>casu: vt pretactum est: medium tamen tenet in 
+      <lb ed="#A" n="88"/>hoc quod negat intentionem sed ponit causalitatem. 
+      <lb ed="#A" n="89"/>Nam tam fortuna quam casus proprias causas 
+      ha<lb ed="#A" n="90" break="no"/>bent. Nisi enim quis humum foderet: et nisi 
+      eo<lb ed="#A" n="91" break="no"/>loco foderet vbi thesaurus est repositus: ipsum 
+      <lb ed="#A" n="92"/>non inueniret: licet inueniat preter intentionem: 
+      <lb ed="#A" n="93"/>dicente Boecio. v. de consolatione.
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e264">
+      ¶ Ad hec <ref xml:id="Vn7Pel-h65394-Rd1e266">
+      in<lb ed="#A" n="94" break="no"/>fra. §. iiii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e273">
+               <head xml:id="Vn7Pel-h65394-Hd1e275">3</head>
+               <p xml:id="Vn7Pel-h65394-d1e277">
+                  <lb ed="#A" n="95"/>¶ Utrum fortuna habeat 
+      vera<lb ed="#A" n="96" break="no"/>titer esse in re vel in mundo: Respondetur secundum <ref xml:id="Vn7Pel-h65394-Rd1e283">
+      Sco<lb ed="#A" n="97" break="no"/>torls. in. ii di. xxxvii. q. ii ar. i.</ref> quod Una opinio falsa 
+      <lb ed="#A" n="98"/>est que dicit non esse fortunam: sicut patet. <ref xml:id="Vn7Pel-h65394-Rd1e290">ii lib. 
+      <lb ed="#A" n="99"/>Physicorum.</ref> Et hoc ideo. quia omnia que fiut 
+      ha<lb ed="#A" n="100" break="no"/>bent causam aliam determinatam a fortuna. 
+      Si<lb ed="#A" n="101" break="no"/>cut fodiens terram dum inuenit thesaurum praeter 
+      in<lb ed="#A" n="102" break="no"/>tentionem dicitur fortuna: et tamen habet causam determinatam. sed 
+      <lb ed="#A" n="103"/>voluntatem fodiendi. Sed sic ponendo sequeretur quod 
+      fru<lb ed="#A" n="104" break="no"/>stra vsi fuissent pltr scilicet <name xml:id="Vn7Pel-h65394-Nd1e306">Empedocles</name>: <name xml:id="Vn7Pel-h65394-Nd1e309">Democritus</name>: 
+      <lb ed="#A" n="105"/>
+                  <name xml:id="Vn7Pel-h65394-Nd1e313">Aristo</name>. et alii: ipsa
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e316">
+      ¶ Alia est opinio etiam falsa scilicet 
+      De<lb ed="#A" n="106" break="no"/>mocriti qui dixit fortunam esse causam celi et omnium 
+      <lb ed="#A" n="107"/>partium mundi ex fortuito concursu astrorum. 
+      Con<lb ed="#A" n="108" break="no"/>tra hoc obiicit Philosophus libro de fortuna. quia nullum 
+      <!--214.xml-->
+      <pb ed="#A" n="215"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>per accidens est prius: eo quod est per se. sed fortuna 
+      <lb ed="#A" n="2"/>est causa per accidens. ergo non est prior aliquo per 
+      <lb ed="#A" n="3"/>se Sed si fortuna esset in celestibus tunc esset 
+      prior<lb ed="#A" n="4" break="no"/>eis. et tamen celestia sidera sunt priora quam eorum concursus 
+      <lb ed="#A" n="5"/>fortuitus. ergo etc. Item nobiliora sunt celestia 
+      <lb ed="#A" n="6"/>quam inferiora. Sed ista inferiora multa non sunt a 
+      <lb ed="#A" n="7"/>fortuna. ergo nec superiora scilicet celestia. Probatio 
+      <lb ed="#A" n="8"/>minoris. quia non ex quocunque semine generatur 
+      <lb ed="#A" n="9"/>quodlibet. sed ex determinato semine determinatum 
+      <lb ed="#A" n="10"/>generatur. quod non esset verum si esset a fortuna etc. 
+      </p>
+               <p xml:id="Vn7Pel-h65394-d1e353">
+                  <lb ed="#A" n="11"/>¶ Ad quaesitum ergo idem Scotorel. ponit conclusio 
+      <lb ed="#A" n="12"/>nes
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e360">
+      ¶ Prima: quod fortuna vere est aliquid. Et patet et 
+      <lb ed="#A" n="13"/>diffinitione. §.
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e366">
+      ¶ Secunda conclusio quod fortuna est 
+      <lb ed="#A" n="14"/>nobis ignota antequam fuerit per effectum 
+      manifesta<lb ed="#A" n="15" break="no"/>ta. Probatur secundum philosophum libro de bona fortuna. quia 
+      for<lb ed="#A" n="16" break="no"/>tuna est causa per accidens et quidi contingens. sed 
+      <lb ed="#A" n="17"/>talia sunt infinita ergo ignota
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e377">
+      ¶ Tertia conclusio 
+      <lb ed="#A" n="18"/>quod fortuna non habet esse simpliciter. Probatur secundum 
+      <lb ed="#A" n="19"/>eundem philosophum supra. quia causa per accidens habet 
+      effe<lb ed="#A" n="20" break="no"/>ctum per accidens. sed fortuna est huiusmodi: ergo habet 
+      ef<lb ed="#A" n="21" break="no"/>fectum per accidens. sed quod est per accidens non est 
+      <lb ed="#A" n="22"/>simpliciter. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e390">
+      ¶ Quarta conclusio quod 
+      fortu<lb ed="#A" n="23" break="no"/>na est sine ratione scilicet naturali. Ratio Arist. supra. quia est in 
+      <lb ed="#A" n="24"/>paucloribus ergo non habet rationem velem. Propterea 
+      Se<lb ed="#A" n="25" break="no"/>neca dicit. quod sapiens vicit virtute fortunam per rationem qua scilicet 
+      <lb ed="#A" n="26"/>nos eleuatur in prosperi fortume. nec deiicitur aduers etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e402">
+               <head xml:id="Vn7Pel-h65394-Hd1e404">4</head>
+               <p xml:id="Vn7Pel-h65394-d1e406">
+                  <lb ed="#A" n="27"/>¶ In qualibus dicitur fortuna esse vel 
+      <lb ed="#A" n="28"/>locu habere: Respondetur secundum eundem Scotor. ea. di. xxxvii. 
+      <lb ed="#A" n="29"/>pro regula est quod fortuna non est nisi in animatis illis 
+      <lb ed="#A" n="30"/>qua agunt voluntarie et per electionem. quamuis casus sit 
+      eti<lb ed="#A" n="31" break="no"/>am in aliis quibuscunque creatis inanimatis vel 
+      anima<lb ed="#A" n="32" break="no"/>tis. Probatur ex diffinitione <ref xml:id="Vn7Pel-h65394-Rd1e421">fortune. §. i.</ref> supra quia 
+      for<lb ed="#A" n="33" break="no"/>tuna est in his quae agunt a proposito id est voluntarie per 
+      ele<lb ed="#A" n="34" break="no"/>ctionem. licet accidat praeter intentionem Sed nullum 
+      anima<lb ed="#A" n="35" break="no"/>tum agit praeter electionem. nec inter animata etiam puer 
+      <lb ed="#A" n="36"/>vel ames vel bestia agit per electionem vel volunta 
+      <lb ed="#A" n="37"/>rie. ergo in talibus fortuna proprie non habet locum. nisi re 
+      <lb ed="#A" n="38"/>spectu aliorum. sed casus proprie habet locum in talibus. Unde 
+      <lb ed="#A" n="39"/>patet quod casus differt a fortuna etiam in hoc quod extem 
+      <lb ed="#A" n="40"/>dit se in plus quam fortuna. Nam omne quod est a fortuna 
+      <lb ed="#A" n="41"/>est etiam a casu sed non econuerso. Exemplum est de 
+      tri<lb ed="#A" n="42" break="no"/>penda secundum philosophum. quae de alto cadens stetit super pedes 
+      <lb ed="#A" n="43"/>hoc fuit casuale et non a fortuna. quia fortuita sunt inum 
+      <lb ed="#A" n="44"/>in his quae agunt voluntarie. Uerum tamen est quod sepe vnum 
+      <lb ed="#A" n="45"/>haporum ponitur pro reliquo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e454">
+               <head xml:id="Vn7Pel-h65394-Hd1e456">5</head>
+               <p xml:id="Vn7Pel-h65394-d1e458">
+                  <lb ed="#A" n="46"/>¶ Utrum fortuiti effectus reducan 
+      <lb ed="#A" n="47"/>tur ad causam per se: Respondetur secundum Guil. ea. di. xxxvii 
+      <lb ed="#A" n="48"/>concor. Scotor. quod sic. quia ex. ii physicorum. omnis causa 
+      per<lb ed="#A" n="49" break="no"/>accidens reducitur ad causam per se. sed fortuna est 
+      cau<lb ed="#A" n="50" break="no"/>sa per accidens. et fortuitum reducitur ad fortunam: ergo patet 
+      <lb ed="#A" n="51"/>popositum. Que sit autem ista causa per se ad quam. 
+      redu<lb ed="#A" n="52" break="no"/>cuntur effectus fortuiti: dicunt praedicti docor. quod non est 
+      ali<lb ed="#A" n="53" break="no"/>qua causa creata. quia cause create omnim effectuum fortui 
+      <lb ed="#A" n="54"/>torum sunt fortuna et casus quae non sunt cause per se: sed 
+      <lb ed="#A" n="55"/>per accastens. quia sunt praeter intentionem agentis. ex. ii plhosys 
+      <lb ed="#A" n="56"/>corum ergo fortuitum omne habet reduci ad causam 
+      incre<lb ed="#A" n="57" break="no"/>ata quae est deus: sicut ad primam cauam per se. Et hoc sufficit 
+      <!--214.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ad veritatem autoritatis illius. ii physicorum. Quod omnis causa 
+      <lb ed="#A" n="59"/>per accidens reducitur ad causam per se prima saltem scilicet 
+      <lb ed="#A" n="60"/>increatam: licet non ad causam creatam etc. Deus 
+      <lb ed="#A" n="61"/>ergo laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e501">
+               <head xml:id="Vn7Pel-h65394-Hd1e503">6</head>
+               <p xml:id="Vn7Pel-h65394-d1e505">
+                  <lb ed="#A" n="62"/>¶ Utrum ergo esse omnis fortuiti a 
+      <lb ed="#A" n="63"/>deo eueniat vel producatur
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e512">
+      ¶ Et arguitur quod non quia 
+      <lb ed="#A" n="64"/>Aug. li. lxxxiii. quaedeo dicit quod quicquid casu fit temere 
+      <lb ed="#A" n="65"/>fit. et quicquid temere fit non fit prouidentia. Hec ille 
+      <lb ed="#A" n="66"/>Sed deus nil facit temere et sine prudentia: ergo 
+      ncc<lb ed="#A" n="67" break="no"/>casu. et capit casum pro fortuna Item ratione. quia 
+      for<lb ed="#A" n="68" break="no"/>tuitum inquantum fortuitum dicit priuationem 
+      cogniti<lb ed="#A" n="69" break="no"/>onis. deus autem habet omnium noticiam ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e528">
+      ¶ Sed in 
+      <lb ed="#A" n="70"/>oppositum est. quia nil in mundo potest accidere sine deti 
+      <lb ed="#A" n="71"/>pruidentia vt dicit Aug. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e535">
+      ¶ Respondetur secundum 
+      <lb ed="#A" n="72"/>Guil eadem dist. xxxvii per conclusionem. quod 
+      fortui<lb ed="#A" n="73" break="no"/>tum quamuis non est a deo inquantum fortuitum. tamen 
+      <lb ed="#A" n="74"/>esse fortuiti a deo euenit semper et producitur 
+      Quan<lb ed="#A" n="75" break="no"/>tum ad primam partem patet per argumenta praemissa. 
+      <lb ed="#A" n="76"/>Preterea probatur. quia sicut malum repugnat 
+      bo<lb ed="#A" n="77" break="no"/>no: ita fortuitum repugnat prouidentie. sed malum 
+      <lb ed="#A" n="78"/>vt malum non venit a summo bono ergo nec 
+      for<lb ed="#A" n="79" break="no"/>tuitum vt fortuitum venit a summa prouidentia 
+      <lb ed="#A" n="80"/>Confirmatur. quia sicut iniusticia nequit esse nisi 
+      <lb ed="#A" n="81"/>ab eo qui operatur iniuste. sic nec fortuitum vt 
+      for<lb ed="#A" n="82" break="no"/>tuitum nisi ab agente a fortuna. Item quantum ad 
+      <lb ed="#A" n="83"/>secundam partem patet conclusio. Quia in fortuito sunt 
+      <lb ed="#A" n="84"/>duo Unum est priuatiuum: quia nominat defectum 
+      <lb ed="#A" n="85"/>cognitionis. et sic non potest esse a deo: sed est in rebus 
+      <lb ed="#A" n="86"/>ratione causarum particularium. respectu autem prime 
+      cau<lb ed="#A" n="87" break="no"/>se que est deus nequaquam Cui antequam fiant cuncta 
+      <lb ed="#A" n="88"/>sunt nota etiam minima. Aliud est in fortuito 
+      po<lb ed="#A" n="89" break="no"/>sitiuum. quia nominat aliquem effectum positiuum et 
+      <lb ed="#A" n="90"/>ratione huius dicitur esse a deo secundum totum positiuum 
+      <lb ed="#A" n="91"/>quod est in fortuito. Hec Guil. Ad idem in sequentibus 
+      <lb ed="#A" n="92"/>plura applicanda ponuntur. 
+      </p>
+               <p xml:id="Vn7Pel-h65394-d1e584">
+                  <lb ed="#A" n="93"/>¶ Sed vnde probatur omnem fortunam 
+      <lb ed="#A" n="94"/>prosperam et aduersam esse a deo in mundo isto. 
+      <lb ed="#A" n="95"/>Respondetur quod hoc clarum est primo ex scripturis 
+      <lb ed="#A" n="96"/>Sap. vii. vbi dicitur. In manu duni et nos et omnes 
+      <lb ed="#A" n="97"/>sermones nostri et omnis sapientia et operum scientie 
+      di<lb ed="#A" n="98" break="no"/>sciplina. Item Prouer. xvi. Sortes mittuntur in 
+      si<lb ed="#A" n="99" break="no"/>nu Ibi lyra id est in aliquo loco occulto vt inde 
+      reci<lb ed="#A" n="100" break="no"/>piantur fortuitu vel sine prouisione humana. sequitur. 
+      <lb ed="#A" n="101"/>Sed a domino temperantur inquit. hoc io. quia ex diuina 
+      proui<lb ed="#A" n="102" break="no"/>dentia prouenit. quod talis sors cadat super talem. Hec 
+      li<lb ed="#A" n="103" break="no"/>ra. Et similiter est in omnibus etiam vsque ad puncta taxillorum 
+      <lb ed="#A" n="104"/>piectorum et quorumcunque contingentium hominibus
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e613">
+      ¶ Secundo 
+      <lb ed="#A" n="105"/>atet ex ratione prouidentie diuine. quia vt etiam Augustinus dicit. 
+      <lb ed="#A" n="106"/>Nil in modo potest accidere praeter cognitione et intenti 
+      <lb ed="#A" n="107"/>onem dici. sed quicquid fit: a deo fit principaliter. vel 
+      causan<lb ed="#A" n="108" break="no"/>te vel permittente. vt etiam de hoc latius habetur libr. i. vbi 
+      <lb ed="#A" n="109"/>Prouidentia. Unde errant qui alteri quam deo bonam fortu 
+      <lb ed="#A" n="110"/>nam attribuunt. siue auguriis: siue superstitionibus 
+      <lb ed="#A" n="111"/>aliis vel constellationibus: siue industrie proprie vel 
+      vi<lb ed="#A" n="112" break="no"/>ribus Contra quos Eccles. iiii. Uidi sub sole nec 
+      ve<lb ed="#A" n="113" break="no"/>locium esse cursum: nec fortium bellum. nec sapientum 
+      pa<lb ed="#A" n="114" break="no"/>nem nec doctorum diuitias. nec artificum gratiam etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e638">
+               <head xml:id="Vn7Pel-h65394-Hd1e640">7</head>
+               <p xml:id="Vn7Pel-h65394-d1e642">
+      <!--215.xml-->
+                  <pb ed="#A" n="216"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Sed an operum fortuitorum sit sub 
+      <lb ed="#A" n="2"/>deo aliqua causa: videlicet bone fortune. Respondetur secundum e. 
+      <lb ed="#A" n="3"/>Guil. e. dist. xxxvii. cum Nico. boneti. in secundo sue 
+      <lb ed="#A" n="4"/>philosophie extrahendo ex libro Aristo. de bona fortuna 
+      <lb ed="#A" n="5"/>quod praeter intellectum et voluntatem in nobis bene est 
+      ali<lb ed="#A" n="6" break="no"/>quod principium fortuitorum. scilicet quedam ex parte corporis 
+      <lb ed="#A" n="7"/>dispositio tamen totum est principaliter ex parte diuine 
+      <lb ed="#A" n="8"/>voluntatis etc. Unde nil fit in modo mere ex fortuna 
+      <lb ed="#A" n="9"/>sed in omnibus que fiunt diuine bonitatis prouidentia 
+      <lb ed="#A" n="10"/>praestat. Cum ergo queritur vnde est quod vnus alio est 
+      ma<lb ed="#A" n="11" break="no"/>gis fortunatus in bono vel in malo. Et quod quis in 
+      <lb ed="#A" n="12"/>luuentute habet fortunas bonas. et in senectute 
+      <lb ed="#A" n="13"/>malas vel econtra. Respondetur secundum e. Guil. supra simulque 
+      <lb ed="#A" n="14"/>Rayne. in summa cum Tho. li. iii contra gentur. c. xcii. et 
+      <lb ed="#A" n="15"/>alios quod totum residet principaliter ex parte diuine 
+      vo<lb ed="#A" n="16" break="no"/>luntatis et prouidentie. Minus principaliter 
+      auten<lb ed="#A" n="17" break="no"/>est ab angelo ad id faciendum instigante corvt aliquid 
+      <lb ed="#A" n="18"/>tale eligat vel refugiat. vnde et Egidius de rhoma 
+      <lb ed="#A" n="19"/>super libo de bona fortuna dicit quod causa quaere aliqui 
+      ho<lb ed="#A" n="20" break="no"/>mines sunt bene fortunati aliqui mali. hec est. quia 
+      <lb ed="#A" n="21"/>homines bene fortunati sequentur instinctus 
+      di<lb ed="#A" n="22" break="no"/>uinos. sed mali fortunati no sequentur: hinc est in 
+      <lb ed="#A" n="23"/>quit etiam quod vnus et idem homo aliquando est bene 
+      for<lb ed="#A" n="24" break="no"/>tunatus aliquando non. Hec ille. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e704">
+               <head xml:id="Vn7Pel-h65394-Hd1e706">8</head>
+               <p xml:id="Vn7Pel-h65394-d1e708">
+                  <lb ed="#A" n="25"/>¶ Quare deus voluit fierai i munm 
+      <lb ed="#A" n="26"/>do fortunam tam versatilem. Respondetur quod idcirco
+     </p>
+               <p xml:id="Vn7Pel-h65394-d1e715">
+      ¶ Primo 
+      <lb ed="#A" n="27"/>nequis reputet se esse beatum in hoc mundo vel pos 
+      <lb ed="#A" n="28"/>se habere felicitatem. vnde Boe. ii de consol. Nemo est tam 
+      <lb ed="#A" n="29"/>composite felicitatis vt non ex aliqua parte cum sui 
+      sta<lb ed="#A" n="30" break="no"/>tus qualitate rixetur. o quam multis amaritudinibus 
+      feli<lb ed="#A" n="31" break="no"/>citas huius vite respersa est etc. Secundo vt per aduer 
+      <lb ed="#A" n="32"/>sam sepe fortunam contempto mundo ad deum ire 
+      compe<lb ed="#A" n="33" break="no"/>lamur in quo est felicitas vera Aug. ser. xxix. de verbis 
+      <lb ed="#A" n="34"/>omini dicit. Ideo inquit felicitatibus terrenis deus amari 
+      <lb ed="#A" n="35"/>tudines immiscuit vt alia quaeratur felicitas scilicet in deo 
+      <lb ed="#A" n="36"/>cuius dulcedo non est fallax. Tertio vt homo in 
+      prospe<lb ed="#A" n="37" break="no"/>ritate fortune non infletur sed timeat. tum quia vt idem 
+      <lb ed="#A" n="38"/>Aug. dicit ceteris paribus melior est homini aduersa 
+      for<lb ed="#A" n="39" break="no"/>tuna quam prospera. quia aduersa humiliat et probat ac 
+      me<lb ed="#A" n="40" break="no"/>rita accumulat. tum quia praesentis vite prosperitas aliquando 
+      <lb ed="#A" n="41"/>datur vt homo hic retributionem accipiat pro bonis 
+      <lb ed="#A" n="42"/>factis. et in futuro careat. vt habetur de pe. dist. iii. 
+      <lb ed="#A" n="43"/>Quid ergo propterea timere debet homo potius quam 
+      gau<lb ed="#A" n="44" break="no"/>dere de prosperitate fortune etc. Insuper timere 
+      ha<lb ed="#A" n="45" break="no"/>bet. Si non tanto plus prae aliis diligit deum. quanto 
+      <lb ed="#A" n="46"/>rationes crescunt donorum secundum Greg. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e762">
+               <head xml:id="Vn7Pel-h65394-Hd1e764">9</head>
+               <p xml:id="Vn7Pel-h65394-d1e766">
+                  <lb ed="#A" n="47"/>¶ Item quare fortuna repete a 
+      <lb ed="#A" n="48"/>deo bono varsatur. Ita quod sicut Innocentius lib.o de 
+      <lb ed="#A" n="49"/>vilitate conditionis humane dicit. Subito cum non 
+      <lb ed="#A" n="50"/>suspicarer inquit infortunium accidit Calamitas 
+      <lb ed="#A" n="51"/>et morbus inuadit. mors intercipit quam nullus 
+      eua<lb ed="#A" n="52" break="no"/>dit. et sepe improuise rapit etc. Ad hec secundum Cassiodi. 
+      <lb ed="#A" n="53"/>et doc. hoc generali pro regula est tenendum quod des 
+      <lb ed="#A" n="54"/>facit omnia iudicia scilicet sua iuste et pro meliori sicut 
+      <lb ed="#A" n="55"/>nouit congruere. vnde Psalmus Iustus dominus in omni 
+      <lb ed="#A" n="56"/>bus viis su. et sanctus in ope scilicet tamen quia iudicia 
+      <lb ed="#A" n="57"/>dei abyssus multa vt dicit idem Psalmus Ideo ratio 
+      <!--215.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>nem dare non possumus nisi vniuersalem. quia 
+      de<lb ed="#A" n="59" break="no"/>us sic vult eo quod sic iustum et rationale est fieri ex sua 
+      <lb ed="#A" n="60"/>sapientia et bonitate etc. hoc solum nobis curandum 
+      <lb ed="#A" n="61"/>est vt deum in omnibus glorificemus et in bono 
+      persista<lb ed="#A" n="62" break="no"/>mus. vnde Aristo. iiii. Eth. dicit quod magnanimus 
+      vir<lb ed="#A" n="63" break="no"/>tuosus est qui neque fortuna bona extollitur neque 
+      ma<lb ed="#A" n="64" break="no"/>la deprimitur etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h65394-Dd1e813">
+               <head xml:id="Vn7Pel-h65394-Hd1e815">10</head>
+               <p xml:id="Vn7Pel-h65394-d1e817">
+                  <lb ed="#A" n="65"/>Item quare deus prosperam 
+      for<lb ed="#A" n="66" break="no"/>tuna dat sepius peccatoribus in hoc mundo plus quam 
+      <lb ed="#A" n="67"/>iustis. Respondetur breviter secundum doc. theols quod primo pro 
+      <lb ed="#A" n="68"/>signo attractionis vt diligeret deum peccator saltem pro 
+      <lb ed="#A" n="69"/>beneficienis praestitis et tandem saluaretur. Ecce dei 
+      boni<lb ed="#A" n="70" break="no"/>tas etiam erga inimicos. Secundo pro signo remunera 
+      <lb ed="#A" n="71"/>tionis. quia licet sint peccatores: tamen alique bona faciunt 
+      <lb ed="#A" n="72"/>que eis hic remunerantur. iustis autem remuneratio 
+      <lb ed="#A" n="73"/>fit in futuro. vnde Aug. in Enchiridion dicit. Nullum 
+      <lb ed="#A" n="74"/>bonum potest esse irremuneratum. Tertio vt fideles 
+      in<lb ed="#A" n="75" break="no"/>struantur non pro bonis temporalibus prospere fortune serui 
+      <lb ed="#A" n="76"/>re deo cum talia dentur malis. Sed puro dei amo 
+      <lb ed="#A" n="77"/>re pro bonitate diuina faciant opera bona etc. Deus 
+      <lb ed="#A" n="78"/>ergo laudetur. 
+      </p>
+               <p xml:id="Vn7Pel-h65394-d1e850">
+                  <lb ed="#A" n="79"/>¶ Et in fructibus productis vsui 
+      <lb ed="#A" n="80"/>humano claret dei bonitas multipliciter. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

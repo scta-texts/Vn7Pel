@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vigilia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Vigilia</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="473"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h146698">
+            <head xml:id="Vn7Pel-h146698-Hd1e110">Vigilia</head>
+            <div xml:id="Vn7Pel-h146698-Dd1e112">
+               <head xml:id="Vn7Pel-h146698-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h146698-d1e116">
+                  <lb ed="#A" n="86"/>¶ Agila et soinus 
+      <lb ed="#A" n="87"/>Quid sint. Notandum quod vt dicit Arist. in 
+      <lb ed="#A" n="88"/>libro de som. et vig. Uigilia et somnus sunt 
+      <lb ed="#A" n="89"/>passiones sensfuum. Unde diffinit sic. dicit Sonnus est 
+      im<lb ed="#A" n="90" break="no"/>mobilitas sensuum velut quoddam vinculum. Uigilia 
+      <lb ed="#A" n="91"/>vero est solutio ac remissio sensuum. Nam sensus 
+      in<lb ed="#A" n="92" break="no"/>quit in somno simpliciter sunt clausi. quia nec oculus 
+      vi<lb ed="#A" n="93" break="no"/>det: nec auris audit protunc. Sed vigilia inquit nihil 
+      <lb ed="#A" n="94"/>aliud est quam solutio sensuum ad actus exteriores per 
+      <lb ed="#A" n="95"/>reuersione caloris naturalis ab interioribus ad 
+      <lb ed="#A" n="96"/>exteriora. Unde Auice . libro de anima dicit quod in somno 
+      con<lb ed="#A" n="97" break="no"/>uertitur anima ab exterioribus ad interiora. In vigilia 
+      <lb ed="#A" n="98"/>autem econuerso. Ideo Alphorabius. Uigilia est 
+      sen<lb ed="#A" n="99" break="no"/>sus in actu. Somnus autem est sensus in potentia. 
+      <lb ed="#A" n="100"/>quia est ligamentum sensuum. Item magistralis diffinitio 
+      <lb ed="#A" n="101"/>secundum Alb. mag. est: quod Sonus est quies virtutum animalium 
+      <lb ed="#A" n="102"/>cum intensione naturalium. Uigilia vero est intensio 
+      vi<lb ed="#A" n="103" break="no"/>rium animalium cum remissione naturalium
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e158">
+      ¶ Si obiicitur 
+      <lb ed="#A" n="104"/>quod in somno non ligatur sensus gustus. ergo somnus non est 
+      <lb ed="#A" n="105"/>viculum sensuum. Probatur. Quia Arist. e. librode 
+      som<lb ed="#A" n="106" break="no"/>et vig. dicit: quod quandoque in somnis ad organa 
+      gustati<lb ed="#A" n="107" break="no"/>ua videlicet linguam et palatum dulce phlegma stillare 
+      <lb ed="#A" n="108"/>contingit a capite. et tunc aliquando somniat dormiens 
+      <lb ed="#A" n="109"/>se bibere mel. hoc autem fit per immutationem quam 
+      phle<lb ed="#A" n="110" break="no"/>gma dulce in organis gustatiuis facit. ergo somnus 
+      <!--473.xml-->
+      <pb ed="#A" n="474"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>non est omnino ligatio sensuum: sicut habetur in 
+      diffinitioni<lb ed="#A" n="2" break="no"/>bus
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e187">
+      ¶ Respondetur secundum e. Alb. quod in somnis imaginatio 
+      <lb ed="#A" n="3"/>quandoque participat imaginationes corporales secundum 
+      incli<lb ed="#A" n="4" break="no"/>nationem nature et desiderii sui. Unde quando alicuius 
+      na<lb ed="#A" n="5" break="no"/>tura grauata est superfluo seminis: vel qui desiderio 
+      <lb ed="#A" n="6"/>concupiscentie carnalis tenetur magno: videt in 
+      so<lb ed="#A" n="7" break="no"/>mnis imagines talibus aptas. puta mulierum: ad 
+      <lb ed="#A" n="8"/>quas membrum virile mouetur: non ad imperium anime. Et 
+      <lb ed="#A" n="9"/>ita etiam in gustu ligato per somnum propter exiguum 
+      mo<lb ed="#A" n="10" break="no"/>tum qui fit ad organa gustatiua: fit motus magnus in 
+      <lb ed="#A" n="11"/>imaginatione. et sic somniat homo mel bibere. Similiter 
+      <lb ed="#A" n="12"/>secundum e. Philosophum quando quis dormit et manus dormientis im 
+      <lb ed="#A" n="13"/>ponuntur in peluim aquae plenam: ita vt talis non 
+      exper<lb ed="#A" n="14" break="no"/>giscatur per hoc soniat se mergi in aquas eadem ratione etc. 
+      <lb ed="#A" n="15"/>Unde obiectio non valet. Unde laudabilis est deus quia 
+      <lb ed="#A" n="16"/>pro nostre vite subleuamine fieri ordinauit 
+      vigi<lb ed="#A" n="17" break="no"/>liam et somnum alternatim. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e223">
+               <head xml:id="Vn7Pel-h146698-Hd1e225">2</head>
+               <p xml:id="Vn7Pel-h146698-d1e227">
+                  <lb ed="#A" n="18"/>¶ Que sint cause vigilie et soni 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e232">
+                  <lb ed="#A" n="19"/>¶ Notandum quod sicut Arist. supra. et etiam Priscianus ad 
+      <lb ed="#A" n="20"/>Cosdroe regem Persarum di. Somnus in natura qa 
+      <lb ed="#A" n="21"/>deo institutus est vt ad vitam necessarius et salutem 
+      <lb ed="#A" n="22"/>a nimalis: nec minus quam vigilia naturalis. Unde 
+      <lb ed="#A" n="23"/>et in scriptura Gen. ii legitur: quod deus qui fecit Adam: 
+      <lb ed="#A" n="24"/>ipse etiam immisit postea soporem in Adam. Ad hec vbi 
+      <lb ed="#A" n="25"/>Eua. §. v.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e250">
+      ¶ Cause autem efficientes somnum vel vt 
+      <lb ed="#A" n="26"/>giliam vel ex se vel per accantens plurime assigrantur secundum 
+      Ari<lb ed="#A" n="27" break="no"/>sto. et Alb. mag. cum eo. atque alios physicos 
+      recolli<lb ed="#A" n="28" break="no"/>gendo: quas breuiter prosequemur
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e259">
+      ¶ Prima causa est Alime 
+      <lb ed="#A" n="29"/>ti euaporatio. Esca enim extrinsecus intrans: et itrin 
+      <lb ed="#A" n="30"/>secus humidorum et calidorum superabundantia: facit 
+      for<lb ed="#A" n="31" break="no"/>tissimum somnum: cum vinum somniferum sit. et alimenta 
+      <lb ed="#A" n="32"/>caliditatem habentia. Digestione autem facta: somnus 
+      con<lb ed="#A" n="33" break="no"/>quiescit et euigilat homo.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e273">
+      ¶ Si obiicitur. quia Arist. e. li. 
+      <lb ed="#A" n="34"/>bro de som. dicit: quod melancholici edaces sunt ciborum 
+      <lb ed="#A" n="35"/>et tamen parum dormiunt. ergo multitudo nutrimti non est 
+      <lb ed="#A" n="36"/>cauma somni
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e282">
+      ¶ Ad hec secundum praedictos Respondetur quod licet 
+      nutri<lb ed="#A" n="37" break="no"/>mentum calidum primo eleuetur euaporando ex 
+      stoma<lb ed="#A" n="38" break="no"/>cho: tamen in ipso capite infrigidatur huiusmodi vapor. Et 
+      <lb ed="#A" n="39"/>quia in sensuum omnium organa descendere habet animalis 
+      <lb ed="#A" n="40"/>spiritus a capite: ille vapor conuersus in humiditatem 
+      <lb ed="#A" n="41"/>frigidam propter sui grauitatem descendit et oppilat viass 
+      <lb ed="#A" n="42"/>spirituum animalium ne fluant in organa sensuum: vt 
+      <lb ed="#A" n="43"/>dicit Alphorabius. Sicuti nubes impediunt lumen 
+      sob<lb ed="#A" n="44" break="no"/>ne descendat in aerem. et ita fit somnus. Porro 
+      me<lb ed="#A" n="45" break="no"/>lancholici licet sint edaces et multum cibum capiant: tamen 
+      <lb ed="#A" n="46"/>quia frigidus est locus digestionis intus: eo quod sunt 
+      fri<lb ed="#A" n="47" break="no"/>gide complexionis: Ideo non fit in eis multa 
+      euapo<lb ed="#A" n="48" break="no"/>ratio a cibis. Nam nigra cholera est naturaliter 
+      fri<lb ed="#A" n="49" break="no"/>gefactiua. Item quia habent cerebrum siccum: ideo parum 
+      <lb ed="#A" n="50"/>dormiunt: vt patebit infra.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e315">
+      ¶ Secunda caua somni et 
+      La<lb ed="#A" n="51" break="no"/>bor: vt dicit Philosophusupra. et Auicen. Labor enim facit dor. 
+      <lb ed="#A" n="52"/>mire propter lassitudinem membrorum ex motum exerciti 
+      <lb ed="#A" n="53"/>Unde Ecces. v. Dulqi est somnus operanti siue parum 
+      <lb ed="#A" n="54"/>comedat: sit mul.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e326">
+      ¶ Tertia causa est Egritudo. secundum 
+      <lb ed="#A" n="55"/>philosophum et Auicem. non quecumque tamen: sed illa sola quae est a 
+      <lb ed="#A" n="56"/>superfluitate humiditatis et caliditatis: sicut accidit 
+      febri<lb ed="#A" n="57" break="no"/>citantibus et lethargicis et epilenticei dormire.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e335">
+      ¶ Quar¬ 
+      <!--473.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ta causa est prima etas id est puerilis secundum eosdem philosophos 
+      <lb ed="#A" n="59"/>Nam pueri dormire coguntur. Tum quia in eis multum 
+      <lb ed="#A" n="60"/>nutrimentum fertur ad superiora: eo quod in pueris 
+      ma<lb ed="#A" n="61" break="no"/>iora sunt superiora membra quam inferiora: puta 
+      cait<lb ed="#A" n="62" break="no"/>ta ponderosa. In prouectis autem econtrario. Tum quia 
+      na<lb ed="#A" n="63" break="no"/>tura in pueris intendit augmentum: et ideo plus 
+      peo<lb ed="#A" n="64" break="no"/>nit in longitudinem ad superiora loca de nutrimeto 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e357">
+                  <lb ed="#A" n="65"/>¶ Si quaeratur An ergo vt plus dormiat puer: pro 
+      augmen<lb ed="#A" n="66" break="no"/>to valeat eidem dare vaporantia quae faciunt dormire: 
+      <lb ed="#A" n="67"/>sicut vinum: medonem: et huiusmodi: Dicit idem Arist. et praeno 
+      <lb ed="#A" n="68"/>minati: quod non. quia inducitur Epilensia quando dantur eis 
+      <lb ed="#A" n="69"/>huiusmodi multum vaporantia. Epilensia enim frequentur fit 
+      <lb ed="#A" n="70"/>in somno quae suffocat. Nam somnus quaedam epilesia est 
+      <lb ed="#A" n="71"/>et magis suffocat dormientes quam vigilantes. Deus 
+      <lb ed="#A" n="72"/>ergo laudetur quia dedit scire huiusmodi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e378">
+               <head xml:id="Vn7Pel-h146698-Hd1e380">3</head>
+               <p xml:id="Vn7Pel-h146698-d1e382">
+                  <lb ed="#A" n="73"/>¶ Quid de causis somni et 
+      vigi<lb ed="#A" n="74" break="no"/>lie per accntens: additis ab aliis philosophis: Notandum quod 
+      <lb ed="#A" n="75"/>Commentatores et alii(vt etiam Alber. mag. inducit: 
+      <lb ed="#A" n="76"/>addunt alias causas.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e393">
+      ¶ Una est Attentio in 
+      audien<lb ed="#A" n="77" break="no"/>do vel addiscendo. quia in studio tali anima in interio 
+      <lb ed="#A" n="78"/>ribus occupata scilicet circa vsum rationis relinquit exterio 
+      <lb ed="#A" n="79"/>ra membra: secum quoque trahit spiritus sensibiles. Et etiam 
+      <lb ed="#A" n="80"/>quia cerebrum calore suo tunc excitato euaporationes 
+      <lb ed="#A" n="81"/>nutrimti ad se trahit. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e406">
+      ¶ Alia est Orationis de 
+      <lb ed="#A" n="82"/>uotio et contemplatio vel passionis christi meditatio 
+      <lb ed="#A" n="83"/>et huiusmodi. Uidemus enim quod in talibus frequenter homo 
+      de<lb ed="#A" n="84" break="no"/>primitur somno. In dissolutionibus autem existentes 
+      vigi<lb ed="#A" n="85" break="no"/>lant. quia anima expanditur tota ad exteriora sensibilia 
+      <lb ed="#A" n="86"/>in iocis et nugis. Quod aliquando etiam fit procuratione 
+      <lb ed="#A" n="87"/>demonis. Sed vt dicit Aug. Melius est 
+      dormi<lb ed="#A" n="88" break="no"/>re quam diabolo deseruire scilicet in peccatis
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e424">
+      ¶ Preteres 
+      <lb ed="#A" n="89"/>Tertio aliquando causa est Corporis dispositio in 
+      sub<lb ed="#A" n="90" break="no"/>iecto quae est causa per accatens somni: vt. §. iiii. dictur. 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e432">
+                  <lb ed="#A" n="91"/>¶ Quarto facit ad somnum inducendum Nigrorum 
+      <lb ed="#A" n="92"/>phantasia vel imaginatio secundum Arist. quia nigue habet 
+      co<lb ed="#A" n="93" break="no"/>gregare visum. et ita sensus etiam intiores 
+      phan<lb ed="#A" n="94" break="no"/>tassando etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e444">
+               <head xml:id="Vn7Pel-h146698-Hd1e446">4</head>
+               <p xml:id="Vn7Pel-h146698-d1e448">
+                  <lb ed="#A" n="95"/>¶ Que faciunt somnum 
+      excitabi<lb ed="#A" n="96" break="no"/>lem: Notandum quod praecipua sunt hec quae faciunt dormi 
+      <lb ed="#A" n="97"/>entem a somno euigilare: secundum Arist. supra. Alber. 
+      Aui<lb ed="#A" n="98" break="no"/>cennam: et alios
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e459">
+      ¶ Unum est complementum digestionis 
+      <lb ed="#A" n="99"/>et hoc est causa per se excitationis a somno. quia tunc 
+      <lb ed="#A" n="100"/>segregatur tenuis et purus sanguis ab impuro: et 
+      pu<lb ed="#A" n="101" break="no"/>rus eleuatur sursum: impurus descendit deorsum scilicet 
+      <lb ed="#A" n="102"/>qui est corpulentus et grossus vt cedat in nutrimentum 
+      <lb ed="#A" n="103"/>inferiorum. sicut ille tenuis et purus ascendit vt 
+      ca<lb ed="#A" n="104" break="no"/>dat ad nutrimentum superiorum: precipue capitis. et 
+      indu<lb ed="#A" n="105" break="no"/>cit secum calidum in neruos sensibiles in fine 
+      dige<lb ed="#A" n="106" break="no"/>stionis: atque ita causat vigiliam
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e479">
+      ¶ Aliud est 
+      disposi<lb ed="#A" n="107" break="no"/>tio corporis quae est causa per accastens tam somni quam 
+      euigi<lb ed="#A" n="108" break="no"/>lationis per signa plura: quorum
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e486">
+      ¶ Primum est. Si 
+      ha<lb ed="#A" n="109" break="no"/>bet caput paruum vel grande. Nam habere paruum 
+      capu<lb ed="#A" n="110" break="no"/>signum est secundum Arist. parum dormire. Unde animalia 
+      parui<lb ed="#A" n="111" break="no"/>capitis parum dormiunt: sicut patet in auibus. Sed 
+      <lb ed="#A" n="112"/>haber magnum caput signum est somnolentie. quia ma 
+      <lb ed="#A" n="113"/>gnum continet cerebrum cuius frigiditas vincit calidum 
+      <lb ed="#A" n="114"/>cum nutrimento eleuatum.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e503">
+      ¶ Secundum signum est habetr. 
+      <!--474.xml-->
+      <pb ed="#A" n="475"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>collum longum vel breue. Nam quando collum est breue et 
+      <lb ed="#A" n="2"/>vene in eo sunt ample: hoc signum est somnolentie 
+      <lb ed="#A" n="3"/>secundum Arist. quia in talibus ex stomacho propinquiori 
+      citi<lb ed="#A" n="4" break="no"/>us proueniunt euaporationes ad cerebrum. Et quia per 
+      ve<lb ed="#A" n="5" break="no"/>nas amplas distillare potest humidum infrigidatum 
+      <lb ed="#A" n="6"/>in cerebro: quod est causa somni. Per oppositu est de 
+      <lb ed="#A" n="7"/>collo longo et venis strictis. Unde grues et anseret 
+      <lb ed="#A" n="8"/>parum et vigilanter dormiunt.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e529">
+      ¶ Tertium signum 
+      somno<lb ed="#A" n="9" break="no"/>lentie est habere cerebrum humidum: vt patet in pueris. Per 
+      <lb ed="#A" n="10"/>oppositum siccum cerebrum habentes parum dormiunt: vt 
+      pa<lb ed="#A" n="11" break="no"/>tet de canibus. Et etiam de melancholicis: de quibus tactum 
+      <lb ed="#A" n="12"/>est. §. ii
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e540">
+      ¶ Tertio principaliter facit somnum 
+      excitabi<lb ed="#A" n="13" break="no"/>lem Causa circumstantialis puta nimium ieiunium. et etiam 
+      <lb ed="#A" n="14"/>motus violentus. et infirmitas aliqua vel cura et 
+      affli<lb ed="#A" n="15" break="no"/>ctio mentis et pauor et huiusmodi. quae cuocant animam ab 
+      in<lb ed="#A" n="16" break="no"/>terioribus ad exteriora. Item etiam locorum circumstantia. 
+      <lb ed="#A" n="17"/>quia dormire magis potest homo in obscuro loco quam in 
+      lu<lb ed="#A" n="18" break="no"/>mine. et similiter in frigida aura dummodo bene sit 
+      conte<lb ed="#A" n="19" break="no"/>ctus quam in calida. Et ita per oppositum habtr de somno 
+      <lb ed="#A" n="20"/>excitabili. et sic de aliis extrinseci causis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e562">
+               <head xml:id="Vn7Pel-h146698-Hd1e564">5</head>
+               <p xml:id="Vn7Pel-h146698-d1e566">
+                  <lb ed="#A" n="21"/>¶ Quid signat vigilia et somnus 
+      <lb ed="#A" n="22"/>in sacra scriptura: Notandum quod sicut dicit Innocem. in ser. 
+      <lb ed="#A" n="23"/>et concor. Gre. in moralis. Sonus in scriptura designatur 
+      <lb ed="#A" n="24"/>tripliciter. sicut et euigilatio. Nam vita est triplex: ita et 
+      so<lb ed="#A" n="25" break="no"/>mnus vite scilicet corporalis: spiritualis. et eternalis
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e579">
+      ¶ Primus 
+      <lb ed="#A" n="26"/>inquit somnus est nature scilicet corporalis. De hoc Ioa. xi. 
+      La<lb ed="#A" n="27" break="no"/>zarus amicus nostr dormit etc. Domine si dormit saluus e. 
+      <lb ed="#A" n="28"/>Huius ratio. quia somnus est ordinatus a natura instituta 
+      <lb ed="#A" n="29"/>a deo propter salutem animalis: ita quod non posset viuere 
+      diu<lb ed="#A" n="30" break="no"/>tius sine eo. Et cum fuerit temporatus quantitate et qualitate 
+      con<lb ed="#A" n="31" break="no"/>fert sanitati. Ecci. zi. Sonus sanitatis in homine parco. 
+      <lb ed="#A" n="32"/>Unde et Auicen. dicit: quod euacuati per medicinam infirmi et 
+      <lb ed="#A" n="33"/>defectuosi in capite: per sononum restaurantur.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e599">
+      ¶ Secundus 
+      <lb ed="#A" n="34"/>somnus est anime et spiritualis. Consimiliter et euigilatio. Unde 
+      <lb ed="#A" n="35"/>Rho. xiii. Hora est iam nos de somno scilicet peccati 
+      sur<lb ed="#A" n="36" break="no"/>gere. et Heb. v. Surge qui dormis et exur. a mor. 
+      <lb ed="#A" n="37"/>Nimirum status in peccato bene significatur per somnum. Tum 
+      <lb ed="#A" n="38"/>quia vt Ber. dicit Sonus est plurima mortis imago. vnde 
+      <lb ed="#A" n="39"/>et facit quasi bestialem: dicente philosopho: quod in dimidio 
+      <lb ed="#A" n="40"/>temporis quo dormimus non differimus a bestiis. Tum 
+      <lb ed="#A" n="41"/>quia vt dicit Priscianus philosophus ad Cosdroe Somnus 
+      <lb ed="#A" n="42"/>facit corpora dormientium esse grauiora et 
+      frigidio<lb ed="#A" n="43" break="no"/>ra. que omnia mystice conueniunt peccato. Tum 
+      <lb ed="#A" n="44"/>denique quia dormientes dum exurgimus 
+      sapien<lb ed="#A" n="45" break="no"/>tes efficimur ad horam: vt idem dicit. Et 
+      exurge<lb ed="#A" n="46" break="no"/>re a peccato est maxima sapientia
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e630">
+      ¶ Tertio 
+      so<lb ed="#A" n="47" break="no"/>mni euigilatio dicitur eternalis. De quo Dan. xii. 
+      <lb ed="#A" n="48"/>Qui dormiunt in terre puluere euigilabunt etc. 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e638">
+                  <lb ed="#A" n="49"/>¶ Si autem queratur de somno nature Quantum 
+      <lb ed="#A" n="50"/>dormire sufficiat homini ad sanitatem corporis: 
+      Phy<lb ed="#A" n="51" break="no"/>sici dicunt quod natura requirit septem horas ad 
+      mi<lb ed="#A" n="52" break="no"/>nus: vt communiter: infra totam naturalem diem 
+      <lb ed="#A" n="53"/>vnam. xxiiii. horarum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e652">
+               <head xml:id="Vn7Pel-h146698-Hd1e654">6</head>
+               <p xml:id="Vn7Pel-h146698-d1e656">
+                  <lb ed="#A" n="54"/>¶ Utrum per naturam possimus 
+      habe<lb ed="#A" n="55" break="no"/>re in somnis sicut et in vigilia rationis vsum: siue 
+      <lb ed="#A" n="56"/>liberiarbitrii: Respondetur secundum Rich. in. ii libro dist. xxv. 
+      <lb ed="#A" n="57"/>q. ultim. et Bonauenturam consimiliter. q. vlti. ibidem: 
+      <!--474.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quod per naturam non possumus habere vsum liberiarbitrii. 
+      <lb ed="#A" n="59"/>in somnis pro statu isto nature lapse causa 
+      potis<lb ed="#A" n="60" break="no"/>sima est propter corporis ineptitudinem qua operatio anime 
+      <lb ed="#A" n="61"/>impeditur in corpore dum homo perfecte dormit eo quod tunc 
+      <lb ed="#A" n="62"/>prpter vapores et retractionem caloris naturalis ab 
+      <lb ed="#A" n="63"/>exterioribus sensibus ad interiora atque spirituum. et 
+      <lb ed="#A" n="64"/>propter frigiditatem cerebri fit quedam ingrossatio et 
+      <lb ed="#A" n="65"/>compressio in organis virium interiorum sensitiuarum ac 
+      <lb ed="#A" n="66"/>etiam exteriorum per quam ingrossationem et 
+      compressio<lb ed="#A" n="67" break="no"/>nem fit recessus ab illo gradu equalis dispositi 
+      <lb ed="#A" n="68"/>onis corporis qui requiritur ad hoc quod anima possit 
+      <lb ed="#A" n="69"/>actu ratiocinari: quamuis remaneat ille gradus in 
+      <lb ed="#A" n="70"/>ferior dispositionis quae sufficit ad hoc quod ibi anima 
+      <lb ed="#A" n="71"/>sit in actu naturali animationis et vegetationis 
+      <lb ed="#A" n="72"/>Unde Auicenna. vi. naturalis. lib. v. ca. vii. dicit. 
+      <lb ed="#A" n="73"/>Uerissime scimus quod virium anime altera impedit 
+      <lb ed="#A" n="74"/>alteram vieicet vis naturalis vim animalem et ecom 
+      <lb ed="#A" n="75"/>uerso. Et quoniam somnus est quies virium 
+      anima<lb ed="#A" n="76" break="no"/>lium cum intensione virium naturalium Ideo 
+      <lb ed="#A" n="77"/>que conatus anime tam fortissime trahitur ad vires 
+      <lb ed="#A" n="78"/>naturales intensas in sonnis quod intellectus in suo 
+      <lb ed="#A" n="79"/>actu impeditur et ex consequenti voluntas. et sic 
+      libe<lb ed="#A" n="80" break="no"/>rumarbitrium
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e721">
+      ¶ Si dicatur. Intellectus nullius 
+      <lb ed="#A" n="81"/>partis corporis est actus. ii de anima. non vtitur 
+      er<lb ed="#A" n="82" break="no"/>go organo corporali. Dicendum quod licet non vtatur tamen 
+      <lb ed="#A" n="83"/>indiget ad suum actum ministerio virium 
+      sensi<lb ed="#A" n="84" break="no"/>ciuarum que organis sunt alligate. ergo 
+      impe<lb ed="#A" n="85" break="no"/>ditur intellectus in suo actu quando vires sensitiue 
+      so<lb ed="#A" n="86" break="no"/>mno ligantur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e738">
+               <head xml:id="Vn7Pel-h146698-Hd1e740">7</head>
+               <p xml:id="Vn7Pel-h146698-d1e742">
+                  <lb ed="#A" n="87"/>¶ Sed difficultas est Quia Da 
+      <lb ed="#A" n="88"/>mascenus li. ii ca. xx. dicit. In somnis 
+      disputa<lb ed="#A" n="89" break="no"/>mus. et secundum hoc omnes rationales sumus. Nam 
+      mul<lb ed="#A" n="90" break="no"/>ta opera vigilantium faciunt quando que dormientes. 
+      <lb ed="#A" n="91"/>vt patet Primo ex theologia. iii. Regum. iii. vbi 
+      <lb ed="#A" n="92"/>scribitur quod Salomon in somnis petiuit a deo. scilicet 
+      <lb ed="#A" n="93"/>sibi apparente sapientiam. et hoc deo placuit et si 
+      <lb ed="#A" n="94"/>bi dedit. ergo tunc in sommis Salomodo ratione 
+      <lb ed="#A" n="95"/>vsus est. Secundo patet ex philosophia. quia Arist. de 
+      <lb ed="#A" n="96"/>somno et vigilia dicit. quod mouentur quidam 
+      dormien<lb ed="#A" n="97" break="no"/>tes discurrendo: multaque faciunt quae vigilantium sunt 
+      <lb ed="#A" n="98"/>puta distincte loquuntur rationaliter ad interro gata 
+      <lb ed="#A" n="99"/>Et huiusmodi plura operantur in somno vt in furia. Et 
+      <lb ed="#A" n="100"/>aliqui pueri mammas sugunt dormientes
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e775">
+      ¶ Respondetur secundum 
+      <lb ed="#A" n="101"/>eundem Rich. et Bona. supra. Primo dicendo quod Damas. 
+      <lb ed="#A" n="102"/>in illo dicto rationalitatem improprie ac cipi scilicet pro 
+      cogi<lb ed="#A" n="103" break="no"/>tatiua vi sensibili. quia talis disputati o et locutio in 
+      <lb ed="#A" n="104"/>quinis non fit per rationem sed per cogitatiuam sensibilem. 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e786">
+                  <lb ed="#A" n="105"/>¶ Secundo dicendum de Salomone secundum eosdem quod hoc non 
+      <lb ed="#A" n="106"/>fuit per naturam nec de lege communi. sed ex gratia speciali. a deo 
+      <lb ed="#A" n="107"/>vt scilicet saoionis petendo mereretur. et dignus esset exaudiri 
+      <lb ed="#A" n="108"/>Aut forsitam in vigilia praecogitauit. et sic meruit vt 
+      <lb ed="#A" n="109"/>id deo placuisse reuelaretur in sononis
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e799">
+      ¶ Tertio secundum 
+      <lb ed="#A" n="110"/>Alb. et philosophos de dicto Arist. Dicendum quod vt intendit 
+      <lb ed="#A" n="111"/>ibi Arist. opera vigilantium in dormientibus non fiunt nisi 
+      <lb ed="#A" n="112"/>his concurrentibus. Uno: phantasmate fortissime 
+      <lb ed="#A" n="113"/>mouente: in quo in vigilia praeaccepta est impressio 
+      ali<lb ed="#A" n="114" break="no"/>cuius quod fortasse faciendum est in futuro. Altero 
+      <!--475.xml-->
+      <pb ed="#A" n="476"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>autem concurrente aliquo sensu a calido accidentali vel 
+      <lb ed="#A" n="2"/>per accntens: et non per se a calido naturali. Unde in 
+      ta<lb ed="#A" n="3" break="no"/>libus furiosis manente liberoarbitrio ligato per 
+      <lb ed="#A" n="4"/>somnum: partes aliquae inferiores vel sensus aliqui 
+      sol<lb ed="#A" n="5" break="no"/>uuntur ad motum. puta lingua ad loquendum: manus 
+      <lb ed="#A" n="6"/>vel pes ad motum
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e833">
+      ¶ Hinc accidit quod tales 
+      experge<lb ed="#A" n="7" break="no"/>facti non memorantur operum vigilie quae fecerunt in 
+      so<lb ed="#A" n="8" break="no"/>mnis. Aliorum autem somniorum bene memorantur: vt dicit 
+      <lb ed="#A" n="9"/>idem Arist. quia somnus inest eis simpliciter quo ad alia. sed 
+      <lb ed="#A" n="10"/>quo ad opera vigilantium secundum quid et per accantes: solutis 
+      qui<lb ed="#A" n="11" break="no"/>busdam sensibus. Fortius autem habet esse et imprimi in 
+      <lb ed="#A" n="12"/>phantasia vel memoria quod inest simpliciter quam id 
+      <lb ed="#A" n="13"/>quod inest secundum quid 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e852">
+               <head xml:id="Vn7Pel-h146698-Hd1e854">8</head>
+               <p xml:id="Vn7Pel-h146698-d1e856">
+                  <lb ed="#A" n="14"/>¶ Quare in somnis non ligatur 
+      <lb ed="#A" n="15"/>phlhsophantastica vis et imaginatio sicut ligatur 
+      intelle<lb ed="#A" n="16" break="no"/>ctus vel ratio quo ad vsum: cum tamen intellectus 
+      mi<lb ed="#A" n="17" break="no"/>nus dependeat a dispositione corporis quam vires 
+      prae<lb ed="#A" n="18" break="no"/>misse: Respondetur secundum e. Rich. et Bonauen supra quod in 
+      so<lb ed="#A" n="19" break="no"/>mnis impeditur quidem ordinatus motus phantasie et ima 
+      <lb ed="#A" n="20"/>ginationis: per quarum impedimentum impeditur etiam 
+      <lb ed="#A" n="21"/>ordinatus actus intellectus et liberiarbitrii. Et quia sic 
+      <lb ed="#A" n="22"/>est quod cum aliqua virtus impeditur et debilitatur: tunc prius 
+      <lb ed="#A" n="23"/>aufertur ab ea id quod summum quam id quod est inferius. 
+      <lb ed="#A" n="24"/>Sicut cum pes debilitatur: prius deficit a veloci cur 
+      <lb ed="#A" n="25"/>su quam deficiat ab ambulando. Ideo in somnis 
+      pri<lb ed="#A" n="26" break="no"/>us tollitur id quod est superius id est vsus rationis quam actus 
+      in<lb ed="#A" n="27" break="no"/>ferioris scilicet phantasie. Item quia liberum arbitrium requirit 
+      <lb ed="#A" n="28"/>libertatem omnimodam pre aliis viribus ergo magis 
+      impe<lb ed="#A" n="29" break="no"/>ditur in somnis quam vsus inferiorum virium. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e894">
+               <head xml:id="Vn7Pel-h146698-Hd1e896">9</head>
+               <p xml:id="Vn7Pel-h146698-d1e898">
+                  <lb ed="#A" n="30"/>¶ Quid ergo cum quis in somnis 
+      <lb ed="#A" n="31"/>pruidet futura. Cum enim hoc sit maxime rationis 
+      ele<lb ed="#A" n="32" break="no"/>uate: sequitur quod tunc viget in homine ratio in somnis sicut 
+      <lb ed="#A" n="33"/>fuit in Adam soporato. Respondet idem Bona. quod in 
+      so<lb ed="#A" n="34" break="no"/>mnis non est praeuisio futurorum nisi visitatio emittatur 
+      <lb ed="#A" n="35"/>a deo: vt scribitur Ezech. xxxiiii. Magis autem visitat 
+      <lb ed="#A" n="36"/>deus in somnis reuelando quam in vigilia Primo quia 
+      <lb ed="#A" n="37"/>anima in vigilia dispersa est ad exteriora sensibilia: 
+      <lb ed="#A" n="38"/>et sic minus apta comprehendere reuelationes a deo. 
+      <lb ed="#A" n="39"/>Secundo quia deo sic placet sepius ad occultationem 
+      sui<lb ed="#A" n="40" break="no"/>uminis qui posuit tenebras latibulum suum. Tertio 
+      <lb ed="#A" n="41"/>quia homo in somnis magis agitur quam agat. et in reuelatione 
+      <lb ed="#A" n="42"/>plus se habet per modum suscipientis quam per modum agentis. 
+      Ul<lb ed="#A" n="43" break="no"/>timo. quia dicente deo Exo. xxxiii. Non videbit me homo 
+      <lb ed="#A" n="44"/>et viuet. Ideo secundum quod dicit Gre. non potest homo deum 
+      vide<lb ed="#A" n="45" break="no"/>re et eius reuelationes scilicet de lege comiori loquaendo: nisi 
+      <lb ed="#A" n="46"/>quando abstractus est a sensibus vt quasi dicatur non viuer scilce 
+      <lb ed="#A" n="47"/>secundum sensuum vsum exteriorem. Sed quia homo in somnis 
+      <lb ed="#A" n="48"/>est medium tenens inter mortuum et viuentem. et ita quo 
+      <lb ed="#A" n="49"/>dam modo a vita recedit: Ideo sic ordinauit deus fieri 
+      <lb ed="#A" n="50"/>reuelationes supernaturales in somnis quando homo non hbet 
+      <lb ed="#A" n="51"/>naturaliter vsum rationis: vt deo soli attribuatur laus glorie. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e949">
+               <head xml:id="Vn7Pel-h146698-Hd1e951">10</head>
+               <p xml:id="Vn7Pel-h146698-d1e953">
+                  <lb ed="#A" n="52"/>¶ Utrum ea qua homo facitin soinis suntr 
+      <lb ed="#A" n="53"/>meritoria vel imputabilia in culpam: Et videtur quod sic. 
+      <lb ed="#A" n="54"/>quia Gre. §. li.o motur scilicet super illud Iob. Terrebis me per 
+      <lb ed="#A" n="55"/>somnia. dicit: quod hostis insidians quos vigilantes miniume 
+      <lb ed="#A" n="56"/>superat: eos dormientes grauius per somnia impugnat. Quod 
+      <!--475.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>peus benigne permittit inquit: ne in electis ipse sonus 
+      me<lb ed="#A" n="58" break="no"/>rito et praemio vacet Hec ille.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e975">
+      ¶ Sed in oppositum cst. quia 
+      <lb ed="#A" n="59"/>Ber. libro de libe. ar. dicit: quod insanis et infantibus et 
+      doru<lb ed="#A" n="60" break="no"/>mientibus nihil quod agunt vel bonum vel malum impulatur 
+      <lb ed="#A" n="61"/>quia non sunt compotes rationis
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e984">
+      ¶ Respondetur ergo ad quaesitum Primo 
+      <lb ed="#A" n="62"/>dicendo secundum Bonauen. in. ii di. xxv. q. vl. quod loquendo 
+      <lb ed="#A" n="63"/>simpliciter sancti viri non merentur in somnis. sed solum per 
+      <lb ed="#A" n="64"/>accnes pro tanto quia occasione sumpta ab eo quod in sonis 
+      <lb ed="#A" n="65"/>habuerunt vel passi sunt in vigilia postmodum merentur. 
+      <lb ed="#A" n="66"/>Sicut exemplum legitur de scon Ioanne elemosynario qui in 
+      <lb ed="#A" n="67"/>soionis vidit sibi misericordiam desponsari. et postea in vi 
+      <lb ed="#A" n="68"/>gilia sibi hoc complacuit et opere impleuit.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1002">
+      ¶ Secundo dicenm 
+      <lb ed="#A" n="69"/>dum secundum e. Bona. quod sicut homo carnalis peccat et drmeretur 
+      <lb ed="#A" n="70"/>i pollutione carnali nocturna: non quidem simpliciter et 
+      ab<lb ed="#A" n="71" break="no"/>solute vt facta est in sononis. sed quia sua praecogitatione 
+      <lb ed="#A" n="72"/>prouocauit. vel quia saltem postmodum in vigilia 
+      recor<lb ed="#A" n="73" break="no"/>dan delectatur. Sic sancti merentur in vigilia per 
+      detesta<lb ed="#A" n="74" break="no"/>tionem et poenitentiam talis illusionis. Et sic intelligendum est 
+      di<lb ed="#A" n="75" break="no"/>ctum Gre. supra inductum
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1021">
+      ¶ Tertio dicedum colligendo ex 
+      <lb ed="#A" n="76"/>e. Bona. in. ii. di. xli. et aliorum doc. dictis. Maltis 
+      mo<lb ed="#A" n="77" break="no"/>dis potest quis meritum adquirere de somnno. Primo ex praeuia 
+      <lb ed="#A" n="78"/>intentione. Secundo ex subsequenti voluntatis complacentia 
+      <lb ed="#A" n="79"/>vel detestatione: vt claret ex iam dictis de istis. Tertio ex 
+      <lb ed="#A" n="80"/>sonii restrictione: puta quando aufert sibi aliquid de sonna 
+      <lb ed="#A" n="81"/>vt vacet orationi: vel in bonis operibus vigilando. Nam tt 
+      <lb ed="#A" n="82"/>secundum Arist. Temparare sonnum et potius ad vigiliam 
+      declina<lb ed="#A" n="83" break="no"/>re consulitur. Et surgere de nocte valet inquit pro bona 
+      <lb ed="#A" n="84"/>disponne corporis et sanitate: ac ad philosophie studium et 
+      <lb ed="#A" n="85"/>nutrimenti appetitum: et ad alia plura bona: vt dicit i. libro 
+      <lb ed="#A" n="86"/>Icono. et per conseques valet plus ad merita adquirenda 
+      <lb ed="#A" n="87"/>Quarto sancti merentur de sonno ex proximorum edificatione 
+      qui<lb ed="#A" n="88" break="no"/>exemplo sanctorum ad vigilandum similiter prouocantur. 
+      Per<lb ed="#A" n="89" break="no"/>ppositum eisdem modis mali possunt peccare et 
+      deme<lb ed="#A" n="90" break="no"/>ri de somno. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e1058">
+               <head xml:id="Vn7Pel-h146698-Hd1e1060">11</head>
+               <p xml:id="Vn7Pel-h146698-d1e1062">
+                  <lb ed="#A" n="91"/>¶ Utrum somnis liceat vti ad 
+      scien<lb ed="#A" n="92" break="no"/>du futura vel occulta: Respondetur breuiter secundum doc. praeserti 
+      <lb ed="#A" n="93"/>Lyram super Gen. xl. Et vt habetur in summa Ange. quod si quis 
+      <lb ed="#A" n="94"/>esset certus talia soinnia processisse ex dei vel boni 
+      angcli<lb ed="#A" n="95" break="no"/>reuelatione: sic licet. et sic vtebantur eis sancti de quibus legitur 
+      <lb ed="#A" n="96"/>in scripturis ve. et noui test. Si vero procedunt somnia 
+      <lb ed="#A" n="97"/>ex reuelatione demonum: quod est quando inuocantur expresse vel 
+      <lb ed="#A" n="98"/>tacite: puta superstitiones obsuando: sic est peccatum 
+      mor<lb ed="#A" n="99" break="no"/>tale. Et sic intelligitur in scriptura prohibitum Deut. il. 
+      <lb ed="#A" n="100"/>Non inueniatur in te qui obseuet sonnia. Et aliis locis scri 
+      <lb ed="#A" n="101"/>pture. Et ideo quia difficile est discernere de caus 
+      <lb ed="#A" n="102"/>somniorum an a deo vel a diabolo sint an ex aliqua 
+      <lb ed="#A" n="103"/>causa naturali: vt patebit in sequen. Ideo curiosa 
+      <lb ed="#A" n="104"/>est obseruatio temeraria certitudinaliter. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e1096">
+               <head xml:id="Vn7Pel-h146698-Hd1e1098">12</head>
+               <p xml:id="Vn7Pel-h146698-d1e1100">
+                  <lb ed="#A" n="105"/>¶ Quid ergo de sonnuis naturali 
+      <lb ed="#A" n="106"/>bus: Dicendum est secundum praedcons quod nec in his est certitudo 
+      <lb ed="#A" n="107"/>quia multipliciter possunt impediri: eo quod talia sunt in parte 
+      sen<lb ed="#A" n="108" break="no"/>sitiua sicut in dispone: non sicut in causa
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1111">
+      ¶ Aduertendum ergo quod 
+      <lb ed="#A" n="109"/>futura vel occulta vt ad somnia pertinent sunt in 
+      di<lb ed="#A" n="110" break="no"/>ferentia multiplici
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1118">
+      ¶ Primo quaedam sunt habentia cam na 
+      <lb ed="#A" n="111"/>turalem intrinsecam in omni somniate. sicut phatasma: 
+      <lb ed="#A" n="112"/>tum motus est in dormiendo que causa non est 
+      effe<lb ed="#A" n="113" break="no"/>ctiua alicus euentus sequentis. Ideoque per talia 
+      <!--476.xml-->
+      <pb ed="#A" n="477"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>nihil potest pronosticari de futuris. Et quia somnia vt 
+      <lb ed="#A" n="2"/>plurimum de hoc motu phantasic contingunt natura. 
+      <lb ed="#A" n="3"/>liter: Ideo dicitur Ecces. v. vbi plurima sunt somnia: ibi 
+      <lb ed="#A" n="4"/>piurime vanitates. Et poeta. Sonia ne cures. 
+      <lb ed="#A" n="5"/>ergo hoc prohibetur
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1144">
+      ¶ Secundo quaedam sunt habentia causm 
+      natu<lb ed="#A" n="6" break="no"/>ralem similiter intrinsecam particularem et determinatam ex 
+      <lb ed="#A" n="7"/>corporis dispositione. quia secundum quod in corpore 
+      superabun<lb ed="#A" n="8" break="no"/>dant humores vel febres: ita secundum hoc in somniis 
+      repre<lb ed="#A" n="9" break="no"/>sentant conformia tali dispositioni. Propterea dicit 
+      Ari<lb ed="#A" n="10" break="no"/>sto . libro de som. et vigi. quod medicorum gratiosi dicunt 
+      <lb ed="#A" n="11"/>valde attendendum ad somnia. maxime quando non possunt 
+      <lb ed="#A" n="12"/>cognoscere de sanitate vel morte per condicionem 
+      vri<lb ed="#A" n="13" break="no"/>ne vel per alia signa. Quia expartum est quod frigidi 
+      fre<lb ed="#A" n="14" break="no"/>quaenter somniant se esse in glacie et niue. Et secundum 
+      Al<lb ed="#A" n="15" break="no"/>ber. mag. super eodem libr. Quidam somniauit picem 
+      fum<lb ed="#A" n="16" break="no"/>di super pectus suum et postea in vigilia sequenti 
+      euo<lb ed="#A" n="17" break="no"/>muit multam choleram nigram. Similiter si homo frequentius 
+      <lb ed="#A" n="18"/>somniat de occupationibus igneis signum est quod 
+      cho<lb ed="#A" n="19" break="no"/>lera praedominatur. Si de aere vel volatum: signum est 
+      san<lb ed="#A" n="20" break="no"/>guinis. Si de aqua: signum est phlegme. Si de 
+      ter<lb ed="#A" n="21" break="no"/>ra: signum melancholie etc. Unde de talibus licite potest 
+      <lb ed="#A" n="22"/>pronosticari de futura sanitate vel infirmitate 
+      ipsi<lb ed="#A" n="23" break="no"/>us somniantis communiecturando
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1187">
+      ¶ Tertio quaedam sunt 
+      <lb ed="#A" n="24"/>somnia habentia cam naturalem: sed extrinsecam id est extra 
+      <lb ed="#A" n="25"/>somniantem hominem: vt sunt illa quae proueniunt ex 
+      influ<lb ed="#A" n="26" break="no"/>entia determinata corporum celestiu: vt pluuia: 
+      sic<lb ed="#A" n="27" break="no"/>citas: et huiusmodi. Et talia etiam signa non sunt 
+      necessa<lb ed="#A" n="28" break="no"/>ria causa futurorum. sed contingenter accidit quod ex 
+      <lb ed="#A" n="29"/>aura humida ad pluuiam disposita dormiens 
+      so<lb ed="#A" n="30" break="no"/>mniat fieri pluuiam. In talibus etiam bene potest per 
+      so<lb ed="#A" n="31" break="no"/>mnia quis licite pronosticare futura: sicut et videmus 
+      <lb ed="#A" n="32"/>bruta praesentire tempestates futuras et proximo: et ex 
+      <lb ed="#A" n="33"/>hoc hominem pronosticare. Uerumtamen non licet sic 
+      so<lb ed="#A" n="34" break="no"/>mnia certitudinaliter credere quia multa habent 
+      impe<lb ed="#A" n="35" break="no"/>dimenta quae sepe accidunt contra huiusmodi signa. et similiter contra 
+      <lb ed="#A" n="36"/>alia praedicta
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1218">
+      ¶ Quarto quoqe Quedam sunt somnia 
+      ha<lb ed="#A" n="37" break="no"/>bentia causm voluntariam. Et hoc tripliciter contingit 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e1223">
+                  <lb ed="#A" n="38"/>¶ Primo sic quod aliqua ex voluntate hominis praeuidentur 
+      fa<lb ed="#A" n="39" break="no"/>cieda determinate in vigilia: puta quia homo vigilans 
+      <lb ed="#A" n="40"/>sollicitus est multum ad faciendum aliquid: et non potnt 
+      <lb ed="#A" n="41"/>perficere opere. sed in somnis somniat et pruidet quando 
+      <lb ed="#A" n="42"/>sedati sunt motus virium exteriorum. Et nec sic adhuc 
+      <lb ed="#A" n="43"/>est illicitum: nisi sit hoc facere peccatum
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1239">
+      ¶ Secundo sic quod 
+      <lb ed="#A" n="44"/>aliqua sunt voluntaria quae preuidentur in somniis: sed 
+      <lb ed="#A" n="45"/>non nisi a casu. Sicut cum quis somniat quod sit 
+      factu<lb ed="#A" n="46" break="no"/>rus voluntarie aliquid quod nunquam in vigilia 
+      cogi<lb ed="#A" n="47" break="no"/>tauerat. Et talia a casu sunt: nisi haberentur per 
+      reue<lb ed="#A" n="48" break="no"/>lationem. Isto modo non licet communiter vti somniis ad 
+      <lb ed="#A" n="49"/>futura. quia sepe diabolus se immiscet talibus vt dec 
+      <lb ed="#A" n="50"/>piat sub spei boni: vt est ingressus religionis: et 
+      fa<lb ed="#A" n="51" break="no"/>cere perfectionis opera vltra vires in his ad quae non 
+      ob<lb ed="#A" n="52" break="no"/>ligatur talis homo: et huiusmodi
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1261">
+      ¶ Tertio sic quod aliquae sunt 
+      vo<lb ed="#A" n="53" break="no"/>luntaria in aliis hominibus et iste somniat facere id 
+      <lb ed="#A" n="54"/>quod alii fecerunt vel facere disposuerunt in mente. 
+      <lb ed="#A" n="55"/>quasi iste somnians sit propheta diuinando. Talia 
+      so<lb ed="#A" n="56" break="no"/>mnia fiunt etiam a casu et aliquando a diabolo. Nisi ergo 
+      <lb ed="#A" n="57"/>sit reuelatio a deo: non debet quis ex somniis 
+      salte<lb ed="#A" n="58" break="no"/>certitudinaliter vti ad futura. Maxime in duobus 
+      <!--476.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>vltimis casibus prohibitum est. Sed et in aliis casibus 
+      <lb ed="#A" n="60"/>praedictis de somniis non habetur certitudo: vt dictum est 
+      <lb ed="#A" n="61"/>Ideo vt dicit scriptura Ecci. xxxiiii. Maulultos errare 
+      <lb ed="#A" n="62"/>fecerunt somnia et exciderunt sperantes in eis. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e1291">
+               <head xml:id="Vn7Pel-h146698-Hd1e1293">13</head>
+               <p xml:id="Vn7Pel-h146698-d1e1295">
+                  <lb ed="#A" n="63"/>¶ Sed vnde et quod a somno euigilantes 
+      <lb ed="#A" n="64"/>repente: obliuiscuntur somniorum Respondetur secundum 
+      sen<lb ed="#A" n="65" break="no"/>tentiam Arist . libro de som. et vig. quod huiusmodi somnia 
+      fi<lb ed="#A" n="66" break="no"/>unt in fine somni quando iam est somnus excitabilis: sicut 
+      <lb ed="#A" n="67"/>debilis impressionis motus. Et propter hoc si subito 
+      se<lb ed="#A" n="68" break="no"/>quatur motus vigilie magnus: sicuti est etiam versio dor 
+      <lb ed="#A" n="69"/>mientis ad aliud latus: vel extensio corporis: traduntur 
+      <lb ed="#A" n="70"/>illa somnia obliuioni. Similiter quando repente oculos 
+      ape<lb ed="#A" n="71" break="no"/>rit et ad lumen conuertit. Hec autem ideo: quia motus 
+      <lb ed="#A" n="72"/>fortior superueniens excludit debiliorem in actibus 
+      <lb ed="#A" n="73"/>suis. Item secundum Grego. Nisenum et Isaac. In vigilia 
+      <lb ed="#A" n="74"/>magis quam in somno contingit obliuisci scientiam. Ratio est 
+      <lb ed="#A" n="75"/>quia in vigilia contingit obliuisci per se. sed in somno 
+      <lb ed="#A" n="76"/>non nisi per accantens. sicut nec accipitur scientia per se in somno 
+      <lb ed="#A" n="77"/>Item quia memoria in somno magis immobilitatur quam in 
+      <lb ed="#A" n="78"/>vigilia. ergo obliuio minus contingit in somno. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e1333">
+               <head xml:id="Vn7Pel-h146698-Hd1e1335">14</head>
+               <p xml:id="Vn7Pel-h146698-d1e1337">
+                  <lb ed="#A" n="79"/>¶ Quid de qualitatibus 
+      miran<lb ed="#A" n="80" break="no"/>dis somniorum
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1344">
+      ¶ Notandum Primo quod hoc 
+      miru<lb ed="#A" n="81" break="no"/>est: quoniam vt Arist . libro de somn. dicit. Quibusdam accidit 
+      <lb ed="#A" n="82"/>vt nullum somnium viderint in tota sua vita. Hoc 
+      <lb ed="#A" n="83"/>tamen rarum valde est. Aliquibus autem iam prouectis incipit 
+      so<lb ed="#A" n="84" break="no"/>mniatio et non fuit in iuuentute. Ratio horum est vna 
+      <lb ed="#A" n="85"/>ex parte corporis. quia in talibus est multus calor 
+      ele<lb ed="#A" n="86" break="no"/>uans multas euaporationes ad cerebrum puras simul 
+      <lb ed="#A" n="87"/>et impuras: et fit multum profundus somnus: ideo non 
+      <lb ed="#A" n="88"/>possunt ibi apparere forme quae non apparent nisi in 
+      spiritu<lb ed="#A" n="89" break="no"/>puro et claro. veluti patet etiam in specluatio. In 
+      proue<lb ed="#A" n="90" break="no"/>ctis autem incipit remitti calor: et ideo non cleuat 
+      ni<lb ed="#A" n="91" break="no"/>si purum. Alia ratio ex parte anime est scilicet debilitas 
+      virtu<lb ed="#A" n="92" break="no"/>tis imaginatiue quae in talibus non potest formare ima 
+      <lb ed="#A" n="93"/>gines fortiter mouentes.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1375">
+      ¶ Secundo mirum videtur quod 
+      <lb ed="#A" n="94"/>quidam habent somnia multa. Nam idem Arist. dicit: quod 
+      <lb ed="#A" n="95"/>melancholicorum est multa somniare. Similiter est aliquorum 
+      <lb ed="#A" n="96"/>infirmorum certis infirmitatibus. praesertim autem habent 
+      <lb ed="#A" n="97"/>plura somniare qui supini dormiunt. Proni vero 
+      <lb ed="#A" n="98"/>minus: quia bene collocati sunt: vt dicit 
+      Prisci<lb ed="#A" n="99" break="no"/>anus philosophus
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1391">
+      ¶ Tertio quod vt idem Arist. dicite. libro de som. 
+      <lb ed="#A" n="100"/>Mendaces falsa consueuerunt habere somnia. Et 
+      hu<lb ed="#A" n="101" break="no"/>ius ca est ex parte anime. quia afficitur passione mendacii 
+      <lb ed="#A" n="102"/>Nam sepe ex passione fiunt somnia. sicut esuriens 
+      vi<lb ed="#A" n="103" break="no"/>detur maducare et sitiens bibere secundum Priscianum. Unde 
+      <lb ed="#A" n="104"/>idem Arist. liro. Eth. dicit: quod meliora sunt 
+      phantasma<lb ed="#A" n="105" break="no"/>ta iustorum quam quorumcumque. In pueris quoqe somnia dicit 
+      ess<lb ed="#A" n="106" break="no"/>incerta et instabilia ex instabilitate desideriorum 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e1410">
+                  <lb ed="#A" n="107"/>¶ Quarto mirum est quod sicut Greg. viii. liro moralis. 
+      <lb ed="#A" n="108"/>dicit. Deus bonus mirabiliter cumcta dispensat. et per 
+      <lb ed="#A" n="109"/>malignos spiritus iuste permittit quosdam malos in 
+      so<lb ed="#A" n="110" break="no"/>mniis decipi et illudi. bonos autem et iustos 
+      plu<lb ed="#A" n="111" break="no"/>ribus somniorum reuelationibus consolari. Deus ergo 
+      <lb ed="#A" n="112"/>laudabilis in omnibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e1427">
+               <head xml:id="Vn7Pel-h146698-Hd1e1429">15</head>
+               <p xml:id="Vn7Pel-h146698-d1e1431">
+                  <lb ed="#A" n="113"/>¶ Quomodo autem demones illudant 
+      ma<lb ed="#A" n="114" break="no"/>los homines somniis suis: Idem Gre. e. li. viii. mo¬ 
+      <!--477.xml-->
+      <pb ed="#A" n="478"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ral. dicit. Sepe malignus spiritus his quos amore possunt 
+      <lb ed="#A" n="2"/>vite vigilanter intercipit. prospera etiam dormientibus 
+      <lb ed="#A" n="3"/>promittit Et quos formidare aduersa considerat 
+      <lb ed="#A" n="4"/>eis hoc durius somnii imaginibus intentat vt timo 
+      <lb ed="#A" n="5"/>re confundat: scilicet poenitentie opera assumat sed in peccatis 
+      per<lb ed="#A" n="6" break="no"/>eat. Idem Greg. iiii. libro dialo. dicit quod diabolus nonnum 
+      <lb ed="#A" n="7"/>quam solet multa etiam vera praedicere vt ad extremum 
+      <lb ed="#A" n="8"/>valeat animam ex aliqua falsitate laqueare. Sicut 
+      in<lb ed="#A" n="9" break="no"/>quit cuidam nostrum nuper certum est contigisse. qui dum saoionia 
+      <lb ed="#A" n="10"/>vehementer attenderet: eique per somnium longa vita 
+      pro<lb ed="#A" n="11" break="no"/>missa est. Cumque multas pecunias pro longo vite 
+      sti<lb ed="#A" n="12" break="no"/>pendiis collegisset: ita repente defunctus est vt 
+      in<lb ed="#A" n="13" break="no"/>tactas omnes reliqueret etc. 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e1473">
+                  <lb ed="#A" n="14"/>¶ De illusionibus huiusmodi et alis 
+      plu<lb ed="#A" n="15" break="no"/>ra vbi Demones. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h146698-Dd1e1481">
+               <head xml:id="Vn7Pel-h146698-Hd1e1483">16</head>
+               <p xml:id="Vn7Pel-h146698-d1e1485">
+                  <lb ed="#A" n="16"/>¶ Sed qualibus reuelationibus in 
+      so<lb ed="#A" n="17" break="no"/>mniis deus consolatur electos suos.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1492">
+      ¶ Notandum secundum 
+      <lb ed="#A" n="18"/>Guill. Scotis. in. ii dist. xi. quod reuelatio dicitur quasi 
+      re<lb ed="#A" n="19" break="no"/>motio velaminis dum aliquod ignotum aperitur alicu¬ 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e1499">
+                  <lb ed="#A" n="20"/>¶ Presertim autem dicitur reuelatio quando huiusmodi 
+      manifesta<lb ed="#A" n="21" break="no"/>tio fit modo non naturali. sicut patet ex dictis Apostoli. ii 
+      <lb ed="#A" n="22"/>Corum. xii. Ueniam autem ad visiones et reuelationes 
+      do<lb ed="#A" n="23" break="no"/>mini etc. Unde Ioannes de Ruppel. secundum Hugonem et 
+      <lb ed="#A" n="24"/>Aug. de spiritu et anima dicit quinque esse genera eorum quae 
+      <lb ed="#A" n="25"/>dormientibus videntur videlicet Oraculum Uisio Sontui 
+      <lb ed="#A" n="26"/>um Insomnium et Phantasma.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1517">
+      ¶ Primo oracum 
+      <lb ed="#A" n="27"/>lum dicitur quando in somnis apparet persona venerabilis: 
+      <lb ed="#A" n="28"/>aliquid declarans vel eueturum praedicems scilicet deus vel 
+      ange<lb ed="#A" n="29" break="no"/>lus vel aliquis sanctus magnus
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1527">
+      ¶ Secundo: visio dicitur 
+      <lb ed="#A" n="30"/>ips rei ostensio pure eodem modo quo apparet etc. 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e1532">
+                  <lb ed="#A" n="31"/>¶ Tertio somnium dicitur quod est figuris tectum et 
+      si<lb ed="#A" n="32" break="no"/>ne interpretatione intelligi non potest. patet de 
+      Phara<lb ed="#A" n="33" break="no"/>one etc.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1541">
+      ¶ Quarto: insomnium dicitur quando id quod in viges 
+      <lb ed="#A" n="34"/>lia cogitauit se ingerit dormienti. patet de 
+      Salo<lb ed="#A" n="35" break="no"/>mone. §. vii.
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1548">
+      ¶ Quinto phantasma dicitur. quando vix 
+      ali<lb ed="#A" n="36" break="no"/>quis cepit dormire sed extimat se vigilare: videt 
+      <lb ed="#A" n="37"/>apparitiones nec vigilans aperte nec dormiens 
+      inte<lb ed="#A" n="38" break="no"/>gre. Sicut legitur de sancto Ambrosio in legenda scicnt 
+      <lb ed="#A" n="39"/>rum Geruasii et Protasii
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1559">
+      ¶ Preterea Sexto ad 
+      <lb ed="#A" n="40"/>ditur reuelatio. de quae iam praetactum est
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1564">
+      ¶ Ultra hec 
+      <lb ed="#A" n="41"/>est extasis et raptus Ad quae requiritur vt talis cognitio 
+      fia<lb ed="#A" n="42" break="no"/>in mentis excessu est etiam prophetia et huiusmodi
+     </p>
+               <p xml:id="Vn7Pel-h146698-d1e1572">
+      ¶ De ist 
+      <lb ed="#A" n="43"/>autem vide vbi Gtra. vesus finem illius capitcli. § pluribus 
+      <lb ed="#A" n="44"/>Deus ergo est laudabilis in omnibus etc. quia consolatur nos 
+      mise<lb ed="#A" n="45" break="no"/>ros. quandoque sic vel sic. autem in tribulatione autem alias in 
+      <lb ed="#A" n="46"/>in somno vel vigilia. 
+      </p>
+               <p xml:id="Vn7Pel-h146698-d1e1583">
+                  <lb ed="#A" n="47"/>¶ Ex dei bonitas est laudabilia ex 
+      <lb ed="#A" n="48"/>proprietatibus et qualitatibus vini. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

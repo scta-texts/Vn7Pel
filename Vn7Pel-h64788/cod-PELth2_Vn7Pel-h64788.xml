@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Forma</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Forma</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="212"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h64788">
+            <head xml:id="Vn7Pel-h64788-Hd1e110">Forma</head>
+            <div xml:id="Vn7Pel-h64788-Dd1e112">
+               <head xml:id="Vn7Pel-h64788-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h64788-d1e116">
+                  <lb ed="#A" n="51"/>Forma quibus 
+      <lb ed="#A" n="52"/>modis dicitur et solet accipi.
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e123">
+      ¶ 
+      No<lb ed="#A" n="53" break="no"/>ta secundum <name xml:id="Vn7Pel-h64788-Nd1e127">Guil</name>. <ref xml:id="Vn7Pel-h64788-Rd1e129">Scotis. in. ii di. xii.</ref> quod 
+      <lb ed="#A" n="54"/>Farma tripliciter solet accipi apud theol. docto. 
+      <!--211.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>et Philosophoa¶ Primo dicitur forma actus 
+      puristi<lb ed="#A" n="56" break="no"/>mnus nulli admixtus potentie. Et sic solus deus 
+      <lb ed="#A" n="57"/>dicitur forma: et angeli secundum quod paxticipant aliqualiter 
+      <lb ed="#A" n="58"/>Similiter anima respectu corporis
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e147">
+      ¶ Secundo modo dicitur 
+      <lb ed="#A" n="59"/>Forma vniuscuiusque rei quiditas: et maxime rei 
+      cre<lb ed="#A" n="60" break="no"/>ate. Et sic Gilh. Porritanus libro vi. prin. diffinien dicit 
+      <lb ed="#A" n="61"/>Forma est compositioni contingens simplici et iua 
+      <lb ed="#A" n="62"/>riabili essentia consistens. Ubi innuit tria. Primo 
+      <lb ed="#A" n="63"/>quod forma seu quiditas aduenit composito: cum dicit: 
+      <lb ed="#A" n="64"/>est compositioni contingens id est adueniens. Unde patet. 
+      <lb ed="#A" n="65"/>v compositum vltra sua quiditatem semper aliquid addit: 
+      pu<lb ed="#A" n="66" break="no"/>ta petrus vltra humanitatem. Secundo innuit forme simus 
+      <lb ed="#A" n="67"/>plicitatem: dum dicit: simplici. Et debet intelligi 
+      respe<lb ed="#A" n="68" break="no"/>tiuc scilicet respectu illius compositi cuius est forma. na 
+      <lb ed="#A" n="69"/>simplicius est forma quam compositum. quia ratione additi 
+      in<lb ed="#A" n="70" break="no"/>feriora sunt magis composita quam superiora. Tertio 
+      <lb ed="#A" n="71"/>innuit inuariabilitatem. dicit inuariabili essentia 
+      com<lb ed="#A" n="72" break="no"/>istens. Uariatio enim proprie est singularium: non 
+      vni<lb ed="#A" n="73" break="no"/>uersalium. Unde non corrumpitur humanitas nisi quia 
+      pe<lb ed="#A" n="74" break="no"/>trus vel paulus corrumpitur vel alius homo
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e184">
+      ¶ Tertio modo. 
+      <lb ed="#A" n="75"/>accipitur forma pro altera parte compositi: que est 
+      for<lb ed="#A" n="76" break="no"/>ma partis id est materie. Et sic loquitur Philosophus in i. et. ii. 
+      <lb ed="#A" n="77"/>Physicis. Et hoc vel quia est pars essentialis compositi 
+      <lb ed="#A" n="78"/>vnum per se faciens: sicut anima et corpus. vel vnum per accntens 
+      <lb ed="#A" n="79"/>sicut homo et albedo in homine albo. vel quia est pars 
+      interi<lb ed="#A" n="80" break="no"/>or: sicut intellectio in homine. vel exterior: sicut 
+      acci<lb ed="#A" n="81" break="no"/>pit Philosophus in praedicamento Qualitatis: dum dicit quod 
+      <lb ed="#A" n="82"/>quarta species qualitatis est forma vel circa hoc 
+      ali<lb ed="#A" n="83" break="no"/>quid constans figura etc. Et isto vltimo modo forma 
+      <lb ed="#A" n="84"/>ditr sic denominata quasi foris manens. Sed in aliis 
+      <lb ed="#A" n="85"/>modis dicitur forma ab informando. Excepto tantum 
+      pri<lb ed="#A" n="86" break="no"/>mo modo de deo. quia deus nil potest informare. 
+      Quam<lb ed="#A" n="87" break="no"/>uis autem consimilia dictamina habeantur scripta libr i. tamen hoc 
+      re<lb ed="#A" n="88" break="no"/>petere volui. quia sepius occurrit etiam in hoc libro aliqua quaedo 
+      <lb ed="#A" n="89"/>ad cuius intellectum talia sunt opportuma. Pro euidentia 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h64788-Dd1e220">
+               <head xml:id="Vn7Pel-h64788-Hd1e222">2</head>
+               <p xml:id="Vn7Pel-h64788-d1e224">
+                  <lb ed="#A" n="90"/>¶ Utrum sola forma finitetur 
+      ma<lb ed="#A" n="91" break="no"/>teria: Respondetur secundum Guill. Scotist. super is. libr sententiarum 
+      <lb ed="#A" n="92"/>dist. xliii. quod opinio sancti Tho. ponit materiam 
+      infi<lb ed="#A" n="93" break="no"/>nitari solum per formam: vt patet in scripto primi. 
+      <lb ed="#A" n="94"/>e. dist. xliii. q. i. Et. viii. dist. amplius. vbi dicit quod 
+      <lb ed="#A" n="95"/>Aliquid finitur tripliciter inquit. Primo modo per 
+      <lb ed="#A" n="96"/>differentiam contrahentem. Et sic finitur Genus. 
+      <lb ed="#A" n="97"/>per differentiam. puta animal per rationale etc. Alio. 
+      <lb ed="#A" n="98"/>modo secundum quod recipitur in alio. Et hoc modo finitur 
+      for<lb ed="#A" n="99" break="no"/>ma per materiam. quia recipitur in materia. Tertio 
+      <lb ed="#A" n="100"/>modo quia recipit. Et hoc modo (inquit) materia 
+      <lb ed="#A" n="101"/>finitur per formam quam recipit. Sed quoniam 
+      nul<lb ed="#A" n="102" break="no"/>lo istorum modorum finitur deus. ergo extat 
+      infi<lb ed="#A" n="103" break="no"/>nitus. Hec est positio Thome. sed deficit: 
+      reue<lb ed="#A" n="104" break="no"/>rentia salua. Probatio. quia omne quod est in genere est 
+      <lb ed="#A" n="105"/>finitum et limitatum. Et hoc claret. quia ens antequam 
+      di<lb ed="#A" n="106" break="no"/>uidatur in decem praedicannta: diuiditur per illimitatum quod 
+      <lb ed="#A" n="107"/>conuenit soli deo: et limitatum seu finitum quod 
+      <lb ed="#A" n="108"/>descendit in decem praedicamenta. Et de hoc latius 
+      <lb ed="#A" n="109"/>habitum est libro primo vbi Ens. Sed quia mate 
+      <lb ed="#A" n="110"/>ria inquantum materia sequestrata quacumque forma est 
+      <lb ed="#A" n="111"/>in genere Sulstante limitate ad mius reductiue. ergo etc 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e274">
+      <!--212.xml-->
+                  <pb ed="#A" n="213"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Ditendum ergo qod materia etiamsi nulla assit forma 
+      <lb ed="#A" n="2"/>est limitata et finita in seipsa. Et hoc probatur. quia <ref xml:id="Vn7Pel-h64788-Rd1e287">Au 
+      <lb ed="#A" n="3"/>gust. lib. ii</ref> contra Faustum dicit satis expresse quod 
+      me<lb ed="#A" n="4" break="no"/>teria potuit in principio nuda creari sine omni 
+      for<lb ed="#A" n="5" break="no"/>ma vt etiam patebit in <ref xml:id="Vn7Pel-h64788-Rd1e296">sequentibus. §. iii. et. iiii.</ref> Sed 
+      <lb ed="#A" n="6"/>non dubium quod tunc materia non fuisset infinita. quia 
+      <lb ed="#A" n="7"/>tunc fuisset deus. eo quod non finitaretur tunc per 
+      for<lb ed="#A" n="8" break="no"/>mam nec per accidens nec per differentiam Et hoc est 
+      <lb ed="#A" n="9"/>proprium diuine infinitatis secundum eundem Tho. Sed 
+      <lb ed="#A" n="10"/>repondent Thomiste quod deus non potest facere materi 
+      <lb ed="#A" n="11"/>am sine forma. Respondeant ergo ad <name xml:id="Vn7Pel-h64788-Nd1e311">Augustinum</name> supr ¬
+      i<lb ed="#A" n="12" break="no"/>dicit oppositum vt iam dictum est. Et hoc clarum est 
+      <lb ed="#A" n="13"/>quod bene potest deus facere materiam sine forma cum 
+      <lb ed="#A" n="14"/>materia sit realiter distincta a forma. ergo etc. Unde 
+      <lb ed="#A" n="15"/>de vtraque scilicet tam materia quam forma prius natura 
+      <lb ed="#A" n="16"/>proprie intelligitur finita. Et etiam postmodum ta 
+      <lb ed="#A" n="17"/>lem aliquando habet finitatem sicut et anima in 
+      <lb ed="#A" n="18"/>tellectiua prius natura intelligitur esse finita quam 
+      cor<lb ed="#A" n="19" break="no"/>pori infundatur. licet non prius sit tempore. Et ista 
+      <lb ed="#A" n="20"/>est eius finitas per se. et infusa quandam a corpore 
+      <lb ed="#A" n="21"/>accipit finitatem sed intrinsecam valde. Ita de 
+      con<lb ed="#A" n="22" break="no"/>similibus. Hec omnia <name xml:id="Vn7Pel-h64788-Nd1e337">Guil</name>. supra. Deus ergo 
+      lau<lb ed="#A" n="23" break="no"/>dabilis in istis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h64788-Dd1e343">
+               <head xml:id="Vn7Pel-h64788-Hd1e345">3</head>
+               <p xml:id="Vn7Pel-h64788-d1e347">
+                  <lb ed="#A" n="24"/>¶ Utrum deus potuerit creare sine 
+      <lb ed="#A" n="25"/>quacunque forma stantem materiam nudam. 
+      Responde<lb ed="#A" n="26" break="no"/>tur quod de hoc opinio Thome est in prima parte. quod 
+      <lb ed="#A" n="27"/>lxvi. arti. i. Et in script. ii di. xii. q. iiii. quod non
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e358">
+      ¶ Rato 
+      <lb ed="#A" n="28"/>quia deus non potest facere quod implicat contradictionem: 
+      <lb ed="#A" n="29"/>Sed materiam esse sine forma implicat 
+      contradicti<lb ed="#A" n="30" break="no"/>onem. ergo etc. Probatio minoris. quia materiam esse 
+      nu<lb ed="#A" n="31" break="no"/>dam per se existendo est esse in actu. materia autem secundum 
+      <lb ed="#A" n="32"/>se nuda: non est in actu. cum esse in actu non sit 
+      nisi<lb ed="#A" n="33" break="no"/>per formam. Nam Boetius ilicet de trini. dicit quod omne esse est 
+      <lb ed="#A" n="34"/>a forma. Et i. physicorum Arist. dicit Forma est quae dat 
+      <lb ed="#A" n="35"/>esse rei. Et sic sequeretur quod materia simul esset in actu 
+      <lb ed="#A" n="36"/>et non esset in actum quae contradicunt. ergo deus non potest facere 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e380">
+                  <lb ed="#A" n="37"/>¶ Item sicut se habet figura ad corpus ita forma ad 
+      <lb ed="#A" n="38"/>materiam. sed deus non potest facere corpus sine 
+      figu<lb ed="#A" n="39" break="no"/>ra. quia faceret infinitum in actu ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e389">
+      ¶ Item deus non 
+      po<lb ed="#A" n="40" break="no"/>test facere motum sine mobili. ergo a simili in proposito 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e395">
+                  <lb ed="#A" n="41"/>¶ Preterea idem probat Arist in. de generatis. et Auicen. 
+      <lb ed="#A" n="42"/>ii metaphy. Idem dicit etiam Hugo de sacra i. parte. 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e402">
+                  <lb ed="#A" n="43"/>¶ Sed secundum doc. subti. et Scotist. in. ii di. xii. Hec 
+      <lb ed="#A" n="44"/>ompinio non est simpliciter tenenda nec rationes valent. Nam 
+      <lb ed="#A" n="45"/>secundum Scotor. ea. di. q. ii ibi non est implicatio contradicti 
+      <lb ed="#A" n="46"/>onis. Quia sicut duplex est potentia scilicet obiectiua 
+      <lb ed="#A" n="47"/>et subiectiua Ita est duplex actus. vnus qui opponitur 
+      pe<lb ed="#A" n="48" break="no"/>tentie subiectiue etc. et dicitur actus formalis Alius qui oppo 
+      <lb ed="#A" n="49"/>nitur potentie obiectiue et dicitur actus entitatiuus 
+      Mate<lb ed="#A" n="50" break="no"/>ria autem prima nuda: est in actu: et non in actu. sed non 
+      <lb ed="#A" n="51"/>contradictorie. quia est in actu entitatiuo in se sed non in actu 
+      <lb ed="#A" n="52"/>formali
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e426">
+      ¶ Item ad illud de figura. Respondet idem quod 
+      de<lb ed="#A" n="53" break="no"/>us potest facere corpus sine figura Et cum dicit quod tuc 
+      fie<lb ed="#A" n="54" break="no"/>ret infinitum in actu negatur. quia quamuis corpus sine 
+      fi<lb ed="#A" n="55" break="no"/>gura non terminetur termino extrinseco. terminaretur 
+      <lb ed="#A" n="56"/>tamen tunc termino intrinseco. puta entitatiue finita 
+      <lb ed="#A" n="57"/>tis
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e439">
+      ¶ Sltrad alituo de motum et mobili dicem dim inqui 
+      <!--212.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quod secundum doc. subti. non est inconueniens vt deus possit 
+      <lb ed="#A" n="59"/>facere vel faceret motum sine mobili: sicut potest facere 
+      <lb ed="#A" n="60"/>accmens sine subiecto: vt patet in eucharistia: cum 
+      mo<lb ed="#A" n="61" break="no"/>tus sit accntens et mobile subiectum. Denique ad 
+      au<lb ed="#A" n="62" break="no"/>toritates Arist. Auicem. et Hugionis Respondet idem quod 
+      <lb ed="#A" n="63"/>loquuntur de materia vt comparatur potentie naturali: non 
+      <lb ed="#A" n="64"/>autem diuine.
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e461">
+      ¶ Unde ad quaesitum secundum e. Guil. et Scotor. 
+      <lb ed="#A" n="65"/>ponitur prima conclusio taul scilicet Quod materia prima potuit a 
+      <lb ed="#A" n="66"/>deo creari sine quacumque forma absoluta. Probatio 
+      <lb ed="#A" n="67"/>Sco. quia omne absolutum: quod est prius alio absoluto 
+      <lb ed="#A" n="68"/>et distinctum realiter ab eo: potest esse absque contradictione sinu 
+      <lb ed="#A" n="69"/>alio illo posteriori: maxime ab omnipotete. Sed ma 
+      <lb ed="#A" n="70"/>teria et forma sunt huiusmodi. ergo etc. Maior patet. quia 
+      <lb ed="#A" n="71"/>ex eo quod prius est non dependet a posteriori. et ex 
+      eo<lb ed="#A" n="72" break="no"/>quod absolutum est non coexigit illud posterius. Quod dis 
+      <lb ed="#A" n="73"/>co inquit propter relatiua quae se mutuo coexigunt: sicut pater 
+      <lb ed="#A" n="74"/>filium. Sed Mior patet. quia tam materia quam forma 
+      <lb ed="#A" n="75"/>sunt absolute. quia constituunt praedicamentum substantie quod est 
+      <lb ed="#A" n="76"/>absolutum. Rursum: materia est prior forma: 
+      velu<lb ed="#A" n="77" break="no"/>ti fundamentum fundato. ergo patet propositum. Item 
+      Confir<lb ed="#A" n="78" break="no"/>matur. quia quicquid deus potest intelligere quod sit per se 
+      sin<lb ed="#A" n="79" break="no"/>alio: potest facere vt stet per se etc. Sed deus potest 
+      intelli<lb ed="#A" n="80" break="no"/>gere materiam sine forma tamquam prius sine 
+      posterio<lb ed="#A" n="81" break="no"/>ri. ergo etc. Si autem obiiciendo quaeratur Quomodo possibile est 
+      <lb ed="#A" n="82"/>materiam esse sine forma: cum ome esse est a forma: secundum 
+      <lb ed="#A" n="83"/>Boe. et philosoptusp. in ratione Tho
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e505">
+      ¶ Item materia plus 
+      de<lb ed="#A" n="84" break="no"/>pendet a forma in esse quam forma a materia. Sed quia 
+      <lb ed="#A" n="85"/>forme naturales inquantum forme nequeunt repariri 
+      si<lb ed="#A" n="86" break="no"/>ne materia: nec fieri etiam a deo. ergo nec econuerso. 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e515">
+                  <lb ed="#A" n="87"/>¶ Respondetur secundum praedictos Scotistas: quod sicut patet ex 
+      di<lb ed="#A" n="88" break="no"/>ctis Matia bene potest habere actum entitatiuum sine 
+      for<lb ed="#A" n="89" break="no"/>ma. sed tamen esse formale formatum et perfectum non habet 
+      <lb ed="#A" n="90"/>nisi a forma. Et sic intelligitur dictum Boe. et philosophi. 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e526">
+                  <lb ed="#A" n="91"/>¶ Unde materia potest habere esse formale formabile scilicet quod 
+      <lb ed="#A" n="92"/>est esse actu entitatiuo: sine hoc quod habeat esse 
+      for<lb ed="#A" n="93" break="no"/>male formatum: vt aliqui dicunt
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e535">
+      ¶ Denique ad illud quod 
+      <lb ed="#A" n="94"/>inducitur de dependentia materie: idem Guill. supra dicit: quod 
+      <lb ed="#A" n="95"/>quamuis in esse videlicet simpliciter plus dependet forma a 
+      <lb ed="#A" n="96"/>materia quam econuerso. quia materia et fundamentum 
+      for<lb ed="#A" n="97" break="no"/>me. Sed quo ad perfectionem esse econtrario est. quia 
+      ma<lb ed="#A" n="98" break="no"/>teria perficitur per formam. Unde licet forma naturalis non sit 
+      <lb ed="#A" n="99"/>sine materia: idcirco quia naturaliter forma est 
+      posteri<lb ed="#A" n="100" break="no"/>or quam materia et posterius non est sine priore: tanen materia 
+      <lb ed="#A" n="101"/>cum sit prior potest esse sine forma. Sed dei potentia super 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e555">
+                  <lb ed="#A" n="102"/>¶ Secunda conclusio: quod sine forma re¬. (vtramque praestat. 
+      <lb ed="#A" n="103"/>spectiua quae est creature ad creatorem non potuit 
+      fie<lb ed="#A" n="104" break="no"/>ri materia. Probatio. quia deus non potest facere 
+      mate<lb ed="#A" n="105" break="no"/>riam primam qui scilicet referatur ad deum tamquam creatura ad cre 
+      <lb ed="#A" n="106"/>atorem: cum sit distincta. nec creatura praest esse deus. Iste 
+      <lb ed="#A" n="107"/>autem forme et consiules sunt respectiue. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e571">
+      ¶ Ex 
+      quai<lb ed="#A" n="108" break="no"/>bus patet vt dicit Guill. quod si de forma respectiua 
+      <lb ed="#A" n="109"/>loquitur praedicta opinio Thome: bene conceditur: et 
+      ma<lb ed="#A" n="110" break="no"/>xime de fundamentali. Si autem loquitur de forma 
+      <lb ed="#A" n="111"/>absoluta: quod sine ipsa scilicet forma absoluta nequit deus 
+      <lb ed="#A" n="112"/>facere materiam primam: defecit. quia non coartatur deus 
+      <lb ed="#A" n="113"/>aliquo facto absoluto reliquum facere. Et quia sicut 
+      <lb ed="#A" n="114"/>sine quacumque forma singillatim mostrata potest esse 
+      <lb ed="#A" n="115"/>materia: ita et sine omni simul dei virtute potest esse. 
+      
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h64788-Dd1e592">
+               <head xml:id="Vn7Pel-h64788-Hd1e594">4</head>
+               <p xml:id="Vn7Pel-h64788-d1e596">
+      <!--213.xml-->
+                  <pb ed="#A" n="214"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Sed dato casu quo deus faceret 
+      <lb ed="#A" n="2"/>formas naturales stare sine materia An ergo est 
+      <lb ed="#A" n="3"/>sent intellectuales et immateriales sicut 
+      intelligen<lb ed="#A" n="4" break="no"/>tie sunt spirituales.
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e614">
+      ¶ Et videtur quod sic. quia 
+      Auicen<lb ed="#A" n="5" break="no"/>na dicit. quod immateriale omne est intellectiuum 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e619">
+                  <lb ed="#A" n="6"/>¶ Sed in oppositum est. quia ita essent 
+      intelligen<lb ed="#A" n="7" break="no"/>tie: quod est intoueniens
+     </p>
+               <p xml:id="Vn7Pel-h64788-d1e626">
+      ¶ Respondet idem Guil. quod 
+      <lb ed="#A" n="8"/>Auicenna loquituret intelligi debet de forma ex se 
+      <lb ed="#A" n="9"/>immateriali materia quanta. sicut sunt angeli et animem 
+      <lb ed="#A" n="10"/>rationales. De talibus enim verum est quod omnia sunt 
+      intel<lb ed="#A" n="11" break="no"/>lectiua. sed dato quod forme naturales essent 
+      separa<lb ed="#A" n="12" break="no"/>te potentia dei. non sequitur quod ergo essent intellectu 
+      <lb ed="#A" n="13"/>ales: sicuti nec accidentia in eucharistia separata etc. 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e643">
+                  <lb ed="#A" n="14"/>¶ An autem de facto in principio 
+      cre<lb ed="#A" n="15" break="no"/>ata sit materia sine omni forma patebit vbi <ref xml:id="Vn7Pel-h64788-Rd1e649">Mate 
+      <lb ed="#A" n="16"/>ria. §. ix.</ref> et sequenti. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h64788-Dd1e657">
+               <head xml:id="Vn7Pel-h64788-Hd1e659">5</head>
+               <p xml:id="Vn7Pel-h64788-d1e661">
+                  <lb ed="#A" n="17"/>¶ Item quare deus fecit tamnume 
+      <lb ed="#A" n="18"/>rabiles formas rebus creatis inditas. De hoc 
+      raspon<lb ed="#A" n="19" break="no"/>sio patet secundum <ref xml:id="Vn7Pel-h64788-Rd1e669">Bonauen. in. ii dist. i. q. i. ar. ii</ref> parte. ii vt 
+      <lb ed="#A" n="20"/>dictum est suara vbi <ref xml:id="Vn7Pel-h64788-Rd1e674">Creatio. §. xiii.</ref> hoc libro videlicet vt 
+      mani<lb ed="#A" n="21" break="no"/>festetur diuina bonitas: sapientia et potentia. que 
+      cla<lb ed="#A" n="22" break="no"/>rent in multiplici diuersitate rerum omnium et perfectio 
+      <lb ed="#A" n="23"/>ne vniuersi et vtilitate vnius creature ad alterum 
+      <lb ed="#A" n="24"/>Unde nulla est creatura que pro sua forma data non 
+      <lb ed="#A" n="25"/>teneatur deum laudare vel gratias agere. puta 
+      su<lb ed="#A" n="26" break="no"/>periora tenentur. quia non fecit illa deus fore inferio 
+      <lb ed="#A" n="27"/>ra cum optime potuisset. Et similiter media tenentur 
+      <lb ed="#A" n="28"/>quod non sint facta infima. puta quod homo non est factus 
+      ir<lb ed="#A" n="29" break="no"/>rationalis vt bestie. et iste quod non insensibilia. Et 
+      <lb ed="#A" n="30"/>sic de aliis. Denique infima tenentur pro eo quod non sunt 
+      <lb ed="#A" n="31"/>omnino nihil. Unde ad hec in Uitaspa. legitur quod qui 
+      <lb ed="#A" n="32"/>dam sanctus pater deum benedixit de hoc quod non fecit eum 
+      <lb ed="#A" n="33"/>bufonem et huiusmodi etc. 
+      </p>
+               <p xml:id="Vn7Pel-h64788-d1e705">
+                  <lb ed="#A" n="34"/>¶ Quod diuina bonitas in omnibus 
+      for<lb ed="#A" n="35" break="no"/>fuitis quae fiunt in modo et casualibus praestat laudabilis 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

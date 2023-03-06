@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vegitabile</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Vegitabile</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="467"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h144795">
+            <head xml:id="Vn7Pel-h144795-Hd1e110">Vegitabile</head>
+            <div xml:id="Vn7Pel-h144795-Dd1e112">
+               <head xml:id="Vn7Pel-h144795-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h144795-d1e116">
+                  <lb ed="#A" n="59"/>¶ Agetabie sue De¬ 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e121">
+                  <lb ed="#A" n="60"/>¶ getatiuum. Queritur quomodo habeat esse in 
+      <lb ed="#A" n="61"/>animalibus vis vegetatiua: Notandum de 
+      <lb ed="#A" n="62"/>hoc quod de huiusmodi et aliis viribus pertinentibus circa has 
+      <lb ed="#A" n="63"/>possumus loqui dupliciter. Uno modo physice id est secundum 
+      sen<lb ed="#A" n="64" break="no"/>tentiam medicorum. et Alio modo philosophice. Nam et 
+      <lb ed="#A" n="65"/>Auicenna aliter diuidit primo canone medicine 
+      <lb ed="#A" n="66"/>vires anime scilicet in naturalem: spiritualem: et animalem. Et hoc 
+      fa<lb ed="#A" n="67" break="no"/>cit vt medicus. Aliterque diuidit libro de anima eas (yt 
+      <lb ed="#A" n="68"/>philosophus in vegetabilem: sensibilem: et rationalem.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e143">
+      ¶ Unde 
+      <lb ed="#A" n="69"/>de his viribus Primo iuxta sententiam medicorum 
+      loquan<lb ed="#A" n="70" break="no"/>do physice: tres sunt species virium anime: vt etiam 
+      <lb ed="#A" n="71"/>Guiller. de Conchis dictat. videlicet naturalis: 
+      spiritu<lb ed="#A" n="72" break="no"/>alis: et animalis. Naturalis autem secundum e. Guill. 
+      diui<lb ed="#A" n="73" break="no"/>ditur in quadrifariam. Est enim Appetitiua: Retentiua: 
+      <lb ed="#A" n="74"/>Digestiua: et Expulsiua. Subdit idem. Porro 
+      <lb ed="#A" n="75"/>spiritualis vis quae et dicitur vitalis est possibilitas 
+      attra<lb ed="#A" n="76" break="no"/>hendi aera inspirando ac emittendi. Et hoc deus 
+      bo<lb ed="#A" n="77" break="no"/>nus in natura fieri voluit ne internus calor 
+      combu<lb ed="#A" n="78" break="no"/>rat intestina: sed debito modo temporetur. Unde cordi 
+      su<lb ed="#A" n="79" break="no"/>perpositus est pulmo quasi flabellum: vt aerem frigidum 
+      inspi<lb ed="#A" n="80" break="no"/>ratum super cordis nimium calorem impellat: et eundem 
+      <lb ed="#A" n="81"/>aerem calefactum expellat in expiratione. Itaque spiritus 
+      <lb ed="#A" n="82"/>naturalis siue vis illa prima iam dicta generatur (
+      in<lb ed="#A" n="83" break="no"/>quit) in epate: et ibi habet fundamentum. Sed vis secunda 
+      <lb ed="#A" n="84"/>scilicet spiritualis siue vitalis in corde: vbi habet sedem 
+      <lb ed="#A" n="85"/>et fundamentum. Sed animalis vis est in cerebri ven 
+      <lb ed="#A" n="86"/>rriculis. Quia nimirum praedicta substantia quae in epate 
+      ge<lb ed="#A" n="87" break="no"/>neratur: fumus humidus existit. subtiliata quoque ad 
+      corpor<lb ed="#A" n="88" break="no"/>ueniens: ipsum dilatat et constringit. atque a corde ad 
+      <lb ed="#A" n="89"/>cerebrum per vasa subtiliata ascendit. Deinde 
+      transe<lb ed="#A" n="90" break="no"/>undo per subtilissimum rete quod est circa cerebrum 
+      co<lb ed="#A" n="91" break="no"/>lando ita subtilis fit quod ibi prae sui subtilitate spiritus 
+      <lb ed="#A" n="92"/>dicitur: cum tamen aerea substantia sit. Et hoc est 
+      instrumen<lb ed="#A" n="93" break="no"/>tum virtutis animalis. quia transiens ad diuersa organa 
+      <lb ed="#A" n="94"/>diuersas actiones animales perficit.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e202">
+      ¶ Secundo 
+      loquen<lb ed="#A" n="95" break="no"/>do philosophice vt praemisi vires anime diuiduntur in 
+      <lb ed="#A" n="96"/>tres.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e210">
+      ¶ Prima dicitur vegetabilis quae est prima perfectio 
+      <lb ed="#A" n="97"/>corporis habens vim generatiuam: nutritiuam: et 
+      augntum<lb ed="#A" n="98" break="no"/>tatiuam. Harum omnium virium vegetabilium instrumentum 
+      <lb ed="#A" n="99"/>est calor naturalis
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e219">
+      ¶ Secunda est vis sensibilis quae est 
+      <lb ed="#A" n="100"/>perfectio corporis prima naturalis instrumentalis: pro 
+      <lb ed="#A" n="101"/>ut apprehendit particularia materialia: atque moue 
+      <lb ed="#A" n="102"/>tur voluntate appetitus naturalis
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e228">
+      ¶ Tertia est vis 
+      <lb ed="#A" n="103"/>rationalis agens ex electione et apprehendens 
+      vniuersa<lb ed="#A" n="104" break="no"/>lia.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e235">
+      ¶ Ad quasitum ergo respondendo patet ex sententia Arist . libro de 
+      <lb ed="#A" n="105"/>anima: quod vegetatiua vis se habet sic quod omnibus 
+      viuen<lb ed="#A" n="106" break="no"/>tibus primo inest. quia est communis potentia anime secundum quam 
+      in<lb ed="#A" n="107" break="no"/>est omnibus viuere. Nam et in hominibus embryo prius viuit 
+      <lb ed="#A" n="108"/>vita plante id est vegetatiua quam sensitiua.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e246">
+      ¶ Ad hec 
+      <lb ed="#A" n="109"/>vbi Anima. §. iiii. et sequentibus
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e251">
+      ¶ Dci ergo sapienia est 
+      lau<lb ed="#A" n="110" break="no"/>dabilis quae omnia ordinate disposuit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e257">
+               <head xml:id="Vn7Pel-h144795-Hd1e259">2</head>
+               <p xml:id="Vn7Pel-h144795-d1e261">
+                  <lb ed="#A" n="111"/>¶ Quid sit anima vegetatiua secundum 
+      <!--467.xml-->
+      <pb ed="#A" n="468"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>rem in vegetabilibus Respondetur secundum doc. et Guiller. 
+      <lb ed="#A" n="2"/>de Conchis: quod quamuis aliqui dixerint: quod in 
+      vegeta<lb ed="#A" n="3" break="no"/>bilibus sit anima. Sed hoc large et non proprie capiendo 
+      <lb ed="#A" n="4"/>animam intelligendum est. Unde Greg. Homel. 
+      Ascensi<lb ed="#A" n="5" break="no"/>onis dicit. Plante viuunt: non per animam: sed per viri 
+      <lb ed="#A" n="6"/>ditatem. Uiror ergo vel vigor ille naturalis caloris 
+      <lb ed="#A" n="7"/>quo viuunt plante non dicitur proprie anima. sed large capienm 
+      <lb ed="#A" n="8"/>do pro quadam vita.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e290">
+      ¶ Nota ergo quod de vegetatiua vt 
+      <lb ed="#A" n="9"/>possumus loqui tripliciter
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e295">
+      ¶ Uno modo prout est se sola vt 
+      <lb ed="#A" n="10"/>in plantis. Et sic non dicitur ania proprie vt iam dictum est 
+      <lb ed="#A" n="11"/>sed est vis naturalis quae vegetare habet et nutrire 
+      <lb ed="#A" n="12"/>et crescendo augmentare: et sibi simile generare ex 
+      se<lb ed="#A" n="13" break="no"/>minis grano: vt dicitur etiam liro Fontis vite
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e306">
+      ¶ Secundo 
+      <lb ed="#A" n="14"/>possumus de vegetatiua loqui vt est in brutis in quibus 
+      <lb ed="#A" n="15"/>anima licet sit vnica in se: tamen est duplicis potentie scilicet vet 
+      <lb ed="#A" n="16"/>getatiue et sensitiue Et vt sic realiter non aliud est 
+      <lb ed="#A" n="17"/>nisi spiritus aereus vitalis. cuius actio est coniuncta 
+      sen<lb ed="#A" n="18" break="no"/>sitiue. quia ibi vegetatiua se habet materialiter ad 
+      <lb ed="#A" n="19"/>sensitiuam. Unde vt est in brutis vegetatiua non dicitur 
+      <lb ed="#A" n="20"/>anima: sed anime potentia. Sensitiue autem actio est 
+      <lb ed="#A" n="21"/>sentire: videre: audire etc. et mouere per loca et 
+      hu<lb ed="#A" n="22" break="no"/>iusmodi facere
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e329">
+      ¶ Tertio possumus loqui de 
+      veget<lb ed="#A" n="23" break="no"/>tiua vt est in homine: in quo vnica anima est triplicier 
+      <lb ed="#A" n="24"/>potentie. videlicet vegetatiue: sensitiue: et intellectius 
+      <lb ed="#A" n="25"/>Cuius actio est intelligere: velle: reminisci: et huiusmodi 
+      <lb ed="#A" n="26"/>Et ibi due potentie scilicet vegetatiua ac sensitiua 
+      ne<lb ed="#A" n="27" break="no"/>debent dici anime: sed potentie sole ipsius anime rationals 
+      <lb ed="#A" n="28"/>Unde vegetatiua ac sensitiua in homine non est aeret 
+      <lb ed="#A" n="29"/>substantia: sicut est in brutis. Ratio. quia talis aeret 
+      <lb ed="#A" n="30"/>substantia que dicitur spiritus animalis licet sit quid subtile: tameo 
+      <lb ed="#A" n="31"/>corpus est et quotidie crescit ac decrescit. quorum 
+      ni<lb ed="#A" n="32" break="no"/>hil contingit in anima hominis. Confirmatur. quia si anima 
+      <lb ed="#A" n="33"/>esset: cum aerea substantia sit et igni similis: et in 
+      mor<lb ed="#A" n="34" break="no"/>te dissolubilis tanquam aer: sequeretur quod non lederetur ab 
+      <lb ed="#A" n="35"/>igne nec cruciaretur perpetuo in inferno: quod est contra 
+      sa<lb ed="#A" n="36" break="no"/>cram scripturam. Dicendum ergo quod hec substantia aerea quae 
+      <lb ed="#A" n="37"/>est virtutis animalis instrumentum non est ipsam et anima 
+      <lb ed="#A" n="38"/>humana. sed est eius instrumentum per quod actiones anime 
+      <lb ed="#A" n="39"/>prodeunt a capite.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e368">
+      ¶ Ad hec est Augustinus. Uide vbi 
+      <lb ed="#A" n="40"/>Anima. § xviii. Deus ergo laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e374">
+               <head xml:id="Vn7Pel-h144795-Hd1e376">3</head>
+               <p xml:id="Vn7Pel-h144795-d1e378">
+                  <lb ed="#A" n="41"/>¶ Utrum in semine plante vel he 
+      <lb ed="#A" n="42"/>be Anima vel vis sit vegetatiua: Respondetur secundum Alb. 
+      <lb ed="#A" n="43"/>magnum: quod per aliquem modum est. et per aliquem modiu 
+      <lb ed="#A" n="44"/>non est. Ut enim habetu libro de animalibus quod non est ibi actu: 
+      <lb ed="#A" n="45"/>sed est in potentia ibi. Et non solum in potentia mate 
+      <lb ed="#A" n="46"/>riali: sed etiam in potentia efficientis et operantis quodammodo 
+      <lb ed="#A" n="47"/>ad educendam vegetatiuam ex traduce.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e396">
+      ¶ Quid 
+      aute<lb ed="#A" n="48" break="no"/>sit tale efficiens Dicit idem Alber. secundum Arist. quod illud 
+      <lb ed="#A" n="49"/>non est anima: sed calidum naturale in semine. Ma. 
+      <lb ed="#A" n="50"/>teriale vero est humidum commixtum secundum complexionem 
+      se<lb ed="#A" n="51" break="no"/>minis et naturam
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e407">
+      ¶ Sed quali virtute agit calidum 
+      <lb ed="#A" n="52"/>tale ad educendam vim vegetatiuam vel animam 
+      siu<lb ed="#A" n="53" break="no"/>vitam: Dicit: quod sicut habetur libro de animalibus agit 
+      Pri<lb ed="#A" n="54" break="no"/>mo in virtute celi secundum quam potest esse principium forme 
+      <lb ed="#A" n="55"/>ac speciei producendo simile ex simili. Secundo in virtute 
+      <lb ed="#A" n="56"/>ignis id est caloris naturalis secundum quam habet 
+      attra<lb ed="#A" n="57" break="no"/>here subtilia apta animationi. Tertio agit in anima 
+      <!--467.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>libus in virtute anime secundum quam recipit a virtute 
+      gene<lb ed="#A" n="59" break="no"/>ratiua patris vim formatiuam et generatiuam 
+      orga<lb ed="#A" n="60" break="no"/>norum. Ideoque dicit Philosophus quod Anima est in semie. sicut 
+      <lb ed="#A" n="61"/>artificiatum in artifice: in quo artificiatum no est 
+      <lb ed="#A" n="62"/>secundum esse aut secundum speciem suam realem. sed sicut in 
+      eft<lb ed="#A" n="63" break="no"/>ctiuo in quo est operis ratio ad opus proportionata. 
+      <lb ed="#A" n="64"/>Unde patet quod anima non est in semine neque per genus 
+      <lb ed="#A" n="65"/>neque per speciem: neque per virtutem quae sit pars anime: sed 
+      <lb ed="#A" n="66"/>solum in potentia remota efficientis et materie in 
+      bru<lb ed="#A" n="67" break="no"/>tis et plantis in quibus anime sunt ex tradnce per 
+      ge<lb ed="#A" n="68" break="no"/>nerationem ex materia seminis educte. Uel anima in 
+      <lb ed="#A" n="69"/>eisdem est sicut artificiatum in artifice quodam modo 
+      <lb ed="#A" n="70"/>scilicet effectiuo: vt iam dictum est. Sed de anima 
+      hu<lb ed="#A" n="71" break="no"/>mana aliter est. quia non est ex traduce: nec 
+      ha<lb ed="#A" n="72" break="no"/>bet efficientem nisi solum deum creantem ipsam ex 
+      <lb ed="#A" n="73"/>nihilo. vt patuit vbi Anima. Deus ergo laudabilis. 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e462">
+                  <lb ed="#A" n="74"/>¶ De vegetatiue nutritiua 
+      Ui<lb ed="#A" n="75" break="no"/>de vbi Nutrimentum et vbi Digestio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e470">
+               <head xml:id="Vn7Pel-h144795-Hd1e472">4</head>
+               <p xml:id="Vn7Pel-h144795-d1e474">
+                  <lb ed="#A" n="76"/>¶ Sed quid de augmentatiua 
+      ve<lb ed="#A" n="77" break="no"/>getatiue anime:
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e481">
+      ¶ Primo Notandum secundum Guilern. 
+      <lb ed="#A" n="78"/>de Conch. quod primus Adam a deo factus fuit 
+      val<lb ed="#A" n="79" break="no"/>de temporatus in quattuor qualitatibus. Sed postquam 
+      pec<lb ed="#A" n="80" break="no"/>cauit: eiectus de paradiso cepit in labore mant 
+      <lb ed="#A" n="81"/>um et sudore vesci: atque esurie: vigiliisque desicta 
+      <lb ed="#A" n="82"/>ri: ac intemporie aeris et qualitate nutrimenti 
+      molesta<lb ed="#A" n="83" break="no"/>ri. et sic naturalis calor cepit in eo diminui vel 
+      extin<lb ed="#A" n="84" break="no"/>gui. omnesque ex eo nati vtpote ex corrupto: sut 
+      <lb ed="#A" n="85"/>corrupti. neque postea perfecta sanitas in homine fuit 
+      <lb ed="#A" n="86"/>inuenta. Nimirum perfecte sanum dicitur illud quod est 
+      imme<lb ed="#A" n="87" break="no"/>bris homiomeris eucrasicum et in organii equale. 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e505">
+                  <lb ed="#A" n="88"/>¶ Pro cuius intellectu Aduertendum quod greci 
+      di<lb ed="#A" n="89" break="no"/>cunt homiomera illa membra quae in partes sibi simis 
+      <lb ed="#A" n="90"/>les vel eiusdem rationis possunt diuidi: sicut sunt 
+      cari<lb ed="#A" n="91" break="no"/>nes et ossa. quia quelibet pars carnis est caro tc. 
+      <lb ed="#A" n="92"/>quae nos vocamus homogenea. Sed organita 
+      di<lb ed="#A" n="93" break="no"/>cuntur membra officialia. Est ergo perfecte sanum quod in 
+      <lb ed="#A" n="94"/>homiomeris membris est eum crasicum id estbone 
+      con<lb ed="#A" n="95" break="no"/>plexionis et in organicis cquale id est nec quantita 
+      <lb ed="#A" n="96"/>te nec numero excedit modum vel in maius vel im minus. 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e527">
+                  <lb ed="#A" n="97"/>¶ Secundo etia Notandum secundum e. Guil. de Conch 
+      <lb ed="#A" n="98"/>quod nullus est homo qui non sit calidus et humidus. sed 
+      <lb ed="#A" n="99"/>quidam plus: quidam minus. Et cum corrupta sit naturam 
+      <lb ed="#A" n="100"/>non equaliter et eodem modo. quia quidam plus: quidam mi 
+      <lb ed="#A" n="101"/>nus: quidam sic: quidam aliter. In quibusdam enim intenditur 
+      <lb ed="#A" n="102"/>calor et remittitur humiditas: qui dicuntur cholerici et 
+      <lb ed="#A" n="103"/>calidi et sicci. non tamen sunt sine humiditate. In quibus 
+      <lb ed="#A" n="104"/>dam econuerso intenditur humiditas et remittitur calorm 
+      <lb ed="#A" n="105"/>et hi dicuntur phlegmatici id est frigidi et humidi: tamen 
+      no<lb ed="#A" n="106" break="no"/>penitus expartes caloris. Item in aliis intenditur sictitas 
+      <lb ed="#A" n="107"/>et remittitur calor: et dicuntur mclancholici id est frigidur 
+      <lb ed="#A" n="108"/>et sicci: tamen habent calorem et humiditatem. Si autem plous ad 
+      <lb ed="#A" n="109"/>equalitatem accedant humores et qualitates: dicuntur 
+      san<lb ed="#A" n="110" break="no"/>guinei. Quemadmodum ergo sine quattuor elementis non 
+      <lb ed="#A" n="111"/>inuenitur hominis corpus: ita nec sine quattuor qualitatibus. 
+      <lb ed="#A" n="112"/>tamen nomen recipit a praedominante
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e565">
+      ¶ Tertio ergo Recpnt. 
+      <!--468.xml-->
+      <pb ed="#A" n="469"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>et his quod vt idem Guiler. dicit. In omni completio 
+      <lb ed="#A" n="2"/>ne potest homo crescere. plus tantum in vna quam in alia. quia 
+      <lb ed="#A" n="3"/>augmentum fit ex calido et humido quae in omni homine sunt 
+      <lb ed="#A" n="4"/>Unde augmentum ex calido fit in altum. quia calor alta 
+      <lb ed="#A" n="5"/>petit. Et ex humiditate augmentum fit in latum et 
+      spis<lb ed="#A" n="6" break="no"/>sum. Ideoque cholerici quia calidi sunt crescunt in 
+      <lb ed="#A" n="7"/>altum et longi sunt: sed graciles ex siccitate: cuus 
+      <lb ed="#A" n="8"/>est non dilatari sed constringi. Item sanguinei propter 
+      <lb ed="#A" n="9"/>calorem similiter crescunt in altum. sed propter humiditaiem quae 
+      <lb ed="#A" n="10"/>habet dilatationem sunt etiam pingues vel carno si 
+      <lb ed="#A" n="11"/>Item phlegmatici propter frigiditatem sunt statura 
+      <lb ed="#A" n="12"/>breues. Similiter melancholici. sed propter humidita 
+      <lb ed="#A" n="13"/>tem phlegmatici sunt pingues. Melancholici vero 
+      <lb ed="#A" n="14"/>pter siccitatem graciles. Hec autem accipienda sunt 
+      na<lb ed="#A" n="15" break="no"/>turaliter. quia omnium horum proprietates sepe variantur ex 
+      <lb ed="#A" n="16"/>accidente extrinseco: puta cholerici et 
+      melancho<lb ed="#A" n="17" break="no"/>lici ex comestione lauta et ocio sepe fiunt pingues 
+      <lb ed="#A" n="18"/>Ac sanguinei et phlegmatici ex abstinentia et 
+      la<lb ed="#A" n="19" break="no"/>bore sepe fiunt graciles. Et aliquando etiam hi vel illi et 
+      <lb ed="#A" n="20"/>paruitate matrici vel spermatis breues fiunt etc. 
+      <lb ed="#A" n="21"/>Insuper vt dicit Aristo . libro de causis proprietatum 
+      elemen<lb ed="#A" n="22" break="no"/>torum. in habitatoribus circa equinoctialem et calores 
+      <lb ed="#A" n="23"/>solis assiduos accidit siccitas et caliditas in ma 
+      <lb ed="#A" n="24"/>tricibus mulierum et ideo decoquitur in eis fetus ac 
+      com<lb ed="#A" n="25" break="no"/>municat nigredinem corporum et crispitudinem capil. 
+      <lb ed="#A" n="26"/>lorum. et huiusmodi variantur in statura etiam vel quantitate 
+      <lb ed="#A" n="27"/>sicut patet de ethiopibus et aliis circa fines terre. 
+      <lb ed="#A" n="28"/>Et omnia ex voluntate dei 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e637">
+               <head xml:id="Vn7Pel-h144795-Hd1e639">5</head>
+               <p xml:id="Vn7Pel-h144795-d1e641">
+                  <lb ed="#A" n="29"/>Quare vegetatiua vi non 
+      con<lb ed="#A" n="30" break="no"/>tinue Augetur quantitas corporis animalis. sed est 
+      sta<lb ed="#A" n="31" break="no"/>tus augmenti determinatus. Cum enim cibus continue 
+      <lb ed="#A" n="32"/>additur corpori: et ita ipsa nutritiua vis continue 
+      in<lb ed="#A" n="33" break="no"/>gerit substantiam: Quare consimili modo quantitas cibi non 
+      <lb ed="#A" n="34"/>ingerit quantum:
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e657">
+      ¶ Respondetur secundum Alb. quod nutritiue 
+      fi<lb ed="#A" n="35" break="no"/>nis est saluare indiuiduum. Et hunc fnem non potest 
+      <lb ed="#A" n="36"/>consequi nisi continue nutriendo: sicut et continua fit 
+      de<lb ed="#A" n="37" break="no"/>perditio in corpore. Finis autem augmentatiue est 
+      perfe<lb ed="#A" n="38" break="no"/>ctio secundum magnitudinem et figuram organorum. Et cum 
+      <lb ed="#A" n="39"/>illum assequitur quiescit: eo quod superuacuum esset vltra 
+      mo<lb ed="#A" n="40" break="no"/>uere augendo. Unde motus augmenti stat in corpore 
+      <lb ed="#A" n="41"/>animato Primo propter hoc quia calor naturalis qui est 
+      <lb ed="#A" n="42"/>in membris radicalibus quo ad posse in extendendo 
+      li<lb ed="#A" n="43" break="no"/>mitatus est quantum possit augere vt ibi stet et non plus 
+      <lb ed="#A" n="44"/>faciat. Secundo ex parte materie membrorum radicalium: 
+      <lb ed="#A" n="45"/>cui licet addatur nutrimentum: tamen non est extensibilis vl 
+      <lb ed="#A" n="46"/>tra debitam speciei quantitatem. Tertia ratio huius est ex 
+      <lb ed="#A" n="47"/>parte organi ad virtutem anime quae est in ipso. hoc enim in 
+      <lb ed="#A" n="48"/>quantitate tanta et tali figura proportionatum est virtu 
+      <lb ed="#A" n="49"/>ti quae est in anima. ergo etc. Et quoniam omnia secundum dei 
+      ordinatio<lb ed="#A" n="50" break="no"/>nem fiunt. ergo est laudabilis in omnibus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e695">
+               <head xml:id="Vn7Pel-h144795-Hd1e697">6</head>
+               <p xml:id="Vn7Pel-h144795-d1e699">
+                  <lb ed="#A" n="51"/>¶ Utrum quadiu corpus animatum 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e704">
+                  <lb ed="#A" n="52"/>¶ 
+      <lb ed="#A" n="53"/>augetur vi vegetatiue: Et an augeatur continue et secundum 
+      <lb ed="#A" n="54"/>qualibet partem sui: autm tantummodo secundum aliquipi: Dicit 
+      <lb ed="#A" n="55"/>idem Alb Primo sic: quod nequaquam apgetur continues 
+      <lb ed="#A" n="56"/>sed quandoque additur quanto. et aliquando non augetur. 
+      Quam<lb ed="#A" n="57" break="no"/>uis enim calor naturalis semper agit natrimentum 
+      con<lb ed="#A" n="58" break="no"/>uertendo. et ita semper videatur noua additio in conuer¬ 
+      <!--468.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>tendo: Tamen aliquando fit solum in disponendo talem partem 
+      <lb ed="#A" n="60"/>corporis ad augendum conuertendo vt facilior fiat ad 
+      <lb ed="#A" n="61"/>ditio in augmentum corporis
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e733">
+      ¶ Sed Quare potius 
+      <lb ed="#A" n="62"/>in vna hora fit augmentum quam in alia: Dicit idem 
+      <lb ed="#A" n="63"/>Alb. quod idcirco: quia non eodem momento dispositum est 
+      <lb ed="#A" n="64"/>in qualibet hora id cui additur: nec quod additur. ideo 
+      <lb ed="#A" n="65"/>discontinuatur additio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e745">
+               <head xml:id="Vn7Pel-h144795-Hd1e747">7</head>
+               <p xml:id="Vn7Pel-h144795-d1e749">
+                  <lb ed="#A" n="66"/>¶ Utrum autm corpus animatum 
+      au<lb ed="#A" n="67" break="no"/>geatur secundum quamlibet partem sui: Idem Alb. dicit: quod sicut 
+      <lb ed="#A" n="68"/>Philosophus expresse dicit Quelibet pars augetur secundum spectum et 
+      <lb ed="#A" n="69"/>non quaelibet secundum materiam. Et hoc inquit intelligendum 
+      <lb ed="#A" n="70"/>est de augmento generali secundum quamcunque quantitatem 
+      <lb ed="#A" n="71"/>Alioquin videretur esse contarium quod ait Auicenna videlicet quod 
+      <lb ed="#A" n="72"/>augmentatiua plus addit de cibo longitudini quam 
+      <lb ed="#A" n="73"/>latitudini vel spius situdini. Hoc enim dictum Auice. 
+      <lb ed="#A" n="74"/>intelligendum est de augmento speciali quod 
+      atten<lb ed="#A" n="75" break="no"/>ditur in extensione radicalium membrorum per additionem 
+      <lb ed="#A" n="76"/>cibi et producit corpus ad perfectam quantitatem et figuram. 
+      <lb ed="#A" n="77"/>Uerumtamen secundum vtraque augme vtationem fit additio 
+      <lb ed="#A" n="78"/>cuilibet parti corporis proportionate: ita videlicet vt in ma 
+      <lb ed="#A" n="79"/>iori membro plus et in minoriminus subinducat ca 
+      <lb ed="#A" n="80"/>lor de cibo in corpus nutritum. Ad hec exemplum. quia 
+      <lb ed="#A" n="81"/>videmus quod digiti equaliter crescunt secundum mutuam 
+      propor<lb ed="#A" n="82" break="no"/>tionem: licet alter alterum excedat in quantitate 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e788">
+                  <lb ed="#A" n="83"/>¶ Si ergo quaeritur Quomodo fiat augmentum. Dicendum inquit 
+      <lb ed="#A" n="84"/>Alb. quod fit per calorem extendentem radicalia membra in 
+      <lb ed="#A" n="85"/>omnem dimensionem: et plus in longum Ideoque cum est 
+      <lb ed="#A" n="86"/>corpus subtile et rarum sicut sunt corpora puerorum tunc 
+      <lb ed="#A" n="87"/>fit extensio fortior in longum quam in spitussum. Cum autem 
+      <lb ed="#A" n="88"/>stat extensio in longum et vihilo minus ingeruntur partes 
+      <lb ed="#A" n="89"/>materiales per cibum abundantur: tunc corpora spissantur 
+      <lb ed="#A" n="90"/>sicut corpora hominum eate perfectorum. Cum vero vtrumque 
+      <lb ed="#A" n="91"/>proportionatum est vtique: tunc est corpus medio 
+      mo<lb ed="#A" n="92" break="no"/>do se habens: sicu sunt corpora iuuenum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e813">
+               <head xml:id="Vn7Pel-h144795-Hd1e815">8</head>
+               <p xml:id="Vn7Pel-h144795-d1e817">
+                  <lb ed="#A" n="93"/>¶ Quid deactionibus virtutis 
+      <lb ed="#A" n="94"/>generatiue quae etim est vis vegetatiue anime: 
+      No<lb ed="#A" n="95" break="no"/>tandum secundum Auce.libro de anima: quod Generatiua vis habe 
+      <lb ed="#A" n="96"/>puas actiones concor. Alb. Una est semen descidere 
+      <lb ed="#A" n="97"/>Secunda est fgurare et lineamentare ad similitudinem 
+      <lb ed="#A" n="98"/>generantis in specie atque conuertere substantiam seminis 
+      <lb ed="#A" n="99"/>Hec autem virtus non est in generante: sed in semine: 
+      <lb ed="#A" n="100"/>tamen virtusgenerantis adiuuat. huic actioni secunde 
+      ser<lb ed="#A" n="101" break="no"/>uiunt ale due vires scilicet nutritiua in nutriendo. et 
+      au<lb ed="#A" n="102" break="no"/>gmeitatiua dilatando. Unde he tres vires vegeta. 
+      <lb ed="#A" n="103"/>tiu distinguuntur: et quantum ad operationes: et quantum 
+      <lb ed="#A" n="104"/>ad tempus. Na operatio nutritiue incipit in 
+      principio<lb ed="#A" n="105" break="no"/>vegetabilis et terminatur in fine vite: et non ante. Sed 
+      <lb ed="#A" n="106"/>operatio augmentatiue incipit similiter in principio: sed 
+      <lb ed="#A" n="107"/>terminatur circa finem perfectionis determinate secundum 
+      natu<lb ed="#A" n="108" break="no"/>ram. Operatio vero generatiue incipit in iuuentute: iam 
+      <lb ed="#A" n="109"/>aucto corpore: et terminatur circa finem determinatum in 
+      <lb ed="#A" n="110"/>senectute. Hec autem voluit deus fieri in natura ad 
+      <lb ed="#A" n="111"/>bonum finem scilicet Nutritiua ad conseruandum indiuiduum. 
+      <lb ed="#A" n="112"/>Augntatiuam vt per eam perficiatur. Generatiuam vero vt 
+      <lb ed="#A" n="113"/>per ea remancat specis. ero deus est in omnibus laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e866">
+               <head xml:id="Vn7Pel-h144795-Hd1e868">9</head>
+               <p xml:id="Vn7Pel-h144795-d1e870">
+                  <lb ed="#A" n="114"/>¶ Qualiter differt vis generatiua 
+      <!--469.xml-->
+      <pb ed="#A" n="470"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in vegetabilius scilicet plantis et in animalibus cum in vtrisque 
+      <lb ed="#A" n="2"/>sit decisio seminis in genere considerata quae est 
+      separa<lb ed="#A" n="3" break="no"/>tio a cibo praeter necessitatem nutritionis corporis ad 
+      <lb ed="#A" n="4"/>conseruandum specim per generationem Nam hec decisio 
+      <lb ed="#A" n="5"/>seminis claret fieri non solum in animalibus quae eiiciunt 
+      se<lb ed="#A" n="6" break="no"/>men extra se ad generandum. sed etiam in plantis vbi 
+      <lb ed="#A" n="7"/>semen a nutrimento decisum extra plantam proiicitur 
+      <lb ed="#A" n="8"/>in terram et generat: vt patet de nucleis et granis etx 
+      <lb ed="#A" n="9"/>fructibus plantarum. In vtrisque etiam est productio similis 
+      <lb ed="#A" n="10"/>sibi. quia planta producit plantam simulem. et sic de aliis. 
+      <lb ed="#A" n="11"/>Respondetur secundum e. Alb. quod quamuis in praedictis sit in vtrisque 
+      <lb ed="#A" n="12"/>praeuenientia: nihilo minus in pluribus est differentia 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e907">
+                  <lb ed="#A" n="13"/>¶ Prima. quia in animalibus vis generatiua 
+      consisti<lb ed="#A" n="14" break="no"/>non nisi in organo speciali pro generatione 
+      determi<lb ed="#A" n="15" break="no"/>nato. In plantis autem secundum omnem partem est vis 
+      genera<lb ed="#A" n="16" break="no"/>tiua: nec habet certum situm: sed est in toto corpore. In cui 
+      <lb ed="#A" n="17"/>signum plante partes abscise recrescunt. et excisa planta: 
+      <lb ed="#A" n="18"/>ex sola radice manente in terra fira repullulat et 
+      <lb ed="#A" n="19"/>in iluuentutem redit. Hec autem non fiunt in animalium 
+      <lb ed="#A" n="20"/>generatione.
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e927">
+      ¶ Secunda differentia est. quia in planta 
+      <lb ed="#A" n="21"/>idem est humidum nutrimenti et humidum generationis 
+      <lb ed="#A" n="22"/>Unde non distinguitur in plantis humidum radicale et 
+      <lb ed="#A" n="23"/>humidum nutrimentale nisi per accntens. ideoque partes re 
+      <lb ed="#A" n="24"/>cise recrescunt. quod vtique non fieret si humidum hoc et illud 
+      <lb ed="#A" n="25"/>diuersum esset: sicut est in animalibus
+     </p>
+               <p xml:id="Vn7Pel-h144795-d1e940">
+      ¶ Tertia 
+      differen<lb ed="#A" n="26" break="no"/>tia est. qnia in animalibus est distinctio sexus. Non sic 
+      <lb ed="#A" n="27"/>in plantis: vt patebit. §. x. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h144795-Dd1e948">
+               <head xml:id="Vn7Pel-h144795-Hd1e950">10</head>
+               <p xml:id="Vn7Pel-h144795-d1e952">
+                  <lb ed="#A" n="28"/>¶ Utrum in plantis et huiusmodi 
+      vege<lb ed="#A" n="29" break="no"/>tabilibus sit distinctio setus pro generatione: Respondetur secundum 
+      <lb ed="#A" n="30"/>Alb. cum Aristo . libro de vegetabilibus: quod in plantis et 
+      <lb ed="#A" n="31"/>herbis non est distinctio serus masculi et femine: 
+      lo<lb ed="#A" n="32" break="no"/>quando proprie et secundum se pro genenatione. Tum quia non est in 
+      <lb ed="#A" n="33"/>eis commixtio carnalis. Tum quia plante no indigent 
+      <lb ed="#A" n="34"/>effectiuo nisi sole in hora pululationis. Cum ergo in 
+      <lb ed="#A" n="35"/>generatione effectiuum sit masctlus generans in 
+      alio<lb ed="#A" n="36" break="no"/>scilicet in femina. Plante non indigenimasculo. ergo non est 
+      <lb ed="#A" n="37"/>ibi distinctio masculi et femine on sexum: sed solum per 
+      <lb ed="#A" n="38"/>proprietates quae sunt formam: speciem: ac fituram imprimere. 
+      <lb ed="#A" n="39"/>et hec impressa recipere. Ambe autemste proprietates 
+      <lb ed="#A" n="40"/>adunantur in planta vna: sicut ibi dicit Arst. Calidi enim 
+      <lb ed="#A" n="41"/>et sicci quae sunt proprietates masculi est imrimere et quasi 
+      <lb ed="#A" n="42"/>sigillare forma et figuram. quia calidum est 
+      venetrati<lb ed="#A" n="43" break="no"/>uum: et siccum est terminatiuum. Item proprietares femine 
+      <lb ed="#A" n="44"/>sunt frigidum et humidum. Et humidum quidem est fgure et 
+      <lb ed="#A" n="45"/>specici receptiuum. Frigidum vero per coagulationem 
+      <lb ed="#A" n="46"/>huiusmodi humidi est retentiuum eorundem. Et quia amle 
+      di<lb ed="#A" n="47" break="no"/>cte proprietates tam masculi quam femine sunt in 
+      plara<lb ed="#A" n="48" break="no"/>vbique: ideo Arist. dicit quod planta est vbique impregnans 
+      <lb ed="#A" n="49"/>et impregnata. ideo in eis non distinguitur sexus propter 
+      <lb ed="#A" n="50"/>equalitate quam habet planta vbique in partibus corporis 
+      <lb ed="#A" n="51"/>sui pro generatione secundum potentiam in nutrimento et 
+      propri<lb ed="#A" n="52" break="no"/>etatibus. Item in planta idem est humidum nutrimti et 
+      hu<lb ed="#A" n="53" break="no"/>midum generationis: vt dictum est in praecedentibus. Ad 
+      <lb ed="#A" n="54"/>humidum autem nutrimenti non exigitur distinctio sexus. sed 
+      <lb ed="#A" n="55"/>tantum calor agens cum virtute anime ac virtute celesti. ergo et 
+      <lb ed="#A" n="56"/>ad generationem plante non exigitur nisi calor agens cum 
+      <lb ed="#A" n="57"/>virtute anime vegetatiue ac virtute celi. Et hoc est quod dicit 
+      <!--469.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>philosophis: quod omnium vegetabilium terra est mater: et sol 
+      pa<lb ed="#A" n="59" break="no"/>ter. Deus ergo laudetur pro tali ordinatione. 
+      </p>
+               <p xml:id="Vn7Pel-h144795-d1e1028">
+                  <lb ed="#A" n="60"/>¶ Eux dei bonitas est laudabilis 
+      <lb ed="#A" n="61"/>in conditione et qualitate ventorum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

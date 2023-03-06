@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lapis</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Lapis</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="288"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h88479">
+            <head xml:id="Vn7Pel-h88479-Hd1e110">Lapis</head>
+            <div xml:id="Vn7Pel-h88479-Dd1e112">
+               <head xml:id="Vn7Pel-h88479-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h88479-d1e116">
+                  <lb ed="#A" n="59"/>¶ Ipis. i. scilicet de 
+      <lb ed="#A" n="60"/>communibus lapidibus. Nota 
+      <lb ed="#A" n="61"/>secundum Isid. liro xvi. Lapis dicitur 
+      <lb ed="#A" n="62"/>quasi ledens pedem. et secundum Plin. li. 
+      <lb ed="#A" n="63"/>beter. xxxvi. In lapidibus traduntur 
+      <lb ed="#A" n="64"/>mirabilua plura Pprimo quod lapis quidam est 
+      ta<lb ed="#A" n="65" break="no"/>lis vt dicit in Troade inuentus qui scinditur pro 
+      sar<lb ed="#A" n="66" break="no"/>cophago: et corpora defunctorum in eo condita intra 
+      <lb ed="#A" n="67"/>diem quadragesimum absumi constat exceptis den 
+      <lb ed="#A" n="68"/>tibus. Secundo quidam sunt lapides: vt 
+      Mucia<lb ed="#A" n="69" break="no"/>nus autor dicit specula vestes calciamenta mortuis 
+      <lb ed="#A" n="70"/>illata: fieri lapidea faciunt
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e145">
+      ¶ Plura tranleo etc. 
+      <lb ed="#A" n="71"/>Item Arena ab ariditate dicta: lapidetir generis 
+      <lb ed="#A" n="72"/>est. Et secundum Palladium libro de Agricultura etc. 
+      <lb ed="#A" n="73"/>Omnium arene generum precipue melior est 
+      rufa<lb ed="#A" n="74" break="no"/>consequenter cana. tertio nigra. Spiritualiter pro 
+      edifi<lb ed="#A" n="75" break="no"/>cio celesti melior est arena corporis nostri rufa 
+      chari<lb ed="#A" n="76" break="no"/>tate. minus cana in senio solo. minime nigra 
+      pec<lb ed="#A" n="77" break="no"/>cato nisi lota poenitentia.
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e163">
+      ¶ Item Calx lapidis mirabi 
+      <lb ed="#A" n="78"/>liter fusa aqua accenditur: oleo extinguitur: vt dicit 
+      Au<lb ed="#A" n="79" break="no"/>gu. Et sic in omnibus mirabilis diuine 
+      bonita<lb ed="#A" n="80" break="no"/>tis operatio claret. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e173">
+               <head xml:id="Vn7Pel-h88479-Hd1e175">2</head>
+               <p xml:id="Vn7Pel-h88479-d1e177">
+                  <lb ed="#A" n="81"/>¶ Quid de alabastro scilicet lapidem: 
+      <lb ed="#A" n="82"/>Nota secundum Isid. lib. xvi. quod Alabastrites est lapis 
+      <lb ed="#A" n="83"/>candidus interstinctus variis coloribus et vnguenta 
+      <lb ed="#A" n="84"/>optime incorrupta conseruat vas ex alabastro. Sicut 
+      <lb ed="#A" n="85"/>etiam legitur in euange. quod sancta Magdalena attulit 
+      <lb ed="#A" n="86"/>alabastrum vnguenti chro. Item Diascorid. dicit quod 
+      la<lb ed="#A" n="87" break="no"/>pis alabastrites virtute laxatiuus est: et emollit 
+      du<lb ed="#A" n="88" break="no"/>ricies. et secundum Plin. exustis emplastris conuenit. 
+      <lb ed="#A" n="89"/>stem alabastrum contritum in puluerem et super membra 
+      <lb ed="#A" n="90"/>in quibus sunt ossa confracta appositum miro modo va¬ 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e201">
+                  <lb ed="#A" n="91"/>¶ Item Albescon vel abescon llet. Patet experientia. 
+      <lb ed="#A" n="92"/>secundum e. Isido. Arcadie lapis ferrei coloris: ab igne 
+      <lb ed="#A" n="93"/>nomen accepit: eo quod sel accensum: numquam extinguitur vl 
+      <lb ed="#A" n="94"/>la tempestate. vt et iam testatur Solinus. lib. iii. c. ii. Quod 
+      <lb ed="#A" n="95"/>est valde mirum. Ecce dei operatio laudabilis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e215">
+               <head xml:id="Vn7Pel-h88479-Hd1e217">3</head>
+               <p xml:id="Vn7Pel-h88479-d1e219">
+                  <lb ed="#A" n="96"/>¶ Quid preterea de Magnete: 
+      <lb ed="#A" n="97"/>marmore: et memphite scilicet sapidibus Nota secndum Isid. li. 
+      <lb ed="#A" n="98"/>xvi. magnes colore est ferrugineus: vnde et vulgus ipsum 
+      <lb ed="#A" n="99"/>ferrum viuum appellat. Omnis autm magnes tanto melior 
+      <lb ed="#A" n="100"/>est quanto magi ceruleus id est instar cere viridis cum 
+      ni<lb ed="#A" n="101" break="no"/>gro sicut mare. Item secundum Aug. xxi. de ciui. dei. et etiam 
+      <lb ed="#A" n="102"/>Arist . libro de lapi. magnes miram habet virtutem: quia ferrum 
+      <lb ed="#A" n="103"/>rapit: attrahit atque suspendit per aera: et vno quidem 
+      <lb ed="#A" n="104"/>angulo ferrum ipsum trahit: ex opposito autem 
+      angulo<lb ed="#A" n="105" break="no"/>fugat ipsum. Angulus quidem eius cui virtus est attra 
+      <lb ed="#A" n="106"/>hedi ferrum est ad septentrionem: angulus autem oppositus. 
+      <!--288.xml-->
+      <pb ed="#A" n="289"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ad meridiem. Itaque proprietas magnetis est quod si 
+      ap<lb ed="#A" n="2" break="no"/>proximes ei ferrum ad angulum eius qui septentri 
+      <lb ed="#A" n="3"/>onem respicit ad septentrionem se conuertit. Si vero 
+      <lb ed="#A" n="4"/>ad angulum oppositum ferrum admoueris: ad 
+      <lb ed="#A" n="5"/>meridiem se mouebit. Quod si huic ferro ferrum 
+      ali<lb ed="#A" n="6" break="no"/>ud approximaueris: ipsum de magnete ad se 
+      tra<lb ed="#A" n="7" break="no"/>hit. hoc et lapis adamas facit: naturamque 
+      conde<lb ed="#A" n="8" break="no"/>mnat magnetis Nam quando iuxta eum adamas 
+      <lb ed="#A" n="9"/>bonitur: ferrum non rapit. et si iam rapuerat vbi 
+      <lb ed="#A" n="10"/>ei appropinquauerit: mox remittit. Mira ergo 
+      vir<lb ed="#A" n="11" break="no"/>tus est magnetis in attrahendo metalla. vt patet 
+      <lb ed="#A" n="12"/>§ v. praesertim in hoc quod stipulam non mouet: et 
+      ta<lb ed="#A" n="13" break="no"/>men ferrum durum et pondero sum trahit et rapit. 
+      <lb ed="#A" n="14"/>Item fertur certa de Mahumenti sepulcro 
+      experi<lb ed="#A" n="15" break="no"/>entia: ragnetis virtuti contrariari allium. Denique 
+      <lb ed="#A" n="16"/>secundum Constantinum lib. graduum. Magnes in 
+      ripa<lb ed="#A" n="17" break="no"/>maris indie abundat. Unde Galienus libro de 
+      <lb ed="#A" n="18"/>lapidibus dicit. quod scilicet naute nauem clauos ferreos 
+      <lb ed="#A" n="19"/>habentem illuc non audent ducere: nec vllum 
+      fer<lb ed="#A" n="20" break="no"/>ri alicuius artificium habere: ne scilicet attrahantur a 
+      <lb ed="#A" n="21"/>magnete
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e297">
+      ¶ Item magnes habet etiam virtutes 
+      <lb ed="#A" n="22"/>medicatiuas mirabiles secundum praedictos. Nam 
+      po<lb ed="#A" n="23" break="no"/>tui datus roptimum est ei qui de ferro toxicato est 
+      <lb ed="#A" n="24"/>vulneratus. valet etiam ad sagittam vel gladiumus 
+      <lb ed="#A" n="25"/>extrahendum de vulnere. Et secundum Platearium ac 
+      Di<lb ed="#A" n="26" break="no"/>ascorid. Tritus: si puluis eius detur in succo 
+      fe<lb ed="#A" n="27" break="no"/>niculi: valet contra hydropisim: attrahit phlegma et 
+      <lb ed="#A" n="28"/>melancholiam et educit. Item superaspersus puluis 
+      <lb ed="#A" n="29"/>eius: combusta sanat 
+      <lb ed="#A" n="30"/>Item Marmora commendantur variis 
+      colori<lb ed="#A" n="31" break="no"/>bus secundum Isidorum: et apta edificins et sepulcro. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e321">
+                  <lb ed="#A" n="32"/>¶ Item Memphites secundum eundem Isidorum a 
+      loco<lb ed="#A" n="33" break="no"/>egypti vocatus est hic: tritus atque in his quae 
+      vren<lb ed="#A" n="34" break="no"/>da et secanda sunt ex aceto illinitus ita 
+      obstupe<lb ed="#A" n="35" break="no"/>scere facit corpus vt non sentiat cruciatum
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e332">
+      ¶ 
+      Ecce<lb ed="#A" n="36" break="no"/>dei bonitas in lapidibus
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e338">
+      ¶ Item multi alii sunt 
+      <lb ed="#A" n="37"/>lapides communes de quibus varia scribunt 
+      philo<lb ed="#A" n="38" break="no"/>sophi. Sed pertransire talia censeo Tum ob bre 
+      <lb ed="#A" n="39"/>uitatis amorem. Tum quia nobis communiter 
+      illi<lb ed="#A" n="40" break="no"/>non sunt noti: nec inueniuntur in nostris regionibus etc. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e349">
+                  <lb ed="#A" n="41"/>¶ Item quod diuersi lapides diuersa metalla et res 
+      <lb ed="#A" n="42"/>varias attrahunt. vide <ref xml:id="Vn7Pel-h88479-Rd1e355">infra. §. v. </ref>
+               </p>
+               <!-- Lapis 2-->
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e361">
+               <head xml:id="Vn7Pel-h88479-Hd1e363">4</head>
+               <p xml:id="Vn7Pel-h88479-d1e365">
+                  <lb ed="#A" n="43"/>¶ Apis. i. scilicet de 
+      <lb ed="#A" n="44"/>lapidibus gemantis nature 
+      seu<lb ed="#A" n="45" break="no"/>gemmis et preciosis
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e374">
+      ¶ Nota secundum 
+      <lb ed="#A" n="46"/>Isidorum s<ref xml:id="Vn7Pel-h88479-Rd1e378">uprasilicet libro. xvi.</ref> Geme 
+      <lb ed="#A" n="47"/>Aicuntur quasi gumem eo quod ad instar gumi trans 
+      <lb ed="#A" n="48"/>luceant. Nam que non translucent: gemme cece. 
+      <lb ed="#A" n="49"/>Item generaliter de eis queritur: Unde habent 
+      gem<lb ed="#A" n="50" break="no"/>me virtutes miro modo praeclaras. Respondetur secundum 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e390">
+                  <lb ed="#A" n="51"/>¶ Bedam libro de natu. rer. quod aliter est de herbis et 
+      ali<lb ed="#A" n="52" break="no"/>ter de gemmis vel lapidibus praeciosis. quia virtus 
+      <lb ed="#A" n="53"/>inest herbis mediante operatione nature. vtpote 
+      <lb ed="#A" n="54"/>quia naturaliter calide sunt vel frigide: Ideoque 
+      <lb ed="#A" n="55"/>competunt medicine: quoniam contraria contrariis 
+      <!--288.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>curantur. puta calida frigidis: et frigida calidis. 
+      si<lb ed="#A" n="57" break="no"/>cut dicit etiam Grego. in omel. Sed in lapidibus 
+      <lb ed="#A" n="58"/>non est excessus caliditatis aut frigiditatis. 
+      Con<lb ed="#A" n="59" break="no"/>stat ergo: quia sine vllo medio deus omnipotens 
+      <lb ed="#A" n="60"/>indidit virtutem gemmis ex sua voluntate: tribuens 
+      <lb ed="#A" n="61"/>eis huiusmodi potentiam pro ratione nature. Nam 
+      <lb ed="#A" n="62"/>omnis virtus a deo bono fit et datur: Sed 
+      tamen<lb ed="#A" n="63" break="no"/>sicut in peccato primi hominis omnis creatura 
+      <lb ed="#A" n="64"/>corrupta est: sic etiam in ipsis lapidibus virtutes 
+      <lb ed="#A" n="65"/>que post peccatum in eis remanserant: per attactum 
+      <lb ed="#A" n="66"/>et vsum immundorum et impiorum hominum et praeciputr 
+      <lb ed="#A" n="67"/>apides corrumpuntur. sed sanctificatione 
+      conse<lb ed="#A" n="68" break="no"/>crationis ad virtutum efficacias reparantur. 
+      <lb ed="#A" n="69"/>Hec libro de natu. rerum
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e438">
+      ¶ Idem dicitur etiam in 
+      <lb ed="#A" n="70"/>Lapidario. videlicet quod non dubium est virtutes 
+      di<lb ed="#A" n="71" break="no"/>uinitus insitas esse gemmis. De quibus 
+      Hiero<lb ed="#A" n="72" break="no"/>ny mus super Hieremia dicit sic. De natura inquit 
+      <lb ed="#A" n="73"/>lapidum siue gemmarum et grecorum plurimi et 
+      <lb ed="#A" n="74"/>latinorum scripserunt: et quibus sancte memorie 
+      epi<lb ed="#A" n="75" break="no"/>scopus Epiphanius vnus fuit insigne volumen 
+      <lb ed="#A" n="76"/>de eis traden. Plinius quoque orator et philoso 
+      <lb ed="#A" n="77"/>phus extitit secundus: qui opere pulcerrimo 
+      na<lb ed="#A" n="78" break="no"/>turalis historie librum tricesimumseptimum et vltimum 
+      <lb ed="#A" n="79"/>de lapidibus et gemmis disputatione compleuit. 
+      <lb ed="#A" n="80"/>Hec Hieronymus. Nimirum vt eo. lib. xxxvii. 
+      Pli<lb ed="#A" n="81" break="no"/>nius dicit. Maiestas diuina nulla rerum 
+      par<lb ed="#A" n="82" break="no"/>te scilicet inferiorum mirabilior apparet hominibus quam 
+      <lb ed="#A" n="83"/>circa gemas. Nam vt etiam testatur Isidorus. Gemmarum 
+      <lb ed="#A" n="84"/>in numerabilia genera traduntur: quarum etiam 
+      co<lb ed="#A" n="85" break="no"/>lores diuersi sunt: et quedam genera ex metallorum 
+      <lb ed="#A" n="86"/>specie cognominata: vel aliorum et lapidum. vt 
+      Chri<lb ed="#A" n="87" break="no"/>opis qui aurum tantum esse videtur. leochrisus. chrisole 
+      <lb ed="#A" n="88"/>ctros. et huiusmodi. calcites coloris erei. et zumla 
+      <lb ed="#A" n="89"/>nicius similis marmori Item quedam genera sunt 
+      <lb ed="#A" n="90"/>ab animalibus. vt Ethites ab aquila. in cuius 
+      ni<lb ed="#A" n="91" break="no"/>do inuenitur Scorptis: qui colore et effigie scorpi 
+      <lb ed="#A" n="92"/>onem refert. Caos: qui similis est pauoni etc. 
+      <lb ed="#A" n="93"/>Quedam genera sunt ab aliis denominata: vt 
+      <lb ed="#A" n="94"/>Mecotites exprimit papauer: onycinus vngui 
+      <lb ed="#A" n="95"/>hominis similis
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e498">
+      ¶ Denique in quibusdam gemmarum 
+      gene<lb ed="#A" n="96" break="no"/>ribus magna diffieultas est vera a falsis discerne 
+      <lb ed="#A" n="97"/>re. vt patet inter Sardonycem et ceramium: quae vix 
+      deprehen<lb ed="#A" n="98" break="no"/>duntur. Item pro lapide praeciosissimo Gmaragdo: 
+      <lb ed="#A" n="99"/>quidam vitrum arte inficiunt et fallunt oculos. sic et 
+      <lb ed="#A" n="100"/>alia alio modo fraudant etc. Sed generaliter 
+      trans<lb ed="#A" n="101" break="no"/>lucentes matutino probari censentur. experiantur 
+      <lb ed="#A" n="102"/>etiam pondere si grauiores sentiantur. Etsi in capit 
+      <lb ed="#A" n="103"/>lamento sit frigoris inconstantia: et priusquam ad oculios 
+      <lb ed="#A" n="104"/>perueniat desinens nitor. et ex figura considerata et 
+      <lb ed="#A" n="105"/>pluribus aliis modis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e524">
+               <head xml:id="Vn7Pel-h88479-Hd1e526">5</head>
+               <p xml:id="Vn7Pel-h88479-d1e528">
+                  <lb ed="#A" n="106"/>¶ Quales lapides habent virtu 
+      <lb ed="#A" n="107"/>tem attractiuam
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e535">
+      ¶ Nota secundum Arist. libro de lapi. quod 
+      va<lb ed="#A" n="108" break="no"/>rii lapides varias attrahunt res. Nam Carrabre 
+      <lb ed="#A" n="109"/>lapis attrahit paleam. Patet vbi Gumi. sicut 
+      Succi<lb ed="#A" n="110" break="no"/>nus et folia. De quo latius infra. §. xiiii. Item adamas 
+      <lb ed="#A" n="111"/>ferrum attrahit et surripit a magnete. Species vero 
+      <lb ed="#A" n="112"/>magnetis multe sunt et attrahendi virtute diuerse sunt: 
+      <!--289.xml-->
+      <pb ed="#A" n="290"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Ex his enim est que colligit aurum: est etiam que 
+      colli<lb ed="#A" n="2" break="no"/>git argentum: et quedam es: et quaedam plumbum. Alia quoque 
+      <lb ed="#A" n="3"/>colligit carnem. alia os. alia pilos. alia vero aquas 
+      <lb ed="#A" n="4"/>et pisces. Ignis quoque sulphuris ad se ferrum et 
+      <lb ed="#A" n="5"/>lapides trahit: eosque adurit. Napta alba ignem 
+      <lb ed="#A" n="6"/>trahit. Dicit autem Plin. quod napta est bituminis 
+      ge<lb ed="#A" n="7" break="no"/>nus circa babyloniam amicum igni adeo: vt etiam 
+      <lb ed="#A" n="8"/>longe admota: ignem concipiat et nutriat. Unde 
+      <lb ed="#A" n="9"/>Dan. iii. habetur quod ministri regis succendebant 
+      for<lb ed="#A" n="10" break="no"/>nacem in babylone napta et stupa et pice et 
+      malleo<lb ed="#A" n="11" break="no"/>lis. id est sarmentis secundum Lyram. Preterea idem Arist 
+      <lb ed="#A" n="12"/>supra dicit. quod inter lapidum species: lapis olearii 
+      no<lb ed="#A" n="13" break="no"/>minatus est qui trahit ad se oleum. Et lapis Aceti quod 
+      <lb ed="#A" n="14"/>trahit ad se vinum. et spritma eius ad se spritumam 
+      <lb ed="#A" n="15"/>trahit: eius quoque fex fecem attrahit Sic autem 
+      <lb ed="#A" n="16"/>trabunt et trahuntur hec omnia tan quam his nullus 
+      sa<lb ed="#A" n="17" break="no"/>por sit optimus aut odor Ecceptet mira dei ope 
+      <lb ed="#A" n="18"/>ratio in lapidibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e595">
+               <head xml:id="Vn7Pel-h88479-Hd1e597">6</head>
+               <p xml:id="Vn7Pel-h88479-d1e599">
+                  <lb ed="#A" n="19"/>¶ Quid de lapidibus sigillatis. 
+      No<lb ed="#A" n="20" break="no"/>ta quod Arnoldus libro de sigillis lapidum dicit: quod 
+      <lb ed="#A" n="21"/>lapis preciosus si inuenitur habere in se 
+      imaginen<lb ed="#A" n="22" break="no"/>quasi sculptam naturalitr( non quidem artificialiter. 
+      <lb ed="#A" n="23"/>horum signorum zodiaci aliqu scilicet Arietis leonis aut 
+      sa<lb ed="#A" n="24" break="no"/>gittarii: talis lapis est igneus et orientalis: qui 
+      sepe<lb ed="#A" n="25" break="no"/>ferentes a febribus quotidianis et hydropisi liberat et 
+      <lb ed="#A" n="26"/>reddit facundos et ingeniosos. Si autem immaginenm 
+      <lb ed="#A" n="27"/>Geminorum vel libre vel aquarii: calidus est et oc 
+      <lb ed="#A" n="28"/>cidentalis: et valet contra paralysim et febres. Item si 
+      <lb ed="#A" n="29"/>Cancri vel scorpionis vel piscis: frigidus est et 
+      de<lb ed="#A" n="30" break="no"/>fendunt a tertiana et acuta febri. Item si Tauri 
+      <lb ed="#A" n="31"/>vel capricorni vel virginis: frigidi sunt: et tutos 
+      <lb ed="#A" n="32"/>reddunt a sineca.
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e632">
+      ¶ Plura ibi ponit huiusmodi 
+      <lb ed="#A" n="33"/>sed transeo etc. 
+      </p>
+               <!-- Lapis 3-->
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e640">
+               <head xml:id="Vn7Pel-h88479-Hd1e642">7</head>
+               <p xml:id="Vn7Pel-h88479-d1e644">
+                  <lb ed="#A" n="34"/>¶ AIpis. x. scilicet de 
+      <lb ed="#A" n="35"/>vnoquoque lapide praecioso et 
+      pro<lb ed="#A" n="36" break="no"/>prietatibus eius
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e653">
+      ¶ Notandum quod 
+      <lb ed="#A" n="37"/>de omnibus dicenre non sufficimus. 
+      <lb ed="#A" n="38"/>cum sint quasi innumerabiles gemme et lapides 
+      pre<lb ed="#A" n="39" break="no"/>ciosi: et secundum diuersa genera vel species varias habent 
+      <lb ed="#A" n="40"/>virtutes. Tamen de aliquibus principalioribus in 
+      sa<lb ed="#A" n="41" break="no"/>cra scriptura nominatis breviter aliqua ordine 
+      alphabe<lb ed="#A" n="42" break="no"/>tico describemus colligendo ex diuersis autoribus 
+      <lb ed="#A" n="43"/>videlicet Isid. lir. Etym. Beda de na. re. <ref xml:id="Vn7Pel-h88479-Rd1e670">Plin. li. xxxvi.</ref>
+                  <lb ed="#A" n="44"/>Arist. vbi. supra Arnoldo supra Phisiol. Solino. 
+      <lb ed="#A" n="45"/>Diasco. Lapidario. Que etiam confirmant praesertim 
+      <lb ed="#A" n="46"/>sanctorum Ambrosii in Hexamero. Basilii et Greg. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e679">
+                  <lb ed="#A" n="47"/>¶ Aug. et aliorum autoritates 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e684">
+                  <lb ed="#A" n="48"/>¶ Abeston: lapis. de quo habetur supra. §. ii et vbi De¬ 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e690">
+                  <lb ed="#A" n="49"/>¶ Ichates. gema: est nigra cum albis (modo. §. lxvii 
+      <lb ed="#A" n="50"/>venis vel zonis: ori imposita sitim sedat: hec in 
+      ve<lb ed="#A" n="51" break="no"/>ste Aaron fuit posita. <ref xml:id="Vn7Pel-h88479-Rd1e698">Exo. xxviii.</ref> Contra vennosa 
+      <lb ed="#A" n="52"/>valet: odorifera est: visum fouet: fecundat se por¬ 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e703">
+                  <lb ed="#A" n="53"/>¶ Adamas: lapis est paruus ferruginei (tante 
+      <lb ed="#A" n="54"/>coloris et splendoris crystallini: et nunquam reperitur 
+      ma<lb ed="#A" n="55" break="no"/>ior magnitudine nuclei auellane. hic ferro non 
+      ce<lb ed="#A" n="56" break="no"/>dit: nec igne calescit. sed tamen hircino sanguine re¬ 
+      <!--289.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>centi et calido frangitur. omnes gemmas et 
+      durici<lb ed="#A" n="58" break="no"/>em sculpendo cauat.
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e723">
+      ¶ Uocatur etiam diamas 
+      <lb ed="#A" n="59"/>ab aliquibus iste idem lapis. et valet contra 
+      insani<lb ed="#A" n="60" break="no"/>am et contra incubos ac contra somnia vana. habet 
+      <lb ed="#A" n="61"/>quoque reconciliatiuam virtutem facere inter discordes. ve 
+      <lb ed="#A" n="62"/>nena prope adhibita prodit sudando. hic nocte lucet 
+      <lb ed="#A" n="63"/>non perie: et ferrum a magnete rapit: vt dctum est supra §. iii. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e736">
+                  <lb ed="#A" n="64"/>¶ Allectorius: est lapis sub crystallina sepe scilicet 
+      ob<lb ed="#A" n="65" break="no"/>scuriorem fabe modo: similis coloris calcedonio vel 
+      <lb ed="#A" n="66"/>aque lyupide secundum Amb. propter hunc lapidem leo 
+      ti<lb ed="#A" n="67" break="no"/>met gallum album. cuius in ventre nascitur. Unde vt 
+      <lb ed="#A" n="68"/>in lapidario etiam habetur. Gallus castratus id est 
+      gal<lb ed="#A" n="69" break="no"/>linacius: ad minus tribus annis sic factus spado si 
+      <lb ed="#A" n="70"/>superuiuat postea in eius iecore vel ventriculis 
+      ta<lb ed="#A" n="71" break="no"/>lis lapis: videlicet allectorius. aut ad plus post quartum 
+      <lb ed="#A" n="72"/>annum nasci incipit. et per tres vel quattuor annos 
+      <lb ed="#A" n="73"/>capit incrementa ad modum fabe Non enim excedit 
+      <lb ed="#A" n="74"/>mensuram fabe excrescens. signum autem est quod postquam 
+      <lb ed="#A" n="75"/>in iecore habuerit hunc lapidem gallicinacius 
+      nun<lb ed="#A" n="76" break="no"/>quam bibet. cum autem per. vii. annos a principio 
+      natiui<lb ed="#A" n="77" break="no"/>tatis gallinacius vixerit: praesertim si sit gallinacius 
+      <lb ed="#A" n="78"/>albus potissime virtutis habet perfectum hunc lapidem. 
+      <lb ed="#A" n="79"/>habet etiam inueniri hic lapis in gallinacii cuius 
+      <lb ed="#A" n="80"/>cunque coloris iecore.
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e775">
+      ¶ Et habet iste lapis virtutes 
+      <lb ed="#A" n="81"/>huiusmodi secundum Plin. et alios et.
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e780">
+      ¶ Primo in ore 
+      ten<lb ed="#A" n="82" break="no"/>tus sitim sedat: Ideoque reges et milites ac pugi 
+      <lb ed="#A" n="83"/>les habentes in ore fortiter pugnantes et dimicantes: 
+      <lb ed="#A" n="84"/>permanent inuicti sine siti: cum tamen alias preliantes 
+      <lb ed="#A" n="85"/>magna sitis affligit. vt patet Iudic. xv. de 
+      Sam<lb ed="#A" n="86" break="no"/>sone: qui in maxilla asini prostrauit mille hostium 
+      <lb ed="#A" n="87"/>et dixit se mori siti: sed deus prouidit sibi miraculo 
+      <lb ed="#A" n="88"/>se de aqua etc
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e799">
+      ¶ Denique hoc lapide. scilicet allectorio: 
+      <lb ed="#A" n="89"/>multi reges etiam superasse praelia feruntur: deo bono 
+      <lb ed="#A" n="90"/>tamen principaliter dante victoriam. Nam et dicitur de 
+      Mi<lb ed="#A" n="91" break="no"/>sorne: quod ipse vicit Crothonias pugiles: hoc praeside. 
+      <lb ed="#A" n="92"/>Secundo is lapis facit inuictum et constante: 
+      ora<lb ed="#A" n="93" break="no"/>coremque verbis disertum et gratum efficit
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e812">
+      ¶ Tertio 
+      ho<lb ed="#A" n="94" break="no"/>minem se gestantem facit fortunatum ad honores 
+      ha<lb ed="#A" n="95" break="no"/>bendos etc.
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e819">
+      ¶ Quarto vrorem portantem in ore facitut 
+      <lb ed="#A" n="96"/>placere viro suo. et valet frigidis viris in coniugio. 
+      <lb ed="#A" n="97"/>Unde deus laudabilis est in omnibus 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e826">
+                  <lb ed="#A" n="98"/>¶ Amethistus: gema est coloris rubidi clari vt 
+      ro<lb ed="#A" n="99" break="no"/>sa: in India inuenitur etiam violacei coloris permixti 
+      <lb ed="#A" n="100"/>quasi rose nitor: et illa est optima. Fertur quod amethist 
+      <lb ed="#A" n="101"/>fuit in anulo quo sanctus Ioseph subarrauit beatam 
+      <lb ed="#A" n="102"/>virginem Mariam in sponsam. hoc lapis faciliter sculpi 
+      <lb ed="#A" n="103"/>tur quia mollis est. hunc si posueris super vmbilicum 
+      <lb ed="#A" n="104"/>prohibet vaporem vini et ebrietatem soluit his qui 
+      <lb ed="#A" n="105"/>multum biberunt: facit hominem vigilem: malas quoque 
+      cog<lb ed="#A" n="106" break="no"/>tationes repellit: et intellectum bonum tribuit. propterea 
+      <lb ed="#A" n="107"/>secundum Lyram super Apoc. xxi. per amethistum mystice 
+      si<lb ed="#A" n="108" break="no"/>gnificatur in fundamento ciuitatis dei articulus de 
+      <lb ed="#A" n="109"/>aduentum christi ad iudicium: cuius fides facit hominem 
+      vi<lb ed="#A" n="110" break="no"/>gilem pro anime salute: et ebrietatem cupiditatis tollit 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e858">
+               <head xml:id="Vn7Pel-h88479-Hd1e860">8</head>
+               <p xml:id="Vn7Pel-h88479-d1e862">
+                  <lb ed="#A" n="111"/>¶ Bdellium. vt dicitur Sen. secundo. 
+      <lb ed="#A" n="112"/>nascitur ex fluuio paradisi nomine phison in india et eius 
+      <lb ed="#A" n="113"/>regione eiulath. Dicit autem Lyra secundum Hebreos: quod 
+      <!--290.xml-->
+      <pb ed="#A" n="291"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>est idem quod crystallus De crystallo vero habetur in 
+      <lb ed="#A" n="2"/>sequentibus. §. ix. Uel est Bdellium quaedam arbor 
+      aroma<lb ed="#A" n="3" break="no"/>tita de qua vbi <ref xml:id="Vn7Pel-h88479-Rd1e883">Lignum. §. v.</ref> et etiam vbi <ref xml:id="Vn7Pel-h88479-Rd1e885">Guma. §. 3</ref>
+               </p>
+               <p xml:id="Vn7Pel-h88479-d1e888">
+                  <lb ed="#A" n="4"/>¶ Berillus in India nascitur: est coloris 
+      pallidi<lb ed="#A" n="5" break="no"/>vt lympha eo melior quo pallidior. et est conspicuus 
+      <lb ed="#A" n="6"/>quasi olei coloris lucidi: pro oculari aptus valet 
+      con<lb ed="#A" n="7" break="no"/>tra hostium pericula: coniugii dat amorem. Item Aqua 
+      <lb ed="#A" n="8"/>in qua iacet pota valet oculis infirmis: et 
+      mor<lb ed="#A" n="9" break="no"/>bo squinantie medetur: radium solis ad se trahit: 
+      ma<lb ed="#A" n="10" break="no"/>numque se tenentis adurit cum fuerit spherice figure. 
+      <lb ed="#A" n="11"/>et significat rectam intentionem. Uel secundum Lyram Apoc. 
+      <lb ed="#A" n="12"/>xxi. significat in fundamento ciuitatis dei articulum 
+      <lb ed="#A" n="13"/>fidei passionis christi qua illuminat mentem etc. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e912">
+                  <lb ed="#A" n="14"/>¶ Borax qui et Nose dicitur lapis est qui de 
+      bufo<lb ed="#A" n="15" break="no"/>nis capite extrahitur. Quoddam est subalbidum: et 
+      h<lb ed="#A" n="16" break="no"/>melius. Aliud fuscum vel nigrum valet contra 
+      vene<lb ed="#A" n="17" break="no"/>num etc. et contra morsum reptilium. Nam 
+      presen<lb ed="#A" n="18" break="no"/>te veneno digitum adurit tangentis. En dei 
+      mi<lb ed="#A" n="19" break="no"/>ra operatio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e929">
+               <head xml:id="Vn7Pel-h88479-Hd1e931">9</head>
+               <p xml:id="Vn7Pel-h88479-d1e933">
+                  <lb ed="#A" n="20"/>¶ Camphora licet videatur esse 
+      la<lb ed="#A" n="21" break="no"/>nis: tamen est guma. vide vbi <ref xml:id="Vn7Pel-h88479-Rd1e939">Gumi. §. iiii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h88479-d1e942">
+                  <lb ed="#A" n="22"/>¶ Calcedonius est lapis colore pallidus: 
+      pale<lb ed="#A" n="23" break="no"/>as attrahit: tricolor reparitur: valet contra 
+      diabo<lb ed="#A" n="24" break="no"/>licas illusiones: et virtutes conseruat. Et secundum Ly. 
+      <lb ed="#A" n="25"/>ram significat vbi supra fidem creatoris que est 
+      com<lb ed="#A" n="26" break="no"/>tra idolatriam. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e955">
+                  <lb ed="#A" n="27"/>¶ Carbunculus dicitur eoque ignitus sit vt carbor 
+      <lb ed="#A" n="28"/>hunc Aaron in veste habebat <ref xml:id="Vn7Pel-h88479-Rd1e961">Exo. xxviii.</ref> omnium 
+      gen<lb ed="#A" n="29" break="no"/>marum et lapidum sola virtutes habet et principatum 
+      <lb ed="#A" n="30"/>Et est rubicundus: lucens in nocte et tenebris quasi 
+      <lb ed="#A" n="31"/>noctem in die virtat: venenum aereum vel vaporosum 
+      <lb ed="#A" n="32"/>fugat. Et sicut aurum inter metalla praecellit: sic 
+      car<lb ed="#A" n="33" break="no"/>bunculus inter lapides
+     </p>
+               <p xml:id="Vn7Pel-h88479-d1e975">
+      ¶ Notandum quoque quod 
+      Car<lb ed="#A" n="34" break="no"/>bumculi sunt tres species. Prima et potissima 
+      pro<lb ed="#A" n="35" break="no"/>prie carbumculus dicitur qui lucem velut ignem effundit 
+      <lb ed="#A" n="36"/>Et cum cuncta pereant ab igne: carbumculus 
+      mi<lb ed="#A" n="37" break="no"/>nime patitur ab igne. vnde praecellit lapides. Secunda 
+      <lb ed="#A" n="38"/>species eius Rubith dicitur ignei quidem coloris et colore 
+      <lb ed="#A" n="39"/>sidereo. sed impar carbumculo primo proprie dicto 
+      <lb ed="#A" n="40"/>tam virtute quam luce. vnde nec tenebras noctis fugat. 
+      <lb ed="#A" n="41"/>tamen in aliquibus imitatur primum. Tertia Balastus dicut 
+      <lb ed="#A" n="42"/>qui prae iam dictis multo vilior est tam virtute quam 
+      colo<lb ed="#A" n="43" break="no"/>re et pecio. sed Iaspide dignior est. Item carbumcul 
+      <lb ed="#A" n="44"/>sercat secundum Ludol. libro de vita christi: charitatem quae 
+      praecel<lb ed="#A" n="45" break="no"/>lit omnia: lucet nocte aduersitatis: fugat venenum 
+      <lb ed="#A" n="46"/>pereccati: et omnes virtutes conseruat 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1007">
+                  <lb ed="#A" n="47"/>¶ Celidonius lapis est qui inuenitur in ventre vel 
+      ie<lb ed="#A" n="48" break="no"/>core pullorum hirundinis. Nam secundum physiols. et 
+      supraedi<lb ed="#A" n="49" break="no"/>ctos. si tenellos pullos hirundinis prima die 
+      lu<lb ed="#A" n="50" break="no"/>na deficiente ex nido sustuleris: considera eos quod 
+      <lb ed="#A" n="51"/>in nido ore ad os adinuicem conuerse sedent. Et ta 
+      <lb ed="#A" n="52"/>les (non curando de aliis scilicet qui auersis posterioribus 
+      <lb ed="#A" n="53"/>sedent) accipe: fissis quae ventribus illorum primo dictorum 
+      <lb ed="#A" n="54"/>pullorum scilicet conuerse sedentium: inuenies in eis paruos 
+      <lb ed="#A" n="55"/>lapillos duos quos habent in iecore vel ventre: vnum 
+      <lb ed="#A" n="56"/>rufum: alium nigrum. Accipe ambos et caue ne terram 
+      <lb ed="#A" n="57"/>tangant: et ne tuc assit pater vel mater pullorum talium. quia sic 
+      <!--290.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lapides huiusmodi dicunitur fortioris virutis fieri. Site. 
+      <lb ed="#A" n="59"/>hoc verum est vel non: arbitrio lectoris committo: non 
+      <lb ed="#A" n="60"/>asserens quod dubito. quia causam huius certam non habeo. 
+      <lb ed="#A" n="61"/>Itaque Celidonius ille rufus pamnno lineo inuolutus 
+      <lb ed="#A" n="62"/>vel pelle vituli antequam coeat: et sub ascella vt dicitur 
+      <lb ed="#A" n="63"/>sinistra circumligatus et gestatus valet contra lunaticam 
+      pas<lb ed="#A" n="64" break="no"/>sionem et insania. Niger autem Celidonius valet contra 
+      fe<lb ed="#A" n="65" break="no"/>bres ac varios humores. Si vero aqua diluatur praeserti 
+      <lb ed="#A" n="66"/>eo trito cum aqua oculos dolentes inunctos sanat et 
+      <lb ed="#A" n="67"/>clarificat. Sed herba celidonia virtutem lapidis 
+      tol<lb ed="#A" n="68" break="no"/>lit. ergo deus mirabilis in omnibus. Ad hec vbi <ref xml:id="Vn7Pel-h88479-Rd1e1061">Auis. §. 2.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h88479-d1e1064">
+                  <lb ed="#A" n="69"/>¶ Corallius vel Corallus: vulgo Claris. De hoc 
+      <lb ed="#A" n="70"/>vbi <ref xml:id="Vn7Pel-h88479-Rd1e1070">Herba. §. xxix. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h88479-d1e1073">
+                  <lb ed="#A" n="71"/>¶ Cornelius vel Corneolus vt dicit glo. super Exo. idem 
+      <lb ed="#A" n="72"/>lapis est qui dicitur Sardius. Uide ibi 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1080">
+                  <lb ed="#A" n="73"/>¶ Chrysolitus est lapis auro similis scintillans: 
+      confor<lb ed="#A" n="74" break="no"/>tat intellectum: et valet contra timores nocturnos. Ideo 
+      <lb ed="#A" n="75"/>secundum Lyram super Apoc. xxi. sercat fidem incarnationis 
+      di<lb ed="#A" n="76" break="no"/>uine quae illuminat intellectum et confortat in bono. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1091">
+                  <lb ed="#A" n="77"/>¶ Chrysopassus est lapis Indicus ex aureis gutis 
+      <lb ed="#A" n="78"/>ac colore suci porri permixtus nocte micans et igneus. 
+      <lb ed="#A" n="79"/>sed die aureus: lucet in tenebris sicut noctiluca vel 
+      quaer<lb ed="#A" n="80" break="no"/>cus putrida. Is visum clarificat. et valet contra lepran 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1102">
+                  <lb ed="#A" n="81"/>¶ Item secundum Lyram supra sercat fidem resurrectionis 
+      christi<lb ed="#A" n="82" break="no"/>ad glorie incorruptibilis lucem. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1110">
+                  <lb ed="#A" n="83"/>¶ Crystallus est lapis resplendens colore aquo 
+      <lb ed="#A" n="84"/>so glaciei similis. vnde traditur esse nix glacie durata per 
+      <lb ed="#A" n="85"/>annos. zo. secundum Arnoldum: tam vi frigoris quam vi 
+      po<lb ed="#A" n="86" break="no"/>tius terrestreitatis. ideoque nil aliud quam frigidum 
+      pa<lb ed="#A" n="87" break="no"/>ti potest. Hic radiis solis oppositus adeo flammam 
+      ra<lb ed="#A" n="88" break="no"/>pit dum frigidus est vt aridis foliis ignem prebeat: 
+      <lb ed="#A" n="89"/>praesertim in regione feruida solis estu. Sed nequaquam 
+      <lb ed="#A" n="90"/>id facit si calidus est crystallus. Uirtus eius est con 
+      <lb ed="#A" n="91"/>sitim et ardorem si ore teneatur. Item tritus cum melle 
+      po<lb ed="#A" n="92" break="no"/>tatus vbera matrum lacte replet. Ecce deus mire 
+      <lb ed="#A" n="93"/>operans. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e1137">
+               <head xml:id="Vn7Pel-h88479-Hd1e1139">10</head>
+               <p xml:id="Vn7Pel-h88479-d1e1141">
+                  <lb ed="#A" n="94"/>Diamanticus ferream sibi sedem 
+      <lb ed="#A" n="95"/>propinquam eligit in quocumque metallo gestetur De hoc vbi 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1148">
+                  <lb ed="#A" n="96"/>¶ Dionisia lapis fuscus respersus gut Adamas 
+      <lb ed="#A" n="97"/>tis albis vel rubentibus: tritus in aqua vinum fra 
+      <lb ed="#A" n="98"/>grare facit: et tamen suo odore ebrietatem contra 
+      natu<lb ed="#A" n="99" break="no"/>ram fugat. In quo patet deus mirabilis. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1159">
+                  <lb ed="#A" n="100"/>¶ Electria idem lapis est qui Allectorius vocatur. de 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1164">
+                  <lb ed="#A" n="101"/>¶ Emathites lapis est rubeus: (quo supra habitum est 
+      <lb ed="#A" n="102"/>ferrugineus valet mire oculis cruore suffusis: et contra 
+      <lb ed="#A" n="103"/>sprutum sanguineum: et contra menstrui fluxum. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1174">
+                  <lb ed="#A" n="104"/>¶ Ethites: lapides binos marem et feiam aiunt 
+      inue<lb ed="#A" n="105" break="no"/>niri. nec sine his aquilas parere. Et est punicei 
+      co<lb ed="#A" n="106" break="no"/>loris id est rubei vel coccinei. habetque lapillum interius 
+      <lb ed="#A" n="107"/>ex quo fit sonorus. Hic ab aquila de extremis orbis 
+      <lb ed="#A" n="108"/>partibus in nidum portatur. quia extimat eum naturaliter quod 
+      <lb ed="#A" n="109"/>sit ad tutame pullorum suorum. Ut enim dicunt quidam 
+      <lb ed="#A" n="110"/>oua aquile immoderato calore concalescunt: nisi iste 
+      la<lb ed="#A" n="111" break="no"/>pis sit praesens qui frigidus est naturaliter: adeo quod etiam 
+      <lb ed="#A" n="112"/>gnis calor nequit ei nocere. Hic lapis facilitatr 
+      <lb ed="#A" n="113"/>partum et efficacissime iuuat praegnantes ne aborsum 
+      <lb ed="#A" n="114"/>faciant. Item in leuo lacerto portando: epilensiam et 
+      <!--291.xml-->
+      <pb ed="#A" n="292"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>casum caducorum morborum prohibet. Dei itaque boni 
+      <lb ed="#A" n="2"/>tas laudabilis in talibus. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1211">
+                  <lb ed="#A" n="3"/>¶ Falcanos: qui et arsenicum et auripigmentum dicitur 
+      <lb ed="#A" n="4"/>sapis est rubeus et citrinus. habens natura sulphurit 
+      <lb ed="#A" n="5"/>talefaciendi et desiccandi si eri apponatur: tramsmuta 
+      <lb ed="#A" n="6"/>illud in album. Omnia metallina corpora exurit praeter 
+      <lb ed="#A" n="7"/>aurum cum calce viua mixtum et corpori illitum: tollit pilos 
+      <lb ed="#A" n="8"/>secundum Diascor. Uide vbi <ref xml:id="Vn7Pel-h88479-Rd1e1226">Metalla. §. xiiii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h88479-d1e1229">
+                  <lb ed="#A" n="9"/>¶ Filaterius. idem est quod <ref xml:id="Vn7Pel-h88479-Rd1e1233">Chrysolitus de quo supra §. ix.</ref> prtunit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e1238">
+               <head xml:id="Vn7Pel-h88479-Hd1e1240">11</head>
+               <p xml:id="Vn7Pel-h88479-d1e1242">
+                  <lb ed="#A" n="10"/>¶ Hyacinthus est lapis cerulei 
+      co<lb ed="#A" n="11" break="no"/>loris luce purpurea refulgens. in sereno clarus 
+      <lb ed="#A" n="12"/>et in nubilo obscurus. mutatur enim cum aura celi 
+      Me<lb ed="#A" n="13" break="no"/>liores sunt hyacinthi qui dicuntur granati qui sunt 
+      medi<lb ed="#A" n="14" break="no"/>inter rarum et densum. ac perspicui id est non nimis rari nec 
+      <lb ed="#A" n="15"/>nimis densi. Et qui iuxta ignem magis ac magis 
+      <lb ed="#A" n="16"/>rubicundi fiunt. Uirtus eius est quod homo portans ips: 
+      <lb ed="#A" n="17"/>intrando terram pestilenticam non inficietur. Tristicia 
+      <lb ed="#A" n="18"/>fugat ac suspiciones vanas. Item dat vigorem 
+      <lb ed="#A" n="19"/>mebris. somnum prouocat. et saporem sanum facit. Item 
+      <lb ed="#A" n="20"/>secundum Lyram significat fidem ascensionis christi in 
+      ce<lb ed="#A" n="21" break="no"/>lum etc. Item Greg. dicit in pastoralis. quod 
+      hyacin<lb ed="#A" n="22" break="no"/>thus si sit cerulei coloris lucens praefertur pallenti 
+      car<lb ed="#A" n="23" break="no"/>bunculo propter specim decoris. licet in natura 
+      gen<lb ed="#A" n="24" break="no"/>marum carbunculus praeferatur hyacintho Sic laicus 
+      <lb ed="#A" n="25"/>bone vite praefertur praesbytero dissoluto 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1279">
+                  <lb ed="#A" n="26"/>¶ Iaspis grece. latine viridis gemma: est simis 
+      <lb ed="#A" n="27"/>Smaragdo. sed crassi coloris. Et licet sint species 
+      <lb ed="#A" n="28"/>multorum colorum. optimus tamen est viridis transsucens 
+      <lb ed="#A" n="29"/>magis quam alius non tam perlucidus. rubens Iaspis lapis 
+      <lb ed="#A" n="30"/>virens est. habens guttas sanguineas. Uirtus eius est 
+      ocu<lb ed="#A" n="31" break="no"/>los purgare. visum acuere et confortare. Ideo secut secundum 
+      L<lb ed="#A" n="32" break="no"/>ram Apoc. xxi. Fidem veram deitatis christi quae errores 
+      pur<lb ed="#A" n="33" break="no"/>gat. Item Iaspis hominem tutum facit. phantasmata 
+      <lb ed="#A" n="34"/>pellit. castum facit se portantem hominem Et vt dicit 
+      Ray<lb ed="#A" n="35" break="no"/>banus. Iaspis suo virore fidem immarcessibile. 
+      <lb ed="#A" n="36"/>indicat quam virtutum flores comitantur Unde secudum Ludos 
+      <lb ed="#A" n="37"/>phum sercat veritatem vite et verborum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e1309">
+               <head xml:id="Vn7Pel-h88479-Hd1e1311">12</head>
+               <p xml:id="Vn7Pel-h88479-d1e1313">
+                  <lb ed="#A" n="38"/>¶ Ligurius gemma sic appellata 
+      <lb ed="#A" n="39"/>eo quod ex Lyncs vrina fiat. vt patuit vbi <ref xml:id="Vn7Pel-h88479-Rd1e1319">Bestia. §. 
+      <lb ed="#A" n="40"/>xviii.</ref> Et secundum Rabanum ligurius habet colorem quasi 
+      ele<lb ed="#A" n="41" break="no"/>ctri. et si fuerit confricatus paleas attrahit Est etiam secudm 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1327">
+                  <lb ed="#A" n="42"/>¶ Bedam de natu. rerum frequentius croceus parumad 
+      ni<lb ed="#A" n="43" break="no"/>gredinem et viriditatem tendens. igneus et rubicundus 
+      <lb ed="#A" n="44"/>Ualet praecipue vulneratis. et a vulnere ferrum extra 
+      <lb ed="#A" n="45"/>hit. secundum Phisiologum. Item ablutus aqua constipatos 
+      iu<lb ed="#A" n="46" break="no"/>uat. et soluit ventrem. Ictericis colorem reparat Et 
+      <lb ed="#A" n="47"/>significat humilitatem. 
+      <lb ed="#A" n="48"/>Margarita est prima gemarum candidarum sic 
+      no<lb ed="#A" n="49" break="no"/>minata. quia maris in concha inuenitur et quae 
+      Ecelola<lb ed="#A" n="50" break="no"/>vocatur. et vnica in vna concha et nunquam due. Unde e 
+      <lb ed="#A" n="51"/>vniones nominantur. Gignitur autem de celesti rore. Nam 
+      <lb ed="#A" n="52"/>conche huiusmodi in nocte litus adeunt: vel de 
+      <lb ed="#A" n="53"/>profundo maris ascendunt ad superficiem hora 
+      matu<lb ed="#A" n="54" break="no"/>tina: et aperiens se suscipit de rore celi intra se et 
+      cir<lb ed="#A" n="55" break="no"/>cumfulget eas radius tandem solis: et interum 
+      descen<lb ed="#A" n="56" break="no"/>dunt in profundum se claudendo. sicque fit intra eas 
+      <!--291.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>margarita preciosa. Si purum fuerit quod 
+      ac<lb ed="#A" n="58" break="no"/>cipiunt: gemme candide fiunt tanto quanto iu 
+      <lb ed="#A" n="59"/>niores sunt et matutinum rorem capiunt. Sed sene 
+      <lb ed="#A" n="60"/>ctus et ros vespertinus vel aeris turbidi: tunc pallore 
+      <lb ed="#A" n="61"/>aut rufo obnubilantur et flauescunt. Et quanto 
+      ma<lb ed="#A" n="62" break="no"/>iorem hauserint rorem: maior fit gemma. de celesti ita 
+      <lb ed="#A" n="63"/>que rore gignitur: tanto melior quanto candidior et 
+      ma<lb ed="#A" n="64" break="no"/>lor: rotudior et ponderosior. Uirtus eius est conferre 
+      <lb ed="#A" n="65"/>corporis sanitatem et etiam mentis. quia castum reddit 
+      por<lb ed="#A" n="66" break="no"/>tantem. Ualet contra morbum caducum et contra cordiacam 
+      pas<lb ed="#A" n="67" break="no"/>sionem et syncopim et sanguinis fluxum. In aceto 
+      po<lb ed="#A" n="68" break="no"/>site tatum: citius resoluuntur. Unde conuenienter hec 
+      ap<lb ed="#A" n="69" break="no"/>plicantur ad significandum castitatem. iuxta illud 
+      Mar<lb ed="#A" n="70" break="no"/>xiii. Inuenta vna praeciosa margarita: dedit omni slicet 
+      <lb ed="#A" n="71"/>comporauit. Ecce dei operatio. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1399">
+                  <lb ed="#A" n="72"/>¶ Nose lapis est idem qui et <ref xml:id="Vn7Pel-h88479-Rd1e1403">Borax. de quo 
+      di<lb ed="#A" n="73" break="no"/>ctum est. §. viii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h88479-d1e1409">
+                  <lb ed="#A" n="74"/>¶ <ref xml:id="Vn7Pel-h88479-Rd1e1413">Olearius. De hoc tatum est supra §. i. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e1417">
+               <head xml:id="Vn7Pel-h88479-Hd1e1419">13</head>
+               <p xml:id="Vn7Pel-h88479-d1e1421">
+                  <lb ed="#A" n="75"/>¶ Inyx vel Onvcinus de quo 
+      <lb ed="#A" n="76"/>
+                  <ref xml:id="Vn7Pel-h88479-Rd1e1427">Gen. ii.</ref> Ibi scilicet circa phison in India) inuenitur 
+      <lb ed="#A" n="77"/>bdellium et lapis onycinus: qui secundum Lyram nominatur 
+      pro<lb ed="#A" n="78" break="no"/>poter similitudinem qua habet in colore cum vngue 
+      hu<lb ed="#A" n="79" break="no"/>mano. Onyx enim grece dicitur vnguis. vnde significat 
+      <lb ed="#A" n="80"/>digitos operis misericordie. Beda autem dicit quod sit 
+      colo<lb ed="#A" n="81" break="no"/>ris nigri ex parte intercurrentibus albis et rubeis 
+      zo<lb ed="#A" n="82" break="no"/>nis. Idem dicit etiam Arnoldus. Sed hec contrietas 
+      <lb ed="#A" n="83"/>soluitur ex Plinio: quod Onyx Indica inquit plures 
+      ha<lb ed="#A" n="84" break="no"/>bet varietates. quia inuenitur quaedam eius species quae 
+      ha<lb ed="#A" n="85" break="no"/>bet similitudinem humani vnguis. Et quaedam que habet 
+      <lb ed="#A" n="86"/>colorem chrysoliti et sardi scilicet ignei et iaspidis. Et quae 
+      <lb ed="#A" n="87"/>dam inuenitur species quae est nigri coloris tincti venis 
+      <lb ed="#A" n="88"/>albis etc. Uirtus eius est quod si suspendatur supra 
+      pe<lb ed="#A" n="89" break="no"/>ctus hominis: vt Arist. dicit: pallore et timore: ac 
+      tri<lb ed="#A" n="90" break="no"/>sticiam facit. Et ita secundum Bedam lites et discordias 
+      <lb ed="#A" n="91"/>commouet. quo contra valet Sardius. Infra. 
+      <lb ed="#A" n="92"/>Item secundum glo. super <ref xml:id="Vn7Pel-h88479-Rd1e1464">Exod. xxx.</ref> Onycinum vnguentum 
+      <lb ed="#A" n="93"/>compositionis: valet contra scabiem et albificat faciem etc. Et 
+      <lb ed="#A" n="94"/>Onyca in ignem missa suauissimum odorem reddit. 
+      <lb ed="#A" n="95"/>Ibi autem glo.a ponit onycam pro onycino. Unde 
+      Pla<lb ed="#A" n="96" break="no"/>tearius dicit: quod Onyca vel onyx est genus gumi 
+      flu<lb ed="#A" n="97" break="no"/>ens ex arbore: quod postea durescit in lapidem: sicut 
+      <lb ed="#A" n="98"/>et de Succino legitur. Hoc mirabile fertur de Ony 
+      <lb ed="#A" n="99"/>ca quod cum oculus ledatur a quocumque duro intrante 
+      <lb ed="#A" n="100"/>in ipstet etiam ab exiguo puluere: tamen onyx cum 
+      infir<lb ed="#A" n="101" break="no"/>mo oculo apponitur: sua sponte: quasi res sensata 
+      in<lb ed="#A" n="102" break="no"/>trat sine lesione: circumitque omnes partes oculi interius 
+      <lb ed="#A" n="103"/>et penetrat: quosque contrarios reperit humores 
+      <lb ed="#A" n="104"/>prorsus excutit etc. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1493">
+                  <lb ed="#A" n="105"/>¶ Pyrithes lapis est nominatus a pyr quod est 
+      <lb ed="#A" n="106"/>ignis: coloris nigri vel fului: leniter vult tangis 
+      <lb ed="#A" n="107"/>Si autem nimis stringatur: digitos stringentis 
+      adu<lb ed="#A" n="108" break="no"/>rit: vt dicit <ref xml:id="Vn7Pel-h88479-Rd1e1503">Augustinus. xxi.</ref> de ciui. dei. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1506">
+                  <lb ed="#A" n="109"/>¶ Quirinus lapis reperitur in nidis vpupe: phata 
+      <lb ed="#A" n="110"/>tasias auget et secreta prodit in somno. Ecce 
+      mi<lb ed="#A" n="111" break="no"/>ra dei opera. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1515">
+                  <lb ed="#A" n="112"/>¶ Rubitu. De hoc supra vbi Ccarbunctlus 
+      ta<lb ed="#A" n="113" break="no"/>o et. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e1523">
+               <head xml:id="Vn7Pel-h88479-Hd1e1525">14</head>
+               <p xml:id="Vn7Pel-h88479-d1e1527">
+      <!--292.xml-->
+                  <pb ed="#A" n="293"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Sapphyrua est lapis celo 
+      se<lb ed="#A" n="2" break="no"/>reno similis. Et dicitur gemma gemmarum et lapis sanctus. 
+      <lb ed="#A" n="3"/>Optimus sapphyrus est densus et non transsucens. 
+      <lb ed="#A" n="4"/>Et carior est et virtuosior sapphyrus qui lapidem 
+      Ru<lb ed="#A" n="5" break="no"/>bith admixtum habet. Item glo. super Apoc. dicit. 
+      Sap<lb ed="#A" n="6" break="no"/>phyrus sereno similis est: qui radiis solis percussus 
+      <lb ed="#A" n="7"/>ardentem emittit fulgorem. Et secundum Bedam quantumcumque 
+      <lb ed="#A" n="8"/>purus sit: nunquam tamen imaginem in se ostendit (sicut 
+      spe<lb ed="#A" n="9" break="no"/>culum facit) Uirtus eius est contra fraudes et inuidiam est 
+      <lb ed="#A" n="10"/>terrores. Hic vt fertur obstructas fores ac 
+      vincu<lb ed="#A" n="11" break="no"/>la resoluit. Sed oportet vt qui eum portat: castitatis 
+      <lb ed="#A" n="12"/>summo studio seruet. Unde eius significatio 
+      appli<lb ed="#A" n="13" break="no"/>cari potest castitati in christi fide et amore. Item secundum e. 
+      <lb ed="#A" n="14"/>Bedam de nat. re. Sapphyrus morbum illu 
+      horribi<lb ed="#A" n="15" break="no"/>lem fugat qui vulgariter vocatur Noli me tangere. sed 
+      <lb ed="#A" n="16"/>post fugatione dicitur viciari colore. Item sa pophyrus 
+      <lb ed="#A" n="17"/>secundum Plinium aureis collucet punctis: corporis 
+      membra<lb ed="#A" n="18" break="no"/>gestantium vegetat et confortat: tumores sedat et 
+      vl<lb ed="#A" n="19" break="no"/>cera: dolorem frotis curat. Unde secundum Lyram Apoc. xxi. 
+      <lb ed="#A" n="20"/>significat fidem integram trinitatis diuine que in 
+      men<lb ed="#A" n="21" break="no"/>bris christi id est fidelibus facit vegetationem: confortatio 
+      <lb ed="#A" n="22"/>nem: et morborum anime sanationem etc. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1584">
+                  <lb ed="#A" n="23"/>¶ Sardius rubei est clarique coloris: gaudium 
+      ac<lb ed="#A" n="24" break="no"/>cedit: timorem pellit: et audaces reddit: et mentem 
+      <lb ed="#A" n="25"/>exacuit. eoque praesente: onyx non potest nocere Unde secundum Lty. 
+      <lb ed="#A" n="26"/>ram Apoc. xxi. significat fidem vite eterne et beate ac 
+      gau<lb ed="#A" n="27" break="no"/>diose in patria etc. De hoc lapide dicitur in glo. 
+      super<lb ed="#A" n="28" break="no"/>xxviii ca. Exo. quod est idem lapis qui corneolus et corne 
+      <lb ed="#A" n="29"/>lius. Et secundum Bedam est coloris vt terra rubea. vel 
+      <lb ed="#A" n="30"/>incise carni similis. Huiusmodi lapidum multitudinem 
+      fi<lb ed="#A" n="31" break="no"/>lii israel in deserto sculpsisse dicuntur. Iste lapis 
+      col<lb ed="#A" n="32" break="no"/>lo digito ve suspensus gerentis adheret: iras 
+      miti<lb ed="#A" n="33" break="no"/>gat: valet contra fluxum menstruorum: et quemcumque 
+      sangui<lb ed="#A" n="34" break="no"/>neum fluxum ex membro sistit: significat correctionem 
+      <lb ed="#A" n="35"/>fraternam secundum Ludolphum. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1615">
+                  <lb ed="#A" n="36"/>¶ Sardonyx: ex duobus gemis nomina scilicet ex sardo 
+      <lb ed="#A" n="37"/>et onyce. Et naturaliter est in parte rubeus ex lapide 
+      <lb ed="#A" n="38"/>sardio. et in parte niger cum albis venis sicut onyx 
+      <lb ed="#A" n="39"/>ipso praesente: lapis onyx nocere non potest. Optimus est 
+      <lb ed="#A" n="40"/>ad sigilla: quia nihil couellit de cera. Uirtus eius est 
+      <lb ed="#A" n="41"/>luxuriam depellere: castum et pudicum et humilem 
+      redde<lb ed="#A" n="42" break="no"/>re. Unde secundum Lyram Apoc. xxi. sercat fidem future 
+      resur<lb ed="#A" n="43" break="no"/>rectionis corporum de humilitate terre ad gloriam vbi 
+      <lb ed="#A" n="44"/>qeque nubent nec nubentur. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1637">
+                  <lb ed="#A" n="45"/>¶ Smaragdus est lapis viridissimi coloris: 
+      nil<lb ed="#A" n="46" break="no"/>iocundius eo: nil vtilius vident oculi. Nam fatigator 
+      <lb ed="#A" n="47"/>oculorum obtuitus colore reficit et recreat: visum 
+      de<lb ed="#A" n="48" break="no"/>bilem confortat: et oculos illesos conseruat: lasciuiam 
+      <lb ed="#A" n="49"/>compescit: et ad coitum rumpitur: memoriamque reddit: 
+      ca<lb ed="#A" n="50" break="no"/>ducum morbum fugat si reuerenter portetur. Et 
+      sercat<lb ed="#A" n="51" break="no"/>sanctitatem. In causis dat verbum persuasiuum: et 
+      fa<lb ed="#A" n="52" break="no"/>cundiam parat. Fertur etiam diuitias augere. Une 
+      <lb ed="#A" n="53"/>secundum etiam Lyram Apocal. xxi. significat fidem 
+      sanctifi<lb ed="#A" n="54" break="no"/>cationis et remissionis peccatorum per gratiam dei in 
+      ora<lb ed="#A" n="55" break="no"/>tipone et penitentia. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1664">
+                  <lb ed="#A" n="56"/>¶ Succinus lapis quem greci Electron vocant. 
+      <lb ed="#A" n="57"/>Et dicitur etiam Rarrabe. vide vbi <ref xml:id="Vn7Pel-h88479-Rd1e1670">Gumi. §. 6 </ref>
+                  <!--292.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>a Germanis Glessum vel Glessaria. Uel secundum 
+      Be<lb ed="#A" n="59" break="no"/>dam vulgariter appellatur Lambra. tamen apud 
+      <lb ed="#A" n="60"/>nos Gyentha. Hic crocei coloris est. et vt vitrium 
+      <lb ed="#A" n="61"/>aliquando translucet. Unde et Chrysolectrum quasi 
+      <lb ed="#A" n="62"/>coloris aurei appellando nouam differentiam 
+      <lb ed="#A" n="63"/>affert. et quocunque colore et etiam nigro tingitur. 
+      <lb ed="#A" n="64"/>Nascitur autem de fluente medulla vel lachryma in 
+      <lb ed="#A" n="65"/>arboribus pinei generis: vt gumi in cerasis. vnde 
+      <lb ed="#A" n="66"/>putatur arboris sucus esse: et inde Succinus 
+      ap<lb ed="#A" n="67" break="no"/>pellatur. Itaque secundum Ambrosium in Hexamerio. li. 
+      <lb ed="#A" n="68"/>iii. et Plinium: huiusmodi lachryma vel gumi 
+      tan<lb ed="#A" n="69" break="no"/>dem densatur et solidatur rigore vel tempore 
+      dure<lb ed="#A" n="70" break="no"/>scens in lapidem. Et habet plura genera vel 
+      spe<lb ed="#A" n="71" break="no"/>cies. Uirtus eius aperta est quod attritu digitorum 
+      <lb ed="#A" n="72"/>vel confricationis: acccepta vi caloris: attrahit 
+      pa<lb ed="#A" n="73" break="no"/>leas et folia arida et pilos vel vestium fimbrias: 
+      <lb ed="#A" n="74"/>et huiusmodi leuia. sicut ferum attrahit magnes. 
+      Pro<lb ed="#A" n="75" break="no"/>dest etiam vrine difficultatibus potatum atque 
+      adal<lb ed="#A" n="76" break="no"/>ligatum. Castitatem portantibus conferre dicitur. 
+      <lb ed="#A" n="77"/>Fumus eius iuuat parturientes: et fugat 
+      serpen<lb ed="#A" n="78" break="no"/>tes. Ecce deus mirabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88479-Dd1e1724">
+               <head xml:id="Vn7Pel-h88479-Hd1e1726">15</head>
+               <p xml:id="Vn7Pel-h88479-d1e1728">
+                  <lb ed="#A" n="79"/>¶ Topazion vel Topazius est 
+      la<lb ed="#A" n="80" break="no"/>pis praeciosus. Et vt dicit Glo. super Apocalis. nil est 
+      <lb ed="#A" n="81"/>eo charius regibus inter diuitias. Unde rex <ref xml:id="Vn7Pel-h88479-Rd1e1736">
+      Da<lb ed="#A" n="82" break="no"/>uid canit in psalo cxviii.</ref> Ideo dilexi mandata tua 
+      <lb ed="#A" n="83"/>super aurum et topazion. Et habet duos 
+      colo<lb ed="#A" n="84" break="no"/>res sicut et due sunt eius species. Unius color est 
+      <lb ed="#A" n="85"/>auro similis. et hic est magis preciosus secundum 
+      Be<lb ed="#A" n="86" break="no"/>dam libro de nat. re. Alterius color est clarior et 
+      <lb ed="#A" n="87"/>lucidior ac magis tenuis. et est minus praeciosus. 
+      <lb ed="#A" n="88"/>Item Topazion maxime lucet cum solis 
+      splen<lb ed="#A" n="89" break="no"/>dore tangitur quem si polis obscuras: si vero re. 
+      <lb ed="#A" n="90"/>linquis clarior est. limam sola sentit inter gemmas 
+      <lb ed="#A" n="91"/>nobiles. inuenta est primum in Arabia: secundum 
+      Pli<lb ed="#A" n="92" break="no"/>nium reparitur aliquando tante magnitudinis vt 
+      <lb ed="#A" n="93"/>ex eo Ptolomeus Philadelphus statuam 
+      fece<lb ed="#A" n="94" break="no"/>rit quattuor cubitorum. Uirtus eius est secundum 
+      Aristo<lb ed="#A" n="95" break="no"/>telem: Arnoldum: et alios: quod cum ponitur topazioeo 
+      su<lb ed="#A" n="96" break="no"/>per hominis vulnus cessat fluxus eius. vndas 
+      feruen<lb ed="#A" n="97" break="no"/>tes compescit et bullire prohibet. valet contra emorroi 
+      <lb ed="#A" n="98"/>das et contra frenesim et contra iram et lunaticam 
+      pas<lb ed="#A" n="99" break="no"/>sionem que per demones quando quaem excitatur vel 
+      augmen<lb ed="#A" n="100" break="no"/>tatur: et tristiciam sedat. Unde secundum Lyram Apoca. xxi. 
+      <lb ed="#A" n="101"/>secat fidem descensus christi ad inferas contra demones: et 
+      <lb ed="#A" n="102"/>vris lapis coloris crystallini: sobedientiam 
+      <lb ed="#A" n="103"/>apud Arabiam nascitur in mari rubro: sexangulatus 
+      <lb ed="#A" n="104"/>Hic sub tecto percussus sole: species ac colores 
+      <lb ed="#A" n="105"/>celestis arcus in proximo pariete eiaculatur subinde 
+      <lb ed="#A" n="106"/>imitan magna admiratione. et tanto melior est 
+      quan<lb ed="#A" n="107" break="no"/>o facit arcus maximos ac celestibus simillimos: 
+      <lb ed="#A" n="108"/>secundum Plinium. Et sic ex omnibus praedictis patet diuine 
+      <lb ed="#A" n="109"/>honitatis supermirabilis et laudabilis operatio. 
+      </p>
+               <p xml:id="Vn7Pel-h88479-d1e1801">
+                  <lb ed="#A" n="110"/>¶ Eilencinus lapis est cuius candor cum luna 
+      cre<lb ed="#A" n="111" break="no"/>scit et decrescit: vt dicit <ref xml:id="Vn7Pel-h88479-Rd1e1807">Augustinus. xxi.</ref> de ciui. Gignitur 
+      <lb ed="#A" n="112"/>in Perside. Hic lapis forsitan idem est quod Cum 
+      <lb ed="#A" n="113"/>lanicius de quo tactu est supra §. iiii. quod similis est 
+      mar<lb ed="#A" n="114" break="no"/>mori. ergo deus bonus laudabilis est in omnibus. 
+      
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pena</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Pena</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="398"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h123313">
+            <head xml:id="Vn7Pel-h123313-Hd1e110">Pena</head>
+            <div xml:id="Vn7Pel-h123313-Dd1e112">
+               <head xml:id="Vn7Pel-h123313-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h123313-d1e116">
+                  <lb ed="#A" n="104"/>Ena del 
+      penali<lb ed="#A" n="105" break="no"/>tas Quottuplex distinguitur pena 
+      <lb ed="#A" n="106"/>Nota secundum <ref xml:id="Vn7Pel-h123313-Rd1e124">Guil. in. ii dist. xxxvi.</ref> quod 
+      <lb ed="#A" n="107"/>septuplenx pena nominatur ab Alano in maxis 
+      theolo<lb ed="#A" n="108" break="no"/>gie seu de regulis fidi maxima seu regula. <ref xml:id="Vn7Pel-h123313-Rd1e131">lxxviii.</ref> 
+      Pri<lb ed="#A" n="109" break="no"/>ma dicitur in bono conseruans sicut fuit pena 
+      in<lb ed="#A" n="110" break="no"/>flicta Paulo apostolo ne extolleretur reuelatione. 
+      <lb ed="#A" n="111"/>Secunda pena dicitur bonum probans. sicut in Iobis 
+      <!--398.xml-->
+      <pb ed="#A" n="399"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>probauit patientia eius bonitatem. Tertia purgans 
+      <lb ed="#A" n="2"/>vt lepra in Maria sorore Moysi. Quarta in ma 
+      <lb ed="#A" n="3"/>lo indurans. vt pena inflicta Pharaoni qua 
+      indu<lb ed="#A" n="4" break="no"/>ratus est. Quinta sola acerbitate crucians. vt 
+      pe<lb ed="#A" n="5" break="no"/>na gehennalis. Sexta peccato maculans. vt dum 
+      <lb ed="#A" n="6"/>peccatum pena peccati ponitur. Addit idem quod 
+      septi<lb ed="#A" n="7" break="no"/>ma est ad maius bonum inuitans. Sed hec ad 
+      se<lb ed="#A" n="8" break="no"/>cundam pertinet. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e165">
+               <head xml:id="Vn7Pel-h123313-Hd1e167">2</head>
+               <p xml:id="Vn7Pel-h123313-d1e169">
+                  <lb ed="#A" n="9"/>¶ Utrum pena sit ipsi peccanti 
+      <lb ed="#A" n="10"/>hoc quod peccat. Respondetur pro pambulo secundum Guill. 
+      <lb ed="#A" n="11"/>supra ex dictis Tho. e. di. xxxvi. q. i. Notando quad 
+      <lb ed="#A" n="12"/>peccatum est pena peccati in triplici genere cause. 
+      <lb ed="#A" n="13"/>videlicet Primo in genere cause efficientis. Tum 
+      de<lb ed="#A" n="14" break="no"/>meritorie. quia peccatum demeretur gratiam subtrahi. et 
+      <lb ed="#A" n="15"/>per consequens labi. Tum dispositiue. quia 
+      pec<lb ed="#A" n="16" break="no"/>catum relinquit in peccante quandam dispositionem 
+      <lb ed="#A" n="17"/>inclinatiuam ad peccatum sequens. Secundo in 
+      ge<lb ed="#A" n="18" break="no"/>nere cause materialis. quia vnum peccatum ex alio 
+      <lb ed="#A" n="19"/>trahit materiam. sicut luxuria ex gula. et dissensio et 
+      <lb ed="#A" n="20"/>auaricia. et iurgium ex superbia. Iuxta illud scriptum 
+      <lb ed="#A" n="21"/>Inter superbos semper sunt iurgia. Tertio in 
+      ge<lb ed="#A" n="22" break="no"/>nere cause finalis. sicuti siquis cum ad vindictam 
+      <lb ed="#A" n="23"/>aliquem interficiat: ista interfectio que est finis 
+      illi<lb ed="#A" n="24" break="no"/>us vindicte est peccatum et pena peccati vindicte ipst 
+      <lb ed="#A" n="25"/>met interficienti vt occidatur secundum leges. iuxta dictum 
+      <lb ed="#A" n="26"/>saluatoris. Omnis inquit qui gladium accipit 
+      gla<lb ed="#A" n="27" break="no"/>dio peribit etc.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e213">
+      ¶ Unde ad quesitum ponitur conclusio quod 
+      <lb ed="#A" n="28"/>peccanti omne peccatum pena existit. Probatur per 
+      <lb ed="#A" n="29"/>Aug. lib. Confes. dicentem Iussisti dmne et ita est quod 
+      <lb ed="#A" n="30"/>omne peccatum pena sit peccanti. Ratio secundum doctu. 
+      <lb ed="#A" n="31"/>subtilem. quia peccatum priuat in homine maximum 
+      bo<lb ed="#A" n="32" break="no"/>num prae omni amissione cuiuscumque boni exterior 
+      <lb ed="#A" n="33"/>vt patet per Ans. libro de concor. libe. ar. et predesti 
+      <lb ed="#A" n="34"/>nationis. sed talis amissio exterior est pena. ergo 
+      <lb ed="#A" n="35"/>etc.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e233">
+      ¶ Sed quomodo potest dici talis priuatio vel 
+      ca<lb ed="#A" n="36" break="no"/>rentia iusticie culpa et pena. Respondet Guill. cum 
+      <lb ed="#A" n="37"/>Magistro. quod ista carentia potest considerari 
+      acti<lb ed="#A" n="38" break="no"/>ue inquentum a libera causatur voluntate. et sic habet 
+      ra<lb ed="#A" n="39" break="no"/>tionem culpe. Uel potest considerari passiue inquantum 
+      <lb ed="#A" n="40"/>recipitur in voluntate. et sic habet rationem pene quia 
+      <lb ed="#A" n="41"/>non est in potestate voluntatis ista receptio 
+      causa<lb ed="#A" n="42" break="no"/>ta deformitate. Unde illa deformitas peccati et 
+      ca<lb ed="#A" n="43" break="no"/>rentia ordinis debiti pena existit in libera 
+      volun<lb ed="#A" n="44" break="no"/>tate. Et ita nec ad momentum est dedecus peccati 
+      <lb ed="#A" n="45"/>sine decore iusticie etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e258">
+               <head xml:id="Vn7Pel-h123313-Hd1e260">3</head>
+               <p xml:id="Vn7Pel-h123313-d1e262">
+                  <lb ed="#A" n="46"/>¶ Utrum vnum peccatu sit pena 
+      <lb ed="#A" n="47"/>alterius peccati. Respondetursecundum e. Guill. supra quod sic. 
+      <lb ed="#A" n="48"/>Probatio: quia eo ipso quod quis peccat meretur a 
+      <lb ed="#A" n="49"/>deo derelinqui. Sed homo a deo relictus faciliter 
+      <lb ed="#A" n="50"/>labitur in peccatum. ergo istud peccatum 
+      quodammo<lb ed="#A" n="51" break="no"/>do pena extat praecedentis. Item probatur exemplo. 
+      <lb ed="#A" n="52"/>quia vt dicit Augustius libro de vera reli. Ex eo quod quis in 
+      su<lb ed="#A" n="53" break="no"/>perbiam erigitur cadit in inuidiam ne a proximo superetur. 
+      <lb ed="#A" n="54"/>et ita inuidia est pena superbie. Item dicit Isido 
+      <lb ed="#A" n="55"/>rus quod deus cleri superbiam occultam vindicat per 
+      aper<lb ed="#A" n="56" break="no"/>tum peccatum luxurie vt confundatur. Unde patet quod 
+      <lb ed="#A" n="57"/>aliquando in eodem genere peccatum est causa al¬ 
+      <!--398.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>terius. sicut luxuria luxurie. Aliquando in 
+      diuer<lb ed="#A" n="59" break="no"/>so. sicut superbia inuidie. Unde Apoca. vi. Qui 
+      <lb ed="#A" n="60"/>in sordibus est sordescat adhuc. Et Grego. 
+      In<lb ed="#A" n="61" break="no"/>ter primum peccatum apostasie et vltimam penam 
+      ignis<lb ed="#A" n="62" break="no"/>terni media quae sunt et peccata sunt et pena peccati. Hec ille. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e307">
+               <head xml:id="Vn7Pel-h123313-Hd1e309">4</head>
+               <p xml:id="Vn7Pel-h123313-d1e311">
+                  <lb ed="#A" n="63"/>¶ Utrum culpa possit separari a 
+      <lb ed="#A" n="64"/>pena id est esse sine pena. Respondet Guill. supra. quod non. 
+      <lb ed="#A" n="65"/>Probatur primo ex parte hominis peccantis. quia 
+      <lb ed="#A" n="66"/>quando homo peccat mortaliter perdit deum. et ita 
+      <lb ed="#A" n="67"/>summum bonum. et adquirit bonum corpora le vel tem 
+      <lb ed="#A" n="68"/>porale. quod est minimum. et a conscientia remorde 
+      <lb ed="#A" n="69"/>tur. atque ita damnum patitur et guerram in se. Unde eo 
+      <lb ed="#A" n="70"/>praeo quod peccat simul habet penam damni et 
+      conscien<lb ed="#A" n="71" break="no"/>tie. Secundo patet ex parte diuine sapientie que sic 
+      <lb ed="#A" n="72"/>ordinauit quod culpa ordinetur per penam. ergo non 
+      <lb ed="#A" n="73"/>est sine pena in mundo. Tertio ex parte diuine iu 
+      <lb ed="#A" n="74"/>sticie. vt per talem ordinationem culpe ad penam 
+      relu<lb ed="#A" n="75" break="no"/>ceat iusticia dei. Unde mali licet in temporalibus 
+      <lb ed="#A" n="76"/>aliqualiter letentur: tamen dum redeunt introrsus 
+      <lb ed="#A" n="77"/>ad conscientiam torquentur. boni vero econuerso deo 
+      <lb ed="#A" n="78"/>ordinante etsi exterius patiantur tamen interius 
+      con<lb ed="#A" n="79" break="no"/>solantur. Psal. quam magna multitudo dulcedinis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e352">
+               <head xml:id="Vn7Pel-h123313-Hd1e354">5</head>
+               <p xml:id="Vn7Pel-h123313-d1e356">
+                  <lb ed="#A" n="80"/>¶ Si ergo queratur que sit 
+      pe<lb ed="#A" n="81" break="no"/>na maxima anime rationalis. Respondetur quod licet 
+      pecca<lb ed="#A" n="82" break="no"/>tor praesertim obstinatus non sentiat vtpote 
+      diabo<lb ed="#A" n="83" break="no"/>licus: verumtamen vt dicit idem Guill. maxima 
+      pe<lb ed="#A" n="84" break="no"/>na est priuatio iusticie. quia perdit maximum banum 
+      <lb ed="#A" n="85"/>scilicet deum. et cum hoc habet tormentum conscientie. 
+      <lb ed="#A" n="86"/>De quo Ambro. de offi. et Bernd. dicunt quod 
+      nul<lb ed="#A" n="87" break="no"/>a pena grauior est quam interius vulnus 
+      conscien<lb ed="#A" n="88" break="no"/>tie. quod magis fugiendum est quam mors. quam 
+      dispendi<lb ed="#A" n="89" break="no"/>um: et exiliu. et quam omnis alius dolor. Probatur 
+      <lb ed="#A" n="90"/>primo. quia conscientia mala existente nil boni 
+      po<lb ed="#A" n="91" break="no"/>test homini prodesse. nec baptismus nec christi 
+      pas<lb ed="#A" n="92" break="no"/>sio. Unde Cassiodorus in epistolis. Quid adquiri 
+      pu<lb ed="#A" n="93" break="no"/>tatur vbi conscientia bona perditur. q. dicit nil boni. 
+      <lb ed="#A" n="94"/>Secundo quia vt Isido. de summo bo. li. ii. c. xxvi 
+      <lb ed="#A" n="95"/>dicit. De iudicio coscientie itur ad iudicium 
+      damna<lb ed="#A" n="96" break="no"/>tionis perpetue. Tertio quia punit pena perpetua 
+      <lb ed="#A" n="97"/>in gehenna. Unde Esa. lxvi. Uermis eorum scilicet 
+      com<lb ed="#A" n="98" break="no"/>scientie non morietur. Unde pena conscientie ama 
+      <lb ed="#A" n="99"/>ra in presenti est amarior in morte. sed amarissi 
+      <lb ed="#A" n="100"/>ma in inferno. Et ex hoc laudabilis est dei iusticia 
+      </p>
+               <p xml:id="Vn7Pel-h123313-d1e404">
+                  <lb ed="#A" n="101"/>¶ An pena sit proprie in volunta 
+      <lb ed="#A" n="102"/>te. vide vbi <ref xml:id="Vn7Pel-h123313-Rd1e410">Uoluntas. §. xi. et se.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e414">
+               <head xml:id="Vn7Pel-h123313-Hd1e416">6</head>
+               <p xml:id="Vn7Pel-h123313-d1e418">
+                  <lb ed="#A" n="103"/>¶ Utrum pena possit esse in aliqua 
+      <lb ed="#A" n="104"/>qui nullo modo peccauit. Respondetur secundum eundem <name xml:id="Vn7Pel-h123313-Nd1e424">Guill</name>. 
+      <lb ed="#A" n="105"/>per conclusionem quod sic. Et patet in christo qui non peccauit 
+      <lb ed="#A" n="106"/>et tamen multa passus est.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e431">
+      ¶ Notandum tamen inquit est quod hoc 
+      ve<lb ed="#A" n="107" break="no"/>rum est quod culpa debet praecedere penam. alias priusesset deus 
+      <lb ed="#A" n="108"/>vltor quam aliquis esset peccator. contra Aug. sententiam di. quod deus 
+      <lb ed="#A" n="109"/>non potest esse prius vltor scilicet puniendo quam aliquis sit 
+      pecca<lb ed="#A" n="110" break="no"/>tor. ideo conceditur quod nulla fuisset pena in modo nisi 
+      <lb ed="#A" n="111"/>precessisset aliqua culpa. verumtamen non opor¬ 
+      <!--399.xml-->
+      <pb ed="#A" n="400"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>et quod semper precedat culpa in eo qui patitur 
+      <lb ed="#A" n="2"/>dum non pro propriis peccati patitur sed pro alienis. 
+      <lb ed="#A" n="3"/>sicuti fuit in christo. Similiter dum quis patitur 
+      <lb ed="#A" n="4"/>ad augmentum meriti patientie. sicut fuit in Iob. 
+      <lb ed="#A" n="5"/>Aut propter huiusmodi causas. Unde et 
+      Ioan<lb ed="#A" n="6" break="no"/>nis . ix. christus dixit de ceco nato. Neque hic neque 
+      pa<lb ed="#A" n="7" break="no"/>rentes eius peccauerunt vt cecus nasceretur. sed 
+      pro<lb ed="#A" n="8" break="no"/>gloria dei: vt glorificetur per miraculum 
+      illuminatio<lb ed="#A" n="9" break="no"/>nis a christo. Similiter dum sancti patiuntur 
+      per<lb ed="#A" n="10" break="no"/>secutiones hoc non fit pro peccatis propriis: sed 
+      <lb ed="#A" n="11"/>ad exercitium permittitur a deo. sed eis omnia 
+      coope<lb ed="#A" n="12" break="no"/>rantur in bonum secundum Apostolum.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e477">
+      ¶ Si obiicitur. quia 
+      <lb ed="#A" n="13"/>Hierony. dicit. quod quicquid mali patimur peccata 
+      <lb ed="#A" n="14"/>nostra demeruerunt. Dicendum quod non aliud nisi 
+      <lb ed="#A" n="15"/>hoc vult ibi dicere quod nullam penam pateremur si 
+      <lb ed="#A" n="16"/>non peccassemus in primis parentibus. hec Guill. 
+      </p>
+               <p xml:id="Vn7Pel-h123313-d1e488">
+                  <lb ed="#A" n="17"/>¶ Sed quare est quod pena potest in aliquo inueniri 
+      <lb ed="#A" n="18"/>sine culpa: sed non culpa sine pena. Respondet idem 
+      <lb ed="#A" n="19"/>Guill. quia pena vt sic id est inquantum pena est aliquod 
+      <lb ed="#A" n="20"/>bonum: maxime illa que est sine peccato proprio. 
+      </p>
+               <p xml:id="Vn7Pel-h123313-d1e500">
+                  <lb ed="#A" n="21"/>¶ Sed omne bonum habet ordinem in vniuerso. ideo 
+      <lb ed="#A" n="22"/>non officit nec obest vniuerso pena si sit sine 
+      pec<lb ed="#A" n="23" break="no"/>tato. Sed culpa caret ordine: imo ordinem rumpit 
+      <lb ed="#A" n="24"/>Ideo exigitur vt pena reordinetur. ergo sine pena esse 
+      <lb ed="#A" n="25"/>nequit culpa. quia sic aliquid inordinatum relinqueretur 
+      <lb ed="#A" n="26"/>in vniuerso sine decore iusticie. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e517">
+               <head xml:id="Vn7Pel-h123313-Hd1e519">7</head>
+               <p xml:id="Vn7Pel-h123313-d1e521">
+                  <lb ed="#A" n="27"/>¶ Utrum pena inquantum pena sit a 
+      <lb ed="#A" n="28"/>deo. Respondetur secundum Guill. e. di. xxxvi. cum Bonauen. 
+      <lb ed="#A" n="29"/>ar. iii. q. ii quod pena solet accipi tripliciter. Uno 
+      mo<lb ed="#A" n="30" break="no"/>do pro re ledente in punitione sicut pena reproborum 
+      <lb ed="#A" n="31"/>dicitur ignis infernalis. Isto modo capiendo penam 
+      <lb ed="#A" n="32"/>quando dicit positiuum conceditur esse a deo iusto: 
+      si<lb ed="#A" n="33" break="no"/>cut et cetera positiua. Si autem dicat priuatiuum 
+      <lb ed="#A" n="34"/>sicut dicitur Sapientie. ii. Excecauit illos malicia eo 
+      <lb ed="#A" n="35"/>rum. Uel in Exo. Indurauit dominus cor 
+      Pharao<lb ed="#A" n="36" break="no"/>nis etc. sic pena non est a deo nisi permittente aut 
+      de<lb ed="#A" n="37" break="no"/>serente id est permisit deus indurari. Et similiter illud 
+      <lb ed="#A" n="38"/>Rho. i. Tradidit illos deus in passiones 
+      ignomi<lb ed="#A" n="39" break="no"/>nie id est permisit. Secundo modo ergo pena capitur 
+      pro<lb ed="#A" n="40" break="no"/>ut est passio vel lesio patientis secundum quod dicitur. quod 
+      affli<lb ed="#A" n="41" break="no"/>ctio reproborum est pena eorum eterna. Tertio 
+      mo<lb ed="#A" n="42" break="no"/>pena dicitur defectus ex huiusmodi passione 
+      proueni<lb ed="#A" n="43" break="no"/>ens. sicut in reprobis defectus salutis et carentia 
+      <lb ed="#A" n="44"/>pacis eorum. Et huiusmodi dicitur pena eorum. Et 
+      <lb ed="#A" n="45"/>istis duobus vltimis modis pena non est a deo 
+      nisi<lb ed="#A" n="46" break="no"/>deserente propter demerita malorum et permissiue. Et 
+      <lb ed="#A" n="47"/>ita habent intelligi quecunque autoritates in 
+      obi<lb ed="#A" n="48" break="no"/>positum. vt illud Eccles. xi. Bona et mala vita et 
+      <lb ed="#A" n="49"/>mors. paupertas et honestas a deo sunt. Et illud 
+      <lb ed="#A" n="50"/>Deutero. xxxii. Ego occidam et ego viuere faciam. 
+      <lb ed="#A" n="51"/>et similes pari passu soluuntur. quod omnis pena in 
+      <lb ed="#A" n="52"/>quantum positiua et iusta est pena peccati. vt dicit 
+      <lb ed="#A" n="53"/>Aug. pluribus libris. et a deo. Denique vide ad hec 
+      <lb ed="#A" n="54"/>etiam vbi <ref xml:id="Vn7Pel-h123313-Rd1e583">Malum. §. ix.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e587">
+               <head xml:id="Vn7Pel-h123313-Hd1e589">8</head>
+               <p xml:id="Vn7Pel-h123313-d1e591">
+                  <lb ed="#A" n="55"/>¶ Utrum penalitatis corruptio in 
+      <lb ed="#A" n="56"/>bumana natura insit a principio conditionis. an 
+      <!--399.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>ex peccato. Respondetur secundum <ref xml:id="Vn7Pel-h123313-Rd1e604">Richar. in. ii. di. xxx. ar. ii. q. 
+      <lb ed="#A" n="58"/>ii.</ref> Et <ref xml:id="Vn7Pel-h123313-Rd1e609">Bonauen. ar. i. q. i.</ref> concor. <name xml:id="Vn7Pel-h123313-Nd1e611">Tho</name>. quod si primo 
+      <lb ed="#A" n="59"/>loquimur de humana natura eo modo quo 
+      de<lb ed="#A" n="60" break="no"/>us ipsam potuit instituere. vtique deus bonus 
+      be<lb ed="#A" n="61" break="no"/>ne potuisset eam facere vt in ea ante peccatum esset 
+      pe<lb ed="#A" n="62" break="no"/>nalitas. non secundum quod penalitas dicitur a punitione. 
+      <lb ed="#A" n="63"/>sed secundum quod accipitur pro labore vel dolore siue angu 
+      <lb ed="#A" n="64"/>stia. quia potuit a deo institui suis naturalibus 
+      <lb ed="#A" n="65"/>relicta. Etsi tunc fuisset sic instituta: non potuisset 
+      <lb ed="#A" n="66"/>in ea esse esuries: sitis: et alia huiusmodi 
+      penali<lb ed="#A" n="67" break="no"/>tas loquendo naturaliter. aut saltem non ita 
+      gra<lb ed="#A" n="68" break="no"/>ues fuissent huiusmodi penalitates sicut modo 
+      <lb ed="#A" n="69"/>sunt post peccatum in nobis. Etsi deus bonus sic 
+      <lb ed="#A" n="70"/>facere voluisset vtique fuisset ad bonum hominis ex dei 
+      <lb ed="#A" n="71"/>voluntate. Nec fuisset iusticia vindicatiua. cum non 
+      <lb ed="#A" n="72"/>praecessisset culpa. ergo nec cessisset tunc in penam: sed 
+      <lb ed="#A" n="73"/>solummodo fuisset iusticia accipiendo iusticiam pro 
+      <lb ed="#A" n="74"/>rectitudine voluntarie actionis dei. Sed secudo 
+      <lb ed="#A" n="75"/>si loquimur de humana natura secundum quod fuit 
+      insti<lb ed="#A" n="76" break="no"/>tuta a deo de facto: sic non potuit esse subiecta 
+      pe<lb ed="#A" n="77" break="no"/>nalitati ante peccatum. quia fuit instituta in 
+      origi<lb ed="#A" n="78" break="no"/>nali iusticia que secum aliquam non compatiebatur 
+      pe<lb ed="#A" n="79" break="no"/>nalitatem. nec amitti poterat nisi per peccatum. Unde 
+      <lb ed="#A" n="80"/>absque dubio natura humana deiecta est in 
+      pena<lb ed="#A" n="81" break="no"/>litates per peccatum primorum parentum. vt scripture 
+      <lb ed="#A" n="82"/>dictant.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e666">
+      ¶ Si dicas. non repugnasset diuine 
+      iusti<lb ed="#A" n="83" break="no"/>cie hominem a principio fecisse penalitatibus 
+      sub<lb ed="#A" n="84" break="no"/>iectum. sicut fecit bruta et agnos innocentes. cum 
+      <lb ed="#A" n="85"/>non sit maioris innocentie homo quam agnus etc. 
+      <lb ed="#A" n="86"/>Respondet Bona quod non est simile de brutis et de 
+      homi<lb ed="#A" n="87" break="no"/>ne. quia homini data est anima immortalis 
+      ca<lb ed="#A" n="88" break="no"/>pax beatitudinis a principio nature condite. et per 
+      <lb ed="#A" n="89"/>oppositum capax culpe et miserie. ergo hominem 
+      <lb ed="#A" n="90"/>pati penam morti obligari ex culpa est. In 
+      bru<lb ed="#A" n="91" break="no"/>tis autem hec non habent locum. ergo passibilitas non 
+      <lb ed="#A" n="92"/>repugnat in eis iusticie dei. Sed in homine 
+      repu<lb ed="#A" n="93" break="no"/>gnat etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e693">
+               <head xml:id="Vn7Pel-h123313-Hd1e695">9</head>
+               <p xml:id="Vn7Pel-h123313-d1e697">
+                  <lb ed="#A" n="94"/>¶ Sed dificultas est quia 
+      cor<lb ed="#A" n="95" break="no"/>pora composita ex quattuor elementis penalitati 
+      cor<lb ed="#A" n="96" break="no"/>ruptionis sunt subiecta secundum ordinem vniuersi quem 
+      <lb ed="#A" n="97"/>condidit diuina sapientia. Unde etsi nunc deus 
+      mi<lb ed="#A" n="98" break="no"/>raculose formaret vnum hominem ex quattuor 
+      ele<lb ed="#A" n="99" break="no"/>mentis: ipse licet haberet suam naturam integram 
+      <lb ed="#A" n="100"/>nec corruptam peccato: tamen suis naturalibus 
+      di<lb ed="#A" n="101" break="no"/>missus: similes nobis haberet passiones 
+      natura<lb ed="#A" n="102" break="no"/>les. scilicet esuriem: sitim: concupiscentiam. et de 
+      necessi<lb ed="#A" n="103" break="no"/>tate per naturam aliquando corrumperetur. ergo videtur 
+      <lb ed="#A" n="104"/>quod iste passiones penarum quas sustinemus naturam 
+      <lb ed="#A" n="105"/>integram a principio conditam consequantur. et per 
+      con<lb ed="#A" n="106" break="no"/>sequens non sunt pene peccati
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e728">
+      ¶ Confirmatur. 
+      <lb ed="#A" n="107"/>quia Actuum. xiiii. dicitur quod per multas 
+      tribula<lb ed="#A" n="108" break="no"/>tiones oportet intrare regnum dei. ergo cum 
+      ho<lb ed="#A" n="109" break="no"/>mo sit a principio factus ad perueniendum in 
+      re<lb ed="#A" n="110" break="no"/>gnum dei: debuit sic institui a principio vt 
+      pate<lb ed="#A" n="111" break="no"/>retur.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e741">
+      ¶ Respondetur patrio secundum Bonauen. quod licet 
+      <lb ed="#A" n="112"/>corpus hominis sit compositum ex quattuor elementis: tamen ex quo 
+      <lb ed="#A" n="113"/>coniungi habebat anime immortali vt perpetuo bea¬ 
+      <!--400.xml-->
+      <pb ed="#A" n="401"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tificaretur homo in anima et etiam in corpore. 
+      <lb ed="#A" n="2"/>Ideo debuit ex prima conditione habere corpus 
+      <lb ed="#A" n="3"/>immortale et incorruptibile nisi peccasset.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e761">
+      ¶ 
+      Se<lb ed="#A" n="4" break="no"/>cundo dicendum secundum Richar. e. distin. xxx. ar. i. q. ii. 
+      <lb ed="#A" n="5"/>quod quamuis homo miraculose formatus ex elemen 
+      <lb ed="#A" n="6"/>tis et suis naturalibus relictus esuriret et sitiret si 
+      <lb ed="#A" n="7"/>cut nos. et interdum in eo concupiscentia moueretur 
+      <lb ed="#A" n="8"/>ex feruore sanguinis. tamen illas passiones non 
+      <lb ed="#A" n="9"/>ita inordinatas haberet sicut nos habemus. Nec 
+      <lb ed="#A" n="10"/>tamen credendum est quod in tali homine esset iusticia 
+      <lb ed="#A" n="11"/>originalis per sola naturalia. ita quod in ipso vires in 
+      <lb ed="#A" n="12"/>feriores perfecte obedirent superioribus. et 
+      superi<lb ed="#A" n="13" break="no"/>ores rectam habitudinem haberent ad deum. quia 
+      <lb ed="#A" n="14"/>hec originalis iusticia etiam stante innocentia in 
+      fi<lb ed="#A" n="15" break="no"/>liis Ade non potuisset haberi per sola naturalia 
+      </p>
+               <p xml:id="Vn7Pel-h123313-d1e791">
+                  <lb ed="#A" n="16"/>¶ Unde talis homo miraculose formatus pateretur 
+      <lb ed="#A" n="17"/>huiusmodi passiones sicut nos nisi speciali gratia 
+      <lb ed="#A" n="18"/>haberet a deo sibi datam iusticiam originalem. 
+      <lb ed="#A" n="19"/>Denique tertio ad confirmationem dicendum secundum 
+      <lb ed="#A" n="20"/>Bonauen. quod illud dictum Actuum. xiiii. Per 
+      mul<lb ed="#A" n="21" break="no"/>tas tribulationes oportet intrare etc. intelligitur 
+      pro<lb ed="#A" n="22" break="no"/>statu praesenti: videlicet post lapsum nature. sed si 
+      ho<lb ed="#A" n="23" break="no"/>mo non cecidisset cum omni leuitate peruenisset ad 
+      <lb ed="#A" n="24"/>celum et ad suum finem. Sicut a simili: sanitas 
+      be<lb ed="#A" n="25" break="no"/>ne conseruatur in homine per bona et suauia 
+      ciba<lb ed="#A" n="26" break="no"/>ria. Sed si perditur sanitas per infirmitatem: opus 
+      <lb ed="#A" n="27"/>est vt recuperetur per potiones amaras. Sic m 
+      pro<lb ed="#A" n="28" break="no"/>posito etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e823">
+               <head xml:id="Vn7Pel-h123313-Hd1e825">10</head>
+               <p xml:id="Vn7Pel-h123313-d1e827">
+                  <lb ed="#A" n="29"/>¶ Utrum per penalitates ex 
+      pec<lb ed="#A" n="30" break="no"/>cato contractas humana natura sit pelorata in 
+      su<lb ed="#A" n="31" break="no"/>is naturalibus
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e836">
+      ¶ De hoc est vna opinio quod adeo 
+      <lb ed="#A" n="32"/>sit peiorata humana natura per peccatum Ade est 
+      <lb ed="#A" n="33"/>penalitates quas incurrimus vt aliquid de nati 
+      <lb ed="#A" n="34"/>rali bonitate humana sit ademptum. et quod in 
+      poten<lb ed="#A" n="35" break="no"/>tiis anime formaliter hoc modo facta sit 
+      corru<lb ed="#A" n="36" break="no"/>ptio. Iuxta illud Luce. x. de homine qui incidit in 
+      <lb ed="#A" n="37"/>latrones. Ubi Gloi. exponendo dicit. quod homo per 
+      <lb ed="#A" n="38"/>peccatum spoliatus sit gratuitis. et vulneratus in 
+      na<lb ed="#A" n="39" break="no"/>turalibus.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e856">
+      ¶ Sed huiusmodi opinio non valet. 
+      <lb ed="#A" n="40"/>quia sequeretur quod voluntas in qua habet esse pecus 
+      <lb ed="#A" n="41"/>catum cum sitbonum finitum: aliquando penitus 
+      consu<lb ed="#A" n="42" break="no"/>meretur permulta peccata aliquid adimendo 
+      semper<lb ed="#A" n="43" break="no"/>sicut fact lima in ferro etc.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e867">
+      ¶ Sed aliqui dicunt 
+      <lb ed="#A" n="44"/>quod ista consumptio in naturalibus per peccatum fit secundum 
+      <lb ed="#A" n="45"/>gradut eiusdem proportionis non eiusdem quantitatis 
+      <lb ed="#A" n="46"/>hoc est dicere quod fiat secundum proportionem geometricam 
+      <lb ed="#A" n="47"/>non secundum proportionem arithmeticam. Et ita licet volun 
+      <lb ed="#A" n="48"/>tas siffinitum bonum: nunquam tamen tali diuisione vel 
+      <lb ed="#A" n="49"/>diminutione finitur. Sicut patet in linea tali 
+      di<lb ed="#A" n="50" break="no"/>minutione diuisa accipiendo semper minorem partem 
+      <lb ed="#A" n="51"/>in sequnda diuisione.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e888">
+      ¶ Sed hoc dictum nihil facitr. 
+      <lb ed="#A" n="52"/>quia peccatum secundum potest esse equale primo. 
+      <lb ed="#A" n="53"/>vel maius. Et ita potest tantum corrumpore quan 
+      <lb ed="#A" n="54"/>tum primum. vel magis quam primum corrumperet 
+      pec<lb ed="#A" n="55" break="no"/>catum. et ita consequenter. Hec ex Guill. di. xxxv. 
+      </p>
+               <p xml:id="Vn7Pel-h123313-d1e899">
+                  <lb ed="#A" n="56"/>¶ Mlius ergo dicendum est secundum quod ipse dictat quod per 
+      <lb ed="#A" n="57"/>peccati tam primum quam postea per quodlibet morta 
+      <!--400.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>le peccatum in hominibus semper aliquid boni corrum 
+      <lb ed="#A" n="59"/>pitur non adimendo vel consumendo de humano 
+      <lb ed="#A" n="60"/>nature integritate. sed solum priuando rectitudinem 
+      <lb ed="#A" n="61"/>que deberet inesse. Et ita per peccatum humana na 
+      <lb ed="#A" n="62"/>tura est peiorata. et peioratur etiam dispositiue habi 
+      <lb ed="#A" n="63"/>tuando et proniorem faciendo ad malum. sicut et de hoc 
+      <lb ed="#A" n="64"/>iam supra habetur seriptum vbi <ref xml:id="Vn7Pel-h123313-Rd1e925">Peccatum. §. xx.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h123313-Dd1e930">
+               <head xml:id="Vn7Pel-h123313-Hd1e932">11</head>
+               <p xml:id="Vn7Pel-h123313-d1e934">
+                  <lb ed="#A" n="65"/>Sed quo inter penas culparum 
+      <lb ed="#A" n="66"/>fieri habeat proportio Notandum est quod sicut dictat 
+      <lb ed="#A" n="67"/>
+                  <ref xml:id="Vn7Pel-h123313-Rd1e942">Guill. in. ii</ref> lir sententiarum. questione facta in prologo 
+      <lb ed="#A" n="68"/>Mathematici inquit triplicem solent dicere 
+      pro<lb ed="#A" n="69" break="no"/>portionem. Prima dicitur musica. et de hac 
+      suffici<lb ed="#A" n="70" break="no"/>ant ad praesens que scripsi vbi Armonia. Secunda 
+      <lb ed="#A" n="71"/>dicitur geometrica. quado est inter aliqua duo 
+      ex<lb ed="#A" n="72" break="no"/>cessus. conueniunt tamen illa in aliqua ratione 
+      for<lb ed="#A" n="73" break="no"/>mali secundum quam fit illa proportio seu comparatio. sicuti 
+      <lb ed="#A" n="74"/>si secundum modum loquendi beati Dionysii de mystica 
+      the<lb ed="#A" n="75" break="no"/>ologia sit deus magis ens vel magis bonus quam 
+      <lb ed="#A" n="76"/>creatura: exigitur in hac proportione quod ratio 
+      en<lb ed="#A" n="77" break="no"/>tis et bonitatis sit communis vniuce deo et creatum 
+      <lb ed="#A" n="78"/>ris. Tertia dicitur proportio arithmetica: que non 
+      exi<lb ed="#A" n="79" break="no"/>git talem conuenientiam in aliqua ratione formali: sed 
+      <lb ed="#A" n="80"/>solum nominat in superante multiplicius: secundum hanc 
+      <lb ed="#A" n="81"/>dicendo. Dcus est perfectior quam creatura. hoc solum 
+      <lb ed="#A" n="82"/>intelligitur quod creatura habet aliquas perfectiones 
+      <lb ed="#A" n="83"/>et plures habet deus. Hec Guill.
+     </p>
+               <p xml:id="Vn7Pel-h123313-d1e980">
+      ¶ Ad propositum 
+      <lb ed="#A" n="84"/>Inter penam peccati originalis et peccati venialis 
+      <lb ed="#A" n="85"/>videtur quodammodo esse proportio arithmetica. quia 
+      <lb ed="#A" n="86"/>non conueniunt in ratione voluntarii et pene sensus 
+      <lb ed="#A" n="87"/>Sed inter venialis peccati et mortalis penas 
+      vi<lb ed="#A" n="88" break="no"/>detur proportio geometrica etc. Uide lib. <ref xml:id="Vn7Pel-h123313-Rd1e993">iii. vbi 
+      Iu<lb ed="#A" n="89" break="no"/>sticia.</ref> Et eodem <ref xml:id="Vn7Pel-h123313-Rd1e998">lib. iii.</ref> vide aliqua de proportione vbi 
+      <lb ed="#A" n="90"/>
+                  <ref xml:id="Vn7Pel-h123313-Rd1e1002">Aduentus christi. §. v.</ref>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

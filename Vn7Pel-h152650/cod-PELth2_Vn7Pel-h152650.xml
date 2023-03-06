@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Yris</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Yris</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="492"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h152650">
+            <head xml:id="Vn7Pel-h152650-Hd1e110">Yris</head>
+            <div xml:id="Vn7Pel-h152650-Dd1e112">
+               <head xml:id="Vn7Pel-h152650-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h152650-d1e116">
+                  <lb ed="#A" n="63"/>Nis quid sit et)¬ 
+      <lb ed="#A" n="64"/>vnde sic nominatur. Notandum quod 
+      Se<lb ed="#A" n="65" break="no"/>neca de naturalibus quaestionibus lib. v. 
+      <lb ed="#A" n="66"/>dicit Arcus celestis hoc est iris nil aliud est quam ima 
+      <lb ed="#A" n="67"/>go solis roscida caua nube concepta. Unde etia 
+      Ari<lb ed="#A" n="68" break="no"/>sto. li. iii. metheor. dicit quod Iris est speculum solis. quad 
+      <lb ed="#A" n="69"/>in ea imago solis exprimitur. Proinde vt communiter 
+      dif<lb ed="#A" n="70" break="no"/>finitur. Iris nil aliud est quam nubes rorida soli 
+      oppo<lb ed="#A" n="71" break="no"/>sita radiis solis multipliciter informata
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e138">
+      ¶ Item 
+      <lb ed="#A" n="72"/>Isid. lib. xiii. Etyn. dicit Arcus celestis dicitur ad similitu 
+      <lb ed="#A" n="73"/>dinem curuati arcus. Dicitur autem proprie( inquit) Iris quasi 
+      <lb ed="#A" n="74"/>aeris eo quod per aera ad terram descendat. hic a sole 
+      re<lb ed="#A" n="75" break="no"/>iplendet dum caue nubes ex aduerso id est ex opposito 
+      <lb ed="#A" n="76"/>radium solis accipiunt et arcus speciem fingunt. 
+      Albu<lb ed="#A" n="77" break="no"/>masar quoque dicit. Iris nomen indidit nature 
+      obscuri<lb ed="#A" n="78" break="no"/>tas: quia apud grecos Iris dicitur idem quod arcus an 
+      <lb ed="#A" n="79"/>gelice considerationis tanquam ad eius noticiam 
+      huma<lb ed="#A" n="80" break="no"/>nus non ascendat intellectus scilicet plenarie quoniam apud 
+      <lb ed="#A" n="81"/>phlosophos et sapientes diuerse sunt sententie de natura 
+      <lb ed="#A" n="82"/>iridis vt patebit infra. §. v. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e165">
+               <head xml:id="Vn7Pel-h152650-Hd1e167">2</head>
+               <p xml:id="Vn7Pel-h152650-d1e169">
+                  <lb ed="#A" n="83"/>¶ Qualiter in iride exprimitur solis 
+      <lb ed="#A" n="84"/>imago. Notandum est sicut Arist. iii. lib. Metheo 
+      <lb ed="#A" n="85"/>rorum dicit. Et etiam libus de na re. ac etiam libus Catholicon 
+      <lb ed="#A" n="86"/>habetur recolligendo quod terra exquo est spherica ita 
+      <lb ed="#A" n="87"/>et vapor ascendens ex ea sphericus est. Et quia natu 
+      <lb ed="#A" n="88"/>ra luminosi corporis est vt semper in oppositam 
+      <lb ed="#A" n="89"/>partem radios dirigat. Sol ergo cum sit 
+      lumi<lb ed="#A" n="90" break="no"/>nosum corpus radios suos mittit in partem 
+      op<lb ed="#A" n="91" break="no"/>positam. In qua aliquando nubem inuenit 
+      co<lb ed="#A" n="92" break="no"/>cauam que in vna sui parte est densa: in alia 
+      den<lb ed="#A" n="93" break="no"/>sior et in alia densissima. Item in alia sui parte est 
+      <lb ed="#A" n="94"/>rara: in alia rarior vel rarissima. In illa autem 
+      par<lb ed="#A" n="95" break="no"/>te que est densa solares radii quasi in vitro 
+      inclu<lb ed="#A" n="96" break="no"/>si rubeum colorem faciunt. in densiori ceruleum. 
+      <lb ed="#A" n="97"/>quod a cera dicitur proprie color viridis cum 
+      ni<lb ed="#A" n="98" break="no"/>gro mixtus vt est mare. In densissima vero 
+      par<lb ed="#A" n="99" break="no"/>te faciunt nigrum. Item in rara faciunt viridem 
+      <lb ed="#A" n="100"/>pure. in rariore croceum. in farissima album. Et 
+      <lb ed="#A" n="101"/>ita secundum maiorem illius nubis rare densitatem ma 
+      <lb ed="#A" n="102"/>gis accedit ad colores nigridini affines. Ac secundum 
+      <lb ed="#A" n="103"/>maiorem raritatem accedit ad colores albedini 
+      <lb ed="#A" n="104"/>affines. sicque Iris recipit colores in ea resplendem 
+      <lb ed="#A" n="105"/>tes ex sole tanquam speculum. Sicut etiam dicetur infra. 
+      <lb ed="#A" n="106"/>§. iii. et. ix. ergo deus laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e225">
+               <head xml:id="Vn7Pel-h152650-Hd1e227">3</head>
+               <p xml:id="Vn7Pel-h152650-d1e229">
+                  <lb ed="#A" n="107"/>¶ Que est naturalis casa iridis et 
+      <lb ed="#A" n="108"/>colorum cius: Respondetur secundum Aristo. lib. iii. 
+      <!--492.xml-->
+      <pb ed="#A" n="493"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Methe. simulet Senecam libro v. de nat. quaesdio aliosque 
+      <lb ed="#A" n="2"/>quod due sunt cause. videlicet sol et nubes: in cuius 
+      <lb ed="#A" n="3"/>signum nec in sereno fit vnquam: nec in nubilo toto: ita 
+      <lb ed="#A" n="4"/>vt sol lateat. Ex his ergo vtique est iris: quorum sine altero 
+      <lb ed="#A" n="5"/>non est. itaque color igneus est a sole: ceruleus a nube: 
+      <lb ed="#A" n="6"/>ceteri vtriusque mixture. Hec ex Seneca. Hinc 
+      <lb ed="#A" n="7"/>philosophus vbi. supra dicit: quod causa esse arcus est ex radio 
+      sol<lb ed="#A" n="8" break="no"/>redeunte ad vaporem contrarium nubibus. Sicut radius 
+      re<lb ed="#A" n="9" break="no"/>fulgens in aqua: relucet in pariete rediens ad ipsum ex 
+      <lb ed="#A" n="10"/>repercussione. Et habet tres colores principales 
+      ordi<lb ed="#A" n="11" break="no"/>natos vel quattuor ad plurimum: quorum interior aliis 
+      <lb ed="#A" n="12"/>duobus debilior est. nec possunt pictores facere simules: 
+      <lb ed="#A" n="13"/>praecipue colorem compositum scilicet inter intrinsecum et extrinse 
+      <lb ed="#A" n="14"/>cum. Ex pmnibus istis et similibus claret laudabilis mira dici 
+      <lb ed="#A" n="15"/>sapientia.
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e275">
+      ¶ Denique idem Arist. dicit: quod color iridis ex hoc 
+      <lb ed="#A" n="16"/>est: quia caelum quando pluit: resoluitur superfluitas 
+      coarta<lb ed="#A" n="17" break="no"/>ta in nubibus et fit ex eo roratio perua id est nubes 
+      ro<lb ed="#A" n="18" break="no"/>rida antequam ibi fiat pluuia magna. Cum ergo relucet 
+      <lb ed="#A" n="19"/>sol oppositus: illa roratio ante nubem densam existens: 
+      re<lb ed="#A" n="20" break="no"/>cipit radios et densa terminat tamquam in speculo: sicque 
+      <lb ed="#A" n="21"/>recipiuntur colores ex sole resplendente in vtrisque. vt 
+      <lb ed="#A" n="22"/>patet infra. §. ix. Uarius quoqe fit arcus in celo ad 
+      pluri<lb ed="#A" n="23" break="no"/>mum quadricolor. principales enim colores habet quattuor. 
+      <lb ed="#A" n="24"/>et aliquando solum tres: sed mixtos simul cum hoc habet plurimos: 
+      <lb ed="#A" n="25"/>secundum quod compositum est. et contrahit colores ex quattuor 
+      ele<lb ed="#A" n="26" break="no"/>mentis: quia ab igne rubeum contrahit colorem. Ab aere 
+      ce<lb ed="#A" n="27" break="no"/>ruleum: siue album siue lucidum. Ab aqua 
+      purpu<lb ed="#A" n="28" break="no"/>reum: et huiusmodi. Ab ipsa autem terra propter herbas et terras 
+      <lb ed="#A" n="29"/>viridem quasi nigrum. vt dicit Guil. de Conch. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e309">
+               <head xml:id="Vn7Pel-h152650-Hd1e311">4</head>
+               <p xml:id="Vn7Pel-h152650-d1e313">
+                  <lb ed="#A" n="30"/>¶ Sed vnde est quod iris non est 
+      ro<lb ed="#A" n="31" break="no"/>tunda plene circularis vel spherica: cum sit imago 
+      so<lb ed="#A" n="32" break="no"/>lis qui est sphericus integre et orbicularis: sed iris 
+      <lb ed="#A" n="33"/>non integre
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e324">
+      ¶ Respondetur secundum Guil. de Conch. quod 
+      sol<lb ed="#A" n="34" break="no"/>longe est nubstnibus altior: superiorem partem nubis 
+      <lb ed="#A" n="35"/>tangens: et ideo in illa superiori parte imaginem suam 
+      <lb ed="#A" n="36"/>imprimit Inde est quod sol quanto ortui vel occasui est 
+      <lb ed="#A" n="37"/>propinquior: tanto arcus apparet maior: quoniam iris non 
+      <lb ed="#A" n="38"/>apparet nisi ex oppositione solis: Ideo iris que est 
+      <lb ed="#A" n="39"/>nubes concaua soli opposita a sursum existenti: 
+      arcua<lb ed="#A" n="40" break="no"/>liter a nobis figurata videtur qui sumus infra nubes: et 
+      <lb ed="#A" n="41"/>hoc etiam lib de vaporibus declaratur. Seneca etiam 
+      <lb ed="#A" n="42"/>ponit exempla de speculis quibusdam: sed dimitto. 
+      <lb ed="#A" n="43"/>In signum quoque est quod iris soli opponitur vt 
+      specu<lb ed="#A" n="44" break="no"/>lum ex hoc quod si apparet iris in mane: tunc non v 
+      <lb ed="#A" n="45"/>detur alibi nisi in occidente. Quod si iris appareat in 
+      <lb ed="#A" n="46"/>sero vel vespere: videtur versus orientem. Si 
+      aute<lb ed="#A" n="47" break="no"/>apparet meridie: tunc videtur in septentrionali 
+      par<lb ed="#A" n="48" break="no"/>te. et versus meridiem nunquam est iris: quia nunquam 
+      sol<lb ed="#A" n="49" break="no"/>opposita parte meridiei post esse. ergo etc. Deus ergo 
+      lau<lb ed="#A" n="50" break="no"/>dabilis qui sic ordinauit sapientissime 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e365">
+               <head xml:id="Vn7Pel-h152650-Hd1e367">5</head>
+               <p xml:id="Vn7Pel-h152650-d1e369">
+                  <lb ed="#A" n="51"/>¶ Utrum iris in natura realiter 
+      <lb ed="#A" n="52"/>sit substantia aut solum accidens: Guill. de Conch. 
+      <lb ed="#A" n="53"/>dicit: quod diuersi philosohi diuersa senserunt de iride. 
+      </p>
+               <p xml:id="Vn7Pel-h152650-d1e378">
+                  <lb ed="#A" n="54"/>¶ Una enim opinio est quod sit substantia diuersorum 
+      <lb ed="#A" n="55"/>colorum: et quod sit corpus ex quattuor elementis 
+      <lb ed="#A" n="56"/>compositum quadricoloribus realiter in se habens 
+      <lb ed="#A" n="57"/>colores huiusmodi a quattuor elementis contratos: 
+      <!--492.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>vtiam dictum est. §. ii
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e396">
+      ¶ Ulia opinio est quod non sit iris 
+      <lb ed="#A" n="59"/>secundum se substantia vel corpus sed solum imago solis ex 
+      ra<lb ed="#A" n="60" break="no"/>diis resultans. Et quod nec sunt in ea colores inhe 
+      <lb ed="#A" n="61"/>siue. Sed coloris imagines apparentes nobis 
+      <lb ed="#A" n="62"/>iuxta spissitudinem siue densitatem nubis aut 
+      ra<lb ed="#A" n="63" break="no"/>ritatem in qua diuersi colores representantur ex 
+      so<lb ed="#A" n="64" break="no"/>lis radiis sicut in speculo. Sed illa opinio prima 
+      <lb ed="#A" n="65"/>dicere videtur quod iris non est aliud in re quam nubes 
+      <lb ed="#A" n="66"/>nec nimis obscura: nec nimis lucida habens 
+      quat<lb ed="#A" n="67" break="no"/>tuor principales colores. Et quelibet harum opinio 
+      <lb ed="#A" n="68"/>num potest sustineri. quia iris secundum materia sub 
+      <lb ed="#A" n="69"/>lectam est corpus nubis. sed secundum formale esse est 
+      <lb ed="#A" n="70"/>imago solis et apparentia coloris etc. Et quia esse 
+      <lb ed="#A" n="71"/>formale est potius. quia forma dat esse rei. ergo 
+      <lb ed="#A" n="72"/>hanc tenent opinionem vt communius secundum viam 
+      <lb ed="#A" n="73"/>Aristotelis philosophantes 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e432">
+               <head xml:id="Vn7Pel-h152650-Hd1e434">6</head>
+               <p xml:id="Vn7Pel-h152650-d1e436">
+                  <lb ed="#A" n="74"/>¶ Quibus temporibus apparent 
+      <lb ed="#A" n="75"/>iris et quibus non. Notandum est quod sicut dicit 
+      Ari<lb ed="#A" n="76" break="no"/>sto. iii. lib. Metheororum. Et Seneca lib. v. natu. 
+      <lb ed="#A" n="77"/>quaedi. Ac Plinius lib. ii Arcus celestis videtur 
+      quan<lb ed="#A" n="78" break="no"/>do aer mundus est et visus similiter. Uidetur qui 
+      <lb ed="#A" n="79"/>dem iris per diem ex radio solis. Et per noctem 
+      <lb ed="#A" n="80"/>videtur ex radio lune. qui quia debilis luminis est 
+      <lb ed="#A" n="81"/>ergo non videtur nocte nisi plenilunio cum 
+      or<lb ed="#A" n="82" break="no"/>tu lune et occasu. Non videtur autem in nocte 
+      <lb ed="#A" n="83"/>in silicet annis nisi bis. Denique iris etiam per diem ex radio 
+      <lb ed="#A" n="84"/>solis non videtur: aut propter turbulentiam aeris. Sicut 
+      <lb ed="#A" n="85"/>nec imago videtur in aqua nisi quieta: aut propter 
+      de<lb ed="#A" n="86" break="no"/>bilitatem visus: aut propter debilitatem coloris. Item 
+      <lb ed="#A" n="87"/>post equinoctium autumnale potest fieri arcus quacum 
+      <lb ed="#A" n="88"/>que hora diei. Estate vero non videretur nisi aut 
+      inci<lb ed="#A" n="89" break="no"/>piente aut inclinato iam die. Item secundum e. philosophos nunquam 
+      <lb ed="#A" n="90"/>possunt esse plures simul irides nisi due vna per oppositum 
+      <lb ed="#A" n="91"/>solis. alia per oppositum lune. Hoc videre contigit 
+      ho<lb ed="#A" n="92" break="no"/>ris vespertinis in estate quod scilicet sole existente in 
+      occi<lb ed="#A" n="93" break="no"/>dente apparet vna iris in oriente. Et tunc existente luna 
+      <lb ed="#A" n="94"/>in austro apparet alia iris in septentrione.
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e484">
+      ¶ Qua 
+      <lb ed="#A" n="95"/>re autem estate non fit iris die media. Causa est secundum 
+      <lb ed="#A" n="96"/>Sene. supra quia tunc sol super verticem nostrum propinquius 
+      <lb ed="#A" n="97"/>fertur. et sic rectiori linea terras aspicit vt nullis 
+      nu<lb ed="#A" n="98" break="no"/>bibus ex obliquo occurrere possit. sed de super 
+      nu<lb ed="#A" n="99" break="no"/>bes percutit et non a parte nostri aspectus. sed secus est 
+      <lb ed="#A" n="100"/>mane et inclinata iam die. quia tunc et obliquius 
+      nu<lb ed="#A" n="101" break="no"/>bes respicit. et quia minus virium habet tunc. ergo 
+      re<lb ed="#A" n="102" break="no"/>percuti potest magis a nubibus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e505">
+               <head xml:id="Vn7Pel-h152650-Hd1e507">7</head>
+               <p xml:id="Vn7Pel-h152650-d1e509">
+                  <lb ed="#A" n="103"/>¶ Quid designat iris naturali prae 
+      <lb ed="#A" n="104"/>agio. Dicendum secundum Sene. supra quod arcus hoc est iris 
+      <lb ed="#A" n="105"/>si oritur a meridie magnarum vim aquarum vehit que 
+      <lb ed="#A" n="106"/>a sole vinci non possunt. Si autem circa occasum 
+      re<lb ed="#A" n="107" break="no"/>fulserit rorabit et leuiter pluet. Si vero ab ortu 
+      <lb ed="#A" n="108"/>vel circa surrexerit serenum promittit etc. Item secundum Ari 
+      <lb ed="#A" n="109"/>sto. iii. Metheo. Quando apparent due irides vna 
+      so<lb ed="#A" n="110" break="no"/>lis alia lune. vt in praecedenti dictum est. Significat 
+      <lb ed="#A" n="111"/>icendium id est calorem nimium in aere prope venturum. quia hoc fit 
+      <lb ed="#A" n="112"/>ex spiritu calido ebulliente per poros humidi terrestris 
+      <lb ed="#A" n="113"/>Est autem incendium futurum per spiritum calidum seu 
+      ven<lb ed="#A" n="114" break="no"/>tum excedentem in calore equalitatem et quantitatem etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e539">
+               <head xml:id="Vn7Pel-h152650-Hd1e541">8</head>
+               <p xml:id="Vn7Pel-h152650-d1e543">
+      <!--493.xml-->
+                  <pb ed="#A" n="494"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Quare deus dicitur arcum vel 
+      iri<lb ed="#A" n="2" break="no"/>dem posuisse in nubibus in signum federis. Nam 
+      <lb ed="#A" n="3"/>Gen. ix. dixit deus ad Noe. Ponam arcum meum in 
+      <lb ed="#A" n="4"/>nubibus celi et erit signum federis inter me et terram 
+      <lb ed="#A" n="5"/>Et non erunt vltra aquae diluuii ad delendum vniuersam 
+      <lb ed="#A" n="6"/>carnem.
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e565">
+      ¶ Respondetur secundum Lyram ibidem et magistrum histori 
+      <lb ed="#A" n="7"/>arum Commestorem et alios. quod huius rei
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e570">
+      ¶ Una ratio est 
+      <lb ed="#A" n="8"/>litteralis scilicet propter Noe asse curationem. quia Noe 
+      maxi<lb ed="#A" n="9" break="no"/>me timebat ne iterum fieret diluuium et quotidie orabat 
+      <lb ed="#A" n="10"/>ne hoc fieret. vt refert Iosephus libro antiquitatum 
+      Ideo<lb ed="#A" n="11" break="no"/>que deus licet iam antea assecurauerat Noe de 
+      dilu<lb ed="#A" n="12" break="no"/>uio non faciendo per verba Gen. viii. dicit. Nequaquam vl 
+      <lb ed="#A" n="13"/>tra maiedicam terre etc. Nihilo minus ex pietatis 
+      <lb ed="#A" n="14"/>declaratione voluit ipsum et omnes alios assecurare 
+      per<lb ed="#A" n="15" break="no"/>signum sensibile scilicet per apperitionem iridis temporibus pluuia 
+      <lb ed="#A" n="16"/>rum pro firmitate credulitatis nostr id est omnium hominum per 
+      mun<lb ed="#A" n="17" break="no"/>dum etc.
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e594">
+      ¶ Alia ratio spiritualis. quia tali signo deus 
+      bo<lb ed="#A" n="18" break="no"/>nus voluit ostendere quod misereretur penitentibus hominibus 
+      <lb ed="#A" n="19"/>sicut misertus est Noe et filiis eius: a diluuio eos 
+      <lb ed="#A" n="20"/>praeseruando et diluuium decetero non inducendo 
+      mur<lb ed="#A" n="21" break="no"/>do. Nimirum iris ex sole et nube formatur. quia misera 
+      <lb ed="#A" n="22"/>tio dei ad hominum reconciliationem ex vnione deitatis 
+      <lb ed="#A" n="23"/>et humanitatis in christo fieri debuit. et sic facta est. Item 
+      <lb ed="#A" n="24"/>arcus iste vt dicit Grego. in Ezech. sic apparet quasi ibi 
+      <lb ed="#A" n="25"/>sit aqua et ignis. quia dei misericordia per christum exhibita est 
+      er<lb ed="#A" n="26" break="no"/>ga electos in aqua baptismatis lauante. et igne 
+      spiritus<lb ed="#A" n="27" break="no"/>sancti incendente. Item arcus iridis est sine chorda est 
+      <lb ed="#A" n="28"/>sine sagitta. Et habet duo cornua vtraque ad nos 
+      <lb ed="#A" n="29"/>inclinata. Sic deus per hoc signum ostendit quod in 
+      praesen<lb ed="#A" n="30" break="no"/>ti licet arcum sue vltionis contra peccatores tetenderit Psalmus 
+      <lb ed="#A" n="31"/>Nisi conuersi fueritis gladium suum vibrabit arcum 
+      su<lb ed="#A" n="32" break="no"/>um tetendit et parauit tamen sine chorda seueritatis. quia 
+      <lb ed="#A" n="33"/>in praesenti dulcorem exhibet pietatis. Et sine sagittis 
+      <lb ed="#A" n="34"/>penarum eternalium duo cornua scilicet misericordie et gre 
+      in<lb ed="#A" n="35" break="no"/>clinauit erga penitentes. sed in futurum peccatores 
+      pu<lb ed="#A" n="36" break="no"/>nietur. vnde Greg. xiii. moralis. Arcum deus tetendit 
+      commi<lb ed="#A" n="37" break="no"/>nando in sacris scripturis
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e641">
+      ¶ Tertia est ratio 
+      designa<lb ed="#A" n="38" break="no"/>tionis diluuii duplicis. Nam vt Commestor dicit et 
+      Ia<lb ed="#A" n="39" break="no"/>nuen. in li. Catholicon Arcus celi Primo est 
+      si<lb ed="#A" n="40" break="no"/>gnum praeteriti diluuii per aquam facti ne decetero time 
+      <lb ed="#A" n="41"/>atur fieri. Et secundo futuri per ignem vt expectetur. qua 
+      <lb ed="#A" n="42"/>mundus igne iudicii futuri cremabitur: Inde est 
+      <lb ed="#A" n="43"/>quod arcus iste duos colores habet principalissimos 
+      <lb ed="#A" n="44"/>videlicet ceruleum qui aqueus est. Et est exterior. quia iam 
+      <lb ed="#A" n="45"/>praeteriit diluuium aque: habet et rubeum qui igneus 
+      <lb ed="#A" n="46"/>est. et est interior. quia diluuium ignis futurum est vt dei 
+      <lb ed="#A" n="47"/>iudicio exeat per totum mundum. Hec etiam tagit 
+      Gre<lb ed="#A" n="48" break="no"/>go. viii. homels. Ezech. Denique tradunt etiam sancti 
+      <lb ed="#A" n="49"/>vt dicitur in historiis quod quadraginta annis ante 
+      iu<lb ed="#A" n="50" break="no"/>dicium non videbitur arcus. Et hoc ostendet 
+      natu<lb ed="#A" n="51" break="no"/>raliter desiccationem aeris iam inceptam Ex dictis ergo 
+      <lb ed="#A" n="52"/>patet bonitas dei et sapientia et iusticia laudabilis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e677">
+               <head xml:id="Vn7Pel-h152650-Hd1e679">9</head>
+               <p xml:id="Vn7Pel-h152650-d1e681">
+                  <lb ed="#A" n="53"/>¶ Utrum ergo ante diluuium fuerit 
+      <lb ed="#A" n="54"/>iris visa. Helinadus in chronica sua lib. iiii. Et 
+      <lb ed="#A" n="55"/>plures alii dicunt quod a principio modi vsque ad diluuium 
+      <lb ed="#A" n="56"/>non fuerit pluuia nec nubes aquosa: nec 
+      apparue<lb ed="#A" n="57" break="no"/>rat iris. Sed scundum Lyram super Gen. ix. Non videtur 
+      <!--493.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>hoc rationabiliter dictum: cum cause pluuie multo tempore 
+      pre<lb ed="#A" n="59" break="no"/>cesserant. Non est ergo verisimile quinetiam effectus scilicet pluuia 
+      <lb ed="#A" n="60"/>fuerit. Alii dicunt quod etsi precesserunt nubes et pluure 
+      <lb ed="#A" n="61"/>etc. non tamen fuerant nubes in tali dispotone quod ibi 
+      gene<lb ed="#A" n="62" break="no"/>raretur iris
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e709">
+      ¶ Nota quod ad generationem iridis: requiritur 
+      <lb ed="#A" n="63"/>nubes densa. et ante nube densam nubes rorida: 
+      <lb ed="#A" n="64"/>vt dicitur li. iii. Meth. Quia iris generatur in nube per 
+      mo<lb ed="#A" n="65" break="no"/>dum speculi: vbi requiritur radii receptio in rorida 
+      nu<lb ed="#A" n="66" break="no"/>be: et terminatio in densitate alterius dense nubis. 
+      Si<lb ed="#A" n="67" break="no"/>cut in speculo requiritur perspicuitas vitri: et densitas 
+      <lb ed="#A" n="68"/>plumbi terminans. Isti ergo dicunt quod primo facta est talis 
+      <lb ed="#A" n="69"/>dispositio quando ostendit deus ipsi noe iridem Sed secundum 
+      <lb ed="#A" n="70"/>Lyram: quamuis hoc verum sit quod iris isto modo generetur vt 
+      <lb ed="#A" n="71"/>iam dicum est. Tamen hoc non videtur verum quod antea non 
+      <lb ed="#A" n="72"/>fuerit talis dispono. et per consequens iris quae apparet ex causa 
+      na<lb ed="#A" n="73" break="no"/>turali: quia Aug. dicit: quod deus res quas condidit sic 
+      ad<lb ed="#A" n="74" break="no"/>ministrat vt eas proprios motus agere sinat
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e738">
+      ¶ 
+      Me<lb ed="#A" n="75" break="no"/>lius ergo dicendum: quod sicut pluuia sic et iris fuerat 
+      an<lb ed="#A" n="76" break="no"/>te diluuium. sed tunc iris non fuerat data in signum 
+      <lb ed="#A" n="77"/>rememoratiuum pacti vel federis dei ad noe facti dur 
+      <lb ed="#A" n="78"/>hoc quod diluuium non induceretur generaliter terram disperdens: 
+      <lb ed="#A" n="79"/>quia pactum vel fedus tale nondum erat antea institutum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152650-Dd1e752">
+               <head xml:id="Vn7Pel-h152650-Hd1e754">10</head>
+               <p xml:id="Vn7Pel-h152650-d1e756">
+                  <lb ed="#A" n="80"/>¶ Sed quo sit iris data in signtur 
+      <lb ed="#A" n="81"/>federis vel pacti diuini: cum ex naturali causa fiat 
+      <lb ed="#A" n="82"/>et antea etiam praecesserat. Dicit idem Lyra vbi. supra quod 
+      ali<lb ed="#A" n="83" break="no"/>qui opinati sunt iridem fore signum naturale. 
+      Si<lb ed="#A" n="84" break="no"/>cut a simili digestio vrine est signum future sanita 
+      <lb ed="#A" n="85"/>tis vel euasionis mortis ex illa egritudine. Sic et 
+      <lb ed="#A" n="86"/>quo iris non generatur tempore multum sicco nec 
+      mul<lb ed="#A" n="87" break="no"/>tum pluuioso: sed tantum in nube rorida in qua 
+      vape<lb ed="#A" n="88" break="no"/>res non abundant adeo quin calor solis possit eas 
+      de<lb ed="#A" n="89" break="no"/>uincere sic quod non sequitur ex eis magna pluuia: Et 
+      <lb ed="#A" n="90"/>ideo dicunt quod est signum naturale ipsa iras scilicet remo 
+      <lb ed="#A" n="91"/>tionis pluuie magne. et per conseques diluuii non futu 
+      <lb ed="#A" n="92"/>ri de propinquo
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e787">
+      ¶ Sed hoc dictum non valet: quia 
+      di<lb ed="#A" n="93" break="no"/>luuium generale de quo hic loquimur non fuit 
+      causa<lb ed="#A" n="94" break="no"/>cum naturaliter sed virtute diuina: aquis oceani 
+      edu<lb ed="#A" n="95" break="no"/>ctis super terram: et aliis simul aquis multiplicatis. xv. 
+      <lb ed="#A" n="96"/>cubitis vltra cacumina montium. Unde dixit dom 
+      <lb ed="#A" n="97"/>nus. Ecce ego adducam aquas diluuii id est virtute 
+      pro<lb ed="#A" n="98" break="no"/>pria faciam etc.
+     </p>
+               <p xml:id="Vn7Pel-h152650-d1e803">
+      ¶ Ideo dicendum secndum. Lyram: quod iris 
+      <lb ed="#A" n="99"/>non est signum naturale sed signum ad placitum ex 
+      or<lb ed="#A" n="100" break="no"/>dinatione dei: et rememoratiuum pacti vel federis 
+      <lb ed="#A" n="101"/>eius ad noe de diluuio vlterius non futuro: Ideo 
+      di<lb ed="#A" n="102" break="no"/>xit. Erit arcus meus in nubi. et videbo et 
+      recorda<lb ed="#A" n="103" break="no"/>bor federis etc. Licet autem iris sit res naturalis et ex 
+      <lb ed="#A" n="104"/>causa naturali ac antea praecessit: tamen sicut in huma 
+      <lb ed="#A" n="105"/>nis aliquando lapis magnus qui a diu stetit in aliquo 
+      <lb ed="#A" n="106"/>loco immobilis de nouo statitur in signum mete: 
+      he<lb ed="#A" n="107" break="no"/>reditatum: et huiusmodi. Sic in proposito. ergo deus 
+      lau<lb ed="#A" n="108" break="no"/>dabilis etc. 
+      </p>
+               <p xml:id="Vn7Pel-h152650-d1e827">
+                  <lb ed="#A" n="109"/>¶ Eux dei bonitas est laudabilis 
+      <lb ed="#A" n="110"/>ex qualitate et. xii signis zodiaci. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

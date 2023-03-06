@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Animal</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Animal</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="92"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h28151">
+            <head xml:id="Vn7Pel-h28151-Hd1e110">Animal</head>
+            <div xml:id="Vn7Pel-h28151-Dd1e112">
+               <head xml:id="Vn7Pel-h28151-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h28151-d1e116">
+                  <lb ed="#A" n="83"/>Animal. 
+      Queri<lb ed="#A" n="84" break="no"/>tur. Utrum omnia etiam minuta animalia 
+      <lb ed="#A" n="85"/>sint condita in prima rerum mundi creati 
+      <lb ed="#A" n="86"/>lone a deo An postea ex rebus corrum 
+      <lb ed="#A" n="87"/>ptis sint orta. Respondetur secundum Aug. super Gen. li. iii. et 
+      <lb ed="#A" n="88"/>Magistrum in. ii dist. xv. quod ea que ex aquis vel ex 
+      <lb ed="#A" n="89"/>terra oriuntur et creata fuerunt: tunc in prima rerum 
+      conditi<lb ed="#A" n="90" break="no"/>one creata fuerunt. In quibus etiam non absurde 
+      intelli<lb ed="#A" n="91" break="no"/>guntur quae nascuntur ex his quae terra germinante orta sunt 
+      <lb ed="#A" n="92"/>quia praecesserunt conditionem non solum animalium sed etiam 
+      lumi<lb ed="#A" n="93" break="no"/>narium. Cetera vero quae nascuntur ab animalium mortuorum 
+      <lb ed="#A" n="94"/>corruptis corporibus vel tabe cadauerum aut 
+      ligno<lb ed="#A" n="95" break="no"/>rum herbarum vel fructuum: Similiter quae nascuntur ex purga 
+      <lb ed="#A" n="96"/>mentis vel exhalationibus corporum viuorum vt sunt 
+      pedi<lb ed="#A" n="97" break="no"/>culi in corporibus hominum pulicesque. et musce ex equis 
+      <lb ed="#A" n="98"/>et huiusmodi non sunt in principio creata nisi potentialiter 
+      <lb ed="#A" n="99"/>materialiter 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e156">
+               <head xml:id="Vn7Pel-h28151-Hd1e158">2</head>
+               <p xml:id="Vn7Pel-h28151-d1e160">
+                  <lb ed="#A" n="100"/>¶ Utrum animalia minora minus 
+      fa<lb ed="#A" n="101" break="no"/>clant ad laudandum deum creatorem qua maiora. Responde 
+      <lb ed="#A" n="102"/>tur secundum Aug. contra faustum libr i. quod in hoc inquit ineffabiliter 
+      <lb ed="#A" n="103"/>moueor laude creatoris qui prorsus ita magnus est in 
+      <lb ed="#A" n="104"/>operibus magnis vt minor non sit in minimis. Ars eim 
+      <lb ed="#A" n="105"/>vel sapientia diuina in omnibus operibus celestibus et terrenis 
+      <lb ed="#A" n="106"/>omnia congruenter suis locis et ordibus faciens omnibus 
+      particu<lb ed="#A" n="107" break="no"/>lariter et vniuersaliter congrua tribuit volatilibus nata 
+      <lb ed="#A" n="108"/>tilibus gressibilibus et reptilibus quae omnia in commune conferuit 
+      vni<lb ed="#A" n="109" break="no"/>uerso et indicant artificem suum decunum verumqui omnia in mensura 
+      <!--92.xml-->
+      <pb ed="#A" n="93"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>numero et pondere disposuit. Et tammira varieta 
+      <lb ed="#A" n="2"/>te qualitates rebus indidit: vt dicit idem Aug. xxi. lib. de 
+      <lb ed="#A" n="3"/>ciui. dei. quod miramur etiam in his rebus quas videmus 
+      <lb ed="#A" n="4"/>multitudinem scilicet generum et specierum et proprietatum. nec 
+      <lb ed="#A" n="5"/>sufficimus rationem reddere etiam de minimis. vt 
+      <lb ed="#A" n="6"/>quare magnes stipulam non mouet: et ferrum rapit 
+      <lb ed="#A" n="7"/>Quare palea in est ate ne fluescat niuemn tenet sua 
+      <lb ed="#A" n="8"/>frigiditate. et estate calens poma maturescere 
+      fa<lb ed="#A" n="9" break="no"/>cit. Oleum et argentum splendent: et tamen nigras maculas 
+      <lb ed="#A" n="10"/>faciunt vel lineas. Et plura ibidem inducit Augusg. 
+      <lb ed="#A" n="11"/>Item deus incomprehensibiliter laudabilis etiam in 
+      mi<lb ed="#A" n="12" break="no"/>mis. claret ex hoc. quod etiam minimarum rationes omnes 
+      <lb ed="#A" n="13"/>rerum non sufficimus capere. Unde Ecclesiastes. i. Cum 
+      <lb ed="#A" n="14"/>cte res difficiles. Lyra scilicet ad intelligendum. non potest 
+      <lb ed="#A" n="15"/>homo eas explicare secundone scilicet ad plenum nisi valde 
+      in<lb ed="#A" n="16" break="no"/>perfecte. vt patet de fructu vel folio arboris vel 
+      vir<lb ed="#A" n="17" break="no"/>me minimo etc. de quibus nullus quantumcumque studuerit 
+      <lb ed="#A" n="18"/>potest ad plenum veritatem dicere. videlicet Quare est tante 
+      <lb ed="#A" n="19"/>quantitatis praecise vel talis figure. saporis aut virtu 
+      <lb ed="#A" n="20"/>tis ad sanandum talem infirmitatem. Sed dicitur communiter 
+      <lb ed="#A" n="21"/>quod hoc habet a tota specie id est ab aliquam proprietate 
+      <lb ed="#A" n="22"/>speciem consequente. vt in pluribus que tamen non nominatur. eo quod 
+      <lb ed="#A" n="23"/>ignoratur. Hec Lyra et 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e242">
+               <head xml:id="Vn7Pel-h28151-Hd1e244">3</head>
+               <p xml:id="Vn7Pel-h28151-d1e246">
+                  <lb ed="#A" n="24"/>¶ Quo omnia animalia in principio 
+      cre<lb ed="#A" n="25" break="no"/>ata sint ad Adam adducta vt videret quid vocaret 
+      <lb ed="#A" n="26"/>ea. vt habetur Gen. ii Nunquid in paradisum terrestrem 
+      po<lb ed="#A" n="27" break="no"/>tuerunt conuenire omnia animalia vbi fuit Adam. Respondetur secundum 
+      <lb ed="#A" n="28"/>Aug. super Gen. lib. ix. quod deus adduxit animalia ac 
+      <lb ed="#A" n="29"/>Ada non per venationem aut aucupium: vel per retia. 
+      <lb ed="#A" n="30"/>sed angelico ministerio vel diuino imperio. sic 
+      intel<lb ed="#A" n="31" break="no"/>ligendo quod adduxit non quidem carnaliter sed secundum in 
+      <lb ed="#A" n="32"/>telligentie conspectum. quia intellectui Ade 
+      demostra<lb ed="#A" n="33" break="no"/>uit omnia: vt sciret proprietates eorum. et iuxta proprietates 
+      <lb ed="#A" n="34"/>sciret singulis nomina imponere congrua. Unde scriptura 
+      <lb ed="#A" n="35"/>ibidem subdit. Omne quod vocauit Adam anime viuentis 
+      <lb ed="#A" n="36"/>ipsum est nomen eius. Lyra scilicet secundum veritatem proprietatis 
+      <lb ed="#A" n="37"/>qua nomen eis imposuit in principio. Itaque talis ad 
+      <lb ed="#A" n="38"/>ductio fuit non ad sensum sed ad intellectum secundum doc. 
+      </p>
+               <p xml:id="Vn7Pel-h28151-d1e281">
+                  <lb ed="#A" n="39"/>¶ An aut hoc factum sit ante formationem Eue. Am 
+      <lb ed="#A" n="40"/>bro. in lib. de paradiso videtur dicere quod fuit 
+      antequam<lb ed="#A" n="41" break="no"/>Eua sit creata. vt dum Adam in omnibus animalibus videre 
+      <lb ed="#A" n="42"/>vtroque sexu naturam constare. eo exemplo cognoscera 
+      <lb ed="#A" n="43"/>necessarium sibi fore consortium mulieri ad gignendum 
+      <lb ed="#A" n="44"/>et educandum prolem: vt sic impleretur patria celestis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e298">
+               <head xml:id="Vn7Pel-h28151-Hd1e300">4</head>
+               <p xml:id="Vn7Pel-h28151-d1e302">
+                  <lb ed="#A" n="45"/>¶ Quare cum alis animalibus Adam 
+      <lb ed="#A" n="46"/>nomina imposuerit: de piscibus et natatilibus non dicit 
+      scri<lb ed="#A" n="47" break="no"/>ptura quod eis nomina imposuerit. Patet Gen. ii. Respondntur 
+      <lb ed="#A" n="48"/>secundum Aug. super Gen. li. ix. quod Adam loquebatur illa 
+      li<lb ed="#A" n="49" break="no"/>gua que fuit vnica ante turris babylonis 
+      constru<lb ed="#A" n="50" break="no"/>ctionem. In illa ergo ligua imposuit nomina animalibus 
+      <lb ed="#A" n="51"/>terrestribus et volatilibus. Etsi illa lingua manet vt 
+      <lb ed="#A" n="52"/>que modo sunt in ea eedem voces articulate in eadem 
+      ligua<lb ed="#A" n="53" break="no"/>quacumque fuerit illa. Nomina autem piscium fore pro tunc 
+      <lb ed="#A" n="54"/>ab homine imposita: non videtur inquit credibile in 
+      il<lb ed="#A" n="55" break="no"/>la prima lingua. sed fuerunt diuinitus instituta quae deo 
+      <lb ed="#A" n="56"/>docente homo postea disceret. Et sic credendum est quod 
+      pau<lb ed="#A" n="57" break="no"/>latim cognitis piscium generibus postea nomina sunt eis 
+      <!--92.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>imposita
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e339">
+      ¶ Ad hec vbi <ref xml:id="Vn7Pel-h28151-Rd1e341">natatie. §. ix. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e346">
+               <head xml:id="Vn7Pel-h28151-Hd1e348">5</head>
+               <p xml:id="Vn7Pel-h28151-d1e350">
+                  <lb ed="#A" n="59"/>¶ Quid de venenosis animalibus 
+      <lb ed="#A" n="60"/>An a principio sint creata venenosa. an innoxia 
+      <lb ed="#A" n="61"/>Sed post peccatum hominis noxia esse ceperint: Respondetur 
+      <lb ed="#A" n="62"/>secundum magistrum cum Augustinus. li. ii. di. xv. et Bona. ac Ric. 
+      <lb ed="#A" n="63"/>quod fuerit creata innoxia. sed propter peccatum facta sunt 
+      post<lb ed="#A" n="64" break="no"/>ea noxia: causa viciorum purgandorum vel puniendorum et 
+      <lb ed="#A" n="65"/>deterrendo ac probando ad exercitium virtutum. Sicut enim 
+      <lb ed="#A" n="66"/>oculus sanus non leditur a sole. sed cum fit lippus iam leditur Sic 
+      <lb ed="#A" n="67"/>in proposito. nam Daniel inter leones famelicos 
+      sanu<lb ed="#A" n="68" break="no"/>mamsit Et vipera apostoli manui inherens eum non lesit 
+      <lb ed="#A" n="69"/>sic homo si non peccasset a nullo lederetur. Unde quia homo 
+      <lb ed="#A" n="70"/>peccauit venenosis mendaciis et dictis serpentis persua 
+      <lb ed="#A" n="71"/>sus. ideo iuste a deo punitur venenosis animalibus et quia 
+      <lb ed="#A" n="72"/>peccauit homo in magno inobedientie: ideo praesidentiam 
+      su<lb ed="#A" n="73" break="no"/>per magna animalia iusto perdidit iudicio dei. Item 
+      <lb ed="#A" n="74"/>quia homo peccauit superbiendo contra summum deum. ideo 
+      iuste<lb ed="#A" n="75" break="no"/>punitur a minimis pulicibus et huiusmodi pro confundenda 
+      <lb ed="#A" n="76"/>eius superbia 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e393">
+               <head xml:id="Vn7Pel-h28151-Hd1e395">6</head>
+               <p xml:id="Vn7Pel-h28151-d1e397">
+                  <lb ed="#A" n="77"/>¶ Unde quaerendo pro quanto perdidit homo 
+      po<lb ed="#A" n="78" break="no"/>sidentiam super animalibus Respondetur secundum theologos. docto. 
+      <lb ed="#A" n="79"/>quod perdidit in duobus extremis. videlicet in maxis 
+      anima<lb ed="#A" n="80" break="no"/>libus vt patet in elephantis: leonibus et etiam draconibus 
+      <lb ed="#A" n="81"/>et huiusmodi. Perdidit etiam in minimis. vt patet de 
+      musci<lb ed="#A" n="82" break="no"/>pulicibus: ranis et huiusmodi punientibus. In mediis autem 
+      <lb ed="#A" n="83"/>deus permisit homini adhuc habere praesidentiam. vt per hec 
+      sciat<lb ed="#A" n="84" break="no"/>etiam illa animalia extrema sibi fuisse subiecta antequam 
+      <lb ed="#A" n="85"/>peccauit. Et propter hoc etiam concessit vt homo possit plurima 
+      <lb ed="#A" n="86"/>ex illis maioribus et minoribus vel arte vincere vel 
+      <lb ed="#A" n="87"/>bomesticare vel occidere pro voluntate etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e424">
+               <head xml:id="Vn7Pel-h28151-Hd1e426">7</head>
+               <p xml:id="Vn7Pel-h28151-d1e428">
+                  <lb ed="#A" n="88"/>¶ Quare animalia plura noxia 
+      ho<lb ed="#A" n="89" break="no"/>in terris: sunt innoxia in aquis vel minus noxia. Nam 
+      <lb ed="#A" n="90"/>Amb. in hexam. dicit quod animalia noxia in terris vt 
+      an<lb ed="#A" n="91" break="no"/>gues sunt in aquis innoxia et sine veneno. Et leo 
+      ter<lb ed="#A" n="92" break="no"/>ribilis in terris: dulcis est in fluctibus Rana horens 
+      <lb ed="#A" n="93"/>paludibus. in aquis praestat cibum hominibus. Hec et plura 
+      <lb ed="#A" n="94"/>ibi Amb.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e446">
+      ¶ Respondetur quod pretr rationem philosophiam potest 
+      assigna<lb ed="#A" n="95" break="no"/>ri hec ratio theologica. quia homo peccauit in terra de 
+      fru<lb ed="#A" n="96" break="no"/>ctibus tere comededo no in aquis. Unde et deus non aquis 
+      <lb ed="#A" n="97"/>eugo terre maledixit dic. Maledicta tera in opere tuo. propter 
+      <lb ed="#A" n="98"/>ea et in diluuio terrestria animalia non aquatica pericrunt. Quia 
+      <lb ed="#A" n="99"/>ergo homo peccauit in terra non in aqua ideo plus sibi nocent animalia 
+      <lb ed="#A" n="100"/>noxia in terra vt docet cut Aug. li. i. de mirabi. 
+      sacre<lb ed="#A" n="101" break="no"/>scrip. ca. iii. Unde mira est dei sapientia: 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e465">
+               <head xml:id="Vn7Pel-h28151-Hd1e467">8</head>
+               <p xml:id="Vn7Pel-h28151-d1e469">
+                  <lb ed="#A" n="102"/>¶ Quali ex materia produxit deus 
+      <lb ed="#A" n="103"/>animalia et quoto die a principio. Respondetur quod ex quo vt Amb. 
+      <lb ed="#A" n="104"/>dicit lib. hexam. Tria sunt genera animantium videlicet Primo 
+      quae<lb ed="#A" n="105" break="no"/>dam sunt terrena. secundo quaedam aquatilia. tertio quaedam 
+      volati<lb ed="#A" n="106" break="no"/>lia. secundum hoc ergo distinguendum est. Nam iuxta scripturam Gen. 
+      <lb ed="#A" n="107"/>ilicet de terenis animalibus dicitur sic. Dixit deus producat terra 
+      <lb ed="#A" n="108"/>animam viuentem in genere suo. iumenta et reptilia et 
+      besti<lb ed="#A" n="109" break="no"/>as tere secundum species suas etc. Unde claret quod deus de 
+      terra<lb ed="#A" n="110" break="no"/>fecit quattuor genera animalium. Primo iumenta quae sic dicuntur 
+      <lb ed="#A" n="111"/>quasi iuuamenta hominis pro vsu vehendi vel arandi et huius 
+      <lb ed="#A" n="112"/>modi secundum Lyram. Item secundo reptilia tere quae sic dicuntur. 
+      <!--93.xml-->
+      <pb ed="#A" n="94"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quia repare videtur super terram. Nam etsi hebeant pedes tantum 
+      <lb ed="#A" n="2"/>breues. propterea se trahunt sune teram vt lacerte et huiusmodi. 
+      </p>
+               <p xml:id="Vn7Pel-h28151-d1e506">
+                  <lb ed="#A" n="3"/>¶ Tertio bestias: quae dicuntur prope quia vastant et vaste 
+      <lb ed="#A" n="4"/>vagantur. vt sunt siluestria. Quarto de terra fecit de 
+      <lb ed="#A" n="5"/>us hominem. vt ibidem subdit scriptura. Hec autem omnia 
+      <lb ed="#A" n="6"/>facta sunt die sexta. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e518">
+               <head xml:id="Vn7Pel-h28151-Hd1e520">9</head>
+               <p xml:id="Vn7Pel-h28151-d1e522">
+                  <lb ed="#A" n="7"/>¶ Sed quare deus animalia terrena cum 
+      <lb ed="#A" n="8"/>homine fecit eodem die. Respondetursecundum doc praesertim Bona. 
+      <lb ed="#A" n="9"/>Fram. maro. ac Commestor. quod ideo. quia huiusmodi animalia 
+      fi<lb ed="#A" n="10" break="no"/>bant ad ornamentum terre. Et quia homo corpore similis est 
+      be<lb ed="#A" n="11" break="no"/>stiis: licet anima praestet omnibus. ideo eodem die in corpore homo 
+      for<lb ed="#A" n="12" break="no"/>matus est quo et bestie. Sed quoniam homo erat finis omnium 
+      propter<lb ed="#A" n="13" break="no"/>quem facta sunt alia animalia omnia. ideo homo licet eodem 
+      die<lb ed="#A" n="14" break="no"/>sexto: tamen postremo omnium factus est. vt patet e. c. i. Gen 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e543">
+               <head xml:id="Vn7Pel-h28151-Hd1e545">10</head>
+               <p xml:id="Vn7Pel-h28151-d1e547">
+                  <lb ed="#A" n="15"/>¶ Quid de animalibus aliis: videlicet 
+      <lb ed="#A" n="16"/>aquatilibus et volatilibus. Respondetur quod scriptura dicit de illis 
+      <lb ed="#A" n="17"/>sic. Dixit deus. producant aquae reptile anime viuentis et 
+      vola<lb ed="#A" n="18" break="no"/>tile super terram sub firmamento celi. Creauitque deus 
+      ce<lb ed="#A" n="19" break="no"/>te grandia etc. Ex quo habetur quod ex aqua deus fecit tria alia 
+      ge<lb ed="#A" n="20" break="no"/>nera animalium. Primo reptilia. Et secundum Lyram ac doc. f. 
+      <lb ed="#A" n="21"/>ioquitur non de illis reptilibus quae repare et viuere habent in 
+      ce<lb ed="#A" n="22" break="no"/>ra. quia in praecedenti dictum est quod reptilia terre facta sunt de 
+      <lb ed="#A" n="23"/>terra: non de aqua. Sed hoc loquitur scriptura de illis 
+      reptili<lb ed="#A" n="24" break="no"/>bus quae habitant in aquis. vt piscium genera quae dicutur 
+      re<lb ed="#A" n="25" break="no"/>ptilia quia non habent pedes nisi forte breues. Talia 
+      <lb ed="#A" n="26"/>eni facta sunt de aqua non de terra. Secundo ex aqua fecit 
+      <lb ed="#A" n="27"/>deus animalia natatilia: vt pisces. Tertio volatilia 
+      <lb ed="#A" n="28"/>vt sunt aues secundum Bona. et omnes communiter. Hec autem 
+      <lb ed="#A" n="29"/>omnia fecit deus die quinta pro ornamento aque et aeris. 
+      <lb ed="#A" n="30"/>Ergo laudetur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e586">
+               <head xml:id="Vn7Pel-h28151-Hd1e588">11</head>
+               <p xml:id="Vn7Pel-h28151-d1e590">
+                  <lb ed="#A" n="31"/>Seund an animalia aquatilia et 
+      <lb ed="#A" n="32"/>volatilia sint facta de sola aqua. Respondetur secundum 
+      Bo<lb ed="#A" n="33" break="no"/>nauen. in. ii. di. xv. ar. ii. q. ii concor. Lyram. super Gen. 
+      <lb ed="#A" n="34"/>supra quod non est sic intelligendum quod aues et pisces sini 
+      <lb ed="#A" n="35"/>de sola aqua facti sed de quattuor elementis. licet sola aqua 
+      <lb ed="#A" n="36"/>exprimatur propter conuenientiam aliorum cum talibus
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e606">
+      ¶ Nimi 
+      <lb ed="#A" n="37"/>rum vt idem Bonauen. dicit. Aqua communiter capitur tam 
+      <lb ed="#A" n="38"/>humore quam pro vapore secundum Augu. iii. super Gen. ac 
+      <lb ed="#A" n="39"/>litteram. quia aqua dicitur in duplici drnoentia scilicet humoris 
+      <lb ed="#A" n="40"/>fluitantis: et vaporis exhalantis. Ideo aqua est principi 
+      <lb ed="#A" n="41"/>um materiale duplicis generis animalium. ita quod natati 
+      <lb ed="#A" n="42"/>lia sunt ex aqua et ideo in eis manent et delectaur scilicet pisces. 
+      <lb ed="#A" n="43"/>Uolatilia autem sunt ex vapore aqueo: qui vapor 
+      fer<lb ed="#A" n="44" break="no"/>tur sursum et commiscetur aeri. ideo volatilia in aere 
+      suble<lb ed="#A" n="45" break="no"/>uantur et delectantur. Hinc et olfatum deus dedit auibus 
+      <lb ed="#A" n="46"/>pro explorandis vaporibus. Et dedit piscibus gustum et 
+      <lb ed="#A" n="47"/>branceam pro explorandis aquis
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e632">
+      ¶ Similiter de animalibus 
+      ter<lb ed="#A" n="48" break="no"/>renis intelligendum est quod no sunt de sola terra sed de quattu 
+      <lb ed="#A" n="49"/>or elementis scilicet in scriptura sola terra exprimatur propter conue 
+      <lb ed="#A" n="50"/>nientiam maiorem cum talibus quo ad elemetum terre. Cum 
+      <lb ed="#A" n="51"/>enim omnia huiusmodi corpora siue aquatilium vel volatilium siue 
+      <lb ed="#A" n="52"/>terrenorum sint corpora mixta ex corporibus simplicibus. 
+      <lb ed="#A" n="53"/>ergo opertet esse ex quattuor elementorum commixtione.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e648">
+      ¶ Ad 
+      <lb ed="#A" n="54"/>hec vbi <ref xml:id="Vn7Pel-h28151-Rd1e652">Bestia. §. ii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h28151-d1e656">
+                  <lb ed="#A" n="55"/>¶ Item de animalibus monstruosis et 
+      <lb ed="#A" n="56"/>praefertim hominibus. vide vbi Natura. 
+      <!--93.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e668">
+               <head xml:id="Vn7Pel-h28151-Hd1e670">12</head>
+               <p xml:id="Vn7Pel-h28151-d1e672">
+                  <lb ed="#A" n="57"/>¶ Eur deus facere voluit anima 
+      <lb ed="#A" n="58"/>lia rapacia quae deuorant animalia alia et viuunt de 
+      rapi<lb ed="#A" n="59" break="no"/>na.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e681">
+      ¶ Item cur fecit etiam animalia quae suis corruptionibus 
+      <lb ed="#A" n="60"/>et exhalationibus aerem inficiunt. vt draciones flatu 
+      aere<lb ed="#A" n="61" break="no"/>morbidantes. et serpentes et bufones et huiusmodi. Cum 
+      <lb ed="#A" n="62"/>enim talia dehonestare videantur destruendo mundi 
+      <lb ed="#A" n="63"/>decorem et ornatum: videtur quod non debuerit fieri in 
+      mun<lb ed="#A" n="64" break="no"/>do. Respondetur secundum Bona. super. ii di. xv. ar. ii. q. i. cum 
+      <lb ed="#A" n="65"/>Aug. li. iii. super Gen. concor. Guill. di. xix. Animalia sicut 
+      <lb ed="#A" n="66"/>vita sua mundum honestant. ita et morte ex successio 
+      <lb ed="#A" n="67"/>ne faciunt ad decorem vniuersi. et ad commendandum 
+      sa<lb ed="#A" n="68" break="no"/>pientiam dei. ac homini faciunt ad excogitandum prudenter 
+      <lb ed="#A" n="69"/>vel sapienter de remedio huiusmodi infectionis. et ad 
+      pec<lb ed="#A" n="70" break="no"/>catum purgandum vel puniendum. nec non ad peccatores de 
+      <lb ed="#A" n="71"/>terrendum et a peccato retrahendum. Cum enim homo recogitat 
+      <lb ed="#A" n="72"/>quod deus talibus et tot miseriis puniuit vnum peccatum 
+      <lb ed="#A" n="73"/>Ade in mundo. quid putas faciet puniendo pro mult 
+      <lb ed="#A" n="74"/>peccatis actualibus in inferno: Denique in talibus deus 
+      mi<lb ed="#A" n="75" break="no"/>sericorditer etiam nos docet: cum non sinit talia veneno 
+      <lb ed="#A" n="76"/>sa animalia et rapacia. puta lupos leones et huiusmodi in 
+      <lb ed="#A" n="77"/>tantum multiplicari in mundo sicut multiplicantur innoxia 
+      <lb ed="#A" n="78"/>Unde Philosophus. in proble. inuestigat Cur lupi et leiones et 
+      <lb ed="#A" n="79"/>huiusmodi. qui licet deuorare habeant oues et boues et 
+      <lb ed="#A" n="80"/>pomodi. nihilo minus pauciores sunt in mundo quam 
+      <lb ed="#A" n="81"/>sint oues et boues. cum tamen etiam homines mactent oues 
+      <lb ed="#A" n="82"/>et boues multos quotidie. Et rationem naturalem ponit. 
+      <lb ed="#A" n="83"/>quia lupi rarius generant. Sed melior est ratio theologica 
+      <lb ed="#A" n="84"/>quod hoc fit deo disponente ex mina ne nociua 
+      anima<lb ed="#A" n="85" break="no"/>lia multiplicentur in terra. Et in hoc docet homines 
+      <lb ed="#A" n="86"/>cauere rapinas et iniquitates scilicet vt deus multiplicet 
+      <lb ed="#A" n="87"/>eos in prole. Unde Sap. iiii. Multigena impiorum non 
+      <lb ed="#A" n="88"/>erit vtilis. et adulterine plantationes non dabunt 
+      radi<lb ed="#A" n="89" break="no"/>ces altas sed eradicabuntur. Laudabilis ergo dei iusticia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e750">
+               <head xml:id="Vn7Pel-h28151-Hd1e752">13</head>
+               <p xml:id="Vn7Pel-h28151-d1e754">
+                  <lb ed="#A" n="90"/>¶ An animalia mutuo se 
+      deuoras<lb ed="#A" n="91" break="no"/>sent si homo non peccasset. Ad hoc raseunt Raba. sinet Gen. 
+      <lb ed="#A" n="92"/>dicit. sic. Ante reatum hominis nil noxium terra protulit. 
+      nul<lb ed="#A" n="93" break="no"/>lam herbam venenatam. nullam arborem sterile. Cum 
+      ma<lb ed="#A" n="94" break="no"/>nifeste dictum sit in Gen. quod omnis herba et vniuersa 
+      <lb ed="#A" n="95"/>ligna data sunt hominibus et volatilibus et 
+      cun<lb ed="#A" n="96" break="no"/>ctis animantibus in escam. Patet ergo inquit quod nec ipse 
+      <lb ed="#A" n="97"/>aues raptu inferiorum animalium viuebant. nec lupus 
+      isi<lb ed="#A" n="98" break="no"/>diabatur ouibus. nec serpenti puluis panis eius erat. 
+      <lb ed="#A" n="99"/>sed vniuersa concorditer herbis virentibus ac fructu ve 
+      <lb ed="#A" n="100"/>scebantur. Hec Raba. vt habetur liro origi. in c. Terra. Sed 
+      <lb ed="#A" n="101"/>commuiter doc. sequuntur Aug. li. iii. sitet Gen. ad itteram di. quod 
+      <lb ed="#A" n="102"/>etiamsi homo perstitisset nihilo minus quaidam animalia de 
+      rapi<lb ed="#A" n="103" break="no"/>na viuere haberent mordendo alia animalia ex nature in 
+      <lb ed="#A" n="104"/>stitutione a deo facta ad decorem vniuersi. vt patuit in 
+      <lb ed="#A" n="105"/>praecedenti. Nam decor mundi et docunntum hominis est quod ac 
+      <lb ed="#A" n="106"/>cipiter vel falco sic factus est a deo rapax vngulis arma 
+      <lb ed="#A" n="107"/>ta vt dicit Amb. in hexam. habens aduersus proprios fe 
+      <lb ed="#A" n="108"/>tus tantam inclementiam quod quinta die dum eos aduerterit 
+      <lb ed="#A" n="109"/>tentari volatus primordia: nidis a suis eiicit et praecipi 
+      <lb ed="#A" n="110"/>tat: verberat alis vt cogat audere quod trepidat. hoc est 
+      <lb ed="#A" n="111"/>vt ad praedam volitent. nec eis postea deferunt alimoni 
+      <lb ed="#A" n="112"/>am. et sic instruunt ad praedam pro pastu ne in tenera etate 
+      <lb ed="#A" n="113"/>pigrescant. In talibus autem et nos homines docemur ne 
+      <!--94.xml-->
+      <pb ed="#A" n="95"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ocio marcescamus aut foluamur delitiis sed 
+      labo<lb ed="#A" n="2" break="no"/>re victum quaeramus. Similiter quod lupus sic a deo factus est vt 
+      <lb ed="#A" n="3"/>idem Amb. e. li. dicit quod lupus si prius hominem viderit quam 
+      <lb ed="#A" n="4"/>videatur vocem eripit. quod si praeuisum ab homine se senserit. 
+      <lb ed="#A" n="5"/>deponit ferociam: nec potest bene currere. Si in te surre 
+      <lb ed="#A" n="6"/>xerit: petram id est lapidem manu cape et fugit. Quibus in 
+      <lb ed="#A" n="7"/>struimur vt praeuideamus insidias diaboli et christum 
+      <lb ed="#A" n="8"/>quae se petram dicit capiamus. et sic diabolum fugamus 
+      Con<lb ed="#A" n="9" break="no"/>similiter ad decorem et docternam hominum est quod lemionis rugitum 
+      <lb ed="#A" n="10"/>vt idem Amb. dicit ibidem: omnia animantia sic contremiscant vt 
+      <lb ed="#A" n="11"/>se mouere non possint a gradu. Sic nos rugitum christi 
+      <lb ed="#A" n="12"/>in iudicio formidare demmus Unde Amos. iii dicitur. Leo 
+      <lb ed="#A" n="13"/>rugiet id est christus clamabit in iudicio. quis non timebit cum 
+      <lb ed="#A" n="14"/>sit rex omnium etc. Ex his et innumeris aliis proprietatibus 
+      a<lb ed="#A" n="15" break="no"/>nimalium quorumcumque patet quod omnia sunt ad vtilitatem modi et 
+      <lb ed="#A" n="16"/>hominis. et per consequens facta potuerit bene a principio tlia 
+      fo<lb ed="#A" n="17" break="no"/>re secundum se puta rapacia naturaliter. et quaedam naturaliter 
+      <lb ed="#A" n="18"/>venenosa in se. quia venenum serpenti vel draconi non est ve 
+      <lb ed="#A" n="19"/>nenum sed vita. secundum Amb. Uerumtamen non fuissent noxia 
+      <lb ed="#A" n="20"/>homini quacumque huiusmodi. nc est alicui animalico voluntatem homintis 
+      <lb ed="#A" n="21"/>si homo non peccasse. sed magis herbas et fructus 
+      comedi<lb ed="#A" n="22" break="no"/>sent: vt dicit supra Rab. quam deuorassent aliquod animal cotr 
+      <lb ed="#A" n="23"/>voluntatem hominis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e866">
+               <head xml:id="Vn7Pel-h28151-Hd1e868">14</head>
+               <p xml:id="Vn7Pel-h28151-d1e870">
+                  <lb ed="#A" n="24"/>¶ Utrum omnia animalia irrationalia et 
+      <lb ed="#A" n="25"/>etiam omnia sensibilia sint facta a deo propter rationale animal. 
+      <lb ed="#A" n="26"/>idest propter hominem.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e879">
+      ¶ Arguitur quod non. quia omnia facta sunt pro 
+      <lb ed="#A" n="27"/>pter honitatem dei. Iuxta illud prouer. xvi. Uniuerso 
+      <lb ed="#A" n="28"/>propter semetipsum operatus est dominus. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e886">
+      ¶ In oppositum 
+      <lb ed="#A" n="29"/>i. Cor. iii. Omnia nostra sunt id est propter nos homines facta. Et 
+      <lb ed="#A" n="30"/>ii. Phys. Aris. dicit. Utimur tamquam propter nos omnibus quae 
+      <lb ed="#A" n="31"/>sunt. sumus ei quodammodo finis omnium eorum quae sunt.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e895">
+      ¶ Respondetur 
+      <lb ed="#A" n="32"/>ad hec secundum Bona. super. ii di. xv. ar. ii. q. i. simili et 
+      Ric<lb ed="#A" n="33" break="no"/>super e. ii di. i. ar. v. q. iii concor. Tho. e. di.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e903">
+      ¶ Et primo 
+      <lb ed="#A" n="34"/>notando quod cuiuslibet creature finis vltimus est deus vel 
+      <lb ed="#A" n="35"/>diuina bonitas vt arguebatur supra. sed finis subulti 
+      <lb ed="#A" n="36"/>mus est homo vt arguebatur in oppositum. vnde Gen i. 
+      Fa<lb ed="#A" n="37" break="no"/>ciamus ho. ad ima. etc. Et praesit piscibus maris etc. 
+      De<lb ed="#A" n="38" break="no"/>claratur in exemplo. Uideus eim quod rex vel princeps aliquando 
+      <lb ed="#A" n="39"/>facit aliqua immediate propter semetipsum vel propt honorem 
+      <lb ed="#A" n="40"/>proprium: puta coronam regni vel vestem regiam. Aliquando autem 
+      <lb ed="#A" n="41"/>facit aliquo propter seruos suos. et principalius propter seipsum. 
+      <lb ed="#A" n="42"/>puta arma bellica. currus. conuiuia magrga: domos 
+      <lb ed="#A" n="43"/>amplas et huiusmodi. Sic in proposito deus fecut quasdam 
+      crea<lb ed="#A" n="44" break="no"/>turas propter se immediate respicientes ipsummet deum vt 
+      <lb ed="#A" n="45"/>finem vltimum: non mediante altero fine. Et tales sunt 
+      cre<lb ed="#A" n="46" break="no"/>ature rationales: puta homines et angeli. Quasdam at e 
+      <lb ed="#A" n="47"/>fecit et ordinauit in seipsum vt in finem vltimum et principalem 
+      <lb ed="#A" n="48"/>tamen mediante etiam alio fine. vt irrationalia et sensibilia 
+      <lb ed="#A" n="49"/>fecit propter hominem tamquam propter finem subultimum: et etiam propter 
+      <lb ed="#A" n="50"/>se.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e942">
+      ¶ Secundo ergo concluditur quod finis omnium propter quem 
+      fa<lb ed="#A" n="51" break="no"/>sunt est homo vel creatura rationalis. Et patet declarando. quia 
+      ele<lb ed="#A" n="52" break="no"/>menta facta sunt propter mixta corpora vel elementata. non enim 
+      <lb ed="#A" n="53"/>praesent esse mixta nisi ex elementis ex quibus habent componi. 
+      <lb ed="#A" n="54"/>Sed mixta sunt facta propter vegetatiua. puta propter 
+      plan<lb ed="#A" n="55" break="no"/>tas: herbas: semina: fruges fructus etc Uegetatiua 
+      <lb ed="#A" n="56"/>autem fcata sunt propter sensitiua. puta propter animalia scilicet vt nutri 
+      <lb ed="#A" n="57"/>antur. Sensitiua vero facta sunt propter naturam rationalem. et 
+      <lb ed="#A" n="58"/>natura rationalis facta est immediate propter deum. Secditur ergo 
+      <!--94.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>quod omnis creatura sensibilis et irrationalis. etiam celum quia mitur 
+      <lb ed="#A" n="60"/>strat nobis Deutur. iiii propter hominem est: qui est propter deum 
+      imme<lb ed="#A" n="61" break="no"/>diate vt coniungatur ipsi deo per cognitionem et amorem. Et 
+      <lb ed="#A" n="62"/>sic omnia reducuntur in dei bonitate vt in finem vltimum: tam 
+      <lb ed="#A" n="63"/>mediate scilicet per hominem quam etiam immediate. inquantum in eis est 
+      <lb ed="#A" n="64"/>aliqualis participatio bonitatis dei. quamuis non coniungantur 
+      <lb ed="#A" n="65"/>deo per cognitionem et amorem. Sed hoc est solius nature ratio 
+      <lb ed="#A" n="66"/>nalis. Hec secundum praedictos docto. Deus ergo laudabilis 
+      </p>
+               <p xml:id="Vn7Pel-h28151-d1e984">
+                  <lb ed="#A" n="67"/>¶ Sed vtrum animal rational scilicet homo sit propter angelos vel 
+      ex<lb ed="#A" n="68" break="no"/>conuerso patuit vbi <ref xml:id="Vn7Pel-h28151-Rd1e990">Angelus. §. ix. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e994">
+               <head xml:id="Vn7Pel-h28151-Hd1e996">15</head>
+               <p xml:id="Vn7Pel-h28151-d1e998">
+                  <lb ed="#A" n="69"/>¶ Ite quo dicutur omnia animalia facta 
+      <lb ed="#A" n="70"/>esse propter hominem. cum videamus quaedam animalia valere homini 
+      <lb ed="#A" n="71"/>solum ad esum. vt pisces communes. Quedam autem solum acd 
+      <lb ed="#A" n="72"/>vestitum. vt vulpes et huiusmodi. Sed si homo stetisset in 
+      para<lb ed="#A" n="73" break="no"/>diso: tali cibo vel vestitu scilicet ex animalibus non indiguisset. 
+      <lb ed="#A" n="74"/>ergo talia autm tunc frustra essent scacta: autem non propter hominem. 
+      <lb ed="#A" n="75"/>Si dicatur quod talia fecut deus propter hoc quia praeuidit hominem 
+      <lb ed="#A" n="76"/>lapsurum: hoc non valet. quia sic sequeretur quod in voluntate hominis 
+      <lb ed="#A" n="77"/>et peccato consisteret talia animalia fieri vel non frustra 
+      fic<lb ed="#A" n="78" break="no"/>ri. quod est falsum.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e1022">
+      ¶ Preterea ar. Illud quod est ad alique 
+      <lb ed="#A" n="79"/>fine natu raliter no aduersatur illi fini. sed videmus mul 
+      <lb ed="#A" n="80"/>ta irrationalia animalia quae non sunt homini vtilia. sed potius ad 
+      <lb ed="#A" n="81"/>uersantia homini et in nocumentum: vt basiliscus. scorpio 
+      <lb ed="#A" n="82"/>bufo. regulus et huiusmodi. ergo non omnia facta sunt propter hominem 
+      <lb ed="#A" n="83"/>Item non videtur in quo desuiuissent huiusmodi venenosa homini 
+      <lb ed="#A" n="84"/>nec idiguisset talibus si homo perstitisset in innocentia. ergo 
+      <lb ed="#A" n="85"/>tunc frustra fuissent.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e1040">
+      ¶ Respondetur secundum Rich. similque 
+      Bo<lb ed="#A" n="86" break="no"/>na et concor. Tho. vbi supra colligendo. quod quamuis omnia 
+      <lb ed="#A" n="87"/>sint propter hominem facta vt dictum est. tamen aliter ordinabantur 
+      <lb ed="#A" n="88"/>ad hominem in statu nature institute. et aliter in statu na 
+      <lb ed="#A" n="89"/>ture lapse. Esto ergo quod non laberetur homo: nihilo minus 
+      <lb ed="#A" n="90"/>adhuc talia animalia n essent frustra. quia etsi non 
+      ordi<lb ed="#A" n="91" break="no"/>nabantur tunc ad hominis indigentiam: tamen adhuc essent vtilia 
+      <lb ed="#A" n="92"/>homini in statu innocentie quo ad quattuor. Primo ad 
+      ma<lb ed="#A" n="93" break="no"/>nifestandum hominis imperium. quia omnia obediuissent ei 
+      <lb ed="#A" n="94"/>ad nutum. Secundo ad contemplandum scilicet multiplicibus natu 
+      <lb ed="#A" n="95"/>ris dei sapientiam mirabile. Tertio ad deum diligendum 
+      <lb ed="#A" n="96"/>quod tanta fecut propter hominem. Quarto ad solacium. quia talis 
+      <lb ed="#A" n="97"/>multitudo animalium sicut et diuersitas florum: pulcrum red 
+      <lb ed="#A" n="98"/>dit mundum ad hominis solacium. Item in statu nature lapse 
+      <lb ed="#A" n="99"/>omnia sunt ad vtilit atem hominis quattuor modis. Primo 
+      re<lb ed="#A" n="100" break="no"/>leuando indigentam scilicet cibi vestitus vel obsequii in subus 
+      <lb ed="#A" n="101"/>hendo onera. vt sunt asinus equus et huiusmodi. Secundo 
+      so<lb ed="#A" n="102" break="no"/>laciando. vt simia et auicule: et catuli et similia. Tertio 
+      <lb ed="#A" n="103"/>qudam corrigendo vel ledendo propter culpam salubriter probanm 
+      <lb ed="#A" n="104"/>do patiam: vt nociua. Quarto quaedam exercendo 
+      inge<lb ed="#A" n="105" break="no"/>nium ex suis naturalibus proprietatibus. vnde Aug. iii. 
+      su<lb ed="#A" n="106" break="no"/>per Gen dicit quod animalia nociua homines viuos aut peia 
+      <lb ed="#A" n="107"/>liter ledunt. aut salubriter exercent. aut vtiliter probant. aut 
+      <lb ed="#A" n="108"/>goranter docent. Hec ille. Unde in omnibus deus est laudabilis
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h28151-Dd1e1093">
+               <head xml:id="Vn7Pel-h28151-Hd1e1095">16</head>
+               <p xml:id="Vn7Pel-h28151-d1e1097">
+                  <lb ed="#A" n="109"/>Ai ero quaratur. an sit aliquod animal. §a 
+      <lb ed="#A" n="110"/>quod nihil conferat homini. Damas. li. ii sententiarum suarum dicit 
+      <lb ed="#A" n="111"/>quo nullum est tale. quia omne animal aus est ad escam hominis 
+      in<lb ed="#A" n="112" break="no"/>quit. aut ad aliquod ministerium. autm ad iocunditatem vel so 
+      <lb ed="#A" n="113"/>lacium. sicut ad id sunt etiam plate fructifice et herbe 
+      flo<lb ed="#A" n="114" break="no"/>ride vt rose. aut ad egritudines sanandas. Et dici 
+      <lb ed="#A" n="115"/>Non est enim neque animal neque planta in quam non operaii 
+      <!--95.xml-->
+      <pb ed="#A" n="96"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>onem quandam hominum vtilitati vel vsui conferentem 
+      condi<lb ed="#A" n="2" break="no"/>tor iposuerit. Hec ille Unde saltem puniendo conferunt. 
+      </p>
+               <p xml:id="Vn7Pel-h28151-d1e1126">
+                  <lb ed="#A" n="3"/>¶ De animalibus in arca noet vbi DBi 
+      <lb ed="#A" n="4"/>luuium.
+     </p>
+               <p xml:id="Vn7Pel-h28151-d1e1133">
+      ¶ Item de diuersitate animalium variis passibus 
+      </p>
+               <p xml:id="Vn7Pel-h28151-d1e1135">
+                  <lb ed="#A" n="5"/>¶ Ex diuine bonitatis sapientia est mira 
+      <lb ed="#A" n="6"/>bilis et laudabilis in annorum numero et disponibus 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nobilitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Nobilitas</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="347"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h106996">
+            <head xml:id="Vn7Pel-h106996-Hd1e110">Nobilitas</head>
+            <div xml:id="Vn7Pel-h106996-Dd1e112">
+               <head xml:id="Vn7Pel-h106996-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h106996-d1e116">
+                  <lb ed="#A" n="7"/>¶ Ibilitas et 
+      ex<lb ed="#A" n="8" break="no"/>cellentia quottuplex distinguitur. 
+      No<lb ed="#A" n="9" break="no"/>ta secundum Grego. nazanze. in apolog. 
+      <lb ed="#A" n="10"/>tractatu de se. originaliumque lib. frater Ioannes 
+      er<lb ed="#A" n="11" break="no"/>fordien. dicit. Quod in hominibus quadruplex est nobilitas. 
+      </p>
+               <p xml:id="Vn7Pel-h106996-d1e129">
+                  <lb ed="#A" n="12"/>¶ Prima spiritualis secundum quam omnes equaliter 
+      nobi<lb ed="#A" n="13" break="no"/>les sumus quoniam ad imaginem facti sumus ipsius dei 
+      <lb ed="#A" n="14"/>regis praenobilissimi. Unde et Aug. viii. dci ciui. dei dicit. 
+      <lb ed="#A" n="15"/>Quamnobilis est anima humana quae ad visionem dei 
+      <lb ed="#A" n="16"/>et fruitionem est creata.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e142">
+      ¶ Secunda est nobilitas 
+      <lb ed="#A" n="17"/>carnalis scilicet generis et sanguinis que secundum Boecium 
+      <lb ed="#A" n="18"/>lih. iii. de consola. prosa. vi. est quedam laus vel gloria 
+      <lb ed="#A" n="19"/>de meritis parentum proueniens. Unde et Hierony 
+      <lb ed="#A" n="20"/>mus in Epistolis dicit. Nobilitatis ad hoc 
+      memi<lb ed="#A" n="21" break="no"/>ris vt claritatem generis morum sanctitate 
+      conscen<lb ed="#A" n="22" break="no"/>das. Alioquin Chrys. super Matt. dicente. Quid 
+      pro<lb ed="#A" n="23" break="no"/>dest generatio clara quam mores sordidant. 
+      inane<lb ed="#A" n="24" break="no"/>ergo nomen est nobilitas sanguinis nisi cissit 
+      no<lb ed="#A" n="25" break="no"/>bilitas virtutis. Exemplum de iudeis gloriantibus 
+      <lb ed="#A" n="26"/>se esse de genere abrae. Quibus christus respondit. Si 
+      fi<lb ed="#A" n="27" break="no"/>lii abrae estis opera abrae facite Ioam. viii. Nam 
+      <lb ed="#A" n="28"/>vna omnium generatio et corruptio.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e171">
+      ¶ Tertia est 
+      <lb ed="#A" n="29"/>nobilitas legalis quae sit per codicellorum et clenodiorum 
+      <lb ed="#A" n="30"/>priuilegiationem a regibus aut per adoptionem. Et de 
+      <lb ed="#A" n="31"/>hac etiam Hierony. in epistola ad filiam Mauricii dicit. 
+      <lb ed="#A" n="32"/>Mundanam nobilitatem non nature equitas 
+      praesti<lb ed="#A" n="33" break="no"/>tit sed cupiditatis ambitio. Omnes certe homines 
+      <lb ed="#A" n="34"/>per diuinum lauacrum baptismi efficiuntur equales 
+      <lb ed="#A" n="35"/>per quam tam diues quam pauper tam seruus quam liber: 
+      <lb ed="#A" n="36"/>tam nobilis quam ignobilis: dei efficitur filius. Et 
+      ter<lb ed="#A" n="37" break="no"/>rena nobilitas splendore glorie celestis et 
+      rega<lb ed="#A" n="38" break="no"/>lis illustratur.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e196">
+      ¶ Quarta est nobilitas virtualis 
+      <lb ed="#A" n="39"/>De qua Tullius lib. de offi. dicit. Hec est 
+      indu<lb ed="#A" n="40" break="no"/>bitata nobilitas que moribus probatur ornata quia 
+      <lb ed="#A" n="41"/>pulcrum est non commodum fame sed feda neglexisse. 
+      <lb ed="#A" n="42"/>Unde et Hierony. in Epistolis. Sola apud deum 
+      liber<lb ed="#A" n="43" break="no"/>tas est non seruire peccatis: summa nobilitas est 
+      cla<lb ed="#A" n="44" break="no"/>rum esse virtutibus. Hec Hieronymus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106996-Dd1e213">
+               <head xml:id="Vn7Pel-h106996-Hd1e215">2</head>
+               <p xml:id="Vn7Pel-h106996-d1e217">
+                  <lb ed="#A" n="45"/>¶ Sed simpliciter loquendo que 
+      <lb ed="#A" n="46"/>harum nobilitatu sit melior. Respondetur secundum Cassiod. 
+      <lb ed="#A" n="47"/>in epistola dicentem. Quod melius est de contemptibili 
+      ge<lb ed="#A" n="48" break="no"/>nere nasci et clarum virtutibus fieri quam de claro 
+      gene<lb ed="#A" n="49" break="no"/>re natum criminose viuere. Exemplum habemus 
+      di<lb ed="#A" n="50" break="no"/>cente Amb. in decretis. dist. xl. c. Illud. de adam et 
+      <lb ed="#A" n="51"/>eua. Nam adam fuit de viliori origine et loco or¬ 
+      <!--346.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>tus scilicet de limo terre in agro Damasceno. et sic 
+      ex<lb ed="#A" n="53" break="no"/>tra paradisum. Eua autem de nobiliori scilicet de costa Ade 
+      <lb ed="#A" n="54"/>et in loco nobilissimo scilicet in paradiso: inferior Adam 
+      <lb ed="#A" n="55"/>Item Abraam de thare idolatra natus patre: in caput 
+      <lb ed="#A" n="56"/>omnium electorum pro virtute est sublimatus. et sic de 
+      <lb ed="#A" n="57"/>aliis. Ad hec etiam facit dictum Aug. li. iiii. de ciui. dici 
+      <lb ed="#A" n="58"/>vbi ait. quod bonus etiamsi seruiat liber est. Malus 
+      <lb ed="#A" n="59"/>autem etiamsi regnet seruus est: nec vnius. Sed quod est 
+      <lb ed="#A" n="60"/>grauius tot dominorum quot viciorum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106996-Dd1e260">
+               <head xml:id="Vn7Pel-h106996-Hd1e262">3</head>
+               <p xml:id="Vn7Pel-h106996-d1e264">
+                  <lb ed="#A" n="61"/>¶ Que sunt proprietates nobilita e 
+      <lb ed="#A" n="62"/>tis virtuose. Respondetur secundum doc. et philosophos colligendo quod 
+      <lb ed="#A" n="63"/>praecipue sunt quattuor.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e273">
+      ¶ Prima humilitas Ecci. iii. 
+      <lb ed="#A" n="64"/>Quanto magnus es humilia te in omnibus Bernd. 
+      Ho<lb ed="#A" n="65" break="no"/>nor honoris est humilitas. Exemplum de Saule qui 
+      hu<lb ed="#A" n="66" break="no"/>milis electus fuit in regem: postea superbiens deiectus 
+      <lb ed="#A" n="67"/>est. et loco eius Dauid huilis electus ¶. Secunda 
+      <lb ed="#A" n="68"/>est veritas Prouer. xii. Labium veritatis firmum erit in per 
+      <lb ed="#A" n="69"/>petuum. Et. e. xvii. Non decet principem labium mendax etc 
+      </p>
+               <p xml:id="Vn7Pel-h106996-d1e289">
+                  <lb ed="#A" n="70"/>¶ Tertia est iusticie equitas. Psalmus Dilexisti iusticiam 
+      <lb ed="#A" n="71"/>et odisti iniquitatem: propterea vnxit te deus oleo leticie prae 
+      <lb ed="#A" n="72"/>consortibus tuis scilicet nobilitando. vnde et Hiero. dicit. xxiii. 
+      <lb ed="#A" n="73"/>q. v. Regum inquit officium proprium. est facere iudicium at 
+      <lb ed="#A" n="74"/>que iusticiam et liberare vi oppressos a calumniantibus 
+      <lb ed="#A" n="75"/>et pusillis ac viduis auxiliari.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e305">
+      ¶ Quarta est 
+      pie<lb ed="#A" n="76" break="no"/>tas. vnde Prouer. xx. Misericordia et veritas custodiunt 
+      <lb ed="#A" n="77"/>regem et roborabitur clementia thronus eius. Sed 
+      hen<lb ed="#A" n="78" break="no"/>mo impletur illud Ezech. xxii. dictum. principes in 
+      me<lb ed="#A" n="79" break="no"/>qduiper eius quasi lupi rapaces. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106996-Dd1e317">
+               <head xml:id="Vn7Pel-h106996-Hd1e319">4</head>
+               <p xml:id="Vn7Pel-h106996-d1e321">
+                  <lb ed="#A" n="80"/>¶ Sed an nobilibus regere 
+      sub<lb ed="#A" n="81" break="no"/>ditos magis conueniat pietate an seueritate. Respondet 
+      <lb ed="#A" n="82"/>Sene. de clementia dicit. Remissius imperanti melius 
+      <lb ed="#A" n="83"/>paretur pietati. Nam contumax est animus humanus et 
+      <lb ed="#A" n="84"/>in contrarium nitens sequitur quo facilius ducatur: Ideo inquit 
+      <lb ed="#A" n="85"/>nullum ex omnibus magis quam regenvels principerem clementia 
+      <lb ed="#A" n="86"/>pecet. Hec Sene. Et patet satis.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e339">
+      ¶ Primo scripto 
+      <lb ed="#A" n="87"/>theologico. Ex praedictis. §. praecedeti. et <ref xml:id="Vn7Pel-h106996-Rd1e343">Ecci. iiii.</ref> 
+      No<lb ed="#A" n="88" break="no"/>li esse sicut leo in domo tua euertens domesticos 
+      tu<lb ed="#A" n="89" break="no"/>os et subditos tibi opprimens. Et i. <ref xml:id="Vn7Pel-h106996-Rd1e349">Tin. iiii.</ref> 
+      Pie<lb ed="#A" n="90" break="no"/>tas ad omnia valet promissionem ha.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e355">
+      ¶ Secundo patet 
+      exem<lb ed="#A" n="91" break="no"/>plo philosophico. quia <ref xml:id="Vn7Pel-h106996-Rd1e359">Arist. li. vi. animalium</ref> dicit. quod nobilis 
+      com<lb ed="#A" n="92" break="no"/>lexionis et liberalitatis signum est longa brachia 
+      <lb ed="#A" n="93"/>habere vsque ad genua saltem deficiente spacio duorum 
+      di<lb ed="#A" n="94" break="no"/>giorum Nam et. v. Politer. dicit quod habere longa brachia 
+      <lb ed="#A" n="95"/>fortitudinem indicat. ergo patet propositum.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e371">
+      ¶ Tertio patet 
+      exem<lb ed="#A" n="96" break="no"/>plo politico. quia reges inungi solet pro signo 
+      clemen<lb ed="#A" n="97" break="no"/>tie quando coronantur. Et in vexillis suis ac clenodiis 
+      so<lb ed="#A" n="98" break="no"/>lent habere leones vel aquilas quae sunt animalia liberalitate 
+      <lb ed="#A" n="99"/>praedita aut forte alia huiusmodi quae etsi ferocitatem habeant 
+      <lb ed="#A" n="100"/>tamen etpietatem praetendunt. vt leo in parcendo prostratis. et 
+      <lb ed="#A" n="101"/>aquila partem largiendo de praeda sua aliis: nec totum 
+      <lb ed="#A" n="102"/>partem comedendo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106996-Dd1e391">
+               <head xml:id="Vn7Pel-h106996-Hd1e393">5</head>
+               <p xml:id="Vn7Pel-h106996-d1e395">
+                  <lb ed="#A" n="103"/>Item an principibus nobilibus 
+      <lb ed="#A" n="104"/>melius sit vt iudicent secundum misercordiam an secundum iusticiam. 
+      <lb ed="#A" n="105"/>Respondetur secundum doc. colligendo quod distinguendum est. quia 
+      <lb ed="#A" n="106"/>Aut talis nobilis qui debet facere misericordiam vel 
+      iu<lb ed="#A" n="107" break="no"/>sticiam est persona priuata: Siue se habet in huiusmodi 
+      facien<lb ed="#A" n="108" break="no"/>do vt privata persona. Et in vindicta priuata. Et tunc 
+      <!--347.xml-->
+      <pb ed="#A" n="348"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>semper melius est facere ceteris paribusecundum misericor 
+      <lb ed="#A" n="2"/>diam quam secundum iusticiam. Unde Gratianus. xxiii. q. i. ca. i. dicit 
+      <lb ed="#A" n="3"/>quod vindicta priuata est deo seruanda qui dicit. 
+      Mi<lb ed="#A" n="4" break="no"/>hi vindictam et ego retribuam. Et Matth. v. Beati 
+      <lb ed="#A" n="5"/>misericordes quoniam ipsi misericordiam consequentur. 
+      <lb ed="#A" n="6"/>Aut secundo talis est persona publica et in foro 
+      pu<lb ed="#A" n="7" break="no"/>blico vt iudex vel princeps in iudicio etc. Et tunc 
+      <lb ed="#A" n="8"/>iterum distinguendum est quia aut ille cui facienda est 
+      <lb ed="#A" n="9"/>iusticia vel misericordia est bonus aut malus. 
+      <lb ed="#A" n="10"/>si certum est esse malum: tunc melius est vt faciat 
+      tali<lb ed="#A" n="11" break="no"/>secundum iusticiam quam secundum misericordiam. quia malus per 
+      iusti<lb ed="#A" n="12" break="no"/>ciam corrigitur sed per misericordiam deterioratur nec 
+      re<lb ed="#A" n="13" break="no"/>formidat deterius agere. Unde Amb. lib. i. de offi. 
+      <lb ed="#A" n="14"/>Facilitas inquit venie incentiuum tribuit delinquendi 
+      <lb ed="#A" n="15"/>Item. C. de epali audientia lcet Nemo. dicitur Remis 
+      <lb ed="#A" n="16"/>sionem venie crimina non semel commissa non habeant 
+      <lb ed="#A" n="17"/>etc. Si autem certum est talem fore bonum decetero: 
+      <lb ed="#A" n="18"/>melius est vt publica iusticia faciat sibi misericor 
+      <lb ed="#A" n="19"/>diam: tamen cum potest hoc facere saluis legibus: alias 
+      <lb ed="#A" n="20"/>tenetur facere quod dictat iusticia prout de meruit ex 
+      cul<lb ed="#A" n="21" break="no"/>pa.
+     </p>
+               <p xml:id="Vn7Pel-h106996-d1e463">
+      ¶ Sed quid si dubium est an talis sit bonus vel 
+      <lb ed="#A" n="22"/>malus. Dicedum quod secundum Chrys. et Aug. in dubiis 
+      <lb ed="#A" n="23"/>declinandum est ad partem benigniorem id est 
+      misericor<lb ed="#A" n="24" break="no"/>die semper plus: quam ad partem iusticie. vt etiam dicit Lyra. 
+      <lb ed="#A" n="25"/>super illud Iacob. ii. Superexaltat misericordia 
+      iu<lb ed="#A" n="26" break="no"/>dicium. Facilius enim est reddere rationem de misericordia quam 
+      <lb ed="#A" n="27"/>de iusticia. 
+      <lb ed="#A" n="28"/>Plura de nobilitate vbi 
+      Ser<lb ed="#A" n="29" break="no"/>aitus et Libertas. videlicet vnde hec orta sunt. <ref xml:id="Vn7Pel-h106996-Rd1e482">Uide 
+      <lb ed="#A" n="30"/>ibi. §. ii.</ref> et sequentibus. 
+      </p>
+               <p xml:id="Vn7Pel-h106996-d1e488">
+                  <lb ed="#A" n="31"/>¶ Eu dei bonitas laudabilis est 
+      <lb ed="#A" n="32"/>pro multiplicatione hominum per Noe et filios eius. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lignum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Lignum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="298"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h91607">
+            <head xml:id="Vn7Pel-h91607-Hd1e110">Lignum</head>
+            <div xml:id="Vn7Pel-h91607-Dd1e112">
+               <head xml:id="Vn7Pel-h91607-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h91607-d1e116">
+                  <lb ed="#A" n="35"/>¶ Ignu de
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e121">
+      ¶ Aigna 
+      <lb ed="#A" n="36"/>primo communiter: et de lignis incultis vel 
+      <lb ed="#A" n="37"/>agrestibus specialius Quomodo oriuntur 
+      li<lb ed="#A" n="38" break="no"/>grona Nota secundum Isid. li. Cyynm. et Aristo. lio de anima 
+      <lb ed="#A" n="39"/>libus: ac Plinium libroxvii. Arhores proueniunt: aut ex 
+      <lb ed="#A" n="40"/>semine naturali: aut ex casu vel fortuitu de terra 
+      <lb ed="#A" n="41"/>putrefacta: aut ex radice plante vel propaginem: aut 
+      <lb ed="#A" n="42"/>etiam surculo id est trunco vel ramo ab arbore abciso: 
+      <lb ed="#A" n="43"/>aut insito et confecto arboris trunco. Aliqua autem 
+      serum<lb ed="#A" n="44" break="no"/>cur foliis suis. Nam folia palmarum apud 
+      Babylo<lb ed="#A" n="45" break="no"/>nios seruntur atque ita in arborem proueniunt. Alique hac 
+      <lb ed="#A" n="46"/>cis seruntur et plerumque propagine: vt laurus et omnia 
+      myr<lb ed="#A" n="47" break="no"/>ti genera. Aliqui glande etc.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e150">
+      ¶ Dei autem bonitas 
+      mul<lb ed="#A" n="48" break="no"/>tipliciter vestiuit et decorauit arbores. Nam secundum 
+      <lb ed="#A" n="49"/>Aristo . libro de vegeta. planta figitur et viuit radice. et 
+      <lb ed="#A" n="50"/>radix inquit similis est ori animalis. quia ipsa cibum. 
+      <!--297.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="51"/>plantis et causam vite adducit. Item Secundo deus 
+      <lb ed="#A" n="52"/>dedit arbori corticem quae est ad similitudinem cutis 
+      ani<lb ed="#A" n="53" break="no"/>malis: vt dicit idem Aristotr. Tertio dedit ramos 
+      <lb ed="#A" n="54"/>inquit de arboris radice et robore manant. 
+      Quar<lb ed="#A" n="55" break="no"/>to folia: quasi foilia grece secundum Isid. quia fouent 
+      flo<lb ed="#A" n="56" break="no"/>res quando primum prorumpunt. Et secundum Arist. supra Folia sunt 
+      <lb ed="#A" n="57"/>cooperimentum fructuum et florum a solis vehementia 
+      <lb ed="#A" n="58"/>Sicut sunt plume in auibus: et pili in bestiis vel 
+      <lb ed="#A" n="59"/>animalibus. Quinto dedit frondes quae nominantur a 
+      feren<lb ed="#A" n="60" break="no"/>do. quia ferunt virgulta et vmbras secundum Isido. 
+      Se<lb ed="#A" n="61" break="no"/>xto aliquibus pro folio dedit spinas: vt patet de 
+      iuni<lb ed="#A" n="62" break="no"/>pero et aliis aculeatis: vt dicit Plinius. Septimo 
+      de<lb ed="#A" n="63" break="no"/>dit deus arboribus fructus: ita quod secundum e. Plinium. liro xvi. 
+      <lb ed="#A" n="64"/>quedam arbores semel: quaedam autem bis in anno ferunt 
+      <lb ed="#A" n="65"/>fructus: vt patet de malo id est pomo siluestri: et piris 
+      <lb ed="#A" n="66"/>arboribus quae sunt bifere: sicut et praecoces. Et quaeda 
+      fe<lb ed="#A" n="67" break="no"/>runt fructus ter in anno: et dicuntur trifare: insaneque 
+      <lb ed="#A" n="68"/>eoquod in his quaedam maturescunt: alie florent: alie tur 
+      <lb ed="#A" n="69"/>gescunt. Nam et cypressus trifera est. et huiusmodi ferti 
+      <lb ed="#A" n="70"/>litas ei inest. Ex omnibus istis dei bonitas et 
+      sapien<lb ed="#A" n="71" break="no"/>ia commendatur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e210">
+               <head xml:id="Vn7Pel-h91607-Hd1e212">2</head>
+               <p xml:id="Vn7Pel-h91607-d1e214">
+                  <lb ed="#A" n="72"/>¶ Sed Quomodo in lignis arborum dei 
+      <lb ed="#A" n="73"/>bonitas et sapienia ac mysterium clarescit
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e221">
+      ¶ Nota quod 
+      <lb ed="#A" n="74"/>Primo in arboribus est mirum quod sicut glo. super epistolam 
+      <lb ed="#A" n="75"/>Eph. iii. dicit In charitate (inquit apostolus estote 
+      radi<lb ed="#A" n="76" break="no"/>cati. hoc est: state firmiter ad similitudinem arboris 
+      <lb ed="#A" n="77"/>plantate: que quanto plus terre radices infigit: 
+      tan<lb ed="#A" n="78" break="no"/>to plus trahit humorem ac crescit et vberius fructum 
+      <lb ed="#A" n="79"/>reddit. Item glo. super Osee. xiiii. dicit: quod arbores 
+      li<lb ed="#A" n="80" break="no"/>bani excelse quantum in auras id est in aera verticem 
+      <lb ed="#A" n="81"/>extollunt: tantum radices ad ima dirigunt vt 
+      nul<lb ed="#A" n="82" break="no"/>la tempestate moueantur. Unde ibidem scriptum 
+      <lb ed="#A" n="83"/>est. Erumpet radix eius vt libani: et ibunt rami 
+      <lb ed="#A" n="84"/>eius. Lyra exponit hoc de christo et ecclesia. 
+      Ray<lb ed="#A" n="85" break="no"/>dix enim ecclesie (inquit) christus est: secundum Aug. 
+      <lb ed="#A" n="86"/>super psalmo. Ista radix erupit quando protulit in 
+      eccle<lb ed="#A" n="87" break="no"/>sia apostolos et fideles alios. Ibunt id est excrescent 
+      <lb ed="#A" n="88"/>rami eius id est sancti multi etc. Et ita spiritualiter 
+      do<lb ed="#A" n="89" break="no"/>cetur mysterium hoc: quod quanto quis excrescit in 
+      <lb ed="#A" n="90"/>meritis sanctitatis: tanto debet esse 
+      profunda<lb ed="#A" n="91" break="no"/>tus in radice humilitatis: vt nulla tentatione 
+      mo<lb ed="#A" n="92" break="no"/>ueatur excidendo a gratia dei etc.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e265">
+      ¶ Secundo vt 
+      di<lb ed="#A" n="93" break="no"/>cit Ambro. in Hexamerio In arboribus mira est 
+      <lb ed="#A" n="94"/>diuersitas foliorum. nec explicari possunt 
+      singulo<lb ed="#A" n="95" break="no"/>rum proprietates et cause latentes tante diuersitatis 
+      <lb ed="#A" n="96"/>quare scilicet alia rotundiora: alia longiora: alia 
+      de<lb ed="#A" n="97" break="no"/>fluentia: alia nullis ventis labentia sunt Alia 
+      sem<lb ed="#A" n="98" break="no"/>er suam viriditatem etiam in hyemis 
+      frigori<lb ed="#A" n="99" break="no"/>bus: vt laurus: olea: pinus etc. que tamen 
+      folia<lb ed="#A" n="100" break="no"/>sua sepe commutant. Alia sunt semper virentia 
+      <lb ed="#A" n="101"/>nec folia mutant: vt palma. nam folia que 
+      pri<lb ed="#A" n="102" break="no"/>mo germinat ea sine vlla successione conseruat. 
+      <lb ed="#A" n="103"/>Hec Ambrosius. Item Plinius libro. xiii. 
+      di<lb ed="#A" n="104" break="no"/>cit: quod Prunus etiam Egyptia non dimittit 
+      fo<lb ed="#A" n="105" break="no"/>lia. Idem libro. xvi. dicit de cypresso: myrto etc. 
+      <lb ed="#A" n="106"/>Sic dei bonitas innumerabiles a principio 
+      com<lb ed="#A" n="107" break="no"/>didit successiue sanctos variis virtutibus etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e300">
+      <!--298.xml-->
+                  <pb ed="#A" n="299"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Tertio mira dici sapinia summe claruit in ligno 
+      <lb ed="#A" n="2"/>crucis christi in quo vt Greg. dicit. salutem humani 
+      ge<lb ed="#A" n="3" break="no"/>neris constituit. vt vnde mors oriebatur id est ex ligno 
+      veti<lb ed="#A" n="4" break="no"/>to inde vita resurgeret. Et qui scilicet diabolus in ligno 
+      <lb ed="#A" n="5"/>vincebat in ligno quoque vinceretur per christum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e321">
+               <head xml:id="Vn7Pel-h91607-Hd1e323">3</head>
+               <p xml:id="Vn7Pel-h91607-d1e325">
+                  <lb ed="#A" n="6"/>¶ Qualia mirabilia fecit deus in 
+      <lb ed="#A" n="7"/>naturis et proprietatibus lignorum aliquorum. Nota 
+      plura<lb ed="#A" n="8" break="no"/>Primum mirabile in ligno sethimu. de quo Hiero. 
+      <lb ed="#A" n="9"/>super Exo. xxvii. Facies (inquit dominus altare de lignis 
+      <lb ed="#A" n="10"/>sethim. Dicit et etiam Lyra quod sunt ligna 
+      imputribi<lb ed="#A" n="11" break="no"/>lia. et incremabilia. Et vt dicitur in Cathol. li. 
+      Ligne<lb ed="#A" n="12" break="no"/>sethim quanto accenduntur tanto puriora efficiuntur 
+      <lb ed="#A" n="13"/>Est autem arbor similis albe spine in foliis et omnium 
+      le<lb ed="#A" n="14" break="no"/>uissimum lignorum secundum Hiero. Ecce ergo mirabilis dicit 
+      <lb ed="#A" n="15"/>operatio in huiusmodi ligni proprietate. patet. Item libro de 
+      na<lb ed="#A" n="16" break="no"/>rerum dicitur. quod lignum sethim est album et altius crescens quam 
+      <lb ed="#A" n="17"/>spina alba. nec humore nec antiquitate corruptibile 
+      <lb ed="#A" n="18"/>quod adhuc patet in arca Noc: quae est super montes Armenie 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e356">
+                  <lb ed="#A" n="19"/>¶ Secundm mirabile in ligno Amithon. de quo ibidem 
+      <lb ed="#A" n="20"/>Hiero. dicit. quod quanto plus arserit mundius erit
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e363">
+      ¶ 
+      Ter<lb ed="#A" n="21" break="no"/>tium in lignis Tinis. de quibus glo. super. iii. Reg. x. 
+      <lb ed="#A" n="22"/>vbi habetur. Attulit ex ophir ligna tina: Dicit quod sunt 
+      <lb ed="#A" n="23"/>iputribilia et spinosa in similitudinem albe spine. 
+      ro<lb ed="#A" n="24" break="no"/>tunda quoque et candida: ex quibus facta sunt omnia musicorum 
+      <lb ed="#A" n="25"/>instrumenta in templum domini. Item libro de natu. re. Beda 
+      <lb ed="#A" n="26"/>dicit. Tinus est arbor orientis nobilissima: cuius 
+      <lb ed="#A" n="27"/>generis ligna Salomoni a ttulit regina 
+      Saba<lb ed="#A" n="28" break="no"/>Sunt autem imputribilia. spinosa et alba fulgentia. 
+      ni<lb ed="#A" n="29" break="no"/>mis polita scilicet et ad instar eboris relucentia. 
+      Ar<lb ed="#A" n="30" break="no"/>bor at ipsa quasi pinus rotunda. Ecce mira etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e387">
+                  <lb ed="#A" n="31"/>¶ Quartum mirabile quod sunt quaedam ligna ex quibus 
+      i<lb ed="#A" n="32" break="no"/>gnis per collisionem sicut ex lapide excut.tr. vt 
+      mor<lb ed="#A" n="33" break="no"/>laurus: hedera: secundum Plinium.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e397">
+      ¶ Quintum vt dicitur libro de 
+      <lb ed="#A" n="34"/>na. rerum quod arbores in oriente sunt quae poma pulcerria 
+      <lb ed="#A" n="35"/>ferunt citrina colore in quibus tamen morsus hominis cum des 
+      <lb ed="#A" n="36"/>tibus apparet manifeste. Idcirco poma Adam ab 
+      oc<lb ed="#A" n="37" break="no"/>mnibus appellantur. Et hoc mirum est quod deus voluit per 
+      ho<lb ed="#A" n="38" break="no"/>primi hominis scelus demonstrare.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e410">
+      ¶ Sextum in arbore 
+      <lb ed="#A" n="39"/>solis et lune. De qua Moyses benedicendo Ioseph. 
+      <lb ed="#A" n="40"/>Deut. xxxiii. dicit. Terra eius de pomis fructuum 
+      sol<lb ed="#A" n="41" break="no"/>et lune. quod non intelligitur de illis arboribus ad itteram 
+      <lb ed="#A" n="42"/>sed metaphorice. et secundum Lyam effectiue. quia sol et 
+      lu<lb ed="#A" n="43" break="no"/>na magnam habent virtutem producendi fructus. Ue 
+      <lb ed="#A" n="44"/>rumtamen in historiis legitur. et in epistola Alexandri ad Ari 
+      <lb ed="#A" n="45"/>stotelem. quod he arbores in oriente sunt: in regionibus 
+      <lb ed="#A" n="46"/>Indie cetum cubitos habentes in altitudine. 
+      Ha<lb ed="#A" n="47" break="no"/>rum pomis sacerdotes earum vescebantur. et vsque ad 
+      an<lb ed="#A" n="48" break="no"/>nos trecentos viuebanti( vt dicitur nec cuiquam licebat in 
+      <lb ed="#A" n="49"/>gredi animo leui existente et immundo de contactu 
+      mu<lb ed="#A" n="50" break="no"/>lierum ad ambitum istarum arborum et quibus responsa de sutu 
+      <lb ed="#A" n="51"/>ris dabantur. vnde et Alexander accedes eas arbores 
+      <lb ed="#A" n="52"/>consuluit et responsum accepit. quod. xii. annis dominaretur 
+      <lb ed="#A" n="53"/>et veneno interiret a pincerna suo etc. Nec dubium 
+      <lb ed="#A" n="54"/>quin id factum sit a malignis spiritibus deo 
+      permit<lb ed="#A" n="55" break="no"/>tente. aut fortasse a bono angelo deo volente quod 
+      <lb ed="#A" n="56"/>etiam in effigie pontificis sudeorum ei apparuit 
+      <lb ed="#A" n="57"/>Ecce ergo patent mira in huiusmodi
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e454">
+      ¶ Septimum est 
+      <!--298.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>in arboribus supra ripas maris mortui: secundum 
+      di<lb ed="#A" n="59" break="no"/>cta Iosephi et Augustini. de quibus vbi Fons di¬ 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e465">
+                  <lb ed="#A" n="60"/>¶ Preterea alia mira fecit deus in (ctum est. §. viii. 
+      <lb ed="#A" n="61"/>lignis paradisi de quibus <ref xml:id="Vn7Pel-h91607-Rd1e471">infra. §. xxii. et se. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e474">
+                  <lb ed="#A" n="62"/>¶ Item Quando ligna sint 
+      ceden<lb ed="#A" n="63" break="no"/>da. Uide <ref xml:id="Vn7Pel-h91607-Rd1e480">infra. §. xvii. in fi.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e484">
+               <head xml:id="Vn7Pel-h91607-Hd1e486">4</head>
+               <p xml:id="Vn7Pel-h91607-d1e488">
+                  <lb ed="#A" n="64"/>¶ Quid de singulorum lignorum 
+      sil<lb ed="#A" n="65" break="no"/>uaticorum vel incultorum proprietatibus etc. Notandum 
+      <lb ed="#A" n="66"/>quod de omnibus non possumus pertractare: ideo 
+      sal<lb ed="#A" n="67" break="no"/>tem de aliquibus prosequemur ordine alphabetico secundum 
+      <lb ed="#A" n="68"/>physicos sepe nominatos et alios. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e501">
+                  <lb ed="#A" n="69"/>¶ Abies secundum Bedam libro de nat. re. arbor est que 
+      <lb ed="#A" n="70"/>pifficulter cedit putredini: vermibus autem nunquam. Et 
+      <lb ed="#A" n="71"/>secundum glo. super Ezech. xxvii. ex abietibus tabulata 
+      ce<lb ed="#A" n="72" break="no"/>duntur quibus nauis texitur. Item secundum 
+      Palladi<lb ed="#A" n="73" break="no"/>um libro. xii. perdurabilis est siccis in locis. 
+      Ly<lb ed="#A" n="74" break="no"/>ra. iii. Regum. v. Iram dabat Salomoni ligna 
+      <lb ed="#A" n="75"/>cedrina et abiegna. dicit: quod abiegna sunt de 
+      gene<lb ed="#A" n="76" break="no"/>re abientis. et est arbor alta: recta: leuis: et 
+      odorife<lb ed="#A" n="77" break="no"/>ra: nocens animalibus venenosis. Et vulgo 
+      nomi<lb ed="#A" n="78" break="no"/>natur Ieghenefa. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e525">
+                  <lb ed="#A" n="79"/>¶ Agnocastus siue Aligos est frutex secundum 
+      Plate<lb ed="#A" n="80" break="no"/>arium et Diascor et Isaac in dietis. a castitate nominatur 
+      <lb ed="#A" n="81"/>quia lectus ex eo ligno factus libidinem reprimit 
+      <lb ed="#A" n="82"/>Similiter si iacenti substernatur: aut ciho vel 
+      potu<lb ed="#A" n="83" break="no"/>sumatur: castum reddit. Serpentes sub lecto 
+      po<lb ed="#A" n="84" break="no"/>sitos arcet longius. similiter facit fumigatio eius. 
+      Se<lb ed="#A" n="85" break="no"/>men eius bibitum hydropicis ac spleneticis confert. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e543">
+                  <lb ed="#A" n="86"/>¶ Aquifolium secundum Plinium. liro xvi. est arbor que 
+      sa<lb ed="#A" n="87" break="no"/>ta in villa vel domo veneficia arcet. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e552">
+               <head xml:id="Vn7Pel-h91607-Hd1e554">5</head>
+               <p xml:id="Vn7Pel-h91607-d1e556">
+                  <lb ed="#A" n="88"/>¶ Bdellium secundum Plinium et 
+      Be<lb ed="#A" n="89" break="no"/>dam supra est arbor nigra: lachrymas nigras habens: 
+      <lb ed="#A" n="90"/>lapidem frangit: et reptilium morsum curat. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e565">
+                  <lb ed="#A" n="91"/>¶ Buxus semper viret et folia seruat: et humilis 
+      ar<lb ed="#A" n="92" break="no"/>bor est. De qua Esa. lx. Gloria libani ad te 
+      veni<lb ed="#A" n="93" break="no"/>et: abies et buxus et pinus simul etc. Lyra. Per 
+      <lb ed="#A" n="94"/>huiusmodi arbores significantur notabiles sancti in ec 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e576">
+                  <lb ed="#A" n="95"/>¶ Caprificus: est ficus agrestis: cu¬ (clesia. 
+      <lb ed="#A" n="96"/>ius ficus nunquam maturescunt. culices generat fi¬ 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e583">
+                  <lb ed="#A" n="97"/>¶ Cedrus lignum iocundi odoris est: diu scarias. 
+      <lb ed="#A" n="98"/>durans et procere altitudinis: nec onerosa 
+      parieti<lb ed="#A" n="99" break="no"/>bus: vt dicit Amb. Ideo ecclesia in Can. dicit. Tigna 
+      do<lb ed="#A" n="100" break="no"/>morum nostrarum cedrina. Unde secundum Pli. li. xiii. trabes 
+      ce<lb ed="#A" n="101" break="no"/>drine. cccc. annis durant: nisi humore tangantur. Et 
+      li<lb ed="#A" n="102" break="no"/>xvi. Cedrus non tenet clauum in se infixum: nec capit 
+      spon<lb ed="#A" n="103" break="no"/>te rimam vel fissuram. Item secundum Bedam de nat. re. et glo. 
+      <lb ed="#A" n="104"/>super Ecci. xxiiii. videlicet Quasi credrus exal. sum in lib. etc. 
+      <lb ed="#A" n="105"/>Cedrus est arbor altitudinis quasi vsque ad nubes: cuius 
+      <lb ed="#A" n="106"/>podor serpentes fugat et interimit. Libri quoque qui resina 
+      <lb ed="#A" n="107"/>eius liniti sunt nec tinea nec senectute deficiunt. Item eius 
+      <lb ed="#A" n="108"/>sucus corpora mortuorum a tabe conseruat Unde ecclesia bene 
+      <lb ed="#A" n="109"/>canit in figura de beata virginie Maria quae est exaltata super 
+      <lb ed="#A" n="110"/>choros angelorum: cuius sanctitatis odor demones et quie 
+      <lb ed="#A" n="111"/>que vicia fugat et ad vitam perpetuam incorruptibilemque 
+      <!--299.xml-->
+      <pb ed="#A" n="300"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>corporis gloriam perducit suos deuotos etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e628">
+                  <lb ed="#A" n="2"/>¶ Cinus. de qua <ref xml:id="Vn7Pel-h91607-Rd1e632">Dan. xiii.</ref> habetur quod Susanna 
+      fal<lb ed="#A" n="3" break="no"/>so dicebatur sub cino peccasse. vt dicit Lyra. Eadem 
+      ar<lb ed="#A" n="4" break="no"/>bor est quae vocatur Lentiscus. <ref xml:id="Vn7Pel-h91607-Rd1e638">Uide ergo ibi. §. viii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e641">
+                  <lb ed="#A" n="5"/>¶ Cypressus. lignum est: cedro pene proximam. habens 
+      vir<lb ed="#A" n="6" break="no"/>tute trabibus aptum Et vt et glo. super illud Eccli. xxiii. 
+      <lb ed="#A" n="7"/>Et sicut cypressus in monte sion. dicit. Altitudinis 
+      <lb ed="#A" n="8"/>et odoris est praecipui: foliorum coronam nullis 
+      impul<lb ed="#A" n="9" break="no"/>sibus deponit. Item secundum Plinium lib. xiiii. Diasco. 
+      <lb ed="#A" n="10"/>et Platearium Bacca vel lignum recens aut puluis 
+      <lb ed="#A" n="11"/>ligni et foliorum cypressi in musto decoquitur: et fit 
+      vi<lb ed="#A" n="12" break="no"/>num quod praeseruat ab iliaca passione prodestque 
+      disinte<lb ed="#A" n="13" break="no"/>ricis. delet morpheam. folia trita serpentum ictibus 
+      <lb ed="#A" n="14"/>imponuntur. In aceto cocta et infusa capillos 
+      de<lb ed="#A" n="15" break="no"/>nigrant et dolorem dentium sedant. Succus mixto 
+      <lb ed="#A" n="16"/>oleo caliginem oculorum curat etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e671">
+               <head xml:id="Vn7Pel-h91607-Hd1e673">6</head>
+               <p xml:id="Vn7Pel-h91607-d1e675">
+                  <lb ed="#A" n="17"/>¶ Ebenus secundum Bedam de natu. re. 
+      <lb ed="#A" n="18"/>est arbor nigra: cuius lignum durissimum et 
+      imputri<lb ed="#A" n="19" break="no"/>le non facile cedens igni lapidem in vesica frangit. in 
+      <lb ed="#A" n="20"/>egypto nascitur secundum Plinium. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e686">
+                  <lb ed="#A" n="21"/>¶ Fagus arbor est glandifera lignum eius viride 
+      <lb ed="#A" n="22"/>in aquis positum longo tempore in lapidem dure 
+      <lb ed="#A" n="23"/>scit. Hec Beda. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e695">
+                  <lb ed="#A" n="24"/>¶ Fraxinus. vulgo kerusfa. ligni huius folia 
+      iumen<lb ed="#A" n="25" break="no"/>tis quae non ruminant nociua sunt secundum Plinium. li. 
+      <lb ed="#A" n="26"/>xvi. sed succo expresso valet. contra serpentes quos 
+      so<lb ed="#A" n="27" break="no"/>la vmbra eius etiam fugat. Item secundum Auicennam. et 
+      <lb ed="#A" n="28"/>Constantinum libro graduum Cortex fraxini cum aqua 
+      <lb ed="#A" n="29"/>vel vino potatus expellit phlegma Cum aceto 
+      mor<lb ed="#A" n="30" break="no"/>pheam a cute mundificat et scabies. fracturam 
+      os<lb ed="#A" n="31" break="no"/>sium cortex superpositus ac percussiones celerius 
+      <lb ed="#A" n="32"/>consolidat etc. Laudetur ergo deus in omnibus. Item 
+      <lb ed="#A" n="33"/>cortex fraxini si ponatur in aqua vt bibant pulli 
+      ceci<lb ed="#A" n="34" break="no"/>tatem cauent. vide vbi Gallina. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e721">
+                  <lb ed="#A" n="35"/>¶ Genista: vide vbi Mirica. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e727">
+               <head xml:id="Vn7Pel-h91607-Hd1e729">7</head>
+               <p xml:id="Vn7Pel-h91607-d1e731">
+                  <lb ed="#A" n="36"/>¶ Harundo secundum Isido. ponitur 
+      <lb ed="#A" n="37"/>inter arbores. quia alibi sunt tam magne vt naues ex 
+      <lb ed="#A" n="38"/>eis et edificia fabricentur. Et quia secundum Plinium 
+      ha<lb ed="#A" n="39" break="no"/>rundo est frutex ideo tanquam media pertinet ad 
+      arbo<lb ed="#A" n="40" break="no"/>res vel ad herbas indifferenter. Unde de 
+      arun<lb ed="#A" n="41" break="no"/>dine vide vbi <ref xml:id="Vn7Pel-h91607-Rd1e746">Herba. §. viii.</ref> de Calamo 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e749">
+                  <lb ed="#A" n="42"/>¶ Hedera dicitur secundum Isido. eo quod arboribus 
+      reptan<lb ed="#A" n="43" break="no"/>do hereat. et sunt plurla eius genera scilicet alba et nigra. 
+      cu<lb ed="#A" n="44" break="no"/>ius succus si bibatur amentes homines facit. vt 
+      di<lb ed="#A" n="45" break="no"/>cit Diascori. Lachryma eius pediculos occidit. 
+      fo<lb ed="#A" n="46" break="no"/>lia cum vino combustionibus medentur. De hedera 
+      <lb ed="#A" n="47"/>habetur in scriptura<ref xml:id="Vn7Pel-h91607-Rd1e764"> Ione. iiii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e767">
+                  <lb ed="#A" n="48"/>¶ Lex est arbor glandifera et vmbrosa. quae melius 
+      <lb ed="#A" n="49"/>fructificat in senectute quam iuuentute secundum Arist . libro de 
+      <lb ed="#A" n="50"/>plantis. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e776">
+                  <lb ed="#A" n="51"/>¶ Iuniperus habet spinas pro foliis.  
+      <lb ed="#A" n="52"/>eandem virtutem habet sicut cedrus et cypressus. 
+      <lb ed="#A" n="53"/>licet praecellant iste suo odore iuniperum. Item 
+      vetu<lb ed="#A" n="54" break="no"/>statem non sentit. accensa serpentes fugat. Fructus eius 
+      <lb ed="#A" n="55"/>secundum Auicen. vtilis est doloribus peccatoris et tussi et 
+      infla<lb ed="#A" n="56" break="no"/>tione stomachi. et contra puncturas venenosorum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e793">
+               <head xml:id="Vn7Pel-h91607-Hd1e795">8</head>
+               <p xml:id="Vn7Pel-h91607-d1e797">
+                  <lb ed="#A" n="57"/>¶ Lentiscus arbor est: de qua glo. 
+      <!--299.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>super Dan. xiii. dicit. Cinum latini dicunt Lentiscum quem 
+      <lb ed="#A" n="59"/>greci Cinum vocant. concor Lyra. et est arbor humilis 
+      <lb ed="#A" n="60"/>non multum alta: cuius foliorum sucus solidat scissuras 
+      <lb ed="#A" n="61"/>labiorum vel manuum: et dentes commotos confirmat 
+      <lb ed="#A" n="62"/>si sepius ore teneatur. ligno eius viridi dentes 
+      can<lb ed="#A" n="63" break="no"/>didantur confricati: vt dicit etiam Diascor. Ad hec vbi 
+      <lb ed="#A" n="64"/>de <ref xml:id="Vn7Pel-h91607-Rd1e820">Oleo masticis. §. iiii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e823">
+                  <lb ed="#A" n="65"/>¶ Mirica quam latini Tamaricam vocant: vulgus 
+      <lb ed="#A" n="66"/>genistam: apud nos dicitur hanga. Decoctio foliorum 
+      <lb ed="#A" n="67"/>ad dolorem dentium et aurium salubris est secundum Diasco. 
+      <lb ed="#A" n="68"/>et <ref xml:id="Vn7Pel-h91607-Rd1e833">Plini. li. xxiiii.</ref> Pediculos ac lendes perimit. 
+      <lb ed="#A" n="69"/>cinis eius similiter menstrua stringit. De hac <ref xml:id="Vn7Pel-h91607-Rd1e838">Hiere. 17</ref>
+                  <lb ed="#A" n="70"/>Erunt quasi mirice in deserto. Nam secundum Isid. gustus 
+      <lb ed="#A" n="71"/>mirice amarus est. et ex ea malefici odia concitant. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e845">
+                  <lb ed="#A" n="72"/>¶ Mirabolanus est arbor magna in India. Aqua 
+      <lb ed="#A" n="73"/>foliorum eius interficit pediculos et prolongat capillos 
+      <lb ed="#A" n="74"/>secundum Auicen. De fructibus eius patuit vbi <ref xml:id="Vn7Pel-h91607-Rd1e853">Fructus. §. 
+      <lb ed="#A" n="75"/>1.2.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e859">
+                  <lb ed="#A" n="76"/>¶ Myrtus arbor in littore maris. vel 
+      fru<lb ed="#A" n="77" break="no"/>tex paruus potius: cuius flos est odoris iocundi. 
+      <lb ed="#A" n="78"/>calores nimios ac frigora corporis temparat. Et secundum 
+      <lb ed="#A" n="79"/>glo. super Esa. xli. fessa membra reparat. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e871">
+                  <lb ed="#A" n="80"/>¶ Picea arbor dicitur eo quod 
+      desu<lb ed="#A" n="81" break="no"/>dat picem cum aperitur cortex eius a parte solari. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e878">
+                  <lb ed="#A" n="82"/>¶ Pinus arbor: vt Lyra dicit super Dan. xiii. idem 
+      <lb ed="#A" n="83"/>est quod prinus: vt dicitur li. de proprieta. re. Et secundum Isid. 
+      pi<lb ed="#A" n="84" break="no"/>nus creditur prodesse cunctis quae sub ea seruntur. sicut 
+      fi<lb ed="#A" n="85" break="no"/>cus nocere omnibus. non durat nisi in siccitate. Et secundum 
+      <lb ed="#A" n="86"/>Auicen. corticis eius puluerizatio confert adustioni 
+      <lb ed="#A" n="87"/>aquae calide. similiter et eius foliorum puluerizatio facit. 
+      ven<lb ed="#A" n="88" break="no"/>trem retinet si bibantur: et conferunt dolori epatis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e897">
+               <head xml:id="Vn7Pel-h91607-Hd1e899">9</head>
+               <p xml:id="Vn7Pel-h91607-d1e901">
+                  <lb ed="#A" n="89"/>¶ Platanus est arbor: de qua Ecci. xxiiii. Quasi 
+      pla<lb ed="#A" n="90" break="no"/>tanus exaltata sum iuxta aquas. Habet folia 
+      mol<lb ed="#A" n="91" break="no"/>lia: lata: et ampla similia vitium foliis. quae viridia 
+      tri<lb ed="#A" n="92" break="no"/>ta et imposita tumores reprimunt. semen eius cum vino 
+      bi<lb ed="#A" n="93" break="no"/>bitum: morsibus venenatis occurrit. cortex cum sepo vel 
+      <lb ed="#A" n="94"/>adipe commiscendo combustionibus medetur. cortex etiam 
+      <lb ed="#A" n="95"/>(in aceto dentium remedium est. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e919">
+                  <lb ed="#A" n="96"/>¶ Populus arbor: 
+      al<lb ed="#A" n="97" break="no"/>tera alba: altera nigra. in foliis bicolor est. quia vna 
+      <lb ed="#A" n="98"/>parte alba: altera viridis. quae vicem folia eius cum aceto 
+      <lb ed="#A" n="99"/>cataplasmata podagricis medentur. Semen vero 
+      <lb ed="#A" n="100"/>cum aceto bibitum: epilenticos curat. Et secundum Constan. 
+      <lb ed="#A" n="101"/>Populus prodest eis qui dolorem habent in capite aut 
+      <lb ed="#A" n="102"/>apostema vel hydropisim et constipationem ventris. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e937">
+                  <lb ed="#A" n="103"/>¶ Prunus siluestris: vulgo zylfa: est apta arbor pro 
+      <lb ed="#A" n="104"/>edificio domorum. Et plura alia huiusmodi ligna pertranseo 
+      <lb ed="#A" n="105"/>Tum causa brevitatis. tum quia non sufficimus omnia describere 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e947">
+               <head xml:id="Vn7Pel-h91607-Hd1e949">10</head>
+               <p xml:id="Vn7Pel-h91607-d1e951">
+                  <lb ed="#A" n="106"/>¶ Quercus est arbor multum 
+      an<lb ed="#A" n="107" break="no"/>nosa. sicut legitur ( inquit Isid. ) d quarcu Mambre sub qua 
+      <lb ed="#A" n="108"/>habitauit Abraam quae fertur vsque ad Constantini regis imperium 
+      <lb ed="#A" n="109"/>perdurasse. Quantum autem quaercus duret habentur v. de 
+      qui<lb ed="#A" n="110" break="no"/>bus vide vbi <ref xml:id="Vn7Pel-h91607-Rd1e964">Etas. §. iii.</ref> Sed de illis versibus 
+      du<lb ed="#A" n="111" break="no"/>bium est meo iudicio. quia iuxta ista dicta Isi. illa 
+      quar<lb ed="#A" n="112" break="no"/>tus mambre miraculo durasse videtur. Item illi v. vbi 
+      <lb ed="#A" n="113"/>dicitur ita quod ceruus tres superat coruos. ceruorumque trium 
+      <lb ed="#A" n="114"/>quarcus habet spacium: etiam a quo editi sint ignoratur. ergo 
+      dubieta<lb ed="#A" n="115" break="no"/>tem habent. Plus ergo credo dictis Isidori quam talibus 
+      versi<lb ed="#A" n="116" break="no"/>bus minore autoritate et experientia clarescentibus. 
+      <!--300.xml-->
+      <pb ed="#A" n="301"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Item secundum Plinium liro xvi. et praedictos: Quercus 
+      glan<lb ed="#A" n="2" break="no"/>des fert sicut Esculus. et habet galla. De hac Esa. 
+      <lb ed="#A" n="3"/>i. Cum fueritis inquit vt quercus defluentibus foliis erit 
+      <lb ed="#A" n="4"/>fortitudo vestra vt fauilla etc. Lyra et etiam glo. dicit 
+      <lb ed="#A" n="5"/>Quercui ariditate concusse defluunt folia et 
+      glan<lb ed="#A" n="6" break="no"/>des quae porcorum est cibus. Sic peccatori in hora mortis 
+      <lb ed="#A" n="7"/>decident opera et bona mundi: et applicabitur 
+      debi<lb ed="#A" n="8" break="no"/>te pene ignis inferni: et erit cibus demonum 
+      immun<lb ed="#A" n="9" break="no"/>dorum vt porcorum. Item secundum Diascor. Lixinia ex 
+      cine<lb ed="#A" n="10" break="no"/>re quercus valent vulneribus longo tempore sordidis et 
+      fi<lb ed="#A" n="11" break="no"/>stulis lauando: et disponunt ad sanitatem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1012">
+               <head xml:id="Vn7Pel-h91607-Hd1e1014">11</head>
+               <p xml:id="Vn7Pel-h91607-d1e1016">
+                  <lb ed="#A" n="12"/>Rhamnus et genus rubi 
+      aspe<lb ed="#A" n="13" break="no"/>rum et nimis spinosum. Et secundum Plinium li. xxiiii. 
+      in<lb ed="#A" n="14" break="no"/>ter genera ruborum Rhamnus est candidior frutex. 
+      <lb ed="#A" n="15"/>Ite secundum Constan. ventris dolorem bibita curat et 
+      la<lb ed="#A" n="16" break="no"/>pidem renum frangit. De hac psalmo lvii. scribitur. Postquam 
+      <lb ed="#A" n="17"/>intelligerent spine vre rhamnum sicut viuentes sic in 
+      <lb ed="#A" n="18"/>ira absorbet eos. Nam secundum Aug. Rhamnus prodiens 
+      <lb ed="#A" n="19"/>mollis est et tenerrimus sed crescens habebit tandem 
+      <lb ed="#A" n="20"/>spinas asperimas. Et sic secundum Lyram sensus est quod fi 
+      <lb ed="#A" n="21"/>lii iniquorum tyrannorum designati per spinas: antequanm 
+      <lb ed="#A" n="22"/>intelligerent rhamnum id est maliciam spinosam: lesiuam 
+      <lb ed="#A" n="23"/>sclicet aliorum iustorum per tyrannidem parentes imitando 
+      <lb ed="#A" n="24"/>in adulta etate: antea in tenera etate ira dei 
+      absor<lb ed="#A" n="25" break="no"/>het eos per mortem etc. 
+      <lb ed="#A" n="26"/>Rosmarinum est frutex qui medius videtur 
+      inter<lb ed="#A" n="27" break="no"/>herbas et arbores. Si ex ea lauetur caput: capitus 
+      <lb ed="#A" n="28"/>los cadere prohibet: secundum Diasco. Item secundum Plinium 
+      <lb ed="#A" n="29"/>Sucus radicis et fruticis valet contra regium morbum etc. 
+      <lb ed="#A" n="30"/>Ecce ergo mirabilis dei bonitas in singulis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1061">
+               <head xml:id="Vn7Pel-h91607-Hd1e1063">12</head>
+               <p xml:id="Vn7Pel-h91607-d1e1065">
+                  <lb ed="#A" n="31"/>¶ Galix dicitur eo quod saliat id est 
+      cre<lb ed="#A" n="32" break="no"/>scat celeriter secundum Isid. Cuius semis (inquit idem hanc 
+      <lb ed="#A" n="33"/>dicunt esse natura: vt si quis in poculis illud hause 
+      <lb ed="#A" n="34"/>cit: infecundus erit. Unde secundum Constan. sucus frondium 
+      <lb ed="#A" n="35"/>et pomorum vel granorum quae sunt in foliis eius: 
+      pota<lb ed="#A" n="36" break="no"/>tus: mulieri concipere non permittit. Et secundum Plinium liro 
+      <lb ed="#A" n="37"/>xxiiii. ac Diasco. Si folia eius vel flores conterantur 
+      <lb ed="#A" n="38"/>et cum aqua bibantur: intemporantiam libidinis 
+      coer<lb ed="#A" n="39" break="no"/>cent. et sepius sumpta: in totum auferunt vsum 
+      li<lb ed="#A" n="40" break="no"/>bidinis. Sucus eius vulnera solidat. Et secundum Aui 
+      <lb ed="#A" n="41"/>gen. eius gumi valde confert visui debili etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1091">
+                  <lb ed="#A" n="42"/>¶ Sambucus licet ipsa feteat: tamen flores habet 
+      odo<lb ed="#A" n="43" break="no"/>riferos. v. Sambuci flores sambuco sunt 
+      meli<lb ed="#A" n="44" break="no"/>ores. Et est arbor mollis et parua. secundum Auicen. et 
+      <lb ed="#A" n="45"/>Constan. oleum eius confert senibus mollitque neruos 
+      <lb ed="#A" n="46"/>Et secundum Plinium li. xxiiii. Radix eius decocta ac 
+      po<lb ed="#A" n="47" break="no"/>ta hydropicos exinanit. Item stomachum mollit: 
+      <lb ed="#A" n="48"/>vomitum prouocat: lumbricos excludit. Foliorum eius 
+      <lb ed="#A" n="49"/>decoctio in vino: serpentum ictibus resistit. Sed si in 
+      <lb ed="#A" n="50"/>aqua decoquantur eius folia et locus spargatur: 
+      puli<lb ed="#A" n="51" break="no"/>ces et musce necantur. Ecce dei opera etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1115">
+                  <lb ed="#A" n="52"/>¶ Sethim est arbor orientis nobilissima similis 
+      al<lb ed="#A" n="53" break="no"/>be spine: sed maior et altior. De quo supra. §. iii. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1122">
+                  <lb ed="#A" n="54"/>¶ Sicomorus dicitur secundum Isido. eo quo folio similis sit 
+      <lb ed="#A" n="55"/>moro. De Moro vide vbi <ref xml:id="Vn7Pel-h91607-Rd1e1128">Fructus. §. vii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e1132">
+                  <lb ed="#A" n="56"/>¶ Solisarbor et etiam lune. De his habetur iam 
+      <lb ed="#A" n="57"/>
+                  <ref xml:id="Vn7Pel-h91607-Rd1e1138">lupra. §. ii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e1141">
+      <!--300.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Suber scundum Plnium et aroor pessmam habens 
+      <lb ed="#A" n="59"/>glandem et raram quas sues edunt. Inde suber vel 
+      su<lb ed="#A" n="60" break="no"/>beries dicitur secundum Isid. Item huius cortex si dematur 
+      <lb ed="#A" n="61"/>lignum non fluitat in aquis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1158">
+               <head xml:id="Vn7Pel-h91607-Hd1e1160">15</head>
+               <p xml:id="Vn7Pel-h91607-d1e1162">
+                  <lb ed="#A" n="62"/>¶ Taxus est arbor venenata vnde 
+      <lb ed="#A" n="63"/>et toxica venena dicuntur. Nam fumus eius secundum Plin. 
+      <lb ed="#A" n="64"/>li. xxiiii. mures necat. Et in Calabria taxus nascens 
+      <lb ed="#A" n="65"/>tantam habet vim vt quisquis sub ea dormierit aut 
+      <lb ed="#A" n="66"/>sederit: periculum vite sustineat. vnde illic sibi negant 
+      <lb ed="#A" n="67"/>transeuntes viam. Repartum est autem innoxiam fieri si in 
+      <lb ed="#A" n="68"/>arbore ipsa clauus ereus addicatur. secundum e. Pli. li. iqio 
+      <lb ed="#A" n="69"/>Item de hoc ligno scribitur Hiere. xi. Mittamus 
+      li<lb ed="#A" n="70" break="no"/>gnum in panem eius: et eradamus eum de terra 
+      viuen<lb ed="#A" n="71" break="no"/>cium. Lyra id est de ligno taxi. vel toxi: a mutata in o: 
+      <lb ed="#A" n="72"/>mittamus in cibum Hieremie vt eius veneno moriatur. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1188">
+                  <lb ed="#A" n="73"/>¶ Terebinthus secundum Isid. et glo. super. i. Regum. xvii. 
+      <lb ed="#A" n="74"/>est arbor generans resinam prestantissimam quae omnibus 
+      <lb ed="#A" n="75"/>resinis vtilior est: vt dicit etiam Diascor. nascitur in Sy 
+      <lb ed="#A" n="76"/>ria. Semen bibitum confert capitis dolori: secundum Pli. 
+      <lb ed="#A" n="77"/>Tilia id est telo vtilia propter leuitatem iaculandi 
+      vul<lb ed="#A" n="78" break="no"/>go hassa) hoc mirum habet secundum Pli. lib. xvi. quod 
+      fru<lb ed="#A" n="79" break="no"/>ctum vel granum eius nullum animal attingit: tamen dulc 
+      <lb ed="#A" n="80"/>est sucus corticis et folii. Item Tilia vulnus suum 
+      clau<lb ed="#A" n="81" break="no"/>dit et ob id contumacius ferum infixum sibi excludit: 
+      <lb ed="#A" n="82"/>lepras sedat: et aluum purgat. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1212">
+                  <lb ed="#A" n="83"/>¶ Tinus est arbor que polita repraesentat imaginem 
+      <lb ed="#A" n="84"/>aspicientis in se. De qua spra. §. iii. 
+      <lb ed="#A" n="85"/>Ulmus est arbor vmbre lenis: enutriens 
+      quacum<lb ed="#A" n="86" break="no"/>que occupat. De qua Esa. xli. habetur. En ergo deus 
+      <lb ed="#A" n="87"/>laudabilis. 
+      </p>
+               <!-- Lignum 2-->
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1228">
+               <head xml:id="Vn7Pel-h91607-Hd1e1230">14</head>
+               <p xml:id="Vn7Pel-h91607-d1e1232">
+                  <lb ed="#A" n="88"/>Ignu. 1. dicicet de 
+      <lb ed="#A" n="89"/>signis cultis et fructiferis arboribus 
+      de<lb ed="#A" n="90" break="no"/>sibus ordine alphabetico prosequemur 
+      <lb ed="#A" n="91"/>Ex dictis Isid. Plinii. Diascor. et aliorum quorum nomina 
+      <lb ed="#A" n="92"/>per singula particulatim dicta describere prolixum esset 
+      <lb ed="#A" n="93"/>Sufficiat ergo praetitulasse. Ea autem quae alibi descripsi 
+      <lb ed="#A" n="94"/>quta de fructibus vel floribus aut foliis earundem 
+      ar<lb ed="#A" n="95" break="no"/>borum non est opus hoc repetere. sed sufficiat illuc vbi 
+      <lb ed="#A" n="96"/>scriptum est remittere causa brevitatis 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1254">
+                  <lb ed="#A" n="97"/>¶ Amygdali lignum vel arbor quoddam genus gumi 
+      <lb ed="#A" n="98"/>exprimit quod valet sanguinem reiicientibus: tussimque 
+      <lb ed="#A" n="99"/>mitigat cum mero datum. Radixque cum vino pota la¬ 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1263">
+                  <lb ed="#A" n="100"/>¶ Auellane radix secundum Auicem. pota. (pidem frangit. 
+      <lb ed="#A" n="101"/>a valet ad pleuresim et sputum sanguis. De 
+      ligni<lb ed="#A" n="102" break="no"/>huiusmodi valore contra ranas vbi  (lulat. 
+      <lb ed="#A" n="103"/>Castanea arbor si excisa fuerit postea 
+      expul<lb ed="#A" n="104" break="no"/>Cerasus vt dicit Plinius facit fructus praecoces qui 
+      <lb ed="#A" n="105"/>coguntur maturescere ordeacea stiplula radicibus 
+      ad<lb ed="#A" n="106" break="no"/>mota. De fructibus eius plura vbi Fructus. Ecce dei mi¬ 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1281">
+                  <lb ed="#A" n="107"/>¶ Citrus est arbor cui non eadem virtus est in omnibus (ra 
+      opera<lb ed="#A" n="108" break="no"/>partibus suis. quia semini inest virtus acida et stiptica: et 
+      <lb ed="#A" n="109"/>valet iecoris passioni. Cortici est austerior 
+      natu<lb ed="#A" n="110" break="no"/>ra: et odor testatur. Estque digestionis operatiua et 
+      <lb ed="#A" n="111"/>purgatiua ventris. Item ex citro fit antidotum 
+      no<lb ed="#A" n="112" break="no"/>bile quod eximie pectus exonerat: et diapasion 
+      <lb ed="#A" n="113"/>itaut. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1300">
+      <!--301.xml-->
+                  <pb ed="#A" n="302"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Esculuo dicitur ab esca. quia glandifera. cuius fructi 
+      <lb ed="#A" n="2"/>bus olim vixerunt homines. Et vt Plinius dicit 
+      <lb ed="#A" n="3"/>lib. xvi. Si Uirgilio inquit credimus quantum 
+      escul<lb ed="#A" n="4" break="no"/>eminet corpore tantum descendit radice. et est oneris 
+      <lb ed="#A" n="5"/>quantilibet patiens. ideo apta edificiis. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1320">
+                  <lb ed="#A" n="6"/>¶ Ficus est arbor a fecunditate dicta. quia fertilior: 
+      <lb ed="#A" n="7"/>est ceteris arboribus. Nam ter et quater per singulos 
+      <lb ed="#A" n="8"/>annos generat fructum. et altero maturescente al 
+      <lb ed="#A" n="9"/>ter aboritur. Et secundum Solinum atque Isidorum fic 
+      <lb ed="#A" n="10"/>egyptiaca fecundior est. adeo vt vno anno 
+      septi<lb ed="#A" n="11" break="no"/>es fructificet. Et cum vnus decerpitur fructus eius 
+      <lb ed="#A" n="12"/>alter profertur. Lignum eius in aqua missum 
+      ili<lb ed="#A" n="13" break="no"/>co mergitur. et cum diu in sundo aque iacuerit: 
+      leui<lb ed="#A" n="14" break="no"/>or facta susto llitur. Hec arbor similis est moro. in 
+      <lb ed="#A" n="15"/>folio. ficus eius praedulcis sine granis interioribus 
+      <lb ed="#A" n="16"/>vt dicit Plinius. Item Isidorus dicit. quod tauri 
+      fe<lb ed="#A" n="17" break="no"/>rocissimi ad arborem ficus colligati repente 
+      fe<lb ed="#A" n="18" break="no"/>runtur mansuescere. Talia itaque mira dei bonitas 
+      <lb ed="#A" n="19"/>ad laudem sui fecit in arboribus huiusmodi. De valore 
+      <lb ed="#A" n="20"/>patuit vbi Fructus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1356">
+               <head xml:id="Vn7Pel-h91607-Hd1e1358">15</head>
+               <p xml:id="Vn7Pel-h91607-d1e1360">
+                  <lb ed="#A" n="21"/>¶ Laurus a laude dicta. vnde et 
+      <lb ed="#A" n="22"/>olium laudea dicebatur Hac enim cum laude 
+      corona<lb ed="#A" n="23" break="no"/>bantur victores. Sola hec fulmen non timet. Nun 
+      <lb ed="#A" n="24"/>quam autem viriditatem deponit. velociter senescit. secd 
+      <lb ed="#A" n="25"/>es radicibus repullulat. Succus eius surditati sub 
+      <lb ed="#A" n="26"/>uenit. Corium eiusdem arboris tritum et bibitum 
+      <lb ed="#A" n="27"/>calculos frangit. Aborsum excludit. et interficit 
+      fe<lb ed="#A" n="28" break="no"/>tum propter sui amaritudinem. Ideo cauendum 
+      <lb ed="#A" n="29"/>est grauidis. Item decoctio praesertim foliorum eius 
+      <lb ed="#A" n="30"/>et illita: vesparum et serpentium venenis resistit 
+      <lb ed="#A" n="31"/>Cum vino bibita puncture confert scorpionis ac 
+      do<lb ed="#A" n="32" break="no"/>lori neruorum. Si laurus apponatur capiti: facum non 
+      fal<lb ed="#A" n="33" break="no"/>sa sed vera somnia. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1391">
+                  <lb ed="#A" n="34"/>¶ Malus velocius senescit. sed et radicibus 
+      repul<lb ed="#A" n="35" break="no"/>lulat. Et secundum Aristo de vegeta. Inserere eam scilicet 
+      ma<lb ed="#A" n="36" break="no"/>lum in pirum optimum est: et econuerso. sic enim 
+      dici<lb ed="#A" n="37" break="no"/>tur produci bonabruta. Item gloss. super Can. dicit 
+      <lb ed="#A" n="38"/>Malus ligna siluestria antecedit. visu: gustu: et 
+      <lb ed="#A" n="39"/>odore. Unde scribitur. Sicut malus inter ligna 
+      sil<lb ed="#A" n="40" break="no"/>uarum. etc. Succus eiusdem arboris cum vino 
+      bi<lb ed="#A" n="41" break="no"/>bitus et cataplasmatus: venenatis occurrit 
+      mor<lb ed="#A" n="42" break="no"/>sibus. Corium eius combustum et aque mixtum 
+      <lb ed="#A" n="43"/>lepras mundat. 
+      <lb ed="#A" n="44"/>e Malusgranata. feminim generis. arbor est. 
+      po<lb ed="#A" n="45" break="no"/>mu vo scilicet malogranatum: neutrius generis Et idem est 
+      <lb ed="#A" n="46"/>quod malus punicus vel malumpunicum. De hac Ioe 
+      <lb ed="#A" n="47"/>lis i. vbi habetur Malogranatum et palma et malum 
+      <lb ed="#A" n="48"/>et omnia ligna agri aruerunt. quoniam confusum est 
+      gau<lb ed="#A" n="49" break="no"/>dium hominum. Ibi glos. dicit. Malogranatum 
+      <lb ed="#A" n="50"/>est arbor medicinalis sic dicta. quia fructus eius 
+      <lb ed="#A" n="51"/>multitudinem granorum habet. cuius poma 
+      ru<lb ed="#A" n="52" break="no"/>bea sunt Eius cortici comparantur ecclesie gene. quae sunt 
+      <lb ed="#A" n="53"/>sancti patres. lib. Can. vbi dicit sponsus ad 
+      spon<lb ed="#A" n="54" break="no"/>sam Sicut cortex malipunici gene tue. absque oc 
+      <lb ed="#A" n="55"/>cultis tuis. Hec ibi. Nam secundum Grego. Fides 
+      serca<lb ed="#A" n="56" break="no"/>tur per faciem et genas. quia per has cognoscitur 
+      ho<lb ed="#A" n="57" break="no"/>mo. Similiter per fidem anima cognoscitur a deo quae 
+      <!--301.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>debet habere multa grana id est opera bona 
+      rubea<lb ed="#A" n="59" break="no"/>per charitatem etc. Item secundum Plinium rami punicorum 
+      <lb ed="#A" n="60"/>in manibus portati fugant serpentes. Cortex fumo 
+      <lb ed="#A" n="61"/>fugat culices. Et secundum Isaac in dietis Cortex 
+      ma<lb ed="#A" n="62" break="no"/>logranati cum radice in vino coctus et potatus: 
+      lun<lb ed="#A" n="63" break="no"/>bricos de ventre eiicit etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1463">
+                  <lb ed="#A" n="64"/>¶ Morus secundum Isid. siluestri qua in deserto 
+      pasto<lb ed="#A" n="65" break="no"/>res famen temporant: huius folia superiacta serpenti 
+      <lb ed="#A" n="66"/>interimunt illum. Radix cum aqua cocta et potata lum 
+      <lb ed="#A" n="67"/>bricos extinguit. 
+      <lb ed="#A" n="68"/>nux arbor secundum <ref xml:id="Vn7Pel-h91607-Rd1e1476">Plinium li xvii</ref> facit vmbram 
+      no<lb ed="#A" n="69" break="no"/>xiam capiti hominis: omnibusque satis. Plura vbi Fructus. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1481">
+                  <lb ed="#A" n="70"/>¶ Plea. de hac vide vbi <ref xml:id="Vn7Pel-h91607-Rd1e1485">Fructus. §. ix. de Oliua.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e1489">
+                  <lb ed="#A" n="71"/>¶ Item pro mystica significatione cuiuscunque 
+      ar<lb ed="#A" n="72" break="no"/>poris iuxta proprietatem sua potes applicare de 
+      ho<lb ed="#A" n="73" break="no"/>mine secundum varias differentias status et condicionis 
+      <lb ed="#A" n="74"/>et huiusmodi. quia secundum Pap. homo dicitur antropos 
+      grece<lb ed="#A" n="75" break="no"/>ab ana quod est sursum: et tropos versio: quasi 
+      sur<lb ed="#A" n="76" break="no"/>sum versa arbor: eo quod os superius pro radice habet 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1506">
+               <head xml:id="Vn7Pel-h91607-Hd1e1508">16</head>
+               <p xml:id="Vn7Pel-h91607-d1e1510">
+                  <lb ed="#A" n="77"/>¶ Palma dicitur quia expassis est 
+      <lb ed="#A" n="78"/>ramis in modum palme hominis. Fructus eius sunt 
+      <lb ed="#A" n="79"/>dactyli: a digitorum similitudine nuncupati. Et pro 
+      <lb ed="#A" n="80"/>signo victorie dabatur in manus. Hec arbor tarde 
+      <lb ed="#A" n="81"/>proficit vt crescat in altum: centenaria facit fructum 
+      <lb ed="#A" n="82"/>Et secundum Plinium li. xxiii. terram diligit sabulosam 
+      <lb ed="#A" n="83"/>maiori in parte. Et rigua id est aliquantum madida 
+      ter<lb ed="#A" n="84" break="no"/>ra gaudet: fimoque leditur: folia eius non decidunt: et 
+      <lb ed="#A" n="85"/>tarde senescunt. Unde glo. super illud Iob. xxix. Sicut 
+      <lb ed="#A" n="86"/>palma multiplicabo dies etc. Et etiam Amb. li. iii 
+      <lb ed="#A" n="87"/>Hexa. dicunt. Palma in viriditate diu subsistit 
+      <lb ed="#A" n="88"/>conseruando folia. Et contra naturam aliarum arborum in 
+      <lb ed="#A" n="89"/>imo gracilior existit. superius iuxta fructus 
+      gros<lb ed="#A" n="90" break="no"/>sescit. et inferius quidem aspera. superius vero tactu et 
+      vi<lb ed="#A" n="91" break="no"/>su pulcra. Hec ibi. Ideo Iob. supra prosperitatem suanm 
+      <lb ed="#A" n="92"/>in deo palme comparauit: designando prosperitatem 
+      <lb ed="#A" n="93"/>bonorum hominum in spiritualibus et celestibus per 
+      lo<lb ed="#A" n="94" break="no"/>gitudinem dierum vite etc. Item secundum praedictos et Plinium 
+      <lb ed="#A" n="95"/>li. xiii. Sicut in omnibus fere terrenascentibus sexus discet 
+      <lb ed="#A" n="96"/>nitur: manifestius tamen in palma videtur. Nam vt 
+      di<lb ed="#A" n="97" break="no"/>cit Beda libro de nat. re. palme mas et femina 
+      nun<lb ed="#A" n="98" break="no"/>quam fructificant nisi pares ita vicine sint quod ramis 
+      <lb ed="#A" n="99"/>superioribus per ventum seinuicem inclinatis 
+      ample<lb ed="#A" n="100" break="no"/>ctantur etc. Plura vbi <ref xml:id="Vn7Pel-h91607-Rd1e1564">Fructus. §. iiii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e1567">
+                  <lb ed="#A" n="101"/>¶ Persicus arbor vite breuis est: eius folia sicca 
+      <lb ed="#A" n="102"/>et in puluerem tusa: recentas plagas et cruenta 
+      vul<lb ed="#A" n="103" break="no"/>nera claudunt. Gumi eius cum vino mixto 
+      la<lb ed="#A" n="104" break="no"/>pillos vesice frangit. Sucus foliorum persici in 
+      au<lb ed="#A" n="105" break="no"/>rem instillatus interficit vrmes secundum Auicen. 
+      Mi<lb ed="#A" n="106" break="no"/>r ergo dei bonitas. 
+      <lb ed="#A" n="107"/>Pirus secundum Arist . libro de vegeta. melius fructificat 
+      <lb ed="#A" n="108"/>ino senectute quam in iuuentute. Folia eius secundum Aui 
+      <lb ed="#A" n="109"/>cennam conferunt ventris fluxui cholerico. vulneribus 
+      <lb ed="#A" n="110"/>admota feruorem mitigant. Plura vbi Fructus 
+      <lb ed="#A" n="111"/>Pomus arbor. Uide de hoc supra. vbi Malus 
+      <lb ed="#A" n="112"/>et vbi Fructus. 
+      <lb ed="#A" n="113"/>Prunus secundum Diascor. habet fructus 
+      iocun<lb ed="#A" n="114" break="no"/>dos: qui siccati et cocti conferunt stomacho. Gumi¬ 
+      <!--302.xml-->
+      <pb ed="#A" n="303"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod fluit ex pruno: cum vino bibitum: lapides 
+      ve<lb ed="#A" n="2" break="no"/>sice frangit. Plura vbi <ref xml:id="Vn7Pel-h91607-Rd1e1610">fructus. §. 1o. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e1613">
+                  <lb ed="#A" n="3"/>¶ Rubus est morus siluestis sic dictus quia 
+      fru<lb ed="#A" n="4" break="no"/>ctus eius et virgultum rubet. De hac vbi Morus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1622">
+               <head xml:id="Vn7Pel-h91607-Hd1e1624">17</head>
+               <p xml:id="Vn7Pel-h91607-d1e1626">
+                  <lb ed="#A" n="5"/>¶ AUitis dicitur eo quod habet vim 
+      ci<lb ed="#A" n="6" break="no"/>tiuis radicandi. Et est inter ligna fructu 
+      abundar<lb ed="#A" n="7" break="no"/>tior. Uite autem vel palmite eius infructuosa nil 
+      inu<lb ed="#A" n="8" break="no"/>tilius. quia ad nil aliud valet nisi ad ignem. Sic est 
+      <lb ed="#A" n="9"/>de malis hominibus: vt patet Ioan. xv. ex dictis christi 
+      <lb ed="#A" n="10"/>de vite et palmite. Et consimiliter dicitur Ezech. xv. Item secundum 
+      <lb ed="#A" n="11"/>Plinium liro xvii. vites nouelle copiosius dant 
+      vini<lb ed="#A" n="12" break="no"/>sed vetustioribus melius vinum est. Item vitis est 
+      arbor<lb ed="#A" n="13" break="no"/>exterius deformis quasi scabiosa: sed fructum facit 
+      <lb ed="#A" n="14"/>dulcissimum et vinum sapidissimum. Indiget autem vi. 
+      <lb ed="#A" n="15"/>tis vt bene fructificet multis laboribus circa eam scilicet rec 
+      <lb ed="#A" n="16"/>sione: purgatione: fossione: appodiatione ligni 
+      ali<lb ed="#A" n="17" break="no"/>cuius ne decidat: pampinatione: et vindemiatione etc. 
+      <lb ed="#A" n="18"/>Item vitibus plurima sunt nociua ne bene fructificent. 
+      <lb ed="#A" n="19"/>de quibus supra patuit vbi <ref xml:id="Vn7Pel-h91607-Rd1e1660">Flos. §. v.</ref> Item vitium vinde 
+      <lb ed="#A" n="20"/>miatio debet tempus obseruare secundum <ref xml:id="Vn7Pel-h91607-Rd1e1665">Pe. de crescen. 
+      <lb ed="#A" n="21"/>li. iiii.</ref> de rura. con. videlicet vt non vindemientur antequam 
+      <lb ed="#A" n="22"/>vue sint mature. quia sic fit vinum infirmum et non 
+      sta<lb ed="#A" n="23" break="no"/>bile. Nec vindemientur multo postquam sunt 
+      matu<lb ed="#A" n="24" break="no"/>re. quia fit vinum minus durabile resolutis viribus: et 
+      <lb ed="#A" n="25"/>vinca leditur. Sed cum cognoscuntur esse mature scilicet 
+      <lb ed="#A" n="26"/>tempus debitum: et etiam visum ac gustum: sex solum diebs 
+      <lb ed="#A" n="27"/>et non pluribus vua plene matura debet in vite 
+      ma<lb ed="#A" n="28" break="no"/>nere.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e1686">
+      ¶ Ite virutes vitis sunt secundum Plinium li. xxiii. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1688">
+                  <lb ed="#A" n="29"/>¶ Auice. et Rani in Almasore. videlicet quod vitis folia vt 
+      <lb ed="#A" n="30"/>pampinus: capitis dolore et inflationes corporum 
+      mi<lb ed="#A" n="31" break="no"/>tigat. et pampini triti et impositi tumorem omnem siccant. 
+      <lb ed="#A" n="32"/>cortex et folia arida: vulnerum sanguinem sistunt et 
+      vul<lb ed="#A" n="33" break="no"/>nera conglutinant. Uitium cinis cum axumgeiam veteri vt 
+      <lb ed="#A" n="34"/>let tumoribus et fistulas purgat: et neruorum. 
+      dolo<lb ed="#A" n="35" break="no"/>res ex frigore ortos contractiones quae sanat. 
+      Lachr<lb ed="#A" n="36" break="no"/>ma vitium que velut gumi est bibita cum vino 
+      lap<lb ed="#A" n="37" break="no"/>dem frangit: et ventris scabiem ac lepram remouet. 
+      Ci<lb ed="#A" n="38" break="no"/>nis corticis per se combustus pilos reddit. Item de vitis 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1712">
+                  <lb ed="#A" n="39"/>¶ Uitis siluestris quae labru vino proprio capitulo. 
+      <lb ed="#A" n="40"/>scta vocatur hanc habet virtutem quod radix eius cum aqua 
+      <lb ed="#A" n="41"/>aut vino bibita confert hydropisi et surditati. 
+      Cor<lb ed="#A" n="42" break="no"/>tex eiusdem cum melle sanat ginginam sanguineam: 
+      <lb ed="#A" n="43"/>secundum Plinium li. xxiii. Hec sufficiant casa brevitatis 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1726">
+                  <lb ed="#A" n="44"/>¶ Nota quod de significatione vitis possunt deri. 
+      <lb ed="#A" n="45"/>uari et applicari plurime harum proprietatum: iuxta 
+      si<lb ed="#A" n="46" break="no"/>gnificatum. quia potest accipi vt: significet christum vel 
+      fi<lb ed="#A" n="47" break="no"/>deles in christo: vel ecclesiam totam: sicuti in 
+      sermo<lb ed="#A" n="48" break="no"/>nibus plurima huiusmodi tractauimus de quibus nunc 
+      <lb ed="#A" n="49"/>petranseo. Laudetur ergo dei bonitas in omnibus. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1742">
+                  <lb ed="#A" n="50"/>¶ Sed generaliter arbor quaecumque: significat in 
+      scri<lb ed="#A" n="51" break="no"/>ptura hominem scilicet bona iustum: et mala peccatorem 
+      <lb ed="#A" n="52"/>Matth. vii. quia illa facit fructus boni operis. 
+      <lb ed="#A" n="53"/>ista malos et in ignem excidetur. Item vt 
+      Beda<lb ed="#A" n="54" break="no"/>libro de temporibus dicit Ligna pro edificio cedi debent 
+      <lb ed="#A" n="55"/>a xv. die lune vsque ad. xxii. quia reliquis diebus 
+      praeci<lb ed="#A" n="56" break="no"/>sa: a vermibus corrodentur eodem anno. etiam 
+      ceden<lb ed="#A" n="57" break="no"/>da sunt post solstitum scilicet post mensem Iulium et Au 
+      <!--302.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>gustum vsque ad Ral. Ianuarii. quia tunc 
+      arescen<lb ed="#A" n="59" break="no"/>te humore sicciora et fortiora sunt ligna. Hec 
+      Be<lb ed="#A" n="60" break="no"/>da. Ita spiritualiter homo pro edificio celesti ceditur 
+      <lb ed="#A" n="61"/>per mortem in plenilunio operum bonorum: siccus 
+      <lb ed="#A" n="62"/>ab humore viciorum. 
+      </p>
+               <!-- Lignum 3-->
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1780">
+               <head xml:id="Vn7Pel-h91607-Hd1e1782">18</head>
+               <p xml:id="Vn7Pel-h91607-d1e1784">
+                  <lb ed="#A" n="63"/>¶ Ignum.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e1789">
+      ¶ . Dicut 
+      <lb ed="#A" n="64"/>de lignis aromaticis et 
+      premedicina<lb ed="#A" n="65" break="no"/>ilibus Nota Primo Aromata dicuntur 
+      <lb ed="#A" n="66"/>quaecunque fragrantiam sui odoris diffundunt: secundum Isi 
+      <lb ed="#A" n="67"/>do. siue ex eo quod aris diuinis imponi sunt apta: 
+      <lb ed="#A" n="68"/>siue quod aeri miscentur in suo odore. Item secundum Arist 
+      <lb ed="#A" n="69"/>libro de vegeta. Arborum aromaticarum: quarundam 
+      ra<lb ed="#A" n="70" break="no"/>dix amara aromatica est: quarumdam cortex: 
+      quarun<lb ed="#A" n="71" break="no"/>dam flores: quarumndam lignum: aliquarum partes 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1809">
+                  <lb ed="#A" n="72"/>¶ Iam itaque post ar (omnes aromatice sunt. 
+      <lb ed="#A" n="73"/>bores communes ac frugiferas superest vt ad 
+      lau<lb ed="#A" n="74" break="no"/>dem dei de arboribus huiusmodi aromaticis 
+      prosequa<lb ed="#A" n="75" break="no"/>mur breuius: saltem aliquas earum que ha bentur in 
+      <lb ed="#A" n="76"/>scripturis et vsu communi ordine alphabetico: cum 
+      <lb ed="#A" n="77"/>omnia non sufficiamus exprimere. Hec autem 
+      excerpen<lb ed="#A" n="78" break="no"/>do ex dictis physicorum: Aristotelis: Plinii: 
+      Auice<lb ed="#A" n="79" break="no"/>ne: Constantini: Isidori: Diascoridis: et aliorum 
+      <lb ed="#A" n="80"/>etiam interim sanctorum prosequemur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1832">
+               <head xml:id="Vn7Pel-h91607-Hd1e1834">19</head>
+               <p xml:id="Vn7Pel-h91607-d1e1836">
+                  <lb ed="#A" n="81"/>¶ Aloe est arbor aromatica 
+      na<lb ed="#A" n="82" break="no"/>scenes in India et Arabia: odoris suauissimi: 
+      vni<lb ed="#A" n="83" break="no"/>uersaliter melius est quod magis summergitur in aqua. 
+      <lb ed="#A" n="84"/>natans vero malum est priuatum vita. vnde probatur 
+      <lb ed="#A" n="85"/>melius esse quod ponderosum valde est et nodo. 
+      <lb ed="#A" n="86"/>sum ac odoriferum valde: saporisque subamari: 
+      <lb ed="#A" n="87"/>dum commasticatur statim odor cerebrum videtur 
+      attin<lb ed="#A" n="88" break="no"/>gere: coloris subnigri vel surrubei: contritioni 
+      den<lb ed="#A" n="89" break="no"/>tium non omnino resistens
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e1858">
+      ¶ Item confert valde 
+      ce<lb ed="#A" n="90" break="no"/>rebro confortando per nares recepta. Cor: sensus: 
+      <lb ed="#A" n="91"/>neruos: stomachum: epar: et omnia interiora: ac omnia 
+      <lb ed="#A" n="92"/>membra debilitata confortat: calefacit: et 
+      digesti<lb ed="#A" n="93" break="no"/>onem procurat: remouet superfluitates 
+      humidita<lb ed="#A" n="94" break="no"/>tum putrefactas e stomacho cum bibitum fuerit: et 
+      <lb ed="#A" n="95"/>prohibet iram. quia letiticat cor etc. Ecce dei 
+      bo<lb ed="#A" n="96" break="no"/>nitas in huiusmodi 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1876">
+                  <lb ed="#A" n="97"/>¶ Amomum est arbor aromatica quae odore bone 
+      <lb ed="#A" n="98"/>etiam bonos somnos suauificat: tumores 
+      cata<lb ed="#A" n="99" break="no"/>plasmis adhibita sedat: maturat apostemata: 
+      <lb ed="#A" n="100"/>perleuresi confert 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1887">
+                  <lb ed="#A" n="101"/>¶ Balsamus arbor est aromatica et humilis: super 
+      <lb ed="#A" n="102"/>terram vnius brachii vel paulo plus mensura. 
+      <lb ed="#A" n="103"/>ex ramorum eius fissuris quolibet anno in diebus 
+      <lb ed="#A" n="104"/>canicularibus sucus egreditur quasi lac: confert 
+      vi<lb ed="#A" n="105" break="no"/>sceribus grossis et vlceribus capitis: et epilensie 
+      <lb ed="#A" n="106"/>ac vertigini: debilitati quoque digestionis aperit 
+      <lb ed="#A" n="107"/>pppilationes: mundificat caput et vlcera: et 
+      extra<lb ed="#A" n="108" break="no"/>hit fracturas ossium: bibitur eius decoctio pro 
+      <lb ed="#A" n="109"/>pter spasmum etc. Abstergit pamnum id est tenebrositatem. 
+      <lb ed="#A" n="110"/>resistit venenis: et confert morsui vipere. Et liquo 
+      <lb ed="#A" n="111"/>balsami super omnes liquores vim 
+      penetrati<lb ed="#A" n="112" break="no"/>uam habet: vt dicitur libro de nat. re. intantum: vt cum sol¬ 
+      <!--303.xml-->
+      <pb ed="#A" n="304"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>incanduerit: eius gutta in manu infusa sustineris 
+      <lb ed="#A" n="2"/>non possit: sed statie penetrat.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e1927">
+      ¶ Plurima ad hec 
+      <lb ed="#A" n="3"/>habes supra speciali capitulo vbi Balsamum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e1933">
+               <head xml:id="Vn7Pel-h91607-Hd1e1935">20</head>
+               <p xml:id="Vn7Pel-h91607-d1e1937">
+                  <lb ed="#A" n="4"/>¶ Calamus aromaticus in 
+      In<lb ed="#A" n="5" break="no"/>dia melior nascitur quam alibi: a similitudine calami 
+      <lb ed="#A" n="6"/>vsualis sic vocatus. Colore rufus est optimus: 
+      propin<lb ed="#A" n="7" break="no"/>quos habens nodos: qui in plurima frusta 
+      frangi<lb ed="#A" n="8" break="no"/>tur vel rumpitur digitis constrictus: odoris suauis: 
+      <lb ed="#A" n="9"/>quo statim et longinquo inuitat. valet ad dolorem 
+      sto<lb ed="#A" n="10" break="no"/>machi potui datus: ac veteri tussiro valet etiam ad 
+      <lb ed="#A" n="11"/>tumore. apostemata resoluit. abstergit visum etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1957">
+                  <lb ed="#A" n="12"/>¶ Casia nascitur in Arabia frutex. hec dicitur etiam 
+      fi<lb ed="#A" n="13" break="no"/>fula: infra. Melior est illa quae est rubei coloris: 
+      <lb ed="#A" n="14"/>pura: plana: longi ligni: boni odoris: que 
+      mordi<lb ed="#A" n="15" break="no"/>cat linguam et constringit. sed nigra non valet. 
+      <lb ed="#A" n="16"/>Item confert pectori. Stomachu: epar: et omnia 
+      <lb ed="#A" n="17"/>principalia membra confortat. et est contra synco 
+      <lb ed="#A" n="18"/>pim valens et contra passiones capitis ac 
+      epilen<lb ed="#A" n="19" break="no"/>siam et contra fetorem oris: ac contra cordiacam 
+      <lb ed="#A" n="20"/>asiont. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e1979">
+                  <lb ed="#A" n="21"/>¶ Cinnamomum frutice breui duorum tantum 
+      cubito<lb ed="#A" n="22" break="no"/>ru in India et Ethiopia gignitur: cum eius 
+      arbor<lb ed="#A" n="23" break="no"/>viret et floret siccitate gaudet. Eligendum est quod est 
+      <lb ed="#A" n="24"/>boni odoris: dulcis et acuti saporis sine mordi 
+      <lb ed="#A" n="25"/>catione: et surrufum. Nam id quod est subalbidum 
+      <lb ed="#A" n="26"/>vel nigrum abiicitur. puluis eius valet ad nouas scisi 
+      <lb ed="#A" n="27"/>suras labiorum vel aliorum vlcerum contra syncopim 
+      <lb ed="#A" n="28"/>et cordiacam. rectificat omnem putrefactionem 
+      cor<lb ed="#A" n="29" break="no"/>ruptorum humorum. stomachum confortat: confert 
+      tus<lb ed="#A" n="30" break="no"/>si: panno: et tenebrositati oculorum: et hydropisi: 
+      <lb ed="#A" n="31"/>rigori quoque febrium: et morsui vermium 
+      veneno<lb ed="#A" n="32" break="no"/>sorum. En dei opera etc. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2008">
+                  <lb ed="#A" n="33"/>¶ Cyprus. vt Glosa super cant. i. vbi habetur 
+      Bo<lb ed="#A" n="34" break="no"/>trus cypri in vineis Engaddi dilectus meus etc. di 
+      <lb ed="#A" n="35"/>tit. Cyprus est arbor aromatica in Egypto: semine 
+      <lb ed="#A" n="36"/>candido et odorifero: qui coquitur in oleo et 
+      expri<lb ed="#A" n="37" break="no"/>mitur ac fit vnguentum regale: cuius natura secundum 
+      <lb ed="#A" n="38"/>Pli. excalefacit neruos et emollit. Et odor huius 
+      <lb ed="#A" n="39"/>floris somnum facit delectabiliter. Unde significat 
+      <lb ed="#A" n="40"/>christum qui est sponsus ecclesie: semine candido 
+      <lb ed="#A" n="41"/>id est virgineo: puro: et odorifero: virtutibus et oleo 
+      <lb ed="#A" n="42"/>misericordie coctus igne charitatis: et excalefacit 
+      <lb ed="#A" n="43"/>suos fideles in amore et emollit pietate et 
+      sopo<lb ed="#A" n="44" break="no"/>rat in dei contemplatione. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2038">
+                  <lb ed="#A" n="45"/>¶ Fistula que et Casia est arbor aromatica: 
+      va<lb ed="#A" n="46" break="no"/>let ad curandum viscera: prout iam dictum est de 
+      <lb ed="#A" n="47"/>Casia supra hoc eodem. §. De hac intelligenda est 
+      <lb ed="#A" n="48"/>glosa super Cantur. et super Psalmus vbi Fistula 
+      dici<lb ed="#A" n="49" break="no"/>tur esse idem quod Casia que in aquosis 
+      excre<lb ed="#A" n="50" break="no"/>scit in immensum etc Unde vt dicit de vita 
+      christi<lb ed="#A" n="51" break="no"/>Cudolphus significat proficientes in bono qui 
+      <lb ed="#A" n="52"/>nunquam debent profectui ponere terminum: sed 
+      sem<lb ed="#A" n="53" break="no"/>per crescere: vt docet Bernardus et Leo Papa 
+      <lb ed="#A" n="54"/>di. quod in via dei stare et non proficere: est 
+      retro<lb ed="#A" n="55" break="no"/>cedere. 
+      <lb ed="#A" n="56"/>Galbanum de quo scribitur <ref xml:id="Vn7Pel-h91607-Rd1e2066">Ecci. xxiiii.</ref> inter alias 
+      spe<lb ed="#A" n="57" break="no"/>cies etiam libani. vide vbi <ref xml:id="Vn7Pel-h91607-Rd1e2070">Gumi. §. x.</ref> de hoc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2074">
+               <head xml:id="Vn7Pel-h91607-Hd1e2076">21</head>
+               <p xml:id="Vn7Pel-h91607-d1e2078">
+      <!--303.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Libanus arbor est in Arabia §¬ 
+      <lb ed="#A" n="59"/>vt dicit glo. super Ecclsiasticum. cortice et folio similis 
+      <lb ed="#A" n="60"/>lauro: thurifera in regione Saba. vnde arbor ipsa 
+      <lb ed="#A" n="61"/>sic nominatur scilicet et libanus et thus: eo quod etiam in liba 
+      <lb ed="#A" n="62"/>no monte nascitur huiusmodi arbor thurifera. Gutti 
+      <lb ed="#A" n="63"/>vero eius nominatur et thus et olibanum. de quibus 
+      <lb ed="#A" n="64"/>vide vbi de Myrrha. et vbi Thus in sequentibus. 
+      <lb ed="#A" n="65"/>g vbi Gumi. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2102">
+                  <lb ed="#A" n="66"/>¶ Myrrha est arbor aromatica Arabie: 
+      altitu<lb ed="#A" n="67" break="no"/>dinis quinque cubitorum. Et secundum glo. super Exo. huus 
+      <lb ed="#A" n="68"/>arboris gumi proprie vocatur stacte. sed abusiut 
+      <lb ed="#A" n="69"/>myrrha. Item vt dicitur librode nat. re. Myrrha est 
+      arbor<lb ed="#A" n="70" break="no"/>spinosa et aculeata: a radice durior quam reliquo 
+      par<lb ed="#A" n="71" break="no"/>te: eius collecti frondes et flores et ad solem desicca 
+      <lb ed="#A" n="72"/>ti confortant et constringunt fluxum ventris ac vomi 
+      <lb ed="#A" n="73"/>tus et sanguinis. De eius gumi vide vbi Gumi 
+      vl<lb ed="#A" n="74" break="no"/>Gutta myrrhe. quia eius fumus est vt fumus olibani¬ 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2124">
+                  <lb ed="#A" n="75"/>¶ Nardus est frutex. alio nomine dicitur Spica. Et de 
+      <lb ed="#A" n="76"/>ta satis dictum est vbi <ref xml:id="Vn7Pel-h91607-Rd1e2130">Herba. §. xiiii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h91607-d1e2133">
+                  <lb ed="#A" n="77"/>¶ Piperis arbor. De hac sati patuit sura vbi <ref xml:id="Vn7Pel-h91607-Rd1e2137">
+      Fr<lb ed="#A" n="78" break="no"/>gus §. x.</ref> ibidem de pipere. 
+      <lb ed="#A" n="79"/>Thus est arbor Arabie: dicta a tulendo. nam 
+      <lb ed="#A" n="80"/>in immensum tollitur: ramosa: aromaticum sucum 
+      fun<lb ed="#A" n="81" break="no"/>dens et album. Dicitur autem thus idem quod et libanum et 
+      <lb ed="#A" n="82"/>monte arabie vbi sunt sabbei quorum mons 
+      liba<lb ed="#A" n="83" break="no"/>nus dicitur: vbi thura colliguntur. Naturalis eius 
+      vin<lb ed="#A" n="84" break="no"/>demia est circa canis ortum estu flagrantissimo. 
+      <lb ed="#A" n="85"/>Tunc itaque eius cortex minuto vulnere laxatur et 
+      <lb ed="#A" n="86"/>exinde prosilit spirituma pinguis que concreta 
+      den<lb ed="#A" n="87" break="no"/>satur et obduratur. Alia vel Secuda vindemia est 
+      <lb ed="#A" n="88"/>in initio hyemis. sed quod tunc exit rufum est: nec 
+      <lb ed="#A" n="89"/>priori comporandum: vt hec habentur libro de nat. re. 
+      <lb ed="#A" n="90"/>Plura alibi. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2170">
+                  <lb ed="#A" n="91"/>¶ De Gumis et sucis aromati¬s 
+      <lb ed="#A" n="92"/>cis arborum habes vbi Guma. 
+      </p>
+               <!-- Lignum 4-->
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2180">
+               <head xml:id="Vn7Pel-h91607-Hd1e2182">22</head>
+               <p xml:id="Vn7Pel-h91607-d1e2184">
+                  <lb ed="#A" n="93"/>¶ Ignum. N. scic 
+      pr<lb ed="#A" n="94" break="no"/>de lignis paradisi Queritur Qualia 
+      <lb ed="#A" n="95"/>ligna erant in paradiso: Respondet ma 
+      <lb ed="#A" n="96"/>gister sententiarum dist. xvii. dict quod erant in paradiso ligua 
+      <lb ed="#A" n="97"/>diuersi generis: inter que vnum erat lignum vite 
+      vo<lb ed="#A" n="98" break="no"/>catum. Alterum vero lignum scientie boni et mali. 
+      Ls<lb ed="#A" n="99" break="no"/>gnum autem vite dictum est: sicut docent Bedae 
+      <lb ed="#A" n="100"/>Strabus: quia diuinitus accepit hanc vim vt qui ex eius 
+      <lb ed="#A" n="101"/>fructu comederet: corpus eius stabili sanitate et 
+      perpe<lb ed="#A" n="102" break="no"/>tua soliditate firmaretur: nec vlla infirmitate vel eta 
+      <lb ed="#A" n="103"/>tis imbecillitate in deterius vel in occasum 
+      labe<lb ed="#A" n="104" break="no"/>retur. Lignum autem scientie boni et mali non a 
+      natu<lb ed="#A" n="105" break="no"/>ra hoc nomen accepit: sed ab occasione rei 
+      postta<lb ed="#A" n="106" break="no"/>secute. Arbor enim illa non erat mala. sed ideo scient 
+      <lb ed="#A" n="107"/>poni et mali dicta est: quia post prohibitionem in illa 
+      <lb ed="#A" n="108"/>crat transgressio futura quae homo experiendo diste 
+      <lb ed="#A" n="109"/>ret quid esset inter obedientie bonum et inter 
+      in<lb ed="#A" n="110" break="no"/>obedientie malum Hec Magister.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e2226">
+      ¶ Notandum ergo 
+      <lb ed="#A" n="111"/>secundum Bonauen. circa litteram istam quod vniuersi 
+      <!--304.xml-->
+      <pb ed="#A" n="305"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>gnorum paraditsr in tribus differentiis comprhenditur 
+      <lb ed="#A" n="2"/>ad triplicem hominis vtilitatem ordinata. quia Primo ent 
+      <lb ed="#A" n="3"/>parte corporis humani erant ibi quaedam ligna fructi 
+      <lb ed="#A" n="4"/>fera que prebebant alimenta homini ad sustentatione 
+      <lb ed="#A" n="5"/>corporis. de quibus Gen. ii Produxit deus in 
+      paradi<lb ed="#A" n="6" break="no"/>so omne lignum pulcrum visu et suaue ad vescendum etc. 
+      <lb ed="#A" n="7"/>Secundo ex parte anime erat ibi lignum scientie boni et 
+      mal<lb ed="#A" n="8" break="no"/>quod ordinabatur ad obedientie probationem propter ado 
+      <lb ed="#A" n="9"/>rendum meritum. Tertio ex parte coniucti erat ligntir 
+      <lb ed="#A" n="10"/>vite ordinatum ad perpetuationem vite humane. Sed 
+      <lb ed="#A" n="11"/>duo ex omnibus specialius nominantur propter speciales 
+      <lb ed="#A" n="12"/>effectus scilicet Lignum scientie etc. et Lignum vite. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2265">
+               <head xml:id="Vn7Pel-h91607-Hd1e2267">23</head>
+               <p xml:id="Vn7Pel-h91607-d1e2269">
+                  <lb ed="#A" n="13"/>¶ Si autem queratur vbi et quomo 
+      <lb ed="#A" n="14"/>crant ista duo ligna collocata in paradiso: 
+      Re<lb ed="#A" n="15" break="no"/>spondetur secundum Bonauen. e. di. xvii. circa lit. quod exquo 
+      <lb ed="#A" n="16"/>erant specialius nominata propter speciales effectus: ideo 
+      <lb ed="#A" n="17"/>erant ista duo collocata in medio paradisi: ita quod 
+      <lb ed="#A" n="18"/>vnum esset prope alterum vel iuxta: vt ex vno conciperet 
+      he<lb ed="#A" n="19" break="no"/>mo affectum amoris: et ex alio affectum timo 
+      <lb ed="#A" n="20"/>ris. Et vt quasi opposita iuxta se posita magis 
+      elu<lb ed="#A" n="21" break="no"/>cescerent. Et hec patent ex verbis Augusti de ci¬ 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2291">
+                  <lb ed="#A" n="22"/>¶ Quod si obiicitur Lignum vite non fuisse ne. pei 
+      <lb ed="#A" n="23"/>cessarium in paradiso: cum haberent ibi homines omne 
+      <lb ed="#A" n="24"/>lignum pulcrum visu et suaue ad vescendum semper. ergo etc. 
+      <lb ed="#A" n="25"/>Respondetur secundum Bonauen. supra. et Lyram ex dictis Augu 
+      <lb ed="#A" n="26"/>stini. xiiii. de clui. dei: quod non fuit frustra lignum vite 
+      <lb ed="#A" n="27"/>praeter alia ligna. tum quia valebat ad conseruandam 
+      vi<lb ed="#A" n="28" break="no"/>tam sine senectutis defectu. Ideo ibi Augustinus dicit quod 
+      <lb ed="#A" n="29"/>cibus scilicet aliorum fructuum aderat homini ne esuriret. 
+      <lb ed="#A" n="30"/>potus fontium ne si tiret. lignum vite autem ne senectus 
+      <lb ed="#A" n="31"/>dissolueret. Tum quia dato quod primi homines ex ipso non 
+      <lb ed="#A" n="32"/>acciperent refectionem: tamen eorum posteri recipiebant 
+      in<lb ed="#A" n="33" break="no"/>structionem: dum per illud lignum intelligebant 
+      chri<lb ed="#A" n="34" break="no"/>stum significatum:.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e2322">
+      ¶ Sed Unde habuit lignum vite 
+      <lb ed="#A" n="35"/>praeseruandi a senectute virtutem: Respondetur secundum e. 
+      Bo<lb ed="#A" n="36" break="no"/>nauen. e. di. art. vl. q. i. quod hec non fuerunt ex conditione 
+      <lb ed="#A" n="37"/>naturali ligni illius. sed ex beneficio et dono dei: vt 
+      <lb ed="#A" n="38"/>dicit etiam Augustinus. Sicut Adam habuit aptitudinem 
+      <lb ed="#A" n="39"/>fieri immortale quidem a natura: et impassibilitatem: tamen 
+      <lb ed="#A" n="40"/>complementum horum fuit a gratia et dono dei. sicut 
+      pa<lb ed="#A" n="41" break="no"/>tuit etiam vbi <ref xml:id="Vn7Pel-h91607-Rd1e2339">Ho. §. v.</ref> quod filii israel dei dono 
+      ha<lb ed="#A" n="42" break="no"/>buerunt ne calciamenta eorum rumperentur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2345">
+               <head xml:id="Vn7Pel-h91607-Hd1e2347">24</head>
+               <p xml:id="Vn7Pel-h91607-d1e2349">
+                  <lb ed="#A" n="43"/>¶ Quare voluit deus 
+      prohibe<lb ed="#A" n="44" break="no"/>re homini lignum scientie boni et mali: Cum enim illud ex 
+      <lb ed="#A" n="45"/>se non erat malum sed bonum. ergo iure naturalis rationis 
+      <lb ed="#A" n="46"/>poterat homo ex illo vti: nisi deus prohibuisset. 
+      <lb ed="#A" n="47"/>Item deus fecerat illud lignum sicut et alia propter 
+      ho<lb ed="#A" n="48" break="no"/>minem. ergo homini fecit iniuriam prohibendo illud quod 
+      <lb ed="#A" n="49"/>erat suum etc. Respondetur secundum Bonauen. e. di. xvii. supra. 
+      <lb ed="#A" n="50"/>quod deus prohibuit lignum scientie homini non quia esset 
+      <lb ed="#A" n="51"/>malum: nec quia pre aliis esset melius: nec in 
+      ho<lb ed="#A" n="52" break="no"/>iniuriam fecit homini quod prohibuit. sed vt esset homini ada 
+      <lb ed="#A" n="53"/>vtilitatem tale praeceptum: videlicet ad hominis eruditionem 
+      <lb ed="#A" n="54"/>et meriti ampliationem ex obedientia. Quod autem contra. 
+      <lb ed="#A" n="55"/>rium euenit: culpa hominis fecit. Itaque deus bonus 
+      <lb ed="#A" n="56"/>prohibuit Primo propter obedientie meritum 
+      adquiren<lb ed="#A" n="57" break="no"/>dum homini ideo prohibuit a re bona quae potuisset alas 
+      <!--304.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>bene vrti. Scundo ad ostendendum sue iurisditionis 
+      <lb ed="#A" n="59"/>dominium in quacumque re. vnde illud fuit mandatum disci 
+      <lb ed="#A" n="60"/>pline. quia ad hoc non obligabatur nisi sola dei 
+      praece<lb ed="#A" n="61" break="no"/>ptione. Tertio vt homo erudiretur et per hoc disceret 
+      <lb ed="#A" n="62"/>deo esse subiectus et quantum malum sit deo non obe 
+      <lb ed="#A" n="63"/>dire: et quamoptimum obedire ad promerendum eternam 
+      <lb ed="#A" n="64"/>beatitudinem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2405">
+               <head xml:id="Vn7Pel-h91607-Hd1e2407">25</head>
+               <p xml:id="Vn7Pel-h91607-d1e2409">
+                  <lb ed="#A" n="65"/>¶ uius generis fuit illud lignum 
+      <lb ed="#A" n="66"/>vel arbor sceie: Respondet Guill. i. ii. di. xxii. 
+      difficu<lb ed="#A" n="67" break="no"/>tate prima. Uidetur inquit Augustinus in hyponosticon 
+      re<lb ed="#A" n="68" break="no"/>spondere quod fuerit ficus. Unde et de illa arbore sub 
+      <lb ed="#A" n="69"/>qua tunc erant fecerunt mox sibi perizomata: vt 
+      <lb ed="#A" n="70"/>dicitur Gen. iii. Et hoc innuit etiam dictum christi 
+      Natha<lb ed="#A" n="71" break="no"/>naeli Ioa. i. Uidi inquit te sub ficu. Glo. dicit id est in 
+      <lb ed="#A" n="72"/>potentia generatiua. Sed Lyra hoc exponit sic 
+      <lb ed="#A" n="73"/>id est vidi secreta cordis tui quae habuisti in mente 
+      <lb ed="#A" n="74"/>dum esses sub ficu etc. Item Magister historiarum etiam 
+      <lb ed="#A" n="75"/>dicit quod arbor illa scientie fuit ficus. Sed quoniam in scri. 
+      <lb ed="#A" n="76"/>ptura omnis fructus generaliter pomum dicitur. ergo non 
+      ob<lb ed="#A" n="77" break="no"/>stat quod nominatur pomum vetitum scilicet generaliter. . x¬. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2440">
+                  <lb ed="#A" n="78"/>¶ Plura de lignis istis paradi 
+      <lb ed="#A" n="79"/>si habentur vbi <ref xml:id="Vn7Pel-h91607-Rd1e2446">Homo. §. ix.</ref> et aliis. Et vbi 
+      Pec<lb ed="#A" n="80" break="no"/>catum primorum parentum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2452">
+               <head xml:id="Vn7Pel-h91607-Hd1e2454">26</head>
+               <p xml:id="Vn7Pel-h91607-d1e2456">
+                  <lb ed="#A" n="81"/>¶ Cur deus preuidens hominem 
+      <lb ed="#A" n="82"/>casurum per lignum scientie: voluit illud facere pulctrum 
+      <lb ed="#A" n="83"/>visu et delectabile ac suaue ad vescendum eius 
+      fru<lb ed="#A" n="84" break="no"/>ctibus: cum sic magis dedit occasionem appetendim 
+      <lb ed="#A" n="85"/>vt patet ex Gen. iii. ca. vbi habetur. Uidit inquit mulier 
+      <lb ed="#A" n="86"/>quod bonum esset lignum ad vescendum et pulcrum oculis: 
+      <lb ed="#A" n="87"/>aspectuque delectabile: et tulit de fructu eius. etc. 
+      <lb ed="#A" n="88"/>Melius ergo fuisset illud creari non delectabile sed 
+      <lb ed="#A" n="89"/>noxium
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e2478">
+      ¶ Respondetur dicendo Primo secundum Aug. super Gen. 
+      <lb ed="#A" n="90"/>liro viii. vbi dicit. Tale pomum credendum est fuisse in 
+      il<lb ed="#A" n="91" break="no"/>la arbore cuius genetis poma iam in aliis arboribus 
+      <lb ed="#A" n="92"/>innoxia senserant: videlicet saltem per rationis cognitionem 
+      <lb ed="#A" n="93"/>etsi non experientia gustus fructuum etiam in aliis. Unde 
+      <lb ed="#A" n="94"/>concendendum est quod hoc lignum non est factum noxium a 
+      <lb ed="#A" n="95"/>deo: imo bonu et ad finem ordinatum optimum: quoniam 
+      <lb ed="#A" n="96"/>secundum Diony. Optimi dei est optima facere per omnia: 
+      <lb ed="#A" n="97"/>non decuit ergo tale arborem facere noxiam aut turpen 
+      <lb ed="#A" n="98"/>non delectabilem.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e2500">
+      ¶ Secundo dicendum: quod si quis quaereret 
+      <lb ed="#A" n="99"/>Ad quid valebat talis arbor in paradiso: cum non 
+      come<lb ed="#A" n="100" break="no"/>derent homines ex eo: videntes quod esset delectabilis et 
+      <lb ed="#A" n="101"/>non noxia. Ad hoc quamuis aliqui dixerint vt Iosephus 
+      <lb ed="#A" n="102"/>ii. li. antiquitatum: quod fructus illius arboris habebat virtutem 
+      <lb ed="#A" n="103"/>accelerandi et acuendi vsum rationis. Sed secundum 
+      Ly<lb ed="#A" n="104" break="no"/>ram hoc est falsum. quia ad hoc se non extendit virtus 
+      corpo<lb ed="#A" n="105" break="no"/>ralis. Item non est verisimile quod deus bonus arborem 
+      tambo<lb ed="#A" n="106" break="no"/>nam ad vsum rationis prohibuisset homini quem fecit rationalem 
+      <lb ed="#A" n="107"/>Ideoque doc. catholici dicunt cum Aug. xiiii. dici ci. dici: 
+      <lb ed="#A" n="108"/>quod valebat et ordinabatur ad obedientie meritum 
+      ad<lb ed="#A" n="109" break="no"/>quirendum et probationem: praesertim cum esset lignum non 
+      no<lb ed="#A" n="110" break="no"/>xium: sed concupiscibile: et per consequens alliciendo tanto plus 
+      <lb ed="#A" n="111"/>meriti afferret obedientia abstinendi ab eo. Unde 
+      <!--305.xml-->
+      <pb ed="#A" n="306"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>glo. super psalm. lxx. dicit. Si inquit res mala esset 
+      arbor<lb ed="#A" n="2" break="no"/>illa quae prohiberetur: videretur etiam sine prohibitione esse 
+      <lb ed="#A" n="3"/>vitanda: nec ex sola inobedientia pena secuta esse: 
+      <lb ed="#A" n="4"/>sed ex re mala non vitata. Nunc vero cum arbor bona 
+      <lb ed="#A" n="5"/>sit vitata propter dei prohibitionem: solam obedientiam 
+      <lb ed="#A" n="6"/>palmam meruisse: et solam inobedientiam penam 
+      incur<lb ed="#A" n="7" break="no"/>risse manifestum est.
+     </p>
+               <p xml:id="Vn7Pel-h91607-d1e2552">
+      ¶ Tertio quoque dicendum cum 
+      Au<lb ed="#A" n="8" break="no"/>gustino super Gen. liro viii. quod n ideo factum est lignum 
+      <lb ed="#A" n="9"/>llud scientie boni et mali: quod inde contra preceptum 
+      madu<lb ed="#A" n="10" break="no"/>tarent homines vel quod manducauerunt. Sed etiam si 
+      <lb ed="#A" n="11"/>obedientes fuissent et ni lcontra praeceptum vsurpassent: 
+      fa<lb ed="#A" n="12" break="no"/>cta fuisset illa arbor. et sic vocata fuisset: 
+      quemad<lb ed="#A" n="13" break="no"/>modum si vocaretur arbor saturitati seo quod inde 
+      pos<lb ed="#A" n="14" break="no"/>sent homines saturari: etiamsi nemo accederet ad 
+      sa<lb ed="#A" n="15" break="no"/>turandum ex ea. Ex dictis patet quod occasio 
+      appeten<lb ed="#A" n="16" break="no"/>di de fructu huius arboris non fuit a deo inquantum 
+      <lb ed="#A" n="17"/>aum huiusndo scilicet peccandi. sed ex culpa hominis decepti 
+      <lb ed="#A" n="18"/>verbis serpentis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h91607-Dd1e2579">
+               <head xml:id="Vn7Pel-h91607-Hd1e2581">27</head>
+               <p xml:id="Vn7Pel-h91607-d1e2583">
+                  <lb ed="#A" n="19"/>¶ An huius ligni scitientie prohibi 
+      <lb ed="#A" n="20"/>tus fuerit non solum gustus sed etiam tactus: Respondet 
+      <lb ed="#A" n="21"/>Lyra quod deus solum gustum eius prohibuerit: non tactum 
+      <lb ed="#A" n="22"/>Nec habetur ex littera vel eius circumstantia plus. Sed 
+      <lb ed="#A" n="23"/>quod mulier dixit serpenti Deus praecepit ne comedere. 
+      <lb ed="#A" n="24"/>mus et ne tangeremus illud. hoc de tactus prohibitione 
+      <lb ed="#A" n="25"/>addidit ex suo ad displicentiam precepti. quia ille cui 
+      <lb ed="#A" n="26"/>displicet praeceptum impositum in ferendo illud libent 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2603">
+                  <lb ed="#A" n="27"/>¶ Mystice secundum Aug. super Gen. li. (aggrauat. 
+      <lb ed="#A" n="28"/>viii. et Hugo de arca. li. ii lignum vite significatr 
+      <lb ed="#A" n="29"/>christum et dei sapientiam quae est cibus beatorum. de quo 
+      Prouer<lb ed="#A" n="30" break="no"/>iii. Lignum vite est his qui appreh. e. et hoc intellexit 
+      <lb ed="#A" n="31"/>Adam. Item lignum scientie significauit crucis 
+      chri<lb ed="#A" n="32" break="no"/>sti mysterium. de quo libro. iii. agemus. 
+      </p>
+               <p xml:id="Vn7Pel-h91607-d1e2619">
+                  <lb ed="#A" n="33"/>¶ Ex dei bonitas commendabilis 
+      <lb ed="#A" n="34"/>est in linguis variis et locutionibus corporalibus 
+      <lb ed="#A" n="35"/>et spiritualibus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

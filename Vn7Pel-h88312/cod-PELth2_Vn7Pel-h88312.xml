@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lachryma</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Lachryma</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="288"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h88312">
+            <head xml:id="Vn7Pel-h88312-Hd1e110">Lachryma</head>
+            <div xml:id="Vn7Pel-h88312-Dd1e112">
+               <head xml:id="Vn7Pel-h88312-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h88312-d1e116">
+                  <lb ed="#A" n="7"/>¶ Achryma secundum 
+      <lb ed="#A" n="8"/>Isidorum dicitur quasi lacerans 
+      me<lb ed="#A" n="9" break="no"/>tem scilicet doloris passionisque 
+      affe<lb ed="#A" n="10" break="no"/>Exl ctu
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e127">
+      ¶ Queritur an inter animalia 
+      <lb ed="#A" n="11"/>solus homo habeat lacrimarum fletum. Respon 
+      <lb ed="#A" n="12"/>detur secundum eundem Isido. lib. Etymo. quod proprie 
+      loquen<lb ed="#A" n="13" break="no"/>do solus homo habet lacrimarum fletum: cum so 
+      <lb ed="#A" n="14"/>lus homo sit animal mente praeditum: et sic 
+      dolo<lb ed="#A" n="15" break="no"/>rem mentis solus suscipit et lacrimatur. Lacrima 
+      <lb ed="#A" n="16"/>quippe est inquit stilla vel gutta liquida 
+      lucida<lb ed="#A" n="17" break="no"/>et salsa ex oculis profsuens: Aliquando quidem 
+      <lb ed="#A" n="18"/>ex passione ire vel ex indignatione. Aliquando et 
+      <lb ed="#A" n="19"/>cordis angustia et dolore. Aliquando ex pietate et 
+      <lb ed="#A" n="20"/>compassione. Aliquando ex gaudio vel desiderio 
+      <lb ed="#A" n="21"/>vel amore procedens. Uerum cetera animalia 
+      <lb ed="#A" n="22"/>aliqua ex affectu consimili reperiuntur fleuisse: 
+      fle<lb ed="#A" n="23" break="no"/>tum minus proprie capiendo. Nam fertur equus 
+      <lb ed="#A" n="24"/>propter hominem lacrimari doloris affectu 
+      do<lb ed="#A" n="25" break="no"/>minum suum morientem flere. Hec ex Isidoro 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h88312-Dd1e163">
+               <head xml:id="Vn7Pel-h88312-Hd1e165">2</head>
+               <p xml:id="Vn7Pel-h88312-d1e167">
+                  <lb ed="#A" n="26"/>¶ Quid de virtutibus 
+      lachryma<lb ed="#A" n="27" break="no"/>rum.
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e174">
+      ¶ Nota quod deus lacrimis dedit virtutes 
+      mi<lb ed="#A" n="28" break="no"/>ras tam naturales quam spirituales. vt patet ex 
+      di<lb ed="#A" n="29" break="no"/>ctis Isido. de summo bono. li. ii. et. xxxi. aliosque 
+      <lb ed="#A" n="30"/>etc.
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e183">
+      ¶ Primo quia lacrime sunt humide: ideo 
+      pos<lb ed="#A" n="31" break="no"/>sunt sordes abluere. scilicet peccatorum et segetes 
+      vir<lb ed="#A" n="32" break="no"/>tutum gratiae humore exuberare
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e190">
+      ¶ Secundo quia calide: 
+      <lb ed="#A" n="33"/>quia calore vrgente egrediuntur ab oculis Ideo 
+      <lb ed="#A" n="34"/>sicut calida aqua frigiditatem malicie expellit: et 
+      <lb ed="#A" n="35"/>haritate calefacit.
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e200">
+      ¶ Tertio quia salse sunt: ideo 
+      <lb ed="#A" n="36"/>ignificant penitentie asperitatem et condimentum 
+      sa<lb ed="#A" n="37" break="no"/>oris pro sacrificio contritionis.
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e207">
+      ¶ Quarto quia 
+      <lb ed="#A" n="38"/>lacrime procedunt ab eminentiori sensu id est ab 
+      ocu<lb ed="#A" n="39" break="no"/>lis: ideo lacrime vere meritorie de celo sunt a deo 
+      </p>
+               <p xml:id="Vn7Pel-h88312-d1e214">
+                  <lb ed="#A" n="40"/>¶ Quinto quia faciem attenuant et oculos vermi 
+      <lb ed="#A" n="41"/>culant ac visum obnubilant. Sic vera poenitentia inquit 
+      <lb ed="#A" n="42"/>Isidorus carnalia exterminat in homine: et affect 
+      <lb ed="#A" n="43"/>cordis rubicundiores efficit charitate: ac obnubi 
+      <lb ed="#A" n="44"/>lat a temporalibus.
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e227">
+      ¶ Sexto somnum prouocant. sic 
+      <lb ed="#A" n="45"/>lacrime penitentium quietem contemplationis 
+      quasi<lb ed="#A" n="46" break="no"/>soporem a mundanis efficiunt.
+     </p>
+               <p xml:id="Vn7Pel-h88312-d1e234">
+      ¶ Septimo caput 
+      <lb ed="#A" n="47"/>turbant: sed tristiciam mitigant. Amb. Doluisse 
+      ple<lb ed="#A" n="48" break="no"/>runque solacium est dolentis. Ad idem Hugo. de 
+      clau<lb ed="#A" n="49" break="no"/>stro. li. iii. Sicut sol post pluuiam clarior fulget. 
+      <lb ed="#A" n="50"/>sic christus post lacrimas radios consolationis praebet. 
+      </p>
+               <p xml:id="Vn7Pel-h88312-d1e245">
+                  <lb ed="#A" n="51"/>¶ Ultimo de aliis virtutibus lacrime: quam expediens 
+      <lb ed="#A" n="52"/>sit ad salutem Patet ex variis dictis doctorum: quia secundum 
+      <lb ed="#A" n="53"/>Chrys. in ser. Lacrima quicquid postulat ipetrat: 
+      <!--287.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="54"/>delicta lauat secundum Ambro. et alios: suggestionem 
+      <lb ed="#A" n="55"/>diabolicam extinguit secundum Greg. moralis. li. xxxiii. 
+      in<lb ed="#A" n="56" break="no"/>fernum cauet: celum aperit: et multa huiusmodi 
+      </p>
+               <p xml:id="Vn7Pel-h88312-d1e266">
+                  <lb ed="#A" n="57"/>¶ E dei bonitas commendabilis 
+      <lb ed="#A" n="58"/>est in proprictatibus et condicionibus lapidum mire. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

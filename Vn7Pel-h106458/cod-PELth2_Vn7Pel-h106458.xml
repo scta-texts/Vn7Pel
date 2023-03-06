@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Natura</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Natura</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="345"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h106458">
+            <head xml:id="Vn7Pel-h106458-Hd1e110">Natura</head>
+            <div xml:id="Vn7Pel-h106458-Dd1e112">
+               <head xml:id="Vn7Pel-h106458-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h106458-d1e116">
+                  <lb ed="#A" n="39"/>¶ Atura. Quo dif. 
+      <lb ed="#A" n="40"/>finiatur. Dicendum cum Aristo. ii physicorum 
+      <lb ed="#A" n="41"/>(qui sic diffinit di. Natura est principium 
+      <lb ed="#A" n="42"/>motus et quietis eius in quo est primo et per se et non per 
+      ac<lb ed="#A" n="43" break="no"/>cidens. Alio modo sic ibidem. Natura est vis insita 
+      re<lb ed="#A" n="44" break="no"/>bus similia ex similibus producens. Prima diffinitio 
+      acc<lb ed="#A" n="45" break="no"/>pit naturam pro natura substantiali quae est materia et 
+      for<lb ed="#A" n="46" break="no"/>ma. quia principium passiuum mouendi est materia in 
+      trans<lb ed="#A" n="47" break="no"/>mutatione rei naturalis vel quiescendi saltem localitr 
+      <lb ed="#A" n="48"/>vt patet de terra. sed forma ipsa est principium actiuum 
+      <lb ed="#A" n="49"/>primo id est principaliter et per se quia est causa per se tam ma 
+      <lb ed="#A" n="50"/>teria quam forma ipsius rei. et sic excluditur casus et 
+      for<lb ed="#A" n="51" break="no"/>tuna. Addit non per accidems scilicet ei in quo est. ad 
+      exclu<lb ed="#A" n="52" break="no"/>dendum artem que est saltandi ex nature fortitudine. 
+      <lb ed="#A" n="53"/>vel digerendi citius post comestionem ex arte 
+      me<lb ed="#A" n="54" break="no"/>dicine et huiusmodi. Item fecunda diffinitio est nature 
+      <lb ed="#A" n="55"/>considerate secundum originem generationis. Sed de natu¬ 
+      <!--344.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>re variis acceptionibus satis dictum est. li. i. c. Natura 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106458-Dd1e163">
+               <head xml:id="Vn7Pel-h106458-Hd1e165">2</head>
+               <p xml:id="Vn7Pel-h106458-d1e167">
+                  <lb ed="#A" n="57"/>¶ Sed quid de natura producem 
+      <lb ed="#A" n="58"/>te homines et animalia alia monstruosa. Nota secundum 
+      <lb ed="#A" n="59"/>Aristo. et alios philosophos. quod primo monstra non fiunt 
+      <lb ed="#A" n="60"/>contra voluntatem nature sed fiunt praeter naturam id est 
+      <lb ed="#A" n="61"/>secundum consuetudinem nature vt dicit Pharao philosophus ma 
+      <lb ed="#A" n="62"/>gnus quem allegat Isido. Secundo quod teste Aristo. ii. 
+      <lb ed="#A" n="63"/>physicorum. Monstra fiunt ex defectu nature cum non 
+      <lb ed="#A" n="64"/>potest perfectum facere. Tertio quod monstra sunt licet 
+      <lb ed="#A" n="65"/>non de primaria tamten de secundaria intentione 
+      natu<lb ed="#A" n="66" break="no"/>re: quia natura primo intendit producere effectum 
+      per<lb ed="#A" n="67" break="no"/>fectum Et cum hoc non potest: secundario praetendit quod 
+      <lb ed="#A" n="68"/>melius potest scilicet monstrum. Ex his laudabilis 
+      <lb ed="#A" n="69"/>est dei bonitas que sic ordinauit quod semper produca 
+      <lb ed="#A" n="70"/>tur perfectum aut saltem quod potest bonum fieri. 
+      </p>
+               <p xml:id="Vn7Pel-h106458-d1e200">
+                  <lb ed="#A" n="71"/>¶ Unde Isido. dicit. Portenta non contra naturam sed 
+      <lb ed="#A" n="72"/>diuina voluntate fiunt cum voluntas creatoris sit 
+      na<lb ed="#A" n="73" break="no"/>tura omnis rei condite fiunt tamen contra vsum nature. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106458-Dd1e210">
+               <head xml:id="Vn7Pel-h106458-Hd1e212">3</head>
+               <p xml:id="Vn7Pel-h106458-d1e214">
+                  <lb ed="#A" n="74"/>Sed quare deus permittit 
+      na<lb ed="#A" n="75" break="no"/>turam deficere vel errare in producendo monstra prae 
+      <lb ed="#A" n="76"/>cipue in hominibus. Respondet Chrys. super Matth. 
+      <lb ed="#A" n="77"/>lib. ii dicit Sic autem nascuntur quida eunuchi sicut et 
+      <lb ed="#A" n="78"/>sex digitos habentes vel quattuor. Si enim deus 
+      <lb ed="#A" n="79"/>sicut ab initio constituit creaturam vel naturam sic eam 
+      <lb ed="#A" n="80"/>dimitteret semper permanere in ordine suo. tunc extima 
+      <lb ed="#A" n="81"/>retur quod natura rerum ipsa se regit: et sic operatio dei apud 
+      <lb ed="#A" n="82"/>homines obliuioni daretur. Ideo deo permittente natura re 
+      <lb ed="#A" n="83"/>rum interdum contra suum ordinem conuertitur vt deus naturarum 
+      <lb ed="#A" n="84"/>opifex non solum semeli sed quotidie operari videatur. Unde et 
+      <lb ed="#A" n="85"/>de ceco nato christus at. quod ideo sic natus fuerit 
+      ce<lb ed="#A" n="86" break="no"/>cus vt manifestentur opera dei in illo. Hec Chrys. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106458-Dd1e246">
+               <head xml:id="Vn7Pel-h106458-Hd1e248">4</head>
+               <p xml:id="Vn7Pel-h106458-d1e250">
+                  <lb ed="#A" n="87"/>¶ Qualia autem monstruosa hominum 
+      <lb ed="#A" n="88"/>gna vel portentuosa sint in modo. Nota secundum Isid. li. xi. 
+      <lb ed="#A" n="89"/>etym. et ex librode na re. atque historias Solirum et etiam 
+      <lb ed="#A" n="90"/>Aug. de ciuita. dei atque alios quod plurima mirabilia 
+      <lb ed="#A" n="91"/>pro raritate comperiuntur in hominibus mostruosis
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e263">
+      ¶ 
+      Pri<lb ed="#A" n="92" break="no"/>mo quia aliqua genera sunt nimis magne et excessiue 
+      <lb ed="#A" n="93"/>quantitatis. vt gigantes. De quibus glo. super illud Gen. 
+      <lb ed="#A" n="94"/>Gigantes erat super terram. dicit. Sunt autem gigantes 
+      <lb ed="#A" n="95"/>homines potentes immanes corporibus superbi viribus 
+      incon<lb ed="#A" n="96" break="no"/>positi moribus. Et Lyra Deut. iii dicit Og fuisse. 
+      <lb ed="#A" n="97"/>xviii. pedum longitudinis. Alia econtra sunt nimis 
+      <lb ed="#A" n="98"/>parui corporis vt gnani. Et illi quos greci pigmeos vt 
+      <lb ed="#A" n="99"/>cant a cubito quia sunt statura cubitales: 
+      babitan<lb ed="#A" n="100" break="no"/>tes in montanis indie quibus vicinus est oceanus: quibus 
+      <lb ed="#A" n="101"/>bellum est contra grues continuum secundum Isido. supra
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e287">
+      ¶ Secundo 
+      <lb ed="#A" n="102"/>alia autem sunt genera hominium mostruosa magnitudine aute 
+      <lb ed="#A" n="103"/>superfluitate membrorum corporis veluti capite informi. 
+      <lb ed="#A" n="104"/>Et trium manuum vel sex digitorum aut duorum capitum. 
+      </p>
+               <p xml:id="Vn7Pel-h106458-d1e296">
+                  <lb ed="#A" n="105"/>¶ Alia eonta defectu partium siue miorationis scilicet manus 
+      vni<lb ed="#A" n="106" break="no"/>us ab altera vel pedis a pede siue decisionis vt sine 
+      <lb ed="#A" n="107"/>manum aut capite generata aut sine ocusio vel pede etc. 
+      </p>
+               <p xml:id="Vn7Pel-h106458-d1e306">
+                  <lb ed="#A" n="108"/>¶ Tertio alia sunt gna mostruosa hominum in modo 
+      transfi<lb ed="#A" n="109" break="no"/>gurationis sicut qui lemonis habent vultum vel canis vel tauri. 
+      <lb ed="#A" n="110"/>num caput aut corpus aut omni parte 
+      transfigura<lb ed="#A" n="111" break="no"/>tum vt ex muliere na sci vitulum vel serpentem. 
+      
+      </p>
+               <p xml:id="Vn7Pel-h106458-d1e317">
+      <!--345.xml-->
+                  <pb ed="#A" n="346"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Alia lerum smne rasnguratione haeset loci mutatio 
+      <lb ed="#A" n="2"/>ne in membris vt oculos in fronte vel in pectore 
+      <lb ed="#A" n="3"/>aures super tempora. aut sexuum simul in vno apparentiam 
+      <lb ed="#A" n="4"/>vtrorumque vt sunt hermaphrodite. ab herma 
+      grece<lb ed="#A" n="5" break="no"/>Ide est masculus et phrodi femina vocati sic. aut 
+      cohe<lb ed="#A" n="6" break="no"/>rentiam digitorum i manu vel pede. Et aliis modis 
+      <lb ed="#A" n="7"/>pluribus quae causa brevitatis dimitto
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e341">
+      ¶ Preterea 
+      <lb ed="#A" n="8"/>alia sunt quae sola motione mirabilia sunt prae raritate 
+      <lb ed="#A" n="9"/>Ut dicit Augustinus. viii. de ciuitr. vt qui aures ambas 
+      <lb ed="#A" n="10"/>simuls vel singulas mouent: aut qui totam cesariem 
+      immo<lb ed="#A" n="11" break="no"/>to capite ad frontem deponunt vel reuocant cum volunt. 
+      <lb ed="#A" n="12"/>Alii voces auium pecorumque exprimunt vt omnino 
+      ni<lb ed="#A" n="13" break="no"/>si videantur: discerni non possint ab illis. et plura huiusmodi 
+      </p>
+               <p xml:id="Vn7Pel-h106458-d1e357">
+                  <lb ed="#A" n="14"/>¶ Preterea in partibus orientis sunt mulieres 
+      egregie<lb ed="#A" n="15" break="no"/>quae vocantur amazones iuxta montes caspios in in 
+      <lb ed="#A" n="16"/>sula fluuio vndique circumclusa: plus quam ducenta 
+      mi<lb ed="#A" n="17" break="no"/>lia. Iste in armis et praeliis strenue sine virorum 
+      con<lb ed="#A" n="18" break="no"/>sortio seorsum habitant. cum Regina sua semel in 
+      <lb ed="#A" n="19"/>anno causa prolis procreande ad maritos qui 
+      mo<lb ed="#A" n="20" break="no"/>rantur extra insulam exeunt et redeunt. Etsi masculum 
+      <lb ed="#A" n="21"/>pepererint per sex annos nutriunt et postea patri 
+      trans<lb ed="#A" n="22" break="no"/>mittunt. si vero feminam seruat.
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e379">
+      ¶ Sunt et alie in 
+      sil<lb ed="#A" n="23" break="no"/>uis Indie mulieres barbas habentes vsque ad 
+      <lb ed="#A" n="24"/>mammillas. Hec libro de natu. re. Preterea secundum 
+      So<lb ed="#A" n="25" break="no"/>linum in scythia sunt femine quae vocantur bithie habe 
+      <lb ed="#A" n="26"/>tes pupillas geminas quae si irate aliquem aspexerint 
+      <lb ed="#A" n="27"/>visu dicuntur perimere. Consimules sunt et in Sardi 
+      <lb ed="#A" n="28"/>nia.
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e395">
+      ¶ Preterea secundum praedictos in silua vbi montis 
+      <lb ed="#A" n="29"/>Etne incendium dicitur: Est genus hominum qui 
+      ha<lb ed="#A" n="30" break="no"/>bent vnum oculum tantum in fronte lata quasi clypeo qui 
+      <lb ed="#A" n="31"/>altitudinem arborum proceritate sua excedunt et 
+      sangui<lb ed="#A" n="32" break="no"/>ne vescuntur. et dicuntur Ciclopedes: tales et india 
+      <lb ed="#A" n="33"/>gignit
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e409">
+      ¶ Sunt alii quoque qui appellantur cynocepha 
+      <lb ed="#A" n="34"/>li in india nati: qui canina habent capita quos ipse 
+      <lb ed="#A" n="35"/>latratus confitetur esse magis bestias quam homines. 
+      Ali<lb ed="#A" n="36" break="no"/>a pud scythiam sunt tandiffusa magnitudine aurium 
+      <lb ed="#A" n="37"/>vt omne corpus ex eis contegant. Ideo vocantur 
+      <lb ed="#A" n="38"/>panothios a pan grece quod est totum et othi id est aures. 
+      </p>
+               <p xml:id="Vn7Pel-h106458-d1e422">
+                  <lb ed="#A" n="39"/>¶ Item in Ethiopia sunt siluestres homines quos 
+      <lb ed="#A" n="40"/>greci vocant sciopodos eo quod per estum in terra 
+      re<lb ed="#A" n="41" break="no"/>supini iacentes pedum suorum magnitudine adum 
+      <lb ed="#A" n="42"/>bretur. Hec sufficiant aliis dimissis amore brevitatis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106458-Dd1e435">
+               <head xml:id="Vn7Pel-h106458-Hd1e437">5</head>
+               <p xml:id="Vn7Pel-h106458-d1e439">
+                  <lb ed="#A" n="43"/>¶ Sed an talia mostra humana 
+      <lb ed="#A" n="44"/>sint veraciter homines ex adam propagati. Augustinus. lib. 
+      <lb ed="#A" n="45"/>xvi. de ciuit. dei videtur sentire quod non omnia sed sola ea 
+      <lb ed="#A" n="46"/>que habent animam rationalem alias non sunt 
+      ve<lb ed="#A" n="47" break="no"/>re homines licet habeant aliquam figuram vel 
+      <lb ed="#A" n="48"/>similitudinem hominis. Ea autem omnia que 
+      <lb ed="#A" n="49"/>ex istis sunt rationalia: sunt vere homines 
+      exvno<lb ed="#A" n="50" break="no"/>adam propagati. alia autem vt pigmei et cynocepha 
+      <lb ed="#A" n="51"/>li et huiusmodi: bestie sunt vel siluestres homines 
+      <lb ed="#A" n="52"/>irrationales etc.
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e463">
+      ¶ Si obiicitur: Quia in vita 
+      <lb ed="#A" n="53"/>sancti Pauli primi heremite legitur quod sanctus 
+      <lb ed="#A" n="54"/>Antonius abbas dum requireret cellam 
+      sancti<lb ed="#A" n="55" break="no"/>Pauli primi heremite obuium habuit 
+      hippocen<lb ed="#A" n="56" break="no"/>caurum hominem equo mixtum qui ei viam dextram 
+      <lb ed="#A" n="57"/>demonstrauit. postmodum repperit aliud animalis 
+      <!--345.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>qui requisitus dixit se esse satyrum. mortalis 
+      in<lb ed="#A" n="59" break="no"/>quit ego sum vnus ex accolis heremi quos 
+      va<lb ed="#A" n="60" break="no"/>rio errore delusa gentilitas pro diis colit faunbs 
+      <lb ed="#A" n="61"/>satyrosque et incubos. Et vt Isido. dicit etiam 
+      saty<lb ed="#A" n="62" break="no"/>ri homuntiones sunt aduncis naribus cornua 
+      <lb ed="#A" n="63"/>in frontibus habent supra: hominis imagine 
+      insi<lb ed="#A" n="64" break="no"/>gnitum deorsum vero capre formam. et pedes capre si 
+      <lb ed="#A" n="65"/>miles habens. Cum ergo ista monstruosa ratio¬c 
+      <lb ed="#A" n="66"/>naliter responderunt viam peremonstran. sequitur quod 
+      <lb ed="#A" n="67"/>sint animalia rationalia
+     </p>
+               <p xml:id="Vn7Pel-h106458-d1e502">
+      ¶ Respondetur quod ex his non 
+      <lb ed="#A" n="68"/>sequitur quod fuerint vel sint animalia rationalia. quia 
+      <lb ed="#A" n="69"/>tales responsiones ab eis facte sunt propter 
+      meri<lb ed="#A" n="70" break="no"/>ta sanctorum antonii et Pauli heremite per miracu 
+      <lb ed="#A" n="71"/>lum. Sicut legimus et asinam Balaam fuisse 
+      locu<lb ed="#A" n="72" break="no"/>tam miraculole etc. Nam si essent predicta ex hoc 
+      <lb ed="#A" n="73"/>rationalia pari ratione sequeretur de lupo quod 
+      fue<lb ed="#A" n="74" break="no"/>rit ratio nale qui ibidem fertur duxisse sanctum 
+      <lb ed="#A" n="75"/>antonium ad caellam sancti. et tamen fuit irrationa 
+      <lb ed="#A" n="76"/>le. crgo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h106458-Dd1e525">
+               <head xml:id="Vn7Pel-h106458-Hd1e527">6</head>
+               <p xml:id="Vn7Pel-h106458-d1e529">
+                  <lb ed="#A" n="77"/>¶ An ergo monstra nata ex 
+      mu<lb ed="#A" n="78" break="no"/>liere sint baptizanda: Respondetur secundum docto. in 
+      <lb ed="#A" n="79"/>iiii. dist. vi. quod sic nisi constaret omnino esse irrati 
+      <lb ed="#A" n="80"/>onalia animalia fore nata nullam hominis habentia 
+      <lb ed="#A" n="81"/>similitudinem in corpore. Quia vt Isid. xi. Etyn. 
+      <lb ed="#A" n="82"/>dicit. Fertur in vmbria mulierem peperisse 
+      scrpen<lb ed="#A" n="83" break="no"/>tem. Idem dicit et Lucanus. Et lib. de natu. rer. 
+      <lb ed="#A" n="84"/>in quadam regione infantes cum bufonibus 
+      na<lb ed="#A" n="85" break="no"/>scetuntur. Siquis autem sine bufone nasctur: 
+      ma<lb ed="#A" n="86" break="no"/>ter eius velut que ab alienigena concepit 
+      repu<lb ed="#A" n="87" break="no"/>diatur a marito etc. Unde in tali casu infatis 
+      ba<lb ed="#A" n="88" break="no"/>ptizaretur sed non bufo. Denique simile si 
+      contin<lb ed="#A" n="89" break="no"/>geret sicut idem Isido. narrat Alexandro ex 
+      mu<lb ed="#A" n="90" break="no"/>liere monstrum creatum quod superiores corporis 
+      <lb ed="#A" n="91"/>partes hominis quidem sed mortuas habuit: 
+      <lb ed="#A" n="92"/>inferiores autem diuersarum bestiarum sed 
+      vi<lb ed="#A" n="93" break="no"/>uentes. significasse regis interfectionem. Sicutin 
+      <lb ed="#A" n="94"/>quit deus per somnia vel per oracula ita interdum 
+      <lb ed="#A" n="95"/>ventura per facta scilicet aliqua nascentia vult signi 
+      <lb ed="#A" n="96"/>ficare: quatenus premoneat. vnde et portentaa 
+      <lb ed="#A" n="97"/>portendendo id est preostendendo. et monstra a 
+      <lb ed="#A" n="98"/>monitu demonstrando sunt dicta. Hec Isido. 
+      <lb ed="#A" n="99"/>In tali ergo casu cum mortue sunt partes 
+      ho<lb ed="#A" n="100" break="no"/>minis in monstro licet viuant partes bestiales non 
+      <lb ed="#A" n="101"/>deberet monstrum tale baptizari vt videtur: nisi 
+      <lb ed="#A" n="102"/>quis diceret sub condicione talia baptizanda 
+      <lb ed="#A" n="103"/>Sed alias quando putantur esse rationalia et 
+      vi<lb ed="#A" n="104" break="no"/>ua baptizanda sunt secundum Landulphum. in. iiii. dist. 
+      <lb ed="#A" n="105"/>vi. q. ii sic quod si perpendatur monstrum habere duas 
+      <lb ed="#A" n="106"/>animas vtpote quia duo capita habet: quattuor 
+      <lb ed="#A" n="107"/>pedes: duas spinas in dorso et huiusmodi tunc 
+      bapti<lb ed="#A" n="108" break="no"/>zetur quilibet per se et intingatur in loco quilibet 
+      <lb ed="#A" n="109"/>per se. Si vero dubitatur an sint due anime puta 
+      <lb ed="#A" n="110"/>quia habet quattuor manus et vnum caput vel 
+      <lb ed="#A" n="111"/>puas spinas in dorso tunc debet baptizari 
+      prin<lb ed="#A" n="112" break="no"/>cipalis absolute et alius postea sub condicione. 
+      <lb ed="#A" n="113"/>videlicet si tu non es baptizatus ego te baptizo etc. Nec 
+      <lb ed="#A" n="114"/>baptizetur intentione vaga sed determinando se 
+      <!--346.xml-->
+      <pb ed="#A" n="347"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ad vnum alias nihil faceret secundum Henri. in quodie. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

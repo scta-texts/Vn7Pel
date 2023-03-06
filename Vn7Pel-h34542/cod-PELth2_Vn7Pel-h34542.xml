@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Auris</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Auris</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="113"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h34542">
+            <head xml:id="Vn7Pel-h34542-Hd1e110">Auris</head>
+            <div xml:id="Vn7Pel-h34542-Dd1e112">
+               <head xml:id="Vn7Pel-h34542-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h34542-d1e116">
+                  <lb ed="#A" n="74"/>¶
+     </p>
+               <p xml:id="Vn7Pel-h34542-d1e121">
+      ¶  Dei 
+      audi<lb ed="#A" n="75" break="no"/>tus. Nota quod sicut Damascenus 
+      li<lb ed="#A" n="76" break="no"/>cbro. ii ca. xviii. Solus homo et sic 
+      <lb ed="#A" n="77"/>mia non mouent aures. sed erectas et apertas 
+      ha<lb ed="#A" n="78" break="no"/>bet non dependentes. Hec ideo deus sic fecit vt ad 
+      <lb ed="#A" n="79"/>verba dei et celestia audienda semper intendamus 
+      <lb ed="#A" n="80"/>nec moueantur audita a mente 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h34542-Dd1e138">
+               <head xml:id="Vn7Pel-h34542-Hd1e140">2</head>
+               <p xml:id="Vn7Pel-h34542-d1e142">
+                  <lb ed="#A" n="81"/>¶ Quare aures et auditus ac eti 
+      <lb ed="#A" n="82"/>am visus sublimiorem in corpore sedem vel locum 
+      <lb ed="#A" n="83"/>sortiti sunt. Dicit Hugo super ecclesiastica hierar. quod 
+      <lb ed="#A" n="84"/>dcirco vt quasi excellentiores ceteris sensibus 
+      li<lb ed="#A" n="85" break="no"/>bere et sine obstaculo ad delectationes suas 
+      ef<lb ed="#A" n="86" break="no"/>fluant scilicet licitas vt de diuinis et huiusmodi vel 
+      effluen<lb ed="#A" n="87" break="no"/>tes in se delectationes scilicet illicitas sine 
+      difficulta<lb ed="#A" n="88" break="no"/>te amittant. Et subdit quod visus quo ad essentias 
+      <lb ed="#A" n="89"/>rerum et formas ac auditus quo ad 
+      significati<lb ed="#A" n="90" break="no"/>ones vocum et melodias causant scientiam etc. 
+      <lb ed="#A" n="91"/>Deus ergo laudetur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h34542-Dd1e169">
+               <head xml:id="Vn7Pel-h34542-Hd1e171">3</head>
+               <p xml:id="Vn7Pel-h34542-d1e173">
+                  <lb ed="#A" n="92"/>¶ Quis horum sensuum sit 
+      no<lb ed="#A" n="93" break="no"/>bilior et magis aptus ad disciplinam 
+      percipien<lb ed="#A" n="94" break="no"/>dum: Respondetur quod visus est dignior nobilior et 
+      <lb ed="#A" n="95"/>aptior vt expresse dicit Chrys. super epistolam ad 
+      <lb ed="#A" n="96"/>Heb. homel. liiii. Dat rationem quia inquit ma 
+      <lb ed="#A" n="97"/>gis commendamus memorie ea que visu percipi 
+      <lb ed="#A" n="98"/>mus quam ea quecumque audimus. ergo auditus 
+      mi<lb ed="#A" n="99" break="no"/>nus aptus est quam visus ad percipiendum 
+      discipli<lb ed="#A" n="100" break="no"/>nam id est doctrinam. Nam eadem doctrina: vt 
+      <lb ed="#A" n="101"/>in discipulo: dicitur disciplina: sed vt est in 
+      magi<lb ed="#A" n="102" break="no"/>stro dicitur doctrina secundum quod habetur libro Cathols. 
+      <lb ed="#A" n="103"/>Ad predicta etiam est Hieronymi autoritas in 
+      <lb ed="#A" n="104"/>glo. super Hierem. ca. viii. dicit. Magis mente 
+      reti<lb ed="#A" n="105" break="no"/>netur quod visu quam quod auditu ad animum peruenit 
+      <lb ed="#A" n="106"/>etc. Item ad hec etiam est philosophus in proemio meta 
+      <lb ed="#A" n="107"/>physice d. Quod visus plures rerum differentias 
+      <lb ed="#A" n="108"/>ostendit quam auditus vel alii sensus. Ideoque 
+      pro<lb ed="#A" n="109" break="no"/>bat quod sit dignior et nobilior. Et ex hoc arguit quod 
+      <lb ed="#A" n="110"/>cecitas sit peior quam surditas quia cuius habitus 
+      <!--113.xml-->
+      <pb ed="#A" n="114"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>melior eius priuatio peior. Et sic patet propositum. 
+      </p>
+               <p xml:id="Vn7Pel-h34542-d1e225">
+                  <lb ed="#A" n="2"/>¶ Unde deus est laudabilis in singulis. 
+      </p>
+               <p xml:id="Vn7Pel-h34542-d1e230">
+                  <lb ed="#A" n="3"/>¶ Quxd bonitatis diuine sapientia 
+      <lb ed="#A" n="4"/>commendatur in proprietatibus auri et argenti. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

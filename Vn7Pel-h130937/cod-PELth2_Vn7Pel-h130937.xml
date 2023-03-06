@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sanitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Sanitas</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="423"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h130937">
+            <head xml:id="Vn7Pel-h130937-Hd1e110">Sanitas</head>
+            <div xml:id="Vn7Pel-h130937-Dd1e112">
+               <head xml:id="Vn7Pel-h130937-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h130937-d1e116">
+                  <lb ed="#A" n="3"/>Anitas. et 
+      per<lb ed="#A" n="4" break="no"/>oppositum infirmitasi. Queritur 
+      <lb ed="#A" n="5"/>quid sit sanitas. Respondetur secundum 
+      <lb ed="#A" n="6"/>Isido. li. iiii. qui diffinit sic. 
+      Sani<lb ed="#A" n="7" break="no"/>tas est integritas corporis et temperantia nature et 
+      <lb ed="#A" n="8"/>calido et humido: quod est sanguis: vnde et dicta est 
+      sa<lb ed="#A" n="9" break="no"/>nitas. quasi sanguinis status. Infirmitas autem siue 
+      <lb ed="#A" n="10"/>ecgritudo est huic sanitatis disposi tioni contraria. 
+      <lb ed="#A" n="11"/>Itaque Ioamnicius dicit. Sanitas est temperamentum 
+      perfi<lb ed="#A" n="12" break="no"/>ciens res naturales secundum nature cursum: Infirmi 
+      <lb ed="#A" n="13"/>tas autem est extra nature cursum intemperatia. Ad 
+      <lb ed="#A" n="14"/>idem etiam Rich. de sancto victer. dicit in expositione Esa. 
+      <lb ed="#A" n="15"/>Omne caput languidum: diffiniendo. Sanitas 
+      cor<lb ed="#A" n="16" break="no"/>poris est integritas naturalis complexionis 
+      hu<lb ed="#A" n="17" break="no"/>morum omnium etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e152">
+               <head xml:id="Vn7Pel-h130937-Hd1e154">2</head>
+               <p xml:id="Vn7Pel-h130937-d1e156">
+                  <lb ed="#A" n="18"/>¶ Quottuplex in comuni 
+      distin<lb ed="#A" n="19" break="no"/>gustur sanitas: Nota quod sicut Ans. lib. de similitu. dici 
+      <lb ed="#A" n="20"/>ctat: duo sunt genera sanitatis et infirmitatis. quia 
+      <lb ed="#A" n="21"/>Una est infirmitas anime vel sanitas. Alia est 
+      cor<lb ed="#A" n="22" break="no"/>poris. Unde et glo. super Mat. iiii. dicit. Non 
+      paucio<lb ed="#A" n="23" break="no"/>res morbi animam vexant quam corpora. Hiero. quoque super 
+      <lb ed="#A" n="24"/>Ios. omel. vi. dicit. Tunc vere sanati dicimur cum 
+      <lb ed="#A" n="25"/>viciis carentes virtutem nouo vsu vertimus in 
+      natu<lb ed="#A" n="26" break="no"/>ram. Proinde secundum Ans. supra. Quemadmodum 
+      infir<lb ed="#A" n="27" break="no"/>mitates inquit corporee sunt duplices. quia quedam 
+      <lb ed="#A" n="28"/>sunt naturales: quedam casuales. Ille naturales 
+      <lb ed="#A" n="29"/>dicuntur quae ab hominis infantia sunt continue. Casua 
+      <lb ed="#A" n="30"/>les autem dicuntur: cum febris aliquo casu occasione 
+      ex<lb ed="#A" n="31" break="no"/>trinseca vel quouis modo accidit homini. Ita 
+      inqui<lb ed="#A" n="32" break="no"/>viciorum que anime infirmitates sunt: Alia quidem sunt 
+      <lb ed="#A" n="33"/>naturalia: vt ingluuies et luxuria: quae ex ipsa 
+      car<lb ed="#A" n="34" break="no"/>ne concrescunt homini ab infantia. Alia sunt 
+      casua<lb ed="#A" n="35" break="no"/>lia. vt mendacium: superbia: periuria: et similia. His ergo 
+      <lb ed="#A" n="36"/>delendis instare debemus: licet non omnino delere 
+      <lb ed="#A" n="37"/>possimus. Nam vt etiam Aug. lib. de bono coniuga. 
+      <lb ed="#A" n="38"/>dicit. Melius est habere staturam Cachei cum 
+      sani<lb ed="#A" n="39" break="no"/>tate: quam Golie cum febre: etiam corporaliter. 
+      Quan<lb ed="#A" n="40" break="no"/>eo magis in spiritualibus: anime sanitas praeligenda 
+      <lb ed="#A" n="41"/>est quanto anima prestat corpori etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e212">
+               <head xml:id="Vn7Pel-h130937-Hd1e214">3</head>
+               <p xml:id="Vn7Pel-h130937-d1e216">
+                  <lb ed="#A" n="42"/>¶ Quid de variis infirmitatum 
+      <lb ed="#A" n="43"/>corporalium generibus Notandum quod multimoda sunt 
+      <lb ed="#A" n="44"/>genera infirmitatum vel egritudinum. de quibus 
+      <lb ed="#A" n="45"/>physici plurima vtilia tractauerunt. De quorum 
+      no<lb ed="#A" n="46" break="no"/>minibus saltem hic aliqua breviter tangemus qui 
+      <lb ed="#A" n="47"/>non sufficimus quo ad omnia describere. Sed vel 
+      <lb ed="#A" n="48"/>magna parte ex physicorum scriptis pro euidentia 
+      scriptu<lb ed="#A" n="49" break="no"/>rarum prosequendo: ordine alphabetico perpauca 
+      <lb ed="#A" n="50"/>hoc inseremus Noticiam pleniorem medicis dimittemus. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e238">
+                  <lb ed="#A" n="51"/>¶ Alopicia et Tyria: secundum Isidorum et alios 
+      passio<lb ed="#A" n="52" break="no"/>nes sunt: per quas capilli capitis et barbe ciliorum quod 
+      <lb ed="#A" n="53"/>defluunt: circumscriptis fuluis pilis. Sed proprie 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e247">
+      <!--422.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="54"/>¶ yria in homine est cutis excoriatio. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e256">
+                  <lb ed="#A" n="55"/>¶ Apoplexia: vt Papias et Isido. di. est lapsus 
+      <lb ed="#A" n="56"/>repentine veniens: et sine sensu hominem efficiens 
+      qua<lb ed="#A" n="57" break="no"/>si mortuum subito: ac cadere faciens: siue dum 
+      <lb ed="#A" n="58"/>comedunt vel vigilant siue dormiendo. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e268">
+                  <lb ed="#A" n="59"/>¶ A postema secundum Hali: est grossicies et tumor 
+      com<lb ed="#A" n="60" break="no"/>strictus in duriciam cum feruore et dolore. Ad hec 
+      <lb ed="#A" n="61"/>vbi Flegmon. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e277">
+                  <lb ed="#A" n="62"/>¶ Artetica. vide vbi Scia. i 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e282">
+                  <lb ed="#A" n="63"/>¶ Asmatica. vide vbi Synochus 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e287">
+                  <lb ed="#A" n="64"/>¶ Aurugo vt glo. super Amos dicit est morbus qui 
+      <lb ed="#A" n="65"/>in homine nascitur ex abundantia corrupti fellis: 
+      <lb ed="#A" n="66"/>que corrumpit sanguinem et vertit in pallorem: et 
+      <lb ed="#A" n="67"/>queque dulcia in amaritudinem. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e298">
+                  <lb ed="#A" n="68"/>¶ Bolismus: vocatur fames immoderata cum appet 
+      <lb ed="#A" n="69"/>tus cessatione. Unde differt a Canina: quia in 
+      bo<lb ed="#A" n="70" break="no"/>lismo cessat appetitus: debilitatur virtus: et 
+      con<lb ed="#A" n="71" break="no"/>sumitur corpus. Sed in canina virtus appetiti 
+      <lb ed="#A" n="72"/>ua valida est: membraque repleta 
+      <lb ed="#A" n="73"/>Calculus. vbi Lapis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e315">
+               <head xml:id="Vn7Pel-h130937-Hd1e317">4</head>
+               <p xml:id="Vn7Pel-h130937-d1e319">
+                  <lb ed="#A" n="74"/>¶ Cancer secundum Isido. a similitur 
+      <lb ed="#A" n="75"/>dine marini animalis vocatur vulnus: nullis 
+      medi<lb ed="#A" n="76" break="no"/>camentis sanabile: tamen mortem tardius affert: 
+      <lb ed="#A" n="77"/>vt dicitur. intus in carne cauatum: sanie continue 
+      mor<lb ed="#A" n="78" break="no"/>dens. Et in huiusmodi est laudabilis dei iusticia 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e332">
+                  <lb ed="#A" n="79"/>¶ Canina: Iam doctum est de hac vbi Bolismus. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e337">
+                  <lb ed="#A" n="80"/>¶ Canson: secundum Razi in Almasore. x. parte. est febris 
+      <lb ed="#A" n="81"/>ex genere tertiane: sed ea fortio: 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e344">
+                  <lb ed="#A" n="82"/>¶ Catarrus secundum Hali: est superfluitatum 
+      humida<lb ed="#A" n="83" break="no"/>rum descensus a cerebro ad nares et gurgulionem 
+      <lb ed="#A" n="84"/>et guttur canalemque puimonis. etsi ad nares de 
+      <lb ed="#A" n="85"/>scedit vel es naribus fluit iugiter: Corriza vocatur. si 
+      <lb ed="#A" n="86"/>ad fauces: secundum Isi. nominatur Brancus. si autem ad guttur 
+      <lb ed="#A" n="87"/>canalemque pulmonis: Raucedo dicitur. Sed sietiam 
+      <lb ed="#A" n="88"/>ad pectus atque pulmonem: fit tussis pessima etc. 
+      <lb ed="#A" n="89"/>Hanc etiam sequitur Cephalea: secundum Hali. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e365">
+                  <lb ed="#A" n="90"/>¶ Cephalea: est capitis passio. dicta a cephal 
+      gre<lb ed="#A" n="91" break="no"/>ce id est caput: que et quandoque Emigranea di¬ 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e372">
+                  <lb ed="#A" n="92"/>¶ Cholica passio secundum Isid. nomen capit ab 
+      inte<lb ed="#A" n="93" break="no"/>stino: quod greci Cholon vocant: et secundum Razi fit ex 
+      <lb ed="#A" n="94"/>retentione fecis aut ventositatis 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e381">
+                  <lb ed="#A" n="95"/>¶ Cordiaca passio: est dolor cordis quandoque a dila 
+      <lb ed="#A" n="96"/>tatione ipsum cor coartans et interficiens. quandoque in 
+      vo<lb ed="#A" n="97" break="no"/>nis secundum Auic. quandoque in apostemate cordis: et huiusmodi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e392">
+               <head xml:id="Vn7Pel-h130937-Hd1e394">5</head>
+               <p xml:id="Vn7Pel-h130937-d1e396">
+                  <lb ed="#A" n="98"/>¶ Diaria est iugis fluxus ventris 
+      <lb ed="#A" n="99"/>sine vomitu: vt dicit Isidorus et Razi. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e403">
+                  <lb ed="#A" n="100"/>¶ Disinteria: secundum Isido. et Isaac est diuisio 
+      con<lb ed="#A" n="101" break="no"/>tinuationis. dicta a dis grece: quod est diuisio. quia 
+      <lb ed="#A" n="102"/>est vlceratio intestini: et egestio sanguinis ex 
+      disco<lb ed="#A" n="103" break="no"/>riatione intestini. Fit autem intercidente fluorem 
+      <lb ed="#A" n="104"/>quem Greci diariam vocant etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e417">
+               <head xml:id="Vn7Pel-h130937-Hd1e419">6</head>
+               <p xml:id="Vn7Pel-h130937-d1e421">
+                  <lb ed="#A" n="105"/>¶ Aephantia ab elephante 
+      de<lb ed="#A" n="106" break="no"/>nominatur secundum Isidorum: quia corporis superficiem 
+      <lb ed="#A" n="107"/>similem facit elephantorum cuti. siue quia est 
+      passio<lb ed="#A" n="108" break="no"/>ingens: sicut Elephas est animal maximum. 
+      <lb ed="#A" n="109"/>Et vt Hali dicit est morbus corporis membra 
+      de<lb ed="#A" n="110" break="no"/>siccans ac corrumpens quasi cancer: qui fit omni 
+      <!--423.xml-->
+      <pb ed="#A" n="424"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tempore crucians. Et est elephantia morbus 
+      con<lb ed="#A" n="2" break="no"/>tagiosus in cohabitantes. Et duas habet species. 
+      <lb ed="#A" n="3"/>Prima est qua nulla medela quis ab ea curatur. 
+      <lb ed="#A" n="4"/>Secunda est speciei leuioris: illius videlicet quae a 
+      prin<lb ed="#A" n="5" break="no"/>cipio: si medicina succurratur: potest curari. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e454">
+                  <lb ed="#A" n="6"/>¶ Emorrois. vbi Sanguis fluxus. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e459">
+                  <lb ed="#A" n="7"/>¶ Epatica. est passio vel morbus a iecore nomina 
+      <lb ed="#A" n="8"/>tus. quia Greci iecur: ipoten vocant. Et vt 
+      Ra<lb ed="#A" n="9" break="no"/>ti ac Constantinus di. Egritudines epatis sunt 
+      <lb ed="#A" n="10"/>apostema. aut oppilatio et defectio virtutis appeti 
+      <lb ed="#A" n="11"/>tiue: aut digestiue virtutis defectus ictericia et hy 
+      <lb ed="#A" n="12"/>dro pi¬ 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e475">
+                  <lb ed="#A" n="13"/>¶ Ephialtes. vbi Incubus. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e481">
+                  <lb ed="#A" n="14"/>¶ Epilensia. dicitur secundum Isidorum eo quod mentem parits 
+      <lb ed="#A" n="15"/>et corpus appendens sit. Nam greci Epilens vocant 
+      <lb ed="#A" n="16"/>appendens. et epilensiam: appensionem. Hec dicitur etiam 
+      <lb ed="#A" n="17"/>passio caduca: quia cadere facit egrum in terram: et 
+      <lb ed="#A" n="18"/>totum corpus spasmum patitur: spiritumatque cum 
+      tremo<lb ed="#A" n="19" break="no"/>re. et talis non curatur. sed quae sine tremore est: curatur. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e497">
+                  <lb ed="#A" n="20"/>¶ Unde sic patet quod hobst sunt due species secundum Papiam. 
+      <lb ed="#A" n="21"/>Runatici quoque vocantur a vulgo tales: eo quod per 
+      <lb ed="#A" n="22"/>lune cursum cominitetur eos demonum insania: et 
+      <lb ed="#A" n="23"/>secundum Razi fit vt plurimum in augmento lune vel 
+      ple<lb ed="#A" n="24" break="no"/>nilunio: aliquando etiam in diminutione. Idem et 
+      <lb ed="#A" n="25"/>Laruatio. ipse et morbus comitialis. id est maior 
+      <lb ed="#A" n="26"/>Erisipila: (et diutinus morbus caducus. 
+      <lb ed="#A" n="27"/>est quam latini vocant ignem sacrum. id est 
+      execran<lb ed="#A" n="28" break="no"/>dum: per Antiphrasim. secundum Isido. Si quidem in 
+      super<lb ed="#A" n="29" break="no"/>ficie rubore flammeo cutes rubescunt: tunc 
+      ampli<lb ed="#A" n="30" break="no"/>us inuaduntur loca et febricitatur. 
+      <lb ed="#A" n="31"/>Crratica: est febris commixta secundum Razi. quia in 
+      <lb ed="#A" n="32"/>accidendo non seruat certum diem: sed errat. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e528">
+                  <lb ed="#A" n="33"/>¶ Ethica: febris est vt dicit Hali: que consumit 
+      hu<lb ed="#A" n="34" break="no"/>miditates corporis: et cum augetur consumptio: ptisis vocatur 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e536">
+               <head xml:id="Vn7Pel-h130937-Hd1e538">7</head>
+               <p xml:id="Vn7Pel-h130937-d1e540">
+                  <lb ed="#A" n="35"/>¶ Febris est morbus. et dicitur a 
+      <lb ed="#A" n="36"/>feruore: quia est abundantia caloris extranaturalis 
+      <lb ed="#A" n="37"/>a corde procedens in arterias mediantibus spiritu et 
+      <lb ed="#A" n="38"/>sanguine per totum corpus: vt dicit Auicen. iii. 
+      <lb ed="#A" n="39"/>Can. et alii. Et habet multas species. Nam quedam 
+      <lb ed="#A" n="40"/>dicitur febris Ephimera que tantum semel inuadit: et 
+      <lb ed="#A" n="41"/>eodem die cessat. Et ideo sic nominatur a pisce ephi 
+      <lb ed="#A" n="42"/>mera: qui eodem die quo nascitur: paulo post 
+      mo<lb ed="#A" n="43" break="no"/>ritur. Quedam dicitur febris putrida scilicet que fit ex 
+      pu<lb ed="#A" n="44" break="no"/>tredine sanguinis: et est febris continua. et alia 
+      ter<lb ed="#A" n="45" break="no"/>tiana: alia quartana: alia quotidiana pro certis 
+      ho<lb ed="#A" n="46" break="no"/>rip diurnis vel nocturnis: alia acuta: alia non 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e569">
+                  <lb ed="#A" n="47"/>¶ Fistula communiter dicitur vnum quodque vlcerum postquam. 
+      xl<lb ed="#A" n="48" break="no"/>dierum spacium transierit: Tamen veraciter et 
+      pro<lb ed="#A" n="49" break="no"/>prie fistula denominatur quando vlcera sunt 
+      pro<lb ed="#A" n="50" break="no"/>funda quibus os strictum est: et interiora larga: et 
+      <lb ed="#A" n="51"/>caro dura et alba: fluens humiditate putrida etc. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e582">
+                  <lb ed="#A" n="52"/>¶ Flegmon: est de genere apostematum. Nam vt 
+      <lb ed="#A" n="53"/>Hali dicit. Apostematum sunt quattuor genera. 
+      Pri<lb ed="#A" n="54" break="no"/>mum est sanguineum. et hoc phlegmon vocatur: secundum 
+      <lb ed="#A" n="55"/>Isid. a potu phlegi. id est inflammans inquie 
+      <lb ed="#A" n="56"/>tudine. quia cum ceperint fieri phlegmones 
+      inquie<lb ed="#A" n="57" break="no"/>tudo febris consequitur cum dolore. Secundum 
+      <lb ed="#A" n="58"/>est apostema cholericum. et hoc Furunx appellatur 
+      <!--423.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>vel furunculus: eo quod ferueat quasi ferusmiculus. 
+      <lb ed="#A" n="60"/>Tertium genus est phlegmaticum. et hoc Endiuia 
+      <lb ed="#A" n="61"/>dicitur aut empidimia: secundum quosdam. Quartiur est 
+      <lb ed="#A" n="62"/>melancholicum: quod Scliros nominatur. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e613">
+                  <lb ed="#A" n="63"/>¶ Frenesis secundum Isido. dicitur quasi frenans mentem: 
+      <lb ed="#A" n="64"/>rel quasi frendens concutiendo dentes. Est enim 
+      <lb ed="#A" n="65"/>conturbatio cum exagitatione et dementia: et secundum 
+      <lb ed="#A" n="66"/>Isaac est calidum apostema in pelliculis ipsius 
+      ce<lb ed="#A" n="67" break="no"/>rebri: quam semper sequuntur vigilie et alienationes 
+      <lb ed="#A" n="68"/>sensus vel mentis Item apostena in operimento cerebri est et 
+      <lb ed="#A" n="69"/>Gutta: quae tanque apoplexia subito extinguit 
+      vi<lb ed="#A" n="70" break="no"/>tam hominis: cum directe virus eius descenderit ad 
+      <lb ed="#A" n="71"/>cor: maturo huiusmodi ab apostemate 
+      erumpen<lb ed="#A" n="72" break="no"/>do. alias saltem partem dextram perimit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e638">
+               <head xml:id="Vn7Pel-h130937-Hd1e640">8</head>
+               <p xml:id="Vn7Pel-h130937-d1e642">
+                  <lb ed="#A" n="73"/>¶ Hernia est passio in renibus 
+      <lb ed="#A" n="74"/>quase facit vt vrina paulati exeat harenosa cum 
+      ar<lb ed="#A" n="75" break="no"/>Ictericia: est passio (dore: vt dicit Constantinus. 
+      <lb ed="#A" n="76"/>in felle propter caliditatem epatis sic nominata: secundum 
+      Isi<lb ed="#A" n="77" break="no"/>do. a quodam animali coloris fellei: nomine Icter in 
+      <lb ed="#A" n="78"/>greco. Item secundum Auicem. Ictericia est alteratio 
+      co<lb ed="#A" n="79" break="no"/>loris corporis feda: tendens ad citrinitatem aut 
+      <lb ed="#A" n="80"/>ad nigredinem propter cursum humoris citrini aut 
+      <lb ed="#A" n="81"/>nigri ad cutem. et ita est duplicis speciet 
+      <lb ed="#A" n="82"/>Idropisis. dicitur ab hydor grece: quod est aqua. quia 
+      <lb ed="#A" n="83"/>est humor succutaneus cum inflatione turgenti et 
+      <lb ed="#A" n="84"/>anhelitu fetido. Et talis quanto plus bibit: tanto plus 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e671">
+                  <lb ed="#A" n="85"/>¶ Iliaca passio: est in¬ sitit. et species habet plures. 
+      <lb ed="#A" n="86"/>testinorum. dicta ab ileos grece: quod est obuoluere 
+      <lb ed="#A" n="87"/>quasi sese intestina prae dolore inuoluant: hi et 
+      tor<lb ed="#A" n="88" break="no"/>minosi dicuntur ab intestinorum tormento. Hec omnia 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e682">
+                  <lb ed="#A" n="89"/>¶ Isd. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e687">
+                  <lb ed="#A" n="90"/>¶ Impetigo. est scabies sicca prominens 
+      <lb ed="#A" n="91"/>a torpore cum asperitate et rotunditate forme secundum cundem. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e695">
+                  <lb ed="#A" n="92"/>¶ Incubus vel ephialtes. secundum Auic. in. iii. Can. 
+      <lb ed="#A" n="93"/>est egritudo qua in somno sentit homo graue 
+      pha<lb ed="#A" n="94" break="no"/>tasma super se iacens et ipsum opprimens: exanimen 
+      <lb ed="#A" n="95"/>quasi praefocans. et cum ab ipso separatur: excitat eum subito. 
+      <lb ed="#A" n="96"/>Et secundum Razi: fit ab assiduatione multi sanguinis in 
+      <lb ed="#A" n="97"/>corpore. et cum fit frequenter: nisi ei succurratur: ad 
+      epi<lb ed="#A" n="98" break="no"/>lensiam perducit autem apoplexiam et huiusmodi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e714">
+               <head xml:id="Vn7Pel-h130937-Hd1e716">9</head>
+               <p xml:id="Vn7Pel-h130937-d1e718">
+                  <lb ed="#A" n="99"/>¶ Tapis vel calculus nascitur in 
+      u<lb ed="#A" n="100" break="no"/>vesica et in renibus ex humoribus grossis et viscosis. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e725">
+                  <lb ed="#A" n="101"/>¶ Lentigirres. sunt vestigia paruula macularum 
+      <lb ed="#A" n="102"/>in facie rotunda: a specie lenticule dicta. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e732">
+                  <lb ed="#A" n="103"/>¶ Repra est albedo que fit in exterioribus cutis 
+      <lb ed="#A" n="104"/>secundum Hali. aliquando in quibusdam membris tantum. aliquando in 
+      <lb ed="#A" n="105"/>toto corpore. cuius signum est quod membrum in quo est 
+      <lb ed="#A" n="106"/>album est: pilique similiter. etsi cutis acu pungatur: 
+      <lb ed="#A" n="107"/>sanguis non egreditur ab ea sed humiditas: lepra 
+      <lb ed="#A" n="108"/>est incurabilis. Si vero sanguis egreditur aut 
+      tu<lb ed="#A" n="109" break="no"/>bea humiditas: non est sanitati despcranda. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e750">
+                  <lb ed="#A" n="110"/>¶ Item Lepre incipientis signa secundum Razi: lib. 
+      di<lb ed="#A" n="111" break="no"/>uisionum: sunt Raucedo vocis: strictura 
+      anheli<lb ed="#A" n="112" break="no"/>tus: conturbatio oculorum vel appa rens in oculis 
+      <lb ed="#A" n="113"/>offuscatio. ruborositas faciei ad nigredinem 
+      quan<lb ed="#A" n="114" break="no"/>dam tendens: paucitas pilorum et casus eorum. 
+      Pre<lb ed="#A" n="115" break="no"/>terea secundum Auicen. est sternutationis multitudo 
+      <lb ed="#A" n="116"/>ganetus seu locutio quasi per nares vel in nari¬ 
+      <!--424.xml-->
+      <pb ed="#A" n="425"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>bus. et odor sudoris atque anhelitus ad fetorem 
+      <lb ed="#A" n="2"/>declinans: ad vltimum vlceratio corporis fluens etc. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e780">
+                  <lb ed="#A" n="3"/>¶ Lienteria. sic dicta: eo quod cibum tanquam per linea 
+      <lb ed="#A" n="4"/>intestini illabi faciat nullis obstantibus. vt dicit 
+      <lb ed="#A" n="5"/>Isidorus. et hoc secundum Isaac et Hali: Ita quod cibus 
+      <lb ed="#A" n="6"/>velocius egreditur a stomacho nullatenus mutatus 
+      <lb ed="#A" n="7"/>ibi: nec in colore nec in liquore nec in odore etc. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e793">
+                  <lb ed="#A" n="8"/>¶ Lethargia. est passio vocata a somno iugi: ve 
+      <lb ed="#A" n="9"/>luti stertentis: secundum Isidorum. et est oppressio 
+      cerebri<lb ed="#A" n="10" break="no"/>cum obliuione que secundum Hali fit ex apostemate 
+      <lb ed="#A" n="11"/>frigido phlegmatico accidente in occipitio: vnde et 
+      <lb ed="#A" n="12"/>ipsam dicunt esse frenesim frigidam. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e806">
+                  <lb ed="#A" n="13"/>¶ Lunatica. vbi Epilensia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e812">
+               <head xml:id="Vn7Pel-h130937-Hd1e814">10</head>
+               <p xml:id="Vn7Pel-h130937-d1e816">
+                  <lb ed="#A" n="14"/>¶ Mania. vocat a mentis 
+      insa<lb ed="#A" n="15" break="no"/>nia vel furore et accidit cerebro ex apostemate 
+      si<lb ed="#A" n="16" break="no"/>Marotide. sunt duricie vel (cut et frenesis. 
+      <lb ed="#A" n="17"/>collectiones que ex febribus vel ex aliquo casu 
+      na<lb ed="#A" n="18" break="no"/>cuntur in aurium vicinitate tamquam apostenata secundum Isid. 
+      <lb ed="#A" n="19"/>Morphea. est lepre species: quia est albedo 
+      <lb ed="#A" n="20"/>tenuis in exterioribus cutis facta ab eisdem causis 
+      proce<lb ed="#A" n="21" break="no"/>dens: vt hec dicit Hali. Differunt tamen: quia 
+      mor<lb ed="#A" n="22" break="no"/>phea est exterius in cute: lepra vero in membri 
+      <lb ed="#A" n="23"/>profundo. Et morphea: quedam est alba: que 
+      ma<lb ed="#A" n="24" break="no"/>gis habet lepre proximationem. quedam aut est 
+      ni<lb ed="#A" n="25" break="no"/>gra: quia vergit in nigredinem coloris. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e845">
+                  <lb ed="#A" n="26"/>¶ Nigra melacholia. dicitur secundum Isidorum a nigro 
+      <lb ed="#A" n="27"/>felle secundum Grecos: qui nigrum: melan dicunt. 
+      cholen<lb ed="#A" n="28" break="no"/>autem fel. Et vt Hali dicit: est alienatio siue 
+      confu<lb ed="#A" n="29" break="no"/>sio mentis que fit ex tristicia desperationis. Hanc 
+      <lb ed="#A" n="30"/>patientes: alii mortem timent: alii se necant: alii brum 
+      <lb ed="#A" n="31"/>ta se esse putant: et voce scilicet brutali clamant: alii 
+      va<lb ed="#A" n="32" break="no"/>sa lutea se esse putant: et ne frangantur cauent: alii 
+      <lb ed="#A" n="33"/>Oppilatio. secundum Con (iuinare se putant 
+      <lb ed="#A" n="34"/>stantinum est passio in splene pluribus causis 
+      acci<lb ed="#A" n="35" break="no"/>dens. Item secundum Hali quandoque accidit etiam 
+      oppu<lb ed="#A" n="36" break="no"/>latio puppi cerebri. et nominatur grece cothocos id est 
+      <lb ed="#A" n="37"/>congelatio: que fit ex potu aque frigide: vel in ea 
+      <lb ed="#A" n="38"/>balneatione vel fructuum refrigerantium comestione. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e878">
+               <head xml:id="Vn7Pel-h130937-Hd1e880">11</head>
+               <p xml:id="Vn7Pel-h130937-d1e882">
+                  <lb ed="#A" n="39"/>Papula et pustula ac verruca 
+      <lb ed="#A" n="40"/>et prurigo atque scabies: ad idem genus pertinenti 
+      <lb ed="#A" n="41"/>scilicet scabiei. Est enim scabies secundum Isidorum dicta 
+      <lb ed="#A" n="42"/>quasi squames. Lepra quidem et scabies: vtraque 
+      <lb ed="#A" n="43"/>est asperitas cutis cum pruritu et squamatione. 
+      <lb ed="#A" n="44"/>Sed scabies tenuis magis exsquamatio est aspe 
+      <lb ed="#A" n="45"/>ritatis: ita vt purgamenta admittat. prurigo 
+      ve<lb ed="#A" n="46" break="no"/>rto a perurendo et ardendo est dicta. Item 
+      papu<lb ed="#A" n="47" break="no"/>la est paruissima cutis erectio circumscripta cum 
+      <lb ed="#A" n="48"/>rubore. dicta papula: quasi pupila Pustule 
+      ve<lb ed="#A" n="49" break="no"/>ro sunt parue scabies ex humoribus malis: quos 
+      <lb ed="#A" n="50"/>natura pellit ad exteriora cutis Sed verruce sunt 
+      <lb ed="#A" n="51"/>proprie (vt dicunt Hali et Isaac pustule vel 
+      ca<lb ed="#A" n="52" break="no"/>ro grossa dura et spissa: que precipue nascitur in 
+      <lb ed="#A" n="53"/>manibus et pedibus vel vbicunque in corpore. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e917">
+                  <lb ed="#A" n="54"/>¶ Paralysis. est dissolutio membrorum: 
+      stoma<lb ed="#A" n="55" break="no"/>chsque contractio: vt membrum paralyticum 
+      moue<lb ed="#A" n="56" break="no"/>ri non valeat et sensum illius amittat: quia stupi 
+      <lb ed="#A" n="57"/>dum illud facit: et fit ex multa infrigidatione. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e928">
+      <!--424.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Peripleumonia. est pulmonis vicium cum 
+      do<lb ed="#A" n="59" break="no"/>ore vehementi et suspirio. est enim pulmonis 
+      tu<lb ed="#A" n="60" break="no"/>mor cum spritumarum sanguinearum effusione secundum 
+      Isi<lb ed="#A" n="61" break="no"/>lo. aut est apostema calidum in pulmone secudum Hali. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e944">
+                  <lb ed="#A" n="62"/>¶ Pleuresis. secundum Constantinum aliosque vocatur 
+      <lb ed="#A" n="63"/>apostema: in diafragmate nascens vel pectore. 
+      <lb ed="#A" n="64"/>quod sequuntur huiusmodi accidentia. videlicet febris indeficiens. 
+      <lb ed="#A" n="65"/>et tussis. anhelitus angustatio. et puncture dolor. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e956">
+                  <lb ed="#A" n="66"/>¶ Podagra. secundum Isidorum: a retentione pedum 
+      no<lb ed="#A" n="67" break="no"/>minatur et ferali dolore apud grecos. Et vt Isaac 
+      <lb ed="#A" n="68"/>dicit: podagra est dolor calcanei et plante pedis 
+      <lb ed="#A" n="69"/>cum dissolutione nerui cum pulsatione. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e967">
+                  <lb ed="#A" n="70"/>¶ Ptisis. est vlceratio et tumor in pulmonibus 
+      <lb ed="#A" n="71"/>secundum Isidorum: qui iuuenibus facilius euenire 
+      so<lb ed="#A" n="72" break="no"/>et. hec totum corpus consumit et eius 
+      humidi<lb ed="#A" n="73" break="no"/>tates: et tandem pulmonem consumit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e979">
+               <head xml:id="Vn7Pel-h130937-Hd1e981">12</head>
+               <p xml:id="Vn7Pel-h130937-d1e983">
+                  <lb ed="#A" n="74"/>¶ Reuma est fluor quem facit 
+      ca<lb ed="#A" n="75" break="no"/>tarrus est naribus: et diuersimode nominatur. 
+      Pa<lb ed="#A" n="76" break="no"/>tet vbi de Catarro. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e992">
+                  <lb ed="#A" n="77"/>¶ Sanguinis fluxus: qui dicitur emorrois. ab 
+      <lb ed="#A" n="78"/>emoth grece: quod est sanguis latine. Et inde 
+      emor<lb ed="#A" n="79" break="no"/>roissa vel emorroissus: qui talem infirmitatem 
+      pa<lb ed="#A" n="80" break="no"/>titur. Sicut legitur in euangelio quod christus 
+      mulie<lb ed="#A" n="81" break="no"/>rem emorroissam sanauit. Est autem talis fluxus 
+      sangui<lb ed="#A" n="82" break="no"/>nis vt Hypocras dicit: ab ore venarum que sunt 
+      <lb ed="#A" n="83"/>in ano. Item est quedam sanguinis emissio scilicet 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1010">
+                  <lb ed="#A" n="84"/>¶ Sanguinis spiutum vel vomitus. que Aut ex 
+      pul<lb ed="#A" n="85" break="no"/>mone prouenit secundum Hali: Aut ex omnibus anhelitus 
+      <lb ed="#A" n="86"/>instrumentis: aut ex aliis interioribus membris. Dicit 
+      <lb ed="#A" n="87"/>autem Hypocras: quod emissio sanguinis a 
+      superio<lb ed="#A" n="88" break="no"/>ribus quecunque sit: signum est malum. sed 
+      emis<lb ed="#A" n="89" break="no"/>sio ab inferiortbus scilicet ab emorroidibus signum 
+      <lb ed="#A" n="90"/>bonum est. scilicet prolongationis vite etc. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1028">
+                  <lb ed="#A" n="91"/>¶ Scia. est dolor vel passio nascens in 
+      concate<lb ed="#A" n="92" break="no"/>natione coxarum: vt enim dicit Constantur. In coxis 
+      <lb ed="#A" n="93"/>et pedibus oriuntur sciatica. artetica. et podagra: quae 
+      <lb ed="#A" n="94"/>plurimum nascuntur in illis quibus cum cibo et 
+      po<lb ed="#A" n="95" break="no"/>tu humores augmentantur dum quiescunt: coitum 
+      <lb ed="#A" n="96"/>que frequenter et nimium operantur: maxime post cibum. 
+      <lb ed="#A" n="97"/>Differunt autem: quia sceia: est dolor in ossibus coxarum 
+      <lb ed="#A" n="98"/>exterioribus descendens vsque ad genua. aliquando 
+      <lb ed="#A" n="99"/>etiam vsque in calcaneum et extremitatem pedum ab 
+      ex<lb ed="#A" n="100" break="no"/>tranea parte. etsi diu moretur: pes contrahitur: et 
+      clau<lb ed="#A" n="101" break="no"/>dus efficitur. et plerumque fit hoc in partibus sinistris. 
+      <lb ed="#A" n="102"/>Sed passio artetica est dolor in concatenatione. 
+      <lb ed="#A" n="103"/>membrorum pedum vel articulorum. Et quando est 
+      <lb ed="#A" n="104"/>tantum in concatenatione genuum vel manuum vel 
+      cu<lb ed="#A" n="105" break="no"/>peitorum. aut aliquando etiam maxillarum: tunc 
+      ar<lb ed="#A" n="106" break="no"/>tetica sola vocatur. Quando vero est in concatenati 
+      <lb ed="#A" n="107"/>one pedum vt in calcaneo maximeque digitorum 
+      <lb ed="#A" n="108"/>pedum pollicibus: tunc podagra et artetica vocatur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1071">
+               <head xml:id="Vn7Pel-h130937-Hd1e1073">13</head>
+               <p xml:id="Vn7Pel-h130937-d1e1075">
+                  <lb ed="#A" n="109"/>¶ Scotomia secundum Isaac et 
+      Ha<lb ed="#A" n="110" break="no"/>list est repentina tenebra vel corruptela visus cum 
+      <lb ed="#A" n="111"/>vertigine capitis vnde et vertigo nuncupatur secundum 
+      <lb ed="#A" n="112"/>Isidorum. Apparent enim patientibus omnia quasi 
+      <lb ed="#A" n="113"/>voluentia nebulosa vel tenebrosa: et ea extimat 
+      <lb ed="#A" n="114"/>rotari vel cadereetc. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1091">
+      <!--425.xml-->
+                  <pb ed="#A" n="426"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Scrophula est apostema durum glandule 
+      si<lb ed="#A" n="2" break="no"/>mile secundum Hali. quod fc.t in tenera carne que in 
+      collo<lb ed="#A" n="3" break="no"/>est aut inguibus aut ascellis. et dicitur scrophula eo 
+      <lb ed="#A" n="4"/>quod in collo porci oriatur multa. 
+      <lb ed="#A" n="5"/>Sinantis secundum Isido. dicitur a continentia spiritus et 
+      <lb ed="#A" n="6"/>suffocatione in faucium dolore. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1113">
+                  <lb ed="#A" n="7"/>¶ Syncopis secundum Isaac est absolute cordis 
+      defe<lb ed="#A" n="8" break="no"/>ctio et subita dissolutio totius sue virtutis 
+      vita<lb ed="#A" n="9" break="no"/>lis in se atque in membris. Impossibile est autem sycnu 
+      <lb ed="#A" n="10"/>copim fieri sine cordis passione. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1124">
+                  <lb ed="#A" n="11"/>¶ Singultatio secundum Isaac et Hali est malus 
+      mo<lb ed="#A" n="12" break="no"/>tus virtutis expellere volentis nociua etc. vnde est 
+      <lb ed="#A" n="13"/>spasmus interioris tunice stomachi. Fit autem de 
+      <lb ed="#A" n="14"/>repletione et inanitione et frigiditate 
+      supernatan<lb ed="#A" n="15" break="no"/>te stomachum 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1138">
+                  <lb ed="#A" n="16"/>¶ Sinochus est febris que asmatica dicitur que 
+      <lb ed="#A" n="17"/>secundum Razi accidit sine tremore et horripilatione. 
+      acci<lb ed="#A" n="18" break="no"/>dit tamen cum calore. incipit estuando praesertim 
+      <lb ed="#A" n="19"/>iuuenibus et sepius in hyeme et vere. illis maxime 
+      <lb ed="#A" n="20"/>contingit qui carnes et confectiones ex melle multum 
+      <lb ed="#A" n="21"/>comedere et bibere consueuerunt. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1154">
+                  <lb ed="#A" n="22"/>¶ Spasmus est contractio subita partium aut neruo 
+      <lb ed="#A" n="23"/>rum cum dolore vehementi secundum Isido. Et fit aut 
+      <lb ed="#A" n="24"/>ex repletione aut ex inanitione. Quandoque autem fit in toto 
+      <lb ed="#A" n="25"/>corpore: Ita quod fit contractio neruorum a ceruice ad 
+      <lb ed="#A" n="26"/>dorsum. et tunc thetanus vocatur. quandoque in aliquo 
+      <lb ed="#A" n="27"/>membro tantum. et sic dicitur spasmus vel telum de quo. i. 
+      <lb ed="#A" n="28"/>Squinancia id est suffocancia. dicitur secundum Isaac 
+      quae<lb ed="#A" n="29" break="no"/>liscunque morbus vel apostema in gula venerit 
+      an<lb ed="#A" n="30" break="no"/>gustans flatum nec cibum et potum nisi paruum 
+      reci<lb ed="#A" n="31" break="no"/>pere potest etc. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1178">
+                  <lb ed="#A" n="32"/>¶ Stranguiria seundu Ito. ditta est eo quo strirga 
+      <lb ed="#A" n="33"/>vrinarum difficultate etc. 
+      <lb ed="#A" n="34"/>Superfluitas facit multas molestias 
+      morbi<lb ed="#A" n="35" break="no"/>das. De quibus aliqua scilicet ructationes tusses et huiusmodi 
+      <lb ed="#A" n="36"/>vide vbi Sensus <ref xml:id="Vn7Pel-h130937-Rd1e1191">Gustus. §. xix.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1195">
+               <head xml:id="Vn7Pel-h130937-Hd1e1197">14</head>
+               <p xml:id="Vn7Pel-h130937-d1e1199">
+                  <lb ed="#A" n="37"/>Telum. laterum dolor est sic dictus 
+      <lb ed="#A" n="38"/>secundum Isido. eo quod dolore corpus transuerberet 
+      qua<lb ed="#A" n="39" break="no"/>si gladius. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1208">
+                  <lb ed="#A" n="40"/>¶ Tethanus. De hoc vide vbi Spasmus. 
+      <lb ed="#A" n="41"/>Tiria vbi Allopicia etc. 
+      <lb ed="#A" n="42"/>Tinea sunt vlcera parua in capite nascentia 
+      qui<lb ed="#A" n="43" break="no"/>bus inest vesica siue putrendo. et habet species 
+      plu<lb ed="#A" n="44" break="no"/>res quas transeo. 
+      <lb ed="#A" n="45"/>Uariole sunt vlcera multa et parua que per 
+      omn<lb ed="#A" n="46" break="no"/>corpus aut maiori parte eius fiunt maxime in 
+      <lb ed="#A" n="47"/>perueris tempore crescendi et sinochum comitantur. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1228">
+                  <lb ed="#A" n="48"/>¶ Ulcus secundum Isaac et Hali est putredo ipsa que 
+      <lb ed="#A" n="49"/>dicitur vlcus quod olet quasi olcus. Inde et vlcera 
+      di<lb ed="#A" n="50" break="no"/>cuntur que habent saniem. Et dicitur sanies. quia 
+      <lb ed="#A" n="51"/>ex sanguine fit putrefacto in vlcere. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1239">
+                  <lb ed="#A" n="52"/>¶ Uulnus autem dicitur quod ferro fit quasi vi. Hec 
+      <lb ed="#A" n="53"/>praescripta de generibus egritudinum sufficiant. Preter 
+      <lb ed="#A" n="54"/>hec enim sunt tammulta et specierum varietate 
+      diuer<lb ed="#A" n="55" break="no"/>sa vt numerare singula non sufficiamus
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1251">
+      ¶ Ex 
+      <lb ed="#A" n="56"/>omnibus claret dei bonitas erga nos que per omnia 
+      <lb ed="#A" n="57"/>extat laudabilis in singulis. Primo. quia cum 
+      <!--425.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>propter peccata nostra multo plura 
+      demerueri<lb ed="#A" n="59" break="no"/>mus flagella mortis: imo et annihilationem: tame 
+      <lb ed="#A" n="60"/>pius dominus mitius nobiscum egit miseriis 
+      bu<lb ed="#A" n="61" break="no"/>lus vite non subiiciendo huiusmodi afflictionibus. 
+      <lb ed="#A" n="62"/>Secundo: quia hec omnia ad bonum nostrum ex 
+      bo<lb ed="#A" n="63" break="no"/>nitate sua misericorditer ordinauit scilicet ad virtutum 
+      <lb ed="#A" n="64"/>exercitium pro salute. Tertio: quia quanto plura 
+      ge<lb ed="#A" n="65" break="no"/>nera infirmitatum vel aduersorum patimur: tanto ma 
+      <lb ed="#A" n="66"/>iora dabit deus praemia nobis in eius amore 
+      perse<lb ed="#A" n="67" break="no"/>uerantibus Quarto: quia per infirmitates corporales a 
+      <lb ed="#A" n="68"/>multis peccatis. et per consequens penis nos 
+      ge<lb ed="#A" n="69" break="no"/>henne preseruat 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1289">
+               <head xml:id="Vn7Pel-h130937-Hd1e1291">15</head>
+               <p xml:id="Vn7Pel-h130937-d1e1293">
+                  <lb ed="#A" n="70"/>Qualibus signis prenosticatur 
+      <lb ed="#A" n="71"/>in homine sano futura egritudo: Nota quod sicut 
+      <lb ed="#A" n="72"/>Isid. dicit. Oportet medicum physcum: et preterita 
+      <lb ed="#A" n="73"/>agnoscere et praesentia scire et futura praeuidere. 
+      Pro<lb ed="#A" n="74" break="no"/>inde vt Razi in Almasore. iiii. parte. dicit. Signa 
+      fu<lb ed="#A" n="75" break="no"/>ture egritudinis varia sunt pro variis generibus 
+      <lb ed="#A" n="76"/>egritudinum: et plurima quae inuestiganda sunt. et ad 
+      <lb ed="#A" n="77"/>sanationem est festinandum.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1313">
+      ¶ Unum est saltus faciei 
+      <lb ed="#A" n="78"/>diu permanens et fortis et multus: torture vicine 
+      <lb ed="#A" n="79"/>signum est. Saltus vero totius corporis multus ac 
+      <lb ed="#A" n="80"/>diuturnus: spasmum praenosticat imminere.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1322">
+      ¶ Secundum 
+      <lb ed="#A" n="81"/>est oculorum facieique rubedo et venarum in eis 
+      mant<lb ed="#A" n="82" break="no"/>festatio lachrymarum descensus et claritatem pati non 
+      <lb ed="#A" n="83"/>posse. Hec omnia si cum forti dolore capitis assunt: 
+      <lb ed="#A" n="84"/>frenesis future signa sunt.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1333">
+      ¶ Tertium faciei 
+      ru<lb ed="#A" n="85" break="no"/>bor multus cum offuscatione et angustia agrem attra 
+      <lb ed="#A" n="86"/>hendi et vocis raucedo: lepram significant.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1341">
+      ¶ Quar 
+      <lb ed="#A" n="87"/>tum reumatismus si frequenter eueniat cum 
+      cor<lb ed="#A" n="88" break="no"/>riza. timendum est de ptisi vel asmate.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1348">
+      ¶ Quintum 
+      <lb ed="#A" n="89"/>sudor multus et diu perseuerans: si male fuerit 
+      <lb ed="#A" n="90"/>olens: febrem iam vicinam designat.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1355">
+      ¶ Sextu 
+      re<lb ed="#A" n="91" break="no"/>pletio nimis superflua timorem emorroice 
+      passio<lb ed="#A" n="92" break="no"/>nis future et apoplexie ac subitanee mortis 
+      af<lb ed="#A" n="93" break="no"/>fert. Si praeterea cum repletione assit sensuum 
+      turba<lb ed="#A" n="94" break="no"/>tio motuumque debilitatio. signum est apoplexie. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1366">
+                  <lb ed="#A" n="95"/>¶ Septimum cordis tremor fortis ac frequens: 
+      <lb ed="#A" n="96"/>mortem subitaneam portendit. Item de Incubo: quia 
+      <lb ed="#A" n="97"/>signum est epilensse. Patuit. supra. §. viii.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1375">
+      ¶ Octauum 
+      <lb ed="#A" n="98"/>palpebre et extremitates inflate praenosticant hydro 
+      <lb ed="#A" n="99"/>pisim.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1382">
+      ¶ Nonum grauitas in dextro latere: et 
+      pun<lb ed="#A" n="100" break="no"/>ctura et tensio lesionem epatis significat. et pruritus 
+      <lb ed="#A" n="101"/>ani: emorroidem futuram
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1390">
+      ¶ Decimum fetor 
+      egesti<lb ed="#A" n="102" break="no"/>onis significat grauedinem in venis. fetor autem 
+      <lb ed="#A" n="103"/>prine putrefactionem sanguinis febresque venturas. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1397">
+                  <lb ed="#A" n="104"/>¶ Undecimum paralysis parua: magna portendit. 
+      </p>
+               <p xml:id="Vn7Pel-h130937-d1e1402">
+                  <lb ed="#A" n="105"/>¶ Duodecimum ex pluribus glandulis oritur magna 
+      <lb ed="#A" n="106"/>collectio scrophuli. ergo festinandum est vt celerius suc 
+      <lb ed="#A" n="107"/>curratur. Nam prouerbium est. Principiis obsta: 
+      <lb ed="#A" n="108"/>quia sero medicina paratur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1414">
+               <head xml:id="Vn7Pel-h130937-Hd1e1416">16</head>
+               <p xml:id="Vn7Pel-h130937-d1e1418">
+                  <lb ed="#A" n="109"/>¶ Sed que sint signa future 
+      sani<lb ed="#A" n="110" break="no"/>tatis in homine infirmo scilicet quod talis euadet mortem et 
+      <lb ed="#A" n="111"/>huiusmodi infirmitate: Notandum quod Hypocras in 
+      prae<lb ed="#A" n="112" break="no"/>nosticis ponit. ix. signa boni in infirmitate. et 
+      op<lb ed="#A" n="113" break="no"/>positum . ix. signa mali. Primum est fortitudo 
+      infir<lb ed="#A" n="114" break="no"/>mi morbum faciliter tolerantis. contrarium: debilitas 
+      <!--426.xml-->
+      <pb ed="#A" n="427"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>eiusdem signum est mali. Secundm est leuitas mouend 
+      <lb ed="#A" n="2"/>se. Contrarium est signum: si infirmus valde pigrtum 
+      ha<lb ed="#A" n="3" break="no"/>bst motum. Tertium est effigies membrorum sano similis. 
+      <lb ed="#A" n="4"/>per contrarium dissimilis. Quartum est appetitus facilis cum 
+      sa<lb ed="#A" n="5" break="no"/>nitate mentis. per oppositum difficilis appetitus et per 
+      <lb ed="#A" n="6"/>turbatio mentis. Quintum est suauitas somni tempore 
+      <lb ed="#A" n="7"/>congruo: per oppositum malicia somni et tempore 
+      incongruo<lb ed="#A" n="8" break="no"/>Sextum est anhelitus suauis contrarium angustia spiritus. 
+      <lb ed="#A" n="9"/>Septimum est pulsus equalis naturali similis. 
+      com<lb ed="#A" n="10" break="no"/>trarium est pulsus inequalis: vt modo magnus: 
+      mo<lb ed="#A" n="11" break="no"/>do paruus: modo fortis: modo debilis: in arteria quod 
+      <lb ed="#A" n="12"/>corde procedente. Octauum est efficax fortitudo virtu 
+      <lb ed="#A" n="13"/>tis in loco decoctionis: contrarium est debilitas 
+      digesti<lb ed="#A" n="14" break="no"/>ue virtutis etc. Nonum est sudor mediocris et 
+      lauda<lb ed="#A" n="15" break="no"/>bilis expurgationis in omnibus membris contrarium est im 
+      <lb ed="#A" n="16"/>purgabile per sudorem vel partialis sudo scilicet in vno 
+      me<lb ed="#A" n="17" break="no"/>bro
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1477">
+      ¶ Spiritualiter in homine signa boni sunt 
+      fortitu<lb ed="#A" n="18" break="no"/>do bomi operis: leuis motus ad prenitentiam: effigies 
+      ho<lb ed="#A" n="19" break="no"/>neste vite: appetitus verbi diuini: somnus sanus i 
+      <lb ed="#A" n="20"/>fidei contemplatione: anhelitus dulcis orationis: pulsus 
+      <lb ed="#A" n="21"/>bone voluntatis: digestio scilicet peccatorum per debita 
+      satisfa<lb ed="#A" n="22" break="no"/>ctionem calore charitatis. Sudor expurgationis per 
+      <lb ed="#A" n="23"/>veram omnium peccatorum confessionem etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1495">
+               <head xml:id="Vn7Pel-h130937-Hd1e1497">17</head>
+               <p xml:id="Vn7Pel-h130937-d1e1499">
+                  <lb ed="#A" n="24"/>¶ Item que sunt signa mortalia in 
+      <lb ed="#A" n="25"/>egroto: Notandum est quod sicut Razi in almasore. vit 
+      <lb ed="#A" n="26"/>per. dicit. Et Hypocras in aforismis multa sunt 
+      signa<lb ed="#A" n="27" break="no"/>mortalia egroti. Primo aliqua sunt in facie et partibus 
+      <lb ed="#A" n="28"/>circa eam: videlicet quod cum facies extenuata fuerit et 
+      ocul<lb ed="#A" n="29" break="no"/>concaui videntur et nares deciden. Et tempora dilatabum:t 
+      <lb ed="#A" n="30"/>tensa cute faciei. Aures quoque frigide fuerint et in 
+      <lb ed="#A" n="31"/>citrinitatem mutate quarum etiam extremitas quae pendet 
+      com<lb ed="#A" n="32" break="no"/>tracta fuerit. Preter hec color citrinus aut 
+      viri<lb ed="#A" n="33" break="no"/>dis aut niger apparuerit: nec eger multam prius 
+      eua<lb ed="#A" n="34" break="no"/>cuationem passus fuerit. Hec omnia signa mortalia 
+      <lb ed="#A" n="35"/>sunt secundum e. Razi. Secundo aliqua sunt in oculis et 
+      fron<lb ed="#A" n="36" break="no"/>te. Si enim est in fronte sudor et pulsus ac motus de 
+      <lb ed="#A" n="37"/>bilitas ocli. Similiter stupidi qui non mouentur et 
+      tremuli<lb ed="#A" n="38" break="no"/>qui non quiescunt. sed fere ex multo tremore circumire 
+      vi<lb ed="#A" n="39" break="no"/>dentur. Frequens quoque in lecto reuolutio et 
+      veren<lb ed="#A" n="40" break="no"/>dorum discoopertio. et huiusmodi. quae sunt signa parturbationis 
+      <lb ed="#A" n="41"/>mentis mortalia signa sunt. Consimiliter paruitas vnius 
+      <lb ed="#A" n="42"/>ocli vel oris contorsio. et dormire ore aperto. Et in 
+      al<lb ed="#A" n="43" break="no"/>bis oculorum rubedo vel vene rubee aut nigre 
+      in<lb ed="#A" n="44" break="no"/>eis apperentia mortis signa sunt. Tertio aliqua sunt 
+      <lb ed="#A" n="45"/>in ore: videlicet oris fetor et anhelitus in acutis 
+      egritudi<lb ed="#A" n="46" break="no"/>nibus malum est. Item rodere dentibus praeter solitum: signum 
+      <lb ed="#A" n="47"/>mortis est. Item mortuorum nomina proferre. Item sitis vehe 
+      <lb ed="#A" n="48"/>mens cum sudore frigido: mala signa sunt
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1556">
+      ¶ Item flatus 
+      <lb ed="#A" n="49"/>frigidus cum debilitate virtutis egrum sercat morti 
+      propin<lb ed="#A" n="50" break="no"/>quum. vt idem Razi dicit. Quarto aliqua in corde sunt 
+      <lb ed="#A" n="51"/>videlicet tremor cordis qui perseuerat in acutis 
+      egritudi<lb ed="#A" n="52" break="no"/>nibus signum est malum. Et singultus similiter. etsi anhelitus 
+      <lb ed="#A" n="53"/>constrictus fuerit: ac febrilis calor augmentatus pernicio 
+      <lb ed="#A" n="54"/>sum signum est. Item quando in aliquo membro oritur 
+      aposte<lb ed="#A" n="55" break="no"/>ma incendiumque et siti. Etsi cum eo tremor cordis ac 
+      <lb ed="#A" n="56"/>cidit mortale est signum secundum e. Razi. Quinto aliqua 
+      si<lb ed="#A" n="57" break="no"/>gna sunt in extremitatibus. Nam si sit diuersitas ca¬ 
+      <!--426.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>loris in egri corpore: vt vnum sit calidum ex parte ventris: 
+      <lb ed="#A" n="59"/>et alia membra sint frigida: malum signum est. Unde 
+      <lb ed="#A" n="60"/>extremitatum frigiditas in acutis egritudinibus 
+      <lb ed="#A" n="61"/>maxime si frigiditas augmentetur: et cum hoc ma 
+      <lb ed="#A" n="62"/>gnus calor fuerit atque sitis in ventre: mortale est: 
+      <lb ed="#A" n="63"/>precipue in senibus et frigidis. Sexto aliqua signa 
+      <lb ed="#A" n="64"/>sunt in sudore. Nam sudor si sit frigidus cum 
+      acu<lb ed="#A" n="65" break="no"/>ta febre est perniciosissimus. et cum post sudorem 
+      <lb ed="#A" n="66"/>tremor sequitur: signum est magis malum. vt patet. supra 
+      <lb ed="#A" n="67"/>Septimo aliqua sunt in egestione: quia vrina 
+      ni<lb ed="#A" n="68" break="no"/>gra et stercus nigrum et spiritutum nigrum: ex signis 
+      <lb ed="#A" n="69"/>mortalibus sunt. Etsi cum predictis fuerit febris 
+      <lb ed="#A" n="70"/>magni incendii: signa valde mortalia sunt. Octa 
+      <lb ed="#A" n="71"/>no: aliquod signum est in felle quod ponit Hypocras 
+      <lb ed="#A" n="72"/>lib. Aforis. videlicet quod in egritudinibus quibuscunque 
+      in<lb ed="#A" n="73" break="no"/>cipientibus: si fel nigrum aut sursum aut deorsum 
+      <lb ed="#A" n="74"/>exierit: mortale signum est. Nono: aliqua signa sunt 
+      <lb ed="#A" n="75"/>in cerebro. videlicet: quod quibuscumque immoderatus 
+      do<lb ed="#A" n="76" break="no"/>lor in cerebro fit: in tribus diebus moriuntur. si vero 
+      <lb ed="#A" n="77"/>hos effugiunt: sani fiunt. Iterum quibuscunque 
+      cerebri<lb ed="#A" n="78" break="no"/>ab aliqua occasione motum fuerit: necesse est sine 
+      <lb ed="#A" n="79"/>voce fieri statim. Hec Hypocras Decimo secundum 
+      prae<lb ed="#A" n="80" break="no"/>fatum Razi: pro praescriptis signis generaliter hec 
+      <lb ed="#A" n="81"/>regula tenenda est: quod virtutes huiusmodi signorum 
+      int<lb ed="#A" n="82" break="no"/>se conferende sunt ita: videlicet quod cum vnum bonum signum 
+      <lb ed="#A" n="83"/>firmum fuerit: multia malis signis praeponderat 
+      <lb ed="#A" n="84"/>Item quod egritudo magis timorosa est in homine semper 
+      <lb ed="#A" n="85"/>sano qui fere nunquam egrotat. Unde signa 
+      predi<lb ed="#A" n="86" break="no"/>cta in homine frequenter egrotante minus 
+      timen<lb ed="#A" n="87" break="no"/>tur.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1647">
+      ¶ Mystice ad hec applicando de signis 
+      mor<lb ed="#A" n="88" break="no"/>tis anime breviter Notandum: quod signa faciei secundum 
+      <lb ed="#A" n="89"/>Grego. omel. de Euangelistis: significant fidem qua 
+      <lb ed="#A" n="90"/>a deo cognoscimur: sicut per faciem vnusquisque 
+      co<lb ed="#A" n="91" break="no"/>gnoscitur apud homines. Unde signa mortis anime 
+      <lb ed="#A" n="92"/>sunt: si fide habet extenuatam aut decoloratam errore: et 
+      <lb ed="#A" n="93"/>aure non audit verba dei. Item oculus significat 
+      <lb ed="#A" n="94"/>intentionem: dicente christo. Si oculus tuus nequam 
+      fu<lb ed="#A" n="95" break="no"/>erit id est deprauata intentio. Tertio os significat 
+      com<lb ed="#A" n="96" break="no"/>fessionem. Quarto cor contritionem. Quinto 
+      ex<lb ed="#A" n="97" break="no"/>tremitates opera exteriora. Sexto sudor et 
+      ege<lb ed="#A" n="98" break="no"/>stio: opera exteriora. Septimo fel ire tentionem. Octa 
+      <lb ed="#A" n="99"/>uo cerebrum cogitationes malas quasi dolores 
+      ani<lb ed="#A" n="100" break="no"/>me. Et sic applica vt videtur 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1679">
+               <head xml:id="Vn7Pel-h130937-Hd1e1681">18</head>
+               <p xml:id="Vn7Pel-h130937-d1e1683">
+                  <lb ed="#A" n="101"/>¶ Que est causa sanationis ex 
+      in<lb ed="#A" n="102" break="no"/>firmitate quacumque in homine: Respondetur secundum Tho i. parte. q. 
+      <lb ed="#A" n="103"/>cxvii. ar. ii quamuis ministerialiter medicus: et 
+      instru<lb ed="#A" n="104" break="no"/>mentaliter medicina in egritudinis sanatione 
+      natu<lb ed="#A" n="105" break="no"/>rali concurrant: Tamen sanationis huiusmodi solus deus 
+      princi<lb ed="#A" n="106" break="no"/>palis causa extat. Patet Primo ex Augu. sententia. xv. de 
+      <lb ed="#A" n="107"/>ciui. dei. di. Medicina quae adhibetur extrinsecus 
+      in<lb ed="#A" n="108" break="no"/>ualida est: nisi spiritus sanctus operetur interius. Secundo ex 
+      <lb ed="#A" n="109"/>sacra scriptura: que deo attribuit sanationem: sicut 
+      <lb ed="#A" n="110"/>et culpe remissionem et mentis illuminationem. Psalmus 
+      <lb ed="#A" n="111"/>cii. dicens. Benedic anima mea domino: et noli obliuisci 
+      <lb ed="#A" n="112"/>omns retributiones eius: qui propiciatur omnibus 
+      iniqui<lb ed="#A" n="113" break="no"/>tatibus tuis: qui sanat omnes infirmitates tuas. Et ite 
+      <lb ed="#A" n="114"/>rum: qui docet hominem scientiam Tertio ergo a simili patet: quia 
+      <!--427.xml-->
+      <pb ed="#A" n="428"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Grego dicit: quod frustra vor docentis exterius sonat 
+      <lb ed="#A" n="2"/>nisi gratia dei interius operando lumen prebeat. Et 
+      <lb ed="#A" n="3"/>Commentator i i. posteriorum dicit. Nec vox nec littera 
+      vi<lb ed="#A" n="4" break="no"/>sa docet: sed est doctor verus qui mentem illuminat. 
+      <lb ed="#A" n="5"/>scilicet deus. Sic a simili de sanatione. Ueruntne 
+      medi<lb ed="#A" n="6" break="no"/>tus et medicina non sunt contemnenda. Ecci. xxxviii. 
+      <lb ed="#A" n="7"/>Honora medicum: propter necessitatem etenim creauit 
+      <lb ed="#A" n="8"/>illum altissimus. A deo enim est omnis medela: 
+      <lb ed="#A" n="9"/>silicet principaliter. Hec ibi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h130937-Dd1e1743">
+               <head xml:id="Vn7Pel-h130937-Hd1e1745">19</head>
+               <p xml:id="Vn7Pel-h130937-d1e1747">
+                  <lb ed="#A" n="10"/>¶ Qualibus ex causis infirmita 
+      <lb ed="#A" n="11"/>tes generaliter accidunt hominibus. Respondet Isidorus 
+      <lb ed="#A" n="12"/>de sumo bono. li. iii. c. iii. Tribus (inquit ex caus 
+      in<lb ed="#A" n="13" break="no"/>firmitates accidunt. Primo ex peccato. Secundo ex 
+      ten<lb ed="#A" n="14" break="no"/>tatione scilicet pro exercitatione et probatione. Tertio ex 
+      pas<lb ed="#A" n="15" break="no"/>sionis vel regiminis intemperie. Huic nouissime 
+      <lb ed="#A" n="16"/>humana potest medicina succurrere: aliis vero 
+      sola<lb ed="#A" n="17" break="no"/>pietas diuine misercordie. Hec ille. Nota ergo quod 
+      gene<lb ed="#A" n="18" break="no"/>raliter loquendo: omnis infirmitatis causa est primo 
+      <lb ed="#A" n="19"/>ex peccato: Et hoc tripliciter. quia Primo quo ad omnes 
+      ho<lb ed="#A" n="20" break="no"/>mines: mors et infirmitatum quecumque genera 
+      proue<lb ed="#A" n="21" break="no"/>niunt ex peccato primorum parentu. Secundo quo ad aliquos 
+      <lb ed="#A" n="22"/>reprobos peccatores deus sepe iusto iudicio 
+      egri<lb ed="#A" n="23" break="no"/>tudines ad puniendum dat propter pecca commissa ab 
+      <lb ed="#A" n="24"/>eis. Unde Glo. super Hiere. xxi. dicit. Longa 
+      infir<lb ed="#A" n="25" break="no"/>mitate tabescere ira dei est. Idcirco apostolis ait Ideo 
+      <lb ed="#A" n="26"/>inter vos infirmi et imbecilles Exne de rege Ioram: 
+      <lb ed="#A" n="27"/>Herode: Antiocho: et aliis. Tertio quo ad esectos 
+      <lb ed="#A" n="28"/>conuertendos per egritudines. Unde glo. Lu. xiiii. 
+      <lb ed="#A" n="29"/>dicit. Debilitas corporis nullum excludit a regno 
+      ce<lb ed="#A" n="30" break="no"/>lesti: sed rarius delinquit et citius ad deum conuer 
+      <lb ed="#A" n="31"/>titur qui non habet in mundo illecebram peccandi vnde 
+      <lb ed="#A" n="32"/>delectetur. Propterea etiam Hug. de claust. anime dicit. 
+      <lb ed="#A" n="33"/>Multos deus videns ad peccandum fortes et 
+      prom<lb ed="#A" n="34" break="no"/>ptos libere: atterit infirmitate vt nequeant 
+      salten<lb ed="#A" n="35" break="no"/>totiens quotiens vellent peccare. Ecce ergo deus 
+      lau<lb ed="#A" n="36" break="no"/>dabilis qui sic praeseruatet a penis
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1808">
+      ¶ Secundo vt Isid. 
+      <lb ed="#A" n="37"/>supra dicit. Causa generaul scilicet egritudinis est ex tentatione. 
+      <lb ed="#A" n="38"/>ad probandum hominis patientiam in aduersis. vt patet in 
+      <lb ed="#A" n="39"/>Iob et in Tobia et in apostolo Paulo patiente iliacam: 
+      <lb ed="#A" n="40"/>Qui et dicit. ii Corum. xii. Uirtus in infirmitate 
+      perfici<lb ed="#A" n="41" break="no"/>tur. Unde et aliquando infirmitas est ad gloriam dei vt 
+      <lb ed="#A" n="42"/>manifestentur opera dei in illo. Sicut patet de ceco 
+      na<lb ed="#A" n="43" break="no"/>to. Ioam . ix. Christo testante etc.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1826">
+      ¶ Tertio 
+      infirmi<lb ed="#A" n="44" break="no"/>tas fit ex passionis vel regiminis intemperantia. videlicet 
+      <lb ed="#A" n="45"/>aut calide aut frigide qualitatis in humoribus et eorum 
+      <lb ed="#A" n="46"/>superfluitatibus ex malo regimine in ciho: potu: 
+      la<lb ed="#A" n="47" break="no"/>bore: et huiusmodi: secundum physicos.
+     </p>
+               <p xml:id="Vn7Pel-h130937-d1e1837">
+      ¶ Ex omnibus 
+      laudabi<lb ed="#A" n="48" break="no"/>lis diuine bonitatis: et iusticia permittens nobis 
+      egri<lb ed="#A" n="49" break="no"/>tudines: et misericordia qua elicit bona etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Metalla </title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Metalla </title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="328"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h101198">
+            <head xml:id="Vn7Pel-h101198-Hd1e110">Metalla </head>
+            <div xml:id="Vn7Pel-h101198-Dd1e112">
+               <head xml:id="Vn7Pel-h101198-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h101198-d1e116">
+                  <lb ed="#A" n="92"/>t 
+      <lb ed="#A" n="93"/>Atalla et 
+      ine<lb ed="#A" n="94" break="no"/>ralia. Questio Unde vel quomodo generantur 
+      <lb ed="#A" n="95"/>metalla: Respondetur secundum Arist. iii. Methe 
+      <lb ed="#A" n="96"/>vbi dicit. Cum inquit occultatur vapor humidus in terra: 
+      fi<lb ed="#A" n="97" break="no"/>unt ex eo duarum specirum corpora: quarum vna liquescit: vt es 
+      <lb ed="#A" n="98"/>aurum et argentum. Altera vero non liquescit sed dilatatur 
+      per<lb ed="#A" n="99" break="no"/>cussione: vt ferrum. Et. iiii. libro. e. dicit Ex aqua inquit et terra 
+      <lb ed="#A" n="100"/>constant esse metalla. Item Seneca libro vii. de 
+      natu<lb ed="#A" n="101" break="no"/>ralibus quaestionibus dicit: quod sicut in nobis sunt plura 
+      gene<lb ed="#A" n="102" break="no"/>ra humorum aliqua necessaria: vt in ossibus medulle: 
+      san<lb ed="#A" n="103" break="no"/>guis: et in capite cerebrum. aliqua corrupta vt saliua: 
+      la<lb ed="#A" n="104" break="no"/>chryma: vria: et plura huiusmodi. cholera: phlegma etc. 
+      <lb ed="#A" n="105"/>sta in terra sunt plura humorum genera: et quaedam quae in lapidem 
+      <lb ed="#A" n="106"/>virtuntur. alia quae mature dura ntur: vt omnia metalla. alia 
+      <lb ed="#A" n="107"/>quae putrescunt: sicut bitumina et similia. et sic de aliis 
+      <lb ed="#A" n="108"/>multis. Unde vt Auicenna in alchimia de anima dicit 
+      <!--328.xml-->
+      <pb ed="#A" n="329"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Septur sunt metalla quae naturaliter creantur sub terra 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e164">
+                  <lb ed="#A" n="2"/>¶ Aurum fit in ventre terre profundiore cum calore 
+      sol<lb ed="#A" n="3" break="no"/>magrgo ex argento viuo pulcro et cum sulphure 
+      rubi<lb ed="#A" n="4" break="no"/>cundo claro absque lapidibus cocto in centum annis 
+      <lb ed="#A" n="5"/>et amplius 
+      <lb ed="#A" n="6"/>Argentum fit de argeto niuo claro cum sulphuri 
+      <lb ed="#A" n="7"/>claro coctis per centum annos etc. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e180">
+                  <lb ed="#A" n="8"/>¶ Cuprum: fit de argenio viuo grosso et sulphure 
+      <lb ed="#A" n="9"/>rubeo grosso. per cetena annorum coctis. sed minus quam 
+      <lb ed="#A" n="10"/>aurum. quia illud nims coctum est et induratum. Ideo nec ignis 
+      <lb ed="#A" n="11"/>nec aque nec terra delet aurum. Argentum aut crudum est 
+      <lb ed="#A" n="12"/>et non coctum multum. Ideo tera cito delet ipset etc. Cuprum 
+      <lb ed="#A" n="13"/>vero obustum est: ideo non delet ipsum terra nisi per anos 
+      <lb ed="#A" n="14"/>multos. sed ignis cito consumit ipsum 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e198">
+                  <lb ed="#A" n="15"/>¶ Plumbum autem dicunt philosophi fieri subtus terram de 
+      argen<lb ed="#A" n="16" break="no"/>to viuo grosso ac spisso et de sulphure pessimo ac 
+      <lb ed="#A" n="17"/>mixto crudo parum cocto. Unde eius pessima natura 
+      <lb ed="#A" n="18"/>odore suo frangit aurum etc. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e210">
+                  <lb ed="#A" n="19"/>¶ Stannum fit de argeto viuo pulcro et claro sed 
+      <lb ed="#A" n="20"/>de pessimo sulphure. crudo parum cocto. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e217">
+                  <lb ed="#A" n="21"/>¶ Ferrum vero fit de argento viuo spisso et sulphure 
+      <lb ed="#A" n="22"/>rubeo spisso nimis cocto Hec Auicenna. Ex qui 
+      <lb ed="#A" n="23"/>bus patet. quod materia omnium est argentum viuum. ideo 
+      dici<lb ed="#A" n="24" break="no"/>tur esse elementum in quo deus creauit omnes 
+      <lb ed="#A" n="25"/>mineras. Similiter dicendum de sulphure quia concurrit. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e230">
+                  <lb ed="#A" n="26"/>¶ <ref xml:id="Vn7Pel-h101198-Rd1e234">De electro habetur in sequentibus. §. iiii. et. x.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e238">
+               <head xml:id="Vn7Pel-h101198-Hd1e240">2</head>
+               <p xml:id="Vn7Pel-h101198-d1e242">
+                  <lb ed="#A" n="27"/>¶ Quales proprietates habeant 
+      <lb ed="#A" n="28"/>metalla singula. 
+      <lb ed="#A" n="29"/>Nota quod secundum Razi et philosophos alios Aurum est caltis 
+      <lb ed="#A" n="30"/>dum et humidum omnibus metallinis corporibus 
+      no<lb ed="#A" n="31" break="no"/>bilius tanquam rex eorum Et dicitur aurum ab 
+      aura<lb ed="#A" n="32" break="no"/>id est a splendore secundum Isid. xiiii. Etymo. eo quod re 
+      <lb ed="#A" n="33"/>percusso aere prae aliis metallis plus splendeat. 
+      Obri<lb ed="#A" n="34" break="no"/>dum autem dictum est eo quod splendore obradiat 
+      <lb ed="#A" n="35"/>et coloris optimi illud sit. De cuius proprietatibus et 
+      vir<lb ed="#A" n="36" break="no"/>tutibus scripsi vbi Aurum et pro brevitate sufficiat. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e266">
+                  <lb ed="#A" n="37"/>¶ Argentum: vt idem Razi dicit est corpus decorum u 
+      <lb ed="#A" n="38"/>propinquius circa aurum frigidum et siccatiuum. 
+      cor<lb ed="#A" n="39" break="no"/>disque tremore proficit et scabiei ac pustulis que in 
+      <lb ed="#A" n="40"/>oculis sunt. Hec Razi tanen almaso. Idem dictat et 
+      <lb ed="#A" n="41"/>Auicenna. ii can. et Hali dici. quod limatura argenti 
+      <lb ed="#A" n="42"/>si conteratur cum argento viuo: prodest emor roidis 
+      <lb ed="#A" n="43"/>scabiei: prurigini et humiditatibus viscosis. Et si 
+      <lb ed="#A" n="44"/>cut sol pecellit omnia astra et post solem luna. sic 
+      au<lb ed="#A" n="45" break="no"/>rum quod dicitur sol. et argentum post illud quasi luna 
+      <lb ed="#A" n="46"/>inter metalla. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e290">
+                  <lb ed="#A" n="47"/>¶ Litargium dicitur argenti purgamentum quod nos 
+      a<lb ed="#A" n="48" break="no"/>genti spiritumam appellamus. fit enim ex argento et 
+      plun<lb ed="#A" n="49" break="no"/>bo Hec Isid. Uis eius secundum Plinium. li. xxxiii. 
+      Pla<lb ed="#A" n="50" break="no"/>tearium et Constantinum Hali est mollire refrige 
+      <lb ed="#A" n="51"/>rare et leni re tumores vulnerum saniemque consumere 
+      <lb ed="#A" n="52"/>et consolidare Unde prodest vlceribus humidis et 
+      apo<lb ed="#A" n="53" break="no"/>stematibus calidis si eo cataplasmentur exiccat et 
+      <lb ed="#A" n="54"/>omnia vulnera et pustulas curat. 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e310">
+                  <lb ed="#A" n="55"/>¶ Item de significatione auri. et 
+      <lb ed="#A" n="56"/>argenti habes vbi Aurum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e318">
+               <head xml:id="Vn7Pel-h101198-Hd1e320">3</head>
+               <p xml:id="Vn7Pel-h101198-d1e322">
+      <!--328.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>¶ Eo siue Uuprum secundum <ref xml:id="Vn7Pel-h101198-Rd1e330">Phioso¬ § 
+      <lb ed="#A" n="58"/>phum et libro de nat. re.</ref> est sonorum. sed sonus per se 
+      ru<lb ed="#A" n="59" break="no"/>dis est. admixtum vero stanno vel argento vel 
+      au<lb ed="#A" n="60" break="no"/>ro dulciter sonat et valide. Sed es fetorem 
+      ha<lb ed="#A" n="61" break="no"/>bet. ipsum in argentum facilius est conuertere quam in 
+      <lb ed="#A" n="62"/>plumbum. Est quoque eiusdem duriciei et liquationis 
+      <lb ed="#A" n="63"/>cum argento. Est tamen rubei coloris. vnde si quis eius 
+      ru<lb ed="#A" n="64" break="no"/>bedinem abstulerit fit argentum. Uirtus eius est secundum 
+      <lb ed="#A" n="65"/>Auicen. in. ii cano. et Razi in Almaso. quod vlcera 
+      <lb ed="#A" n="66"/>vel vulnera consolidat: carnem augmentata 
+      corro<lb ed="#A" n="67" break="no"/>dit. puluis eius prodest cum melle conficiendo 
+      <lb ed="#A" n="68"/>contra fistulam: acuit visum: capillos denigrat 
+      <lb ed="#A" n="69"/>Uas ex ere venenosum est ad coquendum in 
+      eo<lb ed="#A" n="70" break="no"/>vel bibendum ex eo etc. Significat autem praedicatorem 
+      <lb ed="#A" n="71"/>male vite. i. Corum. xiii. Si linguis hominum lo. et an 
+      <lb ed="#A" n="72"/>gelorum charitatem autem non habuero: factus sum 
+      <lb ed="#A" n="73"/>velut es sonans etc. quia licet bene sonet sed in se fetet. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e370">
+               <head xml:id="Vn7Pel-h101198-Hd1e372">4</head>
+               <p xml:id="Vn7Pel-h101198-d1e374">
+                  <lb ed="#A" n="74"/>¶ Auricalchum secundum Isidorum 
+      di<lb ed="#A" n="75" break="no"/>citur: eo quod splendorem auri et duriciem eris possideat 
+      <lb ed="#A" n="76"/>Nam calchos grece es vocatur. Et vt dicitur libro de nat. 
+      <lb ed="#A" n="77"/>re. Ex ere fit auricalchum habens splendorem auri: non 
+      <lb ed="#A" n="78"/>substantiam. Hoc inquit auricalchum frequentius 
+      <lb ed="#A" n="79"/>scripture vocant electrum. et hoc propter colorem 
+      <lb ed="#A" n="80"/>electro prope consimilem. Item secundum Alchimistas Es 
+      <lb ed="#A" n="81"/>transmutatur in auricalchum quod fit mediante 
+      <lb ed="#A" n="82"/>thucia: quia fumus eius albificat: cum sit 
+      tem<lb ed="#A" n="83" break="no"/>perate albus. Unde puluis eius cum proiicitur 
+      su<lb ed="#A" n="84" break="no"/>per es fusum et calefit huiusmodi album mixtum cum 
+      <lb ed="#A" n="85"/>rubeo reprimit rubedinem. Et ita fit auricalchum. 
+      <lb ed="#A" n="86"/>Unde significat christum <ref xml:id="Vn7Pel-h101198-Rd1e404">Ezech. i. Patet. §. x.</ref> infra. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e409">
+               <head xml:id="Vn7Pel-h101198-Hd1e411">5</head>
+               <p xml:id="Vn7Pel-h101198-d1e413">
+                  <lb ed="#A" n="87"/>¶ Stannum secundum <ref xml:id="Vn7Pel-h101198-Rd1e417">Plinium li. xxxiii. </ref>
+                  <lb ed="#A" n="88"/>appellatur metallum: ita quod plumbum nigrum aliquan 
+      <lb ed="#A" n="89"/>do cum argento nascitur: mixtisque venis conflatur 
+      <lb ed="#A" n="90"/>Et eius qui primus fuerit in fornacibus liquor 
+      <lb ed="#A" n="91"/>ippellatur stannum. qui secundus argentum. 
+      Sta<lb ed="#A" n="92" break="no"/>num saporem gratum reddit. ereis vasis illitum 
+      com<lb ed="#A" n="93" break="no"/>pescit eruginis virus: mirumque quod pondus non au 
+      <lb ed="#A" n="94"/>get. Item vt dicitur libro de natu. rerum Stannum est 
+      <lb ed="#A" n="95"/>valde ductile et tractabile: et pre aliis metallis 
+      li<lb ed="#A" n="96" break="no"/>quabile. per se quoque est mutum. sed cum Ere 
+      <lb ed="#A" n="97"/>vel argento aut auro mixtum: est sonorum. 
+      Hu<lb ed="#A" n="98" break="no"/>ius scoria prodest vlceribus oculorum. Eius 
+      vir<lb ed="#A" n="99" break="no"/>tus quasi thutie aduste. sed stanni odor 
+      quan<lb ed="#A" n="100" break="no"/>do aduritur valde caueri oportet secundum Auicennam 
+      <lb ed="#A" n="101"/>ii cano.: Unde significat humiliter penitentes. 
+      <lb ed="#A" n="102"/>Applica. 
+      <lb ed="#A" n="103"/>1 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e456">
+               <head xml:id="Vn7Pel-h101198-Hd1e458">6</head>
+               <p xml:id="Vn7Pel-h101198-d1e460">
+                  <lb ed="#A" n="104"/>Plumbum habet duo 
+      gene<lb ed="#A" n="105" break="no"/>ra secundum Isud scilicet nigrum et candidum vel album. Et hoc 
+      <lb ed="#A" n="106"/>scilicet album melius. Et plumbum est ponderosum sicut 
+      <lb ed="#A" n="107"/>aurum. tamen aurum plus: vt patet libro de natu. re. Item secundum 
+      <lb ed="#A" n="108"/>philosophum li. iiii. Metheor. in plumbo est aurum et 
+      argen<lb ed="#A" n="109" break="no"/>tum essentialiter: et non visibiliter. sed per potentiam 
+      <lb ed="#A" n="110"/>Et vt etiam Razi libro de Aluminibus et 
+      Sali<lb ed="#A" n="111" break="no"/>bus dicit Plumbum est ex sectione saturni 
+      gra<lb ed="#A" n="112" break="no"/>ae: velocis liquefactionis. Ex ipso exit argentum. 
+      <lb ed="#A" n="113"/>Unde et Philosophi greci conuenerunt in hoc 
+      <!--329.xml-->
+      <pb ed="#A" n="330"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod omnium corporum plumbum auro propinquius est 
+      <lb ed="#A" n="2"/>teste Armenide. ideo dispositionis similis extat. 
+      <lb ed="#A" n="3"/>quia sicut aurum est ponderosum permanens sub 
+      <lb ed="#A" n="4"/>terra et aqua et aere. et est flexibile sicut plumbum Item 
+      <lb ed="#A" n="5"/>Diascorides dicit. quod plumbum simplex tritum et 
+      pul<lb ed="#A" n="6" break="no"/>uerizatum ac superunctum mitigat ictus scorpionum 
+      <lb ed="#A" n="7"/>mariorum et draconum Et secundum Auicen. ii can. ac Galie 
+      <lb ed="#A" n="8"/>num vehementer apostemata calida infrigidat. 
+      L<lb ed="#A" n="9" break="no"/>gatur ergo ex eo lamina super scrophulas et 
+      glandio<lb ed="#A" n="10" break="no"/>las. Etsi alligetur renibus id est illorum membrorum partibus 
+      in<lb ed="#A" n="11" break="no"/>hibet veneris impetus. vt dicit Plinius. Item in 
+      scriptu<lb ed="#A" n="12" break="no"/>ra plumbum verbi dei obliuionem in mente hominis Unde 
+      <lb ed="#A" n="13"/>Hiere. vi. Defecit sufflatorium in igne. glo. et Lyrst 
+      <lb ed="#A" n="14"/>dicit id est non habuit effectum verbum dei. Consumptum est 
+      <lb ed="#A" n="15"/>inquit plumbum etc. Nam aurifaber fundens aurem vel 
+      ani<lb ed="#A" n="16" break="no"/>gentum in igne apponit simul plumbum vel stannum vt ca 
+      <lb ed="#A" n="17"/>lor ignis aurum vel argentum non consumat. sed magis 
+      <lb ed="#A" n="18"/>plumbum vel stannum. Et ideo plumbum quando totaliter est 
+      consu<lb ed="#A" n="19" break="no"/>ptum: tunc ignis consumit aurum vel argentum positum 
+      <lb ed="#A" n="20"/>in fornace. Et sic eo consumpto: labor 
+      aurifabri<lb ed="#A" n="21" break="no"/>non habet effectum sed contrarium. Et sic fit in 
+      prae<lb ed="#A" n="22" break="no"/>dicatore: cum populus non vult tenere verbum 
+      <lb ed="#A" n="23"/>auditum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e542">
+               <head xml:id="Vn7Pel-h101198-Hd1e544">7</head>
+               <p xml:id="Vn7Pel-h101198-d1e546">
+                  <lb ed="#A" n="24"/>¶ Terusa secundum <name xml:id="Vn7Pel-h101198-Nd1e550">Auicennam</name>. ii. 
+      can<lb ed="#A" n="25" break="no"/>et Platearium. est cinis plumbi vel floest plumbi etc. 
+      <lb ed="#A" n="26"/>De qua etiam Hiero. in epistolis loquitur contra 
+      mu<lb ed="#A" n="27" break="no"/>lieres se ornantes cerusa etc. Hanc qui faciunt 
+      <lb ed="#A" n="28"/>sepius incurunt apoplexiam. epilensiam et 
+      pa<lb ed="#A" n="29" break="no"/>ralysim. Et qui longo tempore vtuntur adhibitione ceruso 
+      <lb ed="#A" n="30"/>bolorem dentium incurrunt. et putredinem orisque 
+      <lb ed="#A" n="31"/>fetorem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e569">
+               <head xml:id="Vn7Pel-h101198-Hd1e571">8</head>
+               <p xml:id="Vn7Pel-h101198-d1e573">
+                  <lb ed="#A" n="32"/>¶ Ferrum. vt dicitur libro de natu. 
+      re<lb ed="#A" n="33" break="no"/>super omnia metalla corruptelam vel 
+      rubigi<lb ed="#A" n="34" break="no"/>nem facilius contrahit. et etiam connera corruptione 
+      <lb ed="#A" n="35"/>ificit. Rauce sonat. igne hebescit et ductile fit. Et 
+      <lb ed="#A" n="36"/>eo fiunt arma: diuersaque instrumenta incisionibus 
+      <lb ed="#A" n="37"/>apta. Unde Dan.
+     </p>
+               <p xml:id="Vn7Pel-h101198-d1e589">
+      ¶ Ferrum domat omnia. Si 
+      <lb ed="#A" n="38"/>gnificatlergo in scriptura crudelitatem vel 
+      tyran<lb ed="#A" n="39" break="no"/>nidem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e597">
+               <head xml:id="Vn7Pel-h101198-Hd1e599">9</head>
+               <p xml:id="Vn7Pel-h101198-d1e601">
+                  <lb ed="#A" n="40"/>¶ Calibs: est genus feri duris. 
+      <lb ed="#A" n="41"/>simi. sed magis frangibilis quam ferrum sicut 
+      gla<lb ed="#A" n="42" break="no"/>lies magis frangibilis est quam cornum. Hec lib. de 
+      <lb ed="#A" n="43"/>natura rerum Et vt dicit Isidorus lib. xvi. et philosophus 
+      <lb ed="#A" n="44"/>hoc ferri genere acuitur acies armorum vt valeant 
+      <lb ed="#A" n="45"/>Item secundum Constantinum lib. graduum et 
+      Diasco<lb ed="#A" n="46" break="no"/>ridem. Ferrum vel calibs candens in aqua vel 
+      <lb ed="#A" n="47"/>vino extinctum: optimum bibere est diuturne 
+      so<lb ed="#A" n="48" break="no"/>lutioni et vulneribus intestinorum. neruos confortat. 
+      <lb ed="#A" n="49"/>emorroidas curat secundum Galienum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e626">
+               <head xml:id="Vn7Pel-h101198-Hd1e628">10</head>
+               <p xml:id="Vn7Pel-h101198-d1e630">
+                  <lb ed="#A" n="50"/>¶ EAectrum secundum Isido. dicitur eo quo 
+      <lb ed="#A" n="51"/>ad radios solis clarius reluceat auro. Nam poe 
+      <lb ed="#A" n="52"/>te aurum electron vocant. Et vt dicitur libro de 
+      <lb ed="#A" n="53"/>natura rerum Electrum est duplex. scilicet 
+      artificia<lb ed="#A" n="54" break="no"/>le: quod ex auri et argenti mixtura consicitur. Et 
+      <lb ed="#A" n="55"/>naturale. quod colore simile est. sed virtute praestantius 
+      <lb ed="#A" n="56"/>rarissime inuenitur et sophisticatum auro difficilli¬ 
+      <!--329.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>me discernitur. Sed vas ex naturali et vero electro: 
+      <lb ed="#A" n="58"/>venenum prodit: vt dicunt praenominati. et Plinius li. xxxiii. 
+      <lb ed="#A" n="59"/>Ita quod si vasi huiusmodi venenu infundatur: 
+      stri<lb ed="#A" n="60" break="no"/>det et colorem perdit: et colores varios in modum 
+      <lb ed="#A" n="61"/>arcus celestis emittit. Item secundum Glo. super Ezech. 
+      <lb ed="#A" n="62"/>Electrum ex auro et argento compositum dum 
+      <lb ed="#A" n="63"/>argentum miscetur in claritatem crescit: et aurum 
+      <lb ed="#A" n="64"/>a fulgore suo pallescit. Per electrum ergo 
+      chri<lb ed="#A" n="65" break="no"/>stus inquit significatur: in quo dum humanitas 
+      <lb ed="#A" n="66"/>in maiestatis gloriam vnita est: diuinitas a proprii 
+      <lb ed="#A" n="67"/>fulgoris potentia nostris oculis se temporauit. 
+      Ele<lb ed="#A" n="68" break="no"/>ctrum ergo in igne est deus et homo in persecutione. Hec 
+      <lb ed="#A" n="69"/>glo. super Eze i. et. viii. capitulis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e682">
+               <head xml:id="Vn7Pel-h101198-Hd1e684">11</head>
+               <p xml:id="Vn7Pel-h101198-d1e686">
+                  <lb ed="#A" n="70"/>¶ Quid de spiritibus 
+      minerali<lb ed="#A" n="71" break="no"/>bus: Nota secundum Auicen. lirt alchimie de anima: et 
+      Al<lb ed="#A" n="72" break="no"/>chimistas quod spiritus naturam habere dicuntur 
+      quaecun<lb ed="#A" n="73" break="no"/>que ignem fugiunt. Unde etiam que egrediuntur de 
+      <lb ed="#A" n="74"/>planta vel alia re per distillationem habent naturam 
+      <lb ed="#A" n="75"/>spirituum: quia fugiunt ignem. et omne tale apud 
+      <lb ed="#A" n="76"/>Alchimistas dicitur volatile ac fugitiuum. Hinc et 
+      ar<lb ed="#A" n="77" break="no"/>gentum viuum seruus fugitiuus vocatur. Itaque quattuor 
+      <lb ed="#A" n="78"/>sunt spiritus minerales scilicet Mercurius id est argentum 
+      <lb ed="#A" n="79"/>viuum. Arsenicum quo id est auripigmentum. et sulphur. 
+      <lb ed="#A" n="80"/>ac sal armoniacum. Ista enim quia sublimantur: per 
+      <lb ed="#A" n="81"/>seipsaque ascendunt et soluuntur leuiter et faciunt alia 
+      <lb ed="#A" n="82"/>solui: ideo dicuntur spiritus. quia nulla res sine 
+      <lb ed="#A" n="83"/>spiritu sublimari potest. Quod autem non ita 
+      fu<lb ed="#A" n="84" break="no"/>git ignem: dicitur corpus fixum. sicut corpora 
+      la<lb ed="#A" n="85" break="no"/>pidum et metallorum: que licet non sint adeo fixa vt 
+      <lb ed="#A" n="86"/>paulatim non fugiant ab igne: tamen quia per se 
+      <lb ed="#A" n="87"/>non ascendunt id est non sublimantur: ideo corpora: 
+      <lb ed="#A" n="88"/>non spiritus dicuntur. Hec est materia 
+      Alchi<lb ed="#A" n="89" break="no"/>mistarum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e733">
+               <head xml:id="Vn7Pel-h101198-Hd1e735">12</head>
+               <p xml:id="Vn7Pel-h101198-d1e737">
+                  <lb ed="#A" n="90"/>¶ Argentum viuum itaque secundum 
+      Isi<lb ed="#A" n="91" break="no"/>dorum dicitur quia liquidum percurrit. Et inuentur specialiter 
+      <lb ed="#A" n="92"/>in metallis subtus terram non nisi in loco frigido. 
+      <lb ed="#A" n="93"/>vnde secundum Auicen. currens est propter humiditate et 
+      fri<lb ed="#A" n="94" break="no"/>giditatem quae sunt in eo. Ideo etiam effugit de igne 
+      <lb ed="#A" n="95"/>quia maior pars eius est aqua que est igni contraria
+     </p>
+               <p xml:id="Vn7Pel-h101198-d1e753">
+      ¶ Inue 
+      <lb ed="#A" n="96"/>nitur etiam in stercore vetustissimo cloacarum vt 
+      pute<lb ed="#A" n="97" break="no"/>orum limo. Proprium eius est secundum Arist. iiii. 
+      Me<lb ed="#A" n="98" break="no"/>theor. quod ex vapore sulphuris coagulatur. Et vt dicit 
+      <lb ed="#A" n="99"/>Plinius supra omnia ei innatant praeter aurum id vnum ad se 
+      <lb ed="#A" n="100"/>trahit. Item secundum Constan. liro graduum: et Auicen. 
+      <lb ed="#A" n="101"/>supra pediculos occidit: scabiem curat: ex eius fumo 
+      <lb ed="#A" n="102"/>fugiunt vermes et serpentes venenosi et mures: 
+      ho<lb ed="#A" n="103" break="no"/>mini bibenti mortem tribuit. euandere tantum poterit 
+      <lb ed="#A" n="104"/>lac caprinum bibendo: ac se mouendo: vel etiam 
+      <lb ed="#A" n="105"/>bibendo vinum: addito absinthio: sinapi: vel iso 
+      <lb ed="#A" n="106"/>po. Uapor eius facit accidere paralysim et 
+      tremo<lb ed="#A" n="107" break="no"/>rem. Et fumus eius destruit visum et auditum 
+      <lb ed="#A" n="108"/>tic dus innio tetc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e785">
+               <head xml:id="Vn7Pel-h101198-Hd1e787">13</head>
+               <p xml:id="Vn7Pel-h101198-d1e789">
+                  <lb ed="#A" n="109"/>¶ Gulphur igne accenditur prae omnibus 
+      <lb ed="#A" n="110"/>facillime: et fetet maxime accensum. Si ex eo 
+      ar<lb ed="#A" n="111" break="no"/>hor pomorum citrinorum fumigetur: mox omnia cius 
+      po<lb ed="#A" n="112" break="no"/>ma cadunt: vt dicit Constantur. supra. Quod si rosa rubens 
+      <!--330.xml-->
+      <pb ed="#A" n="331"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>atque pamni rubel ex eo fumigentur fiunt albi coloris 
+      <lb ed="#A" n="2"/>Uis eius sentitur ab aquis calidis scilicet sulphureis. 
+      De<lb ed="#A" n="3" break="no"/>quarum virtute patuit vbi <ref xml:id="Vn7Pel-h101198-Rd1e812">Aqua. §. xi. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e816">
+               <head xml:id="Vn7Pel-h101198-Hd1e818">14</head>
+               <p xml:id="Vn7Pel-h101198-d1e820">
+                  <lb ed="#A" n="4"/>¶ Arsenicum. quod latine 
+      auri<lb ed="#A" n="5" break="no"/>pigmentum dicitur. optimum eligitur quod in 
+      <lb ed="#A" n="6"/>aureum colorem transit. Sed pallidum dete. 
+      <lb ed="#A" n="7"/>rius est secundum Isi. et Diascor. Cum calce viua mixtum 
+      <lb ed="#A" n="8"/>depilat corpus. vide vbi <ref xml:id="Vn7Pel-h101198-Rd1e833">Lapis. §. x.</ref> in fine 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e836">
+                  <lb ed="#A" n="9"/>¶ Sal armoniacum. secundum <ref xml:id="Vn7Pel-h101198-Rd1e840">philosophum. iiii. metheororum.</ref> et 
+      <lb ed="#A" n="10"/>
+                  <ref xml:id="Vn7Pel-h101198-Rd1e844">Plinium li. xxxi.</ref> similis est colore alumini ingrat 
+      <lb ed="#A" n="11"/>sapore. et sunt ambo de genere salis. Nam omnes se 
+      <lb ed="#A" n="12"/>les praeparati redeunt ad sal armoniacum quantum ad 
+      co<lb ed="#A" n="13" break="no"/>plementum. Hoc sal armoniacum est salium melius et 
+      <lb ed="#A" n="14"/>nobilius.
+     </p>
+               <p xml:id="Vn7Pel-h101198-d1e856">
+      ¶ De salibus vbi <ref xml:id="Vn7Pel-h101198-Rd1e858">Terra. vide. §. xiii</ref> t se 
+      <lb ed="#A" n="15"/>quantibus
+     </p>
+               <p xml:id="Vn7Pel-h101198-d1e863">
+      ¶ De alumine ibidem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e866">
+               <head xml:id="Vn7Pel-h101198-Hd1e868">15</head>
+               <p xml:id="Vn7Pel-h101198-d1e870">
+                  <lb ed="#A" n="16"/>¶ Minium secundum <ref xml:id="Vn7Pel-h101198-Rd1e874">Plin. li. xxxiii.</ref> in 
+      <lb ed="#A" n="17"/>uenitur in argentariis metalilis et valde consolidat vulne 
+      <lb ed="#A" n="18"/>ra: vt fertur. Quidam autem hoc esse cinobrium dicunt 
+      <lb ed="#A" n="19"/>Et alii dicunt quod idem vocatur sanguis 
+      draco<lb ed="#A" n="20" break="no"/>nis. sed falluntur. vt dicit Diascorides. quia minium in 
+      h<lb ed="#A" n="21" break="no"/>sperataia conficitur ex lapide qui arenene argiritidi miscetur 
+      <lb ed="#A" n="22"/>qui si tritus fuerit colorem mutat. sed odor eius in 
+      <lb ed="#A" n="23"/>metallo hominem effocat nisi faciem tegat 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e892">
+                  <lb ed="#A" n="24"/>¶ Cinabar aute id est cinobrium in Libra nascitur 
+      Color<lb ed="#A" n="25" break="no"/>eius est sanguineus. ideoque a multis sanguis 
+      dra<lb ed="#A" n="26" break="no"/>conis esse putatur. Uirtus eius est quod vehementer 
+      constri<lb ed="#A" n="27" break="no"/>git fluorem sanguinis. Combustionibus etiam ac 
+      pustu<lb ed="#A" n="28" break="no"/>lis opitulatur etc 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e905">
+                  <lb ed="#A" n="29"/>¶ Utriolum secundum Plinium li. xxxvi. imitatur 
+      colore<lb ed="#A" n="30" break="no"/>quasi omnium lapidum. licet fiat ex plumbo aliquando. tamen quia 
+      coniu<lb ed="#A" n="31" break="no"/>gitur cum limatura cupri eius puluis habet albedinem vt 
+      <lb ed="#A" n="32"/>dicitur libro de vaporibusus 
+      </p>
+               <p xml:id="Vn7Pel-h101198-d1e916">
+                  <lb ed="#A" n="33"/>¶ Nasurium multas requritlauationes. setraseo 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h101198-Dd1e922">
+               <head xml:id="Vn7Pel-h101198-Hd1e924">16</head>
+               <p xml:id="Vn7Pel-h101198-d1e926">
+                  <lb ed="#A" n="34"/>¶ Utrum metallarii operatione alchi 
+      <lb ed="#A" n="35"/>mica commutent veraciter metallum vnum in aliud Hoc 
+      <lb ed="#A" n="36"/>apud tam philosophos quam theologos dubium est. Sed quicqui 
+      <lb ed="#A" n="37"/>sit: tamen ars illa alchimica est prohibenda in foro 
+      consci<lb ed="#A" n="38" break="no"/>entie et suspiciosa. Tum quia secundum Uldr. in consiliis: ibi 
+      <lb ed="#A" n="39"/>concurrit ars magica. alias liceret. Tum quia in 
+      publi<lb ed="#A" n="40" break="no"/>co talis ars non docetur. quod est signum mali. Tum quia in 
+      <lb ed="#A" n="41"/>tali perporatione plus consumitur quam adquiratur etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

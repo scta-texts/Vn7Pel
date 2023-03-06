@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zodiacus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Zodiacus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="494"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h153378">
+            <head xml:id="Vn7Pel-h153378-Hd1e110">Zodiacus</head>
+            <div xml:id="Vn7Pel-h153378-Dd1e112">
+               <head xml:id="Vn7Pel-h153378-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h153378-d1e116">
+                  <lb ed="#A" n="111"/>¶ Idiacus. Queri 
+      <lb ed="#A" n="112"/>tur de hoc qualis circulus dicitur zodiacus in 
+      <!--494.xml-->
+      <pb ed="#A" n="495"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>celo: Notandum ergo quod sicut scribit Guillermus 
+      <lb ed="#A" n="2"/>de Conchis. Philosophi dixerunt vndecim 
+      cir<lb ed="#A" n="3" break="no"/>culas esse in toto. Quorum duo sunt visibiles alii 
+      <lb ed="#A" n="4"/>inuisibiles. Primus de visibilibus est zodiacus 
+      <lb ed="#A" n="5"/>Hic a capricorno per ariete ad cancrum 
+      ascen<lb ed="#A" n="6" break="no"/>dit et de cancro per libram ad capricornum des 
+      ces<lb ed="#A" n="7" break="no"/>dit. Hec intellige iuxta nostrum situm. vnde 
+      Ari<lb ed="#A" n="8" break="no"/>sto. ii lib. de generatione vocat eum obliquum 
+      <lb ed="#A" n="9"/>circulum in quo id est sub quo mouetur sol et alii 
+      pla<lb ed="#A" n="10" break="no"/>nete dicens. Motus vel latio solis et planetarum 
+      <lb ed="#A" n="11"/>in obliquo circulo est causa corruptionis et 
+      gene<lb ed="#A" n="12" break="no"/>rationis rerum naturalium. Hec ibi Aristoteles 
+      <lb ed="#A" n="13"/>Item Guillermus de Conchis subditi: quod secun 
+      <lb ed="#A" n="14"/>dus de visibilibus circulis a grecis nominatur 
+      <lb ed="#A" n="15"/>Galaxias id est lacteus. De quo vide vbi Celum 
+      <lb ed="#A" n="16"/>§ xvii. in fine: ibi scripsi de hoc. Nouem autem 
+      <lb ed="#A" n="17"/>alii sunt inquit circuli inuisibiles. quia nil aliud 
+      <lb ed="#A" n="18"/>sunt nisi linee intelligibiles. Horum quinque sunt 
+      <lb ed="#A" n="19"/>paralelli communi nomine. Paralellus autem 
+      in<lb ed="#A" n="20" break="no"/>terpretatur eque stans: quoniam omnes circul 
+      <lb ed="#A" n="21"/>isti equum habent in hoc tenorem quod ab oriente 
+      <lb ed="#A" n="22"/>per occidentem reuertuntur ad orientem. vel 
+      di<lb ed="#A" n="23" break="no"/>cuntur eque stantes scilicet a medio circulo equi 
+      <lb ed="#A" n="24"/>noctiali. Nam horum medius maximusque est 
+      <lb ed="#A" n="25"/>equinoctialis circulus. vel dictus equidialis. quia 
+      <lb ed="#A" n="26"/>sole ibi existente equantur dies et nox. Et circa huc 
+      <lb ed="#A" n="27"/>hinc et inde eque distant alii quattuor circuli 
+      bi<lb ed="#A" n="28" break="no"/>ni et bini: puta quantum distat ab equinoctiali 
+      <lb ed="#A" n="29"/>tro picus estiuus qui dicitur solsticialis: tantum 
+      <lb ed="#A" n="30"/>distat et tropicus hyemalis id est solsticialis. Et 
+      <lb ed="#A" n="31"/>quantum distat ab eodem medio arcticus: in tantum 
+      <lb ed="#A" n="32"/>et antarcticus distat. Dicitur autem tropicus id est 
+      <lb ed="#A" n="33"/>conuersiuus. quia quando sol ad alterum horum 
+      <lb ed="#A" n="34"/>ascendit: ibi stat ab ascensu et conuertitur ad 
+      de<lb ed="#A" n="35" break="no"/>scensum. Similiter et econuerso. vnde hec 
+      solsti<lb ed="#A" n="36" break="no"/>tia sunt in principio cancri: estiuus. Et in princ 
+      <lb ed="#A" n="37"/>pio capricorni hyemalis
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e210">
+      ¶ Item de istis circulis 
+      <lb ed="#A" n="38"/>quinque qui dicuntur paralelli. habetur 
+      breui<lb ed="#A" n="39" break="no"/>ter vbi Celum. § xvii. nomine Tone. ergo hic trant 
+      <lb ed="#A" n="40"/>eo: Preter hos sunt alii duo qui dicuntur coluri 
+      inui<lb ed="#A" n="41" break="no"/>sibiles circuli quasi colonuri id est imperfecti 
+      cir<lb ed="#A" n="42" break="no"/>culi ad modum caude bouis siluestris. Nam 
+      co<lb ed="#A" n="43" break="no"/>lon membrum scilicet caude et vros bos siluestris 
+      di<lb ed="#A" n="44" break="no"/>citur. Et sic nominantur propter imperfectionem 
+      <lb ed="#A" n="45"/>non quia in se sint imperfecti circuli. sed quantum 
+      <lb ed="#A" n="46"/>ad nos. quia pars alterius poli quam intersecant 
+      <lb ed="#A" n="47"/>nunquam a nobis videtur. Et horum intersectio fit 
+      <lb ed="#A" n="48"/>in summo septentrionis. De istis coluris plura 
+      <lb ed="#A" n="49"/>ibi ponuntur que pertranseo causa brevitatis. 
+      <lb ed="#A" n="50"/>Ultra hec adhuc alii circuli duo sunt inuisibiles 
+      <lb ed="#A" n="51"/>Unus dicitur meridianus designans illam 
+      par<lb ed="#A" n="52" break="no"/>tem celi in qua sol equaliter distans ab ortu et 
+      oc<lb ed="#A" n="53" break="no"/>casu facit meridiem intelligibiliter. Alius dicitur 
+      <lb ed="#A" n="54"/>orizon sic dictus quasi finitor visus. quia est 
+      li<lb ed="#A" n="55" break="no"/>nea intelligibilis vbi caelum videtur terre 
+      coniun<lb ed="#A" n="56" break="no"/>gi. et ita limitem facit visui et variatur per diuersi 
+      <lb ed="#A" n="57"/>tatem habitantium vel circumspicientium. Et si 
+      <lb ed="#A" n="58"/>cut orizon distinguitur duplex: sic et circuli orizon¬ 
+      <!--494.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>tales. Unus dicitur naturalis qui scilicet finit visum 
+      <lb ed="#A" n="60"/>illorum qui sunt in medio mundi. Alius dicitur 
+      <lb ed="#A" n="61"/>artificialis qui finit visum existentium extra 
+      mun<lb ed="#A" n="62" break="no"/>di medium. vnde secundum diuersos situs diuersus est 
+      <lb ed="#A" n="63"/>orizon artificialis.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e273">
+      ¶ Ad hec infra. §. vii. Ex istis 
+      <lb ed="#A" n="64"/>patet ad quesitum Qualis sit circulus Todiaci 
+      <lb ed="#A" n="65"/>vt dictum est supra circa principium. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e281">
+               <head xml:id="Vn7Pel-h153378-Hd1e283">2</head>
+               <p xml:id="Vn7Pel-h153378-d1e285">
+                  <lb ed="#A" n="66"/>¶ Sed quare praedictus circum lus 
+      <lb ed="#A" n="67"/>zodiacus nominatur: Dicendum secundum Bedam libro de ima 
+      <lb ed="#A" n="68"/>gine mundi vbi ait. In medio firmamenti inquit 
+      <lb ed="#A" n="69"/>sunt. xii. signa per transuersum disposita: 
+      equa<lb ed="#A" n="70" break="no"/>liter per circumitum distincta. Horum dispositio 
+      in<lb ed="#A" n="71" break="no"/>quit grece dicitur zodiacus. latine signifer eo quod 
+      <lb ed="#A" n="72"/>in ipso circulo sunt signa que animalium habent 
+      <lb ed="#A" n="73"/>nomina Todian enim animal dicitur. Idem dicit 
+      <lb ed="#A" n="74"/>Guillermus de Conchis addens quod huius 
+      lon<lb ed="#A" n="75" break="no"/>gitudo circuli in. xii. equas partes per fluxum aque 
+      <lb ed="#A" n="76"/>inquit. vt refert etiam Macrobius ab egyptiis est 
+      <lb ed="#A" n="77"/>diuisa que signa dicuntur. quia scilicet eis signamus 
+      <lb ed="#A" n="78"/>in qua parte celi sit sol et alii planete. Hec. xii. 
+      si<lb ed="#A" n="79" break="no"/>gna iuxta qualitates elementorum Astrologi qui 
+      <lb ed="#A" n="80"/>dam in quattuor diuiserunt: asserentes Arietem 
+      <lb ed="#A" n="81"/>Leonem et Sagittarium calidos et siccos. sicut 
+      <lb ed="#A" n="82"/>est ignis. Taurum: virginem et capricornum frigidos 
+      <lb ed="#A" n="83"/>et siccos vt est terra. Geminos: libram et aquarium 
+      <lb ed="#A" n="84"/>calidos et humidos. vt aer est. Cancrum scorpionem 
+      <lb ed="#A" n="85"/>et pisces frigidos et humidos. Hec ex Guillermo 
+      <lb ed="#A" n="86"/>de Conchis. Item ista signa secundum Bedam per 
+      trans<lb ed="#A" n="87" break="no"/>uersum dicuntur disposita. quia numerantur 
+      trans<lb ed="#A" n="88" break="no"/>uerse. ab occidente in orientem computando sunt 
+      <lb ed="#A" n="89"/>equaliter distincta. quia quodlibet signum eque 
+      <lb ed="#A" n="90"/>habet. xxx gradus secundum Als abicium. Et quilibet 
+      gra<lb ed="#A" n="91" break="no"/>dus. lix. minuta. et quodlibet minutum. lict secunda. Et 
+      <lb ed="#A" n="92"/>quodlibet secundum. lx. tertia. et sic in infinitum. Item 
+      <lb ed="#A" n="93"/>de signis. v. Est Aries taurus gemini cancer leo 
+      <lb ed="#A" n="94"/>virgo. v. Libraque scorpio sagitta capricor. aqua 
+      <lb ed="#A" n="95"/>pisces. etc. Ex omnibus itaque laudabilis est dei 
+      bo<lb ed="#A" n="96" break="no"/>nitas et sapientia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e356">
+               <head xml:id="Vn7Pel-h153378-Hd1e358">3</head>
+               <p xml:id="Vn7Pel-h153378-d1e360">
+                  <lb ed="#A" n="97"/>¶ Quiod de significationibus 
+      no<lb ed="#A" n="98" break="no"/>minum signorum zodiaci. Notandum quod Beda lib. de 
+      <lb ed="#A" n="99"/>imagine mundi de singulis. xii. signis 
+      prosequen<lb ed="#A" n="100" break="no"/>do dicit sic.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e371">
+      ¶ Primum ergo signum est Aries 
+      com<lb ed="#A" n="101" break="no"/>stans ex pluribus stellis. quia sicut animal aries 
+      <lb ed="#A" n="102"/>tota estate in dextro. et tota hyeme in sinistro late 
+      <lb ed="#A" n="103"/>re cubat. Sic sol sub illo signo arietis gradiens 
+      <lb ed="#A" n="104"/>dextram partem celi perambulat. hec est pars 
+      orien<lb ed="#A" n="105" break="no"/>talis vbit Celum. §. xxxiiii
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e384">
+      ¶ Secundm dicitur Taurus ob 
+      <lb ed="#A" n="106"/>sercationem quod sol sub illo positus radiorum suorum 
+      cor<lb ed="#A" n="107" break="no"/>nua erexit et terram arabilem reddit
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e391">
+      ¶ Tertium Gemi 
+      <lb ed="#A" n="108"/>ni. quia sol sub illo duobus amplius diebus quam sub aliis 
+      <lb ed="#A" n="109"/>secundum nos videtur morari.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e399">
+      ¶ Quartum Cancer sercat quod 
+      <lb ed="#A" n="110"/>sicut canc er retrocedit: sic sol ad illud signum veniens 
+      <lb ed="#A" n="111"/>cursum suum retroflectit.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e406">
+      ¶ Quintum Leo desigunt quod sit 
+      <lb ed="#A" n="112"/>animal leo in anteriori parte calide nature est. et in 
+      po<lb ed="#A" n="113" break="no"/>steriori parte est frigide: Ita sol in illo signo 
+      men<lb ed="#A" n="114" break="no"/>scilicet augustum prius facit calidum: ad extremum tepidum 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e415">
+                  <lb ed="#A" n="115"/>¶ Sextum est Urgo propter scationem quod sit virgo non 
+      <!--495.xml-->
+      <pb ed="#A" n="496"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>parit. sic et septembris mensis illius signi nihil 
+      gi<lb ed="#A" n="2" break="no"/>gnit.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e431">
+      ¶ Septimum Libra. signans quod sol cum sub 
+      il<lb ed="#A" n="3" break="no"/>lo ambulat: equinoctium facui: eque dicei et noctem librans 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e436">
+                  <lb ed="#A" n="4"/>¶ Octauum Scorpius pro signo grandinum positus qui 
+      il<lb ed="#A" n="5" break="no"/>lo mense scilicet Nouembri in terris quibusdam crebrius facit. 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e443">
+                  <lb ed="#A" n="6"/>¶ Nonum Sagittarius designs crebros fulminum 
+      <lb ed="#A" n="7"/>ictus. qui in Decembri contigunt in aliquibus locis
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e451">
+      ¶ Decimum 
+      Ca<lb ed="#A" n="8" break="no"/>pracornus. quia sicut capra alta petit. ita tuc sol ad 
+      au<lb ed="#A" n="9" break="no"/>stralem circulum conscendit scilicet versus polum antarcticum. Ex 
+      <lb ed="#A" n="10"/>rema pars eius desinit in piscem. quod sercat finem illius plu¬ 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e460">
+                  <lb ed="#A" n="11"/>¶ Undecimum Aquarius. signens quod solutis nu (uialem 
+      <lb ed="#A" n="12"/>bibus vndosum est illud tempus
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e467">
+      ¶ Duodecimum 
+      <lb ed="#A" n="13"/>Pisces. quod tempus pluuiale designat. Hec 
+      Be<lb ed="#A" n="14" break="no"/>da vbi supra. Deus ergo laudabilis est in omnibus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e475">
+               <head xml:id="Vn7Pel-h153378-Hd1e477">4</head>
+               <p xml:id="Vn7Pel-h153378-d1e479">
+                  <lb ed="#A" n="15"/>¶ Quo sunt ista signa 
+      disposita<lb ed="#A" n="16" break="no"/>in Todiaco Notandum secundum Guilhermum de Conchis. 
+      <lb ed="#A" n="17"/>quod talis est dispositio signorum. quano cancer est nobis 
+      pro<lb ed="#A" n="18" break="no"/>pinquius in confinio nostre habitabilis et torride zone. 
+      <lb ed="#A" n="19"/>Deinde leo obliquando descendit versus orientem. post 
+      <lb ed="#A" n="20"/>Uirgo. deinde Libra in medio torride zone existens 
+      <lb ed="#A" n="21"/>vltra quam est Scorpius. deinde Sagittarius. post 
+      <lb ed="#A" n="22"/>quem est Capricornus a nobis remotissimus. Deide 
+      ob<lb ed="#A" n="23" break="no"/>lique ascendendo est Aquarius. post illum Pisces. de 
+      <lb ed="#A" n="24"/>inde Aries in medio torride zone: oppositus libre. 
+      <lb ed="#A" n="25"/>supra Arietem est Taurus. deide Gemi. post Camcer
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e507">
+               <head xml:id="Vn7Pel-h153378-Hd1e509">5</head>
+               <p xml:id="Vn7Pel-h153378-d1e511">
+                  <lb ed="#A" n="26"/>Qualiter in istis signis zodia 
+      <lb ed="#A" n="27"/>ti assignantur domus planetarum. Respondetur secundum e. Guil. de 
+      <lb ed="#A" n="28"/>Conchis atque Alcabicium. aliosque astronomos. 
+      <lb ed="#A" n="29"/>quod illud signum in quo quilibet planeta est a deo creatus 
+      <lb ed="#A" n="30"/>eius domus vel domicilium vocatur.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e524">
+      ¶ Si autem quaeratur 
+      <lb ed="#A" n="31"/>Quid de planetis illis qui habent bina domicilia. vt 
+      <lb ed="#A" n="32"/>stati dicetur. Dicit idem Guilher. quod primum talium signorum 
+      <lb ed="#A" n="33"/>dicitur proprium et primum domicilium in quo est planeta 
+      cre<lb ed="#A" n="34" break="no"/>atus a deo. Reliquum dicitur secundum domicilium siue secunda 
+      <lb ed="#A" n="35"/>bomus in qua non est creatus talis planeta. tamen quia post 
+      pri<lb ed="#A" n="36" break="no"/>mam suam domum maiorem habet potestatem in secunda domo 
+      <lb ed="#A" n="37"/>quam aliis signis. Unde pro regula tenetur secundum eundem Guil. 
+      <lb ed="#A" n="38"/>quod omnis planeta habet maximam potestatem in proprioprimo 
+      <lb ed="#A" n="39"/>domicilio. et minorem in domicilio secundario. ac 
+      <lb ed="#A" n="40"/>minimam in alieno domicilio
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e548">
+      ¶ Sed quae signa dicam 
+      <lb ed="#A" n="41"/>tur domicilia propria alicuius planetarum. Ide Guil. 
+      <lb ed="#A" n="42"/>et Alcabicius ac communitur astronomi dicunt quod secundum natu 
+      <lb ed="#A" n="43"/>ram domus solis est lemonis signum. lune autem canacer. Et 
+      <lb ed="#A" n="44"/>isti maiores duo planete singuli habent propria 
+      do<lb ed="#A" n="45" break="no"/>micilia etc. Alii autem planete ab egyptiis attributa 
+      <lb ed="#A" n="46"/>habent bina domicilia. prima propria. alia secundaria. ita 
+      <lb ed="#A" n="47"/>quod Saturnus primam domum propriam habet capricornum. 
+      <lb ed="#A" n="48"/>sed secundariam ei attributam habet aquarium. Iupiter primam 
+      <lb ed="#A" n="49"/>habet sagittarium. secundam habet pisces. Mars primam 
+      <lb ed="#A" n="50"/>scorpionem. secundam arietem. Uenus primam libram. secundam 
+      <lb ed="#A" n="51"/>taurum. Mercurius habet primam domum signum 
+      virgi<lb ed="#A" n="52" break="no"/>nis. secundam gemini. Unde laudabilis est dei bonitas 
+      <lb ed="#A" n="53"/>et sapientia in creatione et ordinatione planetarum in 
+      si<lb ed="#A" n="54" break="no"/>gnis talibus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e582">
+               <head xml:id="Vn7Pel-h153378-Hd1e584">6</head>
+               <p xml:id="Vn7Pel-h153378-d1e586">
+                  <lb ed="#A" n="55"/>¶ Quid de qualitatibus signorum 
+      <lb ed="#A" n="56"/>zodiaci
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e593">
+      ¶ Nota quod in ipsis signis Una dicitur qulitas ex 
+      <!--495.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>altationis planetarum. Et de hac aliqui astronomi aliter 
+      <lb ed="#A" n="58"/>enserunt. Sed Ptolomeus dicit quod solis exaltatio est 
+      <lb ed="#A" n="59"/>n toto signo arietis. et taurum totum ponit pro lun. pro 
+      <lb ed="#A" n="60"/>Saturno libram. pro Ioue cancrum. pro Marte capri 
+      <lb ed="#A" n="61"/>cornum. pro Uenere pisces. pro Mercurio virginem. 
+      pro<lb ed="#A" n="62" break="no"/>capite dracimnis gemini. et per oppositum pro cauda 
+      sagint<lb ed="#A" n="63" break="no"/>tarium etc. Alii autem senserunt quod talis eraltatio non 
+      po<lb ed="#A" n="64" break="no"/>natur in toto signo. sed in certis gradibus assignatis 
+      tali<lb ed="#A" n="65" break="no"/>um signorum. puta pro exaltatione solis. xix. gradum arie 
+      <lb ed="#A" n="66"/>tis. pro luna. iii gradum tauri. et consueter de aliis. Sed hec 
+      <lb ed="#A" n="67"/>ptinent ad astronomos nec conferunt saluti. ergo transeo 
+      <lb ed="#A" n="68"/>Sufficiat autem dicere quod vbi planeta quicumque exaltatur 
+      <lb ed="#A" n="69"/>i efficacia sue virtutis: in opposito signo cadere dicitur. 
+      <lb ed="#A" n="70"/>sicut sol in ariete exaltatur: et ilibra cadit. et sic de aliis. 
+      <lb ed="#A" n="71"/>deo bono sapientissime ordinante. vt et nos homines 
+      <lb ed="#A" n="72"/>cum exaltamur in praesenti timeamus a casu in morte. 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e635">
+                  <lb ed="#A" n="73"/>¶ Alia qualitas dicitur valoris scilicet signorum certorum pro 
+      fa<lb ed="#A" n="74" break="no"/>cienda minutione sanguinis vel purgatione ad 
+      medi<lb ed="#A" n="75" break="no"/>camentum. et sumptione farmaciarum. Et hoc considerandum 
+      <lb ed="#A" n="76"/>secundum motum lune. videlicet in signis zodiaci: secundum Hypo 
+      <lb ed="#A" n="77"/>cra. in epici. Nota ergo quod quo ad hoc. quattuor signa 
+      <lb ed="#A" n="78"/>dicuntur bona absolute. et quattuor alia mala. atque 
+      <lb ed="#A" n="79"/>quattuor alia indifferentia. Nam aries quando 
+      lu<lb ed="#A" n="80" break="no"/>na est sub ipso dicitur absolute signum bonum. Taurus ma 
+      <lb ed="#A" n="81"/>um. Gemi indifferens. Cancer quoqe indifferens. tamen 
+      ali<lb ed="#A" n="82" break="no"/>quo modo bonum plus. Leo absolute malum. Uirgo in 
+      <lb ed="#A" n="83"/>differens. Libra simpliciter bonum. Scorpius simplicitere 
+      <lb ed="#A" n="84"/>absolute malum. Sagittarius bonum. Capcornus 
+      <lb ed="#A" n="85"/>malum. Aquarius bonum. Piscis indifferems scilicet pro minu 
+      <lb ed="#A" n="86"/>tione. Et ista quattuor numerantur bona. Aries: et 
+      <lb ed="#A" n="87"/>bra: sagittarius et aquarius. Item quattuor alia quando luna qu 
+      <lb ed="#A" n="88"/>in eis dicuntur mala. Taurus: leo: scorpius et 
+      Caprtor<lb ed="#A" n="89" break="no"/>nus. Alia denique quattuor sunt indrstntia. Gemi. cacer 
+      <lb ed="#A" n="90"/>virgo: pisces. Et singula hec intelligenda sunt ceteris 
+      <lb ed="#A" n="91"/>paribus. quia potest esse quod in signo bono fiat nouilunium 
+      <lb ed="#A" n="92"/>vel oppositio: aut de propinquo et tunc non est bonum 
+      mi<lb ed="#A" n="93" break="no"/>nuere. Alie etiam cause et circumstantie circa huiusmodi sunt 
+      <lb ed="#A" n="94"/>pensande. vtpote si signum tale aspiciat 
+      appropria<lb ed="#A" n="95" break="no"/>te membrum pro quo fieri debet minutio. Et talia considera 
+      <lb ed="#A" n="96"/>re physicis et astrologis ac chirurgicis conuenit. ideo dimit 
+      <lb ed="#A" n="97"/>to hoc. Preterea obseuari debet et lune etas et hominis atque 
+      <lb ed="#A" n="98"/>qualitas. Unde dantur v. Luna vetus veteres: iuuenes 
+      no<lb ed="#A" n="99" break="no"/>ua luna requirit. v. Luna crescente minue iuuenis 
+      <lb ed="#A" n="100"/>crapulente. v. Luna decrescente minue iuuenis 
+      ma<lb ed="#A" n="101" break="no"/>cilente.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e700">
+      ¶ Tertia qualitas dicitur mobilitationis. quia quaedam 
+      <lb ed="#A" n="102"/>ex his signis zodiaci dicuntur mobilia. quia sol quando 
+      in<lb ed="#A" n="103" break="no"/>crat ali quod illorum signorum moutur id est mutatur tempus. Et 
+      <lb ed="#A" n="104"/>hec sunt quattuor. Aries: cancer: libra et capricornus. 
+      <lb ed="#A" n="105"/>Quedam dicuntur fixa: quia quando sol in eis est: tempus figitur id est in 
+      <lb ed="#A" n="106"/>eodem statu perseuerat. Et hec sunt Taurus: leo: 
+      scor<lb ed="#A" n="107" break="no"/>pio et aquarius. Reliqua quattuor dicuntur commnia. quia 
+      <lb ed="#A" n="108"/>medietas eorum est vnius temporis in statu suo. et medietas 
+      <lb ed="#A" n="109"/>alterius status est. vt sunt signa. Gemi: virgo: sagitta 
+      <lb ed="#A" n="110"/>rius et pisces. Ad hec exemplum. quando sol signum arie 
+      <lb ed="#A" n="111"/>tis ingreditur: tunc mutatur tempus. scilicet hyems in 
+      <lb ed="#A" n="112"/>ver. et quando intrat taurum figitur scilicet tempus 
+      ver<lb ed="#A" n="113" break="no"/>nale. Quando vero sol ingreditur geminos fit 
+      <lb ed="#A" n="114"/>tempus tommne id est dimidium erit veris. et dimidium estatis. 
+      <!--496.xml-->
+      <pb ed="#A" n="497"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Et similiter de est ceteris. Plura de qualitatibus signorum 
+      <lb ed="#A" n="2"/>pertinent ad astronomos que causa brevitatis 
+      tran<lb ed="#A" n="3" break="no"/>eo. Ex omnibus dictis claret dei bonitas et sapientia 
+      lau<lb ed="#A" n="4" break="no"/>dabilis qui sic ordinauit et nobis vtiliter scire dedit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e747">
+               <head xml:id="Vn7Pel-h153378-Hd1e749">7</head>
+               <p xml:id="Vn7Pel-h153378-d1e751">
+                  <lb ed="#A" n="5"/>¶ Quare deus benedictus voluit 
+      <lb ed="#A" n="6"/>podiacum esse obliquum circulum in celo: In quo sic 
+      <lb ed="#A" n="7"/>oblique mouerentur sol luna et omnes alii planete: 
+      <lb ed="#A" n="8"/>Respondetur secundum theologos docoret quod potissima ratio prae 
+      <lb ed="#A" n="9"/>aliis hec est: videlicet vt deus omni tempore laudetur in hoc 
+      <lb ed="#A" n="10"/>mudo. Ideo enim fecit deus mundum et praesertim 
+      crea<lb ed="#A" n="11" break="no"/>turas rationales vt omni tempore laudent deu. sicut patet 
+      <lb ed="#A" n="12"/>per Augu. et Magistrum in. ii libro di. i. vnde et Psalmus dicit. 
+      Be<lb ed="#A" n="13" break="no"/>nedica dominum in tempore semper laus eius in ore meo etc. 
+      Uo<lb ed="#A" n="14" break="no"/>luit ergo deus cursum solis facientis diem et noctem 
+      <lb ed="#A" n="15"/>et etia cursus aliorum planetarum vt fieret in obliquo 
+      <lb ed="#A" n="16"/>circulo zodiaci vt per diuersa tempora horarum secundum 
+      diuer<lb ed="#A" n="17" break="no"/>sitates situs terrarum ac orizontarum sol oriens vel oc 
+      <lb ed="#A" n="18"/>cidens faceret diuersis horis diem quo excitarem 
+      <lb ed="#A" n="19"/>tur homines ad deum laudandum. Et dum in aliqua parte 
+      <lb ed="#A" n="20"/>terre esset meridies vel circa: in alia esset tunc ma 
+      <lb ed="#A" n="21"/>ne ortu solis vt dum illi iam cessarent in sua meridie 
+      <lb ed="#A" n="22"/>a laudando deum. scilicet prandentes. Alii xxurgerent pro 
+      <lb ed="#A" n="23"/>tunc ad laudandum in suo mane etc.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e795">
+      ¶ Notandum 
+      <lb ed="#A" n="24"/>ergo secundum Guiller. de Conchis. quod ex quo orizon 
+      distin<lb ed="#A" n="25" break="no"/>guitur. quia vnus dicitur naturalis qui quantum ad situm recte 
+      <lb ed="#A" n="26"/>sphere intersecat equinoctialem per medium et circulos 
+      <lb ed="#A" n="27"/>vel spheras eque distantes ab equinoctiali quas 
+      <lb ed="#A" n="28"/>describit sol in quolibet die naturali: Ideo tantus 
+      ar<lb ed="#A" n="29" break="no"/>cus pro superiori hemisperio relinquitur quantus pro 
+      in<lb ed="#A" n="30" break="no"/>inferiori. Unde cum sol vniformiter per eos moueatur et 
+      <lb ed="#A" n="31"/>superiorem transeat de die ac inferiorem de nocte dies et 
+      <lb ed="#A" n="32"/>nox erunt equales in recta sphera existentibus semper. 
+      <lb ed="#A" n="33"/>Alius orizon dicitur artificialis. vt tactum est supra. §. 
+      <lb ed="#A" n="34"/>i. Quia nos extra rectam spheram existentes orizon 
+      <lb ed="#A" n="35"/>tem deuexum: nec intersecat per medium aliquam sphe 
+      <lb ed="#A" n="36"/>rarum a sole descriptarum nisi illam quam describit 
+      sol<lb ed="#A" n="37" break="no"/>existens in equinoctiali. vnde tunc habemus 
+      equinocti<lb ed="#A" n="38" break="no"/>um. Quando autem sol est circa equi noctialem citius 
+      ele<lb ed="#A" n="39" break="no"/>uatur supra orizontem nostrum quam supra orizontem 
+      na<lb ed="#A" n="40" break="no"/>turalem. Unde citius habemus sole. et per consequens diem: quam 
+      <lb ed="#A" n="41"/>illi qui sunt in medio mundi. Similiter quando descendit in 
+      <lb ed="#A" n="42"/>sero sol citius desinit apparere illis quam nobis. quia 
+      <lb ed="#A" n="43"/>citius transit eorum orizontem quam nostrum. Minorem ergo diem 
+      <lb ed="#A" n="44"/>habemus nos quam illi quamdiu sol est citra 
+      equinocti<lb ed="#A" n="45" break="no"/>alem. Econuerso autem accidit quando est vltra equinocti 
+      <lb ed="#A" n="46"/>lem etc.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e847">
+      ¶ Ex praedictis infertur et patet secundum e. Guiller. 
+      <lb ed="#A" n="47"/>de Conchis. quod quanto magis aliqui remotiores 
+      <lb ed="#A" n="48"/>sunt a mundi medio tanto magis habent inequa 
+      <lb ed="#A" n="49"/>litatem dierum. Unde illicinquit) qui habent punctum 
+      ver<lb ed="#A" n="50" break="no"/>tiginale in polo zodiaci quorum orizon se commetitur 
+      <lb ed="#A" n="51"/>ecliptice habent duos dies continuos circa festum 
+      <lb ed="#A" n="52"/>Ioanis baptiste. Duas autem continuas noctes 
+      cir<lb ed="#A" n="53" break="no"/>ta natiuitatem domini. quia sphera tunc descripta a 
+      sole<lb ed="#A" n="54" break="no"/>non transit supra orizonta eorum. Item illi qui habent 
+      <lb ed="#A" n="55"/>punctum vertiginale in polo arctico quorum orizon 
+      <lb ed="#A" n="56"/>se commetitur Equinoctiali habent per medietatem anni diem 
+      <lb ed="#A" n="57"/>continuum quando sol est citra equinoctialem. Noctem vero 
+      <!--496.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>continuam quando est sol vltra equinoctialem. Ex 
+      supradi<lb ed="#A" n="59" break="no"/>ctis (inquit) etiam patet quod ecentricus solis ex vna 
+      <lb ed="#A" n="60"/>parte altior est et firmamento vicinior quam ex opposi 
+      <lb ed="#A" n="61"/>ta. Hoc enim sequitur ex eo. quia est extrinsecus. 
+      Ha<lb ed="#A" n="62" break="no"/>bet enim centrum extra centrum terre in medio modi posi 
+      <lb ed="#A" n="63"/>te.
+     </p>
+               <p xml:id="Vn7Pel-h153378-d1e891">
+      ¶ Unde patet quod dei bonitas et sapientia mirabilis 
+      <lb ed="#A" n="64"/>est et in omnibus laudabilis qui vniuersa sic 
+      con<lb ed="#A" n="65" break="no"/>qidit et ordinauit ad laudem et gloriam nominis sur¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h153378-Dd1e899">
+               <head xml:id="Vn7Pel-h153378-Hd1e901">Epilogus</head>
+               <p xml:id="Vn7Pel-h153378-d1e903">
+                  <lb ed="#A" n="66"/>Cuius etiam auxilio ego 
+      <lb ed="#A" n="67"/>indignus magnis et multis laboribus meipsum vltra 
+      <lb ed="#A" n="68"/>vires perurgedo recollegi. et propria manu conscrpsi hoc 
+      <lb ed="#A" n="69"/>ppus Aurei Rosarii Theologice sapicntie Quod 
+      fi<lb ed="#A" n="70" break="no"/>nit et explicit ad laudem et gloriam ipsius altissime 
+      <lb ed="#A" n="71"/>trinitatis diuine et domini nostri Iesu christi. atque 
+      san<lb ed="#A" n="72" break="no"/>ctissime sue genitricis virginis Marie: nec non 
+      <lb ed="#A" n="73"/>ad honorem Seraphici patris nostri Francisci 
+      <lb ed="#A" n="74"/>et omnium beatorum celestis curie Anno videlicet ab 
+      Incatr<lb ed="#A" n="75" break="no"/>natione domini Millesimo quingentesimotertio 
+      cir<lb ed="#A" n="76" break="no"/>ca festum Annunciationis gloriose virginis 
+      Ma<lb ed="#A" n="77" break="no"/>rie. Laudetur ergo deus per infinita secula seculorum Amen.
+         </p>
+               <p xml:id="Vn7Pel-h153378-d1e932">
+                  <lb ed="#A" n="78"/>Rosarii 
+      theologi<lb ed="#A" n="79" break="no"/>te sapientie aurei: Secundus liber: pro elucidatione 
+      <lb ed="#A" n="80"/>Sententiarum libri secundi per Religionis velo 
+      deditis<lb ed="#A" n="81" break="no"/>simum patrem: sacre pagine Professore eximium: 
+      fra<lb ed="#A" n="82" break="no"/>trem Pelbartum de Themespar Ordinis 
+      Mi<lb ed="#A" n="83" break="no"/>norum de Obseruantia multa diligentia recollectus 
+      <lb ed="#A" n="84"/>Impensis circumspecti viri archibibliopole 
+      Ioan<lb ed="#A" n="85" break="no"/>nis Rynman de Oringa mo in officina industrii 
+      <lb ed="#A" n="86"/>Henrici Gran Ciuis in Opido Imperiali 
+      Ha<lb ed="#A" n="87" break="no"/>gena meor impressus Anno virginei partus. Mdiiii. 
+      <lb ed="#A" n="88"/>pridie Idus Maii Finit feliciter. 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e958">
+                  <lb ed="#A" n="89"/>¶ Benedicite omnia 
+      ope<lb ed="#A" n="90" break="no"/>ra domini domino. Laudate et 
+      superex<lb ed="#A" n="91" break="no"/>altate eum in secula¬ 
+      </p>
+               <p xml:id="Vn7Pel-h153378-d1e967">
+                  <lb ed="#A" n="92"/>¶ Benedica dominum in 
+      <lb ed="#A" n="93"/>omni tempore Semper laus eius 
+      <lb ed="#A" n="94"/>in ore meo 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

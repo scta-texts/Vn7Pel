@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Memoria</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Memoria</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="326"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h100322">
+            <head xml:id="Vn7Pel-h100322-Hd1e110">Memoria</head>
+            <div xml:id="Vn7Pel-h100322-Dd1e112">
+               <head xml:id="Vn7Pel-h100322-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h100322-d1e116">
+                  <lb ed="#A" n="8"/>rt Cmoria qualiten 
+      <lb ed="#A" n="9"/>habet esse in anima: Notandum secundum quod 
+      di<lb ed="#A" n="10" break="no"/>Ei citur libro Ccatholicon Memoria dicitur 
+      quasi<lb ed="#A" n="11" break="no"/>fentis mora vel in mente mora. quia in mente 
+      compreo<lb ed="#A" n="12" break="no"/>hesa quecumque firmiter retinet ne obliuiscatur. Unde 
+      <lb ed="#A" n="13"/>Sciendum etiam quod duplex est imaginatiua. Una 
+      <lb ed="#A" n="14"/>intellectualis quae est etiam in anima separata: quia actum 
+      ha<lb ed="#A" n="15" break="no"/>bet extra corpus. et est in demonibus. Alia est 
+      sensu<lb ed="#A" n="16" break="no"/>alis quae non est extra corpus. Sic et memoria 
+      Pri<lb ed="#A" n="17" break="no"/>mo est in parte intellectiua secundum Aug. et hec memo 
+      <lb ed="#A" n="18"/>ria intellectiua non est communis nobis et brutis. 
+      So<lb ed="#A" n="19" break="no"/>la autem hec intellectiu a retinet fortiter in se quod 
+      ac<lb ed="#A" n="20" break="no"/>cipit vt reminiscatur. Item secundo memoria est etiam in 
+      <lb ed="#A" n="21"/>parte sensitiua et in organo corporali: vt patuit vbi 
+      <lb ed="#A" n="22"/>
+                  <ref xml:id="Vn7Pel-h100322-Rd1e150">Ania. §. xlix.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h100322-d1e153">
+      ¶ Ad idem plura in subsequentibus. 
+      </p>
+               <p xml:id="Vn7Pel-h100322-d1e155">
+                  <lb ed="#A" n="23"/>¶ An autem memoria sit distincta 
+      <lb ed="#A" n="24"/>potentia ab intelligentia et voluntate Et 
+      plura<lb ed="#A" n="25" break="no"/>de memoria vide supra vbi <ref xml:id="Vn7Pel-h100322-Rd1e163">Anima. §. lii.</ref> et sequentibus. 
+      <lb ed="#A" n="26"/>Et etiam aliqua lir i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e169">
+               <head xml:id="Vn7Pel-h100322-Hd1e171">2</head>
+               <p xml:id="Vn7Pel-h100322-d1e173">
+                  <lb ed="#A" n="27"/>¶ Sed quid de ordinatione 
+      memo<lb ed="#A" n="28" break="no"/>ratiue virtutis: Notandum quod Damascenus li. ii. ca. xi 
+      <lb ed="#A" n="29"/>post imaginatiuam et excogitatiuam virtutem ordinat 
+      <lb ed="#A" n="30"/>memoratiuam. Est autem vt dicit Memoratiuum: ipsius 
+      <lb ed="#A" n="31"/>memorie et rememorationis promptuarium. 
+      Me<lb ed="#A" n="32" break="no"/>moria autem est phantasia derelicta ab aliquo secundum actum 
+      <lb ed="#A" n="33"/>apparentem. Ul Memoria est coaceruatio sensus 
+      <lb ed="#A" n="34"/>et intelligentie. Omnia enim sensibilia per sensus 
+      susci<lb ed="#A" n="35" break="no"/>it id est sentit: et fit opinio. Intelligentia vero per 
+      intel<lb ed="#A" n="36" break="no"/>lectum suscipit: et fit intelligentia. Cum ergo typos id est 
+      <lb ed="#A" n="37"/>formas eorum quae opinata est et eorum quae intellexerat 
+      cu<lb ed="#A" n="38" break="no"/>stodit: memoria dicitur. Rememoratio vero dicitur 
+      <lb ed="#A" n="39"/>memorie deperdite obliuione restitutio. Obliuio 
+      <lb ed="#A" n="40"/>autem est memorie ablatio. Unde etiam secundum Ioannem e 
+      <lb ed="#A" n="41"/>Ruppel. (vt idem Damasce. dicit) excogitatione sunt 
+      <lb ed="#A" n="42"/>iudicia: compositiones: opiniones: actiones: et fuge 
+      <lb ed="#A" n="43"/>actionum
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e212">
+      ¶ Nimirum sensus exterior comprehendit 
+      <lb ed="#A" n="44"/>specium presentem in materia et simplicem. 
+      Imagina<lb ed="#A" n="45" break="no"/>tio vero comprehendit formam absente materia et 
+      <lb ed="#A" n="46"/>simplicem. Excogitatio autem siue opinio iudicat de 
+      <lb ed="#A" n="47"/>ea. Etsi secundum rationem veri vt quoniam est hoc vel non est 
+      <lb ed="#A" n="48"/>hoc: sic dicuntur excogitatiue virtutis iudicia et 
+      com<lb ed="#A" n="49" break="no"/>positiones ac huiusmodi. Si autem iudicat secundum rationem 
+      <!--325.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="50"/>boni et mali: sic excogitatiua virtus est principium 
+      <lb ed="#A" n="51"/>incessionis ad actum vel fugam actionis scilicet huiusmodi. 
+      <lb ed="#A" n="52"/>Cic ergo patet dei bonitas quae bona indidit anime. 
+      </p>
+               <p xml:id="Vn7Pel-h100322-d1e238">
+                  <lb ed="#A" n="53"/>¶ Itaque ordo talis est. Primo sensus 
+      exterio<lb ed="#A" n="54" break="no"/>res tradunt species vel formas sensui communi 
+      <lb ed="#A" n="55"/>Secundo sensus communis reddit immaginatiue: que secundum 
+      <lb ed="#A" n="56"/>Auicen. vocatur etiam virtus formatiua quasi ad 
+      repe<lb ed="#A" n="57" break="no"/>nendum quicquid ei tradunt sensus exteriores. 
+      Ter<lb ed="#A" n="58" break="no"/>tio virtus formalis que est imaginatio reponit et 
+      <lb ed="#A" n="59"/>retinet. Habet enim virtutem multiplicandi in se 
+      for<lb ed="#A" n="60" break="no"/>mas sensibiles. Quarto virtus cogitatiua siue 
+      <lb ed="#A" n="61"/>excogitatiua conuertitur ad formas quae sunt in ima 
+      <lb ed="#A" n="62"/>ginatiua ad componendum eas vel resoluendum: 
+      <lb ed="#A" n="63"/>quoniam ei sunt subiecte. Unde secundum Auicen. per hanc virtu 
+      <lb ed="#A" n="64"/>te potest quis cogitare ea quae nunquam vidit: vt solem 
+      viri<lb ed="#A" n="65" break="no"/>dem. quia in parte vna imaginationis est similitudo solis. 
+      <lb ed="#A" n="66"/>in alia similitudo viriditatis. Et sic mens potest 
+      con<lb ed="#A" n="67" break="no"/>cipere cogitationem compositam ex illis duabus siue in 
+      <lb ed="#A" n="68"/>somnis: siue in vigilia. Sed transformatio huiusmodi 
+      <lb ed="#A" n="69"/>quando fit in somniis appellatur imaginatiua proprie secundum 
+      <lb ed="#A" n="70"/>aliquoas: non cogttatiua. Quinto huiusmodi species vel 
+      <lb ed="#A" n="71"/>forme traduntur phantasie quasi ad seruandum pro 
+      me<lb ed="#A" n="72" break="no"/>moria: super quas memoratiua virtus se 
+      conuer<lb ed="#A" n="73" break="no"/>tendo recordatur. Unde et secundum Damasce. organum 
+      <lb ed="#A" n="74"/>memoratiuum est posterius ventriculis aliis 
+      cere<lb ed="#A" n="75" break="no"/>bri et animalis spiritus qui est in illo.
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e290">
+      ¶ Ad hec etiam 
+      <lb ed="#A" n="76"/>lupra vbi <ref xml:id="Vn7Pel-h100322-Rd1e294">Aia. §. xlix.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h100322-d1e298">
+      ¶ De actibus memoratiue 
+      <lb ed="#A" n="77"/>vbi <ref xml:id="Vn7Pel-h100322-Rd1e302">Ratio. §. vi.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e306">
+               <head xml:id="Vn7Pel-h100322-Hd1e308">3</head>
+               <p xml:id="Vn7Pel-h100322-d1e310">
+                  <lb ed="#A" n="78"/>¶ An Memoria et Remiscentia 
+      <lb ed="#A" n="79"/>insit etiam animalibus irrationalibus Respondetur secundum Aui 
+      <lb ed="#A" n="80"/>cen. quem sequitur in hoc Ioannes de Ruppella: quod 
+      <lb ed="#A" n="81"/>memoria bene est in irrtionalibus vt tactum est in 
+      praece<lb ed="#A" n="82" break="no"/>dentibus. Sed reminiscentia quae est reuocatio 
+      inge<lb ed="#A" n="83" break="no"/>nii ad recordandum et inquirendum quod oblitum est non 
+      <lb ed="#A" n="84"/>inuenitur nisi in solo homine. Cognoscere enim sibi 
+      ali<lb ed="#A" n="85" break="no"/>quod fuisse quod postea deletum est a memoria per 
+      obli<lb ed="#A" n="86" break="no"/>uionem: talis recordatio non est nisi virtutis 
+      ra<lb ed="#A" n="87" break="no"/>tionalis. Uel si ast alicuius virtutis alterius praeter 
+      ra<lb ed="#A" n="88" break="no"/>tionalem: poterit esse extimationis. sed inquantum 
+      <lb ed="#A" n="89"/>extimatio decoratur rationabilitate. talis autem 
+      decor<lb ed="#A" n="90" break="no"/>non est nisi in homine. ergo etc. Ad hec infra. §. x. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e342">
+               <head xml:id="Vn7Pel-h100322-Hd1e344">4</head>
+               <p xml:id="Vn7Pel-h100322-d1e346">
+                  <lb ed="#A" n="91"/>¶ Quo differut memoria et 
+      re<lb ed="#A" n="92" break="no"/>miniscentia atque addiscentia: Respondetur secundum e. 
+      Io<lb ed="#A" n="93" break="no"/>an. de Ruppel. quod Memoria est retentio speciem 
+      <lb ed="#A" n="94"/>siue intentionum vel representatio actualis earumde 
+      </p>
+               <p xml:id="Vn7Pel-h100322-d1e357">
+                  <lb ed="#A" n="95"/>¶ Sed Reminiscentia differt ab ea. quia est 
+      requisi<lb ed="#A" n="96" break="no"/>tio formarum a memoria deletarum per obliuione vel 
+      <lb ed="#A" n="97"/>per consimilia. Sicut obliti alicuius persone quam 
+      <lb ed="#A" n="98"/>vidimus: recurrimus ad locum: ad tempus: et ad 
+      <lb ed="#A" n="99"/>actus per que recordamur persone quam vidimus 
+      ta<lb ed="#A" n="100" break="no"/>lia facientem tali loco vel tempore etc. Unde et Arist . libro de 
+      <lb ed="#A" n="101"/>memoria et remiscen. dicit: quod memoria differt a 
+      re<lb ed="#A" n="102" break="no"/>minscentia. Tum quia reminiscentia sequitur memoriam. 
+      <lb ed="#A" n="103"/>Tum quia est solum in hominibus sed memoria etiam in 
+      bru<lb ed="#A" n="104" break="no"/>tis.
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e381">
+      ¶ Addiscentia autem differt a reminiscentia vel 
+      re<lb ed="#A" n="105" break="no"/>cordatione. quia reminscentia est inquisitio incognitorum 
+      <lb ed="#A" n="106"/>vt cognoscantur ea que antea fuerunt cognita de 
+      <!--326.xml-->
+      <pb ed="#A" n="327"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>praeterito. Addiscentia vero siue disciplina est 
+      exten<lb ed="#A" n="2" break="no"/>sio anime ad cognoscendum incognita ea que non 
+      <lb ed="#A" n="3"/>fuerunt antea cognita. Et ita licet conueniant in hoc 
+      <lb ed="#A" n="4"/>quod vtrobique est motus a cognitis ad incognita: 
+      <lb ed="#A" n="5"/>tamen differenti modo: vt dictum est. Hec secundum 
+      Io<lb ed="#A" n="6" break="no"/>annem de Rupel. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e409">
+               <head xml:id="Vn7Pel-h100322-Hd1e411">5</head>
+               <p xml:id="Vn7Pel-h100322-d1e413">
+                  <lb ed="#A" n="7"/>¶ Unde est quod quidam facilius 
+      addi<lb ed="#A" n="8" break="no"/>scunt quam recordent vel memorentur Et alii 
+      econ<lb ed="#A" n="9" break="no"/>trario se habent. Et vniuersaliter experimur quod 
+      qui<lb ed="#A" n="10" break="no"/>dam sunt facilis discipline vel addiscentie. 
+      qui<lb ed="#A" n="11" break="no"/>dam facilis recordationis. quidam facilis 
+      me<lb ed="#A" n="12" break="no"/>morie. sed alii sunt econtrario
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e429">
+      ¶ Ad hec 
+      Respon<lb ed="#A" n="13" break="no"/>detur iuxta dicta e. Ioan. de Ruppel. Notando secundum 
+      <lb ed="#A" n="14"/>Auicen. quod illi qui sunt sicce complexionis fortes 
+      <lb ed="#A" n="15"/>sunt in memoriter retinendo. sed debiles in 
+      recor<lb ed="#A" n="16" break="no"/>dando. Siccitas enim materie facit dispositionem 
+      <lb ed="#A" n="17"/>non ad susceptionem impressionum: sed ad 
+      reten<lb ed="#A" n="18" break="no"/>tionem impressa. sicut patet de lapide sicco vel 
+      <lb ed="#A" n="19"/>duro marmore: quoniam difficilis est ad 
+      sculpen<lb ed="#A" n="20" break="no"/>dum in eo: sed sculpta fortiter retinet. idcirco 
+      sic<lb ed="#A" n="21" break="no"/>ca complexio conuenit memorie tentioni: non 
+      re<lb ed="#A" n="22" break="no"/>cordationi eorum que sunt oblita: eo quod inhabilis 
+      <lb ed="#A" n="23"/>est ad motum. Qui vero sunt calide complexionis 
+      <lb ed="#A" n="24"/>facile recordantur oblita. quia magis percipiunt 
+      nu<lb ed="#A" n="25" break="no"/>tus. et quia caliditas complexionis est vehemen 
+      <lb ed="#A" n="26"/>tissima dispositio ad motum. Unde ignis est 
+      val<lb ed="#A" n="27" break="no"/>de mobilis ad sursum. Qui vero sunt humide 
+      <lb ed="#A" n="28"/>complexionis sunt facilis discipline. quia humi 
+      <lb ed="#A" n="29"/>ditas disponit ad facilem susceptionem 
+      impressi<lb ed="#A" n="30" break="no"/>oninis. patet de aqua et cera liquefacta: cui facile 
+      iantum<lb ed="#A" n="31" break="no"/>primitur sigillum. Ideo conuenit humida 
+      com<lb ed="#A" n="32" break="no"/>plexio discipline facili susceptioni. Unde 
+      anima<lb ed="#A" n="33" break="no"/>lia queque ab etate prima domesticantur. quia 
+      ma<lb ed="#A" n="34" break="no"/>gis suscipiunt disciplinam vel addiscentiam pro 
+      il<lb ed="#A" n="35" break="no"/>lae etate qua complexio est magis humida vtpote 
+      </p>
+               <p xml:id="Vn7Pel-h100322-d1e481">
+                  <lb ed="#A" n="36"/>¶ Ex premissis patet quod bene memo (enera. 
+      <lb ed="#A" n="37"/>rates sunt contrarie dispositionis bene 
+      recordan<lb ed="#A" n="38" break="no"/>tibus et bene addiscentibus. Illi enim scilicet bene 
+      memoran<lb ed="#A" n="39" break="no"/>tes sunt quorum anime non habent facilem motum: nec 
+      <lb ed="#A" n="40"/>disperguntur cogitationes eorum. quia anima que habet 
+      <lb ed="#A" n="41"/>multos motus cogitationum non bene memoratur. 
+      <lb ed="#A" n="42"/>Sed contrarie Bona recordatio exigit 
+      multipli<lb ed="#A" n="43" break="no"/>ces motus cogitationum et agiles cogitationes. Item 
+      <lb ed="#A" n="44"/>quia bene memores sunt sicce complexionis: licet sint 
+      <lb ed="#A" n="45"/>debilis recordationis. nam tales fortius retinent in 
+      <lb ed="#A" n="46"/>memoria accepta. sed si obliuiscantur: ea difficilitus 
+      <lb ed="#A" n="47"/>reaccipium scilicet recordando. Ad hec in sequentibus. 
+      <lb ed="#A" n="48"/>Item Plato in Timeo lib. i. dicit. Memoria 
+      te<lb ed="#A" n="49" break="no"/>nacior est eorum que in prima etate addiscuntur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e515">
+               <head xml:id="Vn7Pel-h100322-Hd1e517">6</head>
+               <p xml:id="Vn7Pel-h100322-d1e519">
+                  <lb ed="#A" n="50"/>¶ Qualiter ergo memoria 
+      diuer<lb ed="#A" n="51" break="no"/>sificatur in homine secundum diuersas etates. Nota secundum 
+      <lb ed="#A" n="52"/>bictaminia e. Ioan. de Ruppel. cum Auicen. quod 
+      bo<lb ed="#A" n="53" break="no"/>na mem oria in aliquibus est Primo ex siccitate 
+      comple<lb ed="#A" n="54" break="no"/>xionis: vt patuit in praedictis. Facilis autem 
+      recorda<lb ed="#A" n="55" break="no"/>tio ex caliditate. et facilis addiscentia est ex humi 
+      <lb ed="#A" n="56"/>dltate complexionis. Et ita patet bonitas memorie et 
+      <lb ed="#A" n="57"/>decorum generaliter. Secundo honitas menorie similiter et praedcon¬ 
+      <!--326.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>rum. scilicet recordationis et addiscentie: est ex exercitto 
+      <lb ed="#A" n="59"/>circa vnum vel circa pauca: non circa multa. Nam mul 
+      <lb ed="#A" n="60"/>torum consideratio vel circa multa mentis 
+      occupa<lb ed="#A" n="61" break="no"/>tio confusio est intellectus ac memorie et 
+      inimi<lb ed="#A" n="62" break="no"/>ta. Inde est quod pueri quamuis humidi sint. tamen 
+      fir<lb ed="#A" n="63" break="no"/>miter in memoria retinent recordantur et 
+      addi<lb ed="#A" n="64" break="no"/>cunt. faciliter. quia anime eorum non occupantur 
+      <lb ed="#A" n="65"/>circa multa sicut anime maiorum sed sunt fixe 
+      cir<lb ed="#A" n="66" break="no"/>ca vnum. Iuuenes autem propter calorem et 
+      pro<lb ed="#A" n="67" break="no"/>pter motus suos agiles sunt in memoria 
+      debi<lb ed="#A" n="68" break="no"/>les. sed recordatione satis faciles. quamuis 
+      comple<lb ed="#A" n="69" break="no"/>xio eorum sit siccior quam in pueris. Senibus vero 
+      con<lb ed="#A" n="70" break="no"/>muniter propter humorem qui praeualet in eis. vt 
+      cla<lb ed="#A" n="71" break="no"/>tet ex seneciis defluentibus: Accidit quod non 
+      memo<lb ed="#A" n="72" break="no"/>rantur etiam ea quae ante se vident. Unde secundum Arist . libro de 
+      <lb ed="#A" n="73"/>nemoria et reminiscem. pueri et senes propter humo 
+      <lb ed="#A" n="74"/>rum motum immemores sunt. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e581">
+               <head xml:id="Vn7Pel-h100322-Hd1e583">7</head>
+               <p xml:id="Vn7Pel-h100322-d1e585">
+                  <lb ed="#A" n="75"/>¶ Unde prouenit in quibusdam 
+      me<lb ed="#A" n="76" break="no"/>morie tarditas nimia vel pigricia vel festinantia 
+      <lb ed="#A" n="77"/>n aliis. Notandum secundum Constantinum in libro de 
+      ob<lb ed="#A" n="78" break="no"/>liuione. quod operatio mentis triplex est. Prima phata 
+      <lb ed="#A" n="79"/>tasia. Secunda ratio Tertia memoria. quae est in 
+      pup<lb ed="#A" n="80" break="no"/>pi d est posteriori parte cerebri. Iste autem ventricul. 
+      <lb ed="#A" n="81"/>puppis cerebri praestantior est omnibus aliis ventri 
+      <lb ed="#A" n="82"/>culis cerebri. quoniam non venit spiritus animalis ad ipstet 
+      <lb ed="#A" n="83"/>a prioribus seu anterioribus ventriculis. nisi subtilis 
+      <lb ed="#A" n="84"/>clarus et mundificatus. quia opus est 
+      recorda<lb ed="#A" n="85" break="no"/>tioni et retentioni claritate et subtilitate spiritus vt re 
+      <lb ed="#A" n="86"/>olligat res ex tempore longo praeteritas. Et nisi aperiatur 
+      <lb ed="#A" n="87"/>illa via vt transeat spiritus ad puppium cerebri non 
+      <lb ed="#A" n="88"/>reminiscitur homo rei praeterite. Unde spiritus animalis 
+      <lb ed="#A" n="89"/>qui a sensibus transit ad phantasiam: Deinde a 
+      pha<lb ed="#A" n="90" break="no"/>tasia transit. iam subtilior mundificatus atque 
+      cla<lb ed="#A" n="91" break="no"/>rior ad locum in medio cerebri vt faciat intellectum 
+      <lb ed="#A" n="92"/>et inde ad puppium transit: adhuc praeclarior et 
+      sub<lb ed="#A" n="93" break="no"/>tilior etc.
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e629">
+      ¶ Ad hec vbi <ref xml:id="Vn7Pel-h100322-Rd1e631">Anima. §. xlix.</ref> latius 
+      vi<lb ed="#A" n="94" break="no"/>de.
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e636">
+      ¶ Unde etiam <name xml:id="Vn7Pel-h100322-Nd1e638">Galienus</name> dicit quod mentem et 
+      <lb ed="#A" n="95"/>in tellectum et discretionem non facit nisi 
+      contempe<lb ed="#A" n="96" break="no"/>rantia spiritus qui est in medio cerebri. et 
+      recor<lb ed="#A" n="97" break="no"/>dationem ac retentionem non facit nisi 
+      contem<lb ed="#A" n="98" break="no"/>perantia spiritus animalis qui est in puppe 
+      ce<lb ed="#A" n="99" break="no"/>rebri. Etsi patitur iste qui est in puppe lesionem 
+      <lb ed="#A" n="100"/>aut perdit memoriam aut minuitur. Et si perdit 
+      <lb ed="#A" n="101"/>vocatur obliuio perfecta. si vero minuitur tunc 
+      <lb ed="#A" n="102"/>vocatur obliuio ad tempus. Unde secundum eosdem 
+      <lb ed="#A" n="103"/>physicos praefatos patet: quod memorie pigricia vel 
+      <lb ed="#A" n="104"/>tarditas. aut in aliis hominibus festinantia 
+      me<lb ed="#A" n="105" break="no"/>morie est ex festinantia vel pigricia transitus 
+      spi<lb ed="#A" n="106" break="no"/>ritus animalis ab anteriori parte cerebri que 
+      di<lb ed="#A" n="107" break="no"/>citur prora: per medium ad puppim cerebri. Nam 
+      <lb ed="#A" n="108"/>qui habent velocem huiusmodi transitum sunt 
+      <lb ed="#A" n="109"/>prudentes et velociter respondent interrogationi 
+      <lb ed="#A" n="110"/>Qui autem habent tardum vel pigrum tardi sunt. 
+      <lb ed="#A" n="111"/>ad respondendum et minime cogitant Item me 
+      <lb ed="#A" n="112"/>morie tarditas vel festinantia est ex cerebri etiam 
+      <lb ed="#A" n="113"/>dispositione. Nam vt Galienus dicit. Si pigra 
+      <lb ed="#A" n="114"/>est mens et intellectus: signum est quod substantia 
+      <!--327.xml-->
+      <pb ed="#A" n="328"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cerebri est grossa cum immundicia Si autem velociter 
+      <lb ed="#A" n="2"/>discit. signum est quod substantia cerebri impigre 
+      <lb ed="#A" n="3"/>recipit formationem rei vise. Si vero bene retinet: 
+      si<lb ed="#A" n="4" break="no"/>gnum est quod substantia cerebri habet moderatam 
+      <lb ed="#A" n="5"/>soliditatem et siccitatem. Sed si tarde discit: signum 
+      <lb ed="#A" n="6"/>est quod dura est substantia cerebri ad recipiendum 
+      for<lb ed="#A" n="7" break="no"/>mas rei vise.
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e706">
+      ¶ Preterea Tertio memorie tardi 
+      <lb ed="#A" n="8"/>tas accidit ex cerebri in puppe lesione. vt iam 
+      di<lb ed="#A" n="9" break="no"/>tum est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e714">
+               <head xml:id="Vn7Pel-h100322-Hd1e716">8</head>
+               <p xml:id="Vn7Pel-h100322-d1e718">
+                  <lb ed="#A" n="10"/>¶ Unde autem patiter memoria lesionem 
+      <lb ed="#A" n="11"/>Notandum secundum eundem Galienum et Constantinum 
+      su<lb ed="#A" n="12" break="no"/>pra. quod memoria semper patitur lesionem 
+      natu<lb ed="#A" n="13" break="no"/>ralem ex frigiditate. Et ista frigiditas aliquando simus 
+      <lb ed="#A" n="14"/>plex est. aliquando cum humiditate. et sic facit nimium 
+      so<lb ed="#A" n="15" break="no"/>mnum ac lethargiam. Item. aliquando cum siccitate et tunc 
+      eue<lb ed="#A" n="16" break="no"/>nit egritudo memorie cum vigiliis. Dicunt autem 
+      le<lb ed="#A" n="17" break="no"/>thargiam: quoniam est immutatio recordationis que 
+      <lb ed="#A" n="18"/>nascitur ex frigiditate sola aut cum humiditate. 
+      Opor<lb ed="#A" n="19" break="no"/>ret ergo (inquiunt) vt sanatio et medicina eius 
+      inue<lb ed="#A" n="20" break="no"/>niatur in his quae calefaciunt cerebrum et mundificant 
+      phle<lb ed="#A" n="21" break="no"/>gma in illo. Sicut est omnis vera theodricon 
+      ma<lb ed="#A" n="22" break="no"/>ius cum nucibus muscatis et similia. Nam 
+      mundifi<lb ed="#A" n="23" break="no"/>cant cerebrum ex illo chimo qui est fundamentum 
+      le<lb ed="#A" n="24" break="no"/>thargie: et mutant cerebri naturam in calorem natura 
+      <lb ed="#A" n="25"/>lem. Item Isid. de summo bo. li. iii. c. xiiii. dicit. 
+      Me<lb ed="#A" n="26" break="no"/>moria naturaliter tarda frequenti lectione et 
+      medi<lb ed="#A" n="27" break="no"/>tatione acuitur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e761">
+               <head xml:id="Vn7Pel-h100322-Hd1e763">9</head>
+               <p xml:id="Vn7Pel-h100322-d1e765">
+                  <lb ed="#A" n="28"/>¶ Quales actus habeat memo 
+      <lb ed="#A" n="29"/>ria et reminiscentia. Ad hoc Albertus magnus dicit 
+      <lb ed="#A" n="30"/>quod quamuis Auicenna posuerit quod memoria non habet 
+      <lb ed="#A" n="31"/>apprehendere sed tantumodo formas recipere et 
+      conserua<lb ed="#A" n="32" break="no"/>re vel retinere. Sed melius videtur dicendum quod 
+      ha<lb ed="#A" n="33" break="no"/>beat etiam apprehendere. quia est virtus apprehensiua 
+      <lb ed="#A" n="34"/>Unde Aristo. expresse dicit quod memoria et 
+      reminiscen<lb ed="#A" n="35" break="no"/>tia suos habent actus apprehensionis. Proindeo 
+      <lb ed="#A" n="36"/>sicut in intelligibili virtute intellectus possibilis 
+      reci<lb ed="#A" n="37" break="no"/>pit intelligibilium formas et retinet eas. sic et 
+      me<lb ed="#A" n="38" break="no"/>morie actus magis debet dici conseruare quam 
+      recipe<lb ed="#A" n="39" break="no"/>re. tamen habet et apprehendere. vt dicit Alb. Et de hac 
+      <lb ed="#A" n="40"/>materia latius habetur supra vbi <ref xml:id="Vn7Pel-h100322-Rd1e795">Anima. §. li.</ref> Unde 
+      <lb ed="#A" n="41"/>non oportet hic repetere. Denique vt <ref xml:id="Vn7Pel-h100322-Rd1e799">Guil. dicit 
+      su<lb ed="#A" n="42" break="no"/>per libr. i. di. iii.</ref> Memoria bene habet actum de 
+      praedi<lb ed="#A" n="43" break="no"/>camento actionis. videlicet dictionem actiuam et 
+      gignitio<lb ed="#A" n="44" break="no"/>nem tamen non habet actum quam maxime absolutum 
+      di<lb ed="#A" n="45" break="no"/>stinctum ab actu intellectus et voluntatis. Et de shoc 
+      <lb ed="#A" n="46"/>habitum est <ref xml:id="Vn7Pel-h100322-Rd1e813">lib. i. vbi Actus</ref>
+               </p>
+               <p xml:id="Vn7Pel-h100322-d1e816">
+      ¶ Item de 
+      conserua<lb ed="#A" n="47" break="no"/>tione memorie et actibus. §. sequenti imediate De 
+      no<lb ed="#A" n="48" break="no"/>bilitate hic. atque vbi <ref xml:id="Vn7Pel-h100322-Rd1e822">Ratio. §. vi. hoc e. li. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h100322-Dd1e826">
+               <head xml:id="Vn7Pel-h100322-Hd1e828">10</head>
+               <p xml:id="Vn7Pel-h100322-d1e830">
+                  <lb ed="#A" n="49"/>¶ Quali nobilitate insigniuit de 
+      <lb ed="#A" n="50"/>us memoriam humani: Respondetur secundum doc. et ex 
+      praedi<lb ed="#A" n="51" break="no"/>ctis colligendo quod pluribus modis deus homininis 
+      <lb ed="#A" n="52"/>memoriam nobilitauit prae memoria omnium animalium. 
+      </p>
+               <p xml:id="Vn7Pel-h100322-d1e841">
+                  <lb ed="#A" n="53"/>¶ Primo. quia homini cum memoria dedit et 
+      <lb ed="#A" n="54"/>reminiscentiam. qua possit etiam deleta a memo 
+      <lb ed="#A" n="55"/>ria requirere. Sed aliis animalibus dedit solam 
+      <lb ed="#A" n="56"/>memoriam sine reminiscentia. Nam vt dicit <name xml:id="Vn7Pel-h100322-Nd1e851">Augustinus</name> li. 
+      <!--327.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>confes. Memoriam habere et pecora et aues patet 
+      <lb ed="#A" n="58"/>quia nidos et stabula repetunt et alia quae assuescunt 
+      <lb ed="#A" n="59"/>Et idem super <ref xml:id="Vn7Pel-h100322-Rd1e864">Gen. li. iii.</ref> dicit: et etiam Isido. quod pisces 
+      <lb ed="#A" n="60"/>claret memoriam habere. quia in fontibus praesertim aliquibus 
+      <lb ed="#A" n="61"/>et lacubus piscibus natantibus cum homines desuper 
+      ali<lb ed="#A" n="62" break="no"/>quid eis iactauerint ad edendum eis placitum: 
+      con<lb ed="#A" n="63" break="no"/>fluentes ad inuicem concertando rapiunt: quo post 
+      <lb ed="#A" n="64"/>consueti sepius vt aliquid iactetur natant illuc 
+      <lb ed="#A" n="65"/>Secundo quia deus dedit homini talem memoriam quae sit 
+      <lb ed="#A" n="66"/>pars imaginis diuine sine quae homines amentes dicuntur 
+      <lb ed="#A" n="67"/>vt idem <name xml:id="Vn7Pel-h100322-Nd1e884">Augustinus</name> dicit pluribus libris. et <ref xml:id="Vn7Pel-h100322-Rd1e886">de spiritu. ca. xxxiii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-h100322-d1e889">
+                  <lb ed="#A" n="68"/>¶ Tertio quia sic ordinauit deus ex bonitate sua vt 
+      <lb ed="#A" n="69"/>memoratio dei in anima ac futurorum nouissimorum 
+      <lb ed="#A" n="70"/>etc. excludat omnia vicia: vt dicit Hiero. super Ezech. 
+      <lb ed="#A" n="71"/>Et vt omnium rerum thesaurum tanquam custos conseruet scilicet 
+      <lb ed="#A" n="72"/>scientiam. et sic bonitatis recordetur dei semper. Unde Augustinus 
+      <lb ed="#A" n="73"/>in ser. de imagine dicit. Sicut nullum potest esse 
+      mo<lb ed="#A" n="74" break="no"/>mentum quo homo non vtatur dei bonitate et mise 
+      <lb ed="#A" n="75"/>ricordia: ita nullum debet esse momentum quo non 
+      <lb ed="#A" n="76"/>habeat deum praesentem in memoria. Hec ille. 
+      </p>
+               <p xml:id="Vn7Pel-h100322-d1e911">
+                  <lb ed="#A" n="77"/>¶ Ultimo quia memoriam fecit deus in homine 
+      <lb ed="#A" n="78"/>vt in futuro dotet ipsam perpetua tentione 
+      felici<lb ed="#A" n="79" break="no"/>tatis. Deo ergo gratias
+     </p>
+               <p xml:id="Vn7Pel-h100322-d1e921">
+      ¶ Nota etiam secundum <name xml:id="Vn7Pel-h100322-Nd1e923">Ioannem 
+      <lb ed="#A" n="80"/>de Ruppel.</name> quod memoratiua in homine est triplex 
+      <lb ed="#A" n="81"/>quia est vis conseruatiua speciei sensibilis. et est 
+      <lb ed="#A" n="82"/>etiam conseruatiua speciei intelligibilis. et insuper 
+      <lb ed="#A" n="83"/>conseruatiua est diuine similitu dinis indite a creatione. ergo etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beniuolentia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Beniuolentia</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="118"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h36139">
+            <head xml:id="Vn7Pel-h36139-Hd1e110">Beniuolentia</head>
+            <p xml:id="Vn7Pel-h36139-d1e112">
+               <lb ed="#A" n="98"/>niuolentia duot 
+      <lb ed="#A" n="99"/>diffinit Hugo de sancto victur. est 
+      bo<lb ed="#A" n="100" break="no"/>na erga aliquem voluntas.
+     </p>
+            <p xml:id="Vn7Pel-h36139-d1e121">
+      ¶ 
+      No<lb ed="#A" n="101" break="no"/>ta autem secundum Anton. floren. per. iiii. 
+      <lb ed="#A" n="102"/>summe ti. vi. c. vi. Et Rayne. quod ista inter se differut 
+      <lb ed="#A" n="103"/>amor: beniuolentia: amicicia: charitas: dilectio: 
+      <lb ed="#A" n="104"/>pcordia et beneficentia. Nam primo amor est quid 
+      gene<lb ed="#A" n="105" break="no"/>rale ad omnem amorem licitum et illicitum. Et commune est etiam 
+      <lb ed="#A" n="106"/>brutis. Secundo beniuolentia vt dicit philosophus. viii. Eth 
+      <lb ed="#A" n="107"/>est qua alicui bene volumus et optamus 
+      volun<lb ed="#A" n="108" break="no"/>tate rationali. et sic non est in brutis. Tertio amicicia 
+      <lb ed="#A" n="109"/>differt a praedictis. quia dicit amationem mutuam cum reama 
+      <lb ed="#A" n="110"/>tione. sed beniuolentia dicit solam amationem qua quis 
+      bo<lb ed="#A" n="111" break="no"/>num vult alteri. etiamsi ille non reamaret istum 
+      <!--118.xml-->
+      <pb ed="#A" n="119"/>
+               <cb ed="#A" n="a"/>
+               <lb ed="#A" n="1"/>vnde potest fieri etiam ad ignotos homines de quibus 
+      <lb ed="#A" n="2"/>audit aliquid boni. sed amicicia non potest esse ad 
+      igno<lb ed="#A" n="3" break="no"/>tos. licet amicicia fundetur super beniuolentia vt dicit 
+      <lb ed="#A" n="4"/>Philosophus. viii. Eth. Quarto charitas differt a 
+      predi<lb ed="#A" n="5" break="no"/>ctis: quia est amor fundatus super beatitudinis 
+      <lb ed="#A" n="6"/>diuine communicatione. Est enim charitas qua 
+      diligi<lb ed="#A" n="7" break="no"/>mus deum propter se et suam bonitatem et proximum 
+      <lb ed="#A" n="8"/>in deum et propter deum. Nam inimicum diligimus ex 
+      cha<lb ed="#A" n="9" break="no"/>ritate propter deum ad beatitudinem. Sed amicicia est solum 
+      <lb ed="#A" n="10"/>inter amicos in honestate virtutum fundatus 
+      <lb ed="#A" n="11"/>proprie accipiendo Quinto dilectio differt quia est 
+      <lb ed="#A" n="12"/>actus primus et principalis procedens ex habitu 
+      <lb ed="#A" n="13"/>charitatis. Unde charitas dicit habitum sed dilectio 
+      <lb ed="#A" n="14"/>proprie dicit actum diligendi ex charitate. Sexto 
+      con<lb ed="#A" n="15" break="no"/>cordia differt quia consistit in conformatione voluntatis 
+      <lb ed="#A" n="16"/>mutue personarum etc. Septimo beneficentia differt 
+      qa<lb ed="#A" n="17" break="no"/>praedictis quia consistit in exteriori effectu charitatis 
+      <lb ed="#A" n="18"/>et liberalitatis vel pietatis qua quis alteri 
+      bene<lb ed="#A" n="19" break="no"/>facit effectualiter. Concordia autem consistit pro 
+      <lb ed="#A" n="20"/>prie in solo affectu interiori voluntatis. Simili. 
+      <lb ed="#A" n="21"/>ter et beniuolentia. et sic patet
+     </p>
+            <p xml:id="Vn7Pel-h36139-d1e199">
+      ¶ Nota secundo quod 
+      <lb ed="#A" n="22"/>dei bonitas disposuit quod hominis cuiusque 
+      beni<lb ed="#A" n="23" break="no"/>uolentia et bonitas omni creature sit vtilis 
+      exce<lb ed="#A" n="24" break="no"/>ptis hominibus damnatis et demonibus vt dicit Ansel. 
+      <lb ed="#A" n="25"/>de similitu. xx. Et declarat quia primo vtilis est 
+      <lb ed="#A" n="26"/>hominibus electis quia ad augmentum glorie 
+      <lb ed="#A" n="27"/>in celo. et secundo angelis beatis eadem ratione. 
+      <lb ed="#A" n="28"/>Tertio malis hominibus prodest in presenti ad 
+      <lb ed="#A" n="29"/>exemplum conuersionis. Quarto soli: lune: 
+      stel<lb ed="#A" n="30" break="no"/>lis ceterisque creaturis quia in consummatione 
+      glo<lb ed="#A" n="31" break="no"/>rie iustorum omnia in melius mutabuntur. 
+      Quin<lb ed="#A" n="32" break="no"/>to animabus in purgatorio et vniuersali 
+      ecclesie<lb ed="#A" n="33" break="no"/>per participationem meritorum et auxilia 
+      suffra<lb ed="#A" n="34" break="no"/>giorum Insuper quodammodo ipsi deo licet 
+      nul<lb ed="#A" n="35" break="no"/>lo indigeat: tamen quia voluntati eius 
+      concor<lb ed="#A" n="36" break="no"/>dat ergo et deo places est. Et sic amicicie gaudia 
+      <lb ed="#A" n="37"/>dignatur facere ex mera sua bonitate teste 
+      chri<lb ed="#A" n="38" break="no"/>sto. Luce. xv. 
+      </p>
+            <p xml:id="Vn7Pel-h36139-d1e238">
+               <lb ed="#A" n="39"/>¶ Ex dei bonitas fecit plurima 
+      <lb ed="#A" n="40"/>mira in bestiis propter que est in omnibus 
+      lau<lb ed="#A" n="41" break="no"/>dabilis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

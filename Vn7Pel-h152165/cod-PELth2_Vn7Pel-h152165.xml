@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(X)Christus et Christia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>(X)Christus et Christia</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="491"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h152165">
+            <head xml:id="Vn7Pel-h152165-Hd1e110">(X)Christus et Christia</head>
+            <div xml:id="Vn7Pel-h152165-Dd1e112">
+               <head xml:id="Vn7Pel-h152165-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h152165-d1e116">
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Qus et 
+      christia<lb ed="#A" n="2" break="no"/>nus. Queritur quare hoc nomen 
+      chri<lb ed="#A" n="3" break="no"/>tus litteris istis scribitur vilicet. x. p. c. Cum 
+      <lb ed="#A" n="4"/>cot spiseice vel titello superposito: Respondetur quod plures sunt 
+      <lb ed="#A" n="5"/>rationes ad id secundum doct. et Papiam. Prima est quia 
+      <lb ed="#A" n="6"/>cprtesc est vocabulum grecum et non latinum ideo grecis 
+      <lb ed="#A" n="7"/>lris solet scribi. Nam apud grecos hec figura. x. 
+      po<lb ed="#A" n="8" break="no"/>nitur pro ch. latine seu idem est. Item apud grecos hec 
+      <lb ed="#A" n="9"/>figura pr. ponitur pror. et est r apud latinos. Hec autem 
+      fi<lb ed="#A" n="10" break="no"/>gura c apud grecos ponitur et est S. apud latios. vnde 
+      <lb ed="#A" n="11"/>latine scribitur christus. et grece pro eisdem litris. 
+      <lb ed="#A" n="12"/>cpitetc.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e147">
+      ¶ Alia ratio significationis quia hec littera x. habet 
+      <lb ed="#A" n="13"/>figura crucis. Et dicit Pap. quod inuenta est 
+      temper<lb ed="#A" n="14" break="no"/>Octauiani imperatoris a latinis. quo tempore natus 
+      <lb ed="#A" n="15"/>est cpistet. Significat ergo crucis triumphum. 
+      Psigni<lb ed="#A" n="16" break="no"/>ficat peccatorum nostrorum per chisum persolutionem. Et C.si 
+      <lb ed="#A" n="17"/>gnificat coronam glorie resurrectionis christi. ergo etc. 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e160">
+                  <lb ed="#A" n="18"/>¶ Tertia ratio quia cemptus grece a chrismate dicitur quasi 
+      <lb ed="#A" n="19"/>christismate vnctus. et chrisma grecum est ac scribitur 
+      <lb ed="#A" n="20"/>per x. grece. sed apud nos per ch. Et vt dicitur libro Catholi 
+      <lb ed="#A" n="21"/>Chrisma dicitur a chrysos quod est aurum. vel secretum vl 
+      <lb ed="#A" n="22"/>iudicium. v. Aurum: iudicium: secretum: dat tibi crisis 
+      <lb ed="#A" n="23"/>Et quoniam christus fuit vnctus verus Rex et Sacerdos 
+      <lb ed="#A" n="24"/>chrismate celestid est spiritum sancto plenus. ergo tet 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e178">
+                  <lb ed="#A" n="25"/>¶ Si autem queratur quibus ex rebus conficitur chrisma 
+      <lb ed="#A" n="26"/>Dicit Hug. de Sacris. li. ii pert. xv. c.i. quod vnctio quae fit 
+      <lb ed="#A" n="27"/>chrismate principalis vnctio dicitur. quia in ea principa 
+      <lb ed="#A" n="28"/>liter paracletus datur. vnde et propter abundantiam gratiae: 
+      e<lb ed="#A" n="29" break="no"/>quores (inquit) mixtos habet oleum et balsamum scilicet ex 
+      quo<lb ed="#A" n="30" break="no"/>bus conficitur. Oleum conscientie nitorem: et balsamum 
+      <lb ed="#A" n="31"/>fame odorem bonu significat. vnde vnctione ista 
+      <lb ed="#A" n="32"/>intus conscientia peruncta: et ad pacem cum deo ordina 
+      <lb ed="#A" n="33"/>ta: per oleum designatur. Ac per balsamum: foris exemplum 
+      <lb ed="#A" n="34"/>ad proximum atque pax in edificando. Hinc est quod 
+      A<lb ed="#A" n="35" break="no"/>aron et filii eius in ve. tels. in Sacerdotium Reges 
+      <lb ed="#A" n="36"/>que perungebantur chrismate. Et nunc non solum Reges 
+      <lb ed="#A" n="37"/>et pontifices: sed omnis ecclesia: et christianus chrismate 
+      <lb ed="#A" n="38"/>consecratur. eo quod membrum est eterni Regis et Sacet 
+      <lb ed="#A" n="39"/>dotis. videlet christi Iesu et consors regni eius fit in 
+      ce<lb ed="#A" n="40" break="no"/>lo. Et quia quilibet chrianus debet esse nitidus intus 
+      <lb ed="#A" n="41"/>in conscientia: ac boni odoris in fama: propterea materia 
+      <lb ed="#A" n="42"/>sacramenti Confirmationis est chrisma. quod est ex oleo 
+      <lb ed="#A" n="43"/>et balsamo vt praedictum est. Materia autem extremeo 
+      <lb ed="#A" n="44"/>vnctionis est oleum sine balsamo. quia exeuntes per 
+      <lb ed="#A" n="45"/>mortem decetero non indigent odore bone fame 
+      <lb ed="#A" n="46"/>erga edificationem proximi.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e229">
+      ¶ Item de 
+      propri<lb ed="#A" n="47" break="no"/>etatibus Olei et Balsami: plura habentur suis locis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152165-Dd1e235">
+               <head xml:id="Vn7Pel-h152165-Hd1e237">2</head>
+               <p xml:id="Vn7Pel-h152165-d1e239">
+                  <lb ed="#A" n="48"/>¶ Quare christiani populi ab hoc 
+      <lb ed="#A" n="49"/>nomine christus denominantur christiani: non autem a nomine Iesu 
+      <lb ed="#A" n="50"/>vocantur Iesuite: Respondetur secundum Doc. quod plures sunt rationes 
+      <lb ed="#A" n="51"/>Una ex parte Greci sermonis. Nam vt Chrys. dicit 
+      <lb ed="#A" n="52"/>super Matth. Christiani prius in Iudea et vbique 
+      vo<lb ed="#A" n="53" break="no"/>cabantur Nazarei. Sed postea in Grecia apud 
+      An<lb ed="#A" n="54" break="no"/>tiochiam crescente numero christianorum: permutatum est 
+      <lb ed="#A" n="55"/>nomen vt dicerentur christiani. Quia vero hec permuta 
+      <!--490.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>tio facta est in Grecia: ideo nomine greco a christo 
+      no<lb ed="#A" n="57" break="no"/>minantur. et non a nomine hebreo scilicet Iesus.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e268">
+      ¶ Alia rateo 
+      <lb ed="#A" n="58"/>quia nomen Iesus est nomen diuinitatem christi 
+      respi<lb ed="#A" n="59" break="no"/>ciens. Dicitur enim Iesus id est saluator. Saluare 
+      au<lb ed="#A" n="60" break="no"/>tem dei est proprium. Sed nomen christus id est vnctus 
+      <lb ed="#A" n="61"/>conuenit christo ratione humanitatis in qua communicat 
+      nobis<lb ed="#A" n="62" break="no"/>cum. Unde christiani sunt vncti tanquam pugiles contra 
+      mun<lb ed="#A" n="63" break="no"/>dum. carnem. et diabolum pro christo Rege. ergo etc. 
+      <lb ed="#A" n="64"/>Tertia ratio Ex deriuatione nominis et imitationis. Nam 
+      <lb ed="#A" n="65"/>Bern. super Can. ser. xv. dicit Christianus particeps 
+      <lb ed="#A" n="66"/>nominis est et hereditatis. Christianus sum. christi frater 
+      <lb ed="#A" n="67"/>sum. Si sum quod dicor: heres sum dei et 
+      cohe<lb ed="#A" n="68" break="no"/>res christi. Et Augustinus de Uita christiana: dicit. Non in 
+      <lb ed="#A" n="69"/>hoc tantum modo nomine quod christiani dicimur: nobis blam 
+      <lb ed="#A" n="70"/>diamur: sed propter hoc etiam nos iudicari 
+      creda<lb ed="#A" n="71" break="no"/>mus si nobis frustra nomen vendicemus alienum 
+      <lb ed="#A" n="72"/>Nomen christi ille frustra sortitur qui christum actibus 
+      <lb ed="#A" n="73"/>minime imitatur. Hec ille
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e305">
+      ¶ Proinde Christianus 
+      <lb ed="#A" n="74"/>diffinitur sic secundum Ioann. Climacis. lir scale 
+      Christia<lb ed="#A" n="75" break="no"/>nus est imitator christi secundum quod possibile est homi 
+      <lb ed="#A" n="76"/>verbis et operibus et intentione: recte et sine que 
+      <lb ed="#A" n="77"/>rela credens in deum et sanctam Trinitatem. Sed 
+      <lb ed="#A" n="78"/>quia non tenemur christum imitari in operibus diui 
+      <lb ed="#A" n="79"/>nis: puta in miraculis faciendis. ergo non denomi 
+      <lb ed="#A" n="80"/>namur a nomine Iesu: quod ratione diuinitatis christo 
+      con<lb ed="#A" n="81" break="no"/>petit. Sed quia tenemur in operibus virtuosis et bonis 
+      <lb ed="#A" n="82"/>Ideo a christo quod est ipsi competens ratione humanitatis: 
+      <lb ed="#A" n="83"/>deriuatum nomen habemus christianum. Nam et secundum 
+      <lb ed="#A" n="84"/>grammaticam regulam Omne deriuatm sequi habet 
+      <lb ed="#A" n="85"/>suum primitiuum. Ergo Christianus sicut nomine: ita 
+      <lb ed="#A" n="86"/>et opere sequi debet christum. Unde et Hieron in 
+      te<lb ed="#A" n="87" break="no"/>stamento. Frustra christianum nomen habet qui 
+      o<lb ed="#A" n="88" break="no"/>peribus diabolum sequitur etc. Ex his patet dei boni 
+      <lb ed="#A" n="89"/>tas et iusticia laudabilis in christianis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152165-Dd1e343">
+               <head xml:id="Vn7Pel-h152165-Hd1e345">3</head>
+               <p xml:id="Vn7Pel-h152165-d1e347">
+                  <lb ed="#A" n="90"/>¶ Quare christus in scriptura 
+      figu<lb ed="#A" n="91" break="no"/>ratiue assimilatur flori campi potius quam horti: 
+      <lb ed="#A" n="92"/>Respondetur secundum Bernd. super Can. ser. xlviii. Et in Seratum. 
+      <lb ed="#A" n="93"/>de Aducentu. qui incipit Audiuimus. Quod exquo flos in 
+      <lb ed="#A" n="94"/>horto clauditur: sed in campo exponitur et spargitur. 
+      ioeo<lb ed="#A" n="95" break="no"/>que secundum aliquid dominus Iesus dicitur flos horti. quia virgo de 
+      <lb ed="#A" n="96"/>virgine clauso vtero natus. Unde Cantur. iiii. Hortus 
+      <lb ed="#A" n="97"/>conclusus soror mea sponsa. Hec est beata virgo 
+      Ma<lb ed="#A" n="98" break="no"/>ria christi soror: dei sponsa. Sectum potius dicitur christus 
+      <lb ed="#A" n="99"/>flos campi. Ibidem cap. ii Ego flos campi et lilium 
+      con<lb ed="#A" n="100" break="no"/>uallium. quia campus non defossus sarculo: non 
+      impin<lb ed="#A" n="101" break="no"/>guatus fimo: non seminatus ab aliquo: sine omni 
+      huma<lb ed="#A" n="102" break="no"/>no floret adminiculo: celestis virtutis influxum id est 
+      <lb ed="#A" n="103"/>influentie auxilio. Sic omnino virginis aluus 
+      flo<lb ed="#A" n="104" break="no"/>ruit: castaque et inuiolata viscera Marie genueruit 
+      <lb ed="#A" n="105"/>eterni nitoris florem. cuius pulcritudo 
+      corrupti<lb ed="#A" n="106" break="no"/>onem non videt. nec in perpetuum marcescet. Et ipse 
+      <lb ed="#A" n="107"/>quidem flos campi: quia martyr martyrum 
+      ex<lb ed="#A" n="108" break="no"/>positus foras ciuitatem passus ab hominibus: 
+      ce<lb ed="#A" n="109" break="no"/>culcatus: et laceratus vulneribus: in ligno 
+      exti<lb ed="#A" n="110" break="no"/>tit leuatus. Ipse et liliunm conuallium: quia 
+      pu<lb ed="#A" n="111" break="no"/>rus et humilis 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e397">
+                  <lb ed="#A" n="112"/>¶ Quare Christus comparatur 
+      <!--491.xml-->
+      <pb ed="#A" n="492"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>flori. plura habentur vbi Flos §. i. et sequentibus. 
+      <lb ed="#A" n="2"/>sit etiam lib. iii. variis locis. 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e413">
+                  <lb ed="#A" n="3"/>¶ Item quare christus comparatur 
+      <lb ed="#A" n="4"/>flori. plura habentur vbi Flos. §. 1. et sequentibus. Et 
+      <lb ed="#A" n="5"/>etiam libro. iii variis locis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152165-Dd1e423">
+               <head xml:id="Vn7Pel-h152165-Hd1e425">4</head>
+               <p xml:id="Vn7Pel-h152165-d1e427">
+                  <lb ed="#A" n="6"/>¶ Quomodo chrs in scriptura dicitur 
+      alpha<lb ed="#A" n="7" break="no"/>et o. Nam Apoc. i. c. ipse christus dicit. Ego sum alpha et 
+      <lb ed="#A" n="8"/>o principium et finis. Notandum est secundum Lyram ibidem 
+      <lb ed="#A" n="9"/>et alios quod alpha est prima littera grecorum. et o est 
+      vlti<lb ed="#A" n="10" break="no"/>ma. Nominaturque omega id est finalis. Et ita per hec signa 
+      <lb ed="#A" n="11"/>tur quod christus est principium et finis omnium creaturarum. vt 
+      <lb ed="#A" n="12"/>ibide scriptura exponit dict principium et finis.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e445">
+      ¶ Nota 
+      <lb ed="#A" n="13"/>etiam quod christus dicitur principium et finis dupliciter.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e450">
+      ¶ Uno 
+      <lb ed="#A" n="14"/>modo secundum deitatem. quia deus est principium omnium effectiuum et 
+      <lb ed="#A" n="15"/>finis ad quem omnia ordinata sunt. Prouerb. xvi. Uni 
+      <lb ed="#A" n="16"/>uersa propter semetipsum operatus est dominus.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e459">
+      ¶ Alio modo. scilicet 
+      <lb ed="#A" n="17"/>loquendo secundum christi humanitatem. Sic chro per Esa. xlviii. 
+      <lb ed="#A" n="18"/>c. dicit. Ego primus et nouissimus scilicet in modo. Et hoc in 
+      na<lb ed="#A" n="19" break="no"/>tiuitate ex virgine. quia nullus ante eum nec post eum nascetur 
+      <lb ed="#A" n="20"/>ex virgine. Ideo et de virgine canit ecclesia. quod nec primam 
+      <lb ed="#A" n="21"/>similem visa est: nec habere sequentem. Item isto modo loquendo scilice 
+      <lb ed="#A" n="22"/>secundum humanitatem christus aliquo mo dicitur primus. sed non 
+      no<lb ed="#A" n="23" break="no"/>uissimus. vt ingloliosa resurrectione. quia primus ad gloriam 
+      <lb ed="#A" n="24"/>resurrexit: ita quod nullus ante eum. Ide dicit Apostolos. quod christus 
+      <lb ed="#A" n="25"/>resurrexit primitie dormientium id est mortuorum. sed non 
+      <lb ed="#A" n="26"/>qurtem nouissimus. quia post eum in fine omnes resurgemus. 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e484">
+                  <lb ed="#A" n="27"/>¶ Tertio christus aliquo modo etiam dicitur nouissimus. sed non 
+      <lb ed="#A" n="28"/>primus vt in iudicio finali. quia nullus post eum decete 
+      <lb ed="#A" n="29"/>po iudicabit. sed ante ipsum iudicauerunt multi in modo 
+      <lb ed="#A" n="30"/>aliquos et ipsum christum
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e495">
+      ¶ Quarto christus aliquo modo nec 
+      per<lb ed="#A" n="31" break="no"/>mus dicitur nec nouissimus. vt in passione. quia multi 
+      an<lb ed="#A" n="32" break="no"/>christum passi sunt martyres. et post eum similiter. 
+      Lauda<lb ed="#A" n="33" break="no"/>bilis ergo est mira dei bonitas in christo etpropulo 
+      christi<lb ed="#A" n="34" break="no"/>ano ac omnibus creaturis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h152165-Dd1e508">
+               <head xml:id="Vn7Pel-h152165-Hd1e510">5</head>
+               <p xml:id="Vn7Pel-h152165-d1e512">
+                  <lb ed="#A" n="35"/>Quare chris praefiguratus est 
+      prae<lb ed="#A" n="36" break="no"/>ipue per flores et fructus amygdali. vt scribitur 
+      Nu<lb ed="#A" n="37" break="no"/>meri. xvii. quod virga Aaron sicca inuenta est germinasse 
+      <lb ed="#A" n="38"/>flores turgentibus gemmis Qui foliis dilatati in 
+      am<lb ed="#A" n="39" break="no"/>gdala deformati sunt
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e525">
+      ¶ Respondetur quod vna ratio est. quia 
+      prior<lb ed="#A" n="40" break="no"/>floret inter arbores. et christus praecedit omnes sanctitate. Et 
+      <lb ed="#A" n="41"/>sicut in amygdalino fructu est exterior cortex amara: 
+      <lb ed="#A" n="42"/>intus testa fortis interius quam dulcis nucleus Sic in christo 
+      <lb ed="#A" n="43"/>exterior substati scilicet corpus fuit amaritudine passionum 
+      <lb ed="#A" n="44"/>plena. interior scilicet anima fortis in bono virtutis. Et intima 
+      <lb ed="#A" n="45"/>peitas dulcissima. vt hec canuntur in ecclesiis. 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e541">
+                  <lb ed="#A" n="46"/>¶ Secunda ratio. quia sicut amygdala sunt sana hominibus sed 
+      mor<lb ed="#A" n="47" break="no"/>ifera vulpibus. vt habetur vbi Fructus. §. ii Et vbi 
+      <lb ed="#A" n="48"/>Lignum de amygdali proprietatibus. Sic christus 
+      bo<lb ed="#A" n="49" break="no"/>nis rationaliter viuetibus cum accipitur in eucharistia est ad 
+      <lb ed="#A" n="50"/>salutem eternam. Sed hominibus malis tanquam vulpibus ad 
+      <lb ed="#A" n="51"/>damnationem.
+     </p>
+               <p xml:id="Vn7Pel-h152165-d1e557">
+      ¶ Tertia ratio moralis significationis ex 
+      <lb ed="#A" n="52"/>Lyra lir. Num. supra quia virga Aaron sercauit dominium et 
+      sa<lb ed="#A" n="53" break="no"/>cerdotii christi regimem praelationis in christianis: quae debent 
+      <lb ed="#A" n="54"/>boni praelati imitari. vt germinent bonitate conscientie in 
+      vir<lb ed="#A" n="55" break="no"/>tuosio operibus frondeat veritate doctrie: floreant fa¬ 
+      <!--491.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>me et exempli edificatione tamquam odore ad similia alliciente 
+      <lb ed="#A" n="57"/>Et etiam fructificent in omni sanctitate vite tamquam amygdala 
+      <lb ed="#A" n="58"/>in amara poenitentia corpus castigando. et testa firmitus tis 
+      <lb ed="#A" n="59"/>perseuerando etiam in aduersis. ac nucleo dulcedinis in 
+      <lb ed="#A" n="60"/>deuotione et sic patet dei bonitas laudabilis per omnia etc. 
+      </p>
+               <p xml:id="Vn7Pel-h152165-d1e584">
+                  <lb ed="#A" n="61"/>¶ QEux dei bonitas est laudabilis 
+      <lb ed="#A" n="62"/>ex arcum celesti qui vocatur Iris.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

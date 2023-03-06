@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Auis</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Auis</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="103"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h31555">
+            <head xml:id="Vn7Pel-h31555-Hd1e110">Auis</head>
+            <div xml:id="Vn7Pel-h31555-Dd1e112">
+               <head xml:id="Vn7Pel-h31555-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h31555-d1e116">
+                  <lb ed="#A" n="78"/>As id est 
+      generali<lb ed="#A" n="79" break="no"/>ter. Que sunt generales proprietates 
+      aui<lb ed="#A" n="80" break="no"/>um quibus instruimur laudare dei 
+      bo<lb ed="#A" n="81" break="no"/>nitate. Notandum quod ad plenum non 
+      suffi<lb ed="#A" n="82" break="no"/>cimus omnia describere. Sed aliqua certa propter 
+      nostran<lb ed="#A" n="83" break="no"/>vtilitatem et scripturarum intellectum quae sepius de auibus 
+      faci<lb ed="#A" n="84" break="no"/>unt mentionem describemus ex dictis Arist. libro de 
+      anima<lb ed="#A" n="85" break="no"/>libus. Isidori. ii lir.o Etymo. Ambrosii in hexa. 
+      Be<lb ed="#A" n="86" break="no"/>de libro de na. re. Auicenne Plinii et aliorum physicorum. 
+      <lb ed="#A" n="87"/>Primo nempe aues generaliter habent fcare in scriptura 
+      <lb ed="#A" n="88"/>sancatos dei. vt dicit glori. Mat. vi. Et iterum glo. Lu. xi. 
+      <lb ed="#A" n="89"/>Quia sicut aues alta petunt a terra se eleuando. Et i 
+      <lb ed="#A" n="90"/>sero dum eunt cubitum: Et etiam die oriente. lete canunt. 
+      <lb ed="#A" n="91"/>Sic sancti celestia petunt et die ac nocte deum laudant. 
+      <lb ed="#A" n="92"/>Et sic secundum philosophum omnes aues claudunt oculos per 
+      pal<lb ed="#A" n="93" break="no"/>pebras inferiores. cum tamen animalia gradientia claudant 
+      <lb ed="#A" n="94"/>pr palpebras superiores. Lacerte autem nulla 
+      clau<lb ed="#A" n="95" break="no"/>dunt. Sed et aues multo visu indigent propter 
+      regimen<lb ed="#A" n="96" break="no"/>vite sue et acutiori. vt videant suum cibum a remotis 
+      <lb ed="#A" n="97"/>Et vt videant laqueos ad euitandum etc. Sic sancti ad 
+      <lb ed="#A" n="98"/>terrena oculos claudunt. Et ad celestia aperta tenent. 
+      <lb ed="#A" n="99"/>Cum terreni homines econuerso ad superiora claudant 
+      <lb ed="#A" n="100"/>et repentes in terra apertos habent. Secundo aues omnes 
+      ha<lb ed="#A" n="101" break="no"/>pent duos pedes tantum. quia in loco pedum anteriorum 
+      <lb ed="#A" n="102"/>habent alas vt dicit idem philosophus. Nec habent dentes sed pro dem 
+      <lb ed="#A" n="103"/>tibus rostra. Et collum longum si habet crura longa ac 
+      <lb ed="#A" n="104"/>curtum si curta. Tertio proprietas auium communis est quod vt 
+      <lb ed="#A" n="105"/>glo. super Hiere. dicit. Aues sua tempora norunt vt sciant 
+      <lb ed="#A" n="106"/>hyemis declinare rigorem ad regiones calidas 
+      <lb ed="#A" n="107"/>festinantes. Ideo scribitur miluus in celo turtur 
+      <lb ed="#A" n="108"/>et hyrundo et ciconia cognouerunt tempus 
+      ad<lb ed="#A" n="109" break="no"/>uentus sui etc. Et ante recessum suum se 
+      premu<lb ed="#A" n="110" break="no"/>niunt vt multum comedant et impinguentur: 
+      <lb ed="#A" n="111"/>at postea melius famis inopiam pati possint. 
+      <!--103.xml-->
+      <pb ed="#A" n="104"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Et iterum post hyemem redeunt. vt dicitu libro de natu. rer. 
+      <lb ed="#A" n="2"/>Item expartum est quod quando perdices et huiusmodi aues sunt 
+      ni<lb ed="#A" n="3" break="no"/>mis pingues circa principium hyemis vel postea de 
+      <lb ed="#A" n="4"/>proximo longior erit hyemis tepestas. quia 
+      praecogno<lb ed="#A" n="5" break="no"/>scentes se impinguant etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e211">
+               <head xml:id="Vn7Pel-h31555-Hd1e213">2</head>
+               <p xml:id="Vn7Pel-h31555-d1e215">
+                  <lb ed="#A" n="6"/>¶ Quid de auium differentiis. et 
+      <lb ed="#A" n="7"/>egrotationem ac carnis qualitate Nota quod vt dicitur libro de 
+      <lb ed="#A" n="8"/>natu. re. In auibus e multiplex differentia. Nam quaedam 
+      <lb ed="#A" n="9"/>sunt siluestres quaedam domestice. quaedam semetipsas 
+      re<lb ed="#A" n="10" break="no"/>gunt. quaedam sub moderamine regum suorum degunt. vt 
+      gru<lb ed="#A" n="11" break="no"/>es. Item egrotatio auium omnium secundum Aristo. cogscitur et 
+      <lb ed="#A" n="12"/>alis. quando turbatur situs earum vel demittuntur. Denique 
+      a<lb ed="#A" n="13" break="no"/>ues non faciunt vrinam. quia multum sicce sunt: multumque de 
+      <lb ed="#A" n="14"/>humorositate transit in plumas et consumitur per volatum 
+      <lb ed="#A" n="15"/>Et quia parum bibunt: vnde nec habent vesicam.
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e239">
+      ¶ Denique de 
+      <lb ed="#A" n="16"/>carnibus auium Auice. dicit. quod caro auis omnino 
+      siccio<lb ed="#A" n="17" break="no"/>est carne quadrupedis. et constrigit ventrem siue sit assata 
+      <lb ed="#A" n="18"/>siue non. Caro autem auium magnarum melancholica est 
+      <lb ed="#A" n="19"/>et febres euenire. Unde carnes durio: es auium situt 
+      <lb ed="#A" n="20"/>habent grues. pauones. biscarde. fasiani et huiusmodi 
+      me<lb ed="#A" n="21" break="no"/>liores sunt ad comedendum: reseruate post occisionem 
+      <lb ed="#A" n="22"/>in estate die vno: vel in hyeme tribus diebus vt caro 
+      <lb ed="#A" n="23"/>talis fiat tenera. Item aues terrestres meliores sunt 
+      <lb ed="#A" n="24"/>aquaticis pro sanitate. et inter aquaticas: anates sunt omnibus 
+      <lb ed="#A" n="25"/>detriores. Item inter columbas pulli sunt meliores Sed 
+      <lb ed="#A" n="26"/>inter turtures econuerso maturioris etatis sunt melio 
+      <lb ed="#A" n="27"/>res pullis suis. Item volatilia castrata: vt 
+      galli<lb ed="#A" n="28" break="no"/>opti nutrimenti sunt. Item Iorath libro de animalibus dicit quod 
+      <lb ed="#A" n="29"/>nulli auium accidit magis caducus morbus quam 
+      passer<lb ed="#A" n="30" break="no"/>et coturnici. et his quae iusquianum comedunt. ergo etc. Item 
+      <lb ed="#A" n="31"/>Isaac i dietuis dicit quod in domesticis auibus pulli sunt 
+      me<lb ed="#A" n="32" break="no"/>iores ad esum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e279">
+               <head xml:id="Vn7Pel-h31555-Hd1e281">3</head>
+               <p xml:id="Vn7Pel-h31555-d1e283">
+                  <lb ed="#A" n="33"/>¶ Quid de auium sagacitate 
+      No<lb ed="#A" n="34" break="no"/>ta quod sagacitas auium apparet in pluribus etc Rprio in vo 
+      <lb ed="#A" n="35"/>ciferatione. Nam vt Arist. dicit libro de animalibus. Aues 
+      parue<lb ed="#A" n="36" break="no"/>multae vociferationis sunt: sic quod cogscunt quasdam suas 
+      <lb ed="#A" n="37"/>intentiones inuicem Et hec est in omnibus auibus secundum ma 
+      <lb ed="#A" n="38"/>et minus. Quedam etiam aues ab aliis quasdam voces a 
+      <lb ed="#A" n="39"/>discunt. Gallus vociferat post praelium et victoriam. Omnium 
+      <lb ed="#A" n="40"/>autem communiter vociferatio auium est tempore comitus vel famis 
+      <lb ed="#A" n="41"/>Item hoc mirabile est quod sosis quaedam est auis in cuius 
+      mor<lb ed="#A" n="42" break="no"/>te vociferant aues dolorose suaui voce. vt dicit idem 
+      <lb ed="#A" n="43"/>Arist. In hoc ostenditur nobis pietas ad defunctos exhi 
+      <lb ed="#A" n="44"/>penda etc. Item aliud mirabile est quod femina non dat 
+      vo<lb ed="#A" n="45" break="no"/>ces: sed soli masculi vociferant. vt patet de gallo etc. et 
+      <lb ed="#A" n="46"/>in mare coturnicum. In hoc seccatur a deo con hereticos 
+      <lb ed="#A" n="47"/>mysterium. ne mulieres in ecclesia loquantur secundum apostolum 
+      <lb ed="#A" n="48"/>Item mirabile est quod femina cubeth audiens voce 
+      ma<lb ed="#A" n="49" break="no"/>sculi et olfaciens ipsum: ouis impletur est si non coeat cum 
+      <lb ed="#A" n="50"/>mare. patet. §. v Unde probatur quod multo fortius autor 
+      na<lb ed="#A" n="51" break="no"/>ture deus potuit facere vt virgo pariat.
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e327">
+      ¶ Secundo in 
+      <lb ed="#A" n="52"/>auibus sagacitas apparet in nidificatione. nam mira 
+      so<lb ed="#A" n="53" break="no"/>lertia nidos faciunt: pullosque educant. insidias 
+      ca<lb ed="#A" n="54" break="no"/>uent. aeris mutationes et tempora explorant. morborum re 
+      <lb ed="#A" n="55"/>media adhibent. Nimirum hirudines in nidis suis 
+      ce<lb ed="#A" n="56" break="no"/>lidoniam visui salubrimam pro pull qui verantur in ocubls 
+      <lb ed="#A" n="57"/>apponunt Cum tamen hirundines inter volucres esse indoci 
+      <!--103.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>les. sicut et inter trestres simiter indociles mures esse com 
+      <lb ed="#A" n="59"/>stat. Item ciconia origano medetur in morbis suis 
+      <lb ed="#A" n="60"/>vt dicit Plinius libro viii. Denique aues quaeque dum pugnant 
+      <lb ed="#A" n="61"/>inter se: ponunt super plagas suas origanum siluestre 
+      <lb ed="#A" n="62"/>vt dicit Arist.  Tertio est sagacitas in auibus in 
+      pugna<lb ed="#A" n="63" break="no"/>citate. Nam secundum Arist. aues quaedam contra se inuicem pugnant 
+      <lb ed="#A" n="64"/>quarum vigor et arma sunt ale et vngues Non est auium 
+      <lb ed="#A" n="65"/>vnius speci vt sese comedant. Coruus et bubo sibi 
+      inui<lb ed="#A" n="66" break="no"/>cem aduersantur in nidis. Bubonemque multa pars auium 
+      <lb ed="#A" n="67"/>odit quae ipsum deplumant. Coruus amicus est vulpis et 
+      <lb ed="#A" n="68"/>iuuat eum contra nimicum sum scilicet ascelon: quae est auis cum 
+      vul<lb ed="#A" n="69" break="no"/>pe pugnans. quia vulpis pullos illius interficit et ipsum 
+      <lb ed="#A" n="70"/>deplumat. Ascelon est secundum Plinium libro x. est auis parua 
+      <lb ed="#A" n="71"/>et frangit corui oua: ideo aduersantur. Item auis nomine 
+      <lb ed="#A" n="72"/>tharda vt refert Auicen. visa est pugnare cum vipera et cum 
+      <lb ed="#A" n="73"/>veneno illius lederetur rcurrebat iterum ac iterum ad 
+      her<lb ed="#A" n="74" break="no"/>bam rutam prope sitam et redibat ad pugnam. Ecce 
+      saga<lb ed="#A" n="75" break="no"/>citas quam deus bonus indidit nature auium. 
+      <lb ed="#A" n="76"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e389">
+               <head xml:id="Vn7Pel-h31555-Hd1e391">4</head>
+               <p xml:id="Vn7Pel-h31555-d1e393">
+                  <lb ed="#A" n="77"/>¶ Und e quod aues et alia animalia 
+      irra<lb ed="#A" n="78" break="no"/>tionalia videntur prudentr facere aliquo acsi essent ratio 
+      <lb ed="#A" n="79"/>nalia. Respondetur secundum Nico. de litr. super illud Iob. xxxvii. 
+      <lb ed="#A" n="80"/>Quis dedit gallo intelligentiam: quod hoc est primo et 
+      princi<lb ed="#A" n="81" break="no"/>palius ex diuina sapientia quae talem proprietatem indidit 
+      natu<lb ed="#A" n="82" break="no"/>re ad manifestationem sue bonitatis et sapientie ac potentie 
+      <lb ed="#A" n="83"/>Ideo scriptura dicit. Quis dedit: q. di. no nisi solus deus 
+      <lb ed="#A" n="84"/>dedit gallo intelligentiam id est vt hebeat tantam prudentiam catam 
+      <lb ed="#A" n="85"/>di in nocte horis deter minatis. acsi intelligeret horarum 
+      <lb ed="#A" n="86"/>noctis distinctionem Et similiterest de aliis. videlicet quod deus 
+      indi<lb ed="#A" n="87" break="no"/>dit animalibus ad opera deter miata prudentiam. puta ad 
+      fa<lb ed="#A" n="88" break="no"/>ciendum nidos auibus Et aranee ad faciendum telam. 
+      <lb ed="#A" n="89"/>Et apibus ad construendum domunculas. similiter animalibus 
+      <lb ed="#A" n="90"/>etc. Secundo hoc es ex naturali instinctu animalium qui dirigitur 
+      <lb ed="#A" n="91"/>ab itelligentia mouente caelum Et ita patet quod huiusmodi 
+      pru<lb ed="#A" n="92" break="no"/>dentie in irrationalibus: causa Partrima est intellectus diuinus. 
+      Se<lb ed="#A" n="93" break="no"/>cunda caua est intelligentia caelum mouens et naturam 
+      diri<lb ed="#A" n="94" break="no"/>gens. Tertia causa et instictus naturalis. Unde commentator 
+      <lb ed="#A" n="95"/>xii. metaphysi. dicit quod opus nature est opus intelligentie 
+      <lb ed="#A" n="96"/>non errantis. Et hoc intelligendum est: non sic quod natura parti 
+      <lb ed="#A" n="97"/>cularis numquam erraret in agendo. sed sic quod natura 
+      vni<lb ed="#A" n="98" break="no"/>uersalis quae est intelligentia dirigens naturam particularem 
+      <lb ed="#A" n="99"/>hec numquam errat etc. Unde deus est laudabilis. 
+      <lb ed="#A" n="100"/>e 
+      </p>
+               <!-- Auis 2-->
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e452">
+               <head xml:id="Vn7Pel-h31555-Hd1e454">5</head>
+               <p xml:id="Vn7Pel-h31555-d1e456">
+                  <lb ed="#A" n="101"/>is. x. scilicet de 
+      ge<lb ed="#A" n="102" break="no"/>neratione per ouationem in singuls. Iota 
+      <lb ed="#A" n="103"/>secundum Isid. quod omnium auium genera bis nascuntur 
+      <lb ed="#A" n="104"/>Primum eni oua gignuntur: inde calore materni 
+      cor<lb ed="#A" n="105" break="no"/>poris incubantis formantur et animantur. Uel vt Arist. dicit 
+      <lb ed="#A" n="106"/>licet in aliquibus auibus sole femine incubant oua. et tunc 
+      <lb ed="#A" n="107"/>mas prouidet ei cibum. tamen alie sunt quae partiuntur sibi tempus 
+      <lb ed="#A" n="108"/>cubandi. quia columbe incubant oua: mao per diem: femina 
+      <lb ed="#A" n="109"/>per noctem. Et cum pullificauerit stati mas regit 
+      pul<lb ed="#A" n="110" break="no"/>los. Quod si femina tardet ad pullos fouendos 
+      redi<lb ed="#A" n="111" break="no"/>re percutit eam mas et ad nidum redire cogit. 
+      Turtu<lb ed="#A" n="112" break="no"/>res vero mas et femina indistincte cubant oua. sed 
+      pauo<lb ed="#A" n="113" break="no"/>sola femina.
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e487">
+      ¶ Sed de generatione ouorum in auibus 
+      <lb ed="#A" n="114"/>Nota quod vt dicit Isi. et Arist. vbi supra quadam sunt oua auitum 
+      <lb ed="#A" n="115"/>quae solo vento inani concipiuntur. et vocantur oua venti. Et tlsia 
+      <!--104.xml-->
+      <pb ed="#A" n="105"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>non sunt generabilia nisi quae fuerit masclelrino 
+      concubi<lb ed="#A" n="2" break="no"/>tu concepta seminaliter. Et hoc praecipue fit in vere et in 
+      ali<lb ed="#A" n="3" break="no"/>bus tantum auibus quae sunt multe generationis. vt in 
+      galli<lb ed="#A" n="4" break="no"/>nis: columbis. anseribus et perdicibus. Nam secundum Aris. feine 
+      <lb ed="#A" n="5"/>cubeth id est perdicis siue coeant cum mare siue non: tame 
+      <lb ed="#A" n="6"/>solum mares olfaciendo vel audiendo voces eorum in 
+      <lb ed="#A" n="7"/>plentur ouis. quod est mirum Ad dei lauden¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e517">
+               <head xml:id="Vn7Pel-h31555-Hd1e519">6</head>
+               <p xml:id="Vn7Pel-h31555-d1e521">
+                  <lb ed="#A" n="8"/>¶ Quid de proprietatibus 
+      ouo<lb ed="#A" n="9" break="no"/>rum auium Nota quod in ouo auium secundum Isid. et Pli. lib. 
+      <lb ed="#A" n="10"/>xxix. Primo vis mirabilis est tanta a deo indita vt li 
+      <lb ed="#A" n="11"/>gnum ouo perfusum non ardeat. necc vestis conticta aduratur 
+      <lb ed="#A" n="12"/>Admixtum quoqe candidum ouorum viue calci glutinat vt 
+      <lb ed="#A" n="13"/>tri fragmenta. Secundo vt dicit Plinius. oua aceto 
+      ma<lb ed="#A" n="14" break="no"/>cerata in tantum emolliuntur vs per anulos transeant. 
+      Ter<lb ed="#A" n="15" break="no"/>tio secundum Arist. libro de vegeta. Ouum in aqua dulci mergitur 
+      <lb ed="#A" n="16"/>in salsa vero natat. Nam et secundum Plinium oua sale 
+      exin<lb ed="#A" n="17" break="no"/>aniri creduntur. Seruai autem in hyeme in paleis. esta 
+      <lb ed="#A" n="18"/>te in furfuribus vtilissimumest. vel in arena. Quarto secund 
+      <lb ed="#A" n="19"/>Plinium oua gratioris saporis sunt quae sunt oblonga. 
+      <lb ed="#A" n="20"/>Et secundum Auicem. a Isaac galline oua recentia ceteris 
+      <lb ed="#A" n="21"/>ouis sunt meliora. Et quod in eis est melius est vitele 
+      <lb ed="#A" n="22"/>Post oua gallinarum sunt oua auium quae cursu proce 
+      <lb ed="#A" n="23"/>dunt. Oua vero aquatilium auium: maxime anatis et similium 
+      <lb ed="#A" n="24"/>mali humoris sunt. Item vua quae rotundiora in loco a 
+      <lb ed="#A" n="25"/>cuminis gignuntur secundum Pliedunt feminam. cetra veromo 
+      <lb ed="#A" n="26"/>rem. Obloga ergo sunt meliora esui. v. Hec bonas sunt 
+      <lb ed="#A" n="27"/>oua longa parua quoque noua. Mystice fructus operum 
+      <lb ed="#A" n="28"/>bonorum taque oua debent esse longa per perseuerantiam 
+      longi<lb ed="#A" n="29" break="no"/>turna. parua per humilitatis. et noua per charitatem. De quo 
+      <lb ed="#A" n="30"/>christus dicit. Mandatum nouum do vobis etc. Et talia non 
+      <lb ed="#A" n="31"/>habent ardere in igne infeni. Ecce dei mira operatio 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e577">
+               <head xml:id="Vn7Pel-h31555-Hd1e579">7</head>
+               <p xml:id="Vn7Pel-h31555-d1e581">
+                  <lb ed="#A" n="32"/>¶ Quid de varietate ouorum eat 
+      <lb ed="#A" n="33"/>operatione eorum
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e588">
+      ¶ Notandum secundum Aris. libro de animalibus. et 
+      <lb ed="#A" n="34"/>Plinium. supra Oua diuersificantur in colore secundum diuersita 
+      <lb ed="#A" n="35"/>tem auium. quia quaedam sunt alba vt columbarum et perdicum 
+      <lb ed="#A" n="36"/>Quedam pallida. vt aquaticarum. Queda punctis distin 
+      <lb ed="#A" n="37"/>cta. Quedam rubri coloris vt fasianorum. et sic de aliis 
+      <lb ed="#A" n="38"/>Intus quoque omne ouum volucrum bicolor est. 
+      Albumen<lb ed="#A" n="39" break="no"/>ouorum est aliquantulum frigidum grossum et humidum. Unde 
+      <lb ed="#A" n="40"/>est durum ad digerendum. Uitellus autem tendit ad calidim 
+      <lb ed="#A" n="41"/>tatem et humiditatem temporatam secundum Auic. et Isaac in dietis 
+      <lb ed="#A" n="42"/>Et ex his fortiora sunt oua anseris et strucii. Item 
+      <lb ed="#A" n="43"/>oua etiam diuersificantur quo ad operationem in cibo et 
+      me<lb ed="#A" n="44" break="no"/>dicina ex artificio decoctionis eorum. Nam secundum Ram. 
+      <lb ed="#A" n="45"/>et Auic. Oua elixata et indurata vel coagulata 
+      <lb ed="#A" n="46"/>tardioris sunt digestionis et plurimi nutrinti. 
+      Mo<lb ed="#A" n="47" break="no"/>lia vero velocius digeruntur: quae his a quibus sanguis 
+      mul<lb ed="#A" n="48" break="no"/>tus effluxit cac vires imminute sunt valde conferunt 
+      <lb ed="#A" n="49"/>Ex his meliora sunt sorbilia in aqua cocta. et conferumt 
+      <lb ed="#A" n="50"/>talia tussi et pleuresi et euthice et raucedi vocis ex 
+      <lb ed="#A" n="51"/>caliditate. et stricture anhelitus ac sputo sanguinis: 
+      <lb ed="#A" n="52"/>proprie cum sorbetur vitellus eorum tepidus. Oua autem cocta 
+      <lb ed="#A" n="53"/>in aceto prohibent fluxum ventris ac disenteriam Sed qua 
+      <lb ed="#A" n="54"/>assata super cinerem sine fumo conferunt solutio 
+      <lb ed="#A" n="55"/>ni ventris ac disenterie si comedantur cum 
+      ali<lb ed="#A" n="56" break="no"/>quibus stipticis et aqua agresti Albumen oui crudi 
+      se<lb ed="#A" n="57" break="no"/>dat dolorem acli. Uitellus autem cum croco et oleo rosa¬ 
+      <!--104.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>to valde confertius percussioni. et cum thure linitur supei 
+      <lb ed="#A" n="59"/>frontem propter ocu flutus Iterum albumen si sorbetur 
+      cru<lb ed="#A" n="60" break="no"/>dum confert fluxusanguis et minctui sanguinis. Patet 
+      <lb ed="#A" n="61"/>ergo et dei bonitaset sapientia laudabilis. quia dedit 
+      ta<lb ed="#A" n="62" break="no"/>les virtutes omnis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e659">
+               <head xml:id="Vn7Pel-h31555-Hd1e661">8</head>
+               <p xml:id="Vn7Pel-h31555-d1e663">
+                  <lb ed="#A" n="63"/>¶ Quo ouatorrumpuntur vel alteratur. §. q. 
+      <lb ed="#A" n="64"/>Nota secundum Ariset <ref xml:id="Vn7Pel-h31555-Rd1e669">Plin. li.x.</ref> Primo postquam 
+      Galli<lb ed="#A" n="65" break="no"/>na per tres dies cubauerit super oua: alterantur et 
+      ap<lb ed="#A" n="66" break="no"/>parent pullorum sit Secundo dicit Isaac praesertim tempore 
+      ca<lb ed="#A" n="67" break="no"/>lido fit ouorum crruptio propter longinquitatem temporis 
+      ouo<lb ed="#A" n="68" break="no"/>rum in aere manensum. Tertio si in horis cubationis 
+      to<lb ed="#A" n="69" break="no"/>nitrus fortis superunerit: oua corrumpit Remedium autem 
+      <lb ed="#A" n="70"/>contra tonitrum est cluus ferreus sub stramine ouorum 
+      posi<lb ed="#A" n="71" break="no"/>tus: aut tera ex fratro. Hec Plin. Quarto vt idem 
+      <lb ed="#A" n="72"/>Pli. dicit librox. Acipitris audita voce in cubatu: oua 
+      <lb ed="#A" n="73"/>viciantur. fortasip hoc ideo fit. quia matur auis ex timore ac 
+      <lb ed="#A" n="74"/>cipitris nimis tirbatur. Ecce dei opera mira
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e694">
+      ¶ Mysti 
+      <lb ed="#A" n="75"/>ce autem in christianigtamquam auibus celestibus varia sunt bona 
+      <lb ed="#A" n="76"/>opera. tamen sicut ouamnollia id est opera mine in aquis mitne 
+      co<lb ed="#A" n="77" break="no"/>cta igne charitgis ad multa valent. i. Timo. iiiii. 
+      pie<lb ed="#A" n="78" break="no"/>tas ad omnia valertcm. Sed corrumpuntur aliquando quia non 
+      <lb ed="#A" n="79"/>bene fouentur a vanagula occultata per incubationem. sed 
+      <lb ed="#A" n="80"/>aperte ostenduntur hlibus. vel diutino tempore languescunt a 
+      <lb ed="#A" n="81"/>deuotione. vel aliunde diaboli per tonitrua 
+      tentatio<lb ed="#A" n="82" break="no"/>num. vel aliquando vo id est persuasu hominum nociuorum et 
+      <lb ed="#A" n="83"/>aduersantium: vt ecipitri. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e716">
+                  <lb ed="#A" n="84"/>¶ Ex quali miteria sancte sunt aues 
+      <lb ed="#A" n="85"/>a principio. vide vli <ref xml:id="Vn7Pel-h31555-Rd1e722">Aimal. §. x. et. xi. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h31555-d1e725">
+                  <lb ed="#A" n="86"/>¶ Item quod in goneratoue plurimarum 
+      <lb ed="#A" n="87"/>auium habetur exmad probandum quod virgo maria divina 
+      <lb ed="#A" n="88"/>virtute potuit contipere manente virginitate. vide in 
+      <lb ed="#A" n="89"/>secuentibus de singulis. 
+      <lb ed="#A" n="90"/>et. 
+      </p>
+               <!-- Auis 3-->
+               <p xml:id="Vn7Pel-h31555-d1e741">
+                  <lb ed="#A" n="91"/>Ais. xx scilicet 
+      spea<lb ed="#A" n="92" break="no"/>liter de vniuscuiusque proprieiatibus 
+      No<lb ed="#A" n="93" break="no"/>tandum quod ex quo sepius in sacra scriptura 
+      <lb ed="#A" n="94"/>indicuntur nominatim aues et plurime. ideo opus est aliqua 
+      sal<lb ed="#A" n="95" break="no"/>tem bruius de earundem proprietatibus conuenientibus 
+      descri<lb ed="#A" n="96" break="no"/>here Sed quia non sufficimus omnia breui stilo prosequi. 
+      sal<lb ed="#A" n="97" break="no"/>tem ergo ea genera quae sunt vsitatiora vel in scripturis inserta 
+      <lb ed="#A" n="98"/>sileti transire non licet. Sed ad dei laudem pauca pro vti 
+      <lb ed="#A" n="99"/>litateegentium ordine alphabetico hoc tangemus: 
+      recol<lb ed="#A" n="100" break="no"/>ligend ex physicorum et theologorum sanctorumque 
+      dictami<lb ed="#A" n="101" break="no"/>nibus. scelicet Isid. Amb. Bede. Arist. Plin et aliorum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e768">
+               <head xml:id="Vn7Pel-h31555-Hd1e770">9</head>
+               <p xml:id="Vn7Pel-h31555-d1e772">
+                  <lb ed="#A" n="102"/>¶ Accpiter secundum <ref xml:id="Vn7Pel-h31555-Rd1e776">Isid. li. xii.</ref> dicitur 
+      <lb ed="#A" n="103"/>quia acci iendi aues ad praedadum auida. erga proprios 
+      <lb ed="#A" n="104"/>pullos valde inclemens secundum Amb. vt dctum est vbi 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e783">
+                  <lb ed="#A" n="105"/>¶ <ref xml:id="Vn7Pel-h31555-Rd1e787">Animal. §. iii.</ref> diligit comendere auium corda. vt dicit Ari. 
+      <lb ed="#A" n="106"/>sto. Aumque quam ei sors contra noctem offert tota 
+      no<lb ed="#A" n="107" break="no"/>cte sub perdibus tenet. sed illam veniente sole et 
+      famele<lb ed="#A" n="108" break="no"/>cus autare permittit. Et etiamsi eandem alia 
+      <lb ed="#A" n="109"/>obuiamenans habuerit: non persequitur 
+      Colo<lb ed="#A" n="110" break="no"/>rem ocubrum et rostrum mutat. et pennam ve 
+      <lb ed="#A" n="111"/>terem de onit noua nascente. vt dicit glo. super illud 
+      <lb ed="#A" n="112"/>Iob. xxxx. Nunquid ad sapientiam tuam plumescit ac¬ 
+      <!--105.xml-->
+      <pb ed="#A" n="106"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cipiter expandens alas suas ad astrum. hoc clarius 
+      <lb ed="#A" n="2"/>exponendo <ref xml:id="Vn7Pel-h31555-Rd1e815">Greg. xxxi.</ref> moralis. et vra. dit quod 
+      mira<lb ed="#A" n="3" break="no"/>bile est et per sapientiam dei inditum acciitri. videlicet quod 
+      flan<lb ed="#A" n="4" break="no"/>te austro calido expandit alas sus: quatenus eorum 
+      <lb ed="#A" n="5"/>membra ad laxandum pennas vetens concalescat. Cum 
+      <lb ed="#A" n="6"/>vero ventus deest alis expansis contradium sol et poris 
+      <lb ed="#A" n="7"/>sic apertis: veteres pennas exuunt et oue succrescunt: 
+      <lb ed="#A" n="8"/>quibus agilius volat ad predam. Popterea glo. super 
+      <lb ed="#A" n="9"/>Leuitur. dicit quod accipiter significat apaces homines: qeod 
+      <lb ed="#A" n="10"/>quandoque mansuetos se ostendunt in noc scilict tenebre vicior 
+      <lb ed="#A" n="11"/>se: sed plus rapere nituntur. Ideo in leg veteri immundum 
+      <lb ed="#A" n="12"/>animal esse decernitis. Sed hoc medicile in accipitre est 
+      <lb ed="#A" n="13"/>vt dicit Plinius lir. xxix. quod si accipiter coquatur in 
+      rosa<lb ed="#A" n="14" break="no"/>ceo oleo ad omnium viciorum in oculis ccidentium inuncti 
+      <lb ed="#A" n="15"/>ones putatur efficacissimus. Et secundum Esculapium 
+      ma<lb ed="#A" n="16" break="no"/>gistrum Hypocratur. Adeps accipris si teratur in oleo 
+      <lb ed="#A" n="17"/>vnctio quoque inde facta caliginem ocilorum tollit. 
+      Ecce<lb ed="#A" n="18" break="no"/>deus mirabilis in huiusmodi proprietaibus etc. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e853">
+                  <lb ed="#A" n="19"/>¶ Alauda: a laude dicta. vt dicitur liuo nat. re. qua mira 
+      <lb ed="#A" n="20"/>iocunditate vocis modulamine iraere gaudet: 
+      au<lb ed="#A" n="21" break="no"/>roram vocis iubilo prodit. sedens n terra nunquam 
+      ca<lb ed="#A" n="22" break="no"/>nit. nec tempore obnubilato vel pluiioso: sed sereno. et 
+      <lb ed="#A" n="23"/>paulatim ascendendo cantat vt dicitur cloris clausis. et cum 
+      <lb ed="#A" n="24"/>iam in alto aere fuerit aperiens: vdet et extimescit: et 
+      <lb ed="#A" n="25"/>instar lapidis subito se deiicit accipitrem adeo 
+      ti<lb ed="#A" n="26" break="no"/>met vt cum ab illo impetitur in terradepressa sinum hominis 
+      <lb ed="#A" n="27"/>aduolet: et se homini capiendum praeste: consceia quod homo potus 
+      <lb ed="#A" n="28"/>miseretur quam accipiter. In quo docenur deum laudart 
+      <lb ed="#A" n="29"/>mature et humiliter nos gerere timendo in alto 
+      pro<lb ed="#A" n="30" break="no"/>speritatis mundane. ac accipitre id est diabolum fugere etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e883">
+               <head xml:id="Vn7Pel-h31555-Hd1e885">10</head>
+               <p xml:id="Vn7Pel-h31555-d1e887">
+                  <lb ed="#A" n="31"/>¶ Altion vt habetur libo de natu. 
+      re<lb ed="#A" n="32" break="no"/>Et Plin. li. x. et in Hexame. Anb. est auis 
+      manti<lb ed="#A" n="33" break="no"/>ma: in litoribus hyemali tempore fetificins: et oua in aris 
+      <lb ed="#A" n="34"/>deponens paulo amplior passere. hoc mirum habet quod bum 
+      <lb ed="#A" n="35"/>ponit oua etiam procellosum et vndosum mare plactur et 
+      <lb ed="#A" n="36"/>quiescit donec fouet oua. videlicet vii. diebus. et tuncum 
+      <lb ed="#A" n="37"/>los educit: quos aliis. vii. diebus enutrit. et sictiiii. 
+      <lb ed="#A" n="38"/>diebus simul mare quietum manet a procellarum motu hrri 
+      <lb ed="#A" n="39"/>do. quos scilicet xiiii. dies serenitatis nautici obseruam 
+      vo<lb ed="#A" n="40" break="no"/>cantque Alcionides. et tunc tute nauigant 
+      etiamve<lb ed="#A" n="41" break="no"/>mis medio quando maxime mare insurgit. Unde multo 
+      <lb ed="#A" n="42"/>magis deus bonus prouidet electis adueris 
+      pe<lb ed="#A" n="43" break="no"/>ricula in bonum disponere. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e918">
+                  <lb ed="#A" n="44"/>¶ Alietus. secundum Plin. est genus aqularum. Nam ex dierso 
+      <lb ed="#A" n="45"/>chitum aqularum nascuntur alieti. et rapina pascutur 
+      mi<lb ed="#A" n="46" break="no"/>norum auium secundum Rudolph. super Leui. xi. Ido hec 
+      <lb ed="#A" n="47"/>auis immunda dicitur ibidem 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e929">
+                  <lb ed="#A" n="48"/>¶ Anas vel aneta. dca ab assiduitate natanli. aquis 
+      <lb ed="#A" n="49"/>fluminum gaudet: et ranas comendit. secundum Auen. 
+      cali<lb ed="#A" n="50" break="no"/>dior est omnibus domesticis auibus. caro eus est pluriri nutri 
+      <lb ed="#A" n="51"/>menti: et febres facit. Item libro de nat. re. dicftrus 
+      pulli<lb ed="#A" n="52" break="no"/>mox vt ouum anatis exeunt tanta agilitate viet vt 
+      eti<lb ed="#A" n="53" break="no"/>am sine nutrice viuere quaeant. Item secundum P.li. xviii. 
+      <lb ed="#A" n="54"/>Anates ac mergi cetereque aquatice aues sernas 
+      ro<lb ed="#A" n="55" break="no"/>stro purgantes ventum praesagiunt. Ecce dei nra 
+      opera<lb ed="#A" n="56" break="no"/>Anser vel auca est duorum generum Nam (isi huiusmodi. 
+      <lb ed="#A" n="57"/>quidam anseres sunt indomiti libere in ade volan¬ 
+      <!--105.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>tes vt grues ordinate secundum flatus ventorum adao 
+      delt<lb ed="#A" n="59" break="no"/>ctantes in volatu vt raro dormiant sicut dicitur libro de nat. re. 
+      <lb ed="#A" n="60"/>Quidam autem sunt domestici quibus grauis est volatus 
+      no<lb ed="#A" n="61" break="no"/>cturnas vigilias cantus assiduitate testantur. fures 
+      <lb ed="#A" n="62"/>et hostes clangore produnt. Nam vt dicit Isido. Nullum 
+      <lb ed="#A" n="63"/>animal est quod ita odore hominis sentit sicut anser. Item secundum 
+      <lb ed="#A" n="64"/>Plini. liro xxviii. Anseres continuo clangore intempe 
+      <lb ed="#A" n="65"/>statiui diras tempestates praesagiunt Carnes ad dige 
+      <lb ed="#A" n="66"/>rendum habent duras. Uenter laudabilior est plus quam 
+      <lb ed="#A" n="67"/>gallinacius. Et iecur ac epar nutribilia sunt et 
+      conue<lb ed="#A" n="68" break="no"/>nientia. Colla anserum et gallinarum. ac ale meliora sunt 
+      <lb ed="#A" n="69"/>ad comedendum prae omnibus auibus secundum Isaac et Auicen. 
+      <lb ed="#A" n="70"/>Adeps. rimas faciei et labiorum fissuras optime 
+      sa<lb ed="#A" n="71" break="no"/>nat et aurium dolores Laudetur deus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e990">
+               <head xml:id="Vn7Pel-h31555-Hd1e992">11</head>
+               <p xml:id="Vn7Pel-h31555-d1e994">
+                  <lb ed="#A" n="72"/>¶ Aquila secundum Isid. ab acumine 
+      <lb ed="#A" n="73"/>oculorum vocata: In sacra scriptura inuenitur varia si 
+      <lb ed="#A" n="74"/>gnificare
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e1003">
+      ¶ Nam primo quando quod fcat malignos spiritus quod 
+      <lb ed="#A" n="75"/>rapiunt animas. Thren. iiii. Uelociores aquilis persecu 
+      <lb ed="#A" n="76"/>tores nostri Ut ei dicitur libro de nat. re. et pli. libro. x. Omnes aues 
+      <lb ed="#A" n="77"/>ea visa pertimescunt et audaciam praedandi perdunt. 
+      pem<lb ed="#A" n="78" break="no"/>ne etiam aquile aliarum auium praeinis adiuncte corrodunt 
+      il<lb ed="#A" n="79" break="no"/>las vt expartum est in sagitis penatis in pharetra coniunctis 
+      <lb ed="#A" n="80"/>etc. Et licet cibum ceteris auibus impertiatur vt secum 
+      come<lb ed="#A" n="81" break="no"/>dant. Si tamen cibus ille sibi non sufficit in medio positus 
+      <lb ed="#A" n="82"/>vnam ex conuescentibus auibus rapit et comedit. sic facit 
+      <lb ed="#A" n="83"/>diabolus animabus sibi consentientibus etc. Secundo quandoquesercat 
+      <lb ed="#A" n="84"/>ptestatem terrenam Ezech. xvii. Aquila grandis magnarum 
+      <lb ed="#A" n="85"/>alarum id est rex Babylonis. quia sicut solent reges habuit 
+      <lb ed="#A" n="86"/>aquilam in vexillo suo etc. Tertio subtile sanctorum 
+      intelli<lb ed="#A" n="87" break="no"/>gentiam Eze. i. vbi Ioannes euange. per aqulam desuper emi 
+      <lb ed="#A" n="88"/>nentem sercatur. quia vt Aug. super Ioam. dicit. Nulla auis 
+      al<lb ed="#A" n="89" break="no"/>tius volat Et tamen de tata sublimitate pisciculos na 
+      <lb ed="#A" n="90"/>tantes videt secundum Isid. et instar tonitrui descendens 
+      <lb ed="#A" n="91"/>rapit. Denique irreuerberatis oculis rotam solis 
+      aspi<lb ed="#A" n="92" break="no"/>cit. Unde et pullos suos vngue suspensos radiis 
+      <lb ed="#A" n="93"/>obiicit solaribus Et quos viderit fixam tenere aciem ad 
+      <lb ed="#A" n="94"/>solem fouet. Quos aut viderit flectere intuitum vel 
+      la<lb ed="#A" n="95" break="no"/>chrymantes. eos interficit velut adulterinos vel est 
+      ni<lb ed="#A" n="96" break="no"/>do abiicit vt degeneres. Sic ergo applica ad 
+      altitu<lb ed="#A" n="97" break="no"/>dinem diuine contemplationis quam praecipue humit sanctus 
+      Io<lb ed="#A" n="98" break="no"/>annes. Et sic etiam alii sancti deum contemplan. cum hoc 
+      infi<lb ed="#A" n="99" break="no"/>mos defectus suos aspiciunt etc. Item Aquila et vultur 
+      <lb ed="#A" n="100"/>vt dicit Hiero. super. Mat. odore sentit trans 
+      mari<lb ed="#A" n="101" break="no"/>na cadauera et remota fere. per miliaria. Roo. et 
+      il<lb ed="#A" n="102" break="no"/>luc properat. In petris nidificat vel altissimis 
+      ar<lb ed="#A" n="103" break="no"/>boribus. Spiritualiter sic sancti odorant longe posita id est cele 
+      <lb ed="#A" n="104"/>stia imitando et in petre foraminibus id est vulneribus 
+      <lb ed="#A" n="105"/>christi morantur etc. Quarto aquila sercat iustorum animas secudum 
+      <lb ed="#A" n="106"/>Amb. super. Lu. quia sicut aquila postlongam vitam scilicet centum 
+      <lb ed="#A" n="107"/>vsque annorum senio grauata vt dicit Aug. super psalmus in or. se 
+      <lb ed="#A" n="108"/>renouat: rostrum vetus nimis excrescens ad petram 
+      <lb ed="#A" n="109"/>collidendo et plumas veteres deponendo. nec vnquam 
+      <lb ed="#A" n="110"/>percutit aquilam fulmem. Sic sancti renouant vitam per 
+      pe<lb ed="#A" n="111" break="no"/>nitentiam et tandem in resurrectione renouabuntur. nec 
+      <lb ed="#A" n="112"/>timent fulmen sententie finalis damnationis. vnde 
+      <lb ed="#A" n="113"/>Psal. Renouabitur vt aquile iuuentus tua etc. De 
+      <lb ed="#A" n="114"/>nique quinto aquila quandoque significat christum propter 
+      <!--106.xml-->
+      <pb ed="#A" n="107"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>nobilitatis regie dignitatem quam aquila habet super aues. 
+      <lb ed="#A" n="2"/>Unde prouer. iii. dicitur. quod viam aquile in celo difficile est 
+      sci<lb ed="#A" n="3" break="no"/>re. Lyra et expositores dicunt quod hoc intelligitur de via 
+      <lb ed="#A" n="4"/>quam tenuit christus in ascensione etc. Item Deut. xxxii. 
+      <lb ed="#A" n="5"/>de deo dicitur. Sicut aquila prouocans filios ad 
+      volan<lb ed="#A" n="6" break="no"/>dum: expandit alas suas atque portauit in humeris 
+      <lb ed="#A" n="7"/>etc. Aristo. et Rabbi. Salomodo ac Lyra dicunt: quod 
+      <lb ed="#A" n="8"/>Aquila tandiligenter transferendo de nido suos 
+      pul<lb ed="#A" n="9" break="no"/>los asportat in dorso vt corpus suum proprium 
+      interpo<lb ed="#A" n="10" break="no"/>nat inter illos et sagittarium ab inferiori: quasi ictum 
+      <lb ed="#A" n="11"/>ipsamet pro filiis suscipiat. Sic christus deus dilexit 
+      <lb ed="#A" n="12"/>nos quod vulnera in se suscepit pro nobis tranfferendites 
+      <lb ed="#A" n="13"/>in celestem nidum. Item Beda super Luc. Rabanus 
+      <lb ed="#A" n="14"/>super Deutur. Et lib. de natur. re. dicit ac phlosophi quod Aquila in 
+      <lb ed="#A" n="15"/>nido suo ponit lapides praeciosos. videlicet ametistum 
+      <lb ed="#A" n="16"/>quo a pullis suis cibandis venenum fugat: et ne 
+      serpens<lb ed="#A" n="17" break="no"/>accedens oua vel pullos veneno inficiat. Et alium 
+      <lb ed="#A" n="18"/>lapidem ponit qui dicitur Ethytes. de quo vide vbi <ref xml:id="Vn7Pel-h31555-Rd1e1137">Lapis 
+      <lb ed="#A" n="19"/>§ x.</ref> Sic christus a suis electis venena peccatorum fugat et 
+      <lb ed="#A" n="20"/>trrorum etc. per considerationem celestium praeciositatum: 
+      <lb ed="#A" n="21"/>quas ponit in anime nido. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1148">
+               <head xml:id="Vn7Pel-h31555-Hd1e1150">12</head>
+               <p xml:id="Vn7Pel-h31555-d1e1152">
+                  <lb ed="#A" n="22"/>¶ Ardea siue ardeola dicitur: quia 
+      ar<lb ed="#A" n="23" break="no"/>due volat altius. et tunc tempestatem significat secundum 
+      <lb ed="#A" n="24"/>Isido. et secundum Amb. paludibus herere consueuit. sed 
+      <lb ed="#A" n="25"/>imbres formidans suprae nubes volat vt imbres 
+      <lb ed="#A" n="26"/>non sentiat. Ex lib. de nat. re. In aquis cibum querit. 
+      <lb ed="#A" n="27"/>sed in altis arboribus nidum collocat. Accipiter eius 
+      <lb ed="#A" n="28"/>pullis infestus est. Sed Ardea huic anum 
+      oppo<lb ed="#A" n="29" break="no"/>nit et stercus eiicit. ad cuius tactum accipitris penne 
+      com<lb ed="#A" n="30" break="no"/>putrescunt: et ita pullos defendit. Sorices secundum 
+      Pli<lb ed="#A" n="31" break="no"/>nium. lib. x. et Ardeole: dissident inuicem fetibus 
+      insi<lb ed="#A" n="32" break="no"/>Arpia auis. vt dicit Alb. mag. libro de animalis. 
+      dian<lb ed="#A" n="33" break="no"/>habitat in deserto iuxta mare ionicum: habens faciem 
+      <lb ed="#A" n="34"/>quasi hominis et ferox fame stimulata hominem occidit. 
+      <lb ed="#A" n="35"/>tandem sitiens vadit ad aquam: in qua imaginem sue 
+      fa<lb ed="#A" n="36" break="no"/>ciei intuens: recolit sibi simulem hominem occidisse. et 
+      <lb ed="#A" n="37"/>tantum plangit quod ex dolore moritur. Quo datur nobis 
+      <lb ed="#A" n="38"/>exntm penitendi pro peccatis quibus animam occidimus etc. 
+      <lb ed="#A" n="39"/>Asalon vel ascelon siue esalon: oua corui srangit. 
+      <lb ed="#A" n="40"/>et vulpes vellit. Uide. <ref xml:id="Vn7Pel-h31555-Rd1e1195">supra §. iii.</ref> Athacus. de quo 
+      Le<lb ed="#A" n="41" break="no"/>uit. xi. habetur. Lyra dicit quod est fetus locuste: qui antequam 
+      <lb ed="#A" n="42"/>habeat alas dicitur bruchus. sed cum incipit volare 
+      di<lb ed="#A" n="43" break="no"/>athacus. Alii dicunt quod est auis ignota etiam peritis 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1204">
+                  <lb ed="#A" n="44"/>¶ Aues paradisi quales vocentur et quare (iudeorum. 
+      <lb ed="#A" n="45"/>sic appellantur. vide vbi. <ref xml:id="Vn7Pel-h31555-Rd1e1210">Paradisus. §. xiiii.</ref> 
+      Ecce<lb ed="#A" n="46" break="no"/>patet mirabilis deus in operibus.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1216">
+               <head xml:id="Vn7Pel-h31555-Hd1e1218">13</head>
+               <p xml:id="Vn7Pel-h31555-d1e1220">
+                  <lb ed="#A" n="47"/>Barliates vulgo Bernesfas si 
+      <lb ed="#A" n="48"/>ue bernelas: apud nos Gyengier. nominatur. eadem 
+      <lb ed="#A" n="49"/>for sitan est auis quam Alb. mag. xxiii. libo de 
+      animali<lb ed="#A" n="50" break="no"/>bus nominat Carbas. Similiter Fran. de Reza. 
+      di<lb ed="#A" n="51" break="no"/>centes quod Carbas auis de arbore in hybernia 
+      na<lb ed="#A" n="52" break="no"/>sci claret. Item Iacobus episcotus Achonen. in 
+      orientali<lb ed="#A" n="53" break="no"/>historia. et Uincen. in Spc. natu. dicunt quod quaedam 
+      <lb ed="#A" n="54"/>sunt arbores super ripas maris: ex quibus du suc 
+      <lb ed="#A" n="55"/>cessu temporis putrescere ceperit exeuntibus crassis 
+      hu<lb ed="#A" n="56" break="no"/>moribus procreantur densantur et formantur huiusmodi aues 
+      <lb ed="#A" n="57"/>ad magnitudinem alaudarum: et nude rostris infi¬ 
+      <!--106.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ris arboribus dependentes. deinde maturantes 
+      plu<lb ed="#A" n="59" break="no"/>mescunt et decidunt in aquas in quibus fluitant viuunt et 
+      ro<lb ed="#A" n="60" break="no"/>borantur ac crescunt: anseribus minores sunt. 
+      Mu<lb ed="#A" n="61" break="no"/>tique fidedigni testantur vidisse quasdam earum pendentes 
+      <lb ed="#A" n="62"/>ex arbore. Et certum est quod apud nos non 
+      gene<lb ed="#A" n="63" break="no"/>rant nec generantur per coitum He volucres herbis et 
+      gra<lb ed="#A" n="64" break="no"/>minibus viuunt vt anseres etc vnde patet possibilitas 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1266">
+                  <lb ed="#A" n="65"/>¶ Bistarda: a (conceptionis virgialis deo operante. 
+      <lb ed="#A" n="66"/>uis bisaut ter saltum facut in tera anteque volatum leuetur in 
+      <lb ed="#A" n="67"/>aera. in alis et cauda albedinem habet reliquo colore 
+      <lb ed="#A" n="68"/>aquilam imitatur et vnguibus. oua in terra ponit. rotas 
+      <lb ed="#A" n="69"/>curruum dum voluuntur in terra: tam attonita miratur 
+      <lb ed="#A" n="70"/>respiciendo quod interi sagittantem non percipit. etc. 
+      Ecce<lb ed="#A" n="71" break="no"/>qualia mira fecit dei bonitas laudabilis et sapientia etc. 
+      <lb ed="#A" n="72"/>Item secundum Auicen. pugnan. cum vipera: rutam quaerit 
+      <lb ed="#A" n="73"/>ad quam recurrit contra illius morsum venenosum.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1289">
+               <head xml:id="Vn7Pel-h31555-Hd1e1291">14</head>
+               <p xml:id="Vn7Pel-h31555-d1e1293">
+                  <lb ed="#A" n="74"/>Bonosa vulgo Faid: auis est 
+      ha<lb ed="#A" n="75" break="no"/>bens Fasiani magnitudinem. vt dicitur libro de na. re. 
+      ca<lb ed="#A" n="76" break="no"/>rto eius exterius est nigra: interius alba delicata prope ad 
+      <lb ed="#A" n="77"/>perdicis saporem. non comit. sed masculus hianti ore currit 
+      <lb ed="#A" n="78"/>cum natura mouet ad fetificandum. et tunc ore spiritumat. 
+      <lb ed="#A" n="79"/>atque feia adueniens ore spiritumam recipit. indeque 
+      com<lb ed="#A" n="80" break="no"/>cipit et oua parit. Ecce exiten conceptionis virgis sine 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1311">
+                  <lb ed="#A" n="81"/>¶ Bubo: secundum Isi. a sono vocis nomen habet (semine 
+      <lb ed="#A" n="82"/>In sepulcris vel cauernis versatur: fugit lucem diei. in 
+      <lb ed="#A" n="83"/>nocte egreditur. vt dicitur libro de nat. re. mures venatur. 
+      <lb ed="#A" n="84"/>oua columbe bibit. et nocte sibi victum adquirit. omnibus 
+      <lb ed="#A" n="85"/>auibus odiosus c. et visus: mox inclamatur et 
+      impu<lb ed="#A" n="86" break="no"/>gnatur. sed resupinus pedibus se defendit: vnguibus 
+      lace<lb ed="#A" n="87" break="no"/>rando inuadentes quae ipsum deplumant. et hoc mirum dicitur. 
+      <lb ed="#A" n="88"/>Iuxta quod scribit Phisiol. quod cor bubonis si appo 
+      <lb ed="#A" n="89"/>natur mulieri dormieti in parte sinistra: omnia quae gessit 
+      <lb ed="#A" n="90"/>enarrabit. Ego tamen dubito hoc esse verum. Item secundum 
+      Pli<lb ed="#A" n="91" break="no"/>nium. li. iii. Si oculi bubonis incineratur et freneticis 
+      <lb ed="#A" n="92"/>imponantur: conferunt. Ecce ergo mira dei opera. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1341">
+               <head xml:id="Vn7Pel-h31555-Hd1e1343">15</head>
+               <p xml:id="Vn7Pel-h31555-d1e1345">
+                  <lb ed="#A" n="93"/>¶ Caladrius: est auis immunda secundum 
+      <lb ed="#A" n="94"/>legem. Leuit. ii In atriis regum inuenitur. est alba 
+      to<lb ed="#A" n="95" break="no"/>ta secundum Aristo. Phisiologuque. atque lib. de nat. re. 
+      <lb ed="#A" n="96"/>Cuius interior femoris pars caliginem oculorum 
+      cu<lb ed="#A" n="97" break="no"/>rat habet etiam vnum os grossum in crure cuius 
+      me<lb ed="#A" n="98" break="no"/>dulla oculos caligantes si quis linierit eos 
+      clarifi<lb ed="#A" n="99" break="no"/>cat et boni visus efficit. Caladrius infirmum si 
+      mori<lb ed="#A" n="100" break="no"/>debeat non respicit. Si autem debet sanari respicit: 
+      <lb ed="#A" n="101"/>et omnes infirmitates illius in seipsum attrahit: et ille 
+      <lb ed="#A" n="102"/>sanatur. Auis autem hec in aerem volans ibi dispergit. vl 
+      <lb ed="#A" n="103"/>Capo siue gallinacius (quandoque ex hoc moritur. 
+      <lb ed="#A" n="104"/>est gallus castratus Ideo castratur vt cum a libidine 
+      arce<lb ed="#A" n="105" break="no"/>tur citius impinguetur ac tenerior comedatur. 
+      <lb ed="#A" n="106"/>vt habetur libro de natur. rerum. Et Plinius lib. 
+      <lb ed="#A" n="107"/>x. extunc desinit cantare nec potest generare. sed 
+      <lb ed="#A" n="108"/>si plumis eius in pectore extractis ad nudum 
+      <lb ed="#A" n="109"/>vrtica vratur: pullos fouet vice matris et more 
+      <lb ed="#A" n="110"/>galline voce confracta: elongatos illos 
+      aduo<lb ed="#A" n="111" break="no"/>cat. Carnes caponis validiores sunt omnibus 
+      <lb ed="#A" n="112"/>volatilibus: et sanguinem bonum generant. et 
+      <lb ed="#A" n="113"/>optimum nutrimetum
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e1393">
+      ¶ Cerebrum acceptum in 
+      vino<lb ed="#A" n="114" break="no"/>fluxum sanguis abstinet Ius ex veteri valet contra febres 
+      <!--107.xml-->
+      <pb ed="#A" n="108"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Item secundum Plinium li. xxx. Mustele cinis si detur 
+      galli<lb ed="#A" n="2" break="no"/>naciis tutisunt a mustelis. Item gallinacius antiqua 
+      <lb ed="#A" n="3"/>tus vsque. vii. annos habet in iecore lapidem praeciosu 
+      <lb ed="#A" n="4"/>Uide vbi Lapis. nomine <name xml:id="Vn7Pel-h31555-Nd1e1412">Allectorius</name>. §. vii. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1415">
+                  <lb ed="#A" n="5"/>¶ Caprimultus. vide vbi Merula 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1421">
+               <head xml:id="Vn7Pel-h31555-Hd1e1423">16</head>
+               <p xml:id="Vn7Pel-h31555-d1e1425">
+                  <lb ed="#A" n="6"/>¶ Caraborion. De quo <ref xml:id="Vn7Pel-h31555-Rd1e1429">Leuitici 
+      <lb ed="#A" n="7"/>xi.</ref> quae etiam alio nomine dicitur Calendris: secundum legem immui 
+      <lb ed="#A" n="8"/>da est auis parua prope consimilis Alaude. colore 
+      fu<lb ed="#A" n="9" break="no"/>sca. mira modulatione vocis audientes letificat. 
+      <lb ed="#A" n="10"/>Et quasi omnium voces auium imitatur expresse. Capta et 
+      <lb ed="#A" n="11"/>ergastulo inclusa obliuiscitur captiuitatis sue. 
+      vi<lb ed="#A" n="12" break="no"/>vnam horam sine cantum praeterit et gaudet auium cantibus 
+      <lb ed="#A" n="13"/>Sic vaniguliosi in cantum: sunt captiui diaboli¬ 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1448">
+                  <lb ed="#A" n="14"/>¶ Ciconia. quasi cicania secundum Isidorum dicta a so 
+      <lb ed="#A" n="15"/>no oris: quem rostro quatiente canunt crepitando 
+      <lb ed="#A" n="16"/>Serpentes comedit. et multifarie eis insidiatur. nec 
+      <lb ed="#A" n="17"/>tamen et huiusmodi venenatis comestis moritur. Nam et 
+      bu<lb ed="#A" n="18" break="no"/>fonem in magna fame comedit. Ciconie secundum 
+      Pli<lb ed="#A" n="19" break="no"/>nium et Ambro. gregatim eo modo quo grues ante 
+      <lb ed="#A" n="20"/>hyemen recedunt. et in vere redeunt nocturnis temporibus 
+      <lb ed="#A" n="21"/>et eosdem nidos repetunt. origano sibi medentur vt 
+      <lb ed="#A" n="22"/>dictum est supra. §. iii.
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e1470">
+      ¶ Item ex libo de natu. re. et An 
+      <lb ed="#A" n="23"/>bro. Hexam ac prefatorum dictis Ciconie sunt 
+      aue<lb ed="#A" n="24" break="no"/>vtiles quia serpentes persequuntur. nec sinunt prope domos 
+      <lb ed="#A" n="25"/>vbi habent nidos manere vel venenata. 
+      Uentricu<lb ed="#A" n="26" break="no"/>lus earum valet contra omnia venena. Et fimus ciconie 
+      <lb ed="#A" n="27"/>cum aqua potui datus epilenticos curat secundum Diasco. 
+      <lb ed="#A" n="28"/>Sunt etiam iusticie sectatrices. quia annuatim vnum 
+      <lb ed="#A" n="29"/>et fetibus suis domino loci sub quo fetificant plumatum 
+      <lb ed="#A" n="30"/>ex nido deiiciunt quasi pro tributo. Horas diei sua 
+      <lb ed="#A" n="31"/>trepitatione denunciant. Rostro aluum purgandum 
+      do<lb ed="#A" n="32" break="no"/>cent. Unde earum imitatione Galienus clisterium adiuenit 
+      <lb ed="#A" n="33"/>Denique sunt aues pie multum ad perentes. Nam se 
+      <lb ed="#A" n="34"/>nescente patre vel matre nudatum plumis parentem 
+      <lb ed="#A" n="35"/>soboles circundantes pennis propriis fouent. cibo 
+      col<lb ed="#A" n="36" break="no"/>laticio pascunt. fultro alarum suarum subleuant ad 
+      vo<lb ed="#A" n="37" break="no"/>landum donec ala parentis fortitudinem aliquam 
+      resu<lb ed="#A" n="38" break="no"/>mat. Sunt et magne pietatis erga pullos in nido ex 
+      <lb ed="#A" n="39"/>istentes quod secundum Isido. adeo illos fouent 
+      impen<lb ed="#A" n="40" break="no"/>sius vt assiduo in cubitu plumas exuant. et quantum 
+      <lb ed="#A" n="41"/>tempus impenderunt in fetibus educandis: tantum et ipse 
+      <lb ed="#A" n="42"/>in vicem aluntur a pullis suis. Et in hoc etiam iusticia 
+      <lb ed="#A" n="43"/>claret. Preterea castitatem adeo zelant in femina 
+      ma<lb ed="#A" n="44" break="no"/>res. quod cum femina adulterauerit festinat se laua 
+      <lb ed="#A" n="45"/>re in fonte mergendo antequam redierit maritus. alas 
+      <lb ed="#A" n="46"/>si deprehenderit mas illam adulterasse: conuocat 
+      mul<lb ed="#A" n="47" break="no"/>titudinem ciconiarum et laniant occiduntque adulteram 
+      <lb ed="#A" n="48"/>Ecce dei opera mira. De hac Hiere. viii. Ciconia 
+      <lb ed="#A" n="49"/>custodit tempus aduentus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1533">
+               <head xml:id="Vn7Pel-h31555-Hd1e1535">17</head>
+               <p xml:id="Vn7Pel-h31555-d1e1537">
+                  <lb ed="#A" n="50"/>¶ Tygnus auis alba plumnis: sed 
+      <lb ed="#A" n="51"/>carne nigra. vt dicitur libo de na. re. Cholerice est 
+      co<lb ed="#A" n="52" break="no"/>pletionis. et ob hoc iracundum. Est et pigrum animal ad vo 
+      <lb ed="#A" n="53"/>landum. sed in stagnis requiescere delectatur. Cygni quando 
+      <lb ed="#A" n="54"/>ad alia loca migrant pabuli gratia congregati comeant 
+      <lb ed="#A" n="55"/>tali ordine natadi quod colla praecedentibus singuli 
+      im<lb ed="#A" n="56" break="no"/>ponunt. fessoque duce tergo illum recipiunt. Item Cy¬ 
+      <!--107.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>gnus etiam secundum Amb. instante morte dulciter canlt: 
+      <lb ed="#A" n="58"/>sub terrore mortis vicine paludes suaui modu 
+      <lb ed="#A" n="59"/>latione resonari delectatur. In capite percussus facile 
+      <lb ed="#A" n="60"/>moritur qui tamen alas multas pati potest lesiones. Sic 
+      fi<lb ed="#A" n="61" break="no"/>deles maxime debent cauere caput id est animam a 
+      lesi<lb ed="#A" n="62" break="no"/>one peccati. et in morte deuote orare etc. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1572">
+                  <lb ed="#A" n="63"/>¶ Coluba vt dicit Beda. Et Glo. super can. i. Ecte 
+      <lb ed="#A" n="64"/>tu pulcra es amica mea. oculi tui columbarum. 
+      Co<lb ed="#A" n="65" break="no"/>umba rostro non ledit. in cauernis petrarum 
+      nidifi<lb ed="#A" n="66" break="no"/>cat. meliora et pura grana eligit. nec morticino vt 
+      <lb ed="#A" n="67"/>uit. Pro cantu gemitum reddit. visum recuperat 
+      no<lb ed="#A" n="68" break="no"/>uem vicibus. Iuxta fluenta libenter manet. Tum propter 
+      <lb ed="#A" n="69"/>sedandum sitim quia calidissimum habet ventrem. Tum 
+      <lb ed="#A" n="70"/>vt accipitrem venientem in aquis prospiciat et euitet. 
+      Fel<lb ed="#A" n="71" break="no"/>le caret. Arist. tame dicit quod fel habet. non tamen eo loco quo 
+      ce<lb ed="#A" n="72" break="no"/>tera animalia sed in intestino. Fimum est nido eiicit: et 
+      pul<lb ed="#A" n="73" break="no"/>los eiicere. docet. Item secundum Plinium columbe viuunt 
+      <lb ed="#A" n="74"/>peccato annis. similiter et turtures. visoque accipitre: aut 
+      <lb ed="#A" n="75"/>considunt aut subuolant: cognoscentes quod natura 
+      acci<lb ed="#A" n="76" break="no"/>pitris est alicuius rapere autem in terra: et alicuius in sub 
+      <lb ed="#A" n="77"/>limi. ergo columbe per contrarium euitant sic vel sic. 
+      Aliquan<lb ed="#A" n="78" break="no"/>do tamen columbam intentam circa varios colores suos 
+      in<lb ed="#A" n="79" break="no"/>collo admirantem. rostroque plumeculas disponentem. 
+      <lb ed="#A" n="80"/>in huiusmodi gloria occultus latro accipiter speculator 
+      ra<lb ed="#A" n="81" break="no"/>pit. Ita spiritualiter hec omnia applicari possunt de 
+      fideli<lb ed="#A" n="82" break="no"/>bus. Item secundum Isaac carnes columbarum sunt dure 
+      di<lb ed="#A" n="83" break="no"/>gestionis et illaudabilis nutrimenti. et eorum pulli stit 
+      <lb ed="#A" n="84"/>meliores. Sed in turturibus veteres sunt meliores. 
+      <lb ed="#A" n="85"/>propterea in lege pecipitur Leui. xii. offerri parturturum. 
+      <lb ed="#A" n="86"/>autem duos pullos columbarum
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e1627">
+      ¶ Item secundum Plinium lib. 
+      <lb ed="#A" n="87"/>xxix. Columbe mascule sanguis a vena sub ala 
+      in<lb ed="#A" n="88" break="no"/>sa id est ascella eximie prodest oculis cruore suffusis Et 
+      <lb ed="#A" n="89"/>fluxum sanguinis narium sistit fronti illitus vel instilla 
+      <lb ed="#A" n="90"/>tus nari. Confert etiam podagre secundum Auicen. Fimus 
+      <lb ed="#A" n="91"/>autem eius omni frigide medetur hydropisi si cum aceto 
+      <lb ed="#A" n="92"/>cataplasmetur. Ecce deus laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1644">
+               <head xml:id="Vn7Pel-h31555-Hd1e1646">18</head>
+               <p xml:id="Vn7Pel-h31555-d1e1648">
+                  <lb ed="#A" n="93"/>¶ Cornix vt dicitur libro de natu. re. 
+      <lb ed="#A" n="94"/>et Plinius libro x. nucibus libenter vescitur et carnibusi in ale 
+      <lb ed="#A" n="95"/>tum cum nuce volat et in saxosa deiicit sepius donec in 
+      <lb ed="#A" n="96"/>fringat rostro repugnantem nucem. Item maxime garrum 
+      <lb ed="#A" n="97"/>litatis est. nobiles aues quasi hostes impugnans 
+      Plu<lb ed="#A" n="98" break="no"/>uiam multo clamore praenuciat. ouis colube insidiatur 
+      <lb ed="#A" n="99"/>vt exugat. Idem Plinius lir. xxix. dicit. quod cerebrum 
+      cor<lb ed="#A" n="100" break="no"/>nicis coctum et in cibo sumptum: capitis doloribus est 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1668">
+                  <lb ed="#A" n="101"/>¶ Coruus auis est clamans Cras. (remedium 
+      <lb ed="#A" n="102"/>secundum Gre. in mor. et Glo. super illud psalmus. xlvi. Qui datr 
+      <lb ed="#A" n="103"/>iumentis escam ipsorum. et pullis coruorum etc. Pulli 
+      cor<lb ed="#A" n="104" break="no"/>uorum dicuntur rore celi vesci. non enim pbent eis 
+      alimen<lb ed="#A" n="105" break="no"/>ta perentes antequam nigrescere ceperit. quod fit die septi 
+      <lb ed="#A" n="106"/>ma. vt dicitur libro de na. re. Grauidatur si femina ouum 
+      cor<lb ed="#A" n="107" break="no"/>uinum comedere contigerit. Cadauere vescitur. vnde 
+      <lb ed="#A" n="108"/>ex arca Noe emissus coruus non est reuersus sed 
+      ca<lb ed="#A" n="109" break="no"/>daueri insedit. Et vt dicitur. si pecuniam vel simile quid 
+      ali<lb ed="#A" n="110" break="no"/>tubi repaerit: rostro furtiue abscondit diligenteri 
+      etcui<lb ed="#A" n="111" break="no"/>voluerit prodit. Fimus corui si lana adalligetur in 
+      <lb ed="#A" n="112"/>fantium tussi medetur. secundum Plinium li. xxx. Sed cerebrum 
+      <lb ed="#A" n="113"/>vt dicit Esculapius: concauo denti infusum rumpit ac tol¬ 
+      <!--108.xml-->
+      <pb ed="#A" n="109"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>lit mirabiliter dolorem. Plura de coruo supra. §. iii. Et 
+      <lb ed="#A" n="2"/>vt dicitur si oua corui sepius vrtica minori. 
+      vul<lb ed="#A" n="3" break="no"/>go arua confricentur albi corui procreantur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1713">
+               <head xml:id="Vn7Pel-h31555-Hd1e1715">19</head>
+               <p xml:id="Vn7Pel-h31555-d1e1717">
+                  <lb ed="#A" n="4"/>¶ Coturnix secundum Isidorum. solum 
+      <lb ed="#A" n="5"/>est hoc animal quod sicuti et homo caducum morbum patitur 
+      <lb ed="#A" n="6"/>Unde Auicen. dicit. Quod ex comestione carnis 
+      cotur<lb ed="#A" n="7" break="no"/>nicum timetur spasmus et tetanus si frequentatur. 
+      Am<lb ed="#A" n="8" break="no"/>bro. li. iii. Cllehorum periti dicunt escam esse coturnicum 
+      <lb ed="#A" n="9"/>eo quod naturali quodam sui corporis vim pabuli 
+      no<lb ed="#A" n="10" break="no"/>centis euitent. Item secundum Plinium et Solinum. Estate 
+      <lb ed="#A" n="11"/>depulsa maria tramsmeat: aura tamen flante vehi 
+      vo<lb ed="#A" n="12" break="no"/>lunt propter vires corporum paruas et pondus 
+      graue<lb ed="#A" n="13" break="no"/>A quilone maxime volant ortigometra duce 
+      <lb ed="#A" n="14"/>Ex libro de natu. re. Coturnices in genere auium 
+      ra<lb ed="#A" n="15" break="no"/>rissimas habent feminas. In hominum vero genere 
+      <lb ed="#A" n="16"/>panciores nascuntur masculi quam femine. Ecce mirum 
+      <lb ed="#A" n="17"/>Cubeth. Idem est quod perdix. vide ibi. sub lte 
+      <lb ed="#A" n="18"/>Cuculi. a voce propria <ref xml:id="Vn7Pel-h31555-Rd1e1751">Cucus nominati ¶P §. xxxii.</ref>
+                  <lb ed="#A" n="19"/>secundum Isido. et libro de natu. re. Aues improbe voceum 
+      <lb ed="#A" n="20"/>suam in cantando non mutant sed semper eandem replicant 
+      <lb ed="#A" n="21"/>Harum saliue cicadas gignunt. secudm et Ari. et praedictos 
+      <lb ed="#A" n="22"/>oua sua in nido minoris auicule fulice vel 
+      passer<lb ed="#A" n="23" break="no"/>ponens illius oua sugit: illaque ignara fouet et educat. 
+      <lb ed="#A" n="24"/>Uidens nutrix pullum elegantem gaudet de eius forma 
+      <lb ed="#A" n="25"/>miratur seipsam talem peperisse Aliosque propriossuos videlcet 
+      <lb ed="#A" n="26"/>pullos siquos cum cuculo educatos habet in illius 
+      <lb ed="#A" n="27"/>comparatione damnat. At vbi vsque ad robur volandi 
+      <lb ed="#A" n="28"/>cum culum enutrierit: cuculus in nutricem illam suam 
+      in<lb ed="#A" n="29" break="no"/>surgit et perimit illam. Sic faciunt ingrati contra pa¬ 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1778">
+                  <lb ed="#A" n="30"/>¶ Diomedie aues eedem sunt que Heros (rentes. 
+      <lb ed="#A" n="31"/>dii <ref xml:id="Vn7Pel-h31555-Rd1e1784">Uide infra. §. xxv. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1788">
+               <head xml:id="Vn7Pel-h31555-Hd1e1790">20</head>
+               <p xml:id="Vn7Pel-h31555-d1e1792">
+                  <lb ed="#A" n="32"/>Falco vt dicitur libr de nat. re. 
+      <lb ed="#A" n="33"/>est auis nobilissima volatum impetuosissima 
+      prede<lb ed="#A" n="34" break="no"/>etiam post tergum prouidus inuigilat. Et sunt eius duo 
+      <lb ed="#A" n="35"/>genera. Unum ignobile vel vile quod cum Ardeam ad 
+      <lb ed="#A" n="36"/>terram impulerit iamque in promptum esset vt eam 
+      cape<lb ed="#A" n="37" break="no"/>ret: ardea piscem quem recentius vorauerat euomit et 
+      <lb ed="#A" n="38"/>tunc falco libere illam permittit euolare gaudens de 
+      <lb ed="#A" n="39"/>oblata sibi esca fetida. Aliud genus est nobile quia 
+      <lb ed="#A" n="40"/>propter hoc Ardeam non dimittit. Habet et plura alia 
+      <lb ed="#A" n="41"/>genera distincta de quibus multa scribuntur libro de 
+      anima<lb ed="#A" n="42" break="no"/>libus per Alber. sed causa brevitatis dimitto. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1818">
+                  <lb ed="#A" n="43"/>¶ Fasianus vt dicitur lio de nat. re. Est gallus 
+      sil<lb ed="#A" n="44" break="no"/>uaticus auis pulcra a faside insula dicta 
+      vnde<lb ed="#A" n="45" break="no"/>primum asportatus est. Hec auis in aura 
+      pluuio<lb ed="#A" n="46" break="no"/>sa tristatur: et tunc in rubetis ac siluis latet. Circa 
+      <lb ed="#A" n="47"/>vesperam vel auroram de siluis egreditur et tunc 
+      <lb ed="#A" n="48"/>facilius venatur: rostrum abscondit in terra figens 
+      <lb ed="#A" n="49"/>vel in niuibus et similibus et sic totum se absconditum esse 
+      <lb ed="#A" n="50"/>credit. Carnes habet preciosas et optimas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1839">
+               <head xml:id="Vn7Pel-h31555-Hd1e1841">21</head>
+               <p xml:id="Vn7Pel-h31555-d1e1843">
+                  <lb ed="#A" n="51"/>Fentx scndum Isidorum li. xii. Et 
+      <lb ed="#A" n="52"/>amuis arabica sic dicta eo quod colorem fenicium 
+      ha<lb ed="#A" n="53" break="no"/>bet et quia est in mundo vnica. Nam arabice 
+      vni<lb ed="#A" n="54" break="no"/>ca idem est quod fenix. Hec quingentis et vltra 
+      an<lb ed="#A" n="55" break="no"/>nis viuens dum senuisse se viderit collectis aro 
+      <lb ed="#A" n="56"/>matum virgulis rogum sibi instruit et conuersa ad 
+      <!--108.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>radisi solis alarum plausu incendit et se cremat ac 
+      <lb ed="#A" n="58"/>de cineribus similis auicula resurgit. Quo doccmur 
+      <lb ed="#A" n="59"/>resurrectionem credere possibile maxime diuina 
+      vir<lb ed="#A" n="60" break="no"/>tute. Hec auis secundum Solinum est aquile 
+      magnitu<lb ed="#A" n="61" break="no"/>dinis capite cristato ex plumis vt pauo sicut 
+      eti<lb ed="#A" n="62" break="no"/>amdicitur libro de na. re. Circa collum fulgore aureo. 
+      cau<lb ed="#A" n="63" break="no"/>dam habet cerulei coloris. in qua rosee penne 
+      in<lb ed="#A" n="64" break="no"/>terscribuntur varietate mirifica. Ecce dei mira 
+      sapi<lb ed="#A" n="65" break="no"/>entia etc. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1882">
+                  <lb ed="#A" n="66"/>¶  edula dicitur eo quod ficus magis edat evuas 
+      di<lb ed="#A" n="67" break="no"/>ligit gregatim volat. Hec Isido. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1889">
+                  <lb ed="#A" n="68"/>¶ Filomena quae et luscinia vocatur. hec vt diciturlibro de na. 
+      <lb ed="#A" n="69"/>re. mira suauitate modulationis letificat 
+      audien<lb ed="#A" n="70" break="no"/>tes gaudens ad ortum solis quem preit leticia cantus. 
+      <lb ed="#A" n="71"/>verno tempore sue vocis amenitate tantum delectatur vt 
+      <lb ed="#A" n="72"/>rarissime comedat et festinanter et prius deficere 
+      <lb ed="#A" n="73"/>vult spiritu quam cantu. Unde et dicitur a filos grece quod est 
+      <lb ed="#A" n="74"/>amor et mene id est dulce vel etiam deficiens. Sed post 
+      <lb ed="#A" n="75"/>quam comit vocis amenitatem perdit et colorem successiue 
+      <lb ed="#A" n="76"/>mutat secundum Plinium. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e1911">
+                  <lb ed="#A" n="77"/>¶ ulica. vt dicit Amb. pullos aquue nido 
+      deie<lb ed="#A" n="78" break="no"/>ctos clementer cum suis pullis nutxit. hominibus 
+      ex<lb ed="#A" n="79" break="no"/>emplum praebens pietatis erga tribulatos et 
+      paupe<lb ed="#A" n="80" break="no"/>res ac expoliatos paruulos. Unde fulica secundum 
+      Phi<lb ed="#A" n="81" break="no"/>siol. est auis boni moris. anati similis sed minor. 
+      <lb ed="#A" n="82"/>pace contentatur nec oberrat de loco ad socum. in 
+      sta<lb ed="#A" n="83" break="no"/>gnis delectabiliter commoratur. cadauere non vescitur 
+      <lb ed="#A" n="84"/>cristam habet in capite secundum quod dicit Plinius a 
+      ro<lb ed="#A" n="85" break="no"/>stro residentem et placabilem. matutino clangore 
+      tem<lb ed="#A" n="86" break="no"/>pestatem praesagit vt idem dicit libroxviii. vnde bene 
+      signi<lb ed="#A" n="87" break="no"/>sicat praedicatores verbi dei etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e1938">
+               <head xml:id="Vn7Pel-h31555-Hd1e1940">22</head>
+               <p xml:id="Vn7Pel-h31555-d1e1942">
+                  <lb ed="#A" n="88"/>Gallina vt dicit Aug. de que 
+      <lb ed="#A" n="89"/>stionibus euangeliorum recte significat christum. quia tam 
+      <lb ed="#A" n="90"/>magnum affectum habet ad filios suos vt eorum 
+      in<lb ed="#A" n="91" break="no"/>firmitate affecta et ipsa cum eis infirmetur quod 
+      diffici<lb ed="#A" n="92" break="no"/>ius in aliis animantibus inuenies. Et quia alis 
+      su<lb ed="#A" n="93" break="no"/>is filio s protegens contra miluum pugnando se 
+      pericu<lb ed="#A" n="94" break="no"/>lo mortis pro eis exponit. Item quandoque pulli ingrati 
+      <lb ed="#A" n="95"/>ledunt rostro gallinam nec vindicat se nec abiicit 
+      <lb ed="#A" n="96"/>propterea pullum ledentem. Unde christus dixit Matth. 
+      <lb ed="#A" n="97"/>xxiii. Quotiens volui congregare sicut gallina etc. 
+      <lb ed="#A" n="98"/>Item caro gallinarum medicinalis est si nondum 
+      pa<lb ed="#A" n="99" break="no"/>rit oua. sed antiquarum non sic Nam secundum physicos 
+      Dia<lb ed="#A" n="100" break="no"/>scor. Auicen. Plinium li. xxix. et. xxx. Clarificat vocem. 
+      <lb ed="#A" n="101"/>in intellectu quoque earum pullarum caro efficit 
+      augmen<lb ed="#A" n="102" break="no"/>tum fimus earum recens illitus allopitias replet 
+      <lb ed="#A" n="103"/>omnia pedum vulnera sanat. cholice confert. 
+      Quo<lb ed="#A" n="104" break="no"/>bie gallinas ederit quis non interficietur ab 
+      aspi<lb ed="#A" n="105" break="no"/>de. Adeps quoque sanat vlcera vel rimas 
+      labio<lb ed="#A" n="106" break="no"/>rum et lingue. Ouum galline ad omnem dolorem 
+      <lb ed="#A" n="107"/>oculorum valet. Item pulli ab infectione fraxini 
+      cor<lb ed="#A" n="108" break="no"/>tice in aqua posita vt bibant praeseruantur vt di. ex 
+      <lb ed="#A" n="109"/>perti a cecitate scilicet quo eis solet communiter contingere 
+      <lb ed="#A" n="110"/>aggregatis. 
+      <lb ed="#A" n="111"/>Gallinacius i est castratus gallus. qui fit 
+      pusi<lb ed="#A" n="112" break="no"/>lanimis per castrationem. Ideo Esa. xxii. Ecce domi. 
+      <lb ed="#A" n="113"/>nus asportari faciete scilicet peccatorem sicut asportatur 
+      <!--109.xml-->
+      <pb ed="#A" n="110"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>gallus gallinacius et coronabit te tribulatione et 
+      <lb ed="#A" n="2"/>hoc fit in morte hominis qui est pusillanimis ad 
+      ope<lb ed="#A" n="3" break="no"/>ra poenitentie vere etc. Sed de gallinacii proprietatibus 
+      be<lb ed="#A" n="4" break="no"/>qis patuit vbi Capo. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2016">
+                  <lb ed="#A" n="5"/>¶ Gallus vt icit Grego. in Moral. est diei nunc 
+      <lb ed="#A" n="6"/>us. horas noctis discernit. canens: prius alas 
+      ex<lb ed="#A" n="7" break="no"/>cutit ac seipsum feriens vigilan tiorem reddit. Item 
+      de<lb ed="#A" n="8" break="no"/>na. re. et pastorlis. Gre. gallus capite cristatus in 
+      <lb ed="#A" n="9"/>cruribus armatus. nocte profunda cantat validius 
+      <lb ed="#A" n="10"/>et tractim. in matutino tenuius. cantu suo equos 
+      <lb ed="#A" n="11"/>mitigat. camelos instigat et viantes solatur. 
+      latro<lb ed="#A" n="12" break="no"/>nes deterret. processum noctis signans. Et 
+      praedicato<lb ed="#A" n="13" break="no"/>rem secundum capacitatem praedicare et huiusmodi facere. 
+      Gall<lb ed="#A" n="14" break="no"/>graditur ceteris gallis deuictis superbus. Cuius 
+      du<lb ed="#A" n="15" break="no"/>elio finis sepe commorientibus est Gallus maxime ac 
+      <lb ed="#A" n="16"/>bus a leone timetur vt dicit etiam Amb. Gallinas 
+      <lb ed="#A" n="17"/>vocat ad esum grani. mortuis gallinis merore 
+      <lb ed="#A" n="18"/>prfectus silet canere. Item secundum Plinium. Caro 
+      gal<lb ed="#A" n="19" break="no"/>li cruda calida super morsum serpentum posita 
+      ex<lb ed="#A" n="20" break="no"/>trahit venenum. Item eius pinguedine vel 
+      viscelle<lb ed="#A" n="21" break="no"/>inunctus fit tutus a leone. Item galli carnes gro 
+      <lb ed="#A" n="22"/>siores sunt ad digerendum et minoris humiditatis 
+      <lb ed="#A" n="23"/>quam galline vel gallinacii secundum Auicen. Melior est 
+      <lb ed="#A" n="24"/>ille qui nondum cantat. Ius gallorum veterum validi 
+      <lb ed="#A" n="25"/>us prodest circa longas febres vt dicit Plini. li. xxix 
+      <lb ed="#A" n="26"/>Coctio eius melior est si faciunt gallos currere vt 
+      <lb ed="#A" n="27"/>cadant fatigati et decollentur. Cerebrum galli cum 
+      vi<lb ed="#A" n="28" break="no"/>no bibitum omnes morsus destruit et plura mira 
+      fa<lb ed="#A" n="29" break="no"/>cit secundum Esculapium. Item quod gallorum ossa sunt 
+      vene<lb ed="#A" n="30" break="no"/>num auri. vide vbi <ref xml:id="Vn7Pel-h31555-Rd1e2074">Aurum. §. iiii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2079">
+               <head xml:id="Vn7Pel-h31555-Hd1e2081">23</head>
+               <p xml:id="Vn7Pel-h31555-d1e2083">
+                  <lb ed="#A" n="31"/>¶ Graculus secundum Isid a garrulita 
+      <lb ed="#A" n="32"/>te dictus loquacissimus est et importunus et 
+      li<lb ed="#A" n="33" break="no"/>de nat. re. dicitur quod est de genere cornicis. licet 
+      corpo<lb ed="#A" n="34" break="no"/>re minor libenter in alta arbore nidificat in 
+      mu<lb ed="#A" n="35" break="no"/>titudine sibi similium et nos vocamus nigras 
+      cor<lb ed="#A" n="36" break="no"/>nices cuius carnes edibiles sunt precipue 
+      pul<lb ed="#A" n="37" break="no"/>Garrulus autem (lorum licet per totum nigre sint 
+      <lb ed="#A" n="38"/>est auis alia a graculo. Est enim colore distinctus 
+      <lb ed="#A" n="39"/>ex diuersis plumis. dictus tantum a garriendo. vulgo 
+      <lb ed="#A" n="40"/>zaya Nam de vna arbore in aliam garriendo trans 
+      <lb ed="#A" n="41"/>it nec eam potest quisque pertransire quin contra eum 
+      <lb ed="#A" n="42"/>garriat. Ceterarum etiam auium voces imitatur. captus 
+      <lb ed="#A" n="43"/>in iuuentute clauditur ergasculo vt articulata 
+      <lb ed="#A" n="44"/>verba loqui doceatur. quando que dum garrulitati 
+      ni<lb ed="#A" n="45" break="no"/>mis intendit: nisus eam inopinate rapit. Item 
+      <lb ed="#A" n="46"/>frequenter insanire dicitur Ita quod plerumque inter 
+      fur<lb ed="#A" n="47" break="no"/>catos arborum ramos se suspendit. Unde hec auis 
+      <lb ed="#A" n="48"/>significat detractores contra bonos garrientes. Et 
+      <lb ed="#A" n="49"/>delatores et proditores qui vt iudas se suspendunt 
+      <lb ed="#A" n="50"/>in patibulo infernali. et dum talibus intendunt 
+      ino<lb ed="#A" n="51" break="no"/>pinata morte rapiuntur a diabolo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2132">
+               <head xml:id="Vn7Pel-h31555-Hd1e2134">24</head>
+               <p xml:id="Vn7Pel-h31555-d1e2136">
+                  <lb ed="#A" n="52"/>¶ Qriphes vel Arippes vt dicit 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2141">
+                  <lb ed="#A" n="53"/>¶ Beda de imagine mundi vngulas habet vt 
+      aqui<lb ed="#A" n="54" break="no"/>le et rostrum. Et vocatur sic secundum Isid. eo quod sit 
+      animal<lb ed="#A" n="55" break="no"/>pennatum et quadrupes. tamen omni corporis per 
+      <lb ed="#A" n="56"/>te leones sunt. alis et facie aquilis sim: iles. sed 
+      mu<lb ed="#A" n="57" break="no"/>to maiores equis. vehementer infesti. Et homini 
+      <!--109.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>bus. nam armatos homines preliando superant 
+      <lb ed="#A" n="59"/>et occidunt in hyperboreis montibus nascuntur et secundum 
+      <lb ed="#A" n="60"/>Solinum in asiatica scythia terre etiam sunt multi et 
+      <lb ed="#A" n="61"/>ferocissimi vbi auro et gemmis affluunt. sed 
+      gri<lb ed="#A" n="62" break="no"/>phes vniuersa tenent vt etiam lib. de natu. re. dicitur 
+      <lb ed="#A" n="63"/>Griphes aurum effodiunt et in effossi inspectio 
+      <lb ed="#A" n="64"/>ne gaudent. Item vt dicitur libro Catholicon per 
+      ter<lb ed="#A" n="65" break="no"/>ram currens griphes velocissimo cursu dum 
+      per<lb ed="#A" n="66" break="no"/>penderit insequitur cadauer. Ita quod homo non 
+      pos<lb ed="#A" n="67" break="no"/>set euadere quando ipsum insequitur peditando 
+      <lb ed="#A" n="68"/>vt leo. Griphes etiam volat per aera vt auis. Et 
+      <lb ed="#A" n="69"/>significat auaros qui precipites post aurum 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2185">
+                  <lb ed="#A" n="70"/>¶ Grues secundum Arist. regem habent (currunt etc. 
+      <lb ed="#A" n="71"/>cumi obediunt: excelsa petunt ascensione multa vt 
+      <lb ed="#A" n="72"/>considerent equalitatem aeris et terre ad qua se trans 
+      <lb ed="#A" n="73"/>ferre volunt et ad plagam septentrionalem vltra egyptum 
+      <lb ed="#A" n="74"/>in hyeme veniunt semperque volando se vento oppo 
+      <lb ed="#A" n="75"/>nunt quo in volando iuuantur. Quibus pigmei scicet 
+      <lb ed="#A" n="76"/>homines cubitales occurrunt oppugnantes. Qando 
+      nu<lb ed="#A" n="77" break="no"/>bes pluuiosas prospiciunt clamant et vociferant vt 
+      du<lb ed="#A" n="78" break="no"/>cem sollicitent celerius captare volatus. cum au 
+      <lb ed="#A" n="79"/>tem super terram descenderint vt comedant dux 
+      <lb ed="#A" n="80"/>earum caput in altum erigit pro custodia omnium 
+      <lb ed="#A" n="81"/>vt secure comedant alie. Hunc etiam ordinem 
+      ser<lb ed="#A" n="82" break="no"/>uant quod vnus aliis dormientibus vigilat vt dicit 
+      <lb ed="#A" n="83"/>Ambro. et Isidorus tenendo lapillos suspensis 
+      <lb ed="#A" n="84"/>digitis quius excidentibus lapillis ex digitis sonitu 
+      <lb ed="#A" n="85"/>tali excitetur. Alie autem aliqua circum eunt et explorant 
+      <lb ed="#A" n="86"/>insidias contrarias. impleto tempore vigiliarum scilicet 
+      <lb ed="#A" n="87"/>decima parte respectu somniorum vt dicit Solinus 
+      <lb ed="#A" n="88"/>illi qui officium compleuerunt excitant eos qui 
+      <lb ed="#A" n="89"/>habent vicem vigilandi vt et ipsi dor miant et isti iam 
+      <lb ed="#A" n="90"/>vigilent Denique in volando hunc ordine seruant quod 
+      <lb ed="#A" n="91"/>vnus praecedit: quo fatigato sequenti sortem 
+      ducen<lb ed="#A" n="92" break="no"/>di agminis relinquit et ipse prior ductor erit omnium 
+      <lb ed="#A" n="93"/>vltimus pro quiescendo
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e2240">
+      ¶ Item ex libo. de nat. re. 
+      <lb ed="#A" n="94"/>Fertur inquit quod grues a montibus orientis 
+      vo<lb ed="#A" n="95" break="no"/>lantes post hyemem arenas aureas et auricalchum 
+      <lb ed="#A" n="96"/>lapidem transglutiunt: et postmodum in partibus 
+      trans<lb ed="#A" n="97" break="no"/>marinis reuomunt. Unde dixerunt qui experti sunt 
+      <lb ed="#A" n="98"/>quod lapis quem grues euomunt igne mediante transit 
+      <lb ed="#A" n="99"/>in aurum. Unde in gruibus datur exemplum 
+      vigi<lb ed="#A" n="100" break="no"/>landi et insidias obseruandi precipue bellorum 
+      <lb ed="#A" n="101"/>tempore. Ecce deus mirabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2261">
+               <head xml:id="Vn7Pel-h31555-Hd1e2263">25</head>
+               <p xml:id="Vn7Pel-h31555-d1e2265">
+                  <lb ed="#A" n="102"/>¶ Herodius. De quo Psal. ciii 
+      <lb ed="#A" n="103"/>Herodii domus dux eorum etc. Et Leuit. xi. 
+      Co<lb ed="#A" n="104" break="no"/>numeratur inter immunda. vocatur etiam Girfalco vel 
+      <lb ed="#A" n="105"/>girfale vt dicit glo. ibidem et super Deutur. Et est auis 
+      <lb ed="#A" n="106"/>nobilissima inter omnes. preda viuens. colore 
+      <lb ed="#A" n="107"/>ceruleo pro magna parte ad alb edinem declinans 
+      <lb ed="#A" n="108"/>adeo fortis vt aquilam capiat et tam animosus 
+      <lb ed="#A" n="109"/>vt cum post quinque grues vel aues alias 
+      volan<lb ed="#A" n="110" break="no"/>tes in aere fuerit dimissus ab earum 
+      persecutio<lb ed="#A" n="111" break="no"/>ne non desistit donec omnes successiue ad terram 
+      <lb ed="#A" n="112"/>deiiciat. Cum autem primo impetu predam capere non 
+      <lb ed="#A" n="113"/>poterit in altum conscendit et pre indignatione 
+      <lb ed="#A" n="114"/>vix ad reclamatorem redit: carnes crudas et serua¬ 
+      <!--110.xml-->
+      <pb ed="#A" n="111"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tas non comedit sed recentes vt hec scribuntur libro de 
+      <lb ed="#A" n="2"/>nat. re. Hec auis vocatur altero nomine etiam Dyome. 
+      <lb ed="#A" n="3"/>dia. Et propter suam nobilitatem dicitur dux auium. Sicut 
+      <lb ed="#A" n="4"/>leo rex animalium propter quod Psalmus supra. dicit. Cedri 
+      li<lb ed="#A" n="5" break="no"/>bani quas plantaui scilicet deus. Illic passeres 
+      nidi<lb ed="#A" n="6" break="no"/>ficabut id est aues quaecumque quae solent in arboribus altis nt 
+      <lb ed="#A" n="7"/>dificare vt exponit Lyra (herodii domus scilicet est in 
+      <lb ed="#A" n="8"/>cedro et altis arboribus (ux eorum dest passerum vel au 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2320">
+                  <lb ed="#A" n="9"/>¶ Ibix est auis imunda Leuit. xi. Et. sum etc. 
+      <lb ed="#A" n="10"/>vt super Esa. xxxiiii. glo. dicit. est auis aquatica se 
+      <lb ed="#A" n="11"/>pentibus inimica. Et ex libro de nat. re. ac physiologo 
+      <lb ed="#A" n="12"/>Ibis super nilum requiescens semper die et nocte iuxta lites 
+      <lb ed="#A" n="13"/>tora ambulat quaerens comedere eiecta cadauera ex aquis 
+      <lb ed="#A" n="14"/>quia talibus delectatur Ibicis oua si quis comederit 
+      mori<lb ed="#A" n="15" break="no"/>tur. Aliqui putant ibicem esse ciconiam. sed non est 
+      <lb ed="#A" n="16"/>verum vt dicitur ibi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2341">
+               <head xml:id="Vn7Pel-h31555-Hd1e2343">26</head>
+               <p xml:id="Vn7Pel-h31555-d1e2345">
+                  <lb ed="#A" n="17"/>¶ Irundo secundum Isid. est auis 
+      gar<lb ed="#A" n="18" break="no"/>rula per flexuosos circuitus paruolans in 
+      construen<lb ed="#A" n="19" break="no"/>dis nidis et educandis pullis solertissima. in ac 
+      <lb ed="#A" n="20"/>re volando edit hinc irundo nominatur. veris initio 
+      <lb ed="#A" n="21"/>et estate apparet vt dicit Arist. Hyeme se transferi 
+      <lb ed="#A" n="22"/>ad loca calid iora vel latet in cauernis. carne 
+      ve<lb ed="#A" n="23" break="no"/>scitur. pedes habet debiles. volat celerrime. quia 
+      <lb ed="#A" n="24"/>alas habet magnas et plumas multas carnem 
+      <lb ed="#A" n="25"/>modicam et nigra. vt dicitur libro de nat. re. diem 
+      praenun<lb ed="#A" n="26" break="no"/>ciat. dormientes excitat. ad laudem creatoris 
+      inu<lb ed="#A" n="27" break="no"/>tat. volando pascitur culicibus. muscis et apibus 
+      <lb ed="#A" n="28"/>Irundinis fimus calidus si oculis inciderit 
+      vim<lb ed="#A" n="29" break="no"/>hoc abet ad obcecandum. vt patet etiam Tob. ii. In 
+      ven<lb ed="#A" n="30" break="no"/>tre habent lapidem preciosum nomine celidonium 
+      <lb ed="#A" n="31"/>aliqui irundi nes Harum pulli in hoc cognoscuntur 
+      Sipr<lb ed="#A" n="32" break="no"/>signo pacis ore ad os in nido conuersi sedent. cete 
+      <lb ed="#A" n="33"/>ri enim qui non habent auersis posterioribus sedent 
+      <lb ed="#A" n="34"/>et de hoc habetur etiam infra vbi <ref xml:id="Vn7Pel-h31555-Rd1e2386">Lapis. §. ix.</ref> de 
+      <lb ed="#A" n="35"/>Celidonio. Item secundum Plinium lib. x. Et Phisiols. 
+      <lb ed="#A" n="36"/>Irundines pullos multos faciunt et incompletort 
+      <lb ed="#A" n="37"/>propter hoc si ceci nascuntur pulli eorum vel si extre 
+      <lb ed="#A" n="38"/>hantur oculi eorum dum parui sunt pulli iterum 
+      <lb ed="#A" n="39"/>crescunt oculi. herbaque celidonia visui saluberr 
+      <lb ed="#A" n="40"/>ma sibi medentur. Item pulli irundinum 
+      conbu<lb ed="#A" n="41" break="no"/>sti conferunt morsui canis rabiosi. Denique a quo 
+      <lb ed="#A" n="42"/>dam peritissimo in experientia artis huiusmoi habui 
+      <lb ed="#A" n="43"/>quod irundines tenellos pulueriza et puluerem 
+      commi<lb ed="#A" n="44" break="no"/>sceas cum castoreo et modico boni aceti ac 
+      po<lb ed="#A" n="45" break="no"/>nes sub alembico. distillata inde aqua. Si pota 
+      <lb ed="#A" n="46"/>tur ieiune continuando. xl. diebus vere et perfecte 
+      cu<lb ed="#A" n="47" break="no"/>ret caducum morbum. etiam siquis passus fuo 
+      <lb ed="#A" n="48"/>rit a cilcet annis. Curat et frenesim. Atque cocta cum 
+      <lb ed="#A" n="49"/>isopo curat hydropisim et febres quotidianas 
+      <lb ed="#A" n="50"/>et plurabona facit. Sed mulieri pregnanti 
+      no<lb ed="#A" n="51" break="no"/>cet fetum interficiendo etc. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2426">
+                  <lb ed="#A" n="52"/>¶ Luscinum idem quod filomena. vide vbi eius 
+      pro<lb ed="#A" n="53" break="no"/>prietates. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2434">
+               <head xml:id="Vn7Pel-h31555-Hd1e2436">27</head>
+               <p xml:id="Vn7Pel-h31555-d1e2438">
+                  <lb ed="#A" n="54"/>¶ Mergus secundum Isidorum ab 
+      <lb ed="#A" n="55"/>assiduitate natandi nominatur Sepe demisso 
+      capi<lb ed="#A" n="56" break="no"/>te in profundum vel se mergendo cibum querunt. et 
+      <!--110.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>aurarum signa sub fluctibus colligunt etc. Unide 
+      <lb ed="#A" n="58"/>quando mergi cum clamore fugiunt ad litus 
+      gra<lb ed="#A" n="59" break="no"/>uissima tempestas futura est et praesagiunt ventum. 
+      <lb ed="#A" n="60"/>secundum etiam Plinium lib. xviii. et x. ac ex libo. de natu. 
+      <lb ed="#A" n="61"/>re. Insatia bilia sunt animalia: pedes habentes 
+      <lb ed="#A" n="62"/>in cauda ita vt cum in terra stant gestum corporis 
+      <lb ed="#A" n="63"/>sicut homo eriguntur. Has aues culpans beatus 
+      <lb ed="#A" n="64"/>Martinus dicebat quod in forma demonum pisces 
+      <lb ed="#A" n="65"/>quasi homines deuorant et coegit fugere 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2471">
+                  <lb ed="#A" n="66"/>¶ Merula secundum Isido. antiquitus medula 
+      vo<lb ed="#A" n="67" break="no"/>cabatur quia modulatur. Et secundum Plinium lib. viii. et. x. 
+      <lb ed="#A" n="68"/>Merula ex nigra rufescit folio lauri fastidium 
+      <lb ed="#A" n="69"/>anum purgat: estate canit: hyeme halbutit. Hec 
+      <lb ed="#A" n="70"/>domesticata contra naturam carnes comedit et 
+      <lb ed="#A" n="71"/>dulcius talis canit: libenter se balneat et plumas 
+      <lb ed="#A" n="72"/>rostro purgat. Sicut etiam dicitur libo. de natu. rerum. 
+      <lb ed="#A" n="73"/>Est quoddam merularum genus ceteris multo 
+      ma<lb ed="#A" n="74" break="no"/>ius quod dicitur Caprimulgus. vel secundum Arist. vocatur 
+      <lb ed="#A" n="75"/>Agochiles astuti moris. raro videtur de die nec 
+      <lb ed="#A" n="76"/>bene tunc videt sed acuitur visus eius de nocte et 
+      <lb ed="#A" n="77"/>est nocturnus fur. Nam pastorum stabula intrat 
+      <lb ed="#A" n="78"/>caprarum vberibus aduolat et rostro lato lac ex 
+      <lb ed="#A" n="79"/>eis velut capriolus sugit et ex hoc vbera illa 
+      ex<lb ed="#A" n="80" break="no"/>siccantur et emoriuntur ac capre ipse cecantur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2507">
+               <head xml:id="Vn7Pel-h31555-Hd1e2509">28</head>
+               <p xml:id="Vn7Pel-h31555-d1e2511">
+                  <lb ed="#A" n="81"/>Miluus secundum Isidorum quasi 
+      <lb ed="#A" n="82"/>mollis auis dicitur scilicet viribus et volatu. semper 
+      aui<lb ed="#A" n="83" break="no"/>bus domesticis insidiatur rapacissima et famel 
+      <lb ed="#A" n="84"/>ca( vulgo heya Et secundum Plinium li.x. Milui ex 
+      ge<lb ed="#A" n="85" break="no"/>nere accipitrum sunt sed magnitudine differunt: au 
+      <lb ed="#A" n="86"/>daces in paruis: timidi in magnis. circa 
+      macel<lb ed="#A" n="87" break="no"/>la et cadauera excubat. Et vt glo. super Hiere. vii. 
+      <lb ed="#A" n="88"/>dicit. Norunt tempora sicut turtur et hirundo ac 
+      <lb ed="#A" n="89"/>Ciconia quando ad loca calida se transferant vel 
+      re<lb ed="#A" n="90" break="no"/>deant. Item pullos rapit. circa coquinas 
+      voli<lb ed="#A" n="91" break="no"/>tat pro rapina carnis crude que proiicitur et 
+      hu<lb ed="#A" n="92" break="no"/>iusmodi. Dum autem antiquatur: muscas et 
+      cu<lb ed="#A" n="93" break="no"/>lices ac lumbricos terrestres et mures venatur 
+      <lb ed="#A" n="94"/>et tunc fame moritur vt dicit Iorath. Item secundum 
+      <lb ed="#A" n="95"/>Plinium libro. xxix. Milui iecur contra vicia 
+      <lb ed="#A" n="96"/>oculorum ad inunctiones laudatur. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2548">
+                  <lb ed="#A" n="97"/>¶ Monedula secundum Isidorum. cum aurum 
+      inue<lb ed="#A" n="98" break="no"/>nit aufert et occultat: et mira inest ei voracitas 
+      au<lb ed="#A" n="99" break="no"/>ri et argenti ac huiusmodi rerum. Ut dicit etiam 
+      <lb ed="#A" n="100"/>Plinius. Et ex libro de natu. re. Ideo dicitur 
+      mo<lb ed="#A" n="101" break="no"/>nedula quasi monetam diligens vel tollens. 
+      hu<lb ed="#A" n="102" break="no"/>ius carnes pruritum capitis excitant. Nam et 
+      <lb ed="#A" n="103"/>ipsa appetit in capite fricari. Item secundum Aristo. 
+      mo<lb ed="#A" n="104" break="no"/>nedula pugnat cum bubone quia bubo est dei 
+      <lb ed="#A" n="105"/>bilis visus de die propter hoc monedula sicut 
+      <lb ed="#A" n="106"/>et coruus rapit oua bubonis et comedit ea. 
+      Ec<lb ed="#A" n="107" break="no"/>ce dei opera mira. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2576">
+               <head xml:id="Vn7Pel-h31555-Hd1e2578">29</head>
+               <p xml:id="Vn7Pel-h31555-d1e2580">
+                  <lb ed="#A" n="108"/>¶ Nycticorax ipsa est noctua 
+      <lb ed="#A" n="109"/>secundum Isidorum sic dicta eo quod nocte circumuolat 
+      <lb ed="#A" n="110"/>Hanc insula Cretensis non habet. et si veniat 
+      ali<lb ed="#A" n="111" break="no"/>unde statim moritur. Item Glo. super Psalmus ci. 
+      <lb ed="#A" n="112"/>Nycticorax est auis vigil. teter. Coruus noctis. 
+      <!--111.xml-->
+      <pb ed="#A" n="112"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>habitans in parietinis ruinis vbi parietes stant 
+      <lb ed="#A" n="2"/>sine fundamento. Unde scriptum est. Factus 
+      <lb ed="#A" n="3"/>sum sicut nycticorax in domicilio. Unde et glo. su 
+      <lb ed="#A" n="4"/>per Leuit. dicit quod noctua est auis rapax de 
+      no<lb ed="#A" n="5" break="no"/>cte. Et secundum Plinium libro. x. Noctua vncos 
+      vn<lb ed="#A" n="6" break="no"/>gues habet vt bubo et vlula. et arbores cauat: 
+      <lb ed="#A" n="7"/>quando est garrula tempestatem signat. 
+      Ro<lb ed="#A" n="8" break="no"/>strum etiam habet vncinum vt nisus: sicut 
+      dici<lb ed="#A" n="9" break="no"/>tur libro de natu. re. vbi et hoc mirabile de ea 
+      di<lb ed="#A" n="10" break="no"/>citur quod vocibus importunis prenunciat hominum 
+      <lb ed="#A" n="11"/>mortem. Item secundum Plinium libro. xxix. Cerebrum 
+      <lb ed="#A" n="12"/>eius coctum in vino: vel cibo sumptum remeditur 
+      <lb ed="#A" n="13"/>est capitis doloribus. Item libro. xxx. Quod oua 
+      <lb ed="#A" n="14"/>noctue per triduum in vino data tedium eius 
+      ad<lb ed="#A" n="15" break="no"/>ducunt ebriosis. Ecce ergo deus mirabilis. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2632">
+                  <lb ed="#A" n="16"/>¶ Nisus est auis ex genere falconum ad 
+      aucu<lb ed="#A" n="17" break="no"/>pandum promptissima. vt dicitur libro de natur. 
+      <lb ed="#A" n="18"/>re. Nobilis est minor quam herodius. Cum autem 
+      <lb ed="#A" n="19"/>secundum Aristo. omnis auis in volatum suo predam 
+      <lb ed="#A" n="20"/>capiens parcit sui generis auibus. Solus 
+      ni<lb ed="#A" n="21" break="no"/>sus caret hac generositate qui parem etiam 
+      su<lb ed="#A" n="22" break="no"/>generis non vult habere sodalem sed velut 
+      aue<lb ed="#A" n="23" break="no"/>alieni generis persequitur. Sic et homo malus 
+      <lb ed="#A" n="24"/>facit homini. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2655">
+               <head xml:id="Vn7Pel-h31555-Hd1e2657">30</head>
+               <p xml:id="Vn7Pel-h31555-d1e2659">
+                  <lb ed="#A" n="25"/>¶ Onocrocalus est auis 
+      immunda<lb ed="#A" n="26" break="no"/>vt dicitur Leuit. xi. Hec secundum Hieronymum Et 
+      li<lb ed="#A" n="27" break="no"/>brum de natu. re. fixo in palude rostro horrendum 
+      <lb ed="#A" n="28"/>rugitum emittit que etiam in Esa. xiii. vocatur 
+      <lb ed="#A" n="29"/>vlula ab vlulatum. Ut patet etiam per Lyram. Est 
+      <lb ed="#A" n="30"/>autem huius duplex genus. Unum solitudinis. 
+      <lb ed="#A" n="31"/>de quo intelligendum est verbum Esa. supra. Aliud 
+      <lb ed="#A" n="32"/>est aquatile. De quo loquitur Hieronymus. 
+      <lb ed="#A" n="33"/>Et hoc vulgariter vocatur bucorius ranas et 
+      vene<lb ed="#A" n="34" break="no"/>nata ac pisces deuorat: multas escas 
+      insatiabili<lb ed="#A" n="35" break="no"/>ter deglutit vnde diabolum significat. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2685">
+                  <lb ed="#A" n="36"/>¶ Ophimacus. De quio Leuit. xi. est auis 
+      immun<lb ed="#A" n="37" break="no"/>da contrariatur serpentibus et pugnat cum eis 
+      <lb ed="#A" n="38"/>vt comedat 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2694">
+                  <lb ed="#A" n="39"/>¶ Ortigometra secundum Isidorum est auis que 
+      grege<lb ed="#A" n="40" break="no"/>coturnicum ducit. patuit vbi Coturnix. 
+      <lb ed="#A" n="41"/>Oosina est auis magna in lacubus vt dicitur 
+      <lb ed="#A" n="42"/>libro de natu. re. A gutture vsque ad pectus 
+      instar<lb ed="#A" n="43" break="no"/>saccelli. longum et amplum receptaculum 
+      ha<lb ed="#A" n="44" break="no"/>bet in quo reponit copiam piscium vt non 
+      ege<lb ed="#A" n="45" break="no"/>at. inde in ventrem paulatim paratum cibum mittit etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2713">
+               <head xml:id="Vn7Pel-h31555-Hd1e2715">31</head>
+               <p xml:id="Vn7Pel-h31555-d1e2717">
+                  <lb ed="#A" n="46"/>Parra quaesi parua vt oculs 
+      bo<lb ed="#A" n="47" break="no"/>uis: nominatur etiam regulus libro de na. re. iuxta 
+      fa<lb ed="#A" n="48" break="no"/>bulam dicit quod aues condixerant pro rege habere 
+      <lb ed="#A" n="49"/>eam que altius volaret pre ceteris. Cunque aqui 
+      <lb ed="#A" n="50"/>la omnes transcenderet: parra latitas sub 
+      aqui<lb ed="#A" n="51" break="no"/>le ala vel cauda exiliens se superuolan. regem esse 
+      <lb ed="#A" n="52"/>dixit. Unde et dicitur quod eius corpus verum infixum 
+      <lb ed="#A" n="53"/>seipsum in veru girat quasi pro regia nobilitate 
+      <lb ed="#A" n="54"/>significat ergo indignos honoris ambiciosos. 
+      <lb ed="#A" n="55"/>et huiusmodi etc. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2741">
+                  <lb ed="#A" n="56"/>¶ Palumba est columba siluana. Auis 
+      casta<lb ed="#A" n="57" break="no"/>secundum Aristo. et Isido. Si parem suum aliqua a¬ 
+      <!--111.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>miserit solitaria incedit nec carnalem copulam 
+      <lb ed="#A" n="59"/>vltra requirit nec coit sed vidue manentes huiusmodi 
+      ce<lb ed="#A" n="60" break="no"/>terarum consortium vitant vel domum: et in 
+      pa<lb ed="#A" n="61" break="no"/>rietinis habitant nec viride quicquam ad 
+      quiescen<lb ed="#A" n="62" break="no"/>dum petunt. Palumbe secundum Auicen. dure carnis 
+      <lb ed="#A" n="63"/>sunt: sanguis earum de sub ascella eximie 
+      pro<lb ed="#A" n="64" break="no"/>dest oculis cruore suffusis secundum Plinium lib. xxix. 
+      <lb ed="#A" n="65"/>et. xxx. Caroque earum decocta in aceto disentericis 
+      mede<lb ed="#A" n="66" break="no"/>tur. Fimus cum aceto tritus et impositus 
+      scro<lb ed="#A" n="67" break="no"/>phas curat. Sed fimus calidus accipi debet 
+      <lb ed="#A" n="68"/>secundum Diasco. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2776">
+                  <lb ed="#A" n="69"/>¶ Passer secundum Arist. et librum denatu. re. In tectis 
+      <lb ed="#A" n="70"/>bomorum habitat: furia cito concitatur 
+      luxurio<lb ed="#A" n="71" break="no"/>sus est. Ideo et breui tempore viuit. In 
+      parti<lb ed="#A" n="72" break="no"/>bus orientis vno tantum anno mas: sed femnina 
+      ali<lb ed="#A" n="73" break="no"/>quantum diutius viuit. muscas venatur: morbum 
+      ca<lb ed="#A" n="74" break="no"/>ducum pati dicitur quia semen hiusquiami edit: 
+      <lb ed="#A" n="75"/>colorem mutat. Nam visus est aliquando 
+      pas<lb ed="#A" n="76" break="no"/>er albus. Item super illud Psalmus cxxiiii. Anima 
+      <lb ed="#A" n="77"/>nostra sicut passer erepta est de laqueo 
+      venan<lb ed="#A" n="78" break="no"/>tium. Gloi. dicit passer aliquo strepitum magnum 
+      <lb ed="#A" n="79"/>faciente volat ne laqueo venantium capiatur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2803">
+               <head xml:id="Vn7Pel-h31555-Hd1e2805">32</head>
+               <p xml:id="Vn7Pel-h31555-d1e2807">
+                  <lb ed="#A" n="80"/>¶ Pauo secundum Aristotelem viuit. 
+      <lb ed="#A" n="81"/>annis xxv. pullificat post triennium. penne eius 
+      <lb ed="#A" n="82"/>co lorantur post triennium. Et vt habetur libro 
+      <lb ed="#A" n="83"/>de natu. re. Pauo est auis pulcerrima: collum 
+      <lb ed="#A" n="84"/>habet longum coloris sapphyriui et pectus 
+      si<lb ed="#A" n="85" break="no"/>militer. caput licet serpenti simile et infirmum 
+      ta<lb ed="#A" n="86" break="no"/>men crista coronatum. Caudam longam et 
+      ocu<lb ed="#A" n="87" break="no"/>latam: pedes deformes: caudam erigens in 
+      pul<lb ed="#A" n="88" break="no"/>critudine gloriatur sed posteriora nudat: cum 
+      <lb ed="#A" n="89"/>pedum deformitatem viderit mox erumbescens 
+      <lb ed="#A" n="90"/>caudam dimittit. Nocte cum euigilauerit quia 
+      <lb ed="#A" n="91"/>in tenebris se videre non potest clamat pauide 
+      <lb ed="#A" n="92"/>suam pulcritudinem amisisse se credit. Uox eius 
+      <lb ed="#A" n="93"/>terribilis quasi diabolica: clamore suo 
+      frequen<lb ed="#A" n="94" break="no"/>ter audito serpentes et animalia venenata terren 
+      <lb ed="#A" n="95"/>tur nec prope audent habitare. Sunt etiam 
+      ali<lb ed="#A" n="96" break="no"/>qui pauones albi coloris per totum. Item hoc 
+      <lb ed="#A" n="97"/>mirum est secundum Phisiols. et Pallad. libro i. Quod 
+      pa<lb ed="#A" n="98" break="no"/>uo sue comparis oua dissipat et consumit si ad 
+      <lb ed="#A" n="99"/>ea accedere possit ob hoc quia inuidus est. 
+      Te<lb ed="#A" n="100" break="no"/>ste Aristo. prolemque propriam non dignatur agnoscer 
+      <lb ed="#A" n="101"/>antequam illi crista nascatur qua sibi assimiletur. 
+      <lb ed="#A" n="102"/>Item secundum Hieronymum contra Iouinianum. 
+      Fi<lb ed="#A" n="103" break="no"/>mus pauouis feruorem podagre mitigat Ideo 
+      <lb ed="#A" n="104"/>vt dicit Plinius libro. xxix. Fimum suum 
+      resor<lb ed="#A" n="105" break="no"/>bent pauones vtilitatibus hominum inuidentes 
+      <lb ed="#A" n="106"/>Item secundum Augustinum. xxi. libro de ciui. et Isido. 
+      <lb ed="#A" n="107"/>Caro pauonis etiam mortui non putrescit si etis 
+      <lb ed="#A" n="108"/>am vsque ad annum seruetur sed valde diu 
+      ser<lb ed="#A" n="109" break="no"/>uatur incorrupta nec facile coquiturnec 
+      digesti<lb ed="#A" n="110" break="no"/>oni facile obedit. Oua eius sunt opima. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2878">
+               <head xml:id="Vn7Pel-h31555-Hd1e2880">33</head>
+               <p xml:id="Vn7Pel-h31555-d1e2882">
+                  <lb ed="#A" n="111"/>¶ Pelicanus vt dicitur libro de 
+      <lb ed="#A" n="112"/>natu. re. et Phisioli. in egypto circa nilum in 
+      soli<lb ed="#A" n="113" break="no"/>tudine habitat. Unde et Psal. qi. Similis factus 
+      <!--112.xml-->
+      <pb ed="#A" n="113"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sum pelicano solitudinis significans christum 
+      <lb ed="#A" n="2"/>Hec auis enim pullos nimis diligit adeo quod cum 
+      <lb ed="#A" n="3"/>pullos qui percutiunt parentem importune 
+      oc<lb ed="#A" n="4" break="no"/>ciderit: Uel quando a serpente morsu 
+      interem<lb ed="#A" n="5" break="no"/>ptos inuenerit seipsam in latere vel pectore 
+      vul<lb ed="#A" n="6" break="no"/>nerat et sanguine suo aspergit. Ex quo 
+      intan<lb ed="#A" n="7" break="no"/>tum debilitatur vt exire de nido non valeat. Sed 
+      <lb ed="#A" n="8"/>eius pulli pro cibatione tam illius quam sua exire 
+      com<lb ed="#A" n="9" break="no"/>pelluntur: sed quidam pulli negligunt pascere matrem: 
+      <lb ed="#A" n="10"/>illa ergo conualesces pios nutrit. impios abiicit. 
+      <lb ed="#A" n="11"/>Perdix secundum Phisiol. perdit oua sua obliuiscen 
+      <lb ed="#A" n="12"/>do ideo alterius perdicis oua furatur et fouet. Ut 
+      eti<lb ed="#A" n="13" break="no"/>am dicit Ambro. Sed ex hoc fructum non habebit 
+      <lb ed="#A" n="14"/>quia cum pullos eduxerit illi dum vocem 
+      audie<lb ed="#A" n="15" break="no"/>rint vere matris quae oua generauit: naturali amo 
+      <lb ed="#A" n="16"/>re ad illam se conferunt nutrice ista derelicta. Ideo 
+      <lb ed="#A" n="17"/>Hiere. xvii. dicitur Perdix oua fouet quae non pepaerit et de 
+      <lb ed="#A" n="18"/>relinquet ea et in nouissimo suo erit insipiens. Sic 
+      <lb ed="#A" n="19"/>est de auaris hominibus aliena rapientibus quae omnia 
+      <lb ed="#A" n="20"/>perdunt in nouissimo mortis Et sicut vna perdice 
+      prae<lb ed="#A" n="21" break="no"/>cedente capta reticulo: altera non retractat 
+      pericu<lb ed="#A" n="22" break="no"/>lum capte sed subsequitur. Sic fit de auaris in 
+      infer<lb ed="#A" n="23" break="no"/>num descendentibus. Perdix quoque alio nomine vocatur 
+      <lb ed="#A" n="24"/>Cubeth: luxuriosa est. carnes habet pre ceteris 
+      <lb ed="#A" n="25"/>quibus siluestribus optimas. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2952">
+                  <lb ed="#A" n="26"/>¶ Pica. importune garrulat contra omnes et 
+      so<lb ed="#A" n="27" break="no"/>num humane vocis imitatur: sed in hoc est 
+      commen<lb ed="#A" n="28" break="no"/>dabilis secundum Phisiolis. quod Curie vel horto in quo 
+      <lb ed="#A" n="29"/>nidificat indenitati proficit: quia insidias 
+      latitan<lb ed="#A" n="30" break="no"/>tium prodit clamore 
+      <lb ed="#A" n="31"/>Porphirio est auis imunda Deut. xiiii. Et secundum 
+      <lb ed="#A" n="32"/>Hiero. iuxta. lxx. interprentes idem est quod 
+      pelica<lb ed="#A" n="33" break="no"/>nus qui comedit serpentes. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2972">
+                  <lb ed="#A" n="34"/>¶ Psitacus secundum Plinium lib. x. Et Isido. super 
+      <lb ed="#A" n="35"/>omnia vocem dat quasi humanam semper salutat 
+      <lb ed="#A" n="36"/>Aue in aspectu virgis secundum Phisiol. delectatur vino¬ 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e2981">
+                  <lb ed="#A" n="37"/>¶ Regulus vide de hoc vbi Parra. §. 2i. supra. ciebriatur 
+      <lb ed="#A" n="38"/>Strucio vide de hoc vbi <ref xml:id="Vn7Pel-h31555-Rd1e2987">Bestia. §. xxxiii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h31555-Dd1e2991">
+               <head xml:id="Vn7Pel-h31555-Hd1e2993">34</head>
+               <p xml:id="Vn7Pel-h31555-d1e2995">
+                  <lb ed="#A" n="39"/>¶ Turtur Auis pudica secundum 
+      <lb ed="#A" n="40"/>Ambro. Cum fuerit viduata decetero non 
+      copu<lb ed="#A" n="41" break="no"/>latur. siccis ramis arborum insidet semper tristis 
+      si<lb ed="#A" n="42" break="no"/>cut et palumba. Nulli est infesta sed patientissima. 
+      <lb ed="#A" n="43"/>vt dicitur lib. de natu. re. huius ale dextre sanguit 
+      <lb ed="#A" n="44"/>medicinalis est immissus oculis cruore suffusis. 
+      <lb ed="#A" n="45"/>fimus albugines oculorum curat.
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e3013">
+      ¶ Ad idem 
+      <lb ed="#A" n="46"/>plura vbi Columba et aliis passibus 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e3018">
+                  <lb ed="#A" n="47"/>¶ Upupa secundum Hiero. super Cach. et Isidorum est 
+      <lb ed="#A" n="48"/>auis spurcissima semper in fimo vel sepulcris 
+      com<lb ed="#A" n="49" break="no"/>morans. cuius sanguine siquis se intinxerit 
+      so<lb ed="#A" n="50" break="no"/>mniabit quasi demones suffocantes se. valet ergo 
+      <lb ed="#A" n="51"/>peccatoribus vt terreantur ad penitentiam. Item 
+      <lb ed="#A" n="52"/>cum senuerit vt nec videre possit nec volare. 
+      pul<lb ed="#A" n="53" break="no"/>li eius euellunt ei pennas seniles. fouent sub alis 
+      <lb ed="#A" n="54"/>Donec recrescant plume noue quibus volare possit et 
+      <lb ed="#A" n="55"/>liniunt oculos succis herbarum vt videat clare. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e3040">
+                  <lb ed="#A" n="56"/>¶ Uultur vt dicit Ambro. lib. ii Hexam. mare 
+      <lb ed="#A" n="57"/>caret et sine comitum generat. ergo virginem parere 
+      <!--112.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>deo est facere possibile. Item secundum Isido. Plinium 
+      <lb ed="#A" n="59"/>Aristo. et alios. Uultur viuit annis centum. 
+      aqui<lb ed="#A" n="60" break="no"/>le quidem clarius cemunt sed vultures sagacius 
+      <lb ed="#A" n="61"/>odorant. Lex secundum glo. Leuit. xi. prohibet vulturem 
+      <lb ed="#A" n="62"/>comedi quia bellis et mortibus gaudet ac 
+      cada<lb ed="#A" n="63" break="no"/>ueribus. Aues etiam rapacens et lepores capras 
+      <lb ed="#A" n="64"/>et vulpes venatur et huiusmoi. Consimiles habet 
+      pro<lb ed="#A" n="65" break="no"/>prietates sicut aquila de qua supra patuit. Item 
+      <lb ed="#A" n="66"/>secundum Esculapium. vulturis penne combuste fugant 
+      <lb ed="#A" n="67"/>serpentes a domo. iecur tritum cum sanguine per 
+      <lb ed="#A" n="68"/>decem dies bibitum caducos liberat. Adeps 
+      do<lb ed="#A" n="69" break="no"/>lorem oculorum sanat et dolores neruorum 
+      eua<lb ed="#A" n="70" break="no"/>cuat. Ecce deus mirabilis et laudabilis in huiusmodi 
+      <lb ed="#A" n="71"/>et aliis etc.
+     </p>
+               <p xml:id="Vn7Pel-h31555-d1e3083">
+      ¶ Ad praedicta vide vbi Bellum etc. 
+      </p>
+               <p xml:id="Vn7Pel-h31555-d1e3085">
+                  <lb ed="#A" n="72"/>¶ E bonitas dei dinoscitur in 
+      sen<lb ed="#A" n="73" break="no"/>sibus Auditus et visus datis hominibus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

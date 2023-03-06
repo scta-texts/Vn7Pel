@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Terra</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Terra</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="461"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h142911">
+            <head xml:id="Vn7Pel-h142911-Hd1e110">Terra</head>
+            <div xml:id="Vn7Pel-h142911-Dd1e112">
+               <head xml:id="Vn7Pel-h142911-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h142911-d1e116">
+                  <lb ed="#A" n="33"/>¶ EFrra quibus 
+      no<lb ed="#A" n="34" break="no"/>minibus nominatur. Isid. lib. xiii. dicit. quod 
+      <lb ed="#A" n="35"/>la superiori parte qua colitur dicitur terra (ecundum 
+      Ca<lb ed="#A" n="36" break="no"/>tholicon a tero teris dicta quia assidue teritur rastris 
+      <lb ed="#A" n="37"/>et cultum ac pedibus. vel a torreo dicitur quia siccitate tor 
+      <lb ed="#A" n="38"/>ret Sed ab inferiori parte vt sub mari vocatur 
+      hu<lb ed="#A" n="39" break="no"/>mus: quia est humida in illa parte. Item Tellus 
+      <lb ed="#A" n="40"/>dicitur quia tollimus fructus eius. hec et ops dicitur quia 
+      <lb ed="#A" n="41"/>opem fert frugibus. Et arua ab arando et colendo 
+      <lb ed="#A" n="42"/>vocata. Proprie vero dicitur arida ad distinctione. 
+      <lb ed="#A" n="43"/>aque. Gen. i. Uocauit deus aridam terram 
+      congregati<lb ed="#A" n="44" break="no"/>onesque aquarum appella. maria. Naturalis enim est 
+      <lb ed="#A" n="45"/>prietas terre siccitas ideo vt humida sit voluit 
+      <lb ed="#A" n="46"/>deus ex bonitate vt aque affinis sit. Proinde vt 
+      <lb ed="#A" n="47"/>dicitur libo. de nat. re. Terra oceano circumcingitur et in 
+      <lb ed="#A" n="48"/>terius aquarum meatibus velut corpus venis 
+      san<lb ed="#A" n="49" break="no"/>guinis irrigatur (eo scilicet bono sic ordinante) quia 
+      <lb ed="#A" n="50"/>si hoc non fieret terra propter ariditatem suam in 
+      pul<lb ed="#A" n="51" break="no"/>uerem redigeretur ac destrueretur. Unde vbicunque in 
+      <lb ed="#A" n="52"/>terra foditur aqua reperitur etc. Deus ergo laudabilis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e163">
+               <head xml:id="Vn7Pel-h142911-Hd1e165">2</head>
+               <p xml:id="Vn7Pel-h142911-d1e167">
+                  <lb ed="#A" n="53"/>¶ Quales proprietates terra 
+      ha<lb ed="#A" n="54" break="no"/>beat. Notandum est secundum Auicen. primo canone me¬ 
+      <!--460.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>dicine. aliosque physicos. Terra est corpus scilicet ex. iiii. 
+      <lb ed="#A" n="56"/>elementis vnum. cuius locus naturalis in medio 
+      <lb ed="#A" n="57"/>totius vniuersi consistit in quo naturaliter manet quie 
+      <lb ed="#A" n="58"/>eta: et ab ipso scilicet loco separata naturali grauitate ad 
+      <lb ed="#A" n="59"/>ipsum mouetur: cuius quidem natura frigida est et sicca 
+      <lb ed="#A" n="60"/>etc. Unde et Secundus philosophus dicit. Quid est terra 
+      <lb ed="#A" n="61"/>Respondet Basis celi meditullium mundi: fructuum 
+      ma<lb ed="#A" n="62" break="no"/>ter et custos: operculum inferni: mater nascentium: 
+      <lb ed="#A" n="63"/>nutrix viuentium: deuoratrix omnium: viteque 
+      cella<lb ed="#A" n="64" break="no"/>rium. Hec ille.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e200">
+      ¶ Ex quibus clarent plurime proprieta 
+      <lb ed="#A" n="65"/>tes nobiles terre a deo indite ex bonitate 
+      lauda<lb ed="#A" n="66" break="no"/>bili. Primo quia est Basis in medio mundi posita vt 
+      <lb ed="#A" n="67"/>dicit Isido. etiam e. lib. xiii. omnibus celi partibus in 
+      <lb ed="#A" n="68"/>modum centri equali interuallo consistens. vnde omnia 
+      <lb ed="#A" n="69"/>ponderosa ad eam tanquam ad centrum feruntur. Et secundum 
+      <lb ed="#A" n="70"/>Alb. In omnibus elementatis grauibus terra dominatur. 
+      <lb ed="#A" n="71"/>ideo omnium quies est in terra. Secundo terra dicitur 
+      fru<lb ed="#A" n="72" break="no"/>ctuum omnium mater et custos: quia omnes fructus ai 
+      <lb ed="#A" n="73"/>borum et terrenascentium et herbe medicinales vt dicit 
+      <lb ed="#A" n="74"/>Plinius lib. ii et terra oriuntur et vt singulis annis 
+      <lb ed="#A" n="75"/>parturiantur terra custodit pro homine et conseruat radices. 
+      <lb ed="#A" n="76"/>Tertio quia terra est operculum inferni cum infernus sit 
+      <lb ed="#A" n="77"/>in centro terre. Quarto quia terra est mater nascentium 
+      <lb ed="#A" n="78"/>nutrixque viuentium et vite cellarium quoniam dicente 
+      Pli<lb ed="#A" n="79" break="no"/>nio. li. ii. Terra nascentes homines excipit: natos alit 
+      <lb ed="#A" n="80"/>et sustinet semper vsibusque mortalium tanquam 
+      ancil<lb ed="#A" n="81" break="no"/>la sumministrat: et queque bona ad vitam nostram 
+      com<lb ed="#A" n="82" break="no"/>seruat et reddit. Item Seneca de naturalibus quaesdio. 
+      <lb ed="#A" n="83"/>lib. vi. dicit. Terra: et pars mundi est et materia. ex hac 
+      <lb ed="#A" n="84"/>enim alimenta sunt omnibus animalibus et omnibus satis et 
+      ar<lb ed="#A" n="85" break="no"/>boribus etc. Ultimo terra dicitur deuoratrix omnium 
+      <lb ed="#A" n="86"/>Quia vt Plinius. supra dicit. omnia: terre sepultura 
+      <lb ed="#A" n="87"/>excipit et consumit et ossa etiam insepulta tandem 
+      tabe<lb ed="#A" n="88" break="no"/>facta obducit terra et occultat etc. Deus ergo 
+      lau<lb ed="#A" n="89" break="no"/>dabilis in omnibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e258">
+               <head xml:id="Vn7Pel-h142911-Hd1e260">3</head>
+               <p xml:id="Vn7Pel-h142911-d1e262">
+                  <lb ed="#A" n="90"/>Quanta sit mensura terre. 
+      Re<lb ed="#A" n="91" break="no"/>spondetur quod de hoc certitudo non habetur sed dubium 
+      <lb ed="#A" n="92"/>est. Cum etiam apud philosophos de hoc alii aliis 
+      contradi<lb ed="#A" n="93" break="no"/>cant disputan. Ideo vt dicit Basilius in hexam. v. 
+      <lb ed="#A" n="94"/>homel. Talia tanquam minus fixa vel minus 
+      cer<lb ed="#A" n="95" break="no"/>ta et minus vtilia relinquenda sunt: et vtiliora sunt 
+      <lb ed="#A" n="96"/>consideranda. Amb. quoque. vi. hexam. et lib. de nat. re. con 
+      <lb ed="#A" n="97"/>similiter dicitur. quod geomentre mensuram circuitus terre mensura 
+      <lb ed="#A" n="98"/>uerunt centum octogitamilibus stadiorum quae in 
+      duode<lb ed="#A" n="99" break="no"/>cies mille miliaria et quinquagita duo computantur. 
+      <lb ed="#A" n="100"/>Subdit Amb. Libenter inquit fateor me nescire 
+      <lb ed="#A" n="101"/>quod nescio. imo quod scire nil proderit. Hec ille. Item 
+      <lb ed="#A" n="102"/>Aristo. in fi. ii. libo. de Celo et mundo dicit secundum antiquos 
+      <lb ed="#A" n="103"/>Mathematicos totius terre circulum esse. et e ooo. 
+      <lb ed="#A" n="104"/>miliaria. sed vt dicit Alb mag. quod vicio scriptorum depraeua 
+      <lb ed="#A" n="105"/>tum est illud scriptum. alias falsum est
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e299">
+      ¶ Unde verius videtur. 
+      <lb ed="#A" n="106"/>vt dicitur libo Catholicon. Dicendum secundum sapientes ma 
+      <lb ed="#A" n="107"/>thematicos qui secuti sunt Ptholomeum. Uicet 
+      <lb ed="#A" n="108"/>quod ipsa rotunditas circuli terre est vigintimilia. 
+      <lb ed="#A" n="109"/>et quadringenta miliaria
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e310">
+      ¶ Notandum autem 
+      <lb ed="#A" n="110"/>quod probatum est apud Geo metricos vt inducit 
+      <lb ed="#A" n="111"/>etiam Lyra super. iii. Regum. vii. videlicet quod circulus 
+      <!--461.xml-->
+      <pb ed="#A" n="462"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>continet quantitatem diametri ter. et vltra hoc se 
+      <lb ed="#A" n="2"/>ptima partem diametri: ita quod proportio circuli ad 
+      <lb ed="#A" n="3"/>diametrum est sicut proportio. xxii. palmorum ad. vii. 
+      <lb ed="#A" n="4"/>Nam. xxii. continent ter septem et vltra hoc 
+      vnita<lb ed="#A" n="5" break="no"/>tem que est pars septima in respectu ad septem. 
+      <lb ed="#A" n="6"/>Et quoniam vt iam dictum est quantitas terre est. et oq 
+      oo<lb ed="#A" n="7" break="no"/>miliaria. Si ergo hec quantitas diuidatur per. iii. 
+      <lb ed="#A" n="8"/>et partem septimam vnius tertie partis. erit quantitas huius 
+      <lb ed="#A" n="9"/>diametri. O foo. miliaria fere. quia modicum 
+      defi<lb ed="#A" n="10" break="no"/>ci scilicet miliaria. ix. Deinde si diametrum dimidiabis: 
+      <lb ed="#A" n="11"/>erunt a centro terre vsque ad superficiem eius. z2 
+      o<lb ed="#A" n="12" break="no"/>fere. Nam quod modicum deficit pro nullo reputatur 
+      <lb ed="#A" n="13"/>ii. Physicorum. ergo illud non computo. Ex his claret 
+      <lb ed="#A" n="14"/>quod infernus qui dicitur secundum Theol. esse in 
+      medio<lb ed="#A" n="15" break="no"/>centro terre distat a superficie terre per tria milia 
+      du<lb ed="#A" n="16" break="no"/>centaquinquagita miliaria fere. Hec ex libro Catholicon. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e359">
+               <head xml:id="Vn7Pel-h142911-Hd1e361">4</head>
+               <p xml:id="Vn7Pel-h142911-d1e363">
+                  <lb ed="#A" n="17"/>¶ Quid de forma vel figura 
+      ter<lb ed="#A" n="18" break="no"/>re ab initio. Notandum secundum Petrum commestor. Et 
+      <lb ed="#A" n="19"/>vt habetur libro de natu. re. Terra ab initio dispositi 
+      <lb ed="#A" n="20"/>onis sue rotunda fuit et plana nec montes vel 
+      val<lb ed="#A" n="21" break="no"/>les erant in ea. Nunc autem est montuosa sed tamen 
+      <lb ed="#A" n="22"/>spherica. Et vt dicitur libo de imagine mundi qui 
+      pu<lb ed="#A" n="23" break="no"/>tatur a Beda editus. Terra nullis fultris sed 
+      so<lb ed="#A" n="24" break="no"/>a diuina potentia sustentatur sicut scriptum est. Qui 
+      <lb ed="#A" n="25"/>appendit molem terre super nihilum. Qui fundauit 
+      <lb ed="#A" n="26"/>terram super stabilitatem suam. non inclinabitur in 
+      se<lb ed="#A" n="27" break="no"/>tulum seculi. Quia sicut centrum in medio 
+      mundi<lb ed="#A" n="28" break="no"/>firum non mouebitur sed stat vt punctus in circum 
+      <lb ed="#A" n="29"/>lo mundi respectu circumferentie.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e394">
+      ¶ Quoxd autem terra sit 
+      <lb ed="#A" n="30"/>spherice figure probatur Primo secundum Autorem libo de 
+      <lb ed="#A" n="31"/>sphera quia quelibet terre pars equaliter tendit ad 
+      <lb ed="#A" n="32"/>centrum terre quod non fieret si angulosa esset imo alia 
+      <lb ed="#A" n="33"/>eius pars plus elongaretur a centro quam altera et sic 
+      <lb ed="#A" n="34"/>in partem illam terra vergeret
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e407">
+      ¶ Secundo vt probat 
+      <lb ed="#A" n="35"/>consimiliter Guilhermus de Conchis. quia si terra 
+      <lb ed="#A" n="36"/>esset plana sequeretur quod sol eque cito et eque 
+      diu<lb ed="#A" n="37" break="no"/>videretur super terram in ciuitate posita in oriente et in 
+      <lb ed="#A" n="38"/>ciuitate posita in occidente circumscripto alio 
+      impe<lb ed="#A" n="39" break="no"/>dimento. Sed quia constat quod apud orientales citius 
+      ori<lb ed="#A" n="40" break="no"/>tur et videtur sol ortus et meridies et occasus quam 
+      <lb ed="#A" n="41"/>ipud occidentales. et hoc est propter situm in terra 
+      or<lb ed="#A" n="42" break="no"/>biculosa quia orbicularitas facit alibi esse lucem 
+      so<lb ed="#A" n="43" break="no"/>lis et alibi vmbram. ergo terra non est plana sed or 
+      <lb ed="#A" n="44"/>bicularis vel rotunda vnde et orbis dicta est Hec 
+      <lb ed="#A" n="45"/>sufficiant. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e435">
+               <head xml:id="Vn7Pel-h142911-Hd1e437">5</head>
+               <p xml:id="Vn7Pel-h142911-d1e439">
+                  <lb ed="#A" n="46"/>¶ Quomodo terra dicitur esse 
+      funda<lb ed="#A" n="47" break="no"/>ta super mare et flumina in sacra scriptura. Nam 
+      <lb ed="#A" n="48"/>Psalmus dicit. Domini est terra et plenitudo eius etc. Quia 
+      <lb ed="#A" n="49"/>ipse super maria fundauit eam et super flumina 
+      <lb ed="#A" n="50"/>preparauit illam. Respondetur secundum Albertum mag. 
+      <lb ed="#A" n="51"/>quod terra dupliciter consideratur
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e455">
+      ¶ Uno modo vt 
+      <lb ed="#A" n="52"/>elementum et sic intelligendum est quod scribitur. 
+      <lb ed="#A" n="53"/>Qui fundasti terram super stabilitatem suam 
+      <lb ed="#A" n="54"/>id est stabiliter fundata est in centro. Et non 
+      ter<lb ed="#A" n="55" break="no"/>minatur ad alia elementa sed potius ad ipsam 
+      <lb ed="#A" n="56"/>quedam alia presertim aqua. Unde notanter 
+      di<lb ed="#A" n="57" break="no"/>citur Fundata super stabilitatem suam: Quia 
+      <!--461.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>cum maria et flumina et etiam aer in motu sint 
+      <lb ed="#A" n="59"/>continuo et patet de mare quod semper fluctuat 
+      <lb ed="#A" n="60"/>et fluit et refluit. Si ergo terra fundata esset super 
+      <lb ed="#A" n="61"/>lla non esset stabilis. quod est contra illud: Terra 
+      <lb ed="#A" n="62"/>in eternum stat Ecces. i
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e486">
+      ¶ Alio modo Terra con 
+      <lb ed="#A" n="63"/>sideratur vt materia corporum elementatorum. et isto 
+      <lb ed="#A" n="64"/>modo terra non facit secundum se continuationem vel 
+      co<lb ed="#A" n="65" break="no"/>agulationem compaginationis. vt dicitur. iiii. 
+      Me<lb ed="#A" n="66" break="no"/>cheororum. Sed continuatio terre in mixto est ex 
+      vir<lb ed="#A" n="67" break="no"/>tute aque. et sic intelligitur terra fundata super 
+      <lb ed="#A" n="68"/>aquas secundum partes et continuationem.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e502">
+      ¶ Aliter dicit 
+      <lb ed="#A" n="69"/>potest secundum Lyram super Psalmus supra Quod terra dicitur 
+      <lb ed="#A" n="70"/>fundata super flumina et maria intelligendo secundum 
+      <lb ed="#A" n="71"/>aliquas partes terre scilicet ripas maris et fluminum 
+      <lb ed="#A" n="72"/>que supereminent aquis. Sicut vulgariter 
+      so<lb ed="#A" n="73" break="no"/>let dici. quod terra ianuensis est super mare. vel 
+      ca<lb ed="#A" n="74" break="no"/>strum esse fundatum super fluuium etc. Ad hoc enim 
+      <lb ed="#A" n="75"/>voluit deus alibi terram situari supra mare. vt 
+      <lb ed="#A" n="76"/>mare vel flumina non effluant operiendo terre 
+      plu<lb ed="#A" n="77" break="no"/>rimam partem sed deseruiant vtilitati hominum in 
+      <lb ed="#A" n="78"/>nauigationibus piscationibus et aliis. Uerumtamen 
+      <lb ed="#A" n="79"/>secundum ordinem nature terra est infra aquam quia insi 
+      <lb ed="#A" n="80"/>mum est elementum et grauissimum ideo in aqua 
+      po<lb ed="#A" n="81" break="no"/>sita terra descendit in fundum. De hiis etiam vbi 
+      <lb ed="#A" n="82"/>Elementum. §. ix. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e536">
+               <head xml:id="Vn7Pel-h142911-Hd1e538">6</head>
+               <p xml:id="Vn7Pel-h142911-d1e540">
+                  <lb ed="#A" n="83"/>¶ Sed quare terra cum sit etiam § 
+      <lb ed="#A" n="84"/>plana nec eminens in ripa iuxta aquas non 
+      omni<lb ed="#A" n="85" break="no"/>no cooperitur aqua: Respondetur secundum Theol. 
+      pre<lb ed="#A" n="86" break="no"/>sertim Uincen. in Speculo naturali lib. vii. Quod 
+      <lb ed="#A" n="87"/>quamuis secundum ordinem nature tota terre superficies et 
+      <lb ed="#A" n="88"/>globus eius deberet cooperiri aquis sicut et aere 
+      <lb ed="#A" n="89"/>cooperitur quia ordinem nature terra est inferior. 
+      <lb ed="#A" n="90"/>et facta fuit in medio aquarum a principio: 
+      Ta<lb ed="#A" n="91" break="no"/>men creator omnium deus ex bonitate sua pro 
+      <lb ed="#A" n="92"/>magno beneficio voluit vnam partem terre aquis 
+      <lb ed="#A" n="93"/>supereminere vt in ea esset hominum habitatio et 
+      <lb ed="#A" n="94"/>animalium ac terra posset germinare arbores et alia 
+      <lb ed="#A" n="95"/>terrenascentia pro hominum necessitate et vtilitate 
+      <lb ed="#A" n="96"/>Et hoc significat scriptura Gen i. dixit deus. 
+      Con<lb ed="#A" n="97" break="no"/>gregentur aque quae sub celo sunt in locum vnum et 
+      ap<lb ed="#A" n="98" break="no"/>pareat arida. Quod ergo aque non fluunt super totam terram 
+      <lb ed="#A" n="99"/>etiam planum est ex virtute et bonitate creatoris 
+      flu<lb ed="#A" n="100" break="no"/>ctus et fluxus aquarum cohibentis pro nostra vtilitate. 
+      <lb ed="#A" n="101"/>Unde Iob. xxxviii. Quis conclusit hostiis mare quando 
+      <lb ed="#A" n="102"/>erumpebat circumdedi illud terminis meis (inquit dominus u 
+      <lb ed="#A" n="103"/>et posui ostia et dixi. vsque huc venies et non amplius 
+      <lb ed="#A" n="104"/>et hinc confringes tumentes fluctus etc. Item Psalmus 
+      <lb ed="#A" n="105"/>Terminum posuisti eis quem non transgredientur neque 
+      <lb ed="#A" n="106"/>conuertentur operire terram. Deus ergo laudetur
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e595">
+      ¶ Ad hec 
+      <lb ed="#A" n="107"/>vbi Aqua. §. v. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e601">
+               <head xml:id="Vn7Pel-h142911-Hd1e603">7</head>
+               <p xml:id="Vn7Pel-h142911-d1e605">
+                  <lb ed="#A" n="108"/>¶ Quota pars de globo terre qet 
+      <lb ed="#A" n="109"/>sit supereminens aquis et hominibus habitabilis. Notan 
+      <lb ed="#A" n="110"/>dum licet philosophi aliter dicant tantum. iiii. li. Esd. c. vi. dicitur quod 
+      to<lb ed="#A" n="111" break="no"/>tius terre pars immersa aquis est septima. et sex partes sicce. 
+      <lb ed="#A" n="112"/>Item de hac parte dicit Plinius lib. ii. Quod totius 
+      <lb ed="#A" n="113"/>globi sui tellus medio ambitu precincta sit mari 
+      <lb ed="#A" n="114"/>circumfluo non argumentis inuestigandum est sed ex¬ 
+      <!--462.xml-->
+      <pb ed="#A" n="463"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>perimento cognitum. Quod intelligendum de parte 
+      su<lb ed="#A" n="2" break="no"/>periori arida cuius etiam modica portio terre in 
+      <lb ed="#A" n="3"/>habitatur. vt idem Plinius et etiam Guilhermus 
+      de<lb ed="#A" n="4" break="no"/>Conchis dicunt. Et lib. de nat re. ac ex lib. de 
+      ima<lb ed="#A" n="5" break="no"/>gine mundi colligitur. In quibus concorditer habetur 
+      <lb ed="#A" n="6"/>videlicet quod spheram terre duo maria intersecant in 
+      ori<lb ed="#A" n="7" break="no"/>ente et occidente ad angulos rectos. Unum dicitur 
+      <lb ed="#A" n="8"/>mare mediterraneum quod circumiens terram vadit ab 
+      <lb ed="#A" n="9"/>oriente in occidentem et iterum in orientem. Aliud 
+      ma<lb ed="#A" n="10" break="no"/>re dicitur oceanum quod circumiens similiter terram: 
+      <lb ed="#A" n="11"/>vadit a meridie ad aquilonem et iterum ab aquilone 
+      <lb ed="#A" n="12"/>ad meridiem. Quibus tota terra diuiditur in quinque 
+      <lb ed="#A" n="13"/>zonas que quia latitudinem habent atque vndique 
+      ter<lb ed="#A" n="14" break="no"/>ram cingunt a grecis cone dicuntur et a nobis 
+      cir<lb ed="#A" n="15" break="no"/>culi vocantur. Sunt ergo quinque zone in terra 
+      <lb ed="#A" n="16"/>vel circuli: sicut etiam quinquem ponuntur circuli in 
+      <lb ed="#A" n="17"/>celo id est in aere quibus consimiliter terra subest et 
+      <lb ed="#A" n="18"/>diuiditur. Primus septentrionalis. Secundus 
+      <lb ed="#A" n="19"/>solsticialis. Tertius equinoctialis Quartus 
+      bru<lb ed="#A" n="20" break="no"/>malis. Quintus australis nominatus. De istis 
+      <lb ed="#A" n="21"/>zonis vel circulis dictum est etiam fecndum Isid. supra. vbi. 
+      Ce<lb ed="#A" n="22" break="no"/>lum. § xvii. Ibi et de Climatibus
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e677">
+      ¶ Ad propositum 
+      <lb ed="#A" n="23"/>terra que est sub zonis vel circulis praedictis 
+      duo<lb ed="#A" n="24" break="no"/>bus extremis est inhabitabilis quia non potest 
+      <lb ed="#A" n="25"/>esse habitatio in primo scilicet septentrionali propter 
+      al<lb ed="#A" n="26" break="no"/>forem frigoris. Et in quinta scilicet australi propter ca 
+      <lb ed="#A" n="27"/>lorem. Nec etiam in equinoctiali quia solis calor 
+      <lb ed="#A" n="28"/>non recedit. Alie sunt algore et ardore temperate 
+      <lb ed="#A" n="29"/>hin cet inde medie. rt. Sed que dicitur. 
+      solsticia<lb ed="#A" n="30" break="no"/>lis a nobis inhabitari dinoscitur que in tres 
+      par<lb ed="#A" n="31" break="no"/>tes diuiditur videlicet Asiam Africam et Europam. Ec 
+      <lb ed="#A" n="32"/>ce ergo caelum per calores et algores maiorem partem 
+      <lb ed="#A" n="33"/>quia tres partes terre) nobis abstulit ne possimus 
+      <lb ed="#A" n="34"/>ibi habitare. Quantum autem etiam de terra 
+      habita<lb ed="#A" n="35" break="no"/>bili tulit oceanus in multos infusus sinus: similiter 
+      <lb ed="#A" n="36"/>quantum rapuit mare mediterraneum et alia maria 
+      <lb ed="#A" n="37"/>particularia: etsi vltra hec addantur quot sunt 
+      flu<lb ed="#A" n="38" break="no"/>mina paludes: lacus ac stagna insuper montes: 
+      <lb ed="#A" n="39"/>valles praerupte: solitudines: silue. et deserta. quantum 
+      <lb ed="#A" n="40"/>occupant de portione terre nobis concessa. 
+      manife<lb ed="#A" n="41" break="no"/>ste claret quod satis modica est respectiue portio 
+      ter<lb ed="#A" n="42" break="no"/>re habitabilis pro qua nostra auaricia 
+      miser<lb ed="#A" n="43" break="no"/>rima sepe etiam bellorum periclis et animarum se 
+      ex<lb ed="#A" n="44" break="no"/>ponit
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e727">
+      ¶ Ad hec etiam Guilhermus de conchis 
+      <lb ed="#A" n="45"/>dicit quod licet due partes sint temprate et habitatio 
+      <lb ed="#A" n="46"/>nes patiantur in terra. videlicet vna citra torridam zonam 
+      <lb ed="#A" n="47"/>et altera vltra. tamen vnam tantum ab hominibus inhac 
+      <lb ed="#A" n="48"/>bitari credimus inquit nec islam etiam totam. Nostra 
+      <lb ed="#A" n="49"/>ergo habitatio ab oriente vsque ad occidentem et 
+      <lb ed="#A" n="50"/>a meridie vsque ad septentrionem extenditur que quamuis 
+      <lb ed="#A" n="51"/>temporata dicatur. non tamen equaliter in omnibus partibus 
+      <lb ed="#A" n="52"/>quia pars propinquior torride zone est nimis 
+      cali<lb ed="#A" n="53" break="no"/>da. et sicca. vt patet de Libya et Ethiopia. sed vicina 
+      <lb ed="#A" n="54"/>frigide zone id est septentrionali est frigida et 
+      hu<lb ed="#A" n="55" break="no"/>mida. Occidentalis autem frigida et sicca. media 
+      <lb ed="#A" n="56"/>vero pars magis equaliter temporata. hec in tres 
+      <lb ed="#A" n="57"/>partes est diuisa Asiam Africam et Europam. 
+      <lb ed="#A" n="58"/>Hec Guiner.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e760">
+      ¶ Ad hec vbi. Mundus. §. ii. 
+      <!--462.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>et sequentibus. 
+      </p>
+               <p xml:id="Vn7Pel-h142911-d1e770">
+                  <lb ed="#A" n="60"/>¶ De montibus in terra et de 
+      in<lb ed="#A" n="61" break="no"/>sulis vide vbi Mons. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e778">
+               <head xml:id="Vn7Pel-h142911-Hd1e780">8</head>
+               <p xml:id="Vn7Pel-h142911-d1e782">
+                  <lb ed="#A" n="62"/>¶ Qualia loca in terra sint 
+      habi<lb ed="#A" n="63" break="no"/>tationi humane conuenientiora:
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e789">
+      ¶ Notandum primo 
+      <lb ed="#A" n="64"/>secundum Auicen in i. Canone. Quod locorum habitabilium 
+      <lb ed="#A" n="65"/>dispositiones in corporibus diuersificantur causa 
+      altitu<lb ed="#A" n="66" break="no"/>dinum et profunditatu in ipsis. puta ex montibus et 
+      val<lb ed="#A" n="67" break="no"/>libus. Quandoque autem ex causa dispositionum terre ipsius 
+      <lb ed="#A" n="68"/>vt si lutosa sit vel cenosa: vel si est in ea virtus 
+      mine<lb ed="#A" n="69" break="no"/>re. quandoque ex causa dispositionis multitudinis aqua 
+      <lb ed="#A" n="70"/>rum vel paucitatis. et quandoque ex causa dispositionis 
+      <lb ed="#A" n="71"/>eorum quae vicinantur eisdem locis sicut arborum 
+      minera<lb ed="#A" n="72" break="no"/>rum montium ac marium et etiam fouearum vel cadauerum 
+      <lb ed="#A" n="73"/>ac etiam ex ventis eorum
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e813">
+      ¶ Secundo nota vt idem 
+      Aui<lb ed="#A" n="74" break="no"/>cen. dicit. Quod omnis aer qui cito infrigidatur cum occidit 
+      <lb ed="#A" n="75"/>sol: et cito calefit cum oritur sol. subtilis est. qui vero 
+      <lb ed="#A" n="76"/>ptrarius huic econtra se habet.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e822">
+      ¶ Tertio dicit quod 
+      <lb ed="#A" n="77"/>omnibus aeribus deterior est ille qui cor constringit ac 
+      ac<lb ed="#A" n="78" break="no"/>ris attractionem angustat.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e830">
+      ¶ Quarto dicit quod loca 
+      <lb ed="#A" n="79"/>habitabilia calida hec efficitur scilicet capillos 
+      nigrifi<lb ed="#A" n="80" break="no"/>cant et crispant ac digestiuam debilitant seniumque 
+      acce<lb ed="#A" n="81" break="no"/>lerant sicut patet in terra ethiopum qui senescunt annis 
+      <lb ed="#A" n="82"/>xxx. a natiuitate et eorum corda timida sunt eo quod spiritus 
+      <lb ed="#A" n="83"/>in eis multum resoluitur. In locis autem frigidis 
+      mo<lb ed="#A" n="84" break="no"/>rantes sunt fortiores et audacie maioris: ac melius 
+      <lb ed="#A" n="85"/>digerentes. Item in locis humidis habitantes cum 
+      <lb ed="#A" n="86"/>exercitantur cito lassantur. multiplicatur in eis frequent 
+      <lb ed="#A" n="87"/>epilensia adueniunt flurus ventris et multus 
+      sangui<lb ed="#A" n="88" break="no"/>nis exitus ex emorroidibus et menstruis et huiusmodi. In 
+      <lb ed="#A" n="89"/>locis vero siccis morantes exiccantur completiones 
+      of<lb ed="#A" n="90" break="no"/>fuscanturque eorum cutes etc.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e859">
+      ¶ Quinto ad idem Auic. 
+      <lb ed="#A" n="91"/>dicit. Quod in locis altis homines morantes sunt 
+      sani<lb ed="#A" n="92" break="no"/>fortes laboriosi diutius viuentes. in profundis 
+      au<lb ed="#A" n="93" break="no"/>tem morantibus in vaperositate multa sunt et epatis debilita 
+      <lb ed="#A" n="94"/>te. Etsi abundant aquis stantibus non frigidis eorum 
+      <lb ed="#A" n="95"/>aeres mali sunt.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e872">
+      ¶ Sexto dicit quod habitantes in 
+      so<lb ed="#A" n="96" break="no"/>cis petrosis et discoopertis habent corpora dura et sunt 
+      <lb ed="#A" n="97"/>multum vigilanteos: in bellis fortes: in artibus solertes 
+      <lb ed="#A" n="98"/>et acuti. moribus superbi et minus boni. Plura alia 
+      <lb ed="#A" n="99"/>ad hec vbi Elementum. §. xii. et sequen
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e883">
+      ¶ Ultimo idem dicit 
+      <lb ed="#A" n="100"/>quod qui eligit loca habitabilia cognoscere debet terre 
+      <lb ed="#A" n="101"/>dispositionem et aquarum et ventorum et hominum ibi 
+      con<lb ed="#A" n="102" break="no"/>morantium. sitque magis sollicitus vt orientales 
+      vemn<lb ed="#A" n="103" break="no"/>ti structuras vrbis vel domus ingredi valeant et vt 
+      <lb ed="#A" n="104"/>sol ibi intrare quaeat quoniam ipse est qui aera rectificat. sed et 
+      <lb ed="#A" n="105"/>ciuitas aquarum dulcium et mundarum currentium quae estate ca 
+      <lb ed="#A" n="106"/>lefiunt et hyeme infrigidantur adiutorium prebet. omnia 
+      <lb ed="#A" n="107"/>hec Auicen. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e904">
+               <head xml:id="Vn7Pel-h142911-Hd1e906">9</head>
+               <p xml:id="Vn7Pel-h142911-d1e908">
+                  <lb ed="#A" n="108"/>¶ Quid de mirabilibus quibus 
+      <lb ed="#A" n="109"/>dam in terre locis. Notandum quod sicut dicit Plinius lib. 
+      <lb ed="#A" n="110"/>ii. sunt in diuersis terrarum locis quedam digna 
+      mi<lb ed="#A" n="111" break="no"/>raculis et quibus hic aliqua describemus. In tau 
+      <lb ed="#A" n="112"/>rorum peninsula in ciuitate Parasino est quaedam terra 
+      <lb ed="#A" n="113"/>quae sanantur omnia vulnera. Iuxta flumen nydum duo sunt 
+      <!--463.xml-->
+      <pb ed="#A" n="464"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>montes cuius alteri natura est vt ferrum omne 
+      <lb ed="#A" n="2"/>teneat. Alteri vero vt respuat: itaque si in calciameo 
+      <lb ed="#A" n="3"/>to sunt claui: vestigia in altero non possunt euel 
+      <lb ed="#A" n="4"/>li nec in altero sisti. Item in agro arpano frumeo 
+      <lb ed="#A" n="5"/>tum non nascitur etiamsi seritur. Hec ex Plinio 
+      suf<lb ed="#A" n="6" break="no"/>ficiant. Preterea ex libo. de nat. re. Carius mons 
+      <lb ed="#A" n="7"/>est in quo scorpiones ledunt hospites et non in 
+      <lb ed="#A" n="8"/>digenas. Nympheus petram habet a qua flam 
+      <lb ed="#A" n="9"/>ma egreditur que per pluuias accenditur. Scotia 
+      <lb ed="#A" n="10"/>nullum habet anguem: auem raram: apem 
+      nul<lb ed="#A" n="11" break="no"/>lam. Nam etsi quis inde pulueres aduectos 
+      spar<lb ed="#A" n="12" break="no"/>serit inter aluearia: fauos deserunt examina apum 
+      <lb ed="#A" n="13"/>Thanatos est insula sic dicta a morte serpentum 
+      <lb ed="#A" n="14"/>Ipsa enim serpentes non habet: et terra inde 
+      aspor<lb ed="#A" n="15" break="no"/>tata alibi serpentes perimit siti. Et hec est in 
+      par<lb ed="#A" n="16" break="no"/>tibus hybernie. Tilia vel Tile est insula in qua 
+      <lb ed="#A" n="17"/>nunquam arbores deponunt folia. In hac semper est 
+      <lb ed="#A" n="18"/>dies sex mensibus estiuis: semper nox hyemalibus. 
+      <lb ed="#A" n="19"/>Ecce patet deus mirabilis in operibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e972">
+               <head xml:id="Vn7Pel-h142911-Hd1e974">10</head>
+               <p xml:id="Vn7Pel-h142911-d1e976">
+                  <lb ed="#A" n="20"/>¶ Quid de generibus terre vel 
+      <lb ed="#A" n="21"/>speciebus diuersis. Notandum secundum Plinium lib. 
+      <lb ed="#A" n="22"/>xvii. Et lib. de nat. re. aliosque physicos diuerse sunt 
+      <lb ed="#A" n="23"/>pecies terre. Alie enim sunt terre amare et macre at 
+      <lb ed="#A" n="24"/>que salse: aluminose: nitroseque. Alie sunt 
+      argillo<lb ed="#A" n="25" break="no"/>se que rastros et vomeres ingentibus glebis 
+      one<lb ed="#A" n="26" break="no"/>rant et talis fructibus aduersatur. Alie sunt 
+      sabu<lb ed="#A" n="27" break="no"/>lose que et steriles sunt sicut cinericie sabulo 
+      al<lb ed="#A" n="28" break="no"/>boplus quam sabulo nigro. Alie sunt petrose et 
+      hu<lb ed="#A" n="29" break="no"/>iusmodi sunt frigide et sicce. Ideo vt dicit christs 
+      <lb ed="#A" n="30"/>in euangelio. Semen iactum in tali terra petro 
+      <lb ed="#A" n="31"/>sa et si nascitur tamen natum cito arescit quia non 
+      ha<lb ed="#A" n="32" break="no"/>bet humorem Luc. viii. Alie sunt terre lutee et tales 
+      <lb ed="#A" n="33"/>sunt frigide et humide. alie sunt habentes mine 
+      <lb ed="#A" n="34"/>ras etc. alie sunt pingues terre et crasse calide et 
+      hu<lb ed="#A" n="35" break="no"/>mide que sunt bone facientes fructum multiplicem etc. 
+      <lb ed="#A" n="36"/>Nam quedam talium faciunt fructum tricesimum: 
+      quae<lb ed="#A" n="37" break="no"/>dam sexagesimum: quedam centesimum. vt patet in 
+      eua<lb ed="#A" n="38" break="no"/>gelio de istis et significationibus illarum. vbi habetur 
+      <lb ed="#A" n="39"/>quod semen iactum in terra significat verbum dei. Et 
+      <lb ed="#A" n="40"/>terre varietas varia hominum corda suscipientium 
+      <lb ed="#A" n="41"/>dei verbum et in eo fructificantium ad vitam eternam. 
+      <lb ed="#A" n="42"/>videlicet coniugatorum: viduarum et virginum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1030">
+               <head xml:id="Vn7Pel-h142911-Hd1e1032">11</head>
+               <p xml:id="Vn7Pel-h142911-d1e1034">
+                  <lb ed="#A" n="43"/>¶ Sed quo agnoscitur terra 
+      fe<lb ed="#A" n="44" break="no"/>cunda et bona: Notandum secundum Palladium primo 
+      <lb ed="#A" n="45"/>lib. de agricultura. simulque Uirgilium in Georgici. 
+      <lb ed="#A" n="46"/>Quod potissimc per tria cognoscitur pro seminibus. 
+      </p>
+               <p xml:id="Vn7Pel-h142911-d1e1045">
+                  <lb ed="#A" n="47"/>¶ Primo per colorem: quia nigredo terre 
+      pingue<lb ed="#A" n="48" break="no"/>dini attestatur. sed hoc non sufficit nisi dulcis sit. 
+      </p>
+               <p xml:id="Vn7Pel-h142911-d1e1052">
+                  <lb ed="#A" n="49"/>¶ Secundo ergo agnoscitur per dulcorem. si ex 
+      <lb ed="#A" n="50"/>ea parte agri que magis displicet glebam fictili 
+      <lb ed="#A" n="51"/>vase dulci aqua madefactam linguam tangas et erit 
+      <lb ed="#A" n="52"/>saporis dulcis tunc terra bona est. Si autem est 
+      sa<lb ed="#A" n="53" break="no"/>poris amari vel salsi mala est. Sed pinguem esse 
+      <lb ed="#A" n="54"/>terram agnoscas. si glebam paruam dulci aqua 
+      <lb ed="#A" n="55"/>asperges et subigas si glutinosa est et adheret: 
+      con<lb ed="#A" n="56" break="no"/>stat inesse illi pinguedinem. Spiritualiter per 
+      nigredi<lb ed="#A" n="57" break="no"/>nem humilitas significatur: per duscedine et glunti 
+      <!--463.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>nositatem charitas quae animam dulciter coniungit deo. 
+      <lb ed="#A" n="59"/>per amaritudinem odium et huiusmodi.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1083">
+      ¶ Tertio vt praedicti 
+      <lb ed="#A" n="60"/>dicunt. Terra bona et fecunda agnoscitur per fossionem 
+      <lb ed="#A" n="61"/>et repletionem videlicet tera effossa et extra foueam proiecta 
+      <lb ed="#A" n="62"/>stat: altera die in eandem foueam reposita si 
+      supera<lb ed="#A" n="63" break="no"/>uerit: terra pinguis est. si defuerit exilis est. si 
+      con<lb ed="#A" n="64" break="no"/>uenerit equata mediocris est. Mystice 
+      superabum<lb ed="#A" n="65" break="no"/>dat homo qui multa bona facit. exilis qui deficit a 
+      <lb ed="#A" n="66"/>bonis. mediocris qui eque bona et mala facit. si 
+      <lb ed="#A" n="67"/>tamen pe malis postea penitet alias reprobus est 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1104">
+               <head xml:id="Vn7Pel-h142911-Hd1e1106">12</head>
+               <p xml:id="Vn7Pel-h142911-d1e1108">
+                  <lb ed="#A" n="68"/>¶ Sed quo agnoscatur terra 
+      vti<lb ed="#A" n="69" break="no"/>lis pro vineis. Idem Palladius. supra dicit Boni signa 
+      <lb ed="#A" n="70"/>plura. Primum si terra coloris et corporis rari aliqua 
+      <lb ed="#A" n="71"/>tenus atque soluti est etc. Secundum si virgulta quae pro 
+      <lb ed="#A" n="72"/>fert vt piros siluestres: prunos rubos huiusmodique 
+      ce<lb ed="#A" n="73" break="no"/>tera neque intorta habeat: neque sterilia: neque 
+      ma<lb ed="#A" n="74" break="no"/>cra exilitate languentia: sed lenia et nitida et fecunda 
+      <lb ed="#A" n="75"/>habeat talia. Tertium si situs terrarum neque planus 
+      <lb ed="#A" n="76"/>est vt stagnet id est stagna pluuiarum teneat. neque 
+      praeru<lb ed="#A" n="77" break="no"/>ptus vt defluat terra. neque obrutus vt in ima 
+      val<lb ed="#A" n="78" break="no"/>le subsideat. neque arduus vt tempestates sentiat 
+      <lb ed="#A" n="79"/>immodicas et calores sed montis alterius culmie 
+      <lb ed="#A" n="80"/>defensus sit. Et ex his omnibus vtilis est semper 
+      cua<lb ed="#A" n="81" break="no"/>ta mediocritas etc. Spiritualiter pro vinea ecclesit 
+      <lb ed="#A" n="82"/>et vino scilicet celesti faciendo valet homo qui soluitur 
+      <lb ed="#A" n="83"/>corde a peccati obduratione. Secundo qui profert 
+      opera<lb ed="#A" n="84" break="no"/>pietatis bene. Tertio qui statum habet medium 
+      vir<lb ed="#A" n="85" break="no"/>tutis contra omnia vicia. Nam virtus consistit in 
+      <lb ed="#A" n="86"/>medio secundum Aristo. ii Ethic. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1153">
+               <head xml:id="Vn7Pel-h142911-Hd1e1155">13</head>
+               <p xml:id="Vn7Pel-h142911-d1e1157">
+                  <lb ed="#A" n="87"/>¶ Quid de sale nato in terra. No¬ § 
+      <lb ed="#A" n="88"/>tandum quod sicut Isido. xvi. lib. dicit. Et Plinius lib. 
+      <lb ed="#A" n="89"/>xxxi. Sal quodda ab aquis marinis sponte 
+      gigni<lb ed="#A" n="90" break="no"/>tur vt sprituma in extremis litoribus vel scopulis 
+      de<lb ed="#A" n="91" break="no"/>relicta et sole decocta. Unde sal consistit ex humo 
+      <lb ed="#A" n="92"/>re coacto vel siccato. hinc et sal a saliendo dicitur 
+      <lb ed="#A" n="93"/>quia exilit in igne eo quod ignis et aqua inter se inimi 
+      <lb ed="#A" n="94"/>cantur. Nam sunt etiam lacus et flumina et puteique 
+      <lb ed="#A" n="95"/>quibus hauritur et sole siccatur ac in sale densatur. 
+      De<lb ed="#A" n="96" break="no"/>nique Uegecius de re militari lib. iiii. dicit. quod si sit 
+      <lb ed="#A" n="97"/>ciuitas maritima obsessa et sal defuerit: liqnor ex 
+      <lb ed="#A" n="98"/>mari sumptus per alueos aliaque pocula defunda 
+      <lb ed="#A" n="99"/>tur et a calore solis in salem duratur. Quod si hostis 
+      for<lb ed="#A" n="100" break="no"/>tasse ab vnda prohibeat arenas quas excitato 
+      vem<lb ed="#A" n="101" break="no"/>to mari profuderit aliquando colligant et aqua dulci 
+      per<lb ed="#A" n="102" break="no"/>fundant que sole siccata nihilo minus in salem 
+      mu<lb ed="#A" n="103" break="no"/>tatur. Item aliud sal in terra gignitur et habet 
+      plu<lb ed="#A" n="104" break="no"/>rimas differentias quia alibi est suauis natura salis 
+      <lb ed="#A" n="105"/>et alibi salsissima. alibi rufi coloris vt esm memphiticus 
+      <lb ed="#A" n="106"/>alibi vt in sicilsa in pacino splendidus et lucidus 
+      <lb ed="#A" n="107"/>adeo vt imagines reddat.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1205">
+      ¶ Item alumen etiam 
+      <lb ed="#A" n="108"/>et sal armoniacum vt dicitur in additis. iii silibro metheo. 
+      <lb ed="#A" n="109"/>de quibus supra habetur vbi Metalla. §. xiiii. sunt de 
+      ge<lb ed="#A" n="110" break="no"/>nere salis nisi quia in sale armoniaco qui est salium me 
+      <lb ed="#A" n="111"/>lior ac nobilior ignis magis est quam terra. nec 
+      fu<lb ed="#A" n="112" break="no"/>git ignem. Et est calidum et siccum in quarto gradu secundum 
+      <lb ed="#A" n="113"/>Auicem. et constantinum. Communis salis autem natura est calida 
+      <lb ed="#A" n="114"/>et sicca in. ii gradu et quanto amarior est tanto calidior 
+      </p>
+               <p xml:id="Vn7Pel-h142911-d1e1223">
+      <!--464.xml-->
+                  <pb ed="#A" n="465"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Denitro quqa secundu phhoscas dicitr qo praeterea est quodam 
+      <lb ed="#A" n="2"/>genus salis et secundum Isido. a nitria regione egypti vbi 
+      <lb ed="#A" n="3"/>naseitur sic vocatum cuius natura inquit non multum a 
+      sa<lb ed="#A" n="4" break="no"/>le differt. Het enim virtutem sals et similiter oritur ex quo sordes 
+      <lb ed="#A" n="5"/>scilicet corporum vestiumque lauantur. licet non habeat salsum 
+      <lb ed="#A" n="6"/>sapore. crepitat ac fumat aceto perfusum. sicut in aqua 
+      <lb ed="#A" n="7"/>calx viua sed aquam reddit lauatiuam et purgatiuam 
+      <lb ed="#A" n="8"/>Unde Hierem. ii Si laueris nitro te maculata es. 
+      <lb ed="#A" n="9"/>Et Prouerb. xxv. Acetum in nitro qui cantat carmina 
+      <lb ed="#A" n="10"/>cordi peruerso. Lyra. quia peruersus inde irascitur et 
+      mur<lb ed="#A" n="11" break="no"/>murat sicut nitrum in aceto crepitat Item secudum Platis. 
+      Ni<lb ed="#A" n="12" break="no"/>trum album citrino melius est. valet contra pediculos capitis 
+      <lb ed="#A" n="13"/>et lendes et contra furfures capillorum et contra vermes aurium 
+      <lb ed="#A" n="14"/>et saniem etc. Per nitrum album carmina euangelica et 
+      le<lb ed="#A" n="15" break="no"/>gis et prophstetarum dealbatoria id est emendatoria designantur 
+      <lb ed="#A" n="16"/>que prusus murmurando audit. vt iam patuit prouer. supra 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1268">
+               <head xml:id="Vn7Pel-h142911-Hd1e1270">14</head>
+               <p xml:id="Vn7Pel-h142911-d1e1272">
+                  <lb ed="#A" n="17"/>¶ Sed quid de proprietatibus et 
+      <lb ed="#A" n="18"/>significatione scripture per terre salem. Notandum quod sicut 
+      <lb ed="#A" n="19"/>dicit Beda super Esdram. Sal in scriptura sapientiam 
+      signi<lb ed="#A" n="20" break="no"/>ficat. vnde et communiter homines hebetes insulsi vocantur. idet 
+      <lb ed="#A" n="21"/>circo etiam quando quis baptisatur ei dicitur accipe salem sapientie etc. 
+      <lb ed="#A" n="22"/>quia nimirum sicut in omnibus condimentis nihil sale vtilius ad 
+      <lb ed="#A" n="23"/>dandum saporem et excitandum auiditatem et appetitum 
+      <lb ed="#A" n="24"/>in omnibus cibis. vt dicit Isi. et Plinius. ita sale infatuato 
+      <lb ed="#A" n="25"/>nihil inutilius quia neque ad sterquilinium vtile est imo 
+      no<lb ed="#A" n="26" break="no"/>cuum eo quod non sinit terxam germinare quod tamen faceret ex 
+      <lb ed="#A" n="27"/>se sterquilinium. Unde in euangelio christus dominus 
+      appella<lb ed="#A" n="28" break="no"/>uit apostolos sal terre di. Uos estis sal terre. quod si 
+      sal<lb ed="#A" n="29" break="no"/>euanuerit ad nihilum valet vltra nisi vt mit. etc. eo 
+      <lb ed="#A" n="30"/>quod per illos totus mundus sapientia conditur
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1305">
+      ¶ Nota ergo quod 
+      <lb ed="#A" n="31"/>nalis proprietates sunt plurime huiusmodi significationi 
+      co<lb ed="#A" n="32" break="no"/>uenientes secundm Innocem. in ser. et Remigium super Mat 
+      <lb ed="#A" n="33"/>theum aliosque. Primo sal cibos condit Iob. vi. 
+      Nun<lb ed="#A" n="34" break="no"/>quid potest comedi insulsum quod non est sale conditum. Nam 
+      <lb ed="#A" n="35"/>secudum Isi. etiam pecudes et iumenta sale maxime prouocantur 
+      <lb ed="#A" n="36"/>ad pastum et multum largiores fiunt lacte et melioris 
+      <lb ed="#A" n="37"/>casei. Secundo sal siccat carnes et a putredine 
+      conser<lb ed="#A" n="38" break="no"/>uat eamque tollit. Corrodit enim carnem additam et 
+      mor<lb ed="#A" n="39" break="no"/>sam et scabiei medetur vlcerose ac impetigini secundum 
+      Aui<lb ed="#A" n="40" break="no"/>cen. et Constant. et ad plura est medela. Tertio secundum 
+      Pli<lb ed="#A" n="41" break="no"/>nium li. xxxi. Omnis sal pluuia dulcescit. suauiore tamen 
+      <lb ed="#A" n="42"/>rores faciunt et omnis inquit sali ad cibum est vtilior quisquis 
+      <lb ed="#A" n="43"/>facile liquscit. Hec omnia possunt applicari ad praedicta etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1337">
+               <head xml:id="Vn7Pel-h142911-Hd1e1339">15</head>
+               <p xml:id="Vn7Pel-h142911-d1e1341">
+                  <lb ed="#A" n="44"/>¶ Sed restat. quid de 
+      Alumine<lb ed="#A" n="45" break="no"/>que terre salsugo dicitur. Notandum quod alumen dicitur quasi 
+      a<lb ed="#A" n="46" break="no"/>lumine quod praestat coloribus tingendis et est salsugo 
+      ter<lb ed="#A" n="47" break="no"/>re. Fitque hyeme ex aqua et limo terre et estiuis solis 
+      <lb ed="#A" n="48"/>caloribus maturatur. Huius species due sunt. Liquidum et 
+      <lb ed="#A" n="49"/>spissum. et secundum Platearium quod album est: melius est 
+      <lb ed="#A" n="50"/>Item vt dicitur libro de nat. re. valet ad visus obscuritatem 
+      <lb ed="#A" n="51"/>clarificandum: et superfluam palpebrarum carnem aut 
+      men<lb ed="#A" n="52" break="no"/>brorum corrodit. Medetur etiam vt dicit Diasco. Putre 
+      <lb ed="#A" n="53"/>dinibus et vulneribus et ginginis humectis et tumidis 
+      <lb ed="#A" n="54"/>dentes molles et infirmos confortat cum aceto et 
+      mel<lb ed="#A" n="55" break="no"/>le mixtum pustulas sanat et scabiem si ex aqua in qua 
+      <lb ed="#A" n="56"/>fusum fuerit lauentur. Et ad plura alia valet deo 
+      bo<lb ed="#A" n="57" break="no"/>no faciente. Item secundum Auicen. Cimices et pediculos. 
+      <!--464.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>cum aqua interficit et fetorem oris tollit etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1381">
+               <head xml:id="Vn7Pel-h142911-Hd1e1383">16</head>
+               <p xml:id="Vn7Pel-h142911-d1e1385">
+                  <lb ed="#A" n="59"/>¶ Quomodo vel ex quibus causis 
+      ter<lb ed="#A" n="60" break="no"/>remotus habet fieri. Nota primo quod sicut recitat 
+      <lb ed="#A" n="61"/>Isido. xiiii. lib. ety. et etiam philosophus lib. iii. Metheo. 
+      <lb ed="#A" n="62"/>Aliqui terremotum dicunt fieri ex aqua in terris in 
+      <lb ed="#A" n="63"/>clusa que ibi aliquando mouetur et terras concutit sicut 
+      <lb ed="#A" n="64"/>vas aut frangit et hiatum terre facit. Unde et Demo 
+      <lb ed="#A" n="65"/>critus dixit. quod terra similis est vtri pleno que cum 
+      <lb ed="#A" n="66"/>recipit additionem aque super caua scilicet terram 
+      descendenti<lb ed="#A" n="67" break="no"/>bus agitatur aqua in ea propter artationem loci et sic 
+      <lb ed="#A" n="68"/>mouet terram. Et ita dicit agitationem aque intra 
+      <lb ed="#A" n="69"/>terram esse causam terremotus. Sed secundum philosophum e. 
+      <lb ed="#A" n="70"/>iii. libro metheor. sic dicere error est. quia si ita esset tunc 
+      <lb ed="#A" n="71"/>terremotus toti terre communicaretur.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1416">
+      ¶ Melius ergo 
+      <lb ed="#A" n="72"/>dicendum secundum e. philosophum aliosque quod causa terremotus 
+      <lb ed="#A" n="73"/>est spiritus siue ventus in concauis terre qui motus 
+      ter<lb ed="#A" n="74" break="no"/>ram mouet. Unde notatur e. iii. lib. quod vapor siccus ex 
+      <lb ed="#A" n="75"/>terra generatus per caliditatem solis ad eam 
+      peruenien<lb ed="#A" n="76" break="no"/>tis est duplex. Unus qui apparet ex terra sursum 
+      <lb ed="#A" n="77"/>ascendens et hic est ventus. Alius autem factus in 
+      <lb ed="#A" n="78"/>ventre terre illic agitatur et inde terra mouetur. Non 
+      <lb ed="#A" n="79"/>est enim ex elementis quod posset tantam commotionem 
+      fa<lb ed="#A" n="80" break="no"/>cere tantique ponderis molem pellere nisi ventus. 
+      <lb ed="#A" n="81"/>Quod autem terremotus fiat ex vento in terra 
+      coar<lb ed="#A" n="82" break="no"/>tato. signum est secundum e. Aristo. quia plurimum inquit eius 
+      <lb ed="#A" n="83"/>cause est quando flare solent venti. quare et in nocte plus 
+      <lb ed="#A" n="84"/>quam in die sepius fit quod est propter elongationem solia 
+      <lb ed="#A" n="85"/>Et cum fit in die: tunc in meridie vel circa: et apud 
+      <lb ed="#A" n="86"/>diluculum fit quoniam hore sunt in quibus multiplicatur 
+      <lb ed="#A" n="87"/>ventorum flatus. Plurimum etiam fit in vere et autumno 
+      <lb ed="#A" n="88"/>et in horis multarum pluuiarum et in temporibus sicce 
+      com<lb ed="#A" n="89" break="no"/>plexionis: quia in his maxime fit ventorum flatus. Non 
+      <lb ed="#A" n="90"/>fit autem in estate et hyeme nisi parum quia protunc calor et i 
+      <lb ed="#A" n="91"/>frigus ventos prohibet.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1462">
+      ¶ Unde patet quod secundum philosophos 
+      <lb ed="#A" n="92"/>ad hoc vt terremotus naturaliter fiat tria concurrunt 
+      <lb ed="#A" n="93"/>scilicet locus: materia et causa impellens. Locus est. 
+      <lb ed="#A" n="94"/>vasta concauitas terre nullum aut paruum aut remo 
+      <lb ed="#A" n="95"/>tum aut tortuosum habens respiraculum. Mate 
+      <lb ed="#A" n="96"/>ria est vapor grossus et siccus et calidus vnde in 
+      ten<lb ed="#A" n="97" break="no"/>pore sicco fit plus secundum Aristo. supra Causa impellens 
+      <lb ed="#A" n="98"/>est vapor ipse ex se motum concipiens et exitum petens 
+      <lb ed="#A" n="99"/>sicut fulmen erumpens. Aut aliquando causa impellens 
+      <lb ed="#A" n="100"/>est vehemens maris agitatio vel multiplic atio 
+      <lb ed="#A" n="101"/>humiditatis in terra quae oppilat exitum vaporis 
+      ter<lb ed="#A" n="102" break="no"/>re ingrossando terram. Ideo in tempore multum 
+      humi<lb ed="#A" n="103" break="no"/>do fit multus
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1491">
+      ¶ Denique terremotus supernatura 
+      <lb ed="#A" n="104"/>liter fit a deo miraculose vt legitur in scriptura 
+      ali<lb ed="#A" n="105" break="no"/>quando ad confusionem hominum malorum 
+      <lb ed="#A" n="106"/>vt in christi passione: vt confundantur iudei et alii. 
+      <lb ed="#A" n="107"/>peccatores in eo quod non mouetur cor eorum ad 
+      pe<lb ed="#A" n="108" break="no"/>nitentiam pro tanto scelere cum etiam terra et petre 
+      scin<lb ed="#A" n="109" break="no"/>debantur. aliquando ad ostendendum sceleris 
+      magnitra<lb ed="#A" n="110" break="no"/>dinem quam terra etiam non potest sustinere ve legi 
+      <lb ed="#A" n="111"/>cur in gestis martyrum. aliquando ad 
+      prinien<lb ed="#A" n="112" break="no"/>dum vt absorbeat terra mota reprobos. Ut 
+      pa<lb ed="#A" n="113" break="no"/>tet de Sodomitis et de Dathan ac Abiron. 
+      Ali<lb ed="#A" n="114" break="no"/>quando ad dei virtutem et gloriam manifestandum vt 
+      <!--465.xml-->
+      <pb ed="#A" n="466"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>factum est in christi resurrectione. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1528">
+               <head xml:id="Vn7Pel-h142911-Hd1e1530">17</head>
+               <p xml:id="Vn7Pel-h142911-d1e1532">
+                  <lb ed="#A" n="2"/>¶ Quid de diuersitate terremo 
+      <lb ed="#A" n="3"/>tus Notandum secundum philosophum lib. iii. Metheororum. Quod 
+      <lb ed="#A" n="4"/>diuerse sunt species terremotus. Quia quidam 
+      <lb ed="#A" n="5"/>est sicut res tremorem habens. Quidam fit cum forti soi 
+      <lb ed="#A" n="6"/>nitu et hoc ex diuersitate agitationis venti in tera 
+      inclusi<lb ed="#A" n="7" break="no"/>sicut homo non potens retinere ventum vel spiritum agitatum 
+      <lb ed="#A" n="8"/>in se cum sonitu extussitat vel sternutat. vnde accidit 
+      <lb ed="#A" n="9"/>in aliquibus loqui quod non quieuit terre motus donec scissa est 
+      <lb ed="#A" n="10"/>terra et exiuit ventus audita voce. Ut autem addam secundum 
+      <lb ed="#A" n="11"/>Plinium lib. ii aliquando communitatur inquit terribilis sonus. 
+      ali<lb ed="#A" n="12" break="no"/>quando murmur simile mugitibus: aliquando simile clamori quasi 
+      <lb ed="#A" n="13"/>humano: aliquando simile armorum pulsantium fragori vel 
+      <lb ed="#A" n="14"/>durorum corporum fricantium se in aere. Et huiusmodi fiunt 
+      <lb ed="#A" n="15"/>pro qualitate materie formaque vel cauernarum vel cunt 
+      <lb ed="#A" n="16"/>culi per quem meatus fieri habet.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1567">
+      ¶ Rursus aliquis secundum e. 
+      <lb ed="#A" n="17"/>Aristo. supra est terremotus quo terra augmentari non ces 
+      <lb ed="#A" n="18"/>sat donec fit ibi collis qui postea scinditur et exit 
+      inde<lb ed="#A" n="19" break="no"/>ventus fortis et cinis. vt dicit factum tempore regis Herculs 
+      <lb ed="#A" n="20"/>in quadam insula corinthi: et quod vento flante cinis ex 
+      il<lb ed="#A" n="21" break="no"/>lo loco operuit ciuitatem destruens eam. quae prope erat et 
+      <lb ed="#A" n="22"/>adhuc videtur inquit vsque nunc manifeste. Sed huiusmodi 
+      co<lb ed="#A" n="23" break="no"/>neris generatio fit( vt idem dicit) quia illic caliditas 
+      co<lb ed="#A" n="24" break="no"/>artata combussit terram quae erat in concauitate illius 
+      lo<lb ed="#A" n="25" break="no"/>ci. Unde plerumque etiam in terremotu fit quasi 
+      combustio<lb ed="#A" n="26" break="no"/>nis vapor vel ventus grossus et terra egrediens 
+      ci<lb ed="#A" n="27" break="no"/>nere quasi commixtus lucem solis nubilans.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1593">
+      ¶ Preterea 
+      <lb ed="#A" n="28"/>aliquis est terremotus recolligendo ex dictis e. Aristo. 
+      <lb ed="#A" n="29"/>lib. de vegetabilibus et Senece et Plinii. li. ii. Qui 
+      <lb ed="#A" n="30"/>etiam ostentum mostrat quia fontes et flumina quae prius 
+      <lb ed="#A" n="31"/>cooperta fuerunt et latentia scindendo terram facit 
+      appa<lb ed="#A" n="32" break="no"/>rere. Magna etiam aliquando terrarum spacia dissipat: 
+      <lb ed="#A" n="33"/>nouos motes extollit: insulas ante non visas in 
+      <lb ed="#A" n="34"/>medio mari ponit: prata publicarum viarum vineas 
+      <lb ed="#A" n="35"/>et oliueta in contrarias vel alienas sedes transfert. vt 
+      <lb ed="#A" n="36"/>experientia rerum pluries docuit in pluribus locis et videtur 
+      <lb ed="#A" n="37"/>fuisse etiam nostris partibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1618">
+               <head xml:id="Vn7Pel-h142911-Hd1e1620">18</head>
+               <p xml:id="Vn7Pel-h142911-d1e1622">
+                  <lb ed="#A" n="38"/>¶ Qualibus locis terre accidat 
+      <lb ed="#A" n="39"/>terremotus et qualibus non. Dicit. iii. li. Metheo. Arist. 
+      <lb ed="#A" n="40"/>fit inquit terremotus vehemens in locii quibus vehemens 
+      <lb ed="#A" n="41"/>est maris inundatio et agitatio: et in locis cauerno 
+      <lb ed="#A" n="42"/>sis quia in his maxime fit coartatio venti. Plinius etiam 
+      <lb ed="#A" n="43"/>e. li. ii consimiliter dicit. Quod maritima maxime quatiuntur: nec 
+      <lb ed="#A" n="44"/>montuosa carent motu terre. vt mihi inquit est 
+      explo<lb ed="#A" n="45" break="no"/>ratum alpes appenninas sepius tremuisse. Hec ille 
+      <lb ed="#A" n="46"/>Idem quoque Aristo. in libro de vegetabilibus sic ait. 
+      Ter<lb ed="#A" n="47" break="no"/>remotus in arenosis locis non fit sed in terris 
+      du<lb ed="#A" n="48" break="no"/>ris quae loca sunt aquarum et montium: quia natura aeris 
+      ca<lb ed="#A" n="49" break="no"/>lidi et sicci est ascendere. Si ergo locus rarus est vt in 
+      <lb ed="#A" n="50"/>arenosis vapor primitus antequam impellatur paulatim 
+      <lb ed="#A" n="51"/>exit. Sed quando solidus est vapor congregatis partibus cum impel 
+      <lb ed="#A" n="52"/>litur terram potest scindere. igitur terremotus accidit 
+      corpori<lb ed="#A" n="53" break="no"/>bus tantum solidis. Unde vt etiam Seneca li. iii. dicit. Eg. 
+      <lb ed="#A" n="54"/>ptum nunquam tremuisse tradunt eo quod ex limo tota 
+      con<lb ed="#A" n="55" break="no"/>creuit: turbidus enim nilus defluens multumque 
+      ce<lb ed="#A" n="56" break="no"/>ni trahens annuatim prioribus terris apponit et ita 
+      <lb ed="#A" n="57"/>crescit in solidum arescente semper limo nec vacuitas 
+      <!--465.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>scilicet auerne potest interuenire cum presse terre liquidum 
+      <lb ed="#A" n="59"/>ac molle semper annnatim accedat etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1678">
+               <head xml:id="Vn7Pel-h142911-Hd1e1680">19</head>
+               <p xml:id="Vn7Pel-h142911-d1e1682">
+                  <lb ed="#A" n="60"/>¶ Quale malum solet ex 
+      terremo<lb ed="#A" n="61" break="no"/>tu accidere. Dicit Seneca e. lib. iii. de terremotum 
+      <lb ed="#A" n="62"/>Quod solet post magnos terrarum motus fieri pesti 
+      <lb ed="#A" n="63"/>lentia praesertim in pecoribus circa propinqua 
+      territo<lb ed="#A" n="64" break="no"/>ria quia multa mortifera latent in terre profundita 
+      <lb ed="#A" n="65"/>te et etiam pestilentes paludes et aque nnutiles sunt 
+      <lb ed="#A" n="66"/>in abditis terre. Aer quoque qui mixtus est illis et inter 
+      <lb ed="#A" n="67"/>eas iacet pestilentus est: quae cum emerserint late 
+      vi<lb ed="#A" n="68" break="no"/>cium pestilentie mortifere spargunt. Facilius autem 
+      hu<lb ed="#A" n="69" break="no"/>iusmodi malum sentiunt pecora quo auidiora sunt et 
+      <lb ed="#A" n="70"/>vt plurimum vtuntur aperto celo id est aere et aquis in 
+      qui<lb ed="#A" n="71" break="no"/>bus pestis diffunditur. vnde in pluribus locis 
+      experi<lb ed="#A" n="72" break="no"/>mur praesertim in Italia quod per foramina quedam 
+      ter<lb ed="#A" n="73" break="no"/>re exhalat pestilens vapor quem luunt et pecora et 
+      <lb ed="#A" n="74"/>homines et aues ergo etc. Denique nec talis pestilentia scilicet 
+      <lb ed="#A" n="75"/>terremotus et huiusmodi desinit prius quam laxitas 
+      caeli<lb ed="#A" n="76" break="no"/>id est aeris ventorumque iactatio spiritum illum pestilentem 
+      <lb ed="#A" n="77"/>extynuauerit. Hec ex Seneca. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1725">
+               <head xml:id="Vn7Pel-h142911-Hd1e1727">20</head>
+               <p xml:id="Vn7Pel-h142911-d1e1729">
+                  <lb ed="#A" n="78"/>¶ Quid de distantia inter caelum quo 
+      <lb ed="#A" n="79"/>et terram constitutam in medio mundi.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1736">
+      ¶ Notandum quod 
+      <lb ed="#A" n="80"/>quamuis de hac distantia que est inter terram et caelum 
+      <lb ed="#A" n="81"/>a nobis mortalibus cognitio certa non habeatur. Tamen 
+      <lb ed="#A" n="82"/>non inutile est considerare quid doctores theologi 
+      <lb ed="#A" n="83"/>de hoc senserint et dictauerint sine temeraria 
+      as<lb ed="#A" n="84" break="no"/>sertione.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1749">
+      ¶ Nimirum venerabilis Beda libro de 
+      ima<lb ed="#A" n="85" break="no"/>gine mundi dicit. A terra inquit vsque ad firmamentum 
+      <lb ed="#A" n="86"/>celestis musica mensuratur ad cuius exemplum nostra 
+      <lb ed="#A" n="87"/>musica dicitur inuenta. In terra namque est Gamatit. 
+      <lb ed="#A" n="88"/>In luna Are. In mercurio Bmi. In venere 
+      C<lb ed="#A" n="89" break="no"/>In sole D. In marte E. In ioue Fin saturno G 
+      </p>
+               <p xml:id="Vn7Pel-h142911-d1e1762">
+                  <lb ed="#A" n="90"/>¶ Unde a terra inquit vsque ad firmamentum sunt 
+      septen<lb ed="#A" n="91" break="no"/>toni scilicet a terra vsque ad lunam est vnus tonus. 
+      alu<lb ed="#A" n="92" break="no"/>na vsque ad mercurium semitonium. inde ad venerem 
+      <lb ed="#A" n="93"/>semitonium. inde ad solem tria semitonia. Item a 
+      <lb ed="#A" n="94"/>sole ad martem tonus. indeque ad iouem semitonium. in 
+      <lb ed="#A" n="95"/>de ad saturnsi semitonium. inde ad signiferum tria 
+      <lb ed="#A" n="96"/>semitonia quae simil iuncta sceptem tonos faciunt. 
+      To<lb ed="#A" n="97" break="no"/>nus autem habet.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1783">
+      ¶ r. miliaria. Semitonium 
+      vero<lb ed="#A" n="98" break="no"/>c E r. miliaria. et semissem Subdit post pauca 
+      <lb ed="#A" n="99"/>d. Sicut ergo hic mundus septem tonis et nostra 
+      <lb ed="#A" n="100"/>musica vocibus septem distinguitur. sic compago nostri 
+      <lb ed="#A" n="101"/>corporis septem nodis coniungitur dum corpus quat 
+      <lb ed="#A" n="102"/>tuor elementis et anima tribus viribus copulatur que 
+      <lb ed="#A" n="103"/>musice arti naturaliter assimilantur. Unde et homo 
+      <lb ed="#A" n="104"/>microcosmus id est minor mundus dicitur. Unde 
+      <lb ed="#A" n="105"/>a terra vsque ad lunam inquit sunt. i ratior. milia 
+      <lb ed="#A" n="106"/>ria. a luna ad mercurium.ct Ex. mmiliaria et semiset 
+      <lb ed="#A" n="107"/>ses. inde ad venerem tantum. inde ad solem. 2tc. qae. 
+      <lb ed="#A" n="108"/>miliaria. a sole ad martem.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1809">
+      ¶ Rri. miliaria. inde 
+      <lb ed="#A" n="109"/>ad iouem. cot Eir. inde ad saturnum tantum. inde ad 
+      <lb ed="#A" n="110"/>firmamentum. etcte. uzo. et semisses dimitto vtpote 
+      <lb ed="#A" n="111"/>modicum etc. Suntitaque a terra vsque ad caelum 
+      stel<lb ed="#A" n="112" break="no"/>latum centum milia et nouem milia et trecentaseptuagita 
+      <lb ed="#A" n="113"/>quinque miliaria. Hec omnia Beda. Hanc nuerationem 
+      <lb ed="#A" n="114"/>sequitur autor etiam libro de compend theol. veritatis. li. ii c. iii. 
+      </p>
+               <p xml:id="Vn7Pel-h142911-d1e1825">
+      <!--466.xml-->
+                  <pb ed="#A" n="467"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Item fFrater Ioinnes lector Erforden ordinis 
+      Me<lb ed="#A" n="2" break="no"/>norum in suo libro dicto Originalium: hec praedicta 
+      descri<lb ed="#A" n="3" break="no"/>betas subiungit. Rabbi Moyses dicit: quod quilibet 
+      cir<lb ed="#A" n="4" break="no"/>culus cuiuslibet planete habet in spissitudine sua viam 
+      <lb ed="#A" n="5"/>quingentorum annorum id est tantum spacium quantum posset quis 
+      <lb ed="#A" n="6"/>ire de via plana in. Foo. annis. Et quod distantia in 
+      <lb ed="#A" n="7"/>ter circulum et circulum est similiter via. Roo. annorum. Et 
+      <lb ed="#A" n="8"/>ideo cum sint. cot. planete: a centro terre erunt vsque ac 
+      <lb ed="#A" n="9"/>concauum caeli Saturni. conooo. annorum. hoc est tantum 
+      <lb ed="#A" n="10"/>spacium quantum de via plana quis iret in septemmilibus 
+      <lb ed="#A" n="11"/>annorum: ita quod iter cuiussibet diei sit. xl. miliaria. 
+      <lb ed="#A" n="12"/>et miliare sit. et ooo. passuum. Hec liro Originalium. 
+      <lb ed="#A" n="13"/>Et secundum hec computando plura resultant in summa 
+      <lb ed="#A" n="14"/>Item si hec positio vult dicere quod inter circulum et 
+      cit<lb ed="#A" n="15" break="no"/>culum spherarum celestium sit distantia vt videtur praeten 
+      <lb ed="#A" n="16"/>dere: falsa est: cum contigue dicantur sphere celestes 
+      <lb ed="#A" n="17"/>tam secundum philophos quod theologos. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1872">
+               <head xml:id="Vn7Pel-h142911-Hd1e1874">21</head>
+               <p xml:id="Vn7Pel-h142911-d1e1876">
+                  <lb ed="#A" n="18"/>¶ Utrum terra spinas et tribulos 
+      <lb ed="#A" n="19"/>germinasset si homo non peccasset:
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1883">
+      ¶ Arguitur quod non. quia 
+      <lb ed="#A" n="20"/>vt dicitur Gen. iii. In penam peccati dictum est a deo ipsi 
+      <lb ed="#A" n="21"/>Ade. Maledicta terra in opere tuo: spinas et 
+      tri<lb ed="#A" n="22" break="no"/>bulos germinabit tibi. ergo si homo non peccasset hec non 
+      <lb ed="#A" n="23"/>essent
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1894">
+      ¶ In oppositum est. quia si non germinasset talia. 
+      <lb ed="#A" n="24"/>sequeretur quod post peccatum terra facta esset amplius 
+      <lb ed="#A" n="25"/>fecunda et nouam recepisset potentiam germinandi 
+      <lb ed="#A" n="26"/>scilicet spinas et tribulos: quam prius non habuit.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1903">
+      ¶ Respondetur 
+      <lb ed="#A" n="27"/>secundum Bonauen. in. ii di. xiiii. per. ii in quaest. circa lit. Quod 
+      <lb ed="#A" n="28"/>etiamsi homo nunquam peccasset: nihilo minus terra 
+      spi<lb ed="#A" n="29" break="no"/>nas et tribulos germinasset ex influentia celi et 
+      na<lb ed="#A" n="30" break="no"/>tura terre. sicut modo in multis locis generatur spina 
+      <lb ed="#A" n="31"/>et tribulus secundum naturam.
+     </p>
+               <p xml:id="Vn7Pel-h142911-d1e1917">
+      ¶ Ad illud autem quod 
+      obii<lb ed="#A" n="32" break="no"/>citur ex Gen. iii. dicit idem Bonauen. quod spinas et 
+      tri<lb ed="#A" n="33" break="no"/>bulos generari vbi seminatur frumentum: hoc est in 
+      <lb ed="#A" n="34"/>penam peccati ex maledictione terre que cum colitur vt 
+      da<lb ed="#A" n="35" break="no"/>ret fructum bonum pro homine potius producit illud quo homo 
+      <lb ed="#A" n="36"/>ledatur in penam peccati. Quod autem in multis locis generetur 
+      <lb ed="#A" n="37"/>spina et tribulus: hoc non est pena sed natura. vnde 
+      <lb ed="#A" n="38"/>quamuis si homo non peccasset nihilo minus spine fuis. 
+      <lb ed="#A" n="39"/>sent et tribuli: tamen hominem non lesissent: diuina maxime 
+      <lb ed="#A" n="40"/>prouidentia praecauente. Unde deus est laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h142911-Dd1e1940">
+               <head xml:id="Vn7Pel-h142911-Hd1e1942">22</head>
+               <p xml:id="Vn7Pel-h142911-d1e1944">
+                  <lb ed="#A" n="41"/>¶ Sed An terra a principio 
+      ger<lb ed="#A" n="42" break="no"/>minauerit spinas et tribulos actu: Ibidem 
+      Bo<lb ed="#A" n="43" break="no"/>nauen. dicit quod sic: eo quod perfecta fecunditas data est 
+      <lb ed="#A" n="44"/>terre a principio. et nulla herba est tam vilis que 
+      <lb ed="#A" n="45"/>non sit alicuius vtilitatis et virtutis. Ideoque cum 
+      <lb ed="#A" n="46"/>aliis virentibus herbis et lignis fructiferis 
+      intel<lb ed="#A" n="47" break="no"/>ligendum est etiam ista fore producta. Maxime 
+      <lb ed="#A" n="48"/>cum videamus plura ligna spinosa suaues 
+      fru<lb ed="#A" n="49" break="no"/>ctus producere. Et quia verisimile est quod aliqua 
+      <lb ed="#A" n="50"/>genera talium lignorum spinosorum dulcium 
+      <lb ed="#A" n="51"/>fructuum fuerunt a deo facta etiam in paradiso: 
+      <lb ed="#A" n="52"/>eo quod scriptura dicit. Produxit deus in 
+      paradi<lb ed="#A" n="53" break="no"/>so omne lignum pulcrum visu et suaue ad 
+      vescen<lb ed="#A" n="54" break="no"/>dum. licet spine non fuissent in penam lesionis 
+      ho<lb ed="#A" n="55" break="no"/>mini: vt ptactum est. Ex omnibus dictis patet dei 
+      sa<lb ed="#A" n="56" break="no"/>pientia et bonitas laudabilis. 
+      <!--466.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>Quod dei bonitas laudabilis est 
+      <lb ed="#A" n="58"/>in conditione et qualita te vegetabilium. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Originalis</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Originalis</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="362"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h111848">
+            <head xml:id="Vn7Pel-h111848-Hd1e110">Originalis</head>
+            <div xml:id="Vn7Pel-h111848-Dd1e112">
+               <head xml:id="Vn7Pel-h111848-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h111848-d1e116">
+                  <lb ed="#A" n="68"/>Ciginalis 
+      iusti<lb ed="#A" n="69" break="no"/>cia quare a iusticia et rectitudine dicitur 
+      <lb ed="#A" n="70"/>Notandum primo secundum <ref xml:id="Vn7Pel-h111848-Rd1e124">Guil. in. ii li.</ref>
+                  <lb ed="#A" n="71"/>sententiarum. Iusticia accipi solet 
+      tri<lb ed="#A" n="72" break="no"/>plciter.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e132">
+      ¶ Primo modo iusticia dicitur idem quod condecentia 
+      di<lb ed="#A" n="73" break="no"/>uine bonitatis secundum quod iustum esse omne quod a deo 
+      <lb ed="#A" n="74"/>fieri decet sicut dicit Aug. lib. quaedi. vetur. et no. legis. 
+      <lb ed="#A" n="75"/>Omnia quidem potest deus sed non facit nisi quod conuenit 
+      <lb ed="#A" n="76"/>vel condecet veritati eius et iusticie.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e143">
+      ¶ Secundo 
+      iusti<lb ed="#A" n="77" break="no"/>cia capitur generaliter. pro qualibet virtute. Unde Anb. 
+      <lb ed="#A" n="78"/>super Luca. Iusticia communis est virtus
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e150">
+      ¶ Terto 
+      <lb ed="#A" n="79"/>capitur proprie vt est vna virtutum cardinalium. et sic 
+      disf<lb ed="#A" n="80" break="no"/>finit Marcus Tullius quod est animi habitus 
+      bo<lb ed="#A" n="81" break="no"/>nus communi vtilitate seruata cuilibet quod suum est 
+      tri<lb ed="#A" n="82" break="no"/>buens. Unde iusticia dicitur quasi iuris status. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e162">
+                  <lb ed="#A" n="83"/>¶ Notandum secundo vt idem Guill. dictat homo in statu 
+      <lb ed="#A" n="84"/>nnocentiem a deo habuit rectitudinem per omnia secundum 
+      til<lb ed="#A" n="85" break="no"/>plicem potentiam. Intellectiuam: volitiuam et motiuam. 
+      <lb ed="#A" n="86"/>Quo ad intellectum habuit rectitudinem veritatis et sine 
+      <lb ed="#A" n="87"/>omni errore. Nam Ans. diffiniendo dicit Ueritas est re 
+      <lb ed="#A" n="88"/>ctitudo sola mente perceptibilis. Item quo ad volitiuam 
+      ha<lb ed="#A" n="89" break="no"/>buit rectitudinem voluntatis et liberum arbitrium. quod est 
+      <lb ed="#A" n="90"/>ptans seruandi rectitudine propter se vt idem Ans. dici. 
+      <lb ed="#A" n="91"/>Denique tertio quo ad motiua habuit homo virtutes 
+      ta<lb ed="#A" n="92" break="no"/>les. quia cum secundum philosophum Rectum diffiniatur. Est inquit cuius 
+      <lb ed="#A" n="93"/>medium non exit extrema: sed extrema creature sunt 
+      prin<lb ed="#A" n="94" break="no"/>cipium et finis. hoc est deus ipse qui dicit. Ego sum alpha et o 
+      <lb ed="#A" n="95"/>Apoc. .ili. Unde in statu primario hominis erat in motiua 
+      <lb ed="#A" n="96"/>rectitudo virtutis adeo quod nulla ade operatio diuerte 
+      <lb ed="#A" n="97"/>bat a deo vt principio. nec vt fine quia omnia operabatur 
+      <lb ed="#A" n="98"/>virtuose pro deo. Ideo Ecci. xvii. scriptum est. Deus de 
+      ter<lb ed="#A" n="99" break="no"/>ra creauit hominem et secundum se vestiuit illum virtute secundum 
+      <lb ed="#A" n="100"/>imaginem suam fecit illum et iterum conuertit illum in ipsam. 
+      <lb ed="#A" n="101"/>Lyra scilicet maginem dando ei cognitionem actualem. Nam 
+      <lb ed="#A" n="102"/>peus vestiuit hominem a principio virtutum habitibus: dando 
+      <lb ed="#A" n="103"/>ei ad virtutes aptitudinem: et sicut fecit hominem perfectum 
+      <lb ed="#A" n="104"/>in quantitate debita sic animam perfecit scientiis et virtutibus 
+      <lb ed="#A" n="105"/>vnde adam sciuit nomina omnibus a principio iponere
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e214">
+      ¶ Item 
+      <lb ed="#A" n="106"/>Eccs. vii. Deus fecit hominem rectum. id est in 
+      re<lb ed="#A" n="107" break="no"/>ctitudine naturali in qua omnes filii ade 
+      fuis<lb ed="#A" n="108" break="no"/>sent nati si adam non peccasset sic exponit Lyra. 
+      <!--362.xml-->
+      <pb ed="#A" n="363"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Tertio ad quesitum responsio: quod talis rectitudo ab 
+      <lb ed="#A" n="2"/>origine humani generis merito dicitur iusticia et rectitu 
+      <lb ed="#A" n="3"/>do originalis quocunque modorum dicatur iusticia scilicet rtione 
+      <lb ed="#A" n="4"/>omnis virtutis. et rectitudo ratione recte se habendi quo ad 
+      <lb ed="#A" n="5"/>omnia etc. Et originalis propterea: quia in primaria origine 
+      <lb ed="#A" n="6"/>humani generis fuit a deo data.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e243">
+      ¶ Sed an ex 
+      prin<lb ed="#A" n="7" break="no"/>cipiis nature erat Dicendum quod non: quia corpus huma 
+      <lb ed="#A" n="8"/>num naturaliter ex contrariis compositum fuit corruptibile. 
+      <lb ed="#A" n="9"/>ererat a deo datum a principio ne corrumperetur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e253">
+               <head xml:id="Vn7Pel-h111848-Hd1e255">2</head>
+               <p xml:id="Vn7Pel-h111848-d1e257">
+                  <lb ed="#A" n="10"/>Sed quid fuerit realiter illa 
+      iu<lb ed="#A" n="11" break="no"/>icia originalis data a deo homini in principio. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e264">
+                  <lb ed="#A" n="12"/>¶ Nota pro praeambulo secundum e. Guill. vbi. supra quod 
+      iusti<lb ed="#A" n="13" break="no"/>cia originalis accipi potest tripliciter
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e271">
+      ¶ Uno modo actiue. 
+      <lb ed="#A" n="14"/>et sic deus dicitur iusticia originalis: quia ipse actiue eam 
+      <lb ed="#A" n="15"/>efficit solus scilicet sapientiam et virtutes.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e278">
+      ¶ Secundo modo ab 
+      <lb ed="#A" n="16"/>origine productionis mundane vel creature. et sic 
+      an<lb ed="#A" n="17" break="no"/>geli dicuntur habuisse originalem iusticiam: quia 
+      concrea<lb ed="#A" n="18" break="no"/>ti fuerunt iusti. Sic etiam christus et beata maria quae pec 
+      <lb ed="#A" n="19"/>catum nullum habuit: sed in gratia creati sunt. licet aliter 
+      <lb ed="#A" n="20"/>et aliter: quia christus ex modo sue conceptionis in virgine: sed 
+      <lb ed="#A" n="21"/>beata maria ex praeseruatione gratiae in anime sue sanctissime 
+      <lb ed="#A" n="22"/>creatione.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e297">
+      ¶ Tertio origialis iusticia accipitur vt dicit 
+      <lb ed="#A" n="23"/>habitum supernaturalem alicui vnius generis 
+      crea<lb ed="#A" n="24" break="no"/>ture condonatum pro sua posteritate scilicet a deo: qui vires 
+      <lb ed="#A" n="25"/>inferiores anime et sensualitatis rectificaret rationi: et 
+      <lb ed="#A" n="26"/>rationem deo. Et hoc modo iusticia originalis reperitur 
+      fuis<lb ed="#A" n="27" break="no"/>se in Adam principio totius generis humani. quo stante 
+      <lb ed="#A" n="28"/>posteri eius habuissent originalem iusticiam. non per 
+      tra<lb ed="#A" n="29" break="no"/>ductionem: sed transfusionem. sed divina voluntate in 
+      quo<lb ed="#A" n="30" break="no"/>libet data fuisset.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e317">
+      ¶ Secundo ad quaesitum ergo respondetur secundum 
+      <lb ed="#A" n="31"/>Scotor. cum doc. subti. et Guill. supra ac omnes Scotis. 
+      <lb ed="#A" n="32"/>quod ista iusticia originalis fuit quaedam habitualis 
+      quali<lb ed="#A" n="33" break="no"/>tas quae a solo deo data fuit et conseruabatur: per quam 
+      fie<lb ed="#A" n="34" break="no"/>bat quod appetitus sensitiuus non praeueniebat rationem. nec 
+      <lb ed="#A" n="35"/>reluctabat contra dictamen recte rationis: sed 
+      subiicie<lb ed="#A" n="36" break="no"/>bater per omnia rationi: et ratio deo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e334">
+               <head xml:id="Vn7Pel-h111848-Hd1e336">3</head>
+               <p xml:id="Vn7Pel-h111848-d1e338">
+                  <lb ed="#A" n="37"/>¶ Sed vbi vel in quo subiecto 
+      <lb ed="#A" n="38"/>erat iusticia originalis id est in qua potentia subiectiue. 
+      <lb ed="#A" n="39"/>Respondet Aureolus quod in sensualitate tantum. Tum quia 
+      <lb ed="#A" n="40"/>Gen. iii dicitur. Erant ambo nudi: nec erumbescebant. 
+      <lb ed="#A" n="41"/>Tum quia Aug. contra Iulianum dicit: quod homo priuatus est illa 
+      <lb ed="#A" n="42"/>obedientia quae in membris suis fuerat. Et licet hec opi. 
+      <lb ed="#A" n="43"/>possit sustineri: tamen valde probabilius
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e356">
+      ¶ Alia 
+      opi<lb ed="#A" n="44" break="no"/>nio doc. subti. dictat quam sequor cum Guil. vbi qsod 
+      <lb ed="#A" n="45"/>quod principaliter erat hec iusticia in voluntate. Uolum 
+      <lb ed="#A" n="46"/>tas enim acceperat istum habitum vt per ipsum 
+      subiuga<lb ed="#A" n="47" break="no"/>ret sibi sensualitatem. quia hoc donum rectificabat ipsam 
+      <lb ed="#A" n="48"/>voluntatem in tantum quod longe delectabilius erat ei 
+      ad<lb ed="#A" n="49" break="no"/>herere deo quam appetitui sensitiuo cui erat coniuncta. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e372">
+                  <lb ed="#A" n="50"/>¶ Unde Ans. diffiniendo dicit: quod iusticia est rectitu 
+      <lb ed="#A" n="51"/>qdo voluntatis. ergo est in voluntate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e380">
+               <head xml:id="Vn7Pel-h111848-Hd1e382">4</head>
+               <p xml:id="Vn7Pel-h111848-d1e384">
+                  <lb ed="#A" n="52"/>¶ Sed habebat ne idem appeti 
+      <lb ed="#A" n="53"/>tus sensitiuus aliquod donum tale originalis 
+      iusti<lb ed="#A" n="54" break="no"/>cie: vt libentius obediret voluntati quam a proprio suo 
+      <lb ed="#A" n="55"/>traheretur appetibili. Iidem doc. praedicti 
+      Respon<lb ed="#A" n="56" break="no"/>dent quod ita oportuit. Unde verisimile est et oportuit 
+      <!--362.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>vt tunc visus. licet de natura sua ferretur citius in 
+      <lb ed="#A" n="58"/>ulcrum visibile quam in id quod imperasset ratio. tamen ex 
+      <lb ed="#A" n="59"/>huiusmodi dono magis sequebatur rationem. Quamuis ergo 
+      <lb ed="#A" n="60"/>ad aliud inclinaret illa iusticia. et ad aliud 
+      appeti<lb ed="#A" n="61" break="no"/>tus sensitiuus. tamen sine tristicia rationi obediebat. quia 
+      <lb ed="#A" n="62"/>praeponderabat donum dei. Sicut et nunc patet in hominibus 
+      <lb ed="#A" n="63"/>sanctis accensis amore dei etc. Patet etiam quod licet 
+      ta<lb ed="#A" n="64" break="no"/>lis habitus mentis esset tunc vnicus et vna 
+      recti<lb ed="#A" n="65" break="no"/>tudo originalis in voluntate actiue. qua dicebatur 
+      <lb ed="#A" n="66"/>vna iusticia originalis. tamen plura dona efficere 
+      ha<lb ed="#A" n="67" break="no"/>buit rectificando omnes appetitus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e427">
+               <head xml:id="Vn7Pel-h111848-Hd1e429">5</head>
+               <p xml:id="Vn7Pel-h111848-d1e431">
+                  <lb ed="#A" n="68"/>¶ Utrum vltra iusticia originalem 
+      <lb ed="#A" n="69"/>pe Adam habuerit a principio gratiam et virtutes
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e438">
+      ¶ 
+      No<lb ed="#A" n="70" break="no"/>candum pro praeambulo secundum Guil. e. di. xxix. quod iusticia 
+      <lb ed="#A" n="71"/>originalis a gratia bene distinguebatur etiam tunc et nunc 
+      <lb ed="#A" n="72"/>si alicui daretur. Et distinguitur sicut gratia gratum 
+      faci<lb ed="#A" n="73" break="no"/>ens a gratia non gratumfaciente. Nam sola iusticia 
+      origi<lb ed="#A" n="74" break="no"/>nalis sine gratia gratumfaciente non faciebat Adam 
+      gra<lb ed="#A" n="75" break="no"/>tum deo. Ideo sicut in angelis nature data 
+      excel<lb ed="#A" n="76" break="no"/>lentia fuit gratisdata: Sic in Adam talis fuisset ex 
+      <lb ed="#A" n="77"/>cellentia. licet supernaturaliter ei collata sine gratia 
+      <lb ed="#A" n="78"/>gratum faciente nisi caperetur hec iusticia largius 
+      in<lb ed="#A" n="79" break="no"/>quantum fuit coniuncta gratie gratumfacienti superaddi 
+      <lb ed="#A" n="80"/>te ipsi originali iusticie in Adam.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e464">
+      ¶ Notandum 
+      se<lb ed="#A" n="81" break="no"/>cundo vt dictat Scotor. e. li. ii. di. xxix. ar. i. quod Adam 
+      <lb ed="#A" n="82"/>non fuit a primo instanti creatus in gratia gratumfaciem 
+      <lb ed="#A" n="83"/>te. sed in sola iusticia originali. Uerumtamen statim post 
+      <lb ed="#A" n="84"/>creationem ante lapsum: habuit etiam gratiam 
+      gratumfa<lb ed="#A" n="85" break="no"/>cientem per tempus hoc quo stetit. Huius ratio. quia in 
+      <lb ed="#A" n="86"/>his que sunt propinqua fidei. Et sunt de facto. 
+      tenen<lb ed="#A" n="87" break="no"/>da est sententia sanctorum cum loquantur spiritus sancti 
+      inspi<lb ed="#A" n="88" break="no"/>ratione. Sed sancti determinant illa conclusionem. vi 
+      <lb ed="#A" n="89"/>delicet quod Adam peccando perdidit gratiam et virtutes 
+      <lb ed="#A" n="90"/>quas habuit ante lapsum. Nam super illud Luc. 
+      <lb ed="#A" n="91"/>x. Qui etiam dispoliauerunt eum et plagis 
+      imposi<lb ed="#A" n="92" break="no"/>tis abierunt etc. glo. dicit quod hominem primum 
+      expoliaue<lb ed="#A" n="93" break="no"/>runt gratuitis et vulnerauerunt in naturalibus. Et 
+      <lb ed="#A" n="94"/>Bernds. dicit. cum videret patrem nostrum emulus 
+      cha<lb ed="#A" n="95" break="no"/>ritate circundatum et omni virtute vestitum. et hoc 
+      acce<lb ed="#A" n="96" break="no"/>pisse terrenum hominem quod ipse perdiderat inuidit 
+      insa<lb ed="#A" n="97" break="no"/>niens homicida. Patet etiam per magistrum in. ii libro dist. 
+      <lb ed="#A" n="98"/>xxix. Et Aug. inducit ibidem.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e506">
+      ¶ Tertio ergo ad 
+      quaesi<lb ed="#A" n="99" break="no"/>tum Respondetur per conclusionem quod Adam ante peccatum 
+      gra<lb ed="#A" n="100" break="no"/>tiam habuit et virtutes. Probatio secundum Guil. quia 
+      <lb ed="#A" n="101"/>habuit charitatem. ergo et gratiam. tenet consequentia. quia 
+      <lb ed="#A" n="102"/>haritas et gratia idem sunt in re. vt dictum est vbi 
+      <lb ed="#A" n="103"/>
+                  <ref xml:id="Vn7Pel-h111848-Rd1e519">Gratia. § xvi. xvii.</ref> Anecedens autem per magistrum et sanctos 
+      <lb ed="#A" n="104"/>supra.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e525">
+      ¶ Ad hec infra. §. viii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e528">
+               <head xml:id="Vn7Pel-h111848-Hd1e530">6</head>
+               <p xml:id="Vn7Pel-h111848-d1e532">
+                  <lb ed="#A" n="105"/>¶ Sed quare oportuit gratiam 
+      <lb ed="#A" n="106"/>iponere originali iusticie in hominibus cum 
+      ho<lb ed="#A" n="107" break="no"/>mo per solam originalem iusticiam sufficienter in 
+      <lb ed="#A" n="108"/>deum ferretur. quia ipsa tenebat liberum arbitrium 
+      sa<lb ed="#A" n="109" break="no"/>num et vires inferiores subiectas rationi. et rationem 
+      <lb ed="#A" n="110"/>deo
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e548">
+      ¶ Item nullus sapiens dat alicui amico suo 
+      <lb ed="#A" n="111"/>donum quod scit cito illum perditurum et ex hoc peccatum 
+      <lb ed="#A" n="112"/>suum aggrauari. Sed Adam tunc fuit amicus 
+      <lb ed="#A" n="113"/>dei. quia charitatem habuit. ergo non debuit ei do¬ 
+      <!--363.xml-->
+      <pb ed="#A" n="364"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>num gratie dari: sed suffecit originalis iusticia. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e566">
+                  <lb ed="#A" n="2"/>¶ Respondetur secundum e. Guill. vbi. supra quod deus vltra 
+      iusti<lb ed="#A" n="3" break="no"/>ciam originalem dedit gratiam. non quidem vt 
+      homin<lb ed="#A" n="4" break="no"/>noceret: sed vt prodesset si ea bene vteretur. Sed quia 
+      <lb ed="#A" n="5"/>homo sua peruersa voluntate fecit contrarium: Nihilo 
+      <lb ed="#A" n="6"/>minus deus conuertit hoc melius in maiora bona ex 
+      <lb ed="#A" n="7"/>inde eliciendo
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e582">
+      ¶ Denique dicendum ergo ad quaesitum 
+      <lb ed="#A" n="8"/>quod homini opertebat gratiam tribuere propter hominis 
+      in<lb ed="#A" n="9" break="no"/>digentiam: quia homo vt eternam consequeretur 
+      feli<lb ed="#A" n="10" break="no"/>citatem et merita: non sufficiebat de condigno 
+      sola<lb ed="#A" n="11" break="no"/>originalis iusticia: sed requirebatur gratia. 
+      Proba<lb ed="#A" n="12" break="no"/>tio secundum Guil. quia meritum de condigno dicit iusticiam 
+      <lb ed="#A" n="13"/>dati et accepti ad minus secundum proportionem geometri 
+      <lb ed="#A" n="14"/>cam: sed sequestrata gratia sola originalis iusticia 
+      <lb ed="#A" n="15"/>non meretur. ergo. Maior probatur. quia in merito de 
+      com<lb ed="#A" n="16" break="no"/>digno exigitur reddi id quod vel quantum meretur secundum 
+      <lb ed="#A" n="17"/>iusticiam distributiuam ex. v. lir. Ethi. et hoc fit secundum 
+      pro<lb ed="#A" n="18" break="no"/>portionem geometricam. Sed minor probatur. quia 
+      <lb ed="#A" n="19"/>id quod meretur homo de condigno est supra 
+      pos<lb ed="#A" n="20" break="no"/>se hominis. videlicet celeste bonum. et ita homo non 
+      <lb ed="#A" n="21"/>potest illud mereri nisi eleuetur per gratiam. Unde 
+      <lb ed="#A" n="22"/>de licet homo per naturam habeat inclinationem 
+      <lb ed="#A" n="23"/>ad virtutes: vt tangitur secundo Ethi. Et iuxta dictum 
+      <lb ed="#A" n="24"/>Damasceni. manentes inquit in eo quod est in 
+      <lb ed="#A" n="25"/>nobis secundum naturam in virtute sumus. scilicet inchoa 
+      <lb ed="#A" n="26"/>tiue vel inclinatiue: tamen virtutem merendi hoc 
+      <lb ed="#A" n="27"/>mo non habet a natura sed a gratia. loquendo 
+      <lb ed="#A" n="28"/>de merito celestis praemii
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e631">
+      ¶ Ex quo patet quod si Adam 
+      <lb ed="#A" n="29"/>implesset illa dei mandata tria que sibi deus 
+      prae<lb ed="#A" n="30" break="no"/>ceperat in paradiso: et tentationi diabolice 
+      resti<lb ed="#A" n="31" break="no"/>tisset sine gratia gratum faciente. tunc solummodo 
+      <lb ed="#A" n="32"/>de congruo non de condigno meruisset. De illis autem 
+      <lb ed="#A" n="33"/>tribus praeceptis habetur vbi Homo. §. vii
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e644">
+      ¶ Itaque 
+      <lb ed="#A" n="34"/>homini oportuit vltra iusticiam originalem: vt 
+      di<lb ed="#A" n="35" break="no"/>cit Magister: operantem apponi gratiam et etiam 
+      <lb ed="#A" n="36"/>cooperantem. Nam et in angelis vltra naturalia c 
+      <lb ed="#A" n="37"/>gratia collata: ita quod omnes angeli sunt conditi in 
+      <lb ed="#A" n="38"/>gratia: a qua postea mali angeli exciderunt: vt 
+      di<lb ed="#A" n="39" break="no"/>ctum est vbi <ref xml:id="Vn7Pel-h111848-Rd1e659">Angeli. §. lxxxi.</ref> Necessaria ergo fuit 
+      <lb ed="#A" n="40"/>homini gratia. Tum propter merendum: vt dictum 
+      <lb ed="#A" n="41"/>est. Tum propter perfectionem. quia licet Adam in 
+      sta<lb ed="#A" n="42" break="no"/>tu nature esset perfectus in esse primo: non tameo 
+      <lb ed="#A" n="43"/>in esse secundo: nisi per donum gratie. Tum propter 
+      <lb ed="#A" n="44"/>anime ornatum perfectiorem supernaturalem 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e674">
+               <head xml:id="Vn7Pel-h111848-Hd1e676">7</head>
+               <p xml:id="Vn7Pel-h111848-d1e678">
+                  <lb ed="#A" n="45"/>¶ Sed cui eorum maior fuit 
+      gra<lb ed="#A" n="46" break="no"/>tia collata vltra originalem iusticiam: an Ade 
+      an<lb ed="#A" n="47" break="no"/>Eue. Respondet idem Guil. eadem dist. xxix. quod 
+      vti<lb ed="#A" n="48" break="no"/>que vir habuit ampliorem gratiam quam mulier¬ 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e689">
+                  <lb ed="#A" n="49"/>¶ Unde viro dominus multa occulta in sopore re 
+      <lb ed="#A" n="50"/>uelauit: et per virum precepta dei mulier accepit 
+      <lb ed="#A" n="51"/>etc. licet originalis iusticia eque fuerit in eisdem. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e698">
+                  <lb ed="#A" n="52"/>¶ Ad hec facit quod habetur supra vbi Homo. 
+      <lb ed="#A" n="53"/>§. quadragesimoseptimo. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e705">
+                  <lb ed="#A" n="54"/>¶ In fuisset transfusa ab adam 
+      <lb ed="#A" n="55"/>originalis iusticia. habetur vbi <ref xml:id="Vn7Pel-h111848-Rd1e711">Homo. §.</ref> 
+      qua<lb ed="#A" n="56" break="no"/>dragesimosecundo. 
+      
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e717">
+               <head xml:id="Vn7Pel-h111848-Hd1e719">8</head>
+               <p xml:id="Vn7Pel-h111848-d1e721">
+      <!--363.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>¶ Utrum originalis iusticia prius 
+      <lb ed="#A" n="58"/>fuit tempore in statu innocentie quam gratia Respondetur secundum 
+      <lb ed="#A" n="59"/>
+                  <ref xml:id="Vn7Pel-h111848-Rd1e734">Guil. e. di. xxix.</ref> per conclusionem quod sic. Et patet per ea qua 
+      <lb ed="#A" n="60"/>dicta sunt supra. §. v
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e739">
+      ¶ Si obiicitur ex dicto Dama 
+      <lb ed="#A" n="61"/>sceni. Deus inquit fecit hominem innocentem: rectum: 
+      vir<lb ed="#A" n="62" break="no"/>tuosum: sine solicitudine: sine tristicia: cum virtu: 
+      <lb ed="#A" n="63"/>te decoratum in omnibus bonis ornatum. Et ita videtur quod 
+      <lb ed="#A" n="64"/>a principio fecit hominem deus in gratia. Dicendum est 
+      <lb ed="#A" n="65"/>secundum e. Guil. quod Damasce. loquitur de statu 
+      innocen<lb ed="#A" n="66" break="no"/>tie pro eo tempore quo post creationem data est homini gratia 
+      <lb ed="#A" n="67"/>Na verum est quod habuit gratiam antequam peccaret homo vnde 
+      <lb ed="#A" n="68"/>ista est imaginatio quod a principio sui status fuit homo 
+      <lb ed="#A" n="69"/>conditus cum iusticia originali sola. In secundo postea 
+      <lb ed="#A" n="70"/>fuit sibi apposita gratia. Sed quantum temporis fluxerit in 
+      <lb ed="#A" n="71"/>ter hec duo deus nouit. In tertio postea fuisset 
+      <lb ed="#A" n="72"/>homo confirmatus si tentationi restitisset. sed heu ad 
+      ter<lb ed="#A" n="73" break="no"/>tium non peruenit.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e770">
+      ¶ Ex dictis patet defectus sancti 
+      Tho<lb ed="#A" n="74" break="no"/>me qui eadem di. xxix. q. ii posuit quod Adam in primo 
+      in<lb ed="#A" n="75" break="no"/>stanti sue creationis habuerit gratiam. Uerior enim 
+      <lb ed="#A" n="76"/>est opinio Bonauen. e. di. ar. ii. q. ii ponentis. Similiter 
+      <lb ed="#A" n="77"/>et Scotistarum dicentium tempus fuisse medium inter 
+      crea<lb ed="#A" n="78" break="no"/>tionem Ade. et appositionem gratiae eidem. Et hoc primo 
+      <lb ed="#A" n="79"/>decuit ratione diuine sapientie vt sicut in toto 
+      vniuer<lb ed="#A" n="80" break="no"/>so prius tempore sunt omnia distincta quam ornata sic fieret in 
+      <lb ed="#A" n="81"/>homine qui non minus perfici debebat et ornari in anima 
+      <lb ed="#A" n="82"/>quam in corpore. Sed in corpore fuit perfectus. ergo et in 
+      <lb ed="#A" n="83"/>anima debuit perfici perfectione supernaturali apponendo 
+      <lb ed="#A" n="84"/>gratiam. Secundo decuit ratione bonitatis diuine. quia er 
+      <lb ed="#A" n="85"/>hoc magis homini apparere poterat quantum bonum erat 
+      <lb ed="#A" n="86"/>gratia dei quam separatim a sua conditione. deus dona 
+      <lb ed="#A" n="87"/>bat supernaturaliter. Si enim a principio creationis 
+      <lb ed="#A" n="88"/>gratiam habuisset videretur quod esset donum naturale. 
+      <lb ed="#A" n="89"/>Tertio ratione diuine iusticie vt Adam se praepararet de 
+      <lb ed="#A" n="90"/>congruo ad accipiendam gratiam. et sic in eo impleretur 
+      <lb ed="#A" n="91"/>illud Augu. super Ioannem dictum. Qui creauit te si 
+      <lb ed="#A" n="92"/>ne te non iustificabit te sine te etc. 
+      <lb ed="#A" n="93"/>Item de originali iusticia 
+      plu<lb ed="#A" n="94" break="no"/>ra vbi Adam et vbi Homo et vbi Innocentie 
+      la<lb ed="#A" n="95" break="no"/>psus. et variis passibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e821">
+               <head xml:id="Vn7Pel-h111848-Hd1e823">9</head>
+               <p xml:id="Vn7Pel-h111848-d1e825">
+                  <lb ed="#A" n="96"/>¶ An originalis iusticia fuit 
+      perfe<lb ed="#A" n="97" break="no"/>ctior quam gratia aut econtrario. Respondetur secundum e. Guil. 
+      <lb ed="#A" n="98"/>cum doc. Subti. quod se habebant sicut excedens et 
+      ex<lb ed="#A" n="99" break="no"/>cessum. quantum enim ad firmitatem excedebat iiusticia 
+      <lb ed="#A" n="100"/>originalis. quia intantum fini coniungebat vt quidam 
+      <lb ed="#A" n="101"/>dicunt quod non admittebat peccatum veniale. Sed 
+      in<lb ed="#A" n="102" break="no"/>quantum gratia coniungebat fini vt bono 
+      superna<lb ed="#A" n="103" break="no"/>turali excedebat gratia. quia illa iusticia solum 
+      <lb ed="#A" n="104"/>coniungebat illi fini vt conuenienti et delectabili. vn 
+      <lb ed="#A" n="105"/>de simpliciter gratia censenda erat perfectior quam 
+      <lb ed="#A" n="106"/>ipsa originalis iusticia
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e851">
+      ¶ Si queras. Cur ergo 
+      <lb ed="#A" n="107"/>originalis iusticia illa non potuit recuperari per 
+      <lb ed="#A" n="108"/>penitentiam ab Adam et hominibus vel per 
+      chri<lb ed="#A" n="109" break="no"/>sti passionem. Cum tamen gratia que fuit perfecti 
+      <lb ed="#A" n="110"/>us donum recuperata est. Si enim minus perfectum 
+      <!--364.xml-->
+      <pb ed="#A" n="365"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>inon potest aliquo recuperar scilicet originalis 
+      iusti<lb ed="#A" n="2" break="no"/>cia que faciebat in hominibus immortalitatem et 
+      <lb ed="#A" n="3"/>huiusmodi. non videtur quare magis perfectum scilicet gratia 
+      <lb ed="#A" n="4"/>potuerit recuperari.
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e877">
+      ¶ Dicendum secundum e. Guil. et 
+      Sco<lb ed="#A" n="5" break="no"/>tor. quod alia ratio est de originali iusticia. alia de grtia. 
+      <lb ed="#A" n="6"/>quare videlicet gratia potuit recuperari: sed origina 
+      <lb ed="#A" n="7"/>lis iusticia non: quia gratia gratum faciens datur per 
+      <lb ed="#A" n="8"/>sone pro seipsa. et sic aspicit personam que potest sibiipsi 
+      <lb ed="#A" n="9"/>recuperare gratiam per poenitentiam ex meritis passionis 
+      chri<lb ed="#A" n="10" break="no"/>sti. Sed originalis iusticia data fuit in adam 
+      pro<lb ed="#A" n="11" break="no"/>tota natura humana. ergo recuperari non debuit postque 
+      <lb ed="#A" n="12"/>per peccatum fuit tota corrupta. vt patebit infra de 
+      <lb ed="#A" n="13"/>peeccato originali. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h111848-Dd1e900">
+               <head xml:id="Vn7Pel-h111848-Hd1e902">10</head>
+               <p xml:id="Vn7Pel-h111848-d1e904">
+                  <lb ed="#A" n="14"/>¶ Utrum maior cumulus 
+      gratia<lb ed="#A" n="15" break="no"/>rum et virtutum fuit tunc datus cum iusticia origina 
+      <lb ed="#A" n="16"/>li quam in vita praesenti post lapsum datus est homini. 
+      <lb ed="#A" n="17"/>Respondetur secundum e. Guill. vbi. supra quod amplior datus est in 
+      <lb ed="#A" n="18"/>statu praesenti: licet etiam pro statu innocentie fuerit 
+      mul<lb ed="#A" n="19" break="no"/>titudo virtutum et donorum collata. Sicut patet 
+      au<lb ed="#A" n="20" break="no"/>toritate Grego. niseni: qui posuit quod adam tunc fuit 
+      <lb ed="#A" n="21"/>quasi quidam rex in paradiso: praeditus omni virtute. 
+      <lb ed="#A" n="22"/>Quod autem pro statu moderno amplior sit datus 
+      gra<lb ed="#A" n="23" break="no"/>tie cumulus patet: quia magis indiget homo nunc. 
+      <lb ed="#A" n="24"/>ergo dei misercordia maius adiutorium dedit. Et quia 
+      <lb ed="#A" n="25"/>aduocatum habemus apud patrem: christum Iesum qui 
+      in<lb ed="#A" n="26" break="no"/>terpellat pro nobis: cuius passionis meritis plus 
+      gra<lb ed="#A" n="27" break="no"/>tie consecuti sumus
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e937">
+      ¶ Si dicatur quod ille status erat 
+      <lb ed="#A" n="28"/>surior: et sic magis capax et plus expeditus. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e942">
+                  <lb ed="#A" n="29"/>¶ Respondetur secundum e. Guil. quod opera meritoria ex triplicir 
+      <lb ed="#A" n="30"/>radice prodeunt sicut et virtuosa. Primo ex 
+      volun<lb ed="#A" n="31" break="no"/>tate. et secundum hoc in statu innocentie fuisset maius 
+      me<lb ed="#A" n="32" break="no"/>ritum simpliciter loquendo: quia magis expedita volun 
+      <lb ed="#A" n="33"/>tas fuit l¶ Secundo ex arduitate virtutis. et ratione 
+      hu<lb ed="#A" n="34" break="no"/>ius nunc est maius meritum: quia difficilius elicitur 
+      <lb ed="#A" n="35"/>operatio virtutis. Unde propter carnis: mundi: et 
+      diabo<lb ed="#A" n="36" break="no"/>li pugnam: nunc aureolas virginitatis et maxtyrii et 
+      <lb ed="#A" n="37"/>predicationis habemus: quae tunc non fuissent
+     </p>
+               <p xml:id="Vn7Pel-h111848-d1e964">
+      ¶ 
+      Ter<lb ed="#A" n="38" break="no"/>tio ex gratia. et sic se habent secundum sub et supra: prout 
+      al<lb ed="#A" n="39" break="no"/>que persone fuissent perfectiores aliquibus modernis. 
+      <lb ed="#A" n="40"/>Simpliciter tamen quo ad hoc status praesens excedit: quia 
+      <lb ed="#A" n="41"/>nec adam nec alius ad perfectionem beate marie in 
+      <lb ed="#A" n="42"/>gratia et meritis peruenissent: quamuis praecipue adam 
+      per<lb ed="#A" n="43" break="no"/>fectior fuisset quam moderni multi coniugati. videli 
+      <lb ed="#A" n="44"/>cet Tacharias: Tebedeus: et similes. et ecouerso. 
+      mo<lb ed="#A" n="45" break="no"/>derni perfectiores. vt apostoli et huiusmodi: excessissent 
+      mul<lb ed="#A" n="46" break="no"/>tos imperfectiores illius status. 
+      </p>
+               <p xml:id="Vn7Pel-h111848-d1e987">
+                  <lb ed="#A" n="47"/>¶ Quod dei bonitas laudabilis 
+      ex<lb ed="#A" n="48" break="no"/>tat in misericordia exhibita nobis contra originalem 
+      <lb ed="#A" n="49"/>culpam remediando. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

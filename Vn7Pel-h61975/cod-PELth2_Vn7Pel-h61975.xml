@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eternitas</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Eternitas</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="203"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h61975">
+            <head xml:id="Vn7Pel-h61975-Hd1e110">Eternitas</head>
+            <div xml:id="Vn7Pel-h61975-Dd1e112">
+               <head xml:id="Vn7Pel-h61975-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h61975-d1e116">
+                  <lb ed="#A" n="33"/>¶ Eternitas. Ubi que 
+      <lb ed="#A" n="34"/>fitur.
+     </p>
+               <p xml:id="Vn7Pel-h61975-d1e123">
+      ¶ Utrum aliquid aliud a deo possit 
+      es<lb ed="#A" n="35" break="no"/>se vel fuisse ab eterno. Ad hoc Tho. opinio 
+      pri<lb ed="#A" n="36" break="no"/>ma parte qi. xlvi. arti. ii est quod creatura potuit 
+      pro<lb ed="#A" n="37" break="no"/>duci ab eterno et esse sine principio durationis qui 
+      <lb ed="#A" n="38"/>deo Ratio eius inter alias est hec. quia quicquio 
+      <lb ed="#A" n="39"/>est perfectionis in secunda causa non est negandum a 
+      <lb ed="#A" n="40"/>causa prima id est a deo. sed posse habere effectum 
+      <lb ed="#A" n="41"/>coeuum: est perfectionis in causa secunda. ergo hoc 
+      <lb ed="#A" n="42"/>non est negandum a causa prima. Maior 
+      pat<lb ed="#A" n="43" break="no"/>Minor autem probatur per Augustinus. vi. de trinita. ca. 
+      <lb ed="#A" n="44"/>i. dicentem. Si ignis esset eternus: et splendor ab 
+      <lb ed="#A" n="45"/>eo genitus esset sibi coeuus: quod est 
+      perfectio<lb ed="#A" n="46" break="no"/>nis illius. Sed secundum Scotorel. in. ii distin i. q. ii. 
+      <lb ed="#A" n="47"/>hec ratio non concludit. quia illa maior est 
+      vera<lb ed="#A" n="48" break="no"/>quando possibilitas est ex parte factibilis. Nunc 
+      <lb ed="#A" n="49"/>autem non est creature possibile esse ab eterno. 
+      <lb ed="#A" n="50"/>quia repugnat sibi eternitas cum sit duratio in 
+      <lb ed="#A" n="51"/>finita. que repugnat creature cum sit limitata. alias 
+      <lb ed="#A" n="52"/>propter illimitationem equaretur deo
+     </p>
+               <p xml:id="Vn7Pel-h61975-d1e165">
+      ¶ Ad 
+      que<lb ed="#A" n="53" break="no"/>situm ergo secundum Guil. in. ii dist. i. et Scotorel. supra 
+      <lb ed="#A" n="54"/>ponitur conclusio secundum veritatem. quod nihil aliud 
+      <!--202.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>a deo potest esse vel fuisse eternum vel sine 
+      princi<lb ed="#A" n="56" break="no"/>nio durationis. quia hoc implicat contradictionem. 
+      Pro<lb ed="#A" n="57" break="no"/>batur. quia si hoc fuisset vel esset possibile: ponatur 
+      <lb ed="#A" n="58"/>in esse. et sic sequentur maxima inconuenientia. 
+      Pri<lb ed="#A" n="59" break="no"/>mum quod infinito possit fieri additio. quia illi 
+      creatu<lb ed="#A" n="60" break="no"/>re quae infinite est durationis si creetur alia: huius dura 
+      <lb ed="#A" n="61"/>tio additur prime. Secundum quod cum a principio semper fuit 
+      <lb ed="#A" n="62"/>anima rationalis quae est incorruptibilis. si ergo iterum alia 
+      <lb ed="#A" n="63"/>ab eterno semper est addita: sic actu anime erunt infinite 
+      <lb ed="#A" n="64"/>Tertium quod quilibet angelus sciret infinita. quia an 
+      <lb ed="#A" n="65"/>geli etiam secundum Philosophos fuerunt ab initio scilicet mundi. 
+      <lb ed="#A" n="66"/>similiter et motus caelorum. Supposito ergo quod angeli 
+      nil<lb ed="#A" n="67" break="no"/>obliuiscuntur: sequitur quod sciat omnes illas 
+      reuolutio<lb ed="#A" n="68" break="no"/>nes quae facte sunt ab eterno quae sunt infinite. ergo sciunt 
+      <lb ed="#A" n="69"/>infinita. quae omnia sunt impossibilia.
+     </p>
+               <p xml:id="Vn7Pel-h61975-d1e209">
+      ¶ Hec et pla alia 
+      <lb ed="#A" n="70"/>ad idem latius habentur vbi <ref xml:id="Vn7Pel-h61975-Rd1e213">Mundus. §. vii.</ref> et 
+      <lb ed="#A" n="71"/>viii. Unde soli deo laus et gloria. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h61975-Dd1e219">
+               <head xml:id="Vn7Pel-h61975-Hd1e221">2</head>
+               <p xml:id="Vn7Pel-h61975-d1e223">
+                  <lb ed="#A" n="72"/>¶ Sed difficultas est Quia deus 
+      <lb ed="#A" n="73"/>ab eterno habuit posse creare et fuit productiuus. 
+      <lb ed="#A" n="74"/>quia ab eterno fuit omnipotens et sua omnipotentia 
+      produ<lb ed="#A" n="75" break="no"/>cit creaturas. Queritur ergo An eadem antiqua potentia 
+      <lb ed="#A" n="76"/>sua eternali produxit creaturas: An noua: Sed 
+      <lb ed="#A" n="77"/>non potest dici quod noua. quia sic esset mutatio in deo 
+      <lb ed="#A" n="78"/>de non actione in actionem. ergo agit deus semper actione antiqua 
+      <lb ed="#A" n="79"/>et eterna. quare ergo non ab eterno dicatur creatura 
+      produ<lb ed="#A" n="80" break="no"/>cibilis: cum non habeat actionem in hoc: sed tantum 
+      pas<lb ed="#A" n="81" break="no"/>sionem. Respondetur secundum e. Guill. supra quod deus agit ex parte 
+      <lb ed="#A" n="82"/>sui actione antiqua et non noua: sed eterna. quia sua 
+      <lb ed="#A" n="83"/>volitione et omnipotentia agit: quae volitio et omnipotentia 
+      <lb ed="#A" n="84"/>dei est ipsemet deus eternus. Nec tamen oportet propterea 
+      <lb ed="#A" n="85"/>effectum creatum esse eternum. quia licet agat ab eterno: 
+      <lb ed="#A" n="86"/>non tamen pro eterno. sed pro tempore effectus producendi. Sicut 
+      <lb ed="#A" n="87"/>tu volitione hodierna vis cras ire ad missam. Ista 
+      <lb ed="#A" n="88"/>autem volitio eterna licet ante mundi principium nil egit in 
+      <lb ed="#A" n="89"/>effectu ad extra: tamen dicitur actio vel productio in esse 
+      vo<lb ed="#A" n="90" break="no"/>lito. Et hoc sufficit ad hoc vt dicatur deus productiuus 
+      <lb ed="#A" n="91"/>ab eterno. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h61975-Dd1e270">
+               <head xml:id="Vn7Pel-h61975-Hd1e272">3</head>
+               <p xml:id="Vn7Pel-h61975-d1e274">
+                  <lb ed="#A" n="92"/>¶ Sed adhuc restat difficultas 
+      <lb ed="#A" n="93"/>Si creatura antequam a deo est producta erat ab 
+      eter<lb ed="#A" n="94" break="no"/>no vel aliquantulum antea producibilis si deus voluisset 
+      </p>
+               <p xml:id="Vn7Pel-h61975-d1e283">
+                  <lb ed="#A" n="95"/>¶ Et clarum est quod sic sequitur ergo quod habebat esse aliquod 
+      <lb ed="#A" n="96"/>saltem esse essentie ante productionem istam. et ita non fuit 
+      <lb ed="#A" n="97"/>producta ex nihilo. Denique cum ista producibilitas 
+      <lb ed="#A" n="98"/>sit passio propria creature et de secundo modo dicendi 
+      <lb ed="#A" n="99"/>per se. ergo requirit subiectum in quo fundetur et primum 
+      medi<lb ed="#A" n="100" break="no"/>um suponit. Respondet idem Guill. supra quod ista 
+      produci<lb ed="#A" n="101" break="no"/>bilitas erat potentia logica. quia scilicet nulla erat 
+      ter<lb ed="#A" n="102" break="no"/>minorum repugnantia: nil plus. Et talis nihil 
+      po<lb ed="#A" n="103" break="no"/>nit in re nisi solum esse ideale in mente diuina: vt 
+      pa<lb ed="#A" n="104" break="no"/>tuit latius libro i. vbi Esse. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h61975-Dd1e308">
+               <head xml:id="Vn7Pel-h61975-Hd1e310">4</head>
+               <p xml:id="Vn7Pel-h61975-d1e312">
+                  <lb ed="#A" n="105"/>¶ Utrum Intellectus capere possit 
+      <lb ed="#A" n="106"/>res creatas ab eterno fuisse: Respondet Guil. cum 
+      <lb ed="#A" n="107"/>Bona. e. di. i. li. ii. q. ii quod sic: data eternitate materie 
+      <lb ed="#A" n="108"/>prime. alias non. Dat exeplum Si intelligamus pedem 
+      <lb ed="#A" n="109"/>eternum et puluerem eternum: tunc erit possibile intelligere 
+      <lb ed="#A" n="110"/>et vestigium eternum. Aliud exemplum Si intelliganus 
+      lucen<lb ed="#A" n="111" break="no"/>eternam quae appropriatur patri: rursus intelliganus splendorem 
+      <!--203.xml-->
+      <pb ed="#A" n="204"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>gernum qui appropriatur filio. tunc data eternitate 
+      <lb ed="#A" n="2"/>materie poterimus intelligere vmbram eternam que 
+      <lb ed="#A" n="3"/>appropriatur creature. Sed assumptum est 
+      impossi<lb ed="#A" n="4" break="no"/>bil scilicet materiam eternam esse. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h61975-d1e345">
+      ¶ Si obiicitur 
+      <lb ed="#A" n="5"/>quia Philosophus sci. Physci. dicit quod materia est 
+      inge<lb ed="#A" n="6" break="no"/>nita et incorruptibilis. ergo eterna. Respondetur secundum 
+      <lb ed="#A" n="7"/>Scotorlis. ea. dist. i. q. ii quod materia prima est 
+      inge<lb ed="#A" n="8" break="no"/>nita et incorruptibilis. non tamen sequitur quod sit eterna 
+      <lb ed="#A" n="9"/>quia habet esse per creationem ex nihilo. Quod autem 
+      <lb ed="#A" n="10"/>gignitur: non est ex nihilo: sed ex aliquo praeiacenti etc. 
+      <lb ed="#A" n="11"/>Unde deo est attribuenda gloria eternitatis. 
+      </p>
+               <p xml:id="Vn7Pel-h61975-d1e363">
+                  <lb ed="#A" n="12"/>¶ De eternitate plurima 
+      haben<lb ed="#A" n="13" break="no"/>tur etiam libro prmo. 
+      </p>
+               <p xml:id="Vn7Pel-h61975-d1e370">
+                  <lb ed="#A" n="14"/>¶ De mundo quod non sit eternus 
+      <lb ed="#A" n="15"/>Uide vbi Mundus in hoc libro. 
+      </p>
+               <p xml:id="Vn7Pel-h61975-d1e378">
+                  <lb ed="#A" n="16"/>¶ Q del bonitas in Eue 
+      forma<lb ed="#A" n="17" break="no"/>tione mirabiliter claruit etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

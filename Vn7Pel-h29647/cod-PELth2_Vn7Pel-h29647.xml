@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Apparitio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Apparitio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="97"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h29647">
+            <head xml:id="Vn7Pel-h29647-Hd1e110">Apparitio</head>
+            <div xml:id="Vn7Pel-h29647-Dd1e112">
+               <head xml:id="Vn7Pel-h29647-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h29647-d1e116">
+                  <lb ed="#A" n="62"/>¶ Apparitio. Queri c. 
+      <lb ed="#A" n="63"/>tur. Quomdo apparuit deus primis perentibus 
+      <lb ed="#A" n="64"/>in paradiso. Respondetur secundum Aug. li. xix. super 
+      <lb ed="#A" n="65"/>Gen. quod apparuit in forma humana. Et ratio prima quia 
+      <lb ed="#A" n="66"/>apparuit per creaturam tali actioni congruam. In cuius 
+      con<lb ed="#A" n="67" break="no"/>spectu erubesceret nuditatem suam homo. et motum peccati 
+      <lb ed="#A" n="68"/>pudendum in membris suis. Sed ad huiusmodi congruit 
+      for<lb ed="#A" n="69" break="no"/>ma humana. ergo etc. Alia ratio. quia deus erat humanam 
+      natu<lb ed="#A" n="70" break="no"/>ram assumpturus. ergo in tali congruebat apparuisse pro 
+      mi<lb ed="#A" n="71" break="no"/>sterio. Tertia quia loquendo debuit redarguere adam 
+      <lb ed="#A" n="72"/>Unde Gen. iii. dicitur. Cum audisset vocem domini deambulam 
+      <lb ed="#A" n="73"/>tis in paradiso etc. Lyra dicit. Ista inquit locutio et deam 
+      <lb ed="#A" n="74"/>bulatio dei non est intelligenda in forma deitatis sedi 
+      <lb ed="#A" n="75"/>aliqua similitudine creata in qua apparuit. sicut apparuit 
+      abrae<lb ed="#A" n="76" break="no"/>et moysi et multis aliis. sed quia loquela competit homini. 
+      <lb ed="#A" n="77"/>ergo etc. Ad hec vbi <ref xml:id="Vn7Pel-h29647-Rd1e152">Cain. §. v </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h29647-Dd1e156">
+               <head xml:id="Vn7Pel-h29647-Hd1e158">2</head>
+               <p xml:id="Vn7Pel-h29647-d1e160">
+                  <lb ed="#A" n="78"/>¶ Sed quare dicit scriptura 
+      ab<lb ed="#A" n="79" break="no"/>paruisse deum Ade et Eue post meridiem. Respondetur secundum 
+      <lb ed="#A" n="80"/>Aug. super Gen. li. xix. quod ideo. quia iam post peccatum defecerant 
+      <lb ed="#A" n="81"/>a luce veritatis. ideo aduesperascente diei hora cum solis 
+      <lb ed="#A" n="82"/>lux deficere incipit voluit eos visitare. Secundo ad 
+      <lb ed="#A" n="83"/>significandum quod virgente mundi vespere christus deus appa 
+      <lb ed="#A" n="84"/>rere volebat in carne. Sed quae hora: hebrei dicunt vt 
+      <lb ed="#A" n="85"/>Lyra simer Gen. iii. ait. quod hora decia diei. Sed Fram. 
+      <lb ed="#A" n="86"/>maro. dicit quod hora nona. Et de hoc hebes latius vbi <ref xml:id="Vn7Pel-h29647-Rd1e181">
+      Pa<lb ed="#A" n="87" break="no"/>radisus. §. xi.</ref> Isti autem modi dicendi bene conueniunt. quia 
+      <lb ed="#A" n="88"/>apparuit hora nona tendente versus decimam. et ita cum 
+      <lb ed="#A" n="89"/>medium participat naturam extrenorum. v. phys. ab 
+      vtro<lb ed="#A" n="90" break="no"/>que potest denominari
+     </p>
+               <p xml:id="Vn7Pel-h29647-d1e194">
+      ¶ Quare autem additur ad auram: 
+      Ly<lb ed="#A" n="91" break="no"/>ra dicit quod aura accipitur ibi pro vento. et ideo additur. quia 
+      il<lb ed="#A" n="92" break="no"/>lam dei apparitionem praecedebat ventus. sicut et in pluribus 
+      apperi<lb ed="#A" n="93" break="no"/>omunibus dei praecessisse ventus legitur. prout patet quando apparuit 
+      <lb ed="#A" n="94"/>Helie. iiii. Regum. Et quando apparuit spiritus sanctus 
+      di<lb ed="#A" n="95" break="no"/>scipulis Actu. ii Factus est repente de celo sonus tamquam ad 
+      <lb ed="#A" n="96"/>uenientis spiritus vehementis id est flatus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29647-Dd1e211">
+               <head xml:id="Vn7Pel-h29647-Hd1e213">3</head>
+               <p xml:id="Vn7Pel-h29647-d1e215">
+                  <lb ed="#A" n="97"/>¶ An in huiusmodi apparitionibus fuit 
+      <lb ed="#A" n="98"/>ipsemet deus. aut angelus in persona dei. Respondet Aug. de 
+      <lb ed="#A" n="99"/>tri. li. iii. c. vl. quod omnia illa quae patribus visa sunt cum deus illis 
+      <lb ed="#A" n="100"/>apparuit per creaturam esse facta manifestum est inquit. Etsi 
+      <lb ed="#A" n="101"/>nos latet quomodo ea ministris angels deus fecerit tamen per 
+      an<lb ed="#A" n="102" break="no"/>gelos facta esse dicimus. Hec Aug.
+     </p>
+               <p xml:id="Vn7Pel-h29647-d1e231">
+      ¶ Et de hoc 
+      <lb ed="#A" n="103"/>latius habitum est libro primo huius Rosarii aurei. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29647-Dd1e237">
+               <head xml:id="Vn7Pel-h29647-Hd1e239">4</head>
+               <p xml:id="Vn7Pel-h29647-d1e241">
+                  <lb ed="#A" n="104"/>¶ Qualiter discernitur an bonus 
+      <lb ed="#A" n="105"/>angelus autm malus sit qui apparet homini. De hoc Aug. si 
+      <lb ed="#A" n="106"/>Gen. li. xii. dicit quod discretio est difficillima. cum 
+      diabo<lb ed="#A" n="107" break="no"/>lus transfigurat se in angelum lucis ad hoc vt cum illi in 
+      <lb ed="#A" n="108"/>manifestis bonis creditum fuerit seducat ad sua 
+      in<lb ed="#A" n="109" break="no"/>tenta. hoc discerni nullo modo arbitror inquit nisi dei 
+      <lb ed="#A" n="110"/>dono. de quo Apostolis dicit. Alii datur discretio spirituum 
+      </p>
+               <p xml:id="Vn7Pel-h29647-d1e259">
+                  <lb ed="#A" n="111"/>¶ Deniqu ibidem subdit Aug. quod vnum signum est quase 
+      <!--97.xml-->
+      <pb ed="#A" n="98"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>suadet ad aliqua contra fidem vel contra bonos mores quod tumnc 
+      <lb ed="#A" n="2"/>apparet malignus spiritus. Secundum signum ponit 
+      Be<lb ed="#A" n="3" break="no"/>da stet Lum. quod angeli boni est mortales pauentes de 
+      <lb ed="#A" n="4"/>suo aspectu mox consolari. sicut fecit Gabel dum 
+      ap<lb ed="#A" n="5" break="no"/>paruit beate virgiti et etiam Cacharie. Sed diaboli est quod 
+      <lb ed="#A" n="6"/>cum sui praesentia territos senserit ampliori semper horrore 
+      co<lb ed="#A" n="7" break="no"/>cutere. Hec Beda. Tertium signum est. si id quod 
+      sua<lb ed="#A" n="8" break="no"/>det consonum est scripture sacre et ad humilitatem tendit hominis 
+      <lb ed="#A" n="9"/>vel charitatem: tunc bonus angelus est. Si vero ad elatione 
+      <lb ed="#A" n="10"/>perducit: malus est. Unde in vitaspa. dum diabolus 
+      apparu<lb ed="#A" n="11" break="no"/>it in figura christi cuidam seni: clausit senex oculos 
+      di<lb ed="#A" n="12" break="no"/>cens. Ego non sum dignus in praesenti videre christum. Et 
+      moi<lb ed="#A" n="13" break="no"/>diaholus per talem huilitatem confusus euanuit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29647-Dd1e300">
+               <head xml:id="Vn7Pel-h29647-Hd1e302">5</head>
+               <p xml:id="Vn7Pel-h29647-d1e304">
+                  <lb ed="#A" n="14"/>¶ Qualiter fit apparitio hominum 
+      <lb ed="#A" n="15"/>mortuorum. vel etiam viuorum loge distantium. Nota quod 
+      <lb ed="#A" n="16"/>Autor de spiritu et anima dicit. Cum homines mortui inquit siue 
+      <lb ed="#A" n="17"/>viui hominibus vriuis siue vigilantibus siue dormientibus 
+      <lb ed="#A" n="18"/>apparent non ipsis rebus vt sunt apparent: sed in quibusdam 
+      <lb ed="#A" n="19"/>similitudinibus rerum. Illud autem angelicis operibus fieri cred 
+      <lb ed="#A" n="20"/>mus per dispensationem prouidentie dei. siue vt hinc 
+      instri<lb ed="#A" n="21" break="no"/>antur mentes mortalium: siue fallantur siue consolentur: si 
+      <lb ed="#A" n="22"/>ue treantur. sicut vnicuique vel praebenda est misericordia vel in 
+      <lb ed="#A" n="23"/>roganda iusticia a deo. Hec ibi. Unde quando anime hominum 
+      <lb ed="#A" n="24"/>mortuorum apparent viuis fiunt ministerio angelico. 
+      <lb ed="#A" n="25"/>Similiter quando quis viuus vt sanctus Franciscus apparuit 
+      <lb ed="#A" n="26"/>in capitulo fribus praedicante sancto Antonio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29647-Dd1e336">
+               <head xml:id="Vn7Pel-h29647-Hd1e338">6</head>
+               <p xml:id="Vn7Pel-h29647-d1e340">
+                  <lb ed="#A" n="27"/>Sed an mortui appareat in 
+      pro<lb ed="#A" n="28" break="no"/>priis personis rapti ad viuos. aut in eorundem 
+      figu<lb ed="#A" n="29" break="no"/>ra appareant potius angeli Idem de spiritu et anima libro ca. 
+      <lb ed="#A" n="30"/>xxviii. relinquit sub dubio. quia deus potest vtroque modo et 
+      <lb ed="#A" n="31"/>sic vel sic facere sicut vult. Nam et in christi transfiguratione 
+      <lb ed="#A" n="32"/>Helias et Moyses apparuerunt in propriis personis 
+      <lb ed="#A" n="33"/>deo faciente: ministerio angelico mediate. Aliquando fit 
+      <lb ed="#A" n="34"/>apparitio angeli boni in persona alicuius anime separate 
+      <lb ed="#A" n="35"/>vel aliquando mali. vt patet de Samuels resuscitatione 
+      <lb ed="#A" n="36"/>i¶. Reg. xxviii.
+     </p>
+               <p xml:id="Vn7Pel-h29647-d1e364">
+      ¶ Ad hec plura li. ii. vbi Aiua separata 
+      <lb ed="#A" n="37"/>Eux dei bonitas commendatur mi 
+      <lb ed="#A" n="38"/>rabilis in aquarum condicionibus et proprietatibus 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

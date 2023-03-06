@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Passio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Passio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="382"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h118204">
+            <head xml:id="Vn7Pel-h118204-Hd1e110">Passio</head>
+            <div xml:id="Vn7Pel-h118204-Dd1e112">
+               <head xml:id="Vn7Pel-h118204-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h118204-d1e116">
+                  <lb ed="#A" n="77"/>Passio. Queritur 
+      </p>
+               <p xml:id="Vn7Pel-h118204-d1e121">
+                  <lb ed="#A" n="78"/>¶ Utrum passiones in homine sint peccata 
+      </p>
+               <p xml:id="Vn7Pel-h118204-d1e126">
+                  <lb ed="#A" n="79"/>¶ Respondetur secundum <ref xml:id="Vn7Pel-h118204-Rd1e130">Bonauen. in. ii di. xxxvi 
+      <lb ed="#A" n="80"/>ar. i. q. ii</ref> et <name xml:id="Vn7Pel-h118204-Nd1e135">Rich</name>. ibid ac concor. <ref xml:id="Vn7Pel-h118204-Rd1e137">Tho. 
+      <lb ed="#A" n="81"/>e. di. q. ii. ar. ii</ref> quod sicut dicit <name xml:id="Vn7Pel-h118204-Nd1e142">Magister</name> sententiarum et <name xml:id="Vn7Pel-h118204-Nd1e145">Aug</name>. 
+      paf<lb ed="#A" n="82" break="no"/>siones inquantum passiones non sunt peccata. quia insunt 
+      no<lb ed="#A" n="83" break="no"/>bis a natura. Dicitur autem. <ref xml:id="Vn7Pel-h118204-Rd1e151">ii Eth</ref>. quod propter ea que 
+      in<lb ed="#A" n="84" break="no"/>sunt nobis a natura nec laudamur nec 
+      vitupera<lb ed="#A" n="85" break="no"/>mur. Uerumtamen huiusmodi passiones possunt esse 
+      pec<lb ed="#A" n="86" break="no"/>cata ratione inordinationis. voluntatis coniuncte vel 
+      ante<lb ed="#A" n="87" break="no"/>cedenter vel consequenter.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e163">
+      ¶ Unde secundum praedictos docto. 
+      <lb ed="#A" n="88"/>passiones distinguuntur
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e169">
+      ¶ Primo quedam sunt illa 
+      <lb ed="#A" n="89"/>te ab extrinseco: vt lesio: sectio: adustio et huiusmodi. Et 
+      <lb ed="#A" n="90"/>circa talia non est meritum vel demeritum nisi inquantum 
+      <lb ed="#A" n="91"/>a voluntate acceptantur vel respuuntur vel patienter 
+      <lb ed="#A" n="92"/>sufferuntur. Unde occidi pro christo non est meritorium 
+      ni<lb ed="#A" n="93" break="no"/>si inquantum volitum est ab eo qui occiditur vel 
+      patien<lb ed="#A" n="94" break="no"/>ter toleratur. Et nolle occidi pro pecunia meritorium 
+      <lb ed="#A" n="95"/>est inquantum voluntarie respuit quis sic mori vel 
+      <lb ed="#A" n="96"/>patienter tolerat damnum pecunie. et sic de 
+      simili<lb ed="#A" n="97" break="no"/>bus.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e191">
+      ¶ Secundo quedam sunt passiones que habent 
+      or<lb ed="#A" n="98" break="no"/>tum ab intrinseco. Et hec tripliciter. quia quaedam 
+      passio<lb ed="#A" n="99" break="no"/>oritur ex corruptione nature que habet rationem pene 
+      <lb ed="#A" n="100"/>tantum. vt fames sitis et huiusmodi. Et de talibus consimiliter et 
+      di<lb ed="#A" n="101" break="no"/>cendum sicut de primis. Item quedam passio oritur ex 
+      <lb ed="#A" n="102"/>corruptione nature que habet non tantum rationem pene. sed 
+      <lb ed="#A" n="103"/>etiam viciositatis sicut sunt inordinateaffectiones 
+      <lb ed="#A" n="104"/>anime que consurgunt ex morbo concupiscentie vt motus 
+      sen<lb ed="#A" n="105" break="no"/>suales vel ire vel inuidie.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e211">
+      ¶ Denique ad hoc 
+      Ter<lb ed="#A" n="106" break="no"/>tio quedam passio oritur ab intrinseco ex conuersione 
+      <lb ed="#A" n="107"/>voluntatis libere. Et hec dupliciter. quoniam aliquando ex 
+      bo<lb ed="#A" n="108" break="no"/>no zelo sicut cum quis irascitur contra peccatum. Et sic 
+      ta<lb ed="#A" n="109" break="no"/>les passiones sunt iuste et meritorie. aliquando autem 
+      <!--382.xml-->
+      <pb ed="#A" n="383"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>irrationabiliter et malo motu voluntatis. et tunc 
+      <lb ed="#A" n="2"/>sunt culpabiles sed non semper habent plenam ratio 
+      <lb ed="#A" n="3"/>nem mortalis culpe. imo aliquando venialia sunt 
+      <lb ed="#A" n="4"/>peccata. Quando autem sic vel sic discernendum est si volum 
+      <lb ed="#A" n="5"/>tas consentit deliberate in aliquam passionem 
+      vicio<lb ed="#A" n="6" break="no"/>sam vel motum ita quod vult aliquid contra dei vel 
+      pro<lb ed="#A" n="7" break="no"/>ximi charitatem. et ex hoc voluntarie tristatur vel 
+      <lb ed="#A" n="8"/>irascitur aut afflcitur inordinate. tunc est morta 
+      <lb ed="#A" n="9"/>le peccatum. In his autem que non sunt contra charitatem 
+      <lb ed="#A" n="10"/>vt plurimum veniale est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h118204-Dd1e251">
+               <head xml:id="Vn7Pel-h118204-Hd1e253">2</head>
+               <p xml:id="Vn7Pel-h118204-d1e255">
+                  <lb ed="#A" n="11"/>¶ Utrum ex passione que est 
+      infir<lb ed="#A" n="12" break="no"/>mitas anime alleuietur peccatum: Respondetur secundum 
+      <lb ed="#A" n="13"/>Rich. super. <ref xml:id="Vn7Pel-h118204-Rd1e263">ii distin. xxii. q. vltima.</ref> quod infirmitas 
+      <lb ed="#A" n="14"/>anime dicitur vel fragilitas. quando ex 
+      concupiscen<lb ed="#A" n="15" break="no"/>tia vel passione anima inclinatur ad intensius vo 
+      <lb ed="#A" n="16"/>lendum aliquid. Unde passioneo sunt infirmitates 
+      <lb ed="#A" n="17"/>anime. vt dicit <ref xml:id="Vn7Pel-h118204-Rd1e274">Tullius. iiii.</ref> lib. de tusculanis 
+      quae<lb ed="#A" n="18" break="no"/>stionibus. Et talis infirmitas est sepius causa 
+      <lb ed="#A" n="19"/>peccati. secundum <ref xml:id="Vn7Pel-h118204-Rd1e281">Isido. ii lib. de summo bono. c. xvii.</ref>
+                  <lb ed="#A" n="20"/>Quoniam anima est infirma quando vincitur per 
+      con<lb ed="#A" n="21" break="no"/>cupiscentiam vt inclinetux ad intensius 
+      volen<lb ed="#A" n="22" break="no"/>dum aliquid inordinate.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e290">
+      ¶ Dicendum ergo secundum 
+      <lb ed="#A" n="23"/>eundem <name xml:id="Vn7Pel-h118204-Nd1e294">Rich</name>. supra. Primo quod infirmitas 
+      al<lb ed="#A" n="24" break="no"/>leuiat peccatum cum se habet ad ipsum antecedente 
+      <lb ed="#A" n="25"/>quia passio in appetitu sensitiuo existens qua 
+      ca<lb ed="#A" n="26" break="no"/>ro concupiscit aduersus spiritum. ad <ref xml:id="Vn7Pel-h118204-Rd1e303">Gal. v.</ref> impellitr 
+      <lb ed="#A" n="27"/>qudammodo ipsam animam et per talem impulsum infirmatur anima 
+      <lb ed="#A" n="28"/>vt minus possit exire in operationem suam siue 
+      dis<lb ed="#A" n="29" break="no"/>ficilius. licet cogi per carnis concupiscentiam non 
+      pos<lb ed="#A" n="30" break="no"/>sit: tamen ex inclinatione ad illam debilitatur. Sicut 
+      ocu<lb ed="#A" n="31" break="no"/>lus dicitur infirmari cum non tamclare exire potest ad 
+      vi<lb ed="#A" n="32" break="no"/>dendum Itaque passio huiusmodi antecedenter se habens ac 
+      <lb ed="#A" n="33"/>peccatum ipsum alleuiat. licet non in toto sed a tanto. quia 
+      <lb ed="#A" n="34"/>tanto minus per impulsum passionis anima est in 
+      mera<lb ed="#A" n="35" break="no"/>sua libertate quanto magis impellitur passione. Sed 
+      <lb ed="#A" n="36"/>tamen si passio se habet ad peccatum concommunitanter vel subsequentir 
+      <lb ed="#A" n="37"/>tunc non alleuiat peccatum. Hec <name xml:id="Vn7Pel-h118204-Nd1e329">Rich</name>. Unde <ref xml:id="Vn7Pel-h118204-Rd1e331">Isid. ii. 
+      li<lb ed="#A" n="38" break="no"/>de summo bo. c. xvii</ref> dicit quod grauius est peccare ex 
+      in<lb ed="#A" n="39" break="no"/>dustria quam ex infirmitate etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h118204-Dd1e340">
+               <head xml:id="Vn7Pel-h118204-Hd1e342">3</head>
+               <p xml:id="Vn7Pel-h118204-d1e344">
+                  <lb ed="#A" n="40"/>¶ An grauius sit peccare ex 
+      passi<lb ed="#A" n="41" break="no"/>pne scilicet infirmitatis quam ex igrantia. vel econuerso. Respondetur 
+      <lb ed="#A" n="42"/>secundum e. <ref xml:id="Vn7Pel-h118204-Rd1e352">Rich. e. di. xxii.</ref> circa litteram quod grauius est 
+      pec<lb ed="#A" n="43" break="no"/>care ex infirmitate quam ex ignorantia. quia ceteris 
+      pari<lb ed="#A" n="44" break="no"/>bus plus excusat ignorantia et per consequens plus alleuiat 
+      <lb ed="#A" n="45"/>quam infirmitas. eo quod ignorantia plus tollit de ratione 
+      <lb ed="#A" n="46"/>voluntarii. Nam tollit cognitionem particularium circa qu 
+      <lb ed="#A" n="47"/>consistit operatio bona vel mala. Infirmitas vero 
+      di<lb ed="#A" n="48" break="no"/>minuit de motu proprie voluntatis sub ratione qua 
+      libera<lb ed="#A" n="49" break="no"/>non tamen totaliter tollit. Potest tamen esse tanta infirmitas 
+      <lb ed="#A" n="50"/>vel fragilitas et etiam igorantia tam parua et tam 
+      volunta<lb ed="#A" n="51" break="no"/>ria quod plus excusaret infirmitas quam igrorantia
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e375">
+      ¶ Ex 
+      <lb ed="#A" n="52"/>his patet quid dicendum sit. Si quaeratur an homo percuties 
+      ho<lb ed="#A" n="53" break="no"/>minem ex ebrietate ignorans grauius peccet quam 
+      percuti<lb ed="#A" n="54" break="no"/>ens ex ire vel furie passione scient etc. Item 
+      fragili<lb ed="#A" n="55" break="no"/>tas etiam ex coactione metus qui potest cadere in constante 
+      ex<lb ed="#A" n="56" break="no"/>cusat a toto secundum canonistas etc. 
+      </p>
+               <p xml:id="Vn7Pel-h118204-d1e388">
+      <!--382.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>¶ De lgnorantia excusante peccatum 
+      <lb ed="#A" n="58"/>vide vbi <ref xml:id="Vn7Pel-h118204-Rd1e398">Peccatum. §. x. e. xi. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h118204-Dd1e402">
+               <head xml:id="Vn7Pel-h118204-Hd1e404">4</head>
+               <p xml:id="Vn7Pel-h118204-d1e406">
+                  <lb ed="#A" n="59"/>¶ Utrum passio bona augeat 
+      me<lb ed="#A" n="60" break="no"/>rstum. et per oppositum passio inclinans ad malum: 
+      auge<lb ed="#A" n="61" break="no"/>at demeritum.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e415">
+      ¶ Et Arguitur quod sic. quia homo tanto magis 
+      <lb ed="#A" n="62"/>meretur quanto maiori compassione pauperi sbuenit. ergo est 
+      <lb ed="#A" n="63"/>per oppositum de demerito in peccato per maximam topicam 
+      <lb ed="#A" n="64"/>Sicut propositum in proposito. sic oppositum in 
+      opposi<lb ed="#A" n="65" break="no"/>to.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e426">
+      ¶ Respondet Rich. supra quod bona passio: si antecedens sent 
+      <lb ed="#A" n="66"/>voluntatis motum: non auget meritum scilicet si est sequens 
+      <lb ed="#A" n="67"/>bene auget vel potius est signum perfectionis motus 
+      vo<lb ed="#A" n="68" break="no"/>luntatis et ex consenti signum magnitudinis meriti Nam 
+      <lb ed="#A" n="69"/>ex voluntate est principium merendi. ergo passio antecedens 
+      <lb ed="#A" n="70"/>voluntatem non est vt sic meritoria sicut nec motus 
+      na<lb ed="#A" n="71" break="no"/>turalis. Simili modo passio inclinans ad malum si 
+      ante<lb ed="#A" n="72" break="no"/>cedit voluntatem: vt sic non est demeritoria. vt patuit 
+      <lb ed="#A" n="73"/>supra. Sed si sequitur vel concomitatur est demeritoria 
+      <lb ed="#A" n="74"/>ex consensu. et sic patent obiecta.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e448">
+      ¶ Si quaeratur de Apa 
+      <lb ed="#A" n="75"/>tia sic dicta grece. quae est latine caretia passionum vet 
+      <lb ed="#A" n="76"/>impassibilitas. dicit <ref xml:id="Vn7Pel-h118204-Rd1e454">Aug. xiiii.</ref> de ciui. dei quod in 
+      sta<lb ed="#A" n="77" break="no"/>tu huius vite non habet locum apatia id est sine affectione 
+      pas<lb ed="#A" n="78" break="no"/>siqunis viuere. vel ad bonum vel ad malum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h118204-Dd1e463">
+               <head xml:id="Vn7Pel-h118204-Hd1e465">5</head>
+               <p xml:id="Vn7Pel-h118204-d1e467">
+                  <lb ed="#A" n="79"/>¶ Quid de passione gaudi: siue 
+      <lb ed="#A" n="80"/>in bono siue in malo.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e474">
+      ¶ De hoc notandum secundum <ref xml:id="Vn7Pel-h118204-Rd1e476">Guil. 
+      <lb ed="#A" n="81"/>in. ii lib. senten. di. xi.</ref> quod sicut commentator <name xml:id="Vn7Pel-h118204-Nd1e481">
+      Eustra<lb ed="#A" n="82" break="no"/>cius</name> et <name xml:id="Vn7Pel-h118204-Nd1e486">Michael Ephesii.</name> liro Ethicorum dicunt 
+      Gau<lb ed="#A" n="83" break="no"/>dium est quaedam nature floritio et supereffloritio: spiri 
+      <lb ed="#A" n="84"/>tum recreans Item ista tria differunt. Gaudium 
+      <lb ed="#A" n="85"/>Leticia et exultatio. Nam primum scilicet gaudium sonat 
+      <lb ed="#A" n="86"/>quandam anime passionem consequentem actum 
+      <lb ed="#A" n="87"/>intensum amoris. Sed leticia super huiusmodi 
+      <lb ed="#A" n="88"/>gaudium addit quandam dilatationem motum 
+      <lb ed="#A" n="89"/>virium interiorum. Inde leticia dicta est quasi lati 
+      <lb ed="#A" n="90"/>cia:. quia animam quasi latam facit vires 
+      exten<lb ed="#A" n="91" break="no"/>dendo interiores. Rursus exultatio addit super 
+      <lb ed="#A" n="92"/>gaudium et leticiam quemdam motum exteriorem: id quod in 
+      <lb ed="#A" n="93"/>corde erat insinuantem Ideo dicitur exultatio 
+      quasi<lb ed="#A" n="94" break="no"/>extra saltatio. Itaque gaudium est passio 
+      concu<lb ed="#A" n="95" break="no"/>piscibilis sicuti et delectatio et desiderium. Sed 
+      difi<lb ed="#A" n="96" break="no"/>ferunt in hoc. quia desiderium est futuri. quia est respe 
+      <lb ed="#A" n="97"/>ctu non habiti. delectatio autem magis est praeteriti. quia 
+      <lb ed="#A" n="98"/>delectatio est coniunctio conuenientis cum 
+      conuenie<lb ed="#A" n="99" break="no"/>ti: ita quod exigit vnionem prius factam. Gaudium autem 
+      <lb ed="#A" n="100"/>magis est de praesenti Unde iudicandum est de 
+      passio<lb ed="#A" n="101" break="no"/>ne gaudii quo ad meriti vel demeriti augmentum 
+      <lb ed="#A" n="102"/>sicut dictum est proximo. §. iiii. videlicet si habet se 
+      antece<lb ed="#A" n="103" break="no"/>denter vel consequenter vel concomitanter. quo ad 
+      vo<lb ed="#A" n="104" break="no"/>luntatis motum etc.
+     </p>
+               <p xml:id="Vn7Pel-h118204-d1e537">
+      ¶ Ad hec vbi <ref xml:id="Vn7Pel-h118204-Rd1e539">Ratio. §. xii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h118204-Dd1e543">
+               <head xml:id="Vn7Pel-h118204-Hd1e545">6</head>
+               <p xml:id="Vn7Pel-h118204-d1e547">
+                  <lb ed="#A" n="105"/>¶ Quid de passionis diffinitione 
+      <lb ed="#A" n="106"/>et diuisione in generali. Nota secundum Damas. lib. ii 
+      <lb ed="#A" n="107"/>Passio est aut corporalis vt e. itudo et 
+      vulne<lb ed="#A" n="108" break="no"/>ra. aut animalis quae est motus anime: per suspicionem bonti 
+      <lb ed="#A" n="109"/>quae mouet concupiscentiam. vel mali quae mouet iram vel 
+      <lb ed="#A" n="110"/>tristiciam. Item passio inquit non est dolor sed 
+      pas<lb ed="#A" n="111" break="no"/>sionis sensus. 
+      </p>
+               <p xml:id="Vn7Pel-h118204-d1e565">
+      <!--383.xml-->
+                  <pb ed="#A" n="384"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ E dei bonitas est laudabilis in 
+      <lb ed="#A" n="2"/>supportando peccatores: tum grauissima sint peccata 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

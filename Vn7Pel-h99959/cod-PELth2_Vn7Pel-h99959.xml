@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mel et cera</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Mel et cera</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="324"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h99959">
+            <head xml:id="Vn7Pel-h99959-Hd1e110">Mel et cera</head>
+            <div xml:id="Vn7Pel-h99959-Dd1e112">
+               <head xml:id="Vn7Pel-h99959-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h99959-d1e116">
+                  <lb ed="#A" n="102"/>ex El et cera. Que 
+      <lb ed="#A" n="103"/>(stio. Unde producitur mel: Notandum secundum 
+      <lb ed="#A" n="104"/>Auicen. vbi loquitur de simplicibus me¬ 
+      </p>
+               <p xml:id="Vn7Pel-h99959-d1e125">
+                  <lb ed="#A" n="105"/>¶ Ucinis: ac Diasco. Mellium sunt duo genera: 
+      </p>
+               <p xml:id="Vn7Pel-h99959-d1e130">
+                  <lb ed="#A" n="106"/>¶ Primum dicitur Naturale videlicet quod in aere concrescit 
+      <lb ed="#A" n="107"/>naturaliter. Est enim occultus ros vel sucus roris ccle¬ 
+      <!--324.xml-->
+      <pb ed="#A" n="325"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>stis tadens super flores et alias plantas vel 
+      arbo<lb ed="#A" n="2" break="no"/>res quem apes colligunt. Et aliquando est ros 
+      manife<lb ed="#A" n="3" break="no"/>stus quem colligere possunt homines. Et eodem modo 
+      <lb ed="#A" n="4"/>fit generatio mannatis. De quo vide vbi <ref xml:id="Vn7Pel-h99959-Rd1e151">Impressiones 
+      <lb ed="#A" n="5"/>§. xii.</ref> Unde talis substantia humoris in aere sic ros virtu 
+      <lb ed="#A" n="6"/>te nature producitur et virtutem contrahit ab eo super quod 
+      <lb ed="#A" n="7"/>cadit descendens rori permixtus ac residens in her 
+      <lb ed="#A" n="8"/>bis: frugibus: et floribus. Et ita ex variis collectus 
+      tem<lb ed="#A" n="9" break="no"/>perat saporem in rebus. ideoque omnibus valitudinibus 
+      <lb ed="#A" n="10"/>proficiens: omnibus antidotis miscetur.
+     </p>
+               <p xml:id="Vn7Pel-h99959-d1e168">
+      ¶ Sed Nota quod 
+      <lb ed="#A" n="11"/>secundum e. Auicem. supra. ii liro canonis. Herbas super quas 
+      ca<lb ed="#A" n="12" break="no"/>dit huiusmodi ros: animalia praecipue oues vehennti 
+      come<lb ed="#A" n="13" break="no"/>dunt appetitu. Et quia mel non decoctum soluit ventrem: 
+      <lb ed="#A" n="14"/>ideo oues multum de eo comedentes fluxu ventrs 
+      <lb ed="#A" n="15"/>moriuntur. et cum sit calidum et siccum: nutrit choleram 
+      <lb ed="#A" n="16"/>in eis. ideoque morbide frequenter efficiuntur. Unde 
+      <lb ed="#A" n="17"/>pastores periti tempus obseruant cum mella decidunt et 
+      <lb ed="#A" n="18"/>oues ad pascua exire non sinunt quousque radiis 
+      so<lb ed="#A" n="19" break="no"/>lis in aere humor mellis ex herbis transferatur. 
+      </p>
+               <p xml:id="Vn7Pel-h99959-d1e191">
+                  <lb ed="#A" n="20"/>¶ Secundum genus mellis dicitur artificiale. videlicet quod apum 
+      <lb ed="#A" n="21"/>labore et arte equidem et natura compontur. Unde secundum 
+      <lb ed="#A" n="22"/>Isid. li. xx. Ety. ab apibus grece mel nomen habere 
+      pro<lb ed="#A" n="23" break="no"/>batur. Nam apis grece mellese dicitur. Et secundum Plinium 
+      li<lb ed="#A" n="24" break="no"/>xi. ac Arist. Apes faciunt mel ordine huiusmodi. 
+      Pri<lb ed="#A" n="25" break="no"/>mo a floribus sugen materiam: ceram fingunt. cellas 
+      <lb ed="#A" n="26"/>ex cera faciendo: fauos construunt: qui sunt dulces et 
+      sa<lb ed="#A" n="27" break="no"/>pidi: quia mel intra ceram continent. Deinde domos 
+      <lb ed="#A" n="28"/>per suis regibus construunt. deinde proles. postea mella 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h99959-Dd1e214">
+               <head xml:id="Vn7Pel-h99959-Hd1e216">2</head>
+               <p xml:id="Vn7Pel-h99959-d1e218">
+                  <lb ed="#A" n="29"/>¶ Quid de Cera et qualiter sit 
+      <lb ed="#A" n="30"/>discernenda cera melior: Dicendum secundum Bedam libro t 
+      <lb ed="#A" n="31"/>nat. re. et Plinium li. xxi. et Diascor. aliosque: Quod in 
+      <lb ed="#A" n="32"/>cera fauus latet quae pura est et odorifera. pabulum 
+      lu<lb ed="#A" n="33" break="no"/>minis: mollis est et fragilis: indurata ad ignem 
+      <lb ed="#A" n="34"/>mollescit et quamlibet formam impressam recipit scilicet lirt 
+      <lb ed="#A" n="35"/>tere vel sigilli. Fit autem cera expressis fauis: sed ante 
+      <lb ed="#A" n="36"/>aquis purificatis ac postea in tenebris triduo 
+      sicca<lb ed="#A" n="37" break="no"/>tis.
+     </p>
+               <p xml:id="Vn7Pel-h99959-d1e240">
+      ¶ Item optima cera est et vtilissima pro medicinis 
+      <lb ed="#A" n="38"/>quae est rufa et pinguis et odorata mellis odorem 
+      ha<lb ed="#A" n="39" break="no"/>bens et munda: vt est pontica natione etc. Alba 
+      ce<lb ed="#A" n="40" break="no"/>ra et pinguis secundam habet virtutem. Omnis autem apum 
+      <lb ed="#A" n="41"/>cera mollit et calefacit: recens melior est: in 
+      sorbitio<lb ed="#A" n="42" break="no"/>ne datur disentericis cum fauo ipso etc. Spiritualiter sic 
+      <lb ed="#A" n="43"/>gnificat Cera christi humanitate sine concubitu pro. 
+      <lb ed="#A" n="44"/>ductam in qua latuit fauus deitatis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h99959-Dd1e259">
+               <head xml:id="Vn7Pel-h99959-Hd1e261">3</head>
+               <p xml:id="Vn7Pel-h99959-d1e263">
+                  <lb ed="#A" n="45"/>¶ Quale mel eligendum probatur et 
+      <lb ed="#A" n="46"/>melius: Respondetur secundum Auicen. ii can. Plinium li. xi 
+      <lb ed="#A" n="47"/>ac Aristo. et Diascor. quod bonitatis mellis apum 
+      pro<lb ed="#A" n="48" break="no"/>batio est vt sit vere dulcedinis: boni odoris: quia 
+      <lb ed="#A" n="49"/>est simile auro: vt dicit Arist. et perlucidum. Item album 
+      me<lb ed="#A" n="50" break="no"/>lius est nigro: et glutinosum. Item mel capiendum 
+      <lb ed="#A" n="51"/>est sereno die in plenilunio. quia tunc vberius capitur et 
+      <lb ed="#A" n="52"/>pinguius. Uernale mel apum mundius est et dulcius 
+      <lb ed="#A" n="53"/>est et melius autumnali. Post vernale melius estiuum 
+      <lb ed="#A" n="54"/>Hyemale vero malum est. Item mel in vase secundum 
+      Pli<lb ed="#A" n="55" break="no"/>nium inferius mundius est quam superius. sed oleum 
+      ecom<lb ed="#A" n="56" break="no"/>uerso scilicet superius est mundius et melius. Similiter 
+      <lb ed="#A" n="57"/>aqua maris in summo: vnda maris dulcior est 
+      <!--324.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quam in imo: vt dicit Beda de imagine mundi. Sed 
+      <lb ed="#A" n="59"/>vinum in medio vasis est melius. Spiritualiter 
+      <lb ed="#A" n="60"/>Mel diuine dulcedinis et deuotionis si sit 
+      mun<lb ed="#A" n="61" break="no"/>dum inferius scilicet in corpore mundo per castitatem et 
+      pu<lb ed="#A" n="62" break="no"/>ritatem ab omni peccato: melius est quam in minus 
+      ca<lb ed="#A" n="63" break="no"/>sto: vel minus mundo ab inferiorum delectatione etc. 
+      <lb ed="#A" n="64"/>Oleum autem misericordie et aquae maris id est compunctionis 
+      meli<lb ed="#A" n="65" break="no"/>us est si fiant intuitu superiorum id est dei scilicet pure propter 
+      <lb ed="#A" n="66"/>deum. Sed vinum leticie de quo Psalmus Uinum letificat 
+      <lb ed="#A" n="67"/>cor hominis. debet medium tenere. Nam letari in 
+      in<lb ed="#A" n="68" break="no"/>ferioribus feces habet peccatorum. In superioribus 
+      <lb ed="#A" n="69"/>etiam leticiam: si non sit cauta vel timore 
+      reue<lb ed="#A" n="70" break="no"/>rentiali moderata: superbia vel dissolutio 
+      comi<lb ed="#A" n="71" break="no"/>tatur etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h99959-Dd1e329">
+               <head xml:id="Vn7Pel-h99959-Hd1e331">4</head>
+               <p xml:id="Vn7Pel-h99959-d1e333">
+                  <lb ed="#A" n="72"/>¶ Quid de valore mellis vel 
+      vir<lb ed="#A" n="73" break="no"/>tute medicinali: Nota secundum Amb. in hexam. 
+      Ari<lb ed="#A" n="74" break="no"/>sto. Auicen. ii cano. Plinium li. xi. xx. xxix. Item Con 
+      <lb ed="#A" n="75"/>stam. in pantheg. Diascor. et alios colligendo. Mel 
+      <lb ed="#A" n="76"/>apum vulnera curat: illinitum: fauces sanat: prohibet 
+      <lb ed="#A" n="77"/>putrefactionem corporis. Unde persica et cerasa ac huiusmodi 
+      <lb ed="#A" n="78"/>corruptibilia optime seruantur in melle. et 
+      linimen<lb ed="#A" n="79" break="no"/>tum ex eo factum prohibet ac interficit pediculos et 
+      le<lb ed="#A" n="80" break="no"/>des: abstergit tenebrositatem visus: senioribus 
+      bo<lb ed="#A" n="81" break="no"/>num sanguinem generat. Item mel in quo apes 
+      mor<lb ed="#A" n="82" break="no"/>tue sunt vel stant valet contra venena etc
+     </p>
+               <p xml:id="Vn7Pel-h99959-d1e359">
+      ¶ Sic 
+      <lb ed="#A" n="83"/>spiritualiter deuotionis dulcedo talia efficit et 
+      de<lb ed="#A" n="84" break="no"/>uotio que mortem christi vel sui id est hominis recolit 
+      com<lb ed="#A" n="85" break="no"/>tra peccata valet. Item mel crudum manducantibus 
+      <lb ed="#A" n="86"/>inflationem et ventositatem generat. etsi nimis 
+      suma<lb ed="#A" n="87" break="no"/>tur valde nocet: Prouer. xxv. Coctum autem mel 
+      si<lb ed="#A" n="88" break="no"/>ne aqua et despumatum: minus habet acuminis et 
+      nocu<lb ed="#A" n="89" break="no"/>menti prae ceteris crudis. Sed mel cum aqua multa 
+      co<lb ed="#A" n="90" break="no"/>ctum pectoris asperitatem lenit: et non inflat: nec 
+      vomi<lb ed="#A" n="91" break="no"/>tum prouocat. Item aqua mulsa id est melle dulcorata 
+      <lb ed="#A" n="92"/>que dicitur mulsum quasi ex melle mixtum secundum Isi. 
+      <lb ed="#A" n="93"/>lir. xx. est potio ex aqua et melle quam greci vocant 
+      <lb ed="#A" n="94"/>Mellicratum. egrotantium cibis valet ardores 
+      re<lb ed="#A" n="95" break="no"/>frigerando: anhelitum lenit: ventrem mollit: et tussi 
+      <lb ed="#A" n="96"/>confert. Sed mulsum ex vino veteri est 
+      vtilissi<lb ed="#A" n="97" break="no"/>mum: reuocut cibi appetitum: et multis longam auget 
+      <lb ed="#A" n="98"/>senectam: aluum mollit potu frigido pluribus sed ca 
+      <lb ed="#A" n="99"/>lido sistit. Applica de deuotione. et de mellea aqua 
+      <lb ed="#A" n="100"/>sapientie salutaris qua potat suos dominus deus ex 
+      bo<lb ed="#A" n="101" break="no"/>nitate sua etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h99959-Dd1e405">
+               <head xml:id="Vn7Pel-h99959-Hd1e407">5</head>
+               <p xml:id="Vn7Pel-h99959-d1e409">
+                  <lb ed="#A" n="102"/>¶ Quid sit mel siluestre De quo 
+      <lb ed="#A" n="103"/>Matth. iii. dicitur quod esca Ioannis baptiste erat 
+      lo<lb ed="#A" n="104" break="no"/>custa et mel siluestre. Glosa et Lyra ibidem dicit quod 
+      <lb ed="#A" n="105"/>mel siluestre dicitur illud mel quod inuenitur in truncis 
+      <lb ed="#A" n="106"/>arborum: quod quidem mel in iudee terra vel deserto 
+      in<lb ed="#A" n="107" break="no"/>uenitur abunde. Quandoque etiam in petrarum caueis 
+      <lb ed="#A" n="108"/>Iuxta illud Deut. xxxii. Ut sugerent mel de petra 
+      <lb ed="#A" n="109"/>oleumque de saxo durissimo. quia ibi vt Lyra dicit 
+      <lb ed="#A" n="110"/>in saxis crescunt oliue ex quibus fit oleum. Unde 
+      ter<lb ed="#A" n="111" break="no"/>ra promissionis dicitur terra lacte et melle manans. 
+      <lb ed="#A" n="112"/>Item secundum Rabanum inueniuntur ibi folia arborum 
+      <lb ed="#A" n="113"/>alba et tenera que manibus contrita habent 
+      sapo<lb ed="#A" n="114" break="no"/>rem quasi mellis quo Ioannes vtebatur. Sed locuste¬ 
+      <!--325.xml-->
+      <pb ed="#A" n="326"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>vt dicit: sunt parua animalia volitantia per modum 
+      <lb ed="#A" n="2"/>saltus in partibus illis: et eduntur a pauperibus 
+      fri<lb ed="#A" n="3" break="no"/>xa ouandoque oleo etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

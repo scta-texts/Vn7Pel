@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bellum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Bellum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="116"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h35450">
+            <head xml:id="Vn7Pel-h35450-Hd1e110">Bellum</head>
+            <p xml:id="Vn7Pel-h35450-d1e112">
+               <lb ed="#A" n="66"/>¶ Bellum. De hoc 
+      <lb ed="#A" n="67"/>questio philosophica sufficiat. Qualia 
+      ani<lb ed="#A" n="68" break="no"/>malia bella et casum mortis 
+      homi<lb ed="#A" n="69" break="no"/>num habent presentire. Respondet primo 
+      Am<lb ed="#A" n="70" break="no"/>brosius in hexameron dicit. Quod vultures mortem 
+      <lb ed="#A" n="71"/>hominum solent quibusdam signis annunciare. 
+      <lb ed="#A" n="72"/>Cum enim lachrymabile bellum aues inter se 
+      <lb ed="#A" n="73"/>aduerse instruunt multoque vultures sequuntur 
+      <lb ed="#A" n="74"/>agmine: eo signant quod multitudo hominum bello 
+      <lb ed="#A" n="75"/>casura sit futura preda vulturibus. Hec ille. 
+      <lb ed="#A" n="76"/>Secundo ad hec Rabanus etiam super Leuitur. 
+      <lb ed="#A" n="77"/>dicit. Quod vultures gaudent bellis propter 
+      cadaue<lb ed="#A" n="78" break="no"/>ra preliorum ideoque sequuntur exercitum. Et vt 
+      <lb ed="#A" n="79"/>Hierony. in orig. super Matth. dicit. Aquile et 
+      <lb ed="#A" n="80"/>vultures transmarina dicuntur sentire 
+      cadaue<lb ed="#A" n="81" break="no"/>ra plus. quam per. zoo. miliaria ideo ad escam 
+      con<lb ed="#A" n="82" break="no"/>gregantur. Sed huiusmodi signa quecumque non 
+      <lb ed="#A" n="83"/>sunt certa quia cadauera cadent vel ex altera 
+      qua<lb ed="#A" n="84" break="no"/>cunque aduersorum parte indifferenter vel vtraque. 
+      <lb ed="#A" n="85"/>Propterea maxime presentiunt bella tertio 
+      <lb ed="#A" n="86"/>equi. Ut dicitur Iob. xxxix. Quod equus procul 
+      odo<lb ed="#A" n="87" break="no"/>ratur bellum: et exhortationem ducum et vlulatum 
+      <lb ed="#A" n="88"/>exercitus. Ibique prout exponit Lyra. Nimirum 
+      <lb ed="#A" n="89"/>de equo plura mira scribuntur que sibi deus in 
+      <lb ed="#A" n="90"/>didit. Primo quod equus est mirabilis 
+      fortitudi<lb ed="#A" n="91" break="no"/>nis. Secundo mire agilitatis quia oneratus 
+      ar<lb ed="#A" n="92" break="no"/>mis ferreis equus: cum hoc faciliter portat armatum 
+      <lb ed="#A" n="93"/>militem quamuis habeat etiam corpus magnum et 
+      <lb ed="#A" n="94"/>ponderosum facit tamen magnos saltus vt 
+      lo<lb ed="#A" n="95" break="no"/>custa. sicuti ibidem dicit Iob. Tertio quod est mira 
+      <lb ed="#A" n="96"/>bilis audacie. Ideo subdit Glora narium eius terror: 
+      <lb ed="#A" n="97"/>quia bellum odorat quod est aliis terribile: et 
+      tamen<lb ed="#A" n="98" break="no"/>in hoc equus delectatur ideo terram vngula 
+      fo<lb ed="#A" n="99" break="no"/>dit ostendens quod desiderat equus ad hellum 
+      cur<lb ed="#A" n="100" break="no"/>rere. Exultat inquit audacter in occursum arma 
+      <lb ed="#A" n="101"/>tis pergit scilicet quandoque rapiendo sessorem in hoc 
+      <lb ed="#A" n="102"/>stes. Nec cedit inquit gladio sed contra euagina 
+      <lb ed="#A" n="103"/>tos gladios currit: super ipsum sonabit pharetra: 
+      <lb ed="#A" n="104"/>vibrabit hasta et clypeus. nec reputat tube 
+      sona<lb ed="#A" n="105" break="no"/>re clangorem: feruens impetu et fremens 
+      hinni<lb ed="#A" n="106" break="no"/>tu etc. Omnia quippe ista percipit equus natura 
+      <lb ed="#A" n="107"/>li industria a deo sibi data: nec terretur sed 
+      ma<lb ed="#A" n="108" break="no"/>gis delectatur. Hec autem deus dedit equo et 
+      <lb ed="#A" n="109"/>sua bonitate vt sit in adiutorium hominum non solum 
+      <lb ed="#A" n="110"/>ad vecturam sed etiam ad defensionem reipublice. Hec 
+      <lb ed="#A" n="111"/>Lyra. Et nota secundum Uincen. in speculo quod tali no¬ 
+      <!--116.xml-->
+      <pb ed="#A" n="117"/>
+               <cb ed="#A" n="a"/>
+               <lb ed="#A" n="1"/>bilitate vigent equi praecipue in scythia et 
+      cappado<lb ed="#A" n="2" break="no"/>cia. Uerumtamen bellantes non debent confidere 
+      in<lb ed="#A" n="3" break="no"/>fortitudine equorum aut multitudine exercitus sed 
+      <lb ed="#A" n="4"/>pre omnibus in deo qui solus dat victoriam. Utd 
+      <lb ed="#A" n="5"/>testatur scriptura Psal. xxxii. Non saluatur rex 
+      per<lb ed="#A" n="6" break="no"/>multam virtutem et gigas in multitudine etc. Fallax 
+      <lb ed="#A" n="7"/>equus ad salutem etc. Ecce oculi domini super 
+      timen<lb ed="#A" n="8" break="no"/>tes eum et in eis qui sperant super misericordia 
+      <lb ed="#A" n="9"/>cius. Proinde quando perpendunt bellantes aliqua si 
+      <lb ed="#A" n="10"/>gna vel imminere conflictum belli debent se 
+      praepa<lb ed="#A" n="11" break="no"/>rare per penitentiam et soli deo tribuere victoriam. 
+      </p>
+            <p xml:id="Vn7Pel-h35450-d1e245">
+               <lb ed="#A" n="12"/>¶ Quod bonitas dei laudabilis est 
+      <lb ed="#A" n="13"/>pro benedictione quam confert suis et pro iusta peccato 
+      <lb ed="#A" n="14"/>rum maledictione. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mundus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Mundus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="333"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h102828">
+            <head xml:id="Vn7Pel-h102828-Hd1e110">Mundus</head>
+            <div xml:id="Vn7Pel-h102828-Dd1e112">
+               <head xml:id="Vn7Pel-h102828-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h102828-d1e116">
+                  <lb ed="#A" n="76"/>¶ Ndua. Unde 
+      <lb ed="#A" n="77"/>sic nominatur: Respondetur secundum Isid. xiii. 
+      Ety<lb ed="#A" n="78" break="no"/>molo. quod mundus latine a philosophis dicius 
+      <lb ed="#A" n="79"/>est eo quod in sempiterno moum si scilicet mutationis. Apud 
+      <lb ed="#A" n="80"/>grecos autem appellatur Cosmos id est ornamentum propter 
+      <lb ed="#A" n="81"/>diuersitatem elementorum et pulcritudinem ornatus 
+      side<lb ed="#A" n="82" break="no"/>rum quibus pulcrius nil aspicimus oculis
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e134">
+      ¶ Sed cum 
+      mun<lb ed="#A" n="83" break="no"/>dus dicatur a motu: eo quod semper mouetur nec vllam requiem 
+      <lb ed="#A" n="84"/>habet in elementis quattuor: quare non scribitur per o in 
+      pri<lb ed="#A" n="85" break="no"/>ma syllaba sicut motus sed per v: Dicitur libro Catholi 
+      <lb ed="#A" n="86"/>con quod mundus quamuis deriuctur a motu: tamen sepe littera 
+      <lb ed="#A" n="87"/>quae est in simpsici dictione mutatur in composito: vt 
+      le<lb ed="#A" n="88" break="no"/>go: colligo. Et quia superior vel dignior pars mundi 
+      <lb ed="#A" n="89"/>visibilis scilicet firmamentum praecipue existens in motum est 
+      <lb ed="#A" n="90"/>purum et mundum nil habens terrene fecis vel grauitatis 
+      <lb ed="#A" n="91"/>a quo tanquam ab excellenti mundus denominatur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e157">
+               <head xml:id="Vn7Pel-h102828-Hd1e159">2</head>
+               <p xml:id="Vn7Pel-h102828-d1e161">
+                  <lb ed="#A" n="92"/>¶ Quid de figura et partibus mundi. 
+      <lb ed="#A" n="93"/>Nota quod sicut Plinius li. ii in historia nat. et 
+      Beda<lb ed="#A" n="94" break="no"/>libro de imag. mum. dicit. Mundi forma in speciem orbis 
+      glo<lb ed="#A" n="95" break="no"/>bata est et rotunda instar pomi: sed elementis disticta 
+      <lb ed="#A" n="96"/>ad instar oui: vt et nomen et etiam argumenta rerum 
+      edo<lb ed="#A" n="97" break="no"/>cent. et patuit vbi <ref xml:id="Vn7Pel-h102828-Rd1e176">Celum. §. </ref>. et se. Nam et secundum Guil. dcei 
+      <lb ed="#A" n="98"/>Conchis. Sicut in ouo inquit in medio oui videmus esse 
+      <lb ed="#A" n="99"/>meditullium ex cuius omni parte est albumen: circa quod 
+      te<lb ed="#A" n="100" break="no"/>la: circa quam testa circundans extra quam nil oui est. 
+      <lb ed="#A" n="101"/>Ita in medio modi est terra et circa eam ex omni parte fluit aqua 
+      <lb ed="#A" n="102"/>circa quam aer: et ignis supra aerem: et circa ignem caelum: 
+      <lb ed="#A" n="103"/>extra quod nile scilicet extra vltimum caelum: vt dicit est Aris. dci ce. 
+      <lb ed="#A" n="104"/>et mum. Denique de modi plagis quattuor et cliatibus et de 
+      <lb ed="#A" n="105"/>axibus seu cardibus et huiusmodi pluribus habter vbi <ref xml:id="Vn7Pel-h102828-Rd1e195">Celum. §. 1</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e199">
+               <head xml:id="Vn7Pel-h102828-Hd1e201">3</head>
+               <p xml:id="Vn7Pel-h102828-d1e203">
+                  <lb ed="#A" n="106"/>¶ Quid de mudi diuisione in tres 
+      <lb ed="#A" n="107"/>partes quae dicuntur Asia: Aphrica: et Europa: Respondetur 
+      <!--333.xml-->
+      <pb ed="#A" n="334"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>dicendo cum Isid. xiii. Etymo. quod orbis in tres 
+      par<lb ed="#A" n="2" break="no"/>tes non equaliter diuisus est. Nam Asia a meridies 
+      <lb ed="#A" n="3"/>per orientem vsque ad septentrionem peruenit. Europa 
+      <lb ed="#A" n="4"/>vero a septentrione ad occidentem. Et inde Africa 
+      <lb ed="#A" n="5"/>vsque ad meridiem. Sicque medium orbem sola tenet 
+      <lb ed="#A" n="6"/>asia. Alterum medium europa et africa. Que ideo 
+      <lb ed="#A" n="7"/>due facte sunt diuisim. quia inter vtrunque ab ocea 
+      <lb ed="#A" n="8"/>no mare magnum ingreditur quod eas intersecat. Hec 
+      <lb ed="#A" n="9"/>Isi. Iste autem mundi partes sic diuiduntur quantum ad 
+      <lb ed="#A" n="10"/>terram habitabilem vel eius zonas quae mediterra 
+      <lb ed="#A" n="11"/>neo mari diuiduntur secundum Bedam libro de imagine 
+      mun<lb ed="#A" n="12" break="no"/>di. Et de singulis in sequentibus vide
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e242">
+      ¶ Ad idem vbi 
+      <lb ed="#A" n="13"/>Noe. Et vbi <ref xml:id="Vn7Pel-h102828-Rd1e246">Terra. §. vii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e250">
+               <head xml:id="Vn7Pel-h102828-Hd1e252">4</head>
+               <p xml:id="Vn7Pel-h102828-d1e254">
+                  <lb ed="#A" n="14"/>¶ Asia secundum Isido. xiii. Etymo. 
+      <lb ed="#A" n="15"/>ac etiam Bedam libro de imma. mundi. et cum eis Lyram in 
+      <lb ed="#A" n="16"/>prologo. lir. Apoc. Alia est asia maior: dicta a nomine 
+      <lb ed="#A" n="17"/>cuiusdam regine que imperium tenuit orientis 
+      Hu<lb ed="#A" n="18" break="no"/>ius asie caput id est principium est paradisus loc 
+      <lb ed="#A" n="19"/>in orientis partibus Ex illa parte est hortus solis 
+      <lb ed="#A" n="20"/>Hec asia a parte meridionali oceano finitur. sed ab 
+      <lb ed="#A" n="21"/>occidentali parte mari nostro terminatur. A septentriona 
+      <lb ed="#A" n="22"/>li autem parte meothide lacum et Thamnai fluuio finitur 
+      <lb ed="#A" n="23"/>scilicet versus Scythiam Habet autem regiones multas 
+      <lb ed="#A" n="24"/>et prouincias scilicet Indiam Syriam Iudea Arabiam 
+      Pa<lb ed="#A" n="25" break="no"/>lestinam Gothiam et Scythiam. quae affluit auro et 
+      gen<lb ed="#A" n="26" break="no"/>mis: lapidibus et crystallis. sed griphorum 
+      immani<lb ed="#A" n="27" break="no"/>tate rarus est accessus hominum. et propter alias besti 
+      <lb ed="#A" n="28"/>as feroces scilicet lemones Multasque alias eius prouicias 
+      <lb ed="#A" n="29"/>transeo
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e291">
+      ¶ Alia est asia minor. quae ab oriente 
+      cap<lb ed="#A" n="30" break="no"/>padocia cingitur secundum Isi. et praefatos ab aliis partibus 
+      <lb ed="#A" n="31"/>vndique mari circundatur. Na ab occasu propontidem 
+      <lb ed="#A" n="32"/>habet. a septentrione pontum Ensinum. a meridie 
+      egy<lb ed="#A" n="33" break="no"/>ptum mare. In hac est Ephesus ciuitas in qua 
+      Io<lb ed="#A" n="34" break="no"/>annes euangelista praedicauit et scripsit ad septem 
+      ec<lb ed="#A" n="35" break="no"/>clesias. vt patet in Apocalis. et sunt ibi etiam plures 
+      <lb ed="#A" n="36"/>prouincie. vt Phrigia Galatia Troia Cilicia. in 
+      <lb ed="#A" n="37"/>qua et Tharsis Persidia Pamphilia et multe alie 
+      <lb ed="#A" n="38"/>Item Asia secundum Hierony. de interpreta. non hebrai. in 
+      <lb ed="#A" n="39"/>terpretatur eleuatio Ideoque sic dicta est terra illa. quia 
+      <lb ed="#A" n="40"/>illa pars modi est altior. vt dicitur liro Cathols. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e319">
+               <head xml:id="Vn7Pel-h102828-Hd1e321">5</head>
+               <p xml:id="Vn7Pel-h102828-d1e323">
+                  <lb ed="#A" n="41"/>Item Europa incipit a flumine 
+      <lb ed="#A" n="42"/>Thanai et Me othides palude. descendens ad 
+      <lb ed="#A" n="43"/>occasum per septentrionalem oceanumvsque ad 
+      <lb ed="#A" n="44"/>fines Hispanie. secundum Isi. et Bedam supra
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e334">
+      ¶ 
+      Hu<lb ed="#A" n="45" break="no"/>ius scilicet Europe prima regio est Scythia inferi 
+      <lb ed="#A" n="46"/>or. que a meothidis paludibus incipiens: versus 
+      <lb ed="#A" n="47"/>meridem vsque ad danubium et Germaniam 
+      por<lb ed="#A" n="48" break="no"/>rigitur. In hac Europa sunt iste prouincie. 
+      Pri<lb ed="#A" n="49" break="no"/>ma Alemania appellata ab alemano lacu. et ibi 
+      <lb ed="#A" n="50"/>danubius fluit ab eo vsque ad alpes
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e350">
+      ¶ Germa 
+      <lb ed="#A" n="51"/>nia dicitur a fecunditate gignendorum etc. Ibi est 
+      <lb ed="#A" n="52"/>Bauaria. Francia Thuringia Saxonia 
+      Me<lb ed="#A" n="53" break="no"/>sia Pannonia Bulgaria Constantinopolis 
+      Gre<lb ed="#A" n="54" break="no"/>cia in qua et Athena. Ibi Thessalia Achaia. Ibi 
+      <lb ed="#A" n="55"/>scilicet in Europa est Italia Dalmacia 
+      Longobar<lb ed="#A" n="56" break="no"/>dia Apulia Uenecia. Item Gallia Hispania. 
+      <!--333.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>Britannia Anglia Hybernia: multequam alie que 
+      <lb ed="#A" n="58"/>dimittuntur propter brevitatem
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e374">
+      ¶ Europa denomnina 
+      <lb ed="#A" n="59"/>ta est a filia regis Lydie nomine ECuropa. vel forte a 
+      <lb ed="#A" n="60"/>vento typhonico qui dicitur Eurus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e382">
+               <head xml:id="Vn7Pel-h102828-Hd1e384">6</head>
+               <p xml:id="Vn7Pel-h102828-d1e386">
+                  <lb ed="#A" n="61"/>¶ Item Aphrica incipit a 
+      fini<lb ed="#A" n="62" break="no"/>bus Egypti pergens iuxta meridie per Ethiopiam 
+      <lb ed="#A" n="63"/>vsque ad Atlantem montem secundum praenominatos doc. 
+      <lb ed="#A" n="64"/>Aphrica autem dicitur quasi aprica: eo quod aperta sit 
+      celo<lb ed="#A" n="65" break="no"/>vel soli et sine horrore frigoris. Huius prima pro 
+      <lb ed="#A" n="66"/>uincia est Libya. Inde Libycum mare. Deinde 
+      Pem<lb ed="#A" n="67" break="no"/>tapolis: Tripolis: Bizantium. Deinde Tensis in 
+      <lb ed="#A" n="68"/>qua magna Carthago. et Getulia in quae est 
+      Ipo<lb ed="#A" n="69" break="no"/>ne ciuitas in qua beatus Augustinus Epus 
+      exti<lb ed="#A" n="70" break="no"/>tit. Uersus vero meridiem est Ethiopia vbi solis 
+      <lb ed="#A" n="71"/>vicinitas torret et nigros facit colores 
+      populo<lb ed="#A" n="72" break="no"/>rum. In qua est vrbs vel regio Saba de qua 
+      <lb ed="#A" n="73"/>fuit regina Saba que venerat audire 
+      sapienti<lb ed="#A" n="74" break="no"/>am Salomonis. Sunt autem due Ethiopie 
+      <lb ed="#A" n="75"/>Una contra ortum solis. Altera contra occasum 
+      <lb ed="#A" n="76"/>in Mauritaina proxima Hispanie vbi fuit rex 
+      Ma<lb ed="#A" n="77" break="no"/>rochiorum qui martyrizauit quinque fratres 
+      mar<lb ed="#A" n="78" break="no"/>tyres ordinis Minorum. Hec sufficiant. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e428">
+                  <lb ed="#A" n="79"/>¶ Quo tempore anni Mundum 
+      <lb ed="#A" n="80"/>creauit deus. Uide vbi <ref xml:id="Vn7Pel-h102828-Rd1e434">Adam. §. xiiii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e438">
+               <head xml:id="Vn7Pel-h102828-Hd1e440">7</head>
+               <p xml:id="Vn7Pel-h102828-d1e442">
+                  <lb ed="#A" n="81"/>¶ Utrum Mundum esse creatum 
+      <lb ed="#A" n="82"/>sit articulus fidei: Respondetur secundum <ref xml:id="Vn7Pel-h102828-Rd1e448">Tho i. parte. qia xlvi 
+      <lb ed="#A" n="83"/>art. ii</ref> quod mundum non semper fuisse: sed creatum esse 
+      <lb ed="#A" n="84"/>sola fide tenetur: sicut et alii articuli fidei. Ratio. 
+      <lb ed="#A" n="85"/>quia mundi creatio non potest probari demon 
+      <lb ed="#A" n="86"/>stratiue naturali ratione. Quod patet. quia 
+      de<lb ed="#A" n="87" break="no"/>us agit per voluntatem. Psalmus Omnia quecumque 
+      <lb ed="#A" n="88"/>voluit dominus fecit. Sed voluntas dci non 
+      po<lb ed="#A" n="89" break="no"/>test inuestigari ratione nisi circa ea que 
+      absolu<lb ed="#A" n="90" break="no"/>te necesse est deum velle. Talia autem non sunt que 
+      <lb ed="#A" n="91"/>circa creaturas vult. ergo non potest 
+      derronstra<lb ed="#A" n="92" break="no"/>tiue sciri quod deus Mundum incepit creasse ex sua 
+      <lb ed="#A" n="93"/>voluntate. Sed quia voluntas dei circa creatu 
+      <lb ed="#A" n="94"/>ras potest hominibus manifestari per 
+      reuelatio<lb ed="#A" n="95" break="no"/>nem dei: cui fides innititur. quia Hebre. xi. Fides 
+      <lb ed="#A" n="96"/>est de non apparentibus: Ideo mundum incepisse 
+      <lb ed="#A" n="97"/>creari a deo: est solum credibile per reuelationem diui 
+      <lb ed="#A" n="98"/>nam in sacra scriptura traditam. sed non est 
+      demostra<lb ed="#A" n="99" break="no"/>bile: sicut nec alii articli fidei. Nam si esset demonostra 
+      <lb ed="#A" n="100"/>bile naturali ratione: fides non haberet meritum cui 
+      huma<lb ed="#A" n="101" break="no"/>na ratio praeberet experimentum: vt dicit Gre. Unde Moyses 
+      <lb ed="#A" n="102"/>ex reuelatione prophetica descripsit mundi initium: et 
+      prophetia<lb ed="#A" n="103" break="no"/>uit de praeterito in hoc vt idem Gre. dicit in omel. super. Ezc. i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e498">
+               <head xml:id="Vn7Pel-h102828-Hd1e500">8</head>
+               <p xml:id="Vn7Pel-h102828-d1e502">
+                  <lb ed="#A" n="104"/>¶ An ergo mundum ponere liceat 
+      <lb ed="#A" n="105"/>quod sit ab eterno: eo quod non potest contrarium demostrari: 
+      <lb ed="#A" n="106"/>Respondetur secundum Bonauen. in. ii libro dist. ii ar. ii. q. i. quod 
+      <lb ed="#A" n="107"/>ponere Mundum esse eternum: erroneum est 
+      Pr<lb ed="#A" n="108" break="no"/>mo quia est contra veritate scilicet fidei catholice: cum scriptum 
+      <lb ed="#A" n="109"/>sit Genes. i. In principio creauit deus caelum et terra. t 
+      <!--334.xml-->
+      <pb ed="#A" n="335"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Et Ioan. i. Et mundus per ipsum factus est. Et. xvii. c. 
+      <lb ed="#A" n="2"/>Clarifica me pater claritate quam habui prius quam 
+      <lb ed="#A" n="3"/>mundus fieret. Et in symbolo dicimus deum 
+      crea<lb ed="#A" n="4" break="no"/>torem celi et terre. et plures huiusmodi sunt scripture. 
+      <lb ed="#A" n="5"/>Item addo ex li. ii. Compend. quod est contra fidem de consum 
+      <lb ed="#A" n="6"/>matione seculi et mutatione. cui constat erroneum 
+      contradi<lb ed="#A" n="7" break="no"/>tere. Nam semper fit mutatio in mundo tam in 
+      tem<lb ed="#A" n="8" break="no"/>pore scilicet annorum estatis hyemis et huiusmodi quam etiam 
+      <lb ed="#A" n="9"/>in eis que amplectitur mundus puta in sapientia et 
+      <lb ed="#A" n="10"/>potentia que in oriente ceperut et terram 
+      percurre<lb ed="#A" n="11" break="no"/>runt vsque ad occidentem in signum quod omnia tendunt 
+      <lb ed="#A" n="12"/>ad occasum. Nam studium sapientie primo cepit 
+      <lb ed="#A" n="13"/>in cgypto: postea fuit in grecia: postea rhome. de 
+      <lb ed="#A" n="14"/>inde in francia. Similiter regnorum potentia 
+      pri<lb ed="#A" n="15" break="no"/>mo cepit in oriente: post in grecia: post apud 
+      rho<lb ed="#A" n="16" break="no"/>manos. Nunc Cesareum imperium est in Germania. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e559">
+                  <lb ed="#A" n="17"/>¶ Secundo quia ponere mundum eternum est contra rati 
+      <lb ed="#A" n="18"/>one. Quia si mundus esset eternus infinite 
+      reuo<lb ed="#A" n="19" break="no"/>lutiones et infiniti dies praecessissent diem istum scilicet ab 
+      <lb ed="#A" n="20"/>eterno quod caret termino. Sed infinitum non potest 
+      <lb ed="#A" n="21"/>pertransiri. <ref xml:id="Vn7Pel-h102828-Rd1e572">Ex. vi. physicorum.</ref> ergo nunque fuisset peruentum 
+      <lb ed="#A" n="22"/>ad hanc diem quod est manifeste falsum. Hec ratio 
+      <lb ed="#A" n="23"/>etiam est <ref xml:id="Vn7Pel-h102828-Rd1e578">Tho i. par. q. xlvi. arti. ii.</ref> Item per consequens 
+      <lb ed="#A" n="24"/>sequeretur quod aliquid aliud a deo esset eternum: cum 
+      <lb ed="#A" n="25"/>tamen solius dei proprium sit eternitas. et plurima sic 
+      in<lb ed="#A" n="26" break="no"/>conuenientia sequerentur vt habitum est supra. vbi <ref xml:id="Vn7Pel-h102828-Rd1e587">
+      Eter<lb ed="#A" n="27" break="no"/>nitas. §. i.</ref> et sequen
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e593">
+      ¶ Tertio quia mundum ponere esse 
+      <lb ed="#A" n="28"/>ab eterno est contra experimentalem cognitionem quia 
+      vi<lb ed="#A" n="29" break="no"/>demus quod scilicet mundus continue mutatur et variatur. 
+      ori<lb ed="#A" n="30" break="no"/>turque in eo et moritur quicquid generatur. ergo est temporalis 
+      <lb ed="#A" n="31"/>et mutabilis in tempore. Sed de ratione eterni est quod sit 
+      sta<lb ed="#A" n="32" break="no"/>bile et immutabile. ergo mundus non est eternus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e607">
+               <head xml:id="Vn7Pel-h102828-Hd1e609">9</head>
+               <p xml:id="Vn7Pel-h102828-d1e611">
+                  <lb ed="#A" n="33"/>¶ Utrum mundus ab eterno fore 
+      <lb ed="#A" n="34"/>possit probari saltem phlosophice apparenti naturali ratione. 
+      <lb ed="#A" n="35"/>ita vt possit quis id verisimiliter tenere nisi constaret fidem 
+      <lb ed="#A" n="36"/>catholicam obuiare. Respondetur secundum Guill. in. ii sen. di. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e622">
+                  <lb ed="#A" n="37"/>¶. Et Bonauen. ibidem. q. ii art scilicet ac Tho i. parte. supra 
+      <lb ed="#A" n="38"/>simul colligendo. Quod demonstratiue quidem non potest 
+      <lb ed="#A" n="39"/>probari etiam philosophice loquendo. vt patebit.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e631">
+      ¶ Si 
+      que<lb ed="#A" n="40" break="no"/>ras cur ergo Arist. sic opinatus est et rationes ad id 
+      pro<lb ed="#A" n="41" break="no"/>bantes induxit. viii physicorum. Dicit idem Guill. supra 
+      <lb ed="#A" n="42"/>quod Arist. non posuit mundum esse eternum ex intentione 
+      <lb ed="#A" n="43"/>loquendo. Et hoc clarius patet quia ipse Arist. in i est 
+      to<lb ed="#A" n="44" break="no"/>picorum expresse dicit quod quaedam sunt problemata dialecti 
+      <lb ed="#A" n="45"/>ca de quibus rationes no habemus vt vtrum mundus sit 
+      <lb ed="#A" n="46"/>eternus. Hec <name xml:id="Vn7Pel-h102828-Nd1e648">Arist</name>. Proinde omnes argumentatio 
+      <lb ed="#A" n="47"/>nes rationum quas inducit. <ref xml:id="Vn7Pel-h102828-Rd1e652">viii. physicorum</ref> ad probandum 
+      <lb ed="#A" n="48"/>mundi eternitatem solum fecit exercitio scholastico non 
+      <lb ed="#A" n="49"/>ex intentione. Nec ille rationes sunt demostratiue simuis 
+      <lb ed="#A" n="50"/>pliciter sed secundum qui scilicet ad contradicendum antiquis philosophius 
+      <lb ed="#A" n="51"/>ponentibus mundum incepisse eo modo quo illi 
+      pone<lb ed="#A" n="52" break="no"/>bant. Qui modus in veritate impossibilis erat pro 
+      <lb ed="#A" n="53"/>vt ponebat <name xml:id="Vn7Pel-h102828-Nd1e667">Plato</name>. <name xml:id="Vn7Pel-h102828-Nd1e670">Anaxag</name>. et <name xml:id="Vn7Pel-h102828-Nd1e672">Empedocles</name>. Deus 
+      <lb ed="#A" n="54"/>quoru positionis modo vide <ref xml:id="Vn7Pel-h102828-Rd1e676">infra. § xvii.</ref> Sed tantun 
+      <lb ed="#A" n="55"/>quicquid sit <name xml:id="Vn7Pel-h102828-Nd1e680">Auerrois</name> nescio quo spiritu maculam posuit 
+      <lb ed="#A" n="56"/>in gloriam <name xml:id="Vn7Pel-h102828-Nd1e685">Aristo</name>. quia vult dicere in suis commentis. quod 
+      <lb ed="#A" n="57"/>Aarist. expresse posuerit eternitatem mundi
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e690">
+      ¶ Se prter 
+      <!--334.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>hec notandum est secundum Bonauen. supra hec duo puncta 
+      <lb ed="#A" n="59"/>pe philosophorum positione.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e702">
+      ¶ Unum quod si praesupponatur omnes 
+      <lb ed="#A" n="60"/>res esse a deo productas ex nihilo. tunc manifesta 
+      ra<lb ed="#A" n="61" break="no"/>tione probatur mundus non esse eternus adeo vt nullus 
+      <lb ed="#A" n="62"/>philosophus quantumcumque parui intellectus contradicere possit eo 
+      <lb ed="#A" n="63"/>quod sic implicaret contradictionem Ratio. quia esse ex nihilo: 
+      <lb ed="#A" n="64"/>est esse factum post non esse. Si ergo haberet mundus esse post 
+      <lb ed="#A" n="65"/>non esse. sequitur quod aliquando habuit ante sui principium non 
+      <lb ed="#A" n="66"/>esse. ergo non ab eterno fuit. Rursum si ab eterno 
+      fu<lb ed="#A" n="67" break="no"/>it mundus. ergo ab eterno habuit semper esse. et ista scilicet 
+      ali<lb ed="#A" n="68" break="no"/>quando non esse vel fuisse. et semper esse sunt contradictoria
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e724">
+      ¶ Alt 
+      <lb ed="#A" n="69"/>ud punctum secundum Bonauen. ad hoc est quod poncre 
+      <lb ed="#A" n="70"/>mundum eternum praesupposita eternitate materie sic 
+      <lb ed="#A" n="71"/>est probabile et intelligibile. Sicut si ponatur vestigium 
+      <lb ed="#A" n="72"/>quasi sigillum pedis a deo impressum pulueri qui ab 
+      <lb ed="#A" n="73"/>eterno est. tunc licet a pede dei imprimente esset tale 
+      ve<lb ed="#A" n="74" break="no"/>stigium. tamen esset coeternum: puluere in quo est vest 
+      igi<lb ed="#A" n="75" break="no"/>um existente eterno. Et isto modo senserunt philosophi vt 
+      <lb ed="#A" n="76"/>dicunt plurimi etc. Sed non est verum imo erroneum 
+      <lb ed="#A" n="77"/>materiam mundi fuisse ab eterno sine forma. ergo 
+      <lb ed="#A" n="78"/>mundus non potest probari esse eternus nec vere 
+      <lb ed="#A" n="79"/>opinari
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e750">
+      ¶ Ratio huius secundum Tho. prima parte. q. 
+      <lb ed="#A" n="80"/>xlvi. ar. i. Quia nihil praeter deum potest esse eternum 
+      <lb ed="#A" n="81"/>vel ab eterno fuisse. Et hoc quidem ponere est 
+      proba<lb ed="#A" n="82" break="no"/>bile. Sic. quia causa rerum omnium mundi est voluntas diei 
+      <lb ed="#A" n="83"/>ex qua sola dependet esse mundi sicut ex sua 
+      cau<lb ed="#A" n="84" break="no"/>sa. Sed quia necessitas effectus dependet ex 
+      neces<lb ed="#A" n="85" break="no"/>sitate sue cause. vt dicitur. v. Metaph. ergo sic aliqua 
+      <lb ed="#A" n="86"/>est necesse esse sicuti necesse fuerit deum velle talia 
+      <lb ed="#A" n="87"/>Quoniam autem constat quod absolute non est necesse deum 
+      vel<lb ed="#A" n="88" break="no"/>le aliquid aliud nisi seipsum: Ideo sequitur quod non est 
+      <lb ed="#A" n="89"/>necessarium deum velle quod mundus fuerit 
+      semper<lb ed="#A" n="90" break="no"/>Sed ea tenus mundus est qua tenus deus vult 
+      <lb ed="#A" n="91"/>eum esse. Et ita patet quod non est necessarium mundum 
+      <lb ed="#A" n="92"/>semper fuisse vel esse. sed prout et quantum deus 
+      vo<lb ed="#A" n="93" break="no"/>luit ac secundum quod conueniens fuit dedit deus mundo 
+      si<lb ed="#A" n="94" break="no"/>cut et cuilibet effectui suo tempus quando esse deberet 
+      <lb ed="#A" n="95"/>et quamdiu duraret. vt et sic deus suam potentiam 
+      demodo<lb ed="#A" n="96" break="no"/>straret. magis enim apparet dei potentia creantis in 
+      <lb ed="#A" n="97"/>hoc quod mundum fecit qui non semper fuit. quia sic 
+      ma<lb ed="#A" n="98" break="no"/>gis habet causam manifestam. scilicet dei voluntatem 
+      <lb ed="#A" n="99"/>quam si mundus semper fuisset. Hec ex Tho. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e797">
+               <head xml:id="Vn7Pel-h102828-Hd1e799">10</head>
+               <p xml:id="Vn7Pel-h102828-d1e801">
+                  <lb ed="#A" n="100"/>¶ Quid dicendum sit ad 
+      argumen<lb ed="#A" n="101" break="no"/>ta philosophica scilicet mundi eternitatem probantia inter quae 
+      ali<lb ed="#A" n="102" break="no"/>qua proponamus
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e810">
+      ¶ Unum est. omne quod incepit esse 
+      <lb ed="#A" n="103"/>id antequam fuerat possibile erat esse. alioquin 
+      im<lb ed="#A" n="104" break="no"/>possibile foret ipsum fieri Si ergo modos incepit esse. tunc 
+      <lb ed="#A" n="105"/>antequam inciperet esse possibile fuit ipsum esse. Sed quod 
+      pos<lb ed="#A" n="106" break="no"/>sibile est esse est materia que est in potentia per formam 
+      <lb ed="#A" n="107"/>ad esse. et ad non esse per priuationem. ergo antequam modos ipse 
+      in<lb ed="#A" n="108" break="no"/>cepit esse fuit materia ante modum ab eterno. et quia non ste 
+      <lb ed="#A" n="109"/>tit sine aliquo forma quae dat esse. vii. Meta. ergo
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e828">
+      ¶ Donum 
+      <lb ed="#A" n="110"/>ad hoc secundum <ref xml:id="Vn7Pel-h102828-Rd1e832">Tho. i. per.</ref> supra concor. <name xml:id="Vn7Pel-h102828-Nd1e834">Guil</name>. et <name xml:id="Vn7Pel-h102828-Nd1e836">Scotis</name>. quod ante 
+      <lb ed="#A" n="111"/>quam modos esset possibile erat modum esse. non quidem secundum 
+      po<lb ed="#A" n="112" break="no"/>tentiam passiuam quae est in materia. Sed secundum potentiam actiuam 
+      <lb ed="#A" n="113"/>dei productiuam quae fundatur in esse essentie. patet supra. vbi <ref xml:id="Vn7Pel-h102828-Rd1e845">Eternitas 
+      <lb ed="#A" n="114"/>§. iii.</ref> Et sic in esse ideali in mente dei etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e853">
+               <head xml:id="Vn7Pel-h102828-Hd1e855">11</head>
+               <p xml:id="Vn7Pel-h102828-d1e857">
+      <!--335.xml-->
+                  <pb ed="#A" n="336"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Item queritur arguendo An deus 
+      <lb ed="#A" n="2"/>sit praor mundo natura tantummodo. an etiam durati 
+      <lb ed="#A" n="3"/>one. Si dicas quod natura tantummodo. ergo cum deus sit 
+      <lb ed="#A" n="4"/>ab eterno: etiam mundus erit duratione ab eterno 
+      <lb ed="#A" n="5"/>Si autem dicas quod deus est prior duratione. sequitur 
+      <lb ed="#A" n="6"/>quo ex quo prioritas et posterioritas durationis 
+      consti<lb ed="#A" n="7" break="no"/>tuit tempus. ergo ante mundum fuit tempus et per consequens 
+      <lb ed="#A" n="8"/>modos coet ernus deo. Hec est ratio <ref xml:id="Vn7Pel-h102828-Rd1e883">Auicen. Metaphy.</ref>
+                  <lb ed="#A" n="9"/>sua. Respondetr secundum <ref xml:id="Vn7Pel-h102828-Rd1e887">
+                     <name xml:id="Vn7Pel-h102828-Nd1e889">Guil</name>. in primo di. xliiii.</ref> quod modos apud 
+      <lb ed="#A" n="10"/>philosophos et theol. distinguitur. vt patuit latius libr. i. c. 
+      mun<lb ed="#A" n="11" break="no"/>dus.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e897">
+      ¶ Primus mundus dicitur archetypus siue 
+      exemplar<lb ed="#A" n="12" break="no"/>ab archos dictus quasi principalis modos. Et sic modum 
+      <lb ed="#A" n="13"/>accipiendo vt etiam dicit Aug. de trini. li.o vi. Et li. lxxxiii. 
+      <lb ed="#A" n="14"/>quaestionum. et libro de imagi. modi. Beda Nil aliud est 
+      ni<lb ed="#A" n="15" break="no"/>si ipse deus filius qui est dei ars et sapientia. verbum et ratio rerum 
+      <lb ed="#A" n="16"/>siue idea in mente diuina. De isto modo dicitur Ioan. i. 
+      <lb ed="#A" n="17"/>Quod factum et scilicet in modo. in ipso scilicet deo vita erat. Ibi 
+      <lb ed="#A" n="18"/>glosa dicit sic. Nam et faber arcam prius facit in mente 
+      <lb ed="#A" n="19"/>post in opere. Quod est in mente viuit cum artifice in 
+      spi<lb ed="#A" n="20" break="no"/>rituali ratione factoris. Quod autem fit mutatur cum tempore. 
+      <lb ed="#A" n="21"/>Item de hoc eodem modo apostolis Heb. xi. dicit Fide 
+      intelli<lb ed="#A" n="22" break="no"/>gimus aptata esse secula verbo dei. Ibi glosa dicit. 
+      <lb ed="#A" n="23"/>Hic est modos inuisibilis qui erat in dei sapientia 
+      <lb ed="#A" n="24"/>ipsa dispositio eterna
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e928">
+      ¶ Secundus mundus dicitur 
+      exren<lb ed="#A" n="25" break="no"/>platur scilicet cum ad exemplum mundi archerypi in deo 
+      com<lb ed="#A" n="26" break="no"/>stituti: angelica natura et huius sensibilis mundi 
+      <lb ed="#A" n="27"/>materia: creata est ab initio Isto modo a summo 
+      an<lb ed="#A" n="28" break="no"/>gelo vsque ad infimum indiuiduum. totum dicitur modos. 
+      De<lb ed="#A" n="29" break="no"/>hoc scribitur Eccli. xviii. ca. Qui viuit in eternum 
+      <lb ed="#A" n="30"/>creauit omnia simiui scilicet quantum ad materiam primam omnium 
+      <lb ed="#A" n="31"/>quae postea distincta est et sex diebus ornata. Unde et 
+      <lb ed="#A" n="32"/>Sap. xi. Qui creauit orbem ex materia inuisa id est in 
+      <lb ed="#A" n="33"/>uisibili et informi.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e950">
+      ¶ Tertius modus dicitur inferio sice. tuod 
+      <lb ed="#A" n="34"/>est inclusus sub globo lunari vbi sunt continui 
+      me<lb ed="#A" n="35" break="no"/>tus generationis et corruptionis. de quo Apostolis dicit 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e958">
+                  <lb ed="#A" n="36"/>¶ Preterit figura huius modi scilicet in fine mundi. 
+      Preter<lb ed="#A" n="37" break="no"/>ea modos aliquando in scriptura capitur pro mundanis 
+      ho<lb ed="#A" n="38" break="no"/>minibus et concupiscentiis. sed de his et similibus transeo 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e967">
+                  <lb ed="#A" n="39"/>¶ Ad quaesitum itaque dicendum secundum eundem Guil. supra 
+      com<lb ed="#A" n="40" break="no"/>cordi. Tho i. parte. qi. xlvi. ar. i. Et Rich. ac Bona. 
+      <lb ed="#A" n="41"/>in. ii dist. xxi. quod deus habet in se coeternum mundum 
+      <lb ed="#A" n="42"/>archetypum. Et tam deus quam etiam modos archetypus 
+      praeces<lb ed="#A" n="43" break="no"/>sit mundum aliis modis acceptum scilicet pro 
+      exempla<lb ed="#A" n="44" break="no"/>to vel inferiori et huiusmodi. Non solum autem praecessit 
+      <lb ed="#A" n="45"/>natura sed etiam duratione. quia nil extra deum 
+      <lb ed="#A" n="46"/>potuit simul esse cum deo eterna duratione. 
+      si<lb ed="#A" n="47" break="no"/>tut nec creatura potuit equeri creatori
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e989">
+      ¶ Ad 
+      obie<lb ed="#A" n="48" break="no"/>ctum autem dicendum quod deus praecessit duratione non 
+      <lb ed="#A" n="49"/>quidem temporis sed eternitatis. quia ante mundum non 
+      <lb ed="#A" n="50"/>ruit tempus realiter existens sed imaginarie 
+      tantum<lb ed="#A" n="51" break="no"/>modo. quia imaginamur modo quod deus antequam inciperet 
+      <lb ed="#A" n="52"/>facere tempus et mundum: potuit multos annos 
+      <lb ed="#A" n="53"/>praecedentes addidisse: quibus omnibus praesens esset 
+      eter<lb ed="#A" n="54" break="no"/>nitas. Et secundum hoc dicitur quod deus potuit facere 
+      mun<lb ed="#A" n="55" break="no"/>dum prius quam fecit et maiorem quam fecit.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1009">
+      ¶ De his 
+      patu<lb ed="#A" n="56" break="no"/>it etiam lib. i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1015">
+               <head xml:id="Vn7Pel-h102828-Hd1e1017">12a</head>
+               <p xml:id="Vn7Pel-h102828-d1e1019">
+                  <lb ed="#A" n="57"/>¶ Item. si mundus incepit esse 
+      <!--335.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>an ergo factus sit cum tempore vel ante tempus 
+      <lb ed="#A" n="59"/>et cur tantarde creauit mundum quem bene potuit 
+      an<lb ed="#A" n="60" break="no"/>rea creasse. Item si mundus esse incepit: in eo 
+      lo<lb ed="#A" n="61" break="no"/>co cepit esse vbi nunc est corpus mundi quia non 
+      <lb ed="#A" n="62"/>videtur aliunde translatum sed in hoc loco vbi nunc 
+      <lb ed="#A" n="63"/>est corpus mundi: antea non fuit aliquod corpus ergo 
+      se<lb ed="#A" n="64" break="no"/>quitur quod ab eterno vsque ad mundi creationem 
+      fue<lb ed="#A" n="65" break="no"/>rit vacuum. Item sequitur etiam quod antea per infinita 
+      ten<lb ed="#A" n="66" break="no"/>pora vacasset deus ocio: que omnia videntur 
+      incon<lb ed="#A" n="67" break="no"/>uenientia. ergo videtur quod mundus non incepit esse. 
+      <lb ed="#A" n="68"/>Ad hec Aug. lib. xii de ciuita. dei. dicit. quod 
+      hu<lb ed="#A" n="69" break="no"/>susmodi quaestiones praesertim cur deus ita tarde cre 
+      <lb ed="#A" n="70"/>auit mundum. philosophi non putauerunt inquit se aliter 
+      <lb ed="#A" n="71"/>posse vel debere dissoluere nisi ponendo circumi ¬ 
+      <lb ed="#A" n="72"/>tus temporum quibus semper eadem fuerunt renoua 
+      <lb ed="#A" n="73"/>ta: et sic repetitam rerum naturam dicerent et ita semper 
+      <lb ed="#A" n="74"/>deinceps fieri sine fine. Fallunt ergo multa milia 
+      <lb ed="#A" n="75"/>annorum transisse: cum in sacris litteris ab institutione 
+      <lb ed="#A" n="76"/>hominis nondum (inquit) completa sex milia annorum con 
+      <lb ed="#A" n="77"/>putemus. Idem Aug. li. xi. de ciuita. dicit. quod ina 
+      <lb ed="#A" n="78"/>nes sunt huiusmodi cogitationes hominum quibus ima 
+      <lb ed="#A" n="79"/>ginantur scilicet infinita tempora praeterite vacationis dei cum 
+      <lb ed="#A" n="80"/>nullum sit tempus ante mundum. Discernitur enim 
+      eter<lb ed="#A" n="81" break="no"/>nitas et tempus: quia in eternitate nulla fit 
+      muta<lb ed="#A" n="82" break="no"/>tio. Sed tempus non fit sine mutabilitate. scilicet 
+      praesen<lb ed="#A" n="83" break="no"/>tis praeteriti et futuri etc. Et infra dicit. Non itaque 
+      fa<lb ed="#A" n="84" break="no"/>ctus est mundus in tempore nec ante tempus: sed 
+      <lb ed="#A" n="85"/>cum tempore. Quod enim fit in tempore: post aliquod tempus 
+      <lb ed="#A" n="86"/>fit. scilicet post praeteritum: et ante aliquod tempus scilicet futurum fit. 
+      <lb ed="#A" n="87"/>Idem lib. de trinitate dicit. quod nec vtique temprus 
+      ce<lb ed="#A" n="88" break="no"/>pit esse in tempore: quia non erat tempus 
+      antequam<lb ed="#A" n="89" break="no"/>inciperet tempus. Hec omnia Aug. Iuxta que patet 
+      <lb ed="#A" n="90"/>dicendum secundum Scotorel. super. ii dist. i. q. ii arti. iiii. 
+      <lb ed="#A" n="91"/>in fi. concor. Tho i. parte. suapra quod licet mundus 
+      ince<lb ed="#A" n="92" break="no"/>pit esse et non antea quam deus voluit facere: nec in 
+      ten<lb ed="#A" n="93" break="no"/>pore sed simul cum tepore: et in eodem loco vbi nunc 
+      <lb ed="#A" n="94"/>est corpus mundi: tamen propterea non sequitur quod ab 
+      eter<lb ed="#A" n="95" break="no"/>no fuerit vacuum. sicut nec plenum: quia ante mundum 
+      <lb ed="#A" n="96"/>nec fuit locus nec spacium. ergo nec vacuum. Nam ad 
+      <lb ed="#A" n="97"/>rationem vacui non sufficit nihil esse: sed requiritur quod 
+      <lb ed="#A" n="98"/>sit spacium capax corporis in quo non sit corpus. ex 
+      <lb ed="#A" n="99"/>iiii. physicorum. Similiter ante mundum nec fuit tempus 
+      <lb ed="#A" n="100"/>ergo nec tarda mora dei ad creandum: sed fuit sola 
+      eter<lb ed="#A" n="101" break="no"/>nitas in qua nil praeterit nec suturum est. Nec sequitur 
+      <lb ed="#A" n="102"/>quod deus ocio vacauit: quia semper actiones intus ma 
+      <lb ed="#A" n="103"/>nentes vt intelligere velle: et omnium rerum rationes in 
+      <lb ed="#A" n="104"/>mente tenere: filium gignere seu verbum et spiritum sanctum 
+      <lb ed="#A" n="105"/>praeducere ac amorem felicissimum
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1132">
+      ¶ Ad idem patuit 
+      <lb ed="#A" n="106"/>tiam primo libr. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1138">
+               <head xml:id="Vn7Pel-h102828-Hd1e1140">12b</head>
+               <p xml:id="Vn7Pel-h102828-d1e1142">
+                  <lb ed="#A" n="107"/>¶ Utrum deus potuisset mundum uo 
+      <lb ed="#A" n="108"/>fecisse ab eterno si voluisset. Respondetur secundum Richar. 
+      <lb ed="#A" n="109"/>super. ii dist. i. ar. iii. q. iiii. concor. Bonauen. et Sco 
+      <lb ed="#A" n="110"/>iste in primo dist. xliii. quod deus si voluisset potuis 
+      <lb ed="#A" n="111"/>et mundum in alio quocumque instanti prius vel etiam 
+      <lb ed="#A" n="112"/>posterius creasse quam creauit: tamen nec voluit nec potu 
+      <lb ed="#A" n="113"/>it ab eterno creasse. Probatur quia licet deus sit infinite 
+      <lb ed="#A" n="114"/>potentie. Tamen creatura non est possibilis ca¬ 
+      <!--336.xml-->
+      <pb ed="#A" n="337"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pere infinitatem et ita nec eternitatem alia posset 
+      <lb ed="#A" n="2"/>equari deo: quod omnino est impossibile. Unde sicut 
+      <lb ed="#A" n="3"/>deus non potest facere alium deum ita nec 
+      crea<lb ed="#A" n="4" break="no"/>turam esse ab eterno. Ideo <ref xml:id="Vn7Pel-h102828-Rd1e1176">Damasce. li. i. c. viii. </ref>
+                  <lb ed="#A" n="5"/>dicit. Creatio ex dei voluntate opus existens non 
+      <lb ed="#A" n="6"/>coeterna est cum deo quia non est aptum id quod ex 
+      <lb ed="#A" n="7"/>non ente ad esse deducitur coeternum sit ei qui sine 
+      <lb ed="#A" n="8"/>principio et semper est. Hec ille.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1188">
+      ¶ Si ergo queras quaere de 
+      <lb ed="#A" n="9"/>non potest facere mundum cometernum sibi. Dicendum 
+      <lb ed="#A" n="10"/>quod ideo quia implicat contradictionem. vt patuit supra 
+      <lb ed="#A" n="11"/>§. ix. ex dictis Bonauenture propter quod nec velle 
+      po<lb ed="#A" n="12" break="no"/>test deus huiusmodi videlicet vt creatura sit infinita vel 
+      eter<lb ed="#A" n="13" break="no"/>na cum hec sint solius dei propria ergo etc. Item secundum 
+      <lb ed="#A" n="14"/>Fran. maro. confirmatur quia secundum Ans. de ratione de 
+      <lb ed="#A" n="15"/>est quod sit summum quo maius excogitari non potest. vt dicit 
+      <lb ed="#A" n="16"/>lib. monolis. Similiter de ratione infiniti est ex. iii. et 
+      <lb ed="#A" n="17"/>vi. physicorum. quod non possit pertransiri sed semper est 
+      ali<lb ed="#A" n="18" break="no"/>quid eius extra accipere. sed nil tale creatum potes 
+      <lb ed="#A" n="19"/>esse actu: cum omne creatum sit limitatum et finitum. ergo 
+      <lb ed="#A" n="20"/>habetur propositum quod non possit esse deo coeternum 
+      <lb ed="#A" n="21"/>quia sic non excederetur a deo in infinitate 
+      eternita<lb ed="#A" n="22" break="no"/>tis.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1221">
+      ¶ Ad hec plura libr. i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1224">
+               <head xml:id="Vn7Pel-h102828-Hd1e1226">13</head>
+               <p xml:id="Vn7Pel-h102828-d1e1228">
+                  <lb ed="#A" n="23"/>¶ Sed quare deus non potest 
+      fa<lb ed="#A" n="24" break="no"/>cere vt mundus foret ab eterno: cum tamen potuit 
+      <lb ed="#A" n="25"/>maius. videlicet vt gigneret filium sibi ab eterno 
+      coequa<lb ed="#A" n="26" break="no"/>lem per omnia. Respondetur secundum e. Rich. supra quod huius re 
+      <lb ed="#A" n="27"/>est talis: quia filius dei accepit a deo patre idem esse 
+      <lb ed="#A" n="28"/>cum patre quia est verus deus de deo vero. ergo 
+      coeter<lb ed="#A" n="29" break="no"/>nus. Sed mundus non potuit accipere idem esse 
+      <lb ed="#A" n="30"/>cum deo creatore sed esse nouum et diuersum 
+      acce<lb ed="#A" n="31" break="no"/>pit etc. Esse autem nouum repugnat eterne durationi 
+      <lb ed="#A" n="32"/>quia nouitas et eternitas contradictionem implicant. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1253">
+               <head xml:id="Vn7Pel-h102828-Hd1e1255">14</head>
+               <p xml:id="Vn7Pel-h102828-d1e1257">
+                  <lb ed="#A" n="33"/>¶ Utrum vnicus tantum mundus sit 
+      <lb ed="#A" n="34"/>ractus. Respondetur quod sic et claret ex scriptura. Gen. i. 
+      <lb ed="#A" n="35"/>In principio deus creauit caelum et terram. non dicit 
+      ce<lb ed="#A" n="36" break="no"/>sos et terras in plurali. Et Ioan. i. Mundus per 
+      <lb ed="#A" n="37"/>ipsum factus est etc. Secundo probatur ex ratione secundum 
+      <lb ed="#A" n="38"/>Tho i. par. q. xlvii. arti. iii. Quia omnia debentis 
+      <lb ed="#A" n="39"/>esse ordinata vno ordine et ad vnum finem. scilicet ad deum 
+      <lb ed="#A" n="40"/>propter quod Aristo. xii. Metaph. ex vnitate ordinis 
+      <lb ed="#A" n="41"/>quem habent res adinuicem in eo quod aliqua 
+      ordinan<lb ed="#A" n="42" break="no"/>tur ad alia et omnia ad ipsum deum: concludit vnitatem 
+      <lb ed="#A" n="43"/>dei gubernantis si cut principis in populo dicens 
+      <lb ed="#A" n="44"/>Entia nolunt male disponi: non est bona pluralitas 
+      <lb ed="#A" n="45"/>principum: vnus ergo princeps fiat qui est deus 
+      <lb ed="#A" n="46"/>Bonum enim vniuersi consistit in ordine quo 
+      <lb ed="#A" n="47"/>omnia habent ordinem ad inuicem sed non 
+      eo<lb ed="#A" n="48" break="no"/>dem modo. Et etiam consistit in primo principio 
+      <lb ed="#A" n="49"/>ad quod omnia ordinantur. Hec Aristo. Similir 
+      <lb ed="#A" n="50"/>ter ex vnitate exemplaris probat vnitatem 
+      mun<lb ed="#A" n="51" break="no"/>di exemplati. ergo necesse est quod vnicus sit 
+      mun<lb ed="#A" n="52" break="no"/>us et ad vnicum mundum omnia pertineant sicut et 
+      <lb ed="#A" n="53"/>Ad vnicum deum omnia finaliter ordinantur. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e1305">
+                  <lb ed="#A" n="54"/>¶ Si queratur an melius esset fore plures 
+      mum<lb ed="#A" n="55" break="no"/>dos. Dicit ibidem Tho. quod non esset melius de in 
+      <lb ed="#A" n="56"/>tentione dei agentis. quia eadem ratione dici 
+      pos<lb ed="#A" n="57" break="no"/>set quod deus melius fecisset si tres mundos aui¬ 
+      <!--336.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quattuor fecisset et melius si decem: et sic in infinitum 
+      <lb ed="#A" n="59"/>Item cum dicitur plures mundos esse melius quam vnum 
+      <lb ed="#A" n="60"/>hoc dicitur secundum multitudinem materialem. Tale autem 
+      <lb ed="#A" n="61"/>non est melius de intentione dei agentis. quia omne. 
+      <lb ed="#A" n="62"/>agens per intellectum agit propter fine. ii. Metaph. sed 
+      <lb ed="#A" n="63"/>nullum agens intendit pluralitatem materialem vt 
+      fi<lb ed="#A" n="64" break="no"/>nem. quia materialis multitudo non habet certum 
+      <lb ed="#A" n="65"/>finem vel terminum. sed tendit in infinitum sicut mate 
+      <lb ed="#A" n="66"/>ria semper appetit formam nouam. Infinitum autem 
+      repu<lb ed="#A" n="67" break="no"/>gnat rationi finis. ergo non esset melius esse plures 
+      mun<lb ed="#A" n="68" break="no"/>dos de intentione dei agentis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1345">
+               <head xml:id="Vn7Pel-h102828-Hd1e1347">15</head>
+               <p xml:id="Vn7Pel-h102828-d1e1349">
+                  <lb ed="#A" n="69"/>¶ Sed an stante isto mundo 
+      pos<lb ed="#A" n="70" break="no"/>set deus producere alium mundum. De hoc ibidem 
+      <lb ed="#A" n="71"/>Tho. opinio est quod hoc non est factibile. quia 
+      mun<lb ed="#A" n="72" break="no"/>dus constat de tota sua materia. ergo non potest 
+      fie<lb ed="#A" n="73" break="no"/>ri alia terra quam ista. sed terre in alio mundo et isto 
+      <lb ed="#A" n="74"/>essent eiusdem speciei. et sic mouerentur ad eundem 
+      <lb ed="#A" n="75"/>locum vel idem centrum. Nec possunt inquit fieri duo 
+      <lb ed="#A" n="76"/>prima mobilia. quia fierent duo primi motores 
+      <lb ed="#A" n="77"/>quod est inconueniens etc. Sed secundum Scotorlis. in. ii. 
+      <lb ed="#A" n="78"/>dist. i. q. ii ar. iiii. et Guil. Iste probationes non 
+      conclu<lb ed="#A" n="79" break="no"/>dunt. quia deus in agendo non praesupponit 
+      mate<lb ed="#A" n="80" break="no"/>riam. sed si alium mundum produceret faceret aliam 
+      no<lb ed="#A" n="81" break="no"/>uam materiam de nihilo. Nec terra alterius 
+      mun<lb ed="#A" n="82" break="no"/>di moueretur ad centrum huius mundi sed ad 
+      propri<lb ed="#A" n="83" break="no"/>um centrum. quia non haberent ad inuicem connexionem 
+      <lb ed="#A" n="84"/>Denique deus non est motor deputatus ad aliquod 
+      <lb ed="#A" n="85"/>mobile sed sola voluntate sua potest mouere quod 
+      <lb ed="#A" n="86"/>cumque mobile. Dicendum ergo quod deus posset 
+      produ<lb ed="#A" n="87" break="no"/>cere plures mundos etiam spherice figure. quia pont 
+      <lb ed="#A" n="88"/>omne quod non includit contradictionem. sed hoc non 
+      in<lb ed="#A" n="89" break="no"/>cludit contradictionem: quoniam deus operatur de nihilo 
+      <lb ed="#A" n="90"/>ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1399">
+      ¶ De hoc et aliis disputabilibus de mundo 
+      ha<lb ed="#A" n="91" break="no"/>hetur libro primo vbi Potentia dei 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1406">
+               <head xml:id="Vn7Pel-h102828-Hd1e1408">16</head>
+               <p xml:id="Vn7Pel-h102828-d1e1410">
+                  <lb ed="#A" n="92"/>¶ Qualiter intelligendum sit quod 
+      <lb ed="#A" n="93"/>mundus siue caelum et terra in principio creatus sit 
+      <lb ed="#A" n="94"/>a deo. Quia enim fere omnes errores de creatione 
+      mun<lb ed="#A" n="95" break="no"/>di eliduntur per hoc quod scriptura dicit. In principio de 
+      <lb ed="#A" n="96"/>us creauit caelum et terram: Ideo vt vitemus errores 
+      <lb ed="#A" n="97"/>et veritatem agnoscamus opus est scire qualiter sit 
+      <lb ed="#A" n="98"/>intelligenda. Et pro quo ibi supponat iste terminus In 
+      <lb ed="#A" n="99"/>principio: Aut enim stat pro increato aut pro 
+      crea<lb ed="#A" n="100" break="no"/>to. Non videtur quod pro icreato. quia praepositiones sunt 
+      <lb ed="#A" n="101"/>transitiue. Et quia ab eterno fuerunt res in 
+      princi<lb ed="#A" n="102" break="no"/>pio increato scilicet deo. ergo non create sunt. Nec vide 
+      <lb ed="#A" n="103"/>tur dicendam quod pro creato principio supponat. quia 
+      <lb ed="#A" n="104"/>nil creatim erat tunc in quo fieret mundus. ergo 
+      <lb ed="#A" n="105"/>videtur quod non debuit dici In principio creauit etc. 
+      <lb ed="#A" n="106"/>Respondetur secundum Bonauen super. ii dist. i. circa lit. Et 
+      <lb ed="#A" n="107"/>conor. Tho. e. dist. parte cilicet ar. vi. aliosque quod hoc 
+      di<lb ed="#A" n="108" break="no"/>cum. In principio: potest capi triplicitr
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1449">
+      ¶ Uno 
+      mo<lb ed="#A" n="109" break="no"/>do vt dicat pure ordinem. et sic idem est facere In 
+      <lb ed="#A" n="110"/>principio. quod facere ante alia: Ita quod conotet 
+      priua<lb ed="#A" n="111" break="no"/>tionem respectu prioris alicuius temporalis et 
+      po<lb ed="#A" n="112" break="no"/>sitionem posterioris. Alio modo potest capi vt 
+      di<lb ed="#A" n="113" break="no"/>cat habitudinem mensure. et sic idem est In 
+      prin<lb ed="#A" n="114" break="no"/>cipio id est in primo instanti temporis
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1465">
+      ¶ Tertio modo 
+      <!--337.xml-->
+      <pb ed="#A" n="338"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>vt importet habitudinem cause Et tunc proprie idem 
+      <lb ed="#A" n="2"/>est in principio id est in filio cui appropriatur ratio 
+      prin<lb ed="#A" n="3" break="no"/>cipii praecipue exemplaris per modum artis. quia filius est 
+      <lb ed="#A" n="4"/>ars et sapientia patris. vt dicit Augustinus In qua 
+      <lb ed="#A" n="5"/>deus omnia operatur. Psalmus Oomnia in sapientia 
+      fecisti<lb ed="#A" n="6" break="no"/>omine. Est etiam filius cum patre et spiritusancto causa 
+      effe<lb ed="#A" n="7" break="no"/>ctiua et etiam finalis omnium rerum et vnum principium 
+      modi<lb ed="#A" n="8" break="no"/>totius Cum ergo dicitur. In principio deus creauit 
+      <lb ed="#A" n="9"/>celum et terram. liyt principium supponit pro filio 
+      approi<lb ed="#A" n="10" break="no"/>ate. Et ly deus pro deo patre. cui attribuitur ratio principti 
+      <lb ed="#A" n="11"/>effectiui. quia est principium totius diuinitatis. Unde 
+      <lb ed="#A" n="12"/>sensus est. In principio id est in filio. deus pater 
+      crea<lb ed="#A" n="13" break="no"/>uit caelum et terram. Et postea subditur de 
+      spiritusan<lb ed="#A" n="14" break="no"/>cto. cum dicitur Spiritus domini ferebatur super aquas Et 
+      <lb ed="#A" n="15"/>ita potest supponere ly in principio. et stat Primo modo 
+      <lb ed="#A" n="16"/>pro principio increato. Secundo quoqe potest supponere pro 
+      <lb ed="#A" n="17"/>principio creato id est pro primo instanti temporis. sed tunc 
+      <lb ed="#A" n="18"/>non dicit ordinem sed concomitantiam. scilicet quod caelum et 
+      ter<lb ed="#A" n="19" break="no"/>ra non ante omnia. quia non ante tempor is principium sed 
+      <lb ed="#A" n="20"/>simul cum temporis pricipio ceperunt esse Ita quod an omnia 
+      <lb ed="#A" n="21"/>alia creata fuerunt coeua ista quattuor Celum 
+      empyi<lb ed="#A" n="22" break="no"/>rium Angeli Materia modi et Tepmcus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h102828-Dd1e1523">
+               <head xml:id="Vn7Pel-h102828-Hd1e1525">17</head>
+               <p xml:id="Vn7Pel-h102828-d1e1527">
+                  <lb ed="#A" n="23"/>¶ Sed Quare spiritus sanctus voluit in 
+      <lb ed="#A" n="24"/>scriptura mundi creationem sic infinuare Respondetur 
+      <lb ed="#A" n="25"/>secundum Magistrum e. li. ii. di. i. c. i. et. iii. quod voluit Primo 
+      <lb ed="#A" n="26"/>propter significandam dei et sanctissime trinitatis 
+      eterni<lb ed="#A" n="27" break="no"/>tatem. Secundo propter commendandam dei omnipotentiam et 
+      bo<lb ed="#A" n="28" break="no"/>nitatem vt videlicet significet deum a nte tempora extitisse eterna 
+      <lb ed="#A" n="29"/>iter et ex sua bonitate et voluntate ac omnipo tentia 
+      <lb ed="#A" n="30"/>res nouas condidisse.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1547">
+      ¶ Tertio propter errorum 
+      <lb ed="#A" n="31"/>eliminationem
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1552">
+      ¶ Primo naque per hoc quod dicit In 
+      prin<lb ed="#A" n="32" break="no"/>cipio. iuxta praedictos et alios docto. excluditur error 
+      <lb ed="#A" n="33"/>triplex. videlicet vnus error platonicorum: ponentium prinum 
+      <lb ed="#A" n="34"/>cipia mundi esse tria eterna. scilicet deum. materiam et 
+      exem<lb ed="#A" n="35" break="no"/>plar id est formas exemplares per se sbsistentes extra 
+      inte<lb ed="#A" n="36" break="no"/>lectum diuinum. et neque ipsas neque materiam ab ipso 
+      <lb ed="#A" n="37"/>deo habere esse et deum quasi artificem de materia 
+      <lb ed="#A" n="38"/>operantem mundum. non ex nihilo. Et iste error 
+      proces<lb ed="#A" n="39" break="no"/>sit ex eo quod non potuit intelligere ex nihilo aliquid 
+      <lb ed="#A" n="40"/>fieri. Ideo scriptura dicit In principio id est in filio. 
+      <lb ed="#A" n="41"/>creauit id est de nihilo fecit. Si enim deus in principio 
+      <lb ed="#A" n="42"/>vnico scilicet in filio. sicut per exemplar fecit mundum de 
+      <lb ed="#A" n="43"/>nihilo. non ergo rquiritur secundum principium quod sit 
+      exemplar<lb ed="#A" n="44" break="no"/>nec tertum scilicet materia.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1583">
+      ¶ Alius ertor epicuri 
+      exclu<lb ed="#A" n="45" break="no"/>ditur. qui dixit mundum casu factum vt refert Helinam 
+      <lb ed="#A" n="46"/>dus in chronicis libr. i. Epicurum id posuisse. Nam 
+      ca<lb ed="#A" n="47" break="no"/>sus est inopinatus rei euentus. sed deus fecit mundum 
+      <lb ed="#A" n="48"/>in filio qui est ars et sapientia dei. vt dicit Aurus. ergo de 
+      <lb ed="#A" n="49"/>us non a casu nec ignorans fecit modum
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1597">
+      ¶ Tertius 
+      <lb ed="#A" n="50"/>error excluditur aliorum philosophorum dicentium mundum 
+      na<lb ed="#A" n="51" break="no"/>tura factum. vt refert idem Helinandus. Cum 
+      <lb ed="#A" n="52"/>enim dicitur. In principio id est in sapientia creauit de 
+      <lb ed="#A" n="53"/>us. patet quod non natura sed vt artifex creauit. 
+      Na<lb ed="#A" n="54" break="no"/>et aliquid ex nihilo facere: quod seccatur per creationem 
+      <lb ed="#A" n="55"/>non potest natura quae est vis insita rebus similia ex 
+      si<lb ed="#A" n="56" break="no"/>milibus producens. ii physicorum. Denique nec modos qi 
+      <lb ed="#A" n="57"/>eiusdem nature cum deo fecit ergo sola voluntate deus ete. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e1617">
+      <!--337.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Secundo in hoet quod scriptura additi deus 
+      exclu<lb ed="#A" n="59" break="no"/>ditur error plurimorum philosophorum. vt Auice. qui dixerunt 
+      mu<lb ed="#A" n="60" break="no"/>dum factum a deo sed mediante prima intelligentia ita quod deus 
+      <lb ed="#A" n="61"/>per se primo fecit angelos et per illorum ministerium 
+      praeser<lb ed="#A" n="62" break="no"/>tim mediante prima intelligentia condidit inferiora. 
+      <lb ed="#A" n="63"/>contra hoc dicitur In principio deus non alius etc
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1637">
+      ¶ 
+      Ter<lb ed="#A" n="64" break="no"/>tio in hoc quod dicitur Creauit. cliditur error Aristoteli 
+      <lb ed="#A" n="65"/>corum vt dicit Magis. supra. Nam Aristo. posuit. ii de 
+      <lb ed="#A" n="66"/>generatione circa fi. plura principia. videlicet materiam 
+      <lb ed="#A" n="67"/>et specie i es formam et operatorium dictum id est causam 
+      exe<lb ed="#A" n="68" break="no"/>plarem. vt exponit Tho. dicit quod ipse Aristo. non errae 
+      <lb ed="#A" n="69"/>uit in ponedo plura principia: quia posuit ea omnia 
+      <lb ed="#A" n="70"/>a primo principio scilicet a deo dependere et ita relinqui 
+      <lb ed="#A" n="71"/>tur vnu esse primum principium: sed errauit in hoc quod 
+      <lb ed="#A" n="72"/>posuit mundum semper esse et fuisse. vt dicit magister. 
+      <lb ed="#A" n="73"/>contra quod scriptura dicit creauit. quod est de nihilo 
+      fa<lb ed="#A" n="74" break="no"/>cere. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h102828-d1e1663">
+      ¶ Quarto. per hoc quod dicitur. Celum et 
+      ter<lb ed="#A" n="75" break="no"/>ram. Excluditur error Democtiti ponentis plures 
+      mun<lb ed="#A" n="76" break="no"/>dos etc. Denique excluditur etiam error Manichei qui 
+      <lb ed="#A" n="77"/>posuit duo principia effectiua. scilicet summum bonum a quo 
+      <lb ed="#A" n="78"/>dixit esse sola incorruptibilia et sumruum malum a quo 
+      <lb ed="#A" n="79"/>dixit esse corruptibilia. Contra hoc ergo scriptura ait. 
+      <lb ed="#A" n="80"/>In principio scilicet vnico: deus scilicet solus creauit caelum et terram 
+      <lb ed="#A" n="81"/>et lucem et tenebras et sic patet deibonitas laudabilis. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e1681">
+                  <lb ed="#A" n="82"/>¶ De errore Manichei ac 
+      philoso<lb ed="#A" n="83" break="no"/>rum quorundam circa mundi creationem. habetur vbi 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e1688">
+                  <lb ed="#A" n="84"/>¶ Principium. 
+      </p>
+               <p xml:id="Vn7Pel-h102828-d1e1694">
+                  <lb ed="#A" n="85"/>¶ QE dei bonitas maxime claret 
+      <lb ed="#A" n="86"/>laudabilis in natatilibus pscibus et mostris maris. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ventus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Ventus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="470"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h145725">
+            <head xml:id="Vn7Pel-h145725-Hd1e110">Ventus</head>
+            <div xml:id="Vn7Pel-h145725-Dd1e112">
+               <head xml:id="Vn7Pel-h145725-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h145725-d1e116">
+                  <lb ed="#A" n="62"/>Entus. De hoc 
+      <lb ed="#A" n="63"/>queritur Quid sit Uentus: Notandum 
+      <lb ed="#A" n="64"/>Primo pro praeambulo: quod secundum Alb. ma 
+      <lb ed="#A" n="65"/>gnum differunt ista scilicet fumus Uapor: Exhalatio: et 
+      <lb ed="#A" n="66"/>Uentus
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e129">
+      ¶ Primo nanque fumus proprie dicitur inquantum 
+      <lb ed="#A" n="67"/>ab exteriori agente calido igneo id est agente secundum 
+      proprie<lb ed="#A" n="68" break="no"/>tatem ignis: elictur. sicut terreum siccum quod proximum est 
+      va<lb ed="#A" n="69" break="no"/>poribus odorum. Unde Arist. iii. li. Metheo. Fumus est 
+      <lb ed="#A" n="70"/>vapor terreus adustus. Item fumus oculos grauat. 
+      <lb ed="#A" n="71"/>ascendendo attenuatur et deficit. et in superioribus dissi 
+      <lb ed="#A" n="72"/>patur.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e145">
+      ¶ Secundo Uapor est proprie eleuatio subtilis 
+      <lb ed="#A" n="73"/>rei inquantum elicitur ab extrinseco calido in altum 
+      tenden<lb ed="#A" n="74" break="no"/>tis a corpore grosso. Exemplum. Sicut aquae per 
+      calefacti<lb ed="#A" n="75" break="no"/>onem ignis euaporat in aerem vel fumum aereum se 
+      <lb ed="#A" n="76"/>subtiliorem. et amarum: eo quod natura aquae salsa est: siue 
+      <lb ed="#A" n="77"/>quia terre admixta est. vt dicitur libro de imagine mundi. 
+      <lb ed="#A" n="78"/>Tertio Exhalatio est proprie sublimatio rei subti 
+      <lb ed="#A" n="79"/>lis a corpore grosso in altum tendentis: inquantum ab 
+      <lb ed="#A" n="80"/>exteriori calido agente elicitur calidum naturale: et cum 
+      <lb ed="#A" n="81"/>illo humidum siccabile. et fit a calore ignis vel solits 
+      <lb ed="#A" n="82"/>Sepe autem vnum horum pro alio ponitur.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e169">
+      ¶ Quarto 
+      <lb ed="#A" n="83"/>Uentus claret differre a praedictis. quia licet fieri 
+      habe<lb ed="#A" n="84" break="no"/>at ex vapore ascendente ex terra et aquis: tamen est flatus 
+      <lb ed="#A" n="85"/>aeris et fluctus eius: sicut dicit Damasce. li. ii ca. ix. et 
+      Se<lb ed="#A" n="86" break="no"/>neca li. ii de naturalibus quaesti. Unde ad quaesitum 
+      dicen<lb ed="#A" n="87" break="no"/>dum secundum Bedam libro de imag. mum. et Isid. xiii. li. 
+      Ety<lb ed="#A" n="88" break="no"/>mols. Uentus diffinitur sic. Uentus est aer commotus 
+      <lb ed="#A" n="89"/>et exagitatus. et in re non aliud quam flatus aeris. sic 
+      di<lb ed="#A" n="90" break="no"/>ctus eo quod violentus sit et vehemens. Uis etenim eius 
+      <lb ed="#A" n="91"/>tanta est vt et saxa et arbores vellat et maria 
+      com<lb ed="#A" n="92" break="no"/>moueat: celum: terramque conturbet. Sed quomodo hec 
+      pos<lb ed="#A" n="93" break="no"/>sit vide. §. x. Item exagitatio aeris in ventum potest 
+      fla<lb ed="#A" n="94" break="no"/>bello experimentaliter comprobari: vt dicit Beda de na 
+      <lb ed="#A" n="95"/>re. Denique et Clemens ait: quod dci ordinatione ex sua 
+      <lb ed="#A" n="96"/>bonitate fit vt aer coagitetur in ventosque exprimatur 
+      <lb ed="#A" n="97"/>ad excitandum fluctus in aere quibus estus temporetur. 
+      <lb ed="#A" n="98"/>Patet ergo deus laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e207">
+               <head xml:id="Vn7Pel-h145725-Hd1e209">2</head>
+               <p xml:id="Vn7Pel-h145725-d1e211">
+                  <lb ed="#A" n="99"/>¶ Quibus ex causis fit ventorum 
+      <lb ed="#A" n="100"/>generatio: Ad hoc varie dicunt philosophi. Nam aliquisicut 
+      <lb ed="#A" n="101"/>etiam narratur libro de nat. re. ) hanc rationem assignant quod 
+      <lb ed="#A" n="102"/>in terra est abyssus profundissima: cuius fontes olim 
+      <lb ed="#A" n="103"/>in diluuio rupti fuisse leguntur. Et quod iuxta hanc 
+      <lb ed="#A" n="104"/>iunt loca cauernosa et spelunce late patentes. Et 
+      <lb ed="#A" n="105"/>vt dicunt Ex his venti de spiramine aquarum 
+      conci<lb ed="#A" n="106" break="no"/>piurtur: qui et spiritus procellarum dicuntur: vt patet in Psalmus 
+      <lb ed="#A" n="107"/>Et hi quidem spiramine suo per patentes cauernas 
+      <lb ed="#A" n="108"/>aquaes mais introrsum in abyssum trahunt. Ca quoque 
+      <lb ed="#A" n="109"/>terum inundatione impetu magno impellunt. De 
+      <lb ed="#A" n="110"/>his itaque dicunt ventum fieri et terremotum.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e240">
+      ¶ Item 
+      <lb ed="#A" n="111"/>Guiller. de Conch. etiam dicit quod terra cauernosa 
+      <!--470.xml-->
+      <pb ed="#A" n="471"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>est: vtpote naturaliter sica. ideo subintrat vna 
+      pero<lb ed="#A" n="2" break="no"/>aeris cauernas terre. Altera laborat exire. Ex quo 
+      <lb ed="#A" n="3"/>conflictu aer motus regio ventorum dicitur. Et ita ex 
+      sub<lb ed="#A" n="4" break="no"/>terraneis aliquando aeris motibus ventus generatur. 
+      Ali<lb ed="#A" n="5" break="no"/>quando etiam nubes superiores rupte et in pronum 
+      solu<lb ed="#A" n="6" break="no"/>te ventos generant. Nubes enim dissoluta siue 
+      ca<lb ed="#A" n="7" break="no"/>lore et radiis solis: siue aliis modis: ventos 
+      fa<lb ed="#A" n="8" break="no"/>qit vt late declarat. quod pertranseo amore brevitatis. 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e269">
+                  <lb ed="#A" n="9"/>¶ Preterea Arist. li. iii. Metheor. materiam 
+      ven<lb ed="#A" n="10" break="no"/>torum volens declarare dicit: quod in vapore sicco est 
+      va<lb ed="#A" n="11" break="no"/>por humidus. et econuerso. sed vnusquisque nominatur etx 
+      <lb ed="#A" n="12"/>prodominante et vincente siccus vel humidus. Eleuantur 
+      <lb ed="#A" n="13"/>itaque duo vapores est terra et aquis: quorum vnus est 
+      humi<lb ed="#A" n="14" break="no"/>dus quia praedominatur in eo humiditas. et talis est mate 
+      <lb ed="#A" n="15"/>ria pluuiarum. Alius est siccus. et iste est principium et 
+      ma<lb ed="#A" n="16" break="no"/>teria ventorum omnium. Unde subdit ibidem Arist. non 
+      va<lb ed="#A" n="17" break="no"/>lere dictum eorum qui dicunt quod venius est iste aer noster 
+      ef<lb ed="#A" n="18" break="no"/>fusus quando mouetur. Sed nominamus inquit ventum 
+      ta<lb ed="#A" n="19" break="no"/>lem aerem non propter hoc quod ipse mouetur. sed quoniam habet esse 
+      <lb ed="#A" n="20"/>ex radice ex qua est eius materia. Non enim potest esse 
+      ven<lb ed="#A" n="21" break="no"/>tus quin sit aut ex aere moto: aut ex vapore 
+      ascen<lb ed="#A" n="22" break="no"/>dente ex terra et aquis. Ad hec etiam infra §. xii. 
+      <lb ed="#A" n="23"/>Plures alii Philosophi multa de hac materia dixe 
+      <lb ed="#A" n="24"/>runt. sed tam praescripti quam alii ad plenum scire nequiue. 
+      <lb ed="#A" n="25"/>runt. Unde dicitur libro de nat. re. Causas inquit ventorum 
+      <lb ed="#A" n="26"/>ad plenum scire neminem mortalium arbitror scilicet intel 
+      <lb ed="#A" n="27"/>ligendo quo ad causas singulas particulares: sed 
+      <lb ed="#A" n="28"/>solum secundum generales. Subditur ibidem. Quod enim venti 
+      <lb ed="#A" n="29"/>iussu dei flant: scis. et quod perflant sentis. sed tamen qua causa 
+      <lb ed="#A" n="30"/>vel ratione educantur nesci. Hec ibi. Et a fortiori de 
+      <lb ed="#A" n="31"/>loco ortus et circumstantiis nescitur.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e321">
+      ¶ Dicendum ergo fina 
+      <lb ed="#A" n="32"/>liter cum theo logis veracius quod sicut sacrta dicit 
+      scri<lb ed="#A" n="33" break="no"/>ptura psalm. xxxiiii. Qui scilicet deus producit ventos de 
+      the<lb ed="#A" n="34" break="no"/>sauris suis. Glo id est de occultis causis. Sic 
+      intelli<lb ed="#A" n="35" break="no"/>gendum est quod dei est scire ad plenum vel beatorum ei 
+      <lb ed="#A" n="36"/>angelorum in particulari de causis singulis et locis et 
+      <lb ed="#A" n="37"/>circumstantiis illorum. Sufficiat ergo nobis cognoscere 
+      <lb ed="#A" n="38"/>talia quantum dignatus est nobis deus donare ad 
+      sui<lb ed="#A" n="39" break="no"/>laudem et gloriam. Nam et in hoc deus laudabilis est 
+      <lb ed="#A" n="40"/>quod multa occulta non concessit nobis scire: ne 
+      superbien<lb ed="#A" n="41" break="no"/>do gratiam perderemus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e346">
+               <head xml:id="Vn7Pel-h145725-Hd1e348">3</head>
+               <p xml:id="Vn7Pel-h145725-d1e350">
+                  <lb ed="#A" n="42"/>¶ Quid de qualitatibus ventorum 
+      <lb ed="#A" n="43"/>Notandum secundum Constan. li. v. pantheg. ac Guiller. 
+      <lb ed="#A" n="44"/>Qualitates ventorum diuersificantur ex qualitate 
+      ter<lb ed="#A" n="45" break="no"/>re vnde nascuntur. Nam quare est quod cum ventus sit aer 
+      <lb ed="#A" n="46"/>in aliquam partem fluens. aer autem est calidus et 
+      huni<lb ed="#A" n="47" break="no"/>dus Quomodo ergo ventus boreas dicitur frigidus et siccus 
+      <lb ed="#A" n="48"/>Dicendum inquit quod nihil est aere conuertibilius. vnde 
+      <lb ed="#A" n="49"/>positus inter calidum et frigidum elementum cito in 
+      eo<lb ed="#A" n="50" break="no"/>rum naturas conuertitur. Ex vicinitate ergo terre: qualita 
+      <lb ed="#A" n="51"/>tes ventus contrahit: Ita quod quales sunt terre cardines 
+      <lb ed="#A" n="52"/>talis inde nascitur ventus. Est autem orientalis 
+      regio<lb ed="#A" n="53" break="no"/>calida et humiditate vel siccitate temperata. ergo 
+      ven<lb ed="#A" n="54" break="no"/>tus consimiliter inde natus temporate calidus et siccus. 
+      <lb ed="#A" n="55"/>Occidentalis regio frigidior et humidior est: ex quae 
+      <lb ed="#A" n="56"/>nascitur ventus frigidior et humidior. Item auster est 
+      ca<lb ed="#A" n="57" break="no"/>lidus a sole in alto: et est humidus ex humiditate 
+      <!--470.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>fumi maris. Item per medium torrride zone ad nos 
+      <lb ed="#A" n="59"/>peruenit: accidentaliter fit calidior. propellendo quoque 
+      nu<lb ed="#A" n="60" break="no"/>bes ad hunc angulum terre quem incolimus 
+      pluui<lb ed="#A" n="61" break="no"/>as operatur vnde humidus iudicatur et calidissimus. Bore 
+      <lb ed="#A" n="62"/>as sua origine est frigidus et siccus. et quia etiam 
+      <lb ed="#A" n="63"/>a nobis fugando nubes: serenitatem operatur: vnde ab 
+      ef<lb ed="#A" n="64" break="no"/>fectu siccus dicitur
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e407">
+      ¶ Quod si queratur. Quare ergo omnes 
+      ven<lb ed="#A" n="65" break="no"/>ti desiccant terram vel herbas vel arbores: 
+      ve<lb ed="#A" n="66" break="no"/>stes etc. si careant pluuia: Respondet idem Guiller. de 
+      <lb ed="#A" n="67"/>Conch. quod ideo. quia dato quod ventus sit humidus: 
+      <lb ed="#A" n="68"/>tamen cum hoc quandoque etiam est calidus. Calor vero 
+      siccita<lb ed="#A" n="69" break="no"/>tem operatur. Et etiam quia aqua que est in superficie terre vel 
+      <lb ed="#A" n="70"/>in arbore vel veste et huiusmodi: cum tangitur a vento: in 
+      <lb ed="#A" n="71"/>aerem euaporat. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e426">
+               <head xml:id="Vn7Pel-h145725-Hd1e428">4</head>
+               <p xml:id="Vn7Pel-h145725-d1e430">
+                  <lb ed="#A" n="72"/>¶ Quales effectus faciant 
+      ven<lb ed="#A" n="73" break="no"/>ti diuersi in corporibus humanis praesertim:
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e437">
+      ¶ Notan 
+      <lb ed="#A" n="74"/>dum quod colligendo ex Auicen. li. .i i. medicine: atque 
+      Con<lb ed="#A" n="75" break="no"/>stan. in panthegni libro v
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e444">
+      ¶ Uentus Septentrionalis 
+      <lb ed="#A" n="76"/>scilicet Boreas corpora corroborat: indurat: claudit 
+      <lb ed="#A" n="77"/>poros: confortat digestiuam: stringit ventrem: 
+      cere<lb ed="#A" n="78" break="no"/>brum sanat: aerem pestilenticum reprimit: tusses 
+      fa<lb ed="#A" n="79" break="no"/>cit et dolores pectoris propter desiccationem spirituma 
+      <lb ed="#A" n="80"/>lis instrumenti: dolores parit oculorum. 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e457">
+                  <lb ed="#A" n="81"/>¶ Uentus Meridionalis siue Auster econtrario 
+      <lb ed="#A" n="82"/>neruos emollit et aperit poros: laxat corpora: 
+      hu<lb ed="#A" n="83" break="no"/>mores turbat et mouet ab interioribus ad 
+      exteri<lb ed="#A" n="84" break="no"/>ora: egritudini recidiuationem facit: efficit 
+      poda<lb ed="#A" n="85" break="no"/>gram et pruritum et febres: elephantiam commouet. 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e471">
+                  <lb ed="#A" n="86"/>¶ Uenti Orientales vniuersaliter meliores sunt 
+      <lb ed="#A" n="87"/>semper occidentalibus: licet vtrique ex sui temporie sint 
+      corpo<lb ed="#A" n="88" break="no"/>rum temperatiui. Etsi ipsi orientales venti in noctis 
+      <lb ed="#A" n="89"/>postremo vel in principio diei flauerint: sicciores 
+      <lb ed="#A" n="90"/>sunt et subtiliores. quia veniunt ab aere qui iam a 
+      so<lb ed="#A" n="91" break="no"/>le temporatus est et subtiliatus: et eius humiditas iam 
+      im<lb ed="#A" n="92" break="no"/>minuta est. In sero per oppositum est et similiter in noctis prin¬ 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e489">
+                  <lb ed="#A" n="93"/>¶ Uenti occidentales si flauerint in prin. (cipio. 
+      <lb ed="#A" n="94"/>cipio diei et fine noctis: quia veniunt ab aere in quo 
+      <lb ed="#A" n="95"/>sol adhuc non est operatus. ergo erunt spissiores et 
+      <lb ed="#A" n="96"/>grossiores. Quod si in fine diei et in principio noctis 
+      <lb ed="#A" n="97"/>flauerint: erit res contraria
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e502">
+      ¶ Preterea alii octo 
+      ven<lb ed="#A" n="98" break="no"/>ti secundum naturam suorum principalium ventorum operantur 
+      cir<lb ed="#A" n="99" break="no"/>ca corpora. sed tamen mediocrius. Laudetur ergo honitas 
+      <lb ed="#A" n="100"/>dei in omnibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e513">
+               <head xml:id="Vn7Pel-h145725-Hd1e515">5</head>
+               <p xml:id="Vn7Pel-h145725-d1e517">
+                  <lb ed="#A" n="101"/>¶ Quoot numerantur venti 
+      nomi<lb ed="#A" n="102" break="no"/>natim distincti: Notandum secundum Isid. li. xiii. etysnum. 
+      <lb ed="#A" n="103"/>et ex libro de nat. re. quod Quattuor sunt venti principa 
+      <lb ed="#A" n="104"/>les vel cardinales. et octo sunt collaterales. Et ita 
+      <lb ed="#A" n="105"/>in toto sunt duodecim numero. Ultra hos est 
+      ven<lb ed="#A" n="106" break="no"/>tus turbinis. Seneca autem dicit de naturalibus quaesti. 
+      <lb ed="#A" n="107"/>li. ii. Placet inquit duodecim ventos esse: non quia tot 
+      <lb ed="#A" n="108"/>vbique sint: quoniam quosdam inclinatio terrarum excludit. 
+      <lb ed="#A" n="109"/>sed quia plures nusquam suntir scilicet preter turbinem 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e539">
+                  <lb ed="#A" n="110"/>¶ Primus ab oriente ventus principalis qui dicitur 
+      <lb ed="#A" n="111"/>Subsolanus: calore et frigore temporatus. Et habet 
+      <lb ed="#A" n="112"/>hincinde collaterales. Nam a dextris habet ventum 
+      vul<lb ed="#A" n="113" break="no"/>turnum qui et calchias dicitur cuncta desiccans. Et 
+      <lb ed="#A" n="114"/>a sinistris habet Eurum qui est nubes generans. 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e552">
+      <!--471.xml-->
+                  <pb ed="#A" n="472"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Secundus ventus principalis a meridie dicitur 
+      Au<lb ed="#A" n="2" break="no"/>ster qui et Notus: humore et calorem et fulmina 
+      ge<lb ed="#A" n="3" break="no"/>nerans. Qui habet etiam geminos collaterales sciliceta 
+      <lb ed="#A" n="4"/>dextris Curoaustrum qui est calidus. A sinistris 
+      auten<lb ed="#A" n="5" break="no"/>Euronotum qui et Austroaphricus dicitur: qui est 
+      tempora<lb ed="#A" n="6" break="no"/>tus. Nam et australes venti quia flant ex humilie: 
+      <lb ed="#A" n="7"/>maiorem faciunt tempestatem in mari.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e576">
+      ¶ Tertius 
+      ven<lb ed="#A" n="8" break="no"/>tus principalis ab aquilone vel septentrione nominatur 
+      <lb ed="#A" n="9"/>eodem nomine videlicet Septentrio qui et Aparcias dicitur: 
+      <lb ed="#A" n="10"/>hic creat in aere nubes et frigora. Habet autem a 
+      <lb ed="#A" n="11"/>dextris Circium qui et circias dicitur faciens niues et 
+      <lb ed="#A" n="12"/>grandines. A sinistris Aquilonem qui et Boreas dicitur 
+      com<lb ed="#A" n="13" break="no"/>stringens nubes
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e593">
+      ¶ Quartus ventus principalis ab 
+      <lb ed="#A" n="14"/>pccidente dicitur Fauonius qui et Tephyrus: habet a dextus 
+      <lb ed="#A" n="15"/>Aphricum. a sinistris Corum. Horum. xii. ventorum 
+      concor<lb ed="#A" n="16" break="no"/>dia omne creatum in suo cursu ordinate consistit. Et 
+      <lb ed="#A" n="17"/>de his subsequenter. Silicet 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e604">
+                  <lb ed="#A" n="18"/>¶ Unde venti sunt sortiti nomi 
+      <lb ed="#A" n="19"/>na huiusmodi: Isid. e. li. xiii. dicit: quod hi. xii. venti globum 
+      <lb ed="#A" n="20"/>mundi flatibus circum agunt quorum nomina propriis ex 
+      cau<lb ed="#A" n="21" break="no"/>sis taliter signata sunt
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e615">
+      ¶ Nam Primus 
+      Subsola<lb ed="#A" n="22" break="no"/>nus dicitur: eo quod sub solis ortu nascatur. Uulturnus 
+      ei<lb ed="#A" n="23" break="no"/>dem coniunctus sic dicitur: eo quod ab alto tonet. Sed alius 
+      <lb ed="#A" n="24"/>eidem coniunctus dicitur Eurus: eo quod ab CEoo flat id est ab 
+      <lb ed="#A" n="25"/>oriente
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e626">
+      ¶ Item secundus principalis dicitur auster ab 
+      <lb ed="#A" n="26"/>hauriendo aquas. quia nubila nutrit aerem 
+      crassan<lb ed="#A" n="27" break="no"/>do. hic grece Notus nominatur: eo quod interdum aerem 
+      cor<lb ed="#A" n="28" break="no"/>rumpit et nocet. Nam pestilentiam quae ex aere corrupto 
+      <lb ed="#A" n="29"/>nascitur Auster flans in regiones reliquas tramsmittit. 
+      <lb ed="#A" n="30"/>Sed sicut auster pestilentiam gignit vel propellit: sic 
+      <lb ed="#A" n="31"/>aquilo repellit. Huic vento coniungitur 
+      Euroauster<lb ed="#A" n="32" break="no"/>eoque ex vna parte habet eurum: ex altera austrum. 
+      Con<lb ed="#A" n="33" break="no"/>iungitur etiam Austroaphricus qui ideo sic nominatur quia ium 
+      <lb ed="#A" n="34"/>ctus est hincinde austro et aphrico. vt claret ex 
+      di<lb ed="#A" n="35" break="no"/>tis.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e650">
+      ¶ Item tertius ventus principalis Septentrio 
+      <lb ed="#A" n="36"/>nominatur: eo quod a circulo septem stellarum consurgit. 
+      Hu<lb ed="#A" n="37" break="no"/>ic coniungitur Circius: qui diuerse et acriter circuitum 
+      <lb ed="#A" n="38"/>faciendo volat. Et etiam coniungitur eidem vento 
+      principali<lb ed="#A" n="39" break="no"/>a sinistris Aquilo dictus eo quod aquas stringit et nubes 
+      <lb ed="#A" n="40"/>dissipat. Est enim gelidus ventus et sicus. Idem 
+      Bo<lb ed="#A" n="41" break="no"/>reas dicitur quia ab hyperboreis montibus flat frigidis 
+      <lb ed="#A" n="42"/>et siccis
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e668">
+      ¶ Item quartus ventus principalis dicitur grece 
+      Te<lb ed="#A" n="43" break="no"/>phyrus: eo quod flores et germina flatum eius 
+      viuifi<lb ed="#A" n="44" break="no"/>cantur. hic latine Fauonius dicitur: eo quod foueat que 
+      na<lb ed="#A" n="45" break="no"/>scuntur. Nam hyemen resoluit: flores que et germina 
+      <lb ed="#A" n="46"/>producit et fouet. Huic a dextris coniunctus est 
+      Aphri<lb ed="#A" n="47" break="no"/>cus qui tempestatem: tonitrua: et fulmina generat. Et 
+      <lb ed="#A" n="48"/>habet a sinistris Corum sic dictum: eo quod a vento 
+      cir<lb ed="#A" n="49" break="no"/>culum claudens quasi choros faciat. Nam corus in 
+      <lb ed="#A" n="50"/>buos diuiditur scilicet in Auram et Altanum. Aura in 
+      <lb ed="#A" n="51"/>terra. Altanus in pelago. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e691">
+               <head xml:id="Vn7Pel-h145725-Hd1e693">6</head>
+               <p xml:id="Vn7Pel-h145725-d1e695">
+                  <lb ed="#A" n="52"/>Quid de vento. qui nominatur 
+      <lb ed="#A" n="53"/>turbo: Notandum quod secundum Philosophum. iiii. Metheor. 
+      <lb ed="#A" n="54"/>Uentus qui videtur in estate rotundus: in campis 
+      inuol<lb ed="#A" n="55" break="no"/>uens et tollens paleas et puluerem et alia quedam 
+      <lb ed="#A" n="56"/>terrestria nominatur turbo. Et iste ventus nullus est 
+      <lb ed="#A" n="57"/>praedictorum. Sed est ventus egrediens de nube: sic 
+      <!--471.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quod aperitur vel scinditur nubes vna in loco vno et 
+      a<lb ed="#A" n="59" break="no"/>lia in opposito situ ad illam vt dicitur secundum Alb. Et isti 
+      <lb ed="#A" n="60"/>buo venti descendentes ex nubibus concurrunt in 
+      me<lb ed="#A" n="61" break="no"/>dlio. et vterque illorum ab altero impelliter et impellit 
+      li<lb ed="#A" n="62" break="no"/>terum diuersa et contraria impulsione: non quidem in sub 
+      <lb ed="#A" n="63"/>limi sed in terra. Sufflatio enim illorum de sublimus 
+      <lb ed="#A" n="64"/>est veniens in terram. et super terram repercutitur ac 
+      eleuat<lb ed="#A" n="65" break="no"/>aliquantulum est terra vbi percutiunt terram iste due 
+      exuf<lb ed="#A" n="66" break="no"/>flationes. inuicemque ibi sese impellentes in partibus 
+      su<lb ed="#A" n="67" break="no"/>is et coartantes faciunt ventum turbinis per modum 
+      cir<lb ed="#A" n="68" break="no"/>culi rotundantes et inuoluentes secum puluerem 
+      pale<lb ed="#A" n="69" break="no"/>as et corpora minuta et leuia sicut stipulas. Et vt 
+      <lb ed="#A" n="70"/>dicit Seneca li. ii de natu. quaesti. Aliquando tamfortis est 
+      <lb ed="#A" n="71"/>ventus iste quod etiam arbusta radicitus vellit et 
+      te<lb ed="#A" n="72" break="no"/>cta domus
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e747">
+      ¶ E autem iste ventus scilicet turbinis non 
+      <lb ed="#A" n="73"/>venit a plaga mundi sicut alii venti. sed ex 
+      nubi<lb ed="#A" n="74" break="no"/>bus. signum est quia non diu durat sed tantum per horam. 
+      <lb ed="#A" n="75"/>Alii autem venti a plaga mundi venientes sunt diu 
+      du<lb ed="#A" n="76" break="no"/>rabiles. quia durat generatio materie talium ventorum 
+      <lb ed="#A" n="77"/>Confirmat quoqe Arist. per experimentum etiam quia videmus 
+      <lb ed="#A" n="78"/>quod venti alii flant per totam regionem et non in loco 
+      <lb ed="#A" n="79"/>vno parui campi sicut facit ventus turbinis ergo 
+      pa<lb ed="#A" n="80" break="no"/>tet quod ex nubibus mira velocitate et brevitate 
+      descen<lb ed="#A" n="81" break="no"/>dit etc.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e769">
+      ¶ Sed quare iste ventus turbinis vt 
+      multo<lb ed="#A" n="82" break="no"/>tiens solet fieri in estate: dicunt peripatetici quod 
+      ficri<lb ed="#A" n="83" break="no"/>solet in estate quando est tempus tonitrui Et ideo etiam signifi 
+      <lb ed="#A" n="84"/>cat tonitrua post futura infra paucos dies 
+      Ets<lb ed="#A" n="85" break="no"/>fortis est turbo sequuntur tonitrua vna hora vel 
+      <lb ed="#A" n="86"/>duabus aut citra. Quando autem contingit fieri turbincem 
+      <lb ed="#A" n="87"/>n hyeme tunc est tempore niuis. quia nubes niuose 
+      plu<lb ed="#A" n="88" break="no"/>rimum habent in se spiritus aerei ergo generant turbinem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e788">
+               <head xml:id="Vn7Pel-h145725-Hd1e790">7</head>
+               <p xml:id="Vn7Pel-h145725-d1e792">
+                  <lb ed="#A" n="89"/>¶ Quibus ex causis prohibentur esse § 
+      <lb ed="#A" n="90"/>venti. Notandum est secundum Alb. magnum quod radix 
+      vem<lb ed="#A" n="91" break="no"/>ti est ex vapore qui ascendit de terra et aqua. Et 
+      prin<lb ed="#A" n="92" break="no"/>cipium esse venti est ex eo. e materia eius est vapor 
+      <lb ed="#A" n="93"/>talis qui est frigidus et siccus subtilitate sua ac 
+      <lb ed="#A" n="94"/>rem transcendens Et cum spissatur frigiditate aeris 
+      for<lb ed="#A" n="95" break="no"/>liter impellit aerem. Inde est quod quando multi sunt 
+      va<lb ed="#A" n="96" break="no"/>pores ascendentes ex terra et aqua: tunc multi 
+      fi<lb ed="#A" n="97" break="no"/>unt venti Etsi pauci sunt vapores: pauci sunt 
+      ven<lb ed="#A" n="98" break="no"/>xi. Quod autem recipit quantitatem a quantitate alterius 
+      il<lb ed="#A" n="99" break="no"/>lud materialiter est ex illo. ergo ventus est matcriali 
+      <lb ed="#A" n="100"/>ter ex vapore terrestri ad superius aeris 
+      ascenden<lb ed="#A" n="101" break="no"/>te Uapor ergo ille sic eleuatus est corpus venti et 
+      <lb ed="#A" n="102"/>principium flatus eius et radix prima in qua 
+      radi<lb ed="#A" n="103" break="no"/>catur esse ipsius et est materia eius. Ideoque propter 
+      <lb ed="#A" n="104"/>motum illius flat ventus et mouetur secundum quantitate 
+      va<lb ed="#A" n="105" break="no"/>poris huiusmodi. Et cum abscinditur eleuatio talis 
+      va<lb ed="#A" n="106" break="no"/>poris tunc quiescit ventus Hec ergo est vna causa 
+      <lb ed="#A" n="107"/>ad propositum
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e836">
+      ¶ Alia causa est. quia vento taliter 
+      qui<lb ed="#A" n="108" break="no"/>escente et serenata aura accenditur solis calor 
+      exic<lb ed="#A" n="109" break="no"/>cans terram. et sic aperit eam et euaporare facit 
+      vapo<lb ed="#A" n="110" break="no"/>rem aqueum vt in aerem ascendat. Et quia illi 
+      va<lb ed="#A" n="111" break="no"/>pori obuiat in aere frigus: alteratur ergo in aquam 
+      <lb ed="#A" n="112"/>et pluit. et tunc iterum ex pluuia quiescit ventus 
+      <lb ed="#A" n="113"/>et cessat. quia abscinditur materia venti. scilicet vapor 
+      <lb ed="#A" n="114"/>siccus eo quod per pluuiam humectatur terra propter 
+      <!--472.xml-->
+      <pb ed="#A" n="473"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod minoratur materia vaporis sicci Et ita quiescit ven 
+      <lb ed="#A" n="2"/>tus.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e865">
+      ¶ Sed loquendo vniuersaliter quantum est et 
+      <lb ed="#A" n="3"/>parte cause efficientis due sunt cause prohibentes. 
+      <lb ed="#A" n="4"/>esse ventorum vt etiam dictat Arist. iii. metheo. Qua 
+      <lb ed="#A" n="5"/>rum vna est frigus excellens. Altera calor excellens 
+      <lb ed="#A" n="6"/>cum siccitate excellente. quia per hec prohibetur vapor 
+      ascen<lb ed="#A" n="7" break="no"/>dere qui est venti materia. Ratio. quia frigiditas 
+      <lb ed="#A" n="8"/>excellens constringit partes terre scilicet gelando. et sic 
+      <lb ed="#A" n="9"/>tas continet eas nec sinit euaporare ea quae sunt 
+      con<lb ed="#A" n="10" break="no"/>clusa in terra taliter constricta. Ideoque vapor non 
+      ha<lb ed="#A" n="11" break="no"/>bebit materiam quae ad summum aeris ascendat et per conseques 
+      ve<lb ed="#A" n="12" break="no"/>tus abscinditur. Item calor excellens solis cum siccita 
+      <lb ed="#A" n="13"/>te est causa abscisionis ventorum. quia exiccat terram et 
+      <lb ed="#A" n="14"/>adurit vapores eius ne ascendant in aera sed consumit 
+      <lb ed="#A" n="15"/>ft sic abscindit venti materiam. 
+      <lb ed="#A" n="16"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e899">
+               <head xml:id="Vn7Pel-h145725-Hd1e901">8</head>
+               <p xml:id="Vn7Pel-h145725-d1e903">
+                  <lb ed="#A" n="17"/>¶ In huius etiam signum est quaestio. 
+      <lb ed="#A" n="18"/>ilicet Unde est hoc quod sicut etiam christus dominus Mat. xvi. 
+      indu<lb ed="#A" n="19" break="no"/>cit contra iudeos Rubor celi in mane signat 
+      plu<lb ed="#A" n="20" break="no"/>uiam. et in sero signat serenum. Ibi enim christus dicit sic. 
+      <lb ed="#A" n="21"/>Facto vespere dicitis serenum erit. Rubicundum est 
+      <lb ed="#A" n="22"/>enim caelum: et mane hodie tempestas erit Rutilat et 
+      <lb ed="#A" n="23"/>triste caelum: faciem ergo celi diiudicare nostis etc. 
+      <lb ed="#A" n="24"/>Et ad hec dicendum secundum Alb. magnum quod in mane 
+      <lb ed="#A" n="25"/>rubor celi id est aeris vel nubis in aere est signum quod 
+      <lb ed="#A" n="26"/>sol vaporem eleuatum in inferiori hemispherio 
+      <lb ed="#A" n="27"/>trahit secum ad superius. et ibi calore suo facit eum 
+      <lb ed="#A" n="28"/>ascendere ad locum altum frigidum vbi est 
+      ge<lb ed="#A" n="29" break="no"/>neratio pluuiarum In sero autem rubor: signum est quod 
+      <lb ed="#A" n="30"/>sol vaporem eleuatum in superiori hemispherio 
+      <lb ed="#A" n="31"/>trahit ad inferius hemispherium et emundat ac 
+      sere<lb ed="#A" n="32" break="no"/>nat ipsum a vaporibus ex quibus generantur pluuie. Nam 
+      <lb ed="#A" n="33"/>et secundum Ptolomeum: oriens calidus est et siccus. ergo 
+      <lb ed="#A" n="34"/>sol ibi existens vapores ascendere facit. Occidens 
+      <lb ed="#A" n="35"/>autem est frigidus et humidus. ergo vapores spissat et 
+      <lb ed="#A" n="36"/>crassat ac descendere per consequens facit infra locum 
+      <lb ed="#A" n="37"/>vbi fiunt pluuie. ibique cum rubent signum est quod a 
+      <lb ed="#A" n="38"/>sole desuper radiante serenantur. Unde ad propositum 
+      cla<lb ed="#A" n="39" break="no"/>ret quod calor solis excellens cum siccitate est causa 
+      absci<lb ed="#A" n="40" break="no"/>ipsis ventorum et tempestatum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h145725-Dd1e959">
+               <head xml:id="Vn7Pel-h145725-Hd1e961">9</head>
+               <p xml:id="Vn7Pel-h145725-d1e963">
+                  <lb ed="#A" n="41"/>¶ Quid per ventos designatur in 
+      sa<lb ed="#A" n="42" break="no"/>cra scriptura. Dicit Greg. moralis. lib. xix. quod veloci 
+      <lb ed="#A" n="43"/>tate et subtilitate ventorum in scriptura sacra solent 
+      <lb ed="#A" n="44"/>anime designari et spiritus beati. Unde Psalmus ciii. Qui 
+      <lb ed="#A" n="45"/>ambulas super pennas ventorum: qui facis 
+      ange<lb ed="#A" n="46" break="no"/>los tuos spiritus et ministros tuos ignem 
+      vrem<lb ed="#A" n="47" break="no"/>tem etc. Deum enim ambulare super pennas ventorum est 
+      <lb ed="#A" n="48"/>transgredi virtutes omnium spirituum. vt dicit 
+      Gre<lb ed="#A" n="49" break="no"/>go. Item secundum Lyram penne ventorum metaphorice 
+      <lb ed="#A" n="50"/>designant velocitatem motus ipsorum super quos deus dicitur 
+      <lb ed="#A" n="51"/>ambulare Tum quia. ex diuina dispositione fiunt tales 
+      <lb ed="#A" n="52"/>impressiones in aere. Tum quia per angelos 
+      ta<lb ed="#A" n="53" break="no"/>lia administrat. vt dicit Aug. super Gen. Ideo 
+      sub<lb ed="#A" n="54" break="no"/>ditur Qui facis angelos tuos spiritus id est 
+      spiri<lb ed="#A" n="55" break="no"/>tu ales substantias et per consequens velocissimos in omni 
+      <lb ed="#A" n="56"/>ministerio. et ministros tuos ignem vrentem hoc 
+      <lb ed="#A" n="57"/>dicitur. quia frequenter angeli leguntur apparuisse in 
+      <lb ed="#A" n="58"/>specie ignis. vt Moysi in rubo ardenti. et He¬ 
+      <!--472.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>lie in currum igneo transiato et equis igneis. et 
+      He<lb ed="#A" n="60" break="no"/>iseo in monte pleno equorum et curruum igneorum. et 
+      <lb ed="#A" n="61"/>quia ardent angeli igne charitatis. 
+      </p>
+               <p xml:id="Vn7Pel-h145725-d1e1015">
+                  <lb ed="#A" n="62"/>¶ Sed quire scriptura dicit ventis 
+      <lb ed="#A" n="63"/>pondus inditum Iob. xxviii. Qui fecit ventis pon 
+      <lb ed="#A" n="64"/>dus et aquas appendit in mensura quando ponebat 
+      plu<lb ed="#A" n="65" break="no"/>uiis lege etc. Respondetur secundum Lyram quod per pondus significatur 
+      <lb ed="#A" n="66"/>inclinatio naturalis: venti ad motum: quam deus 
+      <lb ed="#A" n="67"/>dedit ei. Unde dicit Augustinus. Amor meus pondus meum 
+      <lb ed="#A" n="68"/>eo feror quocumque feror etc. Nimirum deus tammiram 
+      vim<lb ed="#A" n="69" break="no"/>dedit ventis ad motum: quod cum flant veluti aer mollis 
+      <lb ed="#A" n="70"/>et vapor: nihilo minus violentia sui motus saxa et 
+      ar<lb ed="#A" n="71" break="no"/>hores siluarum euellant et tecta dotnorum etc.
+     </p>
+               <p xml:id="Vn7Pel-h145725-d1e1039">
+      ¶ Quomodo 
+      <lb ed="#A" n="72"/>autem hoc possit aer mollis efficere. Dicunt physici 
+      <lb ed="#A" n="73"/>quod ibi tunc motus impulsionis pruenit motum 
+      diui<lb ed="#A" n="74" break="no"/>sionis aeris vel venti: ideo deiicit forti impulsu quaeque 
+      <lb ed="#A" n="75"/>fira. Dedit ergo deus pondus ventis praedicto modo. sicut et 
+      <lb ed="#A" n="76"/>aquas appendit in mensura contines eas infra limites 
+      <lb ed="#A" n="77"/>oceani ne effundant se super aridam. Et posuit legem inquit 
+      <lb ed="#A" n="78"/>pluuiis scilicet vt certis temporibus descenderent et certis modis 
+      <lb ed="#A" n="79"/>scilicet guttatim et non simul: prout expedit 
+      terrenascen<lb ed="#A" n="80" break="no"/>tibus ad vtilitatem hominum. ergo laudabilis est dei honitas. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Seruitus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Seruitus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="438"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h135958">
+            <head xml:id="Vn7Pel-h135958-Hd1e110">Seruitus</head>
+            <div xml:id="Vn7Pel-h135958-Dd1e112">
+               <head xml:id="Vn7Pel-h135958-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h135958-d1e116">
+                  <lb ed="#A" n="91"/>Cruitus et 
+      li<lb ed="#A" n="92" break="no"/>bertas. Queritur quibus modis 
+      <lb ed="#A" n="93"/>quis seruus dicitur:
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e125">
+      ¶ Notandum 
+      <lb ed="#A" n="94"/>secundum Guil. in. iiii. sententiarum. di. xxxvi. 
+      <lb ed="#A" n="95"/>art. i. quod seruus tripliciter dicitur secundum quod tripliciter dicitur et 
+      sex<lb ed="#A" n="96" break="no"/>uitus. Uno modo dicitur seruus a seruiendo. 
+      Si<lb ed="#A" n="97" break="no"/>cut Matth. xviii. dicitur: quod simile est regnum celorum 
+      <lb ed="#A" n="98"/>homini regi qui voluit rationem ponere cum 
+      ser<lb ed="#A" n="99" break="no"/>uis et de seruo nequam.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e141">
+      ¶ Secundo seruus dicitur 
+      <lb ed="#A" n="100"/>a seruando. et sic sancti dicuntur specialius serui dei: 
+      <lb ed="#A" n="101"/>quia seruantur deo innocenter viuendo. Unde Iobis 
+      <lb ed="#A" n="102"/>primo dicit dominus. Nunquid considerasti seruum 
+      <lb ed="#A" n="103"/>meum Iob: quod non sit ei similis rectus timens 
+      de<lb ed="#A" n="104" break="no"/>um
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e154">
+      ¶ Tertio seruus dicitur simul a seruiendo et a 
+      ser<lb ed="#A" n="105" break="no"/>uando. et hoc modo prelati sunt serui suorum 
+      sub<lb ed="#A" n="106" break="no"/>ditorum: eorum queredo bonum: et illos seruando 
+      <lb ed="#A" n="107"/>a malo. Unde summus pontifex se nuncupat 
+      ser<lb ed="#A" n="108" break="no"/>uum seruorum dei. Et sanctus Franciscus in regu¬ 
+      <!--438.xml-->
+      <pb ed="#A" n="439"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>la dicit: quod ministri sint serui omnium fratrum. Hec 
+      <lb ed="#A" n="2"/>quodammodo insinuat Aug. de ciui. lir. xix. dc. 
+      No<lb ed="#A" n="3" break="no"/>men serui culpa meruit non natura. Ecce primum 
+      <lb ed="#A" n="4"/>Subdit. Origo autm vocabuli seruorum inde creditur 
+      <lb ed="#A" n="5"/>dicta quod hi qui iure belie scilicet iusti poterant 
+      occidia<lb ed="#A" n="6" break="no"/>victoribus cum seruabantur serui fiebant a seruando 
+      <lb ed="#A" n="7"/>dicti. Ecce secundum. Idem quoque Aug. lib. de 
+      vi<lb ed="#A" n="8" break="no"/>ta christiana dicit. Christi ille non famulus sed 
+      sub<lb ed="#A" n="9" break="no"/>samnator est qui eius se seruumdicit cui seruire 
+      dis<lb ed="#A" n="10" break="no"/>simulat Hoc praecipue est qtra praelatos qui non 
+      que<lb ed="#A" n="11" break="no"/>runt salutem subditorum.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e197">
+      ¶ Notandum etiam secundum e 
+      <lb ed="#A" n="12"/>Guil. supra quod de vi vocabulorum hec tria differunt: 
+      man<lb ed="#A" n="13" break="no"/>cipium: seruus seu famulus et vernaculus. Nam 
+      <lb ed="#A" n="14"/>mancipium dicitur quasi manu captum qui bello 
+      <lb ed="#A" n="15"/>capitur et addicitur vt seruiat. Sicut faciunt 
+      sa<lb ed="#A" n="16" break="no"/>raceni vel turci christianis. Sed dicitur seruus aut 
+      <lb ed="#A" n="17"/>famulus qui precio conducitur vt domino famum 
+      <lb ed="#A" n="18"/>letur. Uernaculus autem quasi vernans id est florens 
+      <lb ed="#A" n="19"/>in domo est qui in domo nutritur non iam vt enim 
+      <lb ed="#A" n="20"/>pticius quales Abraam habuisse legitur Gen. xiiii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h135958-Dd1e220">
+               <head xml:id="Vn7Pel-h135958-Hd1e222">2</head>
+               <p xml:id="Vn7Pel-h135958-d1e224">
+                  <lb ed="#A" n="21"/>¶ Qualibus gradibus diuersifi 
+      <lb ed="#A" n="22"/>catur seruitus.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e231">
+      ¶ Notandum secundum e. Guil. cum 
+      fra<lb ed="#A" n="23" break="no"/>tre Hugone de nouo castro e. dist. xxxvi. lib. iiii 
+      <lb ed="#A" n="24"/>Tres sunt gradus seruitutis.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e238">
+      ¶ Primus dicitur 
+      <lb ed="#A" n="25"/>filialis que est subiectio obedientialis et charita 
+      <lb ed="#A" n="26"/>tiua vnius ad alterum in actibus decentibus Talis 
+      ser<lb ed="#A" n="27" break="no"/>uitus est filii ad patrem. et fuisset in statu 
+      innocen<lb ed="#A" n="28" break="no"/>tie. Similiter discipuli ad magistrum.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e249">
+      ¶ Secundus 
+      <lb ed="#A" n="29"/>gradus dicitur politicalis. Est autem seruitus 
+      poli<lb ed="#A" n="30" break="no"/>tica subiectio vnius ad alterum ad actus viles et 
+      <lb ed="#A" n="31"/>seruiles: remanente tamen libero accessu pro 
+      lo<lb ed="#A" n="32" break="no"/>co et tempore ad conseruationem speciei et indiuidui 
+      <lb ed="#A" n="33"/>Ista seruitus ortum habuit statim post peccatum 
+      <lb ed="#A" n="34"/>quando dictum est Ade. Gen. iii. Maledicta terra 
+      <lb ed="#A" n="35"/>in opere tuo. In laboribus comedes ex ea. Hec 
+      ser<lb ed="#A" n="36" break="no"/>uitus contrahitur a stipite nostre originis. Stati 
+      <lb ed="#A" n="37"/>enim Adam ex peccato fuit obligatus ad huiusmodi 
+      a<lb ed="#A" n="38" break="no"/>ctus et labores seruiles. Modo possibile est quod 
+      <lb ed="#A" n="39"/>filiis progenitis pater ex causa fuit exemptus a 
+      <lb ed="#A" n="40"/>talibus actibus. quia oportuit quod haberet sollicitud 
+      <lb ed="#A" n="41"/>nem domus Quo mortuo primogenitus agens 
+      <lb ed="#A" n="42"/>in domo patris vicem: fuit etiam exemptus ab 
+      il<lb ed="#A" n="43" break="no"/>lis actibus sicut pater. Alii vero remanserunt ad 
+      a<lb ed="#A" n="44" break="no"/>ctus seruiles. et sic succedente tempore filii eorum 
+      <lb ed="#A" n="45"/>redacti sunt in seruitutem eorum qui a primogenito 
+      <lb ed="#A" n="46"/>sunt procreati qui tam quam liberi nobilitatis in signiis 
+      <lb ed="#A" n="47"/>praediti sunt reputati. Et hoc videtur satis 
+      probabi<lb ed="#A" n="48" break="no"/>le quod videlicet nobilitas generis sic introducta sit aliis 
+      <lb ed="#A" n="49"/>manentibus ignobilibus. Item potuit etiam vel 
+      po<lb ed="#A" n="50" break="no"/>test politica seruitus et nobilitas a legislatore in 
+      <lb ed="#A" n="51"/>troduci propter diuersitatem dispositionis 
+      corpo<lb ed="#A" n="52" break="no"/>rum. Qui videns in ciuitate vel regno aliquos 
+      <lb ed="#A" n="53"/>corpore robustos et rudes mente et tales deputa 
+      <lb ed="#A" n="54"/>uit ad actus seruiles et manuales ac grossos. 
+      Al<lb ed="#A" n="55" break="no"/>os autem videns minus potentes corpore et 
+      sub<lb ed="#A" n="56" break="no"/>tiles mente. et illos deputauit ad studium et ad 
+      <lb ed="#A" n="57"/>spirituales labores. vnde Aristo. i. Politicorum dicit quod 
+      <!--438.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ille qui potest mente prenitere debet esse princi 
+      <lb ed="#A" n="59"/>pans natura. id est secundum rationem naturalem. 
+      Ho<lb ed="#A" n="60" break="no"/>mines enim intellectu inquit et ratione vigentes: 
+      natu<lb ed="#A" n="61" break="no"/>raliter sunt aliorum rectores et domini etc. Et ita excre 
+      <lb ed="#A" n="62"/>uit etiam libertas et nobilitas in militie deditis 
+      <lb ed="#A" n="63"/>et principum filiis etc.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e333">
+      ¶ Tertius gradus seruitutis 
+      <lb ed="#A" n="64"/>est miserrimus et penalis: que etiam a Landulpho 
+      <lb ed="#A" n="65"/>et doct. dicitur extrema seruitus: et est subiectio totalis 
+      <lb ed="#A" n="66"/>ad actus seruiles: per quam potest aliquis facere de 
+      <lb ed="#A" n="67"/>suo seruo vel potius mancipio: sicut de bestia. 
+      si<lb ed="#A" n="68" break="no"/>ue quo ad labores seruiles: siue ad coercendum 
+      <lb ed="#A" n="69"/>a malo vel aliquo. nec habet libertatem super 
+      conser<lb ed="#A" n="70" break="no"/>uationem speci vel indiuidui absque voluntate domi 
+      <lb ed="#A" n="71"/>ni sui Et talis seruitus introducta est teste Amb. 
+      <lb ed="#A" n="72"/>ex ebrietate. vt patet Gen ix. vbi legitur quod Noe 
+      inebri<lb ed="#A" n="73" break="no"/>atus cum fuisset inhoneste dormiens et a suo 
+      filio<lb ed="#A" n="74" break="no"/>nomine Cham derisus: exurgen. de somno dixit 
+      <lb ed="#A" n="75"/>Maledictus chanaan puer seruus seruorum erit 
+      <lb ed="#A" n="76"/>fratribus suis. De predictis etiam in sequentibus 
+      <lb ed="#A" n="77"/>patebit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h135958-Dd1e367">
+               <head xml:id="Vn7Pel-h135958-Hd1e369">3</head>
+               <p xml:id="Vn7Pel-h135958-d1e371">
+                  <lb ed="#A" n="78"/>¶ Utrum seruitus miserabilis 
+      <lb ed="#A" n="79"/>et penalis licite aliquo iure sit introducta: Ratio 
+      <lb ed="#A" n="80"/>questionis est: quia natura hominum a principio libera 
+      <lb ed="#A" n="81"/>est condita. et in statu etiam nature post ade peccatum 
+      <lb ed="#A" n="82"/>ante noe: libertas permansit inconcussa. vt patet in 
+      <lb ed="#A" n="83"/>decretis. dist. xxxv. c. Sexto die. et ita lege nature 
+      <lb ed="#A" n="84"/>omnes homines nascuntur liberi. nec voluit deus 
+      ho<lb ed="#A" n="85" break="no"/>minem ad imaginem dei factum dominari rationalibus id est 
+      ho<lb ed="#A" n="86" break="no"/>minibus sed tantummodo irrationalibus. vt dicit Aug. xix. de 
+      <lb ed="#A" n="87"/>ciui. dei. Sequitur ergo quod exnatura bene instituta serui 
+      <lb ed="#A" n="88"/>tus hominis ipsi homini que est misera ortum habere non 
+      <lb ed="#A" n="89"/>potuit. Unde ergo orta est vel quo iure aut 
+      iusti<lb ed="#A" n="90" break="no"/>cia non videtur: cum hoc patet esse contra ius nature
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e402">
+      ¶ 
+      Re<lb ed="#A" n="91" break="no"/>spondetur secundum Guil. e. di. xxxvi. li. iiii. quod de hoc 
+      tri<lb ed="#A" n="92" break="no"/>plex est modus dicendi: quorum Primus est fratris 
+      <lb ed="#A" n="93"/>Hugonis de nouo castro. e. dis. quod introducta est 
+      <lb ed="#A" n="94"/>talis seruitus penalis ex hoc: quia quando homo iusto 
+      bello<lb ed="#A" n="95" break="no"/>capitur: iuste potest interimi. si vero non interimitur sed 
+      <lb ed="#A" n="96"/>viuus seruatur: ex seruatione efficitur seruus illius 
+      seruan<lb ed="#A" n="97" break="no"/>tis. vt institutur. de libertis ponitur. Et hoc sic probat: 
+      <lb ed="#A" n="98"/>Quia in quocumque casu potest ei facere maius damnum: 
+      <lb ed="#A" n="99"/>iuste potest vt faciat ei minus damnum: quia in hoc sibi 
+      <lb ed="#A" n="100"/>facit gratiam. Sed in isto casu in quo potest eum iuste 
+      oc<lb ed="#A" n="101" break="no"/>cidere: faceret sibi maius damnum occidendo. ergo 
+      <lb ed="#A" n="102"/>iuste potest eum in seruitutem redigere: quod est minus 
+      <lb ed="#A" n="103"/>malum: quia non perditur per hoc totale esse sicut 
+      perdi<lb ed="#A" n="104" break="no"/>tur per occisione. Idem frater Hugo dicit: quod si set 
+      <lb ed="#A" n="105"/>uitus est introducta propter aliam causam a praedicta est 
+      <lb ed="#A" n="106"/>pra rationem.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e439">
+      ¶ Sed contr est Secundus modus dicendi. 
+      Ar<lb ed="#A" n="107" break="no"/>guit enim frater Landulphus e. di. sic: Quia contra 
+      re<lb ed="#A" n="108" break="no"/>ctam et naturalem rationem videtur impium: quod cessante 
+      per<lb ed="#A" n="109" break="no"/>tinacia et duricia quae est in hoste: non cesset pena 
+      de<lb ed="#A" n="110" break="no"/>bita huic pertinacie. Sed dum quis capitur in bello: 
+      <lb ed="#A" n="111"/>cessat a pertinacia rebellandi. ergo cum cessat fieri 
+      <lb ed="#A" n="112"/>inimicus et vult fieri amicus: non videtur quod iusto 
+      <lb ed="#A" n="113"/>debeat plecti pena illius seruitutis miserabilis 
+      <lb ed="#A" n="114"/>quod vendatur sicut pecus.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e459">
+      ¶ Si dicas: quia iste seruans. 
+      <!--439.xml-->
+      <pb ed="#A" n="440"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>illum ab occisione indulsit illi vitam: Ideo est 
+      to<lb ed="#A" n="2" break="no"/>tum ex gratia quicquid sibi facit. Argumentum est 
+      to<lb ed="#A" n="3" break="no"/>tum in oppositu. quia licet possit iuste illum occidere 
+      <lb ed="#A" n="4"/>durante iniusta inimicicia ex parte hostis contra quem 
+      <lb ed="#A" n="5"/>gerit iustum bellum: maxime se defendendo tamen 
+      <lb ed="#A" n="6"/>cessante ista causa non est rectum tantam seruitutem in 
+      <lb ed="#A" n="7"/>eo inducere: quae morti equiualet.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e484">
+      ¶ Item hanc sententiam 
+      <lb ed="#A" n="8"/>fratris Landulphi roborat doc. subti. dicit quod hec 
+      <lb ed="#A" n="9"/>extrema seruitus est contra legem nature. Nunquam ergo iu 
+      <lb ed="#A" n="10"/>ste potuit introduci: quia antiquitas temporis non 
+      ratifi<lb ed="#A" n="11" break="no"/>tat crimina: sed magis condennat. ergo iniustum est talem 
+      <lb ed="#A" n="12"/>dominium. Et difficulter potest excusari huiusmodi seruitus 
+      <lb ed="#A" n="13"/>nisi altero duorum modorum qui stati aperientur in subse 
+      <lb ed="#A" n="14"/>quentibus.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e502">
+      ¶ Nec valet obiectio quod apostolis praecipit 
+      ta<lb ed="#A" n="15" break="no"/>libus seruis: di. Serui obedite domi. vris etc. quia 
+      <lb ed="#A" n="16"/>multe sunt obligationes licet iniuste respectu illorum 
+      <lb ed="#A" n="17"/>quorum fiunt: tamen ex quo facte sunt: sunt bene custodiende. 
+      </p>
+               <p xml:id="Vn7Pel-h135958-d1e511">
+                  <lb ed="#A" n="18"/>¶ Unde idem apostols vt ostendat talem seruitutem et huiusmodi 
+      <lb ed="#A" n="19"/>dominium non esse laudabile dicit i. Cor. vii. Seruus 
+      <lb ed="#A" n="20"/>vocatus es: non sit tibi cure. sed si potes magis 
+      li<lb ed="#A" n="21" break="no"/>ber fieri: vtere. Hec ibi.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e522">
+      ¶ Ex his infertur: Quod illa 
+      <lb ed="#A" n="22"/>glo. super i. di. c. Ius gentium. que dicit: quod seruitus sit a 
+      <lb ed="#A" n="23"/>iure naturali inducta: sed a iure gentium est 
+      appro<lb ed="#A" n="24" break="no"/>bata: Non videtur verum dicere: quia in contrarium est 
+      ex<lb ed="#A" n="25" break="no"/>presse textus Canonis. xii. quaodio. ii cum redemptor. di. 
+      <lb ed="#A" n="26"/>Homines ab initio natura liberos protulit: et ius 
+      gen<lb ed="#A" n="27" break="no"/>tium iugo subdidit seruitutis. Item dis. xxxv. c. 
+      Se<lb ed="#A" n="28" break="no"/>xto die. dicitur: quod ante noe in statu nature manebat 
+      <lb ed="#A" n="29"/>omnibus inconcussa libertas. nemo sciebat a 
+      con<lb ed="#A" n="30" break="no"/>sorte nature sue obsequia seruitutis exigere: Non 
+      <lb ed="#A" n="31"/>esset hodie seruitus si ebrietas non fuisset. Hec 
+      <lb ed="#A" n="32"/>ibi.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e548">
+      ¶ Tertius itaque modus dicendi est melius 
+      tenen<lb ed="#A" n="33" break="no"/>do cum doc. subti. quod scilicet extrema seruitus est 
+      con<lb ed="#A" n="34" break="no"/>tra rationem: et per consequens con ius nature. et difficulter 
+      ex<lb ed="#A" n="35" break="no"/>cusatur nisi in altero duorum modorum
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e557">
+      ¶ Primo: si 
+      for<lb ed="#A" n="36" break="no"/>san aliquis voluntarie se huic subiecit misere 
+      serui<lb ed="#A" n="37" break="no"/>tuti vt sic vendat se in seruum: simpliciter renuncians 
+      <lb ed="#A" n="38"/>iuri suo: donetque seipsum. Etsi talis ita fecit: 
+      tenen<lb ed="#A" n="39" break="no"/>da est et seruanda: quia hoc est iustum. Et isto modo 
+      <lb ed="#A" n="40"/>videtur adam fecisse: vt dicit Amb. qui ere peccati seipsem 
+      <lb ed="#A" n="41"/>vendidit in seruum diabolo Psalmus Non cum in honore 
+      <lb ed="#A" n="42"/>esset scilicet libertatis: non intellexit. comparatus est ergo 
+      <lb ed="#A" n="43"/>iumentis insipientibus et similis factus est illis scilicet seruus per 
+      <lb ed="#A" n="44"/>peccatum. Prout de hoc patuit vbi <ref xml:id="Vn7Pel-h135958-Rd1e578">Potestas. §. iii.</ref>
+                  <lb ed="#A" n="45"/>Secundo modo excusatur quando quis iuste dominas 
+      con<lb ed="#A" n="46" break="no"/>munltati: aliquos videt ita viciosos quod tam sibi 
+      <lb ed="#A" n="47"/>nocent quam communitati. hic hos libertate potest 
+      pri<lb ed="#A" n="48" break="no"/>uare et in seruos redigere: sicut et in aliquibus 
+      casi<lb ed="#A" n="49" break="no"/>bus occidere.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e593">
+      ¶ Ex hoc infert frater <name xml:id="Vn7Pel-h135958-Nd1e595">Nicolaus</name> 
+      boc<lb ed="#A" n="50" break="no"/>neti <ref xml:id="Vn7Pel-h135958-Rd1e599">Turon. in notulis. super. iii sententiarum</ref>. Quod si 
+      ali<lb ed="#A" n="51" break="no"/>quis videns in aliquo regno violari ex toto lege 
+      <lb ed="#A" n="52"/>dei et presidentem non curare. hic si mouetur zelo solum 
+      <lb ed="#A" n="53"/>dei et poaet illud regnum conquirere: et conquirendo ad cultum 
+      <lb ed="#A" n="54"/>dei et honorem reuocare: potest inibi regnare licite 
+      <lb ed="#A" n="55"/>Et tali iure introducti sunt filii ssrael ad regnandum 
+      <lb ed="#A" n="56"/>in terra chanaan. Et consimili iure christiani reges 
+      <lb ed="#A" n="57"/>possident regna infidelium sepius aut 
+      scismatico<lb ed="#A" n="58" break="no"/>rum et hereticorum: maxime autem apostolica damnatorum. 
+      </p>
+               <p xml:id="Vn7Pel-h135958-d1e619">
+      <!--439.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>¶ Ad quesitum ergao dicendum scundu eundum <name xml:id="Vn7Pel-h135958-Nd1e627">Gull</name>. 
+      <lb ed="#A" n="60"/>vbi. supra quod extrema seruitus altero iure triplici est 
+      <lb ed="#A" n="61"/>introducta. Primo a <ref xml:id="Vn7Pel-h135958-Rd1e634">iure gentium. di. i.</ref>
+                  <ref xml:id="Vn7Pel-h135958-Rd1e636">Ius 
+      gen<lb ed="#A" n="62" break="no"/>tium. et. xii. q. ii</ref> cum redemptor. licet forte ex hoc 
+      <lb ed="#A" n="63"/>non sufficiat ratio. Secundo fortius est a iure 
+      di<lb ed="#A" n="64" break="no"/>uino. vt patet de Noe maledicente cham: vt sit 
+      ser<lb ed="#A" n="65" break="no"/>uus. et <ref xml:id="Vn7Pel-h135958-Rd1e648">Exo. xxi.</ref> Si emeris seruum hebreum. 
+      Ter<lb ed="#A" n="66" break="no"/>tio iure canonico est seruitus declarata et 
+      appro<lb ed="#A" n="67" break="no"/>bata. . q. iiii. Id constituimus. videlicet quod seruus 
+      <lb ed="#A" n="68"/>ad seruitium domini sui redire cogatur et contemnere dominum 
+      <lb ed="#A" n="69"/>et eius ministerium destituere non debet etc. 
+      </p>
+               <p xml:id="Vn7Pel-h135958-d1e659">
+                  <lb ed="#A" n="70"/>¶ De seruis vel seruitute 
+      pluri<lb ed="#A" n="71" break="no"/>ma tractantur in summis que pertranseo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h135958-Dd1e667">
+               <head xml:id="Vn7Pel-h135958-Hd1e669">4</head>
+               <p xml:id="Vn7Pel-h135958-d1e671">
+                  <lb ed="#A" n="72"/>¶ Que seruitus super omnes alias pro 
+      <lb ed="#A" n="73"/>seruitutes est grauissima et pessima: Respondo 
+      <lb ed="#A" n="74"/>tur secundum omnes doc. et scripturas ac rationes: quod serui 
+      <lb ed="#A" n="75"/>tus peccati est pessima et grauissima pre omnibus 
+      <lb ed="#A" n="76"/>De qua christus dicit Ioan. viii. Amen dico vobis 
+      <lb ed="#A" n="77"/>quia omnis qui facit peccatum seruus est peccati¬ 
+      </p>
+               <p xml:id="Vn7Pel-h135958-d1e687">
+                  <lb ed="#A" n="78"/>¶ Et probatur Primo ex parte vere libertatis: secundum 
+      <lb ed="#A" n="79"/>Lyram ibidem sic. Quia ille dicitur vere liber qui 
+      moue<lb ed="#A" n="80" break="no"/>tur proprio motu. sicut et seruus dicitur quis eo quod 
+      mo<lb ed="#A" n="81" break="no"/>uetur ad imperium domini sui: Sed quia in opere 
+      pec<lb ed="#A" n="82" break="no"/>cati homo mouetur contra illud quod est sibi proprium: 
+      <lb ed="#A" n="83"/>quia viuere secundum propriam rationem rectam est proprius 
+      ho<lb ed="#A" n="84" break="no"/>minis motus: ex. ii Ethicorum. In peccato autem 
+      ho<lb ed="#A" n="85" break="no"/>mo mouetur contra rectam rationem. et ideo licet peccatum 
+      <lb ed="#A" n="86"/>sit voluntarium: tamen in ipso peccato consistit matima 
+      <lb ed="#A" n="87"/>seruitus et brutalis.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e711">
+      ¶ Secundo probatur ex parte 
+      ob<lb ed="#A" n="88" break="no"/>ligationis: quia seruitus peccati obligat non solum 
+      <lb ed="#A" n="89"/>corpus sed et animam et omnem motum pessimo domi 
+      <lb ed="#A" n="90"/>no: videlicet diabolo. non sic est de seruitute 
+      mun<lb ed="#A" n="91" break="no"/>dana. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e722">
+      ¶ Tertio ex parte durationis scilicet in per¬s 
+      <lb ed="#A" n="92"/>petuis penis inferni quem sequuntur ex seruitute 
+      pc<lb ed="#A" n="93" break="no"/>cati etc. Unde Ambrosius. Qui facit peccatum seruus 
+      <lb ed="#A" n="94"/>est peccati. semper in laquei vinculis est: numquam est 
+      <lb ed="#A" n="95"/>liber a compedibus: quia semper est in criminibus Hec 
+      <lb ed="#A" n="96"/>ille. Sed quia alie seruitutes licet cessent post mor 
+      <lb ed="#A" n="97"/>tem: hec nunquam. ergo etc. Unde claret ex omnibus 
+      <lb ed="#A" n="98"/>predictis quod iusto iudicio pro peccatis induxit 
+      ser<lb ed="#A" n="99" break="no"/>uitutem homini.
+     </p>
+               <p xml:id="Vn7Pel-h135958-d1e743">
+      ¶ Laudetur ergo etc. 
+      </p>
+               <p xml:id="Vn7Pel-h135958-d1e745">
+                  <lb ed="#A" n="100"/>¶ Quod dei bonitas est laudabilis 
+      <lb ed="#A" n="101"/>quia ad salutem eternam dedit synderesim et 
+      com<lb ed="#A" n="102" break="no"/>scientiam instigantem. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

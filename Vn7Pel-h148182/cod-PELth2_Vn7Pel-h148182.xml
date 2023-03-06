@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vinum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Vinum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="478"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h148182">
+            <head xml:id="Vn7Pel-h148182-Hd1e110">Vinum</head>
+            <div xml:id="Vn7Pel-h148182-Dd1e112">
+               <head xml:id="Vn7Pel-h148182-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h148182-d1e116">
+                  <lb ed="#A" n="49"/>¶ Inum. Quid de Di 
+      <lb ed="#A" n="50"/>ini origie
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e123">
+      ¶ Notandum est primo quod secundu 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e125">
+                  <lb ed="#A" n="51"/>¶ Isi. Unu inde dictum est quia eius pots 
+      <!--477.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>sanguinem citius replet vi sua. Dicit aut Arist. iiii. li. 
+      <lb ed="#A" n="53"/>Topic. Uinum no aliud esse secundum Empedoclem nisi 
+      <lb ed="#A" n="54"/>aquam putrefactam in lignis suis: puta in ligno vi 
+      <lb ed="#A" n="55"/>tis que postea producitur in fructuscilicet in vuas: et 
+      Ai<lb ed="#A" n="56" break="no"/>bus exprimitur. Unde et Augustinus Homel. super Ioan. de 
+      <lb ed="#A" n="57"/>conuersione aque in vinum idem senti scilicet quod aqua vitis 
+      <lb ed="#A" n="58"/>conuertitur in vinum etc.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e149">
+      ¶ Secundo Notandum est quod 
+      <lb ed="#A" n="59"/>sicut Palladius libr. xi. de agricul. dicit. Ex vuis nigris 
+      <lb ed="#A" n="60"/>vinum fit forte. ex rubeis suaue. ex albis vero 
+      ple<lb ed="#A" n="61" break="no"/>rumque mediocre.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e159">
+      ¶ Tertio ad quaesitum dicit Amb. li. 
+      <lb ed="#A" n="62"/>iii. Et claret etiam ex scriptura Gen. q. Noe primo 
+      <lb ed="#A" n="63"/>post diluuium vitem plantauit que prius domini 
+      prece<lb ed="#A" n="64" break="no"/>pto pullulauit: ac bibit de vino eius et obdormi 
+      <lb ed="#A" n="65"/>uit. Deus autem praesciuit quod vinum sobrie potatum 
+      sani<lb ed="#A" n="66" break="no"/>tatem daret et ingenium acuendo prudentiam au 
+      <lb ed="#A" n="67"/>geret. Immodice vero sumptum: ad vicia causas 
+      <lb ed="#A" n="68"/>daret: Ideo ex sua bonitate creaturam dedit. sed 
+      <lb ed="#A" n="69"/>abundantiam humano reseruauit arbitrio. Hec 
+      <lb ed="#A" n="70"/>ille. Deus ergo laudabilis est. quia vt ait Plinius libro 
+      <lb ed="#A" n="71"/>viii. duos liquores humanis corporibus 
+      gratis<lb ed="#A" n="72" break="no"/>simos dedit: Intus vini. foris olei: et genere 
+      ar<lb ed="#A" n="73" break="no"/>borum ambos sumptos. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h148182-Dd1e189">
+               <head xml:id="Vn7Pel-h148182-Hd1e191">2</head>
+               <p xml:id="Vn7Pel-h148182-d1e193">
+                  <lb ed="#A" n="74"/>¶ Qualiter pro vinis seruandis 
+      <lb ed="#A" n="75"/>debet fieri cella vinaria: Dicunt Plinius li. xiiii. et 
+      <lb ed="#A" n="76"/>Palladius libro i. quod celle vinarie latus aut 
+      cer<lb ed="#A" n="77" break="no"/>te fenestras oportet obuerti in Aquilonem frigidam: 
+      <lb ed="#A" n="78"/>obscuro proximam esse eam: procul abesse stabula et 
+      ster<lb ed="#A" n="79" break="no"/>quilinia: ac furnos: et cisternas fetidas: et arborum 
+      <lb ed="#A" n="80"/>radices: omniaque odoris horrendi: quoniam odor 
+      facilli<lb ed="#A" n="81" break="no"/>me transit in vina. Mystice significatur Can i. vbi 
+      <lb ed="#A" n="82"/>dicitur. Introduxit me scilicet sponsam christi id est animam 
+      <lb ed="#A" n="83"/>rex in cellaria sua. quod sit frigida a calore concupie 
+      <lb ed="#A" n="84"/>praue: et a fetore peccatorum elogata 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h148182-Dd1e220">
+               <head xml:id="Vn7Pel-h148182-Hd1e222">3</head>
+               <p xml:id="Vn7Pel-h148182-d1e224">
+                  <lb ed="#A" n="85"/>¶ Qualiter diuersificantur vina 
+      <lb ed="#A" n="86"/>sua natura: Notandum quod vt dicit Isaac in 
+      di<lb ed="#A" n="87" break="no"/>etis libro. iii. et Constan. in pantheg. aliique 
+      Mul<lb ed="#A" n="88" break="no"/>tis modis diuersificatur.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e235">
+      ¶ Primo pro etatis tempore 
+      <lb ed="#A" n="89"/>Nam primo expressum dicitur mustum: quasi 
+      mi<lb ed="#A" n="90" break="no"/>xtum fecibus secundum Isidorum. Et tunc est calidum in 
+      <lb ed="#A" n="91"/>primo gradum: et feruere incipit: tam valide se 
+      con<lb ed="#A" n="92" break="no"/>mouendo quod nisi respirationem habeat in vase 
+      <lb ed="#A" n="93"/>se continere non valet. Abundanter hibitum: 
+      tur<lb ed="#A" n="94" break="no"/>bat et inflat stomachum: inebrians: terribilia et 
+      <lb ed="#A" n="95"/>nugacia facit somnia. Unde iudei dicebant 
+      apo<lb ed="#A" n="96" break="no"/>stolos musto madere quos spiritus sanctus 
+      reple<lb ed="#A" n="97" break="no"/>uerat Act. ii Secundo vinum dum erit purum 
+      <lb ed="#A" n="98"/>dicitur Merum. id est nulli rei admixtum. Et 
+      vni<lb ed="#A" n="99" break="no"/>uersaliter merum est calidum et siccum. A duobus scilicet 
+      <lb ed="#A" n="100"/>annis vsque in quartum: calidum in secundo gradu¬ 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e264">
+                  <lb ed="#A" n="101"/>¶ Tertio vinum vetus post septem annos calidum est in 
+      ter<lb ed="#A" n="102" break="no"/>tio et siccius.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e271">
+      ¶ Secundo diuersificatur vinum in 
+      colo<lb ed="#A" n="103" break="no"/>re. Nam quedam sunt vina coloris albi. 
+      Que<lb ed="#A" n="104" break="no"/>dam nigri. Quedam aurei. et Quedam tubei. 
+      <lb ed="#A" n="105"/>Et ita etiam compositi coloris
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e281">
+      ¶ Inter hec 
+      ni<lb ed="#A" n="106" break="no"/>grum grossius est et durius. ad digerendum 
+      <lb ed="#A" n="107"/>tarde caput ascendit. fortem ebrietatem et tardam facit. 
+      <!--478.xml-->
+      <pb ed="#A" n="479"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Rubeum et nutribile est. sed infra nigrum. et tarde 
+      asci<lb ed="#A" n="2" break="no"/>dit. duramque ebrietatem facit. licet minus nigro etc. Album 
+      <lb ed="#A" n="3"/>autem subtile est et cito digestiuum caput cito ascendit 
+      <lb ed="#A" n="4"/>Ide debilem facit ebrietatem dissoluendum citius Sed 
+      <lb ed="#A" n="5"/>medii coloris vina mediam obtinent virtutem. praesertim 
+      <lb ed="#A" n="6"/>valent aurei et puri coloris vel clari. quia facilius 
+      di<lb ed="#A" n="7" break="no"/>geruntur. nec fortiter calefaciunt nec cerebrum percutiunt 
+      <lb ed="#A" n="8"/>vnde febricitantibus conferunt.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e312">
+      ¶ Tertio diuersificatur vt 
+      <lb ed="#A" n="9"/>num in sapore. similiter in fortitudine et odore. Nam vi 
+      <lb ed="#A" n="10"/>num dulce plus humiditati pertinet. pulmonem adiuuat 
+      <lb ed="#A" n="11"/>ad mundificandum fecem ex eo sed vetrem soluit. et 
+      hydro<lb ed="#A" n="12" break="no"/>picis nocet. Item vinum poenticum quod acerbum dicitur tardius 
+      <lb ed="#A" n="13"/>digeritur non bonum sanguinem generat: tamen intestina 
+      com<lb ed="#A" n="14" break="no"/>fortat. Item vinum insipidum melius est pontico et temporati 
+      <lb ed="#A" n="15"/>us. Uinum autem salsum malum est stomacho et capiti. 
+      <lb ed="#A" n="16"/>Item vinum nullius odoris: est illaudabilis nutrimenti Ui 
+      <lb ed="#A" n="17"/>num autem odoris mali pessimum sanguinem facit. 
+      De<lb ed="#A" n="18" break="no"/>nique vinum fortissimum cito caput ascendit. fumis 
+      re<lb ed="#A" n="19" break="no"/>plet multis et calidis et cito inebriat. Nis autem 
+      molle<lb ed="#A" n="20" break="no"/>vinum neruis valde contrarium est secundum Diasco. En dicit 
+      <lb ed="#A" n="21"/>sapientia laudabilis
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e343">
+      ¶ Preterea est vinum quoddam: quod dicu 
+      <lb ed="#A" n="22"/>agresta vel onfacinum acerbi saporis. quia ex vua 
+      a<lb ed="#A" n="23" break="no"/>cerba et immatura exprimitur et est frigidum et siccum. 
+      va<lb ed="#A" n="24" break="no"/>let contra estum et pro stomacho. ventris solutionem strigit. in 
+      <lb ed="#A" n="25"/>digestionibus sbuenit. tamen pectori nocet.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e354">
+      ¶ Item vinum 
+      <lb ed="#A" n="26"/>acidum seu acetum infrigidat in primo gradum et desiccat 
+      <lb ed="#A" n="27"/>in tertio diuturne tussi ex phlegmate occurrit tamtum 
+      <lb ed="#A" n="28"/>nocet noue tussi. Item coctu cum cibis vel cum aliqua 
+      re<lb ed="#A" n="29" break="no"/>si manducetur stomachum confortat. appetitum excitat et 
+      <lb ed="#A" n="30"/>augmentat. valet contra vomitum et fluxum ventris vsut 
+      <lb ed="#A" n="31"/>aceti. vlceribusque manantibus contra venenosos morse 
+      <lb ed="#A" n="32"/>Et ginginis sanguinolentis oppitulatur. et ad multa 
+      <lb ed="#A" n="33"/>alia. secundum praedictos. et Plinium Uerum tamen nocet dentibus 
+      <lb ed="#A" n="34"/>Unde Prouer. x. Sicut acetum dentibus et fumus oculs. 
+      <lb ed="#A" n="35"/>Lyr id est sicut hec nocent ill. sic inquit piger nocet his 
+      qui<lb ed="#A" n="36" break="no"/>miserunt eum in via. quia per hoc frustratur negocium. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h148182-Dd1e381">
+               <head xml:id="Vn7Pel-h148182-Hd1e383">4</head>
+               <p xml:id="Vn7Pel-h148182-d1e385">
+                  <lb ed="#A" n="37"/>¶ Quid significatur in scriptura per 
+      <lb ed="#A" n="38"/>vinum secundum proprietates ipsius vini Notandum est secundum 
+      fra<lb ed="#A" n="39" break="no"/>trem Ioanne Erfordi. suo libro originalis. Mltiplex in 
+      <lb ed="#A" n="40"/>scriptura reperitur vinum. Patrimo quoddam vitale domi 
+      <lb ed="#A" n="41"/>nici sanguis. De quo in figura Gen. xiiii. dicitur. 
+      Mel<lb ed="#A" n="42" break="no"/>chisedech obtulit panem et vinum. Secundo quoddam 
+      ceri<lb ed="#A" n="43" break="no"/>moniale moysaice legis. Nume. xv. Uinum ad 
+      li<lb ed="#A" n="44" break="no"/>ba fundenda dabit in holocau. Tertio quoddam 
+      ph<lb ed="#A" n="45" break="no"/>losophale scientie secularis. Can i. Meliora sunt vbe 
+      <lb ed="#A" n="46"/>ra tua vino id est doctrina philosophica. Quarto spirituale 
+      intel<lb ed="#A" n="47" break="no"/>ligentie salutaris Can. viii. Dabo tibi poculum ex vt 
+      <lb ed="#A" n="48"/>no condito et mustum malorum granatorum meorum 
+      <lb ed="#A" n="49"/>Uinum enim condimus dum spiritualem intelligentiam ipsi litterali. 
+      <lb ed="#A" n="50"/>coniungimus: vt dicit. Quito medicinale poenitentie salubris 
+      <lb ed="#A" n="51"/>Ps. Potasti nos vino compunctionis scilicet vere poenitentie 
+      <lb ed="#A" n="52"/>Sexto carnale affluentie temporalis. Ioel. i. Ue vobis 
+      <lb ed="#A" n="53"/>qdude bibitis vinum in dulcedine. quia perit ab ore vrtro. 
+      <lb ed="#A" n="54"/>Septimo: letale eterne damnationis. Deut. xxxii. 
+      Fel<lb ed="#A" n="55" break="no"/>braconum vinum eorum. et hoc de hereticorum doctrina ac 
+      <lb ed="#A" n="56"/>cipitur. Ultimo Uinum culpabile superflue potationis. 
+      <lb ed="#A" n="57"/>Prouer. xxiii. Ne intuearis vinum quando flauescit et 
+      <!--478.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>splendet in vitro color eius. ingreditur blande scilicet 
+      imo<lb ed="#A" n="59" break="no"/>derato potu: sed in nouissimo mordebit vt 
+      colu<lb ed="#A" n="60" break="no"/>ber: et sicut regulus venena diffundet scilicet viciorum 
+      <lb ed="#A" n="61"/>grauium luxurie: ire: et infirmitatum corporalium. Nam 
+      <lb ed="#A" n="62"/>Constantur. et Hali di. Ex multi vini potatione 
+      gra<lb ed="#A" n="63" break="no"/>ues passiones frigide accidunt et subita mors: apu 
+      <lb ed="#A" n="64"/>plexia: spasmus epilensia: obstupefactio: et similia. 
+      <lb ed="#A" n="65"/>Hiero. ad Eustoch. Sponsa christi fugiat vinum pro 
+      <lb ed="#A" n="66"/>veneno. Nam luxuriosa res est vinum Prouer. xx. 
+      <lb ed="#A" n="67"/>Et patet de Loth.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e459">
+      ¶ Ad quaesitum ergo dicendum vt ait 
+      <lb ed="#A" n="68"/>Hugo de arca Noe. li. ii. c. vl. et li. iii. Uinum 
+      mo<lb ed="#A" n="69" break="no"/>derate sumptum charitati assimilatur propter eius 
+      bo<lb ed="#A" n="70" break="no"/>nas proprietates. Nam dicente Psalmus ciiii. Uinum 
+      letifi<lb ed="#A" n="71" break="no"/>cat cor hominis. Item audaces reddit: vires 
+      fortifi<lb ed="#A" n="72" break="no"/>cat: obliuionem facit. Sic charitas exhilarat 
+      con<lb ed="#A" n="73" break="no"/>scientiam et audaces ac fortes facit in bello spirituali cotr 
+      <lb ed="#A" n="74"/>diaboli tentamenta: obliuisci facit transitoria spe 
+      ce<lb ed="#A" n="75" break="no"/>lestium et amore. Item secundum Constan. in praectica libr. i. Et 
+      <lb ed="#A" n="76"/>Isaac in dietis li. iii. Hali quoque liro regalis dispotonis. 
+      <lb ed="#A" n="77"/>et alios Uinum si accipiatur moderate vt oportet 
+      <lb ed="#A" n="78"/>dat bonum nutrimentum et iuuamen magnu 
+      corpori<lb ed="#A" n="79" break="no"/>ac sanitatem reddit et custodit: calorem naturalem 
+      com<lb ed="#A" n="80" break="no"/>fortat et digestionem prae aliis rebus sumendis in cibum 
+      <lb ed="#A" n="81"/>vel potum. Nam calor eius simillimus est naturali 
+      ca<lb ed="#A" n="82" break="no"/>lori: ideo cito conuertitur in naturalem et mundissimum 
+      <lb ed="#A" n="83"/>sanguinem: turbidum sanguinem clarificat: appetitum 
+      <lb ed="#A" n="84"/>ciborum facit: humores melancholicos et cholericos 
+      <lb ed="#A" n="85"/>temparat: ingenium subtiliat: et bona alia multa facit. vt 
+      <lb ed="#A" n="86"/>dicunt praedci. sed causa brevitatis transeo. quae omnia conueniunt 
+      <lb ed="#A" n="87"/>charitati spiritualiter. Nam valet ad sanitatem anime et 
+      au<lb ed="#A" n="88" break="no"/>gmentum caloris id est feruoris desiderii ad peccata 
+      <lb ed="#A" n="89"/>expurganda etc. Deus ergo laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h148182-Dd1e511">
+               <head xml:id="Vn7Pel-h148182-Hd1e513">5</head>
+               <p xml:id="Vn7Pel-h148182-d1e515">
+                  <lb ed="#A" n="90"/>¶ Sed qualibus nocet vinum 
+      No<lb ed="#A" n="91" break="no"/>tandum secundum praescriptos physcos Uinum per accantens nocet 
+      <lb ed="#A" n="92"/>pluribus hominibus: licet ex sesent bonum ad sanitatem vt dictum 
+      <lb ed="#A" n="93"/>est
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e526">
+      ¶ Primo nocet ratione nimis calidi temporis. Nam in hab 
+      <lb ed="#A" n="94"/>eme et frigida regione bene conuenit bibere vinum purum. 
+      <lb ed="#A" n="95"/>Sed in estate et calida regione congruit vini paucitas 
+      <lb ed="#A" n="96"/>et lymphati: vt per aquam commixtam scilicet refrigeret et 
+      hu<lb ed="#A" n="97" break="no"/>mectet et siti extiguat: nec in capite ledat. v. 
+      Lyu<lb ed="#A" n="98" break="no"/>phatum crescit: dulcescit: ledere nescit. Mystice 
+      <lb ed="#A" n="99"/>Charitatis feruor exterius operandi vltra quam possit quis 
+      <lb ed="#A" n="100"/>puta nimis ieiunando et vigilando debet temporari 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e544">
+                  <lb ed="#A" n="101"/>¶ Secundo nocet nimis calidis in natura: patientibus in 
+      <lb ed="#A" n="102"/>epate calorem assuete. Et similiter illi qui parati sunt 
+      morbe<lb ed="#A" n="103" break="no"/>ptisico et apoplexie et huiusmodi. quia ad tales infirmita 
+      <lb ed="#A" n="104"/>tes peruenient nisi videlicet a vino debite caueant secundum 
+      Con<lb ed="#A" n="105" break="no"/>stam. supra. Mystice nimis feruentes sequendo passiones 
+      <lb ed="#A" n="106"/>affectuum desigunantur.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e560">
+      ¶ Tertio nocet caput dolentibus: 
+      <lb ed="#A" n="107"/>vel debile caput valde et neruos debiles habentibus. 
+      <lb ed="#A" n="108"/>Mystice Caput nostrum christus est. Qui ergo dolens vel 
+      de<lb ed="#A" n="109" break="no"/>bilis est erga christi fidem sicut heretici et dubii in fide. similiter 
+      <lb ed="#A" n="110"/>qui neruos debiles habent: ita quod non possunt stare in tentatione 
+      <lb ed="#A" n="111"/>habent nocuntum charitatis
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e574">
+      ¶ Sed Nota quod contra vini 
+      no<lb ed="#A" n="112" break="no"/>cumentum: vt dicunt supraedicti et alii physci valent hec 
+      <lb ed="#A" n="113"/>videlicet vsus caulium in cibo paigui. quia caules 
+      ebrieta<lb ed="#A" n="114" break="no"/>ti repugnant: eo quod humiditatem vini desiccant. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e583">
+      <!--479.xml-->
+                  <pb ed="#A" n="480"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Item amygdale amare vt dicit etiam <name xml:id="Vn7Pel-h148182-Nd1e593">Galienus</name> ante vl 
+      <lb ed="#A" n="2"/>flui comeste ebrietati repugnant.
+     </p>
+               <p xml:id="Vn7Pel-h148182-d1e599">
+      ¶ Item syrupus 
+      ab<lb ed="#A" n="3" break="no"/>sinthii et coronam de apinio in capite gestare. per hec 
+      si<lb ed="#A" n="4" break="no"/>gnificatur memoria mortis amare: et corone 
+      cele<lb ed="#A" n="5" break="no"/>stis amissione. ac pinguedinis gratiae dici. quorum memoria 
+      <lb ed="#A" n="6"/>inducit hominem ad standum in charitate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h148182-Dd1e611">
+               <head xml:id="Vn7Pel-h148182-Hd1e613">6</head>
+               <p xml:id="Vn7Pel-h148182-d1e615">
+                  <lb ed="#A" n="7"/>¶ Quid de vinis variis et aliquo 
+      <lb ed="#A" n="8"/>modo confectis. Notandum est quod vina secundum Constantinum 
+      <lb ed="#A" n="9"/>in pantegni Et Diascoridem. ac Plin. li. xiiii. 
+      alios<lb ed="#A" n="10" break="no"/>que physicos multiplicium sunt generum quemadmodum 
+      <lb ed="#A" n="11"/>ex variis fructibus conficiuntur et etiam multis rebus condiuntur 
+      <lb ed="#A" n="12"/>e quibus saltem communius nota: breuissime hic describe¬ 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e631">
+                  <lb ed="#A" n="13"/>¶ Uinum eim est quoddam. (mus multis dimissis etc. 
+      <lb ed="#A" n="14"/>merum de vite quo communiter vtimur in potu et aliis. vt 
+      <lb ed="#A" n="15"/>iam tractauimus Est etiam de passis vuis factum Talia 
+      <lb ed="#A" n="16"/>vina malmatica sunt meliora: frigidisque 
+      iuuati<lb ed="#A" n="17" break="no"/>ud et praesertim aromatica: calidiora et sicciora sunt. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e644">
+                  <lb ed="#A" n="18"/>¶ Item est vinum Italicum quod falernum dicitur ventrem 
+      absti<lb ed="#A" n="19" break="no"/>net. stionacho valet. caliginem tamen oculis inducit. et mul¬ 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e651">
+                  <lb ed="#A" n="20"/>¶ Item vinum gre (um bibitum totum corpus ledere potest. 
+      <lb ed="#A" n="21"/>cum si tamen bene conficiatur valet stomacho etcontra pestilentiam. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e659">
+                  <lb ed="#A" n="22"/>¶ Item vinum dactylicum vel (t dicit Palladius lir. xi. 
+      <lb ed="#A" n="23"/>palmaticum ex dactylis palme maturis fit. ceteris 
+      <lb ed="#A" n="24"/>vinis nutrit sed minus calefacit. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e668">
+                  <lb ed="#A" n="25"/>¶ Item vinum etiam conficitur ex fico secundum Plin. quod sycites 
+      <lb ed="#A" n="26"/>Item vinum quodda est ma (uicitur et sequitur naturam ficuum. 
+      <lb ed="#A" n="27"/>cogranatorum quod conficitur ex malisgranatis tusis et 
+      <lb ed="#A" n="28"/>expessis ac decoctis donec ad tertiam partem redeat. hoc 
+      in<lb ed="#A" n="29" break="no"/>traneorum reuma prohibet. stomachis valet. ventre 
+      <lb ed="#A" n="30"/>stringit. febrientibus et disintericis vtile est. Huius 
+      <lb ed="#A" n="31"/>buo sunt grana: dulce et acre. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e686">
+                  <lb ed="#A" n="32"/>¶ Item vinum cidoniorum ex cocfaneis pomis 
+      incie<lb ed="#A" n="33" break="no"/>musto commixtis conficitur ventrem stringit. disinterici et 
+      <lb ed="#A" n="34"/>stomacha etc. 
+      <lb ed="#A" n="35"/>freneticis medetur. 
+      <lb ed="#A" n="36"/>Item vinum pomorum et pirorum ac mespilarum sunt eu¬ 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e699">
+                  <lb ed="#A" n="37"/>¶ Item vinum cedrinum ex cedria aqua lota et musto 
+      im<lb ed="#A" n="38" break="no"/>nixta conficitur: confert hydropicis lumbricos occidit. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e706">
+                  <lb ed="#A" n="39"/>¶ Item vinum myrtinum: intraneorum vulnera curat. 
+      con<lb ed="#A" n="40" break="no"/>ficiter ex myrta nigra. matura: tusa expressa. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e713">
+                  <lb ed="#A" n="41"/>¶ Item vinum myrrhatum. de quo Mar. xv. dicitur Dabant 
+      <lb ed="#A" n="42"/>e scilicet christo bibere vinum myrrhatum etc. Lyt. dicit. quod secud 
+      <lb ed="#A" n="43"/>aliquos myrrhatum dicitur ex proprietate myrrhe quae est 
+      valde<lb ed="#A" n="44" break="no"/>amara. et fuit etiam fel admixtum Et non accepit christus 
+      <lb ed="#A" n="45"/>nisi modicum ad implendum illud Psalmus Dederunt in 
+      escan<lb ed="#A" n="46" break="no"/>meam fel etc. Aliqui at dicunt quod erat vinum conditum 
+      myr<lb ed="#A" n="47" break="no"/>rha et aliis rebus: faciens leuius tolerare passiones. sed 
+      <lb ed="#A" n="48"/>non accepit. vt fortius pro nostro amore dolores sentiret 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e734">
+                  <lb ed="#A" n="49"/>¶ Item vinum quoddam est absinthiatum. ictericis et epatico 
+      <lb ed="#A" n="50"/>medetur. digestionem temporat. fastidium tollit et 
+      dolo<lb ed="#A" n="51" break="no"/>sentibus. 
+      <lb ed="#A" n="52"/>rem stomachi. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e745">
+                  <lb ed="#A" n="53"/>¶ Item vinum saluiacum confert tussi et sanguinem reiici¬ 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e750">
+                  <lb ed="#A" n="54"/>¶ Item vinum rosaceum valet febrientibus. digestionem 
+      <lb ed="#A" n="55"/>praestat. dolorem stomachi et disinteriam compescit. 
+      </p>
+               <p xml:id="Vn7Pel-h148182-d1e757">
+                  <lb ed="#A" n="56"/>¶ Item vinum nectarium confert dolori stomachi. 
+      Pre<lb ed="#A" n="57" break="no"/>terea sunt vina gariophilata zinziberata et aliis 
+      <lb ed="#A" n="58"/>speciebus condita. Talium singulorum virtutes vide vbi 
+      <lb ed="#A" n="59"/>dc huiusmodi habetur. In omnibus ergo laudetur deus. 
+      
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

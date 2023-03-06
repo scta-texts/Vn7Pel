@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Annus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Annus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="96"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h29187">
+            <head xml:id="Vn7Pel-h29187-Hd1e110">Annus</head>
+            <div xml:id="Vn7Pel-h29187-Dd1e112">
+               <head xml:id="Vn7Pel-h29187-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h29187-d1e116">
+                  <lb ed="#A" n="7"/>¶ Annus quo 
+      dif<lb ed="#A" n="8" break="no"/>sguitur Nota secundum compotistas et Ianue 
+      <lb ed="#A" n="9"/>lli. Cathol. Annus dicitur multiplex.
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e125">
+      ¶ 
+      Pri<lb ed="#A" n="10" break="no"/>mo quidem solaris communis. et continet. ccclxv. dies. et vi. 
+      ho<lb ed="#A" n="11" break="no"/>ras
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e132">
+      ¶ Insuper Secundo quidam dicitur bissextilis qui resultat ex 
+      <lb ed="#A" n="12"/>praefatis superfluis. vi. horis quarto anno. quae si non 
+      compu<lb ed="#A" n="13" break="no"/>taretur fieret maga confusio. quia cum primus annus per sex 
+      ho<lb ed="#A" n="14" break="no"/>ras additas terminaretur meridie. Secundus a meridie 
+      <lb ed="#A" n="15"/>iterum per sex in occasu. Tertius ab occasu computando 
+      <lb ed="#A" n="16"/>in media nocte. Quartus exide in ortu sol. Sic 
+      suc<lb ed="#A" n="17" break="no"/>cessiue fieret quod festa hyemalia ad estatem venirent: et 
+      <lb ed="#A" n="18"/>econuerso. Ideo in quarto anno vna dies resultans ex 
+      <lb ed="#A" n="19"/>horis praefatis bis pronunciatur in Martyrilogio. vi 
+      <lb ed="#A" n="20"/>Ral. Martii. et ide dicitur annus bissextilis
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e154">
+      ¶ Tertio 
+      qui<lb ed="#A" n="21" break="no"/>dam dicitur annus lunaris communis. quia continet. xii. lunationes 
+      <lb ed="#A" n="22"/>Quidam autem annus epactalis qui appellatur etiam ciclus 
+      decen<lb ed="#A" n="23" break="no"/>nouennalis. Nam ex quo annus solaris excedit annum 
+      lumaren<lb ed="#A" n="24" break="no"/>in. diebus. xi. qui dicuntur epacta: ab epi quod est supra et 
+      au<lb ed="#A" n="25" break="no"/>cta scilicet per excessum supra lunarem: ita quod primus annus 
+      nul<lb ed="#A" n="26" break="no"/>las habet epactas. quia non praecessit alius annus a quo 
+      acce<lb ed="#A" n="27" break="no"/>pisset. xi. Secundus autem annus habet. xi. epactas. Terti 
+      <lb ed="#A" n="28"/>xxii. quartus. xxxiii. quorum. xxx. faciunt mesem embolismum 
+      <lb ed="#A" n="29"/>et tria remanebunt pro epacta alterius anni. et sic 
+      conseni<lb ed="#A" n="30" break="no"/>fit semper vsque ad. xix. annos In. xx. autem anno fuertitur 
+      <lb ed="#A" n="31"/>ad caput. et tunc iterum erit nulla epacta et 
+      postea<lb ed="#A" n="32" break="no"/>per ordinem proceditur similiter vt in praecedentibus 
+      </p>
+               <p xml:id="Vn7Pel-h29187-d1e184">
+                  <lb ed="#A" n="33"/>¶ Sed quid valent talia Dicendum quod valet vtiliter 
+      ac<lb ed="#A" n="34" break="no"/>inueniedum etatem lune et distinguedum menses luna 
+      <lb ed="#A" n="35"/>res
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e193">
+      ¶ Quomodo autem inquiritur cpactarum quota. Dicendum quod 
+      <lb ed="#A" n="36"/>annos ab icaruatione christi diuidendo per. xix. Et ipsis 
+      <lb ed="#A" n="37"/>adiungendo vnum annum eo quod tunc tantum processerat iste 
+      <lb ed="#A" n="38"/>ciclus. et a totali summa subtrahe. xix. quotiens potes et 
+      <lb ed="#A" n="39"/>quot remamserint tot quotarum erit annus epactalis Quod si 
+      nis<lb ed="#A" n="40" break="no"/>remanserit erit annus. xix. Hoc tanten verum est si a Rals. 
+      <lb ed="#A" n="41"/>Ianuarii vsque ad fals. Septembris feceris hanc 
+      con<lb ed="#A" n="42" break="no"/>putationem. alias adde duos annos quia in halis. 
+      septen<lb ed="#A" n="43" break="no"/>bris mutatur annus epactalis.
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e213">
+      ¶ Quarto quidam dicitur 
+      an<lb ed="#A" n="44" break="no"/>nus embolismalid est super excrescens ab emblems 
+      <lb ed="#A" n="45"/>quod est eminens. quia. xiii. lunationem habet et colligitur ex ex 
+      <lb ed="#A" n="46"/>cessu anni solaris super annum lunarem sicut et iam tactum 
+      <lb ed="#A" n="47"/>est. Unde tertius annus est emholismalis. quia in illo 
+      recol<lb ed="#A" n="48" break="no"/>ligitur lunation. xxx. dierum. et tres dies supersunt pro 
+      epa<lb ed="#A" n="49" break="no"/>cti. Et sic computando: anni embolismales sunt. tertius 
+      <lb ed="#A" n="50"/>vi. ix. xi. xiiii. xvii. xlx. annus. plura de hoc transeo amo 
+      <lb ed="#A" n="51"/>re brevitatis.
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e233">
+      ¶ Quito quidam dicitur annus emergens qui 
+      <lb ed="#A" n="52"/>ab aliquo easu notabli emergente computatur. patet lib 
+      <lb ed="#A" n="53"/>prigina. Sicut grei computat annos a prima psi¬ 
+      <!--95.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="54"/>piade. Et christiani a natiuitate domini. et sic sepe contiem 
+      <lb ed="#A" n="55"/>git quod medium anni legalis est principium emergentis. et 
+      <lb ed="#A" n="56"/>per hoc soluuntur multe contrarietates in biblia de annis 
+      <lb ed="#A" n="57"/>regum
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e253">
+      ¶ Ultio pterea dicitur quidam magnus annus Plato 
+      <lb ed="#A" n="58"/>nis qui computatur secundum motu primi mobilis pertranseuntis 
+      <lb ed="#A" n="59"/>centum annis vnum gradum. Et quia in. xii. signis zodia 
+      <lb ed="#A" n="60"/>ci sunt. ccclxvi. gradus. cuilibet attribuedo. xxx. It 
+      <lb ed="#A" n="61"/>primum mobile totum cursum suum complet cooo. an 
+      <lb ed="#A" n="62"/>norum. in quo posuit Plato omnia redire ad eundem etiam 
+      <lb ed="#A" n="63"/>actu sicut caelum redit ad eundem punctum. sic quod dixit 
+      <lb ed="#A" n="64"/>Platonem et Sortem lecturum eade hora: eisdem 
+      disci<lb ed="#A" n="65" break="no"/>pulis etc. sed hoc erroneum est. Denique alius ponitur 
+      annu<lb ed="#A" n="66" break="no"/>etiam magnus: qui dicitur mundanus quando omnes stelle infra 
+      pri<lb ed="#A" n="67" break="no"/>mum mobile redibunt: ad primum puuctum creationis. et 
+      <lb ed="#A" n="68"/>secundum Macrohium fit. i ooo. annorum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29187-Dd1e280">
+               <head xml:id="Vn7Pel-h29187-Hd1e282">2</head>
+               <p xml:id="Vn7Pel-h29187-d1e284">
+                  <lb ed="#A" n="69"/>¶ Que sunt partes principales vel 
+      tem<lb ed="#A" n="70" break="no"/>pora anni: Respondetur secundum Bedam et doc. communiter quod 
+      quat<lb ed="#A" n="71" break="no"/>tuor. Primo ponitur hyems quae est frigida et humida 
+      <lb ed="#A" n="72"/>conuenies elemento aquae in modo: et humido 
+      phlegma<lb ed="#A" n="73" break="no"/>tis in homine. et incipit in festo Clementis. Secundo ver. 
+      <lb ed="#A" n="74"/>humidum et calidum conuenit aeri. et in homine: sanguini. 
+      <lb ed="#A" n="75"/>incipit festo Petri Cathed. Tertio estas calida 
+      <lb ed="#A" n="76"/>et sicca conuenit igni et cholere. incipit die Urbani. 
+      <lb ed="#A" n="77"/>Quarto autumnus: terre melancholie conueniens. v. 
+      <lb ed="#A" n="78"/>Uer petro detur est as vrbano sequetur. v. Sed 
+      cle<lb ed="#A" n="79" break="no"/>mens hyemat: autumnat Bartholomeus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29187-Dd1e311">
+               <head xml:id="Vn7Pel-h29187-Hd1e313">3</head>
+               <p xml:id="Vn7Pel-h29187-d1e315">
+                  <lb ed="#A" n="80"/>¶ In quae parte anni grauius infirmatur quo 
+      <lb ed="#A" n="81"/>homines: Respondet Hugo libro de medicia anime dicens sic 
+      <lb ed="#A" n="82"/>Uer solet esse tempus inconstans. modo pluuiosum ex victur 
+      <lb ed="#A" n="83"/>nitate hyemis. modo siccum ex vicinitate estatis Ex 
+      il<lb ed="#A" n="84" break="no"/>lo frigidum et ex isto quandoque calidum Ideo homines in 
+      ver<lb ed="#A" n="85" break="no"/>no tempore infirmantur grauius et periculosius. quia cum 
+      corpora<lb ed="#A" n="86" break="no"/>humida et aperta sint ex calore statim corrumpuntur et 
+      <lb ed="#A" n="87"/>subito frigore Hec ille. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29187-Dd1e336">
+               <head xml:id="Vn7Pel-h29187-Hd1e338">4</head>
+               <p xml:id="Vn7Pel-h29187-d1e340">
+                  <lb ed="#A" n="88"/>¶ Quare in quattuor temporibus 
+      an<lb ed="#A" n="89" break="no"/>ni celebrantur ieiunia in ecclesia: Respondetur quod licet Hie 
+      <lb ed="#A" n="90"/>ro. in decretis. di. lxxvi. dicat ca. Utinam inquit. omni 
+      tempor<lb ed="#A" n="91" break="no"/>ieiunare possemus. tamen praecipue in quattuor temporibus secundum 
+      <lb ed="#A" n="92"/>Ioannem de heleth in summa de officio. ieiunare inst 
+      <lb ed="#A" n="93"/>tuit ecclesia. quia vt Damas. dicit et Hug. libro de medici. 
+      <lb ed="#A" n="94"/>na anime. In estate augetur in homine cholera rubea quae 
+      <lb ed="#A" n="95"/>est calida et sicca. Ideoque et sitire facit patientem. Et in 
+      <lb ed="#A" n="96"/>vere crescit sanguis qui est calidus et humidus. et sic 
+      con<lb ed="#A" n="97" break="no"/>cupiscentiam accendit. In hyeme augetur phlegma. 
+      <lb ed="#A" n="98"/>in autumno cholera nigra est melacholia. Et quia in 
+      <lb ed="#A" n="99"/>vere sanguine crescente augetur concupiscentia Ideo ad 
+      <lb ed="#A" n="100"/>reprimendum eam ieiunamus tunc. et quattuor tempora. et 
+      Qua<lb ed="#A" n="101" break="no"/>dragesimam Nam tunc magis viget concupiscentia vt patet in 
+      <lb ed="#A" n="102"/>auibus et aliis animalibus quod pro verno tempore plus 
+      mouen<lb ed="#A" n="103" break="no"/>ad generandum etc. Item secundo protunc ieiunat ecclesia. quia in 
+      <lb ed="#A" n="104"/>vere quando creatus putatur modos homo per gulam perdidit 
+      para<lb ed="#A" n="105" break="no"/>disum. Ut ergo requiramus per ieiunium: conueniens nobis est 
+      <lb ed="#A" n="106"/>tunc ieiunare secundum Alex. de Ales. ii volumine summe. 
+      <lb ed="#A" n="107"/>Tertio propter debitam praeparationem ad communicandum in 
+      pasce<lb ed="#A" n="108" break="no"/>quam praecepit ecclesia omnibus Denique aliarum partium quattuor 
+      <lb ed="#A" n="109"/>temporum ieiunia sunt instituta a calixto papa et Ur¬ 
+      <!--96.xml-->
+      <pb ed="#A" n="97"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>hano. vt patet. ixxvi. di. c. Ieiunium. et c. Statuimus 
+      <lb ed="#A" n="2"/>videlicet in estate circa Pentec. vt reprimatur cholera ira 
+      <lb ed="#A" n="3"/>cundie vel versutie et fallacie ad quae tunc cholera 
+      incre<lb ed="#A" n="4" break="no"/>sces accendit. In autumno vt debilitetur feruor 
+      cupi<lb ed="#A" n="5" break="no"/>ditatis ad quae melancholia accendit. In hyeme 
+      phle<lb ed="#A" n="6" break="no"/>gma pigriciam tristiciam et hebetudinem faciens: quae omnia 
+      <lb ed="#A" n="7"/>per ieiunium temperantur. 
+      </p>
+               <p xml:id="Vn7Pel-h29187-d1e412">
+                  <lb ed="#A" n="8"/>¶ Quo diuerse complexiones 
+      habe<lb ed="#A" n="9" break="no"/>ant se in dictis partibus ani. vide vbi <ref xml:id="Vn7Pel-h29187-Rd1e418">Etas. §. iiii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h29187-Dd1e423">
+               <head xml:id="Vn7Pel-h29187-Hd1e425">5</head>
+               <p xml:id="Vn7Pel-h29187-d1e427">
+                  <lb ed="#A" n="10"/>¶ Quot anni fluxerunt ab Adam 
+      <lb ed="#A" n="11"/>vsque ad diluuium. et inde vsque Abraam. ac tandem vsque 
+      <lb ed="#A" n="12"/>ad christum. Nota quod varie sunt positiones. Nam 
+      Iose<lb ed="#A" n="13" break="no"/>phus dicit diluuium factum post anos bis mille et sexcentosi 
+      <lb ed="#A" n="14"/>quinquagitasex ab Adam computando. Sed <ref xml:id="Vn7Pel-h29187-Rd1e440">Aug. li. xv.</ref> et 
+      <lb ed="#A" n="15"/>ci. dei dicit quod ani ab Adam vsque ad diluuium computant 
+      <lb ed="#A" n="16"/>secundum codices nostros sub alio numero. Et vt dicit. verior 
+      <lb ed="#A" n="17"/>est numerus secundum hebreos qui est mille sexcentiquinquagintase 
+      <lb ed="#A" n="18"/>anorum. Ut canitur autem in martyrilogio verius. Aqq. 
+      fu<lb ed="#A" n="19" break="no"/>erunt recolligendo. quia ecclesie dicta in horis canonicis 
+      si<lb ed="#A" n="20" break="no"/>plus autentica. Item <ref xml:id="Vn7Pel-h29187-Rd1e455">Aug. li. xvi. de ci.</ref> dicit quod a diluuio 
+      <lb ed="#A" n="21"/>vsque ad Abraam sunt ani milleseptuagitaduo. In 
+      <lb ed="#A" n="22"/>hebreo aut inquit longe pauciores sunt ani. hec ille. Item 
+      <lb ed="#A" n="23"/>ab aduem tu Abrae de Mesopotamia in 
+      chanane<lb ed="#A" n="24" break="no"/>am post anos Quiceto. Et ab ingressu Iacob in egyptum 
+      <lb ed="#A" n="25"/>amno. eo. filii israel exierunt ex egypto secundum Iosephi 
+      <lb ed="#A" n="26"/>Denique vt sacra scriptura. iii. Re. vi. dicit. Salomodo 
+      <lb ed="#A" n="27"/>cepit edificare templum aeno.
+     </p>
+               <p xml:id="Vn7Pel-h29187-d1e473">
+      ¶ o. profectionis istur scilicet de 
+      <lb ed="#A" n="28"/>egypto. A tempore autem diluuii ano. i quac.o. A diluuio autem 
+      <lb ed="#A" n="29"/>vsque christum vt canitur in martyrilogio natiuitatis christi 
+      <lb ed="#A" n="30"/>verius colligendo. et q¶ . amni fuert. Et vt ibi dicitur ac 
+      te<lb ed="#A" n="31" break="no"/>netur commuiter. ab Adam etiam vsque ad christum computari solent 
+      <lb ed="#A" n="32"/>qq. ani. vnde v. Ande iesum. duo c. minus vno miliaquin 
+      <lb ed="#A" n="33"/>que. Ex dictis et aliis magrga varietas positionum est. non c potest 
+      <lb ed="#A" n="34"/>in his haberi certitudo. Unde Aug. dici ci. dicit. Annorum ista 
+      <lb ed="#A" n="35"/>numerositas nullis documentis vemire potest in experimen 
+      <lb ed="#A" n="36"/>tum. Nec tamen fidei huius sacre historie derogandum est. 
+      <lb ed="#A" n="37"/>cuius narrata tanto imprudentius non credimus quanto 
+      im<lb ed="#A" n="38" break="no"/>pleri praenunciata citius conspicimus. Hec ille 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h29187-Dd1e500">
+               <head xml:id="Vn7Pel-h29187-Hd1e502">6</head>
+               <p xml:id="Vn7Pel-h29187-d1e504">
+                  <lb ed="#A" n="39"/>¶ Sed quaere no potest haberi certus 
+      <lb ed="#A" n="40"/>nuerus anorum a princius mudi. Respondetur quod vna ratio e: propi 
+      <lb ed="#A" n="41"/>scripture varietatem: quae dicit <ref xml:id="Vn7Pel-h29187-Rd1e512">Ecci. i.</ref> Arenam maris et 
+      plu<lb ed="#A" n="42" break="no"/>uie guttas et dies seclsi quis dinumerauit: q. dici nullus 
+      <lb ed="#A" n="43"/>hominum. Quod patet secundum Lyram ibidem. quia septuagita 
+      inter<lb ed="#A" n="44" break="no"/>praetes multo plures anos computant a principio munde 
+      <lb ed="#A" n="45"/>quem in libris hebreis habentur. Item quia in libris hebreis 
+      con<lb ed="#A" n="46" break="no"/>putantur ani secundum vitas patrum. vt habetur Gen. v. Et iterum secudm 
+      <lb ed="#A" n="47"/>tempora regum. In tali autem computatione frequentur fit quod vnus 
+      <lb ed="#A" n="48"/>anus pro duobus computatur: et econuerso. vtpote anus 
+      <lb ed="#A" n="49"/>emergens. Secunda ratio huius incertitudinis propter dei 
+      vo<lb ed="#A" n="50" break="no"/>luntate: quae ordinauit vt creatio mundi sit articulus 
+      fi<lb ed="#A" n="51" break="no"/>dei. et ita voluit esse indemostrabilem. Tertia ratio 
+      pro<lb ed="#A" n="52" break="no"/>pter fidei catholice meriti vtilitatem. Nam teste 
+      Gre<lb ed="#A" n="53" break="no"/>go. Fides non habet meritum cui humana ratio praebet ex 
+      <lb ed="#A" n="54"/>perimentum. Si ergo certitudinaliter sciretur ab hominibus 
+      numer<lb ed="#A" n="55" break="no"/>aenorum mundi: tunc experiremur mundum esse creatum. et ita 
+      <lb ed="#A" n="56"/>credendo non haberemus meritum. Sicut modo hebemus in 
+      <lb ed="#A" n="57"/>hoc quod contrartiones philosophorum dicentium mundum esse ab etern or 
+      <!--96.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>oppositum file tenemus. Et sic pet laudabitur del 
+      bo<lb ed="#A" n="59" break="no"/>nitas in omnibus. 
+      </p>
+               <p xml:id="Vn7Pel-h29187-d1e559">
+                  <lb ed="#A" n="60"/>¶ Quo dei bonitas claret 
+      laudabi<lb ed="#A" n="61" break="no"/>lis in frequenti apparitione dei et spirituum facta homibus 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Locus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Locus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="309"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h95158">
+            <head xml:id="Vn7Pel-h95158-Hd1e110">Locus</head>
+            <div xml:id="Vn7Pel-h95158-Dd1e112">
+               <head xml:id="Vn7Pel-h95158-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h95158-d1e116">
+                  <lb ed="#A" n="90"/>¶ Acus Quid sit 
+      <lb ed="#A" n="91"/>Notandum quod locus secundum Guill. in. ii. 
+      <lb ed="#A" n="92"/>lir. di. ii art. i. solet capi tripliciter.
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e125">
+      ¶ Une 
+      <lb ed="#A" n="93"/>modo metaphorice ad similitudinem veri loci. et sic in 
+      lo<lb ed="#A" n="94" break="no"/>gica condistinguuntur loci topici. Et Boc i. suorum 
+      <lb ed="#A" n="95"/>topicorum diffinien dicit. Locus inquit est sedes 
+      argu<lb ed="#A" n="96" break="no"/>meti: vel vnde conueniens trahitur argumentum. Et sic dicitur 
+      <lb ed="#A" n="97"/>loci in plurli. non loca. Unde Alexam. in Doctrinali dicit. 
+      <lb ed="#A" n="98"/>Est locus atque loci: sunt loca plurima terre.
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e141">
+      ¶ Secundo 
+      <lb ed="#A" n="99"/>locus dicitur naturaliter et fundamentaliter. Et sic est 
+      superfici<lb ed="#A" n="100" break="no"/>es concaua corporis continentis. et est species praedicannti 
+      quan<lb ed="#A" n="101" break="no"/>titatis.
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e150">
+      ¶ Tertio locus dicitur naturaliter et formaliter. Et 
+      <lb ed="#A" n="102"/>tunc locus addit super iliam superficiem respectum quandam ad 
+      <lb ed="#A" n="103"/>locatum. Et sic vel non est in predicamento: cum contineat 
+      <lb ed="#A" n="104"/>res duorum generum. videlicet quantitatis et respectus vel si 
+      di<lb ed="#A" n="105" break="no"/>cat solum illum respectum formalem: sic reducitur ad 
+      praedi<lb ed="#A" n="106" break="no"/>camentum Ubi. Istis duobus vltimis modis 
+      intel<lb ed="#A" n="107" break="no"/>ligitur Quod diffinitio loci quam dat Philosophus. iiii. physi. 
+      <lb ed="#A" n="108"/>videlicet Locus est superficies vltima corporis 
+      continen<lb ed="#A" n="109" break="no"/>tis immobile primum. intelligi debet de superficie 
+      conca<lb ed="#A" n="110" break="no"/>ua: non de conuexa. Contra Porritanum qui libro vi. prin¬ 
+      <!--309.xml-->
+      <pb ed="#A" n="310"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cipiorum posuit superficiem conuexam primi mobilis esse 
+      <lb ed="#A" n="2"/>locum primi mobilis. Item dicitur: corporis continentis 
+      Con<lb ed="#A" n="3" break="no"/>tra Democritum qui posuit in medio lineas 
+      ma<lb ed="#A" n="4" break="no"/>thematicas pro loco etc. Item additur: immobile primum. 
+      <lb ed="#A" n="5"/>scilicet adequate. in quo distinguitur a vase. Hec ex Guill. 
+      <lb ed="#A" n="6"/>Unde secundum Scotorls. e. dist. ii li. ii. q. ii in dicta 
+      diffi<lb ed="#A" n="7" break="no"/>nitione philosophi superficies ponitur pro genere. Et sic 
+      lo<lb ed="#A" n="8" break="no"/>cus quantum ad genus est superficies. Immobilitas 
+      <lb ed="#A" n="9"/>autem est eius differentia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h95158-Dd1e199">
+               <head xml:id="Vn7Pel-h95158-Hd1e201">2</head>
+               <p xml:id="Vn7Pel-h95158-d1e203">
+                  <lb ed="#A" n="10"/>¶ Sed Quodo probatur quod locus sit 
+      <lb ed="#A" n="11"/>vere superficies corporis continentis: non contenti: Sco 
+      <lb ed="#A" n="12"/>torls. dicit quod secundum e. Philosophum. iiii. physi. ca. i. et. iii bene 
+      pro<lb ed="#A" n="13" break="no"/>batur sic. Quia locus aut est materia: aut forma: 
+      <lb ed="#A" n="14"/>aut spacium inter extrema: aut superficies corporis 
+      <lb ed="#A" n="15"/>continentis. Hec clarent ex sufficienti diuisione
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e219">
+      ¶ Sed 
+      <lb ed="#A" n="16"/>quia Primo locus non est materia corporis contenti. tum 
+      <lb ed="#A" n="17"/>quia materia est indiuisa a re. tum quia non continet 
+      <lb ed="#A" n="18"/>eam circum scriptiue. Sed locus separatur a locato et 
+      conti<lb ed="#A" n="19" break="no"/>net. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e230">
+      ¶ Secundo locus non est forma. Probatur. 
+      <lb ed="#A" n="20"/>quia forma est terminus corporis cuius est forma huiusmodi 
+      <lb ed="#A" n="21"/>scilicet accanentalis. Locus autem non est eius corporis cuius est 
+      lo<lb ed="#A" n="22" break="no"/>cus id est locati forma nec accidentalis sed corporis 
+      con<lb ed="#A" n="23" break="no"/>tinentis ipsum. nec est forma essentialis illius: cum 
+      pos<lb ed="#A" n="24" break="no"/>sit separari ab illo: manente ipso substantialiter 
+      cor<lb ed="#A" n="25" break="no"/>pore locato. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e246">
+      ¶ Tertio locus non est spacium 
+      <lb ed="#A" n="26"/>siue dimensio inter extrema. nec est ipsa extrema 
+      <lb ed="#A" n="27"/>corporis contenti quibus determinatur magnitudo eius 
+      <lb ed="#A" n="28"/>tunc cum tale spacium esset locus et corpus contentum 
+      <lb ed="#A" n="29"/>in loco continente corpore scilicet sic locus esset in loco: et 
+      <lb ed="#A" n="30"/>duo corpora in eodem loco. Relinquitur ergo quod locus est 
+      <lb ed="#A" n="31"/>superficies non contenti corporis: sed continentis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h95158-Dd1e263">
+               <head xml:id="Vn7Pel-h95158-Hd1e265">3</head>
+               <p xml:id="Vn7Pel-h95158-d1e267">
+                  <lb ed="#A" n="32"/>¶ Sed quomodo saluatur immobili 
+      <lb ed="#A" n="33"/>tas loci: Licet varie sint opiniones philosophorum. 
+      Dicen<lb ed="#A" n="34" break="no"/>dum tamen cum praedictis Scotorlis. et Guill. e. dist. ii. 
+      <lb ed="#A" n="35"/>supra iuxta sententiam Scoti: quod generaliter verum est. quoniam 
+      <lb ed="#A" n="36"/>si subiectum non manet ide: tunc nullum accnens nec 
+      <lb ed="#A" n="37"/>absolutum nec respectiuum manet idem Et ita cum 
+      cor<lb ed="#A" n="38" break="no"/>pus siue continens siue contentum possit moueri 
+      lo<lb ed="#A" n="39" break="no"/>caliter: omne ergo accidens siue absolutum siue 
+      respecti<lb ed="#A" n="40" break="no"/>aum vt est locus: poterit moueri localiter. Unde 
+      <lb ed="#A" n="41"/>ista immobilitas loci declaratur sic
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e291">
+      ¶ Et Primo ab 
+      ali<lb ed="#A" n="42" break="no"/>quibus vt philosophus loquatur de primo mobili intendens 
+      <lb ed="#A" n="43"/>quod hoc primum mobile scilicet firmamentum habeat supra se 
+      <lb ed="#A" n="44"/>celum crystallinum simpliciter immobile tanquam continens 
+      <lb ed="#A" n="45"/>illud imobile primum etc. Sed hoc dubium est an 
+      ce<lb ed="#A" n="46" break="no"/>lum crystallinum sit immobile. quia secundum 
+      Ptolome<lb ed="#A" n="47" break="no"/>um in Almagesti Firmamentum contra motum 
+      di<lb ed="#A" n="48" break="no"/>urnum in centum annis vnicum gradum adquirit: quod 
+      vi<lb ed="#A" n="49" break="no"/>detur fieri ex mobili superiori
+     </p>
+               <p xml:id="Vn7Pel-h95158-d1e311">
+      ¶ Melius ergo 
+      dicen<lb ed="#A" n="50" break="no"/>dum quod locus habet immobilitatem opposita motui 
+      <lb ed="#A" n="51"/>locali. Habet etiam incorruptibilitatem secundum equiua 
+      <lb ed="#A" n="52"/>lentiam ad motum localem. Patet. quia si esset locus 
+      <lb ed="#A" n="53"/>aliquo modo mobilis localiter quantumcumque per 
+      acci<lb ed="#A" n="54" break="no"/>dens accipiatur: tunc posset dici per accidens esse 
+      in<lb ed="#A" n="55" break="no"/>in loco. Et sic loci esset locus. et illius locus alius: 
+      com<lb ed="#A" n="56" break="no"/>tra philosophum. iiii. Physicis. Denique quod etiam habeat 
+      in<lb ed="#A" n="57" break="no"/>corruptibilitatem secundum equiualentiam: patet. quia licet 
+      <!--309.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>corrumpatur locus moto eius subiecto in quo est 
+      <lb ed="#A" n="59"/>locus: ita quod moto aere localiter non manet eadem 
+      <lb ed="#A" n="60"/>ratio quae prius: tamen ratio loci successiua manet que est 
+      <lb ed="#A" n="61"/>quidem alia a ratione praecedenti secundum virtutem: tamen est eadem 
+      <lb ed="#A" n="62"/>praecedenti per equiualentiam quantum ad motum localem. 
+      <lb ed="#A" n="63"/>Secundo potest dici locus immobilis quo ad partes 
+      prin<lb ed="#A" n="64" break="no"/>cipales mundi. quia quodlibet elementum habet 
+      lo<lb ed="#A" n="65" break="no"/>cum determinatum quem non transcendit. Nam si 
+      de<lb ed="#A" n="66" break="no"/>strueretur sphera ignis: nunquam aer ascendere posset 
+      <lb ed="#A" n="67"/>naturaliter vsque ad concauum orbis lune. Ita etiam 
+      <lb ed="#A" n="68"/>et infra si destrueretur terra tota: tunc aqua non 
+      pos<lb ed="#A" n="69" break="no"/>set descendere vsque ad centrum. Tertio potest dici 
+      lo<lb ed="#A" n="70" break="no"/>tus immobilis mathematice(quia mathematica 
+      <lb ed="#A" n="71"/>abstrahit a motu) non autem physice. Hec Guill. 
+      </p>
+               <p xml:id="Vn7Pel-h95158-d1e366">
+                  <lb ed="#A" n="72"/>¶ De angelis quomodo sunt in 
+      lo<lb ed="#A" n="73" break="no"/>co patuit vbi <ref xml:id="Vn7Pel-h95158-Rd1e372">Angeli. §. v.</ref> e. ly. et sequentibus. 
+      </p>
+               <p xml:id="Vn7Pel-h95158-d1e376">
+                  <lb ed="#A" n="74"/>¶ De locis magis 
+      conuenienti<lb ed="#A" n="75" break="no"/>bus humane habitationi Uide vbi <ref xml:id="Vn7Pel-h95158-Rd1e382">Terra. §. viii.</ref>
+                  <lb ed="#A" n="76"/>et vbi <ref xml:id="Vn7Pel-h95158-Rd1e386">Elcmentum. §. xii.</ref> et se. 
+      </p>
+               <p xml:id="Vn7Pel-h95158-d1e389">
+                  <lb ed="#A" n="77"/>¶ Qud dei bonitas et sapientia 
+      mi<lb ed="#A" n="78" break="no"/>ro modo laudabilis claret in luce creata et eins 
+      <lb ed="#A" n="79"/>qualitatibus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

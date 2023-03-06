@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sensus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Sensus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="433"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h134158">
+            <head xml:id="Vn7Pel-h134158-Hd1e110">Sensus</head>
+            <div xml:id="Vn7Pel-h134158-Dd1e112">
+               <head xml:id="Vn7Pel-h134158-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h134158-d1e116">
+                  <lb ed="#A" n="12"/>Eensus . i. 
+      genera<lb ed="#A" n="13" break="no"/>liter Quot sunt sensus in homine vel 
+      <lb ed="#A" n="14"/>in animali: Notandum est secundum Isid. 
+      <lb ed="#A" n="15"/>li. Etym. xi. quod sensus exteriores 
+      cor<lb ed="#A" n="16" break="no"/>poris numerantur quinque scilicet visus: auditus: gustus 
+      <lb ed="#A" n="17"/>odoratus et tactus. Sensus autem ideo dicti sunt 
+      <lb ed="#A" n="18"/>sic. quia per eos anima subtilissime totum corpus 
+      agi<lb ed="#A" n="19" break="no"/>tat vigore sentiendi Item Aug. super Gen. li. iii. quosi 
+      <lb ed="#A" n="20"/>dam refert subtiliter dicere sic quod numerus sensu 
+      <lb ed="#A" n="21"/>um praecipue accipitur secundum numerum principiorum in rebus 
+      <lb ed="#A" n="22"/>sensibilibus que sunt. v. scilicet quattuor elementa et 
+      <lb ed="#A" n="23"/>quinta essentia. Supremum horum est quinta 
+      essen<lb ed="#A" n="24" break="no"/>tia que influit lucem actuantem colores ad videndum 
+      <lb ed="#A" n="25"/>et sic determinat sibi sensibile ipsius visus. Secundo 
+      <lb ed="#A" n="26"/>infra quintam essentiam est ignis qui secundum virtutem 
+      <lb ed="#A" n="27"/>efficit sensibile olfatus. quia in acre vapor vel 
+      fu<lb ed="#A" n="28" break="no"/>mus resoluitur ab odorabili virtute caloris cuius 
+      <lb ed="#A" n="29"/>principium est ignis. Tertium corpus infra ignem est 
+      <lb ed="#A" n="30"/>aer cuius natura et virtute determinatur sensibile 
+      <lb ed="#A" n="31"/>auditus. quia sonus in aere habet fieri. Quartum 
+      <lb ed="#A" n="32"/>est aqua secundum cuius virtutis influentiam determinia 
+      <lb ed="#A" n="33"/>tur gustus obiectum. quia humiditas aquosa 
+      influ<lb ed="#A" n="34" break="no"/>ens ab aqua sicut ab effectiuo principio commixta 
+      <lb ed="#A" n="35"/>substantia gustabili efficit saporem. Quintum corpus 
+      <lb ed="#A" n="36"/>sclicet infimum est terra secundum cuius naturam primo 
+      deter<lb ed="#A" n="37" break="no"/>minatur sensibile tactus. Quamuis enim elementares 
+      <lb ed="#A" n="38"/>qualitates scilicet calidum: frigidum: humidum et siccum sint 
+      <lb ed="#A" n="39"/>sensibilia tactus. hoc tamen est inquantum in composito 
+      <lb ed="#A" n="40"/>terreo recipiuntur. Et hec omnia prolixius dictat Ioanm 
+      <lb ed="#A" n="41"/>nes de rupella. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e185">
+               <head xml:id="Vn7Pel-h134158-Hd1e187">2</head>
+               <p xml:id="Vn7Pel-h134158-d1e189">
+                  <lb ed="#A" n="42"/>¶ Quid de dispositione quinque 
+      <lb ed="#A" n="43"/>sensuum in corpore. Notandum secundum Isido. e. li. xi. quod 
+      <lb ed="#A" n="44"/>sensus corporei sicut sese praecellunt diuersitate 
+      lo<lb ed="#A" n="45" break="no"/>corum: Ita et virtute sentiendi. Nam quia 
+      praestan<lb ed="#A" n="46" break="no"/>tior est odoratus saporis gustu: sentiendi 
+      longin<lb ed="#A" n="47" break="no"/>quitate. Ideo deus bonus posuit olfatum 
+      super<lb ed="#A" n="48" break="no"/>iori etiam loco. Sic et aures respectu odoratus et 
+      <lb ed="#A" n="49"/>oculi respectu aurium. Animus autem et loco et 
+      me<lb ed="#A" n="50" break="no"/>rito his vniuersis sensibus superfertur. Ideo in arce 
+      ca<lb ed="#A" n="51" break="no"/>pitis constitutus: quod illi corporaliter non attingunt 
+      <lb ed="#A" n="52"/>ipse intellectu contuetur. Unde et ad hec Arsto. in. de 
+      <!--432.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="53"/>anima dicit. duo sensus cum corde sunt continui 
+      <lb ed="#A" n="54"/>scilicet gustus et tactus. Tres vero residui sunt in 
+      ca<lb ed="#A" n="55" break="no"/>pite. In omnibus autem animalibus ( inquit) est 
+      <lb ed="#A" n="56"/>sensus visus: supra auditum et supra olfatum. 
+      </p>
+               <p xml:id="Vn7Pel-h134158-d1e228">
+                  <lb ed="#A" n="57"/>¶ Item Guill. de Conchis dicit. Sicut quedam 
+      <lb ed="#A" n="58"/>fenestre sunt sensus in capite: et quia longius 
+      vi<lb ed="#A" n="59" break="no"/>demus quam audimus. et longius audimus quam 
+      odo<lb ed="#A" n="60" break="no"/>ramus. longiusque odoramus quam gustu sentimus 
+      <lb ed="#A" n="61"/>Ideo instrumentum videndi est locatum super 
+      in<lb ed="#A" n="62" break="no"/>strumentum audiendi. et hoc supra instrumentum 
+      <lb ed="#A" n="63"/>olfaciendi. atque illud supra instrumentum 
+      gustan<lb ed="#A" n="64" break="no"/>di. tactus vero per totum corpus est diffusus et 
+      <lb ed="#A" n="65"/>plus necessarius. Unde vt Arist. lib. de animali 
+      <lb ed="#A" n="66"/>bus dicit. Tactus et gustus necessarii sunt: scilicet ad 
+      <lb ed="#A" n="67"/>vitam. ceteri vero propter melius sunt: Ideo 
+      conuenien<lb ed="#A" n="68" break="no"/>ter tactus et gustus habent medium intrinsecum in 
+      cor<lb ed="#A" n="69" break="no"/>pore: ceteri extrinsecum. Ergo deus laudetur. 
+      </p>
+               <p xml:id="Vn7Pel-h134158-d1e259">
+                  <lb ed="#A" n="70"/>¶ Item de obiectis quinque 
+      sen<lb ed="#A" n="71" break="no"/>suum. vide de singulis vbi Obiecta. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e267">
+               <head xml:id="Vn7Pel-h134158-Hd1e269">3</head>
+               <p xml:id="Vn7Pel-h134158-d1e271">
+                  <lb ed="#A" n="72"/>¶ Que sunt organa predictorum 
+      <lb ed="#A" n="73"/>sensuum exteriorum. Notandum secundum Ioannem 
+      de<lb ed="#A" n="74" break="no"/>rupella: quod ab anteriori parte cerebri 
+      descenden<lb ed="#A" n="75" break="no"/>tes nerui cum spiritibus sensibilibus sunt organa 
+      <lb ed="#A" n="76"/>sensuum perfecta in suis extremitatibus. Exempli gra 
+      <lb ed="#A" n="77"/>tia: Primo a cerebro anterius descendit quidam 
+      <lb ed="#A" n="78"/>neruus qui ramificatur: ex quorum ramorum 
+      ex<lb ed="#A" n="79" break="no"/>tremitatibus formatur dispositio oculorum: qui sunt 
+      <lb ed="#A" n="80"/>organum visus. vide <ref xml:id="Vn7Pel-h134158-Rd1e292">infra. §. viii. et. ix.</ref> Secundo 
+      <lb ed="#A" n="81"/>alius neruus descendens ramificatur: et in extremi 
+      <lb ed="#A" n="82"/>tatibus ramorum formantur folles intra 
+      concaui<lb ed="#A" n="83" break="no"/>tatem aurium: et sunt organum auditus. Item 
+      <lb ed="#A" n="84"/>ab eadem parte descendes Tertius ramus: scilicet 
+      <lb ed="#A" n="85"/>anteriori parte cerebri ramificatur: in extremitati 
+      <lb ed="#A" n="86"/>bus suis habens ramusculos narium: et sunt 
+      or<lb ed="#A" n="87" break="no"/>ganum olfatus Quartus neruus descendit ab 
+      <lb ed="#A" n="88"/>eodem cerebro: sed vnitur in lingua in homine. 
+      <lb ed="#A" n="89"/>diuisus autem manet in serpente: vnde serpens 
+      <lb ed="#A" n="90"/>diuisam habet linguam: sed homo vnitam. et ibi 
+      <lb ed="#A" n="91"/>est organum gustus. Quintus neruus 
+      descen<lb ed="#A" n="92" break="no"/>dens ramificatur in modum retis: totum corpus 
+      <lb ed="#A" n="93"/>vestiens. et est organum tactus. Ideoque sensus 
+      <lb ed="#A" n="94"/>tactus est generalis: quia est in qualibet parte 
+      cor<lb ed="#A" n="95" break="no"/>poris: etiam in organis sensuum aliorum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e329">
+               <head xml:id="Vn7Pel-h134158-Hd1e331">4</head>
+               <p xml:id="Vn7Pel-h134158-d1e333">
+                  <lb ed="#A" n="96"/>¶ Item que sunt media 
+      differen<lb ed="#A" n="97" break="no"/>tia eorundem sensuum: Respondetur breviter secundum 
+      <lb ed="#A" n="98"/>eundem Ioannem de rupella. quod medium in 
+      visu<lb ed="#A" n="99" break="no"/>est perspicuum. siue sit peruium: vt aqua. 
+      crystal<lb ed="#A" n="100" break="no"/>lus. et aer. et huiusmodi. Siue sit solum 
+      superfi<lb ed="#A" n="101" break="no"/>cialiter perspicuum: sed secundum soliditatem opacum. 
+      <lb ed="#A" n="102"/>vt aurum et argentum. que impenetrabilia sunt 
+      <lb ed="#A" n="103"/>visui. Siue etiam opacum superficialiter: 
+      ta<lb ed="#A" n="104" break="no"/>men illuminatum actu. vt terra et huiusmodi. 
+      <lb ed="#A" n="105"/>Et ita generaliter perspicuum secundu siperfictem saltem 
+      <!--433.xml-->
+      <pb ed="#A" n="434"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>est medum in visu vel etiam seundum profunditatem. Item in 
+      <lb ed="#A" n="2"/>auditu medium est aer. sed ille est duplex. scilicet exteri 
+      <lb ed="#A" n="3"/>or in quo fit sonus. Et interior connaturalis intra 
+      <lb ed="#A" n="4"/>folles aurium. Item in olfatu medium est vapor 
+      <lb ed="#A" n="5"/>qui emanat ab odorabili in modum subtilis 
+      fu<lb ed="#A" n="6" break="no"/>mi. In gustu vero humiditas saliualis recepta 
+      <lb ed="#A" n="7"/>n corpore lingue spongioso perueniens vsque ad 
+      <lb ed="#A" n="8"/>instrumentum gustus. In tactu autem medium est 
+      ca<lb ed="#A" n="9" break="no"/>o cooperiens neruos. Unde deus bonus sic 
+      or<lb ed="#A" n="10" break="no"/>dinanit pro vtilitate sensuum. 
+      </p>
+               <p xml:id="Vn7Pel-h134158-d1e385">
+                  <lb ed="#A" n="11"/>¶ Quare enim adhibita sunt me 
+      <lb ed="#A" n="12"/>dia in sensibus vt non perueniat sensus in cognitio 
+      <lb ed="#A" n="13"/>nem obiecti sine medio. Dicendum est secundum Arist. et 
+      <lb ed="#A" n="14"/>philosophos quod ideo. quia sensibile positum super sensum 
+      <lb ed="#A" n="15"/>scilicet immediate non sentitur. Ideo deo ordinante fit per 
+      <lb ed="#A" n="16"/>medium sensatio. Et ad nostram vtilitatem. vt sic 
+      sen<lb ed="#A" n="17" break="no"/>sus possit recipere species obiectorum contrariorum scilicet 
+      <lb ed="#A" n="18"/>videre album et nigrum et huiusmodi. per species in 
+      me<lb ed="#A" n="19" break="no"/>dio diffusas. quia si in essentia reciperet oculus 
+      <lb ed="#A" n="20"/>speciem albedinis: visus sic alteratus immediate non 
+      <lb ed="#A" n="21"/>posset recipere nigredinis speciem. quia contraria secundum 
+      <lb ed="#A" n="22"/>essentiam non possunt esse in eodem. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e416">
+               <head xml:id="Vn7Pel-h134158-Hd1e418">5</head>
+               <p xml:id="Vn7Pel-h134158-d1e420">
+                  <lb ed="#A" n="23"/>Quomodo dei benignitas erga 
+      ho<lb ed="#A" n="24" break="no"/>minem claret in huiusmodi sensuum organis: 
+      Notan<lb ed="#A" n="25" break="no"/>dum primo. quod secundum Damasc. li. ii c. xviii. Deus ex sua 
+      <lb ed="#A" n="26"/>honitate sensuum organa duplicauit. Ideo vt vno 
+      <lb ed="#A" n="27"/>eso aliud expleat vsum. duos enim oculos et 
+      du<lb ed="#A" n="28" break="no"/>as aures et duo foramina naris dedit. et pro 
+      gustu<lb ed="#A" n="29" break="no"/>fauces et duos ordines dentium. Et linguam vnam 
+      <lb ed="#A" n="30"/>in homine vt non esset homo bilinguis. Tactum 
+      au<lb ed="#A" n="31" break="no"/>tem per totum corpus. sed et pro vsu tangendi 
+      du<lb ed="#A" n="32" break="no"/>as dedit manus.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e444">
+      ¶ Secundo voluit ex bonitate 
+      <lb ed="#A" n="33"/>sua deus. vt dicit Augu. lib. de bono viduitatis 
+      <lb ed="#A" n="34"/>quod vno sensu priuato reliqui magis intendantur 
+      <lb ed="#A" n="35"/>Nam acutius audiunt qui non vident et multa tam 
+      <lb ed="#A" n="36"/>gendo discernunt. Hec ille
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e455">
+      ¶ Tertio secundum Cassiodi. 
+      <lb ed="#A" n="37"/>ib. de anima. c. ii. voluit deus vt nullus sensus vel 
+      <lb ed="#A" n="38"/>organum seipsum sentiat. Oculus enim licet sidera 
+      <lb ed="#A" n="39"/>videat. tamen seipsum videre non praeualet. Palatum 
+      <lb ed="#A" n="40"/>tum diuersa gustum sentiat: cuius saporis sit 
+      se<lb ed="#A" n="41" break="no"/>ipsum ignorat. Nares fragrantium corporum odores 
+      <lb ed="#A" n="42"/>crahunt varios. sed qualiter oleant ipse non 
+      senti<lb ed="#A" n="43" break="no"/>unt. Cerebrum deniquam nostrum licet membris 
+      reli<lb ed="#A" n="44" break="no"/>quis sensum tradat: Ipsium tamen sensum non habet. 
+      <lb ed="#A" n="45"/>nec auditus se audit. Quare hec nisi propter humilis 
+      <lb ed="#A" n="46"/>litatem cuius est se non videre nec iudicare quod sit 
+      <lb ed="#A" n="47"/>aliquid reputabile. vt tangit Berandus. in epistola ad 
+      fra<lb ed="#A" n="48" break="no"/>tres de monte. Uoluit ergo deus nostrorum 
+      sensu<lb ed="#A" n="49" break="no"/>um nobilitates non sentiri a nobis ne superbiendo 
+      <lb ed="#A" n="50"/>perdamus gratiam dei. sed in humilitate gratiam 
+      <lb ed="#A" n="51"/>datam conseruemus
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e490">
+      ¶ Quarto vt dicit Hugo de 
+      <lb ed="#A" n="52"/>sacramentis lib. i. par. vi. c. v. voluit deus secundum 
+      sen<lb ed="#A" n="53" break="no"/>lus etiam hominem esse in medio. Nam quedam 
+      <lb ed="#A" n="54"/>est inquit creatura cuius sensus totus est intus 
+      <lb ed="#A" n="55"/>vt patet de angelis. Alia autem est creatura cuius 
+      <lb ed="#A" n="56"/>sensus totus est foris. vt patet in animalibus 
+      bru<lb ed="#A" n="57" break="no"/>tis. Positus est ergo homo in medio vt intus et 
+      <!--433.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>foris sensum haberet. intus ad inuisibilia. foris 
+      <lb ed="#A" n="59"/>id visibilia. intus per sensus interiores rationis. 
+      <lb ed="#A" n="60"/>foris per sensum carnis. Hec ille. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e517">
+               <head xml:id="Vn7Pel-h134158-Hd1e519">6</head>
+               <p xml:id="Vn7Pel-h134158-d1e521">
+                  <lb ed="#A" n="61"/>¶ Sed quare deus dedit brutis 
+      <lb ed="#A" n="62"/>sensus exteriores praecellentior es quam homini: Quia 
+      <lb ed="#A" n="63"/>vt Aristo. lib. de animalibus dicit. Tactus in 
+      ho<lb ed="#A" n="64" break="no"/>nine subtilior est: ceteri vero sensus hebetiores sunt 
+      <lb ed="#A" n="65"/>in homine plus quam in animalibus aliis. Sed et in 
+      <lb ed="#A" n="66"/>sensu tactus: quodammodo aranea precellit 
+      ho<lb ed="#A" n="67" break="no"/>mines: quia remotius et celerius ad solum 
+      ta<lb ed="#A" n="68" break="no"/>ctum tele sue sentit. v. Nos aper auditu: 
+      lynxvi<lb ed="#A" n="69" break="no"/>su precellit aranea tactu. ver. Uultures olfatu: 
+      <lb ed="#A" n="70"/>necnon et simia gustum etc.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e545">
+      ¶ Respondetur quod Una 
+      <lb ed="#A" n="71"/>ratio est secundum Hugo. predictu: Quia iustum inquit 
+      <lb ed="#A" n="72"/>erat vt brutis quibus nihil dandum erat in celo: 
+      <lb ed="#A" n="73"/>aruplius daretur in terra etc. et econtrario: vt homo 
+      <lb ed="#A" n="74"/>tanto magis se exerceret ratione in terris: quanto 
+      <lb ed="#A" n="75"/>naiorem defectum in sensibus pateretur. Alia ratio: vt 
+      <lb ed="#A" n="76"/>deus ostenderet in homine quoniam eum ad 
+      ce<lb ed="#A" n="77" break="no"/>lestia bona: non ad sensualia carnis creasset. 
+      Ter<lb ed="#A" n="78" break="no"/>ia ratio humiliationis hominis ad gratiam promerendam et 
+      <lb ed="#A" n="79"/>conseruandam Et ita patet dei bonitas laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e568">
+               <head xml:id="Vn7Pel-h134158-Hd1e570">7</head>
+               <p xml:id="Vn7Pel-h134158-d1e572">
+                  <lb ed="#A" n="80"/>¶ Quot sunt sensus spirituales 
+      qui<lb ed="#A" n="81" break="no"/>bus bomo debet sentire diuina vel celestia. 
+      No<lb ed="#A" n="82" break="no"/>tandum quod sicut dicit Innoc. de sacramentis. Sicut 
+      <lb ed="#A" n="83"/>quinque sunt sensus corporales: sic quinque sunt 
+      <lb ed="#A" n="84"/>sensus spirituales: quibus celestia debemus et 
+      di<lb ed="#A" n="85" break="no"/>uina sentire: quoniam ad illa facti sumus. 
+      Pri<lb ed="#A" n="86" break="no"/>mus est visus intelligentie. scilicet per fidem veram. 
+      <lb ed="#A" n="87"/>Secundus auditus obedientie. scilicet preceptorum. 
+      <lb ed="#A" n="88"/>Tertius odoratus discretionis. scilicet inter bona et 
+      <lb ed="#A" n="89"/>mala vel vicia. Quartus gustus delectationis. 
+      <lb ed="#A" n="90"/>sclicet in deo per amorem. Quintus tactus 
+      operatio<lb ed="#A" n="91" break="no"/>nis. De istis dicitur Matth. xxv. Domine quinque 
+      <lb ed="#A" n="92"/>talenta tradidisti mihi. Hec Innocen. 
+      </p>
+               <!-- Sensus 2-->
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e606">
+               <head xml:id="Vn7Pel-h134158-Hd1e608">8</head>
+               <p xml:id="Vn7Pel-h134158-d1e610">
+                  <lb ed="#A" n="93"/>Sensus.ii. scilicet de 
+      <lb ed="#A" n="94"/>interioribus et exterioribus singulis. 
+      <lb ed="#A" n="95"/>Et Primo de visu Queritur: Quo 
+      <lb ed="#A" n="96"/>modo diffinitur visus. Respondetur 
+      <lb ed="#A" n="97"/>quod Ioannes Damascenus libro. ii diffinit sic. Ud 
+      <lb ed="#A" n="98"/>us est primus sensus cuius organa sunt qui ex 
+      cerebro<lb ed="#A" n="99" break="no"/>nerui et oculi sunt: sentitque secundum primam rationem 
+      co<lb ed="#A" n="100" break="no"/>lorem et corpus coloratum cum colore. In hac 
+      <lb ed="#A" n="101"/>piffinitione cum dicitur. visus est primus sensus. 
+      tan<lb ed="#A" n="102" break="no"/>gitur ordo eius respectu aliorum sensuum. Licet 
+      <lb ed="#A" n="103"/>inim tactus sit primus sensus in animali constituen 
+      <lb ed="#A" n="104"/>do et necessarius: tamen visus est primus in 
+      appre<lb ed="#A" n="105" break="no"/>hendendo. Secundo tangitur eius organorum 
+      determi<lb ed="#A" n="106" break="no"/>natio: cum dicitur. cuius organa sunt qui ex 
+      cere<lb ed="#A" n="107" break="no"/>pro nerui et oculi. et sic restringitur vis visiua ad 
+      <lb ed="#A" n="108"/>neruos oculi opticos. id est visibiles: quia vt Aui 
+      <lb ed="#A" n="109"/>cen. dicit. Uisus est vis ordinata in neruo 
+      opti<lb ed="#A" n="110" break="no"/>co ad apprehendendum: quod formatur in humore 
+      <lb ed="#A" n="111"/>trystallino. Uirtus enim visiua secundum inceptionem est 
+      <lb ed="#A" n="112"/>in humore crystallino: sed secundum progressum ad per¬ 
+      <!--434.xml-->
+      <pb ed="#A" n="435"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>fectionem est in neruo opt icom ad oculum terminato et 
+      <lb ed="#A" n="2"/>spiritu visibili qui decurrit in illo. Secundm autem sui 
+      perfe<lb ed="#A" n="3" break="no"/>ctionem est in anteriori parte cerebri a quo deriuan 
+      <lb ed="#A" n="4"/>tur tales nerui vt patebit in sequentibus. Tertio tam: 
+      <lb ed="#A" n="5"/>gitur obiectum primum visus cum dicitur. Sentitque calorem etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e674">
+               <head xml:id="Vn7Pel-h134158-Hd1e676">9</head>
+               <p xml:id="Vn7Pel-h134158-d1e678">
+                  <lb ed="#A" n="6"/>¶ Quales sunt nerui optici 
+      de<lb ed="#A" n="7" break="no"/>seruientes visui.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e685">
+      ¶ De hoc notandum secundum Auicen. v 
+      <lb ed="#A" n="8"/>naturalium concor. Guiller. de Conchis. Et 
+      Constar<lb ed="#A" n="9" break="no"/>tinum libro de differentia spiritus et anime. quod nerui optici 
+      di<lb ed="#A" n="10" break="no"/>cuntur qui sunt visuales qui deriuantur ab anteriori 
+      <lb ed="#A" n="11"/>parte cerebri et piroenduntur vsquequo coniungantur oculis 
+      <lb ed="#A" n="12"/>vnde vocantur optici id est visibiles. quia in eis est decurriti 
+      <lb ed="#A" n="13"/>que spiritus visibilis. vt tactum est. §. immediate praecedenti 
+      <lb ed="#A" n="14"/>Isti autem nerui sunt duo. Unus eorundem exit a de 
+      <lb ed="#A" n="15"/>xtra parte et vadit ad sinistram. Alius autem eorum oriturua 
+      <lb ed="#A" n="16"/>parte siuistra et vadit ad dexteram. Et cancellantur in 
+      <lb ed="#A" n="17"/>medio ad modum crucis:. Et in illo medio stat 
+      iu<lb ed="#A" n="18" break="no"/>dicium ipsius visus
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e711">
+      ¶ Proinde Si queratur vn est 
+      <lb ed="#A" n="19"/>quod duobus oculis videmus rem aliquam: Et tamen non 
+      <lb ed="#A" n="20"/>iudicamus rem nisi vnam visam. Respondetur secundum Aui 
+      <lb ed="#A" n="21"/>cen. supra quod hoc est eo quod duo nerui qui determinantur 
+      <lb ed="#A" n="22"/>ad duos oculos cancellantur in medio ad modum 
+      <lb ed="#A" n="23"/>crucis. et in eodem medio stat iudicium visus: alias 
+      v<lb ed="#A" n="24" break="no"/>num et idem videre ter esse duo. Secus de tactu. Si 
+      <lb ed="#A" n="25"/>vnus lapillus enim vel granum fabe tangatur duobus 
+      <lb ed="#A" n="26"/>digitis non cancellatis iudicatur esse vnum Sed 
+      <lb ed="#A" n="27"/>si digitis cancellatis tactu moueatur quasi 
+      vol<lb ed="#A" n="28" break="no"/>uendo dum non aspiciatur apparet esse duo. Sed non 
+      <lb ed="#A" n="29"/>in oculis vbi est cancellatio neruorum
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e737">
+      ¶ Ad hec 
+      <lb ed="#A" n="30"/>praedicta de neruis istis: habes etiam sura vbi <ref xml:id="Vn7Pel-h134158-Rd1e741">Anima. §. 
+      <lb ed="#A" n="31"/>xlix. Item supra. §. iii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e748">
+               <head xml:id="Vn7Pel-h134158-Hd1e750">10</head>
+               <p xml:id="Vn7Pel-h134158-d1e752">
+                  <lb ed="#A" n="32"/>¶ Sed quo fit actus videndi in 
+      <lb ed="#A" n="33"/>oculo per species visibiles in medio existentes. 
+      Re<lb ed="#A" n="34" break="no"/>spondetur secundum <name xml:id="Vn7Pel-h134158-Nd1e760">Alber</name>. Magnum quod dimissis variis 
+      <lb ed="#A" n="35"/>opinionibus antiquorum philosophorum que improbantur 
+      <lb ed="#A" n="36"/>Positio <name xml:id="Vn7Pel-h134158-Nd1e767">Aristo</name>. est sequenda videlicet quod sensibi 
+      <lb ed="#A" n="37"/>lia veniunt ad sensus per medium in quo primo 
+      <lb ed="#A" n="38"/>fiunt eorum species vel similitudines. et postea in 
+      <lb ed="#A" n="39"/>sensu. Et ideo non est credendum quod colores 
+      moue<lb ed="#A" n="40" break="no"/>antur ad oculum motu locali. Sed potius 
+      mo<lb ed="#A" n="41" break="no"/>tus eorum est motus immutationis quo 
+      gene<lb ed="#A" n="42" break="no"/>rant se primo in medio multiplicando quousque 
+      <lb ed="#A" n="43"/>perueniant postea ad oculum. vnde color est in 
+      me<lb ed="#A" n="44" break="no"/>dio et etiam in oculo sed differenter. quia in 
+      me<lb ed="#A" n="45" break="no"/>dio est per species visibiles sicut in via. et sicut in 
+      <lb ed="#A" n="46"/>potentia. Sed in oculo est sicut in termino et vt 
+      <lb ed="#A" n="47"/>in actu videndi. De modo autem huius motus 
+      <lb ed="#A" n="48"/>specierum ad oculum per medium <name xml:id="Vn7Pel-h134158-Nd1e795">Boetius</name> 
+      po<lb ed="#A" n="49" break="no"/>nit exemplum de lapide proiecto in stagnum 
+      aqua<lb ed="#A" n="50" break="no"/>rum. De quo exemplo vide vbi <ref xml:id="Vn7Pel-h134158-Rd1e801">Obiecta. §. xi.</ref> in 
+      <lb ed="#A" n="51"/>prfi. Deus ergo laudabilis est etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e809">
+               <head xml:id="Vn7Pel-h134158-Hd1e811">11</head>
+               <p xml:id="Vn7Pel-h134158-d1e813">
+                  <lb ed="#A" n="52"/>¶ Sed quare aer medius non 
+      im<lb ed="#A" n="53" break="no"/>mutat visum ad omnem partem. vt scilicet videamus 
+      <lb ed="#A" n="54"/>ante et retro. et sic de aliis. cum tamen aer medius 
+      <lb ed="#A" n="55"/>sit per species immutatus ad omnem partem. 
+      Re<lb ed="#A" n="56" break="no"/>spondetur secundum eundem <name xml:id="Vn7Pel-h134158-Nd1e826">Alber</name>. Magnum. et alios. quod li¬ 
+      <!--434.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>cet fiat immutatio aeris ad omnem partem. qui 
+      <lb ed="#A" n="58"/>procedit a colore immutatio in aere multitudo 
+      <lb ed="#A" n="59"/>species ad omnem partem secundum processionem lucis 
+      re<lb ed="#A" n="60" break="no"/>flexe et incedentis. Sed quia color non agit nisi secundum 
+      <lb ed="#A" n="61"/>actum lucidi: opertet ergo species visibiles in 
+      ocu<lb ed="#A" n="62" break="no"/>lum procedere actu secundum actum lucidi: Quoniam 
+      au<lb ed="#A" n="63" break="no"/>tem lux et color retrocedens ab oculis nostris: 
+      re<lb ed="#A" n="64" break="no"/>mouetur et non dirigitur recte in oculos nostros actu. 
+      <lb ed="#A" n="65"/>ergo non videtur nisi in speculo quo fiat reflexio 
+      su<lb ed="#A" n="66" break="no"/>per speculum positum ante oculos nostros. 
+      Un<lb ed="#A" n="67" break="no"/>de etiam denarium iacentem in pauimento ante 
+      <lb ed="#A" n="68"/>oculos nostros non statim videmus: quia virtus 
+      <lb ed="#A" n="69"/>visiua discurrit super partes visibiles post 
+      par<lb ed="#A" n="70" break="no"/>tes non simul. et cum venit ad partem illam vbi 
+      <lb ed="#A" n="71"/>denarius iacet: tunc ipsum videt per modum 
+      dia<lb ed="#A" n="72" break="no"/>metri oppositum ad oculum directum quasi 
+      ra<lb ed="#A" n="73" break="no"/>dio recto etc.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e870">
+      ¶ Deus ergo laudabilis est qui omnia 
+      <lb ed="#A" n="74"/>sapientissime disposuit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e876">
+               <head xml:id="Vn7Pel-h134158-Hd1e878">12</head>
+               <p xml:id="Vn7Pel-h134158-d1e880">
+                  <lb ed="#A" n="75"/>¶ Utrum viso fiat solum intua 
+      <lb ed="#A" n="76"/>suscipiendo: an etiam extra mittendo aliquem 
+      ra<lb ed="#A" n="77" break="no"/>dium ab oculo. Respondetur secundum eundem Albertum 
+      <lb ed="#A" n="78"/>magnum et alios super. ii libo. de anima: quod ab 
+      ocu<lb ed="#A" n="79" break="no"/>lo non egreditur radius ad illuminandum medium 
+      <lb ed="#A" n="80"/>et actuandum colores. Sed lux exterior que est in 
+      <lb ed="#A" n="81"/>aere super oculum reflectitur: et ex illa reflexione 
+      ra<lb ed="#A" n="82" break="no"/>dii generantur: sub quibus oculus immutatur dum 
+      <lb ed="#A" n="83"/>attingitur ab eis. Immutatur ergo non a luce que est 
+      <lb ed="#A" n="84"/>immediate circa oculum: sed ab illa que est in 
+      ex<lb ed="#A" n="85" break="no"/>tremitate perspicui que facit esse colorem actu: 
+      <lb ed="#A" n="86"/>quoniam illa sola sufficit ad visum etc.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e909">
+      ¶ Rationes 
+      <lb ed="#A" n="87"/>ad hec sunt: Sequerentur enim plura incouenientia 
+      <lb ed="#A" n="88"/>et absurda si videremus extra mittendo. Primo: 
+      <lb ed="#A" n="89"/>quia si aliquis staret iuxta multos apertos 
+      ocu<lb ed="#A" n="90" break="no"/>los habentes: sequeretur quod melius videret propter 
+      <lb ed="#A" n="91"/>multiplicationem radiorum emissorum ab oculis 
+      <lb ed="#A" n="92"/>plurimorum ad illuminandum: et tamen falsum est. Secundo: quod 
+      <lb ed="#A" n="93"/>debisem habens visum melius videret stans penes 
+      <lb ed="#A" n="94"/>clare videntem: propter illius oculorum lumen. 
+      <lb ed="#A" n="95"/>Tertio: quod multis aspicientibus simul stantibus in 
+      <lb ed="#A" n="96"/>senebris: aer illuminaretur eorum aspectibus 
+      lu<lb ed="#A" n="97" break="no"/>ce oculorum. Ultimo: quod cum videmus sidera celi: 
+      <lb ed="#A" n="98"/>sequitur quod celum susciperet aliquod lumen a visu 
+      no<lb ed="#A" n="99" break="no"/>stro. que omnia sunt inconuenientia.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e940">
+      ¶ Si 
+      obii<lb ed="#A" n="100" break="no"/>citur: quod quedam animalia de nocte vident per 
+      lu<lb ed="#A" n="101" break="no"/>cem egredientem ex oculis eorum. vt lupi: catti: 
+      bu<lb ed="#A" n="102" break="no"/>bones: et huiusmodi.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e949">
+      ¶ Dicendum secundum eundem 
+      Al<lb ed="#A" n="103" break="no"/>bertum: quod talia animalia non emittunt radios 
+      <lb ed="#A" n="104"/>ab oculis suis ad illuminandum medium et 
+      ob<lb ed="#A" n="105" break="no"/>iectum visibile. Quia si sic esset: sequeretur quod 
+      quam<lb ed="#A" n="106" break="no"/>do videmus splendentes illorum animalium 
+      ocu<lb ed="#A" n="107" break="no"/>os: tunc videremus proxima iuxta oculos existan 
+      <lb ed="#A" n="108"/>tia. puta nasum: aures: maxillam illius lupi vel 
+      <lb ed="#A" n="109"/>catti et corporis reliqua: quod est falsum. Unde 
+      <lb ed="#A" n="110"/>idem Albertus dicit: quod exquo predicta 
+      anima<lb ed="#A" n="111" break="no"/>lia et similia habent debilem visum et non bene 
+      co<lb ed="#A" n="112" break="no"/>adunatum Ideo et a claritate diei vincuntur ac 
+      de<lb ed="#A" n="113" break="no"/>nocte lucent Sed illa lux in talibus oculis lucens 
+      <!--435.xml-->
+      <pb ed="#A" n="436"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>est a partibus ignis vel igneis: que sunt in 
+      exte<lb ed="#A" n="2" break="no"/>riori parte. nec progreditur illa lux ab interiori 
+      par<lb ed="#A" n="3" break="no"/>te oculi ad proiectionem radiorum per quos 
+      illi<lb ed="#A" n="4" break="no"/>minetur medium et obiectum visibile. aliter aer 
+      cir<lb ed="#A" n="5" break="no"/>cundans illuminaretur sicut a lucerna vel 
+      cande<lb ed="#A" n="6" break="no"/>la. similiter et alia proxima oculis. Unde dei 
+      sa<lb ed="#A" n="7" break="no"/>pientia est laudabilis.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e998">
+      ¶ Ad hec etiam aliqua 
+      vi<lb ed="#A" n="8" break="no"/>de vbi <ref xml:id="Vn7Pel-h134158-Rd1e1002">Lux. §. xiiii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1006">
+               <head xml:id="Vn7Pel-h134158-Hd1e1008">13</head>
+               <p xml:id="Vn7Pel-h134158-d1e1010">
+                  <lb ed="#A" n="9"/>¶ Qualibus modis sensus visus 
+      <lb ed="#A" n="10"/>habet impediri vel corrumpi: Notandum quod 
+      <lb ed="#A" n="11"/>multis modis oculus impeditur in videndo: 
+      quo<lb ed="#A" n="12" break="no"/>rum aliquos ponere sufficiat.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1021">
+      ¶ Primo propter 
+      <lb ed="#A" n="13"/>situs oculi alterationem. Nam quando oculus 
+      <lb ed="#A" n="14"/>digito apposito extra propriun situm: aut eleuatur 
+      <lb ed="#A" n="15"/>altius. vel deprimitur ad inferius. tunc 
+      aspicien<lb ed="#A" n="16" break="no"/>do vnum apparet quod sint duo vel tres: quia secundum 
+      <lb ed="#A" n="17"/>physicos: compositio oculorum est in humide 
+      <lb ed="#A" n="18"/>aquoso. Et ipsi oculi habent plures tunicas 
+      di<lb ed="#A" n="19" break="no"/>uersas: quarum quedam habent foramen ad 
+      an<lb ed="#A" n="20" break="no"/>terius sicut vuea: Ideoque quando oculus sic re 
+      <lb ed="#A" n="21"/>primitur: extumescit humor crystallinus: et 
+      diua<lb ed="#A" n="22" break="no"/>ricatur forma
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1045">
+      ¶ Secundo quando oculus 
+      impe<lb ed="#A" n="23" break="no"/>ditur per obscurationem. Et hoc fit aut ex ebrie 
+      <lb ed="#A" n="24"/>tate: quia multus vapor vini ad cerebrum fertur. 
+      <lb ed="#A" n="25"/>et turbatio cerebri obscurat oculos: Quia enim 
+      <lb ed="#A" n="26"/>illi spiritus qui ab oculo ad cerebrum deferuntur 
+      <lb ed="#A" n="27"/>sunt puri ac clari super omnes alios spiritus 
+      sen<lb ed="#A" n="28" break="no"/>sibiles. ergo facile turbantur etc. Secundo aut 
+      <lb ed="#A" n="29"/>fit ex ira ceadem causa: quia ira sanguinem 
+      accen<lb ed="#A" n="30" break="no"/>dit circa cor: et eleuat vapores ad caput. et sic tur 
+      <lb ed="#A" n="31"/>bat cerebrum. Tertio aut huiusmodi 
+      obscura<lb ed="#A" n="32" break="no"/>tio fit ex infirmitate aliqua hominis: et precipue 
+      <lb ed="#A" n="33"/>solet fieri ex flutu sanguinis: et similibus 
+      infir<lb ed="#A" n="34" break="no"/>mitatibus
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1074">
+      ¶ Tertio principaliter aliquando 
+      im<lb ed="#A" n="35" break="no"/>peditur visus per tenebrosi loci vel carceris diuti 
+      <lb ed="#A" n="36"/>nam inclusionem: aut oculorum longiturnam 
+      clau<lb ed="#A" n="37" break="no"/>sionem. Cum enim tales ad lumen vadunt: non 
+      <lb ed="#A" n="38"/>bene vident subito antequam ingrediatur lumen tem 
+      <lb ed="#A" n="39"/>perate immutans ab extrinseco. Ratio secundum 
+      Al<lb ed="#A" n="40" break="no"/>bertum: quia tales a deo non habent exercitium 
+      <lb ed="#A" n="41"/>visus: nec anima intenta est operibus suis 
+      visi<lb ed="#A" n="42" break="no"/>uis: Ideo spiritus visibilis ab oculis subtrahi 
+      <lb ed="#A" n="43"/>tur: et neruus opticus exiccatur et contrahitur: ita 
+      <lb ed="#A" n="44"/>quod etiam cum veniunt ad lucem spiritus: non 
+      po<lb ed="#A" n="45" break="no"/>test subintrare nisi modicum et paulatim.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1101">
+      ¶ Quar 
+      <lb ed="#A" n="46"/>to propter excellentis lucis lesionem. Na 
+      quan<lb ed="#A" n="47" break="no"/>doque excellens lux ingrediens oculum incendit 
+      <lb ed="#A" n="48"/>eius humidum crystallinum: et complexionis eius 
+      <lb ed="#A" n="49"/>temperamentum resoluit: partem quoque eius subti 
+      <lb ed="#A" n="50"/>lem in sumum resoluit: vt dicit Albertus. tunc fit 
+      <lb ed="#A" n="51"/>corruptio oculi et cecitas: cum tamen oculi 
+      pul<lb ed="#A" n="52" break="no"/>cri appareant exterius. et patet in dintino aspectu 
+      <lb ed="#A" n="53"/>eris candentis: et etiam niuis in sole per terram 
+      <lb ed="#A" n="54"/>resplendentis: quia albedo nimia disgregat 
+      vi<lb ed="#A" n="55" break="no"/>sum. Sicut claret in viatoribus per niues: quod 
+      <lb ed="#A" n="56"/>postea intrantes domum non bene vident. Unde 
+      <lb ed="#A" n="57"/>de talibus consulitur quod portent in manu viri¬ 
+      <!--435.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>dem ramum quem aspiclant crebrius. 
+      Simi<lb ed="#A" n="59" break="no"/>liter positi in carcere tenebroso habeant aliquid 
+      <lb ed="#A" n="60"/>ucidum vel album et crebro aspiciant Mystice. Ad 
+      <lb ed="#A" n="61"/>hec. Uisio dei et celestium fit non nisi intus suscipiem 
+      <lb ed="#A" n="62"/>do gratiam spiritus sancti in anim a que aliquando impeditur 
+      <lb ed="#A" n="63"/>per elationem in prosperis: aut deiectionem in aduersis 
+      <lb ed="#A" n="64"/>Aliquando tenebris peccatorum. Aliquando passionibus 
+      <lb ed="#A" n="65"/>ire: gule: ambitionis et huiusmodi. 
+      </p>
+               <p xml:id="Vn7Pel-h134158-d1e1151">
+                  <lb ed="#A" n="66"/>¶ De visus obiecuo scilicet de colore 
+      <lb ed="#A" n="67"/>vide vbi <ref xml:id="Vn7Pel-h134158-Rd1e1157">Obecta. §. iii.</ref> et sequentibus. 
+      </p>
+               <!-- Sensus 3-->
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1163">
+               <head xml:id="Vn7Pel-h134158-Hd1e1165">14</head>
+               <p xml:id="Vn7Pel-h134158-d1e1167">
+                  <lb ed="#A" n="68"/>Sensus. N. dicet co 
+      </p>
+               <p xml:id="Vn7Pel-h134158-d1e1172">
+                  <lb ed="#A" n="69"/>¶ c de auditu. Queritur quare sensus se 
+      <lb ed="#A" n="70"/>cundus ipse auditus. Respondetur 
+      <lb ed="#A" n="71"/>secundum <name xml:id="Vn7Pel-h134158-Nd1e1180">Alber</name>. Magnum cum <ref xml:id="Vn7Pel-h134158-Rd1e1182">Aristo. li. 
+      <lb ed="#A" n="72"/>de sensu et sensa.</ref> plures sunt ratioes.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1188">
+      ¶ Una est. quia 
+      <lb ed="#A" n="73"/>ad noticiam melior est visus eo quod multas ostendit 
+      <lb ed="#A" n="74"/>rerum differentias. Nam per visum deprehenditur quodcum 
+      <lb ed="#A" n="75"/>que corporale tam secundum qualitate scilicet coloris et lucis 
+      <lb ed="#A" n="76"/>que etiam secundum motum. Et secundum figuram et secundum 
+      quantita<lb ed="#A" n="77" break="no"/>tem. habitumque et situm vel locum. et sic dei aliis. Ideo 
+      <lb ed="#A" n="78"/>visus ponitur pro primo sensu. quia confert ad 
+      sap<lb ed="#A" n="79" break="no"/>entiam secundum se eo quod ostendit rerum similitudines secundum 
+      <lb ed="#A" n="80"/>se. Auditus autem confert ad sapientiam non secundum se sed per 
+      <lb ed="#A" n="81"/>accidens eo quod ostendit rerum similitudines non secundum 
+      <lb ed="#A" n="82"/>se. sed in signis id est nominibus que percipiuntur 
+      peran<lb ed="#A" n="83" break="no"/>ditum. et sunt signa omnium scilicet visibilium: odorabili 
+      <lb ed="#A" n="84"/>um: gustabilium atque tangibilium et intelligibilium 
+      <lb ed="#A" n="85"/>que tamen non percipiuntur visu. Unde per visum non 
+      <lb ed="#A" n="86"/>de omnibus scilicet quia non de intelligibilibus accipitur 
+      <lb ed="#A" n="87"/>doctrinaliter prudentia. Sed per auditum accipitur 
+      <lb ed="#A" n="88"/>de omnibus. Ideoque vt Axisto. vbi supra dicit. Ced 
+      <lb ed="#A" n="89"/>a natiuitate habentes auditum prudentiores sunt 
+      <lb ed="#A" n="90"/>urdis et mutis a natiuitate: habentibus tamen vt 
+      <lb ed="#A" n="91"/>sum ergo auditus est secundus sensus
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1232">
+      ¶ Secunda 
+      <lb ed="#A" n="92"/>ratio vel causa est. quia auditus post visum 
+      ha<lb ed="#A" n="93" break="no"/>bet situm in homine secundum. et homo est dignissimum 
+      <lb ed="#A" n="94"/>animalium
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1242">
+      ¶ Tertia ex ordine. v. sensuum est quibus 
+      <lb ed="#A" n="95"/>duo primi scilicet visus et auditus sunt ad disciplinam 
+      <lb ed="#A" n="96"/>etc. Et duo infimi ad salutem necessari scilicet gustus et 
+      <lb ed="#A" n="97"/>tactus. Tertio quoque odoratus communicat cum 
+      <lb ed="#A" n="98"/>vtrisque. ergo medium locum congrue tenet. et simi 
+      <lb ed="#A" n="99"/>liter primi primum etc.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1255">
+      ¶ Ad hec etiam vbi <ref xml:id="Vn7Pel-h134158-Rd1e1257">Auris 
+      <lb ed="#A" n="100"/>§. ii. et. iii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1264">
+               <head xml:id="Vn7Pel-h134158-Hd1e1266">15</head>
+               <p xml:id="Vn7Pel-h134158-d1e1268">
+                  <lb ed="#A" n="101"/>¶ Sed quare in homine deus 
+      au<lb ed="#A" n="102" break="no"/>ditus sensum posuit non ante in facie quinpotius 
+      <lb ed="#A" n="103"/>a latere vel retro.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1277">
+      ¶ Respondetur quod secundum e. <name xml:id="Vn7Pel-h134158-Nd1e1279">Albertum</name>
+                  <lb ed="#A" n="104"/>vna causa est. quia sensus alii magis necessari 
+      <lb ed="#A" n="105"/>obtinuerunt locum faciei ita quod congrue non potutt 
+      <lb ed="#A" n="106"/>auditus locari in facie. Hec est etiam ratio <name xml:id="Vn7Pel-h134158-Nd1e1287">Aui 
+      <lb ed="#A" n="107"/>cem.</name>
+               </p>
+               <p xml:id="Vn7Pel-h134158-d1e1293">
+      ¶ Alia ratio. et forte melior secundum e. Alber. qpla 
+      <lb ed="#A" n="108"/>auditus est sensus animalis perfecti ac moti secundum 
+      <lb ed="#A" n="109"/>motum processiuum qui est in ante. Si ergo 
+      au<lb ed="#A" n="110" break="no"/>ditus foramina essent ante in facie. tunc in 
+      mo<lb ed="#A" n="111" break="no"/>tu processiuo fieret continua inundatio aeris in fo¬ 
+      <!--436.xml-->
+      <pb ed="#A" n="437"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>raminibus auditus cuius inundationis sonitus 
+      <lb ed="#A" n="2"/>confunderet auditum aut destrueret cerebrum: Ideo 
+      <lb ed="#A" n="3"/>quae deus ordinauit naturam hominis habere 
+      au<lb ed="#A" n="4" break="no"/>ditum a latere vel retro sub ipsius capitis 
+      summi<lb ed="#A" n="5" break="no"/>tate vt ad ipsum non perueniat aer in medio processiuo 
+      <lb ed="#A" n="6"/>nisi prius diuisus a facie
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1324">
+      ¶ Tertia ratio est ex libro de 
+      <lb ed="#A" n="7"/>naturis rerum. quod ideo posuit deus et natura aures 
+      <lb ed="#A" n="8"/>in medio capitis rotundi: quoniam auditus audit non 
+      <lb ed="#A" n="9"/>solum recte contra se. sed et circumquaque: Sic etiam 
+      <lb ed="#A" n="10"/>spiritualiter homo debet audire circumquaque scilicet dei 
+      <lb ed="#A" n="11"/>precepta tanquam a supra. Ecclesie mandata tanquam ab 
+      <lb ed="#A" n="12"/>ante. Et retro se de praeteritis praesertim peccatis 
+      cla<lb ed="#A" n="13" break="no"/>mantem scripturam vt peniteat. Ac infra se de 
+      pe<lb ed="#A" n="14" break="no"/>nis inferni. et sic de aliis. Subditur supra e. libro de 
+      <lb ed="#A" n="15"/>naturis rerum. In posteriori quoque parte sunt 
+      au<lb ed="#A" n="16" break="no"/>res posite. quia pars illa capitis magis est aere 
+      <lb ed="#A" n="17"/>plena: nec adeo carnosa. In quo etiam docemur quod 
+      <lb ed="#A" n="18"/>non debemus audire carnalia turpia impudica etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1354">
+               <head xml:id="Vn7Pel-h134158-Hd1e1356">16</head>
+               <p xml:id="Vn7Pel-h134158-d1e1358">
+                  <lb ed="#A" n="19"/>¶ Quid sit organum sensus 
+      Audi<lb ed="#A" n="20" break="no"/>tus. Dicendum secundum Alber. Magnum cum Auicen. 
+      <lb ed="#A" n="21"/>de animalibus. et Hali aliosque philosophos quod neruus 
+      au<lb ed="#A" n="22" break="no"/>dibilis qui vocatur posticus ipse est organum 
+      au<lb ed="#A" n="23" break="no"/>ditus. Iste neruus ab anteriori parte medulle 
+      ce<lb ed="#A" n="24" break="no"/>rebri tendit ad telam auricularem que tympanum 
+      <lb ed="#A" n="25"/>dicitur et in ea dispergitur. Et est par neruorum 
+      <lb ed="#A" n="26"/>qui oriuntur ex prora cerebri et ad duo perueniunt 
+      <lb ed="#A" n="27"/>aurium foramina que sunt in duobus lapideis 
+      <lb ed="#A" n="28"/>ossibus capitis. vt autem eorum quisque peruenit 
+      <lb ed="#A" n="29"/>ad foramen dilatatur et foramen operit. Et hoc 
+      <lb ed="#A" n="30"/>operimentum precipuum est auditus organum 
+      cu<lb ed="#A" n="31" break="no"/>ius operimenti natura acrea est. et habet aerem 
+      <lb ed="#A" n="32"/>intlusum. 
+      </p>
+               <p xml:id="Vn7Pel-h134158-d1e1391">
+                  <lb ed="#A" n="33"/>¶ De auditum sonorum plura 
+      haben<lb ed="#A" n="34" break="no"/>tur vbi <ref xml:id="Vn7Pel-h134158-Rd1e1397">Obiecta. §. x.</ref> et sequentibus. 
+      </p>
+               <!-- Sensus 4-->
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1404">
+               <head xml:id="Vn7Pel-h134158-Hd1e1406">17</head>
+               <p xml:id="Vn7Pel-h134158-d1e1408">
+                  <lb ed="#A" n="35"/>Sensus. i 
+      capi<lb ed="#A" n="36" break="no"/>tulo. scilicet de olfatu. In quali 
+      orga<lb ed="#A" n="37" break="no"/>no habet esse sensus olfatus. 
+      No<lb ed="#A" n="38" break="no"/>tandum secundum Auicen. et Algazel. quod 
+      <lb ed="#A" n="39"/>olfatus fit per virtutem que est in duabus carium 
+      <lb ed="#A" n="40"/>culis anterioris partis cerebri que scilicet carumcule 
+      <lb ed="#A" n="41"/>sunt summitatibus vberum capree seu mammillarum 
+      <lb ed="#A" n="42"/>uasi parue carnes dependentes ad 
+      apprehende<lb ed="#A" n="43" break="no"/>dum illud quod offert aer attractus de odoribus 
+      <lb ed="#A" n="44"/>ac retinet eos. Et vt dicit <name xml:id="Vn7Pel-h134158-Nd1e1431">Guillermus de Conchis</name>
+                  <lb ed="#A" n="45"/>has carnunculas penetrat quidam neruus a 
+      ce<lb ed="#A" n="46" break="no"/>rebro exiens per quem spiritus odorem qui in 
+      <lb ed="#A" n="47"/>aere est: et ingreditur per nares vsque ad foramina 
+      <lb ed="#A" n="48"/>in se recipiens: cerebro per vaporem odoriferum 
+      <lb ed="#A" n="49"/>immutato: anime in logistica cellula illum 
+      repre<lb ed="#A" n="50" break="no"/>sentat
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1447">
+      ¶ De olfatu et odoribus plura vbi <ref xml:id="Vn7Pel-h134158-Rd1e1449">
+      Obie<lb ed="#A" n="51" break="no"/>cta § xvii</ref> et sequentibus. 
+      
+      </p>
+               <!-- Sensus 5-->
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1458">
+               <head xml:id="Vn7Pel-h134158-Hd1e1460">18</head>
+               <p xml:id="Vn7Pel-h134158-d1e1462">
+      <!--436.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>Sensus.  
+      uide<lb ed="#A" n="53" break="no"/>licet de gustu: vbi vel in quo orga 
+      <lb ed="#A" n="54"/>no habet esse et operari. Notandum 
+      <lb ed="#A" n="55"/>secundum <name xml:id="Vn7Pel-h134158-Nd1e1477">Albertum</name> magnum cum <name xml:id="Vn7Pel-h134158-Nd1e1479">Auicen</name>. 
+      <lb ed="#A" n="56"/>quod sensus gustus ordinatus est in neruo 
+      expas<lb ed="#A" n="57" break="no"/>so super corpus lingue ad comprehendendum 
+      <lb ed="#A" n="58"/>sapores resolutos ex corporibus contingentibus 
+      <lb ed="#A" n="59"/>ipsum cum permiscentur humori vnctuoso 
+      lingu<lb ed="#A" n="60" break="no"/>permutando etc. Sed dicit <name xml:id="Vn7Pel-h134158-Nd1e1492">Albertus</name> quod gustus secundum 
+      <lb ed="#A" n="61"/>veritatem non tantum est in lingua et neruo eius: sed 
+      <lb ed="#A" n="62"/>etiam est in neruis palati. Unde bene dicit <name xml:id="Vn7Pel-h134158-Nd1e1498">
+      Gre<lb ed="#A" n="63" break="no"/>gorius Nisenus</name>: quod organum gustus sunt 
+      lingua<lb ed="#A" n="64" break="no"/>et palatum: Tamen quia secundum sui optimum gustus 
+      <lb ed="#A" n="65"/>est in lingua vel in membro quod est loco lingue in 
+      <lb ed="#A" n="66"/>quibusdam animalibus carentibus lingua. vt in 
+      ci<lb ed="#A" n="67" break="no"/>coniis et aliquibus piscibus. Et quia ab optimo 
+      <lb ed="#A" n="68"/>sumitur descriptio: ideo Auicemn. describit gustum esse 
+      <lb ed="#A" n="69"/>in neruo lingue etc.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1517">
+      ¶ De gustum et ad eum 
+      perti<lb ed="#A" n="70" break="no"/>nentibus. scilicet saporibus plura habentur vbi <ref xml:id="Vn7Pel-h134158-Rd1e1521">Ob 
+      <lb ed="#A" n="71"/>iecta. §. xxvi.</ref> et sequentibus. ergo hic pertranseo. 
+      <lb ed="#A" n="72"/>Sed perpauca sufficiant hic posita. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1530">
+               <head xml:id="Vn7Pel-h134158-Hd1e1532">19</head>
+               <p xml:id="Vn7Pel-h134158-d1e1534">
+                  <lb ed="#A" n="73"/>¶ Sed quare deus bonus deditur 
+      <lb ed="#A" n="74"/>homini sensum gustus breuius delectabilem. 
+      <lb ed="#A" n="75"/>Nam secundum naturam vt dicit Aristoteles: inter alia 
+      <lb ed="#A" n="76"/>animalia dedit homini os paruum respectiue ad 
+      <lb ed="#A" n="77"/>corporis sui quantitatem: Ita quod lupus et leo et 
+      <lb ed="#A" n="78"/>huiusmodi: licet minoris sint corporis homine: 
+      <lb ed="#A" n="79"/>tamen ora habent maiora quam homo. Item vt 
+      Al<lb ed="#A" n="80" break="no"/>pertus magnus dicit et etiam Bernardu s libro de miseria 
+      <lb ed="#A" n="81"/>hominis. Deus et natura sic ordinauit quod in 
+      ho<lb ed="#A" n="82" break="no"/>mine delectatio quo ad gustum vix est 
+      latitudi<lb ed="#A" n="83" break="no"/>nis duorum digitorum in linguaet faucibus. Et 
+      hu<lb ed="#A" n="84" break="no"/>ius veritatem docet experientia.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1563">
+      ¶ Sed ad hec 
+      pa<lb ed="#A" n="85" break="no"/>tet satis responsio: quod deus fecit ex sua bonitate 
+      <lb ed="#A" n="86"/>Primo propter temperantiam commendandam. quia 
+      <lb ed="#A" n="87"/>omnes philosophi tenent quod virtus honestissima 
+      <lb ed="#A" n="88"/>est temperantia. Unde et Aristoteles. iii. Ethico. 
+      <lb ed="#A" n="89"/>reprobat quod Philoreus Exilius piscium inquit 
+      <lb ed="#A" n="90"/>et pulmenti vorator existens: orabat iouem vt 
+      <lb ed="#A" n="91"/>dum comederet fieret guttur eius longius sicut 
+      <lb ed="#A" n="92"/>gruis: vt sic longius delectaretur in gustu. 
+      Secun<lb ed="#A" n="93" break="no"/>do voluit hoc deus ex bonitate propter vitam 
+      no<lb ed="#A" n="94" break="no"/>stram prolongandum: quia qui abstinens est 
+      ad<lb ed="#A" n="95" break="no"/>iiciet vitam: Et propter crapulam multi perierunt. 
+      <lb ed="#A" n="96"/>Ecci. xxxvii. Tertio propter vitandum ab homine 
+      mul<lb ed="#A" n="97" break="no"/>tiplicem turpitudine ex gula prouenientem que a 
+      <lb ed="#A" n="98"/>seruitio dei impedit hominem vel desidem reddit: 
+      <lb ed="#A" n="99"/>ac propter morbos accidentes ex ingluuie 
+      cauen<lb ed="#A" n="100" break="no"/>dos.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1600">
+      ¶ Nam aliis multis pertransitis: ex gula 
+      pro<lb ed="#A" n="101" break="no"/>uenit
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1605">
+      ¶ Primo sepius ructatus fetidus et 
+      fumo<lb ed="#A" n="102" break="no"/>sus ad propulsandas superfluitates ventosas in 
+      <lb ed="#A" n="103"/>stomacho inclusas: que inflarent stomachum 
+      pes<lb ed="#A" n="104" break="no"/>sime et ventositates generarent immorando secundum 
+      Ha<lb ed="#A" n="105" break="no"/>li
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1617">
+      ¶ Secundo rugitus siue gurgulatio: quando 
+      <lb ed="#A" n="106"/>stomachus non tam validi caloris est vt cibos 
+      di<lb ed="#A" n="107" break="no"/>gerat ac ventositates dissipet: nec adeo frigidus 
+      <!--437.xml-->
+      <pb ed="#A" n="438"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quin cibum aliquo modo immutet. Tertio 
+      sin<lb ed="#A" n="2" break="no"/>gultus de quo vbi <ref xml:id="Vn7Pel-h134158-Rd1e1634">Sanitas. §. xiii.</ref> dictum est. 
+      <lb ed="#A" n="3"/>Quarto sternutatio que secundum Hypocratem lib. 
+      <lb ed="#A" n="4"/>aforismorum fit a capite ex calefacto cerebro aut 
+      <lb ed="#A" n="5"/>humectato quod est in capite vacuo dum aer in 
+      <lb ed="#A" n="6"/>tus existens foras effunditur. Sonat autem. quia 
+      <lb ed="#A" n="7"/>per angustum fit ei exitus et nascitur de diuersis 
+      <lb ed="#A" n="8"/>humoribus. vt dicit Isaac. vnde Grego. super Iobis 
+      <lb ed="#A" n="9"/>dicit. in sternutatione inflatio a pectore consurgit 
+      <lb ed="#A" n="10"/>que cum apertos ad exeundum poros non 
+      inue<lb ed="#A" n="11" break="no"/>nit: cerebrum tangit. Et congesta per nares eiiciens 
+      <lb ed="#A" n="12"/>totum caput protinus concutit. Sic mystice est de 
+      <lb ed="#A" n="13"/>malis conuiciantibus etc.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1661">
+      ¶ Quinto tussis secundum 
+      Hali<lb ed="#A" n="14" break="no"/>licet sit propria pulmoni sicut sternutatio cerebro. 
+      <lb ed="#A" n="15"/>vt dicit <name xml:id="Vn7Pel-h134158-Nd1e1667">Auicen</name>. etiam: tamen eodem modo fit exr 
+      <lb ed="#A" n="16"/>actione naturali corpus regente. Est enim motus 
+      <lb ed="#A" n="17"/>fortis ab expellenti virtute factus in 
+      instrumen<lb ed="#A" n="18" break="no"/>tis anhelitus per exitum aeris ad expellendum 
+      <lb ed="#A" n="19"/>superfluitates. scilicet pectoris et canalium 
+      pulmo<lb ed="#A" n="20" break="no"/>nis.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1681">
+      ¶ Sexto oscitatio que fit ex superfluitatibus 
+      <lb ed="#A" n="21"/>fumosis que concluduntur in maxillarum lacertis. 
+      vn<lb ed="#A" n="22" break="no"/>de quando quis videt aliquem oscitantem 
+      natu<lb ed="#A" n="23" break="no"/>ra prouocatur ad similia
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1690">
+      ¶ Septimo alationes vel 
+      ex<lb ed="#A" n="24" break="no"/>tensiones fiunt ex superfluitatibus vaporosis in 
+      la<lb ed="#A" n="25" break="no"/>certis totius corporis aut maiori parte. Et 
+      plu<lb ed="#A" n="26" break="no"/>ra alia ac infirmitates innumere fiunt ex gula. 
+      <lb ed="#A" n="27"/>ergo etc. vnde patet dei bonitas in omnibus laudabilis. 
+      </p>
+               <!-- Sensus 6-->
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1704">
+               <head xml:id="Vn7Pel-h134158-Hd1e1706">20</head>
+               <p xml:id="Vn7Pel-h134158-d1e1708">
+                  <lb ed="#A" n="28"/>Mnsus. . 1. Hilicet 
+      <lb ed="#A" n="29"/>de tactu. Quid sit diffinitiue. 
+      Respon<lb ed="#A" n="30" break="no"/>detur quod Algazel diffinit sic. 
+      Sen<lb ed="#A" n="31" break="no"/>sus tactus est vis diffusiua per 
+      o<lb ed="#A" n="32" break="no"/>mnem carnem et cutem scilicet in neruis a cerebro 
+      mis<lb ed="#A" n="33" break="no"/>sis per quam apprehenditur calor et frigiditas: 
+      hi<lb ed="#A" n="34" break="no"/>miditas et siccitas: duricies ac mollicies: 
+      asperi<lb ed="#A" n="35" break="no"/>tas et lenitas. grauitas et leuitas.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1728">
+      ¶ Si autem que 
+      <lb ed="#A" n="36"/>ratur. An tactus sit vnus sensus vel plures. 
+      Di<lb ed="#A" n="37" break="no"/>cit Alber. Magnus quod est sensus vnus in ratie 
+      <lb ed="#A" n="38"/>ne forme animalis secundum quod animal est. tamen est 
+      <lb ed="#A" n="39"/>plurium contrarietatum secundum opera specialia. Cum 
+      <lb ed="#A" n="40"/>enim tactus sit forma vel perfectio totius animalis 
+      <lb ed="#A" n="41"/>oportet ipsum esse non tantum in vno organo. sed in 
+      omni<lb ed="#A" n="42" break="no"/>bus partibus corporis. quia fundamentum est 
+      ali<lb ed="#A" n="43" break="no"/>orum omnium sensuum deo ordinante ad sui 
+      lau<lb ed="#A" n="44" break="no"/>dem hec sufficiant. Quia de tactu plura 
+      tracta<lb ed="#A" n="45" break="no"/>ta sunt vbi <ref xml:id="Vn7Pel-h134158-Rd1e1751">Obiecta. §. xxxi.</ref> et sequentibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1755">
+               <head xml:id="Vn7Pel-h134158-Hd1e1757">21</head>
+               <p xml:id="Vn7Pel-h134158-d1e1759">
+                  <lb ed="#A" n="46"/>¶ Gratia predictorum querenda 
+      re<lb ed="#A" n="47" break="no"/>stant aliqua dubia
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1766">
+      ¶ Primum Quomodo 
+      spi<lb ed="#A" n="48" break="no"/>ritus vitales se habeant ad organa praedictarum 
+      po<lb ed="#A" n="49" break="no"/>centiarum sensitiuarum vel virtutum. Respondetur secundum 
+      <lb ed="#A" n="50"/>
+                  <ref xml:id="Vn7Pel-h134158-Rd1e1774">Scotorlis. in. ii dist. viii. q. ii arti. ii</ref> cum 
+      Constan<lb ed="#A" n="51" break="no"/>tino lib. de differentia spiritus et anime. Quod spiritus 
+      <lb ed="#A" n="52"/>existens in organo praedictarum virtutum non sunt 
+      cor<lb ed="#A" n="53" break="no"/>pora continua cum illis organis sed contigua. Sicut 
+      <lb ed="#A" n="54"/>etiam patet per sententiam Aristo. dicit quod primo 
+      gene<lb ed="#A" n="55" break="no"/>ratio spiritum est in corde. Deinde transmittuntur a 
+      <!--437.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>corde ad cerebrum transeundo per duram matrem. 
+      <lb ed="#A" n="57"/>quod non esset verum si essent corpora continua cum 
+      <lb ed="#A" n="58"/>organis. Dico etiam (inquit Scotor. quod sunt 
+      inl<lb ed="#A" n="59" break="no"/>lis organis sicut in locis quibus scilicet in locis 
+      con<lb ed="#A" n="60" break="no"/>seruantur.
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1803">
+      ¶ Ad hec vbi Uegetabile. §. ii 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1806">
+               <head xml:id="Vn7Pel-h134158-Hd1e1808">22</head>
+               <p xml:id="Vn7Pel-h134158-d1e1810">
+                  <lb ed="#A" n="61"/>Secundo quo iidem spiritus vitales 
+      <lb ed="#A" n="62"/>se habeant ad potentias vel virtutes: Respon. 
+      <lb ed="#A" n="63"/>det ibidem Scotor. quod potentie secundum id quod sunt: non 
+      <lb ed="#A" n="64"/>sunt forme spirituum: sed organorum: quia non est 
+      <lb ed="#A" n="65"/>intelligibile quod vnum et idem sit per se forma 
+      duo<lb ed="#A" n="66" break="no"/>rum discontinuorum. sed organa et spiritus sunt 
+      discon<lb ed="#A" n="67" break="no"/>cinua. Cum ergo virtutes seu potentie sint forme 
+      <lb ed="#A" n="68"/>organorum. puta virtus visiua est forma et 
+      perfe<lb ed="#A" n="69" break="no"/>ctio oculorum. ergo non possunt esse forme 
+      spi<lb ed="#A" n="70" break="no"/>rituum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h134158-Dd1e1836">
+               <head xml:id="Vn7Pel-h134158-Hd1e1838">23</head>
+               <p xml:id="Vn7Pel-h134158-d1e1840">
+                  <lb ed="#A" n="71"/>¶ Tertio quomodo sensibilium 
+      <lb ed="#A" n="72"/>similitudines seu species se habent ad spiritus 
+      Re<lb ed="#A" n="73" break="no"/>spondet idem Scotor. supra quod similitudines 
+      sensi<lb ed="#A" n="74" break="no"/>bilium alio modo se habent ad organa: et alio 
+      mo<lb ed="#A" n="75" break="no"/>do ad ipsos spiritus. In organis enim se habent sicut 
+      <lb ed="#A" n="76"/>color ad ipsum corpus coloratum. quia sicut 
+      cor<lb ed="#A" n="77" break="no"/>pus coloratum informatur colore: it a organa 
+      in<lb ed="#A" n="78" break="no"/>formantur illis similitudinibus. Ad spiritus autem se 
+      ha<lb ed="#A" n="79" break="no"/>bent iste similitudines: sicut species coloris ad 
+      <lb ed="#A" n="80"/>aerem. quia sicut cessante corpore colorato: cessat 
+      <lb ed="#A" n="81"/>species que erat in aere. Ita cessante specie que est 
+      <lb ed="#A" n="82"/>in organo: cessat similitudo que est in spiritu
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1869">
+      ¶ Het 
+      <lb ed="#A" n="83"/>sufficiant hic breviata
+     </p>
+               <p xml:id="Vn7Pel-h134158-d1e1874">
+      ¶ Laudetur deus conditor 
+      <lb ed="#A" n="84"/>omnium. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

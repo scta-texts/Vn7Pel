@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liberum arbitrium</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liberum arbitrium</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="294"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h90227">
+            <head xml:id="Vn7Pel-h90227-Hd1e110">Liberum arbitrium</head>
+            <div xml:id="Vn7Pel-h90227-Dd1e112">
+               <head xml:id="Vn7Pel-h90227-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h90227-d1e116">
+                  <lb ed="#A" n="8"/>¶ Iberuarbitrium. 
+      <lb ed="#A" n="9"/>De hoc Queritur quid sit liberum arbitrium 
+      <lb ed="#A" n="10"/>ai Diffinitiue: Respondetur secundum Guil. Sco 
+      <lb ed="#A" n="11"/>tist. cum Augustino. et tangitur. ii liro sen. di. xxiiii. quod libe 
+      <lb ed="#A" n="12"/>rum arbitrium est facultas voluntatis et rationis qua 
+      assi<lb ed="#A" n="13" break="no"/>stente gratia bonum eligitur: et malum eadem desistente. In 
+      <lb ed="#A" n="14"/>hac diffinitione tria tanguntur: vt dictat idem Guill. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e134">
+                  <lb ed="#A" n="15"/>¶ Primo dicitur facultas id est facilitas. In quo notatur quod 
+      li<lb ed="#A" n="16" break="no"/>berumarbitrium nequit cogi: sed faciliter agit. Secundo 
+      <lb ed="#A" n="17"/>dicitur: voluntatis et rationis. vnde non est imaginandum quod 
+      li<lb ed="#A" n="18" break="no"/>berum arbitrium sit quaedam potentia distincta ab 
+      intel<lb ed="#A" n="19" break="no"/>lectu et voluntate: sicut quidam suspicantur. sed solum nominat 
+      <lb ed="#A" n="20"/>illam facilitatem ambarum potentiarum in opere suo scilicet vo 
+      <lb ed="#A" n="21"/>luntatis in eligendo: ideo dicitur liberum. et rationis in 
+      iudi<lb ed="#A" n="22" break="no"/>cando: ideo dicitur arbitrium. Unde sic arbiter inter 
+      du<lb ed="#A" n="23" break="no"/>os viros iudicat: sic liberum arbitrium inter bonum 
+      <lb ed="#A" n="24"/>et malum: quid sit honum: et quid sit malum etc. Tertio 
+      <lb ed="#A" n="25"/>dicitur in diffinitione: qua gratia assistente eligitur bonum etc. 
+      <lb ed="#A" n="26"/>Et in hoc coartatur liberumarbitrium ad standum solum 
+      <lb ed="#A" n="27"/>pro nobis. Unde Nota secundum Bonauen. in. ii di. xxv. per 
+      <lb ed="#A" n="28"/>ii. q. i. quod liberum arbitrium de se tria notat. Primo 
+      li<lb ed="#A" n="29" break="no"/>bertate a coactione. Secundo dignitatem. quia libertas est 
+      <lb ed="#A" n="30"/>donum magnum a deo nobis inditum: qua etiam bruta 
+      <lb ed="#A" n="31"/>praeeligunt quibuscumque delitiis. Nam et aues capte 
+      <lb ed="#A" n="32"/>quantumcumque delitiose alantur: liberate mox euolant 
+      <lb ed="#A" n="33"/>amore libertatis. Ideo poeta dicit. Non bene pro toto 
+      <lb ed="#A" n="34"/>libertas venditur auro. Tertio liberum arbitrium dicit 
+      fa<lb ed="#A" n="35" break="no"/>cultatem. quia habet se actiue in suis actibus: licet et 
+      pas<lb ed="#A" n="36" break="no"/>siue in recipiendo
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e184">
+      ¶ Ex praedictis patent tria documen 
+      <lb ed="#A" n="37"/>ta.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e189">
+      ¶ Primum: quod supradicta diffinitio liberiarbi 
+      <lb ed="#A" n="38"/>trii data a magistro non conuenit liberoarbitrio 
+      diui<lb ed="#A" n="39" break="no"/>no. quia illud de se tendit semper in bonum. sed competit lib 
+      <lb ed="#A" n="40"/>arb. nostro. Quapropter alia est diffinitio quam 
+      da<lb ed="#A" n="41" break="no"/>Anss. d. Liberum arbitrium est potestas seruandi 
+      rectitudi<lb ed="#A" n="42" break="no"/>nem propter se. Et ista diffinitio competit libro ar. et diuino 
+      <lb ed="#A" n="43"/>et nostro.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e206">
+      ¶ Secundum documentum est: quod liberum 
+      <lb ed="#A" n="44"/>arbitrium principaliter nominat voluntatem: cuius actus est elt 
+      <lb ed="#A" n="45"/>gere. Accipitur autem electio vt se habet ad finem: et ea 
+      <lb ed="#A" n="46"/>quae sunt ad finem situati: dum in primo Eth. Philosophus 
+      no<lb ed="#A" n="47" break="no"/>minat felicitatem eligibilem. Itaque liberumarbitrium sic 
+      <lb ed="#A" n="48"/>denominatur liberum ratione voluntatis: que est libera per 
+      <lb ed="#A" n="49"/>essentiam a qua cetere potentie sunt libere per participa 
+      <lb ed="#A" n="50"/>tionem. Denominatur quoqe etiam arbitrium ratione intellectus in 
+      <lb ed="#A" n="51"/>iudicando
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e226">
+      ¶ Tertium documentum: quod natura 
+      liberi<lb ed="#A" n="52" break="no"/>arbitrii inest primo et perfectissime ipsi deo quia inest 
+      <!--293.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="53"/>a se. secundo angelis. tertio hominibus: et vtrisque a deo. 
+      <lb ed="#A" n="54"/>Heco omnia Guill.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e239">
+      ¶ Ad hec autem videlicet in homibus 
+      <lb ed="#A" n="55"/>Quomodo liberumarbitrium complectitur simul ratione et 
+      intel<lb ed="#A" n="56" break="no"/>lectum: Bonauen. supra dist. xxv. q. iii. dat clarum Exemplum 
+      <lb ed="#A" n="57"/>quod sicut ex concursu virtutis manus et oculi resultat 
+      <lb ed="#A" n="58"/>vna potestas scribendi ad quod alterum sine alio non 
+      suffi<lb ed="#A" n="59" break="no"/>ceret: sic ex concursu voluntatis et rationis resultat 
+      quae<lb ed="#A" n="60" break="no"/>dam libera potestas ad aliquid faciendum etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e256">
+               <head xml:id="Vn7Pel-h90227-Hd1e258">2</head>
+               <p xml:id="Vn7Pel-h90227-d1e260">
+                  <lb ed="#A" n="61"/>¶ Utrum in deo sit libeprarbitrium. 
+      <lb ed="#A" n="62"/>Arguitur quod non. quia actus liberiarbitrii est eligere. 
+      <lb ed="#A" n="63"/>Sed in deo non est electio. quia ex. iii. Eth. Electio 
+      <lb ed="#A" n="64"/>sequitur consilium. Consilium autem est cum quodam discur¬s 
+      <lb ed="#A" n="65"/>su rationis inquisitio. Et hoc non competit deo. ergo sicut 
+      <lb ed="#A" n="66"/>deus non consiliatur: ita nec liberum arbitrium habet. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e276">
+                  <lb ed="#A" n="67"/>¶ Confirmatur per Damasc. li. ii. c. xxi. dc. Oportet enim 
+      <lb ed="#A" n="68"/>stire quoniam voluntatem in deo dicimus: Electionem 
+      auten<lb ed="#A" n="69" break="no"/>principaliter non dicimus. quia deus non consiliatur.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e285">
+      ¶ In 
+      <lb ed="#A" n="70"/>oppositum est. quia Magister in. ii libro di. xxv. dicit: quod liberum 
+      <lb ed="#A" n="71"/>arbitrium est in deo. Et ratio. quia deus libera 
+      volun<lb ed="#A" n="72" break="no"/>te facit quicquid vult. Et omnem effectum quem fecit vel 
+      <lb ed="#A" n="73"/>facit potuit non facere. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e296">
+      ¶ Respondetur secundum 
+      Sco<lb ed="#A" n="74" break="no"/>torlis. in. ii di. xxv. q. i. cum Rich. ibidem. art. i. q. i. 
+      con<lb ed="#A" n="75" break="no"/>cor. Tho. quod videlicet liberum arbitrium potest accipi dupliciter 
+      <lb ed="#A" n="76"/>Primo modo inquantum liberum praecise. Secundo inquantum 
+      <lb ed="#A" n="77"/>habet virtibilitatem annexa. Et sic ponuntur 
+      Conclu<lb ed="#A" n="78" break="no"/>siones
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e310">
+      ¶ Prima. In deo est liberuarbitrium 
+      inquan<lb ed="#A" n="79" break="no"/>tum praecise liberum. Probatio. quia quicquid est 
+      pere<lb ed="#A" n="80" break="no"/>ctionis in creaturis: id eminentissime ponendum est in 
+      <lb ed="#A" n="81"/>deo. Sed lir. ar. est simpliciter perfectionis in creaturis: 
+      <lb ed="#A" n="82"/>quia melius est ipsum habere quam non ipsum. ergo habetur propositum 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e321">
+                  <lb ed="#A" n="83"/>¶ Si obiiciatur. Deus ex nature sue condicione semper 
+      <lb ed="#A" n="84"/>vult determinate bonum: et non potest velle malum 
+      cul<lb ed="#A" n="85" break="no"/>pe inquentum huiusmodi. ergo non est liberum arbitrium ad 
+      vtram<lb ed="#A" n="86" break="no"/>que partem in deo. sed per naturam suam est 
+      determi<lb ed="#A" n="87" break="no"/>nata voluntas in deo ad vnam partem scilicet in bonum 
+      so<lb ed="#A" n="88" break="no"/>lum. sicut leue: puta ignis per naturam: non libero 
+      <lb ed="#A" n="89"/>arbitrio: tendit semper sursum. et grauis lapis de 
+      <lb ed="#A" n="90"/>orsum etc
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e341">
+      ¶ Respondetur quod sicut etiam Augustinus. xxi. de 
+      ci<lb ed="#A" n="91" break="no"/>ui. dei dicit: quamuis deus peccare non potest: non tamen ideo 
+      <lb ed="#A" n="92"/>negandus est liberuarbitrium habere. quia peccare 
+      <lb ed="#A" n="93"/>posse vel velle malum pertinet ad defectum. Nam 
+      vo<lb ed="#A" n="94" break="no"/>luntatis obiectum non est nisi bonum scilicet vel existens vel 
+      ap<lb ed="#A" n="95" break="no"/>parens: secundum Aristot. iii. Eth. Non ergo voluntas tendit 
+      <lb ed="#A" n="96"/>in malum nisi propter aliquem defectum. Ideo posse vel 
+      <lb ed="#A" n="97"/>le malum: non est posse: nec libertatis: vt patuit in 
+      pri<lb ed="#A" n="98" break="no"/>mo libro. Unde determinatio ad bonu per naturam: 
+      <lb ed="#A" n="99"/>non repugnat libertati: imo concordat. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e363">
+                  <lb ed="#A" n="100"/>¶ Secunda conclusio: quod in deo libermarbitrium non est 
+      virti<lb ed="#A" n="101" break="no"/>bile: sed omnino immutabile. Probatio. quia 
+      virtibi<lb ed="#A" n="102" break="no"/>litas liberiarbitrii per naturam est propter 
+      defectibili<lb ed="#A" n="103" break="no"/>tatem quae est in creatura: ideo. quia est de nihilo. Sed 
+      <lb ed="#A" n="104"/>deus non est ex nihilo: ideo propter summam eius 
+      perfe<lb ed="#A" n="105" break="no"/>ctionem et cognitionis et libertatis: liberum arbitrium 
+      <lb ed="#A" n="106"/>in deo non potest esse virtibile sicut nec defectibile. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e381">
+                  <lb ed="#A" n="107"/>¶ Tertia Conclusio additur ex Richar. propter 
+      obie<lb ed="#A" n="108" break="no"/>cta. videlicet quod Electio seu Eligere bene ponitur in deo 
+      <lb ed="#A" n="109"/>secundum id quod est perfectionis: remouendo omce illud 
+      <!--294.xml-->
+      <pb ed="#A" n="295"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod est imperfectionis. Nam Diony. de diui. non hanc 
+      <lb ed="#A" n="2"/>regulam generalem dat. quod deo omnia quae sunt perfecti 
+      <lb ed="#A" n="3"/>onis sunt attribuenda remota imperfectione. Et 
+      <lb ed="#A" n="4"/>quoniam electio habet inquirere per consi lia tionem in nobis 
+      iuxta<lb ed="#A" n="5" break="no"/>philosophum. iii. Eth. Et hoc est imperfectionis. puta 
+      ignoran<lb ed="#A" n="6" break="no"/>tie. et discursus rationis propter incertitudinem. eo quod nuls 
+      <lb ed="#A" n="7"/>lus consiliatur de tali quod vel quale: certudinaliter 
+      cogno<lb ed="#A" n="8" break="no"/>scit. Ideoque huiusmodi imperfectio in electione remouetur quod 
+      <lb ed="#A" n="9"/>deo. Et non dicimus in deo huiusmodi electionem per consilii 
+      <lb ed="#A" n="10"/>inuestigationem. vt dicit Damascen. Item electio 
+      <lb ed="#A" n="11"/>habet aliud quod est perfectionis. scilicet recte iudicare. 
+      <lb ed="#A" n="12"/>infallibiliter semper et eligere voluntate iustissima per 
+      <lb ed="#A" n="13"/>omnia. Et hoc est perfectionis Ideo ponitis in deo emi 
+      <lb ed="#A" n="14"/>nentissime: sine omni imperfectione. ita quod deus sine 
+      omni<lb ed="#A" n="15" break="no"/>inquisitione: determinato actu semper in bonum et a 
+      <lb ed="#A" n="16"/>seipo non ab alio infallibiliter recte iudicat et 
+      vo<lb ed="#A" n="17" break="no"/>luntas eius rectissime eligit omnia quae eligit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e434">
+               <head xml:id="Vn7Pel-h90227-Hd1e436">3</head>
+               <p xml:id="Vn7Pel-h90227-d1e438">
+                  <lb ed="#A" n="18"/>¶ An in beatis aliqualis electioe sit 
+      <lb ed="#A" n="19"/>per liberum arbitrium: Respondetur secundum Tho. in scripto. ii ea 
+      <lb ed="#A" n="20"/>dem dist. xxv. q. i. quod in beatis est sempiterna et 
+      li<lb ed="#A" n="21" break="no"/>bera electio eorum respectu videlicet quae ipsi fini vltimo id est 
+      <lb ed="#A" n="22"/>deo coniungunt. vt est videre: amare deum et tenere. et 
+      <lb ed="#A" n="23"/>huiusmodi. ergo habent liberum arbitrium: quamuis non sit in beatis 
+      <lb ed="#A" n="24"/>electio respectu imperfectionum quae a fide distant. vt 
+      <lb ed="#A" n="25"/>sunt Fides Spes et huiusmodi. Ratio. quia electio talium 
+      <lb ed="#A" n="26"/>quae sunt ad finem: iam adepto fine cessat. Electio 
+      au<lb ed="#A" n="27" break="no"/>tem et consilium est corum quae sunt ad finem. ex. iii. Ethico. 
+      <lb ed="#A" n="28"/>Et quia beati iam sunt adepti vltimum finem: ideo in talibus 
+      <lb ed="#A" n="29"/>non habent electionem. sed solum in illis quae sunt in 
+      vl<lb ed="#A" n="30" break="no"/>timo fine coniunctionis. vt iam praedictum est
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e469">
+      ¶ Si au 
+      <lb ed="#A" n="31"/>tem quaeratur An liberum arbitrium remaneat in damnatis 
+      <lb ed="#A" n="32"/>et heatis angelis et animabus Dicendum secundum Guil 
+      <lb ed="#A" n="33"/>lermum quod Sic. sed in damnatis deprauatur per cul 
+      <lb ed="#A" n="34"/>pam. vt iam nunquam valeant bene operari. et in 
+      bea<lb ed="#A" n="35" break="no"/>tis decoratur per gloriam vt nequeant demereri. 
+      <lb ed="#A" n="36"/>Et sic liberum arbitrium secundum essentiam manet in 
+      <lb ed="#A" n="37"/>vtrisque Sed in damnatis cum sit malo 
+      immer<lb ed="#A" n="38" break="no"/>sum totaliter. non nisi large capiendo liberum dici 
+      po<lb ed="#A" n="39" break="no"/>test. inquantum ex electione volunt damnati 
+      semper<lb ed="#A" n="40" break="no"/>malum etc.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e493">
+      ¶ Ad idem vide <ref xml:id="Vn7Pel-h90227-Rd1e495">infra. §. ix. et.x. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e499">
+               <head xml:id="Vn7Pel-h90227-Hd1e501">4</head>
+               <p xml:id="Vn7Pel-h90227-d1e503">
+                  <lb ed="#A" n="41"/>¶ Sed an liberuarbitrium 
+      vniuo<lb ed="#A" n="42" break="no"/>ce sit in deo et creaturis. dicit <ref xml:id="Vn7Pel-h90227-Rd1e509">Guil. eadem dist. xxv</ref>
+                  <lb ed="#A" n="43"/>quod sic. prout etiam innuit Ansis. alias argumentum 
+      su<lb ed="#A" n="44" break="no"/>um non valeret. Arguit enim libro de libero arbi. quod 
+      <lb ed="#A" n="45"/>posse peccare non est pars libertatis. quia tunc inquit 
+      <lb ed="#A" n="46"/>liberum arbitrium non esset in deo et nobis hominibus 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e521">
+                  <lb ed="#A" n="47"/>¶ Si dicat quis Liberum arbitrium in deo est 
+      sub<lb ed="#A" n="48" break="no"/>stantia. sed in nobis est qualitas. ergo non vniuo 
+      <lb ed="#A" n="49"/>ce est in deo et in nobis. Ad hoc Respondet idem Guil 
+      <lb ed="#A" n="50"/>lermus quod Thomiste sic dicerent. quia Tho. ponit 
+      <lb ed="#A" n="51"/>potentias anime esse accidentia fluentia ab 
+      ani<lb ed="#A" n="52" break="no"/>ma. Sed hoc non est tenendum. vt patuit vbi <ref xml:id="Vn7Pel-h90227-Rd1e536">Ani 
+      <lb ed="#A" n="53"/>ma. §. liii.</ref> Capropter dicendum inquit. quod liberum 
+      ar<lb ed="#A" n="54" break="no"/>bitrium in nobis quo ad principale scilicet 
+      intelle<lb ed="#A" n="55" break="no"/>ctum et voluntatem. nominat substantiam. Quo 
+      <lb ed="#A" n="56"/>ad illam autem facultatem que dicit ordinem 
+      ex<lb ed="#A" n="57" break="no"/>eundi in actum nominare videtur respectum. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e550">
+      <!--294.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ NAn aut lberarbitrum in nobis sit habitus 
+      <lb ed="#A" n="59"/>Idem Guill. dicit per conclusionem quod non. Probatio 
+      <lb ed="#A" n="60"/>quia in nobis est ponere potentiam et eius habitum semper 
+      <lb ed="#A" n="61"/>inclinantem in bonum. videlicet synderesim. et secundo 
+      poten<lb ed="#A" n="62" break="no"/>tiam quantum ex se est semper inclinantem in malum. videlicet 
+      sen<lb ed="#A" n="63" break="no"/>sualitatem. Ideo tertio est ponere potentiam 
+      indiffe<lb ed="#A" n="64" break="no"/>rentem hinc et inde. Et hanc potentiam inquitt dico 
+      Li<lb ed="#A" n="65" break="no"/>berum arbitrium.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e574">
+      ¶ Si dicatur. Erit sic idem quod 
+      volun<lb ed="#A" n="66" break="no"/>tas. Dicendum inquit quod voluntas non dicit ita 
+      comple<lb ed="#A" n="67" break="no"/>te ea que dicit liberum arbitrium quod ponit intellectum 
+      <lb ed="#A" n="68"/>siue rationem quae est pauia voluntati. ergo differunt. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e585">
+               <head xml:id="Vn7Pel-h90227-Hd1e587">5</head>
+               <p xml:id="Vn7Pel-h90227-d1e589">
+                  <lb ed="#A" n="69"/>¶ Quem ergo locum tenet 
+      libe<lb ed="#A" n="70" break="no"/>rumarbitrium in ordine potentiarum anime: <ref xml:id="Vn7Pel-h90227-Rd1e595">Guill. e. di. 
+      <lb ed="#A" n="71"/>xxv.</ref> Respondet: quod liberum arbitrium proprie et praecise non 
+      no<lb ed="#A" n="72" break="no"/>minat potentiam: sed facultatem duarum nobilissima 
+      <lb ed="#A" n="73"/>rum potentiarum. videlicet intellectus et voluntatis: vt in 
+      praece<lb ed="#A" n="74" break="no"/>dentibus dictum est. Et sic patet quod portio superior 
+      ra<lb ed="#A" n="75" break="no"/>tionis et inferior in plus se habent quam liberum arbitrium 
+      <lb ed="#A" n="76"/>quia portio vtraque nominat tres partes imaginis. scilicet 
+      me<lb ed="#A" n="77" break="no"/>moriam: intellectum: et voluntatem. Sed liberum 
+      arbitri<lb ed="#A" n="78" break="no"/>um solum nominat duas scilicet intellectum et voluntatem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e617">
+               <head xml:id="Vn7Pel-h90227-Hd1e619">6</head>
+               <p xml:id="Vn7Pel-h90227-d1e621">
+                  <lb ed="#A" n="79"/>¶ Sed Qualiter liberrarbitrium 
+      <lb ed="#A" n="80"/>differt a synderesi: Dicendum secundum e. <ref xml:id="Vn7Pel-h90227-Rd1e627">Guill. e. di. xxv.</ref>
+                  <lb ed="#A" n="81"/>quod tripliciter. Primo quia synderesis tendit in bonum 
+      <lb ed="#A" n="82"/>naturaliter. sed liberum arbitrium libere. Secundo quia synde 
+      <lb ed="#A" n="83"/>deresis nominat habium principiorum in agendis vel 
+      ve<lb ed="#A" n="84" break="no"/>tandis. Sed liberum arbitrium est respectu et 
+      principi<lb ed="#A" n="85" break="no"/>orum et conclusionum. Tertio. quia synderesis proprie non 
+      <lb ed="#A" n="86"/>nominat duas potentias: sed magis scintillas intelle 
+      <lb ed="#A" n="87"/>ctus cum illis principiis agendorum scilicet quod deo est 
+      obedi<lb ed="#A" n="88" break="no"/>endum etc. vel nullum malum est faciendum. Liberum 
+      arbi<lb ed="#A" n="89" break="no"/>trium autem nominat duas potentias scilicet tellcntm et voluntatem 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e651">
+               <head xml:id="Vn7Pel-h90227-Hd1e653">7</head>
+               <p xml:id="Vn7Pel-h90227-d1e655">
+                  <lb ed="#A" n="90"/>¶ Qualiter liberarbitrium 
+      dif<lb ed="#A" n="91" break="no"/>fert a conscientia: Respondetur secundum e. <ref xml:id="Vn7Pel-h90227-Rd1e661">Guill. e. dist. xxv.</ref> quod 
+      <lb ed="#A" n="92"/>tripliciter. Primo. quia conscientia solum est respectu 
+      conclusio<lb ed="#A" n="93" break="no"/>num a synderesi inferendorum: vt dicetur vbi Syndere 
+      <lb ed="#A" n="94"/>sis. Sed liberum arbitrium est tam conclusionum quam 
+      principi<lb ed="#A" n="95" break="no"/>orum. Secundo. quia conscientia magis nominat actu. sed libe 
+      <lb ed="#A" n="96"/>rumarbitrium potentiam. Tertio. quia conscientia cum dolore 
+      se<lb ed="#A" n="97" break="no"/>pius formatur. sed non sic liberarbitrium
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e677">
+      ¶ Item 
+      Qua<lb ed="#A" n="98" break="no"/>liter liberum arbitrium differt a lege naturali: Respondet 
+      <lb ed="#A" n="99"/>ibidem Guill. quod differt in hoc quod lex naturalis est 
+      ha<lb ed="#A" n="100" break="no"/>bitus. sed non sic est de liberoarbitrio: vt dictum est 
+      <lb ed="#A" n="101"/>in praecedentibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e689">
+               <head xml:id="Vn7Pel-h90227-Hd1e691">8</head>
+               <p xml:id="Vn7Pel-h90227-d1e693">
+                  <lb ed="#A" n="102"/>¶ Utrum liberuarbitrium sit 
+      natu<lb ed="#A" n="103" break="no"/>re solius intellectualis: An etiam sit in brutis 
+      Responde<lb ed="#A" n="104" break="no"/>tur secundum <ref xml:id="Vn7Pel-h90227-Rd1e701">Guill. e. di. xxv.</ref> et <ref xml:id="Vn7Pel-h90227-Rd1e703">Bonaue. e. di. ar. i. q.cilic.</ref>
+                  <lb ed="#A" n="105"/>ac <ref xml:id="Vn7Pel-h90227-Rd1e708">Rich. q. ii</ref> concor. Tho. quod liberum arbitrium non est 
+      <lb ed="#A" n="106"/>nisi in natura intellectuali. vnde in nullo bruto habet 
+      <lb ed="#A" n="107"/>esse ratio. quia sola intellectualis natura potest 
+      consili<lb ed="#A" n="108" break="no"/>ari et iudicare discernereque inter iustum et iniustum: 
+      <lb ed="#A" n="109"/>inter proprium et alienum: et deliberare ac mereri vel 
+      <lb ed="#A" n="110"/>demereri. ergo patet propositum.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e722">
+      ¶ Si obiicitur Quod 
+      bru<lb ed="#A" n="111" break="no"/>ta eligunt comoda et fugiunt nociua: sicut ouis 
+      requi<lb ed="#A" n="112" break="no"/>rit pastorem et fugit lupum. Quedam etiam habent 
+      prouiden<lb ed="#A" n="113" break="no"/>tiam de futuris: vt formice quae congregant in estate pro hy¬ 
+      <!--295.xml-->
+      <pb ed="#A" n="296"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>eme: <ref xml:id="Vn7Pel-h90227-Rd1e739">Prouerb. vi.</ref> Item Quedam abstinent a 
+      deside<lb ed="#A" n="2" break="no"/>rio voluptatis metu doloris: vt dicit <ref xml:id="Vn7Pel-h90227-Rd1e743">Aug. li. lxxxiii. 
+      <lb ed="#A" n="3"/>iuestionum. q. xxxvi.</ref> Et quaedam sunt susceptibilia 
+      disci<lb ed="#A" n="4" break="no"/>pline. quia habent memoriam et sensum auditus. ex i. 
+      me<lb ed="#A" n="5" break="no"/>taph. Huiusmodi autem videntur fieri in eis per liberum 
+      arbi<lb ed="#A" n="6" break="no"/>trium. Et confirmatur. <ref xml:id="Vn7Pel-h90227-Rd1e755">quia. iii. Eth. ca. iiii. Aristot.</ref> dicit 
+      <lb ed="#A" n="7"/>quod aliqua animalia voluntarie operantur. ergo habent 
+      libe<lb ed="#A" n="8" break="no"/>rumarbitrium
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e762">
+      ¶ Ad hec et similia Respondetur secundum praedictos 
+      <lb ed="#A" n="9"/>doco. quod bruta non faciunt huiusmodi per cognitionem et 
+      de<lb ed="#A" n="10" break="no"/>liberationem: et per consequens nec per liberum arbitrium. sed per 
+      <lb ed="#A" n="11"/>naturalem instinctum quo mouentur ad faciendum 
+      ta<lb ed="#A" n="12" break="no"/>lia naturali appetitu. Nam bruta licet habeant 
+      exti<lb ed="#A" n="13" break="no"/>mationem: tamen non habent cognitionem. sicut etiam habent 
+      <lb ed="#A" n="14"/>memoriam: sed non habent remiscentiam. Ideoque ex 
+      de<lb ed="#A" n="15" break="no"/>terminatione nature actus suos exercent: non propria 
+      de<lb ed="#A" n="16" break="no"/>liberatione. Quod patet ex hoc omnia eiusdem speciei simules 
+      <lb ed="#A" n="17"/>operationes faciunt. sicut omnis aranea similem facit 
+      te<lb ed="#A" n="18" break="no"/>lam. Quod non esset si ex seipsis quai per artem operando sua 
+      <lb ed="#A" n="19"/>opera disponerent. Unde non est in eis liberum arbitrium. 
+      <lb ed="#A" n="20"/>Sed agunt huiusmodi: mota vel ex influentia celesti: 
+      <lb ed="#A" n="21"/>vel ex aliqua immutatione aeris per industriam naturalem 
+      <lb ed="#A" n="22"/>et per subtilem extimatiuam ex naturali necessitate et 
+      <lb ed="#A" n="23"/>appetitu. Unde quod cattus vel canis retrahitur a 
+      cibo<lb ed="#A" n="24" break="no"/>desiderato per timorem: quia videt imminere sibi ictum 
+      <lb ed="#A" n="25"/>baculi. hoc est ideo: quia magis amat naturaliter vt 
+      <lb ed="#A" n="26"/>tam suam quam illum cibum. Et licet comprimatur ab actu 
+      exte<lb ed="#A" n="27" break="no"/>riori: non tamen ab appetitu interiori.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e806">
+      ¶ Nec obstat 
+      di<lb ed="#A" n="28" break="no"/>ctum illud Arist. quod animalia voluntarie operantur. quia 
+      <lb ed="#A" n="29"/>ibi accipit voluntarium large: prout extenditur ad operari 
+      <lb ed="#A" n="30"/>per naturalem appetitum et diuiditur contra violentum. non 
+      au<lb ed="#A" n="31" break="no"/>tem prout dicit voluntatem proprie. Unde Damasce. li. ii ca. 
+      <lb ed="#A" n="32"/>xxiii. dicit. Irrationalium appetitus non dicitur voluntas scilicet 
+      pro<lb ed="#A" n="33" break="no"/>prie. quia magis aguntur et feruntur a naturali 
+      appeti<lb ed="#A" n="34" break="no"/>tu quam agant. Sed liberum arbitrium agit magis per 
+      vo<lb ed="#A" n="35" break="no"/>luntate quam agatur. quia voluntas habet imperare etc. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e827">
+                  <lb ed="#A" n="36"/>¶ Ad hec etiam supnca. vbi <ref xml:id="Vn7Pel-h90227-Rd1e831">Auis. §. iiii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e835">
+               <head xml:id="Vn7Pel-h90227-Hd1e837">9</head>
+               <p xml:id="Vn7Pel-h90227-d1e839">
+                  <lb ed="#A" n="37"/>¶ Utrum Libertas arbitrii possit 
+      <lb ed="#A" n="38"/>amitti: Respondetur secundum <ref xml:id="Vn7Pel-h90227-Rd1e845">Rich. e. di. xxv. q. ii</ref> quod libertas 
+      <lb ed="#A" n="39"/>arbitrii a coactione absoluta quae est essentialis ipsi 
+      <lb ed="#A" n="40"/>liberoarbitrio: vbicunque est: siue in peccatoribus siue 
+      <lb ed="#A" n="41"/>etiam in damnatis et demoibus: inamissibiliter est. Sed 
+      <lb ed="#A" n="42"/>libertas accidentalis quae est a seruitute peccati vel a 
+      mi<lb ed="#A" n="43" break="no"/>seria per peccatum amissibilis extitit. Nam angeli et 
+      pri<lb ed="#A" n="44" break="no"/>mi paretes a prima conditione erant liberi a 
+      pecca<lb ed="#A" n="45" break="no"/>to et ab omni miseria. sed per peccatum in seruitutem 
+      cul<lb ed="#A" n="46" break="no"/>se et miserie ceciderunt. Et infernales omnino hanc 
+      li<lb ed="#A" n="47" break="no"/>bertatem perdiderunt. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e869">
+               <head xml:id="Vn7Pel-h90227-Hd1e871">10</head>
+               <p xml:id="Vn7Pel-h90227-d1e873">
+                  <lb ed="#A" n="48"/>¶ Sed An liberarbitrium sit 
+      equo<lb ed="#A" n="49" break="no"/>iter liberum in omnibus in quibus est: Distinguendum est secundum 
+      <lb ed="#A" n="50"/>e. <ref xml:id="Vn7Pel-h90227-Rd1e881">Guill. et Rich. e. di. xxv. ar. ii. q.</ref> scilicet concor. <name xml:id="Vn7Pel-h90227-Nd1e883">Bona 
+      <lb ed="#A" n="51"/>uem.</name> et <name xml:id="Vn7Pel-h90227-Nd1e889">Tho</name>. quod liberumarbitrium dicitur liberum tripliciter vel tri 
+      <lb ed="#A" n="52"/>plici libertate: vt dicit etiam <ref xml:id="Vn7Pel-h90227-Rd1e893">Bernds. libro de li.</ref> ar. Primo 
+      <lb ed="#A" n="53"/>a necessitate cogente. Secundo a culpa inclinante. 
+      <lb ed="#A" n="54"/>Tertio a miseria ipellente. Hanc distinctionem ponit 
+      <lb ed="#A" n="55"/>etiam Magister. Primo ergo dicendum quod libertas a 
+      coa<lb ed="#A" n="56" break="no"/>ctione non capit magis et minus sed equaliter est in omnibus 
+      <lb ed="#A" n="57"/>in quibus est. Secundo quod librtas a culpa recipit mag 
+      <!--295.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>et minus secundum quod pluribus culpis venialibus vel 
+      morta<lb ed="#A" n="59" break="no"/>libus obnoxia est. Tertio libertas a miseria etiam 
+      <lb ed="#A" n="60"/>capit magis et minus secundum quod penis miscetur: autem non. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e918">
+                  <lb ed="#A" n="61"/>¶ Patet ergo quod liberum arbitrium licet in beatis angelis et 
+      <lb ed="#A" n="62"/>animabus magis sit elongatum a praedictis et etiam a 
+      cogibili<lb ed="#A" n="63" break="no"/>tate quam a viatoribus. et in deo est summe elongatum: tamen 
+      <lb ed="#A" n="64"/>sufficit quod nullum horum potest cogi scilicet nec in angelo nec 
+      <lb ed="#A" n="65"/>in homine: vt in sequentibus patebit. tamen quo ad libertatem a 
+      <lb ed="#A" n="66"/>culpa et a miseria: liberius est in beatis et etiam in iustis 
+      <lb ed="#A" n="67"/>viatoribus quam in peccatoribus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e938">
+               <head xml:id="Vn7Pel-h90227-Hd1e940">11</head>
+               <p xml:id="Vn7Pel-h90227-d1e942">
+                  <lb ed="#A" n="68"/>¶ Utrum liberarbitrium possit 
+      cogi<lb ed="#A" n="69" break="no"/>ab aliqua potentia: Respondetur secundum <ref xml:id="Vn7Pel-h90227-Rd1e948">Guill. e. di. xxv.</ref> similis et 
+      <lb ed="#A" n="70"/>
+                  <name xml:id="Vn7Pel-h90227-Nd1e952">Rich</name>. ac <name xml:id="Vn7Pel-h90227-Nd1e955">Bonauen</name>. quod non. Ratio. quia nullum de se 
+      indis<lb ed="#A" n="71" break="no"/>ferens et liberum ad vtraque partem contradictionis potest cogi. 
+      <lb ed="#A" n="72"/>sed liberum arbitrium est huiusmodi. ergo etc. Maior patet. quia 
+      <lb ed="#A" n="73"/>cogibilitas et libertas in differentur ad bonum vel 
+      <lb ed="#A" n="74"/>malum sunt opposita. ideoque si cogatur ad aliquam 
+      <lb ed="#A" n="75"/>partem vnam contradictionis: iam non erit liberum et 
+      indiffe<lb ed="#A" n="76" break="no"/>rens. Et hoc est quod Bernaru s libro de li. ar. dicit. Uoluntas pro 
+      <lb ed="#A" n="77"/>ingenita sui nobilitate nulla cogitur necessitate. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e973">
+                  <lb ed="#A" n="78"/>¶ Si queras. Nunquid senderesis quae semper inclinat ad 
+      <lb ed="#A" n="79"/>bonum: et conscientia quae omni malo remurmurat poterit 
+      <lb ed="#A" n="80"/>cogere liberum arbitrium: Dicit idem Guill. quod non. quia 
+      <lb ed="#A" n="81"/>dato actu murmure conscientie: et stimulo synderesis 
+      <lb ed="#A" n="82"/>dicentis: Deo est obediedum: vel Nullum malum est 
+      fa<lb ed="#A" n="83" break="no"/>ciendum: alias punitio sequitur. nihilo minus liberumar 
+      <lb ed="#A" n="84"/>bitrium eligere potest oppositum. Patet de lucifero 
+      <lb ed="#A" n="85"/>qui scienter elegit peccare. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e994">
+               <head xml:id="Vn7Pel-h90227-Hd1e996">12</head>
+               <p xml:id="Vn7Pel-h90227-d1e998">
+                  <lb ed="#A" n="86"/>¶ An liberarbitrium possit ab 
+      ali<lb ed="#A" n="87" break="no"/>qua creatura impediri vel inducendo cogi: Respondetur 
+      <lb ed="#A" n="88"/>secundum praedictos Guill. et alios: quod ista tria aspiciunt 
+      li<lb ed="#A" n="89" break="no"/>berum arbitrium varie. videlicet Induci: impediri: et 
+      cogi<lb ed="#A" n="90" break="no"/>Quo ad primum potest induci per minas vel penas aut 
+      <lb ed="#A" n="91"/>per blanditias: munera et promissiones etc. Quo ad 
+      <lb ed="#A" n="92"/>secundum potest impediri propter ligationem rationis: vt in 
+      pu<lb ed="#A" n="93" break="no"/>eris et in ametibus ac in somnis. Quo ad tertium 
+      <lb ed="#A" n="94"/>autem nunquam potest cogi a creato agente: eoquod est poten¬ 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e1020">
+                  <lb ed="#A" n="95"/>¶ Si autem quaeratur praeterea Quid de dia (issimum. 
+      <lb ed="#A" n="96"/>bolo: cum non sit potestas quae comparetur ei: Iob. xli. Respondet 
+      <lb ed="#A" n="97"/>Bonauen. quod nec a diaholo potest cogi liberum 
+      arbi<lb ed="#A" n="98" break="no"/>trium: quamuis possit deo permittente impediri ab actu 
+      <lb ed="#A" n="99"/>suo et vsu. quia potest diaholus (si permittatur a deo) vt 
+      <lb ed="#A" n="100"/>faciat hominem furiosum vel amentem. tamen cogere non 
+      <lb ed="#A" n="101"/>potest liberum arbitrium. quia teste Gregorio: non potest 
+      vin<lb ed="#A" n="102" break="no"/>cere nisi volentem. Si enim posset cogere: cum sit ma 
+      <lb ed="#A" n="103"/>licia obstinatus et semper odiens hominem: semper cogeret ad 
+      <lb ed="#A" n="104"/>malum actum et nunquam sineret ad bonum. Patet ergo 
+      <lb ed="#A" n="105"/>quod liberum arbitrium a nulla creatura potest cogi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e1047">
+               <head xml:id="Vn7Pel-h90227-Hd1e1049">13</head>
+               <p xml:id="Vn7Pel-h90227-d1e1051">
+                  <lb ed="#A" n="106"/>¶ An Liberarbitrium possit 
+      cogi<lb ed="#A" n="107" break="no"/>naltem a deo omnipotente: Respondetur secundum Guill. et praefatos qest 
+      <lb ed="#A" n="108"/>di. xxv. quod deus potest quidem nostrum liberum arbitrium 
+      de<lb ed="#A" n="109" break="no"/>struere auferedo eius libertatem et superinducendo 
+      co<lb ed="#A" n="110" break="no"/>actionem. Potest etiam mutare et in aliud conuertere. et 
+      <lb ed="#A" n="111"/>etiam efficere vt moueat seipsum libere ad quamcumque 
+      <lb ed="#A" n="112"/>partem deus vult. iuxta illud Prouer. xxi. Cor regis in 
+      <lb ed="#A" n="113"/>manum domini: quocumque voluerit virtet illud. Tamen proprie 
+      <!--296.xml-->
+      <pb ed="#A" n="297"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>loquendo de coactione quod cogatur liberum arbitrium 
+      <lb ed="#A" n="2"/>manens liberum: implicat contradictionem. Ideo sic 
+      <lb ed="#A" n="3"/>deus cogere ipsum non potest. Sicut deus potest facere 
+      <lb ed="#A" n="4"/>vt ignis non sit ignis et suspendere potest eius actionem 
+      <lb ed="#A" n="5"/>ne adurat: sicut fecit tribus pueris in igne positis. Sed 
+      <lb ed="#A" n="6"/>quod ignis sit et non sit calidus in se: iplicat contradictionem. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e1090">
+                  <lb ed="#A" n="7"/>¶ Quare autem dei bonitas sic voluit fieri vt libe 
+      <lb ed="#A" n="8"/>rumarbitrium hominis cogi non possit: est Primo: vt 
+      <lb ed="#A" n="9"/>deus ex sua bonitate et charitate hominem sic 
+      subli<lb ed="#A" n="10" break="no"/>maret: quatinus in hoc deo assimilaretur. Secundo: vt homo 
+      <lb ed="#A" n="11"/>libere per voluntatem semper mereri posset vitam 
+      eter<lb ed="#A" n="12" break="no"/>nam et gratiam. Tertio: vt nemo de suo peccato 
+      excu<lb ed="#A" n="13" break="no"/>sationem haberet. Errant ergo qui dicunt se non posse 
+      <lb ed="#A" n="14"/>cauere a peccato: vel resistere incle nationi naturali: 
+      <lb ed="#A" n="15"/>aut diabolice tentationi vel constellationi et huiusmodi. 
+      <lb ed="#A" n="16"/>Ad <ref xml:id="Vn7Pel-h90227-Rd1e1113">hec. §. xiiii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e1117">
+               <head xml:id="Vn7Pel-h90227-Hd1e1119">14</head>
+               <p xml:id="Vn7Pel-h90227-d1e1121">
+                  <lb ed="#A" n="17"/>¶ Un Liberarbitrium possit 
+      cogi<lb ed="#A" n="18" break="no"/>a sensualitate: Respondetur secundum e. <ref xml:id="Vn7Pel-h90227-Rd1e1127">Guill. e. dist. xxv.</ref> per 
+      <lb ed="#A" n="19"/>conclusionem quod non. quia quod nequit maius: id nequit etiam 
+      <lb ed="#A" n="20"/>minus potens facere. Sed synderesis quae est altior 
+      <lb ed="#A" n="21"/>potentia nequit cogere liberum arbitrium: sicut nec 
+      con<lb ed="#A" n="22" break="no"/>scientia: vt <ref xml:id="Vn7Pel-h90227-Rd1e1138">dictum est. §. xi.</ref> ergo nec sensualitas potest 
+      <lb ed="#A" n="23"/>cum sit inferior. Sed homo libere inducitur per 
+      sensualita<lb ed="#A" n="24" break="no"/>tem ad malum: dum allicit portionem inferiorem rationis et 
+      <lb ed="#A" n="25"/>per illam inclinat superiorem portionem ad consentiendum ma 
+      <lb ed="#A" n="26"/>lo etc. vt de hoc patet vbi Sensualitas
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e1150">
+      ¶ Si obii 
+      <lb ed="#A" n="27"/>citur: quod secundum iura Metus potest cadere in constate virum qui 
+      <lb ed="#A" n="28"/>excusat hominem. patet extra de his quae vi metus quae 
+      cun<lb ed="#A" n="29" break="no"/>fi. c. Ueniens. ergo sensualitas timore mortis vel pene 
+      <lb ed="#A" n="30"/>cogit. Respondetur secundum Bona. e. di. xxv. quod in huiusmodi casibus 
+      <lb ed="#A" n="31"/>non est coactio voluntatis: sed inductio vel inclinatio 
+      <lb ed="#A" n="32"/>ex tali metu: aut mutatio voluntatis. Quamuis enim 
+      <lb ed="#A" n="33"/>secundum iura videatur fore ibi quaedam coactio eo quod 
+      conside<lb ed="#A" n="34" break="no"/>rant opera exteriora et non interiorem voluntatem: tamen secundum 
+      veri<lb ed="#A" n="35" break="no"/>tatem stat cum libtate voluntatis: nec ei repugnat. Unde 
+      <lb ed="#A" n="36"/>nullus metus etiam mortis excusat in cuspa mortali ex 
+      <lb ed="#A" n="37"/>toto: licet excuset a tanto: presertim in foro ecclesie. 
+      <lb ed="#A" n="38"/>Secus in foro diuino Sicut patet de Petro qui ex 
+      <lb ed="#A" n="39"/>timore negauit christum et tamen in hoc mortaliter peccauit 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e1181">
+                  <lb ed="#A" n="40"/>¶ Propterea scribitur in decretis <ref xml:id="Vn7Pel-h90227-Rd1e1185">de pe. di. ii. §.</ref> Cui. 
+      <lb ed="#A" n="41"/>sic. Cur deus condidit hominem liberiarbitrii: nisi ideorm 
+      <lb ed="#A" n="42"/>vt non trahatur ad vicia inuitus vel etiam ad praemia. vtde 
+      <lb ed="#A" n="43"/>vt Rich de sanc. Uic. et Augustinus dicunt: quod liberum 
+      ar<lb ed="#A" n="44" break="no"/>bitrium se habet ad gratiam sicut equus sub sessore. Nam 
+      <lb ed="#A" n="45"/>licet sessor vrgeat equum calcaribus tamen equus si omnino non 
+      <lb ed="#A" n="46"/>vult ire cadit sub sessore. Sic liberum arbitrium si non 
+      <lb ed="#A" n="47"/>vult dei gratiae obedire et inspirationi: libere cadit in 
+      <lb ed="#A" n="48"/>peccatum. et non cogitur vt cadat per sensualitatem aut 
+      <lb ed="#A" n="49"/>metum. sed quia non vult etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e1208">
+               <head xml:id="Vn7Pel-h90227-Hd1e1210">15</head>
+               <p xml:id="Vn7Pel-h90227-d1e1212">
+                  <lb ed="#A" n="50"/>¶ Utrum vsum liberi arbitrii 
+      pos<lb ed="#A" n="51" break="no"/>sit homo in presenti habere sine phantasmate: 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e1219">
+                  <lb ed="#A" n="52"/>¶ Ad hoc pro praeambulo ad intelligendum 
+      Notan<lb ed="#A" n="53" break="no"/>dum est Primo Quid sit phantasma. Et 
+      dicen<lb ed="#A" n="54" break="no"/>dum secundum Richardum. in. ii dist. xxv. arti. v. q. i. quod 
+      <lb ed="#A" n="55"/>Phantasmata sunt similitudines rerum 
+      sensi<lb ed="#A" n="56" break="no"/>bilium secundum esse quod habent in organis 
+      viri<lb ed="#A" n="57" break="no"/>um sensitiuarum interiorum. Si tamen res qua¬ 
+      <!--296.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>rum sunt similitudines: per se ceciderunt 
+      sub<lb ed="#A" n="59" break="no"/>aliquo sensu particulari. tunc ille similitudines 
+      <lb ed="#A" n="60"/>magis in communi vsu dicuntur phantasmata Si autem non 
+      <lb ed="#A" n="61"/>cecideruit subaliquo sensu particulari: dicuntur intentio 
+      <lb ed="#A" n="62"/>nes. sicut similitudo inimicicie quam aliquando 
+      appre<lb ed="#A" n="63" break="no"/>hendit extimatiua cum non ceciderit per se sub aliquo 
+      <lb ed="#A" n="64"/>sensu particulari. Exemplum de oue quae nunquam vidit 
+      lu<lb ed="#A" n="65" break="no"/>pum antea et tamen extimat inimicum naturaliter ex motu 
+      <lb ed="#A" n="66"/>et figura. ideo fugit eum
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e1258">
+      ¶ Secundo notandum est secundum. e. 
+      <lb ed="#A" n="67"/>Rich. supra. quod phantasma nobis est necessarium ad 
+      no<lb ed="#A" n="68" break="no"/>strum intelligendi actum naturalem. cuius causa est debi 
+      <lb ed="#A" n="69"/>litas nostri intellectus quam habet ex vnione corporis 
+      <lb ed="#A" n="70"/>corruptibilis aggrauantis animam. Sap. ix. Sicut enim 
+      <lb ed="#A" n="71"/>puero habenti debilem intellectum fiunt protractiones in 
+      <lb ed="#A" n="72"/>puluere pro exemplo quo manuducuntur ad 
+      intelligen<lb ed="#A" n="73" break="no"/>dum. Sic motus ordinatus ipsius sensualis cogitati 
+      <lb ed="#A" n="74"/>ue ad ipsa phantasmata: est sicut quoddam 
+      exem<lb ed="#A" n="75" break="no"/>plum nostro intellectui ad manuducendum ipsum in actum 
+      <lb ed="#A" n="76"/>intelligendi.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e1282">
+      ¶ Tertio notandum secundum Bonauen. ea. 
+      <lb ed="#A" n="77"/>di. xxv. ar. i. q. vl. quod quamuis operatio intellectus non fiat 
+      <lb ed="#A" n="78"/>per organum. ex. iii. de anima. Unde anima separata a 
+      cor<lb ed="#A" n="79" break="no"/>pore intelligit et habet scientiam eorum quae nouit in hac 
+      <lb ed="#A" n="80"/>vita. vt patet ex articulo parisiensi. Et ita patet quod 
+      <lb ed="#A" n="81"/>intellectus noster non informatur phantasmate. Nihilo 
+      <lb ed="#A" n="82"/>minus tamen vis phantastica sensitiua facit aliquod 
+      ob<lb ed="#A" n="83" break="no"/>sequium et adiuuamentum intellectui in actu 
+      intelli<lb ed="#A" n="84" break="no"/>gendi dupliciter. In hoc videlicet quod offert illa 
+      phanta<lb ed="#A" n="85" break="no"/>smata inteliectui possibili. sicut obiectum offert 
+      <lb ed="#A" n="86"/>peciem oculo ad videndum Et in hoc etiam quod in 
+      <lb ed="#A" n="87"/>tellectus excitari habet ab inferiori quamdiu 
+      coniun<lb ed="#A" n="88" break="no"/>ctus est corpori. Idcirco Aristo. iii. de anima dicit. quod 
+      <lb ed="#A" n="89"/>nihil intelligimus sine phantasmate. sed oportert 
+      <lb ed="#A" n="90"/>intelligentem phantasmata speculari etc.
+     </p>
+               <p xml:id="Vn7Pel-h90227-d1e1316">
+      ¶ Ad 
+      que<lb ed="#A" n="91" break="no"/>situm itaque ex praemissis patet reaston sio. quod actus voluntatis 
+      <lb ed="#A" n="92"/>praesupponit actum intellectus. quia nil volitum nisi 
+      cogni<lb ed="#A" n="93" break="no"/>ium. per <ref xml:id="Vn7Pel-h90227-Rd1e1324">Aug. x.</ref> de trini. et etiam philosophum. Sed quia actus 
+      iu<lb ed="#A" n="94" break="no"/>telligendi in hoc mortali corpore non potest esse sine 
+      <lb ed="#A" n="95"/>phantasmate. Ideo in isto statu non possumus habere per na 
+      <lb ed="#A" n="96"/>turam sine phantasmate vsum liberiarbitrii: cum hoc 
+      <lb ed="#A" n="97"/>ncludatur in actu intelligendi. Usus enim 
+      liberiar<lb ed="#A" n="98" break="no"/>bitrii includit vel praesupponit vsum intellectus nostri 
+      <lb ed="#A" n="99"/>ui est cum phantasmate. Hec Rich. e Ad hec vbi 
+      <lb ed="#A" n="100"/>
+                  <ref xml:id="Vn7Pel-h90227-Rd1e1342">Anima. §. lii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e1346">
+               <head xml:id="Vn7Pel-h90227-Hd1e1348">16</head>
+               <p xml:id="Vn7Pel-h90227-d1e1350">
+                  <lb ed="#A" n="101"/>¶ Sed quomod i praesenti homo potes 
+      <lb ed="#A" n="102"/>intelligere autem per liberum arbitrium velle diligere illa 
+      <lb ed="#A" n="103"/>spiritualia quae non habent phantasmata. vt sunt 
+      an<lb ed="#A" n="104" break="no"/>geli. anime beate. deus et persone diuine etc. Respondet 
+      <lb ed="#A" n="105"/>idem <ref xml:id="Vn7Pel-h90227-Rd1e1363">Rich. ea. di. xxv.</ref> supra dicens. quod nos in praesenti 
+      na<lb ed="#A" n="106" break="no"/>turaliter non deuenimus in cognitionem spiritualium: 
+      ni<lb ed="#A" n="107" break="no"/>si per sensibilia. vt in cognitionem potentiarum anime 
+      <lb ed="#A" n="108"/>et habituum deuenimus per obiecta. Et in cognitionem 
+      <lb ed="#A" n="109"/>angelorum deuenimus tandem ex similitudine anime. ipsam ills 
+      <lb ed="#A" n="110"/>comparando et in cognitionem dei per effectus sensibiles 
+      <lb ed="#A" n="111"/>per quos deuenimus tandem in cognitionem effectuum in 
+      <lb ed="#A" n="112"/>telligibilium vt dictum est etiam supra vbi <ref xml:id="Vn7Pel-h90227-Rd1e1380">Intellectus. §. xv </ref>
+                  <lb ed="#A" n="113"/>Et sic lib. ar. ad eligendum vel diligendum et appetendum 
+      <lb ed="#A" n="114"/>praerequirit huiusmodi cognitionem naturaliter spiritualium. 
+      <!--297.xml-->
+      <pb ed="#A" n="298"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Unde idem Richar. vt inquit breviter dicam. Tantum 
+      <lb ed="#A" n="2"/>possumus naturaliter et de lege communi intelligere 
+      <lb ed="#A" n="3"/>de rebus spiritualibus quantum possumus per sensibilia 
+      <lb ed="#A" n="4"/>manuduci. Et ideo illud quod vltra hec 
+      habe<lb ed="#A" n="5" break="no"/>mus de cognitione spiritualium non est per naturam et de 
+      <lb ed="#A" n="6"/>lege communi. sed per scripturam sacratm ex dei 
+      reuela<lb ed="#A" n="7" break="no"/>tione et huiusmodi. Hec Rich. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e1409">
+                  <lb ed="#A" n="8"/>¶ Utrum per naturam possimus 
+      <lb ed="#A" n="9"/>in somnis habere vsum liberiarbitrii. vide vbi 
+      <lb ed="#A" n="10"/>
+                  <ref xml:id="Vn7Pel-h90227-Rd1e1417">Uigilia et Somnus. §. vi. </ref>
+               </p>
+               <p xml:id="Vn7Pel-h90227-d1e1420">
+                  <lb ed="#A" n="11"/>¶ Item De liberoarbitrio desti 
+      <lb ed="#A" n="12"/>tuto a gratia quantam habeat potetatem. vide vbi Gratia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h90227-Dd1e1429">
+               <head xml:id="Vn7Pel-h90227-Hd1e1431">17</head>
+               <p xml:id="Vn7Pel-h90227-d1e1433">
+                  <lb ed="#A" n="13"/>¶ Qualibus dignitatibus nobi 
+      <lb ed="#A" n="14"/>litauit deus hominis liberum arbitrium: Nota secundum doc 
+      <lb ed="#A" n="15"/>quod Primo nobilitauit maxima libertate: quia a 
+      nullo<lb ed="#A" n="16" break="no"/>cogi potest: vt praedictum est. Secundo diuine imaginis ma 
+      <lb ed="#A" n="17"/>iestate. Rich. de sanc. Uic. in expotone Esa. Omnem 
+      ca<lb ed="#A" n="18" break="no"/>put languidum. dicit: Liberum arbitrium sane habet ima 
+      <lb ed="#A" n="19"/>ginem diuine: et sic regie maiestatis in hoc quod sicut deus 
+      <lb ed="#A" n="20"/>superiorem se non habet nec habere potest: sic liberum arbitrium 
+      <lb ed="#A" n="21"/>non patitur nec pati potest alicuius dominium quo violentetur 
+      <lb ed="#A" n="22"/>sed omnibus viribus et membris imperat etc. Tertio similitu 
+      <lb ed="#A" n="23"/>dinis conformitate: et per conseques dei amabilitate. quia 
+      <lb ed="#A" n="24"/>omne animal diligit sibi simile: Ecci. xiii. Quarto 
+      sta<lb ed="#A" n="25" break="no"/>bili potestate. Bernds. de libr. ar. Liberum arbitrium est sub 
+      <lb ed="#A" n="26"/>deo potentissimum vt nulla culpa vel miseria amit 
+      <lb ed="#A" n="27"/>ti vel destrui possit aut minui: quin libere 
+      volunta<lb ed="#A" n="28" break="no"/>tis sit. Ultimo salubri vtilitate. Rich. de san. Uic 
+      <lb ed="#A" n="29"/>vbi supra. Nil sublimius in homine: nil dignius libero 
+      <lb ed="#A" n="30"/>arbitrio. Nil vtilius salubri eius consilio dum 
+      ad<lb ed="#A" n="31" break="no"/>quiescit diuine inspirationi. Unde pro talibus de 
+      <lb ed="#A" n="32"/>bemus deum laudare. 
+      </p>
+               <p xml:id="Vn7Pel-h90227-d1e1479">
+                  <lb ed="#A" n="33"/>¶ Ex dei bonitas et sapientia 
+      mul<lb ed="#A" n="34" break="no"/>tipliciter commendabilis est in proprietatibus lignorum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

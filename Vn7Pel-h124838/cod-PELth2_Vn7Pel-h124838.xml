@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Principium</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Principium</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="403"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h124838">
+            <head xml:id="Vn7Pel-h124838-Hd1e110">Principium</head>
+            <div xml:id="Vn7Pel-h124838-Dd1e112">
+               <head xml:id="Vn7Pel-h124838-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h124838-d1e116">
+                  <lb ed="#A" n="89"/>¶ Iincipium. Circa 
+      <lb ed="#A" n="90"/>hhoc queritur. Utrum sit tantummodo 
+      <lb ed="#A" n="91"/>vnum principium primum omnium 
+      crea<lb ed="#A" n="92" break="no"/>turarum. Notandum pro preambulo secundum Guill. liro. 
+      <lb ed="#A" n="93"/>ii. dist i. quod principium dicitur quasi primum capiens. 
+      <lb ed="#A" n="94"/>vel primitatis captiuum. Et accipitur tripliciter. 
+      <lb ed="#A" n="95"/>Primo modo principium dicitur vel accipitur pro 
+      <lb ed="#A" n="96"/>primo principio immediato. sicut primo Posterio 
+      <lb ed="#A" n="97"/>rum Aristoteles dicit. Primum et immediatum 
+      <lb ed="#A" n="98"/>idem sunt. hoc modo Maior et Minor in 
+      syllogi<lb ed="#A" n="99" break="no"/>smo quando sunt immediata. id est quando ex se 
+      ha<lb ed="#A" n="100" break="no"/>pent euidentiam dicuntur prima seu principi scilicet 
+      com<lb ed="#A" n="101" break="no"/>clusionis
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e147">
+      ¶ Secundo modo capitur primum seu 
+      prin<lb ed="#A" n="102" break="no"/>cipium in genere. Isto modo a Porphirio in Isa 
+      <lb ed="#A" n="103"/>gogis decem predicamenta vel genera 
+      generalissi<lb ed="#A" n="104" break="no"/>ma dicuntur decem rerum prima principia. Dicuntur 
+      <lb ed="#A" n="105"/>autem prima seu principia in genere: quia limi 
+      <lb ed="#A" n="106"/>tata sunt. Antequam enim ens diuidatur in decem 
+      prae<lb ed="#A" n="107" break="no"/>dicamenta secundum Algazelem in sua Metaphysica: 
+      <lb ed="#A" n="108"/>piniditur in ens finitum et infinitum. Et ens 
+      fini<lb ed="#A" n="109" break="no"/>tum seu limitatum in decem principia.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e167">
+      ¶ 
+      Ter<lb ed="#A" n="110" break="no"/>tio modo dicitur primum pricipium simpliciter. et sic solus deus 
+      <lb ed="#A" n="111"/>dicitur primus vel primum ens et pricipium. Apoc. i. Ego 
+      sun<lb ed="#A" n="112" break="no"/>alpha et o. principium et finis dicit dominus deus. Ego sum 
+      <!--403.xml-->
+      <pb ed="#A" n="404"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>primus et nouissimus etc.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e185">
+      ¶ Rursus de hoc scono 
+      <lb ed="#A" n="2"/>Notandum quod principium potest considerari aut 
+      <lb ed="#A" n="3"/>ratione bonitatis solummodo. Et sic cum queritur 
+      <lb ed="#A" n="4"/>Utrum sit omnium vnum principium: intelligitur de vno 
+      <lb ed="#A" n="5"/>summo bono quod est vnu primum principium omnium 
+      <lb ed="#A" n="6"/>bonorum. Unde quia veraciter vnus solus est des 
+      <lb ed="#A" n="7"/>a quo procedunt omnia bona. ergo patet vnum esse omnis 
+      <lb ed="#A" n="8"/>bonitatis principium. Secundo considerari potesti 
+      <lb ed="#A" n="9"/>vt principium se extendit ampliando ad bonum et ma 
+      <lb ed="#A" n="10"/>lum. Et sic questio est. An vnum sit principium sum 
+      <lb ed="#A" n="11"/>mum omnium bonorum. et aliud malorum siue visi 
+      <lb ed="#A" n="12"/>bilium et inuisibilium: vt ponit Manicheus. Tertio 
+      <lb ed="#A" n="13"/>considerari potest secundum Tho. in. ii scrip. q.scilicet arti. i. 
+      <lb ed="#A" n="14"/>de principio causalitatis primo in genere vel 
+      ordi<lb ed="#A" n="15" break="no"/>ne aliquo. Et sic intelligendo secundum genera causa. 
+      <lb ed="#A" n="16"/>rum plura sunt principia prima. vt primum prin 
+      <lb ed="#A" n="17"/>cipium materiale idest materia prima: et formale primum 
+      <lb ed="#A" n="18"/>quod est esse. et sic descendendo ad diuersa rerum 
+      <lb ed="#A" n="19"/>genera inueniuntur diuersa prima principia in 
+      di<lb ed="#A" n="20" break="no"/>uersis: etiam secundum idem genus cause. Sicut 
+      exempli<lb ed="#A" n="21" break="no"/>gratia. In liquidis vel liquabilibus prima materia 
+      <lb ed="#A" n="22"/>est aqua. in aridis terra. in animalibus semen vel modo 
+      <lb ed="#A" n="23"/>struum
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e236">
+      ¶ Ad quesitum itaque respondetur secundum 
+      pre<lb ed="#A" n="24" break="no"/>dictos Guill. Tho. Bonauen. et alios communt 
+      <lb ed="#A" n="25"/>ter. e. di. i. per conclusionem. quod primum principium omnium 
+      <lb ed="#A" n="26"/>simpliciter impossibile est esse nisi vnicum summum bonum 
+      <lb ed="#A" n="27"/>Ratio communiter ad id ponitur: quia omnem multitu 
+      <lb ed="#A" n="28"/>dinem praecedit vnitas. eo quod pluralitas nascitur ex vni 
+      <lb ed="#A" n="29"/>tate. et sic omnis multitudo reducitur ad vnum quod eu 
+      <lb ed="#A" n="30"/>supra illam multitudinem. Sed omnia visibilia et in 
+      <lb ed="#A" n="31"/>uisibilia quandam exaggerant multitudinem. igitur 
+      <lb ed="#A" n="32"/>ad vnum debent reduci principium. ita quod si ponantlis 
+      <lb ed="#A" n="33"/>plura principia: oportet eis esse vnum primum 
+      pri<lb ed="#A" n="34" break="no"/>cipium. Unde et Diony. de diuinis no. hac ratione 
+      <lb ed="#A" n="35"/>vocat deum monadem seu vnitatem ad quam reducuntur 
+      <lb ed="#A" n="36"/>omnia vt ad primum principium. Item Philosophus 
+      <lb ed="#A" n="37"/>viii. Metaph. dicit. quod species rerum habent se sicut 
+      <lb ed="#A" n="38"/>numeri qui ad vnitatem reducuntur. que non est nume 
+      <lb ed="#A" n="39"/>rus sed principium numeri. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h124838-Dd1e274">
+               <head xml:id="Vn7Pel-h124838-Hd1e276">2</head>
+               <p xml:id="Vn7Pel-h124838-d1e278">
+                  <lb ed="#A" n="40"/>Sed quare non ponitur. vnum principium 
+      <lb ed="#A" n="41"/>summum malorum sicut ponitur bonorum Et arguitur sic. Ari 
+      <lb ed="#A" n="42"/>stoteles. ii celi et mundi dicit. quod si vnum contrariorum 
+      <lb ed="#A" n="43"/>sit in natura: et reliquum. Sed summum malum est 
+      con<lb ed="#A" n="44" break="no"/>trarie oppositum summo bono. ergo debent poni e 
+      <lb ed="#A" n="45"/>natura duo principia scilicet summum bonum et summum 
+      <lb ed="#A" n="46"/>malum.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e296">
+      ¶ Confirmatur ex regula topica que dicit. Si 
+      <lb ed="#A" n="47"/>cut simpliciter ad simpliciter. sic magis ad magis 
+      <lb ed="#A" n="48"/>et maxime ad maximum. sed bonum simpliciter oppo 
+      <lb ed="#A" n="49"/>nitur malo simpliciter. ergo maximum malum vel sum 
+      <lb ed="#A" n="50"/>mum maximo bono. ergo vtrumque est ponendum. 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e307">
+                  <lb ed="#A" n="51"/>¶ Respondetur secundum Guill. supra et Tho. quod summum 
+      <lb ed="#A" n="52"/>malum non contrariatur summo bono secundum re. quia esse 
+      <lb ed="#A" n="53"/>non potest in rerum natura. sed solum opponitur secundum 
+      <lb ed="#A" n="54"/>vocem. Nam nil potest esse adeo malum vt non sit 
+      <lb ed="#A" n="55"/>in eo aliquid boni. videlicet saltem esse. Et hoc est bonum. 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e320">
+                  <lb ed="#A" n="56"/>¶ Unde etiam Philosophus. iiii. Ethicorum dicit quod si 
+      <lb ed="#A" n="57"/>asset perfectum malum adeo quod proueniret ex corruptio 
+      <!--403.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ne omnium circumstantiarum nec seipsum sustinete pes 
+      <lb ed="#A" n="59"/>set in esse. quia esse vel ens et bonum conuertuntur. 
+      ci<lb ed="#A" n="60" break="no"/>vi. Metaph. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e339">
+      ¶ Ad confirmationem autem 
+      <lb ed="#A" n="61"/>respondetur secundum Guilhelmum ofan in logica 
+      aurea<lb ed="#A" n="62" break="no"/>quod illa regula topica tunc tenet veritatem quando pro 
+      <lb ed="#A" n="63"/>dicatum dicitur de subiecto vniuersaliter 
+      verifican<lb ed="#A" n="64" break="no"/>do. alas non. Exemplum dat. non valet 
+      argumen<lb ed="#A" n="65" break="no"/>tum dicendo. Bibere est bonum. ergo magis 
+      bhibe<lb ed="#A" n="66" break="no"/>re est magis bonum. et maxime hibere est maxime 
+      <lb ed="#A" n="67"/>bonum. quia primum non est verum vniuersaliter 
+      <lb ed="#A" n="68"/>scilicet dicendo. Omne bibere vel omnimode 
+      bibe<lb ed="#A" n="69" break="no"/>re est bonum etc. hoc enim est falsum. Sic in 
+      proposi<lb ed="#A" n="70" break="no"/>to ista est falsa vniuersaliter dicendo. omne bonum 
+      <lb ed="#A" n="71"/>contrariatur malo vel econuerso. quia summum bonum 
+      <lb ed="#A" n="72"/>caret contrario vel etiam priuatiue opposito. videlicet si 
+      <lb ed="#A" n="73"/>mo malo. ideo illa non tenet regula de hoc. Nam 
+      <lb ed="#A" n="74"/>illi bono quod nullo modo potest auferri vel 
+      mis<lb ed="#A" n="75" break="no"/>nui aut corrumpi quocunque malo. nihil in rerum 
+      <lb ed="#A" n="76"/>natura esse potest quod ei opponatur privatiue vel 
+      con<lb ed="#A" n="77" break="no"/>trarie. Sed tale est summum bonum quod omnia vit 
+      <lb ed="#A" n="78"/>cit. ergo etc. Item secundum Philosophum. viii. physicut. omnia 
+      <lb ed="#A" n="79"/>mobilia vel mutabilia etiam primum mobile 
+      redu<lb ed="#A" n="80" break="no"/>cuntur ad vnum primum immobile. Sicut exemplum 
+      <lb ed="#A" n="81"/>est secundum Pythagoricos quod omnes partes membro 
+      <lb ed="#A" n="82"/>rum animalis requirunt vnum agens suo id est animam 
+      <lb ed="#A" n="83"/>vnicam in animali. Sic in proposito omnia visibilia 
+      <lb ed="#A" n="84"/>et inuisibilia: vtpote mutabilia reduci habent ad 
+      <lb ed="#A" n="85"/>vnicum primum principium summum bonum 
+      immobilea<lb ed="#A" n="86" break="no"/>bonitate. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e398">
+      ¶ Ad hec vbi <ref xml:id="Vn7Pel-h124838-Rd1e400">Malum. §. iiii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h124838-Dd1e404">
+               <head xml:id="Vn7Pel-h124838-Hd1e406">3</head>
+               <p xml:id="Vn7Pel-h124838-d1e408">
+                  <lb ed="#A" n="87"/>¶ Utrum ponere duo. principia quod 
+      <lb ed="#A" n="88"/>habeat aliqua verisimilitudinem. cum id <name xml:id="Vn7Pel-h124838-Nd1e414">
+      Mani<lb ed="#A" n="89" break="no"/>cheus</name> posuerit multis autoritatibus et rationibus 
+      <lb ed="#A" n="90"/>approbando pro suo sensu
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e422">
+      ¶ Cirta hoc tripliciter 
+      <lb ed="#A" n="91"/>procedemus
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e427">
+      ¶ Primo ponendo Manichei erro. 
+      <lb ed="#A" n="92"/>rem et eius probationes. Secundo respondendo ad 
+      <lb ed="#A" n="93"/>scripture obiectionem et argumentationes. Tert. o 
+      <lb ed="#A" n="94"/>inferendo veritatis conclusionem et eius confirmati 
+      <lb ed="#A" n="95"/>pones.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e438">
+      ¶ Quo ad primum notandum secundum Bonauen. 
+      <lb ed="#A" n="96"/>in. ii bi. i. ar. ii. q. i. et cum eo Guill. e. dist. Item 
+      <lb ed="#A" n="97"/>Tho. e. di. ar. i. et alios. Quod error impii 
+      Mani<lb ed="#A" n="98" break="no"/>chei ponit duo prima pricipia. Unum crcato: est 
+      <lb ed="#A" n="99"/>bonorum ac incorruptibilium: spiritualium et 
+      inuisi<lb ed="#A" n="100" break="no"/>bilium. Et hoc vocauit deum lucis et autorem 
+      <lb ed="#A" n="101"/>noui testamenti. Aliud principium ponit 
+      creato<lb ed="#A" n="102" break="no"/>rem malorum et visibilium: corporalium et corruptibus 
+      <lb ed="#A" n="103"/>lium. quod vocat deum tenebrarum et autorem vete 
+      <lb ed="#A" n="104"/>ris testamenti. Et ita ponit esse duos deos et cre 
+      <lb ed="#A" n="105"/>atores rerum. Et hec probat
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e463">
+      ¶ Primo per 
+      il<lb ed="#A" n="106" break="no"/>lud Ioannis. xix. vbi Christus dicit. Rgnum 
+      <lb ed="#A" n="107"/>meum non est de hoc mundo. Hoc dixit deus 
+      lu<lb ed="#A" n="108" break="no"/>cis. ergo mundus iste non spectat ad eum. et sic non 
+      <lb ed="#A" n="109"/>est conditus ab eo. Et per similes multas 
+      autorita<lb ed="#A" n="110" break="no"/>tes. videlicet Ioan. xv. Uenit princeps mundi habsut. Et Io. 
+      <lb ed="#A" n="111"/>xii. vocat diabolum principem huius mundi. 
+      <lb ed="#A" n="112"/>Similiter Apostolus Ephe. ii vocat diabolum 
+      <lb ed="#A" n="113"/>deum huius seculi. et deum tenebrarum. ii Cor. xiiii. ergo et 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e483">
+                  <lb ed="#A" n="114"/>¶ Secundo probare nititur rationibus. quia opposi¬ 
+      <!--404.xml-->
+      <pb ed="#A" n="405"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>torum opposite sunt cause. ex. ii de generatione. Sed 
+      <lb ed="#A" n="2"/>spiritualia et corporalia habent inter se oppositio. 
+      <lb ed="#A" n="3"/>nis repugnantia. Rhoman. vii. et Gal. v. Caro 
+      <lb ed="#A" n="4"/>concupiscit aduersus spiritum etc. Similiter vetus 
+      <lb ed="#A" n="5"/>testamentum et nouum praecipiunt contraria. Sicut 
+      iu<lb ed="#A" n="6" break="no"/>rare et non iurare. Matih. v. Occidere et non 
+      occi<lb ed="#A" n="7" break="no"/>dere. ergo necesse est ponere duo principia illorum 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e509">
+                  <lb ed="#A" n="8"/>¶ Tertio ex boni condicionibus. quia omne quod 
+      <lb ed="#A" n="9"/>oeus bonus fecit est bonum. Gen i. et per consequens 
+      <lb ed="#A" n="10"/>diligendum. et nil ex illis est odiendum. Sed mudus 
+      <lb ed="#A" n="11"/>iste est odiendus. i. Ioan. ii. Nolite diligere 
+      mun<lb ed="#A" n="12" break="no"/>dum neque ea que sunt in mundo. ergo etc. Item deus est 
+      <lb ed="#A" n="13"/>ex bonitate causa rerum conditiua. et per consequens 
+      <lb ed="#A" n="14"/>nullius est causa destructiua. quia idem similiter se 
+      ha<lb ed="#A" n="15" break="no"/>bens. semper natum est facere idem. ii de generatione. Si 
+      <lb ed="#A" n="16"/>cuti ignis semper facit calidum non frigidum. sed corrupti 
+      <lb ed="#A" n="17"/>bilia destruuntur. ergo non sunt a bono deo sed ab alio 
+      <lb ed="#A" n="18"/>principio. Plures huiusmodi rationes ad probandum 
+      in<lb ed="#A" n="19" break="no"/>ducit quas transeo causa brevitatis. 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e538">
+                  <lb ed="#A" n="20"/>¶ Quo ad secundum scilicet respondem 
+      <lb ed="#A" n="21"/>do ad has scripturas et argumentationes secundum 
+      praedi<lb ed="#A" n="22" break="no"/>ctos doctores claret quod Manichei ex malo 
+      intel<lb ed="#A" n="23" break="no"/>iectu scripturarum sumpserunt talem errorem: quamuis 
+      pen<lb ed="#A" n="24" break="no"/>cendat aliquam speciem pietatis in eo quod deo bonc 
+      <lb ed="#A" n="25"/>attribuit bona et nobilia. et principio malorum 
+      ma<lb ed="#A" n="26" break="no"/>la. vt sic simplices magis capiat falsa imaginatio 
+      <lb ed="#A" n="27"/>ne contra fidem ecclesie.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e558">
+      ¶ Unde ad primum de autori 
+      <lb ed="#A" n="28"/>tatibus respondetur hoc generaliter esse tenendum quod 
+      <lb ed="#A" n="29"/>mundus in scriptura accipitur aliquando pro mundiali 
+      cre<lb ed="#A" n="30" break="no"/>atura. Et vt sic omnia sunt a deo et bona nec 
+      odien<lb ed="#A" n="31" break="no"/>da. Sed aliquando mundus accipitur pro mundiali 
+      conuersa<lb ed="#A" n="32" break="no"/>tione in mundanis delectamentis que inclinant ad 
+      vi<lb ed="#A" n="33" break="no"/>cia. et vt sic sunt contemnenda. Et de mundo 
+      intelli<lb ed="#A" n="34" break="no"/>guntur isto modo iste autoritates. videlicet Regnum meum 
+      <lb ed="#A" n="35"/>non est de hoc mundo id est de mundana conuersatione. quia 
+      <lb ed="#A" n="36"/>deus non regnat per suam gratiam in malis sed in bonis. 
+      <lb ed="#A" n="37"/>Similiter quod diabolus dicitur prenceps mundi huius 
+      intelli<lb ed="#A" n="38" break="no"/>gitur id est mundialiter in peccatis viuentium quibus 
+      prin<lb ed="#A" n="39" break="no"/>cipatur per peccatum. Nec sequitur. est princeps 
+      mundi<lb ed="#A" n="40" break="no"/>vel rector. ergo est factor vel conditor mundi. quia 
+      <lb ed="#A" n="41"/>rex Francie licet dicatur princeps vel dominus Francie: non 
+      <lb ed="#A" n="42"/>tamen sequitur quod sit conditor vel factor Francie. A similiter 
+      <lb ed="#A" n="43"/>in proposito. Denique quod diabolus vocatur deus seclsi vel 
+      <lb ed="#A" n="44"/>tenebrarum. sic vocatur deus nuncupatiue. sicut Phil. 
+      <lb ed="#A" n="45"/>iii. c. dicitur nuncupatiue. Quorum deus venter est. 
+      <lb ed="#A" n="46"/>nec sequitur quod ergo venter creauit illos. Ecce ergo 
+      <lb ed="#A" n="47"/>stulticia manichei.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e604">
+      ¶ Ad secundum de rationibus 
+      in<lb ed="#A" n="48" break="no"/>ductis. cum dicitur Oppositorum opposite sunt cause 
+      <lb ed="#A" n="49"/>Dicendum est quod hoc intelligitur de causis 
+      intrinse<lb ed="#A" n="50" break="no"/>cis proximis. Nam de causa extrinseca non habet 
+      ve<lb ed="#A" n="51" break="no"/>ritatem. Si enim contrariorum contrarie essent 
+      cau<lb ed="#A" n="52" break="no"/>se prime extrinsece: sequeretur quod tot essent prima 
+      prin<lb ed="#A" n="53" break="no"/>cipia quot genera contrarietatum. ergo alius deus 
+      <lb ed="#A" n="54"/>fecisset calidum. alius frigidum. alius siccum. alius 
+      hu<lb ed="#A" n="55" break="no"/>midum. Similiter cum dicitur. Caro concupiscit aduersus 
+      <lb ed="#A" n="56"/>spiritum etc. Ibi caro non accipitur pro natura carnis. quia 
+      <lb ed="#A" n="57"/>sic non aduersatur. sed pro vicio et corruptione que est 
+      <!--404.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>in carne. Et hec non habet causam contrariam efficti 
+      <lb ed="#A" n="59"/>entem sed tantum deficientem. Similiter idem vnus deus qui 
+      <lb ed="#A" n="60"/>condidit nouum testamentum et inuisibilia ipse 
+      con<lb ed="#A" n="61" break="no"/>didit et antiquum et visibilia. Et in eis dedit varia 
+      <lb ed="#A" n="62"/>precepta hominibus pro varietate temporum scilicet in 
+      no<lb ed="#A" n="63" break="no"/>ua lege perfectiora vt adimpleret perfectionem veteris 
+      <lb ed="#A" n="64"/>egis. Ideo dixit Matth. vii. Nisi abundauerit 
+      <lb ed="#A" n="65"/>iusticia vestra plus quam scribarum etc.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e651">
+      ¶ Ad tertium 
+      com<lb ed="#A" n="66" break="no"/>similiter dicendum quod mundus inquantum creatura 
+      bo<lb ed="#A" n="67" break="no"/>nus est. sed mundus vt capitur pro malicia 
+      mun<lb ed="#A" n="68" break="no"/>di odiendus est. Item idem agens semper natum est 
+      fa<lb ed="#A" n="69" break="no"/>cere idem quando agit seipso. et sic deus idem ma 
+      <lb ed="#A" n="70"/>nens diuersa agit nec variatur per hoc in seipso. 
+      <lb ed="#A" n="71"/>Sed agens per aliud hoc variatur in agendo 
+      di<lb ed="#A" n="72" break="no"/>uersa. Unde deus bonus quantum ex seipso semper 
+      <lb ed="#A" n="73"/>pona condit et non destruit illa secundum genus sed 
+      cor<lb ed="#A" n="74" break="no"/>rumpuntur ex secunda causa que est defectiua. et 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h124838-Dd1e674">
+               <head xml:id="Vn7Pel-h124838-Hd1e676">4</head>
+               <p xml:id="Vn7Pel-h124838-d1e678">
+                  <lb ed="#A" n="75"/>¶ Quo ad tertium infertur 
+      conclu<lb ed="#A" n="76" break="no"/>sio quod ponere duo principia prima est erroris 
+      da<lb ed="#A" n="77" break="no"/>nnabilis potius quam alicuius verisimilitudinis. 
+      <lb ed="#A" n="78"/>Patet tripliciter secundum eundem Bonauenturam. 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e689">
+                  <lb ed="#A" n="79"/>¶ Primo quia hunc errorem damnat fides et 
+      scri<lb ed="#A" n="80" break="no"/>ptura. Secundo ratio et omnis philosophia. 
+      Ter<lb ed="#A" n="81" break="no"/>tio damnat experientia
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e698">
+      ¶ Nam primo fides 
+      catho<lb ed="#A" n="82" break="no"/>lica damnat ex concilio Niceno di. Credo in vnum 
+      <lb ed="#A" n="83"/>deum: factore visibilium omnium et inuisibilium. 
+      Con<lb ed="#A" n="84" break="no"/>similiter damnat sacra scriptura di. Gen i. In 
+      prin<lb ed="#A" n="85" break="no"/>cipio creauit deus caelum et terram. Cum enim dicit In 
+      <lb ed="#A" n="86"/>principio vno. non in principiis pluribus eliditur 
+      <lb ed="#A" n="87"/>error ponentium plura principia: vt tangit etiam ma 
+      <lb ed="#A" n="88"/>gister sententiarum. in. ii. di. i. Sicut est error Pythago 
+      <lb ed="#A" n="89"/>re a quo ortus est error Manichei Nam vt 
+      di<lb ed="#A" n="90" break="no"/>cit Eustracius super i i.t Ethicorum. Pythagoras 
+      pri<lb ed="#A" n="91" break="no"/>mo posuit duo principia. Unum bonorum. aliud ma 
+      <lb ed="#A" n="92"/>lorum et tenebrarum. Et ab hinc secundum Guill. supra 
+      <lb ed="#A" n="93"/>ortum habuit error Manichei consimilis: quem 
+      <lb ed="#A" n="94"/>etiam damnat scriptura Gen. subdendo quod deus 
+      <lb ed="#A" n="95"/>fecit lucem ac tenebras. sicut et caelum et terram. et 
+      <lb ed="#A" n="96"/>per consequens omnia que in eis sunt. Unde et Ioan. 
+      <lb ed="#A" n="97"/>it dicitur. Omnia per ipsum facta sunt id est per verbum dei. 
+      <lb ed="#A" n="98"/>Sed manichei intelligunt sic. Omnia scilicet 
+      inuisi<lb ed="#A" n="99" break="no"/>bilia vt sit distributio accommoda. Contra quod se 
+      <lb ed="#A" n="100"/>quitur ibidem. et mundus per ipsum factus est. et 
+      mun<lb ed="#A" n="101" break="no"/>dus eum nodno cognouit. En loquitur de mundo et 
+      <lb ed="#A" n="102"/>malis.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e746">
+      ¶ Secundo damnat ratio et philosophia 
+      <lb ed="#A" n="103"/>hunc errore. Primo quia si sic esset sequeretur quod 
+      <lb ed="#A" n="104"/>diuina potentia non esset infinite virtutis sed 
+      limi<lb ed="#A" n="105" break="no"/>tate contra Philosophum. viii. physicorum. eo quod non 
+      <lb ed="#A" n="106"/>possunt facere corporalia. Secundo quia sic deus 
+      <lb ed="#A" n="107"/>circumscriptibilis esset. puta vt esset solum in regione 
+      <lb ed="#A" n="108"/>lucis. et ita nec deus esset deus. nec omnia 
+      ordi<lb ed="#A" n="109" break="no"/>nata essent in deum vt in finem vltimum. que sunt ab 
+      <lb ed="#A" n="110"/>surdissima. Tertio quia omnia corporalia aut 
+      <lb ed="#A" n="111"/>sunt bona aut mala. Si bona. ergo sunt a deo 
+      <lb ed="#A" n="112"/>bono a quo est omne bonum. vt dicitur Iaco i. et sic habter propositum 
+      <lb ed="#A" n="113"/>Si sunt mala vt Manichei dicunt: sequitur 
+      <lb ed="#A" n="114"/>ergo quod corruptio eorum est bona. et per conseques inquantum 
+      <!--405.xml-->
+      <pb ed="#A" n="406"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>corruptibilia sunt a deo bono. quod ipsi negant et 
+      fal<lb ed="#A" n="2" break="no"/>so.
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e786">
+      ¶ Tertio damnat hunc errorem experientia. quia 
+      vide<lb ed="#A" n="3" break="no"/>mus quod idem artifex per eandem arte faciendi domum 
+      <lb ed="#A" n="4"/>construit domum et cloacam. nec opertet propterea fieri alium 
+      <lb ed="#A" n="5"/>artificem. Item medicus eadem arte medicine eidem egro 
+      <lb ed="#A" n="6"/>to secundum diuersos status diuersa apponit medicamen 
+      <lb ed="#A" n="7"/>ta et diuersa dat praecepta. Item idem sol sine sui muta 
+      <lb ed="#A" n="8"/>tione lutum indurat et ceram siquefacit. sic etc
+     </p>
+               <p xml:id="Vn7Pel-h124838-d1e802">
+      ¶ Ex dictis 
+      <lb ed="#A" n="9"/>patet etiam error variorum philosophorum de pluralitate 
+      princi<lb ed="#A" n="10" break="no"/>piorum rerum qui ex eisdem praedictis radicibus improbari 
+      <lb ed="#A" n="11"/>possunt. Unde patet quod opinio Democriti est falsa 
+      <lb ed="#A" n="12"/>el erronea quae posuit solum vnum principium omnium. sed 
+      il<lb ed="#A" n="13" break="no"/>lud vocauit materiam primam. Cuius oppositum claret. 
+      <lb ed="#A" n="14"/>quia illud principium est a deo creatum: teste scriptura. 
+      <lb ed="#A" n="15"/>In principio creauit deus caelum et terram. Item Empedo 
+      <lb ed="#A" n="16"/>cles posuit in rebus sex principia. duo actiua. litem et 
+      <lb ed="#A" n="17"/>amiciciam. et quattuor materialia. videlicet quattuor 
+      elemen<lb ed="#A" n="18" break="no"/>ta. Et plures huiusmodi opiniones philosophorum habentur 
+      sati<lb ed="#A" n="19" break="no"/>tacte vbi <ref xml:id="Vn7Pel-h124838-Rd1e828">Mundus. § xvii.</ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h124838-Dd1e833">
+               <head xml:id="Vn7Pel-h124838-Hd1e835">5</head>
+               <p xml:id="Vn7Pel-h124838-d1e837">
+                  <lb ed="#A" n="20"/>¶ Utrum sicut omnium tam visibilium 
+      <lb ed="#A" n="21"/>quam inuisibilium principium est vnum summum. sic et finis 
+      <lb ed="#A" n="22"/>vnicus sit omnium rerum. Respondetur secundum <ref xml:id="Vn7Pel-h124838-Rd1e845">Guill. e. di. i. li. ii.</ref>
+                  <lb ed="#A" n="23"/>per conclusionem quod sic. Probatur: quia summum bonum et finis 
+      <lb ed="#A" n="24"/>vltimus sunt ide. Ideo <ref xml:id="Vn7Pel-h124838-Rd1e852">Arist. ii. Metaph.</ref> dicit. 
+      <lb ed="#A" n="25"/>quod qui tollit rationem finis: tollit rationem boni. Cum ergo 
+      <lb ed="#A" n="26"/>sint idem: sequitur quod cum vnicum sit summum bonum. quia 
+      <lb ed="#A" n="27"/>
+                  <ref xml:id="Vn7Pel-h124838-Rd1e860">ex. v. Topicorum.</ref> Quod per superabundantiam dicitur vni 
+      so<lb ed="#A" n="28" break="no"/>li conuenit. ergo vnus est finis omnium. sicuti est vnicum 
+      prin<lb ed="#A" n="29" break="no"/>cipium omnium: videlicet deus. Unde ipse solus est 
+      lauda<lb ed="#A" n="30" break="no"/>bilis super omnia et in omnibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h124838-Dd1e871">
+               <head xml:id="Vn7Pel-h124838-Hd1e873">6</head>
+               <p xml:id="Vn7Pel-h124838-d1e875">
+                  <lb ed="#A" n="31"/>¶ Utrum principium summum omni 
+      <lb ed="#A" n="32"/>un scilicet deus sit finis visibilium per inuisibilia. Respon 
+      <lb ed="#A" n="33"/>det idem Guill. supra. difficultate i. quod deus seipso 
+      ex<lb ed="#A" n="34" break="no"/>tat finis sicut et principium tam visibilium quam inuisibilium. 
+      <lb ed="#A" n="35"/>verum tamen est quod secundum regulam Diony. de angelica 
+      <lb ed="#A" n="36"/>hierar. datam. sicut inferiora videlicet visibilia diriguntur 
+      <lb ed="#A" n="37"/>per superiora. ita ista inferiora et visibilia per media 
+      <lb ed="#A" n="38"/>in summa reducuntur ac in deum vt in vltimum finem. 
+      </p>
+               <p xml:id="Vn7Pel-h124838-d1e895">
+                  <lb ed="#A" n="39"/>¶ Unde si quaeratur. Quomdo hunc vltimum finem et summum 
+      <lb ed="#A" n="40"/>principium attingere possunt entia quae sunt 
+      simpli<lb ed="#A" n="41" break="no"/>citer insensibilia. vt lapides aut vegetabilia. aut 
+      <lb ed="#A" n="42"/>simpliciter sensitiua. vt bruta. Respondet idem Guill. e. di. 
+      <lb ed="#A" n="43"/>iet quod talia licet non attingant finem vltimum quemadmodum 
+      <lb ed="#A" n="44"/>mens rationalis cognoscendo et diligendo: tamen 
+      ordi<lb ed="#A" n="45" break="no"/>nantur in eum sicut imperfecta ad perfectum. et quia propter eum 
+      <lb ed="#A" n="46"/>laudandum facta sunt qui propter seipsum omnia operatus est 
+      <lb ed="#A" n="47"/>Prouer. xvi. Et hec est ratio finis. quia finis est cuis 
+      <lb ed="#A" n="48"/>gratia fiunt cetera etc. Unde dei bonitas in omnibus 
+      cla<lb ed="#A" n="49" break="no"/>ret laudabilis vt principium et finis omnium 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

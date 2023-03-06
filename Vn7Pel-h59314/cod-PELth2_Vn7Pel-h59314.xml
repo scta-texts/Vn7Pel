@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elementum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Elementum</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="194"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-h59314">
+            <head xml:id="Vn7Pel-h59314-Hd1e110">Elementum</head>
+            <div xml:id="Vn7Pel-h59314-Dd1e112">
+               <head xml:id="Vn7Pel-h59314-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-h59314-d1e116">
+                  <lb ed="#A" n="71"/>p. emetum Nota 
+      <lb ed="#A" n="72"/>quod Guillermus de Conchis dicit 
+      Ele<lb ed="#A" n="73" break="no"/>mentum inquit est. quod in constitutione 
+      cor<lb ed="#A" n="74" break="no"/>poris inuenitur primum. quia constituit: non constituitur. et 
+      <lb ed="#A" n="75"/>in resolutione est postremum. quia non diuiditur. Et hec 
+      <lb ed="#A" n="76"/>clarent etiam ex Auicenna de med. li. i. dicit. Elemen 
+      <lb ed="#A" n="77"/>ta sunt corpora prima omnium corporum principia que 
+      <lb ed="#A" n="78"/>in corpora diuersa formarum diuidi minime 
+      pos<lb ed="#A" n="79" break="no"/>sunt: ex quorum commixtione diuerse species generantur 
+      <lb ed="#A" n="80"/>Et Aristotele. li. iii. de celo et mundo dicit Omne inquit 
+      <lb ed="#A" n="81"/>corpus aut est elementum: aut ex elemento 
+      composi<lb ed="#A" n="82" break="no"/>tum. Elementum autem est ad quod cetera corpora 
+      resol<lb ed="#A" n="83" break="no"/>uuntur vltimo et est in eis potentia vel actu: sed 
+      <lb ed="#A" n="84"/>praeum non resoluitur nec cadit sub corruptione. vnde 
+      <lb ed="#A" n="85"/>Elementum est corpus simplex: non compositum 
+      <lb ed="#A" n="86"/>Hec ibi. Nam elementum non est compositum ex 
+      elea<lb ed="#A" n="87" break="no"/>mentis. Huiusmodi autem corpora simplicia hoc est 
+      ele<lb ed="#A" n="88" break="no"/>menta secundum omnes tam philosophos quam theologos sunt quat 
+      <lb ed="#A" n="89"/>tuor. videlicet Ignis: Terra: Aer: et Aqua. Ex his 
+      con<lb ed="#A" n="90" break="no"/>ponuntur primo et resoluuntur in hec vltimo omnia 
+      mi<lb ed="#A" n="91" break="no"/>xta corpora. Et secundum Isid. in principio ista elementa 
+      fe<lb ed="#A" n="92" break="no"/>cit deus formando ex materia confusa primo 
+      crea<lb ed="#A" n="93" break="no"/>ta. Et postea ex istis elementis facta sunt queque 
+      <lb ed="#A" n="94"/>mixta corpora. De hoc vbi <ref xml:id="Vn7Pel-h59314-Rd1e170">Corpus. §. viii. et ix. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e174">
+               <head xml:id="Vn7Pel-h59314-Hd1e176">2</head>
+               <p xml:id="Vn7Pel-h59314-d1e178">
+                  <lb ed="#A" n="95"/>¶ Sed queritur Cur deus illam 
+      <lb ed="#A" n="96"/>confusionem quattuor elementorum primo fecerit: quanm 
+      <lb ed="#A" n="97"/>tamen non diu permansuram coguit: Respondetur secundum 
+      Guil<lb ed="#A" n="98" break="no"/>er. de Conch. quod ex quo omne opus aut est creatoris 
+      so<lb ed="#A" n="99" break="no"/>lius: vt anime ex nihilo creatio: et prime materie 
+      cre<lb ed="#A" n="100" break="no"/>atio: mortuorum resuscitatio: et miraculorum operatio. 
+      <lb ed="#A" n="101"/>Aut est opus nature quae est quaedam vis insita rebus similia 
+      <lb ed="#A" n="102"/>ex similibus procreams scilicet quod homines ex hominibus nascantur: 
+      asi<lb ed="#A" n="103" break="no"/>ni de asinis. et sic de aliis. Aut tertio est opus 
+      ar<lb ed="#A" n="104" break="no"/>tificis: vt domus: vestis: et huiusmodi. Sed quia natura 
+      <lb ed="#A" n="105"/>aliquid operando non potest ad opus creatoris 
+      ascende<lb ed="#A" n="106" break="no"/>re: nec artifex ad opus nature. Uoluit ergo deus 
+      cre<lb ed="#A" n="107" break="no"/>itor olu aliquo modo ad illorum operationem 
+      conde<lb ed="#A" n="108" break="no"/>scendere. vt sicut natura cum aliquid operatur: primo 
+      quod<lb ed="#A" n="109" break="no"/>dam commixtum onatur. deinde paulatim format et di¬ 
+      <!--194.xml-->
+      <pb ed="#A" n="195"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>uidit: vt patet in Embryone. Ita deus licet aliter 
+      pos<lb ed="#A" n="2" break="no"/>set facere: tamen voluntarie sic fecit: primo confusam vel 
+      <lb ed="#A" n="3"/>commixtam materiam creando: postea formando etc. 
+      <lb ed="#A" n="4"/>Alia ratio. Nam primo mixtum deus creauit vel 
+      confusu<lb ed="#A" n="5" break="no"/>vt significaret quanta confusio rerum esse posset 
+      nisi<lb ed="#A" n="6" break="no"/>fua dilectio diuina res ordinaret vel distingue. 
+      <lb ed="#A" n="7"/>ret etc. Ecce dei bonitas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e236">
+               <head xml:id="Vn7Pel-h59314-Hd1e238">3</head>
+               <p xml:id="Vn7Pel-h59314-d1e240">
+                  <lb ed="#A" n="8"/>¶ Quid de qualitatibus 
+      elemen<lb ed="#A" n="9" break="no"/>torum et synzugia eorum id est coniugatione. De hoc 
+      No<lb ed="#A" n="10" break="no"/>ta Primo quod Synzugia quantum ad vocem est 
+      con<lb ed="#A" n="11" break="no"/>iugatio in latino: vt dicitur libro Catholicon. a synde quod est 
+      <lb ed="#A" n="12"/>con: et zugum id est iugum. vnde proportionalis coniunctio 
+      ele<lb ed="#A" n="13" break="no"/>mentorum vel numerorum grece dicitur synzugia: quasi eidem 
+      <lb ed="#A" n="14"/>iugo subiacens vel coiucta. Est ergo in proposito 
+      Syr<lb ed="#A" n="15" break="no"/>dugia eorum que in qualitatibus differunt per medium 
+      com<lb ed="#A" n="16" break="no"/>iunctio. Exepli gratia. Elementum infimum scilicet terra. et 
+      <lb ed="#A" n="17"/>supremum scilicet ignis: duobus mediis scilicet aqua et aere 
+      pro<lb ed="#A" n="18" break="no"/>portionabiliter coniunguntur. Sed duo media ad 
+      <lb ed="#A" n="19"/>hec extrema: puta aqua igni. et aer terre vno 
+      me<lb ed="#A" n="20" break="no"/>dio coniunguntur. Proxime autem vicina sibi mutuo 
+      <lb ed="#A" n="21"/>naturali ratione: vt dicit Isi. libro etymols. sic coniuncta 
+      <lb ed="#A" n="22"/>sunt vt ignis in aere sibi proximo desinat scilicet 
+      arde<lb ed="#A" n="23" break="no"/>re. Aer aut in aqua densetur cum vapor spissatur. et aqua in 
+      <lb ed="#A" n="24"/>terra crassescat. rursusque terra diluatur in aquam. 
+      <lb ed="#A" n="25"/>et aqua in aereni( vt dicitur. i. Metheo. ) rarescat scilicet 
+      euapo<lb ed="#A" n="26" break="no"/>rando. Aer autem extenuetur in ignem. Propterea lir. 
+      <lb ed="#A" n="27"/>de imagine mundi Beda dicit: quod singula elementa 
+      <lb ed="#A" n="28"/>propriis qualitatibus quasi quibusdam brachiis se inuicenm 
+      <lb ed="#A" n="29"/>tenent coniunctim: et discordie sue naturam qua 
+      diffe<lb ed="#A" n="30" break="no"/>runt concordi federe vicissim commiscent: ita quod ter 
+      <lb ed="#A" n="31"/>ra quae est frigida et sicca: frigide aque conectitur. Aqua 
+      <lb ed="#A" n="32"/>quoque frigida et humida aeri huido astringitur: et sic 
+      tamn<lb ed="#A" n="33" break="no"/>que media participat in vna qualitate scilicet in frigidita 
+      <lb ed="#A" n="34"/>te cum terra: et in alia scilicet in humiditate cum aere. 
+      Rur<lb ed="#A" n="35" break="no"/>sus aer humidus et calidus: calido igni associe 
+      <lb ed="#A" n="36"/>tur. Denique ignis calidus et siccus ad terram in 
+      sic<lb ed="#A" n="37" break="no"/>citate concordat. Ex his terra vtpote grauissima 
+      <lb ed="#A" n="38"/>infimum locum: et ignis vtpote leuissimus supremum 
+      lo<lb ed="#A" n="39" break="no"/>cum obtinet. Similiter alia duo media quorum aqua 
+      graui<lb ed="#A" n="40" break="no"/>or: terre proximat. Aer autem leuior: igni etc. Item secundum 
+      <lb ed="#A" n="41"/>quosdam elementa habent synzugire id est couenire etiam in 
+      <lb ed="#A" n="42"/>pondere: ita quod quanto terra ponderosior est quam aqua: 
+      <lb ed="#A" n="43"/>tantum aqua aere: et aer igne. et econtra proportionaliter. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e322">
+               <head xml:id="Vn7Pel-h59314-Hd1e324">3</head>
+               <p xml:id="Vn7Pel-h59314-d1e326">
+                  <lb ed="#A" n="44"/>¶ Sed quo Elementa possint 
+      com<lb ed="#A" n="45" break="no"/>sungi in mixtionem alicuius corporis animalis vel alte 
+      <lb ed="#A" n="46"/>rius rei. Cum enim elementa habeant diuersas sphe 
+      <lb ed="#A" n="47"/>ras Quero ergo An de sphera ignis descendat ad 
+      <lb ed="#A" n="48"/>corpus aliquod commiscendum in terra: vel non: Si non 
+      <lb ed="#A" n="49"/>ergo non erit in commixtione. Si autem descendit de sua 
+      <lb ed="#A" n="50"/>sphera ignis: hoc non potest esse per naturam: eo quod est 
+      le<lb ed="#A" n="51" break="no"/>uis: et ideo naturaliter tendit sursum: et descendere 
+      <lb ed="#A" n="52"/>sibi est contra naturam. ergo etc. Item cum ignis deberet 
+      descen<lb ed="#A" n="53" break="no"/>dere per medium interstitium aeris quod est frigidissimum: 
+      <lb ed="#A" n="54"/>necessario haberet extingui anquam perueniret ad 
+      mi<lb ed="#A" n="55" break="no"/>xtionem. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e355">
+      ¶ Respondetur secundum Bonauen. in. ii di. xv 
+      <lb ed="#A" n="56"/>q. ii ar i. quod non est sic intelligendum quando deus in 
+      pri<lb ed="#A" n="57" break="no"/>mordio fecit corpora animalium: vel etiam modo dum fit 
+      <!--194.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>mixtio elementorum componendo corpus aliquod: quod tunc 
+      <lb ed="#A" n="59"/>ex diuersis spheris faciat concurrere elementa in 
+      <lb ed="#A" n="60"/>mixtum corpus vel ignem qui sursum est: vel aerem 
+      <lb ed="#A" n="61"/>descendere. Sed sic intelligendum est quod ad mixtionem 
+      <lb ed="#A" n="62"/>concurrit ignis vel aer qui est in terra. Nam elementa 
+      <lb ed="#A" n="63"/>sunt mutuo permixta secundum partem qua se contingunt. vel 
+      <lb ed="#A" n="64"/>ignis qui generatur per actionem alicuius agentis venit 
+      <lb ed="#A" n="65"/>ad constitutionem corporis animalis: non quod 
+      forma<lb ed="#A" n="66" break="no"/>liter maneat in mixto secundum substantiam propriam vel 
+      qua<lb ed="#A" n="67" break="no"/>litates proprias: sed solum in virtute. vt dictum est vbi 
+      <lb ed="#A" n="68"/>
+                  <ref xml:id="Vn7Pel-h59314-Rd1e389">Corpus humanum. §. viii.</ref> et ix. Huiusmodi autem 
+      elemen<lb ed="#A" n="69" break="no"/>torum concursus in mixto corpore fit per naturam: non per 
+      <lb ed="#A" n="70"/>violetiam. Quia enim natura semper desiderat id quod 
+      me<lb ed="#A" n="71" break="no"/>lius est: secundum philosophum. ideo materia que est sub forma 
+      <lb ed="#A" n="72"/>elementari puta materia ignis: aeris: aque: vel 
+      ter<lb ed="#A" n="73" break="no"/>re appetit esse sub forma mixti. Et quae est sub forma 
+      <lb ed="#A" n="74"/>mixti appetit esse sub forma complexionis scilicet corporis 
+      <lb ed="#A" n="75"/>viui. Ideo cum ex diuersis elementis fit mixtimo in 
+      <lb ed="#A" n="76"/>vnum: appetitus nature completur et violentia non 
+      <lb ed="#A" n="77"/>infertur. Hec <name xml:id="Vn7Pel-h59314-Nd1e411">Bonauentura</name>. 
+      </p>
+               <p xml:id="Vn7Pel-h59314-d1e414">
+                  <lb ed="#A" n="78"/>¶ De Elementis in corpore 
+      mi<lb ed="#A" n="79" break="no"/>xto plura habentur vbi <ref xml:id="Vn7Pel-h59314-Rd1e420">Corpus humanum. §. variis </ref>
+               </p>
+               <p xml:id="Vn7Pel-h59314-d1e423">
+                  <lb ed="#A" n="80"/>¶ Item de elemento ignis 
+      vide<lb ed="#A" n="81" break="no"/>vbi ignis. Et plura ibi per totum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e432">
+               <head xml:id="Vn7Pel-h59314-Hd1e434">5</head>
+               <p xml:id="Vn7Pel-h59314-d1e436">
+                  <lb ed="#A" n="82"/>¶ De Elemento aeris in 
+      specia<lb ed="#A" n="83" break="no"/>li queritur Quales habet aer proprietates: Respondetur 
+      <lb ed="#A" n="84"/>secundum Damascenum li. ii. c. viii. vbi dicit sic. Aer est 
+      ele<lb ed="#A" n="85" break="no"/>mentum tenuissimum: calidum: et humidum: 
+      respira<lb ed="#A" n="86" break="no"/>tionis et vocis causa scilicet materialis: incoloratum. quia 
+      <lb ed="#A" n="87"/>ex natura sua colorem non habet: lucidum 
+      transpari<lb ed="#A" n="88" break="no"/>bile. luminis enim est susceptiuum et tribus sensibus 
+      <lb ed="#A" n="89"/>nostris ministrans. per id enim audimus videmus: 
+      ol<lb ed="#A" n="90" break="no"/>facimus. susceptiuum caumati id est incendii et caloris 
+      <lb ed="#A" n="91"/>et frigoris: siccitatis et humiditatis. Nam aer secundum 
+      <lb ed="#A" n="92"/>propriam naturam est calidus. infrigidatur autem vicir 
+      <lb ed="#A" n="93"/>nitate terre et aque. ita vt inferiores partes eius sint 
+      <lb ed="#A" n="94"/>frigide. superiores autem calide. Hec Dam. Item ex 
+      <lb ed="#A" n="95"/>libro de nat. re. Aer rarus est prae aliis scilicet elementis et 
+      <lb ed="#A" n="96"/>leuis: mobilis: auibus paruius: nubibus obscuratur 
+      <lb ed="#A" n="97"/>et pluuiam significat: sole illustratur: hyeme 
+      conden<lb ed="#A" n="98" break="no"/>satur: estate serenatur: nube tenebratur et densatur: 
+      ven<lb ed="#A" n="99" break="no"/>to agitatur: inter ceteras qualitates elementares 
+      <lb ed="#A" n="100"/>maxime passiuus est: motu frigescit: cum 
+      tamen<lb ed="#A" n="101" break="no"/>terra et aqua non frigescant motu sed calescant. vnde 
+      <lb ed="#A" n="102"/>aque veloci cursu fluentes non tam facile 
+      inglacian<lb ed="#A" n="103" break="no"/>tur sicut stantes. hominis autem flatu contingit aerem et 
+      in<lb ed="#A" n="104" break="no"/>frigescere et incalescere. Hec libro de nat. re. paucis 
+      <lb ed="#A" n="105"/>additis aliunde Ex quibus patet ad quaesitum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e492">
+               <head xml:id="Vn7Pel-h59314-Hd1e494">6</head>
+               <p xml:id="Vn7Pel-h59314-d1e496">
+                  <lb ed="#A" n="106"/>¶ Sed vnde est quod in aere fit sepius 
+      <lb ed="#A" n="107"/>corruptio prae aliis elementis ad infirmitates 
+      ge<lb ed="#A" n="108" break="no"/>nerandas in animalibus Respondetur secundum Philosophos 
+      colli<lb ed="#A" n="109" break="no"/>gendo ex libro de nat. re. et aliunde
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e507">
+      ¶ Una ratio est ex 
+      <lb ed="#A" n="110"/>parte ipsius aeris. quia est pre aliis passiuus et 
+      <!--195.xml-->
+      <pb ed="#A" n="196"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quodammodo crassus: terra et aqua et igne 
+      per<lb ed="#A" n="2" break="no"/>mixtus. Et quia est ex contrariis elementis simul. 
+      <lb ed="#A" n="3"/>permixtis. Idcirco etiam fiunt in eo venti: niues: gram 
+      <lb ed="#A" n="4"/>dines: imbres fulmen flamma: coruscationes et 
+      hu<lb ed="#A" n="5" break="no"/>iusmodi. quia ex contrarietate elementorum vehementiam 
+      pa<lb ed="#A" n="6" break="no"/>titur. Unde et eius corruptione pestilentie et infirmitates 
+      <lb ed="#A" n="7"/>generantur.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e533">
+      ¶ Alia ratio est ex accidentalibus 
+      circumstan<lb ed="#A" n="8" break="no"/>tiis ex quibus aer facillime corrumpitur: maxime quando 
+      <lb ed="#A" n="9"/>non mouetur. Sicut videmus et in aqua quiete stante quod faci 
+      <lb ed="#A" n="10"/>lius corrumpitur quam si sit fluens Similiter facillime 
+      corrum<lb ed="#A" n="11" break="no"/>pitur aer ex circumstantia loci. quia circa paludinosa 
+      <lb ed="#A" n="12"/>loca et humidas condensatur et facillime corrumpitur 
+      <lb ed="#A" n="13"/>ex fumositate paludum. Sed circa montes aer sub 
+      <lb ed="#A" n="14"/>tilis est nimium ac penetrabilis. Mediocribus autem 
+      <lb ed="#A" n="15"/>locis id est nec nimis altis nec nimis demissis aer 
+      <lb ed="#A" n="16"/>est optimus
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e555">
+      ¶ Tertia ratio est ex vicinitate alicuius 
+      <lb ed="#A" n="17"/>corrupti aeris et infectionis: ex qua fiunt morbi et 
+      pe<lb ed="#A" n="18" break="no"/>stes in hominibus vel animalibus. Nam sicut qui valde 
+      se<lb ed="#A" n="19" break="no"/>pe leproso se iungit. inficitur ex contagioso anhelitu 
+      <lb ed="#A" n="20"/>et aeris inspiratione vel infecti contagione. sic et in 
+      pe<lb ed="#A" n="21" break="no"/>stilentiis vnus inficitur ex altero approximato. Quandoque 
+      <lb ed="#A" n="22"/>etiam ventus perflans et adueniens ex aere regionis 
+      infe<lb ed="#A" n="23" break="no"/>tte adducit pestem etc. Uude quia in partibus calidioribus 
+      <lb ed="#A" n="24"/>pruta meridionali et occidentali. aer facilius corrum 
+      <lb ed="#A" n="25"/>ptibilis est. Idcirco Hali et quidam phlosophi. dicunt quod 
+      <lb ed="#A" n="26"/>beata est ciuitas quae sita est sic quod ab occidente et eat 
+      <lb ed="#A" n="27"/>meridie habet montes eminetes. hoc ioeo. quia pro 
+      ob<lb ed="#A" n="28" break="no"/>staculo sunt afflatui venti ex partibus illis magis 
+      infe<lb ed="#A" n="29" break="no"/>ctibilibus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e587">
+               <head xml:id="Vn7Pel-h59314-Hd1e589">7</head>
+               <p xml:id="Vn7Pel-h59314-d1e591">
+                  <lb ed="#A" n="30"/>¶ Quid de magnitudine aeris. 
+      <lb ed="#A" n="31"/>de hoc Nota secundum Aristo. li. iii. de Celo et mundo. 
+      <lb ed="#A" n="32"/>Aer plus est in magnitudine id est expassione quam aqua 
+      <lb ed="#A" n="33"/>Elementum ergo aque minus est elemento aeris 
+      <lb ed="#A" n="34"/>Quanto enim elementum quodlibet est rarius 
+      <lb ed="#A" n="35"/>et subtilius: tanto pluris est magnitudinis et 
+      lo<lb ed="#A" n="36" break="no"/>cum occupat maiorem Et quanto spissius 
+      tan<lb ed="#A" n="37" break="no"/>lo minorem Unde idem philosophus dicit. quod ex vno pugil 
+      <lb ed="#A" n="38"/>lo aque fiunt decem aeris. ergo etc. Unde dei sapientia 
+      lau<lb ed="#A" n="39" break="no"/>dabilis que sic ordinauit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e616">
+               <head xml:id="Vn7Pel-h59314-Hd1e618">8</head>
+               <p xml:id="Vn7Pel-h59314-d1e620">
+                  <lb ed="#A" n="40"/>¶ Quomodo partes seu regiones 
+      <lb ed="#A" n="41"/>aeris habent distingui. Nota secundum Aug. super 
+      Ge<lb ed="#A" n="42" break="no"/>nesim et philosophos communiter: tres sunt regiones ac 
+      <lb ed="#A" n="43"/>ris vel partes distincte. scilicet suprema: media et 
+      infi<lb ed="#A" n="44" break="no"/>ma. In suprema parte que inquit propter puram 
+      <lb ed="#A" n="45"/>tranquillitatem igni est vicina et celo. propter quod 
+      <lb ed="#A" n="46"/>illa pars est calidissima et siccissima. Tam tenuis 
+      <lb ed="#A" n="47"/>aer dicitur esse vt neque nubibus obumbretur. nec 
+      a<lb ed="#A" n="48" break="no"/>ues sustineat nec animalia alat. etiamsi homines 
+      <lb ed="#A" n="49"/>vel alia illuc ascendere possent. Infima autem 
+      par<lb ed="#A" n="50" break="no"/>aeris vel regio que terris et aquis vicina est: de 
+      <lb ed="#A" n="51"/>sa est et caliginosa. et nature humide pinguioris 
+      <lb ed="#A" n="52"/>qualitatis. Media autem pars acris: summis 
+      <lb ed="#A" n="53"/>et imis comparata quantum ad siccitatem et tenui 
+      <lb ed="#A" n="54"/>tatem est temperatior. et vtraque parte frigidior. 
+      </p>
+               <p xml:id="Vn7Pel-h59314-d1e655">
+                  <lb ed="#A" n="55"/>¶ Unde vt etiam Seneca dicit. Superiora aeris 
+      <lb ed="#A" n="56"/>vicinorum siderum motum circumacto et ignis vici¬ 
+      <!--195.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>nitate calorem sentiunt. Infima vero tepent terrarum 
+      <lb ed="#A" n="58"/>halitu. quia terrenas exhalationes et aqueas rece 
+      <lb ed="#A" n="59"/>pteat. Media autem pars ab his summota in 
+      <lb ed="#A" n="60"/>frigore suo mauet. Plura vbi <ref xml:id="Vn7Pel-h59314-Rd1e674">Impressiones 
+      <lb ed="#A" n="61"/>§. xiii </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e681">
+               <head xml:id="Vn7Pel-h59314-Hd1e683">9</head>
+               <p xml:id="Vn7Pel-h59314-d1e685">
+                  <lb ed="#A" n="62"/>¶ Quid de loco naturali Aeris. 
+      <lb ed="#A" n="63"/>Nota quod Augustinus super Gen. li. ii dicit. Elementa 
+      in<lb ed="#A" n="64" break="no"/>quit quattuor non tantum locis: sed et qualitatibus 
+      distin<lb ed="#A" n="65" break="no"/>gui probantur: vt pro qualitatibus propriis etiam loca 
+      pro<lb ed="#A" n="66" break="no"/>pria sortirentur: Aqua scilicet super terram. aer supra aquam. 
+      <lb ed="#A" n="67"/>et ignis supra aerem. Unde et Auicenna ac philosophi 
+      con<lb ed="#A" n="68" break="no"/>muniter dicunt quod naturalis locus aeris est supra 
+      <lb ed="#A" n="69"/>aquam et sub igne
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e705">
+      ¶ Quomodo autem hec probantur. 
+      <lb ed="#A" n="70"/>idem Augustinus supra dat experimenta dit quod aquam esse 
+      <lb ed="#A" n="71"/>superiorem terra: ex hoc constat. quia etiamsi aqua 
+      <lb ed="#A" n="72"/>stet sub terra quandoque vt in antris vel profundis 
+      ca<lb ed="#A" n="73" break="no"/>uernis: non tamen ea parte terre quam habet supra 
+      <lb ed="#A" n="74"/>se: sed illa quam habet infra se continetur. Nam si 
+      <lb ed="#A" n="75"/>ex parte superiori aliquid terre modicum delapsum sue 
+      <lb ed="#A" n="76"/>rit: in fundo aque vt proprio loco quiescit.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e723">
+      ¶ Si 
+      ob<lb ed="#A" n="77" break="no"/>iicitur per illud Psal. Qui firmauit terram super 
+      <lb ed="#A" n="78"/>aquas. Dicit idem Augustinus quod hoc intelligi debet 
+      <lb ed="#A" n="79"/>de terrarum partibus quibusdam sublimibus. videlicet 
+      ri<lb ed="#A" n="80" break="no"/>pis et continentibus insularum quae videntur superiora aquis 
+      <lb ed="#A" n="81"/>que subtus continentur respectu visionis nostre. Unde 
+      <lb ed="#A" n="82"/>huiusmodi scripture: sicut etiam paesm. xxiii. dicitur. Quoniam ipse 
+      <lb ed="#A" n="83"/>super maria fundauit eam scilicet terram: vel eum scilicet 
+      or<lb ed="#A" n="84" break="no"/>bemterre: et super flumina praeparauit eum. et similes: 
+      in<lb ed="#A" n="85" break="no"/>telligende sunt: vt etiam Lyra dicit ibidem: non de 
+      <lb ed="#A" n="86"/>terra secundum se totam: sed solum secundum aliquas partes terre 
+      <lb ed="#A" n="87"/>scilicet ripas maris que supereminent aque. Et per talem 
+      <lb ed="#A" n="88"/>modum loquendi inquit dicimus quod Normania est 
+      <lb ed="#A" n="89"/>super oceanum mare. et terra Ianuensis super 
+      medi<lb ed="#A" n="90" break="no"/>terraneum id est iuxta. Et sic etiam de flumibus
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e756">
+      ¶ Item quod 
+      <lb ed="#A" n="91"/>Aer sit supra aquam naturaliter: probat idem Aug. supra 
+      <lb ed="#A" n="92"/>per hoc. quia videmus quod vas ab ore suo 
+      imps<lb ed="#A" n="93" break="no"/>sum aquis non potest repleri aquis: hoc ideo est. 
+      <lb ed="#A" n="94"/>quia vas plenum est aere: licet videatur vacuum. vnde 
+      ple<lb ed="#A" n="95" break="no"/>nitudine sua aer non admittit aquam in tale vas 
+      <lb ed="#A" n="96"/>Si autem vas desuper habeat foramen: per illud aer 
+      <lb ed="#A" n="97"/>exit: et tunc admittit aquam. Similiter cum vas 
+      <lb ed="#A" n="98"/>ita collocatur vt non habeat os deorsum: sed in 
+      la<lb ed="#A" n="99" break="no"/>tus inclinatum: tunc bene aqua intrat inferius: 
+      ae<lb ed="#A" n="100" break="no"/>re existente superius qui dat locum aque per totum 
+      <lb ed="#A" n="101"/>vas. exit enim tunc aer. Plura ibidem ponit 
+      Au<lb ed="#A" n="102" break="no"/>gustinus que causa brevitatis transeo. sit ad idem 
+      <lb ed="#A" n="103"/>patent plura etiam in. §. sequenti.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e788">
+      ¶ Denique quod 
+      <lb ed="#A" n="104"/>ignis sit superior etiam aere: probat idem <name xml:id="Vn7Pel-h59314-Nd1e792">Augustinus</name> ex 
+      <lb ed="#A" n="105"/>hoc. quia siquis inquit faculam accensam capite 
+      <lb ed="#A" n="106"/>deorsum teneat: nihilo minus flamme crines ad 
+      <lb ed="#A" n="107"/>superiora ascendunt: licet constipatione aeris circumfusi 
+      <lb ed="#A" n="108"/>superata extinguantur et in eius qualitatem 
+      commuten<lb ed="#A" n="109" break="no"/>tur. Hec <name xml:id="Vn7Pel-h59314-Nd1e805">Augustinus</name>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e809">
+               <head xml:id="Vn7Pel-h59314-Hd1e811">10</head>
+               <p xml:id="Vn7Pel-h59314-d1e813">
+                  <lb ed="#A" n="110"/>¶ Utrum Aer sit corpus verum 
+      cu<lb ed="#A" n="111" break="no"/>iussibet vacui repletiuum: Respondetur hreviter secundum 
+      <lb ed="#A" n="112"/>hilosophos et cheol. quod sit
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e822">
+      ¶ Et patet Primo. quia 
+      acre<lb ed="#A" n="113" break="no"/>um corpus videmus quod quando vehementer concitatur 
+      <!--196.xml-->
+      <pb ed="#A" n="197"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>vento et in se torserit se ipse arbusta siluasque con 
+      <lb ed="#A" n="2"/>uellit et edificia: mare quoque concitat. et huiusmodi 
+      corporali<lb ed="#A" n="3" break="no"/>ter efficit. ergo etc. Nam secundum philosophos hoc fit ideo: quia 
+      <lb ed="#A" n="4"/>motus aeris per ventum fortem agitatus tam vehemens 
+      <lb ed="#A" n="5"/>est quod aer contorsus vel compressus non potest 
+      scin<lb ed="#A" n="6" break="no"/>di vel diuidi per corpora huiusmodi arbustorum et similium 
+      <lb ed="#A" n="7"/>tamsubito. Sed motus impulsionis praeuenit motum 
+      <lb ed="#A" n="8"/>scissionis. ideo sequitur quod aer sit verum corpus
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e851">
+      ¶ 
+      Se<lb ed="#A" n="9" break="no"/>cundo quia in ventosa: vt dicitur libro de nat. re. et 
+      expersen<lb ed="#A" n="10" break="no"/>tia patet. in qua videlicet ventosa est stupa: accenditur 
+      <lb ed="#A" n="11"/>ignis et rarefacit aerem circumstantem in ventre 
+      ven<lb ed="#A" n="12" break="no"/>tose et ducit in raritatem naturalem essentie sue scilicet 
+      <lb ed="#A" n="13"/>ignee. quo extincto quando iungitur ventosa corpori: tunc 
+      <lb ed="#A" n="14"/>aer redit ad essentiam depressiorem de sui natura. et 
+      <lb ed="#A" n="15"/>sic occupat in ventosa minorem locum quam prilus. Sed 
+      <lb ed="#A" n="16"/>ne locus ille quem occupabat prius sit omnino 
+      vacu<lb ed="#A" n="17" break="no"/>us: propter hoc exit de corpore sanguis per vim ad 
+      re<lb ed="#A" n="18" break="no"/>plendam illam vacuitatem.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e875">
+      ¶ Item e. libro de nat. re. 
+      ha<lb ed="#A" n="19" break="no"/>betur quod attractio aeris fit in vrceo repleto aqua vel 
+      <lb ed="#A" n="20"/>alio liquore cuius fundus habet mfulta foramina. 
+      <lb ed="#A" n="21"/>et nil inde exire potest quamdiu superius orificium est 
+      obtu<lb ed="#A" n="22" break="no"/>ratum. nec aer vel aliud intrat: et hoc ne vacuus ma 
+      <lb ed="#A" n="23"/>neat locus. Si autem aperitur supeius orificium: 
+      exi<lb ed="#A" n="24" break="no"/>bit. quia superius ingreditur aer ad replendum etc. et 
+      <lb ed="#A" n="25"/>huiusmodi vocatur clepsedra.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e894">
+      ¶ Tertio preterea e. lib. 
+      <lb ed="#A" n="26"/>habetur quod vulnus infectum spiritibus interficien¬. 
+      <lb ed="#A" n="27"/>tis aerem infectum trahit transeunte interfectore: quo 
+      <lb ed="#A" n="28"/>intercepto: sanguis ebulliens extra manat ad 
+      prae<lb ed="#A" n="29" break="no"/>sentiam interfectoris: et desinit in absentia illius. 
+      <lb ed="#A" n="30"/>quod in viuente non fieret. Natura enim corporis 
+      ad<lb ed="#A" n="31" break="no"/>huc viuentis bonum sanguinem vt sibi amicum 
+      tra<lb ed="#A" n="32" break="no"/>heret: et aerem infectum vt sibi inimicum excluderet 
+      <lb ed="#A" n="33"/>Et hic attractus fit accidentaliter scilicet ex similitudine 
+      <lb ed="#A" n="34"/>Sicut ex membro adusto si statim teneatur ad 
+      <lb ed="#A" n="35"/>ignem ipse ignis extrahit ardorem vt sibi simulem etc. 
+      <lb ed="#A" n="36"/>Hec sufficiat. Unde secundum Leonar. de Utino: 
+      hu<lb ed="#A" n="37" break="no"/>iusmodi ex signo iudicare homicidam reputatur 
+      vi<lb ed="#A" n="38" break="no"/>olentum signum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e927">
+               <head xml:id="Vn7Pel-h59314-Hd1e929">11</head>
+               <p xml:id="Vn7Pel-h59314-d1e931">
+                  <lb ed="#A" n="39"/>¶ Qualis Aer dicitur temperatus 
+      <lb ed="#A" n="40"/>vel intemporatus: et per consequens melior vel peior 
+      <lb ed="#A" n="41"/>Nota secundum Constantinum in Panthegni parte. v. 
+      <lb ed="#A" n="42"/>Et Auicen i libro primo colligendo Aer temporatus est 
+      <lb ed="#A" n="43"/>qui scilicet nec nimis calidus: nec humidus: nec siccus 
+      <lb ed="#A" n="44"/>nec frigidus est: sicut aer vernus. Aer autem 
+      intem<lb ed="#A" n="45" break="no"/>paratus dicitur contrario modo se habens: vel in 
+      <lb ed="#A" n="46"/>qualitatibus praedictis scilicet caliditate: siccitate etc. vel in 
+      <lb ed="#A" n="47"/>tota substantia: vt aer pestilentialis. Aer quippe 
+      bo<lb ed="#A" n="48" break="no"/>ne substantie est (inquit Auicenna supra cui nec 
+      ad<lb ed="#A" n="49" break="no"/>miscetur ex vaporibus nec ex fumis res extranea: et 
+      <lb ed="#A" n="50"/>qui celo discoopertus est clarus non inter parietes 
+      <lb ed="#A" n="51"/>et tecta constrictus. Uerumtamen cum in aere 
+      putrefa<lb ed="#A" n="52" break="no"/>etio vel corruptio acciderit communiter: tunc aet 
+      <lb ed="#A" n="53"/>discoopertus magis eam recipit quam constrictus et 
+      oc<lb ed="#A" n="54" break="no"/>cultatus. alias autem discoopertus melior existit. 
+      <lb ed="#A" n="55"/>Hec ibi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e971">
+               <head xml:id="Vn7Pel-h59314-Hd1e973">12</head>
+               <p xml:id="Vn7Pel-h59314-d1e975">
+                  <lb ed="#A" n="56"/>¶ Sed quibus modis Aer exit 
+      <lb ed="#A" n="57"/>suas qualitates bonas: et per consequens fit nociuus: 
+      <!--196.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>Respondetur secundu raedictos Constan. et Auicen supra quod 
+      quin<lb ed="#A" n="59" break="no"/>que modis.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e991">
+      ¶ Primo ex diuersitate temporum anni. 
+      <lb ed="#A" n="60"/>quia in hyeme aer est nimis frigidus. in estate est 
+      ni<lb ed="#A" n="61" break="no"/>mis calidus etc. Et quia complexiones corporis sequun 
+      <lb ed="#A" n="62"/>tur complexionem aeris. Nam aere claro existente: 
+      hu<lb ed="#A" n="63" break="no"/>mores corporis clari sunt. In turbido autem aere 
+      hu<lb ed="#A" n="64" break="no"/>mores et spiritus turbantur: ingrossantur: et inde 
+      ho<lb ed="#A" n="65" break="no"/>mines tristantur. Ideoque aer secundum diuersitatem 
+      tempo<lb ed="#A" n="66" break="no"/>rum: anni: et dierum facit ad aggrauationem 
+      infirmi<lb ed="#A" n="67" break="no"/>Secundo fit aer nociuus pro tatum. De hoc vbi 
+      <lb ed="#A" n="68"/>pter ortum et occasum stellarum: vt patet de plane. 
+      <lb ed="#A" n="69"/>tarum aspectibus vbi Celum.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1015">
+      ¶ Tertio propter ventos 
+      fla<lb ed="#A" n="70" break="no"/>tu suo adducentes infectiones aeris: vt tactum est 
+      <lb ed="#A" n="71"/>§. vi. et etiam in sequentibus
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1022">
+      ¶ Quarto propter fumos 
+      <lb ed="#A" n="72"/>id est euaporationes. quia quandoque vapores et fumi 
+      fe<lb ed="#A" n="73" break="no"/>tentes lacuum: stagnorum: et profunditatum aquam 
+      corru<lb ed="#A" n="74" break="no"/>ptesta continentium. et locorum vbi olera sunt et arbores 
+      <lb ed="#A" n="75"/>viscose et fructus odoris putridi et erucarum 
+      consu<lb ed="#A" n="76" break="no"/>mentium talia: aeri commiscentur. Et sic aer cito 
+      putre<lb ed="#A" n="77" break="no"/>scit: et per consequens ex talibus sepe egrotant homines. nisi 
+      per<lb ed="#A" n="78" break="no"/>flarent venti boni ex montibus qui tales 
+      infectio<lb ed="#A" n="79" break="no"/>nes remouerent et aerem talem mundificarent.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1043">
+      ¶ 
+      Quin<lb ed="#A" n="80" break="no"/>to fit aer nociuus propter regionum qualitates: et locorum 
+      <lb ed="#A" n="81"/>varios situs ac proprietates
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1050">
+      ¶ Nam septentrionalis 
+      re<lb ed="#A" n="82" break="no"/>gionis aer frigidus est et siccus. vnde sbi 
+      habitan<lb ed="#A" n="83" break="no"/>tium capita et corpora fortiora sunt vt in pluribus et 
+      <lb ed="#A" n="84"/>vita longa: mores autem asperi. patet inibi versus 
+      <lb ed="#A" n="85"/>Schytas.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1061">
+      ¶ Item aer meridionalis est calidus et 
+      hu<lb ed="#A" n="86" break="no"/>midus et multae putredinis. propterea homines sicci 
+      <lb ed="#A" n="87"/>sunt ibi: et color niger eorum ex adustione caloris 
+      <lb ed="#A" n="88"/>capite et corpore debiles. propter quod ex paruo potu 
+      <lb ed="#A" n="89"/>etiam inebriantur: et parum viuunt. vt patet in 
+      Sara<lb ed="#A" n="90" break="no"/>cenis ad partes illas manentibus
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1074">
+      ¶ Item aer 
+      ori<lb ed="#A" n="91" break="no"/>entalis regionis clarior est: parum siccus: inter ca 
+      <lb ed="#A" n="92"/>lidum et frigidum temporatus. sicut est veris 
+      com<lb ed="#A" n="93" break="no"/>plexio. Ibi habitantium corpora sana sunt et 
+      for<lb ed="#A" n="94" break="no"/>tia: morbi pauci: herbe multe virtuositatis: 
+      arbo<lb ed="#A" n="95" break="no"/>res magne multum generantur: vt cedri et huiusmodi. 
+      <lb ed="#A" n="96"/>et vita hominum longa¶ Denique aer occidentalis 
+      <lb ed="#A" n="97"/>regionis habet intemporatum calidum et 
+      hummi<lb ed="#A" n="98" break="no"/>dum grossum et clarum. Unde homines ibi quast 
+      <lb ed="#A" n="99"/>omnibus temporibus anni infirmitates patiuntur et 
+      <lb ed="#A" n="100"/>plurimas: et etiam pestes. Regiones autem alie 
+      cu<lb ed="#A" n="101" break="no"/>libet istarum vicinantes temporate sunt vel 
+      intem<lb ed="#A" n="102" break="no"/>perate secundum eas quibus affines sunt et 
+      propin<lb ed="#A" n="103" break="no"/>quiores. Hec omnia breuiando ex Constan. et 
+      </p>
+               <p xml:id="Vn7Pel-h59314-d1e1105">
+                  <lb ed="#A" n="104"/>¶ Denique vt premiss Aer mutatur. Auicen. 
+      <lb ed="#A" n="105"/>prpter loca vel situm. Nam altitudo locorum habet 
+      <lb ed="#A" n="106"/>aerem clarum et mundiorem. Sed vallium loca 
+      <lb ed="#A" n="107"/>habent aerem caliginosiorem et nubilosum. Item 
+      <lb ed="#A" n="108"/>Secundo loca montibus vicina vel etiam ma 
+      <lb ed="#A" n="109"/>ri mutant aerem. quia illa sunt opposita ventis 
+      <lb ed="#A" n="110"/>qui facerent aerem frigidum vel calidum si 
+      li<lb ed="#A" n="111" break="no"/>bere perflarent. Ista autem ex fumo maris qui 
+      com<lb ed="#A" n="112" break="no"/>miscetur vicino aeri alterant aerem. Tertio 
+      lo<lb ed="#A" n="113" break="no"/>ca petrosa mutant aerem. quia terra si 
+      petro<lb ed="#A" n="114" break="no"/>sa fuerit in regione: erit ibi frigidus et siccus 
+      a<lb ed="#A" n="115" break="no"/>er vt plurimum. Si autem terra argillosa: 
+      <!--197.xml-->
+      <pb ed="#A" n="198"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>regio humida et frigida est. si terra solida est et 
+      a<lb ed="#A" n="2" break="no"/>spera: regio erit calida et sica Hec praedicti.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1144">
+      ¶ Ad 
+      <lb ed="#A" n="3"/>hec vbi <ref xml:id="Vn7Pel-h59314-Rd1e1148">Terra. §. viii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e1152">
+               <head xml:id="Vn7Pel-h59314-Hd1e1154">13</head>
+               <p xml:id="Vn7Pel-h59314-d1e1156">
+                  <lb ed="#A" n="4"/>¶ Qualibus signis cognoscitur 
+      ali<lb ed="#A" n="5" break="no"/>bei aer esse salubris hominibus Respondetur secundum 
+      Pal<lb ed="#A" n="6" break="no"/>ladium libr ist de agricultura. c. iii. Et frem Ioanne Et 
+      <lb ed="#A" n="7"/>ford. lib. origi. quod hec cognoscitur Primo ex loci ab 
+      <lb ed="#A" n="8"/>titudine. Nam et secundum philosophum ad bonitatem loci facit 
+      alti<lb ed="#A" n="9" break="no"/>tudo a vallibus infimis. Secundo ex aeris claritate 
+      <lb ed="#A" n="10"/>si videlicet est purus ab euaporationibus stagnorum et fumils 
+      <lb ed="#A" n="11"/>vt <ref xml:id="Vn7Pel-h59314-Rd1e1175">patuit. §. xii.</ref> Tertio ex habitatorum hominum 
+      qua<lb ed="#A" n="12" break="no"/>litate vel sanitate. Nam si in tali aere habitantes 
+      ha<lb ed="#A" n="13" break="no"/>bent colorem sanum. capitis firmam sinceritatem 
+      Ocu<lb ed="#A" n="14" break="no"/>lorum lumen in offensum et purum auditum. liquidam vocem: 
+      <lb ed="#A" n="15"/>bonitas aeris dinoscitur. Sed his contraria noxium 
+      <lb ed="#A" n="16"/>aerem testantur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-h59314-Dd1e1190">
+               <head xml:id="Vn7Pel-h59314-Hd1e1192">14</head>
+               <p xml:id="Vn7Pel-h59314-d1e1194">
+                  <lb ed="#A" n="17"/>¶ Quid de aere pestientioso 
+      No<lb ed="#A" n="18" break="no"/>ta de hoc secundum Isid. li.q. Et Iane. liro Cathols. 
+      pestilen<lb ed="#A" n="19" break="no"/>tia dicitur quasi pastilentia. eo quod velut incendium de 
+      <lb ed="#A" n="20"/>pascens in toto corpore descendit et in visceribus pene 
+      <lb ed="#A" n="21"/>trando innititur Eadem dicitur et contagium a contingendo. quia 
+      <lb ed="#A" n="22"/>quemcumque contigerit inficit. et du vnum apprehendit 
+      cele<lb ed="#A" n="23" break="no"/>riter ad plura transit. Ipsa etiam inguinaria dicitur: 
+      <lb ed="#A" n="24"/>ab inguinum percussione. Dicitur et lues a labe et 
+      luctu<lb ed="#A" n="25" break="no"/>quae tam acuta est vt non habeat spacium temporis quo aut 
+      vri<lb ed="#A" n="26" break="no"/>ta speretur aut mors. sed repentinus languor simul cum 
+      <lb ed="#A" n="27"/>morte venit. Item secundum Constantinum in pantegni hic 
+      <lb ed="#A" n="28"/>morbus vocatur etiam epidimiacus vel epidimia. quia mul 
+      <lb ed="#A" n="29"/>tiplex est et subitus vno eodemque tempore multis ingruens 
+      <lb ed="#A" n="30"/>hominibus Unde et Greg. super psalmus i. dicit. Pestilentia est 
+      mor<lb ed="#A" n="31" break="no"/>bus late peruagatus pene omnes inuoluens Unde aer in 
+      <lb ed="#A" n="32"/>putredinem mutatus vocatur pestilentialis.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1231">
+      ¶ Si autem 
+      <lb ed="#A" n="33"/>quaeritur. Ex qualibus causis generetur. Dicendum quod varie 
+      assi<lb ed="#A" n="34" break="no"/>gnantur cause.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1238">
+      ¶ Una secundum Constanti. supra. Ex situ 
+      regi<lb ed="#A" n="35" break="no"/>onis propter fumum lacuum adiacentium cryptarum fossarum 
+      <lb ed="#A" n="36"/>cadauerum mortuorum multorum vel fructuum et similium 
+      <lb ed="#A" n="37"/>putrescentium quae miscentur aeri
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1247">
+      ¶ Alia caus secundum e. ex 
+      qual<lb ed="#A" n="38" break="no"/>tate temporis est. videlicet cum tempora naturam sua exierit. vt si 
+      tempora<lb ed="#A" n="39" break="no"/>hyemis fuerint calida et sicca ac sine pluuia 
+      Esta<lb ed="#A" n="40" break="no"/>autm pluuiosa ver frigidum et siccum. Autumnus calidus 
+      <lb ed="#A" n="41"/>ct humidus. tunc pestiletia sequetur vel accidet
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1259">
+      ¶ 
+      Ter<lb ed="#A" n="42" break="no"/>tia causa secundum eudem est. ex alimentis corruptis. Nam 
+      <lb ed="#A" n="43"/>pestis aliquando morbidat animalia ex corruptione 
+      hu<lb ed="#A" n="44" break="no"/>morum siue spirituum. Aliquando etiam cadit in terre 
+      semi<lb ed="#A" n="45" break="no"/>naria et in fructus arborum propter quod perdunt colores. Et 
+      <lb ed="#A" n="46"/>talia infecta siue carnes animalium siue fructus 
+      come<lb ed="#A" n="47" break="no"/>dentes homines in pessimas incidunt infirmitates et 
+      pe<lb ed="#A" n="48" break="no"/>stes. similiter qui potant aquas corruptas etc.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1277">
+      ¶ Quarta 
+      ca<lb ed="#A" n="49" break="no"/>secundum theol. est ex dei iudicio peccata hominum punientis 
+      <lb ed="#A" n="50"/>Unde Beda libro de imagi. modi. quod pestilentia nascitur vel 
+      <lb ed="#A" n="51"/>siccitatis vel caloris vel pluuiarum intemporantia aere 
+      cor<lb ed="#A" n="52" break="no"/>rupto pro demeritis hominum. Isi. etiam vbi supra dicit quod 
+      pe<lb ed="#A" n="53" break="no"/>stilentia. et si plerumque per aereas potestates fiat tantum sine 
+      ar<lb ed="#A" n="54" break="no"/>bitrio omnipotentis dei omnino non fit. Item Hiero. super 
+      <lb ed="#A" n="55"/>Ezech. dicit pestilentia inquit sepe famen et penuria: 
+      <lb ed="#A" n="56"/>sequitur. Quicquid autem mali patimur peccata nostra deime 
+      <lb ed="#A" n="57"/>renitur. vt idem dicit ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1299">
+      ¶ Qualia autem sint peccata 
+      <!--197.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>pro quibus deus flagellat homines peste: ex 
+      scri<lb ed="#A" n="59" break="no"/>ptura traduntur plura. Primo praeceptorum diuinorum 
+      <lb ed="#A" n="60"/>inobedientia. Deut. xxviii. Si non audieris vocem 
+      <lb ed="#A" n="61"/>omini adiunget tibi pestilentiam etc. Secundo sanguinis 
+      <lb ed="#A" n="62"/>innocentis effusio. Unde in Egypto percussit dominus 
+      omnf<lb ed="#A" n="63" break="no"/>primogenitum: eo quod occiderant infantes iudeorum. 
+      <lb ed="#A" n="64"/>Tertio superbia. Patet in Dauid faciente numerare 
+      <lb ed="#A" n="65"/>populum ex superbia. ii Reg. xxiiii. Quarto auaricia 
+      <lb ed="#A" n="66"/>fraudis vsure et simodie. patet Eze. vii. Ira mea 
+      <lb ed="#A" n="67"/>super omnem populum: gladius foris: fames et pestis 
+      intrin<lb ed="#A" n="68" break="no"/>ecus. Et ca. xxxviii. ad idem. Quinto luxuria. patet 
+      <lb ed="#A" n="69"/>de sodomitis fetido mari pestilentico summers. 
+      Se<lb ed="#A" n="70" break="no"/>xto gula et ebrietas. patet Nune. xi. Adhuc esce eo 
+      <lb ed="#A" n="71"/>rum erant in ore ipsorum et percussit dominus populum plaga id est 
+      <lb ed="#A" n="72"/>peste secundum glo. ibide. Septimo rebellio scienter cont de 
+      <lb ed="#A" n="73"/>um et obduratio ac murmuratio. Numne. xiiii. In 
+      <lb ed="#A" n="74"/>solitudine iacebunt cadauera vtra scilicet quia populs israel 
+      re<lb ed="#A" n="75" break="no"/>bellauit deo in solitudine Et illa pestis durauit 
+      <lb ed="#A" n="76"/>in eisdem. ll. annis. et absorbuit ex eis quilibet 
+      an<lb ed="#A" n="77" break="no"/>no.
+     </p>
+               <p xml:id="Vn7Pel-h59314-d1e1349">
+      ¶ og. Et plura in scripturis continentur que 
+      <lb ed="#A" n="78"/>ad hec reducuntur. 
+      </p>
+               <p xml:id="Vn7Pel-h59314-d1e1354">
+                  <lb ed="#A" n="79"/>¶ De impressionibus que fiunt 
+      <lb ed="#A" n="80"/>in aere Uide vbi 
+      </p>
+               <p xml:id="Vn7Pel-h59314-d1e1361">
+                  <lb ed="#A" n="81"/>¶ Item de elemento aqu vide vbi 
+      <lb ed="#A" n="82"/>cmoo. 
+      </p>
+               <p xml:id="Vn7Pel-h59314-d1e1369">
+                  <lb ed="#A" n="83"/>¶ Item de Elemento terre vbi 
+      <lb ed="#A" n="84"/>¶ Terra specialius agemus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
