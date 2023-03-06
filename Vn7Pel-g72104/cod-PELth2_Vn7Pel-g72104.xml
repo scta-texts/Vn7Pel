@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grana</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Grana</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="235"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g72104">
+            <head xml:id="Vn7Pel-g72104-Hd1e110">Grana</head>
+            <div xml:id="Vn7Pel-g72104-Dd1e112">
+               <head xml:id="Vn7Pel-g72104-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-g72104-d1e116">
+                  <lb ed="#A" n="97"/>Iana. que Isita 
+      <lb ed="#A" n="98"/>itius dicuntur legumina vel seminia Que 
+      <lb ed="#A" n="99"/>les virtutes deus eis dedit etc. Nota 
+      <lb ed="#A" n="100"/>prosequendo secundum ordinem alphabeti de his quae apud 
+      <lb ed="#A" n="101"/>nos sunt plus vsitata secundum physicos Constantinum 
+      <lb ed="#A" n="102"/>libro graduum <ref xml:id="Vn7Pel-g72104-Rd1e131">Plinium. li. xxii.</ref>
+                  <ref xml:id="Vn7Pel-g72104-Rd1e133">Auicennam Isidorum 
+      <lb ed="#A" n="103"/>lib. xvii.</ref> aliosque. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e139">
+                  <lb ed="#A" n="104"/>¶ Amidum ex omni genere tritici ac silgine et 
+      ho<lb ed="#A" n="105" break="no"/>deo fit ponendo in aqua donec putrefiat: post¬ 
+      <!--235.xml-->
+      <pb ed="#A" n="236"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ea desictando dealbatur 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e155">
+                  <lb ed="#A" n="2"/>¶ Auena enim est vsitatus cibus iumentorum. ex qua 
+      <lb ed="#A" n="3"/>fit quandoque panis et ceruisia et ptisana. valens 
+      infir<lb ed="#A" n="4" break="no"/>mis. quia leuiter laxat. mollit duricias et facit contra 
+      <lb ed="#A" n="5"/>tumorem. Deus ergo laudetur in talibus 
+      <lb ed="#A" n="6"/>Betha. semen eius prodest disintericis. Et praecipue 
+      <lb ed="#A" n="7"/>hoc facit betha siluestris. 
+      <lb ed="#A" n="8"/>Canapi semen vel granum manducatum difficiler est 
+      <lb ed="#A" n="9"/>digestionis. genitalia stringit nimis comestum. contra 
+      <lb ed="#A" n="10"/>toxicatum ferrum vel telum est optimum si apponatur 
+      vul<lb ed="#A" n="11" break="no"/>neri. siluestre melius est. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e179">
+                  <lb ed="#A" n="12"/>¶ Carui stomachum corroborat et digestionem 
+      con<lb ed="#A" n="13" break="no"/>fortat. lumbricos occidit confert febribus etc. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e187">
+                  <lb ed="#A" n="14"/>¶ Cicer: est quodam album: quodam nigrum et quodam 
+      rube<lb ed="#A" n="15" break="no"/>um. comestum vocem clarificat. Et nutrit pulmonem 
+      <lb ed="#A" n="16"/>prae aliis rebus. eius decoctio valet hydropisi et icteri 
+      <lb ed="#A" n="17"/>tie si comeditur in principio cibi. et frangit lapidem in 
+      <lb ed="#A" n="18"/>renibus. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e200">
+                  <lb ed="#A" n="19"/>¶ Aminum sunptum incbis digestionem efptt. cum 
+      <lb ed="#A" n="20"/>vino bibitum valet ontra reptilium morsum. Contra 
+      <lb ed="#A" n="21"/>tussim frigidam decoctio eius et ficuum siccarum in 
+      vi<lb ed="#A" n="22" break="no"/>no: valet 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e211">
+                  <lb ed="#A" n="23"/>¶ Diagridium infra vbi Scamonea. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72104-Dd1e217">
+               <head xml:id="Vn7Pel-g72104-Hd1e219">2</head>
+               <p xml:id="Vn7Pel-g72104-d1e221">
+                  <lb ed="#A" n="24"/>¶ Faba vsum prebet multiplicem 
+      <lb ed="#A" n="25"/>omnium quadrupedum generi et praecipue homini. qui etiam 
+      pa<lb ed="#A" n="26" break="no"/>ni miscent aliquando. Si comedantur virides minus nutri 
+      <lb ed="#A" n="27"/>unt inflant. et grossos humores generant. Sed 
+      con<lb ed="#A" n="28" break="no"/>pleto tempore messionis sue melioreo sunt fabarum 
+      <lb ed="#A" n="29"/>grosse et albe. plus autem valent decorticate. et sic 
+      mo<lb ed="#A" n="30" break="no"/>luntur. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e239">
+                  <lb ed="#A" n="31"/>¶ Feniculi grana ved seniua lipides fragunt lac 
+      <lb ed="#A" n="32"/>augmentant. contra febres valent. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e246">
+                  <lb ed="#A" n="33"/>¶ Frumentum est idem quod Triticum. Et secundum Isido. 
+      fru<lb ed="#A" n="34" break="no"/>menti genus est far. Triticum dicitur a tritura. quia 
+      <lb ed="#A" n="35"/>granum eius teritur et commolitur. Et est cibus ad huma 
+      <lb ed="#A" n="36"/>ni corporis nutrinntum praecipuus. eius granum masticatum 
+      <lb ed="#A" n="37"/>vel assatum apostemati quod ex morsu rabidi canis 
+      <lb ed="#A" n="38"/>contingit superpositum confert et morsum fugat. Item 
+      <lb ed="#A" n="39"/>eius granum recens assatum ad ignem magis nutrit. 
+      <lb ed="#A" n="40"/>In aqua coctum inflatiuum est et digestioni durum 
+      <lb ed="#A" n="41"/>tarde egeritur. vnde datur eis qui magnis laboribus 
+      <lb ed="#A" n="42"/>exercitantur. Fractum granum sanguine laudabilem 
+      fa<lb ed="#A" n="43" break="no"/>cit et temporatiorem prae omnibus granis. Est enim natura 
+      ca<lb ed="#A" n="44" break="no"/>lidum. et temparatum in humiditate et siccitate. ergo 
+      natu<lb ed="#A" n="45" break="no"/>raliter simile complexioni hominis. Item secundum Auicem. Id 
+      me<lb ed="#A" n="46" break="no"/>lius est quod est magn um. pingue. recens. planum. 
+      me<lb ed="#A" n="47" break="no"/>dium inter rubedinem et albedinem. Quod est autem 
+      pluri<lb ed="#A" n="48" break="no"/>me rubedinis est plurimi nutrimenti. Nigrum ve 
+      <lb ed="#A" n="49"/>ro mali nutrimenti est.
+     </p>
+               <p xml:id="Vn7Pel-g72104-d1e285">
+      ¶ Farina eius postquam 
+      <lb ed="#A" n="50"/>molita est: recens: igneam naturam ex molendine 
+      <lb ed="#A" n="51"/>volutione adipiscitur. vnde stomachum et corpus 
+      calefa<lb ed="#A" n="52" break="no"/>cit ventrem constipat secundum Isaac in dietis. Que vero 
+      <lb ed="#A" n="53"/>longinqui temporis est parum calefacit et cito et 
+      stoma<lb ed="#A" n="54" break="no"/>cho eiicitur. Medii vero temporis laudabilis est. 
+      <lb ed="#A" n="55"/>stem de farina ius confectum: tritici: purgatiuum est 
+      pe<lb ed="#A" n="56" break="no"/>ctoris et pulmonis. Similiter si ptisanum fiat ex tritico 
+      <lb ed="#A" n="57"/>sicut solet fieri ex hordeo idem facit. Denique ex eo 
+      <!--235.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>fit ceruisia triticea sicut et hordeacea et auenacea 
+      <lb ed="#A" n="59"/>A cerere id est a fruge ceruissia vocata. quia potio est 
+      <lb ed="#A" n="60"/>ex frumenti seminibus confecta. et carior ac sanior est 
+      <lb ed="#A" n="61"/>prae aliis ceruisia de tritico ceteris paribus. tamen 
+      <lb ed="#A" n="62"/>cerebrum vt alia turbat.
+     </p>
+               <p xml:id="Vn7Pel-g72104-d1e321">
+      ¶ Furfur tritici 
+      appel<lb ed="#A" n="63" break="no"/>latur etiam cantabrum est calidum et siccum 
+      tem<lb ed="#A" n="64" break="no"/>perate secundum Auicennam. mouet intestina ad 
+      expel<lb ed="#A" n="65" break="no"/>lendum quod in eis est. Et cum sorbetur ventrem lenit 
+      <lb ed="#A" n="66"/>sicut patet in glicerio eius. Item furfur eius scilicet triticium 
+      <lb ed="#A" n="67"/>cum aceto coctum lepras minuit et tumores 
+      com<lb ed="#A" n="68" break="no"/>pescit praesertim cum ruta coctum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72104-Dd1e338">
+               <head xml:id="Vn7Pel-g72104-Hd1e340">3</head>
+               <p xml:id="Vn7Pel-g72104-d1e342">
+                  <lb ed="#A" n="69"/>¶ Sed quid de pane ex granis 
+      <lb ed="#A" n="70"/>tritici pisto. Nota secundum Isid. panis dicitur eo quod omi 
+      <lb ed="#A" n="71"/>cibo apponatur a pan grece quod est omne. Nam sine 
+      pa<lb ed="#A" n="72" break="no"/>ne omnis cibus vel mensa pauperrima est. Item secundum 
+      <lb ed="#A" n="73"/>Auicen. Panis tritici calidus statim de 
+      furno<lb ed="#A" n="74" break="no"/>acceptus non est comedendus. sed valet vna 
+      no<lb ed="#A" n="75" break="no"/>cte permanens post exceptionem de clibano. quia gra 
+      <lb ed="#A" n="76"/>uat et durius eiicitur a stomacho. Qui autem post vnum 
+      <lb ed="#A" n="77"/>vel duos dies accipitur intus et exterius exiccatur. 
+      <lb ed="#A" n="78"/>hic laudabilis est nutrimenti. vt dicit etiam Isaat
+     </p>
+               <p xml:id="Vn7Pel-g72104-d1e366">
+      ¶ Item 
+      <lb ed="#A" n="79"/>panis melior est prae ceteris de simila. et mundior et 
+      <lb ed="#A" n="80"/>nutribilior quam alius
+     </p>
+               <p xml:id="Vn7Pel-g72104-d1e373">
+      ¶ Opirus autem panis id est qui est 
+      <lb ed="#A" n="81"/>multi sulphuris velocis est penetrationis sed 
+      nu<lb ed="#A" n="82" break="no"/>trimenti deterioris. Ille vero qui non bene coquitur 
+      <lb ed="#A" n="83"/>est plurimi nutrimenti. sed oppilationem facit. Sed 
+      <lb ed="#A" n="84"/>panis azymus. similiter panis in patella coctus 
+      <lb ed="#A" n="85"/>vulgo fans. quia pars interior in huiusmodi non bene 
+      <lb ed="#A" n="86"/>decoquitur ventrem strigit: durissime digeritur: 
+      oppila<lb ed="#A" n="87" break="no"/>tionem et ventositatem generat. Panis autem cor hominis 
+      <lb ed="#A" n="88"/>confortat. Psalmus ciii.
+     </p>
+               <p xml:id="Vn7Pel-g72104-d1e393">
+      ¶ Spiritualiter in scriptura per frume 
+      <lb ed="#A" n="89"/>ti granum significatur christus Ioan. xii. Nisi granum 
+      fru<lb ed="#A" n="90" break="no"/>menti cadens in terram mortuum fu. etc. Siliter per 
+      pa<lb ed="#A" n="91" break="no"/>nem corpus christi in eucharistia patet: vel etiam 
+      pa<lb ed="#A" n="92" break="no"/>nis gratie diuine quem petimus in oratione dominica 
+      <lb ed="#A" n="93"/>Et his prout videbitur praedicte proprietates vel 
+      qua<lb ed="#A" n="94" break="no"/>litates frumenti et panis triticei possunt applicari. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e410">
+                  <lb ed="#A" n="95"/>¶ Fungus vulgo apud nos gomba habet 
+      diuer<lb ed="#A" n="96" break="no"/>sa genera inter que quidam fungi sunt interemptorii: 
+      <lb ed="#A" n="97"/>inde dicuntur quasi defunctiui secundum Isido. vnde 
+      Pli<lb ed="#A" n="98" break="no"/>nius lir. xxii. Et Isaac dicit quod qui nociuos fungos 
+      <lb ed="#A" n="99"/>comederunt curari possunt si pira confestim edant 
+      <lb ed="#A" n="100"/>Et sal cum aceto sumant. boni autem fungi vel 
+      bo<lb ed="#A" n="101" break="no"/>leti cum carne cocti. vel cum pipere et zinzibere 
+      con<lb ed="#A" n="102" break="no"/>diti valent stomacho. Discernuntur autem boni fungi in 
+      <lb ed="#A" n="103"/>coquendo citius. Nam mali duriores sunt ad 
+      co<lb ed="#A" n="104" break="no"/>quendum plura vide de Boleto vbi <ref xml:id="Vn7Pel-g72104-Rd1e433">Herba. §. vii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g72104-Dd1e437">
+               <head xml:id="Vn7Pel-g72104-Hd1e439">4</head>
+               <p xml:id="Vn7Pel-g72104-d1e441">
+                  <lb ed="#A" n="105"/>¶ Sit est genus leguminis 
+      simi<lb ed="#A" n="106" break="no"/>mile Cimino in quantitate sed nigri coloris et in 
+      pa<lb ed="#A" n="107" break="no"/>ne dulcorando imponitur. vt hec dicit haymo super <ref xml:id="Vn7Pel-g72104-Rd1e449">Esa. 
+      <lb ed="#A" n="108"/>xxviii.</ref> vbi secundum Ly. de christo exponitur. quod ibi dicitur. 
+      Se<lb ed="#A" n="109" break="no"/>ret git. et ciminum sparget et ponet triticum per 
+      ordi<lb ed="#A" n="110" break="no"/>nem. et hordeum et milium. hoc est christus tamquam bonus 
+      agri<lb ed="#A" n="111" break="no"/>cola agri sui. scilicet ecclesie electos suos in distinctisor 
+      <lb ed="#A" n="112"/>dinibus secundum varia merita locabit in celo. Unde per git 
+      <lb ed="#A" n="113"/>significantur electi. Est enim git herba que inter 
+      fru<lb ed="#A" n="114" break="no"/>menta oritur semen nigrum quasi triangulum 
+      <!--236.xml-->
+      <pb ed="#A" n="237"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>habet. odore suaui. calidum est et siccum. 
+      Incen<lb ed="#A" n="2" break="no"/>so eo serpentes fugantur. comestum lumbricos 
+      <lb ed="#A" n="3"/>enecat. similiter contusum extrinsecus ventri 
+      ap<lb ed="#A" n="4" break="no"/>positum. catarrum sanat: sepius ad nares 
+      odo<lb ed="#A" n="5" break="no"/>ratum Habet etiam succum quod venenum est. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e486">
+                  <lb ed="#A" n="6"/>¶ Spiritualiter. Electi in ecclesia fidem trinitatis 
+      ha<lb ed="#A" n="7" break="no"/>bent. nigri per humilitatem. odore suaui per 
+      pieta<lb ed="#A" n="8" break="no"/>tem. calidi per charitatem etc. Sed hoc adeo est 
+      <lb ed="#A" n="9"/>mirabile vt dicit Plinius lib. xx. quod cum semine 
+      <lb ed="#A" n="10"/>gratissime panes condiat. tamen succus eius vt 
+      <lb ed="#A" n="11"/>iusquiami venenum est. Et hoc significat 
+      inter<lb ed="#A" n="12" break="no"/>electos ecclesie multos esse malos quos 
+      domi<lb ed="#A" n="13" break="no"/>nus Iesus triturabit in iudicio et separabit a 
+      bo<lb ed="#A" n="14" break="no"/>nis sicut et triticum a palea vt patet Esa. xxviii. supra 
+      <lb ed="#A" n="15"/>Lens vel lenticula in cibo sumpta deducit vene 
+      <lb ed="#A" n="16"/>rem indigestibilis est et malum stomacho. inflat 
+      <lb ed="#A" n="17"/>ventrem. frequenter comesta caliginem oculi 
+      fa<lb ed="#A" n="18" break="no"/>git et somnia superflue visionis et capiticontrariatur. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e517">
+                  <lb ed="#A" n="19"/>¶ Linum est calidum et humidum in medio. 
+      semen<lb ed="#A" n="20" break="no"/>eius cum melle acceptum ad frigidam tussizt valet. et cum 
+      <lb ed="#A" n="21"/>pipere mouet coitum. et est maturatiuum apostenatum 
+      <lb ed="#A" n="22"/>et ad vulnera pro emplastro valet 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72104-Dd1e530">
+               <head xml:id="Vn7Pel-g72104-Hd1e532">5</head>
+               <p xml:id="Vn7Pel-g72104-d1e534">
+                  <lb ed="#A" n="23"/>¶ Milium: a multitudine fructus 
+      <lb ed="#A" n="24"/>vocatum. Fit ex eo panis pro alimento satis aptus. 
+      ge<lb ed="#A" n="25" break="no"/>nerans sanguine ni miu sed non laudabilem. ventrem 
+      <lb ed="#A" n="26"/>constipat et est frigidum in primo gradu etc. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e545">
+                  <lb ed="#A" n="27"/>¶ Nigella est idem quod loliu. et zizania: infra. 
+      semen<lb ed="#A" n="28" break="no"/>habet nigrum et amarum. frumentis nocet. 
+      vide<lb ed="#A" n="29" break="no"/>vbi <ref xml:id="Vn7Pel-g72104-Rd1e553">Herba. §. xii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-g72104-d1e556">
+                  <lb ed="#A" n="30"/>¶ Ocimum alio nomine basilicum. eius semen tritum et 
+      <lb ed="#A" n="31"/>haustum naribus sternutamta facit. lethargicis val¬ 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e563">
+                  <lb ed="#A" n="32"/>¶ Ordeum est frigidum et siccum in primo 
+      gra<lb ed="#A" n="33" break="no"/>dum. bonum est niueum et mundum In aqua 
+      de<lb ed="#A" n="34" break="no"/>coquitur hordei farina et fiunt pultes: optimus 
+      ci<lb ed="#A" n="35" break="no"/>bus febricitantibus. Panis hordeaceus minus quam 
+      fru<lb ed="#A" n="36" break="no"/>menti nutritiuus: constipat. Qui vtuntur eo pane non 
+      <lb ed="#A" n="37"/>tentantur pedum morbo. secundum <name xml:id="Vn7Pel-g72104-Nd1e578">Plinium</name>.
+     </p>
+               <p xml:id="Vn7Pel-g72104-d1e582">
+      ¶ Ptisana 
+      <lb ed="#A" n="38"/>fit ex hordeo et aqua in qua mundatum hordeum 
+      <lb ed="#A" n="39"/>decoquitur donec accedat ad surrufum colorem 
+      <lb ed="#A" n="40"/>et aliquantulam spissitudinem. Talis aqua est opti 
+      <lb ed="#A" n="41"/>ma. competit febricitantibus. et maxime spiritualium 
+      <lb ed="#A" n="42"/>apostemate laborantibus. eisque semper debet dari 
+      <lb ed="#A" n="43"/>tepida: nunquam frigida secundum Platearium Et secundum 
+      Con<lb ed="#A" n="44" break="no"/>stanti. sitim extinguit. mundificat interiora. acuti 
+      <lb ed="#A" n="45"/>febribus valet. sed oportet hordeum esse bonum 
+      <lb ed="#A" n="46"/>necnon vetus. sed album: durum: bene excoriatum 
+      <lb ed="#A" n="47"/>atque pistatum etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72104-Dd1e607">
+               <head xml:id="Vn7Pel-g72104-Hd1e609">6</head>
+               <p xml:id="Vn7Pel-g72104-d1e611">
+                  <lb ed="#A" n="48"/>¶ Panicum in forma et natura 
+      si<lb ed="#A" n="49" break="no"/>mile est milio frigidum et siccum in secundo. Effectus 
+      ha<lb ed="#A" n="50" break="no"/>bet quos milium. panis ex eo factus et comestus 
+      con<lb ed="#A" n="51" break="no"/>stipat ventrem. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e622">
+                  <lb ed="#A" n="52"/>¶ Pisa in cibo sumpta minime inflant. Ideo 
+      ma<lb ed="#A" n="53" break="no"/>gis egeruntur. Alio nomine dicuntur robelie. et sunt fri 
+      <lb ed="#A" n="54"/>gida in primo gradu. Cortex earum stipticus est. Unde 
+      <lb ed="#A" n="55"/>cortice mundata laudabiles et ad vsum edendi 
+      bo<lb ed="#A" n="56" break="no"/>na sunt Ius ex eis confert tussi et dolori pectoris 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e635">
+                  <lb ed="#A" n="57"/>¶ Risi: calidum est et sicum nutrimentum prebhus 
+      <!--236.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>multum. Cum lacte amygdaleo coctum: bonum 
+      san<lb ed="#A" n="59" break="no"/>guinem generat. mitigat dolorem stomachi et ardorem 
+      <lb ed="#A" n="60"/>intestinorum. sed cortex risi venenum est secundum Auicen. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72104-Dd1e652">
+               <head xml:id="Vn7Pel-g72104-Hd1e654">7</head>
+               <p xml:id="Vn7Pel-g72104-d1e656">
+                  <lb ed="#A" n="61"/>¶ Scamonea. est herba succi 
+      ple<lb ed="#A" n="62" break="no"/>na Eligenda est. que lingua tacta fiat alba Idem 
+      <lb ed="#A" n="63"/>diagridion vocatur. succus herbe que dicitur 
+      thiti<lb ed="#A" n="64" break="no"/>mallus babylonicus Calidum et siccum in 
+      ter<lb ed="#A" n="65" break="no"/>tio gradu. In medicinis ponitur acuendis. quoniam in 
+      <lb ed="#A" n="66"/>pauca quatitate potest sufficienter acuere scilicet duo 
+      <lb ed="#A" n="67"/>oboli et purgat principaliter choleram. Secundo 
+      <lb ed="#A" n="68"/>phlegma et melacholiam. Nunquam per se datur. 
+      sto<lb ed="#A" n="69" break="no"/>macho nocet etc 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e678">
+                  <lb ed="#A" n="70"/>¶ Siligo secundum Auicennam. habet speciem hordei 
+      <lb ed="#A" n="71"/>sine cortice eius. et consimilem operationem. nunquam simlis 
+      <lb ed="#A" n="72"/>maturescit In pane species eius satis praecipua est. 
+      <lb ed="#A" n="73"/>Iliqui hanc olyram vocant. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e689">
+                  <lb ed="#A" n="74"/>¶ Siliqua: vt glos. super Lucam dicit. est genus 
+      le<lb ed="#A" n="75" break="no"/>guminis quod ventrem magis onerat quam feficiat 
+      conue<lb ed="#A" n="76" break="no"/>nit porcis. Unde secundum Hiero. sercat carmina poetarum 
+      <lb ed="#A" n="77"/>et carnalia etc. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e700">
+                  <lb ed="#A" n="78"/>¶ Triticum. de hoc patuit supra. vbi Frumentum. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e706">
+                  <lb ed="#A" n="79"/>¶ Tizania: secundum Isaac nascuntur inter triticum 
+      <lb ed="#A" n="80"/>cemporibus siccis et corruptis habent vim 
+      acu<lb ed="#A" n="81" break="no"/>tam et venenosam. et aliquando mentem perture 
+      <lb ed="#A" n="82"/>bant et inebriant. Et secundum Hiero. super Matth. 
+      <lb ed="#A" n="83"/>xiii. Inter triticum et zizania quamdiu herba est. nec 
+      <lb ed="#A" n="84"/>dum calamus prouenit: gradis similitudo est 
+      <lb ed="#A" n="85"/>in discernendo etc. Sic est de electis qui 
+      signifi<lb ed="#A" n="86" break="no"/>cantur per triticum: et reprobis qui significantur per 
+      zi<lb ed="#A" n="87" break="no"/>caniam. in presenti enim non discernuntur sed in 
+      fi<lb ed="#A" n="88" break="no"/>ne. Nam in zizania est vis inflatiua significans 
+      <lb ed="#A" n="89"/>superbiam. acuta auariciam. venenosa luxuriam 
+      <lb ed="#A" n="90"/>sapor insipidus acidiam. parturbatiua capitis iram 
+      <lb ed="#A" n="91"/>Inebriatiua gulam. amaricatiua inuidiam Item 
+      <lb ed="#A" n="92"/>secundum Plinium lib. xxii. Farina zizanie siue lolii de 
+      <lb ed="#A" n="93"/>tocta cum aceto et melle calide imposita extrahit 
+      <lb ed="#A" n="94"/>ossa fracta et medetur podragre. Sic de malis 
+      <lb ed="#A" n="95"/>agit vel elicit deus ecclesie vtilitatem: ad merita 
+      <lb ed="#A" n="96"/>et probationem bonorum. Ecce ergo patet dei 
+      bo<lb ed="#A" n="97" break="no"/>nitas laudabilis in omnibus 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e750">
+                  <lb ed="#A" n="98"/>¶ De granis seminum 
+      huiusmodiplu<lb ed="#A" n="99" break="no"/>ra patent vbi Herba. secundum earum varietates Ideo 
+      <lb ed="#A" n="100"/>hic transeo. 
+      </p>
+               <p xml:id="Vn7Pel-g72104-d1e759">
+                  <lb ed="#A" n="101"/>¶ Qux dei bonitas laudabilis estin 
+      <lb ed="#A" n="102"/>gumis et guttis aromaticis speciebus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

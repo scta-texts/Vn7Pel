@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Actus disputato</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Actus disputato</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="5"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g17777">
+            <head xml:id="Vn7Pel-g17777-Hd1e110">Actus disputato</head>
+            <!--4.xml-->
+            <cb ed="#A" n="b"/>
+            <p xml:id="Vn7Pel-g17777-d1e116">
+               <lb ed="#A" n="52"/>¶ Actus 
+      disputato<lb ed="#A" n="53" break="no"/>rius qui et scholasticus dicitur De hoc pro toto 
+      <lb ed="#A" n="54"/>isto opere volo esse Notandum: quod sicut 
+      <lb ed="#A" n="55"/>etiam tetigi in principio breviter: et nunc fateor quod omnia 
+      <lb ed="#A" n="56"/>quae ecclesia determinauit: et quae sunt fidei catholice 
+      fir<lb ed="#A" n="57" break="no"/>miter profiteor. Alia: praesertim naturalia hoc inserta: 
+      <lb ed="#A" n="58"/>non nisi vt dicta philosophorum hoc narrando posui. vel 
+      so<lb ed="#A" n="59" break="no"/>lum scholastice absque assertione pro studiosorum 
+      exerci<lb ed="#A" n="60" break="no"/>tatione et sacre scripture intellectione: et ad laudem 
+      <lb ed="#A" n="61"/>dei: sepius aliqua mysteria applicando: vt patebit 
+      <lb ed="#A" n="62"/>in sequentibus. 
+      <lb ed="#A" n="63"/>Quod bonitatis diuine specialis 
+      <lb ed="#A" n="64"/>dilectio erga Adam est exhibita patet ex subscriptis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

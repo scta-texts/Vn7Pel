@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fructus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Fructus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="216"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g66145">
+            <head xml:id="Vn7Pel-g66145-Hd1e110">Fructus</head>
+            <div xml:id="Vn7Pel-g66145-Dd1e112">
+               <head xml:id="Vn7Pel-g66145-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-g66145-d1e116">
+                  <lb ed="#A" n="81"/>Nuctus a frumi 
+      <lb ed="#A" n="82"/>me dicitur secundum Isid. qui et generaliter 
+      po<lb ed="#A" n="83" break="no"/>mam dicuntur ab opimo id est a copie 
+      vber<lb ed="#A" n="84" break="no"/>tate. Omnia autem poma mollia 
+      dicun<lb ed="#A" n="85" break="no"/>tur mala commniter. Nuces autem generaliter dicuntur 
+      <lb ed="#A" n="86"/>omnia poma corio duro tecta. vt amygdale 
+      casta<lb ed="#A" n="87" break="no"/>nee etc. In omnibus autem apparet maxima bonitatis 
+      <lb ed="#A" n="88"/>diuine prouidentia. Quia vt dicit Ambro. in 
+      hexa<lb ed="#A" n="89" break="no"/>meron. vbicumque mollior est fructus. Ibi folii 
+      cras<lb ed="#A" n="90" break="no"/>situdo validius tegumentum pomo confertur quod 
+      vi<lb ed="#A" n="91" break="no"/>demus in ficulnea. Ccontra vbi fructus validior 
+      <lb ed="#A" n="92"/>est ibi teneriora sunt folia. vt patet in malis id est 
+      <lb ed="#A" n="93"/>in pomis validis. Quanto magis dei bonitas 
+      <lb ed="#A" n="94"/>prouidet hominibus necessaria
+     </p>
+               <p xml:id="Vn7Pel-g66145-d1e149">
+      ¶ Item apparet in 
+      <lb ed="#A" n="95"/>fructibus ordo et multiplicitas que commendat dei 
+      <lb ed="#A" n="96"/>sapientiam. Nam vt dicit Aristo. lib. de vegetabs. 
+      <lb ed="#A" n="97"/>Omnes arbores hunc ordinem seruant quod primo 
+      <lb ed="#A" n="98"/>plantatis dominabitur in fructibus amaritudo vel 
+      <lb ed="#A" n="99"/>ponticitas. quia fructus in principio non bene 
+      di<lb ed="#A" n="100" break="no"/>gestus est. Excepto arbore mirabolanorum quorum 
+      <lb ed="#A" n="101"/>fructus in principio dulces sunt. Denique vt 
+      Am<lb ed="#A" n="102" break="no"/>bro. supra dicit tam multas species et genera 
+      pomo<lb ed="#A" n="103" break="no"/>rum et singulorum vtilitatem deus contulit pro vsu 
+      <lb ed="#A" n="104"/>hominum vt nullus possit comprehendere. Ecce ergo dei 
+      <lb ed="#A" n="105"/>sapientia cuius non est nuerus. dicente Psalmus 
+      Spi<lb ed="#A" n="106" break="no"/>ritualiter docemur. quod omnis homo ab amaritudine 
+      <lb ed="#A" n="107"/>poenitentie debet inchoare fructum salutis eterne. alias 
+      mi<lb ed="#A" n="108" break="no"/>rabolanum est id est mirum est si saluabitur ex delecta 
+      <lb ed="#A" n="109"/>bilibus. Propterea fructus cum leguntur aliqui 
+      <lb ed="#A" n="110"/>habere proprietates nociuas commendant dei 
+      iusti<lb ed="#A" n="111" break="no"/>ciam qua punit peccata nostra. 
+      
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e189">
+               <head xml:id="Vn7Pel-g66145-Hd1e191">2</head>
+               <p xml:id="Vn7Pel-g66145-d1e193">
+      <!--216.xml-->
+                  <pb ed="#A" n="217"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Sed qules proprietates fructi. 
+      <lb ed="#A" n="2"/>bus indidit deus. Notandum est quod ex quo de 
+      singu<lb ed="#A" n="3" break="no"/>lis longum foret scribere. Ideo multis dimissis 
+      sal<lb ed="#A" n="4" break="no"/>tem pauca breviter hic describemus de illis fructibus 
+      <lb ed="#A" n="5"/>quibus vsitatius vescimur: ordine alphabetico 
+      pro<lb ed="#A" n="6" break="no"/>sequendo. recolligentes ex dictis Isido. 
+      Constan<lb ed="#A" n="7" break="no"/>tini in pantegni. <ref xml:id="Vn7Pel-g66145-Rd1e216">Palladii de agricultura lib. ii 
+      <lb ed="#A" n="8"/>Auicen.</ref>
+                  <ref xml:id="Vn7Pel-g66145-Rd1e222">Plinii Isaac. in dietis li. ii.</ref>
+                  <ref xml:id="Vn7Pel-g66145-Rd1e224">Aristo. libro de 
+      <lb ed="#A" n="9"/>plantis.</ref> Diascoridis Plateari et aliorum physicorum 
+      <lb ed="#A" n="10"/>Amygdala: grecum nomen est. latine nux longa 
+      di<lb ed="#A" n="11" break="no"/>citur. cuctis arboribus prior floret. christum significat 
+      <lb ed="#A" n="12"/>Nume. xvii. patet vbi <ref xml:id="Vn7Pel-g66145-Rd1e235">Christus. §. v</ref>
+               </p>
+               <p xml:id="Vn7Pel-g66145-d1e238">
+      ¶ Item amygdala 
+      <lb ed="#A" n="13"/>rum alie sunt dulces alie amare. Maioris autem 
+      <lb ed="#A" n="14"/>virtutis sunt amare in medicinis quam dulces. Uul 
+      <lb ed="#A" n="15"/>pem interficit amara. dulcis vero bonum praebet 
+      nu<lb ed="#A" n="16" break="no"/>trimentum homini. pectus adiuuant. pulmonem colate mun 
+      <lb ed="#A" n="17"/>dificant: cum ficubus sicis comeste soluunt etc. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e251">
+                  <lb ed="#A" n="18"/>¶ Anacardus: si per se sumitur lepram vel mortem 
+      indu<lb ed="#A" n="19" break="no"/>cit Calidus et sicus est tertio gradu. vnde opertet vt 
+      <lb ed="#A" n="20"/>cum aliis odoriferis speciebus tribuantur. lethargi 
+      <lb ed="#A" n="21"/>valet et memoriam custodit. Spiritualiter sercat fidem quae 
+      <lb ed="#A" n="22"/>sola sine operibus mortua est in seipsa. 
+      Iacobi<lb ed="#A" n="23" break="no"/>ii. sed cum operibus valet. 
+      <lb ed="#A" n="24"/>Auellana quae etiam nuces pontice dicuntur. et sunt 
+      <lb ed="#A" n="25"/>tarde digestionis: inflant ventrem. dolorem capiti 
+      fa<lb ed="#A" n="26" break="no"/>ciunt. corpus impinguant Cum ruta ante cibos 
+      co<lb ed="#A" n="27" break="no"/>meste contra venenum valent et contra reptilium morsus 
+      <lb ed="#A" n="28"/>faciunt securos. Ecce dei mira dispositio. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e277">
+                  <lb ed="#A" n="29"/>¶ Bacca fructus lauri calidior est quam folia et forti 
+      <lb ed="#A" n="30"/>oris virtutis. quae tusa et electuarii more melle 
+      con<lb ed="#A" n="31" break="no"/>fecta confert contra tussim et ptisim. cum vino bibita 
+      <lb ed="#A" n="32"/>scorpionum ictibus occurrit. maculas nigras 
+      cor<lb ed="#A" n="33" break="no"/>perpris detergit. plura vbi Laurus. 
+      <lb ed="#A" n="34"/>Cappari calidus est et siccus tertio gradum. quod 
+      <lb ed="#A" n="35"/>ex eo salitum est: sumptum ante cibum soluit. Cum 
+      <lb ed="#A" n="36"/>aceto comestum stomachum mundificat. et est tyriaca 
+      <lb ed="#A" n="37"/>contra venena. De hoc plura vbi <ref xml:id="Vn7Pel-g66145-Rd1e298">Herba. §. xx. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e302">
+               <head xml:id="Vn7Pel-g66145-Hd1e304">3</head>
+               <p xml:id="Vn7Pel-g66145-d1e306">
+                  <lb ed="#A" n="38"/>¶ Casia est fructus cuiusdam 
+      arbo<lb ed="#A" n="39" break="no"/>ris semina longa producentis quae postea tempore elongatur 
+      <lb ed="#A" n="40"/>et ingrossatur et exteriora condensantur medulla interi 
+      <lb ed="#A" n="41"/>us existente. grossa et nigra est eligenda feruorem 
+      <lb ed="#A" n="42"/>sanguinis mirabiliter mitigat. vn valet contra 
+      fe<lb ed="#A" n="43" break="no"/>bres Est odore aromatica. et dulcedine plena. Deu 
+      <lb ed="#A" n="44"/>hac Psalmus Myrrha et gutta et casia a vestimentis 
+      <lb ed="#A" n="45"/>tuis etc. psalmus. xliiii. et significat christi carnem de virgine 
+      <lb ed="#A" n="46"/>conceptam que fuit quasi vestimentum deitatis 
+      <lb ed="#A" n="47"/>quam in sepulcro voluerunt vngere sancte 
+      mu<lb ed="#A" n="48" break="no"/>lieres vngento: ex his speciebus confecto: vt 
+      expo<lb ed="#A" n="49" break="no"/>nit Lyra. Nam et sicut casia: sic fides incarnatio 
+      <lb ed="#A" n="50"/>nis christi confert contra febrem carnalis concupiscentie etc. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e337">
+                  <lb ed="#A" n="51"/>¶ Castanea dure digestionis est. si sepe 
+      come<lb ed="#A" n="52" break="no"/>datur inflationem et capitis dolorem facit. Et 
+      <lb ed="#A" n="53"/>quia inter spinas nascitur et alitur illesa: 
+      Signifi<lb ed="#A" n="54" break="no"/>cat ergo castitatem beate Marie et virginum secundum 
+      <lb ed="#A" n="55"/>Anss. et Bernardum. quia in asperitate vite seruatur 
+      <lb ed="#A" n="56"/>castitas quae periclitatur in delitiis et quasi dolorem faciter 
+      <lb ed="#A" n="57"/>dum caro horret contraria. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e355">
+      <!--216.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Cerasum et crasa in plural grossum phlegma 
+      <lb ed="#A" n="59"/>generant. ideo cause diuturne sunt febris. 
+      Ante<lb ed="#A" n="60" break="no"/>cibum sumpta: stomacho in anito plus valent. 
+      <lb ed="#A" n="61"/>quia post cibum stomacho pleno in superioribus 
+      <lb ed="#A" n="62"/>natant et in putredinem vertuntur et secundum Aristo. lir. 
+      <lb ed="#A" n="63"/>de plantis Cerasa et mora magis cito 
+      maturan<lb ed="#A" n="64" break="no"/>tur. Et in omnibus dei sapientia laudabilis est. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e377">
+                  <lb ed="#A" n="65"/>¶ Cidonia grece: nos coctanea latine vocamus 
+      <lb ed="#A" n="66"/>et sunt dure digestionis et odorifera grossos 
+      hu<lb ed="#A" n="67" break="no"/>mores generant et crudos. confortant 
+      stomachua<lb ed="#A" n="68" break="no"/>et constipant. sitim sedant et multa comestio eorum 
+      ge<lb ed="#A" n="69" break="no"/>nerat dolorem neruorum. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e391">
+                  <lb ed="#A" n="70"/>¶ Cyprus vbi <ref xml:id="Vn7Pel-g66145-Rd1e395">Lignum. §. xx. </ref>
+               </p>
+               <p xml:id="Vn7Pel-g66145-d1e398">
+                  <lb ed="#A" n="71"/>¶ Citrum id est pomum citrinum vel citreum. quod vocamus 
+      <lb ed="#A" n="72"/>etiam narantium etc. Cortex eius est calidus et 
+      sic<lb ed="#A" n="73" break="no"/>cus. Interior autem substantia vel caro e st frigida. 
+      <lb ed="#A" n="74"/>media vero calida et humida. Cortex eius 
+      ha<lb ed="#A" n="75" break="no"/>bet virtutem resolutiuam. similiter et semen vel 
+      gra<lb ed="#A" n="76" break="no"/>num eius. Et ipse cortex in panniculis positus 
+      <lb ed="#A" n="77"/>prohibet tineas. et in ore retentus bonum facit 
+      odo<lb ed="#A" n="78" break="no"/>rem oris ac aeris corruptionem et pestilentiam 
+      <lb ed="#A" n="79"/>rectificat. Caro citri stomachum inflat: et 
+      digesti<lb ed="#A" n="80" break="no"/>one est tarda. sed folia eius inflationem sedant. 
+      <lb ed="#A" n="81"/>Medulla citri cocta cum aceto et potata 
+      sangui<lb ed="#A" n="82" break="no"/>sugas deglutitas interficit et eas educit. Ecce 
+      mi<lb ed="#A" n="83" break="no"/>ra dei bonitas in huiusmodi
+     </p>
+               <p xml:id="Vn7Pel-g66145-d1e429">
+      ¶ De arbore citri 
+      <lb ed="#A" n="84"/>quire vbi Lignum. §. xiii. 
+      <lb ed="#A" n="85"/>Conus est fructus cypressi. si sit recens 
+      come<lb ed="#A" n="86" break="no"/>stum consolidat incisionem et valet crepature. 
+      mol<lb ed="#A" n="87" break="no"/>ibus membris duriciam et virtutem praestat. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e440">
+                  <lb ed="#A" n="88"/>¶ Cubebe est fructus cuiusdam arboris 
+      Indie<lb ed="#A" n="89" break="no"/>vralet contra syncopim. odoratum sepius confortat. 
+      ce<lb ed="#A" n="90" break="no"/>rebrum in ore tentum clarificat voce. arenosam et 
+      la<lb ed="#A" n="91" break="no"/>pidem extrahit etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e452">
+               <head xml:id="Vn7Pel-g66145-Hd1e454">4</head>
+               <p xml:id="Vn7Pel-g66145-d1e456">
+                  <lb ed="#A" n="92"/>¶ Dactyli sunt fructus palme 
+      con<lb ed="#A" n="93" break="no"/>similis odoris cidonio vel coctano. Si ex eis mul 
+      <lb ed="#A" n="94"/>tum comedatur. dolorem capitis et ebrietatem 
+      fa<lb ed="#A" n="95" break="no"/>ciunt. et sunt difficilis digestionis. tamen illi qui 
+      <lb ed="#A" n="96"/>nascuntur in calidiori regione citius digeruntur. 
+      <lb ed="#A" n="97"/>dulcissimi sunt et libidinem incitant. Item secundum 
+      So<lb ed="#A" n="98" break="no"/>linum sitim sedat: si prius quam maturauerit 
+      de<lb ed="#A" n="99" break="no"/>cerpatur Nam si matura sumatur multum 
+      sen<lb ed="#A" n="100" break="no"/>sum intercipit. gressum prepedit: linguam 
+      retar<lb ed="#A" n="101" break="no"/>dat: mentis et corporis ebrietatem facit. Ad hecc 
+      <lb ed="#A" n="102"/>vbi <ref xml:id="Vn7Pel-g66145-Rd1e482">Lignum. § xvi. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e487">
+               <head xml:id="Vn7Pel-g66145-Hd1e489">5</head>
+               <p xml:id="Vn7Pel-g66145-d1e491">
+                  <lb ed="#A" n="103"/>¶ Ficorum massa. de qua scribis 
+      <lb ed="#A" n="104"/>tur quarti Regum. xx. quod Esaias posuit super 
+      vl<lb ed="#A" n="105" break="no"/>cus Ezechie. et sic curatus est. Ibi Lyra dicit. quod 
+      <lb ed="#A" n="106"/>factum est hoc per miracuum. quia Ezechias 
+      <lb ed="#A" n="107"/>habuit talem infirmitatem cui potius ficus 
+      noce<lb ed="#A" n="108" break="no"/>bat. Ex quo colligitur quod illa Ezechie regis 
+      infir<lb ed="#A" n="109" break="no"/>mitas fuerit ex sanguine malo: quem creare 
+      ha<lb ed="#A" n="110" break="no"/>bet ficus. Licet enim ficus si a senibus sepius in 
+      <lb ed="#A" n="111"/>cibo sumatur rugas ceorum distendere fertur. 
+      ca<lb ed="#A" n="112" break="no"/>lorem et sitim aufert. Tamen ficus sicca in superfi¬ 
+      <!--217.xml-->
+      <pb ed="#A" n="218"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cie corporis pediculos creat et malum sanguinem facit 
+      <lb ed="#A" n="2"/>si sit nimium comesta. Tales ficus carice vocantur et 
+      <lb ed="#A" n="3"/>sunt vtiles stomacho. Ficus alba autem melior est 
+      <lb ed="#A" n="4"/>deinde rubea: deinde nigra. Tussientes adinuant 
+      <lb ed="#A" n="5"/>si mature sunt. pectus et pulmonem mundant et 
+      re<lb ed="#A" n="6" break="no"/>nes. ac gutturis apostematibus conferunt Denique 
+      eti<lb ed="#A" n="7" break="no"/>am ficus immatura scilicet grossus existens si ponatur 
+      su<lb ed="#A" n="8" break="no"/>per morsum canis rabidi confert. Significat ergo fidem 
+      <lb ed="#A" n="9"/>christi contra diabolum praeualere. vnde Can. ii Ficus 
+      protu<lb ed="#A" n="10" break="no"/>lit grossos suos etc. Ficus dulcedinem habet cum 
+      gra<lb ed="#A" n="11" break="no"/>nulis multis interioribus. sic fides cum operibus. et si 
+      <lb ed="#A" n="12"/>valet contra diaboli morsum in praesenti cum est adhuc 
+      im<lb ed="#A" n="13" break="no"/>matura. Quia in spe maturitati scilicet beate quam 
+      expecta<lb ed="#A" n="14" break="no"/>mus etc: hec senes in futura resurrectione 
+      reno<lb ed="#A" n="15" break="no"/>uat: sitim temporalium cupidinum tollit. Pediculos 
+      ten<lb ed="#A" n="16" break="no"/>tationum habet: sed contra mala concupientie sanguis 
+      mi<lb ed="#A" n="17" break="no"/>raculo vtilis est. alba prae aliis id est que castitati et 
+      pu<lb ed="#A" n="18" break="no"/>ritati studet.
+     </p>
+               <p xml:id="Vn7Pel-g66145-d1e561">
+      ¶ Ad hec vbi <ref xml:id="Vn7Pel-g66145-Rd1e563">Lignum. §. xiiii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e567">
+               <head xml:id="Vn7Pel-g66145-Hd1e569">6</head>
+               <p xml:id="Vn7Pel-g66145-d1e571">
+                  <lb ed="#A" n="19"/>Gariophili sunt fructus 
+      cuius<lb ed="#A" n="20" break="no"/>dam arboris in india et seruari possunt. x. annis. 
+      con<lb ed="#A" n="21" break="no"/>fortant cerebrum: visum acuunt. vnde et in collyriis 
+      po<lb ed="#A" n="22" break="no"/>nuntur. vim memoratiuam confortant sepius hausti et 
+      sto<lb ed="#A" n="23" break="no"/>machum et epar et interiora constipant et nauseam prohibent 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e584">
+                  <lb ed="#A" n="24"/>¶ Glans secundum Isid. lir. Etyum. Glandibus vixerunt 
+      <lb ed="#A" n="25"/>antiqui homines antequam frumenti vsus esset. vnde 
+      Poe<lb ed="#A" n="26" break="no"/>ta. Mortalens primi ructabant gutture glandem. 
+      <lb ed="#A" n="27"/>Sunt autem secundum Galienum glandes omnibus granis 
+      me<lb ed="#A" n="28" break="no"/>liores et nutribiliores: ita quod propinquiores sunt 
+      gra<lb ed="#A" n="29" break="no"/>nis frumenti seu panis tritici. Et sunt multa 
+      gene<lb ed="#A" n="30" break="no"/>ra illorum quae distant fructu et sapore et figura. Glans 
+      <lb ed="#A" n="31"/>autem fagi est omnium dulcissima et viribus gratissima. quae 
+      <lb ed="#A" n="32"/>suem facit hilarem. carnem coctibilem ac leuem. et 
+      sto<lb ed="#A" n="33" break="no"/>macho humano vtilem. Item alia est figura glandis 
+      <lb ed="#A" n="34"/>fagine. alia querne id est querci. alia iligne id est ilicis. 
+      De<lb ed="#A" n="35" break="no"/>nique glandes ventrem constipant et conferunt disenterie 
+      <lb ed="#A" n="36"/>et vlceribus intestinorum. capitis dolorem faciunt propter 
+      fu<lb ed="#A" n="37" break="no"/>mum in stomacho etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e618">
+               <head xml:id="Vn7Pel-g66145-Hd1e620">7</head>
+               <p xml:id="Vn7Pel-g66145-d1e622">
+                  <lb ed="#A" n="38"/>¶ Malam a grecis dicta que 
+      po<lb ed="#A" n="39" break="no"/>ma rotunda vocamus. Quedam sunt stiptica. et 
+      <lb ed="#A" n="40"/>hec tardioris sunt digestionis. Quedam sunt 
+      ace<lb ed="#A" n="41" break="no"/>tosa et sitim mitigat et solutionem faciunt. Quedam 
+      <lb ed="#A" n="42"/>sunt dulcia et phlegma nutriunt: neruis nocent praeser 
+      <lb ed="#A" n="43"/>tim ea que sunt aquatici saporis. Stiptica 
+      auten<lb ed="#A" n="44" break="no"/>vel austera que sola in hyeme seruantur prosunt 
+      quando<lb ed="#A" n="45" break="no"/>que etiam languentibus. Ecce patet in praedictis 
+      singu<lb ed="#A" n="46" break="no"/>lis diuine bonitatis prouidentia ad nos. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e644">
+                  <lb ed="#A" n="47"/>¶ Malogranatum dicitur etmalumpunicum. A regione 
+      <lb ed="#A" n="48"/>vnde fuit tranflatum nutrimenti parui est sed 
+      lauda<lb ed="#A" n="49" break="no"/>bilis. Sucus eius confert febricitantibus ex 
+      chole<lb ed="#A" n="50" break="no"/>ra virtutem habet constringendi. puluis contra 
+      flu<lb ed="#A" n="51" break="no"/>tum sanguinis est naribus imponitur. et cortices eius 
+      <lb ed="#A" n="52"/>aduersantur scorpionibus. vinum expressum ex eis 
+      <lb ed="#A" n="53"/>musto madid rhoiton vocatur. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e662">
+                  <lb ed="#A" n="54"/>¶ Mespila futum veris constringunt. denitbus 
+      do<lb ed="#A" n="55" break="no"/>lentibus conferunt si mandantur. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e669">
+                  <lb ed="#A" n="56"/>¶ Miraholani fructus sunt arborum Indier cho 
+      <lb ed="#A" n="57"/>leram purgant: visum clarificant: stomacho conferunt 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e677">
+      <!--217.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Morus grecerubus latie dicitur eo quod fubet 
+      fru<lb ed="#A" n="59" break="no"/>ctus eius. carne et succo constat. Et mora sunt que 
+      <lb ed="#A" n="60"/>dam domestica. Quedam siluestria ventrem constipant 
+      <lb ed="#A" n="61"/>Sucus eorum ad gutturis dolorem vel faucium 
+      <lb ed="#A" n="62"/>valet. fastidium in stomacho facit vel nauseam etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e696">
+               <head xml:id="Vn7Pel-g66145-Hd1e698">8</head>
+               <p xml:id="Vn7Pel-g66145-d1e700">
+                  <lb ed="#A" n="63"/>Nuces alio nomine latini vocant 
+      <lb ed="#A" n="64"/>iuglandes quasi Iouis glandes. harum 
+      arbo<lb ed="#A" n="65" break="no"/>rum foliorumque vires cerebrum penetrant et capitis 
+      gra<lb ed="#A" n="66" break="no"/>uedinem. Fructus etiam dolorem infert capiti sepe 
+      co<lb ed="#A" n="67" break="no"/>mestus et tussim. cum ruta nuces manducate 
+      va<lb ed="#A" n="68" break="no"/>lent contra venenum. cataplasma ex eis factum cum 
+      <lb ed="#A" n="69"/>cepis et sale et melle proficit contra morsum canis 
+      ra<lb ed="#A" n="70" break="no"/>bidi et contra apostema. Nuces enim sicce due cum 
+      <lb ed="#A" n="71"/>duabus caricis id est ficubus siccis et viginti foliis rute 
+      <lb ed="#A" n="72"/>addito grano salis conteruntur. nullisque venenis vel 
+      <lb ed="#A" n="73"/>pestilentiis opprimi poterit ea die qua quisque ie 
+      <lb ed="#A" n="74"/>iunus acceperit. Puta men nucis combustum et in 
+      <lb ed="#A" n="75"/>pleo tritum ac vino infantium capite peruncto 
+      capil<lb ed="#A" n="76" break="no"/>los nutrit. Ad alopiciam etiam co sic vtuntur. vt 
+      di<lb ed="#A" n="77" break="no"/>cit Plinius et Putamen est nucis corium interius 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e735">
+                  <lb ed="#A" n="78"/>¶ Nuxmuscata calida et sicca in secundo: fructus est 
+      <lb ed="#A" n="79"/>aurboris Indie. et seruari potest per. vii. annos. 
+      cli<lb ed="#A" n="80" break="no"/>genda est que plana est et grauis in suo genere quae 
+      <lb ed="#A" n="81"/>cum frangitur non puluerizatur interius et acuti 
+      sa<lb ed="#A" n="82" break="no"/>poris inuenitur si ista defuerit in medicinis non 
+      po<lb ed="#A" n="83" break="no"/>natur Ipsa data in mane ad comedendum: et etiam 
+      <lb ed="#A" n="84"/>vinum decoctionis eius confert contra frigiditatem 
+      sto<lb ed="#A" n="85" break="no"/>machi et indigestionem. Item os fetidum curat 
+      confor<lb ed="#A" n="86" break="no"/>tat visum epar et splen. prohibet vomitum ventrem 
+      con<lb ed="#A" n="87" break="no"/>stipat. cerebrum contrafortat et spiritualia solo etiam 
+      odo<lb ed="#A" n="88" break="no"/>ratu. Item nucis muscate arboris ramorum cortex 
+      <lb ed="#A" n="89"/>vocatur macis quem aliqui dicunt esse flores 
+      mu<lb ed="#A" n="90" break="no"/>scate sed falsum est. quia flores aut decidunt aut 
+      <lb ed="#A" n="91"/>in fructus mutantur. sed cortices sunt circa nuces 
+      <lb ed="#A" n="92"/>seruantur per annos. x. eligantur rufi vel surrufi 
+      acu<lb ed="#A" n="93" break="no"/>ti saporis cum aliqua amaritudine non nigricans. 
+      <lb ed="#A" n="94"/>ipsa macis remouet emorroides et valet ad ea 
+      prae<lb ed="#A" n="95" break="no"/>dicta de nucibus eius consimiliter. En dei honitas 
+      <lb ed="#A" n="96"/>laudabilis in omnibus etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e780">
+               <head xml:id="Vn7Pel-g66145-Hd1e782">9</head>
+               <p xml:id="Vn7Pel-g66145-d1e784">
+                  <lb ed="#A" n="97"/>¶ Pliua secundum aliquos dicitur olea quod 
+      <lb ed="#A" n="98"/>est fructus olee. et constat nucleo oleo: carne 
+      amur<lb ed="#A" n="99" break="no"/>ca. et bacca nigrescente decerpenda. quia malum 
+      <lb ed="#A" n="100"/>est expectare vt decidant. et sunt difficilis 
+      digesti<lb ed="#A" n="101" break="no"/>onis. tamen olea secundum Isid. arbor est. fructus oliua 
+      <lb ed="#A" n="102"/>sucus oleum dicitur. Item secundum Ambro. in hexamer. 
+      <lb ed="#A" n="103"/>dicitur libro xvi. Ceruus eger ramusculos oliue 
+      man<lb ed="#A" n="104" break="no"/>dit et sanus fit. Et secundum Plinium lib. viii. Si capre 
+      <lb ed="#A" n="105"/>oliuam lambunt sterilem faciunt illam. Cuius flos 
+      <lb ed="#A" n="106"/>odore mirabilis est sed valde noxius pregnanti 
+      <lb ed="#A" n="107"/>bus. Sucus olee arboris est oleum viride: t 
+      sua<lb ed="#A" n="108" break="no"/>ue lumen dans oculis. et amicum infirmis
+     </p>
+               <p xml:id="Vn7Pel-g66145-d1e813">
+      ¶ Und 
+      <lb ed="#A" n="109"/>de conuenienter secundum Grego. per oliuam significatur mise 
+      <lb ed="#A" n="110"/>ricordia et eius opera que exercenda sunt in nigre 
+      <lb ed="#A" n="111"/>dine humilitatis ne decidant per vanam gloriam. licet 
+      <lb ed="#A" n="112"/>sint difficiles opere. tamen conferunt miseris et egris 
+      <lb ed="#A" n="113"/>odore imitationis christi. dulces mirabiliter. quia 
+      <lb ed="#A" n="114"/>christo datur quod misericorditer impenditur. tamen¬ 
+      <!--218.xml-->
+      <pb ed="#A" n="219"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>pregnantibus id est luxurie vicio plenis non tam 
+      <lb ed="#A" n="2"/>prosunt vt mundis. et capre id est demones 
+      tentan<lb ed="#A" n="3" break="no"/>tes homines reddunt steriles per varia vicia. eorum 
+      <lb ed="#A" n="4"/>opera misericordie deprauantes. Unde Iob. xv. de tali 
+      <lb ed="#A" n="5"/>bus dicitur. Ledetur quasi vinea in primo flore 
+      bo<lb ed="#A" n="6" break="no"/>trus eius. et quasi oliua proiiciens florem suum. 
+      glo<lb ed="#A" n="7" break="no"/>sa dicit. Oliua cum est in flore si nebula 
+      immo<lb ed="#A" n="8" break="no"/>derata tangitur a fruictu vacuatur. Hec gloia En 
+      mi<lb ed="#A" n="9" break="no"/>ra dei sapientia
+     </p>
+               <p xml:id="Vn7Pel-g66145-d1e855">
+      ¶ Ad idem plra vbi Oleum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e858">
+               <head xml:id="Vn7Pel-g66145-Hd1e860">10</head>
+               <p xml:id="Vn7Pel-g66145-d1e862">
+                  <lb ed="#A" n="10"/>¶ Persicum quoddam est praecox. aliud 
+      e<lb ed="#A" n="11" break="no"/>stiuum Illa quae latini praecocia dicunt sunt minora persi 
+      <lb ed="#A" n="12"/>ca. et sunt stomacho bona et fastidium tollunt. 
+      Per<lb ed="#A" n="13" break="no"/>sica autem maiora ventrem molliunt. si 
+      matu<lb ed="#A" n="14" break="no"/>ra fuerint. immatura vero abstinent et stringunt. 
+      <lb ed="#A" n="15"/>et que si cca sunt: tarde digestionis sunt. Persica 
+      <lb ed="#A" n="16"/>duracina habent corpus adherens grano. et sunt 
+      <lb ed="#A" n="17"/>saporis iocundi. Flores persicorum comesti vel 
+      <lb ed="#A" n="18"/>potati faciunt solutionem 
+      <lb ed="#A" n="19"/>Pinea est fructus arboris pini et dicuntur 
+      fru<lb ed="#A" n="20" break="no"/>ctus isti. alio nomine coli Et adhuc alio nomine 
+      <lb ed="#A" n="21"/>nuclei simpliciter. Isidoro dicente et Constantino 
+      <lb ed="#A" n="22"/>Unde quando nucleus simpliciter ponitur: de 
+      nu<lb ed="#A" n="23" break="no"/>cleo pinee intelligitur. Secus si additur aliquid: 
+      di<lb ed="#A" n="24" break="no"/>cendo Nucleus nucis et huiusmodi. Item pinea 
+      quamn<lb ed="#A" n="25" break="no"/>do ponitur in medicinis super carbones 
+      aliquan<lb ed="#A" n="26" break="no"/>tulum comburitur post abiectis duplicibus 
+      cortici<lb ed="#A" n="27" break="no"/>bus et etiam quadam interiori pellicula nucleus 
+      <lb ed="#A" n="28"/>exponitur optimus cibus est: sicce tussientibus. 
+      <lb ed="#A" n="29"/>sanguinem augmentat. vt dicit hec Platearius 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e908">
+                  <lb ed="#A" n="30"/>¶ Et secundum Galienum curam omni leproso 
+      certissi<lb ed="#A" n="31" break="no"/>me prestat. ac secundum Constantinum lapides renum 
+      <lb ed="#A" n="32"/>et vesice frangit. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e917">
+                  <lb ed="#A" n="33"/>¶ Piper in India nascitur. cuius natura alba est 
+      <lb ed="#A" n="34"/>sed ex flamma et calore ignis nigrum et rugosum 
+      <lb ed="#A" n="35"/>efficitur. Arbores que piper gignunt similes sunt 
+      <lb ed="#A" n="36"/>iuniperis nostris. Piper est calidum et siccum in 
+      <lb ed="#A" n="37"/>quarto gradu. seruatur per annos quadraginta. 
+      <lb ed="#A" n="38"/>Nam tempore maturitatis collectum saraceni 
+      <lb ed="#A" n="39"/>ponunt in clibano. et vt diu seruetur sicut dictum 
+      <lb ed="#A" n="40"/>est scilicet quadraginta annis et etiam vt in aliis 
+      par<lb ed="#A" n="41" break="no"/>tibus fructificare non possit. Puluis eius nari 
+      <lb ed="#A" n="42"/>bus impositus sternutare facit. et cerebrum a 
+      phle<lb ed="#A" n="43" break="no"/>gmatica superfluitate mundificat. In cibis datus 
+      <lb ed="#A" n="44"/>digestionem confortat et pectus mundat. In 
+      e<lb ed="#A" n="45" break="no"/>lectuariis mixtus optime confert contra diutur 
+      <lb ed="#A" n="46"/>nam tussim. Piper cum pice resoluit scrofulas 
+      <lb ed="#A" n="47"/>id est apostemata que solent nasci circa collum. 
+      <lb ed="#A" n="48"/>et multas alias habet virtutes. 
+      <lb ed="#A" n="49"/>Pira habent multas species. a ieiunis 
+      come<lb ed="#A" n="50" break="no"/>sta constipant. sed post cibum comesta soluunt 
+      <lb ed="#A" n="51"/>Recentibus vulneribus pira trita admota: 
+      san<lb ed="#A" n="52" break="no"/>guinem profluentem sistere faciunt et vulnus ad 
+      <lb ed="#A" n="53"/>cicatricem perducere. Item pira pre aliis 
+      nutri<lb ed="#A" n="54" break="no"/>unt. ante cibum sumpta ieiue cholicam generat passionem 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e967">
+                  <lb ed="#A" n="55"/>¶ Pruna meliora sunt que damascena 
+      dicun<lb ed="#A" n="56" break="no"/>tur. quia a Damasco huiusmodi translata Hec 
+      <lb ed="#A" n="57"/>sola stomacho mederi probantur ventrem pru¬ 
+      <!--218.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>na foluunt choleram rumbeu proiiciunt. sunter 
+      ab<lb ed="#A" n="59" break="no"/>ba. quedam nigra et rubea. et nigra plus valent i iet 
+      <lb ed="#A" n="60"/>que siccata sunt minus soluunt. quam recentia Si 
+      <lb ed="#A" n="61"/>tamen cum aqua cocta sint et cum zucaro hibatur. 
+      <lb ed="#A" n="62"/>soluunt contra febres vtiliter. 
+      <lb ed="#A" n="63"/>Item de vino proprio capitulo habetur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g66145-Dd1e995">
+               <head xml:id="Vn7Pel-g66145-Hd1e997">11</head>
+               <p xml:id="Vn7Pel-g66145-d1e999">
+                  <lb ed="#A" n="64"/>¶ Aua vel vue dicuntur. quia intrinse. §o 
+      <lb ed="#A" n="65"/>cus hum ore plene sunt. Unde huiusmodi dicuntur vuida si 
+      <lb ed="#A" n="66"/>cut dicuntur humida que humores habent 
+      ex<lb ed="#A" n="67" break="no"/>terius. Acina botrus est Racemus botri pars 
+      <lb ed="#A" n="68"/>secundum Isidorum Et vuarum genera differunt 
+      magni<lb ed="#A" n="69" break="no"/>tudine: colore: sapore acinis. Item meliores sunt 
+      <lb ed="#A" n="70"/>pellem tenuem habentes: et multum interius 
+      hu<lb ed="#A" n="71" break="no"/>morem. Uua etiam alba laudabilior est quam nigra 
+      <lb ed="#A" n="72"/>ceteris paribus proprietatibus scilicet spissitudine. 
+      <lb ed="#A" n="73"/>subtilitate. dulcedine. et reliquis Nigra enim 
+      gros<lb ed="#A" n="74" break="no"/>sioris est nutrimenti et tardioris digestionis. Uua 
+      <lb ed="#A" n="75"/>immatura ventrem stringit. daturque 
+      disenteri<lb ed="#A" n="76" break="no"/>cis. sed matura laudabilem facit sanguinem. si 
+      <lb ed="#A" n="77"/>tamen comedatur simul cum cortice et ossibus non 
+      <lb ed="#A" n="78"/>valet sed nocet et 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e1034">
+                  <lb ed="#A" n="79"/>¶ Quapasa dicitur vua in clbano desiccata quoa 
+      <lb ed="#A" n="80"/>si ficus sicca. et tales vocantur passuli et habent 
+      vir<lb ed="#A" n="81" break="no"/>tutem leniendi. valentque comeste contra tussim. 
+      <lb ed="#A" n="82"/>Item vuapassa sine ossibus accepta commodior 
+      <lb ed="#A" n="83"/>est tussientibus et contra pectoris ac pulmonis 
+      <lb ed="#A" n="84"/>dolorem etc. Ecce patet multipliciter dei bonitas 
+      <lb ed="#A" n="85"/>in fructibus laudabilis 
+      <lb ed="#A" n="86"/>Item de fructuum arboribus 
+      <lb ed="#A" n="87"/>videm vbi Lignum. per totum. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e1056">
+                  <lb ed="#A" n="88"/>¶ Item de fructibus terre videm vbi 
+      <lb ed="#A" n="89"/>Grana. videlcet seminum et leguminum. 
+      </p>
+               <p xml:id="Vn7Pel-g66145-d1e1063">
+                  <lb ed="#A" n="90"/>¶ Q dei bonitas claret erga 
+      ho<lb ed="#A" n="91" break="no"/>mine apencipio generationis in vtero. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

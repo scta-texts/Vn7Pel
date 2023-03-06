@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benedictio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Benedictio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="117"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g35597">
+            <head xml:id="Vn7Pel-g35597-Hd1e110">Benedictio</head>
+            <div xml:id="Vn7Pel-g35597-Dd1e112">
+               <head xml:id="Vn7Pel-g35597-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-g35597-d1e116">
+                  <lb ed="#A" n="15"/>¶ Benedictio. Quo 
+      <lb ed="#A" n="16"/>deus benedicit creaturis Notandum 
+      <lb ed="#A" n="17"/>quod sicut Lyra super Io. xii. dicit: 
+      Dice<lb ed="#A" n="18" break="no"/>re hominis non est suum facere: sed tantum fateri: ideo quando 
+      <lb ed="#A" n="19"/>deum benedicimus non eum bonum facimus: sed tantummodo 
+      <lb ed="#A" n="20"/>eius bonitatem fatemur et laudamus. Sed 
+      dice<lb ed="#A" n="21" break="no"/>re dei est suum facere. palmus. xxxii. Dixit et facta sunt. ideo 
+      <lb ed="#A" n="22"/>quando deus creature benedicit: ei beneficium impendit 
+      <lb ed="#A" n="23"/>Quoniam autem beneficium est triplex. Primo Quoddam 
+      <lb ed="#A" n="24"/>in donis vel bonis Nature. Secundo: Quoddam 
+      <lb ed="#A" n="25"/>in donis Gre. Tertio: Quoddam in donis 
+      Glo<lb ed="#A" n="26" break="no"/>rie. Primo modo deus benedixit creaturas Irrati 
+      <lb ed="#A" n="27"/>onales. scilicet pisces et aues Gen i. scilicet 
+      multiplican<lb ed="#A" n="28" break="no"/>ndo per generationem. Non autem dicit ibi scriptura 
+      <lb ed="#A" n="29"/>quod deus benedixerit herbis et plantis. quia ille non 
+      <lb ed="#A" n="30"/>habent per generationem multiplicari. Secundo modo Deus spe 
+      <lb ed="#A" n="31"/>cialius benedixit hominibus omnibus quo ad gratiae gratisdate 
+      col<lb ed="#A" n="32" break="no"/>lationem vt sint capaces dei ad cuius immaginem facti 
+      <lb ed="#A" n="33"/>sunt. Tertio modo benedicit electis bonis: in praesenti 
+      dam<lb ed="#A" n="34" break="no"/>do gratiam gratum facientem: et in futuro gluriam 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g35597-Dd1e163">
+               <head xml:id="Vn7Pel-g35597-Hd1e165">2</head>
+               <p xml:id="Vn7Pel-g35597-d1e167">
+                  <lb ed="#A" n="35"/>¶ Sed quare deus in principio 
+      <lb ed="#A" n="36"/>creationis benedixisse legitur piscibus et auibus: sed non 
+      be<lb ed="#A" n="37" break="no"/>stiis terrestribus gressibilibus Respondetur secundum <ref xml:id="Vn7Pel-g35597-Rd1e175">Aug. li. i. de 
+      mi<lb ed="#A" n="38" break="no"/>rabil. c. iiii.</ref> quod ad ostendendum quia terrena animalia: 
+      vindi<lb ed="#A" n="39" break="no"/>cte humane: plus quam aquatica debant succumbere in 
+      dilu<lb ed="#A" n="40" break="no"/>uio. Nam in peccato primi hominis tera stati maledicitur a deo 
+      <lb ed="#A" n="41"/>quia de terra homo gustauerat: ideo etiam animalia terrena quia de 
+      <lb ed="#A" n="42"/>tra sic maledcena viuunt: expertia maledcionis esse non 
+      <lb ed="#A" n="43"/>possunt: propterea et perierunt in diluuio. Similiter quia aues de 
+      <lb ed="#A" n="44"/>trra viuunt perierunt in diluuio. Maxime idcirco quia na 
+      <lb ed="#A" n="45"/>ture viam corruperant vtque vbi <ref xml:id="Vn7Pel-g35597-Rd1e196">Diluuium. §. 1.</ref> Sed quod 
+      <lb ed="#A" n="46"/>deus antea auibus piscibusque benedixit: ideo fec quia aues 
+      ele<lb ed="#A" n="47" break="no"/>uantur a terra: sercantes scons et angelos. et pisces 
+      signi<lb ed="#A" n="48" break="no"/>ficant electos capriendos per Apostolos 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g35597-Dd1e206">
+               <head xml:id="Vn7Pel-g35597-Hd1e208">3</head>
+               <p xml:id="Vn7Pel-g35597-d1e210">
+                  <lb ed="#A" n="49"/>¶ Quare autm non maledixit deus 
+      <lb ed="#A" n="50"/>aquis simul cum terre pro peccato Ade. Respondet ibid Aug. quia adam 
+      <lb ed="#A" n="51"/>non bibit aqua contra interdictum domini. licet de fructu tre 
+      co<lb ed="#A" n="52" break="no"/>mederit paradisi contra obiam. Item quia voluit deus vt per 
+      a<lb ed="#A" n="53" break="no"/>quas bapremi dilueretur peccacet maledionis Ade. vnde et 
+      a<lb ed="#A" n="54" break="no"/>quati lia non perierit diluuio. quia non sunt participes maledeni. 
+      </p>
+               <p xml:id="Vn7Pel-g35597-d1e226">
+                  <lb ed="#A" n="55"/>¶ Tertio quia in huius signum christus maledcionem mortis 
+      <!--116.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>in resurrectione deponen non terenorum sed aquatilium 
+      car<lb ed="#A" n="57" break="no"/>nem comedere voluit scilicet partem piscis assi. 
+      Ecce<lb ed="#A" n="58" break="no"/>dei sapientia laudabilis 
+      </p>
+               <p xml:id="Vn7Pel-g35597-d1e242">
+                  <lb ed="#A" n="59"/>¶ Qud bonitatis diuine beneficia 
+      <lb ed="#A" n="60"/>recognoscamus et gratiarum actiones eidem reddamus 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

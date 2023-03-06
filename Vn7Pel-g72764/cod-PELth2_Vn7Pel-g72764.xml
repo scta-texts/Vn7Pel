@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Guma del Gumi</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Guma del Gumi</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="237"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g72764">
+            <head xml:id="Vn7Pel-g72764-Hd1e110">Guma del Gumi</head>
+            <p xml:id="Vn7Pel-g72764-d1e112">
+               <lb ed="#A" n="103"/>Na Dei gumi 
+      <lb ed="#A" n="104"/>grece. siue sucus vel gutta profluens 
+      <lb ed="#A" n="105"/>de arbore quasi lachryma. siue de 
+      her<lb ed="#A" n="106" break="no"/>ba confecta species aromatica. Ex quo in 
+      scri<lb ed="#A" n="107" break="no"/>ptura sepe inducuntur talia. 
+      </p>
+            <div xml:id="Vn7Pel-g72764-Dd1e125">
+               <head xml:id="Vn7Pel-g72764-Hd1e127">1</head>
+               <p xml:id="Vn7Pel-g72764-d1e129">
+                  <lb ed="#A" n="108"/>¶ Queritur ergo Quid de talium 
+      <lb ed="#A" n="109"/>proprietatibus dicendum sit vt deus laudetur 
+      <!--237.xml-->
+      <pb ed="#A" n="238"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>et scriptura intelligatur Notandum secundum Aristotelem 
+      <lb ed="#A" n="2"/>libro de Uegetabilibus. Arbores quedam habent 
+      <lb ed="#A" n="3"/>gumi. vt patet de amygdali planta. si quidem que 
+      <lb ed="#A" n="4"/>lac enutrit arbor: lac in medio habebit. scilicet in 
+      <lb ed="#A" n="5"/>tra corticem etc. Cumque calor digerere ceperit attra 
+      <lb ed="#A" n="6"/>het illud ad extremitates: et ipsum retinebit 
+      hu<lb ed="#A" n="7" break="no"/>mor. Cunque frigus apparens in arbore fuerit. 
+      <lb ed="#A" n="8"/>coagulabitur lac postquam ab arbore exiuit vel a 
+      <lb ed="#A" n="9"/>loco suo: et inde gumi fit cum ad aeris tactum 
+      coa<lb ed="#A" n="10" break="no"/>gulatur et siccatur. Deus ergo laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e165">
+               <head xml:id="Vn7Pel-g72764-Hd1e167">2</head>
+               <p xml:id="Vn7Pel-g72764-d1e169">
+                  <lb ed="#A" n="11"/>¶ Sed quales arbores faciunt 
+      me<lb ed="#A" n="12" break="no"/>lius gumum. Plinius dicit quod gumum ex spina 
+      <lb ed="#A" n="13"/>egyptia conuenit esse optimum purum sine 
+      corti<lb ed="#A" n="14" break="no"/>ce: dentibus adherens. colore glauco. Deterius 
+      <lb ed="#A" n="15"/>autem est ex amygdalis amaris. et cerasis. 
+      pessi<lb ed="#A" n="16" break="no"/>mum vero ex prunis. Sed ex vitibus fluit 
+      aptis<lb ed="#A" n="17" break="no"/>simum infantium vlceribus. Alia plura ibidem dicit 
+      <lb ed="#A" n="18"/>Plinius: sed pro brevitate dimitto. Nota 
+      tamen<lb ed="#A" n="19" break="no"/>secundum Auicenna libro. ii quod gumi species calide sunt 
+      <lb ed="#A" n="20"/>omnes. et eligendum est quod est arabicum purum 
+      <lb ed="#A" n="21"/>Tussim sicca lenit. et nocumenta vlcerum pulmonis 
+      <lb ed="#A" n="22"/>expellit. et vocem clarificat. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e199">
+               <head xml:id="Vn7Pel-g72764-Hd1e201">3</head>
+               <p xml:id="Vn7Pel-g72764-d1e203">
+                  <lb ed="#A" n="23"/>¶ Quales autem gume vel gutr 
+      <lb ed="#A" n="24"/>te sint aromatice vel praeciose in speciali saltem de 
+      al<lb ed="#A" n="25" break="no"/>quibus notioribus vel in scripturis quandoque ex 
+      <lb ed="#A" n="26"/>pressis hic prosequemur. vt ad dei laudem 
+      scriptu<lb ed="#A" n="27" break="no"/>re clarescant secundum varias proprietates. de quibus Isi. 
+      <lb ed="#A" n="28"/>dorus lib. etymologis. et Plinius: Constantinus 
+      <lb ed="#A" n="29"/>Auicenna: Platearius. Diascorides Razi et alii. 
+      <lb ed="#A" n="30"/>physici plura dictauerunt quae breviamus. 
+      <lb ed="#A" n="31"/>Amoniaca gutta vel lachryma mollit: 
+      calefa<lb ed="#A" n="32" break="no"/>cit: claritati visus in collyriis conuenit. albugines 
+      <lb ed="#A" n="33"/>et humiditates oculorum tollit. confert hydropisi. 
+      <lb ed="#A" n="34"/>dissoluit. lumbricos occidit. Aliquando nominatur 
+      <lb ed="#A" n="35"/>id per quod aurum adheret: quia libri eo 
+      deauran<lb ed="#A" n="36" break="no"/>tur: vt dicit Auicenna. Ad idem vbi Gutta infra. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e236">
+                  <lb ed="#A" n="37"/>¶ Asa fetida est gumi arboris in transmarinis 
+      <lb ed="#A" n="38"/>hartibus nascentis calida et sicca in quarto. 
+      ma<lb ed="#A" n="39" break="no"/>xime fetet. et tanto melior est quanto fetidior. 
+      Fo<lb ed="#A" n="40" break="no"/>ramini dentis immissa dolorem eius placat. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e247">
+                  <lb ed="#A" n="41"/>¶ Bernix (yerniss est gumi arboris. eligenda est 
+      <lb ed="#A" n="42"/>lucida et clara. conglutmat et conseruat. ideo pictores 
+      <lb ed="#A" n="43"/>et scriptores colores alios eam ponunt vt 
+      clarifi<lb ed="#A" n="44" break="no"/>cet et conseruet alios colores. Contra fluxum 
+      <lb ed="#A" n="45"/>sanguinis est naribus puluis eius iniicitur 
+      na<lb ed="#A" n="46" break="no"/>ribus. et cum albumine oui confectus fronti et 
+      ten<lb ed="#A" n="47" break="no"/>poribus superponitur. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e265">
+                  <lb ed="#A" n="48"/>¶ Bidelle lachryma idem est quod bdellium 
+      <lb ed="#A" n="49"/>vide vbi <ref xml:id="Vn7Pel-g72764-Rd1e271">Lignum. §. v.</ref> Singultus soluit: 
+      lapi<lb ed="#A" n="50" break="no"/>dis fcionqqe tc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e278">
+               <head xml:id="Vn7Pel-g72764-Hd1e280">4</head>
+               <p xml:id="Vn7Pel-g72764-d1e282">
+                  <lb ed="#A" n="51"/>¶ Camphora est gumi cuiusdam 
+      <lb ed="#A" n="52"/>arboris in India que est frigida et sicca in 
+      ter<lb ed="#A" n="53" break="no"/>tio. Auicenna dicit lignum eius multotiens viditr 
+      <lb ed="#A" n="54"/>se. et est album frangibile et leue lignum. in cuius 
+      <!--237.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>rimis quandoque continetur aliquid de vestigiis causa 
+      <lb ed="#A" n="56"/>phore. Odor camphore assuefactus extinguit 
+      <lb ed="#A" n="57"/>libidinem. potata vero melius operatur: et comitum 
+      <lb ed="#A" n="58"/>abscindit. Dicitur etiam euanescere si assit in domo 
+      <lb ed="#A" n="59"/>vbi luxuria fit. Item caniciem accelerare facit. si 
+      as<lb ed="#A" n="60" break="no"/>suescatur potui apostemata calida prohibet. et 
+      <lb ed="#A" n="61"/>sensus calefactos confortat. generat lapidem ve 
+      <lb ed="#A" n="62"/>sice ac renum. Ecce deus laudabilis et 
+      mirabi<lb ed="#A" n="63" break="no"/>lis in huiusmodi. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e317">
+                  <lb ed="#A" n="64"/>¶ Cedria est cedri resina vel pit. Ore retenta de 
+      <lb ed="#A" n="65"/>tium dolorem excludit. pediculos et lendes 
+      in<lb ed="#A" n="66" break="no"/>uncta pernecat. Cum sale et dulcore bibita 
+      va<lb ed="#A" n="67" break="no"/>let contra morsum serpentum. Ad hec vbi Lignum. 
+      <lb ed="#A" n="68"/>Iu 
+      <lb ed="#A" n="69"/>Pragaganthum est gumi arboris. Ualet 
+      con<lb ed="#A" n="70" break="no"/>tra tussim sicam et sitim. et fissuras labiorum ad 
+      <lb ed="#A" n="71"/>faciem dealbandam. et contra combustiones. Simi 
+      <lb ed="#A" n="72"/>le est gumi arabico. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e339">
+                  <lb ed="#A" n="73"/>¶ <ref xml:id="Vn7Pel-g72764-Rd1e343">Galhanum infra. §. x. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e347">
+               <head xml:id="Vn7Pel-g72764-Hd1e349">5</head>
+               <p xml:id="Vn7Pel-g72764-d1e351">
+                  <lb ed="#A" n="74"/>Gumi arabicum dicitur eo quod 
+      <lb ed="#A" n="75"/>in Arabia reperitur. Simile est Dragagantho. 
+      <lb ed="#A" n="76"/>et consimiliter operatur. quod est album et clarum 
+      eli<lb ed="#A" n="77" break="no"/>gendum est. naribus iniectum sistit sanguinis 
+      flu<lb ed="#A" n="78" break="no"/>tum. confortat stomachum. contra ignis vstionem 
+      <lb ed="#A" n="79"/>est optimum. et est calidum et humidum in primo 
+      gra<lb ed="#A" n="80" break="no"/>du. Unde deus laudabilis est. 
+      <lb ed="#A" n="81"/>Gutta vt dicit Glo. super Ecclesiasticum idem 
+      vo<lb ed="#A" n="82" break="no"/>catur quod Amoniaca. et quaslibet duricias 
+      cu<lb ed="#A" n="83" break="no"/>rat. De hac Psal. Myrrha et gutta et casia a 
+      vel<lb ed="#A" n="84" break="no"/>stimentis tuis etc. De quibus vide suis locis pro 
+      <lb ed="#A" n="85"/>prietates. Item Eccli. xxiiii. Quasi storax et 
+      gal<lb ed="#A" n="86" break="no"/>banus et vngula et gutta. et quasi libanus id est thus 
+      <lb ed="#A" n="87"/>de libano. secundum Lyram huiusmodi omnes species 
+      o<lb ed="#A" n="88" break="no"/>dorifere et aromatice significant diffusionem bone 
+      <lb ed="#A" n="89"/>fame sanctitatis et sapientie in edificatione. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e389">
+               <head xml:id="Vn7Pel-g72764-Hd1e391">6</head>
+               <p xml:id="Vn7Pel-g72764-d1e393">
+                  <lb ed="#A" n="90"/>harrabe vulgo Lambra 
+      dici<lb ed="#A" n="91" break="no"/>tur guma litet lapis esse videatur. attrahit 
+      pale<lb ed="#A" n="92" break="no"/>as et huiusmodi. confert tremori cordis cum aqua 
+      frigi<lb ed="#A" n="93" break="no"/>da bibitum. et prohibet sanguinis spritutum. vide vbi 
+      <lb ed="#A" n="94"/>
+                  <ref xml:id="Vn7Pel-g72764-Rd1e406">Lapis. §. xiiii.</ref> de Succino. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e409">
+                  <lb ed="#A" n="95"/>¶ Myrrha est gutta arboris myrrhe viridis et 
+      <lb ed="#A" n="96"/>amara. Et eius sutus dicitur Stacten vt dicit 
+      Oro<lb ed="#A" n="97" break="no"/>sius super Cantica. Uim autem maiorem habet 
+      <lb ed="#A" n="98"/>quam Aloe: secundum Haymonem super Cantica. Unde his 
+      <lb ed="#A" n="99"/>corpora defunctorum condiuntur vt a putredine ser 
+      <lb ed="#A" n="100"/>uentur. Myrrha eligenda est que citrina est vel 
+      <lb ed="#A" n="101"/>surrufa. Interius aliquantulum lucida. et que 
+      <lb ed="#A" n="102"/>non est admixta ligno. confortat et conseruat: oris 
+      fe<lb ed="#A" n="103" break="no"/>torem et ascellarum remouet. clarificat vocem. 
+      confir<lb ed="#A" n="104" break="no"/>mat dentes. confert tussi antique etc. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e433">
+                  <lb ed="#A" n="105"/>¶ Ppobalsamum est sucus arboris Balsami. de 
+      <lb ed="#A" n="106"/>quo sub nomine Balsami. et vbi <ref xml:id="Vn7Pel-g72764-Rd1e439">Lignum. §. xix. </ref>
+               </p>
+               <p xml:id="Vn7Pel-g72764-d1e442">
+                  <lb ed="#A" n="107"/>¶ Pinea est resina vel pit arboris pinee que 
+      pi<lb ed="#A" n="108" break="no"/>cem desudat secundum Isidorum. Hec vulneribus 
+      opti<lb ed="#A" n="109" break="no"/>me medetur capitis. Plura de hoc vbi Lignum. 
+      <!--238.xml-->
+      <pb ed="#A" n="239"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>§.<ref xml:id="Vn7Pel-g72764-Rd1e459"> ix. videlicet de Pino. </ref>
+               </p>
+               <p xml:id="Vn7Pel-g72764-d1e463">
+                  <lb ed="#A" n="2"/>¶ Pix quedam est pix greca que vocatur 
+      colofo<lb ed="#A" n="3" break="no"/>nia. eligitur que est nigra et interius lucida. Alia 
+      <lb ed="#A" n="4"/>est pix marina: alia liquida montana etc. picis 
+      na<lb ed="#A" n="5" break="no"/>tura est calefacere lenire apostemata dura. cum 
+      <lb ed="#A" n="6"/>farina hordei valet super scrofulas. et vulnera 
+      pu<lb ed="#A" n="7" break="no"/>trescentia etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e480">
+               <head xml:id="Vn7Pel-g72764-Hd1e482">7</head>
+               <p xml:id="Vn7Pel-g72764-d1e484">
+                  <lb ed="#A" n="8"/>¶ Iesina est lachyyma sudore 
+      ex<lb ed="#A" n="9" break="no"/>halata lignorum secundum Isid. quia resi grece dicitur quic 
+      <lb ed="#A" n="10"/>quid manat. omnium autem prestantior resina 
+      <lb ed="#A" n="11"/>terebinthina et odoratior. Et secundum Diascoridem 
+      <lb ed="#A" n="12"/>omnis resina desiccat et calefacit. alia plus alia 
+      <lb ed="#A" n="13"/>minus. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e500">
+                  <lb ed="#A" n="14"/>¶ Stacte dicitur gumi quod defluit ex arbore 
+      <lb ed="#A" n="15"/>myrrhe. vnde et myrrha nominatur. de hoc iam 
+      <lb ed="#A" n="16"/>patuit vbi Myrrha. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e509">
+                  <lb ed="#A" n="17"/>¶ Storax est lachrymum arboris eiusdem 
+      no<lb ed="#A" n="18" break="no"/>minis cuius et virgule: grece Stirax dicte: facit 
+      <lb ed="#A" n="19"/>ad tussim et Catarrum compescit: raucedinem 
+      tol<lb ed="#A" n="20" break="no"/>lit: aurium tinnitus prohibet: alba bona est: 
+      ru<lb ed="#A" n="21" break="no"/>fa et pinguis melior est. Sed nigra reprobatur. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e522">
+                  <lb ed="#A" n="22"/>¶ Terebinthina resina. De qua satis dictum est 
+      <lb ed="#A" n="23"/>iam nunc vbi Resina. et vbi <ref xml:id="Vn7Pel-g72764-Rd1e528">Lignum. §. xiii.</ref> vide 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e532">
+                  <lb ed="#A" n="24"/>¶ Thus vt dicit Razi calidum est et siccum 
+      ven<lb ed="#A" n="25" break="no"/>trem ac vomitum arcet intellectum acuit. de qua 
+      <lb ed="#A" n="26"/>si multa sumatur quantitas sanguinem adurit. 
+      <lb ed="#A" n="27"/>amentes et vigilantes efficit. Hec ille. 
+      Diascori<lb ed="#A" n="28" break="no"/>des etiam dicit quod thus si a sano sepe bibitum 
+      fu<lb ed="#A" n="29" break="no"/>erit maniam vel mortem incurrit. De Thure 
+      plu<lb ed="#A" n="30" break="no"/>ra habentur vbi <ref xml:id="Vn7Pel-g72764-Rd1e549">Lignum. §. xxi.</ref> per totum. Et hec 
+      <lb ed="#A" n="31"/>sufficiant amore brevitatis . 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e555">
+               <head xml:id="Vn7Pel-g72764-Hd1e557">8</head>
+               <p xml:id="Vn7Pel-g72764-d1e559">
+                  <lb ed="#A" n="32"/>¶ Uiscus est lachrymum arboris 
+      <lb ed="#A" n="33"/>lene et viride. et fit ex arbore mali et piri et diuersis 
+      <lb ed="#A" n="34"/>arboribus. aliquando in radice arborum et in 
+      fru<lb ed="#A" n="35" break="no"/>tice inuenitur. vt dicit Diascorides pustulas 
+      cor<lb ed="#A" n="36" break="no"/>poris mundat. Est autem inquit optimum quod 
+      <lb ed="#A" n="37"/>in arborequercum nascitur vires habet acres quae durici 
+      <lb ed="#A" n="38"/>as molliunt. 
+      <lb ed="#A" n="39"/>Ungula. de qua <ref xml:id="Vn7Pel-g72764-Rd1e578">Ecclessastici. xxiiii.</ref> Ungula et 
+      <lb ed="#A" n="40"/>gutta et quasi libanus: ibi Lyra dicit. quod 
+      vngula<lb ed="#A" n="41" break="no"/>est species aromatica humano vngui similis: Ideo 
+      <lb ed="#A" n="42"/>nominatur vngula. <ref xml:id="Vn7Pel-g72764-Rd1e587">Exodi. xxx.</ref> nominatur 
+      onu<lb ed="#A" n="43" break="no"/>ca. Et est vna de quattuor speciebus ex quibus 
+      <lb ed="#A" n="44"/>conficiebatur tymiama boni odoris: cremandum 
+      <lb ed="#A" n="45"/>in altari coram domino. vide vbi <ref xml:id="Vn7Pel-g72764-Rd1e595">Lapis. §. xiii.</ref> 
+      De<lb ed="#A" n="46" break="no"/>aliis speciebus Ecci. supra nominatis habetur 
+      su<lb ed="#A" n="47" break="no"/>is locis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e604">
+               <head xml:id="Vn7Pel-g72764-Hd1e606">9</head>
+               <p xml:id="Vn7Pel-g72764-d1e608">
+                  <lb ed="#A" n="48"/>¶ Lucara et candi. vt dicitur 
+      li<lb ed="#A" n="49" break="no"/>bro de naturis rerum. Et secundum Isaac ac 
+      Constan<lb ed="#A" n="50" break="no"/>aliosque calida est et humida. in primo oritur ex caus 
+      <lb ed="#A" n="51"/>nis in partibus hispanie que vucarine cognomi 
+      <lb ed="#A" n="52"/>nantur. Oritur enim intra cannas sicut 
+      medul<lb ed="#A" n="53" break="no"/>la intra arundinem vel sambucum. Quas 
+      inco<lb ed="#A" n="54" break="no"/>le euellen. radicitus per frusta scindunt. terunt. 
+      <lb ed="#A" n="55"/>et inde liquorem in vasis recipiunt et bulliunt. scilicet 
+      <lb ed="#A" n="56"/>cum maturate sunt. Et hoc circa festum baptiste 
+      <!--238.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>sed summitates earum ad mensuram duorum 
+      pal<lb ed="#A" n="58" break="no"/>morum abcisas terre infigunt ad germinandum 
+      <lb ed="#A" n="59"/>Cunque diu ad ignem decoctas. vident totaliter 
+      <lb ed="#A" n="60"/>in spiritumam transire exhauriunt et in vasis 
+      repo<lb ed="#A" n="61" break="no"/>nunt paleaque super aspergunt et cooperiunt. Id 
+      <lb ed="#A" n="62"/>quod remanet citrinum minus valet. Album 
+      au<lb ed="#A" n="63" break="no"/>rem laudabilius est et seruari potest per 
+      quinquen<lb ed="#A" n="64" break="no"/>nium in loco non nimis frigido. vel nimis 
+      cali<lb ed="#A" n="65" break="no"/>do sed temperato. Et quanto magis antiquatur 
+      <lb ed="#A" n="66"/>tanto plus exiccaturet subtilius efficitur secundum Aui 
+      <lb ed="#A" n="67"/>cen. Item valet zucarum sitientibus positum in 
+      <lb ed="#A" n="68"/>potibus et cibis etc. ac etiam ptisicis consumptis 
+      <lb ed="#A" n="69"/>et asmaticis. stomachum lenit. mundificat et 
+      sol<lb ed="#A" n="70" break="no"/>uit. valet etiam contra dolores capitis ex calida 
+      <lb ed="#A" n="71"/>causa. abstergit oculum. mixtum zucarum albo vi 
+      <lb ed="#A" n="72"/>no. et acuit visum
+     </p>
+               <p xml:id="Vn7Pel-g72764-d1e669">
+      ¶ Item secundum platearium in 
+      syru<lb ed="#A" n="73" break="no"/>pis si due sint libre vucari. vna sit aque pro 
+      febri<lb ed="#A" n="74" break="no"/>citantibus. Item secundum predictos physicos. ex 
+      vuca<lb ed="#A" n="75" break="no"/>ro conficiuntur penidie sic. aqua zucaro 
+      admisce<lb ed="#A" n="76" break="no"/>tur efit decoctio quousque gutta lapidi superposita 
+      <lb ed="#A" n="77"/>adeo induratur vt statim inter digitos 
+      franga<lb ed="#A" n="78" break="no"/>tur. postea super lapidem politum ponitur vsque 
+      <lb ed="#A" n="79"/>quo infrigidetur. et clauo asseri in pariete infixo 
+      <lb ed="#A" n="80"/>superponitur. Ibique manibus tractatur quous 
+      <lb ed="#A" n="81"/>que dealbetur postea cum forpicibus in frustella 
+      <lb ed="#A" n="82"/>inciduntur et desiccantur aspergendo desuper 
+      ami<lb ed="#A" n="83" break="no"/>di puluerem vt albi fiant penidie. Optimus 
+      au<lb ed="#A" n="84" break="no"/>tem est cibus iste laborantibus tussi sicca. 
+      leniti<lb ed="#A" n="85" break="no"/>uus ventris. et contra pleuresim ac febres acutas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g72764-Dd1e702">
+               <head xml:id="Vn7Pel-g72764-Hd1e704">10</head>
+               <p xml:id="Vn7Pel-g72764-d1e706">
+                  <lb ed="#A" n="86"/>¶ Sed quid de guttis succi 
+      me<lb ed="#A" n="87" break="no"/>dicinalis confectis ex herbis. Notandum breui 
+      <lb ed="#A" n="88"/>ter sufficiat secundum poysicos supra nominatos quod pre 
+      <lb ed="#A" n="89"/>ter iam dicta colliguntur aliqui succi 
+      medicina<lb ed="#A" n="90" break="no"/>les et aromatici: vtpote ex aloe succus eiusdem 
+      <lb ed="#A" n="91"/>nominis. Et diagridium ex scamonea. Simili. 
+      <lb ed="#A" n="92"/>ter meconicum ex meconico. electerium ex agresti 
+      <lb ed="#A" n="93"/>cucumere. Opium ex albo papauere. quod som 
+      <lb ed="#A" n="94"/>num prouocat et stupefacit sensum. atque ex diuer 
+      <lb ed="#A" n="95"/>sis generibus herbarum oleum. His pertransit 
+      <lb ed="#A" n="96"/>quia pertinet ad medicinam: hic prosequor 
+      so<lb ed="#A" n="97" break="no"/>lum de Galbano pro eo quod sacra scriptura 
+      Eccle<lb ed="#A" n="98" break="no"/>siastici. xxiiii. facit nominatim mentionem de 
+      eo<lb ed="#A" n="99" break="no"/>Est autem Galbanum lachrymum herbe que 
+      vo<lb ed="#A" n="100" break="no"/>catur ferula secundum Isidorum Thuri et amoniaco 
+      si<lb ed="#A" n="101" break="no"/>mile in colore grana habens. vt faba lympida. tusi 
+      <lb ed="#A" n="102"/>si medetur et de alto cadentium quassationibus 
+      <lb ed="#A" n="103"/>Melius est album et purius. Est autem Tyria 
+      <lb ed="#A" n="104"/>ca venenis cum vino bibitum. fumus eius fugat 
+      <lb ed="#A" n="105"/>reptilia. Item acceptum abortiuum excludit. 
+      <lb ed="#A" n="106"/>Ecce ergo deus mirabilis et laudabilis in his et 
+      <lb ed="#A" n="107"/>operibus omnibus aliis. 
+      </p>
+               <p xml:id="Vn7Pel-g72764-d1e756">
+                  <lb ed="#A" n="108"/>¶ Quod deus ex sua bonitate confert 
+      <lb ed="#A" n="109"/>varios habitus angelis et hominibus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

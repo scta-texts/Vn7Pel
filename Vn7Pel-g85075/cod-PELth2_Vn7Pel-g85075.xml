@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Intellectus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Intellectus</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="277"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g85075">
+            <head xml:id="Vn7Pel-g85075-Hd1e110">Intellectus</head>
+            <div xml:id="Vn7Pel-g85075-Dd1e112">
+               <head xml:id="Vn7Pel-g85075-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-g85075-d1e116">
+      <!--276.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>¶ Intellectus 
+      hu<lb ed="#A" n="53" break="no"/>manus. Queritur qualibus modis 
+      <lb ed="#A" n="54"/>distingui dicitur intellectus. Nota secundum 
+      <lb ed="#A" n="55"/>Scotor. in. ii di. xviii. q. ii quod capi 
+      <lb ed="#A" n="56"/>tur intellectus sex modis distinctis Primo pro 
+      <lb ed="#A" n="57"/>intellectu agente quo est omnia facere. Secundo pro 
+      <lb ed="#A" n="58"/>intellectu possibili quo est omnia fieri. Tertio pro 
+      <lb ed="#A" n="59"/>intellectu informato habitu scientiali vel specie. 
+      <lb ed="#A" n="60"/>Quarto pro imaginatione: et dicitur intellectus 
+      passi<lb ed="#A" n="61" break="no"/>uus: et est corruptibilis. Et hoc totum patet per 
+      phi<lb ed="#A" n="62" break="no"/>losophum. iii. lib. de Anima. Quinto accipitur per 
+      Com<lb ed="#A" n="63" break="no"/>mentatorem. iii. de Anima. et dicitur intellectus specula 
+      <lb ed="#A" n="64"/>tiuus. Sexto dicitur intellectus adeptus secundum 
+      eun<lb ed="#A" n="65" break="no"/>dem. Dicitur autem ille intellectus speculatiuus qui 
+      <lb ed="#A" n="66"/>componitur ex intellectu materiali et intellectu in 
+      a<lb ed="#A" n="67" break="no"/>ctu. Intellectus autem adeptus componitur ex 
+      intel<lb ed="#A" n="68" break="no"/>lectu materiali et ex lumine intellectus agentis. 
+      <lb ed="#A" n="69"/>Unde sicut aer simul recipiendo specieum: recipit 
+      lu<lb ed="#A" n="70" break="no"/>men. sic etiam intellectus possibilis recipiendo specitum: 
+      <lb ed="#A" n="71"/>sin. ul recipit lumen intellectus agentis. et propter 
+      <lb ed="#A" n="72"/>hanc receptionem dicitur intellectus adeptus
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e168">
+      ¶ De 
+      <lb ed="#A" n="73"/>istis patebit infra. §. xvi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e174">
+               <head xml:id="Vn7Pel-g85075-Hd1e176">2</head>
+               <p xml:id="Vn7Pel-g85075-d1e178">
+                  <lb ed="#A" n="74"/>¶ Utrum intellectus possibilis 
+      <lb ed="#A" n="75"/>secundum quod intellectualis est sit vnus numero in omnibus 
+      <lb ed="#A" n="76"/>hominibus. Respondetur quod <ref xml:id="Vn7Pel-g85075-Rd1e186">Auerrois. iii.</ref> libro de Anima 
+      <lb ed="#A" n="77"/>dixit: quod scilicet intellectus idem numero esset in omnibus 
+      <lb ed="#A" n="78"/>hominibus etc. Et vt inducit <ref xml:id="Vn7Pel-g85075-Rd1e193">Bon. super. ii di. xviii. 
+      <lb ed="#A" n="79"/>ar. ii. q. i.</ref> Auerrois ipse Commentator opinatur sic: quod 
+      <lb ed="#A" n="80"/>in anima intels ectiua sint tres partes. Una recipiens: 
+      <lb ed="#A" n="81"/>incut est is: l:liectus possibilis. Alia efficiens: sicut 
+      <lb ed="#A" n="82"/>est intellectus agens. Tertia factum: quem vocat 
+      in<lb ed="#A" n="83" break="no"/>tellectum passiuum vel intellectum adeptum. Patuit 
+      <lb ed="#A" n="84"/>§. i. Et hoc tertium nihil aliud est quam imaginatio: 
+      si<lb ed="#A" n="85" break="no"/>ne qua scilicet virtute imaginaria phantasmatum nihil 
+      <lb ed="#A" n="86"/>intelligitur vt dicit Unde idem Commenta. vult dicere 
+      <lb ed="#A" n="87"/>secundum quod inquit Bona. quod sicut in visu sunt hec tria scilicet 
+      <lb ed="#A" n="88"/>color. lux. et oculus videns. sic in intellectu se 
+      ha<lb ed="#A" n="89" break="no"/>bent ista tria. scilicet quod species immaginarie sunt sicut 
+      <lb ed="#A" n="90"/>color: intellectus autem agens est sicut lux. Sed 
+      in<lb ed="#A" n="91" break="no"/>tellectus possibilis est sicut oculus recipiens visi 
+      <lb ed="#A" n="92"/>biles species. Et sicut ex concursu illorum trium 
+      effici<lb ed="#A" n="93" break="no"/>ur visus: Ita ex concursu horum trium efficitur 
+      intel<lb ed="#A" n="94" break="no"/>lectus. Uult etiam idem Commentator quod sicut ex 
+      di<lb ed="#A" n="95" break="no"/>uersitate coloris vel defectu: videndi diuersitas 
+      <lb ed="#A" n="96"/>vel defectus causatur. sic ex diuersitate existente in 
+      <lb ed="#A" n="97"/>pembus imaginariis vel in imaginatione causatur 
+      di<lb ed="#A" n="98" break="no"/>uersitas in intellectu plurium hominum: et defectus 
+      <lb ed="#A" n="99"/>quandoque in actu intelligendi in eodem homine: licet 
+      <lb ed="#A" n="100"/>idem sit intellectus vt ipse ponit in hominibus 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e244">
+                  <lb ed="#A" n="101"/>¶ Sed hec opi. quantum ad hoc quod ponit 
+      intelle<lb ed="#A" n="102" break="no"/>ctum omnium hominum esse vnum numero: est heretica 
+      <lb ed="#A" n="103"/>omnino secundum Bon. et Rich. ac Scotis. et communiter omns 
+      <lb ed="#A" n="104"/>doc. catholicos. Licet exempla declarationis 
+      indu<lb ed="#A" n="105" break="no"/>cta valeant ad euidentiam de intellectus actione in 
+      <lb ed="#A" n="106"/>nobis. Opinio autem ipsa Auerrois damnatur pluri 
+      <lb ed="#A" n="107"/>bus modis. Primo ex fide catholica. quia si vna 
+      <!--277.xml-->
+      <pb ed="#A" n="278"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>esset anima vel intellectus in omnibus hominibus 
+      nil<lb ed="#A" n="2" break="no"/>plus posset mereri iustus quam impius: nec ille 
+      prae<lb ed="#A" n="3" break="no"/>miatus beatitudine et iste punitus fieret pro crimi 
+      <lb ed="#A" n="4"/>ne. et sic frustra quis fieret fidelis et iustus. 
+      Se<lb ed="#A" n="5" break="no"/>cundo ex ratione philosophica. quia anima intellectiua est 
+      for<lb ed="#A" n="6" break="no"/>ma specifica hominis secundum quod homo. Impossibile est autem 
+      <lb ed="#A" n="7"/>plurium indiuiduorum esse vnam formam numero: 
+      <lb ed="#A" n="8"/>quia sic nec essent plura indiuidua. Tertio 
+      experi<lb ed="#A" n="9" break="no"/>entia. quia videmus quod diuersi homines habent contrarias 
+      <lb ed="#A" n="10"/>affectiones: quidam diligunt deum: quidam contemnunt. 
+      <lb ed="#A" n="11"/>quidam sunt ignari: quidam scientes etc. Si ergo esset vni 
+      <lb ed="#A" n="12"/>ca anima in pluribus: opposita essent in eodem simul etc. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e294">
+                  <lb ed="#A" n="13"/>¶ An in deo sit intellectus agens 
+      <lb ed="#A" n="14"/>et possibilis. Patuit libro primo. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e301">
+                  <lb ed="#A" n="15"/>¶ An in angelis sit etiam 
+      intelle<lb ed="#A" n="16" break="no"/>ctus agens et possibilis. Patuit. supra. vbi Angeli. 
+      <lb ed="#A" n="17"/>§. septuagesimoquarto. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e311">
+               <head xml:id="Vn7Pel-g85075-Hd1e313">3</head>
+               <p xml:id="Vn7Pel-g85075-d1e315">
+                  <lb ed="#A" n="18"/>¶ Quid habet causare intellectus 
+      <lb ed="#A" n="19"/>agens in anima humana. Respondetur secundum <ref xml:id="Vn7Pel-g85075-Rd1e321">Fran. 
+      ma<lb ed="#A" n="20" break="no"/>ro. in conflatur. primi. di. xxxv. q. i.</ref> Intellectus agens in 
+      <lb ed="#A" n="21"/>creaturis cum sit potentia actiua habet 
+      quadru<lb ed="#A" n="22" break="no"/>plicem habitudinem ad agendum vel causandum 
+      a<lb ed="#A" n="23" break="no"/>ctum intelligendi secundum suam talem potentiam.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e334">
+      ¶ 
+      Pri<lb ed="#A" n="24" break="no"/>ma est ad concausandum illud quod concurrit cum eo 
+      <lb ed="#A" n="25"/>ad causandum actum intelligendi id est specitum 
+      intelligi<lb ed="#A" n="26" break="no"/>bilem. Unde. iii. de anima Aristo. dicit quod intellectus 
+      <lb ed="#A" n="27"/>agens est vt lumen. quia sicut lumen facit colorem 
+      <lb ed="#A" n="28"/>potentia visibilem vt sit actu visibilis. sic intellectus 
+      <lb ed="#A" n="29"/>agens facit potentia intelligibilia vt sint actu 
+      intel<lb ed="#A" n="30" break="no"/>lectualia et intellecta
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e352">
+      ¶ Secundam habet habitud 
+      <lb ed="#A" n="31"/>nem solum ad causandum per se cum obiecto sine 
+      <lb ed="#A" n="32"/>alio preuio causato: sicut fit in cognitione 
+      intuiti<lb ed="#A" n="33" break="no"/>ua obiecti et.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e361">
+      ¶ Tertiam habet ad immutandum 
+      intel<lb ed="#A" n="34" break="no"/>lectum possibilem ci aliquid imprimendo. et per hoc 
+      <lb ed="#A" n="35"/>dicitur agens. quia imprimere est quoddam agere. Nam 
+      <lb ed="#A" n="36"/>intellectus agens ab actione dicitur: et possibilis 
+      di<lb ed="#A" n="37" break="no"/>citur a passione Et sic distinguuntur formaliter per 
+      <lb ed="#A" n="38"/>actiuum et passiuum tanquam per differentias oppositas. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e375">
+                  <lb ed="#A" n="39"/>¶ Quarta est ad producendum verbum. Est enim 
+      pro<lb ed="#A" n="40" break="no"/>ductiuus verbi in intellectu possibili cuius est cogitare. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e383">
+               <head xml:id="Vn7Pel-g85075-Hd1e385">4</head>
+               <p xml:id="Vn7Pel-g85075-d1e387">
+                  <lb ed="#A" n="41"/>¶ Quo differentie modo differunti 
+      <lb ed="#A" n="42"/>intellectus agens et possibilis in nobis 
+      homini<lb ed="#A" n="43" break="no"/>bus. Respondetur secundum Fran. maro. e. dist. xxxv. 
+      pri<lb ed="#A" n="44" break="no"/>mi. q. ii quod distinguuntur extra animam vel conceptum 
+      <lb ed="#A" n="45"/>anime formaliter ex parte rei. quia intellectui 
+      agen<lb ed="#A" n="46" break="no"/>ti competit agere. sed intellectui possibili competit 
+      <lb ed="#A" n="47"/>pati. et agenti repugnat passibilitas. possibili 
+      au<lb ed="#A" n="48" break="no"/>tem repugnat agere. Unde secundum omnes inquit Intellige 
+      <lb ed="#A" n="49"/>re quod est pati ex. iii. de Anima: conuenit ex natura 
+      <lb ed="#A" n="50"/>rei intellectui possibili. quod tamen non conuenit in 
+      <lb ed="#A" n="51"/>tellectui agenti: sed ei conuenit solum intellectionem 
+      <lb ed="#A" n="52"/>facere secundum multos. Hec Fran. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e418">
+               <head xml:id="Vn7Pel-g85075-Hd1e420">5</head>
+               <p xml:id="Vn7Pel-g85075-d1e422">
+                  <lb ed="#A" n="53"/>¶ Sed an distinguantur realiter et 
+      <!--277.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="54"/>essentialiter. Respondetur quod secundum quod dictat Guil. et 
+      <lb ed="#A" n="55"/>Scotis. super i. di. viii. Distinctio realis est que 
+      <lb ed="#A" n="56"/>est rerum ad inuicem vel per actum realem. sicut est 
+      <lb ed="#A" n="57"/>inter personas diuinas est distinctio realis per 
+      pro<lb ed="#A" n="58" break="no"/>prietates subsistentes: quia ibi fit productio per actum 
+      <lb ed="#A" n="59"/>realem. Ueruntamem ibi non est distinctio essentia 
+      <lb ed="#A" n="60"/>lis: que est quando aliqua distinguuntur in essentia 
+      nu<lb ed="#A" n="61" break="no"/>merali saltem. sicut sortes et plato. In diuinis autem 
+      <lb ed="#A" n="62"/>est vnica essentia numero.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e451">
+      ¶ Ad quesitum ergo dicit 
+      <lb ed="#A" n="63"/>idem Fran. supra quod intellectus ages et possibilis bene 
+      <lb ed="#A" n="64"/>distinguuntur realiter. vtpote distincte potentie 
+      for<lb ed="#A" n="65" break="no"/>maliter ex natura rei: quia vnum distinguitur per facere: 
+      <lb ed="#A" n="66"/>aliud per pati. que sunt differentie opposite 
+      for<lb ed="#A" n="67" break="no"/>maliter
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e464">
+      ¶ Si dicatur:. Quomodo ergo dicantur vna poten 
+      <lb ed="#A" n="68"/>tia intellectiua. Dicit idem Fran. quod possunt dici vna 
+      <lb ed="#A" n="69"/>potentia vnitate integritatis in habitudine ad vnum 
+      <lb ed="#A" n="70"/>actum: quia negociantur circa eundem actum: vna 
+      <lb ed="#A" n="71"/>caulando: alia recipiendo. et sic integrant vnam 
+      in<lb ed="#A" n="72" break="no"/>tellectionem. Sicut a simili: ea que videntur concurre 
+      <lb ed="#A" n="73"/>re ad eundem actum vel effectum: quodammodo 
+      di<lb ed="#A" n="74" break="no"/>cuntur vna causa totalis. Sicut sol et homo. vir et 
+      <lb ed="#A" n="75"/>mulier dicuntur vna causa generationis. ex. ii 
+      Phy<lb ed="#A" n="76" break="no"/>sicorum.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e486">
+      ¶ Sed an intellectus agens et possibilis 
+      <lb ed="#A" n="77"/>distinguantur essentialiter: ita quod vna possit 
+      sepa<lb ed="#A" n="78" break="no"/>rari ab alia: aut intelligere possit vna sine alia. 
+      <lb ed="#A" n="79"/>nulli est notum vt dicit idem Francis. Nam lict 
+      <lb ed="#A" n="80"/>Tho. dixerit potentias anime distingui essentia 
+      <lb ed="#A" n="81"/>liter ab anima. Uerius tamen videtur dicendum cum 
+      <lb ed="#A" n="82"/>Scotis. quod idem sunt essentialiter. quia Aug. ix. 
+      de<lb ed="#A" n="83" break="no"/>trini. dicit. et. iiii. quod omnes potentie anime sunt neces 
+      <lb ed="#A" n="84"/>sario vnius essentie et non plures substantie: sed vna 
+      <lb ed="#A" n="85"/>substanti: vna vita etc. vt patuit vbi <ref xml:id="Vn7Pel-g85075-Rd1e507">Anima. §. liii. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e511">
+               <head xml:id="Vn7Pel-g85075-Hd1e513">6</head>
+               <p xml:id="Vn7Pel-g85075-d1e515">
+                  <lb ed="#A" n="86"/>¶ Qualiter intellectus agens et 
+      <lb ed="#A" n="87"/>possibilis concurrunt ad causandum intellectionem 
+      <lb ed="#A" n="88"/>in anima nostra siue verbum mentis nostre. Respon 
+      <lb ed="#A" n="89"/>detur secundum e. <ref xml:id="Vn7Pel-g85075-Rd1e525">Fran. e. di. xxxv. primi. q. ii</ref> quod intellectus 
+      <lb ed="#A" n="90"/>possibilis concurrit vt causa materialis: sed agens 
+      <lb ed="#A" n="91"/>vt causa efficiens. Itaque intellectus possibilis in 
+      <lb ed="#A" n="92"/>genere cause materialis habet quadruplicem: ita 
+      <lb ed="#A" n="93"/>quod Primo recipit specitum intelligibilem. et Secundo 
+      a<lb ed="#A" n="94" break="no"/>ctum. Tertio dispositionem ad habitum. Quarto 
+      <lb ed="#A" n="95"/>habitum: qui est qualitas adquisita ex actibus 
+      <lb ed="#A" n="96"/>iteratis
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e544">
+      ¶ Eodem modo intellectus agens in 
+      ge<lb ed="#A" n="97" break="no"/>nere cause efficientis habet quadruplicem 
+      causali<lb ed="#A" n="98" break="no"/>tatem: vt dicit idem Fran
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e551">
+      ¶ Primo enim concurrit cum 
+      <lb ed="#A" n="99"/>hhantasmate ad causandum speciem actu esse 
+      intel<lb ed="#A" n="100" break="no"/>ligibilem: vt dictum est. §. iii. Nam impossibile est 
+      <lb ed="#A" n="101"/>quod intelligat sine phantasmatum spcculatione. ex. <ref xml:id="Vn7Pel-g85075-Rd1e559">iii 
+      <lb ed="#A" n="102"/>de anima.</ref> Secundo quoque intellectus agens cum 
+      <lb ed="#A" n="103"/>ipsa specie intelligibili facit vel causat actum 
+      intelli<lb ed="#A" n="104" break="no"/>gendi de facto: aut saltem cum obiecto intuitiue 
+      <lb ed="#A" n="105"/>
+                  <ref xml:id="Vn7Pel-g85075-Rd1e571">cognito. vt e. §. iii.</ref> dictum est. Tertio intellectus 
+      <lb ed="#A" n="106"/>agens cum ipsa eadem speci causat dispositionem 
+      <lb ed="#A" n="107"/>ad habitum frequentatis actibus. Quarto cum 
+      <lb ed="#A" n="108"/>eadem specie causat tandem habitum. Unde sicut 
+      <lb ed="#A" n="109"/>intellectus possibilis dicitur quo est omnia fieri scilicet vt in 
+      <lb ed="#A" n="110"/>subiecto. quia omnia recipit praedicta et intelligibilia. 
+      <!--278.xml-->
+      <pb ed="#A" n="279"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Sed intellectus agens dicitur quo est omnia facere. 
+      <lb ed="#A" n="2"/>quia omnia ista causat in intellectu possibili etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e597">
+               <head xml:id="Vn7Pel-g85075-Hd1e599">7</head>
+               <p xml:id="Vn7Pel-g85075-d1e601">
+                  <lb ed="#A" n="3"/>¶ Sed qualiter iste vires 
+      intelle<lb ed="#A" n="4" break="no"/>ctiue potentie distincte: se ad inuicem habeant Nota 
+      <lb ed="#A" n="5"/>quod <ref xml:id="Vn7Pel-g85075-Rd1e609">Bona. in. ii dist. xxiiii. art. ii. q. iiii.</ref> assignat 
+      va<lb ed="#A" n="6" break="no"/>rios et plures modos dicendi de hoc. E quibus 
+      di<lb ed="#A" n="7" break="no"/>missis aliis: eos tantum qui veriores esse putanture 
+      <lb ed="#A" n="8"/>secundum e. breuius prosequamur concor. <name xml:id="Vn7Pel-g85075-Nd1e618">Rich</name>. Nam vt 
+      <lb ed="#A" n="9"/>ibidem dicit <name xml:id="Vn7Pel-g85075-Nd1e622">Bonauen</name>. non sunt in hoc sequenda 
+      con<lb ed="#A" n="10" break="no"/>muniter verba philosophorum: quia pro magna 
+      per<lb ed="#A" n="11" break="no"/>te philosophicinquit) de hoc decepti sunt.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e630">
+      ¶ 
+      Pri<lb ed="#A" n="12" break="no"/>mus modus dicedi satis verus est: quod intellectus 
+      <lb ed="#A" n="13"/>agens et possibilis differenter se habent sicut due 
+      <lb ed="#A" n="14"/>potentie que respiciunt totum compositum vnius 
+      <lb ed="#A" n="15"/>substantie intellectiue: ita quod appropriatur intelle. ¬ 
+      <lb ed="#A" n="16"/>ctus agens forme: quia abstrahit: et possibilis ma 
+      <lb ed="#A" n="17"/>terie: quia suscipit species intelligibiles. Sic enim 
+      <lb ed="#A" n="18"/>ptingit in materia et forma reperire. ergo sic 
+      assimi<lb ed="#A" n="19" break="no"/>atur. Sed non est intelligendum quod intellectus possi 
+      <lb ed="#A" n="20"/>bilis sit materia pure passiua ipius anime vel pars 
+      <lb ed="#A" n="21"/>materialis omnino realiter. Si enim hoc esset verum: 
+      <lb ed="#A" n="22"/>tunc talis potentia non deberet dici intellectus: sicut 
+      <lb ed="#A" n="23"/>etiam oculus materialis non dicitur visus. Unde 
+      intel<lb ed="#A" n="24" break="no"/>lectus possibilis non est pure passiuus: quia habet 
+      <lb ed="#A" n="25"/>se conuertere supra specitm in phantasmate existentem: et 
+      <lb ed="#A" n="26"/>conuertendo per auxilium intellectus agentis illam 
+      sus<lb ed="#A" n="27" break="no"/>cipere et de ea iudicare. Uerunte non est in tantum 
+      <lb ed="#A" n="28"/>actiuus sicut intellectus agens. quia non potest sua 
+      conuer<lb ed="#A" n="29" break="no"/>sione speciem abstrahere et de ea iudicare nisi 
+      auxi<lb ed="#A" n="30" break="no"/>lio intellectus agentis qui informat aciem 
+      intel<lb ed="#A" n="31" break="no"/>lectus possibilis. Unde similiterr non est 
+      intelli<lb ed="#A" n="32" break="no"/>gendum quod intellectus agens sit omnino in actu ex seipso. 
+      <lb ed="#A" n="33"/>Non enim potest intelligere aliud a se nisi adiuuetur a 
+      <lb ed="#A" n="34"/>specie: que abstracta a phantasmate habet vniri 
+      in<lb ed="#A" n="35" break="no"/>tellectui. Unde nec intellectus agens intelligit 
+      si<lb ed="#A" n="36" break="no"/>ne possibili. nec econuerso: possibilis intelligit 
+      si<lb ed="#A" n="37" break="no"/>ne agente: sed simlis intelligunt. Et sic patet quod verum est 
+      <lb ed="#A" n="38"/>dictu philosophi. iii. de Anima. videlicet: quod necesse est inquit in 
+      <lb ed="#A" n="39"/>anima esse has duas differentias intellectus scilicet 
+      pos<lb ed="#A" n="40" break="no"/>sibilem: quo omnia fiunt. et agentem: quo omnia est 
+      fa<lb ed="#A" n="41" break="no"/>tere. Proinde (inquit Bonauentura Sicut duo 
+      <lb ed="#A" n="42"/>esse in medio cognoscimus que requiruntur 
+      neces<lb ed="#A" n="43" break="no"/>sario ad hoc quod abstrahatur species visibilis ab 
+      obie<lb ed="#A" n="44" break="no"/>cto vt actu videatur. videlicet lucem et diaphaneitatem 
+      <lb ed="#A" n="45"/>aeris: Ita quod per vnum videlicet per lucem: abstrahitur species 
+      <lb ed="#A" n="46"/>et diffunditur. et per aliud defertur et suscipitur. Et patet: 
+      <lb ed="#A" n="47"/>quia absente luce: in tenebris color non videtur. 
+      <lb ed="#A" n="48"/>Et dato quod sit lux: tamen aere non diaphano id est non 
+      trans<lb ed="#A" n="49" break="no"/>parente existente seu obice intermediante: non fit visio. 
+      <lb ed="#A" n="50"/>Sic in proposito. Nam dicente Aristo. i. Ethi. Sicut 
+      <lb ed="#A" n="51"/>est in corpore visus: ita in anima intellectus
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e719">
+      ¶ Alius 
+      <lb ed="#A" n="52"/>modus dicendi est: quod intellectus agens et 
+      possibi<lb ed="#A" n="53" break="no"/>lis se habent differenter sicut potentia et habitus: 
+      <lb ed="#A" n="54"/>Ita intelligendo: quod intellectus agens est sicut 
+      habi<lb ed="#A" n="55" break="no"/>tus. non quia sit pure habitus: sed quia est 
+      poten<lb ed="#A" n="56" break="no"/>tia habitualis. et intellectus possibilis est sicut 
+      po<lb ed="#A" n="57" break="no"/>sia qu hoostir cos g do mnto ts nage. 
+      <!--278.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>Nam anima intellectiua non habet apud se inna 
+      <lb ed="#A" n="59"/>tam cognittonem habitualem a principio siue 
+      co<lb ed="#A" n="60" break="no"/>gnitionem habituum. quia vt dicitur. iii de anima. Ipsa 
+      <lb ed="#A" n="61"/>anima in principio creationis est tanquam tabula 
+      ra<lb ed="#A" n="62" break="no"/>sa in qua nihil est depictum: Ideo non habet 
+      co<lb ed="#A" n="63" break="no"/>gnitionem habituum innatam: sed adquirit 
+      median<lb ed="#A" n="64" break="no"/>te sensu et experientia. Iste autem modus dicendi 
+      <lb ed="#A" n="65"/>est verus et catholicus: et super verba philosophi 
+      <lb ed="#A" n="66"/>fundatus: qui. iii de anima dicit. quod intellectus agens 
+      <lb ed="#A" n="67"/>est in anima sicut quidam habitus. vt lumen: scilicet 
+      <lb ed="#A" n="68"/>quo formaliter illustratur ad intelligendum. sicut 
+      <lb ed="#A" n="69"/>lumen facit colores in potentia visibiles fieri actu 
+      <lb ed="#A" n="70"/>rtisibiles. Unde hunc modum dicendi tenet 
+      Bo<lb ed="#A" n="71" break="no"/>nont. et crit ieo oit com imoctur atgies. 
+      <lb ed="#A" n="72"/>est vis vel potentia anime actiua: qua potest ipsa 
+      <lb ed="#A" n="73"/>anima de specie intelligibili in potentia facere specitum 
+      <lb ed="#A" n="74"/>intelligibilem in actu: et mouere seipsam 
+      intellectu<lb ed="#A" n="75" break="no"/>ali motione. Nam per intellectum agentem mouet 
+      <lb ed="#A" n="76"/>se intellectuali motione: et eadem motione per 
+      possi<lb ed="#A" n="77" break="no"/>bilem mouetur.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e782">
+      ¶ Si autem queratur Quomodo 
+      in<lb ed="#A" n="78" break="no"/>tellectus agens dicitur habitualis: cum philosophus 
+      <lb ed="#A" n="79"/>iii. de anima videatur dicere: quod intellectus agens 
+      <lb ed="#A" n="80"/>semper est in actu. possibilis autem aliquando sic: 
+      ali<lb ed="#A" n="81" break="no"/>quando non. Dicit idem Bonauen. quod hoc non est 
+      <lb ed="#A" n="82"/>ntelligendum sic quod anima semper intelligat per 
+      intel<lb ed="#A" n="83" break="no"/>ectum agentem actuali intellectione: sed quia sicut 
+      <lb ed="#A" n="84"/>lumen corporale semper lucet: et de se promptum est 
+      <lb ed="#A" n="85"/>semper ad illuminandum. licet res illuminabilis 
+      <lb ed="#A" n="86"/>non semper illuminatur actu propter aliquod 
+      impedi<lb ed="#A" n="87" break="no"/>mentum. sic est in proposito
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e807">
+      ¶ Proinde patet secundum 
+      eun<lb ed="#A" n="88" break="no"/>dem Bonauen. quod isti modi dicendi sunt veri: et vnus 
+      <lb ed="#A" n="89"/>ortum habet ex alio. Item patet concedendum 
+      in<lb ed="#A" n="90" break="no"/>tellectum agentem et possibilem esse duas 
+      poten<lb ed="#A" n="91" break="no"/>tias differentes intellectiue: ita quod intellectus 
+      a<lb ed="#A" n="92" break="no"/>gens se habet sicut lux: et possibilis se habet sicut 
+      <lb ed="#A" n="93"/>illuminatum a luce. ergo distinguitur. Non est ergo 
+      <lb ed="#A" n="94"/>cogitandum (inquit Bonaue. de istis quasi de 
+      <lb ed="#A" n="95"/>duabus substantiis ita separatis quod vna habeatur 
+      <lb ed="#A" n="96"/>operationem suam perficere sine alia: vel quod aliquid 
+      <lb ed="#A" n="97"/>cognoscat intellectus agens quod ignoret 
+      possibi<lb ed="#A" n="98" break="no"/>is: vel homo cuius est intellectus: quia hec 
+      friuo<lb ed="#A" n="99" break="no"/>la sunt. sed quod sint due differentie in vnam 
+      com<lb ed="#A" n="100" break="no"/>pletam operationem intelligendi vel actum 
+      insepa<lb ed="#A" n="101" break="no"/>rabiliter conuenientes Unde deus laudabilis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e841">
+               <head xml:id="Vn7Pel-g85075-Hd1e843">8</head>
+               <p xml:id="Vn7Pel-g85075-d1e845">
+                  <lb ed="#A" n="102"/>t . 1. 1. c¶ . 
+      <lb ed="#A" n="103"/>dicitur esse lumen vel lux in anima. Nota secundum 
+      Dio<lb ed="#A" n="104" break="no"/>uysium di. quod substantie intellectuales eoipso quod 
+      <lb ed="#A" n="105"/>substantie intellectuales sunt: lumina sunt. et 
+      ve<lb ed="#A" n="106" break="no"/>re lumina dicuntur. Sicut et in corporalibus visus 
+      <lb ed="#A" n="107"/>poculorum lume oculorum vere dicitur. quia clarefacit 
+      vi<lb ed="#A" n="108" break="no"/>sibilia. Itaque a simili: perfectio et complementum 
+      <lb ed="#A" n="109"/>ubstantie intellectualis: lux est spiritualis. et sic illa 
+      <lb ed="#A" n="110"/>potentia scilicet intellectus agens est quoddam lumen in 
+      <lb ed="#A" n="111"/>anima. De quo intelligitur illud prsaes. iiii. Signatum 
+      <lb ed="#A" n="112"/>est super nos lumen vultus tui domine. Quod 
+      expo<lb ed="#A" n="113" break="no"/>uendo Lyra et alii di. lumen naturale ipsius 
+      intel<lb ed="#A" n="114" break="no"/>lectus humani quod est quedam impressio diuini lu¬ 
+      <!--279.xml-->
+      <pb ed="#A" n="280"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>minis veo quod scilicet homo secundum partem intellectiuam est ad 
+      <lb ed="#A" n="2"/>imaginem dei. Et dicitur lumen vultus dei: quia deri 
+      <lb ed="#A" n="3"/>uatur a deo. Et quia sicut per vultum homo 
+      homini<lb ed="#A" n="4" break="no"/>assimilatur: sic assimilamur deo per intellectum. Hoc 
+      <lb ed="#A" n="5"/>lumen signatum est naturaliter seu impressum 
+      super<lb ed="#A" n="6" break="no"/>nos. id est in superiori parte nostri: quae est ratio. per 
+      <lb ed="#A" n="7"/>hoc lumen prima principia tam speculabilium quam 
+      <lb ed="#A" n="8"/>operabilium cognoscimus. Ex quibus possunt 
+      dedu<lb ed="#A" n="9" break="no"/>ti conclusiones in lumine naturalis rationis ad cete 
+      <lb ed="#A" n="10"/>ra cognoscibilia a nobis naturaliter. et ita hoc 
+      lumen<lb ed="#A" n="11" break="no"/>sufficienter ostendit que sint opera iusticie: quoniam 
+      ta<lb ed="#A" n="12" break="no"/>lia ler nature dictat. videlicet Ut quod tibi fieri non vis: 
+      <lb ed="#A" n="13"/>aliis non facias. et quod tibi vis: aliis facias. vt 
+      pa<lb ed="#A" n="14" break="no"/>tet etiam Rho. ii Gentes que legem non habent: na 
+      <lb ed="#A" n="15"/>turaliter ea que legis sunt faciunt etc. Denique 
+      lu<lb ed="#A" n="16" break="no"/>men superadditum huic vultui est gratia: que facit 
+      <lb ed="#A" n="17"/>cognoscere omnia necessaria ad salutem etc.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e919">
+      ¶ Ad 
+      <lb ed="#A" n="18"/>hec vbi <ref xml:id="Vn7Pel-g85075-Rd1e923">Ratio. §. ix. </ref>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e927">
+               <head xml:id="Vn7Pel-g85075-Hd1e929">9</head>
+               <p xml:id="Vn7Pel-g85075-d1e931">
+                  <lb ed="#A" n="19"/>¶ Quis horum intellectuum sit 
+      <lb ed="#A" n="20"/>perfectio alterius. Respondetur secundum <ref xml:id="Vn7Pel-g85075-Rd1e937">Fran. maro. in 
+      <lb ed="#A" n="21"/>confla. primi. di. xxxv. q. ii</ref> quod licet aliqui dicant vt etiam 
+      <lb ed="#A" n="22"/>pretactum est: quod intellectus agens formaliter perficitr 
+      <lb ed="#A" n="23"/>intellectum possibilem vt forma materiam: tamen vnus 
+      <lb ed="#A" n="24"/>istorum non perficit alium sic tanquam vera forma veram 
+      <lb ed="#A" n="25"/>materiam. sed ambo sunt formales perfectiones 
+      <lb ed="#A" n="26"/>essentie anime immediate: sicut intellectus et volunm 
+      <lb ed="#A" n="27"/>tas ambo sunt passiones spiritualis substantie. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e956">
+                  <lb ed="#A" n="28"/>¶ Unde etsi queratur: quis horum intellectuum 
+      in<lb ed="#A" n="29" break="no"/>telligit proprie vt <ref xml:id="Vn7Pel-g85075-Rd1e962">Richar. in. ii distin. xxiiii.</ref> ponit. 
+      <lb ed="#A" n="30"/>non debemus dicere quod proprie intelligat intellectus 
+      <lb ed="#A" n="31"/>possibilis. nec proprie intellectus agens intelligit 
+      <lb ed="#A" n="32"/>sed anima intellectiua intelligit. Sicut enim cum 
+      <lb ed="#A" n="33"/>graue vel leue mouetur: non dicimus proprie quod 
+      prin<lb ed="#A" n="34" break="no"/>cipium eius passiuum moueatur: et actiuum moue 
+      <lb ed="#A" n="35"/>at. sed totum graue vel leue mouetur per principium 
+      <lb ed="#A" n="36"/>passiuum: et mouet se per actiuum. Sic anima vel 
+      <lb ed="#A" n="37"/>homo mouetur motione intellectuali per intellectum 
+      <lb ed="#A" n="38"/>possibilem: et mouet se eadem motione intellectua 
+      <lb ed="#A" n="39"/>li per intellectum agentem: vt dictum est. §. vii
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e987">
+      ¶ Sed 
+      <lb ed="#A" n="40"/>quis istorum prius perficit animam. Dicit idem Fram. 
+      <lb ed="#A" n="41"/>quod ex quo in eodem genere semper est processus der 
+      <lb ed="#A" n="42"/>magis potentiali ad magis actuale. Et quia 
+      ma<lb ed="#A" n="43" break="no"/>gis potentiale est intellectus possibilis. ergo 
+      pri<lb ed="#A" n="44" break="no"/>as est in anima (scilicet via generationis loquendo tamen 
+      <lb ed="#A" n="45"/>agens perficit possibilem magis actuando vt mouens 
+      <lb ed="#A" n="46"/>et causans actum intelligendi. et sic quodammodo 
+      <lb ed="#A" n="47"/>excedit ille: et quodammodo iste habet perficere reliquum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1008">
+               <head xml:id="Vn7Pel-g85075-Hd1e1010">10</head>
+               <p xml:id="Vn7Pel-g85075-d1e1012">
+                  <lb ed="#A" n="48"/>¶ Item quis horum intellectuum 
+      <lb ed="#A" n="49"/>sit altero simpliciternobilior. Communiter dicitur quod 
+      intel<lb ed="#A" n="50" break="no"/>ectus agens. quia omne agens est prestantius 
+      <lb ed="#A" n="51"/>passo. secundum Aug. super Gen. et philosophum. iii. de anima. Sed 
+      <lb ed="#A" n="52"/>ad id dicit idem Francis. quod quamuis omne agens 
+      <lb ed="#A" n="53"/>inquantum agens sit prestantius suo passo. quia 
+      <lb ed="#A" n="54"/>agere est nobilioris conditionis quam pati. et maxime 
+      <lb ed="#A" n="55"/>loquendo effectiue. secus formaliter: quia 
+      albe<lb ed="#A" n="56" break="no"/>do agit in hominem formaliter albefaciendo: et ignis 
+      <lb ed="#A" n="57"/>calefaciendo. non tamen sunt nobiliora quam homo. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1036">
+      <!--279.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Unde aliquo modo poterit esse vt 
+      prestanti<lb ed="#A" n="59" break="no"/>us sit passum quam agens. Sicut ohiectum 
+      intel<lb ed="#A" n="60" break="no"/>sectus: puta lapis. licet agat in potentiam intellecti 
+      <lb ed="#A" n="61"/>uam imprimendo sui specim: tamen intellectus est 
+      nobi<lb ed="#A" n="62" break="no"/>lior quam lapis. Dicit ergo idem Fran. supra quod 
+      intelle<lb ed="#A" n="63" break="no"/>ctus possibilis iudicatur quodammodo nobilior 
+      <lb ed="#A" n="64"/>agente ex pluribus
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1058">
+      ¶ Primo quia nobilissimus actus 
+      <lb ed="#A" n="65"/>intellectus possibilis est intelligere deum scilicet per fidem. 
+      <lb ed="#A" n="66"/>Et nobilissimus actus intellens agentis est dicere 
+      ver<lb ed="#A" n="67" break="no"/>bum quod cunque id est cogitare. sed intelligere deum 
+      prae<lb ed="#A" n="68" break="no"/>pollet quam dicere id est cogitare. quia intelligere est perfe 
+      <lb ed="#A" n="69"/>ctio simpliciter. sed dicere non est perfectio simpliciter. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1071">
+                  <lb ed="#A" n="70"/>¶ Secundo quia nobilissimi actus ponuntur esse 
+      illi<lb ed="#A" n="71" break="no"/>qui sunt beatificabiles. sed in intellectum agente non 
+      <lb ed="#A" n="72"/>ponitur actus beatificus. alias in viatore homine 
+      san<lb ed="#A" n="73" break="no"/>cto qui intelligit deum actu: esset beatitudo glorie 
+      <lb ed="#A" n="74"/>celestis etc. sed actus beatificus ponitur tantum in 
+      intel<lb ed="#A" n="75" break="no"/>lectu possibili et voluntate: quibus anima capit dei 
+      <lb ed="#A" n="76"/>um perfecte Ideo videtur dicendum (inquit Fran. qu 
+      <lb ed="#A" n="77"/>intellectus possibilis sit nobilior: cum nulla 
+      pote<lb ed="#A" n="78" break="no"/>tia intellectiua immediate attingit vltimum finem: nisi 
+      <lb ed="#A" n="79"/>per intelligere cum amore. Intelligere autem immedia 
+      <lb ed="#A" n="80"/>te deum capiendo vel suscipiendo et tenendo in se 
+      <lb ed="#A" n="81"/>pso: est intellectus possibilis et non agentis vt sic. 
+      <lb ed="#A" n="82"/>Ergo deus laudabilis in singulis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1104">
+               <head xml:id="Vn7Pel-g85075-Hd1e1106">11</head>
+               <p xml:id="Vn7Pel-g85075-d1e1108">
+                  <lb ed="#A" n="83"/>¶ Quare necesse est ponere talem 
+      <lb ed="#A" n="84"/>intellectum agentem in anima. Respondetur secundum Fran. 
+      <lb ed="#A" n="85"/>cilis. maro. super primo. dist. xxxvi. q. ii et di. xlv. q. iii. 
+      <lb ed="#A" n="86"/>ac Richar. e. primi. di. xxxvi. et alios: quod necesse est 
+      <lb ed="#A" n="87"/>ponere intellectum agentem. Nec potest causari actus 
+      <lb ed="#A" n="88"/>intelligendi sufficienter ab intellectu illo. videlicet a 
+      pos<lb ed="#A" n="89" break="no"/>ibili: qui solus formaliter intelligit. Et huius est 
+      <lb ed="#A" n="90"/>necessitatis
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1128">
+      ¶ Una ratio propter specierum ex 
+      phan<lb ed="#A" n="91" break="no"/>tasmatibus abstractionem. quia intellectus ages 
+      ha<lb ed="#A" n="92" break="no"/>bet operationem abstrahendi species intelligibiles a 
+      <lb ed="#A" n="93"/>phantasmatibus. Et iste species recipiuntur in 
+      intellcu<lb ed="#A" n="94" break="no"/>possibili. et sic proficit homo in scientia adquisita a 
+      <lb ed="#A" n="95"/>sensibus. Unde necessario exigitur intellectus agens. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1141">
+                  <lb ed="#A" n="96"/>¶ Alia ratio propter actuationem. Eteni 
+      intelle<lb ed="#A" n="97" break="no"/>ctus agens ponitur non solum propter 
+      phantasma<lb ed="#A" n="98" break="no"/>ta: Quia dato quod deus infunderet vnum actum 
+      intel<lb ed="#A" n="99" break="no"/>ligendi: per ipset intelligeret intellens possibilis: vt dicit 
+      <lb ed="#A" n="100"/>Fran. supra. Item secundum Lyram super illud Luc. ii Iesus 
+      <lb ed="#A" n="101"/>proficiebat etate et sapientia: quamuis in christi anima a 
+      <lb ed="#A" n="102"/>principio fuerit sapientia infusa. tamen intellectus 
+      <lb ed="#A" n="103"/>agens fuit in ea: cum fuerit eiusdem nature cum 
+      homini<lb ed="#A" n="104" break="no"/>bus aliis: Et non fuit ociosus. quia non solum in 
+      <lb ed="#A" n="105"/>ibstractione specierum intelligibilium necessaria est ope 
+      <lb ed="#A" n="106"/>ratio intellectus agentis: sed etiam in consideratione 
+      <lb ed="#A" n="107"/>secundum habitum scientie iam prius adquisite vel 
+      infu<lb ed="#A" n="108" break="no"/>se: licet in tali consideratione non abstrahat de nouo 
+      <lb ed="#A" n="109"/>spenes. Unde propter actuationem in consideratione secundum 
+      <lb ed="#A" n="110"/>habitum scientie necessario ponitur intellectus agens. 
+      <lb ed="#A" n="111"/>Et confirmatur per Auic. dicentem. etiam secundum Aristo. quod 
+      <lb ed="#A" n="112"/>anima humana prius est in potentia intelligens: 
+      <lb ed="#A" n="113"/>et post in effectu vel actu. Omne autem quod exit de 
+      <lb ed="#A" n="114"/>potentia in actum seu effectum: non nisi per cau¬ 
+      <!--280.xml-->
+      <pb ed="#A" n="281"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sam exit que educit illud de potentia in effectum 
+      <lb ed="#A" n="2"/>Sed causa dandi formam intelligibilest actu non est 
+      <lb ed="#A" n="3"/>nisi intellectus agens. ergo necessario ponitur etc. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1198">
+                  <lb ed="#A" n="4"/>¶ Tertia ratio propter distincte cognitionis perfecti 
+      <lb ed="#A" n="5"/>onem. quia secundum Rich. supra. Intellectus 
+      possi<lb ed="#A" n="6" break="no"/>bilis est sicut passiuus qui recipit intellectionem 
+      <lb ed="#A" n="7"/>quodam modo indistinctam. per quam lumine intellectus 
+      <lb ed="#A" n="8"/>ad actum reductus venatur rei diffinitionem vt habe 
+      <lb ed="#A" n="9"/>atm de ea cognitionem distinctam. vt possibile est sibi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1215">
+               <head xml:id="Vn7Pel-g85075-Hd1e1217">12</head>
+               <p xml:id="Vn7Pel-g85075-d1e1219">
+                  <lb ed="#A" n="10"/>¶ An sicut in intellectiua 
+      poni<lb ed="#A" n="11" break="no"/>tur agens et passibilis: Ita etiam in imaginatiua et 
+      <lb ed="#A" n="12"/>in sensitiua debeant poni. Respondetur colligendo ex 
+      <lb ed="#A" n="13"/>
+                  <ref xml:id="Vn7Pel-g85075-Rd1e1229">Fran. mayro. in primo. di. xlv. q. iii.</ref> Et <name xml:id="Vn7Pel-g85075-Nd1e1232">Bonauen¬</name>
+                  <lb ed="#A" n="14"/>ac <ref xml:id="Vn7Pel-g85075-Rd1e1236">Rich. in. ii di. xxiiii.</ref> Prenoto quod non est simile de 
+      <lb ed="#A" n="15"/>intellectiua et imaginatiua in modo abstrahendi 
+      <lb ed="#A" n="16"/>et recipiendi speciem. quia species cum defertur a 
+      sensu<lb ed="#A" n="17" break="no"/>ad imaginationem non exit genus abstractionis 
+      il<lb ed="#A" n="18" break="no"/>lius que fuit in sensu particulari eo quod vtrobique scilice 
+      <lb ed="#A" n="19"/>tam in imaginatione quam in sensu species ipsa habet esse 
+      <lb ed="#A" n="20"/>materiale. et sensibile quodammodo. vt dicetur. §. xiii. et 
+      <lb ed="#A" n="21"/>sequentibus. Sed cum species peruenit ad intellectum ib 
+      <lb ed="#A" n="22"/>nouum genus abstractionis exigitur vt fiat species 
+      <lb ed="#A" n="23"/>intellectualis. ad quam abstractionem requiritur 
+      intel<lb ed="#A" n="24" break="no"/>lectus agens distinctus a possibili cum idem non 
+      <lb ed="#A" n="25"/>potest esse actiuum et passiuum respectu eiusdem: ideo 
+      <lb ed="#A" n="26"/>ponuntur due differentie intellectiue. In imaginati 
+      <lb ed="#A" n="27"/>ua autem licet fiat abstractio et receptio speciei 
+      ima<lb ed="#A" n="28" break="no"/>ginabilis. non mirum quod tales differentie communiter non 
+      <lb ed="#A" n="29"/>ponuntur. Sicut nec in sensitiua propter esse 
+      materi<lb ed="#A" n="30" break="no"/>ale specierum vt patuit. Uerumtame aliter potest 
+      di<lb ed="#A" n="31" break="no"/>ci et bene secundum praescriptos docoret quod etiam in imaginatiua 
+      <lb ed="#A" n="32"/>conuenit poni talis differentia actiue et passiue. et 
+      <lb ed="#A" n="33"/>quodammodo magis quam in intellectu possibili. qua 
+      <lb ed="#A" n="34"/>organum corporale in quo recipiuntur phantasma 
+      <lb ed="#A" n="35"/>ta loco potentie est ipsi imaginatiue. Ipsa vero vis 
+      <lb ed="#A" n="36"/>imaginatiua est loco potentie actiue. Item etiam 
+      <lb ed="#A" n="37"/>de sensitiua loquendo. patet. quia Commentator 
+      su<lb ed="#A" n="38" break="no"/>per. ii de anima ponit etiam sensum agentem vel 
+      mo<lb ed="#A" n="39" break="no"/>uentem preter ipsam rem que sentitur. Sed quoniam 
+      <lb ed="#A" n="40"/>Arist. ii de anima dicit etiam quod omnis sensus est 
+      susce<lb ed="#A" n="41" break="no"/>ptiuus specierum sine materia. Sicut exempli gratia 
+      <lb ed="#A" n="42"/>Cera recipit in se figuram vel formam sigilli aurei. si 
+      <lb ed="#A" n="43"/>ne tamen auri materia ipsius sigilli. quia cera sigillata 
+      <lb ed="#A" n="44"/>aureo sigillo non fit aurum vel aureum per hoc Inter 
+      <lb ed="#A" n="45"/>alios autem sensus visio vel visus in corpore se 
+      ha<lb ed="#A" n="46" break="no"/>bet sicut intellectus in anima ex primo Eth. Idcirco 
+      <lb ed="#A" n="47"/>prout claret in sensu visus esse sensum agentem que 
+      <lb ed="#A" n="48"/>est potentia productiua visionis. Et sensum 
+      pos<lb ed="#A" n="49" break="no"/>sibilem qui est receptiuus ipsius actus visionis 
+      <lb ed="#A" n="50"/>scilicet in oculo. Nam aliquando actus videndi est 
+      no<lb ed="#A" n="51" break="no"/>bilior obiecto. puta stercore viso vel lapide. ergo 
+      <lb ed="#A" n="52"/>oportet quod ab alio dependeat in genere cause 
+      ef<lb ed="#A" n="53" break="no"/>ficientis quam ab obiecto. Unde secundum e. Fram. supra 
+      opor<lb ed="#A" n="54" break="no"/>tet distinguere etiam sensituiam potentiam in 
+      agen<lb ed="#A" n="55" break="no"/>tem et possibilem. Non tamen vt duas potentias. 
+      <lb ed="#A" n="56"/>Sed vt in duos respectus formales eiusdem 
+      po<lb ed="#A" n="57" break="no"/>tentie. Sicut et praedictum est de intellectiua. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1333">
+               <head xml:id="Vn7Pel-g85075-Hd1e1335">13</head>
+               <p xml:id="Vn7Pel-g85075-d1e1337">
+      <!--280.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>¶ Qualiter intellectus habet in 
+      <lb ed="#A" n="59"/>se species intellectuales. An sint in intellectu vt 
+      <lb ed="#A" n="60"/>in loco: vel vt in materia: Nota secundum sententiam 
+      Aui<lb ed="#A" n="61" break="no"/>cen. quod quedam sunt forme simpliciter abstracte a 
+      <lb ed="#A" n="62"/>materia et ab omnibus condicionibus materie vt 
+      spi<lb ed="#A" n="63" break="no"/>ritu ales forme metaphysice vocate. puta 
+      quidita<lb ed="#A" n="64" break="no"/>tes. Quedam vero sunt abstracte a materia: sed non 
+      <lb ed="#A" n="65"/>a condicionibus materie: et ideo secundum quid 
+      abstra<lb ed="#A" n="66" break="no"/>cte sunt. tales sunt forme mathematice. sicut ma 
+      <lb ed="#A" n="67"/>gnitudo: numerus. Nam linea non determinat 
+      <lb ed="#A" n="68"/>libi magnitudinem in materia aurea vel alia 
+      qua<lb ed="#A" n="69" break="no"/>cunque: sed determinat situm et positionem 
+      vbicun<lb ed="#A" n="70" break="no"/>que. Similiter numerus non determinat sibi 
+      ma<lb ed="#A" n="71" break="no"/>teriam: vt duo vel tres. sed determinat tantum 
+      mul<lb ed="#A" n="72" break="no"/>tiplicationem vel diuisionem. Et huiusmodi tam 
+      <lb ed="#A" n="73"/>ibi quam hic sunt condiciones materie. Sed et quaedam 
+      <lb ed="#A" n="74"/>sunt forme non quidem abstracte secundum esse: sed tantum 
+      <lb ed="#A" n="75"/>per modum considerationis. sicut sunt forme 
+      phy<lb ed="#A" n="76" break="no"/>sice siue naturales. vt ignis: terra: os: caro: et 
+      hu<lb ed="#A" n="77" break="no"/>iusmodi.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1387">
+      ¶ Ad propositum loquendo prime ille 
+      for<lb ed="#A" n="78" break="no"/>me solum comprehenduntur visione 
+      intellectua<lb ed="#A" n="79" break="no"/>lis cognitionis. quia vt Augu. dicit: illa visio 
+      con<lb ed="#A" n="80" break="no"/>prehendit res que non habent imagines nisi se 
+      <lb ed="#A" n="81"/>ipsas. Secunde forme autem comprehenduntur 
+      visio<lb ed="#A" n="82" break="no"/>ne imaginatiua: que est sensus communis siue 
+      in<lb ed="#A" n="83" break="no"/>terioris principaliter. Tertie vero 
+      comprehendum<lb ed="#A" n="84" break="no"/>tur visione corporali: que est sensus particularis 
+      <lb ed="#A" n="85"/>siue exterioris. Sed per abstractionem a materia 
+      <lb ed="#A" n="86"/>comprehenduntur visione imaginatiua. Deinde 
+      <lb ed="#A" n="87"/>per abstractionem ampliorem: scilicet ab omnibus 
+      con<lb ed="#A" n="88" break="no"/>dicionibus materie. puta positionis et situs. et 
+      hu<lb ed="#A" n="89" break="no"/>iusmodi comprehenduntur intellectuali visione. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1416">
+                  <lb ed="#A" n="90"/>¶ Unde ad quesitum dicendum cum doc. et philo 
+      <lb ed="#A" n="91"/>sophis: quod intellectus respectu specierum quas 
+      abs<lb ed="#A" n="92" break="no"/>trahit habet quodammodo similitudinem tam cum 
+      <lb ed="#A" n="93"/>loco quam cum subiecto et materia. Nam Arist. ii. 
+      li<lb ed="#A" n="94" break="no"/>de generatione et corruptione dicit. Species maxime in 
+      <lb ed="#A" n="95"/>terminis est: Formalia quippe sunt in loco supe 
+      <lb ed="#A" n="96"/>riori: et materialia in inferiori. Unde species sunt in 
+      in<lb ed="#A" n="97" break="no"/>tellectu quodammodo ad similitudinem cum 
+      loco<lb ed="#A" n="98" break="no"/>ner hoc quod intellectus confert specibus intelligibi 
+      <lb ed="#A" n="99"/>libus esse simplex sine suiipsius corruptione: 
+      sus<lb ed="#A" n="100" break="no"/>cipiendo species in intellectum possibilem. Et quodam 
+      <lb ed="#A" n="101"/>modo habet intellectus in hoc se ad 
+      similitudi<lb ed="#A" n="102" break="no"/>nem subiecti vel materie: per hoc quod est in potentia 
+      <lb ed="#A" n="103"/>et efficitur in actu per species intelligibiles. licet proprie 
+      <lb ed="#A" n="104"/>et realiter intellectus non sit materia: nec locus 
+      cir<lb ed="#A" n="105" break="no"/>cumscriptiue continens
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1453">
+      ¶ Unde Augum dicit quod scibilia 
+      <lb ed="#A" n="106"/>sunt in memoria. Et capit large memoriam pro 
+      men<lb ed="#A" n="107" break="no"/>te scilicet in qua scibilium est noticia. Et species inquit 
+      <lb ed="#A" n="108"/>ante studium latet in abditis thesauris
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1463">
+      ¶ Si 
+      di<lb ed="#A" n="109" break="no"/>catur: Species abstrahuntur a rebus extra. ergo 
+      <lb ed="#A" n="110"/>non sunt in anima. Dicendum quod species intelligibi 
+      <lb ed="#A" n="111"/>les in se considerate non sunt in anima semper actu: 
+      <lb ed="#A" n="112"/>sed in potentia sunt in anima omnia intelligibilia: et 
+      <lb ed="#A" n="113"/>fiunt actu per intellectum agentem etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1477">
+               <head xml:id="Vn7Pel-g85075-Hd1e1479">14</head>
+               <p xml:id="Vn7Pel-g85075-d1e1481">
+                  <lb ed="#A" n="114"/>¶ Quo organo vel in qua parte 
+      <!--281.xml-->
+      <pb ed="#A" n="282"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>corporis operetur intellectus. Nam si nulla parte: qero 
+      <lb ed="#A" n="2"/>non est in corpore. Respondetur secundum Ioannem de rupella 
+      <lb ed="#A" n="3"/>et alios quod virtus intellectiua non est in corpore. itae 
+      <lb ed="#A" n="4"/>quod determinet sibi partem corporis sicut 
+      determi<lb ed="#A" n="5" break="no"/>nat virtus visiua oculum et auditina aures. et sic des 
+      <lb ed="#A" n="6"/>ceteris. Sed virtus intellectiua est in toto 
+      corpo<lb ed="#A" n="7" break="no"/>re tota et perfectiua totius hominis. quia nulla 
+      vir<lb ed="#A" n="8" break="no"/>tus operans vel cognoscens per organum 
+      corporale<lb ed="#A" n="9" break="no"/>est cognoscitiua nisi tantummodo corporalium et non 
+      <lb ed="#A" n="10"/>spiritualium cum nullum organum corporale habet 
+      pos<lb ed="#A" n="11" break="no"/>sibilitatem ad incorporalia. Si ergo intellectiua intel 
+      <lb ed="#A" n="12"/>ligeret per organum corporale sequitur quod intelligeret 
+      <lb ed="#A" n="13"/>tantum corporalia. Sicut vis visiua per oculum non videt 
+      <lb ed="#A" n="14"/>nisi visibilia. ideo non iudicat de sono vel sapore. 
+      <lb ed="#A" n="15"/>etc. sed tantummodo de colore. quia est obiectum eius. ii de anima 
+      <lb ed="#A" n="16"/>Item confirmatur. quia nulla virtus incorporata seu 
+      ope<lb ed="#A" n="17" break="no"/>rans per organum corporeum determinatum est 
+      cogni<lb ed="#A" n="18" break="no"/>tiua sui. quia non potest reflecti super se propter 
+      incorpora<lb ed="#A" n="19" break="no"/>tam qualitatem. vnde oculus non videt se. nec 
+      imagi<lb ed="#A" n="20" break="no"/>natio immaginatur se. Sed quia virtus intellectiua re 
+      <lb ed="#A" n="21"/>flectitur super se cognoscens se. ergo non habet organum 
+      <lb ed="#A" n="22"/>corporale.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1540">
+      ¶ Si obiicitur. quia Ioannicius dicit quod 
+      co<lb ed="#A" n="23" break="no"/>gnitio et ratio est in medio cerebro in capitis me 
+      <lb ed="#A" n="24"/>dio. Phantasia vero in fronte. et memoria in 
+      oc<lb ed="#A" n="25" break="no"/>cipitio. Ideo si media cellula que dicitur logistic 
+      <lb ed="#A" n="26"/>corrumpatur. tunc vsus rationis et intellectus auferis 
+      <lb ed="#A" n="27"/>Dicendum quod secundum philosophos et theol. intellectus possibi 
+      <lb ed="#A" n="28"/>lis non corrumpitur ex corruptione medie cellule nisi eo 
+      <lb ed="#A" n="29"/>ad illum actum qui est ex phantasmate (vt in 
+      haben<lb ed="#A" n="30" break="no"/>tibus corruptum caput) intellectus impediatur. 
+      tamen<lb ed="#A" n="31" break="no"/>post mortem separatus a corpore sine phantasmatie 
+      <lb ed="#A" n="32"/>existens: intelligentias habet veras vt etiam dicit 
+      <lb ed="#A" n="33"/>Aristo. ii libro de somno et vigilia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1567">
+               <head xml:id="Vn7Pel-g85075-Hd1e1569">15</head>
+               <p xml:id="Vn7Pel-g85075-d1e1571">
+                  <lb ed="#A" n="34"/>¶ Quali ordine intellectus 
+      abstra<lb ed="#A" n="35" break="no"/>hit species intelligibiles a rebus. Respondetur secundum 
+      Ioan<lb ed="#A" n="36" break="no"/>nem de rupella. Et Auicen. in sua Metaph. quod quae 
+      <lb ed="#A" n="37"/>dam sunt species vel forme abstracte a materia 
+      <lb ed="#A" n="38"/>per propriam naturam. vt forma qua cognoscitur deus: 
+      an<lb ed="#A" n="39" break="no"/>gelus: anima: potentieque anime: scientie: et omnia spiritualia. Nam 
+      for<lb ed="#A" n="40" break="no"/>ma qua cognoscitur deus est imago vel 
+      similitu<lb ed="#A" n="41" break="no"/>do prime veritatis impressa anime a creatione. ideo 
+      Da<lb ed="#A" n="42" break="no"/>mascenus dicit quod omnibus cognitio existendi deum ab 
+      <lb ed="#A" n="43"/>ipso naturaliter inserta est. Forma vero qua 
+      co<lb ed="#A" n="44" break="no"/>gnoscitur angelus vel anima est ipsa anima rationalis quae cum 
+      <lb ed="#A" n="45"/>vtitur se in similitudine cognoscit referendo ad se 
+      <lb ed="#A" n="46"/>Cum vero refert se in similitudine ad alterum aut 
+      re<lb ed="#A" n="47" break="no"/>fert se ad ipsum deum ad cuius similitudinem facta est 
+      <lb ed="#A" n="48"/>et sic cognoscit deum per modum adquisitionis. aut 
+      re<lb ed="#A" n="49" break="no"/>fert se ad angelum. et sic cognoscit eum iuxta se: hoc 
+      <lb ed="#A" n="50"/>est secundum proportionem et comparationem ad se. quia 
+      ange<lb ed="#A" n="51" break="no"/>lus est quid simile ipsi anime. Et hoc est quod Augu. 
+      <lb ed="#A" n="52"/>de spiritu et anima dicit quod anima cognoscit deum 
+      supra<lb ed="#A" n="53" break="no"/>se. et se in se. et angelum iuxta se etc. Ad cognoscenda 
+      <lb ed="#A" n="54"/>autem ea que sunt in anima vt potentie. scientie 
+      <lb ed="#A" n="55"/>virtutes etc. vtitur ipsis vt sibi similibus
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1621">
+      ¶ Ad hec 
+      <lb ed="#A" n="56"/>vbi <ref xml:id="Vn7Pel-g85075-Rd1e1625">Liberum arbitrium. § xvi.</ref> Item alie quaeda sunt species 
+      <lb ed="#A" n="57"/>vel forme quae non sunt abstracte per propriam naturam 
+      <!--281.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>a materia. sed per actionem intellectus vt sunt 
+      for<lb ed="#A" n="59" break="no"/>me quibus cognoscuntur corporalia. et in corporibus 
+      <lb ed="#A" n="60"/>fundata. Cum enim natura intellectus superior 
+      <lb ed="#A" n="61"/>sit rebus corporalibus. ergo habet potestatem super 
+      corpo<lb ed="#A" n="62" break="no"/>rales formas miro modo apprehendendi et 
+      abstrahen<lb ed="#A" n="63" break="no"/>di eas. Abstractio autem ista non fit actione extrinse 
+      <lb ed="#A" n="64"/>ca: sed consideratione. et abstrabit Primo a 
+      sensi<lb ed="#A" n="65" break="no"/>bus. Secundo ab imaginatione expoliando ab 
+      omni<lb ed="#A" n="66" break="no"/>bus condicionibus materie et singulis substantie. et 
+      <lb ed="#A" n="67"/>sic eas intellectus accipit abstractas: vt 
+      vniuersa<lb ed="#A" n="68" break="no"/>les et communes et immateriales scilicet vt genera. species 
+      <lb ed="#A" n="69"/>differentias. propria. et accidentia.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1660">
+      ¶ Prdo ergo 
+      abstra<lb ed="#A" n="70" break="no"/>ctionis est: quod Primo sensus exterior (puta visut 
+      <lb ed="#A" n="71"/>et ceteri) non suscipit formam que est originaliter et 
+      ra<lb ed="#A" n="72" break="no"/>dicaliter in materia: sed eius similitudinem vel ei simus 
+      <lb ed="#A" n="73"/>lem speciem: tamen non eam comprehendit nisi 
+      presen<lb ed="#A" n="74" break="no"/>te materia vel forma existente in materia. 
+      Sen<lb ed="#A" n="75" break="no"/>sus vero interior Secundo: vt est imaginatio. adhuc 
+      <lb ed="#A" n="76"/>magis abstrahit: quia comprehendit formam etiam ma 
+      <lb ed="#A" n="77"/>teria absente: licet non diuidat ipsam ab accidenti 
+      <lb ed="#A" n="78"/>bus materie. vt figure situs et huiusmodi. sub quibus 
+      <lb ed="#A" n="79"/>comprehendit eam. Tertio extimatiua virtus parum 
+      <lb ed="#A" n="80"/>transcendit istum ordinem abstractionis. quia licet 
+      at<lb ed="#A" n="81" break="no"/>prehendat formas cum quibusdam formis 
+      materia<lb ed="#A" n="82" break="no"/>libus vt sunt conueniens vel inconueniens: bonitas 
+      <lb ed="#A" n="83"/>vel malicia. tamen non apprehendit eas expoliatas 
+      <lb ed="#A" n="84"/>ab omnibus accidentibus materie: eo quod particularitr 
+      <lb ed="#A" n="85"/>apprehendit eas. et secundum naturam propriam et per 
+      compara<lb ed="#A" n="86" break="no"/>tionem ad formam sensibilem imaginatiua. 
+      Quar<lb ed="#A" n="87" break="no"/>to virtus intellectiua: cum sit immaterialis requirit 
+      <lb ed="#A" n="88"/>obiectum immateriase. et ideo specim vel formam 
+      ap<lb ed="#A" n="89" break="no"/>prehendit vt denudatam a materia et omnibus circum 
+      <lb ed="#A" n="90"/>stantiis materie et ab ipsa singularitate vt simplier 
+      <lb ed="#A" n="91"/>cem in se et vniuersalem sequestrando a quantitate: 
+      <lb ed="#A" n="92"/>qualitate: situ: vbi etc. quia alioquin non posset 
+      intelli<lb ed="#A" n="93" break="no"/>gi vt communis que diceretur de pluribus. Et sic pates. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1715">
+                  <lb ed="#A" n="94"/>¶ Ad hec vbi <ref xml:id="Vn7Pel-g85075-Rd1e1719">Anima. §. lii. </ref>
+               </p>
+               <p xml:id="Vn7Pel-g85075-d1e1723">
+                  <lb ed="#A" n="95"/>¶ Item de speciebus intellectu 
+      <lb ed="#A" n="96"/>alibus. vide vbi Habitus. et vbi Angeli. §. lxxii. 
+      <lb ed="#A" n="97"/>et vbi Liberum arbitrium. §. xv. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1733">
+               <head xml:id="Vn7Pel-g85075-Hd1e1735">16</head>
+               <p xml:id="Vn7Pel-g85075-d1e1737">
+                  <lb ed="#A" n="98"/>¶ Quid de intellectus 
+      differen<lb ed="#A" n="99" break="no"/>tiis variis assignatis. Nota quod secundum <name xml:id="Vn7Pel-g85075-Nd1e1743">Arist</name>. <name xml:id="Vn7Pel-g85075-Nd1e1745">Auicen</name>. 
+      <lb ed="#A" n="100"/>
+                  <name xml:id="Vn7Pel-g85075-Nd1e1750">Alexan</name>. aliosque philosophos et theologos: plures assignam 
+      <lb ed="#A" n="101"/>tur differentie intellectus pluribus modis. Uno modo 
+      <lb ed="#A" n="102"/>secundum differentiam nature. et sic distinguitur in 
+      intelle<lb ed="#A" n="103" break="no"/>ctum agentem et possibilem. Alio modo secundum differentiam 
+      <lb ed="#A" n="104"/>ordinis. et secundum hoc est intellectus siue ratio superior et 
+      infe<lb ed="#A" n="105" break="no"/>rior. De quibus vide vbi Ratio. Tertio secundum 
+      diffe<lb ed="#A" n="106" break="no"/>rentiam modi et qualitatis: vt praedictum est. §. 1. Et de 
+      <lb ed="#A" n="107"/>talibus aliqua in sequentibus dicentur.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1768">
+      ¶ Nimirum 
+      <lb ed="#A" n="108"/>quomodo assignatur varietas differentie in intellectu 
+      pos<lb ed="#A" n="109" break="no"/>sibili. Nota secundum Ioannem de rupella. quod sicut 
+      con<lb ed="#A" n="110" break="no"/>stat quia aliter est possibilitas intelligendi in puer 
+      <lb ed="#A" n="111"/>paruis: quemadmodum et potentia scribendi. Et Secund 
+      <lb ed="#A" n="112"/>aliter est in adultis addiscentibus scribere. et 
+      Ter<lb ed="#A" n="113" break="no"/>tio aliter est in adultis iam edoctis siue perfectis 
+      <!--282.xml-->
+      <pb ed="#A" n="283"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>scriptoribus. et Quarto aliter est in ipso scriptore actu 
+      <lb ed="#A" n="2"/>scribente. ¶Nam in primo est potentia materialis. In secundo 
+      <lb ed="#A" n="3"/>materia disposita. In tertio potentia perfecte 
+      infor<lb ed="#A" n="4" break="no"/>mata: sed in habitu. In quarto potentia perfecta in 
+      <lb ed="#A" n="5"/>vsu etc.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1801">
+      ¶ Sic iuxta praedictos modos ponitur difria 
+      <lb ed="#A" n="6"/>quadruplex intellectus possibilis secundum Auitc. et alios. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1806">
+                  <lb ed="#A" n="7"/>¶ Prima est intellectus habens possibilitatem tantum. sicut 
+      <lb ed="#A" n="8"/>potentia materialis ad similitudinem materie prime quae eo 
+      <lb ed="#A" n="9"/>se non habet aliquam formam: sed indifferens est ad 
+      quam<lb ed="#A" n="10" break="no"/>cunque formam. Iste ergo est intellectus materialis: qui ciam 
+      <lb ed="#A" n="11"/>vocatur intellectus passiuus et corruptibils. iii de anima 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1820">
+                  <lb ed="#A" n="12"/>¶ Ex si obiicitur. quia intellens humanus est perpetus et 
+      in<lb ed="#A" n="13" break="no"/>corruptibilis. Dicendum secundum Alb. mag. cum Auerroc. 
+      <lb ed="#A" n="14"/>libro de anima. quod intellectus possibilis secundum substantiam suam est 
+      <lb ed="#A" n="15"/>incorruptibilis: Tamen dicitur corruptibilis per species et actum: 
+      <lb ed="#A" n="16"/>que sunt in ipso: et sic corrumpitur per accastens. et heccorrum 
+      <lb ed="#A" n="17"/>ptio est intelligibilium obliuio Sicut sortes musicus 
+      <lb ed="#A" n="18"/>corrumpitur dum desinit scire musicam: licet sortes in substantia 
+      <lb ed="#A" n="19"/>non corrumpatur. Ita corrupta phantasia corrumpitur 
+      in<lb ed="#A" n="20" break="no"/>tellectus
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1842">
+      ¶ Secunda difrtia est intellens possibilis habens 
+      <lb ed="#A" n="21"/>dispositionem: quod est cum iam habentur in intellectu 
+      <lb ed="#A" n="22"/>prima principia id est propositiones: quae sunt per se note. Sicut 
+      <lb ed="#A" n="23"/>omne totum est maius sua parte. Etsi ab equalibus 
+      equa<lb ed="#A" n="24" break="no"/>lia demas: remanentia sunt equalia. Item de quilibet 
+      af<lb ed="#A" n="25" break="no"/>firmatio vel negatio: et de nullo ambo similis Et iste 
+      <lb ed="#A" n="26"/>dicitur intellectus in habitum respectu intellens consequentis 
+      <lb ed="#A" n="27"/>conclusionem id est respectu illius qui vocatur intellens conclusionum 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e1860">
+                  <lb ed="#A" n="28"/>¶ Tertia dria est intellens perfectus: cum iam habet conclusionem 
+      <lb ed="#A" n="29"/>eorum quae sequuntur ad ipsa principia praedcam: Ita tamen quod 
+      in<lb ed="#A" n="30" break="no"/>tellectus non conuertit se actu ad illam conclusionem per 
+      conside<lb ed="#A" n="31" break="no"/>rationem. Et iste vocatur intellectus adeptus qui habet se 
+      <lb ed="#A" n="32"/>in habitu respectu consequentis conclusionis. et in actu vel 
+      <lb ed="#A" n="33"/>effectu respectu principiorum
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1876">
+      ¶ Quarta difrnia est 
+      inte<lb ed="#A" n="34" break="no"/>lectus considerans actu. Et iste vocatur intellens accommo 
+      <lb ed="#A" n="35"/>datus in vsu. Nam vsus est actus ex habintu elicitus: secundum Ud 
+      <lb ed="#A" n="36"/>ctorinum. Et isti sunt ordines intellens possibilis 
+      specu<lb ed="#A" n="37" break="no"/>latiui: Sub quo compraehenduntur intellens ssti scilicet intellens 
+      <lb ed="#A" n="38"/>in habitu: qui non est aliud nisi habitus principiorum. secundum 
+      Aui<lb ed="#A" n="39" break="no"/>tem. Et intellens qui dicitur adeptus: que adipiscimus per 
+      do<lb ed="#A" n="40" break="no"/>ctrinam et inuentionem: propter quod vocatur adeptus. qui et alio 
+      <lb ed="#A" n="41"/>nomine dicitur adquisitus. Item comphenditur sub speculatiuo 
+      <lb ed="#A" n="42"/>etiam accommodatus intellcens scilicet in vsu. qui sic nominatur a 
+      <lb ed="#A" n="43"/>philosophis: eo quod ipsum mutuamus seu accommodamus 
+      <lb ed="#A" n="44"/>a rebus extra. Denique sub intellenu speculatiuo 
+      com<lb ed="#A" n="45" break="no"/>prehenditur etiam intellens demostrans vocatus secundum 
+      <lb ed="#A" n="46"/>Alchuidium. lib. de intellcenu et intelligibili. vbi videlicet 
+      <lb ed="#A" n="47"/>ponit tres difrtias intellens scilicet intellem in actu: et intellem 
+      <lb ed="#A" n="48"/>in pona: et intellemm demostrantem. Et horum primus est 
+      <lb ed="#A" n="49"/>intellectus agens. Secundus possibilis. Tertius penes 
+      <lb ed="#A" n="50"/>operationes in effectu: est intellectus demonstras etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e1917">
+               <head xml:id="Vn7Pel-g85075-Hd1e1919">17</head>
+               <p xml:id="Vn7Pel-g85075-d1e1921">
+                  <lb ed="#A" n="51"/>¶ Sed quomodo intellectus 
+      spe<lb ed="#A" n="52" break="no"/>culatiuus dicitur esse intellectus possibilis: cum 
+      in<lb ed="#A" n="53" break="no"/>tellectus speculatiuus ille dicitur qui est in actu. 
+      <lb ed="#A" n="54"/>et hoc conuenit potius intellectui agenti quam 
+      possi<lb ed="#A" n="55" break="no"/>bili. Dicendum secundum Alber. magnum: quod intellectui 
+      <lb ed="#A" n="56"/>possibili esse speculatiuum non conuenit proprie secundum 
+      <lb ed="#A" n="57"/>diffinitionem Auicene: qui diffinit ipsum sim scilicet Intel 
+      <!--282.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lectus in effectu siue speculatium qui intelligit 
+      <lb ed="#A" n="59"/>quotiens vult intelligere sine lalre adquirendi. 
+      <lb ed="#A" n="60"/>Nam intellectus possibilis non hat habitum 
+      for<lb ed="#A" n="61" break="no"/>maliter actu ex se sicut speculatiuus tellectus 
+      a<lb ed="#A" n="62" break="no"/>gens: sed habet potentialiter tantum. quod es non habere 
+      <lb ed="#A" n="63"/>simpliciter: sed secundum quid. Indiget etiam praessibilis 
+      la<lb ed="#A" n="64" break="no"/>bore studii et doctrine. et sic virtutis aliee auxilio. 
+      <lb ed="#A" n="65"/>Unde non dicitur proprie sed sarge speculatiucapiendo. 
+      <lb ed="#A" n="66"/>Difficultas autem occurrii circa 
+      <lb ed="#A" n="67"/>praedicta: Quomodo dicit Arist . libro de anima. quod in is que 
+      <lb ed="#A" n="68"/>sunt sine materia idem est intellectus et quai 
+      intel<lb ed="#A" n="69" break="no"/>ligit. et scientia speculatiua in actu et quod 
+      spcula<lb ed="#A" n="70" break="no"/>tum est: idem sunt. Et quod sensus in actu cumsensi 
+      <lb ed="#A" n="71"/>bili est idem. Si enim hec dicta sunt vera: seqitur quod 
+      <lb ed="#A" n="72"/>lapis scitus vel speculatus et eius scientia ac honis 
+      <lb ed="#A" n="73"/>intellectus erunt idem. quod est absurdum
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e1978">
+      ¶ 
+      R<lb ed="#A" n="74" break="no"/>spondetur quod secundum Auice. Alexan. et Alphorabium: quod 
+      <lb ed="#A" n="75"/>intelligitur scientia formaliter secundum actu: et intellectus 
+      <lb ed="#A" n="76"/>speculatiuus esse vnum sicut vnum congregatum ex sub 
+      <lb ed="#A" n="77"/>iecto et accidente. non vnum simpliciter: sed secundum quid. 
+      <lb ed="#A" n="78"/>Ideo dicit idem Arist. quod scientia quodammodo int 
+      <lb ed="#A" n="79"/>res scita in actu. Quando enim intellectus possibilis 
+      <lb ed="#A" n="80"/>est in actu speculandi. tunc est scientia rei: et species in 
+      <lb ed="#A" n="81"/>anima quae est principium cognitionis est rei ratio: et 
+      <lb ed="#A" n="82"/>quiditas non differens ab ipsa re. Si enim differret 
+      <lb ed="#A" n="83"/>non cognosceretur per ipsam res scita secundum illud in quo 
+      <lb ed="#A" n="84"/>differret: tamen in intellectu est secundum esse accidentale: 
+      <lb ed="#A" n="85"/>sed in re est secundum esse naturale. Itaque species in anima 
+      <lb ed="#A" n="86"/>que est principium cognoscendi et intentio rationis: et 
+      <lb ed="#A" n="87"/>totum esse rei: accipitur vt actus totius rei: et 
+      quodan<lb ed="#A" n="88" break="no"/>modo vnum congregatum ex subiecto et accidente etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e2014">
+               <head xml:id="Vn7Pel-g85075-Hd1e2016">18</head>
+               <p xml:id="Vn7Pel-g85075-d1e2018">
+                  <lb ed="#A" n="89"/>¶ Quomodo aut intellectus 
+      spe<lb ed="#A" n="90" break="no"/>culatiuus differt a practico. Dicendum secundum Alb. 
+      <lb ed="#A" n="91"/>quod idem sunt in substantia et in ratione subiecti. sed 
+      <lb ed="#A" n="92"/>differunt in ratione finis. quia vt dicitur. ii. Metaphy. 
+      <lb ed="#A" n="93"/>Finis speculatiue scientie est veritas. sed 
+      practi<lb ed="#A" n="94" break="no"/>ce est opus. Differunt etiam aliis rationibus. vt patuit 
+      <lb ed="#A" n="95"/>lib. i. Ideo hic pertranseo
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e2036">
+      ¶ Item secundum Uincem. in 
+      <lb ed="#A" n="96"/>Specu. natu. lib. xxviii. c. lvi. dicitur quod vis rationis 
+      <lb ed="#A" n="97"/>anime: quam nos dicimus liberum arbitrium: hec a 
+      <lb ed="#A" n="98"/>philosophis dicta est intellectus practicus: eo quod 
+      <lb ed="#A" n="99"/>sit principium operabilium. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e2048">
+               <head xml:id="Vn7Pel-g85075-Hd1e2050">19</head>
+               <p xml:id="Vn7Pel-g85075-d1e2052">
+                  <lb ed="#A" n="100"/>¶ Utrum intellectus noster 
+      ar<lb ed="#A" n="101" break="no"/>gumentando discurrens a creaturis ad creatorem 
+      <lb ed="#A" n="102"/>in fine discursus intelligat per suam naturalem 
+      vir<lb ed="#A" n="103" break="no"/>tutem diuinam essentiam. Respondet Richar. in. ii dis. 
+      <lb ed="#A" n="104"/>xxiiii. art. iii. q. v. quod quamuis homo bene vtendo 
+      crea<lb ed="#A" n="105" break="no"/>turis dispositiue ascendit ad gratam dei 
+      cognitio<lb ed="#A" n="106" break="no"/>nem et dilectionem: pro quibus retribuetur in patria 
+      <lb ed="#A" n="107"/>clara et immediata dei visio: Tamen quantumcunque in 
+      <lb ed="#A" n="108"/>hac vita discurramus intellcenu argumtando a crea 
+      <lb ed="#A" n="109"/>turis ad creatorem: num quam possumus naturali 
+      virtu<lb ed="#A" n="110" break="no"/>te intelligere immediate et intellectione clara aut 
+      <lb ed="#A" n="111"/>faciali essentiam creatoris de lege communi. 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e2081">
+                  <lb ed="#A" n="112"/>¶ Ratio. quia non potest tali discursu a nobis 
+      <lb ed="#A" n="113"/>cognosci deus nisi per aliquod obiectum primo cognitum. 
+      <!--283.xml-->
+      <pb ed="#A" n="284"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>videlicet quod enst summum vel summe bonum. et taliter 
+      <lb ed="#A" n="2"/>cognoscere no est immediate cognoscere. 
+      Confir<lb ed="#A" n="3" break="no"/>matur: quia si isssemus per discursum intellectus 
+      <lb ed="#A" n="4"/>deuenire ad gnoscendum diuinam essentiam imme 
+      <lb ed="#A" n="5"/>diate. tunc siueretur quod possemus per naturalia 
+      per<lb ed="#A" n="6" break="no"/>tingere ad us cognitionem immediatam. et per consequens 
+      <lb ed="#A" n="7"/>beatificam. uod est falsum et excommunicatum per articulum 
+      <lb ed="#A" n="8"/>Parisien Stephano cepiscopo. Sed hec de communi 
+      le<lb ed="#A" n="9" break="no"/>ge intellgenda sunt. Uide latius vbi <ref xml:id="Vn7Pel-g85075-Rd1e2113">Homo. §. 
+      <lb ed="#A" n="10"/>xxv.</ref> Eno secus est de posse speciali dono dei et 
+      <lb ed="#A" n="11"/>transiprie. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g85075-Dd1e2122">
+               <head xml:id="Vn7Pel-g85075-Hd1e2124">20</head>
+               <p xml:id="Vn7Pel-g85075-d1e2126">
+                  <lb ed="#A" n="12"/>¶ Ied difficultas est: quia 
+      intel<lb ed="#A" n="13" break="no"/>lectus noster discurrendo terminatur ad aliquid 
+      im<lb ed="#A" n="14" break="no"/>medate: sed non ad creaturam. quia a creaturis 
+      dis<lb ed="#A" n="15" break="no"/>curit ad creatorem. ergo terminatur immediate ad deum. 
+      <lb ed="#A" n="16"/>cespondetur secundum e. Rich. ibidem. quod terminatur in 
+      ali<lb ed="#A" n="17" break="no"/>quam nouam cognitionem dei: qua scilicet deus 
+      cogno<lb ed="#A" n="18" break="no"/>scitur distincte secundum aliquam proprietatem que in deo est: 
+      <lb ed="#A" n="19"/>ad quam proprietatem creatura quadam assimilatione 
+      quam<lb ed="#A" n="20" break="no"/>uis remote accedit. Sed non sequitur ex hoc quod 
+      im<lb ed="#A" n="21" break="no"/>mediate terminetur talis discursus ad aliquam talem 
+      <lb ed="#A" n="22"/>cognitionem qua videlicet deus immediate cognoscatur. 
+      <lb ed="#A" n="23"/>quia intelligere deum immediate est idem quod videre 
+      <lb ed="#A" n="24"/>deum immediate. sed dei essentiam non possumus in 
+      <lb ed="#A" n="25"/>psenti immediate videre. ergo patet propositum.
+     </p>
+               <p xml:id="Vn7Pel-g85075-d1e2159">
+      ¶ Sed 
+      <lb ed="#A" n="26"/>quare sic ordinauit deus vt eundem in praesenti communiter 
+      <lb ed="#A" n="27"/>videre non possimus vel intelligere virtute naturali 
+      <lb ed="#A" n="28"/>immediate. Clarum est quod ex sue bonitatis 
+      excellen<lb ed="#A" n="29" break="no"/>tia infinita: quia incomprehensibilis est creature et pro 
+      <lb ed="#A" n="30"/>nostra vtilitate vt fidei meritum adquiramus 
+      creden<lb ed="#A" n="31" break="no"/>do ex scripturis diuinitus reuelatis ea que non 
+      vi<lb ed="#A" n="32" break="no"/>demus: atque vt ex hoc humiliores simus ad praestentiam 
+      <lb ed="#A" n="33"/>peccatorum quatenus gratiam dei habeamus. quia deus 
+      <lb ed="#A" n="34"/>superbis resistit humilibus autem dat gratiam. Iaco. 
+      <lb ed="#A" n="35"/>iiii. Et sic dei bonitas est laudabilis in omnibus 
+      </p>
+               <p xml:id="Vn7Pel-g85075-d1e2183">
+                  <lb ed="#A" n="36"/>¶ Qux diuine bonitatis largitas et 
+      <lb ed="#A" n="37"/>equitas commendabilis est in qualitate et ponde 
+      <lb ed="#A" n="38"/>re intentionis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

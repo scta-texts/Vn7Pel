@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digestio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Digestio</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="191"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g58283">
+            <head xml:id="Vn7Pel-g58283-Hd1e110">Digestio</head>
+            <p xml:id="Vn7Pel-g58283-d1e112">
+               <lb ed="#A" n="45"/>¶ E diuine bonitatis prouidentia 
+          <lb ed="#A" n="46"/>laundabilis disposuiti corpore animalis digestionem. 
+        </p>
+            <div xml:id="Vn7Pel-g58283-Dd1e119">
+               <head xml:id="Vn7Pel-g58283-Hd1e121">1</head>
+               <p xml:id="Vn7Pel-g58283-d1e123">
+                  <lb ed="#A" n="47"/>¶ Digestio. 
+      Queri<lb ed="#A" n="48" break="no"/>tur quid sit digestio diffinitiue: 
+      Re<lb ed="#A" n="49" break="no"/>spondetur secundum <ref xml:id="Vn7Pel-g58283-Rd1e131">Guill. in. ii di. xx.</ref> quod 
+      iuxte<lb ed="#A" n="50" break="no"/>
+                  <ref xml:id="Vn7Pel-g58283-Rd1e136">Arist. iiii. Metheor.</ref> diffinitur sic. Digestio est 
+      perfe<lb ed="#A" n="51" break="no"/>ctio a naturali et proprio calido ex oppositis passi¬ 
+      <!--190.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>nis
+     </p>
+               <p xml:id="Vn7Pel-g58283-d1e147">
+      ¶ In qua diffnitionetangit Primno gemut 
+      <lb ed="#A" n="53"/>cum dicitur: perfectio. Unde secundum eundem liro de generatione. Ea 
+      <lb ed="#A" n="54"/>qua nutrium scilicet alimenta prius sunt in potentia remota 
+      <lb ed="#A" n="55"/>vt formam capiant nutribilis. Secundo sunt in 
+      poten<lb ed="#A" n="56" break="no"/>tia propinqua. et tunc apud medicos vocatur ros. Et 
+      <lb ed="#A" n="57"/>tertio in nutribile conuertitur ipsum alimentum seu in 
+      <lb ed="#A" n="58"/>substantiam aliti corporis perfecte
+     </p>
+               <p xml:id="Vn7Pel-g58283-d1e163">
+      ¶ Secundo in diffinitione 
+      <lb ed="#A" n="59"/>dicitur quod digestio est a naturali et proprio calido. Et hoc 
+      <lb ed="#A" n="60"/>vocatur calidum radicale agens in humidum 
+      radica<lb ed="#A" n="61" break="no"/>le. Huiusmodi autem calor proprius non alienus habet bene 
+      effi<lb ed="#A" n="62" break="no"/>cere digestionem. Si vero fiat digestio aliqua ab 
+      <lb ed="#A" n="63"/>extrinseco calore accidentali: aeris vel ignis: non 
+      <lb ed="#A" n="64"/>est proprie digestio: nisi amplietur nomen digestionis 
+      <lb ed="#A" n="65"/>etiam ad accidentalem digestionem
+     </p>
+               <p xml:id="Vn7Pel-g58283-d1e181">
+      ¶ Tertio additur: ex 
+      <lb ed="#A" n="66"/>oppositis passiuis. Et hoc passiuum in digestione 
+      <lb ed="#A" n="67"/>proprie dicitur alimentum seu humidum quod opponitur 
+      cali<lb ed="#A" n="68" break="no"/>do contrarie. et in ipsum agit continue calor 
+      decoquen<lb ed="#A" n="69" break="no"/>do. sicut in lampade agit ignis in oleum et etiam in 
+      <lb ed="#A" n="70"/>lychinum. Lampas ergo extinguitur: aut consumpto oleo 
+      <lb ed="#A" n="71"/>tanquam nutrinnto omnino deficiente: aut consumpto 
+      ly<lb ed="#A" n="72" break="no"/>chino ab igne tanquam humido radicali consumpto a 
+      <lb ed="#A" n="73"/>calore radicali. Aut tertio econuerso suffocato ca 
+      <lb ed="#A" n="74"/>lore radicali ab humido nimio nutrimentali. Ita 
+      <lb ed="#A" n="75"/>his tribus consimilibus modis moritur homo vel animal etc. 
+      <lb ed="#A" n="76"/>Ad idem etiam habetur vbi <ref xml:id="Vn7Pel-g58283-Rd1e207">Nutrimentum. §. ii.</ref>
+               </p>
+               <p xml:id="Vn7Pel-g58283-d1e211">
+      ¶ Si vero 
+      <lb ed="#A" n="77"/>arguatur: de nutrimento in homine: oppositum. ex hoc quod 
+      <lb ed="#A" n="78"/>opinio Magistri sententiarum dicit alimentu non transire in 
+      <lb ed="#A" n="79"/>veritatem humane nature. patet responsio ex scriptis infra 
+      <lb ed="#A" n="80"/>e. ca. Nutrimentum etc. Unde deus est laudabilis quia 
+      <lb ed="#A" n="81"/>prouidit pro vita conseruanda digestionem etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g58283-Dd1e225">
+               <head xml:id="Vn7Pel-g58283-Hd1e227">2</head>
+               <p xml:id="Vn7Pel-g58283-d1e229">
+                  <lb ed="#A" n="82"/>¶ Sed vbi celebrantur digestiones 
+      <lb ed="#A" n="83"/>et quotiens in corpore animalis: Respondetur secundum Guill. supra 
+      <lb ed="#A" n="84"/>Rich. et Physicos: quod prima digestio fit in 
+      ore<lb ed="#A" n="85" break="no"/>modo praeparatorio scilicet per masticationem quae etiam 
+      imper<lb ed="#A" n="86" break="no"/>fecte aliquam habet vim digestiuam: quia immutat 
+      ali<lb ed="#A" n="87" break="no"/>mentum et praeparat ad melius digerendum in 
+      stoma<lb ed="#A" n="88" break="no"/>cho. Hinc est quod triticum et queque grana 
+      aromati<lb ed="#A" n="89" break="no"/>ca ad multas valent medicinas ad quas non tam 
+      va<lb ed="#A" n="90" break="no"/>lent non masticata. In ore etiam sicut in digestione 
+      <lb ed="#A" n="91"/>separatur purum ab impuro: vt digestibiles scilicet carnes: 
+      <lb ed="#A" n="92"/>ab indigestibilibus scilicet ossibus que reiiciuntur ex ore et 
+      <lb ed="#A" n="93"/>non transglutiuntur. et sic de huiusmodi. Secunda digestio 
+      <lb ed="#A" n="94"/>fit in stomacho. vbi separatur purum ab impuro iterum 
+      <lb ed="#A" n="95"/>puta grossum a subtili. et impurum vel grossum 
+      ege<lb ed="#A" n="96" break="no"/>ritur. videlicet stercus. purum autem mittitur ad epar per 
+      <lb ed="#A" n="97"/>mesaraicas venas. Et ibi etiam Tertia digestio 
+      co<lb ed="#A" n="98" break="no"/>lebratur scilicet in epate: vbi iterum separatio fit impuri a 
+      pu<lb ed="#A" n="99" break="no"/>ro subtilius quam in stomacho. ibique impurum 
+      ver<lb ed="#A" n="100" break="no"/>titur in vrinas. sed purum vadit ad venas et ac 
+      <lb ed="#A" n="101"/>cor: vbi Quarta digestio fit: iterum separans 
+      mi<lb ed="#A" n="102" break="no"/>nus purum a magis puro. Minus purum vertitur 
+      <lb ed="#A" n="103"/>in sudores et alia plura humorum. sed magis purum 
+      <lb ed="#A" n="104"/>vertitur in rorem ac cambium quod est album inter poros 
+      <lb ed="#A" n="105"/>adherens carni. Et hoc conuertitur per naturam in 
+      par<lb ed="#A" n="106" break="no"/>tes corporis animalis vel hominis quo ad conseruandum indiui 
+      <lb ed="#A" n="107"/>duum. Superfluum autem vadit ad locum generatiue 
+      pro<lb ed="#A" n="108" break="no"/>pter conseruationem speciei. ergo deus laudabilis. 
+      <!--191.xml-->
+      <pb ed="#A" n="192"/>
+                  <cb ed="#A" n="a"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g58283-Dd1e298">
+               <head xml:id="Vn7Pel-g58283-Hd1e300">3</head>
+               <p xml:id="Vn7Pel-g58283-d1e302">
+                  <lb ed="#A" n="1"/>¶ Sed difficultas est quo per 
+      di<lb ed="#A" n="2" break="no"/>gestionem nutrimenti fiat huiusmodi conuersio. Aui 
+      <lb ed="#A" n="3"/>enim nutrimentum conuertitur in vacuum: aut in plenim 
+      <lb ed="#A" n="4"/>Non ad vacuum. quia non est dare vacuum: ex. iiii 
+      phy<lb ed="#A" n="5" break="no"/>sicorum. Nec ad plenum. quia tunc duo corpora essent 
+      si<lb ed="#A" n="6" break="no"/>mul. Respondet Scotorlis. in. ii. di. xxx. q. ii quod nec 
+      <lb ed="#A" n="7"/>transit ad plenum: nec ad vacuum simpliciter: sed ad 
+      <lb ed="#A" n="8"/>corpus porosum. Patet ex dictis. Quod autem transeat 
+      <lb ed="#A" n="9"/>ad veritatem humane nature: probatur secundum Guill. e. di. 
+      <lb ed="#A" n="10"/>xxx. ex hoc. quia quod resurget in homine est de veritate 
+      <lb ed="#A" n="11"/>humane nature. sed quia pili in homine resurgent 
+      <lb ed="#A" n="12"/>Matth. x. Capillus de capite vro non peribit. 
+      Pi<lb ed="#A" n="13" break="no"/>li autem fiunt et crescunt ex cibis. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-g58283-d1e333">
+      ¶ Si queratur In 
+      <lb ed="#A" n="14"/>quo ergo resurget caro que secundum veritatem nature sic 
+      <lb ed="#A" n="15"/>esset in duobus: quando posito casu Petrus comederetur 
+      <lb ed="#A" n="16"/>ab vrso quem vrsum postea Paulus comederet: 
+      <lb ed="#A" n="17"/>tunc quod fuit in petro iam erit in paulo: Dicendum secundum 
+      <lb ed="#A" n="18"/>viam Scoti in. iiii. quod nunquam fuit nec erit vsque in 
+      <lb ed="#A" n="19"/>finem mundi equaliter in duobus suppositis aliquid 
+      <lb ed="#A" n="20"/>de veritate humane nature. Et ideo resurget praeciseo 
+      <lb ed="#A" n="21"/>in vno in quo magis fuit de veritate: vel quia purius vel 
+      <lb ed="#A" n="22"/>quia magis de intentione humane nature. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g58283-Dd1e357">
+               <head xml:id="Vn7Pel-g58283-Hd1e359">4</head>
+               <p xml:id="Vn7Pel-g58283-d1e361">
+                  <lb ed="#A" n="23"/>¶ Utrum fuisset digestio in 
+      ho<lb ed="#A" n="24" break="no"/>mine permanente in statu innocetie: Respondetur secundum e. 
+      <lb ed="#A" n="25"/>Guill. e. di. xx. quod sic. Probatur. quia in illo statu 
+      ha<lb ed="#A" n="26" break="no"/>buisset homo vasa id est membra digestionis scilicet stoma 
+      <lb ed="#A" n="27"/>chum: epar etc. ac etiam loca egestionis. Et hec non 
+      fu<lb ed="#A" n="28" break="no"/>issent frustra. ergo etc. Item Gen. ii dixit dominus Ade. 
+      <lb ed="#A" n="29"/>De omni ligno quod est in paradiso comede. Et hoc 
+      <lb ed="#A" n="30"/>ideo vt nutriretur cibo. Nutritio autem est pars 
+      dige<lb ed="#A" n="31" break="no"/>stionis secundum Auicem. in primo cano. Item Confirmatur. 
+      <lb ed="#A" n="32"/>quia teste christo Matth. xv. Omnem quod intrat in os in 
+      <lb ed="#A" n="33"/>secessum emittitur. quod intelligendum est de 
+      superflui<lb ed="#A" n="34" break="no"/>tatibus impuris que separantur a puro quod 
+      conue<lb ed="#A" n="35" break="no"/>nit corpori et conuertitur in illud: vt patuit. Sed quia 
+      <lb ed="#A" n="36"/>homo in illo statu comedisset indigens nutrimo 
+      <lb ed="#A" n="37"/>to propter humidum radicale. ergo consequenter 
+      seces<lb ed="#A" n="38" break="no"/>sum habuisset. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g58283-Dd1e399">
+               <head xml:id="Vn7Pel-g58283-Hd1e401">5</head>
+               <p xml:id="Vn7Pel-g58283-d1e403">
+                  <lb ed="#A" n="39"/>¶ Sed difficultas est Quia in 
+      omni<lb ed="#A" n="40" break="no"/>digestione fit separatio impuri a puro: ex. iiii. 
+      Me<lb ed="#A" n="41" break="no"/>theo. et Auicena supra. Et impurum proiicitur per egestionem 
+      <lb ed="#A" n="42"/>que fetorem generat. Hoc autem non conuenisset 
+      paradi<lb ed="#A" n="43" break="no"/>so pro statu innocentie: cum esset quid penale fetorem 
+      <lb ed="#A" n="44"/>sustinere. ergo etc. Dicendum secundum e. Guill. et alios: quod 
+      <lb ed="#A" n="45"/>licet ibi fuisset egestio et fimulnea ac vrina 
+      pauci<lb ed="#A" n="46" break="no"/>or quam modo: eo quod hec competunt humane nature: tamen 
+      <lb ed="#A" n="47"/>fuissent sine fetore et sine turpitudine. sicut modo 
+      <lb ed="#A" n="48"/>non est turpe saliuam honeste eiicere ex ore: vel acerem 
+      <lb ed="#A" n="49"/>inspiratum expirare. ergo non currit obiectio. Item 
+      de<lb ed="#A" n="50" break="no"/>us dedit aliquibus animalibus quod fimus eorum odore 
+      <lb ed="#A" n="51"/>fragrat: vt patet de pesma serpentum. et de eructa 
+      <lb ed="#A" n="52"/>tione panthere post somnum: secundum physiolis. et de 
+      vri<lb ed="#A" n="53" break="no"/>na lyncis que inglaciatur in lapidem praeciosum: secundum 
+      <lb ed="#A" n="54"/>Plinium: vt dictum est vbi <ref xml:id="Vn7Pel-g58283-Rd1e439">Bestia. §. </ref>d lynce. Non 
+      <lb ed="#A" n="55"/>mirum ergo videtur quod a fortiori deus homini tunc dedisset 
+      <lb ed="#A" n="56"/>aliquid odoris boni vel vtilitatis in egestione. 
+      <!--191.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-g58283-Dd1e452">
+               <head xml:id="Vn7Pel-g58283-Hd1e454">6</head>
+               <p xml:id="Vn7Pel-g58283-d1e456">
+                  <lb ed="#A" n="57"/>¶ Sed An fuisset sudor in homine 
+      <lb ed="#A" n="58"/>pro statu innocentie: Respondetur secundum eundem Guill. 
+      <lb ed="#A" n="59"/>quod non fuisset sudor qui prouenit homini ex debilitate. 
+      <lb ed="#A" n="60"/>nec sudor ex laboris fatiga. nec cetera huiusmodi quae 
+      <lb ed="#A" n="61"/>sunt penalia: vt vomitus cholere etc. Tamen sudor 
+      <lb ed="#A" n="62"/>naturalis delectabilis bene fuisset 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g58283-Dd1e473">
+               <head xml:id="Vn7Pel-g58283-Hd1e475">7</head>
+               <p xml:id="Vn7Pel-g58283-d1e477">
+                  <lb ed="#A" n="63"/>¶ Item An corpus hominis in 
+      sta<lb ed="#A" n="64" break="no"/>tum innocentie efficeretur impurius ex digestionis in 
+      <lb ed="#A" n="65"/>puro secum admixto: Idem Guill. dicit quod non: loquen 
+      <lb ed="#A" n="66"/>do simpliciter. quia non capiebat nisi propter fortifica 
+      <lb ed="#A" n="67"/>tionem nature: vt puro alimenti recepto: impurum 
+      <lb ed="#A" n="68"/>emitteretur. Unde tunc natura conuertisset cibum in 
+      <lb ed="#A" n="69"/>corpus quo ad conseruationem indiuidui per 
+      nutrimen<lb ed="#A" n="70" break="no"/>tum. et etiam conuertisset aliquid in superfsuum 
+      in<lb ed="#A" n="71" break="no"/>diuidui tamten necessarium ad gignitionem. Et sic patet 
+      <lb ed="#A" n="72"/>laudabilis dei bonitas quae prouidit ne deficiat ani¬ 
+      </p>
+               <p xml:id="Vn7Pel-g58283-d1e501">
+                  <lb ed="#A" n="73"/>¶ Ad hec etiam plura habentur. (malia in vita. 
+      <lb ed="#A" n="74"/>vbi <ref xml:id="Vn7Pel-g58283-Rd1e507">Homo. §. 6.</ref> et sequentibus. Et vbi Nutrimentum 
+      </p>
+               <p xml:id="Vn7Pel-g58283-d1e510">
+                  <lb ed="#A" n="75"/>¶ Quod bonitatis diuine iusticia 
+      cla<lb ed="#A" n="76" break="no"/>ruit in diluuio: malos delendo: et iustos praesruando. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benefactor</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#evyryan">Evy Ryan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Benefactor</title>
+               <date when="2023-02-24">February 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth2">Augsburg 1503, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="117"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-g35740">
+            <head xml:id="Vn7Pel-g35740-Hd1e110">Benefactor</head>
+            <div xml:id="Vn7Pel-g35740-Dd1e112">
+               <head xml:id="Vn7Pel-g35740-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-g35740-d1e116">
+                  <lb ed="#A" n="61"/>¶ Benefactor et De 
+      <lb ed="#A" n="62"/>neficium. Queritur Utrum benefactor 
+      ma<lb ed="#A" n="63" break="no"/>gis diligit beneficiatum quam econuerso 
+      </p>
+               <p xml:id="Vn7Pel-g35740-d1e125">
+                  <lb ed="#A" n="64"/>¶ Respondetur secundum Rayne. in summa cum 
+      <lb ed="#A" n="65"/>Tho. ii. ii. q. xxvli. articum. xii. per conclusionem quod 
+      <lb ed="#A" n="66"/>sic.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e134">
+      ¶ Et probatur Primo per philosophum. ix. Eth. d. 
+      Be<lb ed="#A" n="67" break="no"/>nefactores plus amant beneficiatos quam amantur ab 
+      <lb ed="#A" n="68"/>eis. Exemplum ponit quoniam omnis artifex inquit diligit 
+      <lb ed="#A" n="69"/>ppus suum. Et etiam diligit ipsum magis quam quod ab opere 
+      <lb ed="#A" n="70"/>diligatur. vt patet etiam de parentibus respectu filiorum 
+      <lb ed="#A" n="71"/>quia parentes magis diligunt filios quam econuerso 
+      <lb ed="#A" n="72"/>Sic in proposito. Hec ibi.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e150">
+      ¶ Secundo probatur rationibus 
+      </p>
+               <p xml:id="Vn7Pel-g35740-d1e153">
+                  <lb ed="#A" n="73"/>¶ Prima ratio Liberalis condicionis vel amoris. Quia 
+      <lb ed="#A" n="74"/>amor benefactoris ad beneficiatum est magis sponta 
+      <lb ed="#A" n="75"/>neus et liberalis quam econuerso. Nam bene factor 
+      dili<lb ed="#A" n="76" break="no"/>git beneficiatum non prouocatus ab illo sed a seipso 
+      mo<lb ed="#A" n="77" break="no"/>us. Sed beneficiatus diligit benefactorem prouocatus 
+      <lb ed="#A" n="78"/>beneficium ab illo. Sed quod est ex seipso: potius est 
+      <lb ed="#A" n="79"/>llo quod est per aliud vel per accidens. ergo benefactor 
+      <lb ed="#A" n="80"/>magis dicitur amare beneficiatum quam econuerso.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e173">
+      ¶ 
+      Se<lb ed="#A" n="81" break="no"/>cunda ratio Respectus boni maioris. quia bene 
+      <lb ed="#A" n="82"/>factor respicit in beneficiato bonum maius videlicet 
+      <lb ed="#A" n="83"/>bonum honestum. hoc est bonum quod in 
+      be<lb ed="#A" n="84" break="no"/>neficiato existit videlicet probitatem: fidelitatem vel 
+      <lb ed="#A" n="85"/>fortitudinem et huiusmodi propter que est laudabilis et 
+      <lb ed="#A" n="86"/>peneficio dignus ad accipiendum. Sed 
+      benefi<lb ed="#A" n="87" break="no"/>ciatus respicit vel cognoscit bonum minus. scilicet 
+      bo<lb ed="#A" n="88" break="no"/>num vtile quod minus est bono honesto. Ideo 
+      <lb ed="#A" n="89"/>beneficiatus comparatus benefactori semper 
+      mi<lb ed="#A" n="90" break="no"/>nor inuenitur eo quod obligatur illi et non econuerso. 
+      er<lb ed="#A" n="91" break="no"/>go etc Tertia ratio Difficilioris amoris. quia illa quae 
+      <lb ed="#A" n="92"/>fiunt vel adquiruntur difficiliori labore magis 
+      di<lb ed="#A" n="93" break="no"/>iguntur illis que fiunt facilius. Unde diues 
+      ho<lb ed="#A" n="94" break="no"/>mo qui adquisiuit pecunias proprio labore 
+      ma<lb ed="#A" n="95" break="no"/>gis diligit et custodit illas quam filius eius qui 
+      ad<lb ed="#A" n="96" break="no"/>quirit illas ex successione. quia facilius adquirit 
+      <lb ed="#A" n="97"/>quam pater suus. ergo a simili cum benefacere sit ma 
+      <lb ed="#A" n="98"/>pis operosum id est difficile. Beneficiari autem est 
+      si<lb ed="#A" n="99" break="no"/>ne labore. sequitur quod benefactor habet maiorem 
+      <lb ed="#A" n="100"/>dilectionem ad beneficiatum quam econuerso 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g35740-Dd1e220">
+               <head xml:id="Vn7Pel-g35740-Hd1e222">2</head>
+               <p xml:id="Vn7Pel-g35740-d1e224">
+                  <lb ed="#A" n="101"/>¶ Tertio probatur: Signis 
+      exem<lb ed="#A" n="102" break="no"/>plaribus. Queritur nanque in problematibus phlosoph 
+      <lb ed="#A" n="103"/>Unde est hoc quod vt communiter dicitur. Si aliquis tale 
+      be<lb ed="#A" n="104" break="no"/>neficium prestet alteri vt eum videlicet liberet a 
+      <lb ed="#A" n="105"/>morte turpi: puta suspendio vel crurifragio 
+      de<lb ed="#A" n="106" break="no"/>collatione etc: Ille beneficiatus vel liberatus non 
+      <lb ed="#A" n="107"/>tam diligit liberantem sed horret et deuitat illum. 
+      <lb ed="#A" n="108"/>Et respondetur quod hoc ideo est. quia libertatem 
+      <lb ed="#A" n="109"/>omnis homo et omne animal naturaliter diligit 
+      <lb ed="#A" n="110"/>patet etiam in auibus que licet copiosius et optimeo 
+      <!--117.xml-->
+      <pb ed="#A" n="118"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tractentur in domiciliis plus quam haberent pro 
+      pastu<lb ed="#A" n="2" break="no"/>in agro: tamen cum poterunt mox euolant vt 
+      li<lb ed="#A" n="3" break="no"/>bertatem habeant. Propterea et poeta Oracius 
+      <lb ed="#A" n="4"/>dicit. Non bene libertas pro toto venditur auro. 
+      <lb ed="#A" n="5"/>Et quia homo liberatus per alicuus beneficium 
+      <lb ed="#A" n="6"/>a morte iudicat seipsum obligatum illi 
+      liberan<lb ed="#A" n="7" break="no"/>ti tota vita sua et per consequens se non fore liberum. 
+      <lb ed="#A" n="8"/>Propter maximam ergo minorationem sui ad 
+      <lb ed="#A" n="9"/>illum et obligationem deuitat illum et optat illum 
+      <lb ed="#A" n="10"/>mori vt libertatem omnimodam ipse habeat etc. 
+      <lb ed="#A" n="11"/>Et patet ex secunda etiam ratione predicta ad 
+      que<lb ed="#A" n="12" break="no"/>situm etc. Mira ergo dei sapientia qua huiusmo 
+      <lb ed="#A" n="13"/>di disposuit in natura. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g35740-Dd1e284">
+               <head xml:id="Vn7Pel-g35740-Hd1e286">3</head>
+               <p xml:id="Vn7Pel-g35740-d1e288">
+                  <lb ed="#A" n="14"/>¶ Sed an ergo melius sit dare 
+      be<lb ed="#A" n="15" break="no"/>neficium quam accipere: Respondetur per verba Aposto 
+      <lb ed="#A" n="16"/>li expresse Act. xx. vbi ait sic. Oportet meminis 
+      <lb ed="#A" n="17"/>se verbi domini iesu quoniam ipse dixit Beatius est 
+      <lb ed="#A" n="18"/>magis dare quam accipere. Hec ibi. Si petas vbi 
+      <lb ed="#A" n="19"/>hec christus dominus dixerit. Respondet Lyra quod licet 
+      <lb ed="#A" n="20"/>non habeatur in euangelio: tamen firmiter 
+      tenen<lb ed="#A" n="21" break="no"/>dum est propter verbum Apostoli quod hoc christus 
+      <lb ed="#A" n="22"/>dixerit: et apostolus per reuelationem hoc habuit 
+      <lb ed="#A" n="23"/>sicut et christi euangelium vt patet Gal. ic. Nam non 
+      <lb ed="#A" n="24"/>omnia facta nec omnia dicta christi sunt scripta 
+      <lb ed="#A" n="25"/>Ut habetur Ioan. vlti.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e317">
+      ¶ Quod si ex hoc arguat aliquia 
+      <lb ed="#A" n="26"/>d. Beatius est dare quam accipere. ergo sequitur quod 
+      <lb ed="#A" n="27"/>melius est et maioris perfectionis diuitias eroga 
+      <lb ed="#A" n="28"/>re successiue pauperibus in seculo remanendo quam 
+      <lb ed="#A" n="29"/>in religione mendicare. Respondetur secundum Lyram quod 
+      <lb ed="#A" n="30"/>non valet. Nam consequens reprobatur per Aug. lib. 
+      <lb ed="#A" n="31"/>de ecclesiasticis dogmatibus vbi dicit. Bonum est 
+      <lb ed="#A" n="32"/>cum dispensatione bona pauperibus erogare sed 
+      me<lb ed="#A" n="33" break="no"/>lius est intentione sequendi christum totum 
+      simul<lb ed="#A" n="34" break="no"/>dare et absolutum a solicitudine cum christo egere 
+      <lb ed="#A" n="35"/>Hec ibi. Idem asserit et hieroymus scilicet contra 
+      Ui<lb ed="#A" n="36" break="no"/>gilantium. Propterea illud verbum: beatius est etc. in 
+      <lb ed="#A" n="37"/>telligendum est ceteris paribus que non sunt in 
+      <lb ed="#A" n="38"/>proposito. Hec Lyra. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-g35740-Dd1e349">
+               <head xml:id="Vn7Pel-g35740-Hd1e351">4</head>
+               <p xml:id="Vn7Pel-g35740-d1e353">
+                  <lb ed="#A" n="39"/>¶ Que debet homo obseruare et 
+      <lb ed="#A" n="40"/>pensare in beneficiis a deo receptis.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e360">
+      ¶ Nota secundum 
+      <lb ed="#A" n="41"/>doctores sacros recolligendo plura circa hoc de 
+      <lb ed="#A" n="42"/>bet homo obseruare et pensare diligenter
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e367">
+      ¶ Primo 
+      <lb ed="#A" n="43"/>debet omnia bona que habet deo attribuere et non 
+      <lb ed="#A" n="44"/>propriis meritis nec se dignum beneficiis reputare: 
+      <lb ed="#A" n="45"/>quia hoc esset species superbie vt dicit Gregorius 
+      <lb ed="#A" n="46"/>in moralis.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e378">
+      ¶ Secundo debet pro omnibus beneficiis 
+      <lb ed="#A" n="47"/>tam magnis quam mimis iugit gras agere quia vt 
+      Gre<lb ed="#A" n="48" break="no"/>go. et Berarnds. dicit. Non est dignus de dandis qui non 
+      <lb ed="#A" n="49"/>agit gratias de datis: nam quod deus dat gatis aufert in 
+      <lb ed="#A" n="50"/>gratis
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e390">
+      ¶ Tertio debet quanto plus accepit a deo in 
+      <lb ed="#A" n="51"/>munere tanto debet melius et humilius deo 
+      de<lb ed="#A" n="52" break="no"/>seruire. vt docet Grego in homel. de confes. Idem 
+      <lb ed="#A" n="53"/>dicit quod sicut boni meliores fiunt ex beneficiis 
+      <lb ed="#A" n="54"/>dei etiam per contumelias hominum: ita 
+      reprobi<lb ed="#A" n="55" break="no"/>de beneficiis semper peiores fiunt. Et hoc est signum 
+      <lb ed="#A" n="56"/>burioris damnationis. Item Hierony. super 
+      <lb ed="#A" n="57"/>Malach. dicit. Qui non sentit deum per bene¬ 
+      <!--117.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ficia: sentiet eum per supplicia.
+     </p>
+               <p xml:id="Vn7Pel-g35740-d1e414">
+      ¶ Quarto debt 
+      <lb ed="#A" n="59"/>in beneficiis dei maximam charitatem et bonitatem 
+      <lb ed="#A" n="60"/>recognoscere que clare patet Primo ex hominum 
+      <lb ed="#A" n="61"/>indignitate. vnde Bern. in epistola. O clementis 
+      <lb ed="#A" n="62"/>sima inquit circa filios Adam diuine pietatis re 
+      <lb ed="#A" n="63"/>cordatio que sua largiri non desinit beneficia 
+      <lb ed="#A" n="64"/>non solum vbi nullum inuenit meritum. sed 
+      ple<lb ed="#A" n="65" break="no"/>runque etiam vbi totum videt contrarium. ergo 
+      pa<lb ed="#A" n="66" break="no"/>tet propositum etc. Secundo ex vniuersalitate. quia 
+      <lb ed="#A" n="67"/>glo. i. Corum. iiii. dicit. Deus a munere suorum 
+      be<lb ed="#A" n="68" break="no"/>neficiorum nullum vult esse alienum. nedum 
+      ho<lb ed="#A" n="69" break="no"/>minum. sed nec minimum vermium et creatorum 
+      <lb ed="#A" n="70"/>cunctorum. Et hec ex sua bonitate. ergo etc. 
+      Ter<lb ed="#A" n="71" break="no"/>tio ex dei maiestate et infinitate. Unde beneficium 
+      <lb ed="#A" n="72"/>dei ex omni parte probatur esse infinitum et 
+      ineffa<lb ed="#A" n="73" break="no"/>bile. tum ex parte dantis qui est deus infinite 
+      ma<lb ed="#A" n="74" break="no"/>iestatis. et per consequens quantumcunque minimum dei 
+      <lb ed="#A" n="75"/>reputatur maximum ex dante tali et tanto. Sicut 
+      <lb ed="#A" n="76"/>maius est si rex dat propria manu cibum tibi quam 
+      ru<lb ed="#A" n="77" break="no"/>sticus Etsi papa dat: adhuc maius reputatur. tum 
+      <lb ed="#A" n="78"/>ex parte amoris quo dat. quia deus ex infinito 
+      <lb ed="#A" n="79"/>amore dat quicquid dat. tum ex parte dati. quia 
+      <lb ed="#A" n="80"/>seipsum dat deum infinitum. vnde Augu. de 
+      ver<lb ed="#A" n="81" break="no"/>bis domini ser. xliiii. dicit. Deus nil melius. quam se 
+      <lb ed="#A" n="82"/>tibi dat o auare quid aliud queris. Aut si aliud 
+      <lb ed="#A" n="83"/>petis quid tibi sufficit cui deus non sufficit. Hec 
+      <lb ed="#A" n="84"/>Augu. Tum quarto ex parte finis scilicet propter quem 
+      <lb ed="#A" n="85"/>vel ad quid dat deus sua beneficia homini. quia 
+      <lb ed="#A" n="86"/>ad perpetuam sine fine beatitudinem consequendam 
+      <lb ed="#A" n="87"/>pro tua vtilitate non sua. O ergo homo hec 
+      reco<lb ed="#A" n="88" break="no"/>gnosce vt diligas deum qui tantum diligit te. 
+      Co<lb ed="#A" n="89" break="no"/>gitans. quia tibi et talibus indignis. Quis et qua 
+      <lb ed="#A" n="90"/>lis maiestatis est qui benefacit. Item quali et 
+      quan<lb ed="#A" n="91" break="no"/>to amore id tibi facit. Item quantum bonum. quia 
+      <lb ed="#A" n="92"/>infinitum tibi dando benefacit. Item quia vt 
+      eter<lb ed="#A" n="93" break="no"/>naliter sis beatus. propter hoc et ad hoc tibi 
+      be<lb ed="#A" n="94" break="no"/>nefacit etc. 
+      </p>
+               <p xml:id="Vn7Pel-g35740-d1e495">
+                  <lb ed="#A" n="95"/>¶ Qux dei beniuolentia ex 
+      bonita<lb ed="#A" n="96" break="no"/>te sua omnibus praestat vtilitatem aliquam in hominis 
+      <lb ed="#A" n="97"/>bonitate. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
