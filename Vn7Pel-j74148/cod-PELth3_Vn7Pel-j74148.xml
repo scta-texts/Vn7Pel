@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Luxuria</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Luxuria</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="250"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j74148">
+            <head xml:id="Vn7Pel-j74148-Hd1e110">Luxuria</head>
+            <div xml:id="Vn7Pel-j74148-Dd1e112">
+               <head xml:id="Vn7Pel-j74148-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j74148-d1e116">
+                  <lb ed="#A" n="99"/>Luxuria primo 
+      quan<lb ed="#A" n="100" break="no"/>tum ad eius diffinitionem et specieorum 
+      assigna<lb ed="#A" n="101" break="no"/>tionem. Nam secundum Isid. li. Etym. Luxuria est 
+      <lb ed="#A" n="102"/>solutio in voluptates. voluptates autem maxime 
+      vene<lb ed="#A" n="103" break="no"/>ree soluunt animum hominis. et ideo luxuria est principalius 
+      <lb ed="#A" n="104"/>in eis. Secundario autem dicitur esse in quibusdam aliis 
+      pertinen<lb ed="#A" n="105" break="no"/>tibus ad excessum. Unde gloria Gal. v. dicit quod luxuria est 
+      quae<lb ed="#A" n="106" break="no"/>dam superfluitas. Accipiendo tamen primo modo luxuriam 
+      se<lb ed="#A" n="107" break="no"/>paratem sunt species eius. de quibus in decalogo dominus expresse 
+      <lb ed="#A" n="108"/>vnam solam prohibuit dicens in sexto praecepto Non 
+      mecha<lb ed="#A" n="109" break="no"/>beris. secundum magistrum in. iii. di. xxxvii id est ne cuilibet 
+      miscea<lb ed="#A" n="110" break="no"/>ris ex praecepto nisi federe matrimonii. A parte ei totum 
+      intel<lb ed="#A" n="111" break="no"/>ligitur. Nomine ergo mechie omnis concubitus illicitus. illorum quoque 
+      <lb ed="#A" n="112"/>membrorum non legitimus vsus prohibitus debet intelligi 
+      </p>
+               <p xml:id="Vn7Pel-j74148-d1e149">
+                  <lb ed="#A" n="113"/>¶ Sed contra arguitur: quod non sit recta expositio ma¬ 
+      <!--250.xml-->
+      <pb ed="#A" n="251"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>gistri de hoc praecepto. Si enim ex prohibitione grauioris 
+      <lb ed="#A" n="2"/>non intelligitur prohibitio minus grauis: cum adulterium 
+      <lb ed="#A" n="3"/>siue mechia grauius peccatum sit quam fornicatio. videtur 
+      <lb ed="#A" n="4"/>quod in hoc non videtur prohibitio fornicationis. Preterea 
+      <lb ed="#A" n="5"/>cum grauiora sint peccata contra naturam quam peccata adulterii: 
+      <lb ed="#A" n="6"/>videtur quod potius deber illa prohibere quam adulterium u 
+      <lb ed="#A" n="7"/>Item glo. super illud Mat. v. Qui viderit muliere ad 
+      <lb ed="#A" n="8"/>con cupiscendum dicit. quod ibi omnis libido carnalis quae fornicatur 
+      <lb ed="#A" n="9"/>anima a deo intelligitur prohiberi. Cum igitur fiat per omne peccatum 
+      <lb ed="#A" n="10"/>videtur quod omne peccatum ibi prohibeatur. ergo habito isto manda 
+      <lb ed="#A" n="11"/>tocetera superfluunt
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e184">
+      ¶ Respondet scilicet Bona. in. iii. di. xxxvi. 
+      <lb ed="#A" n="12"/>in expositione litterali. Quod in mandatis decalogi prohibentur 
+      <lb ed="#A" n="13"/>peccata: maxime in mandatis secunde tabule secundum quod sunt ac 
+      <lb ed="#A" n="14"/>nocendum proximo. Et quoniam quantum ad peccatum carnis magis 
+      <lb ed="#A" n="15"/>offenditur proximus per adulterium. hinc est quod illud praecipue 
+      <lb ed="#A" n="16"/>phibetur. In illo tane intelligitur prohiberi omnis illicitus 
+      comi<lb ed="#A" n="17" break="no"/>tus et membrorum illorum abusus: vt dicit magister. Et per hoc patet 
+      re<lb ed="#A" n="18" break="no"/>sponsio ad prima duo obiecta
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e202">
+      ¶ Ad illud vero quod dicitur in 
+      <lb ed="#A" n="19"/>glosa Dicendum quod glosa illa intelligitur moraliter de 
+      for<lb ed="#A" n="20" break="no"/>nicatione spirituali. Sed secundum litteralem intellectum in illo dei 
+      <lb ed="#A" n="21"/>mandato prohibetur omnis illicitus vsus membrorum illorum 
+      ge<lb ed="#A" n="22" break="no"/>nitalium extra legem matrimonii. Omnis autm seminis 
+      effui<lb ed="#A" n="23" break="no"/>sio deliberatiua praeter legem matrimonii est illicita. et in 
+      <lb ed="#A" n="24"/>telligitur hoc prohibita per adulterium: quod directe 
+      matrimo<lb ed="#A" n="25" break="no"/>nio repugnat.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e221">
+      ¶ Prsa itaque species luxurie quae in 
+      sexte<lb ed="#A" n="26" break="no"/>praecepto prohibetur iplicite dicitur fornicatio. quae vt 
+      colligis<lb ed="#A" n="27" break="no"/>xxiii. q. ii §. qu. ergo et ex c. meretrices. eadem causa. q. iiii. est 
+      <lb ed="#A" n="28"/>inordinatus concubitus naturalis quo solutus solutam 
+      natu<lb ed="#A" n="29" break="no"/>rali vsu cogscit Et intelligitur solutus et soluta qualibet 
+      vi<lb ed="#A" n="30" break="no"/>culo scilicet coniugii: consanguinitatis: affinitatis: ordis 
+      reli<lb ed="#A" n="31" break="no"/>gionis vel voti. Dicitr naturaliter ad differentiam illius vsus 
+      <lb ed="#A" n="32"/>qui diciturcontra naturam. vt notatur in dicto c. meretrices 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e240">
+               <head xml:id="Vn7Pel-j74148-Hd1e242">2</head>
+               <p xml:id="Vn7Pel-j74148-d1e244">
+                  <lb ed="#A" n="33"/>¶ Utrum fornicatio sit peccatum 
+      mor<lb ed="#A" n="34" break="no"/>tale: Et arguitur quod non. quia mulier no coniugata et libra 
+      <lb ed="#A" n="35"/>habet ptstatem sui corporis. Sed quae habet rem aliquam pot dare illam 
+      <lb ed="#A" n="36"/>cui vult. ergo ille adquirit licite qui accipit. quia nli facit 
+      in<lb ed="#A" n="37" break="no"/>iuriam. ergo quando de voluntate mulieris procedit vt cogscat 
+      <lb ed="#A" n="38"/>eam sine pactione coniugali cum non sit alterius nec 
+      alicur<lb ed="#A" n="39" break="no"/>fiat iniuria videtur quod fit licite. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e262">
+      ¶ Item non est contra 
+      legen<lb ed="#A" n="40" break="no"/>nature habere seruum et ancillam. sed ancilla potest homo vti vt 
+      li<lb ed="#A" n="41" break="no"/>bet: ergo non est contra legem nature cogscere eam carnaliter 
+      </p>
+               <p xml:id="Vn7Pel-j74148-d1e269">
+                  <lb ed="#A" n="42"/>¶ In contrarium est quod secundum omnes leges qui filii de concubi 
+      <lb ed="#A" n="43"/>nis nascuntur vituperabiles sunt. et contumelia est eis sic 
+      <lb ed="#A" n="44"/>nasci. Sed non est vituperium nisi praecedat inordinatio. ergo si 
+      <lb ed="#A" n="45"/>secundum dictamen nature est contumelia in filiis qui sic nascum 
+      <lb ed="#A" n="46"/>ti videtur quod in tali actu sit deordinatio
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e282">
+      ¶ Respondet sam. 
+      <lb ed="#A" n="47"/>Bona. i. iiii. di. xxxiii. ar. i. q. i. Quod ius naturale 
+      tri<lb ed="#A" n="48" break="no"/>plcaiter ditur scilicetcommuniter: proprie et magis proprie. Et secundum hoc tripliciter 
+      <lb ed="#A" n="49"/>diffinitur ab Isid. Uno modo sic. Ius naturale est quod 
+      <lb ed="#A" n="50"/>i lege et in euagelio continetur. si sic accipitur ius naturale 
+      <lb ed="#A" n="51"/>sic fornicatio est contra ius naturale. quia estcontralegem et 
+      euange<lb ed="#A" n="52" break="no"/>ium implicite. vbi in lege prohibetur cum dicitur Non 
+      mechaberi<lb ed="#A" n="53" break="no"/>In lege vero euangelica explicite. Nam dicit fornicatores 
+      <lb ed="#A" n="54"/>non habere partem in rego dci. et .i. Cor. vii. dicit quod habeat vnus 
+      <lb ed="#A" n="55"/>quaesque suam propter fornicationem. Ratio autem praeceptionis est matri 
+      <lb ed="#A" n="56"/>monii sacramentum: quod est istitutum a deo in sercationem et 
+      cura<lb ed="#A" n="57" break="no"/>tionem. In significationem ante lapsum: sed in curationem posi¬ 
+      <!--250.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lapsum. quia enim corrupta et deordinata est illa vis adeo 
+      <lb ed="#A" n="59"/>quod non exit in actum quin regnum anime peruertat. Ideo non 
+      <lb ed="#A" n="60"/>potest fieri post lapsum sine peccato nisi excusetur per 
+      ma<lb ed="#A" n="61" break="no"/>trimonium. Ideo taliter cognoscere fornicariam est 
+      con<lb ed="#A" n="62" break="no"/>tra euangelium et contra ius naturale communiter dictum. Secundo 
+      <lb ed="#A" n="63"/>modo dicitur proprie. et sic diffinitur in principio diescretorum. Nus 
+      <lb ed="#A" n="64"/>naturale est quod est commune omnium nationum. et hoc ius est quod 
+      di<lb ed="#A" n="65" break="no"/>ctat recta ratio. Et adhuc contra hoc est cogscere concubinam. quia 
+      <lb ed="#A" n="66"/>ius naturale dictat quod conueniat vir et mulier in tali 
+      <lb ed="#A" n="67"/>acctu ad generationem prolis quae vtrique succedat: et cui 
+      prae<lb ed="#A" n="68" break="no"/>sint. et illa equaliter subsit vtrique. Et quoniam actus ille est vt 
+      <lb ed="#A" n="69"/>consimilis generet consilem in specie: dictat natura vt conue 
+      <lb ed="#A" n="70"/>niant in quadam equalitate. sed hoc est cum patur coniungitur illi vt sit 
+      <lb ed="#A" n="71"/>vxor et matrfamilias. et ideo recta ratio dictat quod non 
+      conue<lb ed="#A" n="72" break="no"/>niant vt concubine. sed ista in multis est obscurata per 
+      li<lb ed="#A" n="73" break="no"/>qidinem. sed tamen salua manet in vtentibus ratione debito modo. 
+      </p>
+               <p xml:id="Vn7Pel-j74148-d1e348">
+                  <lb ed="#A" n="74"/>¶ Tertio dicitur ius naturale propriissime quod natura docuit 
+      <lb ed="#A" n="75"/>omnia animalia. et hoc modo non est con naturam. nec tamen omnino secundum 
+      <lb ed="#A" n="76"/>naturam. Et hoc ideo. quia quaedam animalia sunt quae coniunguntur 
+      per<lb ed="#A" n="77" break="no"/>diuiduam copulam: sicut turt ures. Et quoniam sicut vult philosophus 
+      <lb ed="#A" n="78"/>omnes virtutes quae sunt in animalibus disperse in homine colliguntur: sicut 
+      <lb ed="#A" n="79"/>arma omnium animalium in manu hominis quamuis non omnia alia 
+      <lb ed="#A" n="80"/>animalia hebeant instinctum: tamen natura hominis habet. Unde ad hoc 
+      <lb ed="#A" n="81"/>iudicatur recta natura hominis vt si adheret mulieri sic 
+      <lb ed="#A" n="82"/>adheret vt pro ipsa patrem et matrem deserat et sic 
+      acci<lb ed="#A" n="83" break="no"/>piat in copulam indiuiduam. Secundum hec igitur patet quod non 
+      <lb ed="#A" n="84"/>solum est malum habere fornicariam quia prohibitum. sed prohibitum 
+      <lb ed="#A" n="85"/>quia malum
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e377">
+      ¶ Ad argumentum primum dicendum quod facit 
+      <lb ed="#A" n="86"/>ornicando iniuriam sibi pro eo quod se deordinando in corpus 
+      <lb ed="#A" n="87"/>suum peccat: sicut qui se occidit. psamus. Qui diligit 
+      iniquita<lb ed="#A" n="88" break="no"/>tem odit animam suam
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e386">
+      ¶ Ad secundm dicendum quod quando suus vel 
+      <lb ed="#A" n="89"/>ancilla ad talem vsum accipitur tunc ad equalitatem accipitur 
+      <lb ed="#A" n="90"/>oteo nun quam recte vtitur cum seruo vel ancilla nisi cum illo vel 
+      <lb ed="#A" n="91"/>illa contrahant tanquam cum coniuge suo
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e395">
+      ¶ Secunda species 
+      lu<lb ed="#A" n="92" break="no"/>xurie est adulterium: quod est alieni thori violatio. Unde 
+      <lb ed="#A" n="93"/>dicitur adulterium quasi ad alienum thorum accessio. vt patet 
+      <lb ed="#A" n="94"/>xxxvi. q. i. Cum ergo. Et aliquando est simpleux scilicet quando solum alter 
+      <lb ed="#A" n="95"/>solutus. quandoque duplex scilicet cum ambo sunt coniugati. Et secund 
+      <lb ed="#A" n="96"/>Alexan. de ales. ii ii tracta. de adulterio fit tribus 
+      mo<lb ed="#A" n="97" break="no"/>dis.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e411">
+      ¶ Primo quando quis accedit ad alienam vxorem
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e413">
+      ¶ 
+      Se<lb ed="#A" n="98" break="no"/>cundo quin coniugatus peccat cum soluta
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e419">
+      ¶ Tertio secundum 
+      quan<lb ed="#A" n="99" break="no"/>dam iuris interpretationem. quando quis ita ardentur amat vxo 
+      <lb ed="#A" n="100"/>rem quod etiam si non esset eius vxor commiscere vellet cum ea. 
+      <lb ed="#A" n="101"/>vel econtrario vxor cum viro. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e429">
+               <head xml:id="Vn7Pel-j74148-Hd1e431">3</head>
+               <p xml:id="Vn7Pel-j74148-d1e433">
+                  <lb ed="#A" n="102"/>¶ Utrum habere plures vxores sit 
+      <lb ed="#A" n="103"/>contra ius nature et committatur adulterium: Et arguitur quod 
+      <lb ed="#A" n="104"/>non. Quia si habere vnicam esset de lege naturali semper fuisse 
+      <lb ed="#A" n="105"/>peccatum habere plures. quia contra ius naturale nullus potest 
+      dispen<lb ed="#A" n="106" break="no"/>sare: nec est deus. quia non poet facere contra suam bonitatem. Modo 
+      <lb ed="#A" n="107"/>sctai patres sicut Abraam: Iacob Moyses et Dauid 
+      <lb ed="#A" n="108"/>legimus plures habuisse vxores meritorie. Sed 
+      <lb ed="#A" n="109"/>quod fit contra ius nature non erit meritorium. ergo 
+      plu<lb ed="#A" n="110" break="no"/>res habere vxores non est contra ius nature nec ibi commit 
+      <lb ed="#A" n="111"/>titur adulterium.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e457">
+      ¶ In contrarium est. quod vox omnium est 
+      vor<lb ed="#A" n="112" break="no"/>nature. sed omnes dicut bonum coniugale vnicam esse vi. ergo 
+      vni<lb ed="#A" n="113" break="no"/>cam habere est de lege naturali. ergo habere plures vxores est contra ius 
+      <lb ed="#A" n="114"/>nafale et secundum se malum. ergo in decalogo prohibitum. Unde 
+      <!--251.xml-->
+      <pb ed="#A" n="252"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Lamech vt dicit Glo. reprehenditur qui contra naturalem 
+      mo<lb ed="#A" n="2" break="no"/>rem adulterium commisit. Rlt. secundum Alex. de ales in. iii. per. q. 
+      <lb ed="#A" n="3"/>xxxv. quod ius naturale dicitur tripliciter. scilicet Primo communissime qua 
+      <lb ed="#A" n="4"/>consistit in ordine naturarum et distributione mutua. secundum quod 
+      <lb ed="#A" n="5"/>vnum elementum non potest esse sine alio. Unde dicit Aug. quod 
+      iu<lb ed="#A" n="6" break="no"/>dicium summe largitatis est quod quaelibet creatura compelliter 
+      da<lb ed="#A" n="7" break="no"/>re seipsam.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e488">
+      ¶ Secundo ius naturale dicitur ommuniter secundum quod natura 
+      do<lb ed="#A" n="8" break="no"/>cuit omnia animalia vt masculus cum feia conuemiat.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e493">
+      ¶ Tertio 
+      <lb ed="#A" n="9"/>ius naturale dicitur specialiter et proprie quod dictat nasuliter ratio 
+      <lb ed="#A" n="10"/>faciendi. Contra ius naturale primo modo dictum nihil est. 
+      <lb ed="#A" n="11"/>Contra ius naturale secundo modo dictum est peccatum sodomiti 
+      <lb ed="#A" n="12"/>cum Contra ius naturale tertio modo dictum est omne illud quod isn 
+      <lb ed="#A" n="13"/>ontra naturale dictamen rationis. Unde aliquid est contraius naturale 
+      eo<lb ed="#A" n="14" break="no"/>quod est malum secundum se. hoc est quod nulla causa potest fieri bene: vt 
+      for<lb ed="#A" n="15" break="no"/>nicari: mentiri. et istud nuquam potest no esse peccatum. Aliud est 
+      <lb ed="#A" n="16"/>contra ius naturale quod est malum in se simpliciter. tamen ex causa in 
+      casu<lb ed="#A" n="17" break="no"/>bene potest fieri et est meritorie. vt occidere hominem. et tlae est 
+      <lb ed="#A" n="18"/>est haberer plures vxores. Ideo contra us nature secundum quod existit 
+      pe<lb ed="#A" n="19" break="no"/>nes essentiam virtutis non prtest esse dispensatio. quia hoc esset con dici 
+      <lb ed="#A" n="20"/>iusticiam et honitate. Circa opus vero virtutis poatest esse diuin. 
+      <lb ed="#A" n="21"/>dispensatio. Opus eim virtutis est mutabile. ipsa autem virtus est 
+      <lb ed="#A" n="22"/>imutabilis etc. Unde habere plures vxores adulterium fuit 
+      <lb ed="#A" n="23"/>Lamech duplici de cam scilicet quia contra us naturale siue dicta 
+      <lb ed="#A" n="24"/>mem rationis. et quia contra morem idestcontra consuetudinem et est contra morem 
+      <lb ed="#A" n="25"/>quia contra moderantia. Ex incontinentia enim immoderata plures 
+      <lb ed="#A" n="26"/>hunt. et quia contra ius naturale fecut peccauit in deum. quia contra 
+      mo<lb ed="#A" n="27" break="no"/>rem scandalizauit proxim. Sancti vero patres non commiserunt 
+      <lb ed="#A" n="28"/>adulterium: nec peccauerit contra ius naturale. quia cum eis oc 
+      <lb ed="#A" n="29"/>culta dispensatione fuit dispensatum. nec fuit contra morem. quia 
+      <lb ed="#A" n="30"/>iam fuit in consuetudinem tractum l¶ Si autem quaratur dispensato 
+      <lb ed="#A" n="31"/>nis causa. dicimus fuisse triplicem. Primam propter 
+      multipli<lb ed="#A" n="32" break="no"/>cationem cultus dici. quia temporibus ills pauci erant cultores dei. 
+      <lb ed="#A" n="33"/>Secunda causa fuit propter figuram. Coniugium enim figurabat 
+      con<lb ed="#A" n="34" break="no"/>nubium christi et ecclesie quae multiplicat per actiuos et 
+      conten<lb ed="#A" n="35" break="no"/>platiuos filios et mercennarios. quod figurabatur in vx 
+      <lb ed="#A" n="36"/>oribus Iacob liberis et ancill. Tertia fuit propter mode 
+      <lb ed="#A" n="37"/>rantiam et temporantiam. Moderate enim appetebant antiqui 
+      pa<lb ed="#A" n="38" break="no"/>tres commitum et solum propter propagationem ad cultum dei. Sed 
+      <lb ed="#A" n="39"/>contrapraedicta arguitur sic. Abraam viuente vxore ingressus 
+      <lb ed="#A" n="40"/>ad ancillam. aut coguit eam maritali comitum aut 
+      forni<lb ed="#A" n="41" break="no"/>cario. Si fornicario. tunc nunquam concessit spiritus sanctus. 
+      <lb ed="#A" n="42"/>quia omnis comitus fornicarius semper est malus. Si maritali. ergo 
+      fu<lb ed="#A" n="43" break="no"/>it vxor. Dicendum ergo quod fuit vxor sicut dicit littera. Et innuit 
+      <lb ed="#A" n="44"/>Rabanus in glor. dit quod nondum erat diuulgata lex 
+      eu<lb ed="#A" n="45" break="no"/>angelii vnius vxoris. Ex quo inuit quod Abraa huit plureas 
+      <lb ed="#A" n="46"/>vxores ex dei dispensatione. vnam tamen principalem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e579">
+               <head xml:id="Vn7Pel-j74148-Hd1e581">4</head>
+               <p xml:id="Vn7Pel-j74148-d1e583">
+                  <lb ed="#A" n="47"/>¶ Utrum commnitus coniugalis sit licitus. et 
+      <lb ed="#A" n="48"/>quod ex multis auctoritatibus viditur quod non. quia dicitur i. Cor. vii. 
+      <lb ed="#A" n="49"/>Bonum est viro mulierem non tangere. ergo sequitur quod malum est 
+      ta<lb ed="#A" n="50" break="no"/>gere. et infra. Reliquum vt qui habent vxores tanquam non 
+      <lb ed="#A" n="51"/>vtentes sint. et Ephes. v. Uiri diligite vxores veitras 
+      <lb ed="#A" n="52"/>sicut et christus ecclesiam. sed phistus numnquam dilexit ecceniam ad opus 
+      <lb ed="#A" n="53"/>carnale. ergo etc. Deind Mat. v. Qui viberit muli. ad 
+      <lb ed="#A" n="54"/>concupils. ea hoc mech. est. Sed non detur minat quam 
+      mulie<lb ed="#A" n="55" break="no"/>rem: coniugem vel non coniugem ergo comitus coniugalis non est etc
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e605">
+      ¶ In 
+      <lb ed="#A" n="56"/>contrarium similiter adduci possunt anctoritaes. Nam dicitur Gen. i. 
+      <lb ed="#A" n="57"/>Bendixit dominus Adam et Quam di. Crescite et multiplica 
+      <lb ed="#A" n="58"/>mi. Item. i. Cor. vii. Uxori vir debitum reddat et vxor 
+      <!--251.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>viro. Mlier ei sui corporis potestatem non habet nec vir simiter 
+      <lb ed="#A" n="60"/>Item in eodem ca. Nolite fraudare inuicem nisi forte ext 
+      <lb ed="#A" n="61"/>consensu ad tempus Et. i. Tin. v. Uolo iuniores nube 
+      <lb ed="#A" n="62"/>re: filios procreare. ex quibus concluditur quod comitus coniugalis sit 
+      <lb ed="#A" n="63"/>licitus. Respondetur secundum Alexa. vbi supra quod triplex et commitus 
+      coniu<lb ed="#A" n="64" break="no"/>galis. Alius est licitus alius permissus et alius prohibitus. Licitus 
+      <lb ed="#A" n="65"/>comitus coniugalis est triplici de cas. videlicet causa prolis. et secundum hoc est 
+      <lb ed="#A" n="66"/>officium multiplicande nature. Unde i. Tim. v. 
+      Uolo<lb ed="#A" n="67" break="no"/>luniores nubere etc.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e638">
+      ¶ Secundo cas reddendi debitum. et 
+      <lb ed="#A" n="68"/>secundum hoc est opus iusticie . li. Cor. vii. Uxori vir debitum 
+      <lb ed="#A" n="69"/>reddat.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e645">
+      ¶ Tertio causa fornicationis vitande. et secundum hoc in 
+      <lb ed="#A" n="70"/>remedium contupiscentie. i. Cor. vii. Unusquisque propter 
+      for<lb ed="#A" n="71" break="no"/>nicationem supple vitandam suam vxorem habeat
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e653">
+      ¶ Prima causa 
+      <lb ed="#A" n="72"/>ordinat coomitum coniugalem ad deum. Secunda ad proxium 
+      Ter<lb ed="#A" n="73" break="no"/>tia ad seipsum. Permissus vero coitus coniugalis est ex 
+      fra<lb ed="#A" n="74" break="no"/>gilitate seuinfirmitate carnis proueniens i quo quaeritur 
+      con<lb ed="#A" n="75" break="no"/>iugalis delactatio scilicet sub deo vt dei amor prponatur 
+      il<lb ed="#A" n="76" break="no"/>li delectationi. et iste commitus venialis est permissus. quamuis 
+      <lb ed="#A" n="77"/>non fiat causa prolis nec reddendi debitum nec vitande 
+      forni<lb ed="#A" n="78" break="no"/>cationis. Unde dicitr. xxxiii. q. ii iuxta auctoritatem apostoli. 
+      In<lb ed="#A" n="79" break="no"/>stitutio coniugii extra paradisum facta est vt infirmitas 
+      pro<lb ed="#A" n="80" break="no"/>na in ruinam turpitudinis honestate exciperetur coniugii. et 
+      <lb ed="#A" n="81"/>Aug. de adulteris coniugiis. Usus naturalis si vltra 
+      mo<lb ed="#A" n="82" break="no"/>dum prolabatur. in vxore quidem et veniale. in meretrice vero 
+      da<lb ed="#A" n="83" break="no"/>mnabile. Prohibitus coniugalis commitus est qui ex voluntate 
+      <lb ed="#A" n="84"/>subdita libidini contra honestatem coniugii et ordine rationis 
+      <lb ed="#A" n="85"/>procederet. vt illud quod fit ad satiandam libidinem per 
+      mere<lb ed="#A" n="86" break="no"/>tricias blandicias. secundum quem modum dicit Hiero. Nihil. 
+      <lb ed="#A" n="87"/>fedius quam vxorem amare quasi adulteram. Idem et habter. xxxii 
+      <lb ed="#A" n="88"/>q. iiii. origo. nihil interest ex qua honesta causa quis insaniat 
+      <lb ed="#A" n="89"/>Unde sextus pythagoricus ait. Adulter est inquit in sua 
+      vxo<lb ed="#A" n="90" break="no"/>re ardentior amator. ergo coitus coniugalis aliquando est licitus 
+      <lb ed="#A" n="91"/>aliquando non. sicut eim comedere aliquando licet aliquando non. nonnum 
+      <lb ed="#A" n="92"/>quam tamen mortiferum. sic coitum facere extra coniugium. Ad 
+      <lb ed="#A" n="93"/>argumentum iam patet responsso. Dicit enim apostolis. Bonum est 
+      <lb ed="#A" n="94"/>mulierem non tangere. non sequitur quod sit tangere malum. similite 
+      <lb ed="#A" n="95"/>vbi dicit. Qui habent vxores tamquam non habentes sint Ibi 
+      sol<lb ed="#A" n="96" break="no"/>licitudinem superfluam subtraxit: dicens ibidem. 
+      Uolo<lb ed="#A" n="97" break="no"/>vos sine sollicitudine esse. Preterea vbi christus dixit: qui 
+      vi<lb ed="#A" n="98" break="no"/>derit mulierem inteligitur de vxore proxi non autem vxore propria 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e716">
+               <head xml:id="Vn7Pel-j74148-Hd1e718">5</head>
+               <p xml:id="Vn7Pel-j74148-d1e720">
+                  <lb ed="#A" n="99"/>¶ Utrum adulterium committatur sine 
+      <lb ed="#A" n="100"/>dolo: Respondetur quod non. vt patet inili.t fi. ex lege f. de adulter 
+      <lb ed="#A" n="101"/>vbi errantes extusantur a pena incestus et adulterii non quo 
+      <lb ed="#A" n="102"/>ad culpam. quia peccant mortaliter. Quicumque committit ex 
+      <lb ed="#A" n="103"/>metu et ignorantia iuris. secus in ignorantia facti quae excusat 
+      <lb ed="#A" n="104"/>a culpa. puta quia credidit virum qui erat adult. similiter quando 
+      <lb ed="#A" n="105"/>committit ex coactione absoluta dum tamen in animo non 
+      consen<lb ed="#A" n="106" break="no"/>tiat. Sed dice. quomdo dicitur notorium adulterium: Respondetur secundum 
+      <lb ed="#A" n="107"/>Panor. extra de adul. publi. c. intelleximus. Quod quando stat 
+      <lb ed="#A" n="108"/>adultera in domo cum publico concubinario et conuicitur 
+      <lb ed="#A" n="109"/>notorie de adulterio quando habet eum in mensa in domo et in 
+      te<lb ed="#A" n="110" break="no"/>cto. et est consanguinearum vel affinium abusus. et sic de aliis 
+      </p>
+               <p xml:id="Vn7Pel-j74148-d1e749">
+                  <lb ed="#A" n="111"/>¶ Tertia specis luxurie est icestus. q. i. §. cum ergo et est 
+      graui<lb ed="#A" n="112" break="no"/>us incestus adulterio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e757">
+               <head xml:id="Vn7Pel-j74148-Hd1e759">6</head>
+               <p xml:id="Vn7Pel-j74148-d1e761">
+                  <lb ed="#A" n="113"/>¶ Utrum accedens ad moialem commit 
+      <lb ed="#A" n="114"/>tatr incestum: Ret. quod sic. prout habetr. xxvii. q. i. virginibus. quia spon 
+      <lb ed="#A" n="115"/>sa dei est qui est pater nostr. xii. q. ii Qui abstulerit non solum in 
+      <!--252.xml-->
+      <pb ed="#A" n="253"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cestum sed et adulterium committit. quia sponsam alterius 
+      cor<lb ed="#A" n="2" break="no"/>rumpit et est sacrilegium. vt patet in dicto c. virginibus sed tamen 
+      <lb ed="#A" n="3"/>non sunt tria peccata sed vnum solum secundum Hug. licet sortiatur 
+      <lb ed="#A" n="4"/>piuersa nomina. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e786">
+               <head xml:id="Vn7Pel-j74148-Hd1e788">7</head>
+               <p xml:id="Vn7Pel-j74148-d1e790">
+                  <lb ed="#A" n="5"/>¶ Utrum incestuosus possit contrahe 
+      <lb ed="#A" n="6"/>re materimonium: seir. secundum Panor. extra de eo qui cog. consan. 
+      <lb ed="#A" n="7"/>vxoris sue c. i. quod non. et nec exigere potest debitum a propria 
+      <lb ed="#A" n="8"/>vxore quamquam prost humit antequam incestum commisit. vt patet. xx 
+      <lb ed="#A" n="9"/>vii. q. ii qui dormierit. Etsi exegerit peccat mortaliter 
+      <lb ed="#A" n="10"/>nisi dispesetur cum eo. Si vero contrahit de facto tet quidem 
+      <lb ed="#A" n="11"/>materimonium et tenetur reddere debitum. exigere autem non 
+      <lb ed="#A" n="12"/>otest sine peccato mortali nisi dispensetur cum eo.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e810">
+      ¶ Quarta 
+      <lb ed="#A" n="13"/>species luxurie dicitur stuprum: et est iordinatus concubitus quo 
+      vir<lb ed="#A" n="14" break="no"/>ginalis integritas corrtmpitur. Ul stuprum est illicita 
+      deflo<lb ed="#A" n="15" break="no"/>ratio virginum sub perentum cura existentium. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e820">
+               <head xml:id="Vn7Pel-j74148-Hd1e822">8</head>
+               <p xml:id="Vn7Pel-j74148-d1e824">
+                  <lb ed="#A" n="16"/>¶ Utrum stuprans virginem teneatur eam 
+      <lb ed="#A" n="17"/>recipere in vxorem: Rt. secundum frem Ange. de clauasio in sum. 
+      <lb ed="#A" n="18"/>quod si promisit vel accepit in vxorem: et sic huit copulam: 
+      <lb ed="#A" n="19"/>quod tenetur eam de necessitate recipere. licet tunc humit anim 
+      deci<lb ed="#A" n="20" break="no"/>piendi et habendi copulam. quod si contraxit cum alia matrimo 
+      <lb ed="#A" n="21"/>nium. vel pater non vult ea dare salte tenctur ad dotem. nisi secud 
+      <lb ed="#A" n="22"/>sam. Tho. esset tanta inequalitas: quod potius decipi se finxit 
+      <lb ed="#A" n="23"/>quam sit decepta: nec aliter potest absolui antequam contrahat cum 
+      <lb ed="#A" n="24"/>alia si perentes volunt eam sibi dare nisi vere ea accipi 
+      <lb ed="#A" n="25"/>at in vxorem et faciat dotem: nisi ipsa sibi dotem remittatr 
+      <lb ed="#A" n="26"/>Hec tenent Rich. et Sco. in. iiii. di. xv. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e851">
+               <head xml:id="Vn7Pel-j74148-Hd1e853">9</head>
+               <p xml:id="Vn7Pel-j74148-d1e855">
+                  <lb ed="#A" n="27"/>¶ Utrum committat peccatum stupri 
+      il<lb ed="#A" n="28" break="no"/>le qui virginem non seduxit: sed sponte illa adquieuit ei: Et 
+      vi<lb ed="#A" n="29" break="no"/>detur quod non. quia hoc non prohibetur in praecepto decalogi. quia 
+      nul<lb ed="#A" n="30" break="no"/>lus actus naturalis prohibetur in praecepto decalogi: sed solum 
+      <lb ed="#A" n="31"/>actus viciosus. et virtuosus praecipitur. sed talis copula cum virgie 
+      <lb ed="#A" n="32"/>actus naturalis est. secundum quod dicit apostolis Rho. i. Mutauerint 
+      <lb ed="#A" n="33"/>naturalem vsum in eum qui estcontra natam. Ubi glo. Naturalis vse 
+      <lb ed="#A" n="34"/>est viri cum muliere. ergo non prohibetur in decalogo.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e875">
+      ¶ R. secundum 
+      <lb ed="#A" n="35"/>Alex. vbi supra quod Augustinus dicit super. xx. c. Exo. Furti nomine in 
+      <lb ed="#A" n="36"/>telligitur omnis illicita vsurpatio rei aliene. Non enim 
+      rapi<lb ed="#A" n="37" break="no"/>nam permisit qui furtum prohibuit. sed vtique a parte totum 
+      volu<lb ed="#A" n="38" break="no"/>it intelligi quicquid illicite rerum proxim aufertur. Sic 
+      profe<lb ed="#A" n="39" break="no"/>cto nomine mechie omnis illicitus comomitus. atque illorum 
+      membro<lb ed="#A" n="40" break="no"/>rum non vses prohibitus debet intelligi
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e891">
+      ¶ Un notadum quod 
+      co<lb ed="#A" n="41" break="no"/>itus cum virgie fit duobus monis. Uno modo intentione ex 
+      <lb ed="#A" n="42"/>plende libidis cum non sua. Alio modo intentione propagande 
+      <lb ed="#A" n="43"/>plis cum non sua. Et vtroque modo tals commitus est illicitus et 
+      <lb ed="#A" n="44"/>actus viciosus. Sed primo modo dupliciter. Tum ex inordinatione 
+      <lb ed="#A" n="45"/>actus circa materiam. Tum ex inordinatione actus circa finem 
+      <lb ed="#A" n="46"/>Secundo ex inordinatione circa materiam solum.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e907">
+      ¶ Ad 
+      ar<lb ed="#A" n="47" break="no"/>gumentum est dicendum quod naturalis vsus est viri cum muliere. 
+      <lb ed="#A" n="48"/>verum est quia a natura generis est secundum quam est ius: quod natura 
+      do<lb ed="#A" n="49" break="no"/>cuit omnia animalia vt masculus cum fenia coeat. sed a natura 
+      <lb ed="#A" n="50"/>speciei quae est rationalis: non erit naturalis nisi sit viri cum 
+      mu<lb ed="#A" n="51" break="no"/>liere sua. et quia talis virgis defloratio non erit natur alis vsu 
+      <lb ed="#A" n="52"/>cum sit cum non sua. Peccatum autem sodominticum est contra naturam 
+      <lb ed="#A" n="53"/>vtroque modo. Quita species luxurie dicitur raptus. vt quando 
+      <lb ed="#A" n="54"/>per violentiam rapitur aliqua mulier ad comitum. vbi non solum 
+      <lb ed="#A" n="55"/>et fornicatio vel adulterum scilicet insuper violentia
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e930">
+      ¶ Sexta 
+      <lb ed="#A" n="56"/>species luxurie est peccatum contra naturam. et fit tripliciter
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e935">
+      ¶ Primo 
+      <lb ed="#A" n="57"/>ex seiso ex tactibus impudicis. et hoc iti mollicies. 
+      <!--252.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>Secundus modus est femine in feminam: vel viri in virum: aut vi 
+      <lb ed="#A" n="59"/>ri in feminam et econuerso. non tamen naturali modo. et dicitur 
+      so<lb ed="#A" n="60" break="no"/>domia
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e951">
+      ¶ Tertius modus est quando fit cum brutis. et vocatur 
+      be<lb ed="#A" n="61" break="no"/>stialitas
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e956">
+      ¶ Si quaeras. que haru scilicet specirum puta forni 
+      <lb ed="#A" n="62"/>cationis: adulterii: incestus etc. sit grauius peccatum: Respondetur: quod 
+      <lb ed="#A" n="63"/>ontra naturam est maximmum. et in ista in fimum est mollicies: grauis 
+      <lb ed="#A" n="64"/>simum bestialitas: et medium sodomina. Post peccatum 
+      <lb ed="#A" n="65"/>contra naturam maius est incestus intelligendo in suo summo. post 
+      <lb ed="#A" n="66"/>icestum adulterium. quod etiam est maius stippro. vtrumquaem autem 
+      <lb ed="#A" n="67"/>aggrauatur per violentiam. Unde raptus iginum est grauius 
+      stu<lb ed="#A" n="68" break="no"/>pro. et raptus vxoris grauius adulterio. Hec omnia aggra 
+      <lb ed="#A" n="69"/>uantur secundum rationem sacrilegii. Infimum autm est fornicatioe 
+      <lb ed="#A" n="70"/>quae committitur sine iniuria alterius persone. est tamen mortale 
+      <lb ed="#A" n="71"/>vt dictum est 
+    </p>
+               <p xml:id="Vn7Pel-j74148-d1e980">
+                  <lb ed="#A" n="72"/>Hic pulcre claret altissimi dei 
+      <lb ed="#A" n="73"/>magna circa nos charitas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j74148-Dd1e988">
+               <head xml:id="Vn7Pel-j74148-Hd1e990">10 (2.1)</head>
+               <p xml:id="Vn7Pel-j74148-d1e992">
+                  <lb ed="#A" n="74"/>¶ Luxuria II. quantum 
+      <lb ed="#A" n="75"/>ad ipsius punitionem maximam. Nam pena tam 
+      <lb ed="#A" n="76"/>periri quam vxoris adulterantis (secundum glosis. extra de 
+      <lb ed="#A" n="77"/>procu. c. tue oli erat pena capitis. vtq. C. de adulteri. 
+      <lb ed="#A" n="78"/>li.t castitati. hodie vero prius verberata retruditur in 
+      monaste<lb ed="#A" n="79" break="no"/>rio. et militer perdit dotem: et vir donationem propter nuptias. 
+      </p>
+               <!-- section 1 really starts here -->
+               <p xml:id="Vn7Pel-j74148-d1e1010">
+                  <lb ed="#A" n="80"/>¶ Utrum principes non punientes 
+      me<lb ed="#A" n="81" break="no"/>retricia publica peccent contra tertium praeceptum secunde tabule 
+      <lb ed="#A" n="82"/>Et arguitur quod sic. quia dicitur Deut. xxiii. Non erit 
+      mere<lb ed="#A" n="83" break="no"/>trlx de filiabus israel nec scortum. Sed hanc legem principes 
+      <lb ed="#A" n="84"/>tenebantur et facere et obseruare. ergo et principes qui modo sunt 
+      <lb ed="#A" n="85"/>non punientes meritricia similiter peccant contra legem et 
+      decalo<lb ed="#A" n="86" break="no"/>gi praeceptum. quia diciturextra de sen. excom. quante. Facientes et 
+      consen<lb ed="#A" n="87" break="no"/>tientes pari pena plectendos catholica condennat 
+      au<lb ed="#A" n="88" break="no"/>ctoritas. ergo etc. Respondetur secundum Rich. i. iii. di. xxxiii. ar. iii. 
+      <lb ed="#A" n="89"/>q. iii. Quod principes non punientes meretricium non 
+      pec<lb ed="#A" n="90" break="no"/>caunt contra hoc praeccptum Non mechaberis. Non enim peccant 
+      princi<lb ed="#A" n="91" break="no"/>pes in non puniendo vicia quae lex humana recte permittit. 
+      <lb ed="#A" n="92"/>Secundum antem b. Aug. li. i. de li. ar. Lex humana aliquo permit 
+      <lb ed="#A" n="93"/>tit quae iuste lege diuina puniuntur. quia enim lex humana non potest 
+      <lb ed="#A" n="94"/>omnia vicia cohibere: ideo illa punire praecipit quae grauiora sunt 
+      <lb ed="#A" n="95"/>et a quibus possibile est maiorem partem multitudinis abstinere. 
+      <lb ed="#A" n="96"/>et praecipue quae sunt in nocumentum aliorum sine quorum prohibitione 
+      <lb ed="#A" n="97"/>humana societas in pacis tranquillitate conseruari non posset 
+      <lb ed="#A" n="98"/>cuiusmodi sunt furtum: homicidium et similia. simplex autem 
+      <lb ed="#A" n="99"/>fornicatio quamuis sit graue peccatum et lege diuina 
+      punien<lb ed="#A" n="100" break="no"/>dum. tamen quia propt hominum corruptionem difficile est 
+      multitudi<lb ed="#A" n="101" break="no"/>nem a carnis voluptatibus abstinere Ideo ne homines in ma 
+      <lb ed="#A" n="102"/>la maiora et reipublice magis nociua: sicut in adulteri 
+      <lb ed="#A" n="103"/>um: et pecata contra naturam inciderent. noluit lex humana mere 
+      <lb ed="#A" n="104"/>tricium prohibere tam quam aliquid per principes puniendum. nec 
+      <lb ed="#A" n="105"/>tamen permittendum est quod loco matronarum constituantur. Unde 
+      <lb ed="#A" n="106"/>Augustinus. li. ii de ordinc. Aufer meretrices de 
+      ciuitati<lb ed="#A" n="107" break="no"/>bus et turbabis omnia libidibus: constitue 
+      matro<lb ed="#A" n="108" break="no"/>narum loca labe: at decore dehonestaueris. quia 
+      accede<lb ed="#A" n="109" break="no"/>rent homines ad nuptas virgines vel alias corruptelas 
+      <lb ed="#A" n="110"/>vnde scandala sequerentur. Uerumtamen ista mala quae bono 
+      <lb ed="#A" n="111"/>modo auferri non praesentirelinquit diuino iudicio puniem 
+      <lb ed="#A" n="112"/>da.
+     </p>
+               <p xml:id="Vn7Pel-j74148-d1e1084">
+      ¶ Ad argumentum dicendum. quod cum lex sit 
+      ordi<lb ed="#A" n="113" break="no"/>nata ad bonum comne vicia per legem temporalem punienda sunte. 
+      <!--253.xml-->
+      <pb ed="#A" n="254"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>secundum quod vtilitati communi expedit. Aliquo autem expediunt 
+      vni<lb ed="#A" n="2" break="no"/>communitati quae non expediunt alteri: et eidem communitati quedam ex 
+      <lb ed="#A" n="3"/>pedire vndo epore quae non expedirent alio. et quamuis communitati 
+      <lb ed="#A" n="4"/>iudeorum expediret tunc quod meretritium puniretur temporaliter 
+      <lb ed="#A" n="5"/>ne proprias vxores contemnerent: ad quas repudiandas 
+      pro<lb ed="#A" n="6" break="no"/>ni erant: vnde et eis ne occiderent permittebatur repudiare 
+      <lb ed="#A" n="7"/>propter duriciam cordis eorum. non tamen est modo vtile communita 
+      <lb ed="#A" n="8"/>ti christianorum. sed tunc iudeis qui non regebant se aliqua 
+      le<lb ed="#A" n="9" break="no"/>ge nisi diuina. ideo principes tenebantur punire 
+      meretri<lb ed="#A" n="10" break="no"/>cium. Moderni vero principes ad hoc non tenentur ex 
+      offi<lb ed="#A" n="11" break="no"/>tio. non tamen permanebunt impunita. quia multa per 
+      patien<lb ed="#A" n="12" break="no"/>tiam tolerantur quae diuino iudicio non.
+    </p>
+               <p xml:id="Vn7Pel-j74148-d1e1122">
+                  <lb ed="#A" n="13"/>Hhic relucet tota dei summa 
+      cha<lb ed="#A" n="14" break="no"/>ritas erga humanum genus.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Donum spiritus sanctus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Donum spiritus sanctus</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="163"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j48022">
+            <head xml:id="Vn7Pel-j48022-Hd1e110">Donum spiritus sanctus</head>
+            <div xml:id="Vn7Pel-j48022-Dd1e112">
+               <head xml:id="Vn7Pel-j48022-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j48022-d1e116">
+                  <lb ed="#A" n="50"/>Donum spiritu 
+      an<lb ed="#A" n="51" break="no"/>p cti Ubi magna claret charitas dici et 
+      <lb ed="#A" n="52"/>ga homines quibus sua dona 
+      digna<lb ed="#A" n="53" break="no"/>tur conferre ex mera liberalitate sua: non exigentibus 
+      <lb ed="#A" n="54"/>nostris meritis.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e129">
+      ¶ Donum vero dicitur secundum Guill. 
+      <lb ed="#A" n="55"/>tripliciter.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e134">
+      ¶ Primo modo donum dicitur quodlibet 
+      al<lb ed="#A" n="56" break="no"/>teri voluntarie collatum. hoc modo bona nature dicuntur 
+      <lb ed="#A" n="57"/>donam dei: dicente apostolo. Quid habes quod non accepi¬ 
+      <!--162.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>sti: quia non obligatus nobis ea contulit.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e147">
+      ¶ Secundo modo dicitur 
+      <lb ed="#A" n="59"/>donum quodlibet nature superadditum. hoc modo quaelibet gratia 
+      <lb ed="#A" n="60"/>dicitur donum dei. Sic loquitur glo. super illud Iat. i. Ome 
+      <lb ed="#A" n="61"/>datum optim et omne donum perfectum hoc sursum es. Datum 
+      opti<lb ed="#A" n="62" break="no"/>mum in naturalibus: sed donum perfectum in gratuitis 
+      <lb ed="#A" n="63"/>Tertio modo dicitur donum dei quidam gradus virtutis excelsus 
+      <lb ed="#A" n="64"/>Hoc modo scribuntur septem dona spiritus sancti quae nominat quod 
+      <lb ed="#A" n="65"/>dam virtutum fastigium. Unde donum potest sic diffiniri. 
+      <lb ed="#A" n="66"/>Est datio irreddibilis simpliciter Ubi tria tanguntur. 
+      Pri<lb ed="#A" n="67" break="no"/>mo genus doni: cum dicitur datio. Aliqua autem dantur secundum 
+      <lb ed="#A" n="68"/>Auicennam quae dici dona non merentur. Qui enim dat vt 
+      <lb ed="#A" n="69"/>accipiat: questus est non donum. Qui vero dat vt 
+      libe<lb ed="#A" n="70" break="no"/>retur redemptio est.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e177">
+      ¶ Secundo tangitur doni differentia: cum 
+      <lb ed="#A" n="71"/>dicitur irreddibilis. Nullum enim est donum quod spe rhabendi 
+      <lb ed="#A" n="72"/>tribuitur: sed accommodatio. Ideo tertio additur 
+      simu<lb ed="#A" n="73" break="no"/>pliciter vt donans tempus non limitet ad reddendum ei 
+      cui<lb ed="#A" n="74" break="no"/>bonatio facta est.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e188">
+      ¶ Hic plura quaeruntur 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48022-Dd1e191">
+               <head xml:id="Vn7Pel-j48022-Hd1e193">2</head>
+               <p xml:id="Vn7Pel-j48022-d1e195">
+                  <lb ed="#A" n="75"/>¶ Que et quit sunt dona spiritus sancti. 
+      <lb ed="#A" n="76"/>Respondetur secundum magistrum in. iii. di. xxxiiii. Et sanctum 
+      Bo<lb ed="#A" n="77" break="no"/>nauen. ibidem. quod sut septem. Quod probatur Esaie. xi. 
+      Requie<lb ed="#A" n="78" break="no"/>scet inquit super eum spiritus domini: spiritus sapientie et intellectus 
+      <lb ed="#A" n="79"/>spiritus consilii et fortitudinis: spiritus scientie et pietatis. et 
+      <lb ed="#A" n="80"/>replebit eum spiritus timoris domini. Quod probans Grego. 
+      <lb ed="#A" n="81"/>in moralis. ex ponens illud Iob. Nati sunt ei septem 
+      <lb ed="#A" n="82"/>filii. dicit quod septem filii sunt septem dona spiritus sancti. Similiter 
+      <lb ed="#A" n="83"/>glo. super illud Esa. iiii. Apprehendent septem mulieres 
+      <lb ed="#A" n="84"/>virum vnum in die illa dicit. Sept est mulieres sunt septem 
+      do<lb ed="#A" n="85" break="no"/>na spiritus sancti. Que quidem primo figurata sunt per septem 
+      ocu<lb ed="#A" n="86" break="no"/>los super lapidem vnum. Tach. iii. Ubi glor. exponit de 
+      <lb ed="#A" n="87"/>christo qui est lapis angularis coniungens duos perietes in 
+      <lb ed="#A" n="88"/>vnum. super quem sunt septem oculi id est septem dona spiritus sancti 
+      <lb ed="#A" n="89"/>Similiter Apoc. i. significantur per septem stellas in dextera 
+      <lb ed="#A" n="90"/>christi. Quorum quidem numerus a quibusdam doctoribus 
+      accl<lb ed="#A" n="91" break="no"/>pitur ex parte medicine excludentis syntomata siue 
+      pas<lb ed="#A" n="92" break="no"/>siones anime. quia dona spiritus sancti sunt remedia ad 
+      auferen<lb ed="#A" n="93" break="no"/>da septem peccata. vbi gratia. Superbiam eradicat tior: 
+      inui<lb ed="#A" n="94" break="no"/>diam interficit pietas. auariciam scientia: acidam fortitudo. 
+      <lb ed="#A" n="95"/>ram compescit consilium. gulam quae intellectum obumbrat eiicitur 
+      <lb ed="#A" n="96"/>intellectus. luxuriam sapientia. Quia secundum Greg. 
+      gusta<lb ed="#A" n="97" break="no"/>to spiritu desspit omnis caro.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e247">
+      ¶ Secundo alii doctores 
+      nu<lb ed="#A" n="98" break="no"/>merum donorum accipiunt ex parte pene redimentis scilicet secundum 
+      <lb ed="#A" n="99"/>ea quae in christo exigebantur. quae quidem fuerit quattuor scilicet 
+      Reue<lb ed="#A" n="100" break="no"/>rentia ad patrem mittente: et est timor. Compassio ad 
+      ge<lb ed="#A" n="101" break="no"/>tem peccantem: et sic est pietas. Uirilitas ad passiones 
+      <lb ed="#A" n="102"/>sustinendas: et sic est fortitudo: fructus passionis 
+      conside<lb ed="#A" n="103" break="no"/>ratio. et sic est intellectus. Consilium autem fortitudinem dirigit 
+      <lb ed="#A" n="104"/>scientia pietatem. sapientia intellectum.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e265">
+      ¶ Tertio alii docto. 
+      nu<lb ed="#A" n="105" break="no"/>merum assignant ex parte virtutum: comparando illa ad 
+      virtu<lb ed="#A" n="106" break="no"/>tes. Sapientia enim corrndet charitati: intellectus fidei: 
+      <lb ed="#A" n="107"/>consilium spei. fortitudo fortitudini. scientia prudentie. 
+      pie<lb ed="#A" n="108" break="no"/>tas iusticie. timor temperantie 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48022-Dd1e277">
+               <head xml:id="Vn7Pel-j48022-Hd1e279">3</head>
+               <p xml:id="Vn7Pel-j48022-d1e281">
+                  <lb ed="#A" n="109"/>¶ Utrum dona spiritus sancti in patria 
+      perma<lb ed="#A" n="110" break="no"/>neant: Ret. sacur scilicet Tho. i. iii. di. xxxiiii. ar. iii. et Guill. 
+      <lb ed="#A" n="111"/>eadem di. quod secundum quosdam actus manent et secundum quosdam non. Quod 
+      <lb ed="#A" n="112"/>autem dona in patria maneant probatur sic. Timor enim 
+      <lb ed="#A" n="113"/>dei inter dona est infimum donu qui tamen manebit. 
+      <lb ed="#A" n="114"/>ergo etc. Hinc psalmus. Timor domini sanctus permanet 
+      <!--163.xml-->
+      <pb ed="#A" n="164"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in secuum seculi.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e305">
+      ¶ Confirmatur sic. quia perfectio 
+      <lb ed="#A" n="2"/>ra sunt dona virtutibus cardinalibus quae tamen manent 
+      <lb ed="#A" n="3"/>in patria. vt dicit Magister in. iii. dis. xxxiiii. Ceterum 
+      <lb ed="#A" n="4"/>christus fuit comprehensor et viator. et tamen hec dona per 
+      <lb ed="#A" n="5"/>fecte habuit. ergo non repugnat statui glorie. et ita ma 
+      <lb ed="#A" n="6"/>nebunt in patria. Secundum quosdam actus et dona 
+      spi<lb ed="#A" n="7" break="no"/>ritus sancti non manebunt. quod beatus Greg. i. 
+      Mo<lb ed="#A" n="8" break="no"/>rali. probat per hoc. quod quodlibet donum duos actus 
+      ha<lb ed="#A" n="9" break="no"/>bet: quorum vnus remanebit et alius non. Et de 
+      sin<lb ed="#A" n="10" break="no"/>gulis ponit exemplum di. Sapientia mentem reficit 
+      <lb ed="#A" n="11"/>spe et certitudine eternorum. quorum duorum spes transit 
+      <lb ed="#A" n="12"/>sed certitudo remanebit. Intellectus reficit corin 
+      <lb ed="#A" n="13"/>eo quod audita penetrat et tenebras cordis illustrat. 
+      <lb ed="#A" n="14"/>quorum auditus transit. quia non docebit vir fratrem su 
+      <lb ed="#A" n="15"/>um. vt dicitur Hiere. xxxi. sed illustratio mentis manebit 
+      <lb ed="#A" n="16"/>Consilium est de dubiis quod transit: et ratione anim replet quod 
+      <lb ed="#A" n="17"/>manebit. Fortitudo aduersa non metuit quod est 
+      necessa<lb ed="#A" n="18" break="no"/>rium in praesenti. et iterum confidentia reficit quod in 
+      futu<lb ed="#A" n="19" break="no"/>rto remanebit. Scientia ignorantiam fugat: quod 
+      parti<lb ed="#A" n="20" break="no"/>net ad vitam presentem. et mentem cognitione replet: quod 
+      <lb ed="#A" n="21"/>pertinet ad vitam futuram. Pietas cordis 
+      viscera<lb ed="#A" n="22" break="no"/>misericordie operibus replet: quod pertinet ad statum 
+      pre<lb ed="#A" n="23" break="no"/>sentem et gratulationis affectum: quod ad futurum 
+      <lb ed="#A" n="24"/>spectat
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e357">
+      ¶ Timor premit mentem ne superbiat quod 
+      sta<lb ed="#A" n="25" break="no"/>tui praesenti congruit. et de rebus obtentis mentem 
+      con<lb ed="#A" n="26" break="no"/>fortat: quod pertinet ad statum futurum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48022-Dd1e365">
+               <head xml:id="Vn7Pel-j48022-Hd1e367">4</head>
+               <p xml:id="Vn7Pel-j48022-d1e369">
+                  <lb ed="#A" n="27"/>¶ Utrum virtutes: dona: 
+      beatitudi<lb ed="#A" n="28" break="no"/>nes: et fructus sint diuersi habitus: Et videtur quod 
+      <lb ed="#A" n="29"/>sint diuersi. quia non est idem numerus donorum beati 
+      <lb ed="#A" n="30"/>tudinum: virtutum: et fructuum. Numerata etiam non 
+      con<lb ed="#A" n="31" break="no"/>cordant. quia aliquid beatitudo est quod non est donum. et 
+      <lb ed="#A" n="32"/>econuerso. Aliquid est donum quod non virtus. et sic de 
+      ali<lb ed="#A" n="33" break="no"/>is. Dicit enim Philosophus. ii de anima quod habitus per actus 
+      <lb ed="#A" n="34"/>et actus perobiecta diuersificantur. Sed virtus donum: 
+      <lb ed="#A" n="35"/>et beatitudo habent differentes actus. quia conuenit per 
+      <lb ed="#A" n="36"/>virtutes agere recte. per dona perfecte. et per 
+      beatitu<lb ed="#A" n="37" break="no"/>dinem expedite. ergo videtur quod sint diuersi habitus 
+      </p>
+               <p xml:id="Vn7Pel-j48022-d1e395">
+                  <lb ed="#A" n="38"/>¶ 
+      Re<lb ed="#A" n="39" break="no"/>spondetur quod de hoc sunt opiniones doctorum. veriorur tamen est 
+      <lb ed="#A" n="40"/>Scoti in. iii. di. xxxiiii. dicentis. quod virtutes: dona: 
+      <lb ed="#A" n="41"/>fructus: et beatitudines non sunt diuersi habitus. quod 
+      <lb ed="#A" n="42"/>probatur secundum eum. Si enim in operibus nature nihil fit 
+      fru<lb ed="#A" n="43" break="no"/>stra. fortiori ratione nec in operibus gratuitis qualia sunt 
+      <lb ed="#A" n="44"/>dona dei et virtutes.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e413">
+      ¶ Sic arguit Scotus. 
+      Illi<lb ed="#A" n="45" break="no"/>inquit habitus tantum ponendi sunt in viatore quibus 
+      perfi<lb ed="#A" n="46" break="no"/>citur circa omne obiectum quo perfici potest in via. huiusmodi 
+      <lb ed="#A" n="47"/>autem sunt septem virtutes in genere: non curando de 
+      sci<lb ed="#A" n="48" break="no"/>entiis speculatiuis. igitur praeter scientias adquisitas 
+      nul<lb ed="#A" n="49" break="no"/>lus erit habitus in viatore ponendus a septem 
+      vir<lb ed="#A" n="50" break="no"/>tutibus. quia obiectum circa quod perfici potest viator non 
+      <lb ed="#A" n="51"/>potest esse nisi deus vel creatura. sed per virtutes 
+      suf<lb ed="#A" n="52" break="no"/>ficienter homo disponitur ad deum: proximum et seipsum: 
+      <lb ed="#A" n="53"/>non ponendo habitus distinctos donorum et fructuum 
+      <lb ed="#A" n="54"/>quod patet per Grego. super i. ca
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e437">
+      ¶ Iob. vbi dona virtutes 
+      <lb ed="#A" n="55"/>nominat. et sibi mutuo conueniunt diffinitiones. Uirtus 
+      <lb ed="#A" n="56"/>enim est bona qualitas intelligentis quae recte viuitur: qua 
+      <lb ed="#A" n="57"/>nemo male vtitur: quam deus operatur in nobis sine nobis 
+      <lb ed="#A" n="58"/>Cotum hoc competit donis spiritus sancti et fructibus. vndetres 
+      <!--163.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>vtutes theologice sufficienter ordinant hominem ad deum. 
+      <lb ed="#A" n="60"/>Charitas diligendo Spes tendendo Fides 
+      creden<lb ed="#A" n="61" break="no"/>do. Iusticia vero in ordine ad proximum. Fortitudo et tem 
+      <lb ed="#A" n="62"/>peratia sufficienter refrenant in se passiones. Et 
+      pru<lb ed="#A" n="63" break="no"/>dentia disponit tam respectu sui quam respectu proximi. Ex 
+      <lb ed="#A" n="64"/>quibus clare infertur quod alios habitus a virtutibus non possunt 
+      <lb ed="#A" n="65"/>ponere dona: beatitudines et fructus. prout liquide 
+      dedu<lb ed="#A" n="66" break="no"/>cit Scotus vbi supra tam dona spiritus sancti quam etiam beatitudines 
+      <lb ed="#A" n="67"/>et fructus ad habitus virtutum. Nam hec spiritus scncti dona scilicet 
+      <lb ed="#A" n="68"/>Sapient ia Intellectus Scientia Consilium aspiciunt in 
+      <lb ed="#A" n="69"/>tellectum. Tria vero sequentia scilicet fortitudo Pietas et 
+      <lb ed="#A" n="70"/>Timor respiciunt affectum. Similiter octo beatitudines 
+      <lb ed="#A" n="71"/>qua enumerantur Mat i scilicet Paupertas spiritus: Luctus: 
+      </p>
+               <p xml:id="Vn7Pel-j48022-d1e482">
+                  <lb ed="#A" n="72"/>¶ Misericordia Nuditas Cordis mundicia Pax Pati 
+      <lb ed="#A" n="73"/>entia Persecutio pro christo: respiciunt omnes volutatem 
+      <lb ed="#A" n="74"/>excepta cordis mudicia quae respicit intellectum. Similiter 
+      <lb ed="#A" n="75"/>fructus spiritus sunt duodeci. prout enumerantur Gal. v. 
+      <lb ed="#A" n="76"/>qui sunt Charitas: gaudium: pax: patientia: benignitas 
+      <lb ed="#A" n="77"/>bonitas: longanimitas: mansuetudo: fides: 
+      mode<lb ed="#A" n="78" break="no"/>tia: continentia: castitas. Quorum quilibet potest dici virtus. 
+      <lb ed="#A" n="79"/>dempto gaudio: quod passio est. Unde charitas: honitas 
+      <lb ed="#A" n="80"/>bax et benignitas ad charitatem reducuntur. quia 
+      chari<lb ed="#A" n="81" break="no"/>tas in proprio nomine alii duo in re. licet nomine differat. Ubi 
+      <lb ed="#A" n="82"/>enim verior pax quam vbi est charitas. vbi bonitas 
+      meli<lb ed="#A" n="83" break="no"/>or: Ubi maior beignitas quam vbi charitas: Fides 
+      <lb ed="#A" n="84"/>ad fidem reducitur in nomine proprio. loganimitas spes est 
+      <lb ed="#A" n="85"/>De patribus eim legitur longanimes in spe Gaudium ad 
+      proxi<lb ed="#A" n="86" break="no"/>mum recte reducitur vt sit passio iusticie. Gaudere in 
+      <lb ed="#A" n="87"/>it Paulus cum gaudentibus. Mamsuetudo autem pertinet. 
+      <lb ed="#A" n="88"/>id fortitudne ne ira praeualeat. Similiter patientia. quia 
+      no<lb ed="#A" n="89" break="no"/>bile vincendi genus est patientia. Modestia vero continen 
+      <lb ed="#A" n="90"/>tia et castitas sunt species temperantie. Ideo dona et beatitu 
+      <lb ed="#A" n="91"/>dines siue fructus non sunt distincti habitus: sed solum 
+      <lb ed="#A" n="92"/>virtutum habituum gradus. Quod sic probat Scotus vbi 
+      <lb ed="#A" n="93"/>supra Sicut enim habitus in genere qualitatis est quoddam 
+      <lb ed="#A" n="94"/>genus intermedium. ita habet sub se multa 
+      interme<lb ed="#A" n="95" break="no"/>dia antequam veniat ad species specialissimas. siue enim 
+      <lb ed="#A" n="96"/>diuidatur primo per intellectuale et appetitiuum. quod 
+      vi<lb ed="#A" n="97" break="no"/>detur probabile. et vlterius vtrumque horum per adquisitum et 
+      in<lb ed="#A" n="98" break="no"/>fusum. et vtrumque per intellectuale et appetitiuum et. Et 
+      <lb ed="#A" n="99"/>subdit quod de tota illa diuisione habitus intellecti 
+      <lb ed="#A" n="100"/>ui non accipitur in numero virtutum nisi vna virtus 
+      <lb ed="#A" n="101"/>infusa que est fides. et quoddam genus 
+      intermedi<lb ed="#A" n="102" break="no"/>um ad multas practicas adquisitas: quod dicitur 
+      pruden<lb ed="#A" n="103" break="no"/>tia. Et sic connumerando species satis communes 
+      pos<lb ed="#A" n="104" break="no"/>sunt haberi. Hec ille.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e556">
+      ¶ Alia opinio est sancti 
+      <lb ed="#A" n="105"/>Thome in. iii. di. xxxiiii. parte. i. q. i. ponentis 
+      diffe<lb ed="#A" n="106" break="no"/>rentiam inter virtutes et dona: veluti inter habitus 
+      di<lb ed="#A" n="107" break="no"/>stinctos di. Quod in hoc differunt virtutes. quia virtutes 
+      <lb ed="#A" n="108"/>disponunt secundum humanum modum. sed dona vltra 
+      <lb ed="#A" n="109"/>humanum modum. Similiter Henricus de 
+      Gan<lb ed="#A" n="110" break="no"/>dauo in quodlibetur. iiii. q. xxxiii. ponit differre velut 
+      <lb ed="#A" n="111"/>diuersos habitus: virtutes: dona et beatitudines. Quia 
+      <lb ed="#A" n="112"/>inquit virtutes disponunt modo humano. dona 
+      mo<lb ed="#A" n="113" break="no"/>do superhumano
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e578">
+      ¶ Geatitudines vero modo 
+      inhu<lb ed="#A" n="114" break="no"/>mano id est quasi diuino. Et hi in hoc non sunt 
+      tenen<lb ed="#A" n="115" break="no"/>di. Cuius ratio est. quia virtutes dona et beatitu 
+      <lb ed="#A" n="116"/>dines solum differunt gradibus non habitibuss 
+      <!--164.xml-->
+      <pb ed="#A" n="165"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Sicut sapiens sapientior et sapientissimus: differunt 
+      <lb ed="#A" n="2"/>secundum gradu tantum. Sed et sanctus Bonauen. in. iii. di. xxx 
+      <lb ed="#A" n="3"/>iiii. arti. i. q. i. dicit. Quod virtutes recte: dona 
+      expedi<lb ed="#A" n="4" break="no"/>te: beatitudines vero perfecte operantur. qui si accipiat 
+      <lb ed="#A" n="5"/>secundum magis perfectum et minus tenendum est. Si vero 
+      <lb ed="#A" n="6"/>secundum distinctos habitus hic relinquendus est. Unde 
+      <lb ed="#A" n="7"/>ascendenti scalam caelorum primo accipiendi sunt virtutes 
+      <lb ed="#A" n="8"/>quibus rectus efficitur.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e611">
+      ¶ Secundo bona ip altiori gradu 
+      <lb ed="#A" n="9"/>virtutum quibus expeditior redditur.
+     </p>
+               <p xml:id="Vn7Pel-j48022-d1e616">
+      ¶ Tertio 
+      beatitu<lb ed="#A" n="10" break="no"/>dines quibus iam perficitur. vt dicat christus: Beati 
+      <lb ed="#A" n="11"/>pauperes spiritu quoniam vestrum est regnum 
+      celo<lb ed="#A" n="12" break="no"/>rum. Deinde in cacumine scale apprehedat fructus 
+      <lb ed="#A" n="13"/>qui dulces sunt gutturi ascendentis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

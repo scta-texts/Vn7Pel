@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput ecclesie</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput ecclesie</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="96"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j27637">
+            <head xml:id="Vn7Pel-j27637-Hd1e110">Caput ecclesie</head>
+            <!--below is floating text-->
+            <p xml:id="Vn7Pel-j27637-d1e114">
+               <lb ed="#A" n="70"/>¶ Caput ecclesie. Qu 
+      <lb ed="#A" n="71"/>Deus charitatem ineffabilem mostrauit 
+      <lb ed="#A" n="72"/>lin eo quod christum dedit caput supra omnem 
+      ec<lb ed="#A" n="73" break="no"/>clesiam. vt scribitur. Eph. i. 
+    </p>
+            <div xml:id="Vn7Pel-j27637-Dd1e125">
+               <head xml:id="Vn7Pel-j27637-Hd1e127">1</head>
+               <p xml:id="Vn7Pel-j27637-d1e129">
+                  <lb ed="#A" n="74"/>Quare christus dicitur caput ec 
+      <lb ed="#A" n="75"/>clesie totius militantis et triumphantis: Respondetur secundum 
+      <lb ed="#A" n="76"/>Guill. in. iii. di. xiii. post Tho. ibidem arti. ii. q. i. quod 
+      <lb ed="#A" n="77"/>caput super omnia alia membra tres habet conditiones 
+      no<lb ed="#A" n="78" break="no"/>biles scilicet Excellentie Influentie et dirigentie.
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e142">
+      ¶ 
+      Pri<lb ed="#A" n="79" break="no"/>mo namque caput licet in natura habeat 
+      conformita<lb ed="#A" n="80" break="no"/>tem ad cetera membra. tamen omnia excellit dignitate 
+      <lb ed="#A" n="81"/>quod patet
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e151">
+      ¶ Primo in situs altitudine. quia caput 
+      <lb ed="#A" n="82"/>paliis mebris altius situatum est
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e156">
+      ¶ Secundo in 
+      po<lb ed="#A" n="83" break="no"/>tentiarum nobilitate. quia nobiliores anime potentie in 
+      <lb ed="#A" n="84"/>eo exercentur. vt Memoria Imaginatio Intellem 
+      <lb ed="#A" n="85"/>ctio et huiusmodi.
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e166">
+      ¶ Tertio in capacitate: quia in eo 
+      ca<lb ed="#A" n="86" break="no"/>piuntur et comprehenduntur omnes sensus Ideo secundum 
+      Isi<lb ed="#A" n="87" break="no"/>dorum. x. lib. Etymols. Caput dicitur a capio capis quia 
+      <lb ed="#A" n="88"/>capit omnes sensus. videlicet Uisum: auditum etc. Sic 
+      <lb ed="#A" n="89"/>christus dicitur caput tam secundum diuinitatem. quia 
+      ex<lb ed="#A" n="90" break="no"/>tellit omnia. Ideo apostolus dicit. Caput mulieris 
+      <lb ed="#A" n="91"/>vir. Caput autem viri christus. et caput christi deus 
+      <lb ed="#A" n="92"/>patet. §. iiii. quam secundum humanitatem assumptam. quia 
+      <lb ed="#A" n="93"/>superabundat in nobilitate et gratie plenarie 
+      ca<lb ed="#A" n="94" break="no"/>pacitate.
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e188">
+      ¶ Secundo caput habet conditionem 
+      in<lb ed="#A" n="95" break="no"/>fluentie in membra. Influit enim ceteris sensum et 
+      <lb ed="#A" n="96"/>motum. Nam influit sensum a parte anteriori 
+      ca<lb ed="#A" n="97" break="no"/>pitis sed motum a parte posteriori virtute motiua 
+      <lb ed="#A" n="98"/>descendente in nucha seu vicario cerebri. Et quo 
+      <lb ed="#A" n="99"/>ad hanc proprietatem christus dicitur caput tam secundum 
+      <lb ed="#A" n="100"/>diuinitatem principaliter efficiendo motum gratie et 
+      <lb ed="#A" n="101"/>sensum fidei in nobis: quam etiam quo ad humanita 
+      <lb ed="#A" n="102"/>tem per modum meriti. quia meretur hominibus influi 
+      <lb ed="#A" n="103"/>fidem quasi sensum cognoscendi deum. et etiam 
+      <lb ed="#A" n="104"/>meretur charitatem influi nobis quasi per 
+      mo<lb ed="#A" n="105" break="no"/>dum motus gratie ad diligendum deum
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e214">
+      ¶ 
+      Ter<lb ed="#A" n="106" break="no"/>tio caput habet conditionem dirigentie. quia 
+      re<lb ed="#A" n="107" break="no"/>git et dirigit cetera membra. Christus autem vtriusque 
+      <lb ed="#A" n="108"/>nature scilicet diuine et humane ratione. Hoc etiam 
+      ter<lb ed="#A" n="109" break="no"/>tio modo dicitur caput omnium tam angelorum quam 
+      <lb ed="#A" n="110"/>hominum. quia est rex et rector omnium. licet habeat 
+      <!--96.xml-->
+      <pb ed="#A" n="97"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cum homibus conformitatem speciale scilicet in natura. vt 
+      <lb ed="#A" n="2"/>etiam patebit in subsequentibus. et sic patet quare dicitur 
+      ca<lb ed="#A" n="3" break="no"/>put ecclesie militantis et triumphantis. Tum ratione 
+      perfe<lb ed="#A" n="4" break="no"/>ctionis. sicut Leo dicitur caput animalium ratione 
+      perfectio<lb ed="#A" n="5" break="no"/>qinis nobilitatis naturalis. Tum ratione principationis. si 
+      <lb ed="#A" n="6"/>s cut fons dicitur caput fluuii. Tum ratione directionis et 
+      <lb ed="#A" n="7"/>influxus. sicut rector dicitur caput subditorum. Et sic 
+      <lb ed="#A" n="8"/>voluit deus ex charitate ineffabili diuina vt 
+      tan<lb ed="#A" n="9" break="no"/>quam membra corporis christi mystici nos sibi deus 
+      incor<lb ed="#A" n="10" break="no"/>poraret per christum et sic amaremus deum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e256">
+               <head xml:id="Vn7Pel-j27637-Hd1e258">2</head>
+               <p xml:id="Vn7Pel-j27637-d1e260">
+                  <lb ed="#A" n="11"/>¶ Utrum christus dicatur caput 
+      ec<lb ed="#A" n="12" break="no"/>clesie magis ratione diuine nature quam humane an eque rationt 
+      <lb ed="#A" n="13"/>vtriusque: Respondetur secundum Rich. e. di. xiii. ar. ii q. vl. quod 
+      <lb ed="#A" n="14"/>christus est caput ecclesie ratione diuine nature magis 
+      <lb ed="#A" n="15"/>quantum ad aliquid. et ratione humane nature magis 
+      <lb ed="#A" n="16"/>quantum ad aliquid. propterea Augustinus i. de trini. ca. xii. dicit 
+      <lb ed="#A" n="17"/>quod christus secundum formam serui ipse est caput corporis 
+      eccle<lb ed="#A" n="18" break="no"/>sie: Sed tanten plena ratio capitis conuenit christo ratione vtru. 
+      <lb ed="#A" n="19"/>usque nature simlis. Declaratur. Quia ratione diuine 
+      na<lb ed="#A" n="20" break="no"/>ture habet influere christus in membra ecclesie princips 
+      <lb ed="#A" n="21"/>liter et effectiue sensum cognitionis et motum affecti 
+      <lb ed="#A" n="22"/>onis. sed ratione humane nature non influit ista 
+      nisi<lb ed="#A" n="23" break="no"/>meritorie et dispositiue. Ideo quantum ad hoc magis 
+      <lb ed="#A" n="24"/>est caput ecclesie ratione diuine nature quam humane. sed 
+      <lb ed="#A" n="25"/>loquendo quantum ad conformitatem in natura: sic 
+      ma<lb ed="#A" n="26" break="no"/>gis dicitur caput ecclesie ratione humane nature. 
+      imo<lb ed="#A" n="27" break="no"/>quantum ad hoc non est caput nisi ratione humane 
+      na<lb ed="#A" n="28" break="no"/>ture. Concluditur ergo quod ex quo ad plenam rationem capitis 
+      re<lb ed="#A" n="29" break="no"/>quiritur vtrumque videlicet tam in fluetia sensus et motus 
+      <lb ed="#A" n="30"/>in membra quam etiam conformitas in natura. sequitur quod 
+      <lb ed="#A" n="31"/>christu maxime est caput ecclesie ratione vtriusque 
+      natu<lb ed="#A" n="32" break="no"/>re simul. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e312">
+               <head xml:id="Vn7Pel-j27637-Hd1e314">3</head>
+               <p xml:id="Vn7Pel-j27637-d1e316">
+                  <lb ed="#A" n="33"/>¶ Sed cur christus dicitur caputu 
+      <lb ed="#A" n="34"/>ecclesie: non cor ecclesie. cum tamen cor est principium vite: 
+      <lb ed="#A" n="35"/>non caput: Dicendum secundum Guill. e. di. xiii. quod licet 
+      phi<lb ed="#A" n="36" break="no"/>sici vel medici in hoc dissentiant theologis. quia ipsi 
+      <lb ed="#A" n="37"/>naturales dicunt. quod cor sit principium vite et sensuum 
+      <lb ed="#A" n="38"/>camen sufficit quod magis manifestatur sensus in 
+      cap<lb ed="#A" n="39" break="no"/>te ideo ex apertis theologi deducuntur in mystica 
+      oc<lb ed="#A" n="40" break="no"/>culta dei.
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e336">
+      ¶ Addo quod etsi corsit principium vitale. tain 
+      <lb ed="#A" n="41"/>caput est perfectius et plenum omnibus sensibus. est etiam 
+      <lb ed="#A" n="42"/>eminentius in situ: cum corsit in medio sed caput in 
+      <lb ed="#A" n="43"/>summo. et est influens sensum et motum. insuper est 
+      di<lb ed="#A" n="44" break="no"/>rigens cordis affectum. quia nil volitum scilicet in corde: nisi 
+      <lb ed="#A" n="45"/>praecognitum scilict capite. ex. ii de anima. Unde propter has ratio 
+      <lb ed="#A" n="46"/>nes magis conuenit vt christus dicatur caput potius quam 
+      <lb ed="#A" n="47"/>cor. Denique etsi homo habeat amare deum in corde. tamen 
+      <lb ed="#A" n="48"/>caput mouet et dirigit per fidei cognitionem vt cor amet 
+      <lb ed="#A" n="49"/>deum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e359">
+               <head xml:id="Vn7Pel-j27637-Hd1e361">4</head>
+               <p xml:id="Vn7Pel-j27637-d1e363">
+                  <lb ed="#A" n="50"/>¶ Utrum caput christi sit deus 
+      pa<lb ed="#A" n="51" break="no"/>ters: Et videtur quod sic. quia. i. Cor. xi. dicit Apostolus. 
+      Uolo<lb ed="#A" n="52" break="no"/>autem vos scire quod omnis viri caput christus est: caput autem 
+      <lb ed="#A" n="53"/>mulieris vir: caput vero christi deus. Sed in 
+      oppos<lb ed="#A" n="54" break="no"/>tum est. quia christus dei filius secundum deitatem est equals 
+      <lb ed="#A" n="55"/>patri in omni perfectione. ergo pater non est caput eius. 
+      <lb ed="#A" n="56"/>. 
+      <!--96.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>de christo loquendo secundum deitatem: sic deus pater est caput 
+      <lb ed="#A" n="58"/>filii: non quidem ratione perfectionis: cum pater non sit filio 
+      <lb ed="#A" n="59"/>perfectior sed equalis: vt arguitur in oppositum. Sed quia 
+      <lb ed="#A" n="60"/>deus pater est principium filii: et sic habet quandam 
+      emi<lb ed="#A" n="61" break="no"/>nentia inquantum non est ex alio. filius autem est ex 
+      pa<lb ed="#A" n="62" break="no"/>tre qui est alius in persona. Item quia influit etiam quodammodo 
+      <lb ed="#A" n="63"/>pater in filium inquantum quicquid habet filius habet a 
+      <lb ed="#A" n="64"/>patre nascendo. Et quia patr et filius sunt in natura non 
+      so<lb ed="#A" n="65" break="no"/>lum similes sed vnum essentialiter: distincti tantummodo in per 
+      <lb ed="#A" n="66"/>sona. ergo his rationibus pater est caput filii: praeter rationem 
+      <lb ed="#A" n="67"/>capiti quae ex perfectione est. Loquendo autem de christo secundum 
+      <lb ed="#A" n="68"/>humanitatem: sic deus est caput christi: tam ratione etiam 
+      <lb ed="#A" n="69"/>perfectionis: quia deus est perfectionis infinite. christus 
+      aute<lb ed="#A" n="70" break="no"/>inquantum homo est perfectionis finite: quia creatura 
+      <lb ed="#A" n="71"/>Tam etiam ratione eminentie. quia deus supereminet 
+      chri<lb ed="#A" n="72" break="no"/>sto inquantum homini: sicut creator creature. 
+      Tan<lb ed="#A" n="73" break="no"/>etiam ratione influentie. quia deus influit in christum prout homo 
+      <lb ed="#A" n="74"/>est plenitudinem gratiae. quam etiam ratione similitudinis 
+      na<lb ed="#A" n="75" break="no"/>ture inquantum humana natura est ad imaginem et similitu 
+      <lb ed="#A" n="76"/>dinem dei. Unde secundum istas rationes bene tenet 
+      compara<lb ed="#A" n="77" break="no"/>tio similitudinis ab apostolo facta videlicet quod sicut capur 
+      <lb ed="#A" n="78"/>viri christus est: vt dictum fuit. §. i. Et caput inquit 
+      mu<lb ed="#A" n="79" break="no"/>lieris vir. patet Primo ratione perfectionis: eo quod vir 
+      perfe<lb ed="#A" n="80" break="no"/>ctior est muliere tam in anima per ampliorem viuacitatem 
+      <lb ed="#A" n="81"/>rationis et prudentie: quam in corpore. quia femina est mas 
+      <lb ed="#A" n="82"/>occasionatus: secundum Philosophum de animalibus. Secundo ratione 
+      <lb ed="#A" n="83"/>eminentie. quia mulier est sub potestate viri Gen. iii. 
+      <lb ed="#A" n="84"/>Tertio ratione influentie. quia vir habet dirigere vel 
+      re<lb ed="#A" n="85" break="no"/>gere mulierem. Quarto ratione conuenientie in natura 
+      <lb ed="#A" n="86"/>scilicet speciei humane. Suo modo (vt ait apostolus 
+      ca<lb ed="#A" n="87" break="no"/>put christi est deus: vt iam est declaratum. Unde 
+      pa<lb ed="#A" n="88" break="no"/>tet dei charitas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e455">
+               <head xml:id="Vn7Pel-j27637-Hd1e457">5</head>
+               <p xml:id="Vn7Pel-j27637-d1e459">
+                  <lb ed="#A" n="89"/>¶ An christus sit caput omnium 
+      an<lb ed="#A" n="90" break="no"/>gelorum: et quomodo hoc: cum non habeat conformitatem 
+      <lb ed="#A" n="91"/>in natura cum angelis: Respondetur secundum Guill. e. di. xiii. 
+      <lb ed="#A" n="92"/>aliosque quod christus vere dicitur caput angelorum non ti 
+      <lb ed="#A" n="93"/>intelligendo secundum conformitatem nature sed influendo. 
+      <lb ed="#A" n="94"/>Probatur Eph. i. Proposuit scilicet deus omnia instaurare 
+      <lb ed="#A" n="95"/>in christo quae in celis et que in terris sunt. Ubi glo. dicit 
+      <lb ed="#A" n="96"/>In celis id est angelorum numerum diminutum implere sed 
+      <lb ed="#A" n="97"/>reparando ex hominibus. Et infra. Ipsum inquit dedit 
+      ca<lb ed="#A" n="98" break="no"/>put super omnem ecclesiam scilicet militantem et triumphantem. 
+      <lb ed="#A" n="99"/>ergo patet propositum. Nec obstat de nature difformita 
+      <lb ed="#A" n="100"/>te. quia sicut Lucifer dicitur caput non solum 
+      demo<lb ed="#A" n="101" break="no"/>num cum quibus conuenit in natura: sed etiam 
+      ca<lb ed="#A" n="102" break="no"/>put hominum malorum qui dicuntur ex patre diabolo et 
+      <lb ed="#A" n="103"/>membra illius. Ioan. viii. et tamen inter luciferum et 
+      <lb ed="#A" n="104"/>malos homines non est conformitas nature sed 
+      ope<lb ed="#A" n="105" break="no"/>ris tantum. Ita non mirum quod christus dicatur caput 
+      an<lb ed="#A" n="106" break="no"/>gelorum qui licet ei non conformes sunt in natura: 
+      <lb ed="#A" n="107"/>tamen conformes sunt in gratia et gloria tanquam ciua 
+      <lb ed="#A" n="108"/>membra in que influit christus purgationes: 
+      illu<lb ed="#A" n="109" break="no"/>minationes: et perfectiones veluti superior. etsi 
+      infe<lb ed="#A" n="110" break="no"/>rior natura: tamen superior gratia et influxum gratie 
+      <lb ed="#A" n="111"/>Sed qualem influxum facit in angelos 
+      chri<lb ed="#A" n="112" break="no"/>stus inquantum homo vt dicatur caput angelorum secundum 
+      <lb ed="#A" n="113"/>humanitatem: Dicit Bonauentura. q. iii. ar. ii et post 
+      <!--97.xml-->
+      <pb ed="#A" n="98"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>eum idem Guill. quod christus inquantum homo nullo modo 
+      <lb ed="#A" n="2"/>influit angelis beatitudinem essentialem scilicet visionem 
+      <lb ed="#A" n="3"/>diuine essentie et fruitionem. sed tantum beatitudinem 
+      acciden<lb ed="#A" n="4" break="no"/>talem. Mira ergo charitas dei et christi ad angelos et 
+      <lb ed="#A" n="5"/>homines. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e534">
+               <head xml:id="Vn7Pel-j27637-Hd1e536">6</head>
+               <p xml:id="Vn7Pel-j27637-d1e538">
+                  <lb ed="#A" n="6"/>¶ An christus sit caput omnium hominum 
+      <lb ed="#A" n="7"/>fidelium et infidelium in via et in patria: Dicendum secundum 
+      eun<lb ed="#A" n="8" break="no"/>dem Guill. supra quod sic. Et patet ex praetedentibus. quia omnibus 
+      <lb ed="#A" n="9"/>influit sensum cognitionis et motum charitatis. 
+      <lb ed="#A" n="10"/>Si dicatur quod in ve. te. nondum fuit christus incarna 
+      <lb ed="#A" n="11"/>tiss. Hoc non obstat. quia ecclesia ve. te. non fuit 
+      acepha<lb ed="#A" n="12" break="no"/>la: cum christum in fide haberet velut caput. Et licet christus 
+      <lb ed="#A" n="13"/>necdum foret incarnatus: tamen nullus nisi in fide 
+      chri<lb ed="#A" n="14" break="no"/>sti: aut venturi: aut iam nati erat saluandus. Unde. 
+      <lb ed="#A" n="15"/>christus est caput omnium hominum tam in via quam in patria. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e563">
+               <head xml:id="Vn7Pel-j27637-Hd1e565">7</head>
+               <p xml:id="Vn7Pel-j27637-d1e567">
+                  <lb ed="#A" n="16"/>¶ Sed qualiter christus dicitur 
+      ca<lb ed="#A" n="17" break="no"/>put hominum infidelium et carentium tam fide quam gratia: 
+      Re<lb ed="#A" n="18" break="no"/>spondet idem Guill. Primo dicendo quod chrus non 
+      di<lb ed="#A" n="19" break="no"/>citur caput hominum damnatorum: nec etiam demonum: prout 
+      <lb ed="#A" n="20"/>hoc de capite loquimur. quia non in fluit talibus motum 
+      <lb ed="#A" n="21"/>charitatis. Secundo dicit idem quod christus infidelium existen 
+      <lb ed="#A" n="22"/>tium in via est caput solum in potentia. quia possunt 
+      emen<lb ed="#A" n="23" break="no"/>dari et effici membra christi. Fidelium autem non habentium 
+      <lb ed="#A" n="24"/>charitatem christus est caput ex parte sensus 
+      cogniti<lb ed="#A" n="25" break="no"/>onis: sed non ex parte motus charitatis vel gratiae. Bono 
+      <lb ed="#A" n="26"/>rum vero hominum caput est tam ex parte sensus quam ex parte 
+      <lb ed="#A" n="27"/>motus. imperfecte tantum in via. quia labi possunt a 
+      gra<lb ed="#A" n="28" break="no"/>tia. sed complete et perfectissime erit in patria. 
+      Ter<lb ed="#A" n="29" break="no"/>tio ergo addo quod si queratur prout idem inducit 
+      <lb ed="#A" n="30"/>Guil. secunda difficultate scilicet 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j27637-Dd1e603">
+               <head xml:id="Vn7Pel-j27637-Hd1e605">8</head>
+               <p xml:id="Vn7Pel-j27637-d1e607">
+                  <lb ed="#A" n="31"/>¶ Utrum diuinum verbum posset 
+      <lb ed="#A" n="32"/>rursus aliam humanitatem assumere que caput 
+      ho<lb ed="#A" n="33" break="no"/>minum diceretur per summam gratiam: Doctor 
+      sub<lb ed="#A" n="34" break="no"/>tilis. q. i. dicit quod posset: loquendo de potentia dei 
+      <lb ed="#A" n="35"/>absoluta. Sicut dictum fuit latius vbi 
+      Assum<lb ed="#A" n="36" break="no"/>ptio nature humane. §. 2. Hoc autem in proposito 
+      <lb ed="#A" n="37"/>de summa gratia capitis intelligendum est: 
+      capien<lb ed="#A" n="38" break="no"/>do summum negatiue scilicet quo nihil est superius. 
+      Si<lb ed="#A" n="39" break="no"/>cut et decem generalissima dicuntur summa 
+      genera<lb ed="#A" n="40" break="no"/>a Porphirio. Unde in tali casu essent duo capita 
+      <lb ed="#A" n="41"/>in ecclesia eque prima et summa negatiue. ita quod 
+      vni<lb ed="#A" n="42" break="no"/>cuique eorum nil esset superius. Sed capiendo summum 
+      <lb ed="#A" n="43"/>affirmatiue: hoc esset impossibile: etiam secundum 
+      poten<lb ed="#A" n="44" break="no"/>tiam absolutam dei. quia capiendo summum 
+      affirma<lb ed="#A" n="45" break="no"/>tiue id est quod omnia alia excedit: sic non possunt esse 
+      <lb ed="#A" n="46"/>duo summa. sed oportet esse vnicum. Ideo Philosophus 
+      <lb ed="#A" n="47"/>v. Topicorum dicit: Quod per superabundantiam dicitur vni 
+      so<lb ed="#A" n="48" break="no"/>li conuenit. Ailias sic esse duo summa implicaret 
+      com<lb ed="#A" n="49" break="no"/>tradictionem. ergo est impossibile.
+     </p>
+               <p xml:id="Vn7Pel-j27637-d1e651">
+      ¶ Ex omnibus 
+      <lb ed="#A" n="50"/>predictis patet ineffabilis dei charitas. quia 
+      glo<lb ed="#A" n="51" break="no"/>super illud Eph. i. ca. Ipsum dedit caput etc. dicit quod 
+      nul<lb ed="#A" n="52" break="no"/>lum (inquit maius donum prestare posset deus hominibus quam vt 
+      <lb ed="#A" n="53"/>verbum suum per quod condidit omnia faceret illis 
+      <lb ed="#A" n="54"/>caput: vt esset filius dei et filius hominis vnus 
+      de<lb ed="#A" n="55" break="no"/>us cum patre et vnus homo cum hominibus. Hec ex Guill. 
+      <lb ed="#A" n="56"/>O ergo homuncio disce pro tali et tanta charitate re¬ 
+      <!--97.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>amare deum. alioquin dignus es gehenna.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

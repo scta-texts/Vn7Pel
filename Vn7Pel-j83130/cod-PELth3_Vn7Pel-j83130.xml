@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Passio christi</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Passio christi</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="280"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j83130">
+            <head xml:id="Vn7Pel-j83130-Hd1e110">Passio christi</head>
+            <div xml:id="Vn7Pel-j83130-Dd1e112">
+               <head xml:id="Vn7Pel-j83130-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j83130-d1e116">
+                  <lb ed="#A" n="34"/>Passio christi 
+      Pri<lb ed="#A" n="35" break="no"/>mo quantum ad ipsius congruentiam
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e123">
+      ¶ 
+      No<lb ed="#A" n="36" break="no"/>tandum tamen secundum Guil. in. iii. di. xix. qud 
+      <lb ed="#A" n="37"/>passio multis modis sumitur. Primo dicitur 
+      passi<lb ed="#A" n="38" break="no"/>conceptus mentis interior. dicente Philosophoi scilicet periho 
+      <lb ed="#A" n="39"/>menias. Uoces sunt note earum quae in anima sunt 
+      pas<lb ed="#A" n="40" break="no"/>sionum id est conceptuum.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e136">
+      ¶ Secundo passio dicitur proprium 
+      <lb ed="#A" n="41"/>alicuius. sicut dicitur risibilitas passio hominis esse 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e141">
+                  <lb ed="#A" n="42"/>¶ Tertio dicitur passio species seu speciei pars 
+      qual<lb ed="#A" n="43" break="no"/>tatis condiuisa contra passibilem qualitatem. dicente Philosopho 
+      <lb ed="#A" n="44"/>prdicamentis tertiam speciem qualitatis esse passionem vel 
+      <lb ed="#A" n="45"/>passibilem qualitatem. Et differunt passio: et passibilis 
+      <lb ed="#A" n="46"/>qualitas. sicut permanens: et successiuum. Passio 
+      qui<lb ed="#A" n="47" break="no"/>dem magis nominat successiuum. sed passibilis qualitas 
+      perma<lb ed="#A" n="48" break="no"/>nens.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e160">
+      ¶ Quarto dicitur passio quaelibet receptio. dicente 
+      <lb ed="#A" n="49"/>Philosopho in. iii de anima. quod intelligere est quoddam pati. 
+      i<lb ed="#A" n="50" break="no"/>recipi. Etsic dicitur passio a patin quod est recipere.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e167">
+      ¶ Quinte 
+      <lb ed="#A" n="51"/>dicitur passio quoddam praedicamentum ab aliis distinctum: 
+      acti<lb ed="#A" n="52" break="no"/>oni correspondens: quam Gilber. porretani in lib. sex 
+      <lb ed="#A" n="53"/>principiorum sic diffinit. Passio est quidam effectus illatio 
+      <lb ed="#A" n="54"/>quae actionis. . Sexto Passio dicitur corruptio subiect 
+      <lb ed="#A" n="55"/>in quo est. dicente Philosopho vi. Topii. quod omnis passio magis 
+      <lb ed="#A" n="56"/>facta abiicit a substantia. et sic accipitur in nostro pro¬ 
+      <!--279.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>posito. Passio quippe christi inter aliorum passiones 
+      acer<lb ed="#A" n="58" break="no"/>bissima fuit. secundum quod dicitur Thre i. O vos omnes qui transs 
+      <lb ed="#A" n="59"/>itis per viam attendite et videte si est dolor similis sicut 
+      <lb ed="#A" n="60"/>dolor meus Unde secundum san. Tho. in. iii. dis. xv. ar. ii. q. 
+      <lb ed="#A" n="61"/>iet in passione sic accepta tria requiri possunt. Primum 
+      <lb ed="#A" n="62"/>quod hec passio sit in subiecto actu ente disposito secundum 
+      <lb ed="#A" n="63"/>contrarias qualitates. et inde est quod proprie loquendo 
+      sola<lb ed="#A" n="64" break="no"/>alteratio est passio. vt dicit Philosophus i. de generatione. 
+      <lb ed="#A" n="65"/>Secundum quod vna qualitate expulsa reliqua introdu 
+      <lb ed="#A" n="66"/>catur. Ideo Damasis. sic diffinit passionem. 
+      Passio<lb ed="#A" n="67" break="no"/>est motus ex vno in aliud. Tertium. quod qualitas 
+      expul<lb ed="#A" n="68" break="no"/>sa sit velut naturalis. et introducta velut extranea 
+      <lb ed="#A" n="69"/>Et inde est quod egrotationes conius dicuntur passiones 
+      <lb ed="#A" n="70"/>magis quam sanationes. vt patet. v. Metaphys. In 
+      <lb ed="#A" n="71"/>christi autem passione tria ista concurrebant. ideo vere 
+      di<lb ed="#A" n="72" break="no"/>citur christus passus. Circa cuius passionem plura 
+      <lb ed="#A" n="73"/>erunt querenda. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e225">
+               <head xml:id="Vn7Pel-j83130-Hd1e227">2</head>
+               <p xml:id="Vn7Pel-j83130-d1e229">
+                  <lb ed="#A" n="74"/>¶ Utrum per christi passionem 
+      con<lb ed="#A" n="75" break="no"/>gruum fuerit reparari humanam naturam magis quam aliam 
+      <lb ed="#A" n="76"/>Et quod sic patet per quattuor suppositiones manifestas: 
+      <lb ed="#A" n="77"/>que elici possunt ex dictis Ans. li. i. Cur deus homo. 
+      <lb ed="#A" n="78"/>Prima est hec. Nullatenus decet summam 
+      stabili<lb ed="#A" n="79" break="no"/>tatem permittere suum propositum infirmari. Secunda est 
+      <lb ed="#A" n="80"/>hec: Nullatenus decet summam henignitatem pro 
+      pecca<lb ed="#A" n="81" break="no"/>to vnius hominis totam posteritatem eius eternaliter 
+      <lb ed="#A" n="82"/>damnari. Tertia est hec: Nullatenus decet summam 
+      <lb ed="#A" n="83"/>sapientiam nobilissimam creaturam permittere vniuersa 
+      <lb ed="#A" n="84"/>liter fine suo fraudari. Quarta est hec: Nullatenus 
+      <lb ed="#A" n="85"/>pecet summam virtutem permittere seruum suum eternalis 
+      <lb ed="#A" n="86"/>ter ab alio iniuste detineri. Ex Prima sic arguitur. 
+      <lb ed="#A" n="87"/>Si non decet dei propositum infirmari: et deus propo 
+      <lb ed="#A" n="88"/>suerat perducere hominem ad beatitudinem: et 
+      perdu<lb ed="#A" n="89" break="no"/>ci non habet quamdiu manet in statu ruine. ergo 
+      in<lb ed="#A" n="90" break="no"/>decens est hominem in miserie statu relinqui. ergo 
+      <lb ed="#A" n="91"/>ab oppositis decens est reparari. Ex Secunda sic 
+      <lb ed="#A" n="92"/>arguitur
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e273">
+      ¶ Non decet posteritatem totam pro vno hominis 
+      <lb ed="#A" n="93"/>peccato sempiternalit damnari. ergo decet 
+      reparari<lb ed="#A" n="94" break="no"/>Ex tertia sic arguitur. Non decet summam sapientia 
+      <lb ed="#A" n="95"/>sempiternaliter permittere nobilissimam creaturam su 
+      <lb ed="#A" n="96"/>am fine suo fraudari. ergo etc. Ex Quarta argutur 
+      <lb ed="#A" n="97"/>sic. Non decet summam virtutem permittere seruos 
+      <lb ed="#A" n="98"/>suos ab aduersario iniuste detineri. sed sic fuisset 
+      <lb ed="#A" n="99"/>nisi redemptio interuenisset. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e291">
+      ¶ Sed 
+      con<lb ed="#A" n="100" break="no"/>tra praemissa arguitur sic. Si indecens fuisset genus 
+      <lb ed="#A" n="101"/>humanum non reparari: et quodlibet minimum 
+      incon<lb ed="#A" n="102" break="no"/>ueniens secundum Ans. lib. Cur deus homo) est 
+      imps<lb ed="#A" n="103" break="no"/>sibile erga deum. impossibile ergo fuit deum 
+      huma<lb ed="#A" n="104" break="no"/>num genus non reparare. Et ex hoc eliciteur duplex 
+      in<lb ed="#A" n="105" break="no"/>conueniens. Unum quod deus non reparauit genus 
+      hu<lb ed="#A" n="106" break="no"/>manum propter misericordiam. sed potius propter 
+      eui<lb ed="#A" n="107" break="no"/>tandam indecentiam. Aliud. quod non reparauit ex liberalir 
+      <lb ed="#A" n="108"/>tate sed ex necessitate. quod si verum est: non tenemur 
+      <lb ed="#A" n="109"/>ei ad tantas gratiarum actiones: quod impium est 
+      di<lb ed="#A" n="110" break="no"/>cere.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e317">
+      ¶ Preterea nobilior creatura est angelus quam 
+      <lb ed="#A" n="111"/>homos et propter beatitudinem est factus sicut homo. 
+      <lb ed="#A" n="112"/>Sed non decuit deum releuare angelum a suo 
+      la<lb ed="#A" n="113" break="no"/>pesu. ergo nec decuit genus humanum. Respondet 
+      <!--280.xml-->
+      <pb ed="#A" n="281"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sanctus Bonauen. in. iii. dist. xx. ar. i. q. i. cui concor. 
+      Ri<lb ed="#A" n="2" break="no"/>char. ibidem quod absque dubio congruum et decens est reparari 
+      <lb ed="#A" n="3"/>genus humanum non solum ex parte dei: sed etiam ex parte hominis 
+      <lb ed="#A" n="4"/>Ex parte dei: quia decet dei potentiam: sapientiam: et miseri 
+      <lb ed="#A" n="5"/>cordiam: sicut in opponendo mostratum est. Ex parte vero ho 
+      <lb ed="#A" n="6"/>minis similiter congruentia est: si consideretur dignitas hominis 
+      <lb ed="#A" n="7"/>conditi: modus labendi: et status lapsi. Dignitas nam 
+      <lb ed="#A" n="8"/>que hominis conditi tanta erat vt propter ipsum facta sunt vni 
+      <lb ed="#A" n="9"/>uersa. Si ergo homo careret fine suo: iam ergo omnia essent fi 
+      <lb ed="#A" n="10"/>ne suo fraudata. Modus vero labendi fuit quod 
+      hu<lb ed="#A" n="11" break="no"/>mana natura totaliter cecidit: alio peccante: et 
+      alio<lb ed="#A" n="12" break="no"/>suggerente. et ideo decens fuit ipsam per alium releuari. 
+      <lb ed="#A" n="13"/>vt sicut filii peccauerunt in parente: et parens 
+      pecca<lb ed="#A" n="14" break="no"/>uit diabolo suggerente: sic etiam reparetur domino 
+      releua<lb ed="#A" n="15" break="no"/>te. Status etiam hominis lapsi reparationi congruit: 
+      <lb ed="#A" n="16"/>quia in illo statu simuls fuit poenitentia cum miseria: et poenitentia quo 
+      <lb ed="#A" n="17"/>dammodo placabat diuinam iusticiam. Miseria vero pro 
+      <lb ed="#A" n="18"/>uocabat diuinam misericordiam. Et sic patet quod congruum 
+      <lb ed="#A" n="19"/>fuit hominem reparari non tantum ex parte dei quam ex parte hominis: 
+      <lb ed="#A" n="20"/>sed ex parte dei: et ex parte operis: et ex parte opificis. Sed 
+      <lb ed="#A" n="21"/>congruitas ex parte operis non ponit nccessitatem. 
+      Congru<lb ed="#A" n="22" break="no"/>itas vero ex parte opificis ponit necessitatem. necessitatem 
+      <lb ed="#A" n="23"/>inquam non ineuitabilitatis que diuiditur in creationem 
+      <lb ed="#A" n="24"/>et prohibitionem. sed necessitatem immutabilitatis quae 
+      com<lb ed="#A" n="25" break="no"/>surgit in stabilitate et incommutabilitate diuine 
+      dis<lb ed="#A" n="26" break="no"/>positionis. Hec autem non artat diuinam potentiam ad 
+      o<lb ed="#A" n="27" break="no"/>positum: sed eam detminat ad tale propositum
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e392">
+      ¶ Si enim 
+      <lb ed="#A" n="28"/>queratur Utrum congruum sit reparari genus humanum: 
+      conceden<lb ed="#A" n="29" break="no"/>dum est simpliciter quod verum est. Si vero quaeratur Utrum sit 
+      nece<lb ed="#A" n="30" break="no"/>sarium: non est simpliciter respondendum: sed distinguendum 
+      <lb ed="#A" n="31"/>quia non quacumque necessitate: sed necessitate 
+      immutabilita<lb ed="#A" n="32" break="no"/>tis quae non opponitur libertati voluntatis: ac per hoc nee gratiae 
+      <lb ed="#A" n="33"/>nec libtati. Et per hec patet responsio ad inducta
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e408">
+      ¶ Ad 
+      il<lb ed="#A" n="34" break="no"/>lud autem quod opponitur quod creatura angelica nobilior 
+      <lb ed="#A" n="35"/>est etc. Dicendum quod quamuis angelrs sit nobilior 
+      crea<lb ed="#A" n="36" break="no"/>tura quam homo: non tamen est adeo ido ieus ad reparandum sicut 
+      <lb ed="#A" n="37"/>homo propter modum labendi et statum hominis lapsi. homo enim 
+      <lb ed="#A" n="38"/>penituit. angelus obstinatus fuit. homo totaliter: angelus 
+      <lb ed="#A" n="39"/>particulariter cecidit. homoper alium: angelus per seipsum. Et 
+      <lb ed="#A" n="40"/>hec sunt quae faciunt angelum ad reparandum minus idoneum 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e426">
+                  <lb ed="#A" n="41"/>¶ Sed argues. Sicut decet diuinam sapientiam et boni 
+      <lb ed="#A" n="42"/>tatem releuare cadentem: sic etiam decet sustentare stantem 
+      <lb ed="#A" n="43"/>sed non decuit deum genus humanum tenere ante lapsum 
+      <lb ed="#A" n="44"/>ergo nec decuit releuare post lapsum. Dicendum 
+      <lb ed="#A" n="45"/>secundum sanctum Bonauen. quod si homo voluisset stare nunquam 
+      de<lb ed="#A" n="46" break="no"/>liquisset vt caderet. sed quia stare noluit: non decuit ipsum 
+      <lb ed="#A" n="47"/>seruare inuitum. Sed quia post lapsum voluit 
+      resur<lb ed="#A" n="48" break="no"/>gere: ideo decuit deum manum illi porrigere. quod non 
+      <lb ed="#A" n="49"/>voluit angelus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e449">
+               <head xml:id="Vn7Pel-j83130-Hd1e451">3</head>
+               <p xml:id="Vn7Pel-j83130-d1e453">
+                  <lb ed="#A" n="50"/>¶ Utrum magis congruat genus 
+      hu<lb ed="#A" n="51" break="no"/>manum per satisfactionem reparari quam per aliam viam: Respondet 
+      <lb ed="#A" n="52"/>sanctus Bonauen. vbi supra. q. ii quod absque dubio magis 
+      <lb ed="#A" n="53"/>congruum fuit genus humanum reparari per satisfactionem quam per 
+      <lb ed="#A" n="54"/>alia viam: secundum quod dicit Ansis. et Aug. Ratio huius est: et ex parte 
+      <lb ed="#A" n="55"/>dei: et ex parte nostra. Ex parte inquam dei: quia vniuerse 
+      vie<lb ed="#A" n="56" break="no"/>domini misericordia et veritas. Cum ipse sit iustus et misericors: 
+      <lb ed="#A" n="57"/>ideo in reparatione generis humani quae est excellentissima 
+      <!--280.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>viarum dei congruum est vt simul concurrat misercordia et 
+      <lb ed="#A" n="59"/>iusticia. Et ideo decens fuit vt deus ab homine 
+      satisfa<lb ed="#A" n="60" break="no"/>ctionem exigeret pro iniuria sibi facta. etsi non posset 
+      <lb ed="#A" n="61"/>tunc misericordia diuina subueniret dando mediatorem 
+      <lb ed="#A" n="62"/>qui pro eo satisfaceret. Et iste modus magis fuit 
+      <lb ed="#A" n="63"/>congruus quam alius. Nam si deus culpam non dimisisset: 
+      <lb ed="#A" n="64"/>sed vindictam exegisset: non manifestaretur eius misercordia 
+      <lb ed="#A" n="65"/>Si vero sine satisfactione dimisisset non manifestare 
+      <lb ed="#A" n="66"/>tur eius iusticia. Magis etiam congruebat ex nte 
+      nostri<lb ed="#A" n="67" break="no"/>pro eo quod reparatio nostra ad hoc erat vt nos reduceret 
+      <lb ed="#A" n="68"/>a culpa ad iusticiam: a miseria ad gloriam. Sicut 
+      er<lb ed="#A" n="69" break="no"/>go cum genus humanum cecidit per culpam deum 
+      inho<lb ed="#A" n="70" break="no"/>norauit per priuationem et inordinatam dilectionem: sic 
+      <lb ed="#A" n="71"/>cum rediit a culpa ad iusticiam: decens est vt deum 
+      ho<lb ed="#A" n="72" break="no"/>noret sustinendo penam. et in hoc magis reparatur ad nor 
+      <lb ed="#A" n="73"/>mam iusticie.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e512">
+      ¶ Rursus sicut gloriosius est adquirere 
+      vi<lb ed="#A" n="74" break="no"/>tam eternam per ierita quam sine meritis: sic gloriosius est 
+      <lb ed="#A" n="75"/>reconciliari deo per satistactionem quam sine. Si enim hec 
+      <lb ed="#A" n="76"/>duo considerantur in reparatione generis humani: 
+      pla<lb ed="#A" n="77" break="no"/>num est quod hic modus satisfaciendi conueniens est 
+      <lb ed="#A" n="78"/>tam ex parte dei quam hominis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e526">
+               <head xml:id="Vn7Pel-j83130-Hd1e528">4</head>
+               <p xml:id="Vn7Pel-j83130-d1e530">
+                  <lb ed="#A" n="79"/>¶ Utrum aliqua creatura pura 
+      po<lb ed="#A" n="80" break="no"/>tuerit satisfacere pro toto genere humano: Respondetur quod 
+      <lb ed="#A" n="81"/>de ista quaestione varie loquutur doctores. Di scilicet Tho. 
+      <lb ed="#A" n="82"/>in. iii. di. xx. q. ii quod pura creatura non potest satisfacere 
+      <lb ed="#A" n="83"/>Sanctus vero Bonauen. ibidem. q. iii dicit sic quod de duobus 
+      <lb ed="#A" n="84"/>consueuit fieri satisfactio et requiri. videlicet de iniuria: et de 
+      <lb ed="#A" n="85"/>damno. Si deus requirit ab homine satisfactionem: aut 
+      requ<lb ed="#A" n="86" break="no"/>rit pro vtroque: aut pro altero horum. Si pro vtroque: planum 
+      <lb ed="#A" n="87"/>est quod est impossibile aliquam creaturam puram 
+      satisface<lb ed="#A" n="88" break="no"/>re: pro eo quod tangrauis est iniuria deo facta propter 
+      excel<lb ed="#A" n="89" break="no"/>lentissima eius dignitatem quod nulla creatura potet 
+      recompen<lb ed="#A" n="90" break="no"/>sare aliquid ei equiualens. Si vero exigit satisfactionem de 
+      <lb ed="#A" n="91"/>solo damno condonando iniuriam nec sic potest pro toto 
+      ge<lb ed="#A" n="92" break="no"/>nere humano satisfacere aliqua pura creatura. Aut enim 
+      <lb ed="#A" n="93"/>illa pura creatura esset homo: aut non esset homo. Si homo: 
+      <lb ed="#A" n="94"/>cum nullus purus homo possit equiualere toti generi huma 
+      <lb ed="#A" n="95"/>no: et talis offerendo lse deo nunquam recompensaret damnum 
+      <lb ed="#A" n="96"/>quod Adam intulit corrumpendo totum genus humanum quod 
+      quai<lb ed="#A" n="97" break="no"/>in infinitum est multiplicare. Si esset non homo nec sic 
+      <lb ed="#A" n="98"/>posset damnum recompensare si esset pura creatura. At 
+      <lb ed="#A" n="99"/>si posset: non tamen satisfaceret. quia ad illud genus spectat 
+      <lb ed="#A" n="100"/>satisfactio ad quod spectat transgressio. At si hoc posset 
+      <lb ed="#A" n="101"/>non tamen deceret quod naturam humanam in statum pristinum 
+      <lb ed="#A" n="102"/>reuocaret. esset enim ex hoc subiecta alii generi creatu 
+      <lb ed="#A" n="103"/>re. Et ex hoc non solum pura creatura no posset deo 
+      sa<lb ed="#A" n="104" break="no"/>tisfacere si esset alterius generis: sed etiam nec si esset a deo 
+      <lb ed="#A" n="105"/>assumpta conueniret pro humano genere satisfacere. ergo 
+      <lb ed="#A" n="106"/>oportuit vt persona satisfacientis esset deus et ho. Hec 
+      <lb ed="#A" n="107"/>Bonauen
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e595">
+      ¶ Secundus modus autem huic dicendi modo 
+      te<lb ed="#A" n="108" break="no"/>net contrarium in. lii. di. xx. Et probat sic. Sicut inquit se habet 
+      <lb ed="#A" n="109"/>non debitor ad debitorem: sic in casu isto se hre videtur 
+      <lb ed="#A" n="110"/>pura creatura sine crimine ad entem cum peccato. Ita autem 
+      <lb ed="#A" n="111"/>videmus quod non debitor potest satisfacere pro debitore 
+      <lb ed="#A" n="112"/>ergo a simili charitate dei poterit pura creatura 
+      acc<lb ed="#A" n="113" break="no"/>ptari a deo pro defectu totius humani generis. 
+      De<lb ed="#A" n="114" break="no"/>tur enim quod christus fuerit purus homo: et quod sibi infuderit 
+      <!--281.xml-->
+      <pb ed="#A" n="282"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>deus tantam gratiam qualem modo habet sine vnione 
+      <lb ed="#A" n="2"/>hypostatica: non videtur quin deus posset acceptare 
+      opera<lb ed="#A" n="3" break="no"/>eius pro humani generis redemptione. nec tamen ex hoc 
+      <lb ed="#A" n="4"/>essemus tantum sibi obligati quantum deo. quia totum 
+      <lb ed="#A" n="5"/>foret ratione dei. Uerum est tamen quod sibi deberemus 
+      ma<lb ed="#A" n="6" break="no"/>gnam reuerentiam sicut et modo debemus beate Marie 
+      <lb ed="#A" n="7"/>Ex quo patet defectus san. Tho. et Bonauen. qui 
+      <lb ed="#A" n="8"/>dicunt. quod nec quo ad iniuriam nec quo ad damnum potest 
+      <lb ed="#A" n="9"/>pura creatura deo satisfacere. Et in q. iiii. dicitur. Licet 
+      <lb ed="#A" n="10"/>forsan posset homo purus de peccato actuali 
+      satisfa<lb ed="#A" n="11" break="no"/>cere. numquam tamen de originali. patet tamen oppositum ex 
+      praedi<lb ed="#A" n="12" break="no"/>ctis. Nam homo sine peccato per donum gratie sibi 
+      colla<lb ed="#A" n="13" break="no"/>tum si deo placuisset pro scipso: aute pro omnibus 
+      potuis<lb ed="#A" n="14" break="no"/>set satisfecisse secundum quod deus acceptare poterat. placuit 
+      <lb ed="#A" n="15"/>tamen (dicente Paulo deo ex mira charitate mittere 
+      <lb ed="#A" n="16"/>filium suum in terris vt solueret precium deo patri. Unde 
+      <lb ed="#A" n="17"/>etiam Bonauen. testatur. quod si purus innocens ante christi 
+      <lb ed="#A" n="18"/>passionem mortuus fuisset. vtpote si christus fuisset 
+      pu<lb ed="#A" n="19" break="no"/>rus homo: celum introisset. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e662">
+               <head xml:id="Vn7Pel-j83130-Hd1e664">5</head>
+               <p xml:id="Vn7Pel-j83130-d1e666">
+                  <lb ed="#A" n="20"/>¶ Utrum deus debuerit modum 
+      sa<lb ed="#A" n="21" break="no"/>tisfactionis per passionem christi acceptare.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e673">
+      ¶ Arguitur quod 
+      <lb ed="#A" n="22"/>non. quia maxime peruersitatis et iniusticie est damna 
+      <lb ed="#A" n="23"/>re innocentem vt absoluatur nocens. sed nos omnes sicut 
+      <lb ed="#A" n="24"/>oues errauimus. christus vero peccatum non fecit. ergo videtur quod in 
+      <lb ed="#A" n="25"/>iuste fecerit dominus cum in eo posuit omnium nostrum iniquita 
+      <lb ed="#A" n="26"/>tes.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e686">
+      ¶ Sed contra. Iste modus satisfaciendi fuit 
+      <lb ed="#A" n="27"/>conuenietissimus de elatione per abiectionem et vilificatio 
+      <lb ed="#A" n="28"/>nem. sed nulla maior vilificatio fuit quam sustinentia 
+      op<lb ed="#A" n="29" break="no"/>probrii crucis. ergo talis modus debuit a deo accepta 
+      <lb ed="#A" n="30"/>ri. Preterea nunquam melius emendatur peccatum commissum 
+      <lb ed="#A" n="31"/>per suauitatem: quam per supplicii acerbitate. sed peccatum 
+      ho<lb ed="#A" n="32" break="no"/>minis fuit commissum per gustus suauitatem ex quo 
+      mor<lb ed="#A" n="33" break="no"/>te est damnatus: morte pro eo satisfactio fieri debuit: 
+      <lb ed="#A" n="34"/>et in ligno: vt qui in ligno vicerat in ligno vinceretur. 
+      <lb ed="#A" n="35"/>vt patet in praefatione de sanctam cruce.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e708">
+      ¶ Responde scilicet Bona 
+      <lb ed="#A" n="36"/>praedicta dis. q. v. sicut etiam est expressum supra. titulo 
+      incar<lb ed="#A" n="37" break="no"/>natio. quod modum istum vltra ceteros debuit deus 
+      acce<lb ed="#A" n="38" break="no"/>ptare. quia nobilissimus est inter omnes qui possunt esse vel 
+      <lb ed="#A" n="39"/>excogitari. fuit enim acceptissimus ad placandum deum 
+      <lb ed="#A" n="40"/>quia secundum Anss. lib. Cur deus homo. Nihil asperius et 
+      dif<lb ed="#A" n="41" break="no"/>nicilius potest homo ad honorem dei pati sponte et non ex 
+      <lb ed="#A" n="42"/>debito quam mortem
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e727">
+      ¶ Secundo fuit congruentissimus ad 
+      cu<lb ed="#A" n="43" break="no"/>randum morbum. quia primus homo peccauerat per 
+      super<lb ed="#A" n="44" break="no"/>biam: gulam: et inobedientiam. quia vt dicit Grego. 
+      Uo<lb ed="#A" n="45" break="no"/>luit deo assimilari per scientie sublimitatem: gustare 
+      li<lb ed="#A" n="46" break="no"/>gni suauitatem: et transgredi diuini praecepti limitem. et 
+      <lb ed="#A" n="47"/>quoniam curatio habet fieri per contrarium. ideo christus satisfecus 
+      <lb ed="#A" n="48"/>per sui abiectionem: humiliationem: et praecepti impletionem 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e743">
+                  <lb ed="#A" n="49"/>¶ Tertio fuit efficacissimus ad attrahendum genus 
+      <lb ed="#A" n="50"/>humanum. Deus enim decreuit hominem saluare per 
+      liber<lb ed="#A" n="51" break="no"/>tatem voluntatis: et nullo alio modo: salua libertate 
+      ar<lb ed="#A" n="52" break="no"/>bi. potuit attrahere ad amorem suum quam sustinendo pro 
+      <lb ed="#A" n="53"/>eo crucis patibulum
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e756">
+      ¶ Quarto etiam fuit 
+      prudentissi<lb ed="#A" n="54" break="no"/>mus ad vincendum aduersarium. Decebat christum vt 
+      <lb ed="#A" n="55"/>sua prudentia superaret diabolum: sicut ipse sua astutia 
+      <lb ed="#A" n="56"/>deceparat hominem primum. secundum quod dicitur Iob. xxvi. 
+      Pru<lb ed="#A" n="57" break="no"/>dentia eius percussit superbum propter quod dicit Magister in 
+      <!--281.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lttera di. xix. tertii lir Uenit redemptor et victus est dece 
+      <lb ed="#A" n="59"/>ptor. tetedit illi muscipulam crucem suam: posuit ei quasi 
+      <lb ed="#A" n="60"/>scata sanguinem suum. Ex his patet. quod modus 
+      passio<lb ed="#A" n="61" break="no"/>nis christi pro satisfactione fuit acceptissimus deo patri. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e780">
+                  <lb ed="#A" n="62"/>¶ Ad argumentum autem illud. quod impium est damnare 
+      <lb ed="#A" n="63"/>nnocentem et nocentem soluere. Dicendum. quod illud verum est 
+      <lb ed="#A" n="64"/>si innocens damnatur inuitus. sed si innocens velit se offerre 
+      <lb ed="#A" n="65"/>sponte pro salute nocentis: tlis oblatio debet 
+      accepta<lb ed="#A" n="66" break="no"/>ri. sicut fuit in christi morte qui ex mira charitate 
+      volu<lb ed="#A" n="67" break="no"/>it mori pro hominibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e797">
+               <head xml:id="Vn7Pel-j83130-Hd1e799">6</head>
+               <p xml:id="Vn7Pel-j83130-d1e801">
+                  <lb ed="#A" n="68"/>¶ Utrum alio modo potuit deus 
+      ge<lb ed="#A" n="69" break="no"/>nus humanum saluare:
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e808">
+      ¶ Arguitur quod non. quia dicit Glo. 
+      <lb ed="#A" n="70"/>super illud Heb. ii Decebat auctorem salutis eorum per 
+      <lb ed="#A" n="71"/>passionem consummari. quod nisi christus pateretur: homo no 
+      redi<lb ed="#A" n="72" break="no"/>meretur. et non redemptus periret et frustra essent omnia 
+      <lb ed="#A" n="73"/>facta. si ergo hoc est impossibile: restat quod et hoc est 
+      impos<lb ed="#A" n="74" break="no"/>ibile scilicet christum non mori pro salute humani generis. etsi hoc est 
+      <lb ed="#A" n="75"/>impossibile: fuit impossibile alio modo humanum 
+      ge<lb ed="#A" n="76" break="no"/>nus liberari quam per christi mortem. Hic Anss. li. Cur de 
+      <lb ed="#A" n="77"/>us homo. Non potuit ait transire calicem nisi biberet. non 
+      <lb ed="#A" n="78"/>quia non posset vitare mortem si vellet. sed impossibile 
+      fu<lb ed="#A" n="79" break="no"/>it aliter saluare mundum.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e832">
+      ¶ Sed contra hoc opponitur 
+      <lb ed="#A" n="80"/>sic. Si deus non posset alio mo genus humanum 
+      salua<lb ed="#A" n="81" break="no"/>re: tunc eius potentia esset limitata. Ideo dicit Grego. in 
+      <lb ed="#A" n="82"/>moralis. Qui fecit existere ex nihilo: reuocare etiam si 
+      <lb ed="#A" n="83"/>ne morte et passione potuit. Et Augustinus de trini. et habetur 
+      <lb ed="#A" n="84"/>in littera. Dicimus inquit alium modum deo possibilem fuisse 
+      <lb ed="#A" n="85"/>cuius potestati cuncta subiacent: et nostre miserie sanande 
+      <lb ed="#A" n="86"/>conuenientiorem alium non fuisse.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e850">
+      ¶ Respondetur secundum san. Bona. et 
+      <lb ed="#A" n="87"/>Rich. vbi supra q. vi. quod cum quaeritur: Utrum alio modo genus 
+      <lb ed="#A" n="88"/>pumanum potuit reparari quam per morte christi potest queri 
+      <lb ed="#A" n="89"/>vel de potentia dei reparantis. vel ex parte gnis humani 
+      <lb ed="#A" n="90"/>reparati. Si ex parte dei. sic absque dubio aliter potuit 
+      <lb ed="#A" n="91"/>genus humanum liberari. sicut sancti dicunt. Si 
+      aute<lb ed="#A" n="92" break="no"/>quaeritur de potentia ex parte generis humani reparati. sic 
+      dicen<lb ed="#A" n="93" break="no"/>dum. quod determinatum fuit sibi posse ad hac viam. et isto 
+      <lb ed="#A" n="94"/>modo intelligendo potest concediquod genus humanum non 
+      <lb ed="#A" n="95"/>potuit aliter reparari: sicut conceditur quod nullus homo potest 
+      salua<lb ed="#A" n="96" break="no"/>ri nisi credat in christum. non enim patet nobis alia via 
+      sa<lb ed="#A" n="97" break="no"/>lutis. nec aliud nomen est sub celo in quo oporteat noa 
+      <lb ed="#A" n="98"/>saluos fieri. potuisset tamtun deus si voluisset aliud 
+      no<lb ed="#A" n="99" break="no"/>men dare in quo salus nostra consisteret.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e882">
+      ¶ Ad arguutum 
+      <lb ed="#A" n="100"/>mentum autem glo. et Ans. dicendum. quod si loquuntur 
+      in<lb ed="#A" n="101" break="no"/>distincte non tenentur. Dicit tm scilicet Bonauen. quod 
+      intelli<lb ed="#A" n="102" break="no"/>guntur quantum est ex parte nostra praesupposita dispositione 
+      <lb ed="#A" n="103"/>diuina quae sic et non alio modo decreuit liberare. per hunc 
+      <lb ed="#A" n="104"/>modum intelligitur etiam auctoritas Amb. posita in litter. 
+      <lb ed="#A" n="105"/>dis. xviii. dicetis Tantum enim fuit peccatum nostrum vt 
+      sal<lb ed="#A" n="106" break="no"/>uari non possemus nisi vnigenitus dei filius moreretur 
+      pro<lb ed="#A" n="107" break="no"/>nobis debitoribus mortis. hoc intelligitur. quia deus 
+      <lb ed="#A" n="108"/>nos aliter non decreuit saluare. Et sic patet ad quaestionem 
+      <lb ed="#A" n="109"/>responsio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e907">
+               <head xml:id="Vn7Pel-j83130-Hd1e909">7</head>
+               <p xml:id="Vn7Pel-j83130-d1e911">
+                  <lb ed="#A" n="110"/>¶ Utrum sine aliqua punitione seu 
+      <lb ed="#A" n="111"/>pena potuit remitti humani generis peccatum:
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e918">
+      ¶ Respondetur 
+      <lb ed="#A" n="112"/>secundum Scotum in. iiii. di. xv. quod sic non quidem a parte 
+      gene<lb ed="#A" n="113" break="no"/>ris humani: sed a parte dei.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e925">
+      ¶ Utrum angelus potuit 
+      <lb ed="#A" n="114"/>satissacere pro peccato humani generis.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e930">
+      ¶ Arguitur quod sic. secundum 
+      <!--282.xml-->
+      <pb ed="#A" n="283"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>san. Tho. in. iii. di. xx. ar. ii Quia angelica natura 
+      <lb ed="#A" n="2"/>est supra humanam. et quod melius est acceptatur pro 
+      recaon<lb ed="#A" n="3" break="no"/>pensatione minus boni. Exempli gratia. Homo 
+      ali<lb ed="#A" n="4" break="no"/>quis acceptatur pro multis bobus et ouibus. Sed ad 
+      <lb ed="#A" n="5"/>hoc respondet idem. quod angelus quamuis quo ad naturam sit 
+      <lb ed="#A" n="6"/>superior homine: non autem quo ad gloriam. et ideo 
+      ange<lb ed="#A" n="7" break="no"/>lus ad gloriam non potest reparare humanam naturam. quia 
+      <lb ed="#A" n="8"/>cum sit creatura quicquid potest debet deo. Unde sicut ipse 
+      <lb ed="#A" n="9"/>san. Tho. dicit in. iii. dis. i. Si angelus reparasset hec 
+      <lb ed="#A" n="10"/>duo inconuenientia secuta fuissent.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e962">
+      ¶ Primum quod homo 
+      <lb ed="#A" n="11"/>salutis sue debitor fuisset angelo. Secundum. quia 
+      an<lb ed="#A" n="12" break="no"/>gelo equari non posset. quod est contra illud Matth. 
+      <lb ed="#A" n="13"/>xxii. Crunt homines sicut angeli dei. Similiter Ans. 
+      <lb ed="#A" n="14"/>li. ii. Cur deus homo. dicit. quod illam emendam facere non 
+      <lb ed="#A" n="15"/>potuit nisi ille qui esset deus et homo. homo qui debe 
+      <lb ed="#A" n="16"/>ret: deus qui posset. Finaliter tamen tenendum est quod dicit 
+      <lb ed="#A" n="17"/>Guill. in. ii dis. xx. quod angelus de potentia 
+      absolu<lb ed="#A" n="18" break="no"/>ta potuit nos redimere. licet sit eminentior modus: 
+      <lb ed="#A" n="19"/>vt christus qui est deus et homo redimeret. Et sic debent 
+      <lb ed="#A" n="20"/>intelligi dicta Ansi. quod sic fuit expediens. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e986">
+                  <lb ed="#A" n="21"/>¶ Ubi magna dei manifestatur 
+      cha<lb ed="#A" n="22" break="no"/>ritas erga omnes homines. 
+      <lb ed="#A" n="23"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e998">
+               <head xml:id="Vn7Pel-j83130-Hd1e1000">8 (2.1)</head>
+               <p xml:id="Vn7Pel-j83130-d1e1002">
+      Passio christi Se<lb ed="#A" n="24" break="no"/>cundo: 
+      quantum ad corpus et animam. 
+      praeser<lb ed="#A" n="25" break="no"/>tim de passione quam sustinuit pro 
+      salute<lb ed="#A" n="26" break="no"/>humane redemptionis libenter. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e1011">
+                  <lb ed="#A" n="27"/>¶ Utrum in christo fuerit vera 
+      pas<lb ed="#A" n="28" break="no"/>sio doloris: Et arguitur quod non. quia Moyses ieiuna 
+      <lb ed="#A" n="29"/>uit. xl. diebus et. xl. noctibus sine aliqua corporis lesione 
+      pro<lb ed="#A" n="30" break="no"/>pter continuam dei contemplationem. Si ergo perfectio 
+      concempla<lb ed="#A" n="31" break="no"/>tionis aufert sensum doloris in carne passibili. et in 
+      <lb ed="#A" n="32"/>christo fuit continua contemplatio et perfectissima. ergo videtur 
+      <lb ed="#A" n="33"/>quod nulla fuerit in eo doloris experientia.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1029">
+      ¶ 
+      Cofir<lb ed="#A" n="34" break="no"/>matur. quia res quae est ablatiua lesionis et doloris 
+      <lb ed="#A" n="35"/>non est subiecta passioni. sed manus christi curauit 
+      ali<lb ed="#A" n="36" break="no"/>enos dolores solo tactu. ergo videtur quod nullum dolorem 
+      <lb ed="#A" n="37"/>potuerit perpeti.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1040">
+      ¶ Sed in contrarium huius dicitur 
+      <lb ed="#A" n="38"/>Esai. liii. Uidimus eum nouissimum virorum virum dolorum 
+      <lb ed="#A" n="39"/>et scientem infirmitatem nostram. Sed costat quod propheta 
+      <lb ed="#A" n="40"/>non intelligit de scientia simplicis noticie. ergo 
+      intel<lb ed="#A" n="41" break="no"/>ligit de scientia experientie. ergo vere expartus est christus 
+      <lb ed="#A" n="42"/>dolores passionis
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1054">
+      ¶ Respondetur secundum scilicet 
+      Bonauen<lb ed="#A" n="43" break="no"/>in. iii. di. xvi. ar. i. q. i. cui concordat Rich. Quod absque 
+      <lb ed="#A" n="44"/>dubio sicut euangelium dicit et fides catholica 
+      sen<lb ed="#A" n="45" break="no"/>tit. vera doloris passio fuit in christo. In ipso enim 
+      fu<lb ed="#A" n="46" break="no"/>it caro passibilis et perforabilis. fuit etiam virtus 
+      sen<lb ed="#A" n="47" break="no"/>tiendi secundum quam anima compatitur corpori leso. quoniam ergo hec 
+      <lb ed="#A" n="48"/>duo verum dolorem faciu scilicet vera lesio: et verus lesionis 
+      <lb ed="#A" n="49"/>sensus. et hec duo vere fuerunt in christo. ergo dolor verus 
+      <lb ed="#A" n="50"/>fuit in christi passione. Nam si aliquis aliter dicat est 
+      <lb ed="#A" n="51"/>hereticum et error antiquus saracenorum. quod christus etsi 
+      <lb ed="#A" n="52"/>videbatur pati et dolere. non tamen veraciter habuit 
+      dolo<lb ed="#A" n="53" break="no"/>rem et passionis sensum. Is non solum euacuat fidem 
+      <lb ed="#A" n="54"/>christi et christi euangelium. sedetiam euacuat nostram reden¬ 
+      <!--282.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>ptionem. et dicit christum non esse christum. Dicit enim ipsum 
+      <lb ed="#A" n="56"/>non fuisse veraciter passum. dicit ipsum non satisfecisse 
+      <lb ed="#A" n="57"/>dicit et per hoc genus humanum non esse redemptum 
+      <lb ed="#A" n="58"/>Dum vero dicit ipsum simulasse se pati: dicit christum esse 
+      <lb ed="#A" n="59"/>mendacem et ita nec vere fuisse dei filium. nec dei 
+      <lb ed="#A" n="60"/>nuncium. et ita nec mediatorem sed potius deceptorem 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e1100">
+                  <lb ed="#A" n="61"/>¶ Ad argumentum autem de Moyse dicendum: quod est 
+      <lb ed="#A" n="62"/>dulcedo contemplationis quodammodo ipsum reficeret 
+      <lb ed="#A" n="63"/>et a sensibus exterioribus abstraheret: adeo vt natura 
+      <lb ed="#A" n="64"/>les virtutes quodammodo consopiret: vt non ita consume 
+      <lb ed="#A" n="65"/>rent et cibum requirerent. tamen quod tanto tempore 
+      ieiu<lb ed="#A" n="66" break="no"/>nauit sine aliqua sui lesione. hoc fuit per diuinum 
+      mira<lb ed="#A" n="67" break="no"/>culum. Et ideo hoc non habet locum in proposito. quia 
+      <lb ed="#A" n="68"/>christus in sua passione non exercuit miracula potentie 
+      <lb ed="#A" n="69"/>sed potius vsus est armis patientie
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1122">
+      ¶ Ad confirma 
+      <lb ed="#A" n="70"/>tionem argumenti quod natura agens est praestantior 
+      pa<lb ed="#A" n="71" break="no"/>tiente. Dicendum quod hoc non est simpliciter sed solum 
+      <lb ed="#A" n="72"/>secundum aliquam conditionem. quia enim lapis ledit pedem non 
+      <lb ed="#A" n="73"/>ideo oportet quod sit nobilior pede. sed sufficit quod 
+      ex<lb ed="#A" n="74" break="no"/>cedat in duricia. Sic in proposito. quamuis enim clauus 
+      <lb ed="#A" n="75"/>non esset nobilior carne christi: est tamen durior et 
+      solidi<lb ed="#A" n="76" break="no"/>or. Etsi dicas de anima quod non possit pati: Respondetur secundum 
+      <lb ed="#A" n="77"/>sanctum Bonauen. Quod anima christi patiebatur per accidens 
+      <lb ed="#A" n="78"/>scilicet compatiendo carni Ul dicendum secundum Magistrum in. iiii. 
+      <lb ed="#A" n="79"/>dist. xliiii. quod patitur secundum institutionem nature: non secundum 
+      <lb ed="#A" n="80"/>dispositionem misericordie et punitionem iusticie. quorum 
+      pri<lb ed="#A" n="81" break="no"/>mum respicit animam christi secundum animam peccatricem. Unde 
+      <lb ed="#A" n="82"/>manus christi curauit alienos dolores virtute 
+      diui<lb ed="#A" n="83" break="no"/>na: ipsa autem diuinitas qua fiebant miracula non est 
+      pu<lb ed="#A" n="84" break="no"/>nita in christo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e1158">
+               <head xml:id="Vn7Pel-j83130-Hd1e1160">9 (2.2)</head>
+               <p xml:id="Vn7Pel-j83130-d1e1162">
+                  <lb ed="#A" n="85"/>¶ Utrum in christo fuerit dolor 
+      a<lb ed="#A" n="86" break="no"/>cerbissimus: Et arguitur quod non. quia pena ignis acutius 
+      <lb ed="#A" n="87"/>affligit quam pena ferri. sed Laurentius exustus fuit in 
+      <lb ed="#A" n="88"/>igne. ergo videtur quod dolorem acerbiorem senserit quam christus 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e1173">
+                  <lb ed="#A" n="89"/>¶ Confirmatur. quia quanto aliquis desiderat pati tanto 
+      <lb ed="#A" n="90"/>minus dolet. sed christus multum desiderabat pati secundum 
+      <lb ed="#A" n="91"/>quod Luce. xii. dicit. Baptismo habeo baptizari et quomodo 
+      <lb ed="#A" n="92"/>coartor etc. ergo dolor christi parum de acerbitate habuit 
+      <lb ed="#A" n="93"/>Confirmatur secundo. quia quanto maius est bonum quod 
+      <lb ed="#A" n="94"/>perditur: tanto maior dolor est ei qui amittit. Sed 
+      <lb ed="#A" n="95"/>peccator perdidit deum qui est maius bonum quam corporalis 
+      <lb ed="#A" n="96"/>vita christi. ergo videtur quod acerbiquia dolor sit in penitente 
+      <lb ed="#A" n="97"/>quam fuerit in christo patiente.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1195">
+      ¶ Respondetur secundum sanctum Bona. 
+      <lb ed="#A" n="98"/>vbi supra. q. ii cui concor. Rich. in. iii. dist. xv. q. iii. quod 
+      do<lb ed="#A" n="99" break="no"/>or passionis christi inter ceteros fuit acerbior si 
+      com<lb ed="#A" n="100" break="no"/>siderentur que dolorem reddunt acerbiorem. Hec autem 
+      <lb ed="#A" n="101"/>sunt tria videlicet. Causa passionis: modus patiendi: et 
+      <lb ed="#A" n="102"/>conditio patientis. Si igitur consideretur causa propter quan 
+      <lb ed="#A" n="103"/>christus passus est: fuit in eo dolor magnus. Non enim 
+      <lb ed="#A" n="104"/>patiebatur pro culpa propria sed aliena. Non pro amicis 
+      <lb ed="#A" n="105"/>tnm sed etiam inimicis. et etiam pro his quos videbat ingra 
+      <lb ed="#A" n="106"/>tos. Si autem consideretur modus patiendi: fuit in eo 
+      <lb ed="#A" n="107"/>dolor passionis acerbior. Tum propter generalitatem. quia 
+      <lb ed="#A" n="108"/>omnibusmembris affligebatur. Tum etiam propter continuitatem: 
+      <lb ed="#A" n="109"/>quia suspendium eius continuabatur et claui adeo 
+      afflige<lb ed="#A" n="110" break="no"/>bant pedentem sicut afflixerunt quando manus eius et pedes 
+      <lb ed="#A" n="111"/>confodiebantur. in quibus maxima erat afflictio propter ner¬ 
+      <!--283.xml-->
+      <pb ed="#A" n="284"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>uos et musculos ibidem concurrentes. in quibus praecipue 
+      <lb ed="#A" n="2"/>viget sensus. Ad hoc clarius intelligendum: tot fuerunt 
+      <lb ed="#A" n="3"/>christi dolores quot eius ossa: membra et nerui. In christus est 
+      <lb ed="#A" n="4"/>fuerunt quinque differentie partum scilicet membrorum in quibus 
+      pa<lb ed="#A" n="5" break="no"/>tiebatur. vt tradit Alh. libro de animalibus. videlicet ossa: 
+      mu<lb ed="#A" n="6" break="no"/>sculi: nerui: arterie pulsatiles et vene. Et quamuis 
+      soli<lb ed="#A" n="7" break="no"/>dentes sint insensuales: alia omnia ossa ledi possunt 
+      quo<lb ed="#A" n="8" break="no"/>dammodo per adiunctionem potentie tactiue. Cerebrum eti 
+      <lb ed="#A" n="9"/>Ram et sanguis sunt doloris expartes. sicut patet de 
+      ce<lb ed="#A" n="10" break="no"/>rebro quod ad variationem lune variatur sine lesione. Et 
+      <lb ed="#A" n="11"/>sanguis quandoque fluit sine sensatione. Sunt autem secundum 
+      vr<lb ed="#A" n="12" break="no"/>tate (vt subdit Alber. capitis ossa. xix. in collo: 
+      dor<lb ed="#A" n="13" break="no"/>so et spondilibus. xxxiii. In brachiis: thorace et eis ad 
+      <lb ed="#A" n="14"/>iunctis. lxxii. et pedibus. Et plura alia in quibus 
+      pati<lb ed="#A" n="15" break="no"/>homo potest. In summa. cclxxvi. secundum subtilem 
+      computatio<lb ed="#A" n="16" break="no"/>nem. Dicunt quidam super illud psamus. xxxiiii. Omnia ossa mea 
+      <lb ed="#A" n="17"/>di. quod tot sunt in homine ossa quot sunt dies anni. 
+      Mu<lb ed="#A" n="18" break="no"/>sculus est membrum neruosum in quo completur motus. et 
+      ha<lb ed="#A" n="19" break="no"/>bet sensum. estque quasi quoddam compositum ex carnea substanti 
+      <lb ed="#A" n="20"/>inuoluta paruis neruis reticulatim eam circumstantibus 
+      <lb ed="#A" n="21"/>Sunt autem musculi multi. et in toto sunt. Rr. 
+      Ner<lb ed="#A" n="22" break="no"/>uus etiam est de numero membrorum quae sensum habent 
+      <lb ed="#A" n="23"/>Et est neruus qui suscipit spiritum animale a cerebro et deferi 
+      <lb ed="#A" n="24"/>ad singula membra ad faciendum sensum. Et sunt in 
+      ca<lb ed="#A" n="25" break="no"/>pite: collo: dorso: visceribus et aliis membris nerui 
+      prin<lb ed="#A" n="26" break="no"/>cipales. lxxvii. Arterie quae vocantur etiam vene pulsati 
+      <lb ed="#A" n="27"/>les sunt vie spirituum et vehicula vite et virtutum 
+      opera<lb ed="#A" n="28" break="no"/>tiuorum: continentes etiam aliquid sanguinis. Et dicuntur 
+      ar<lb ed="#A" n="29" break="no"/>terie quasi arte vie aeris. eo quod pulsat in eis spiritus aeris 
+      <lb ed="#A" n="30"/>per cordis dilatationem et constrictionem orientes a 
+      corde<lb ed="#A" n="31" break="no"/>et inde ad epar et cetera membra. Hec Albertus. Ex 
+      quo<lb ed="#A" n="32" break="no"/>hus patet acerbissimus christi dolor in singulis membris 
+      <lb ed="#A" n="33"/>et ossibus secundum quod praedixerat psalmus. Foderunt manus meas 
+      <lb ed="#A" n="34"/>et pedes meos et dinumerauerit omnia ossa mea. Idem 
+      <lb ed="#A" n="35"/>pslmura. Conturbata sunt omnia ossa mea et anima mea 
+      turba<lb ed="#A" n="36" break="no"/>ta est valde. Cutus signum apparuit in christi corpore 
+      ora<lb ed="#A" n="37" break="no"/>tis quando sanguinem sudauit. Dicit enim philosophus. ii Priorum 
+      <lb ed="#A" n="38"/>Signum est propositio demostratiua faciens fidem. Et 
+      <lb ed="#A" n="39"/>per signa corporis nobis nota syllogizamus dispositi 
+      <lb ed="#A" n="40"/>ones anime nobis ignotas. sed non legitur quis praeter 
+      chri<lb ed="#A" n="41" break="no"/>stum sanguinem sudasse. ergo dolor eius fuit acerbior. In 
+      <lb ed="#A" n="42"/>cuus perlona dicitur Thren i. O vos omnes qui transitis per 
+      <lb ed="#A" n="43"/>viam attendite etc. Deinde addit Bona. vbi supra Si ac 
+      <lb ed="#A" n="44"/>consideretur qualitas siue conditio patientis: maxima erat 
+      <lb ed="#A" n="45"/>afflictio: propter maximam complexionis equalitatem et 
+      pro<lb ed="#A" n="46" break="no"/>pter sensus viuacitatem. Unde quia nullus potuit ei equeri 
+      <lb ed="#A" n="47"/>nec in equalitate complexionis nec in viuacitate sensus 
+      <lb ed="#A" n="48"/>ideo dolor illius omnium dolorum fuit acutissimus. Hec 
+      Bo<lb ed="#A" n="49" break="no"/>nauen. Cui consonat illud Esaie. i. A planta pedis vsque 
+      <lb ed="#A" n="50"/>ad virticem non erat in eo sanitas. Et vt scribit magister 
+      <lb ed="#A" n="51"/>Iordanus et approbat Ludols. carthusiens. libro de 
+      me<lb ed="#A" n="52" break="no"/>ditr. vi. christi dicens cuidam sancte matrone necnon cuidam 
+      <lb ed="#A" n="53"/>solitario sancto fuisse reuelatum. quod christus passus fueri 
+      <lb ed="#A" n="54"/>vulnera quinquemilia quadringenta septuagintaquinque. 
+      <lb ed="#A" n="55"/>Unde si homo quolibet die volem shonorare christi vulnera 
+      di<lb ed="#A" n="56" break="no"/>ceret quindecim pater nostr. anno completo cuilibet 
+      vulne<lb ed="#A" n="57" break="no"/>ri corrpnderet vnum pater noster. O quantam acerbitatem 
+      susti<lb ed="#A" n="58" break="no"/>nuit christus in sua captione: alapizatione: percussione: 
+      <!--283.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>flagellatione: coronatione et crucifixione. De quibus psalmus 
+      <lb ed="#A" n="60"/>Ui faciebant qui quaerebant animam meam. quia faciebant cum 
+      <lb ed="#A" n="61"/>magna violentia.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1371">
+      ¶ Ad argumentum dicendum: quod 
+      <lb ed="#A" n="62"/>acerbitas pene non tantum pensatur ex parte agentis quantum ex 
+      <lb ed="#A" n="63"/>parte patientis. Actus canim actiuorum et in patiente 
+      disposi<lb ed="#A" n="64" break="no"/>to. et qualitas teneritudinis fuit in christo ergo dolor 
+      acerbi<lb ed="#A" n="65" break="no"/>or. Sicut plus dolet oculus festuca precussus quam 
+      dor<lb ed="#A" n="66" break="no"/>sum fuste percussum. sic fuit in christo.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1385">
+      ¶ Ad aliud dicendum 
+      <lb ed="#A" n="67"/>Quod licet in christo fuerit maxima doloris afflictio quantum ad 
+      <lb ed="#A" n="68"/>experientiam sensus: ratio tamen christi modicos reputabat 
+      <lb ed="#A" n="69"/>ones illos cruciatus nec tamen auferebat acerbitatem. 
+      <lb ed="#A" n="70"/>Ad vltimum dicendum secundum Rich. quod quamuis maius sit 
+      <lb ed="#A" n="71"/>illud bonum quod amittitur per peccatum quam corporalis vita christi 
+      <lb ed="#A" n="72"/>non tamen ita vehementer apprehendit penitens suam lesionem 
+      <lb ed="#A" n="73"/>sicut chistus lesionem corporis sui. Dolor enim non tantum pensatur secundum 
+      <lb ed="#A" n="74"/>lesionem quam secundum lesionis apprehensionem viuace. Et 
+      ad<lb ed="#A" n="75" break="no"/>dit sanctus Bona. quod damnificatum per se non infert 
+      dolo<lb ed="#A" n="76" break="no"/>rem sed sensus damnificationis. peccator enim minus sentit 
+      <lb ed="#A" n="77"/>damnum quod passus est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e1412">
+               <head xml:id="Vn7Pel-j83130-Hd1e1414">10 (2.3)</head>
+               <p xml:id="Vn7Pel-j83130-d1e1416">
+                  <lb ed="#A" n="78"/>¶ Queritur: an dolor christi in 
+      acer<lb ed="#A" n="79" break="no"/>bitate superauerit dolorem damnatorum. Respondetur secundum sanctum 
+      <lb ed="#A" n="80"/>Tho. in. iii. di. xv. ar. vl. in solu. quinti argum. Quod sicut 
+      <lb ed="#A" n="81"/>gaudium comprehem soris superat omne gaudium viatoris. 
+      <lb ed="#A" n="82"/>ita dolor danati superat omnem viatoris. Christus enim non 
+      <lb ed="#A" n="83"/>assumpsit nisi dolorem viatoris. Et sic dolor christi 
+      <lb ed="#A" n="84"/>si mpliciter loquendo non fuit maximus omnium dolorum cum 
+      do<lb ed="#A" n="85" break="no"/>lor damnatorum sit maior. quia ille dolor damnatum facit 
+      <lb ed="#A" n="86"/>miserum. quod absit a christo. Hec Tho. Et secundum san. 
+      Bo<lb ed="#A" n="87" break="no"/>naue. ad acerbitatem in dolore faciunt duo scilicet experientia 
+      <lb ed="#A" n="88"/>maior in sensu et repugnatio rationis: quae fortius sunt in 
+      <lb ed="#A" n="89"/>damnatis. ergo etc. Idem sanctus Tho. i. iii. parte summe. q. xlvi. 
+      <lb ed="#A" n="90"/>dicit. quod dolor in christus fuit maximus super dolores 
+      prae<lb ed="#A" n="91" break="no"/>sentis vite propter quottuor.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1449">
+      ¶ Primo propter causas 
+      dolo<lb ed="#A" n="92" break="no"/>ris. Nam causa sensibilis dolosis fuit lesio corporis 
+      Interio<lb ed="#A" n="93" break="no"/>ris autem doloris causa fuit: quia omnium peccata pro quibus 
+      satisfa<lb ed="#A" n="94" break="no"/>ciebat quasi sibi descipserat di. illud psalmus. Uerba 
+      deli<lb ed="#A" n="95" break="no"/>ctorum etc.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1460">
+      ¶ Secundo casus iudeorum et aliorum in eius 
+      morte<lb ed="#A" n="96" break="no"/>delinquantium. praecipue discipulorum qui scandalizabantur 
+      <lb ed="#A" n="97"/>tempore eius passionis
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1467">
+      ¶ Tertio amissio vite corporalis: quae 
+      na<lb ed="#A" n="98" break="no"/>turaliter est horribillis humane nature. In aliis enim 
+      <lb ed="#A" n="99"/>adiuuante gratia mitigatur passio pro deo patientium. sed in 
+      <lb ed="#A" n="100"/>christo omnia pati permittebantur Ideo dicebat illud psalmus Deus 
+      <lb ed="#A" n="101"/>peus meus vt quid dere. me etc.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1479">
+      ¶ Quarto potest considerari 
+      <lb ed="#A" n="102"/>doloris magnitudo christi ex hoc quod passio illa fuit 
+      vo<lb ed="#A" n="103" break="no"/>luntarie assumpta pro libatione hominum a peccato. Et ideo tam 
+      <lb ed="#A" n="104"/>tam quantitatem doloris assumpsit quae esset proportionata 
+      <lb ed="#A" n="105"/>magnitudini fructus qui inde sequebatur Ex quibus omnibus patet 
+      <lb ed="#A" n="106"/>christi dolor maximus 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e1492">
+                  <lb ed="#A" n="107"/>¶ Hic maxime apparet christi 
+      cha<lb ed="#A" n="108" break="no"/>ritas magna erga homines. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e1501">
+               <head xml:id="Vn7Pel-j83130-Hd1e1503">11 (3.1)</head>
+               <p xml:id="Vn7Pel-j83130-d1e1505">
+                  <lb ed="#A" n="109"/>¶ Passio christi 
+      ter<lb ed="#A" n="110" break="no"/>tio quantum ad animam in qua patiebatur 
+      ma<lb ed="#A" n="111" break="no"/>gnum dolorem. Nam secunum scilicet Tho. i. iii. dis. 
+      <lb ed="#A" n="112"/>xv. Dolor incipit in lesione et erminat in perceptione sensua 
+      <!--284.xml-->
+      <pb ed="#A" n="285"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ibi enim crompletur ratio doloris. Sed ratio doloris secundmaiam 
+      <lb ed="#A" n="2"/>siue tristicie incipit in apprehensione et terminatur in 
+      af<lb ed="#A" n="3" break="no"/>fectione. Unde dolor est passio in sensu corporali sicut 
+      <lb ed="#A" n="4"/>in subiecto. sed tristicia est passio in appetitu. tamen 
+      lo<lb ed="#A" n="5" break="no"/>quaendo communiter tristicia dicitur dolor. quia dolor non est ipsa 
+      <lb ed="#A" n="6"/>lesio tantum. set secundum Rich. potius lesionis sensatio 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e1536">
+                  <lb ed="#A" n="7"/>¶ Utrum christus passus fuerit secundum 
+      <lb ed="#A" n="8"/>rationem an etiam secundum sensualitatem: Arguitur quod non secundum 
+      ra<lb ed="#A" n="9" break="no"/>tionem. Quia quod nullius partis corporis est actus non 
+      pati<lb ed="#A" n="10" break="no"/>tur patiente corpore. sed anima secundum partem rationis nullius 
+      <lb ed="#A" n="11"/>partis corporis est actus. vt dicit philosophus. ergo anima christi non 
+      <lb ed="#A" n="12"/>est passa corpore patiente.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1552">
+      ¶ Confirmatur. quia illud quod 
+      <lb ed="#A" n="13"/>in nullo habet contrarium aliquod nec superius: non potest 
+      pa<lb ed="#A" n="14" break="no"/>ti vel ledi ab aliquo agente. sed anima christi secundum rationem 
+      ne<lb ed="#A" n="15" break="no"/>habet aliquid contrarium nec aliquod creatum seipsa superius. 
+      <lb ed="#A" n="16"/>nullo modo secundum rationem pati potuit. Respondetur secundum Richar 
+      <lb ed="#A" n="17"/>et sanctum Bona. in. iii. dist. xvi. ar. ii. q. i. Quod secundum 
+      Au<lb ed="#A" n="18" break="no"/>gus. li. xiiii. de ciui. dei duplex est dolor in anima
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1568">
+      ¶ Unde 
+      <lb ed="#A" n="19"/>qui est anime secundum se. alius qui inest anime ex carne. Utrumque 
+      <lb ed="#A" n="20"/>dolorem constans est in anima christi fuisse. Et de illo quidem 
+      dolo<lb ed="#A" n="21" break="no"/>re qui inest secundum se non est dubium quin christus fuerit passus 
+      <lb ed="#A" n="22"/>secundum rationem. compassus enim fuit et doluit pro peccatis nostris Et 
+      <lb ed="#A" n="23"/>iste dolor in voluntate rationali erat procedens ex 
+      consi<lb ed="#A" n="24" break="no"/>deratione videlicet ex recognitione peccatorum nostrorum. De alio 
+      <lb ed="#A" n="25"/>autem dolore qui inest anime ex carne non est vsquequaque cui 
+      <lb ed="#A" n="26"/>dems. Distinguunt enim magistri quod ratio dupliciter habet 
+      conside<lb ed="#A" n="27" break="no"/>rari. videlicet vt ratio et vt natura. Si consideretur vt ratio. sic 
+      <lb ed="#A" n="28"/>passiones quae ei attribuuntur sunt consequentes ipsam 
+      deli<lb ed="#A" n="29" break="no"/>berationem. Et hoc modo anima christi corpori passo non 
+      compa<lb ed="#A" n="30" break="no"/>tiebatur: imo multum gaudebat. vehementer eni ei 
+      pla<lb ed="#A" n="31" break="no"/>cebat pati pro salute humani generis. Si autem 
+      conside<lb ed="#A" n="32" break="no"/>retur vt natura. sic cum habeat naturalem appetitum et 
+      <lb ed="#A" n="33"/>interminationem ad corpus vtpote perfectio ad perfecti 
+      <lb ed="#A" n="34"/>bile patitur patiente corpore. Anima enim rationalis non tantum est 
+      per<lb ed="#A" n="35" break="no"/>fectio corporis humani secundum potentias sensibiles cum 
+      <lb ed="#A" n="36"/>corpus humanum sit ordinatum ad nobiliorem perfectio 
+      <lb ed="#A" n="37"/>onem quam sit corpus brutale s. sed secundum se totam: hoc est secundum 
+      comple<lb ed="#A" n="38" break="no"/>tum sue essentie et suarum potentiarum vniuersitatem est 
+      cor<lb ed="#A" n="39" break="no"/>poris perfectio. et habet ad ipsum naturalem appetitum et 
+      <lb ed="#A" n="40"/>inclinationem et coniunctionem et per hoc delectationem et 
+      con<lb ed="#A" n="41" break="no"/>passionem. Concedendum est ergo quod anima christi compassa fuit 
+      <lb ed="#A" n="42"/>secundum rationem secundum quod consideratur ratio vt natura. cum 
+      passio<lb ed="#A" n="43" break="no"/>christi sensibilis fuit acerbissima. vt supra ostensum est.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1626">
+      ¶ Ad 
+      <lb ed="#A" n="44"/>argumentum autem quod dicebat quod anima secundum rationem 
+      nul<lb ed="#A" n="45" break="no"/>lius partis corporis est actus
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1633">
+      ¶ Dicendum quod philosophus non vult ne 
+      <lb ed="#A" n="46"/>gare in ilis verbis naturdiem coniunctionem ipsius intellectus 
+      <lb ed="#A" n="47"/>ad corpus. Sed hoc vult dicere quod intellectus non determi 
+      <lb ed="#A" n="48"/>nat sibi organum inquantum egreditur in actum proprium. et ex 
+      <lb ed="#A" n="49"/>hoc non potest inferri quod corpori non compatiatur. Compassio et 
+      <lb ed="#A" n="50"/>illa non habet ortum ex detur minatione organi: sed ex 
+      natu<lb ed="#A" n="51" break="no"/>rali potius coniunctione.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1649">
+      ¶ Ad confirmationem 
+      argumen<lb ed="#A" n="52" break="no"/>ti quod nihil compatitur alii patienti quod non corrumpitur cum 
+      il<lb ed="#A" n="53" break="no"/>lo. Respondetur secundum Aug. li. xix. de ciui. dei. quod hoc negandum 
+      <lb ed="#A" n="54"/>est tanquam falsum. Instantiam enim habet in spiritur 
+      rationali<lb ed="#A" n="55" break="no"/>Unde illud verbum non habet veritatem nisi de illa passione quae 
+      <lb ed="#A" n="56"/>magis facta abiicit a substantia patiente vel compatiente 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e1663">
+               <head xml:id="Vn7Pel-j83130-Hd1e1665">12 (3.2)</head>
+               <p xml:id="Vn7Pel-j83130-d1e1667">
+                  <lb ed="#A" n="57"/>¶ Utrum anima christi passa fuerit. 
+      <!--284.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>secundum superiorem portionem rationis: Uidetur quod non. quia contraria 
+      <lb ed="#A" n="59"/>non possunt simuls esse in eodem et secundum idem. sed gaudium et dolor 
+      <lb ed="#A" n="60"/>sunt affectiones contrarie. ergo si christus secundum superiorem 
+      portio<lb ed="#A" n="61" break="no"/>nem rationis continue gaudebat videtur quod secundum illam 
+      dolo<lb ed="#A" n="62" break="no"/>rem non sentiebat
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1687">
+      ¶ Confirmatur sic. quia sicut culpa 
+      oppo<lb ed="#A" n="63" break="no"/>nitur gratiae ita beatitudo miserie. sed culpa non potest stare in 
+      <lb ed="#A" n="64"/>eodem et secundum idem cum gratia simul. ergo nec beatitudo et 
+      mise<lb ed="#A" n="65" break="no"/>ria secundum eandem anime portionem. Sed beatitudo erat in 
+      <lb ed="#A" n="66"/>christo secundum portionem anime superiorem ergo impossibile fuit secundum 
+      <lb ed="#A" n="67"/>illam partem in christo fuisse aliquem dolorem.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1700">
+      ¶ Sed 
+      cotra<lb ed="#A" n="68" break="no"/>hoc arguitur sic. vbi est culpa ibi esse debet pena. sed 
+      cul<lb ed="#A" n="69" break="no"/>pa Ade fuit in superiori parte rationis propter completam 
+      auer<lb ed="#A" n="70" break="no"/>sionem. Si ergo christus penam sustinui pro culpa Ade. ergo 
+      pe<lb ed="#A" n="71" break="no"/>nam sensit in superiori parte rationis
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1711">
+      ¶ Respondetur secundum sanctum 
+      Tho<lb ed="#A" n="72" break="no"/>mam. iii. parte summe. qua. xlvi. quod aliqui potentia anime potest pati 
+      <lb ed="#A" n="73"/>dupliciter. Uno modo passione propria. quae quidem est secundum quod 
+      pa<lb ed="#A" n="74" break="no"/>titur a suo obiecto. sicut si viss patiatur ex superabundati 
+      <lb ed="#A" n="75"/>visibili. Alio modo passione subiecti super quod fundatur. 
+      <lb ed="#A" n="76"/>sicut visus patitur patiente sensu: tactus in oculo 
+      super<lb ed="#A" n="77" break="no"/>quem fundatur visus. puta cum oculus pungitur ac etiam 
+      dis<lb ed="#A" n="78" break="no"/>temperatur per colorem. Sic dicendum quod si intelligamus 
+      to<lb ed="#A" n="79" break="no"/>tam animam ratione sue essentie. sic manifestum est totam 
+      ani<lb ed="#A" n="80" break="no"/>mam christi passam esse. quia tota essentia anime 
+      coniun<lb ed="#A" n="81" break="no"/>gitur corpori. et ita tota est in toto: et tota in qualibet parte eius. 
+      <lb ed="#A" n="82"/>ideo corpore patiente anima patiebatur. Si vero animam 
+      intel<lb ed="#A" n="83" break="no"/>ligamus totam secundum suas potentias sic patiebatur secundm mnes 
+      <lb ed="#A" n="84"/>vires inferiores. quia in singulis inueniebatur aliquid quod 
+      <lb ed="#A" n="85"/>erat casa doloris. sed secundum hoc superior ratio non patiebatur in 
+      chri<lb ed="#A" n="86" break="no"/>sto ex parte sui obiecti scilicet dei. qui non erat anime christi 
+      cau<lb ed="#A" n="87" break="no"/>sa doloris sed gaudii. Secundum autem illum modum 
+      passi<lb ed="#A" n="88" break="no"/>onis quo potentia aliqua dicitur pati ex parte sui subiecti. sic 
+      <lb ed="#A" n="89"/>omnes potentie anime christi patiebantur. Omnes enim potentie 
+      <lb ed="#A" n="90"/>anime radicantur in essentia eius. Ubi innuit (sicut 
+      eti<lb ed="#A" n="91" break="no"/>am alibi) quod potentie anime realiter ab essentia anime 
+      difi<lb ed="#A" n="92" break="no"/>ferant. quod non expedit tenendum. Et in sequentibus dicit. 
+      <lb ed="#A" n="93"/>Si accipiamus totam animam ratione omnium potentiarum eius: 
+      <lb ed="#A" n="94"/>sic non tota anima fruebatur. quia fruitio non potest esse actus 
+      <lb ed="#A" n="95"/>cuiuslibet partis anime. quia christus erat viator. et non fiebatu. 
+      <lb ed="#A" n="96"/>redundantia a superiori parte in inferiorem. nec ab anima 
+      <lb ed="#A" n="97"/>in corpus. sed nec superior pars anime impediebatur per 
+      infe<lb ed="#A" n="98" break="no"/>riorem. ideo christo patiente fruebatur. Clarius tamen deducit 
+      <lb ed="#A" n="99"/>sanctus Bona. vbi supra. q. ii dicens. quod passio christi non 
+      so<lb ed="#A" n="100" break="no"/>lum stetit in sensualitate nec tantum peruenit ad rationem 
+      infe<lb ed="#A" n="101" break="no"/>riorem: sed se extendit vsque ad superiorem portionem. Sicut enim 
+      <lb ed="#A" n="102"/>anima nostra ex coniunctione ad corpus tota inficitur secundum omnem 
+      <lb ed="#A" n="103"/>sui partem. sic anima christi ex coniunctione sui ad corpus 
+      pati<lb ed="#A" n="104" break="no"/>ens tota patiebatur. vt per illampassionem tota peccatrix 
+      <lb ed="#A" n="105"/>anima curaretur. Et sic fuit in christo dolor secundum superiorem 
+      <lb ed="#A" n="106"/>partem rationis. et simul fuit dolor et gaudium. Nec dolor 
+      <lb ed="#A" n="107"/>valde intensus fecit gaudium minus perfectum. 
+      difficile<lb ed="#A" n="108" break="no"/>tamen est ad intelligendum: licet sit verum
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1795">
+      ¶ Ideo ad hec 
+      intelli<lb ed="#A" n="109" break="no"/>genda tria opertet supponere quae sunt vera.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1800">
+      ¶ Primum vicet 
+      <lb ed="#A" n="110"/>quod gaudium fruitionis et dolor passionis non sunt affecti 
+      <lb ed="#A" n="111"/>ones contrarie: quia non sunt respectu eiusdem. nec omnino eodem 
+      <lb ed="#A" n="112"/>modo insunt eidem. sed vnum inest per se aliud per 
+      acci<lb ed="#A" n="113" break="no"/>dens. quia gaudium inest propter coniunctionem gratuitam ipsius 
+      <lb ed="#A" n="114"/>cum deitate. sed dolor propter naturalem coniunctionem ipsius 
+      <lb ed="#A" n="115"/>cum carne. Et quia sunt affectiones non conrie possunt in 
+      <!--285.xml-->
+      <pb ed="#A" n="286"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ansa esse secundum eandem parte
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1824">
+      ¶ Secunda suppositio quod non 
+      <lb ed="#A" n="2"/>tantum huiusmodi dolor et gaudium non sunt contraria. sed vnum est 
+      <lb ed="#A" n="3"/>materiale respectu alterius. sicut in vero penitente 
+      vi<lb ed="#A" n="4" break="no"/>demus quod simul dolet et de dolore gaudet. Sic et anima christi 
+      <lb ed="#A" n="5"/>secundum naturam corpori passocompatiebatur. tamen de illa 
+      compas<lb ed="#A" n="6" break="no"/>sione letabatur. Tertia suppositio quod christus simul erat 
+      via<lb ed="#A" n="7" break="no"/>tor et comprchensor. ita quod viatoris cognitio non 
+      impedi<lb ed="#A" n="8" break="no"/>ebat comprehensoris cognitionem nec affectio affectio 
+      <lb ed="#A" n="9"/>nem. et illud fuit in christo singulare propter officium 
+      medi<lb ed="#A" n="10" break="no"/>atoris quo debebat experiri et diuina et humana. Unde 
+      <lb ed="#A" n="11"/>sicut simul poterat perfecte conuerti ad deum et conuert 
+      <lb ed="#A" n="12"/>ad nos: ita quod vna illarum conuersionum alteram non 
+      im<lb ed="#A" n="13" break="no"/>pediebat: sic potuit secundum eandem partem anime simul 
+      <lb ed="#A" n="14"/>et sel in deo gaudere et compati corpori suo sine dimiutio 
+      <lb ed="#A" n="15"/>ne siue remissione.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1857">
+      ¶ Ad argumentum illud Quod 
+      com<lb ed="#A" n="16" break="no"/>traria non possunt inesse eidem. Dicendum quod dolor et 
+      <lb ed="#A" n="17"/>gaudium non habebant contrarietatem: imo vnum erat 
+      ma<lb ed="#A" n="18" break="no"/>teriale respectu alterius: vt patuit.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1866">
+      ¶ Ad 
+      confirmatio<lb ed="#A" n="19" break="no"/>nem argumenti: quod est verum quod beatitudo miserie 
+      oppo<lb ed="#A" n="20" break="no"/>nitur secundum legen communem. et non reperitur in aliquo simils gloria et mise 
+      <lb ed="#A" n="21"/>ria. Cuius ratio est. quia vnusquisque in vno statu est non in 
+      <lb ed="#A" n="22"/>duplici. sed christus in duplici statu erat similis Sicut in 
+      <lb ed="#A" n="23"/>christo status est compassibilistatui sine repugnantia: sic 
+      <lb ed="#A" n="24"/>beatitudo cum miseria Nec est simile omnino de gratia et 
+      cul<lb ed="#A" n="25" break="no"/>pa. quia non respiciunt diuersos status et directe habent 
+      <lb ed="#A" n="26"/>oppositionem et compossibilitatem. nisi forte quis 
+      intelli<lb ed="#A" n="27" break="no"/>gat de veniali culpa quae simul stare potest cum gratia. quia non 
+      <lb ed="#A" n="28"/>habet oppositionem directam. Expellitur autem omnis 
+      venia<lb ed="#A" n="29" break="no"/>lis culpa cum perficietur gratia. sic et a christo ablata 
+      fu<lb ed="#A" n="30" break="no"/>it passionis miseria cum consummata fuit eius 
+      <lb ed="#A" n="31"/>gloria etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e1898">
+               <head xml:id="Vn7Pel-j83130-Hd1e1900">13 (3.3)</head>
+               <p xml:id="Vn7Pel-j83130-d1e1902">
+                  <lb ed="#A" n="32"/>¶ Utrum in parte sensuali an in 
+      par<lb ed="#A" n="33" break="no"/>te rationali anime christi dolor fuerit intenssor: Respondet 
+      san<lb ed="#A" n="34" break="no"/>ctus Bona. vbi supra. q. iii. quod in christo fuit duplex 
+      do<lb ed="#A" n="35" break="no"/>lor. videlicet dolor passionis et dolor compassionis. Et vter 
+      <lb ed="#A" n="36"/>que dolor intensus fuit et acerbus. Multum enim in se 
+      <lb ed="#A" n="37"/>doluit et multum nobis condoluit. et vterque istorum in 
+      sen<lb ed="#A" n="38" break="no"/>sualitate fuit et in ratione. sed ordine permutato. Nam 
+      <lb ed="#A" n="39"/>dolor carnis primo attingebat animam secundum sensuali 
+      <lb ed="#A" n="40"/>tatem et deinde secundum alias vires. Dolor compassionis 
+      pr<lb ed="#A" n="41" break="no"/>mo erat in ratione: et ex ratione redundabat in sensualita 
+      <lb ed="#A" n="42"/>tem. Sicut enim ratione nostra dolente pro peccatis nostris gemit 
+      <lb ed="#A" n="43"/>sensualitas et lachrymatur: sic et christus. quia multum pro 
+      <lb ed="#A" n="44"/>peccatis nostris doluit. de peccatis nostris fleuit. Cum ergo 
+      compara<lb ed="#A" n="45" break="no"/>mus dolorem sensualitatis ad dolorem rationis. hoc potest 
+      <lb ed="#A" n="46"/>esse in duplici genere. Et si quidem intelligatur de 
+      dolo<lb ed="#A" n="47" break="no"/>re passionis cum ille primo attingeret: sic magis doluit 
+      <lb ed="#A" n="48"/>anima christi. quia illud magis patitur ad praesentia afflictio 
+      <lb ed="#A" n="49"/>nis quod magis est passibile. sed sensualitas in christo 
+      erat<lb ed="#A" n="50" break="no"/>magis passibilis quam ratio: quia fragilior. ergo magis 
+      patie<lb ed="#A" n="51" break="no"/>batur sensualitas dolore passionis. Si vero intelliga 
+      <lb ed="#A" n="52"/>tur de dolore compassionis quo interius affligebatur 
+      pro<lb ed="#A" n="53" break="no"/>pter peccata nostra cum ille originem habeat in ratione fuit 
+      <lb ed="#A" n="54"/>intensior. quod sic probatur. sicut dicit Augustinus. libro de lriui. 
+      <lb ed="#A" n="55"/>dei. Dolor est testimonium bone nature. ergo in 
+      melio<lb ed="#A" n="56" break="no"/>ri natura intensior est dolor tam ex parte rationis quam ex 
+      <lb ed="#A" n="57"/>parte sensualitatis. Et sic patet responsio. Membra enim 
+      <!--285.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>huius quae stionis se habent sicut excedentia et excessa.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e1967">
+      ¶ 
+      <lb ed="#A" n="59"/>Si quis autem vlterius quaerat cum ratio et sensualitas secundum 
+      <lb ed="#A" n="60"/>duo genera doloris mutuo se excedant quis eorum fue 
+      <lb ed="#A" n="61"/>rit extensior in christo. vtrum scilicet dolor passionis vel 
+      compas<lb ed="#A" n="62" break="no"/>sionis: Responderi potest quod dolor compassionis fuit in 
+      <lb ed="#A" n="63"/>tensior. Et ratio huius est. quia quamuis magna causa esset 
+      <lb ed="#A" n="64"/>dolendi in sensualitate propter separationem ipsius a carne: 
+      <lb ed="#A" n="65"/>magna etiam esset dispositio ad dolendum propter optimam 
+      <lb ed="#A" n="66"/>complexionem. In dolore tantum compassionis erat ratio 
+      <lb ed="#A" n="67"/>polendi propter inhonorationem dei et separationem 
+      no<lb ed="#A" n="68" break="no"/>stram a deo. maior etiam erat dispositio ad 
+      dolen<lb ed="#A" n="69" break="no"/>dum propter delectationis nimietatem. Secundum enim quod 
+      <lb ed="#A" n="70"/>dilectio maior est secundum hoc sunt plage compassionis 
+      ma<lb ed="#A" n="71" break="no"/>iores. Unde multo plus compassio christi excessit 
+      compassi<lb ed="#A" n="72" break="no"/>ones aliorum quam passio passiones. sicut fuit in eo 
+      excel<lb ed="#A" n="73" break="no"/>lentia tam dilectionis quam passionis respectu aliorum. licet in 
+      <lb ed="#A" n="74"/>vtroque multum excederet. Et quod iste dolor intensior 
+      <lb ed="#A" n="75"/>fuerit colligitur ex duplici signo. Unum est. maluit 
+      <lb ed="#A" n="76"/>animam suam a corpore separari quam quod nos essemus a deo se 
+      <lb ed="#A" n="77"/>pati. Aliud vero signum est quod fleuit pro peccatis nostris: sed 
+      <lb ed="#A" n="78"/>non fleuit pro penis corporis sui. Planctus autem signum est 
+      <lb ed="#A" n="79"/>amaritudinis et doloris. Ideo Philippus cancellarius 
+      <lb ed="#A" n="80"/>in prosa ait. Homo vide quid pro te patior: ad te clamo 
+      <lb ed="#A" n="81"/>qui pro te morior: vide penas quibus afficior: vide clauos 
+      <lb ed="#A" n="82"/>quibus confodior. cum sit tantus dolor exterior: interior tantum 
+      <lb ed="#A" n="83"/>planctus est grauior. tam ingratum dum te experior. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e2024">
+                  <lb ed="#A" n="84"/>¶ Ubi magna clarm christi domi 
+      <lb ed="#A" n="85"/>ni charitas erga nos homines 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2032">
+               <head xml:id="Vn7Pel-j83130-Hd1e2034">14 (4.1)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2036">
+                  <lb ed="#A" n="86"/>Passio christi. IIII. 
+      <lb ed="#A" n="87"/>quantum ad ipsius temporalitatem. Nam tempus 
+      mor<lb ed="#A" n="88" break="no"/>ctis sue praelegit idoneum. quia sciuit 
+      repro<lb ed="#A" n="89" break="no"/>bare malum et eligere bonum. Ideo passioni sue de omnitempore 
+      <lb ed="#A" n="90"/>elegit aptiora ad patiendum: videliceto de etate elegit 
+      iu<lb ed="#A" n="91" break="no"/>uentutem. de partibus anni equinoctium vernale. de mensibus 
+      <lb ed="#A" n="92"/>Martium. de lunatione plenilunium. de festinitatibus 
+      <lb ed="#A" n="93"/>pascha. de diebus: feriam sextam. de horis: nonam. Et ideo de 
+      <lb ed="#A" n="94"/>singulis praenominatis quaeruntur. 
+      </p>
+               <!-- sect 1 starts here -->
+               <p xml:id="Vn7Pel-j83130-d1e2060">
+                  <lb ed="#A" n="95"/>¶ Utrum christus debuerit in etate 
+      iu<lb ed="#A" n="96" break="no"/>uenili pati: Et arguitur quod non. quia per christi praesentiam 
+      mun<lb ed="#A" n="97" break="no"/>dus illuminabatur. secundum quod dixit Io . ix. Quandiu sum 
+      <lb ed="#A" n="98"/>in mundo lux sum mundi. conuenientius fuisset humane 
+      <lb ed="#A" n="99"/>saluti vt diutius in hoc mundo vixisset ita quod non patere 
+      <lb ed="#A" n="100"/>tur in iuuentute sed magis in senectute: vt magis 
+      il<lb ed="#A" n="101" break="no"/>luminasset
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2078">
+      ¶ In contrarium tamen huius dicitur Ioan. 
+      <lb ed="#A" n="102"/>xiii. Sciens Iesus quia venit hora eius vt transcat ex hoc 
+      <lb ed="#A" n="103"/>mundo ad patrem. Et eiusdem. Nondum venit 
+      hora<lb ed="#A" n="104" break="no"/>mea. Ubi dicit Augustinus. Ubi tatum fecit quantum 
+      suffice<lb ed="#A" n="105" break="no"/>re indicauit. Uenit hora eius non necessitatis: sed 
+      <lb ed="#A" n="106"/>voluntatis. Conuenienti igitur etate passus est 
+      Re<lb ed="#A" n="107" break="no"/>spondetur secundum Francis. mayro. et scntum Tho. iii. parte su. 
+      <lb ed="#A" n="108"/>q. xlvi. quod christus in etate iuuenili pati voluit propter 
+      <lb ed="#A" n="109"/>multa.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2099">
+      ¶ Primo vt in etate virili moriens et 
+      resuri<lb ed="#A" n="110" break="no"/>gens futuram resurgentium qualitatem in seipso christus 
+      <lb ed="#A" n="111"/>prnunciaret. secundum quod dicitur Eph. iiii. Donec occurra¬ 
+      <!--286.xml-->
+      <pb ed="#A" n="287"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>mus omnes in vnitatem fidei et agnitionis filii dei in 
+      <lb ed="#A" n="2"/>virum perfectum in mensuram etatis plenitudinis christi. Si 
+      <lb ed="#A" n="3"/>cundo ideo: vt per hoc nobis dilectionem demostraret. quia vi 
+      <lb ed="#A" n="4"/>tam suam pro nobis tunc dedit quando erat in perfectissimo statu 
+      <lb ed="#A" n="5"/>et sensu viuaci. Tertio ideo vt in eo non appareret natu 
+      <lb ed="#A" n="6"/>re diminutio sicut nec morbus. ideo nec in puericia quando non 
+      <lb ed="#A" n="7"/>dum condiderat euangelium. nec in adolescentia quando nodum 
+      <lb ed="#A" n="8"/>perfecte viuendi formam dederat debuit pati. Ideo 
+      dice<lb ed="#A" n="9" break="no"/>bat Io. vii. Adhuc modicum tempus vobiscum sum. vbi 
+      <lb ed="#A" n="10"/>dicit Lyra. q. di. non modo implebitis quod vultis. quia adhuc 
+      <lb ed="#A" n="11"/>modico tempore volo manere in populo ad docendum et mira 
+      <lb ed="#A" n="12"/>cula faciendum
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2138">
+      ¶ Occasione huius dicti quaeritur hic 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2141">
+               <head xml:id="Vn7Pel-j83130-Hd1e2143">15 (4.2)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2145">
+                  <lb ed="#A" n="13"/>¶ Utrum christus si superuixisset 
+      senio<lb ed="#A" n="14" break="no"/>defecisset et necessario mori dehuisset: Respondet 
+      Ri<lb ed="#A" n="15" break="no"/>char. i. iii. di. xviii. quod in christo fuit necessitas moriem 
+      <lb ed="#A" n="16"/>di quantum ad humanam naturam quae necessitas non fuit 
+      co<lb ed="#A" n="17" break="no"/>acta nec propter peccatum debita sed fuit voluntarie assumpta 
+      <lb ed="#A" n="18"/>ion nisi miraculose conseruasset necessario corpus suum 
+      <lb ed="#A" n="19"/>resolubile et mortale senio defecisset: quamuis 
+      valde<lb ed="#A" n="20" break="no"/>diu durasset propter excellentissimam complexionem. Fuit 
+      <lb ed="#A" n="21"/>igitur in christo necessitas senescendi et moriendi ratione 
+      na<lb ed="#A" n="22" break="no"/>ture assumpte et relicte suo regimini naturali. non tamen 
+      <lb ed="#A" n="23"/>fuit necessarium ipsum mori morte qua mortuus est nisi per 
+      <lb ed="#A" n="24"/>comparationem ad diuinam praeordinationem. secundum quod dicitur 
+      He<lb ed="#A" n="25" break="no"/>bre. ix. Statutum est homnibus mori. vbi dicit sicr. quod christus ea 
+      <lb ed="#A" n="26"/>dem necessitate nature oblatus est non sepe sed sel 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2179">
+               <head xml:id="Vn7Pel-j83130-Hd1e2181">16 (4.3)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2183">
+                  <lb ed="#A" n="27"/>¶ Utrum christus in equinoctio verna 
+      <lb ed="#A" n="28"/>li pati debuit: Arguitur quod non. sed in solstitio estiuali 
+      <lb ed="#A" n="29"/>quia sol tunc exaltatur maxime. et christus per mortem maxime 
+      exali<lb ed="#A" n="30" break="no"/>tabatur. ergo illud tempus eius passioni conueniebat. secundum quod dicitur 
+      <lb ed="#A" n="31"/>Io. xii. Opartet exaltari filium hominis. Respondetur secunum scilicet Tho. 
+      <lb ed="#A" n="32"/>vbi supra quod sicut dicitur in libro de quaestionibus vete. et no. test. tunc 
+      vo<lb ed="#A" n="33" break="no"/>luit dominus passione sua modum redimere et re formare 
+      <lb ed="#A" n="34"/>quando eum creauerat id est in equinoctio. Et tunc dies super 
+      no<lb ed="#A" n="35" break="no"/>ctem increscit. quia per passionem saluatoris a tenebris ac 
+      <lb ed="#A" n="36"/>lucem perducimur. Et quia perfecta illuminatio erit in secundo 
+      <lb ed="#A" n="37"/>christi aduentu. ideo tempus secundi aduentus estati comparatur 
+      <lb ed="#A" n="38"/>Mat. xxiiii. vbi dicitur. Cum ramus eius iam tener fuerit et 
+      <lb ed="#A" n="39"/>folia nata: scitis quia prope est esta
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2214">
+      ¶ Ita et voscum viderit 
+      <lb ed="#A" n="40"/>hec omnia scitote quia prope est et in ianuis. Et tunc etiam 
+      ex<lb ed="#A" n="41" break="no"/>altatio christi maxima erit. Per hoc patet responsio ac 
+      <lb ed="#A" n="42"/>argumentum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2225">
+               <head xml:id="Vn7Pel-j83130-Hd1e2227">17 (4.4)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2229">
+                  <lb ed="#A" n="43"/>¶ Utrum in plenilunio Martii 
+      pas<lb ed="#A" n="44" break="no"/>sus est christus. xiiii. die vl. xv. Arguitur quod passus 
+      fi<lb ed="#A" n="45" break="no"/>erit. xiiii. secundum quod dicitur Exo. xii. Quartadecima die ad 
+      <lb ed="#A" n="46"/>vesperum pasca domini est. Sed quia vt i. Cor. v. dicit apostols. 
+      <lb ed="#A" n="47"/>Pasca nostrum immolatus est christus. Sicut ergo agnus immola 
+      <lb ed="#A" n="48"/>batur. xiiii. die: ita et christus pati debuit. xiiii. die. Cur 
+      <lb ed="#A" n="49"/>consonat quod dicitur Io. xviii. quod ipsi iudi non introierunt 
+      <lb ed="#A" n="50"/>in praetorium vt non contaminarentur sed vt manducarent 
+      pa<lb ed="#A" n="51" break="no"/>sca. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2251">
+      ¶ Contrarium tamen dicit Hiero. quod christus 
+      pas<lb ed="#A" n="52" break="no"/>sus est luna. xv. existente. Respondetur secundum Lyram super. xiii. c. 
+      <lb ed="#A" n="53"/>Ioan. in quadam quaestione. quod greci dicunt: quod ista 
+      cena<lb ed="#A" n="54" break="no"/>facta fuit luna. xiii. propter auctoritates allegatas et 
+      <lb ed="#A" n="55"/>arguendo pro ista parte. Et dicunt quod christus praeuidens 
+      tem<lb ed="#A" n="56" break="no"/>pus sue passionis futurum illa die qua immolabatur 
+      <!--286.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>agnus pascalis. vt immolatio agni veri 
+      corresponde<lb ed="#A" n="58" break="no"/>ret agni figuralis immolationi: Ideo praeoccupauit 
+      co<lb ed="#A" n="59" break="no"/>medere agnum pascalem per vnum die. Et dicunt consequentur 
+      <lb ed="#A" n="60"/>quod christus corpus suum in pane fermentato consecrauit. 
+      <lb ed="#A" n="61"/>sir in dominibus eorum non inueniebatur panis am ymus 
+      <lb ed="#A" n="62"/>vsque ad. xiiii. luna. Sed dictum eorum est contra veritatem 
+      <lb ed="#A" n="63"/>euangelii. Quia Matt. xxvi. dicitur. quod prima die azx 
+      <lb ed="#A" n="64"/>morum accesserunt ad Iesum dicentes. Ubi vis 
+      pare<lb ed="#A" n="65" break="no"/>mus tibi pasca. Ite Luc. xxii. Uenit autem dies 
+      ami<lb ed="#A" n="66" break="no"/>morum in qua necesse erat occidi pasca. et misit Petrum 
+      <lb ed="#A" n="67"/>et Ioannem di. Euntes parate nobis pasca vt manduce 
+      <lb ed="#A" n="68"/>mus. Ex quibus patet manifeste quod illa cena fuit 
+      di<lb ed="#A" n="69" break="no"/>es azymorum. et per consequens luna. xiiii. existente. Et ex hoc 
+      <lb ed="#A" n="70"/>sequitur quod christus consecrauit in azymo pane. quia illo 
+      temn<lb ed="#A" n="71" break="no"/>pore non inueniebatur panis fermentatus in domibus iu 
+      <lb ed="#A" n="72"/>deorum secundum praeceptum legis per. vii. dies. vt habetur Exo. 
+      <lb ed="#A" n="73"/>xii. Sed greci in tantam vesaniam proruperunt propter 
+      de<lb ed="#A" n="74" break="no"/>fensionem sui dicti quod negant textum euangelii: dicentes 
+      <lb ed="#A" n="75"/>alios euangelistas falsum scripsisse quantum ad diem 
+      <lb ed="#A" n="76"/>huius cene. Et propter hoc Ioannes euangelista qui 
+      scri<lb ed="#A" n="77" break="no"/>psit posterior: describens hanc cenam eos correxit 
+      di<lb ed="#A" n="78" break="no"/>cens. Ante diem festum pasce etc. vt supra allegatum est. sed 
+      <lb ed="#A" n="79"/>Sed ad dictum istud sequitur descriptio totius sacre 
+      scri<lb ed="#A" n="80" break="no"/>pture: et per consequens totius fidei catholice. cum sacra 
+      <lb ed="#A" n="81"/>scriptura sit regula fidei. secundum quod scribit beatus Augustinus 
+      <lb ed="#A" n="82"/>in epistola ad Hicro.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2325">
+      ¶ Si dicatur a fidelibus quod 
+      scriptu<lb ed="#A" n="83" break="no"/>ra in aliqua sui parte contineat falsum eadem ratione poterit 
+      <lb ed="#A" n="84"/>dici ab aduersariis fidei quod in nulla sui parte 
+      habe<lb ed="#A" n="85" break="no"/>at certitudinem veritatis. Propterea fides 
+      catholi<lb ed="#A" n="86" break="no"/>ca tenet euangelistas scipsisse non a proprio capite: sed 
+      <lb ed="#A" n="87"/>spiritus sancti inspiratione. Unde dicit beatus Petrus. ii ca. i. 
+      <lb ed="#A" n="88"/>c. Spiritu sancto inspirati locuti sunt sancti dei homines. 
+      <lb ed="#A" n="89"/>Nullum autem falsum potest esse a spiritu sancto. Et ideo dicere quod 
+      <lb ed="#A" n="90"/>euangeliste in aliquo loco scripserunt falsum: est erro 
+      <lb ed="#A" n="91"/>neum. Et ideo propter praedicta dixerunt aliqui quod christus 
+      come<lb ed="#A" n="92" break="no"/>dit agnum pascale debito tempore secundum legen. videlicet luna 
+      <lb ed="#A" n="93"/>ciiii. vt dictum est. Sed iudei circa mortem christi pro 
+      <lb ed="#A" n="94"/>curandam intenti et occupati illa die non comederunt 
+      <lb ed="#A" n="95"/>pasca: sed tardauerunt post vnum die. secundum quod dicitur Io. 
+      <lb ed="#A" n="96"/>cix. quia iudei non intrauerunt praetorium Pilati 
+      il<lb ed="#A" n="97" break="no"/>la die qua passus est christus. ne contaminarentur et 
+      impe<lb ed="#A" n="98" break="no"/>direntur a comestione pasce. vt supra allegatum est. Sed 
+      <lb ed="#A" n="99"/>istud dictum non consonat cum verbis Marci 
+      euangelista<lb ed="#A" n="100" break="no"/>di. ca. xiiii. Quod prima die azymorum quando pasca 
+      mo<lb ed="#A" n="101" break="no"/>molabant: dicunt ei discipuli. Quo vis eamus 
+      <lb ed="#A" n="102"/>et paremus tibi vt manduces pasca: Ex quo videtur quod 
+      <lb ed="#A" n="103"/>eadem die qua alii immolabant agnum paschalem 
+      <lb ed="#A" n="104"/>eadem die christus immolauit agnum. et sic cenam suis 
+      di<lb ed="#A" n="105" break="no"/>scipulis fecit: luna xiiii. existente.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2377">
+      ¶ Ad argumen 
+      <lb ed="#A" n="106"/>tum dicendum. quod paschale festum apud iudeos 
+      incips<lb ed="#A" n="107" break="no"/>ebatur a vespera diei in qua luna erat. xiiii. Dies 
+      au<lb ed="#A" n="108" break="no"/>tem festiuus apud iudeos incipit a vespere vnius 
+      <lb ed="#A" n="109"/>diei et durat vsque ad vesperam diei sequentis. secundum quod 
+      <lb ed="#A" n="110"/>dicitur Leuitici. xxiiii. a vespere in vesperam 
+      celebrabi<lb ed="#A" n="111" break="no"/>tis sabbata vestra. Et sicut dies solenis pasce erat 
+      <lb ed="#A" n="112"/>luna. xv. propter quod eundem diem quem Ioannes nominat 
+      an<lb ed="#A" n="113" break="no"/>te diem festum pasce propter distinctionem dierum 
+      natu<lb ed="#A" n="114" break="no"/>ralium Marcus nominat primum diem azymorum. quia 
+      <!--287.xml-->
+      <pb ed="#A" n="288"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>a vespera praecedentis diei incipiebat primus dies et 
+      <lb ed="#A" n="2"/>durabat vsque ad vesperam diei sequentis. et sic dies 
+      pri<lb ed="#A" n="3" break="no"/>mus solennitatis paschalis celeberrima erat 
+      lu<lb ed="#A" n="4" break="no"/>na. xv. Illud vero quod non introibant iudei in 
+      preto<lb ed="#A" n="5" break="no"/>rium Pilati gentilis ne contaminarentur sed vt mandum 
+      <lb ed="#A" n="6"/>carent pasca. Ibi pasca non intelligitur agnus 
+      pasca<lb ed="#A" n="7" break="no"/>lis. quia illud pascha comederant in vespere diei p 
+      <lb ed="#A" n="8"/>cedentis. sed intelligitur de azymis panibus quos 
+      come<lb ed="#A" n="9" break="no"/>dere debebant. vii diebus. Et ideo non introierunt in dos 
+      <lb ed="#A" n="10"/>mum Pilati. quia iudei habebant comedere azyma 
+      <lb ed="#A" n="11"/>Patet responsio¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2430">
+               <head xml:id="Vn7Pel-j83130-Hd1e2432">18 (4.5)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2434">
+                  <lb ed="#A" n="12"/>¶ Utrum christus pati debebat 
+      sexta<lb ed="#A" n="13" break="no"/>feria: Respondeo quod sic. quia illa die Adam creatus et 
+      la<lb ed="#A" n="14" break="no"/>presus extiterat et inde expulsus ac ostia paradisi 
+      clau<lb ed="#A" n="15" break="no"/>sa. vt patet Gen. iii. Ideo christus merito feria 
+      sexta<lb ed="#A" n="16" break="no"/>passus hominem deo reconciliauit ac ianuas celi 
+      ape<lb ed="#A" n="17" break="no"/>ruit. Unde versus habentur. Est adam factus et eodemntempore 
+      la<lb ed="#A" n="18" break="no"/>pesus. Angelus est missus et christus in cruce passus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2453">
+               <head xml:id="Vn7Pel-j83130-Hd1e2455">19 (4.6)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2457">
+                  <lb ed="#A" n="19"/>¶ Utrum christus sit passus hora se 
+      <lb ed="#A" n="20"/>cta: Respondetur secundum sanctum Tho. vbi supra quod sicut Aug. dicit 
+      <lb ed="#A" n="21"/>libro de consensu euangelistarum Hora erat quasi sexta cum 
+      <lb ed="#A" n="22"/>traditus est christus dominus crucifigendus a Pilato. vt Io 
+      <lb ed="#A" n="23"/>annes dicit. Non enim plena sexta sed quasi media id est 
+      para<lb ed="#A" n="24" break="no"/>cta quinta. et aliquid de sexta esse ceparat donec 
+      comple<lb ed="#A" n="25" break="no"/>ta sexta christo pendente in cruce tenebre fierent. Intel 
+      <lb ed="#A" n="26"/>ligitur autem fuisse hora tertia cum clamauerunt 
+      iude<lb ed="#A" n="27" break="no"/>vt dominus crucifigeretur vt veracissime demonstretur 
+      <lb ed="#A" n="28"/>tunc eos crucifixisse quando clamauerunt. ergo ne quisque 
+      co<lb ed="#A" n="29" break="no"/>gitationem tanti criminis a iudeis aduersus 
+      mili<lb ed="#A" n="30" break="no"/>tes conuerteret. Erat inquit hora tertia et crucifixerumt 
+      <lb ed="#A" n="31"/>eum. vt illi eum potius crucifixisse inueniantur qui 
+      cru<lb ed="#A" n="32" break="no"/>cifigendum clamauerunt. Dicit tamen Lyra super. xv. 
+      ca<lb ed="#A" n="33" break="no"/>Marci. illud Erat autem hora tertia et crucifixerunt 
+      <lb ed="#A" n="34"/>eum. Io. xix. dicitur. Erat autem hora quasi sexta. secundum 
+      veri<lb ed="#A" n="35" break="no"/>tatem erat media inter sextam et tertiam. medium vero 
+      de<lb ed="#A" n="36" break="no"/>nominatur ab vtroque extremorum. Et ideo ab euangelist 
+      <lb ed="#A" n="37"/>aliquando denominatur tertia aliquando sexta. Hec ille. Uel quia 
+      <lb ed="#A" n="38"/>iudei hora tertia crucifixerunt christum liguis dicen. 
+      <lb ed="#A" n="39"/>Crucifige: crucifige eum. Milites autem hora sexta 
+      <lb ed="#A" n="40"/>clauis. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e2507">
+                  <lb ed="#A" n="41"/>¶ Hic christi magna valde apparet 
+      <lb ed="#A" n="42"/>charitas erga homines omnes nos.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j83130-Dd1e2515">
+               <head xml:id="Vn7Pel-j83130-Hd1e2517">20 (5.1)</head>
+               <p xml:id="Vn7Pel-j83130-d1e2519">
+                  <lb ed="#A" n="43"/>Passio christi quin 
+      <lb ed="#A" n="44"/>to quantum ad locum: qui mortuus est 
+      <lb ed="#A" n="45"/>extra ciuitatem hierum salem. licet sit 
+      illu<lb ed="#A" n="46" break="no"/>sus: flagellatus et spinis coronatus in ea
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2530">
+      ¶ Que 
+      <lb ed="#A" n="47"/>rituir circa hoc an conuenienti loco christus passus 
+      fue<lb ed="#A" n="48" break="no"/>rit. Et videtur quod non. Christus enim passus est secundum carnem 
+      <lb ed="#A" n="49"/>humanam. que quidem concepta fuit in Nazareth: et 
+      na<lb ed="#A" n="50" break="no"/>ta in Bethleem. ergo non in hierusalem sed in Nazaretu. 
+      <lb ed="#A" n="51"/>vel in bethleem pati debuerat. Preterea veritas de 
+      <lb ed="#A" n="52"/>bet correspondere figure. sed passio christi figurabatur 
+      pe<lb ed="#A" n="53" break="no"/>sacrificia veteris legis: sed huiusmodi sacrificia 
+      offere<lb ed="#A" n="54" break="no"/>hantur in templo. ergo videtur quod christus in templo pati debue¬ 
+      <!--287.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>rit et non extra portam ciuitatis
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2556">
+      ¶ Respondet sanctus Tho. 
+      <lb ed="#A" n="56"/>in. iii. parte summe. q. xlvi. arti. iiii. Quod sicut dicitur in 
+      li<lb ed="#A" n="57" break="no"/>pro. lxxxiii. quaestionum. Oonim ia propriis locis et tempori 
+      <lb ed="#A" n="58"/>bus gessit saluator. quia sicut omnia tempora sunt in 
+      ma<lb ed="#A" n="59" break="no"/>num eius: ita etiam omnia loca. Et ideo sicut conuenienti 
+      tem<lb ed="#A" n="60" break="no"/>pore christus passus est: ita etiam in loco conuenienti. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e2569">
+                  <lb ed="#A" n="61"/>¶ Ad argumentum primum dicendum: quod christus 
+      conue<lb ed="#A" n="62" break="no"/>nientissime in hierusalem passus est.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2577">
+      ¶ Primo quidem 
+      <lb ed="#A" n="63"/>set hierusalem erat a deo locus electus ad 
+      sacrifi<lb ed="#A" n="64" break="no"/>cia sibi offerenda. quae quidem figuralia sacrificia 
+      figu<lb ed="#A" n="65" break="no"/>rabant passionem christi quod est verum sacrificium. secundum 
+      <lb ed="#A" n="66"/>illud Eph. v. Tradidit semetipsum hostiam et oblati 
+      <lb ed="#A" n="67"/>onem in odorem suauitatis
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2590">
+      ¶ Secundo quia virtus 
+      passio<lb ed="#A" n="68" break="no"/>nis eius ad totum mundum diffundenda erat. Hierum 
+      <lb ed="#A" n="69"/>salem autem est in medio terre habitabilis. igitur 
+      pati<lb ed="#A" n="70" break="no"/>voluit in hierusalem. Unde dicitur in psalmus. Deus autem rex 
+      <lb ed="#A" n="71"/>noster ante secula operatus est salutem in medio terre 
+      <lb ed="#A" n="72"/>id est in hierusalem: quae esse terre vnibilicus dicitur 
+      Ter<lb ed="#A" n="73" break="no"/>tio quia hoc maxime conueniebat humilitati eius vt scilicet 
+      <lb ed="#A" n="74"/>sicut turpissimum genus mortis elegit: ita etiam ad 
+      <lb ed="#A" n="75"/>eius humilitatem pertinuit quod in loco tam celebri 
+      con<lb ed="#A" n="76" break="no"/>fusionem pati non recusauit. Unde Leo papa in secundmode 
+      <lb ed="#A" n="77"/>Epihie. Qui inquit serui susceparat formam Bethleem. 
+      <lb ed="#A" n="78"/>praelegit natiuitati Hieru salem passioni.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2616">
+      ¶ 
+      Quar<lb ed="#A" n="79" break="no"/>to vt ostenderet a principibus populi exortam esse iniquitatem 
+      <lb ed="#A" n="80"/>occidentium christum. et ideo in hierusalem vbi 
+      mora<lb ed="#A" n="81" break="no"/>bantur principes voluit pati. Unde dicitur Actus. iiii. 
+      Con<lb ed="#A" n="82" break="no"/>uenerunt in ista ciuitate aduersum puerum tuum quem 
+      <lb ed="#A" n="83"/>misisti Iesum Herodes et poentius Pilatus cum gentibus et 
+      <lb ed="#A" n="84"/>populis simul
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2632">
+      ¶ Ad secundum dicendum: quod christus non in 
+      <lb ed="#A" n="85"/>templo aut in ciuitate sed extra portam passus est propter 
+      <lb ed="#A" n="86"/>tria.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2639">
+      ¶ Primo quidem vt veritas corrpnderet figure. Nam 
+      <lb ed="#A" n="87"/>vitulus et hircus qui solemnissimo sacrificio ad expiati 
+      <lb ed="#A" n="88"/>onem totius multitudinis offerebantur extra 
+      castra<lb ed="#A" n="89" break="no"/>comburebantur. vt patet Leuit. xvi. et
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2648">
+      ¶ Heb. xiii. dicitur. 
+      <lb ed="#A" n="90"/>Quorum animalium infertur sanguis pro peccato in sanctam per 
+      <lb ed="#A" n="91"/>pontificem. horum corpora cremabantur extra castra. propter 
+      <lb ed="#A" n="92"/>quod et Iesus vt sanctificaret per suum sanguinem populum: 
+      <lb ed="#A" n="93"/>extra portam passus est
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2660">
+      ¶ Secundo vt daret nobis 
+      exem<lb ed="#A" n="94" break="no"/>plum exeundi a mundana conuersatione. Unde ibidem 
+      <lb ed="#A" n="95"/>subditur. Exeamus igitur ad eum extra castra 
+      impro<lb ed="#A" n="96" break="no"/>perium eius portantes.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2669">
+      ¶ Tertio vt in secundone de 
+      pas<lb ed="#A" n="97" break="no"/>sione dicit Chrys. Uoluit christus pati sub celo non in 
+      <lb ed="#A" n="98"/>templo iudaico ne iudei subtraherent sacrificium 
+      salu<lb ed="#A" n="99" break="no"/>tare. nec putares pro illa tantum plebe oblatum. Et ideo 
+      fo<lb ed="#A" n="100" break="no"/>ras muros vt sceias esse commune quod totius terre est ob 
+      <lb ed="#A" n="101"/>latio: quod communis est purificatio
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2682">
+      ¶ Sed hic 
+      difficul<lb ed="#A" n="102" break="no"/>tag oritur. Uidetur quod mortem christus pati debebat vbi 
+      <lb ed="#A" n="103"/>Adam sepultus fuerat. quia medicina debet 
+      morbo<lb ed="#A" n="104" break="no"/>correspondere. sed passio christi est medicina contra 
+      Ade<lb ed="#A" n="105" break="no"/>peccatum. Adam vero non fuit sepultus in hierusalem sed 
+      <lb ed="#A" n="106"/>in Ebron. vt dicitur Iosue. xiiii. Nomen ebron 
+      an<lb ed="#A" n="107" break="no"/>tea vocabatur cariatarbe. Adam maximus ibi inter ena 
+      <lb ed="#A" n="108"/>chiu situs erat.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2700">
+      ¶ Respondetur secundum sanctum Tho vbi supra 
+      <lb ed="#A" n="109"/>ar. iiii. et Chrys. super Matth. Adam sepultum iuxta 
+      <lb ed="#A" n="110"/>ebron in Iesu naue legitur. Magis autem Iesus 
+      cru<lb ed="#A" n="111" break="no"/>cifigendus erat in loco communi danatorum quam 
+      sepul<lb ed="#A" n="112" break="no"/>cro Ade. vt ostenderetur quod crux christi non solum erat 
+      <!--288.xml-->
+      <pb ed="#A" n="289"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in remedium contra peccatum personale ipsius Ade. Sed 
+      <lb ed="#A" n="2"/>remedium etiam contra peccatum totius mundi
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2722">
+      ¶ Secunda 
+      <lb ed="#A" n="3"/>difficultas videtur quod christus inter latrones 
+      inconue<lb ed="#A" n="4" break="no"/>nienti loco passus est. quia dicitur. ii Cor. vi. Que 
+      <lb ed="#A" n="5"/>participatio iusticie cum iniquitate: Sed christus 
+      <lb ed="#A" n="6"/>factus est nobis iusticia a deo. iniquitas autem 
+      parti<lb ed="#A" n="7" break="no"/>net ad latrones. ergo inconueniens fuit vt christus cum 
+      <lb ed="#A" n="8"/>latronibus crucifigeretur.
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2738">
+      ¶ In oppositum tamen 
+      di<lb ed="#A" n="9" break="no"/>citur Esaie. liii. Et cum sceleratis reputatus est 
+      <lb ed="#A" n="10"/>Respondetur secundum sanctum Tho. vbi supra. arti. xi. Quod christus 
+      <lb ed="#A" n="11"/>inter latrones crucifixus est. alia tamen ratione quantum ad 
+      <lb ed="#A" n="12"/>intentionem iudeorum. alia vero quantum ad dei ordina 
+      <lb ed="#A" n="13"/>tionem. Quantum ad intentionem iudeorum duos 
+      la<lb ed="#A" n="14" break="no"/>trrones vtrinque crucifixerunt (vt dicit Chrys. vt 
+      eo<lb ed="#A" n="15" break="no"/>rum suspicionis fieret particeps. sed non ita euenit 
+      <lb ed="#A" n="16"/>Nam de illis nihil dicitur. christi autem crux vbique 
+      ad<lb ed="#A" n="17" break="no"/>pratur. reges diademata deponentes assumunt 
+      crucen<lb ed="#A" n="18" break="no"/>in prurpureis: in diadematibus: in armis: in 
+      men<lb ed="#A" n="19" break="no"/>sa sucrata. vbique terrarum crux emicat. Quantum ad 
+      <lb ed="#A" n="20"/>dei ordinationem christus cum latronibus crucifixus est 
+      <lb ed="#A" n="21"/>Quia vt dicit Hiero. super Matth. Sicut pro nobis 
+      <lb ed="#A" n="22"/>maledictum crutis factus est christus: sic pro omnium 
+      sa<lb ed="#A" n="23" break="no"/>lute inter noxios quasi noxius crucifixus
+     </p>
+               <p xml:id="Vn7Pel-j83130-d1e2774">
+      ¶ 
+      Se<lb ed="#A" n="24" break="no"/>cundo vt dicit Leo papa in sermone de passione. 
+      Dunu<lb ed="#A" n="25" break="no"/>os latrones vnus ad dexteram alius ad sinistram 
+      cri<lb ed="#A" n="26" break="no"/>cifiguntur. vt in ipsa patibuli specie demostraretur illa 
+      <lb ed="#A" n="27"/>que in iudicio ipsius omnium facienda est discretio 
+      <lb ed="#A" n="28"/>Tertio secundum Bedam super Matth. Latrones signi 
+      <lb ed="#A" n="29"/>ficant eos quie sub fide et confessione christi vel agone 
+      <lb ed="#A" n="30"/>martyrii vel qualibet artioris discipline instituta 
+      sub<lb ed="#A" n="31" break="no"/>eunt. Sed qui hoc pro eterna gloria gerunt fide 
+      dextri<lb ed="#A" n="32" break="no"/>latronis designantur. Qui vero humane laudis 
+      in<lb ed="#A" n="33" break="no"/>tuitu: sinistri latronis mentem imitantur et actus. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e2798">
+                  <lb ed="#A" n="34"/>¶ Ad argumentum dicendum: quod christus debitum 
+      sep<lb ed="#A" n="35" break="no"/>culpa mortis non habuit: sed voluntarie mortem 
+      <lb ed="#A" n="36"/>assumpsit. ergo cum latronibus iniquitate non communi 
+      <lb ed="#A" n="37"/>cauit. quin potius suam gloriam cum vno illorum: 
+      <lb ed="#A" n="38"/>insuper scripturam adimpleuit. 
+      </p>
+               <p xml:id="Vn7Pel-j83130-d1e2811">
+                  <lb ed="#A" n="39"/>¶ Ubi magni dei magna relucet 
+      <lb ed="#A" n="40"/>charitas erga omnes homines.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

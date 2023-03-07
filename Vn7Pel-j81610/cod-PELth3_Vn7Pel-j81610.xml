@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nomen</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Nomen</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="275"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j81610">
+            <head xml:id="Vn7Pel-j81610-Hd1e110">Nomen</head>
+            <div xml:id="Vn7Pel-j81610-Dd1e112">
+               <head xml:id="Vn7Pel-j81610-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j81610-d1e116">
+                  <lb ed="#A" n="39"/>Nomen primo 
+      ge<lb ed="#A" n="40" break="no"/>neraliter. Nam secundum Bonauen. in i. di. xxii. 
+      <lb ed="#A" n="41"/>. q. ii. Nomen dicit tria scilicet Primo vocem. 
+      <lb ed="#A" n="42"/>Secundo significatum. Tertio rationem inotescendi.
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e127">
+      ¶ 
+      Pri<lb ed="#A" n="43" break="no"/>mo nome dicit vocem. quia secundum Aristo. in i. periher. 
+      no<lb ed="#A" n="44" break="no"/>men est vox significatiua ad placitum. Et sic 
+      restrin<lb ed="#A" n="45" break="no"/>gitur contra nomen mentale et scriptum que verius dicuntur 
+      <lb ed="#A" n="46"/>conceptus quam nomina. Hoc modo dicimus: hoc noment 
+      <lb ed="#A" n="47"/>est Petri aut Pauli. Secundo nomen dicit 
+      signifi<lb ed="#A" n="48" break="no"/>catum. sicut dicimus bonum et honestum sunt idem 
+      nomi<lb ed="#A" n="49" break="no"/>ne. Tertio nomen dicit innotescere rationem. sicut 
+      dici<lb ed="#A" n="50" break="no"/>mus quod alio modo innotescit nobis deus inquantum 
+      <lb ed="#A" n="51"/>veritas. alio modo inquantum bonitas. Unde proprie 
+      loquen<lb ed="#A" n="52" break="no"/>do de nomine Nomen est terminus secunde impositionis in 
+      <lb ed="#A" n="53"/>prima impositione fundatus
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e153">
+      ¶ Notandum quod secundum 
+      <lb ed="#A" n="54"/>Sco. i. i. di. xxii. q. i. Ad hoc quod aliquid nomen dicatur 
+      <lb ed="#A" n="55"/>tria requiruntur. Primo quod ab vtente vt signum recipiatur 
+      <!--274.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>et non vt res. quia si pica proferat hunc terminum petrus 
+      <lb ed="#A" n="57"/>non proprie dicitur petrum nominare. quia non accipit vt est signum 
+      <lb ed="#A" n="58"/>sed vt est res quaedam. Secundum requiritur quod non solum 
+      <lb ed="#A" n="59"/>alicui sit signum: sed vtenti. vnde si aliquis nesciens 
+      hebra<lb ed="#A" n="60" break="no"/>icum: characteres hebreos proferret: licet eosdem caperet 
+      iu<lb ed="#A" n="61" break="no"/>deus: non tamen proprie: tunc essent nomina: ex quo proferens non 
+      <lb ed="#A" n="62"/>intelligeret Tertium quod ad minus vtens vel proferens 
+      <lb ed="#A" n="63"/>aliqulem cognltionem per nomen signati habeat siue in 
+      <lb ed="#A" n="64"/>particulari siue in vniuersali. sicut proferens hoc 
+      no<lb ed="#A" n="65" break="no"/>mem homo aliquam cognitionem hominis habet: licet non 
+      re<lb ed="#A" n="66" break="no"/>quiratur quod cognoscat eius substantiam. quia in via rerum 
+      substan<lb ed="#A" n="67" break="no"/>tie nobis sunt ignote. Addunt aliqui Quartum prout 
+      tan<lb ed="#A" n="68" break="no"/>git idem Sco. vt alii per nomen fiat manifestatio quam 
+      <lb ed="#A" n="69"/>uis non necessario requiratur. Possum enim mihimet 
+      lo<lb ed="#A" n="70" break="no"/>qui et completam habere nomins rationem. Uerum est tamen quod dum ad 
+      <lb ed="#A" n="71"/>alium refertur magis completur nominis ratio. Unde dicit 
+      Pla<lb ed="#A" n="72" break="no"/>to in Timeo. Ad hoc datus est nobis sermo vt 
+      mu<lb ed="#A" n="73" break="no"/>tuos nostros conceptus valeamus exprimere. De hoc 
+      plu<lb ed="#A" n="74" break="no"/>ra habentur li. i. titulo Nomen. 
+      </p>
+               <p xml:id="Vn7Pel-j81610-d1e205">
+                  <lb ed="#A" n="75"/>¶ Ubi appareat dei immensa chari 
+      <lb ed="#A" n="76"/>tas erga homines. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81610-Dd1e213">
+               <head xml:id="Vn7Pel-j81610-Hd1e215">2 (2.1)</head>
+               <p xml:id="Vn7Pel-j81610-d1e217">
+                  <lb ed="#A" n="77"/>¶ Nomen secundo 
+      singu<lb ed="#A" n="78" break="no"/>lariter Iesus christus. Nam Iesus secundum 
+      tria<lb ed="#A" n="79" break="no"/>idiomata principalia tria habet nomina secundum 
+      <lb ed="#A" n="80"/>Isid. li. vii. etynm. In greco dicitur soter. In hebreo 
+      Ie<lb ed="#A" n="81" break="no"/>sus. In latino saluator. Unde in ve. test. tres 
+      salua<lb ed="#A" n="82" break="no"/>tores reperiuntur: hoc nomine Iesus vocati. Primus 
+      Ie<lb ed="#A" n="83" break="no"/>sus siue Iosue propter potentiam praeliorum Secundus Iesus 
+      <lb ed="#A" n="84"/>Sidrach propter scientiam et doctrinam qui composuit 
+      Eccle<lb ed="#A" n="85" break="no"/>siasticum. Tertius Iesus Iosedech propter bonitatem qui 
+      fu<lb ed="#A" n="86" break="no"/>it sacerdos. Noster autem Iesus siue saluator saluauit 
+      <lb ed="#A" n="87"/>his tribus modis scilicet potentia: scientia: et bonitate. Christus 
+      <lb ed="#A" n="88"/>similiter secundum Isid. tripliciter nominatur. In greco enim dicitur christus. 
+      <lb ed="#A" n="89"/>In hebreo dicitur Messias. In latino vero dicitur vnctus. 
+      <lb ed="#A" n="90"/>Unde in vetri lege aliqui dicti sunt christi propter potentiam 
+      <lb ed="#A" n="91"/>sicut Cyrus rex parlarum. De quo Esa. xlv. Hec dicit dominus christo 
+      <lb ed="#A" n="92"/>meo Cyro. Secundi dicti sunt christi propter scientiam. sicut 
+      <lb ed="#A" n="93"/>prophete. de quibus psali. Nolite tangere christos meos: et in 
+      <lb ed="#A" n="94"/>prophetis meis nolite malignari. Tertio christus dictus est 
+      <lb ed="#A" n="95"/>propter bonitatem: sicut noster christus. de quo Psalmus Unxit te 
+      <lb ed="#A" n="96"/>deus deus tuus praeconsortibus tuis.
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e263">
+      ¶ Notandum quoque quod 
+      <lb ed="#A" n="97"/>secundum quod dicit Damasce. li. iii. sentur. quod differunt ista nomina 
+      <lb ed="#A" n="98"/>scilicet Iesus et christus. Iesus enim nominat hominem deum 
+      fa<lb ed="#A" n="99" break="no"/>ctum. Christus vero deum humanitati vnitum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81610-Dd1e273">
+               <head xml:id="Vn7Pel-j81610-Hd1e275">3 (2.2)</head>
+               <p xml:id="Vn7Pel-j81610-d1e277">
+                  <lb ed="#A" n="100"/>¶ Utrum conuenienter fuit christo 
+      <lb ed="#A" n="101"/>nomen Iesus impositum: Arguitur quod non. quia veritas 
+      euan<lb ed="#A" n="102" break="no"/>gelica dcbet prenunciationi prophetice respondere. sed propheate 
+      no<lb ed="#A" n="103" break="no"/>mem aliud de christo pronunciauerunt. sicut Esa. ca. vii. 
+      Ecce<lb ed="#A" n="104" break="no"/>virgo concipiet et pa. fi. et vocabitur nomen eius Emanuel. 
+      <lb ed="#A" n="105"/>Idem ca. viii. Uoca nomen eius accelera spolia 
+      detra<lb ed="#A" n="106" break="no"/>he festina praedari. Et eiusdem. ix. ca. Uocabitur nomen 
+      <lb ed="#A" n="107"/>eius admirabilis: consiliarius: deus fortis: pater futuri seclesi: 
+      <lb ed="#A" n="108"/>princeps pacis. Et Tach. vi. Ecce vir oriens nomen eius 
+      </p>
+               <p xml:id="Vn7Pel-j81610-d1e299">
+                  <lb ed="#A" n="109"/>¶ Preterea Esa. liiii. dicitur. Uocabitur tibi nomen nouum quod 
+      <!--275.xml-->
+      <pb ed="#A" n="276"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>os domini nominauit. Sed hoc nomen Iesus non est 
+      nomen<lb ed="#A" n="2" break="no"/>nouum. sed pluribus in veteri te. fuerat impositum: vt 
+      patu<lb ed="#A" n="3" break="no"/>it ergo videtur quod inconuenienter sit vocatum nomen eius iesus 
+      </p>
+               <p xml:id="Vn7Pel-j81610-d1e317">
+                  <lb ed="#A" n="4"/>¶ Confirmatur. Nam hoc nomen Iesus salutem signat secundum 
+      <lb ed="#A" n="5"/>(quo Mat. i. dicitur. Pariet filium et vocabitur nomen eius 
+      Ie<lb ed="#A" n="6" break="no"/>sus. ipse saluum faciet populum suum a peccatis eorum. Sed 
+      sa<lb ed="#A" n="7" break="no"/>lus est facta non solum iudeis de quorum populo Iesus erat:. 
+      <lb ed="#A" n="8"/>sed etiam gentilibus. hoc est: non solum in circucisione 
+      exi<lb ed="#A" n="9" break="no"/>stentibus sed etiam in praeputio. ergo inconuenienter est eius nomen 
+      <lb ed="#A" n="10"/>Iesus vocatum. Sed in conrium dicitur Luc. ii quod postquam 
+      <lb ed="#A" n="11"/>consummati sunt dies octo vt circumcideretur puer 
+      voca<lb ed="#A" n="12" break="no"/>tum est nomen eius Iesus
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e339">
+      ¶ Respondetur secundum Lyram super ca ii. 
+      <lb ed="#A" n="13"/>Lu. cui concordia scilicet Tho. iii. parte summe. q. xxxvii. Quod 
+      <lb ed="#A" n="14"/>hoc nomen Iesus fuit proprie ei impositum. Nomina enim 
+      <lb ed="#A" n="15"/>si bene imponantur imponi debent a proprietatibus rerum. et 
+      <lb ed="#A" n="16"/>hoc patet de nominibus generum et specirum. de quibus dicitur. iiii. 
+      <lb ed="#A" n="17"/>metaph. Ratio qua signat nomen est diffinitio: quod 
+      <lb ed="#A" n="18"/>desi guat propriam rei natura. Nomina autem singularium si bene 
+      <lb ed="#A" n="19"/>imponantur imponi debent ab aliqua proprietate eius 
+      cur<lb ed="#A" n="20" break="no"/>nomen imponitur. Aliquando a tempor: sicut nomina aliquorum sanctorum 
+      <lb ed="#A" n="21"/>imponuntur pueris natis in festis eorum. Ula cognatione 
+      <lb ed="#A" n="22"/>eius: sicut cum filio imponitur nomen patris vel alicuius de 
+      cog<lb ed="#A" n="23" break="no"/>tione eius: sicut propinqui Ioam. baptiste volebant eum 
+      voca<lb ed="#A" n="24" break="no"/>re nomine patris sui Tachariam. non autem Ioannem: quia nullus 
+      <lb ed="#A" n="25"/>erat in cognatione illa qui vocaretur hoc nomine: Lu. i. 
+      <lb ed="#A" n="26"/>Aliquando ab cuentum: sicut Ioseph vocauit primogenti 
+      <lb ed="#A" n="27"/>tum suum Manassem: dices. Obliuisci me fecit deus 
+      <lb ed="#A" n="28"/>omnium laborum meorum Gen. xli. Aliquando ab aliqua qualita 
+      <lb ed="#A" n="29"/>te eius cui nomen imponitur: sicut primogenitus Isaac 
+      <lb ed="#A" n="30"/>vocatus est Esau: quod interpretatur rubeus vel rufus. 
+      <lb ed="#A" n="31"/>quia de vtero matris exiuit rufus et totus in morem 
+      <lb ed="#A" n="32"/>pellis hispidus Gen. xxv. Aliquando ex aliquo dono dei 
+      <lb ed="#A" n="33"/>gratuito: sicut Mat. xvi. dictum est Pecro. Tu es 
+      <lb ed="#A" n="34"/>petrus et super hanc petram etc. Homini autem christo hoc munus 
+      <lb ed="#A" n="35"/>gratiae collatum erat vt per ipsum omnes saluarentur. Ideo 
+      conue<lb ed="#A" n="36" break="no"/>nienter vocatum est nomen eius Iesus id est saluator: hoc 
+      <lb ed="#A" n="37"/>nomen praenunciante angelo non solum matri: sed et Ioseps 
+      <lb ed="#A" n="38"/>qui erat futurus nutricius eius
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e399">
+      ¶ Ad argumentium 
+      <lb ed="#A" n="39"/>ergo primum dicendum: quod in omnibus illis nominibus quodammodo 
+      si<lb ed="#A" n="40" break="no"/>gnatur hoc nomen Iesus quod est significatiuum salutis. 
+      <lb ed="#A" n="41"/>Nam in hoc quod dicitur Emanuel quod interpretatur nobiscum 
+      <lb ed="#A" n="42"/>deus: designatur causa salutis quae est vnio diuine et 
+      hu<lb ed="#A" n="43" break="no"/>mane nature in persona filii dei: per quem factum est vt 
+      <lb ed="#A" n="44"/>deus esset nobiscum particeps nostre nature. Per hoc autem 
+      <lb ed="#A" n="45"/>quod dicitur Uoca nomen eius accelera: spolia: detrahe etc. 
+      <lb ed="#A" n="46"/>designatur a quo nos saluamur: quia a diabolo cuius 
+      spo<lb ed="#A" n="47" break="no"/>lia abstulit: secundum illud Col. ii Expolians principatus et 
+      <lb ed="#A" n="48"/>potestates traduxit confidenter etc. In hoc autem quod dicitur quod vo 
+      <lb ed="#A" n="49"/>cabitur nomen eius admirabilis designatur via et termiuus 
+      <lb ed="#A" n="50"/>nie salutis inquantum scilicet admirabili dei consilio ad 
+      he<lb ed="#A" n="51" break="no"/>reditatem futuri seculi perducimur: in quo erit pax 
+      perfe<lb ed="#A" n="52" break="no"/>cta filiorum dei. Quod vero dicit Ecce vir oriens nomen eius: 
+      <lb ed="#A" n="53"/>ad idem refertur ad quod primum scilicet ad incarnationis 
+      my<lb ed="#A" n="54" break="no"/>sterium: vbi exortum est lumen rectis corde.
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e436">
+      ¶ Ad secundum 
+      <lb ed="#A" n="55"/>dicendum quod in his qui fuerunt ante christum potuit conuenire 
+      <lb ed="#A" n="56"/>hoc nomen Iesus secundum aliquam aliam rationem: puta quia 
+      <lb ed="#A" n="57"/>aliquam particularem salutem attulerunt. Sed secundum rationem 
+      <lb ed="#A" n="58"/>spiritualis et vniuersalis salutis hoc nomen proprium est christo 
+      <!--275.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>Et hoc ditur esse nomen nouum
+     </p>
+               <p xml:id="Vn7Pel-j81610-d1e454">
+      ¶ Ad tertium dicendum 
+      <lb ed="#A" n="60"/>quod sicut Gen. xvii. legitur quod Abraam simuls accepit a deo 
+      <lb ed="#A" n="61"/>nominis impositionem et circumcisionis mandatum: ita apud 
+      <lb ed="#A" n="62"/>iudeos consuetum erat vt ipso die circumcisionis nomi 
+      <lb ed="#A" n="63"/>na pueri imponerentur quasi ante circumcisionem perfectum 
+      <lb ed="#A" n="64"/>esse non habuerint. sicut etiam et nunc pueris in baptismo 
+      <lb ed="#A" n="65"/>nomina imponuntur. Unde super illud Prouer. iiii. Ego 
+      fi<lb ed="#A" n="66" break="no"/>lius fui patris mei tenellus et vnigenitus coram matre mea 
+      <lb ed="#A" n="67"/>dicit gloria Quare Salomodo se vnigenitum coram matre 
+      <lb ed="#A" n="68"/>sua nominat quem fratrem vterinum scriptura praecessisse 
+      te<lb ed="#A" n="69" break="no"/>statur: nisi quia ille mox natus sine nomine quasi nunquam esset 
+      <lb ed="#A" n="70"/>de vita decessit. Et ideo christus cum fuerit circumcisus 
+      <lb ed="#A" n="71"/>simlis nominis impositionem accepit vel potius publicationem. 
+      </p>
+               <p xml:id="Vn7Pel-j81610-d1e483">
+                  <lb ed="#A" n="72"/>¶ Ubi maxima manifestatur 
+      diui<lb ed="#A" n="73" break="no"/>na charitas erga homines.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

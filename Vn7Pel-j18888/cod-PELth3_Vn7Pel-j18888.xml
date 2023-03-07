@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amicicia christi</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Amicicia christi</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="25"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j18888">
+            <head xml:id="Vn7Pel-j18888-Hd1e110">Amicicia christi</head>
+            <p xml:id="Vn7Pel-j18888-d1e112">
+               <lb ed="#A" n="30"/>¶ Amicicia christus 
+      <lb ed="#A" n="31"/>Charitas quamira claret in amiciciem 
+      <lb ed="#A" n="32"/>christi ad nos.
+      </p>
+            <p xml:id="Vn7Pel-j18888-d1e121">
+               <lb ed="#A" n="33"/>¶ Primo quia christos dominus nos seruos vo-
+      <lb ed="#A" n="34"/>care amicos dignatur. 
+      </p>
+            <div xml:id="Vn7Pel-j18888-Dd1e128">
+               <head xml:id="Vn7Pel-j18888-Hd1e130">1</head>
+               <p xml:id="Vn7Pel-j18888-d1e132">
+                  <lb ed="#A" n="35"/>¶ Questio ergo est. quare christus dominus 
+      su<lb ed="#A" n="36" break="no"/>os fideles potius amicos dignatus est vocare quam seruos 
+      <lb ed="#A" n="37"/>Et patet Io. xvi Uos amici mei esti si fece. quae praecc. vi. 
+      <lb ed="#A" n="38"/>Et iterum c. xiiii. Iam non dicam vos ser. sed a. etc. Hoc 
+      quip<lb ed="#A" n="39" break="no"/>pe mirum est cum nullus principum suum seruum solitus sit 
+      voca<lb ed="#A" n="40" break="no"/>re vel nominare amicum et frem. sicut fecit christus suis: 
+      R<lb ed="#A" n="41" break="no"/>secundum doc. quod christus dominus sic voluit ex mira et ineffab 
+      <lb ed="#A" n="42"/>li diuina charitate ad nos. Ex qua fecit primo summe 
+      <lb ed="#A" n="43"/>admirandum nobis beneficium cum ipse deus pro nobis factus est 
+      <lb ed="#A" n="44"/>homo
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e156">
+      ¶ Secundo ad huc mirabilius. cum non solum factus 
+      <lb ed="#A" n="45"/>nobis similis homo mortalis: sed etiam seruus. etiam minimo 
+      <lb ed="#A" n="46"/>rum seruorum vsque ad plantam pedis se humiliando. dum 
+      pe<lb ed="#A" n="47" break="no"/>des discipulorum genibus flexis lauit. Et Luce. xxii 
+      <lb ed="#A" n="48"/>ait. Ego in medio vtrum sum sicut qui minstrat. Denique 
+      <lb ed="#A" n="49"/>tertio isuper mirabilisssme charitatis fuit: quod pro nobis 
+      <lb ed="#A" n="50"/>nedum seruis sed malis et eius inimitis opprobria et 
+      lu<lb ed="#A" n="51" break="no"/>dibria: verbera: vincula et mortem acerbissimam 
+      susti<lb ed="#A" n="52" break="no"/>nuit vt fdimeret a diabolo et in reges celestes 
+      promo<lb ed="#A" n="53" break="no"/>ueret.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e178">
+      ¶ Sed ad quaesitum. Curnos amicos nomina 
+      <lb ed="#A" n="54"/>uit: Prima ratio est: vt nos in voluntate ei conformes 
+      <!--24.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>essemus. quia secundum philosophum et Hiero. Amicorum est idem velle 
+      <lb ed="#A" n="56"/>et idem nolle
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e191">
+      ¶ Secunda ratio. vt non timore seruili sed amol 
+      <lb ed="#A" n="57"/>re filiali ei deseruiremus in praeceptis scilicet obediendo 
+      <lb ed="#A" n="58"/>Tertia vt certificati de eius amore: amicicie cuius 
+      <lb ed="#A" n="59"/>est bonum velle amato: ipsum reamaremus. Ideo dixit 
+      <lb ed="#A" n="60"/>sic: Uos amici mei estis si feceri. quae ego praecipio vobis 
+      <lb ed="#A" n="61"/>Non enim dixit eritis in futuro. quia quod futurum est 
+      sepe<lb ed="#A" n="62" break="no"/>dubitatur. sed dixit amici mei estis per verbum praenens. quia quia 
+      <lb ed="#A" n="63"/>praesens est certum est. Unde Ber. de diligendo deo dicit. 
+      No<lb ed="#A" n="64" break="no"/>mo se amari diffidat qui iam amat. dei enim amor 
+      que<lb ed="#A" n="65" break="no"/>praeuenit subsequitur scilicet vt reametur. Nam quomodo amare 
+      pi<lb ed="#A" n="66" break="no"/>geat iam amantes quos amauit non dum amantes. Hec ille 
+      <lb ed="#A" n="67"/>Ecceergo mira dei charitas qua nos amicos vocati. 
+      <lb ed="#A" n="68"/>quia amari vult potius quam timeri. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e221">
+               <head xml:id="Vn7Pel-j18888-Hd1e223">2</head>
+               <p xml:id="Vn7Pel-j18888-d1e225">
+                  <lb ed="#A" n="69"/>¶ Sed quomodo possit vera amicicia 
+      <lb ed="#A" n="70"/>esse inter deum et hominem Cum dicat philosophs viii. Ethi. quod 
+      ve<lb ed="#A" n="71" break="no"/>ra amicicia non est domini ad seruum. quia sunt dissiles. Ami 
+      <lb ed="#A" n="72"/>cicia enim est equalis ad equlem: Inferioris veroad super 
+      <lb ed="#A" n="73"/>orem est timor et reuerentia: Superioris at ad 
+      inferi<lb ed="#A" n="74" break="no"/>orem disciplia. Respondetur. quod sicut ibide philosophus addit. domini 
+      <lb ed="#A" n="75"/>ad seruum inquantum seruus non est amicicia. sed secundum quod 
+      <lb ed="#A" n="76"/>homo est sibi similis. ergo vt sic est amicicia inter eos. et ita est 
+      <lb ed="#A" n="77"/>in proposito. quia deus factus est homo ergo vt sic est amicus 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e247">
+                  <lb ed="#A" n="78"/>¶ Quod autem sit amicicia vera inter deum et 
+      ho<lb ed="#A" n="79" break="no"/>mnine patet ex diffinitione amicicie ibidem per Aristoti 
+      <lb ed="#A" n="80"/>lem data. quod amicicia vera est dilectio per quam ipsi 
+      ami<lb ed="#A" n="81" break="no"/>ci beniuoli sunt ad inuicem et bona volunt propter se et hec 
+      <lb ed="#A" n="82"/>non lateat apud eos: gratiaque alicus boni finis. In 
+      ha<lb ed="#A" n="83" break="no"/>diffinitione secundum Tho. in scripto super liro Ethico. quod 
+      re<lb ed="#A" n="84" break="no"/>collegit ex Alb. commento. e. lib. Ethico. notantur 
+      quattu<lb ed="#A" n="85" break="no"/>or quae requiruntur ad rationem et integritatem vere amicicie 
+      int<lb ed="#A" n="86" break="no"/>quoscumque.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e269">
+      ¶ Primum est dilectio. scilicet boni veri simplicter 
+      <lb ed="#A" n="87"/>vel salte apparentis secundum quid. alias non est diligibile. Unde 
+      <lb ed="#A" n="88"/>Isido. de sum. bo. dicit. Amicicia tantum in bonis rebus 
+      <lb ed="#A" n="89"/>habetur. Nam qui ea in malo vtuntur (inquit) non sibi 
+      amici<lb ed="#A" n="90" break="no"/>sunt sed inimici. Hec ille. Ratio. quia diligere aliquem in 
+      <lb ed="#A" n="91"/>malo et odire. Psalmus Qui diligit iniquitatem odit animam 
+      <lb ed="#A" n="92"/>Secunum est reamatio. Ideo dicitur in diffinitione. quod est 
+      di<lb ed="#A" n="93" break="no"/>lectio per qua sunt amici ad inuicenm. vnde si amans non 
+      <lb ed="#A" n="94"/>reamatur no dicitur amicicia sed tantummodo amor. quia ibi noct 
+      <lb ed="#A" n="95"/>communicatio vel vicissitudo amoris mutui secundum 
+      propor<lb ed="#A" n="96" break="no"/>tionem. quod requirit. amicicia. Exemplum. si ames inanima 
+      <lb ed="#A" n="97"/>ta et irrationalia
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e295">
+      ¶ Tertium est beniuolentie apertio. Ideo 
+      <lb ed="#A" n="98"/>dicitur quod beniuoli sunt et hec non latent. Nam. viii. ethi. diciu 
+      <lb ed="#A" n="99"/>quod amicicia fundatur in beniuolentia quae vult bonum 
+      ami<lb ed="#A" n="100" break="no"/>cogratia amici et non propter proprium bonum. Unde cum homo 
+      <lb ed="#A" n="101"/>amat panem que comedit vel vestem quam seruare vult. 
+      <lb ed="#A" n="102"/>quia amat inquantum sibi est bonum proprium et non amato paet 
+      <lb ed="#A" n="103"/>ni vel vesti etc. ergo non est amor amicicie sed 
+      concupiscen<lb ed="#A" n="104" break="no"/>tie proprii commodi. In hoc etia requiritur quod talis 
+      beniuo<lb ed="#A" n="105" break="no"/>lentia no sit lates apud eos scilicet amicos. alias esset amo 
+      <lb ed="#A" n="106"/>occulte conscientie.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e318">
+      ¶ Quartum est finis intentio. vt scilicet propter 
+      <lb ed="#A" n="107"/>bonum vel honestum vel delectabile vel vtile. hec omnia sunt 
+      <lb ed="#A" n="108"/>in christi amicicia scilicet dilectio boitatis et reamatio dei 
+      <lb ed="#A" n="109"/>et econuerso. Beniuolentia quoque aperta per opera et intentio 
+      <lb ed="#A" n="110"/>salutis. ecce charitas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e331">
+               <head xml:id="Vn7Pel-j18888-Hd1e333">3</head>
+               <p xml:id="Vn7Pel-j18888-d1e335">
+                  <lb ed="#A" n="111"/>¶ Secudo charitas in amicicia 
+      <!--25.xml-->
+      <pb ed="#A" n="26"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>christi claret. quia amat christus vt ad salutem nostram reametur 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e348">
+                  <lb ed="#A" n="2"/>¶ Queritur ergo vtrum amicicie virtus 
+      <lb ed="#A" n="3"/>magis consistat in amare quam in amari: Rse. secundum 
+      Rar<lb ed="#A" n="4" break="no"/>ne id est sum. cum Tho. in scip. super. viii. Ethi. et Alb. in 
+      con<lb ed="#A" n="5" break="no"/>mento ibidem ponendo conclusionem. quod Amicicie virtus 
+      <lb ed="#A" n="6"/>magis consistit in amare quam amari. probatur Primo ratio 
+      <lb ed="#A" n="7"/>ne actionis. quia nobilius est bene agere vel operari quam bene 
+      <lb ed="#A" n="8"/>pati. Cum ages sit nobilius et praestantius passo. ex. iii. et 
+      <lb ed="#A" n="9"/>anima. Sed amare est bene operari Amari autem est poti 
+      <lb ed="#A" n="10"/>bene pati. ergo etc. Minor patet ex diffinitione amiciciteo 
+      <lb ed="#A" n="11"/>ii. Ethi. per Aristo. dit quod Amicicia est quae amicus est 
+      opera<lb ed="#A" n="12" break="no"/>tiuus eorum quae bona putat amico suo non propter seipsum: 
+      <lb ed="#A" n="13"/>sed propter amicum. Isto modo alio diffinit Aristo. 
+      ami<lb ed="#A" n="14" break="no"/>ciciam praeter illam diffinitionem quae dicta est. §. praecedenti.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e379">
+      ¶ 
+      Se<lb ed="#A" n="15" break="no"/>cundo probatur ratione laudabilis commendationis. quia illud 
+      ma<lb ed="#A" n="16" break="no"/>gis pertinet ad virtutem amicicie quod in amicis est 
+      ma<lb ed="#A" n="17" break="no"/>gis laudabile in vnoquoque eorum. sed hoc est amare potus 
+      <lb ed="#A" n="18"/>que amari. quia amicus quisque magis laudabilis est ex 
+      eo<lb ed="#A" n="19" break="no"/>quod amat quam quod amatur. ergo etc. Maior patet. sed Mior 
+      <lb ed="#A" n="20"/>probatur. quia vnusqusque secundum propriam virtutem et non secundum alienam 
+      <lb ed="#A" n="21"/>laudatur. et quia quod amamus aliquem est proprie virtutis. sed quod 
+      <lb ed="#A" n="22"/>amemur hoc est virtutis aliene. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e399">
+      ¶ Tertio ratione 
+      obli<lb ed="#A" n="23" break="no"/>gationis. quia melius est quod alii obligentur nobis quam nos 
+      ob<lb ed="#A" n="24" break="no"/>ligemur aliis. sed cum amamus alios: illos nobis 
+      obli<lb ed="#A" n="25" break="no"/>gamus. cum vero amamur: aliis obligamur. ergo etc. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e409">
+                  <lb ed="#A" n="26"/>¶ Quarto ratione praemiationis. quia illud quo meremur et 
+      prae<lb ed="#A" n="27" break="no"/>miamur est melius eo quo nec meremur nec praemiamur 
+      <lb ed="#A" n="28"/>sed cum amamus nobis meremur et praemiamur. cum autem 
+      <lb ed="#A" n="29"/>amamur alii merentur sibi et praemiantur ex hoc. ergo patet et 
+      <lb ed="#A" n="30"/>his quod amicicia licet vtrumque requirat: tamen principalius est in 
+      <lb ed="#A" n="31"/>amare quam in amari. vnde imperfectio amicicie est eius qu 
+      <lb ed="#A" n="32"/>magis vult amari quam amare sicut est in fictis amicio. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e427">
+                  <lb ed="#A" n="33"/>¶ Ad praemissa est similitudo. Nam matres et patres quorum 
+      <lb ed="#A" n="34"/>vehemens est amor ad filios magis gaudent et 
+      dele<lb ed="#A" n="35" break="no"/>ctantur in hoc quod ament filios quam amentur ab eis. vnde 
+      scp<lb ed="#A" n="36" break="no"/>dant filios nutricibus ad nutriendum et scientes eos esse 
+      <lb ed="#A" n="37"/>filios suos amant illos nec tamen curant nec multum quae 
+      <lb ed="#A" n="38"/>runt quod ab eis reamentur scilicet sufficit eis videre quod bene se 
+      <lb ed="#A" n="39"/>habeant ipsi filii. et ita parentes amant filios quamuis non 
+      <lb ed="#A" n="40"/>reamentur a filiis eo quod filii ipsi ignorant hos esse suos 
+      <lb ed="#A" n="41"/>parentes. ideque reamant potius nutrices. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e449">
+      ¶ 
+      Si<lb ed="#A" n="42" break="no"/>obiicitur. quod amabili id est quod quis amat aliquando no et 
+      ver<lb ed="#A" n="43" break="no"/>bonum sed apperens. ergo non semper nobilius est amare quam 
+      ama<lb ed="#A" n="44" break="no"/>ri. Dicendum secundum e. Alb. supra quod amare et amari possunt 
+      <lb ed="#A" n="45"/>considerari dupliciter. Uno modo ex parte amabilis. et sic bene 
+      <lb ed="#A" n="46"/>procedit obiectio. Alio modo ex parte amoris vel amiciciur 
+      <lb ed="#A" n="47"/>et sic intelligitur quod amare est nobilius quam amari rationibus 
+      <lb ed="#A" n="48"/>supraedictis.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e467">
+      ¶ Ad propositum itaque in amicicia 
+      <lb ed="#A" n="49"/>christi ad nos principalius et nobilius est. quod christus 
+      prior<lb ed="#A" n="50" break="no"/>amat nos praeueniendo ex mera gratia charitatis sue. ad 
+      <lb ed="#A" n="51"/>quod consequens et secundarium est quod nos christum reamamus 
+      <lb ed="#A" n="52"/>Un scilicet Ioan. iiii. Diligamus dcum quoniam ipse prior dilexi 
+      <lb ed="#A" n="53"/>nos. Hic Augustinus. lib. de catheci. rupdi. dicit. Nulla est 
+      <lb ed="#A" n="54"/>maior inuitatio ad amorem quam praeuenire amando amam 
+      <lb ed="#A" n="55"/>tem. et nimis durus est animus quisibi dilectionem 
+      vul<lb ed="#A" n="56" break="no"/>impendi et non vult rependere.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e487">
+      ¶ Si dicas. christus 
+      <lb ed="#A" n="57"/>vult propter suum amorem reamari. ergo reamari est nobi¬ 
+      <!--25.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lius tanquam finis. Dicendum quod non valet conse quentia 
+      <lb ed="#A" n="59"/>quia christus vult reamari non nisi propter nostram salutem. 
+      <lb ed="#A" n="60"/>quia scit quod nos esse non possumus boni nec consequentur 
+      <lb ed="#A" n="61"/>beati nisi ipsum deum reamemus Totum ergo est ex dei 
+      <lb ed="#A" n="62"/>charitate immensa ad nostrum bonum et salutem. Et quod 
+      a<lb ed="#A" n="63" break="no"/>mat et quod reamari a nobis optat cum ipse nullo 
+      indi<lb ed="#A" n="64" break="no"/>geat. O ergo homo esto aminicus dei: quia hoc requirit a 
+      <lb ed="#A" n="65"/>te deus. Disce etiam ex praedictis quod non tam valet vt 
+      tu<lb ed="#A" n="66" break="no"/>ameris a christo: ita quod tu non cures amare christum ef 
+      <lb ed="#A" n="67"/>fectualiter sibi deseruiendo etc. sicut sunt qui de dei 
+      praede<lb ed="#A" n="68" break="no"/>stinatione confidunt et tamen male viuunt 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e521">
+               <head xml:id="Vn7Pel-j18888-Hd1e523">4</head>
+               <p xml:id="Vn7Pel-j18888-d1e525">
+                  <lb ed="#A" n="69"/>¶ Sed an sicut amare amicum 
+      me<lb ed="#A" n="70" break="no"/>lius est quam amari. pariformiter honorare melius sit 
+      <lb ed="#A" n="71"/>quam honorari
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e534">
+      ¶ Respondetur secundum praefatos doct. supra.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e536">
+      ¶ Primnc 
+      <lb ed="#A" n="72"/>dicendo quod amari videtur esse propinquum ei quod est 
+      ho<lb ed="#A" n="73" break="no"/>norari. eo quod honor est quoddam testimonium de virti 
+      <lb ed="#A" n="74"/>te eius et bonitate illius qui honoratur. Et similiter omne quod 
+      <lb ed="#A" n="75"/>amatur amicabiliter amatur: quia bonum vel saltem 
+      ar<lb ed="#A" n="76" break="no"/>parens est
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e549">
+      ¶ Secundo dicendum: quod amari melius est 
+      <lb ed="#A" n="77"/>et magis eligendum quam honorari. Ratio: quia id quod est 
+      <lb ed="#A" n="78"/>secundum se eligibilc est melius eo quod est eligibile propter 
+      <lb ed="#A" n="79"/>aliud. Sed amicicia est secundum se eligibilis: cum sit 
+      <lb ed="#A" n="80"/>bonum praecipuum inter omnia exteriora bona. viii. Eth. 
+      <lb ed="#A" n="81"/>Honorari autem non querunt aliqui propter ipsum honorem 
+      <lb ed="#A" n="82"/>sed propter aliud scilicet Uel propter spem percipiende 
+      vtili<lb ed="#A" n="83" break="no"/>tatis siue in nomine vel fama gloriosa vel commodis 
+      <lb ed="#A" n="84"/>aliis. Aut vt videantur ex hoc boni pro edificatione 
+      <lb ed="#A" n="85"/>pximorum. et hoc est licitum
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e572">
+      ¶ Tertio dicendum quod 
+      ho<lb ed="#A" n="86" break="no"/>norare melius est quam honorari. Cum secundum philosophum 
+      ho<lb ed="#A" n="87" break="no"/>nor est in honorante. ergo sibi laudabilius. sicut et ama 
+      <lb ed="#A" n="88"/>rem melius est quam amari. Et patet idem eisdem rationibus quo 
+      <lb ed="#A" n="89"/>de amare et amari dicte sunt. §. praecedenti. Sic ad 
+      <lb ed="#A" n="90"/>propositum de ipsa amicicia christi applicando pater 
+      <lb ed="#A" n="91"/>quod melius est fore amicum phiscepi quam honorari publice in ec 
+      <lb ed="#A" n="92"/>clesia canonizando. Unde maxime est amandus deus 
+      <lb ed="#A" n="93"/>qui suos et amat et honorat. quandoque etiam in praesenti: sed 
+      <lb ed="#A" n="94"/>maxime in futuro. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e594">
+                  <lb ed="#A" n="95"/>¶ Tertio in amicicia christi 
+      chari<lb ed="#A" n="96" break="no"/>tas claret exvirtuositate. quae omnibus praefertur. Et hoc ostenditur 
+      <lb ed="#A" n="97"/>multipliciter ex quaestionibus subscriptis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e604">
+               <head xml:id="Vn7Pel-j18888-Hd1e606">5</head>
+               <p xml:id="Vn7Pel-j18888-d1e608">
+                  <lb ed="#A" n="98"/>¶ Utrum amicicia sit virtus cuilibus 
+      <lb ed="#A" n="99"/>homini necessaria in hac vita: Respondetur secundum 
+      Rar<lb ed="#A" n="100" break="no"/>ne. in summa cum Tho. super. viii. Eth. scp. Et 
+      Alber<lb ed="#A" n="101" break="no"/>tus in commento ibidem per conclusionem quod sic. pluribus 
+      <lb ed="#A" n="102"/>rationibus
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e621">
+      ¶ Primo ratione virtutis adquirende. quia cuilibet 
+      <lb ed="#A" n="103"/>homini necessafium est adquirere et habere virtutem. eo quod 
+      <lb ed="#A" n="104"/>virtus bonum facit habentem et actum eius. Sed 
+      ami<lb ed="#A" n="105" break="no"/>cicia est quedam virtus moralis vel effectus virtutis 
+      <lb ed="#A" n="106"/>vel reducitur ad virtutem: ergo est necessaria. 
+      Mi<lb ed="#A" n="107" break="no"/>nor probatur. Primo quod sit virtus moralis. quia per 
+      <lb ed="#A" n="108"/>cam scilicet amiciciam quilibet homo ad vnumquemque se 
+      <lb ed="#A" n="109"/>habet sicut decet in factis et dictis.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e639">
+      ¶ Secundo quod sit 
+      <lb ed="#A" n="110"/>effectus virtutis amicicia. patet: quia virtus est 
+      cau<lb ed="#A" n="111" break="no"/>sa amicicie per eam faciens hominem vt amet prox 
+      <lb ed="#A" n="112"/>mum propter honestum quod est in illo. Tertio quod re¬ 
+      <!--26.xml-->
+      <pb ed="#A" n="27"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ducatur ad virtutem moralem. patet quia reducitur ad virtutem 
+      <lb ed="#A" n="2"/>quae est iusticia. quia sicut iusticia reddit cuique equale. ita 
+      <lb ed="#A" n="3"/>amicicia reddit cuilibet proportionabile. licet deficiat 
+      <lb ed="#A" n="4"/>a ratione iusticie. quia non obligat amicicia ex debito sicut 
+      <lb ed="#A" n="5"/>iusticia. sedsolum attemdit debitum honestatis et iuris 
+      <lb ed="#A" n="6"/>naturalis societatis: cum homo naturaliter sit animalsociale 
+      <lb ed="#A" n="7"/>et amicabie. i. Poli.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e670">
+      ¶ Secundo amicicia est cuilibet 
+      <lb ed="#A" n="8"/>necessariaad habendum eam ratione pacis conseruande. quia 
+      <lb ed="#A" n="9"/>amicicia sst maxime ciuilitatis et communitatis ac 
+      concor<lb ed="#A" n="10" break="no"/>die et pacs conseruatiua. sicut discordia est per 
+      opo<lb ed="#A" n="11" break="no"/>situm communititis destructiua. Unde Hiero. Concordia 
+      <lb ed="#A" n="12"/>parue rs crescunt. sed discordia maxime dilabuntr e 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e684">
+                  <lb ed="#A" n="13"/>¶ Siqueratur. Utrum amicicia sit magis 
+      necessa<lb ed="#A" n="14" break="no"/>ria in luitate vel communitate quam iusticia: Dicendum secundum 
+      <lb ed="#A" n="15"/>praedicps quod sic. Ratio. quia illud quo habito non indigetur ab 
+      <lb ed="#A" n="16"/>tero. ed econuerso: est plus necessarium. sed sic est in 
+      <lb ed="#A" n="17"/>proposto. ergo etc. Nam habita iusticia nihilominus 
+      ho<lb ed="#A" n="18" break="no"/>mies indigent amicicia ad inuicem propter charitates 
+      <lb ed="#A" n="19"/>sire qua non est salus i. Cor. xiii. sed si vera haberetur 
+      <lb ed="#A" n="20"/>mmicicia non indigerent homines iusticia proprie dicta. eo 
+      <lb ed="#A" n="21"/>p nullus alterum lederet: quoniam amicus est alter ego. ix 
+      <lb ed="#A" n="22"/>Ethi. et ita quilibet vellet alteri bonum sicut sibiipi. ergo etc. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e708">
+                  <lb ed="#A" n="23"/>¶ Tertio amicicia est necessaria ratione necessitatis 
+      <lb ed="#A" n="24"/>supplende. Declaratur quo ad sex conditiones hominum.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e715">
+      ¶ 
+      Pri<lb ed="#A" n="25" break="no"/>mo amicicia necessaria est diuitibus et potentibus. Tum 
+      <lb ed="#A" n="26"/>quo ad distributionem bonorum. quia in bonis fortune 
+      nul<lb ed="#A" n="27" break="no"/>la est vtilitas si ex his quis nulli bene faciat. Tum quo ad 
+      <lb ed="#A" n="28"/>conscruationem bonorum. quia bona fortune sine amicis 
+      <lb ed="#A" n="29"/>conseruari non possunt. quia plres insidiantur eis. et quanto 
+      <lb ed="#A" n="30"/>quis est in altiori statu tanto est minus securus. Eteni. 
+      <lb ed="#A" n="31"/>Ecci. x. Omnis potentatus vita breuis. Sicut ergo 
+      arbor<lb ed="#A" n="32" break="no"/>quanto altior tato indiget pluribus radicibus et 
+      fulcimen<lb ed="#A" n="33" break="no"/>tis ne cadat. Sic in proposito. Tum denique quo ad ad 
+      <lb ed="#A" n="34"/>quasitionem celestium bonorum et euasionem tormentorum ne 
+      <lb ed="#A" n="35"/>cessaria est diuitibus et potentibus amicicia sanctorum et 
+      pau<lb ed="#A" n="36" break="no"/>perum christi. Ideo Lu. xvi. Facite vobis amic. de mammo 
+      <lb ed="#A" n="37"/>na iniqui. vt cum defe. recipi. vos in eter. tabernacula. 
+      <lb ed="#A" n="38"/>Alias potentes potenter tormenta patientur. Sap. vi. Et 
+      <lb ed="#A" n="39"/>quanto quis hic altior male vixit: tato altius in 
+      pati<lb ed="#A" n="40" break="no"/>bulo infernali suspendetur
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e752">
+      ¶ Secundo amicicia 
+      necessa<lb ed="#A" n="41" break="no"/>ria est pauperibus vt in infortuniis ad amicos 
+      confu<lb ed="#A" n="42" break="no"/>giant.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e759">
+      ¶ Tertio necessaria est iuuenibus quia proni sunt ad 
+      <lb ed="#A" n="43"/>peccata et concupiscentias: quatus per amicos retrahantur. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e764">
+                  <lb ed="#A" n="44"/>¶ Quarto senibus. quia multos patiuntur defectus 
+      indi<lb ed="#A" n="45" break="no"/>gent amicicia ad subueniendum et maxime in morte¬ 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e772">
+                  <lb ed="#A" n="46"/>¶ Quito necessaria est tribulatis et patientibus vt 
+      inaf<lb ed="#A" n="47" break="no"/>flictione per amicos sermone et opere conselentur
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e779">
+      ¶ Sextuo 
+      <lb ed="#A" n="48"/>etiam perfectis et felicibus. quia nemo eligeret viuere 
+      soli<lb ed="#A" n="49" break="no"/>tarius etiamsi omnia bona haberet: cum hbeo sit sibi 
+      insuffi<lb ed="#A" n="50" break="no"/>ciens ad omnia seruitia necessariorum. et naturaliter animal 
+      <lb ed="#A" n="51"/>sociale. de hoci sequenti. §. v.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e790">
+      ¶ Ad propositum de 
+      ami<lb ed="#A" n="52" break="no"/>cicia christi applicado claret. quod chri amicicia est 
+      cuil<lb ed="#A" n="53" break="no"/>bet summe necessaria. Tum quia est vrtus saluifica sine 
+      a<lb ed="#A" n="54" break="no"/>non est vita eterna. Tum quia est eterne pacis in ciuitam: 
+      <lb ed="#A" n="55"/>te celesti conseruatiua. Tum quia in omni neceitate omnibus stati 
+      <lb ed="#A" n="56"/>busque vtilissima. et hec ex chritate diuina. ergo etc. i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e804">
+               <head xml:id="Vn7Pel-j18888-Hd1e806">6</head>
+               <p xml:id="Vn7Pel-j18888-d1e808">
+                  <lb ed="#A" n="57"/>¶ Utrum dato quod homo sit felix adhuitur 
+      <!--26.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>indigeat amicis. Cum enim felixr per se sufficientiam omnium 
+      bo<lb ed="#A" n="59" break="no"/>norum habeat ergo non videtur indigere amicis. Sed in 
+      op<lb ed="#A" n="60" break="no"/>positum arguitur. quia habere amicos est maximum bonum super 
+      <lb ed="#A" n="61"/>omnia bona exteriora. ex. viii. Eth. ergo carentia huius est 
+      infe<lb ed="#A" n="62" break="no"/>licitatis. Respondetur secundum Rayne. et doc. supraedictos. quod 
+      <lb ed="#A" n="63"/>Primo possumus loqui de felicitate perfecta quae erit in 
+      <lb ed="#A" n="64"/>patria. Et sic ibi non requiritur ex necessitate societas 
+      ami<lb ed="#A" n="65" break="no"/>corum. quia habebunt beati totam plenitudinem essentialis 
+      perfe<lb ed="#A" n="66" break="no"/>cte felicitatis in solo deo sufficienter nec indigent alio 
+      <lb ed="#A" n="67"/>quam deo in quo sunt omnia bona. Sed tamen erit ibi societas 
+      <lb ed="#A" n="68"/>amicorum de bene ese scilicet quo ad felicitatem accidentalis 
+      <lb ed="#A" n="69"/>gaudii cum de societate sua in deum gaudent: vt dicit 
+      <lb ed="#A" n="70"/>Aug. viii. super Gen. Et sic intelligitur quod Boetius dicit 
+      <lb ed="#A" n="71"/>de consol. Nullius boni sine socio est perfecta possessio 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e847">
+                  <lb ed="#A" n="72"/>¶ Secundo possumus loqui de felicitate imperfecta quae est 
+      in<lb ed="#A" n="73" break="no"/>vita ista secundum opinionem aliquorum. Et isto modo felix licet 
+      <lb ed="#A" n="74"/>non indigeat amicicia quo ad vtile vel delectabile: tamen 
+      <lb ed="#A" n="75"/>indiget quo ad bonum honestum et virtuale.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e858">
+      ¶ Declaratur. 
+      <lb ed="#A" n="76"/>Nam amicicie distinguuntur tres species sicuit et bonum 
+      <lb ed="#A" n="77"/>amabile est triplex. Primo bonum simpliciter: quod dicitur 
+      ho<lb ed="#A" n="78" break="no"/>nestum: quando amicicia est propter virtutem. puta quia 
+      virtuo<lb ed="#A" n="79" break="no"/>sus et bonus est quem amat id est ipse amicus. Et secundo est 
+      ami<lb ed="#A" n="80" break="no"/>cicia propter bonum secundum quid. puta propter delectabile in 
+      <lb ed="#A" n="81"/>amico. vt est familiaris affabilitas. et huiusmodi. Et 
+      ter<lb ed="#A" n="82" break="no"/>tio propter bonum vtile id est vtilitatem licitam. Hec ex. viii. 
+      <lb ed="#A" n="83"/>Eth. secundum Arist. Unde dato quod aliquis sit tam felix in hac 
+      <lb ed="#A" n="84"/>vita quod non indigeat alicuius amicicia delectabili nec 
+      <lb ed="#A" n="85"/>vtili: tamen adhuc indiget amicicia virtuali. Probatur 
+      <lb ed="#A" n="86"/>quia alias non esset vere felix carens bono tali. quin potius 
+      <lb ed="#A" n="87"/>carere amico vel dissolui ab amico est malum 
+      mise<lb ed="#A" n="88" break="no"/>rabile et quid confusibile et verecundabile. Quia per 
+      oppo<lb ed="#A" n="89" break="no"/>situ habere amicos est maximum bonum et quid iocunde 
+      be<lb ed="#A" n="90" break="no"/>atitudinis honoris et glorie. Item carere vel dissolui est 
+      <lb ed="#A" n="91"/>quoddam labile cum vnus fructificaret alium. Item est quid 
+      vi<lb ed="#A" n="92" break="no"/>duale. quia vnus amicorum est quasi custos et oculus alteri 
+      <lb ed="#A" n="93"/>us. Ideo dicitur amicus quasi animi custos. Unde sicut 
+      <lb ed="#A" n="94"/>carens tutore et oculo dicitur viduatus lorbatus. ita 
+      ca<lb ed="#A" n="95" break="no"/>rensamico ex. ii Eth
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e904">
+      ¶ Ad propositum. Quicumque quantum 
+      <lb ed="#A" n="96"/>cunque posset esse felix indiget amico christo super omnia 
+      <lb ed="#A" n="97"/>ergo praeligenda est christi amicicia: sine qua nihil valent omnia. 
+      <lb ed="#A" n="98"/>et qua habita habetur felicitas summa. tam in diuitiis: quia 
+      <lb ed="#A" n="99"/>facit habere summum bonum scilicet deum id ies. Cor. i. In omnibus 
+      <lb ed="#A" n="100"/>diuites facti estis in illo. quam in honore: quia scilicet coram 
+      <lb ed="#A" n="101"/>omnibus angelis et beatis curie celestis. et toto modo 
+      hono<lb ed="#A" n="102" break="no"/>rat in iudicio. quam in fobilitate: quia frem christi et filium 
+      <lb ed="#A" n="103"/>dei efficit. quam etiam in glorie maiestate. quia coronat 
+      <lb ed="#A" n="104"/>i got. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e927">
+               <head xml:id="Vn7Pel-j18888-Hd1e929">7</head>
+               <p xml:id="Vn7Pel-j18888-d1e931">
+                  <lb ed="#A" n="105"/>¶ Utrum amicicia sit melior omni 
+      the<lb ed="#A" n="106" break="no"/>sauro: Respondetur secundum Rayne. quod sic. Probatur primo 
+      rati<lb ed="#A" n="107" break="no"/>onibus. quia amicicia vitam conseruat. Inmorte quoque et post 
+      <lb ed="#A" n="108"/>mortem amicus iuuat verus. Item amicicum trahit sursum 
+      <lb ed="#A" n="109"/>ad deum vel ad virtutes. et pace generit. Hec autem non 
+      <lb ed="#A" n="110"/>facit aurum sed deserit in morte ad peccatumque trahit: et 
+      li<lb ed="#A" n="111" break="no"/>tem generat contraria paci. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e949">
+      ¶ Secund ex sacra scriptu 
+      <lb ed="#A" n="112"/>ra. Eccli. vi. Amico fideli nullaem comparatio et non est 
+      <lb ed="#A" n="113"/>digna ponderatio auri et argenti. Ideo ibidem c. vii. dicitur. 
+      <lb ed="#A" n="114"/>Noli puaricare in amicum pecuna scilicet accommodatam: 
+      <lb ed="#A" n="115"/>differetem tibi reddere
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e960">
+      ¶ Terti probatur ex philosohia. Nam 
+      <!--27.xml-->
+      <pb ed="#A" n="28"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>viii. Ethi. Aristo. dicit quod amicicia multo praeciosior est 
+      <lb ed="#A" n="2"/>quam pecunia. Nullus enim nisi stultus eligeret viuere si 
+      <lb ed="#A" n="3"/>ne amicis habens reliqua omnia bona
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e976">
+      ¶ Ad propositum. Certa 
+      <lb ed="#A" n="4"/>et indubitabilis christi et amicicia. Item est praeciosissima et 
+      <lb ed="#A" n="5"/>inextimabilis. est etiam verissima et iuariabilis. Ideo 
+      Eci<lb ed="#A" n="6" break="no"/>ix. Non derelinquas amicum antiquum: nouus eni non erit 
+      <lb ed="#A" n="7"/>similis illi. vinum nouum amicus nouiius. Lyra. quia sicut de vi 
+      <lb ed="#A" n="8"/>no nouo nescitur quale erit finaliter. sic de amico nouo hus 
+      <lb ed="#A" n="9"/>mundi nescitur qualem fidelitatem tenebit Sed antiquum 
+      <lb ed="#A" n="10"/>amicus est deus qui ab eterno nos praedilexit. Iste amicus cum 
+      <lb ed="#A" n="11"/>dilexisset suos in finem dilexit eos. Io. xiii. Hic Au 
+      <lb ed="#A" n="12"/>gusti. Elige tibi o homo prae omnibus amicum qui cum omnes alii 
+      te<lb ed="#A" n="13" break="no"/>deserueriur scilicet in morte iste solus te non relinquat: sed in 
+      re<lb ed="#A" n="14" break="no"/>gionem longinquam ad quam ire debes te perducat. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1003">
+               <head xml:id="Vn7Pel-j18888-Hd1e1005">8</head>
+               <p xml:id="Vn7Pel-j18888-d1e1007">
+                  <lb ed="#A" n="15"/>¶ Qualis amicicia sit habenda 
+      <lb ed="#A" n="16"/>tamquam optima. Notadum est secundum Rayne. in sum. quod 
+      ami<lb ed="#A" n="17" break="no"/>tcicia quaedam est ficta et non vera. alia mala et cauenda etc. 
+      <lb ed="#A" n="18"/>tertia vera et imperfecta. quarta optima.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1018">
+      ¶ Primo 
+      <lb ed="#A" n="19"/>amicicia ficta dicitur. autm quia est solo nomine. Ecci. xxxvii. 
+      <lb ed="#A" n="20"/>Est amicus solo nomine et non re. aut quia ore et no 
+      cordo<lb ed="#A" n="21" break="no"/>Contra quod i. Io. iii. Non diligamus verbo et lingua: 
+      <lb ed="#A" n="22"/>sed opere et veritate. Tals est amicicia mundi. quia prodnit 
+      <lb ed="#A" n="23"/>nobis dilectionem in vita sed in morte concludit 
+      ama<lb ed="#A" n="24" break="no"/>ritudinem et inimiciciam cum diripit omnia bona temporalia et 
+      <lb ed="#A" n="25"/>in iudicio insurget contra nos dum pugnabit orbis 
+      <lb ed="#A" n="26"/>terrarum contra insensatos. Sap. v. Unde Ecci. Est ami 
+      <lb ed="#A" n="27"/>cus qui conuertitur ad inimicicia etc. Seneca. Nullum 
+      <lb ed="#A" n="28"/>maius malum habet homo occupatus et bonis suis 
+      obses<lb ed="#A" n="29" break="no"/>sus quam quod amicos sibi putet quibus ipse non est. Aut 
+      <lb ed="#A" n="30"/>Tertio fictus dicitur amicus. quia est occultus nec opere 
+      mani<lb ed="#A" n="31" break="no"/>festatur. Tullius de vera amicicia. Ille est verus amicus 
+      <lb ed="#A" n="32"/>qui omnia bona sua aliis communicat: et mala id est aduersa alio 
+      <lb ed="#A" n="33"/>rum sua reputat. qui vero aliter amat fictus est amicus 
+      <lb ed="#A" n="34"/>Hec. (le. Unde Prouer. xxvii. Melior est 
+      manife<lb ed="#A" n="35" break="no"/>sta correptioquam amor absconditus. Hiero. hoc 
+      expo<lb ed="#A" n="36" break="no"/>nit sic. Melior est inimicus manifestus quam amicus 
+      <lb ed="#A" n="37"/>absconditus. ille enim dum cognoscitur facile vitatur. iste vero 
+      <lb ed="#A" n="38"/>dum non cogscitur praeualet.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1064">
+      ¶ Secundo. alia est 
+      amici<lb ed="#A" n="39" break="no"/>cia mala et cauenda scilicet qui est inter praeuos. De q Lu. xxiii. 
+      <lb ed="#A" n="40"/>Facti sunt amici Herodes et Pilatus. Theophilus 
+      <lb ed="#A" n="41"/>ibi dicit. Attende diabolum vbique coniungentem disiuncta 
+      <lb ed="#A" n="42"/>vt christi paragat neces. Similiter mala amicicia est. quando quis 
+      <lb ed="#A" n="43"/>licet bonus in se videatur: tamen amiciciam tet cum praeuo. sicut fecit 
+      <lb ed="#A" n="44"/>Iosaphat cum Achab pessimo. Greg. in pastor. Cum 
+      <lb ed="#A" n="45"/>incaute malorum amiciciis iungimur: eorum culpis 
+      lei<lb ed="#A" n="46" break="no"/>gamur
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1084">
+      ¶ Tertio. est amicicia vera sed imperfecta 
+      <lb ed="#A" n="47"/>Et huol est species amicicie propter delectabile et pro 
+      <lb ed="#A" n="48"/>pter vtilc. Potest enim esse vera amicicia huiusmodi: tamen est 
+      <lb ed="#A" n="49"/>imperfecta. ed amicicia propter honestum est 
+      perfecti<lb ed="#A" n="50" break="no"/>oristis.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1096">
+      ¶ Slergo queritur. Quali ordine se habent 
+      <lb ed="#A" n="51"/>iste amicicie: Dicendum secundum eundem Rayne. quod 
+      infi<lb ed="#A" n="52" break="no"/>ma est amicicia propter vtile. quia hec amicicia propter vti 
+      <lb ed="#A" n="53"/>le non habet locumin beatis. Secundo altior est 
+      ami<lb ed="#A" n="54" break="no"/>cicia propter delecubile quam propter vtile. Tum ratione 
+      li<lb ed="#A" n="55" break="no"/>beralitatis. quia vere amicicie ratio est quod sit liberal 
+      <lb ed="#A" n="56"/>et non negociatiuaergo quanto est liberalior tanto 
+      ve<lb ed="#A" n="57" break="no"/>rior et nobilior. Sd amicicia propter delectabile ma 
+      <!--27.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>gis est liberalis quam vtilis. quae est quasi mercennariorum et 
+      <lb ed="#A" n="59"/>negociatorum. Tum quia amicicia delectabilis magis 
+      ac<lb ed="#A" n="60" break="no"/>cedit ad actum beati. quia indigent delectabili quasi 
+      for<lb ed="#A" n="61" break="no"/>ma essentiali beatitudinis: non autem indigent vtili ipsi 
+      <lb ed="#A" n="62"/>beati. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1129">
+      ¶ Tertio altissima amiciciaest propter 
+      ho<lb ed="#A" n="63" break="no"/>nestum.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1134">
+      ¶ Quarta ergo amicicia est perecta et 
+      opti<lb ed="#A" n="64" break="no"/>ma scilicet quo est propter honestum id est propter virtutem. Tum quia 
+      <lb ed="#A" n="65"/>vult hona amicis per se propter bonum virtutis. sed alia 
+      <lb ed="#A" n="66"/>amiticia vult propter bonum per accidens: vel secundum quid. vt 
+      <lb ed="#A" n="67"/>tacum est. §. vi. Tum quia nihil inuenitur in ea contrarium 
+      <lb ed="#A" n="68"/>amicicie vere vel defectuosum. quia est puie propter 
+      vir<lb ed="#A" n="69" break="no"/>tatem principaliter. In aliis autem amiciciis aut in vtilitas 
+      <lb ed="#A" n="70"/>in causa amicicie aut delectatio licet minus principa 
+      <lb ed="#A" n="71"/>liter. Tum quia alie amicicie maius appropinqunt 
+      ami<lb ed="#A" n="72" break="no"/>cicie male. Nam delectatio et vtilitas potest esse iter 
+      pra<lb ed="#A" n="73" break="no"/>nos amicos: sed amicicia honesti non
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1158">
+      ¶ Ex isis ad 
+      <lb ed="#A" n="74"/>propositum claret quod amicicia christi est ineffabilit re 
+      omni<lb ed="#A" n="75" break="no"/>bus summa et nobilissima. Primo quia est homstis 
+      <lb ed="#A" n="76"/>sima et omnis amicicie comprehensiua et per consequens 
+      pere<lb ed="#A" n="77" break="no"/>ctissima. In ea enim sunt non nisi virtuosorum amoret 
+      <lb ed="#A" n="78"/>cum hoc bona summe delectabilia et vtilissima et cum hoc 
+      <lb ed="#A" n="79"/>permanentissima. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1176">
+               <head xml:id="Vn7Pel-j18888-Hd1e1178">9</head>
+               <p xml:id="Vn7Pel-j18888-d1e1180">
+                  <lb ed="#A" n="80"/>¶ Sed ex dictis oritur difficultas 
+      <lb ed="#A" n="81"/>Quare non potest esse amicicia vera prauorum cum tamen 
+      prae<lb ed="#A" n="82" break="no"/>pi quaerant conuiuere aliis et conuiuunt. Residere autem 
+      incon<lb ed="#A" n="83" break="no"/>uictu pertinet ad amicicia secundum intentionem philosophi. ix. Eth. 
+      <lb ed="#A" n="84"/>vbi dicit quod actus amicicie est consolatio cum amico. et sic 
+      <lb ed="#A" n="85"/>puiuere. Respondetur secundum eundem Rayne. quod sicut dicit 
+      <lb ed="#A" n="86"/>philosophuse. li. ix. Eth. Prauus nihil amicabile habet. nec 
+      <lb ed="#A" n="87"/>ad se nec ad alterum. Nam teste sacra scriptura. Qui 
+      di<lb ed="#A" n="88" break="no"/>igit iniquitatem odit animam suam. psalmus ergo ad se non habet 
+      <lb ed="#A" n="89"/>amiciciam veram: nec per consequens ad alterum. Eccli. xiiii. 
+      <lb ed="#A" n="90"/>ca. Qui sibi nequam cui bonus esse poterit: Ad 
+      obie<lb ed="#A" n="91" break="no"/>ctum autem quod prauus quaerit conuiuere aliis Dicendum quod hoc 
+      <lb ed="#A" n="92"/>non quaerit propter amicum amore amicicie. sed aut ideo 
+      <lb ed="#A" n="93"/>vt fugiat conuiuere secum. vel solitarie: quia homo natura 
+      <lb ed="#A" n="94"/>liter est animal politicnmem aptum natum soctaliter 
+      conuiue<lb ed="#A" n="95" break="no"/>re. Aut quaerit propter propriam vtilitatem conuiuere et fingit 
+      <lb ed="#A" n="96"/>amicicia. Sed vt ibidem Arist. dicit. Qui fingit se 
+      <lb ed="#A" n="97"/>esse amicum et non est: peior est eo qui fecit falsam 
+      mo<lb ed="#A" n="98" break="no"/>netam. quia quanto magis malicia est circa melius: 
+      tan<lb ed="#A" n="99" break="no"/>to peior est ipsa. Sed amicicia est maxima inter 
+      bo<lb ed="#A" n="100" break="no"/>ra exteriora. ergo si sit ficta erit peior omnium. Et 
+      mul<lb ed="#A" n="101" break="no"/>to plus in amicicia christi si se quis ficte habeat. 
+      <lb ed="#A" n="102"/>quia simulata sanctitas est duplex iniquitas. teste 
+      <lb ed="#A" n="103"/>Hieronymo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1236">
+               <head xml:id="Vn7Pel-j18888-Hd1e1238">10</head>
+               <p xml:id="Vn7Pel-j18888-d1e1240">
+                  <lb ed="#A" n="104"/>¶ Item An ergo quando vnus amicorum 
+      <lb ed="#A" n="105"/>factus est malus debeat statim solui amicicia eius: 
+      <lb ed="#A" n="106"/>Respondetur secundum e. Rayne. cum Arist. supra quod ille qui factus 
+      <lb ed="#A" n="107"/>est malus aut intorrigibilis est vel insanabilis. 
+      <lb ed="#A" n="108"/>ita quod propter abundantiam malicie ad statum 
+      virtu<lb ed="#A" n="109" break="no"/>tis reduci non potet de facili. Et tunc a tali 
+      amici<lb ed="#A" n="110" break="no"/>cia dissolui debet. Aut est sanabilis. et tunc non de 
+      <lb ed="#A" n="111"/>pet dissolui statim sd expectari per aliquod tempus 
+      <lb ed="#A" n="112"/>et adiuuari ad recupradum bonos mores. Sicut 
+      <lb ed="#A" n="113"/>si quis amiserit substantam vel pecuniam non statim 
+      si<lb ed="#A" n="114" break="no"/>nit esse perditam sed dligenter querit donec inue¬ 
+      <!--28.xml-->
+      <pb ed="#A" n="29"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>niat si poterit. Multo magis debet sic fieri de 
+      a<lb ed="#A" n="2" break="no"/>micicia que melior est quam omnis peccunia.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1277">
+      ¶ Ad 
+      pro<lb ed="#A" n="3" break="no"/>positum. Sic facit amorosus christus suos amicos 
+      <lb ed="#A" n="4"/>post peccatum ad praestentiam requirendo. et demones qui sunt 
+      <lb ed="#A" n="5"/>insanabiles in malicia relinquendo.
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1287">
+               <head xml:id="Vn7Pel-j18888-Hd1e1289">11</head>
+               <p xml:id="Vn7Pel-j18888-d1e1291">
+                  <lb ed="#A" n="6"/>¶ Sed adhuc restat difficultas. 
+      <lb ed="#A" n="7"/>Qualiter se debet habere amicus virtuosus et 
+      bo<lb ed="#A" n="8" break="no"/>nus post dissolutionem amicicie a praeuo. An scilicet 
+      fami<lb ed="#A" n="9" break="no"/>liariter debeat se habere ad illum: an sic reputare 
+      qua<lb ed="#A" n="10" break="no"/>si numquam fuisset amicus. Hoc soluit idem Aris. et cum eo 
+      <lb ed="#A" n="11"/>Rayne. dit quod quia oportet habere memoriam praeteri 
+      <lb ed="#A" n="12"/>te consuetudinis et amicicie. Sicut extimamus quod quis 
+      <lb ed="#A" n="13"/>magis debeat exhibere et largiri amicis quam 
+      extra<lb ed="#A" n="14" break="no"/>neis. ita etiam his qui in praeterito fuerunt amici debet 
+      <lb ed="#A" n="15"/>magis exhibere propter praeteritam amiciciam nisi in vno 
+      <lb ed="#A" n="16"/>casu. videlicet quando abundans malicia et insanabilis in illo 
+      <lb ed="#A" n="17"/>fuit causa dissolutionis amicicie praeterite. tunc enim quanto 
+      <lb ed="#A" n="18"/>plus fuit amicus tanto plus extimandus est vt hostis 
+      <lb ed="#A" n="19"/>et vitandus propter huiusmodi obstinationem in malo. Hec 
+      <lb ed="#A" n="20"/>philosophus. ix. Eth. vbi praedictas omnes difficultates mouet 
+      <lb ed="#A" n="21"/>et soluit. Ad idem Tho. in scripto. et Albertus in 
+      commen<lb ed="#A" n="22" break="no"/>to ibidem
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1330">
+      ¶ Ad propositum applicando de christi amicicia 
+      <lb ed="#A" n="23"/>suo modo habet se christus amicus optimus ad nos. quia 
+      <lb ed="#A" n="24"/>cum peccamus amicicia eius ad nos dissoluitur. nec 
+      ta<lb ed="#A" n="25" break="no"/>men desistit sua beneficia largiri. quia solem suum facit 
+      <lb ed="#A" n="26"/>priri super bonos et malos et pluit super iustos et 
+      iniu<lb ed="#A" n="27" break="no"/>stos. Mat. v. Si autem conuertimur ad praenstentiam 
+      reci<lb ed="#A" n="28" break="no"/>pit nos iterato semper ad amiciciam ex charitate 
+      im<lb ed="#A" n="29" break="no"/>mensa. Si vero in obstinatione moriemur tanto durius 
+      <lb ed="#A" n="30"/>bamnat: vt hostes. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1351">
+               <head xml:id="Vn7Pel-j18888-Hd1e1353">12</head>
+               <p xml:id="Vn7Pel-j18888-d1e1355">
+                  <lb ed="#A" n="31"/>¶ Qualia debet quios et siderare in 
+      <lb ed="#A" n="32"/>homine quem in amicum sibi vult eliger. Notandum quod secundum 
+      <lb ed="#A" n="33"/>Fram. maro. in secundmode. Item vbi supra. Tho. Alb. Rayne. 
+      <lb ed="#A" n="34"/>aliosque recolligendo. In eligendo amico considerada 
+      <lb ed="#A" n="35"/>sunt tria
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1368">
+      ¶ Primo criminis carentiais
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1370">
+      ¶ Secundo 
+      aptitu<lb ed="#A" n="36" break="no"/>dinis conuenientia
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1375">
+      ¶ Tertio fidelitatis experientia 
+      <lb ed="#A" n="37"/>Primo inquam criminis carentia. quia prauus non est 
+      <lb ed="#A" n="38"/>eltgendus in amicii. vt in praemissis dictum est. Debet quo 
+      <lb ed="#A" n="39"/>considerari vicet.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1385">
+      ¶ Primo ne is quem eligis in 
+      amicu<lb ed="#A" n="40" break="no"/>sit superbus: quia nescit esse socius. Prouer. xi. Ubi 
+      super<lb ed="#A" n="41" break="no"/>bia ibi contumelia.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1392">
+      ¶ Secundo ne sit cupidus. Hiero. in 
+      <lb ed="#A" n="42"/>epistola ad Castrimam. In amicis non res quaeruntur sed 
+      cha<lb ed="#A" n="43" break="no"/>ritas.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1399">
+      ¶ Tertio ne sit libidinosus. quia a tali inquinatur 
+      <lb ed="#A" n="44"/>homo. Eccli. xiii. Qui tangit picem inquinatur ab ea. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e1404">
+                  <lb ed="#A" n="45"/>¶ Quarto ne sit iracundus. quia facile amicicia 
+      per<lb ed="#A" n="46" break="no"/>ditur. Prouer. xxii. Noli esse amicus iracundo ne 
+      su<lb ed="#A" n="47" break="no"/>mas anime tue scandalum
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1413">
+      ¶ Quinto ne sit iniustus. 
+      <lb ed="#A" n="48"/>Aug. lib. i. solils. Amicicie legem iusficiam esse arbi 
+      <lb ed="#A" n="49"/>tror qua prescribitur vt non minus nec plus quam seipsum 
+      <lb ed="#A" n="50"/>quasque amicum diligat. Exemplum narratur quod sapiens 
+      mu<lb ed="#A" n="51" break="no"/>ier docuit filium vt eum eligeret amicum qui pomum 
+      equa<lb ed="#A" n="52" break="no"/>liter diuideret.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1426">
+      ¶ Sexto ne sit proditor secretorum. Ec 
+      <lb ed="#A" n="53"/>clesiastici. xxvii. Qui denudat arcana amici fidem 
+      <lb ed="#A" n="54"/>perdit et amicum non inuenit.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1434">
+      ¶ Ultimo ne sit infamis 
+      <lb ed="#A" n="55"/>et quocunque crimine notatus.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1439">
+      ¶ Ad propositum. 
+      Ta<lb ed="#A" n="56" break="no"/>ses christus dominus vult habere amicos qui sint 
+      humi<lb ed="#A" n="57" break="no"/>les: mundi contemptores: casti: mites: iusti et a peccati 
+      <!--28.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>emendati etc.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1452">
+      ¶ Secundo in eligendo amsco 
+      ces<lb ed="#A" n="59" break="no"/>derari debet aptitudinis conuenientia. Nam aliqui sunt 
+      <lb ed="#A" n="60"/>amicicie apti plus quam alii. Ut enim dicit Arist. viii. 
+      <lb ed="#A" n="61"/>lib. Ethic. Iuuenes ex naturali complexione sunt 
+      <lb ed="#A" n="62"/>apti ad amiciciam. quia ipsi multum gaudent ex naturali 
+      <lb ed="#A" n="63"/>oplexione in affectu et aspectu familiarique 
+      collo<lb ed="#A" n="64" break="no"/>quio et obsequio aliorum quae sunt opera amicicie 
+      causati<lb ed="#A" n="65" break="no"/>ua. ergo prae aliis citius et facilius fiunt amici. Item secundo 
+      <lb ed="#A" n="66"/>vt idem Aristo. dicit. Antiqui vel senes et seueri id est 
+      liti<lb ed="#A" n="67" break="no"/>giosi et mordaces non sunt naturaliter apti ad 
+      ami<lb ed="#A" n="68" break="no"/>ciciam. Tum quia senes sunt naturaliter cacoges. id est 
+      <lb ed="#A" n="69"/>suspiciosi: ideo non confidunt de aliis sed mala 
+      suspi<lb ed="#A" n="70" break="no"/>cantur de aliis: quae in praeterito exparti sunt de seipsis. Tum 
+      <lb ed="#A" n="71"/>siet praesumentes nimis de suis sensibus aliis non 
+      con<lb ed="#A" n="72" break="no"/>cordant: per consequens non amicantur. Tum quia causatie 
+      <lb ed="#A" n="73"/>ua opera amicicie fnuum scilicet colloquia: familiaria obse 
+      <lb ed="#A" n="74"/>quia: et de aliis minus curant sibi magis intendentes 
+      <lb ed="#A" n="75"/>ergo etc. Deni quae seueri et mordaces non sunt apti ad 
+      <lb ed="#A" n="76"/>amiciciam. quia non concordant aliis: ne 
+      familia<lb ed="#A" n="77" break="no"/>res sunt.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1496">
+      ¶ Tertio aliqui omninosunt inepti ad 
+      <lb ed="#A" n="78"/>amiciciam: vt sunt stulti. ergo vitandi. Prouer. xiii. Ami 
+      <lb ed="#A" n="79"/>cus stultorum similis eis efficietur.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1503">
+      ¶ Sed an 
+      me<lb ed="#A" n="80" break="no"/>lius sit amicicia coniungi cum uuenibus an cum 
+      seni<lb ed="#A" n="81" break="no"/>bus. Dicendum cum e. Rayne. quod iuuenes de 
+      faci<lb ed="#A" n="82" break="no"/>li fiunt amici vt dictum est. tamen non sunt omnino 
+      <lb ed="#A" n="83"/>perfecti amici: eo quod non diu permanent in amicicia. 
+      <lb ed="#A" n="84"/>sed sscut cito amant ita cito abea excidunt. Et quia 
+      <lb ed="#A" n="85"/>in eis est amicicia magis propter delectabile societa 
+      <lb ed="#A" n="86"/>tis: et in quiqusdam propter lucrum societatis. Unde 
+      <lb ed="#A" n="87"/>iuuenibus conuenit amicicia vel competit sepe 
+      <lb ed="#A" n="88"/>propter vtilitatem. Et talis amicicia competit 
+      <lb ed="#A" n="89"/>etiam peregrinis vel viatoribus: quia tales 
+      sein<lb ed="#A" n="90" break="no"/>uicem amant propter vtilitatem quam habent ad 
+      in<lb ed="#A" n="91" break="no"/>uicem. Amicicia autem senum licet quandoque sit 
+      pro<lb ed="#A" n="92" break="no"/>pter indigentiam subueniendi nature. deficienti 
+      <lb ed="#A" n="93"/>tamen est stabilior et a passionibus magis quietata 
+      <lb ed="#A" n="94"/>iudicio rationis quam in iuuenibus qui feruntur 
+      pas<lb ed="#A" n="95" break="no"/>sionibus non dum roborati iudicio rationis. Ideo 
+      <lb ed="#A" n="96"/>et si difficilius adquiratur amicicia senum: tamen 
+      me<lb ed="#A" n="97" break="no"/>lior est pro stabilitate.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1545">
+      ¶ Sic ad propositum christis 
+      <lb ed="#A" n="98"/>amicicia quodammotoi pariformiter est sic: quod 
+      iuue<lb ed="#A" n="99" break="no"/>nes a principio ad esm acceptandam conuersi 
+      ma<lb ed="#A" n="100" break="no"/>gis redduntur apti de cetero ex habitu generato. 
+      <lb ed="#A" n="101"/>Thren. iii. Bonu est viro cum portauerit iugum 
+      <lb ed="#A" n="102"/>pomini ab adole scentia sua. Sed senex dierum ma 
+      <lb ed="#A" n="103"/>lorum difficiliu. sod fit christi amicus. tamen si dei 
+      <lb ed="#A" n="104"/>gratia conuertetur stabilis fit obseruans se propter 
+      im<lb ed="#A" n="105" break="no"/>minentem mort. enim: nisi esset seuerus reluctado deo 
+      <lb ed="#A" n="106"/>et mordax conutra proximum et stultus in peccato. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e1568">
+                  <lb ed="#A" n="107"/>¶ Tertio in eligendo amico consideranda 
+      <lb ed="#A" n="108"/>est fidelitatis experientia. De qua fidelitate potest 
+      <lb ed="#A" n="109"/>quis experiri.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1577">
+      ¶ Primo ex parte secreti. Unde 
+      Pe<lb ed="#A" n="110" break="no"/>trus blesensis in libello de amicicia ait sic. Si 
+      fi<lb ed="#A" n="111" break="no"/>dem amici experiri volueris: non ei prius arcana cordis 
+      <lb ed="#A" n="112"/>tui committas: sed aliqua exteriora etiam modica. de quibus non 
+      <lb ed="#A" n="113"/>magnum emergat dispendium. tunc qui fidelis erit 
+      <lb ed="#A" n="114"/>in minimo erit et in maiore fidetur. Et qui in modico 
+      <lb ed="#A" n="115"/>iniquus est: et in maiore iniquus est
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1593">
+      ¶ Secundo experiri. 
+      <!--29.xml-->
+      <pb ed="#A" n="30"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>potest quis ex parte obsequi et opris de fidelitante amicis: 
+      <lb ed="#A" n="2"/>quia vt Greg. dicit probatio dilectionis est exhibitio ope 
+      <lb ed="#A" n="3"/>ris. Ad propositum. christus his modis probat nos si simus 
+      <lb ed="#A" n="4"/>fideles amici eius vere. Primo committendo nobis 
+      mo<lb ed="#A" n="5" break="no"/>dica bona scilicetparalia: si fideliter dispensamus. Mat. 
+      xx<lb ed="#A" n="6" break="no"/>iiii. quia in pauca fuisti fidelis: supra mul. te constituam. 
+      <lb ed="#A" n="7"/>Secundo per opera in charitate. 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e1617">
+                  <lb ed="#A" n="8"/>¶ Quarto in amicicia christi 
+      chari<lb ed="#A" n="9" break="no"/>tas maxima claret ex actibus et signis quibus verificatur 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1625">
+               <head xml:id="Vn7Pel-j18888-Hd1e1627">13</head>
+               <p xml:id="Vn7Pel-j18888-d1e1629">
+                  <lb ed="#A" n="10"/>¶ Queritur ergo Que sunt opera vel 
+      <lb ed="#A" n="11"/>actus amicicie quibus probatur eius veritas: Respondetur secundum 
+      Ray<lb ed="#A" n="12" break="no"/>ne. cum Tho. in scripto. Et Alb. in commento libro Eth. quod 
+      <lb ed="#A" n="13"/>tria sunt huiusmodi opera
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1640">
+      ¶ Primum dicitur beniuolentia. Unde 
+      <lb ed="#A" n="14"/>Aris. viii. Eth. c. ix. dicit esse prouerbium vulgare. quod 
+      ami<lb ed="#A" n="15" break="no"/>cus ad suum amicum dicitet se habere sicut genum ad tibiam. quia 
+      <lb ed="#A" n="16"/>hec maxime habent ad inuicem propinquitatem et beniuolentui 
+      <lb ed="#A" n="17"/>am cum vnum vult alterum esse sanum. Et quia tibia 
+      susten<lb ed="#A" n="18" break="no"/>tat genum ac genu ligat tibiam. alteroque fracto vel no 
+      <lb ed="#A" n="19"/>tabiliter leso alterum non potest ambulare. Sic amicus 
+      li<lb ed="#A" n="20" break="no"/>gat ac vnit sibi amicum et sustentat et commori vult cum 
+      <lb ed="#A" n="21"/>amico
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1660">
+      ¶ Unde quero. Quid est praestantius An pro 
+      <lb ed="#A" n="22"/>piquitas ait amicicia: Respondet Tullius de amicicia di. 
+      <lb ed="#A" n="23"/>sic. In hoc praestat amiticia propinquitati quod ex propinquitate 
+      <lb ed="#A" n="24"/>heniuolentia tolli potest: manente propinquitate. ex 
+      amici<lb ed="#A" n="25" break="no"/>cia vero non. Sublata enim beniuolentia amicicie 
+      no<lb ed="#A" n="26" break="no"/>men tollitur. Proinde etiam Aristo. ix. lib. Eth. dicit quod 
+      <lb ed="#A" n="27"/>beniuplentia est principium amicicie et in ea fundatur 
+      <lb ed="#A" n="28"/>amicicia.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1678">
+      ¶ Secundum opus amicicie dicitur 
+      concordia<lb ed="#A" n="29" break="no"/>quae consistit in affectu et in actu vnanimi scilicet quod eadem 
+      <lb ed="#A" n="30"/>velint et nolint et eadem eligant in quibus consistit ratio 
+      concor<lb ed="#A" n="31" break="no"/>die. Unde concordia dicitur quasi vnitas cordium. Ideoque 
+      <lb ed="#A" n="32"/>Aristo. viii. Eth. c. ix. dicit quod prouerbialiter dicitur vna esse 
+      <lb ed="#A" n="33"/>anima duorum amicorur scilicet per voluntatum concordiam.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1692">
+      ¶ Sed 
+      <lb ed="#A" n="34"/>qualis concordia causatur ex vera amicicia: 
+      No<lb ed="#A" n="35" break="no"/>tandum secundum praefatots
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1699">
+      ¶ Primo quod concordia in 
+      specula<lb ed="#A" n="36" break="no"/>tiuis vel consensus non pertinet ad rationem amicicie. 
+      pu<lb ed="#A" n="37" break="no"/>ta siqui consentiant inuicem in hoc quod sol est maior 
+      ter<lb ed="#A" n="38" break="no"/>ra. vel in opinionibus quae sunt de speculatiuis. Et ideo 
+      <lb ed="#A" n="39"/>in iidiciis talibus nihil prohibet amicos consentire vel 
+      <lb ed="#A" n="40"/>dissentire Ratio huius est: quia iudicium in talibus procedit 
+      <lb ed="#A" n="41"/>er naturali ratione et per consequens ei illatione veritatis 
+      com<lb ed="#A" n="42" break="no"/>cludendo necessario necessitate consequentie. Amicicia 
+      <lb ed="#A" n="43"/>vero procedit ex electione: ergo non pertinet ad eam dissensus 
+      <lb ed="#A" n="44"/>vel assensus talis conclusionis in intelli:ctu veritatis. Sed 
+      <lb ed="#A" n="45"/>vt Aristo. li. iiii. dicit Duobus existentil hv amitis sanctum est 
+      <lb ed="#A" n="46"/>inquit praehonorare veritatem. et sic manet amicicia in 
+      hu<lb ed="#A" n="47" break="no"/>iusmodi discordantia opinionum. nec propterea dissolui 
+      <lb ed="#A" n="48"/>tur. Exemplum inter ordines sancti Dominici et sancti Francisci. 
+      <lb ed="#A" n="49"/>praesertim Scotistas. licet sit multimoda opinionum 
+      <lb ed="#A" n="50"/>discordia: tamen manet eorum amicicia in christo ad inuicem 
+      <lb ed="#A" n="51"/>Secundo nota iuxta praefatos quod concordia in 
+      mini<lb ed="#A" n="52" break="no"/>his non est de ratione vere amicicie: si cut nec 
+      discor<lb ed="#A" n="53" break="no"/>dia in minimis tollit eam. eo quod concordia attenditur 
+      cir<lb ed="#A" n="54" break="no"/>ca magna vel notabilia:
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1743">
+      ¶ Tertio nec concordia in 
+      vi<lb ed="#A" n="55" break="no"/>ciis pertinet ad amiciciam veram. quia vitiosus non praet ese 
+      <lb ed="#A" n="56"/>amicus ex praedictis
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1750">
+      ¶ Concluditur ergo quod concordia est vnitas 
+      <lb ed="#A" n="57"/>animi in operabilibus communibus et vtilibus correquisita ad ve¬ 
+      <!--29.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>ram amicitiam. Unde quandm plurea consentiunt I vr domti 
+      <lb ed="#A" n="59"/>netur. vel quod sit pugandum: tunc est concordia amicicie. si 
+      <lb ed="#A" n="60"/>fiat pugna pro iusticia et electio debita. Similiter quando 
+      con<lb ed="#A" n="61" break="no"/>cordant et plebei et potentes in eodem principatum. tunc est 
+      ve<lb ed="#A" n="62" break="no"/>re amicicie concordia. Ratio: quia sic concordando quilibet 
+      ha<lb ed="#A" n="63" break="no"/>det suam voluntatem et beniuolentiam. patet. ix. Eth. Sed 
+      <lb ed="#A" n="64"/>quando quilibet sibi vult bonum proprium non curando de 
+      bo<lb ed="#A" n="65" break="no"/>no communi: non est concordia amicicie. imo ex hoc discordia 
+      <lb ed="#A" n="66"/>oritur et dissensio et amicicia deparditur secundum e. philosophum supra 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e1779">
+                  <lb ed="#A" n="67"/>¶ Tertium opus amicicie dicitur beneficentia. qua 
+      consi<lb ed="#A" n="68" break="no"/>stit in effectu exteriori gratia illius scilicet amici. Nam si 
+      <lb ed="#A" n="69"/>hec desit amicicia est ociosa. Unde Arist. viii. Eth. c. 
+      <lb ed="#A" n="70"/>ix. dicit prouerbium esse. quod ea quae sunt amicorum communia sunt. 
+      <lb ed="#A" n="71"/>Ad propositum: christus dominus probat veram tenere amiciciam 
+      <lb ed="#A" n="72"/>per hec tria. videlicet Beniuolentiam: concordiam et 
+      beneficen<lb ed="#A" n="73" break="no"/>tiam. et hec in summo. Nam bonum vult nobis summum scilicet deum 
+      <lb ed="#A" n="74"/>habere perpetua beatitudine. Item concordiam optat et pacen 
+      te<lb ed="#A" n="75" break="no"/>nere conformari voluntate nostra in praeceptis implendis. vt 
+      ha<lb ed="#A" n="76" break="no"/>beamus vitam eternam et omne bonum. Denique omnia 
+      beneficia<lb ed="#A" n="77" break="no"/>tam nature quam gratiae et maxime glore in celo nobis communicat. 
+      er<lb ed="#A" n="78" break="no"/>go patet charitas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j18888-Dd1e1809">
+               <head xml:id="Vn7Pel-j18888-Hd1e1811">14</head>
+               <p xml:id="Vn7Pel-j18888-d1e1813">
+                  <lb ed="#A" n="79"/>¶ Item que sunt signa quibus probatur 
+      <lb ed="#A" n="80"/>et agnoscitur amicicia fore vera. Nota secundum scripturas 
+      <lb ed="#A" n="81"/>et doctorum praedictorum et aliorum dicta ac philosophica 
+      <lb ed="#A" n="82"/>documenta plura signa colligendo.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1824">
+      ¶ Primo que 
+      <lb ed="#A" n="83"/>dam sunt signa ex parte cordis
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1829">
+      ¶ Secundo alia ex 
+      <lb ed="#A" n="84"/>parte oris.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1834">
+      ¶ Tertio ex parte operis.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1837">
+      ¶ Primum 
+      <lb ed="#A" n="85"/>ignum cordiss est voluntatis conformitas. quia 
+      <lb ed="#A" n="86"/>hoc ad concordiam pertinet . ix. Ethicorum
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1844">
+      ¶ 
+      Tulli<lb ed="#A" n="87" break="no"/>us de amicicia. Amicorum est idem velle et idem 
+      nol<lb ed="#A" n="88" break="no"/>se in rebus honestis. Sic est et de vera amicicia ad 
+      <lb ed="#A" n="89"/>christum. Unde Grego. homel. xxiii. Deum 
+      pro<lb ed="#A" n="90" break="no"/>fecto non diligit qui ei in voluntate contradicit.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1855">
+      ¶ 
+      Se<lb ed="#A" n="91" break="no"/>cundum in corde est amoris firmitas vt nunque 
+      fran<lb ed="#A" n="92" break="no"/>gatur vel interrumpatur. Eccli. vi. Si 
+      perseueraue<lb ed="#A" n="93" break="no"/>rit fixus id est stabilis in amore erit tibi coequalis id est 
+      <lb ed="#A" n="94"/>amicus. Unde dicitur amicus quasi animi custos 
+      <lb ed="#A" n="95"/>quia custodit amorem in animo. Sic amor ad de 
+      <lb ed="#A" n="96"/>um et proximum seruari debet. i. Io. iiii. Qui dicit 
+      dili<lb ed="#A" n="97" break="no"/>go deum et fratrem odit mendax est
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1873">
+      ¶ Tertium in 
+      <lb ed="#A" n="98"/>corde signum est recordationis sedulitas. Augus. 
+      <lb ed="#A" n="99"/>super Ioan. Ubi amor ibi frequenter versatur 
+      ani<lb ed="#A" n="100" break="no"/>mus. Sic amicus christi frequenter debet 
+      recole<lb ed="#A" n="101" break="no"/>re de passione christi. Cantur. viii. Pone me vt sicgupr. super 
+      <lb ed="#A" n="102"/>cor tuum
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1886">
+      ¶ Quartum est intentionis bonitas vt diligat. 
+      <lb ed="#A" n="103"/>intentione bona id est propter virtutem. patet in praecedentibus. Sic 
+      <lb ed="#A" n="104"/>chrs diligit vt boni simus.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1893">
+      ¶ Secundo figna in 
+      ore<lb ed="#A" n="105" break="no"/>sunt
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1899">
+      ¶ Primum collocutionis familiaritas qua augetur 
+      <lb ed="#A" n="106"/>amicicia . ix. Eth. Sic colloqui debemus deum orando et 
+      <lb ed="#A" n="107"/>laudando
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1906">
+      ¶ Secundum petitionis congruitas. Tullius de 
+      <lb ed="#A" n="108"/>amicicia dicit. Ueri amici est nec turpia vel indecentia 
+      <lb ed="#A" n="109"/>rogare nec ad praeces amici turpia facere. Et Eccli. 
+      <lb ed="#A" n="110"/>vi. Noli fieri pro amico scilicet pximo inimicums scilicet deo. 
+      <lb ed="#A" n="111"/>Sic licita a christo petamus etc.
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1917">
+      ¶ Tertium est 
+      confes<lb ed="#A" n="112" break="no"/>sionis veritas scilicet secreta aperiendo veraciter ne deci 
+      <lb ed="#A" n="113"/>pere veli mus proximum. sic debemus peccata confiteri vere 
+      </p>
+               <p xml:id="Vn7Pel-j18888-d1e1924">
+                  <lb ed="#A" n="114"/>¶ Tertio signa in opere sunt. Primum bencficem 
+      <!--30.xml-->
+      <pb ed="#A" n="31"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tie largitas. De qua §. xiii. Secundum in aduers fidelita 
+      <lb ed="#A" n="2"/>Eccli. vi. Si possides amicum in tentatione posside 
+      il<lb ed="#A" n="3" break="no"/>lum. Seneca. Ob hoc praeciperue diligenda est paupertas. quod 
+      <lb ed="#A" n="4"/>facit scire qui te vere dilexit. Sic christus in tempore 
+      tribula<lb ed="#A" n="5" break="no"/>tionis semper subuenit suis amicis
+     </p>
+               <p xml:id="Vn7Pel-j18888-d1e1946">
+      ¶ Tertium signum est 
+      <lb ed="#A" n="6"/>perseuerantie perpetuitas. Eccli. vi. Omi tempore diligit 
+      <lb ed="#A" n="7"/>qui amicus est. ergo et in morte et post mortem semper. Sic 
+      <lb ed="#A" n="8"/>christus perpetue diligit suos sine fine. O ergo quam 
+      ineffa<lb ed="#A" n="9" break="no"/>bils est charitas christi ad suos amicos: quis extima 
+      <lb ed="#A" n="10"/>re sufficit etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

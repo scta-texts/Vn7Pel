@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Timor</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Timor</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="316"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j94073">
+            <head xml:id="Vn7Pel-j94073-Hd1e110">Timor</head>
+            <div xml:id="Vn7Pel-j94073-Dd1e112">
+               <head xml:id="Vn7Pel-j94073-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j94073-d1e116">
+                  <lb ed="#A" n="39"/>¶ Timor secundum 
+      Na<lb ed="#A" n="40" break="no"/>mascenum est expectatio futuri mali. 
+      <lb ed="#A" n="41"/>Ubi secundum Guill. in. iii. di. xxxiiii. tangum 
+      <lb ed="#A" n="42"/>tur tria. Primo genus: dum dicitur 
+      expe<lb ed="#A" n="43" break="no"/>ctatio. Expectatio enim est tam boni quam mali. Unde de 
+      <lb ed="#A" n="44"/>spe dicitur: quod est certa expectatio future beatitudinis. 
+      </p>
+               <p xml:id="Vn7Pel-j94073-d1e132">
+                  <lb ed="#A" n="45"/>¶ Secundo tangitur obiectu timoris dum dicitur: mali. Sicut 
+      <lb ed="#A" n="46"/>um spes est respectu boni: ita timor respectu mal¬ 
+      </p>
+               <p xml:id="Vn7Pel-j94073-d1e139">
+                  <lb ed="#A" n="47"/>¶ Tertio tangitur modus quo timor susi aspicit obiectum 
+      <lb ed="#A" n="48"/>um dicitur: futuri. Et in hoc differt a tristicia. Tristi. 
+      <lb ed="#A" n="49"/>cia enim est de malo praesenti: sed timor de futuro. 
+      </p>
+               <p xml:id="Vn7Pel-j94073-d1e148">
+                  <lb ed="#A" n="50"/>¶ Sed contra praedicta arguitur sic. Quando aliquid in 
+      <lb ed="#A" n="51"/>vna acceptione est passio: in altera vero est habitus 
+      <lb ed="#A" n="52"/>equiuoce dicitur. sed timor qui est donum est habitus. 
+      ti<lb ed="#A" n="53" break="no"/>mor vero naturalis est passio. ergo de timore non potest 
+      assi<lb ed="#A" n="54" break="no"/>guari vna communis ratio vel diffinitio. Nam Au¬ 
+      <!--315.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>gustinus super Ioannem. sic diffinit. Timor est fuga 
+      ne<lb ed="#A" n="56" break="no"/>amittat quod habet. Damasce. vero aliter: vt praedictum est 
+      <lb ed="#A" n="57"/>Sed neutrum conuenit timori in statu patrie ergo non 
+      vi<lb ed="#A" n="58" break="no"/>detur quod sit generalem rationem ipsius timoris 
+      inue<lb ed="#A" n="59" break="no"/>nire. imo iste diffinitiones contrariantur sibi. Si enim 
+      fu<lb ed="#A" n="60" break="no"/>ga et expectatio opponuntur. et timor est fuga secundum An 
+      <lb ed="#A" n="61"/>gusti. non est expectatio vt dicit Damasce. Ideo quaeritus 
+      <lb ed="#A" n="62"/>Utrum timor secundum generalem sui acceptionem habeat 
+      <lb ed="#A" n="63"/>vnum obiectum commune. Quod sic: videtur. quia naturalis timor 
+      <lb ed="#A" n="64"/>conformis est gratuito et gratuitus glorioso: alioquin 
+      <lb ed="#A" n="65"/>nec timor naturalis perficeretur a gratuito nec 
+      gratui<lb ed="#A" n="66" break="no"/>tus a glorioso. hoc autem esse non posset nisi haberent 
+      <lb ed="#A" n="67"/>vnum obiectum commune. Et hoc etiam videtur ex hoc quia tante 
+      gene<lb ed="#A" n="68" break="no"/>ralitatis est amor quante est timor. sed omnis amorem 
+      <lb ed="#A" n="69"/>respectu obiecti sub vna ratione videlicet sub ratione boni. 
+      <lb ed="#A" n="70"/>ergo videtur similiter de timore
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e201">
+      ¶ Respondetur secundum sanctum 
+      <lb ed="#A" n="71"/>Bona. in. iii. di. xxxiiii. in declaratione litterali. Quod 
+      ti<lb ed="#A" n="72" break="no"/>mor cum multas habeat different: as de illis nec 
+      <lb ed="#A" n="73"/>dicitur omnino vniuoce nec equiuoce: sed secundum quandam 
+      anap<lb ed="#A" n="74" break="no"/>logiam. Ubi autem est analogia est comparatio ad 
+      ali<lb ed="#A" n="75" break="no"/>quid vnum secundum prius et posterius: maxime vbi est 
+      di<lb ed="#A" n="76" break="no"/>cere proprie analogia. et ideo timor secundum omnes suas 
+      dif<lb ed="#A" n="77" break="no"/>ferentias habet vnam rationem siue vnum obiectum circa 
+      <lb ed="#A" n="78"/>quod consistit eius actus secundum prius et posterius. obiectum 
+      <lb ed="#A" n="79"/>qunt timoris sub ratione sua generali est arduum. actus 
+      <lb ed="#A" n="80"/>vero communis est resilitio ab illo arduo. et hoc est in 
+      omni<lb ed="#A" n="81" break="no"/>timore reperiri. Unde vna communis ratio potest de omni 
+      <lb ed="#A" n="82"/>timore assignari vt dicatur quod timor est resilitio ab 
+      ali<lb ed="#A" n="83" break="no"/>quo arduo siue excellenti: siue illud arduum sit in 
+      <lb ed="#A" n="84"/>genere boni siue in genere mali. Sed cum est in 
+      ge<lb ed="#A" n="85" break="no"/>nere boni est resilitio cum reuerentia. cum vero est in 
+      ge<lb ed="#A" n="86" break="no"/>nere mali: est resilitio cum fuga. Sed quia iuxta 
+      ana<lb ed="#A" n="87" break="no"/>logiam frequenter latet equiuocatio quaedam secundum philosophum: 
+      <lb ed="#A" n="88"/>propter tollendam ambiguitatem Magister in 
+      litte<lb ed="#A" n="89" break="no"/>ra prius voluit diuidere timorem quam diffinire. quia in 
+      <lb ed="#A" n="90"/>multiplicibus primo est diuidendum et postea 
+      diffini<lb ed="#A" n="91" break="no"/>endum. Et hinc est quod Augustinus. et Damascenus 
+      timo<lb ed="#A" n="92" break="no"/>rem diffiniunt non quidem in sua generalitate sed 
+      respe<lb ed="#A" n="93" break="no"/>ctu mali. Et quia timor respectu mali duplicem actum 
+      <lb ed="#A" n="94"/>habet. Unum antecedentem qui est estimatio siue 
+      suspi<lb ed="#A" n="95" break="no"/>cio: qua quis credit malum sibi superuenturum: consequenter 
+      <lb ed="#A" n="96"/>est fuga illius mali estimati
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e260">
+      ¶ Hinc est quod vnus illo 
+      <lb ed="#A" n="97"/>rum diffinit per expectationem: alter vero per fugam. ita 
+      <lb ed="#A" n="98"/>v nulla est ibi controuersia. Accipitur enim ibi expecta 
+      <lb ed="#A" n="99"/>tio large pro quacunque estimatione siue 
+      credulita<lb ed="#A" n="100" break="no"/>te de aduentu mali. et per hoc patet responsio ad primum
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e271">
+      ¶ Ad 
+      <lb ed="#A" n="101"/>illud autem quod querebatur de obiecto timoris Dicendum 
+      <lb ed="#A" n="102"/>v obiectum eius est arduum sub ratione ardui et 
+      excelle<lb ed="#A" n="103" break="no"/>tis et quodammodo superexcellentis. Unde quod 
+      obiici<lb ed="#A" n="104" break="no"/>tur de malo et de futuro non valet. quia illatio non 
+      <lb ed="#A" n="105"/>respicit timorem nisi quantum ad statum vie: nec 
+      <lb ed="#A" n="106"/>adhuc generaliter. In statu enim vie est timor 
+      reue<lb ed="#A" n="107" break="no"/>rentie. sicut ex praedictis habitum est 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j94073-Dd1e290">
+               <head xml:id="Vn7Pel-j94073-Hd1e292">2</head>
+               <p xml:id="Vn7Pel-j94073-d1e294">
+                  <lb ed="#A" n="108"/>¶ Queritur: quomodo diuiditur timor 
+      <lb ed="#A" n="109"/>Respondet magister in. iii. dis. xxxiiii. quod quadruplex 
+      <lb ed="#A" n="110"/>est scilicet mundanus siue humanus: seruilis initialis et 
+      <lb ed="#A" n="111"/>filialis.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e305">
+      ¶ Sed contra arguitur: quod ista diuisio a 
+      <!--316.xml-->
+      <pb ed="#A" n="317"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>magistro afsignata est insufficiens. quia sex sunt 
+      ti<lb ed="#A" n="2" break="no"/>mores scilicet naturalis: mundanus: humanus: serui 
+      <lb ed="#A" n="3"/>lis: initialis et filialis.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e321">
+      ¶ Queritur penes quid sumanm 
+      <lb ed="#A" n="4"/>ctur et quomodo distinguantur: Respondet sanctus 
+      Bo<lb ed="#A" n="5" break="no"/>nauen. vbi supra quod sex differentie timoris habent 
+      distin<lb ed="#A" n="6" break="no"/>gui secundum differentiarum suarum originem. Timor enim aut 
+      <lb ed="#A" n="7"/>est ex natura aut ex libidine siue concupiscentia aut 
+      <lb ed="#A" n="8"/>ex gratia. Si est er natura tunc est timor naturalis 
+      <lb ed="#A" n="9"/>Si ex concupiscentia. hoc est dupliciter. Aut ex nimio 
+      <lb ed="#A" n="10"/>amore sui: sic est humanus. Aut ex nimio amore 
+      su<lb ed="#A" n="11" break="no"/>orum: sic est mundanus. Si vero ex gratia gratis 
+      da<lb ed="#A" n="12" break="no"/>ta: sic est seruilis. aut ex gratia gratumfaciente 
+      incho<lb ed="#A" n="13" break="no"/>ata: et sic est initialis. Aut ex gratia perfecta: et sic est 
+      fili<lb ed="#A" n="14" break="no"/>alis
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e347">
+      ¶ Ad argumentum dicendum: quod magister non 
+      <lb ed="#A" n="15"/>est insufficiens in diuidendo timorem in quattuor. quia 
+      <lb ed="#A" n="16"/>exquo intendit hic agere de timore bono non diui 
+      <lb ed="#A" n="17"/>dit timorem nisi eatenus quantum ad propositum suum 
+      spe<lb ed="#A" n="18" break="no"/>ctat. Timor autem donum quadrupliciter habet 
+      conside<lb ed="#A" n="19" break="no"/>rari. Aut per comparatione ad suum oppositum quod 
+      expe<lb ed="#A" n="20" break="no"/>lit. et hic est timor malus qui opponitur donospiritus 
+      san<lb ed="#A" n="21" break="no"/>cti: vt mundanus et humanus. quoo magister non 
+      di<lb ed="#A" n="22" break="no"/>uidit. licet sint timores diuersi. quia sub ratione 
+      conside<lb ed="#A" n="23" break="no"/>rat videlicet inquantum habent oppositionem ad donum 
+      timo<lb ed="#A" n="24" break="no"/>ris. Aut per comparationem ad obiectum minus 
+      princi<lb ed="#A" n="25" break="no"/>pale: et hoc quidem est malum pene et sic est timor 
+      ser<lb ed="#A" n="26" break="no"/>uilis. Aut per comparationem ad obiectum magis 
+      princi<lb ed="#A" n="27" break="no"/>pale. quod quidem est malum culpe offense. et sic est 
+      <lb ed="#A" n="28"/>timor initialis. Aut per comparationem ad obiectum 
+      <lb ed="#A" n="29"/>maxime principale. quodquidem est excellentie 
+      ma<lb ed="#A" n="30" break="no"/>iestatis diuine. et quatum ad hoc est timor filialis. 
+      <lb ed="#A" n="31"/>Aliter potest dici quod timor sub ratione doni potest 
+      <lb ed="#A" n="32"/>secundum aliam considerationem quadruplititer diuidi. quia 
+      <lb ed="#A" n="33"/>timor aut est oppositum dono et sic vna differentia 
+      <lb ed="#A" n="34"/>videlicet mundanus et humanus. aut est donum: tamen cum 
+      <lb ed="#A" n="35"/>opposito doni. et sic est timor seruilis. Aut est donum 
+      <lb ed="#A" n="36"/>cum opposito: tamen cum quadam approximatione 
+      <lb ed="#A" n="37"/>ad oppositum. et sic est timor initialis. Aut est 
+      per<lb ed="#A" n="38" break="no"/>fectum donum. et sic est timor filialis. Et sic patet 
+      <lb ed="#A" n="39"/>quod magister sufficienter diuidit timorem secundum qua 
+      <lb ed="#A" n="40"/>druplicem comparationem. Sed dicit idem in littera 
+      <lb ed="#A" n="41"/>quod vterque timo scilicet seruilis et initialis in scripture 
+      di<lb ed="#A" n="42" break="no"/>uersis locis dicitur initium sapientie: Contra hoc 
+      <lb ed="#A" n="43"/>arguitur. si timor initialis dicitur: quia in eo 
+      incho<lb ed="#A" n="44" break="no"/>antur sapientia et gratia et timor seruilis est 
+      huius<lb ed="#A" n="45" break="no"/>modi. videtur ergo quod timor seruilis sit initialis 
+      <lb ed="#A" n="46"/>quod falsum est. Iuxta hoc queritur propter quid 
+      ti<lb ed="#A" n="47" break="no"/>mor in sacra scriptura potius dicitur initum 
+      sapien<lb ed="#A" n="48" break="no"/>tie quam aliud donum. Et quare magis dicitur 
+      ini<lb ed="#A" n="49" break="no"/>tium sapientie quam alterius doni aut virtutis aut 
+      gra<lb ed="#A" n="50" break="no"/>tie.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e429">
+      ¶ Respondet sanctus Bonauen vbi supra. Quod duplex 
+      <lb ed="#A" n="51"/>sit initium intra vel extra. Initialis denomina 
+      <lb ed="#A" n="52"/>ab intra quod est nature principium intrinsecum. 
+      <lb ed="#A" n="53"/>Seruilis autem habet rationem principii extra. et 
+      <lb ed="#A" n="54"/>propterea nec erit nec debet dici initialis
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e440">
+      ¶ Ad 
+      ali<lb ed="#A" n="55" break="no"/>ud quod queritur. quare magis dicitur principlum 
+      sa<lb ed="#A" n="56" break="no"/>pientie quam alterius doni. Dicendum quod in proficiendem 
+      <lb ed="#A" n="57"/>in bonum: donum timoris est primum inter omnia 
+      <lb ed="#A" n="58"/>dona. et donum sapientie supremum. Cum ergo ra¬ 
+      <!--316.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>tio principi debeat atribui primo hint est quo fatieo 
+      <lb ed="#A" n="60"/>initii debet attribui timori. quia vero in summo status est 
+      <lb ed="#A" n="61"/>Hinc est quod timor magis dicitur initium sapientie quam 
+      ali<lb ed="#A" n="62" break="no"/>cuius alterius doni 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j94073-Dd1e465">
+               <head xml:id="Vn7Pel-j94073-Hd1e467">3</head>
+               <p xml:id="Vn7Pel-j94073-d1e469">
+                  <lb ed="#A" n="63"/>¶ Utrum timor seruilis sit donum 
+      <lb ed="#A" n="64"/>spiritus sancti diuinitus datum: Arguitur quod non. quia 
+      <lb ed="#A" n="65"/>omne donum spiritus sancti potest stare cum spiritu sancto. 
+      <lb ed="#A" n="66"/>quia spiritus sanctus non repugnat suis donis. sed quando 
+      <lb ed="#A" n="67"/>spiritus sanctus infunditur tunc timor seruilis 
+      expelli<lb ed="#A" n="68" break="no"/>tur. sicut dicit Augustinus. et habetur in litter. ergo timor serui 
+      <lb ed="#A" n="69"/>lis non est donum spiritus sancti
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e487">
+      ¶ Respondetur secundum 
+      san<lb ed="#A" n="70" break="no"/>ctum Bonauen. in. iii. dis. xxxiiii. arti. i. q. i. Quod absque 
+      <lb ed="#A" n="71"/>dubio timor seruilis est donum spiritus sancti. Et 
+      ra<lb ed="#A" n="72" break="no"/>tio huius est. quoniam sicut donum dei est nosse siue 
+      cre<lb ed="#A" n="73" break="no"/>dere penas futuras. pro eo quod ibi est quaedam cordis 
+      <lb ed="#A" n="74"/>illuminatio et directio. sic donum dei est illas penas 
+      <lb ed="#A" n="75"/>eternas refugere et timere. Nam propter illarum 
+      ti<lb ed="#A" n="76" break="no"/>morem cessat homo a peccatorum perpetratione. et sic 
+      <lb ed="#A" n="77"/>coremolliter et fluxus concupiscibilis restringitur. et 
+      <lb ed="#A" n="78"/>omnia ista sunt dei dona.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e509">
+      ¶ Ad argumentum 
+      er<lb ed="#A" n="79" break="no"/>go dicendum Quod dona spiritus sascti sunt in multipli. 
+      <lb ed="#A" n="80"/>ci differentia. Quoddam nanque donum est a 
+      spiri<lb ed="#A" n="81" break="no"/>tusancto sed non cum spiritusancto. quia praeparat ad 
+      spi<lb ed="#A" n="82" break="no"/>ritum sanctum. Et tale donum est timor seruilis 
+      <lb ed="#A" n="83"/>Sicut enim aurora est a sole non tamen est cum sole. 
+      <lb ed="#A" n="84"/>sed ante solem apparet et orto sole euanescet. sic est 
+      <lb ed="#A" n="85"/>intelligendum de timore seruili. Quoddam autem 
+      <lb ed="#A" n="86"/>bonum est a spiritu sancto et semper cum spiritu sancto. 
+      <lb ed="#A" n="87"/>quia per ipsum consecratur hahitaculum spiritui sancto 
+      <lb ed="#A" n="88"/>sicut est donum charitatis. Quoddam vero donum est 
+      <lb ed="#A" n="89"/>a spiritu sancto et aliquando cum spiritu sancto et 
+      aliquan<lb ed="#A" n="90" break="no"/>do sine spiritusancto. sicut donum quod est ad ma 
+      <lb ed="#A" n="91"/>nifestationem spiritus sancti. et est ordinatum non solum 
+      <lb ed="#A" n="92"/>ad propriam vtilitatem sed etiam ad alienam. sicut 
+      <lb ed="#A" n="93"/>donum prophetie et donum scientie: que aliquando in 
+      <lb ed="#A" n="94"/>bonis aliquando in malis reperiri habent. Cum 
+      er<lb ed="#A" n="95" break="no"/>go dicitur quod donum spiritus sancti compatitur se cum 
+      spi<lb ed="#A" n="96" break="no"/>ritu sancto Hoc habet instantiam in eo dono quod 
+      prae<lb ed="#A" n="97" break="no"/>parat habitaculum spritu sancta 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j94073-Dd1e554">
+               <head xml:id="Vn7Pel-j94073-Hd1e556">4</head>
+               <!-- margin erroneously says 2 -->
+               <p xml:id="Vn7Pel-j94073-d1e560">
+                  <lb ed="#A" n="98"/>¶ Utrum timor seruilis euacuatur 
+      <lb ed="#A" n="99"/>per charitatis aduentum: Arguitur quod sic. quia sicut 
+      <lb ed="#A" n="100"/>amori charitatis opponitur mercennarius amor: ita 
+      <lb ed="#A" n="101"/>timori opponitur seruilis. sed amor mercennarius 
+      <lb ed="#A" n="102"/>non stat simul cum charitate: ergo nec seruilis 
+      ti<lb ed="#A" n="103" break="no"/>mor stat cum timore casto. et ex consequent in nec cum 
+      <lb ed="#A" n="104"/>charitate. Respondetur secundum Richar. in. iii. dist. xxxiiii. 
+      <lb ed="#A" n="105"/>arti. ii. q. iii. Quod cum dico timorem seruilem timo. 
+      <lb ed="#A" n="106"/>rem: duo dico scilicetipsam essentiam timoris qua 
+      ti<lb ed="#A" n="107" break="no"/>metur eterna pena. et seruilitatem: que consistit in 
+      <lb ed="#A" n="108"/>hoc quod timetur diuina offensa. Ista seruilitas non est 
+      <lb ed="#A" n="109"/>in homine per illum habitum quo pena timetur 
+      <lb ed="#A" n="110"/>eterna. Timere enim penam eternam bonum est 
+      <lb ed="#A" n="111"/>nec radix potest esse seruilitatis per se sed illa 
+      ser<lb ed="#A" n="112" break="no"/>uilitas ex carentia charitatis. quia ergo illa serui 
+      <lb ed="#A" n="113"/>litas nec est de ratione praedicti habitus nec eius 
+      ac<lb ed="#A" n="114" break="no"/>cidens inseparabile. et opponitur charitati. Ideo per 
+      <!--317.xml-->
+      <pb ed="#A" n="318"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>aduentum charitatis seruilitas excluditur: et 
+      essen<lb ed="#A" n="2" break="no"/>tia predicti habitus relinquitur et formatur. Alii autem 
+      <lb ed="#A" n="3"/>dicunt sicut refert Bonauen. vbi supra. q. iii. quod timor 
+      <lb ed="#A" n="4"/>seruilis adueniente charitate expellitur quantum ad 
+      <lb ed="#A" n="5"/>seruilitatem: et quantum ad habitum. sed prima 
+      opi<lb ed="#A" n="6" break="no"/>nio videtur verior. sicut supra de fide informi 
+      di<lb ed="#A" n="7" break="no"/>ctum fuit.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e621">
+      ¶ Ad argumentum Respondctur secundum Rich. 
+      <lb ed="#A" n="8"/>quo maior est falsa. quia mercennarius amor secundum 
+      su<lb ed="#A" n="9" break="no"/>am rationem propriam opponitur charita ti. Est enim mer 
+      <lb ed="#A" n="10"/>cennarius amor quo deus amatur propter temporalia 
+      <lb ed="#A" n="11"/>bona sicut propter principalem finem Et ideo ille amor 
+      <lb ed="#A" n="12"/>semper malus est. Timor autem seruilis non opponitur 
+      ti<lb ed="#A" n="13" break="no"/>mori casto secundum rationem sui habitus. quia timere 
+      pe<lb ed="#A" n="14" break="no"/>nam vt dei offensam non opponuntur: sed tantum opponitur 
+      <lb ed="#A" n="15"/>ei ratio seruilitatis. vt praedictum est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j94073-Dd1e643">
+               <head xml:id="Vn7Pel-j94073-Hd1e645">5</head>
+               <p xml:id="Vn7Pel-j94073-d1e647">
+                  <lb ed="#A" n="16"/>¶ Utrum timor initialis et filialis 
+      <lb ed="#A" n="17"/>sint due diuerse species timoris: Respondetur secundum sa 
+      <lb ed="#A" n="18"/>ctum Bonauen. vbi supra art. ii. q. i. Quod de hoc est 
+      du<lb ed="#A" n="19" break="no"/>plex modus dicendi. Quidam enim dicere 
+      volue<lb ed="#A" n="20" break="no"/>runt quod timor initialis et filialis non differunt nisi 
+      quan<lb ed="#A" n="21" break="no"/>tum ad statum sicut et amor incipiens et perficiens est 
+      <lb ed="#A" n="22"/>idem licet status sit diuersus hic et ibi. Sed hoc non 
+      <lb ed="#A" n="23"/>videtur. tum quia inter hos duos possit tertiua 
+      <lb ed="#A" n="24"/>timor assignar scilicet proficiens. Tum quia non videm 
+      <lb ed="#A" n="25"/>talem modum distinguendi esse in aliis donis 
+      gra<lb ed="#A" n="26" break="no"/>tuitis. cum tamen in eis sit istos duos status 
+      inueni<lb ed="#A" n="27" break="no"/>re. Ideo est alius modus dicendi quod timor 
+      initia<lb ed="#A" n="28" break="no"/>lis et timor filialis sunt diuerse species timoris. et 
+      <lb ed="#A" n="29"/>diuersus est vtrobique modus timendi. et ad 
+      diuer<lb ed="#A" n="30" break="no"/>sa intuetur homo secundum illos duos timores. quia vnus 
+      <lb ed="#A" n="31"/>euacuatur et alter manet in patria secundum quod dicit magi 
+      <lb ed="#A" n="32"/>ster in littera. quod quidem non esset si essent idem in essentia 
+      <lb ed="#A" n="33"/>Ueruntem istud difficile est baene intelligere. quoniam secundum 
+      <lb ed="#A" n="34"/>profectum hominis in statu vie possunt esse diuersi 
+      ha<lb ed="#A" n="35" break="no"/>bitus timoris formaliter differentes. Ideo (inquit 
+      Bo<lb ed="#A" n="36" break="no"/>nauem.) possumus vriam mediam eligere quod dicti 
+      timo<lb ed="#A" n="37" break="no"/>res no adeo differunt sicut differut species 
+      forma<lb ed="#A" n="38" break="no"/>liter differentes. cum vnus quodammodo sit materialis 
+      <lb ed="#A" n="39"/>respectu alterius. et quodammodo claudatur in altero 
+      <lb ed="#A" n="40"/>Timor enim initialis timet penam et offensam. timo: 
+      <lb ed="#A" n="41"/>vero filialis offensam quidem timet et attendit sumi 
+      <lb ed="#A" n="42"/>patris reuerentiam. et sic vnus quodammodo se 
+      haber<lb ed="#A" n="43" break="no"/>ex additione ad alterum. ideo non differunt sicut 
+      di<lb ed="#A" n="44" break="no"/>uerse species vnum genus diuidentes. nec tamen 
+      <lb ed="#A" n="45"/>est differentia solum quantum ad statum. quia timor 
+      <lb ed="#A" n="46"/>initialis principaliter aspicit offensam. timor vero fi 
+      <lb ed="#A" n="47"/>lialis et si vnum oculum habet ad offensam: principaliter 
+      <lb ed="#A" n="48"/>tamen habet ad dei reuerentiam. Possunt tamen 
+      di<lb ed="#A" n="49" break="no"/>ci diuersi timores. Tum ratione statuum: tum ratione 
+      mo<lb ed="#A" n="50" break="no"/>dorum timendi. tum ratione principalium motiunorum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j94073-Dd1e726">
+               <head xml:id="Vn7Pel-j94073-Hd1e728">6</head>
+               <p xml:id="Vn7Pel-j94073-d1e730">
+                  <lb ed="#A" n="51"/>¶ Utrum deus possit timeri: 
+      Ar<lb ed="#A" n="52" break="no"/>guitur quod non. Quia ille rationabiliter non potest timeri e 
+      <lb ed="#A" n="53"/>quo non potest esse aliquid mali. nec a se simpliciter 
+      ma<lb ed="#A" n="54" break="no"/>lum prouenire potest. sed deus est huiusmodi: ergo deus 
+      rationa<lb ed="#A" n="55" break="no"/>biliter timeri non potest
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e743">
+      ¶ RConfirmatur sic. quia timor et 
+      <lb ed="#A" n="56"/>spe opponuntur. cum ergo peus. sit obiectum spei non potest esse 
+      <!--317.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>obiectum timors
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e754">
+      ¶ In contrarium tamen dicitur Ecci. i. 
+      <lb ed="#A" n="58"/>Timenti deum bene erit in extremis.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e759">
+      ¶ Respondetur secundum Rich. 
+      <lb ed="#A" n="59"/>in. iii. di. xxxiiii. arti. ii. q. i. Quod deuposse timeri 
+      du<lb ed="#A" n="60" break="no"/>plciter potest intelligi. autem per se autem per accidens
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e767">
+      ¶ Primo modo 
+      <lb ed="#A" n="61"/>deus timeri non potest nisi equiuocando nomen timoris 
+      <lb ed="#A" n="62"/>accipiendo scilicetimorem pro resilitione in propriam peruitatem ex 
+      <lb ed="#A" n="63"/>consideratione magnitudinis dei.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e776">
+      ¶ Secundo modo deus 
+      ti<lb ed="#A" n="64" break="no"/>meri potest inquantum ab ipso vel per comparationem ad ipsum 
+      <lb ed="#A" n="65"/>nobis potest prouenire aliquod malum. vel secundum quid: sicut ma 
+      <lb ed="#A" n="66"/>lum pene. vel simpliciter: sic malum culpe
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e785">
+      ¶ Ilud autem quod per se 
+      <lb ed="#A" n="67"/>timetur est ipsum malum pene vel malum cipe. Malum pene 
+      <lb ed="#A" n="68"/>potest nobis infligere quod est malum secundum quid. Malum 
+      cul<lb ed="#A" n="69" break="no"/>pe ab ipso non potest nobis prouenire: quod e malum simpliciter. 
+      <lb ed="#A" n="70"/>Et huic responsiomni concordat illud quod communiter dicitur de 
+      odio<lb ed="#A" n="71" break="no"/>dei. Ipse enim deus per se odiri non potest: per accidens autem a 
+      <lb ed="#A" n="72"/>multis oditur scilicet inquantum puniens. Unde non debet 
+      absur<lb ed="#A" n="73" break="no"/>dum videri dicere quod sicut deus per se non potest refugi: ita 
+      <lb ed="#A" n="74"/>per se non potest timeri timore proprie dicto.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e805">
+      ¶ Ad 
+      argu<lb ed="#A" n="75" break="no"/>mentum respondet idem Rich. quod maior est falsa. Time 
+      <lb ed="#A" n="76"/>tur ei ille a quae potest prouenire malum pene. et tale malum 
+      <lb ed="#A" n="77"/>a deo prouenire potest. quia est bonum simpliciter. quia dependet 
+      <lb ed="#A" n="78"/>ab ordine vltimi finis. timetur etiam inquantum potest 
+      per<lb ed="#A" n="79" break="no"/>mittere malum culpe: quod est simpliciter malum. quia 
+      exclu<lb ed="#A" n="80" break="no"/>dit ordinem ad finem vltimum. qui enim timet ne deus 
+      iu<lb ed="#A" n="81" break="no"/>ste permittat ipsum labi in peccatum: timet ipsum deum 
+      salten<lb ed="#A" n="82" break="no"/>per accidens
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e825">
+      ¶ Ad argumenti confirmationem dicendum quod 
+      <lb ed="#A" n="83"/>non est inconlueniens quod deus sit obiectum timoris et 
+      spei<lb ed="#A" n="84" break="no"/>sub alia et alia ratione. vt sub ratione iusticie punientis 
+      <lb ed="#A" n="85"/>sit obiectum timoris. et sub ratione misercordie releuantis 
+      <lb ed="#A" n="86"/>sit obiectum spei. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j94073-Dd1e837">
+               <head xml:id="Vn7Pel-j94073-Hd1e839">7</head>
+               <p xml:id="Vn7Pel-j94073-d1e841">
+                  <lb ed="#A" n="87"/>¶ Utrum crescente charitate timor 
+      <lb ed="#A" n="88"/>pecrescat: Arguitur quod sic. quia dicitur. i. Io. iiii. Perfecta 
+      <lb ed="#A" n="89"/>charitas foras mittit timorem. Super quo dicit Aug. 
+      quan<lb ed="#A" n="90" break="no"/>tum charitas crescit tantum et timor decrescit. et quantum 
+      <lb ed="#A" n="91"/>illa fit interior tantum illa pelliteur foras. maior hic 
+      cha<lb ed="#A" n="92" break="no"/>ritas: minor timor. Sed constat quod non potest 
+      intel<lb ed="#A" n="93" break="no"/>ligi de timore seruili. quia ille non stat cum charitate. ergo 
+      <lb ed="#A" n="94"/>iuntum charitas crescit tantum timor gratuitus decrescit 
+      <lb ed="#A" n="95"/>Confirmatur sic. quia quanto quis magis amat tanto 
+      <lb ed="#A" n="96"/>magis sperat. et quanto magis sperat tato minus timet 
+      <lb ed="#A" n="97"/>ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e867">
+      ¶ Contra praedicta arguitl. Augmentata causa 
+      au<lb ed="#A" n="98" break="no"/>gmentatur effectus. sed fides et amor tenent timorem 
+      gra<lb ed="#A" n="99" break="no"/>tuitum. ergo fide et charitate crescente necesse est pariter 
+      <lb ed="#A" n="100"/>et timorem crescere.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e876">
+      ¶ Respondetur secundum scntum Bonauen. 
+      <lb ed="#A" n="101"/>vbi supra. q. ii. Quod hic diuersi diuersa sentiunt. Quidam 
+      <lb ed="#A" n="102"/>volunt dicere quod est loqui de timore quantum ad 
+      ha<lb ed="#A" n="103" break="no"/>bitum et quantum ad vsum. Si loquamur de 
+      ipsoquan<lb ed="#A" n="104" break="no"/>um ad habitum verum est quod crescente charitate 
+      cre<lb ed="#A" n="105" break="no"/>scit timor. propter hoc quod habitus sunt equales. Si 
+      <lb ed="#A" n="106"/>vero loquamur quantum ad vsum sic dixerunt quod 
+      crescen<lb ed="#A" n="107" break="no"/>te charitate decrescit timor. sicut patet per experientiam 
+      <lb ed="#A" n="108"/>Nam homo in principio conuersionis multa ex 
+      ti<lb ed="#A" n="109" break="no"/>mone facit. sed cum gustauerit dulcedinem charita 
+      <lb ed="#A" n="110"/>tis iam magis amore illius trahitur. Sed in hoc 
+      <lb ed="#A" n="111"/>non videtur duo opposita implicari. Si enim 
+      magni<lb ed="#A" n="112" break="no"/>tudo habitus attenditur penes magnitudinem actus 
+      <lb ed="#A" n="113"/>et resus. decrescente dono quantum ad habitum necesi. 
+      <!--318.xml-->
+      <pb ed="#A" n="319"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sc est ipsum decrescere quantum ad actum et vsum. 
+      Pro<lb ed="#A" n="2" break="no"/>pterea est alius modus dicendi quod timor gratuit 
+      <lb ed="#A" n="3"/>diuidi habet in initialem et filialem. De timore initia 
+      <lb ed="#A" n="4"/>li verum est quod crescente charitate decrescit timor. de 
+      ti<lb ed="#A" n="5" break="no"/>more filiali non est verum. quia tali charitate 
+      cre<lb ed="#A" n="6" break="no"/>scente crescit etiam timor filialis. Uel potest adhuc 
+      <lb ed="#A" n="7"/>aliter dici quod duplex est vsus timoris gratuitu 
+      <lb ed="#A" n="8"/>Unus quo cor illius sollicitatur ex consideratione sue 
+      fra<lb ed="#A" n="9" break="no"/>gilitatis. Alius vero quo humiliatur ex consideratione sue 
+      <lb ed="#A" n="10"/>peruitatis et diuine magnitudinis. Et primus vsus 
+      <lb ed="#A" n="11"/>minuitur cum charitas perficitur. secundum quod dicit apostolis Rho. 
+      <lb ed="#A" n="12"/>viii. Quis nos separabit a charitate christi etc. Alius 
+      <lb ed="#A" n="13"/>vero vsus timoris crescit charitate decrescente. Unde 
+      <lb ed="#A" n="14"/>quanto quis plus habet de spiritu amoris tanto plus habet 
+      <lb ed="#A" n="15"/>de spiritu timoris. Patet responsio.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e946">
+      ¶ Difficultas 
+      <lb ed="#A" n="16"/>oritur Utrum timor gratuitus in patria maneat an 
+      eua<lb ed="#A" n="17" break="no"/>cuetur. Arguitur quod euacuabitur. quia tanta vel maior est 
+      <lb ed="#A" n="18"/>perfectio in spe quanta est in timore. sed spes 
+      euacu<lb ed="#A" n="19" break="no"/>abitur in patria. ergo et timor
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e958">
+      ¶ Confirmatur. quia sicut 
+      <lb ed="#A" n="20"/>spes est respectu futuri boni: sic timor est respectu 
+      <lb ed="#A" n="21"/>futuri mali. sed in patria nec erit aliquod futurum 
+      ma<lb ed="#A" n="22" break="no"/>lum nec poterit esse. ergo ibi nullus timor erit.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e967">
+      ¶ In 
+      con<lb ed="#A" n="23" break="no"/>trarium opponitur. quia dicitur Esa. xi. de christo. Requine. 
+      <lb ed="#A" n="24"/>scet super eum spiritus timoris domini. Si ergo christus 
+      fu<lb ed="#A" n="25" break="no"/>it perfectissimus comprehensor et in eo fuit timor 
+      <lb ed="#A" n="26"/>videtur quod timor non euacuabitur. Et hoc est quod 
+      <lb ed="#A" n="27"/>dicit psalmus. Timor domini sanctus permanet in seculum se 
+      <lb ed="#A" n="28"/>culi.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e983">
+      ¶ Respondetur secundum Bona. quod timoris est intueri tria 
+      <lb ed="#A" n="29"/>scilicet Penam vt fugiat. Offensam vt illam caueat. 
+      Ma<lb ed="#A" n="30" break="no"/>iestatem sum mam vt illi subiaceat: exhibedo reuerentiam. 
+      <lb ed="#A" n="31"/>Et secundum hoc triplex est doni timoris differentia
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e992">
+      ¶ Unus 
+      <lb ed="#A" n="32"/>qui principaliter respicit penam. et iste est seruilis. Alius vero qui 
+      <lb ed="#A" n="33"/>vnum oculum habet ad penam sed tamen principaliorem habet 
+      <lb ed="#A" n="34"/>ad offensam vitandam. et est hic initialis¶ Tertius autm qui 
+      <lb ed="#A" n="35"/>vnum oculum habet respectu offense vitande. alium vero re 
+      <lb ed="#A" n="36"/>spr ectu reuerentie exhibende. et sic est filialis. Et si vnus 
+      <lb ed="#A" n="37"/>et sus sit in refugiendo ne separetur a deo: alter tate 
+      exce<lb ed="#A" n="38" break="no"/>lentior est reueredo summam maiestatem domini: resiliendo 
+      <lb ed="#A" n="39"/>paruitatem propriam. Et hic quidem vsus fuit in christo: et 
+      <lb ed="#A" n="40"/>est in sanctis angels. et erit in omnibus beatis. et quantum ad 
+      <lb ed="#A" n="41"/>istum oculum et vsum manet donum tinoris in gloria. 
+      <lb ed="#A" n="42"/>quantum vero ad alios vsus tollitur. quia vero manet ei vsus 
+      <lb ed="#A" n="43"/>principalis. hinc est quod non dicitur eua uari sed perfici.
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e1021">
+      ¶ Ad 
+      <lb ed="#A" n="44"/>argumentum dicendum: quod eque nobili est speces sicut tior 
+      quan<lb ed="#A" n="45" break="no"/>tum ad aliquem eius vsum. qui quiade consistit in fuga finalir. secundum 
+      <lb ed="#A" n="46"/>quem modum timor et spis habent ab inuicem diuidi. et 
+      <lb ed="#A" n="47"/>quantum ad hunc vsum verum est quod in patria non renamebit 
+      <lb ed="#A" n="48"/>sicut nec spes. Estei et alius vsus qui est reuereri 
+      sum<lb ed="#A" n="49" break="no"/>mam maiestatem resiliendo in propriam peruitate. et quantum ad 
+      <lb ed="#A" n="50"/>hoc timor non itaopponitur statui glorie sicut spes. et non 
+      <lb ed="#A" n="51"/>euacuabitur in patria sicut spes
+     </p>
+               <p xml:id="Vn7Pel-j94073-d1e1041">
+      ¶ Ad aliud ia bene 
+      pa<lb ed="#A" n="52" break="no"/>tet responsio¬ 
+      </p>
+               <p xml:id="Vn7Pel-j94073-d1e1047">
+                  <lb ed="#A" n="53"/>¶ Ubi valde relucet immensa 
+      cha<lb ed="#A" n="54" break="no"/>ritas dei erga homines. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Celum</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="132"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j38855">
+            <head xml:id="Vn7Pel-j38855-Hd1e110">Celum</head>
+            <div xml:id="Vn7Pel-j38855-Dd1e112">
+               <head xml:id="Vn7Pel-j38855-Hd1e114">1</head>
+               <!--floating text-->
+               <p xml:id="Vn7Pel-j38855-d1e118">
+                  <lb ed="#A" n="90"/>Celum Q deus ex 
+      <lb ed="#A" n="91"/>t  charitate faciet cessare motus celi in 
+      fi<lb ed="#A" n="92" break="no"/>ne mundi. 
+      </p>
+               <!--heading 1 technically starts here-->
+               <p xml:id="Vn7Pel-j38855-d1e129">
+                  <lb ed="#A" n="93"/>¶ Queritur ergo Utrum cessare 
+      de<lb ed="#A" n="94" break="no"/>peant omns motus celi in fine mundi. De hoc vna 
+      <lb ed="#A" n="95"/>opinio est philosophorum dicentium: quod motus celi est 
+      <lb ed="#A" n="96"/>perpetuus nec potest cessare. Et ad id sunt eorum 
+      <lb ed="#A" n="97"/>rationes potissime
+     </p>
+               <p xml:id="Vn7Pel-j38855-d1e143">
+      ¶ Prima est philosophi. xii. metaphy 
+      <lb ed="#A" n="98"/>sice. quia impossibile est nobilissimum ens carere 
+      <lb ed="#A" n="99"/>uo fine proprio. Intelligentia autem motrix orbium 
+      <lb ed="#A" n="100"/>pro fine habet motum celi. ergo etc. Sed hec ratio 
+      <lb ed="#A" n="101"/>non concludit secundum Guill. in. iiii. dist. xlviii. et 
+      Sco<lb ed="#A" n="102" break="no"/>torel. ibidem. quia cum finis sit nobilior entibus ad 
+      <lb ed="#A" n="103"/>finem. i. Physicorum. non intendit philosophus ponere igno 
+      <lb ed="#A" n="104"/>bilius scilicet motum celi ponere pro fine substantie se 
+      <lb ed="#A" n="105"/>parate loquendo de fine perficiente: sed tantum de fine 
+      <lb ed="#A" n="106"/>proueniente. Uolens dicere quod intelligentie sunt ita 
+      <lb ed="#A" n="107"/>perfecte quod perfectionem suam in fluunt in inferiora: 
+      <lb ed="#A" n="108"/>etiam motu celi mediante. Unde idem philosophus. xii. 
+      me<lb ed="#A" n="109" break="no"/>taphysice dicit quod intelligentiarum finis proprius est 
+      <lb ed="#A" n="110"/>in speculatione veritatis scilicet prime: que est deus. In 
+      fi<lb ed="#A" n="111" break="no"/>ne ergo motus celi deo disponente cessabit.
+     </p>
+               <p xml:id="Vn7Pel-j38855-d1e176">
+      ¶ Alia. 
+      <!--132.xml-->
+      <pb ed="#A" n="133"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ratio philosophorum. quia motus celi est necessaria et propria 
+      <lb ed="#A" n="2"/>perfectio requisita ad corpora celestia: alias frustra 
+      mo<lb ed="#A" n="3" break="no"/>uerentur. Sed corpora celestia post iudicium 
+      fina<lb ed="#A" n="4" break="no"/>e non erunt minus perfectiora. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j38855-d1e194">
+      ¶ Sed ad hoc 
+      <lb ed="#A" n="5"/>dicendum secundum praedictos Scotis. quod motus est 
+      per<lb ed="#A" n="6" break="no"/>fectio secundum quid ipsius mobilis. Et talem perfectionem 
+      <lb ed="#A" n="7"/>deficere celo non est inconueniens. maxime cum 
+      qui<lb ed="#A" n="8" break="no"/>es perpetua sit sibi maior perfectio. Unde celum non 
+      <lb ed="#A" n="9"/>mouetur propter aliquam perfectionem intrinsecam 
+      com<lb ed="#A" n="10" break="no"/>pletiuam sui que consistat in motu vel adquiratur per 
+      <lb ed="#A" n="11"/>motum. Sed stante perfectione celi in potetia 
+      neu<lb ed="#A" n="12" break="no"/>tra est ad moueri et quiescere. nec frustra mouetur pro 
+      <lb ed="#A" n="13"/>isto statu. quia perfectio vniuersi requirit moueri 
+      <lb ed="#A" n="14"/>celum. propter fiendas generationes et corruptiones 
+      <lb ed="#A" n="15"/>in inferioribus: quae no erunt post iudicium. Unde 
+      <lb ed="#A" n="16"/>celum et si mouetur necessario: tamen hoc non 
+      absolu<lb ed="#A" n="17" break="no"/>te. sed propter statum generabilium et corruptibilium. Et 
+      <lb ed="#A" n="18"/>quantum deus voluerit. ideo ipso volente cessabit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j38855-Dd1e228">
+               <head xml:id="Vn7Pel-j38855-Hd1e230">2</head>
+               <p xml:id="Vn7Pel-j38855-d1e232">
+                  <lb ed="#A" n="19"/>¶ Alia ergo opinio tenenda et scisice 
+      <lb ed="#A" n="20"/>theologorum. videlicet Rich. de med. villa. i. iiii. dist. 
+      xl<lb ed="#A" n="21" break="no"/>viii. arti. ii. q. ii. et Tho. ibidem. aliorumque omnium communiter 
+      <lb ed="#A" n="22"/>dicentium quod motus celi cessabit. Sed tantun vt dicunt 
+      prae<lb ed="#A" n="23" break="no"/>scripti Scotiste. e. di. xlviii. Rationes etiam thelogorum 
+      <lb ed="#A" n="24"/>non concludunt de necessitate simpliciter cessationem 
+      <lb ed="#A" n="25"/>motus celi. Sunt autem tres rationes principales illorum 
+      </p>
+               <p xml:id="Vn7Pel-j38855-d1e250">
+                  <lb ed="#A" n="26"/>¶ Prima ratio sumpta ex autrte Esa. lx. vbi dicitur. Non 
+      <lb ed="#A" n="27"/>ent ibi amplius sol ad lucendum per diem etc. Sed hec 
+      <lb ed="#A" n="28"/>autoritas sicut respondet magister. e. dist. xlviii. li. iiii. 
+      <lb ed="#A" n="29"/>non cogit. Et ad hoc adducit Hiero. super Esa. dsentem. 
+      <lb ed="#A" n="30"/>Non enim negat solem et lunam tunc lucere. sed vult quod non 
+      <lb ed="#A" n="31"/>prestabit lucem his qui erunt in vita eterna. quia ipse 
+      <lb ed="#A" n="32"/>ominus erit lux suis in perpetuum. sicut dicitur Apocalis. 
+      <lb ed="#A" n="33"/>xxi. Ciuitas illa non eget sole quia lucerna eius est 
+      <lb ed="#A" n="34"/>agnus.
+     </p>
+               <p xml:id="Vn7Pel-j38855-d1e272">
+      ¶ Secunda ratio sumpta est ex auctoritate Apoc. 
+      <lb ed="#A" n="35"/>x. Iurauit angelus quod amplius tempus non erit etc. 
+      <lb ed="#A" n="36"/>Sed quia tempus et motus simuil sunt et non sunt secundum 
+      <lb ed="#A" n="37"/>potentiam et secundum actum. iiii. philosophicorum ergo nec motus erit. 
+      <lb ed="#A" n="38"/>Nec tamen ista auctoritas Apoca. cogit. quia vt Scotus 
+      <lb ed="#A" n="39"/>dicit exponi potest: quod amplius non erit tempus. vt impleatur 
+      <lb ed="#A" n="40"/>prophetia. eo quod iam tunc omnes prophetie implere erunt. 
+      </p>
+               <p xml:id="Vn7Pel-j38855-d1e288">
+                  <lb ed="#A" n="41"/>¶ Tertia ratio: quia motus celi est propter generationem et 
+      <lb ed="#A" n="42"/>corruptionem tanquam propter finem. ex. ii libro de generatione 
+      <lb ed="#A" n="43"/>Sed post finem modi non erit generatio et corruptio 
+      <lb ed="#A" n="44"/>ergo nec motus celi erit. Sed nec ista ratio cogit. quia philosophus 
+      <lb ed="#A" n="45"/>potest negare generationem et corruptionem esse finem 
+      <lb ed="#A" n="46"/>motus celi: eo quod nobilior est motus celi generatione et 
+      <lb ed="#A" n="47"/>corruptione. diceret ergo quod Aristo. ibi loquitur secundum 
+      opi<lb ed="#A" n="48" break="no"/>nionem. Ideoque tertio dicit Scotus sic. Hincinde est 
+      <lb ed="#A" n="49"/>posteritas et nulla simpliciter necessitas.
+     </p>
+               <p xml:id="Vn7Pel-j38855-d1e311">
+      ¶ Onde 
+      ter<lb ed="#A" n="50" break="no"/>nendum est quod sicut dicunt theologi etsi non 
+      necessa<lb ed="#A" n="51" break="no"/>rio simpliciter: tamen congruit rationi et pietati fidei. vt si 
+      <lb ed="#A" n="52"/>cut celi moueri habent ab angelis secundum imperium 
+      <lb ed="#A" n="53"/>dei propter impletionem numeri electorum per humanas 
+      <lb ed="#A" n="54"/>uccessiue generationes: Ita ex voluntate dei ex qua 
+      ta<lb ed="#A" n="55" break="no"/>is motus dependet: cessabit completo numero 
+      ele<lb ed="#A" n="56" break="no"/>ctorum in fine mundi. Et in hoc dei summa charitas 
+      <lb ed="#A" n="57"/>claret. Tum quia per hoc ostenditur quam marime peus di¬ 
+      <!--132.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>lexit clectos cum a mundi principio propter eos continue 
+      <lb ed="#A" n="59"/>angelos fecit in mouendo ministrare. et ergo 
+      com<lb ed="#A" n="60" break="no"/>pleto numero eorum iubebit cessare. Tum quia in hoc 
+      <lb ed="#A" n="61"/>ostenditur quod omnia bona quae in modo facta sunt ex 
+      in<lb ed="#A" n="62" break="no"/>fluentia celi propter electos deus ex charitate 
+      ordina<lb ed="#A" n="63" break="no"/>uit fieri principalius. vt dicit Chrys. super Matt. Tum 
+      <lb ed="#A" n="64"/>peniquae quia in hoc ostenditur quod sicut celum perpetuo 
+      quie<lb ed="#A" n="65" break="no"/>cet: ita electi dei charitate perpetuo stabiliti sunt in 
+      <lb ed="#A" n="66"/>illo. Consonat etiam auctoritati scripture. vt patet ex 
+      au<lb ed="#A" n="67" break="no"/>ctoritatibus praesciptis. et maxime quia christo dicente Mat. 
+      <lb ed="#A" n="68"/>thei. xxiiii. Celum et terra transibunt. Glosis. Lyraque 
+      <lb ed="#A" n="69"/>et alii expositores di. non secundum substantiam: sed quia 
+      cessa<lb ed="#A" n="70" break="no"/>bit motus celi et tramsmutatio in elementis. Hec enim 
+      <lb ed="#A" n="71"/>ordinata sunt inqiunt ad complendum numerum ele 
+      <lb ed="#A" n="72"/>ctqurum. quo completo cessant. 
+    </p>
+               <p xml:id="Vn7Pel-j38855-d1e368">
+                  <lb ed="#A" n="73"/>De motibus caelorum habetur 
+      proli<lb ed="#A" n="74" break="no"/>xe libo. ii. vbi Celum etc. 
+    </p>
+               <p xml:id="Vn7Pel-j38855-d1e375">
+                  <lb ed="#A" n="75"/>Quali parte celi sit ciuitas 
+      cele<lb ed="#A" n="76" break="no"/>stis curie et de situatione beatorum inibi vide. 
+    </p>
+               <p xml:id="Vn7Pel-j38855-d1e382">
+                  <lb ed="#A" n="77"/>¶ Utrum in celo empyreo erit laus 
+      <lb ed="#A" n="78"/>vocalis. Uide alibi. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

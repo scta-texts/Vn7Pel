@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mediator</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Mediator</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="254"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j75171">
+            <head xml:id="Vn7Pel-j75171-Hd1e110">Mediator</head>
+            <div xml:id="Vn7Pel-j75171-Dd1e112">
+               <head xml:id="Vn7Pel-j75171-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j75171-d1e116">
+                  <lb ed="#A" n="15"/>MEdiator dei et 
+      ho<lb ed="#A" n="16" break="no"/>minum christus iesus factus: sic quod humanum 
+      ge<lb ed="#A" n="17" break="no"/>nus reconciliauit deo et in ipso sumus 
+      glori<lb ed="#A" n="18" break="no"/>ficati.
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e127">
+      ¶ Sed contra arguitur. quod christo non sit 
+      me<lb ed="#A" n="19" break="no"/>diatoris officium proprium. Sicut enim sacerdos ita propheta 
+      <lb ed="#A" n="20"/>videbatur esse mediator inter deum et hominie. secundum illuo 
+      <lb ed="#A" n="21"/>Deut. v. Ego illo tempore sequester fui et medius inter deum 
+      <lb ed="#A" n="22"/>et vos. Sed esse sacerdotem et prophsetam: non est esse proprium 
+      <lb ed="#A" n="23"/>christo. ergo nec etiam mediatorem.
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e140">
+      ¶ Confirmatur. quia spiritus san 
+      <lb ed="#A" n="24"/>ctus est mediator. quia officium mediatoris est quod 
+      inter<lb ed="#A" n="25" break="no"/>pellat ad vnum eorum pro altero inter quos est mediator. 
+      <lb ed="#A" n="26"/>Sed de spiritu sancto sic dicitur Rho. viii. interpellat pr 
+      <lb ed="#A" n="27"/>nobis gemitibus inenarrabilibus. ergo mediatoris 
+      offi<lb ed="#A" n="28" break="no"/>cium conuenit spiritu sancto et non christo.
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e153">
+      ¶ In c ontrarium 
+      <lb ed="#A" n="29"/>tamen dicitur i. Tin. ii Unus est mediator dei et hominum: homo 
+      <lb ed="#A" n="30"/>iesus christus. et Augustinus. in omel
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e161">
+      ¶ Iste locus euangelicus 
+      <lb ed="#A" n="31"/>frens vbi se dominus dicit vitem et discipulos suos palmites 
+      <lb ed="#A" n="32"/>secundum hoc dicit. quod est caput ecclesie nosque membra eius: 
+      <lb ed="#A" n="33"/>mediator dei et hominum christus iesus. Respondetur secundum 
+      Ri<lb ed="#A" n="34" break="no"/>char. in. iii. dis. xix. ar. ii. q. iii. quod loquendo de 
+      vniuer<lb ed="#A" n="35" break="no"/>sali reconciliatione inter deum et genus humanum solus 
+      chri<lb ed="#A" n="36" break="no"/>stus fuit mediator. secundum quod expresse dicit Apostolis. i. Tin. 
+      <lb ed="#A" n="37"/>ii. vt iam allegatum est. Quod autem nullus alius fuerit 
+      vniuer<lb ed="#A" n="38" break="no"/>salis mediator. patet sic. Deus superior: genus humanium 
+      <lb ed="#A" n="39"/>inferius. mediatorem autem inter superiorem opertet habere 
+      communi<lb ed="#A" n="40" break="no"/>cantiam cum vtroque per quam possit reconciliare inferiorem 
+      <lb ed="#A" n="41"/>superiori. solus autem christus talem communicantiam humit. Nam cum 
+      hu<lb ed="#A" n="42" break="no"/>mano genere communicabat cum mortalitate. cum deo in 
+      heati<lb ed="#A" n="43" break="no"/>tudine tali per quam superior erat omni homine et deo acceptisi 
+      <lb ed="#A" n="44"/>simus. quae duo secundum diuinam ordinationem necessaria erant in 
+      <lb ed="#A" n="45"/>illo per quem genus humanum erat reconciliandum deo vt per 
+      <lb ed="#A" n="46"/>mortalitatem pro humano genere posset pati. et per aliud ita est 
+      <lb ed="#A" n="47"/>set deo accepta sua passio: vt eam reputaret pro omnibus 
+      <lb ed="#A" n="48"/>humani generis pecestis satisfactionem condignam Predicta ant 
+      <lb ed="#A" n="49"/>communicantia non iuenitur in patre et spiritusco. quia mortales non sunt 
+      <lb ed="#A" n="50"/>Netc in aliquo angelo vel homine. quia etsi alii homines haberent non 
+      <lb ed="#A" n="51"/>tamen cum mortalitate beatitudinem supraedictam. Nec aliquis 
+      <lb ed="#A" n="52"/>alius homo erat tante digitatis vt excederet digintatem totius 
+      <lb ed="#A" n="53"/>humani generis nisi christus dominus propter vnionem in vnitate per 
+      <lb ed="#A" n="54"/>sone diuine
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e216">
+      ¶ Ad argumentum autem dicendum quod prophete 
+      <lb ed="#A" n="55"/>et sacerdotes ve. te. dicti sunt mediatores inter deum et 
+      <lb ed="#A" n="56"/>homines dispositiue et ministerialiter inquantum praenunciabant 
+      <!--253.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>et figurabant verum et perfectum mediatorem dei et hominum 
+      <lb ed="#A" n="58"/>christum. Sacerdotes vero no. te. possunt dici med 
+      <lb ed="#A" n="59"/>inquantum sunt ministri veri mediatoris. vice cuius sacramenta 
+      sa<lb ed="#A" n="60" break="no"/>lutaria hominibus ministrant. ergo nihil prohibet aliquos 
+      ali<lb ed="#A" n="61" break="no"/>os secundum quid dici mediatores inter deum et homines
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e238">
+      ¶ Ad 
+      <lb ed="#A" n="62"/>confirmationem dicendum quod spiritus sanctus non potest esse mediator 
+      <lb ed="#A" n="63"/>vt patuit. quia non participat cum hominibus in mortalitate sicut 
+      <lb ed="#A" n="64"/>christus: sed dicitur postulare nobis. quia nos interpellare facit 
+      <lb ed="#A" n="65"/>Notandum circa hoc quod tria sunt officia mediator scilce 
+      <lb ed="#A" n="66"/>Prinio coniungere remota: participare extrena: et ordinate 
+      <lb ed="#A" n="67"/>existere int illos. propter quae solus christus dicitur verus mediato: 
+      <lb ed="#A" n="68"/>inter deum et homines. Und scilicet Tho. i. iii. di. xix. quod neque de 
+      <lb ed="#A" n="69"/>mones neque angeli: neque homines sci sunt mediatores inter 
+      <lb ed="#A" n="70"/>deum et nos homines.
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e260">
+      ¶ Primo n demones quia licet participent 
+      <lb ed="#A" n="71"/>nobiscum in miseria non tamen cum deo in beatitudine. nec 
+      inten<lb ed="#A" n="72" break="no"/>dunt coniungere deo sed potius separari ab eo
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e267">
+      ¶ Secundo ne 
+      <lb ed="#A" n="73"/>que angeli praesent esse mediatores. quia deficit in eis secundum 
+      os<lb ed="#A" n="74" break="no"/>ricium mediatoris. ex quo non participant nobiscum in miseria 
+      </p>
+               <p xml:id="Vn7Pel-j75171-d1e274">
+                  <lb ed="#A" n="75"/>¶ Tertio neque homines scienti praesent esse mediatores. quia defi 
+      <lb ed="#A" n="76"/>citer tertium officium mediatorur scilicet quod esset supra omnes homines 
+      <lb ed="#A" n="77"/>Et nec Abraam neque moyses nec alii potuerunt deo 
+      <lb ed="#A" n="78"/>reconciliare genus humanum Et hoc est quod dicit apostolis Heb. ix. 
+      <lb ed="#A" n="79"/>Christus noui test. mediator est. vt morte intercedente in 
+      re<lb ed="#A" n="80" break="no"/>demptionem earum praeuaricationum quae erant super piori 
+      tesuo<lb ed="#A" n="81" break="no"/>repromissionem accipiant. qui sunt vocati eterne heredita 
+      <lb ed="#A" n="82"/>tis in christo Iesu. Hoc itaque fuit christi officium speciale 
+      <lb ed="#A" n="83"/>ideo voluit ostendere est facto officium inchoando ordinam 
+      <lb ed="#A" n="84"/>do et consummando.
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e299">
+      ¶ Primo inchoando officium suum 
+      osten<lb ed="#A" n="85" break="no"/>dit in tempore: in loco et in modo. De primo dicitur Sap. xviii. Dum 
+      <lb ed="#A" n="86"/>medium silentium tenerent omnia: et nox in suo cursu medium 
+      <lb ed="#A" n="87"/>iter haberet. omnipotens secuno tuus domine a regalibus sedibus ve 
+      <lb ed="#A" n="88"/>nit
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e310">
+      ¶ Secundo dicitur Luce. i. Ecce concipies in vtro. Marie 
+      <lb ed="#A" n="89"/>veromedium est eius vterus sanctus. Nam et secundum Ber. maria 
+      <lb ed="#A" n="90"/>dicitur medium: dicens. Ad mariam tamquam ad medium dei 
+      com<lb ed="#A" n="91" break="no"/>currunt. et qui in celosunt et qui in inferno. et qui nos praecesserit et 
+      <lb ed="#A" n="92"/>nos qui sumus et qui nos sequuntur. et nati natorum et qui na 
+      <lb ed="#A" n="93"/>scentur ex ill. Tamen aliud est ee medium aliud esse mediatorem. 
+      <lb ed="#A" n="94"/>Unde sicut logici quaerunt medium ad concludendum maiorem 
+      <lb ed="#A" n="95"/>extremitatem de minori. vt dicit philosophus. libro priorum. Maior 
+      <lb ed="#A" n="96"/>extrenitas est deus. minor extrenitas in genere rationalium est homo. 
+      <lb ed="#A" n="97"/>Perquisierunt itaque patriarche et prophseate et alii iusti 
+      medi<lb ed="#A" n="98" break="no"/>um vt concluderet maiorem extreitatem de minori. sed tandem 
+      <lb ed="#A" n="99"/>inuenerit mariam in qua verbum caro factum est vt maior extre 
+      <lb ed="#A" n="100"/>mitas praedicetur de minori et econuerso. sicut bene 
+      <lb ed="#A" n="101"/>et catholice dicimus: Deus est homo. similiter: 
+      ho<lb ed="#A" n="102" break="no"/>mo est deus Tertio in modo quem tenuit etiam ostendit 
+      <lb ed="#A" n="103"/>suum mediatoris officium. quia nascens ostendit suam infirmi 
+      <lb ed="#A" n="104"/>tatem in inuolutione paeni. et cum hoc suam diuintatem in exulta 
+      <lb ed="#A" n="105"/>timone angelorum et fulgida stella Secundo ordinando 
+      pa<lb ed="#A" n="106" break="no"/>cem ostendit mediatorem. quia inuentus est in medio doctorum. vt 
+      <lb ed="#A" n="107"/>dicitur Luc. ii et eiusdem. xxii. in vltima cena ait. Ego in 
+      me<lb ed="#A" n="108" break="no"/>dio vtrum sum sicut qui ministrat. Tertio consummando suum 
+      <lb ed="#A" n="109"/>mediatoris officium in medio latronum emisit spiritum. 
+      Io<lb ed="#A" n="110" break="no"/>an. x. Crucifixerit cum eo duos latriones habic et inde: me 
+      <lb ed="#A" n="111"/>dium autem Iesum. Ecce patet eius pium officium 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75171-Dd1e363">
+               <head xml:id="Vn7Pel-j75171-Hd1e365">2</head>
+               <p xml:id="Vn7Pel-j75171-d1e367">
+                  <lb ed="#A" n="112"/>¶ Utrum christus secundum naturam 
+      diui<lb ed="#A" n="113" break="no"/>nam et humanam sit mediator: Et arguitur quod secundum vtramque 
+      <lb ed="#A" n="114"/>naturam. quia numquam iungit extrema nisi per hoc quod habet communi¬ 
+      <!--254.xml-->
+      <pb ed="#A" n="255"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cationem cum vtraque. Christus nunquam reconciliaret nos deo 
+      <lb ed="#A" n="2"/>ni si esset deus et homo. Confirmatur sic. quia nihil tenet me 
+      <lb ed="#A" n="3"/>dii rationem secundum illud secundum quod tenet rationem extremi. sed christus 
+      <lb ed="#A" n="4"/>tenet rationem extremi secundum humanam naturam. quia humana 
+      <lb ed="#A" n="5"/>natura reconciliata est deo ergo non est mediator precise secundum 
+      <lb ed="#A" n="6"/>llam. Respondet scilicet Bona. in. iii. di. xix. q. vl. et communiter 
+      Ri<lb ed="#A" n="7" break="no"/>char. ibid. quod differunt dicere tem medium et esse 
+      media<lb ed="#A" n="8" break="no"/>torem. Medium namque dicit conuenientiam cum extrenis. 
+      Me<lb ed="#A" n="9" break="no"/>diator autem dicit non tantum conuenientiam. sed et officium 
+      reconcili<lb ed="#A" n="10" break="no"/>ationis
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e404">
+      ¶ Aliter ergo respondendum est cum quaeritur: Qualiter christus sit 
+      <lb ed="#A" n="11"/>mediu inter humanam naturam et diuinam. Aliter cum dicitur: 
+      qua<lb ed="#A" n="12" break="no"/>liter sit mediator. Si enim quaeratur: qualiter sit medius. 
+      Respon<lb ed="#A" n="13" break="no"/>deri potest. quod medium inter duas naturas aliquid potest diciut 
+      <lb ed="#A" n="14"/>tripliciter. Aut ita quod in eo concurrant due nature sic in vna 
+      <lb ed="#A" n="15"/>materia. Aut ita quod in eo concurrant due nature sicut in vna 
+      <lb ed="#A" n="16"/>persona. Aut ita quod in eo concurrant proprietates duabus 
+      <lb ed="#A" n="17"/>naturis conformes: Primo modo accipiendo medium 
+      ni<lb ed="#A" n="18" break="no"/>hil potest esse medium mediate inter naturam humanam et 
+      di<lb ed="#A" n="19" break="no"/>uina: nec christus nec aliud. quia non potest constitui aliquod 
+      ter<lb ed="#A" n="20" break="no"/>tium ex humana natura et diuina. Secundo modo accipiendo 
+      <lb ed="#A" n="21"/>medium: sicut christus est medium inter humanam naturam et 
+      di<lb ed="#A" n="22" break="no"/>uinam inquantum est vna persona in duabus naturis non ratione 
+      <lb ed="#A" n="23"/>humane nature tantum: nec ratione diuine nature tantum. sed ratione 
+      <lb ed="#A" n="24"/>vtriusque. Tertio modo accipiendo medium: sic christus est 
+      <lb ed="#A" n="25"/>medium inter deum et homines secundum humanitatem: inquantum habet 
+      <lb ed="#A" n="26"/>simuls mortalitatem et beatitudinem. Mortalitatem in quae 
+      communi<lb ed="#A" n="27" break="no"/>cat cum hominibus Beatitudinem in qua communicat cum deo.
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e443">
+      ¶ Si 
+      <lb ed="#A" n="28"/>enim quaeratur: Qualiter et secundum quam naturam sit christus 
+      medi<lb ed="#A" n="29" break="no"/>ator. cum mediator dicat officium reconciliationis. et 
+      me<lb ed="#A" n="30" break="no"/>diator debet differre ab simlis quos reconciliat: et christus secud 
+      <lb ed="#A" n="31"/>diuinam naturam sit ille cui fit reconciliatioe
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e454">
+      ¶ Dicendum 
+      <lb ed="#A" n="32"/>quod non potest esse mediator secundum diuinam naturam. sed secundum 
+      <lb ed="#A" n="33"/>humana in qua potest reconciliare secundum diuersas proprietates 
+      <lb ed="#A" n="34"/>in quibus communicat cum deo et cum homine. Hebat enim iusticiam 
+      <lb ed="#A" n="35"/>et innocentiam in qua communicat cum deo. et mortalitatem in qua 
+      <lb ed="#A" n="36"/>communicat cum homine. et dum coniungitur moros iusticie in eadem 
+      <lb ed="#A" n="37"/>consideratur homo peccator et mortalis: deo iusto et immortali. 
+      <lb ed="#A" n="38"/>Reconciliati enim sumus deo per mortem hominis innocentis. 
+      </p>
+               <p xml:id="Vn7Pel-j75171-d1e473">
+                  <lb ed="#A" n="39"/>¶ Ad argumetum iam patet ex dictis responsio. quia conueniem 
+      <lb ed="#A" n="40"/>tia secundum proprietates est illa quae potest extrema reconciliare: 
+      <lb ed="#A" n="41"/>maxime cum extrema coniungi habent per illud medium et 
+      per<lb ed="#A" n="42" break="no"/>duci ad conformitatem voluntatis: non ad conformitatem 
+      <lb ed="#A" n="43"/>nature
+     </p>
+               <p xml:id="Vn7Pel-j75171-d1e486">
+      ¶ Per christum enim reconciliatur homo deo vt sit beatus. et 
+      <lb ed="#A" n="44"/>ita fiat de mortali immortalis de peccatore iustus de mise 
+      <lb ed="#A" n="45"/>ro beatus. et non vt rconciliatus fiat deus licet phisteus sit deus Ad 
+      <lb ed="#A" n="46"/>confirmationem dicendum. quod christus sit extremum secundum 
+      hu<lb ed="#A" n="47" break="no"/>manam naturam: falsum est. Nam humana natura in christo num 
+      <lb ed="#A" n="48"/>quam indiguit reconciliatione. quia non erat reconciliata: sed 
+      <lb ed="#A" n="49"/>reconcilias. secundum quod dicitur. ii. Cor. v. Deus erat in christo 
+      si<lb ed="#A" n="50" break="no"/>bi reconcilians mundum. 
+      </p>
+               <p xml:id="Vn7Pel-j75171-d1e504">
+                  <lb ed="#A" n="51"/>¶ Ubi claret magna magni dei 
+      <lb ed="#A" n="52"/>charitas: erga nos retrahendo a mendacio.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

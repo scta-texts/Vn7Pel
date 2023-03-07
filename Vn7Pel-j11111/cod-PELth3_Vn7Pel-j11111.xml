@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="7"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j11111">
+            <head xml:id="Vn7Pel-j11111-Hd1e110">Prologus</head>
+            <p xml:id="Vn7Pel-j11111-d1e112">
+               <pb ed="#A" n="7"/>
+               <cb ed="#A" n="a"/>
+               <lb ed="#A" n="1"/>¶ In nomine patris et 
+      <lb ed="#A" n="2"/>filii et spiritus sancti Amen. Ad  
+      <lb ed="#A" n="3"/>eiusdem dei: et domini nostri 
+      Ie<lb ed="#A" n="4" break="no"/>su gloriam: ac benedicte eius 
+      ge<lb ed="#A" n="5" break="no"/>nitricis virginis Marie laudem: 
+      <lb ed="#A" n="6"/>Atque Seraphici patris nostri 
+      Fran<lb ed="#A" n="7" break="no"/>cisci: nec non omnium beatorum 
+      ho<lb ed="#A" n="8" break="no"/>norem Incipit Liber tertius 
+      Ro<lb ed="#A" n="9" break="no"/>sarii aurei Theologie. 
+      <lb ed="#A" n="10"/>Ostquam altissimi dei gratia 
+      fauen<lb ed="#A" n="11" break="no"/>te In praecedentibus libris duobus huius 
+      <lb ed="#A" n="12"/>operis videlicet primo libro de 
+      sanctissi<lb ed="#A" n="13" break="no"/>ma trinitate diuina. Et secundo libro de diuina 
+      <lb ed="#A" n="14"/>eiusdem bonitate laudabili in creaturis vtcunque 
+      <lb ed="#A" n="15"/>peregimus: Nunc restat describere et 
+      re<lb ed="#A" n="16" break="no"/>colligere ipso deo dante Felices 
+      respe<lb ed="#A" n="17" break="no"/>ctus amorosos Trinitatis eterne 
+      ratio<lb ed="#A" n="18" break="no"/>nalibus precellenter exhibitos 
+      liberalissi<lb ed="#A" n="19" break="no"/>ma bonitate Aurei Rosarii tertio 
+      volu<lb ed="#A" n="20" break="no"/>mine sequenti. Quemadmodum autem in 
+      praeceden<lb ed="#A" n="21" break="no"/>tibus libris sic etiam in hoc procedere intendo: 
+      Ca<lb ed="#A" n="22" break="no"/>pitula principalia prosequens ordine 
+      Alphabe<lb ed="#A" n="23" break="no"/>tico: intricate tamen reducendo ad diuinam 
+      chari<lb ed="#A" n="24" break="no"/>tatem: quatinus eandem erga nos multimode 
+      praesti<lb ed="#A" n="25" break="no"/>tam vel exhibendam recognoscentes: deum ipsum 
+      <lb ed="#A" n="26"/>superbenedictum studeamus reamare et gratias 
+      <lb ed="#A" n="27"/>eidem agere ac praedulci deuotione deseruire: 
+      velu<lb ed="#A" n="28" break="no"/>ti in paradiso charitatis delectati. Unde hoc 
+      li<lb ed="#A" n="29" break="no"/>bro quantum deo propitio iuuante valebo: 
+      diui<lb ed="#A" n="30" break="no"/>ne charitati et redilectionis incendio per 
+      questio<lb ed="#A" n="31" break="no"/>nes etiam scholasticas studiose conabor 
+      insiste<lb ed="#A" n="32" break="no"/>re pro deuotionis incitamento etc
+     </p>
+            <p xml:id="Vn7Pel-j11111-d1e188">
+      ¶ Penso 
+      equi<lb ed="#A" n="33" break="no"/>dem: quia dicente <name xml:id="Vn7Pel-j11111-Nd1e192">Petro Rauen.</name> Si paradisus 
+      <lb ed="#A" n="34"/>est in terris vite presentis: non inuenitur nisi in 
+      clau<lb ed="#A" n="35" break="no"/>stro vel schola diuini predulcis amoris. Solus 
+      <lb ed="#A" n="36"/>quippe (vt dictat etiam Bernardus in suo cantico) 
+      <lb ed="#A" n="37"/>expertus nouit credere quam dulce sit Iesum 
+      dilige<lb ed="#A" n="38" break="no"/>re. Sed et testis est Hugo de sancto Uic. Quoniam 
+      ni<lb ed="#A" n="39" break="no"/>hil in vita dulcius sentitur: nil sapidius gustatur quam 
+      <lb ed="#A" n="40"/>amoris dei fructus mellifluus. Is mentem ab 
+      <lb ed="#A" n="41"/>amore mundi separat. nil aliud sic animum inebriat. 
+      <lb ed="#A" n="42"/>nil sic contra tentationes roborat. nil sic ad bona 
+      <lb ed="#A" n="43"/>queque stimulat et excitat: vt omne graue et immane 
+      <lb ed="#A" n="44"/>leue et suaue faciat in quouis homine: dum tamen 
+      <lb ed="#A" n="45"/>sentiat veri amoris experimenta. Denique hec est 
+      amo<lb ed="#A" n="46" break="no"/>ris et charitatis gratia vt nunquam excidat: sed in 
+      per<lb ed="#A" n="47" break="no"/>petuum maneat in statu patrie. vbi videbimus 
+      de<lb ed="#A" n="48" break="no"/>um et amabimus: amabimus et tenebimus 
+      tene<lb ed="#A" n="49" break="no"/>bimus et laudabimus sine fine Amen.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

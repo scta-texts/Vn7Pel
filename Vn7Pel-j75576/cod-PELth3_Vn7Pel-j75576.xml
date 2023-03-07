@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mendacium</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Mendacium</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="255"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j75576">
+            <head xml:id="Vn7Pel-j75576-Hd1e110">Mendacium</head>
+            <div xml:id="Vn7Pel-j75576-Dd1e112">
+               <head xml:id="Vn7Pel-j75576-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j75576-d1e116">
+                  <lb ed="#A" n="53"/>Mendacium prohibe 
+      <lb ed="#A" n="54"/>tur in quinto praecepto secunde tabule vt dicit ma 
+      <lb ed="#A" n="55"/>gister in. iii. disti. xxxvii. Ubi nota quod secundum 
+      <lb ed="#A" n="56"/>
+                  <name xml:id="Vn7Pel-j75576-Nd1e126">Alex. de ales</name> in. iii parte summe. In isto praecepto Non lo¬ 
+      <!--254.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>quaris falsum testionium contra poxim: prohibetur omne genus 
+      menda<lb ed="#A" n="58" break="no"/>cii quod est peccatum mortale. non autem illud quod est veniale. et hoc 
+      <lb ed="#A" n="59"/>large quia stricte solum mendacium in iudicio prohibetur etiam 
+      <lb ed="#A" n="60"/>falsitas aperte dicentis et taciturnitas veritatis¶ Sed contra 
+      <lb ed="#A" n="61"/>dicta arguitur quod praedicta hoc in isto praecepto non prohibeatur. 
+      <lb ed="#A" n="62"/>quia qui falsu testionium fert non solum peccat contra proximsed et 
+      <lb ed="#A" n="63"/>con seipsum. Et quando ad vtilitatem proximi fert falsum testino 
+      <lb ed="#A" n="64"/>nium sine dubio peccat. et non contra proxim s iset contra deum ergo prohi 
+      <lb ed="#A" n="65"/>pitio falsi testionii non spectat ad hoc praeccptum: sed ad prae 
+      <lb ed="#A" n="66"/>ceptum prime tabule. Respondetur secudum scilicet Bona. in. iii. di. xxxvii. 
+      <lb ed="#A" n="67"/>in expositione litterali quod in hoc praecepto prohibetur falsitas oris. 
+      <lb ed="#A" n="68"/>praecipuc prout ordinatur ad nocumtum proximi. per consequens 
+      ni<lb ed="#A" n="69" break="no"/>hilominus iquantum ordinatur ad nocumentum sui. verbum enim 
+      <lb ed="#A" n="70"/>ad alterum est. et qui fal sum alteri loquitur quodammodo et si non 
+      noce<lb ed="#A" n="71" break="no"/>at aliquid auferendo: fallit tamen decipiendo
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e166">
+      ¶ Ad arguutum 
+      <lb ed="#A" n="72"/>mentum patet ex dictis. et quia mendacium est contra deum: seipet: et 
+      <lb ed="#A" n="73"/>qundo que contra proxim. Et ideo inquantum est contra deum poest prohiberi in se 
+      <lb ed="#A" n="74"/>cundo praecepto prime tabule. et inquantum est contra proxim magister 
+      <lb ed="#A" n="75"/>declarauit fore prohibitum in quinto praecepto secunde tabule 
+      <lb ed="#A" n="76"/>di. Non loquaris coutra poxim etc. vbi crimem mendacii et 
+      periu<lb ed="#A" n="77" break="no"/>rii prohibetur
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e182">
+      ¶ Queritur quid sit mendacium: Rt.secndm Aug. 
+      <lb ed="#A" n="78"/>et allegat magister i littera li. iii. di. xxxviii. quod est falsa 
+      signifi<lb ed="#A" n="79" break="no"/>catio vocis cum intentione fallendi
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e189">
+      ¶ Sed contra hanc diffinitionem 
+      <lb ed="#A" n="80"/>arguitur sic. Abstracti et concreti eadem est diffinitio. sed men 
+      <lb ed="#A" n="81"/>tiri potest quis sine vocis falsa sercatione. secundum quod dicit magister. videlicet 
+      <lb ed="#A" n="82"/>cum quis intendens dicere falsum dicit verum. Similiter mendacium 
+      <lb ed="#A" n="83"/>it fieri sine voce. quia mendacium praet esse sicut in verbis ita et in 
+      <lb ed="#A" n="84"/>factis ergo non tantum debet dici falsa sercatio vocis: sed etiam operis 
+      <lb ed="#A" n="85"/>Confirmatur: quia qui mentitur mendacio officioso vel 
+      io<lb ed="#A" n="86" break="no"/>coso non intendit fallere: sed prodesse aute delectari ergo 
+      praedi<lb ed="#A" n="87" break="no"/>cta diffinitio non conuenit omni mendacio Responde scilicet Bona. 
+      <lb ed="#A" n="88"/>di. qua supra in exposi tione litte. quod ad completum esse mendacii 
+      <lb ed="#A" n="89"/>duo concurrunt. videlicet falsa vocis sercatio sicut materiale. et 
+      <lb ed="#A" n="90"/>fallendi intentio sicut formale. ideo recte est assigrnata notifica 
+      <lb ed="#A" n="91"/>tio mendacii
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e219">
+      ¶ Ad argumentum autem dicendum quod 
+      men<lb ed="#A" n="92" break="no"/>dacium non tantum dicit comparationem ad mentientem: sed est ad ipsam 
+      <lb ed="#A" n="93"/>rem de qua fit secundo. Mentiri vero proprie dicit comparationem ad ipset 
+      <lb ed="#A" n="94"/>mentientem. et ideo plus claudit in se mendatium quam mentiri. Et 
+      <lb ed="#A" n="95"/>ideo mendacium proprie est in verbis quae sercant mentis conceptum. licet 
+      <lb ed="#A" n="96"/>est dicatur esse medacium in aliis aliquo moanalogice. et per 
+      po<lb ed="#A" n="97" break="no"/>sterius repariatur.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e235">
+      ¶ Ad confirmationem dicendum quod ista 
+      noti<lb ed="#A" n="98" break="no"/>ficatio per priu huenit mendacio pernicioso. iocoso et 
+      <lb ed="#A" n="99"/>officioso conuenit quodammodo quasi per posterius Unde 
+      vocabu<lb ed="#A" n="100" break="no"/>sum fallendi in notificatione mendacii non tantum importat deci 
+      <lb ed="#A" n="101"/>pere sed etiam falsum dicere. quod est commue et generale omni mendacio 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e247">
+               <head xml:id="Vn7Pel-j75576-Hd1e249">2</head>
+               <p xml:id="Vn7Pel-j75576-d1e251">
+                  <lb ed="#A" n="102"/>¶ Que differentia est inter mentiri: 
+      fal<lb ed="#A" n="103" break="no"/>sum dicere: et dicet mendacium: Respondetur quod mentiri est contra mentem 
+      <lb ed="#A" n="104"/>re Unde ille qui dicit quod praeutat aliud siue illud sit verum siue 
+      <lb ed="#A" n="105"/>falsum mentitur. Falsum vero potest quis dicere sine mendacio 
+      <lb ed="#A" n="106"/>cum scilicet credit verum cum tamen non est. et si debitam adhibuit dili 
+      <lb ed="#A" n="107"/>gentiam non peccat. quod si non: peccat venialiter. vtque. xxii. q. 
+      <lb ed="#A" n="108"/>ii. homines. nisi in casu tenerentur diligentiam adhibere. 
+      pu<lb ed="#A" n="109" break="no"/>ta in actu testificandi. vbi imminet damnum notabile 
+      proxi<lb ed="#A" n="110" break="no"/>mo. vel in iudicio. quia sic esset mortale. vel cum vult 
+      iu<lb ed="#A" n="111" break="no"/>rare. xxii. q. ii animaduertendum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e276">
+               <head xml:id="Vn7Pel-j75576-Hd1e278">3</head>
+               <p xml:id="Vn7Pel-j75576-d1e280">
+                  <lb ed="#A" n="112"/>¶ Quot sunt genera mendaciorum 
+      <lb ed="#A" n="113"/>Respndetur secundum Aug. et habtu. xxiii. q. ii quod sunt octo
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e287">
+      ¶ Primum 
+      <!--255.xml-->
+      <pb ed="#A" n="256"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in doctrina christiane religionis. Et secundum Alexam. religio 
+      <lb ed="#A" n="2"/>hic accipitur ne dum pro eo quod nos ligat ad ea quae sunt 
+      fidet<lb ed="#A" n="3" break="no"/>etra etiam prout ligat ad bonos mores. quia in his duobs 
+      <lb ed="#A" n="4"/>consistit religionischristiane summa
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e305">
+      ¶ Secundum est vt aliquem 
+      <lb ed="#A" n="5"/>ledat iniuste in corporalibus cum nullius vtilitate. sicut falsus 
+      <lb ed="#A" n="6"/>testis in causa criminali
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e312">
+      ¶ Tertium est quod alicui nocet sed tamen 
+      <lb ed="#A" n="7"/>alteri prodest. vt testimonium in causa pecuniaria.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e318">
+      ¶ 
+      Quar<lb ed="#A" n="8" break="no"/>tum est quod fit sola mentiendi vel falledi libidine. vt cum delo 
+      <lb ed="#A" n="9"/>ctanlis in astuta mendaciorum compositione non habens respectum 
+      <lb ed="#A" n="10"/>nec ad nocendum nec ad adiuuandum alicui. sed solum quia 
+      <lb ed="#A" n="11"/>placet sibi
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e329">
+      ¶ Quitum est quod fit placendi cupiditate. vt 
+      <lb ed="#A" n="12"/>mendacium adulationis
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e334">
+      ¶ Sextum est quod nulli nocet sedt 
+      ali<lb ed="#A" n="13" break="no"/>cui prodest scilicetne pecunla sibi auferatur indehite: vel 
+      iniu<lb ed="#A" n="14" break="no"/>ste ledatur
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e341">
+      ¶ Septimum est quod similiter alicui est vtile ad 
+      <lb ed="#A" n="15"/>corpus vt scilicet mortem euandat
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e346">
+      ¶ Pctauum est quod similiter prodest 
+      <lb ed="#A" n="16"/>alteri vt virginitatem seruet. Sed secundum Alexam. vbi supra scntum 
+      <lb ed="#A" n="17"/>Bonanem. et Rich. i. iii. dist. xxxviii. mendacium habet 
+      pro<lb ed="#A" n="18" break="no"/>suo formali completiuo intentionem fallendi. Et ideo secundum 
+      <lb ed="#A" n="19"/>intentionem mentientis diuersum erit mendacium in 
+      specie<lb ed="#A" n="20" break="no"/>Si enim intendit solum prodesse: sic erit mendacium 
+      officio<lb ed="#A" n="21" break="no"/>sum. Si delectare: sic erit iocosum Si ledere: sic erit 
+      <lb ed="#A" n="22"/>perniciosum. Perniciosum tenet tres primas differenti 
+      <lb ed="#A" n="23"/>as. quia aut in spiritualibust et sic est primum. aut in corporalibus: et 
+      <lb ed="#A" n="24"/>sic est secundum. aut in temporalibus et sic est tertium. Officiosum 
+      <lb ed="#A" n="25"/>continet tres vltimas specie scilicet Si in temporalibus: sic est sextum. 
+      <lb ed="#A" n="26"/>si in corporalibus sic est septimum. si in spiritualibus: sic est octa 
+      <lb ed="#A" n="27"/>uum. Ociosum continet quartam et quinta specitum. quia aut vult 
+      <lb ed="#A" n="28"/>delectare seipsum: et sic est quartum. autm alterum: et sic est quintamum 
+      <lb ed="#A" n="29"/>Primum istorum est grauius et vltimum leuius. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e380">
+               <head xml:id="Vn7Pel-j75576-Hd1e382">4</head>
+               <p xml:id="Vn7Pel-j75576-d1e384">
+                  <lb ed="#A" n="30"/>¶ Utrum essentiale sit mendacio esse. 
+      <lb ed="#A" n="31"/>peccatum: Et arguitur quod non. per exempla.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e391">
+      ¶ Prio sic Gen. 
+      <lb ed="#A" n="32"/>xxii. Abraam cum intenderet filium immolare dixit se cum 
+      pue<lb ed="#A" n="33" break="no"/>ro reuersurum ad suos. Et Isaac vxorem suam dixit esse 
+      <lb ed="#A" n="34"/>sororem suam. Gen. xxvi. Et exemplum habetur de Iudith et 
+      ali<lb ed="#A" n="35" break="no"/>is nonnull. Si ergo factam patriarcharum narrat scriptura non 
+      <lb ed="#A" n="36"/>sicut rprehendenda sed sicut imitanda. et ipsi mentiti fuerit. vidicitur 
+      <lb ed="#A" n="37"/>quod mentiri possit aliquis sine peccato
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e407">
+      ¶ Preterea in scripturis 
+      <lb ed="#A" n="38"/>prponuntur multe locutiones quae secundum itentionem litte false si 
+      <lb ed="#A" n="39"/>sicut illud Iudicum. ix. Ierunt ligna vt facerent sibi 
+      regen<lb ed="#A" n="40" break="no"/>et disputantes proponunt multa quae sciunt ese falsa Cum ergo 
+      sa<lb ed="#A" n="41" break="no"/>cra scriptura absque peccato sit data scripta inspirata et 
+      dis<lb ed="#A" n="42" break="no"/>putatio eius sit laudabilis et meritoria videtur quod aliqua 
+      <lb ed="#A" n="43"/>mendacia dici possint sine vlla culpa ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e423">
+      ¶ Item dicit 
+      <lb ed="#A" n="44"/>Amb. quod mendacium non est solum in verbis sed etiam in actis si 
+      <lb ed="#A" n="45"/>mulatis. Sed facere potest aliquis opera simulata sine peccato. 
+      <lb ed="#A" n="46"/>sicut fecit Iosue qui simulauit se fugere ante habitatores 
+      <lb ed="#A" n="47"/>Hai. Et Dauid qui simulauit se stultum ante achis 
+      re<lb ed="#A" n="48" break="no"/>genm. et Iehum qui simulauit se cultorem Baal. ergo pari 
+      ratio<lb ed="#A" n="49" break="no"/>videtur quod mendacium possit fieri in verbis sine peccato e 
+      <lb ed="#A" n="50"/>Confirmatur: quia maius malum est homicidium et furtum 
+      <lb ed="#A" n="51"/>quam sit mendacium. Sed furtum: et homicidium potest fieri 
+      si<lb ed="#A" n="52" break="no"/>ne peccato ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e446">
+      ¶ In contrarium tamen dicit Augis. liro de 
+      men<lb ed="#A" n="53" break="no"/>dacio. Quisquis aliquod genus mendacii pecnta no esse puta 
+      <lb ed="#A" n="54"/>uerit semetipet turpiter hocipit. Respondet scilicet Bona . i. iii. 
+      di<lb ed="#A" n="55" break="no"/>xxxviii. ar. i. q. ii quod absque dubio omne mendacium est 
+      pec<lb ed="#A" n="56" break="no"/>catum. et adeo et ipsi mendacio essentiale esse peccatum vt 
+      nul<lb ed="#A" n="57" break="no"/>lo pacto: nullo fine: nlla dispensatione nec diuina nec 
+      <!--255.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>humana possit fieri bene. et in hoconcordant doc. Sed rationem. 
+      <lb ed="#A" n="59"/>huius difficile est assignare. Et post diuersorum dicta 
+      <lb ed="#A" n="60"/>subdit idem. quod dupliciter dicitur aliquid esse malum. Aut ex gne. 
+      <lb ed="#A" n="61"/>actus. vtpote cum actus transit super indebitam materiam. autm 
+      <lb ed="#A" n="62"/>ex malicia intentionis. Cum autem transit actus super indebitam 
+      <lb ed="#A" n="63"/>materiam hoc praet esse dupliciter. Uel respectu dei vel respectu 
+      <lb ed="#A" n="64"/>proximi. Si respectu dei: sic est malum in se et secundum se. nec 
+      <lb ed="#A" n="65"/>vllo modo potest bene fieri sicut est odire vel blasphemare deum 
+      <lb ed="#A" n="66"/>Si respectu proximi: sic est nocumentum inferre in persona 
+      <lb ed="#A" n="67"/>vel in rebus. sic est malum in se: et potest aliquo fine bene fieri. quia potest 
+      <lb ed="#A" n="68"/>recta intentio superuenire et dispensatione. Cum autem aliquid 
+      <lb ed="#A" n="69"/>est malum ex malicia intentionis: tunc siue sit respectu dei 
+      <lb ed="#A" n="70"/>siue respectu proximi simpliciter malum est et nullo fine potest 
+      <lb ed="#A" n="71"/>bene fieri. quia dicit priuationem debiti simpliciter
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e494">
+      ¶ Unde facere 
+      <lb ed="#A" n="72"/>hoc malum esse bonum: nihil aliud est facere quam allquid esse 
+      bo<lb ed="#A" n="73" break="no"/>num et malum. tale autem e menda cium. Nam mendacium non 
+      so<lb ed="#A" n="74" break="no"/>lummodo dicit malum ex hoc quod actus transit super materiam 
+      inde<lb ed="#A" n="75" break="no"/>bitam: sed etiam intentione indirecta. Quoniam adesse mendacium 
+      <lb ed="#A" n="76"/>ista duo concurrunt. videlicet dicere falsum: et intentio fallendi 
+      <lb ed="#A" n="77"/>Et primum est malum in se: et potest bene fieri ab eo qui ignorantur dicit 
+      <lb ed="#A" n="78"/>falsum
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e512">
+      ¶ Ratione vero secndi est malum secundum se et nullo fine potest 
+      <lb ed="#A" n="79"/>bene fieri. nec circa ipst potest dispensari. sicut nullo mo pot 
+      <lb ed="#A" n="80"/>fieri quod aliquis cogscat aliena intentione adulterandi 
+      si<lb ed="#A" n="81" break="no"/>ne improbitate voluntatis.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e521">
+      ¶ Dicendum ergo est ad primum 
+      argu<lb ed="#A" n="82" break="no"/>mentum: quod nullus sanctorum illorum patrum mentitus est. Nam etsi 
+      <lb ed="#A" n="83"/>Abraam vellet filium suum immolare credebat tantum ex 
+      ma<lb ed="#A" n="84" break="no"/>gnitudine fidei sue (sicut dicit apostolus quod dominus eum suscitarm 
+      <lb ed="#A" n="85"/>Sciebat enim quod firma erat promissio quae ei dictum fuerat. 
+      <lb ed="#A" n="86"/>In Isaac vocabitur tibi semen. Similiter nec Isaac menti 
+      <lb ed="#A" n="87"/>tus fuerat. quia Rebecca soror erat et vxor. et dicendo 
+      <lb ed="#A" n="88"/>ipsam esse suam sororem vtique non tacuit tamten falsitatem non 
+      di<lb ed="#A" n="89" break="no"/>cit. Similiter nec Ioseph mentitus est cum dicebat frens 
+      suos<lb ed="#A" n="90" break="no"/>exploratores esse non affirmando sed potius tentando. Unde 
+      <lb ed="#A" n="91"/>potius intelligenda sunt interrogatiue quam affirmatiue 
+      <lb ed="#A" n="92"/>Similiter quod dixit se peritum in augurandi scientia large accipitur 
+      <lb ed="#A" n="93"/>verbum augurandi pro futurorum prouisione. quos bene excusant 
+      <lb ed="#A" n="94"/>licet Bona. et Tho. Scotus tamen i. iii. di. xxxviii. q. iii. Et 
+      <lb ed="#A" n="95"/>Lyra in postilla non excusant a peccato veniali. Non enim qer 
+      <lb ed="#A" n="96"/>magnum si dicamus eos in hoc venialiter peccasse. Cum etiam 
+      <lb ed="#A" n="97"/>de apostolis post spiritus sancti missionem non negemus illud. sicut 
+      <lb ed="#A" n="98"/>Gal. ii de Petro dicit apostolus. In faciem ei restiti quia 
+      reprae<lb ed="#A" n="99" break="no"/>hensibilis erat. De mendacio vero obstetricum egyptiorum 
+      <lb ed="#A" n="100"/>diuersa videtur opinio. Unde in eis tria sunt considerare. 
+      <lb ed="#A" n="101"/>Primum pietas. quia parcere vite puerorum hebreorum 
+      <lb ed="#A" n="102"/>voluerit. Et ideo dicit Hiero. quod meruerit. et quod 
+      edifica<lb ed="#A" n="103" break="no"/>uit dominseis domos spirituales
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e571">
+      ¶ Secundum fuit amor vite 
+      <lb ed="#A" n="104"/>proprie ne interficerentur dicendo veritatem. Et sic loquitur Gre. 
+      <lb ed="#A" n="105"/>i glo. super Exo. quod merces carum commutata est in temporale 
+      <lb ed="#A" n="106"/>bonum. et fuit peccatum veniale.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e580">
+      ¶ Tertium consideratur 
+      omis<lb ed="#A" n="107" break="no"/>sio confessionis diuine virtutis quam non sunt confesse vbi et quando 
+      <lb ed="#A" n="108"/>debebant. ideo earum peccatum fuit mortale si sic fecerunt. Des 
+      <lb ed="#A" n="109"/>Iudith autem difficilius potest ipsa a mortali excusari: non 
+      <lb ed="#A" n="110"/>tamen a veniali. Dicit eim Lyst. super ix. c. Iudith quod a 
+      mor<lb ed="#A" n="111" break="no"/>tali excusetur. patet per hoc quod dicitur. eius compositio non ex 
+      libi<lb ed="#A" n="112" break="no"/>dine erat. et ideo dominus illi pulcritudinem ampliauit. 
+      <lb ed="#A" n="113"/>Intendebat enim Iudith vt Holofernes vellet eam 
+      <lb ed="#A" n="114"/>habere in vxorem quamuis illa nullo modo vellet ei copulari. 
+      <lb ed="#A" n="115"/>sed per hoc familiaritatem talem haberet vt ipsum posset 
+      <!--256.xml-->
+      <pb ed="#A" n="257"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>interficere: nec talis interfectio insidiosa peccatum 
+      <lb ed="#A" n="2"/>erat. Nam in bello iusto licitum est vti insidiis. vt patet 
+      <lb ed="#A" n="3"/>Iosue. viii. vbi de praecepto domini Iosue posuit 
+      insidi<lb ed="#A" n="4" break="no"/>as post vrbem hanc
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e618">
+      ¶ Bellum autem filiorum israel 
+      con<lb ed="#A" n="5" break="no"/>ra Holofernem erat iustissimum. ergo non peccauit. 
+      </p>
+               <p xml:id="Vn7Pel-j75576-d1e623">
+                  <lb ed="#A" n="6"/>¶ Ad secundum dicendum quod ea quae transumptiue 
+      di<lb ed="#A" n="7" break="no"/>cuntur referuntur ad consequentem intellectum: et quoniam pro illo 
+      <lb ed="#A" n="8"/>habent veritatem nullum est ibi mendacium. et hoc est quod dicit 
+      <lb ed="#A" n="9"/>Augustinus. libro de mendacio. Quicquid figuratiue fit 
+      aut<lb ed="#A" n="10" break="no"/>dicitur non est mendacium. Omnis enim enuciatio ad illuo 
+      <lb ed="#A" n="11"/>quod enunciat referenda est. Omne autem figuratiue 
+      fa<lb ed="#A" n="12" break="no"/>ctum vel dictum significat illis quibus probatum est. In 
+      <lb ed="#A" n="13"/>disputationibus vero propositiones magis sunt dubie quam 
+      ve<lb ed="#A" n="14" break="no"/>ritatis assertiones. ideo dicitur frequenter videtur.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e645">
+      ¶ Ad 
+      <lb ed="#A" n="15"/>Tertium de simulatione in facto dicendum. quod est 
+      simula<lb ed="#A" n="16" break="no"/>tio cautele: instructionis: et duplicitatis
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e652">
+      ¶ 
+      Simula<lb ed="#A" n="17" break="no"/>tio cautele fuit in Iehum et Dauid et Iosue.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e657">
+      ¶ 
+      Si<lb ed="#A" n="18" break="no"/>mulatio eruditionis fuit in christo qui finxit se longius 
+      <lb ed="#A" n="19"/>ire. in quo erudiuit discipulos et omnes fideles. quod 
+      cogen<lb ed="#A" n="20" break="no"/>di sunt hospites: non tantum recipiendi ad hospitium 
+      </p>
+               <p xml:id="Vn7Pel-j75576-d1e666">
+                  <lb ed="#A" n="21"/>¶ Simulatio duplicitatis est in hypocritis qui exterius 
+      <lb ed="#A" n="22"/>ostendunt se bonos qui interius sunt mali. Prime due 
+      <lb ed="#A" n="23"/>simulationes non tenent rationem mali. sed Tertia rationem 
+      <lb ed="#A" n="24"/>mendacii tenet. ideo non est sine peccato. Preterea 
+      no<lb ed="#A" n="25" break="no"/>est similie de verbo et facto. quia factum non est principaliter 
+      <lb ed="#A" n="26"/>institutum ad significandum mentis conceptum. sicut verbum 
+      <lb ed="#A" n="27"/>quod est tanquam nucius et interpstens apud loquentem et 
+      au<lb ed="#A" n="28" break="no"/>dientem.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e687">
+      ¶ Ad illud vero quod dicebatur. quod furtum et 
+      homi<lb ed="#A" n="29" break="no"/>cidium est maius peccatum quam mendacium. Dicendum. quod 
+      <lb ed="#A" n="30"/>quamuis grauius sit vtrumque eorum quando fit mala intentione 
+      <lb ed="#A" n="31"/>et malo fine. quia tantum contingit illa a malo fine separari. 
+      <lb ed="#A" n="32"/>ideo possunt bene fieri. Non sic autem est de mendatio quod nominat 
+      <lb ed="#A" n="33"/>obliquitatem mentis semper. vnde sicut ex charitate non potest 
+      <lb ed="#A" n="34"/>scienter committi malum vt inde eueniat bonum. sic no potest 
+      <lb ed="#A" n="35"/>quis dicere ex charitate falsum vt inde sequatur verum 
+      <lb ed="#A" n="36"/>autem bonum. Hee san. Bonanem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e709">
+               <head xml:id="Vn7Pel-j75576-Hd1e711">5</head>
+               <p xml:id="Vn7Pel-j75576-d1e713">
+                  <lb ed="#A" n="37"/>¶ Utrum mendacium sit peccatum 
+      mor<lb ed="#A" n="38" break="no"/>tale ratione sui generis: et quod sic videtur. Primo per illud 
+      <lb ed="#A" n="39"/>Psalmus Perdes omnes qui loquuntur mendacium. Gloi. plus 
+      <lb ed="#A" n="40"/>est perdere quam odire. Sed deus neminem odit nisi propter 
+      <lb ed="#A" n="41"/>peccatum mortale. ergo omne mendacium est peccatum mortale 
+      </p>
+               <p xml:id="Vn7Pel-j75576-d1e726">
+                  <lb ed="#A" n="42"/>¶ Confirmatur per illud Sap. i. Os quod mentitur occidit 
+      <lb ed="#A" n="43"/>animam. Sed non occiditur aliquis nisi per mortale. ergo est 
+      <lb ed="#A" n="44"/>mortale
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e735">
+      ¶ In contrarium dicit Greg. de mendacio 
+      obste<lb ed="#A" n="45" break="no"/>tricum. Hoc peccati genus facile credimus relaxari. sed 
+      <lb ed="#A" n="46"/>quod facile relaxatur inter venialia numeratur. ergo non semper est peccatum 
+      <lb ed="#A" n="47"/>mortule mendacium. quia tunc sequeretur: omnis homo mendax: et 
+      <lb ed="#A" n="48"/>omnis mendax damnabitur. ergo omnis homo damnabitur. Respondet sa. 
+      <lb ed="#A" n="49"/>Bona. vbi supra et concor. sa. Tho. Rich. et omnrea doct. 
+      <lb ed="#A" n="50"/>quod non omne mendacium est peccatum mortle. imo de ratione sui 
+      ge<lb ed="#A" n="51" break="no"/>neris indifferens est peccatum. et ad mortule et ad veniale. Et 
+      <lb ed="#A" n="52"/>ratio hust est. quia ligua posita est in lubrico: et facilius est 
+      loqui<lb ed="#A" n="53" break="no"/>quam facere. ideo no semper ponderari potest actus lingue faciliter. 
+      <lb ed="#A" n="54"/>propter quod dicitur Iat. iii. Qui non offendit in verbo hoc perfectus 
+      <lb ed="#A" n="55"/>est vir. propter quod etiam peccatum mendacii non est generaliter 
+      mor<lb ed="#A" n="56" break="no"/>tale. sed fit mortule ratione materie circa quam: et ratione 
+      con<lb ed="#A" n="57" break="no"/>teptus: et ratenotument: et rae libidis quaefacuntmen¬ 
+      <!--256.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>dacium est perniciosum et mortal.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e772">
+      ¶ Primo est peccatum mox 
+      <lb ed="#A" n="59"/>tale ratione materie de qua loquitur scilicetcontra veritatem diuinam 
+      <lb ed="#A" n="60"/>Secundo ratione contemptus id est cum quis pro nihilo habet dicere 
+      <lb ed="#A" n="61"/>mendacia iocosa sicut vera: sicut faciunt ioculatores 
+      <lb ed="#A" n="62"/>et similes. Ar. xxv. di. §. Alis ea demum. Sed hoc est verum 
+      <lb ed="#A" n="63"/>quando etiamsi esset mortale nollet abstiere. aliter non. Tertio 
+      <lb ed="#A" n="64"/>ratione nocumenti: cum quis mentiendo nocet proximo nota 
+      <lb ed="#A" n="65"/>biliter. Unde secundum theologos in. iii. di. xxxviii. Cum 
+      <lb ed="#A" n="66"/>mendacium dicitur in iudicio: omne mendacium praeter iocosum 
+      di<lb ed="#A" n="67" break="no"/>cere de his quae ad iudicium pertinent est mortale. quia 
+      sub<lb ed="#A" n="68" break="no"/>uertit veritate iudicii: quod cedit in perniciem vniuersitatis 
+      <lb ed="#A" n="69"/>Quarto ratione libidinis: vt quando mentiens tanta libidine 
+      <lb ed="#A" n="70"/>pucitur quod licet aduertat ex hoc scandalizare aliquos: non tamen 
+      <lb ed="#A" n="71"/>curat notabiliter scandalizare.
+     </p>
+               <p xml:id="Vn7Pel-j75576-d1e804">
+      ¶ Ad argumta vero 
+      <lb ed="#A" n="72"/>dicitur quod ille autoritates intelligluntur de mendacio 
+      perni<lb ed="#A" n="73" break="no"/>cioso. Ideo dicitur perdes. et non dicit propter omnia mendacia. quia 
+      <lb ed="#A" n="74"/>ibi omnes distribuit pro mendacibus non pro mendacio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e814">
+               <head xml:id="Vn7Pel-j75576-Hd1e816">6</head>
+               <p xml:id="Vn7Pel-j75576-d1e818">
+                  <lb ed="#A" n="75"/>¶ Utrum omne mendacium sit mortale 
+      <lb ed="#A" n="76"/>viris perfectis Respondet Bona. di. qua supra. q. iiii. quod in 
+      vi<lb ed="#A" n="77" break="no"/>ris perfectis mendacium quodlibet arguit peccatum mortale 
+      <lb ed="#A" n="78"/>cum sint velunt exempla in populis. Et ideo si mentiantur 
+      nulli<lb ed="#A" n="79" break="no"/>de certo crederetur: maxime cum eorum perfectio in aperto est. C 
+      <lb ed="#A" n="80"/>tamen oppositum set merito stenent ta Sco. qua scilicet Tho. di. 
+      <lb ed="#A" n="81"/>praefata. Non enim videtur quod perfectus magis peccat mortaliter 
+      <lb ed="#A" n="82"/>quam alius exquo est in statu perfectionis: nisi ex suo menda 
+      <lb ed="#A" n="83"/>cio videret iminere pusilis scandalum nec se 
+      abstine<lb ed="#A" n="84" break="no"/>ret. Aut etiam fidei detrintum: ratione quorum possit 
+      pecca<lb ed="#A" n="85" break="no"/>re mortaliter. Uerumtamen viris perfectis vt religiosus et praelatis 
+      <lb ed="#A" n="86"/>grauius veniale est mendacium quam ceteris. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e848">
+               <head xml:id="Vn7Pel-j75576-Hd1e850">7</head>
+               <p xml:id="Vn7Pel-j75576-d1e852">
+                  <lb ed="#A" n="87"/>¶ Utrum predicator vel doctor seper 
+      <lb ed="#A" n="88"/>elcet mortaliter mentiendo: Respondetur secundum Pe. in. iii. dist. 
+      <lb ed="#A" n="89"/>xxxviii. quod non: nisi scandalum vel contemptus doctrine sit an 
+      <lb ed="#A" n="90"/>nexus. quia si hoc sciens mentitur: peccat mortaliter. Similiter si 
+      <lb ed="#A" n="91"/>diceret contra id quod est faciendum ex mente. secus si ex 
+      consilio<lb ed="#A" n="92" break="no"/>nisi ratione scandali: vt dictum est. Sed di. An liceat pro 
+      al<lb ed="#A" n="93" break="no"/>terius vita conseruanda mentiri: Respondetur quod non tvt patet. xxii. 
+      <lb ed="#A" n="94"/>q. ii per totum. quia qualitercumque dicatur mendacium semper est pec 
+      <lb ed="#A" n="95"/>catum: saltem veniale. Quidam excipiunt iocosum quod 
+      propie<lb ed="#A" n="96" break="no"/>non videtur mendacium. quia vt dicitur. xxii. q. ii c. Ne quis. non 
+      <lb ed="#A" n="97"/>fallit. quia nouit ille cui dicitur iocandi causa fuisse dictum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j75576-Dd1e879">
+               <head xml:id="Vn7Pel-j75576-Hd1e881">8</head>
+               <p xml:id="Vn7Pel-j75576-d1e883">
+                  <lb ed="#A" n="98"/>¶ Utrum grauius sit peccatum mentiri 
+      <lb ed="#A" n="99"/>audando aut vituperando se: Et videtur quod grauius sit 
+      <lb ed="#A" n="100"/>vituperando se. quia dicitur Ecci. xiiii. Qui sibi nequam est: 
+      <lb ed="#A" n="101"/>cui alii bonus erit. ergo magis peccat homo sibi malum 
+      faci<lb ed="#A" n="102" break="no"/>endo quam alii. Sed magis peccat homo mendaciter 
+      vitu<lb ed="#A" n="103" break="no"/>perando aliu quam mendaciter laudando. Preterea secundum 
+      <lb ed="#A" n="104"/>phlosophum. iiii. Eth. peior est qui non dignificat se quibus dignus 
+      <lb ed="#A" n="105"/>est quam qui dignificat se maioribus quam dignus sit. quia peior 
+      <lb ed="#A" n="106"/>est pusillanimitas quam caymatus: vt dicit Philosophus. iiii. 
+      <lb ed="#A" n="107"/>Eth. Respondet Rich. i. iiii. di. xxxviii. ar. i. q. iiii. quod 
+      ali<lb ed="#A" n="108" break="no"/>qui dicunt quod grauius est mentiri vituperando se quam laudando 
+      <lb ed="#A" n="109"/>Quia primo modo magis ledit se homo quam secundo modo. quia se 
+      vi<lb ed="#A" n="110" break="no"/>tuperando ledit se in fama: quae est lesio magrga valde Non 
+      <lb ed="#A" n="111"/>sic autem ledit se laudando. Nam vituperando se facit 
+      <lb ed="#A" n="112"/>homines credere seipsum esse peiorem quam sit. Laudando autem 
+      <lb ed="#A" n="113"/>se mendaciter facit credere se meliorem quam sit. Peius asit
+      <!--<pb ed="#A"/>-->
+      <!--NOTE: when this page gets added all page numbers below will probably need to be re-labeled 
+        missing page here-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

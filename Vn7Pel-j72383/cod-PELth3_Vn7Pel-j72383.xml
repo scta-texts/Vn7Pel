@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Iustitia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Iustitia</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="244"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j72383">
+            <head xml:id="Vn7Pel-j72383-Hd1e110">Iustitia</head>
+            <div xml:id="Vn7Pel-j72383-Dd1e112">
+               <head xml:id="Vn7Pel-j72383-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j72383-d1e116">
+                  <lb ed="#A" n="100"/>Iusticia namque 
+      po<lb ed="#A" n="101" break="no"/>test accipi tripliciter
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e123">
+      ¶ Primo pro ipso 
+      iur<lb ed="#A" n="102" break="no"/>quod est sua iusticia
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e128">
+      ¶ Secundo pro actu 
+      reo<lb ed="#A" n="103" break="no"/>dendi vnicuique quod suum est.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e133">
+      ¶ Tertio pro habitu inclinam 
+      <lb ed="#A" n="104"/>te deturminate voluntatem ad feddendum vnicuique quod su 
+      <lb ed="#A" n="105"/>um est et ad gaudendum de opere iusto. quia vt dicit philosophus. i. Eth. 
+      <lb ed="#A" n="106"/>Neque iustum aliquis diceret non gaudentem operatione 
+      iu<lb ed="#A" n="107" break="no"/>sta.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e145">
+      ¶ Primo modo iusticia non est virtus sed est obiectum 
+      iusti<lb ed="#A" n="108" break="no"/>cie virtutis.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e150">
+      ¶ Secundo modo est actus virtutis.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e152">
+      ¶ Tertio modo est 
+      <lb ed="#A" n="109"/>virtus. Unde secundum Rich. i. iii. di. xxxiii. ar. v. q. iii. 
+      Iusti<lb ed="#A" n="110" break="no"/>cia potest accipi quattuor modis. vno modo communissime scilicet 
+      pro<lb ed="#A" n="111" break="no"/>qualibet rectitudine animi. et sic est quaedam virtus iusticia. 
+      <!--244.xml-->
+      <pb ed="#A" n="245"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Et sic dicitur Matth. vi. Attendite ne iusticiam 
+      vestra<lb ed="#A" n="2" break="no"/>faciatis coram hominibus. Alio modo pro rectitudine per quam 
+      <lb ed="#A" n="3"/>homo iustificatur in conspectu dei. et sic sumitur pro 
+      chari<lb ed="#A" n="4" break="no"/>tate. et sic sumit Augustinus. li. lxxxiii. quaestion. Iusticia e 
+      <lb ed="#A" n="5"/>per cetera diffunditur est dilectio dei et proximi. Tertum 
+      <lb ed="#A" n="6"/>pro qualibet virtute ordinata per iusticiam legalem ad bontui 
+      <lb ed="#A" n="7"/>commune. et sic est idem cum qualibet virtute: differens tantum secundum ratio 
+      <lb ed="#A" n="8"/>nem. Quarto pro habitu determinante voluntatem ad 
+      <lb ed="#A" n="9"/>firmiter seruare volendum rectitudinem debitam in operatem 
+      <lb ed="#A" n="10"/>nibus quae sunt ad alterum. et potest esse duplicitr
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e189">
+      ¶ Uno modo ad 
+      <lb ed="#A" n="11"/>alterum qui est persona singularis. et sic est iustitia particum 
+      <lb ed="#A" n="12"/>laris distincta per essentiam a virtutibus aliis.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e196">
+      ¶ Alio modo 
+      <lb ed="#A" n="13"/>ad alterum quod est communitatis. et sic est iusticia lepalis: et omni 
+      <lb ed="#A" n="14"/>virtuti generalis inquantum praecipit opera exteriora. et exte 
+      <lb ed="#A" n="15"/>riora cuiussibet virtutis ad bonum commune referri. secundum quod 
+      <lb ed="#A" n="16"/>dicit Philosophus. iii Ethi. Unde iusticiam sic diffinit 
+      Mar<lb ed="#A" n="17" break="no"/>cus tullius in antiqua rhetorica. Iusticia est habitus 
+      <lb ed="#A" n="18"/>anim bonus communi vtilitate seruata: cuilibet quod est suum 
+      <lb ed="#A" n="19"/>tribuens. In qua diffinitione tria tanguntur. Primo 
+      ge<lb ed="#A" n="20" break="no"/>nus dum dicitur: habitus anim bonus. Iusticia enim de 
+      diffi<lb ed="#A" n="21" break="no"/>cili est mobilis ab habente. Secundo tangitur differentia 
+      <lb ed="#A" n="22"/>eius ad alias virtutes. cum dicitur: cuilibet quod suum est 
+      tri<lb ed="#A" n="23" break="no"/>buens. Alie enim virtutes moraless magis aspiciunt 
+      ha<lb ed="#A" n="24" break="no"/>bentem. sed iusticia ad alterum est
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e225">
+      ¶ Tertio tangitur modus 
+      <lb ed="#A" n="25"/>se habendi ad alterum. cum dicitur: col vtilitate seruata. 
+      Si<lb ed="#A" n="26" break="no"/>enim illud redundaret in detrimentum communitatis: reddendum 
+      <lb ed="#A" n="27"/>non esset. sicut nec gladius furioso. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72383-Dd1e235">
+               <head xml:id="Vn7Pel-j72383-Hd1e237">2</head>
+               <p xml:id="Vn7Pel-j72383-d1e239">
+                  <lb ed="#A" n="28"/>¶ Utrum iusticia fit circa passiones 
+      <lb ed="#A" n="29"/>et operationes similis vel circa operationes tantum: Respondetur secundum 
+      <lb ed="#A" n="30"/>Rich. in. iii. dis. xxxiii. ar. iii. q. iii. quod virtus potest esse 
+      <lb ed="#A" n="31"/>circa aliquid triplicer scilicet perse et primo. et non primo. vel perac 
+      <lb ed="#A" n="32"/>cidens et ex consequenti.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e252">
+      ¶ Primo modo temporantia est circa 
+      me<lb ed="#A" n="33" break="no"/>dium rationis in delectationibus venereorum: et delectationi 
+      <lb ed="#A" n="34"/>bus secundum gustum. et fortitudo circa medium timoris et 
+      <lb ed="#A" n="35"/>audacie. et iusticia circa medium in operationibus quae sunt 
+      <lb ed="#A" n="36"/>ad alterum
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e263">
+      ¶ Secundo temperantia et fortitudo sunt circa 
+      <lb ed="#A" n="37"/>obiectum passionum: quas moderant. et iusticia circa 
+      <lb ed="#A" n="38"/>operationem quae sunt ad alterum
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e270">
+      ¶ Tertio iusticia est 
+      cir<lb ed="#A" n="39" break="no"/>ca passiones: inquantum iusticia iuuat fortitudinem 
+      <lb ed="#A" n="40"/>et teperantiam. quia virtutes se mutuo iuuat. Fortitudo 
+      <lb ed="#A" n="41"/>vero et temporantia sunt circa passiones. et simili 
+      mo<lb ed="#A" n="42" break="no"/>do fortitudo et temperantia per accidens sunt circa 
+      <lb ed="#A" n="43"/>operationes ad alterum. etiam idem actus qui est contra 
+      equa<lb ed="#A" n="44" break="no"/>litatem quam obseruat iusticia in operationibus quae sunt ac 
+      <lb ed="#A" n="45"/>alterum potest oriri ex superabundantia passionis. vt 
+      viola<lb ed="#A" n="46" break="no"/>re vxorem proximi. et percutere proximum. et sicut dicit phlosophus. iii. 
+      <lb ed="#A" n="47"/>Ethico. Operatio concupiente auget conatum. Ideo 
+      iusti<lb ed="#A" n="48" break="no"/>cia praedictas operationes prohibens: et ex consequenti iuuat 
+      <lb ed="#A" n="49"/>ad resecandum superabundantiam passionum. et quia etiam cum 
+      <lb ed="#A" n="50"/>homo firmiter intendit consequi aliquem effectum: pronus est et 
+      <lb ed="#A" n="51"/>consequenti ad refrenandum ea quae illum effectum impediunt: et 
+      <lb ed="#A" n="52"/>iustus firmitur velit seruare equalitatem in operationibus 
+      <lb ed="#A" n="53"/>ad alterum et videt impediri per inordinationem 
+      passio<lb ed="#A" n="54" break="no"/>num. ideo per iusticiam ex cosequenti imperat moderationem. 
+      <lb ed="#A" n="55"/>earum: et imperando coadiuuat.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e310">
+      ¶ Sed arguitur. quod 
+      <lb ed="#A" n="56"/>iusticia non sit virtus. quia dicit philosophs. v. Ethi. quod epifeia 
+      <lb ed="#A" n="57"/>nobilior est quam legalis iusticia. sed episeia no est vir¬ 
+      <!--244.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>tus: sed nihil aliudicitur esse quam naturalis directio 
+      legen<lb ed="#A" n="59" break="no"/>scriptam conuenienter ad diuersos actus applicans. ergo 
+      <lb ed="#A" n="60"/>multo fortius iusticia non est virtus. Tum quia omnis virtus 
+      ha<lb ed="#A" n="61" break="no"/>bentem perficit scilicet per iusticiam homo bene se habet ad alterum non ad 
+      <lb ed="#A" n="62"/>seipem. ergo iusticia non est virtus. Respondetur secundum Rich. i. iii. vbi supra 
+      <lb ed="#A" n="63"/>quod epifeia et iusticia sunt due species iusticie 
+      differen<lb ed="#A" n="64" break="no"/>tes. sicut ius naturale et posititum. quia epifeie obie 
+      <lb ed="#A" n="65"/>ctum est ius naturale. iusticia aut legalis ad similitudinem qua 
+      <lb ed="#A" n="66"/>ius naturale est directiuum iusticie legalis ideo sub 
+      iusti<lb ed="#A" n="67" break="no"/>cia comprehenditur vtraque. Unde homo per iusticiam bene se habet 
+      <lb ed="#A" n="68"/>non tantum circa se: sed etiam circa alterum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72383-Dd1e346">
+               <head xml:id="Vn7Pel-j72383-Hd1e348">3</head>
+               <p xml:id="Vn7Pel-j72383-d1e350">
+                  <lb ed="#A" n="69"/>¶ Utrum actus iusticies. sit iudicare: 
+      <lb ed="#A" n="70"/>Et videtur quod non. quia actus cognitiue non est actus iusticie 
+      <lb ed="#A" n="71"/>cum iusticia sit in voluntate. set iudicare est actus virtutis 
+      <lb ed="#A" n="72"/>cognitiue. Unde philosophus. i. Eth. ait. Unusquisque bene 
+      iudi<lb ed="#A" n="73" break="no"/>cat quae cogscit. ergo iudicare non est actus iusticie.
+     </p>
+               <p xml:id="Vn7Pel-j72383-d1e363">
+      ¶ In con 
+      <lb ed="#A" n="74"/>trarium dicit Isid. lir. Etyu. Iusticia e quasi iuris status 
+      <lb ed="#A" n="75"/>ita quod primo ca proponitur. Secundo iudicio discutitur. 
+      Ter<lb ed="#A" n="76" break="no"/>tio iusticia termiatur. Ideo respondet Rich. i. iii. di. xxxiii. 
+      <lb ed="#A" n="77"/>ar. iii. q. v. quod est quoddam iudicium vsurpatum. sicut cum homines 
+      <lb ed="#A" n="78"/>iudicant non sibi subditos. Et quoddam est temerariu: scied 
+      <lb ed="#A" n="79"/>quando homo sententiat de dubiis vel occultis per aliquos leues 
+      <lb ed="#A" n="80"/>coniecturas. Et est quoddam iudicium peruersum scilicet quando homo a 
+      <lb ed="#A" n="81"/>iusticie rectitudinem sententiat. Et est quodda iustum iud 
+      <lb ed="#A" n="82"/>cium: quod est ex incliuatione iusticie: et praesidentis aucoritae 
+      fer<lb ed="#A" n="83" break="no"/>re sententiam secundum rectam rationem prudentie iudicare. quicumque 
+      <lb ed="#A" n="84"/>trium modorum praedictorum non e actus iusticie. sed quarto modo 
+      <lb ed="#A" n="85"/>tantum est actus iusticie iudicare vt inclamantis et disponent 
+      <lb ed="#A" n="86"/>et mouentis ad dictamen sententie iuste. prudentie autem actus est 
+      <lb ed="#A" n="87"/>sicut iudicium proferentis. dicere enim vel differre actus rationis 
+      <lb ed="#A" n="88"/>est. Per hoc patet ad argumentum. Non ei inconueniens est 
+      <lb ed="#A" n="89"/>eundem actum pertinere ad diuersas potentias vel 
+      virtu<lb ed="#A" n="90" break="no"/>tes: diuersus tantem modis. sicut est in proposito. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72383-Dd1e403">
+               <head xml:id="Vn7Pel-j72383-Hd1e405">4</head>
+               <p xml:id="Vn7Pel-j72383-d1e407">
+                  <lb ed="#A" n="91"/>¶ Utrum dubia facta proximorum inter. 
+      <lb ed="#A" n="92"/>praetari lis partem peiorem sit contra usticiam: Respondet idem Rich. 
+      <lb ed="#A" n="93"/>vbi supra q. vi. quod contennere proximum et famam eius ledere vel 
+      <lb ed="#A" n="94"/>ipsum damnificare quo quomodo non ex legitia causa est 
+      iniuri<lb ed="#A" n="95" break="no"/>ari eidem. Iniuriari autem proxrimo contra usticiam est. sed qui factapro 
+      <lb ed="#A" n="96"/>ximorum in peiorem partem interpretatur proxim contenit: de ipso 
+      <lb ed="#A" n="97"/>male opinando sine certa causa. Et suam interpretationem 
+      <lb ed="#A" n="98"/>aliis publicat: ideo etiam illius famam ledit. ergo 
+      interpretari<lb ed="#A" n="99" break="no"/>facta dubia proximorum in partem peiorem est contra usticiam. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72383-Dd1e431">
+               <head xml:id="Vn7Pel-j72383-Hd1e433">5</head>
+               <p xml:id="Vn7Pel-j72383-d1e435">
+                  <lb ed="#A" n="100"/>¶ Queritur quo et quit sunt partes iusticies 
+      <lb ed="#A" n="101"/>Respondet Rich. vbi supra. q. vii. quod partium iusticie quaedam 
+      <lb ed="#A" n="102"/>se habent ad mondum partium integalium. vt sunt ea quae concurrunt 
+      <lb ed="#A" n="103"/>ad perfectum actum iusticie. Et iste sunt declinare 
+      ama<lb ed="#A" n="104" break="no"/>lo et facere bonum id est reddere proximo debitum: et non 
+      sub<lb ed="#A" n="105" break="no"/>trahere quod suum est. Quedam sunt partes subiectiue scilicet 
+      u<lb ed="#A" n="106" break="no"/>sticia generalis et legalis per quam habituatur homo ad firmi 
+      <lb ed="#A" n="107"/>ter volendum seruare rectitudinem ex necessitate debitam 
+      <lb ed="#A" n="108"/>in operationibus quae sunt ad alterum quod e communitas. Per illam et 
+      <lb ed="#A" n="109"/>redditur debitum communitati. Quedam est iusticia particularis 
+      <lb ed="#A" n="110"/>per quam babituatur homo ad firmiter volendum seruare 
+      recti<lb ed="#A" n="111" break="no"/>tudinem ex necessitate debiti in operationibus quae sunt ad alte 
+      <lb ed="#A" n="112"/>rum. vt est singularis persona. cus sunt due subiecte partes scilicet 
+      iu<lb ed="#A" n="113" break="no"/>sticia distributiua. per quam proportionaliter distribuen¬ 
+      <!--245.xml-->
+      <pb ed="#A" n="246"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>do bona communia cuilibet secundum quod dignus est redditur de communibus 
+      <lb ed="#A" n="2"/>bonis. et iusticia commutatiua per quam habilitatur homo 
+      <lb ed="#A" n="3"/>ad firmiter volendum seruare rectitudinem debitam qui sunt ad 
+      <lb ed="#A" n="4"/>alterum commutando. praedicte autm partes iusticie sunt 
+      diuer<lb ed="#A" n="5" break="no"/>se iusticie: quia alterius rationis Notandum quoqe quod An 
+      <lb ed="#A" n="6"/>dronicus philosophus peripateticus ponit nouem species iusticie. quae 
+      <lb ed="#A" n="7"/>sunt Libsalitas: benignitas: vindicatiua: eugnomo 
+      <lb ed="#A" n="8"/>siue: eusebia: eucaria: sanctitas: bona commutatio: 
+      le<lb ed="#A" n="9" break="no"/>gis positiua. ita quod respectu dei est eusebia et sanctitas 
+      <lb ed="#A" n="10"/>sed euscbia specialiter in protestatione seruitutis. vnde dicit. 
+      Cu<lb ed="#A" n="11" break="no"/>sebia est scientia dei famulatus. scaientitas vero in omnibus est quae ad deum 
+      <lb ed="#A" n="12"/>pertinent. vnde dicit. Sactitas est scientia fideles faciens: et 
+      seruan<lb ed="#A" n="13" break="no"/>tes ea quae ad deum sunt iusta. Respectu iudicis politici 
+      <lb ed="#A" n="14"/>est legis positiua vt faciat equalitatem. et vidicatio vt 
+      de<lb ed="#A" n="15" break="no"/>linquaentes puniat. Respectu subditorum est equalitatem a 
+      <lb ed="#A" n="16"/>iudice factam accipere: et dicitur bona commutatioe. etsi non de 
+      <lb ed="#A" n="17"/>ficiant voluntarie reuerti dicitur eugnomosiue. vnde dicitur quod 
+      <lb ed="#A" n="18"/>eugnomosiue dicitur voluntaria iustificatio. Benigni 
+      <lb ed="#A" n="19"/>tas libsalitas et eucaria sic differt. quia libalitas 
+      mo<lb ed="#A" n="20" break="no"/>deratur concupiscibilem in respectu ad proximum in dationibus 
+      <lb ed="#A" n="21"/>Benignitas irascibilem: eucaria rationalem. quia interpretatur 
+      <lb ed="#A" n="22"/>bona gratia. Istarum specierum iusticie aliquas ponit Tul 
+      <lb ed="#A" n="23"/>liu. ii rhetorice aliis verbis scilicet quo sunt religio: pietas: gratia 
+      <lb ed="#A" n="24"/>vindicatio: obseruantia: veritas 
+      </p>
+               <p xml:id="Vn7Pel-j72383-d1e526">
+                  <lb ed="#A" n="25"/>¶ Latria quaere supra Gulia 
+      </p>
+               <p xml:id="Vn7Pel-j72383-d1e531">
+                  <lb ed="#A" n="26"/>¶ In hoc nobis ostendit deus suam 
+      <lb ed="#A" n="27"/>magnam charitatem: quia dedit leget.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

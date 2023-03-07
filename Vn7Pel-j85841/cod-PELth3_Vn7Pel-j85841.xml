@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Periurium</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Periurium</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="289"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j85841">
+            <head xml:id="Vn7Pel-j85841-Hd1e110">Periurium</head>
+            <p xml:id="Vn7Pel-j85841-d1e112">
+               <lb ed="#A" n="41"/>Eriurium prohibet 
+      <lb ed="#A" n="42"/>deus in secundo praecepto prime tabule. et etiam 
+      <lb ed="#A" n="43"/>in quinto precepto secunde tabule. Unde 
+      <lb ed="#A" n="44"/>dicit magister in. iii. dist. xxxix. Quod periurium est 
+      men<lb ed="#A" n="45" break="no"/>dacium iuramento firmatum.
+     </p>
+            <p xml:id="Vn7Pel-j85841-d1e125">
+      ¶ Aduertendum quod 
+      <lb ed="#A" n="46"/>iusiurandum tres habet comites. Ueritatem Iudicis 
+      <lb ed="#A" n="47"/>um et Iusticiam. si ista defuerit non erit iuramentum 
+      <lb ed="#A" n="48"/>sed periurium. Hec magister. Sed cum omnia opera 
+      nostra<lb ed="#A" n="49" break="no"/>debeant cum discretione et rectitudine fieri et veritate 
+      </p>
+            <p xml:id="Vn7Pel-j85841-d1e136">
+               <lb ed="#A" n="50"/>¶ Queritur. quare potius iuramentum debcat habere 
+      treo<lb ed="#A" n="51" break="no"/>comites quam aliud verbum et factum: Respondet sanctus 
+      Bo<lb ed="#A" n="52" break="no"/>nauen. in expositione litte. quod turamentum comparatur ad 
+      <lb ed="#A" n="53"/>est tria. videlicet ad iurantem a quo procedit. ad rem de qua fit 
+      <lb ed="#A" n="54"/>et ad causam pro qua fit. secundum comparationem ad euma 
+      <!--288.xml-->
+      <cb ed="#A" n="b"/>
+               <lb ed="#A" n="55"/>quo egreditur debetur sibi iundicitum secundum compationem 
+      <lb ed="#A" n="56"/>ad rem de qua fit debetur sibi veritas. vt sit adequatio rei et 
+      <lb ed="#A" n="57"/>secunmodis. secundum vero comparationem ad causam de qua fit de 
+      <lb ed="#A" n="58"/>betur iusticia vt pro iusta causa fiat. Et quoniam omne iuramentum 
+      <lb ed="#A" n="59"/>habet istas tres comparationes. ideo omne rectum iuramentum 
+      <lb ed="#A" n="60"/>habet istos tres comintes 
+      </p>
+            <div xml:id="Vn7Pel-j85841-Dd1e167">
+               <head xml:id="Vn7Pel-j85841-Hd1e169">1</head>
+               <p xml:id="Vn7Pel-j85841-d1e171">
+                  <lb ed="#A" n="61"/>¶ Utrum omne periurium sit mendacium 
+      <lb ed="#A" n="62"/>Et arguitur quod sic. quia qui verum iurat non periurat. ergo a 
+      de<lb ed="#A" n="63" break="no"/>structione consequentis qui periurat mendacium iurat 
+      <lb ed="#A" n="64"/>et confirmat magister in littera di. Periurium est mens 
+      <lb ed="#A" n="65"/>dacium iuramento firmatum.
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e184">
+      ¶ Respondet Rich. i. iii. 
+      di<lb ed="#A" n="66" break="no"/>xxxix. ar. iii. q. i. Quod periurium et in triplici gradum. 
+      Pri<lb ed="#A" n="67" break="no"/>mus gradus est. cum aliquis iurat falsum quod credit verum 
+      <lb ed="#A" n="68"/>Alius: cum iurat verum quod credit falsum. Tertius cu 
+      <lb ed="#A" n="69"/>iurat falsum quod credit falsum. Primum periurium est 
+      <lb ed="#A" n="70"/>reprehensibile. Secundum reprehensibilius. et tertium 
+      grauis<lb ed="#A" n="71" break="no"/>simum
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e200">
+      ¶ Primum periurium est mendacium quantum ad id 
+      <lb ed="#A" n="72"/>quod est materiale in mendacio.
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e205">
+      ¶ Secundm quantum 
+      <lb ed="#A" n="73"/>ad id quod est in mendacio formale.
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e211">
+      ¶ Tertium est 
+      <lb ed="#A" n="74"/>mendacium plenum et integrum. Omne ergo periurium est 
+      men<lb ed="#A" n="75" break="no"/>dacium quantum ad medacii materiam vel quantum 
+      <lb ed="#A" n="76"/>ad mendacii formam. vel est plenum et integrum mendacium 
+      <lb ed="#A" n="77"/>sed non omne periurium est integrum mendacium. et sic patet responsio 
+      <lb ed="#A" n="78"/>ad obiectum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j85841-Dd1e226">
+               <head xml:id="Vn7Pel-j85841-Hd1e228">2</head>
+               <p xml:id="Vn7Pel-j85841-d1e230">
+                  <lb ed="#A" n="79"/>¶ Utrum omne periurium sit peccatum: Respon 
+      <lb ed="#A" n="80"/>det sanctus Bona. i. iii. dist. xxxix. art. i. q. ii quod absque 
+      <lb ed="#A" n="81"/>dubio periurium est malum: non solum in se sed etiam secundum se. 
+      <lb ed="#A" n="82"/>ita quod nullo modo potest bene fieri. Ratio cuius est 
+      du<lb ed="#A" n="83" break="no"/>plex. Una propter hoc quod periurium plerum qua claudit 
+      <lb ed="#A" n="84"/>in se mendacium: quod est secundum se malum. Alia vero ratio 
+      <lb ed="#A" n="85"/>est generalis. quia omnis periurans contumeliam facit sum 
+      <lb ed="#A" n="86"/>me veriiati dum eam adducit ad eius confirmationem 
+      <lb ed="#A" n="87"/>ad quod non deheret assumi. Et ideo non tantum 
+      deordi<lb ed="#A" n="88" break="no"/>nat hominem ad proximum: sed etiam ad deum. inde est 
+      <lb ed="#A" n="89"/>quod semper est peccatum
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e256">
+      ¶ Sed est alia difficultas. An 
+      <lb ed="#A" n="90"/>vme periurium sit peccatum mortale: Et videtur quod sic. quia 
+      <lb ed="#A" n="91"/>quod directe est contra mandatum et prohibitionem est 
+      pec<lb ed="#A" n="92" break="no"/>catum mortale. sed periurium est directe contra praeceptum 
+      <lb ed="#A" n="93"/>prime et secunde tabule. ergo videtur quod omne periurium sit 
+      mor<lb ed="#A" n="94" break="no"/>tale.
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e269">
+      ¶ Sed contra. Sicut contingit aliquem iocose 
+      <lb ed="#A" n="95"/>mentifissic contingit aliquem iocose periurare. sed quod 
+      <lb ed="#A" n="96"/>ex ioco fit non fit ex contemptum. Si ergo aliquod 
+      ioco<lb ed="#A" n="97" break="no"/>sum mendacium potest esse non mortale. ergo pari 
+      ra<lb ed="#A" n="98" break="no"/>tione aliquod periurium
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e280">
+      ¶ Respondetur secundum sanctum 
+      Bo<lb ed="#A" n="99" break="no"/>nauen. vbi supra. q. iii. Quod periurium duo dicit. videlicet 
+      iura<lb ed="#A" n="100" break="no"/>tionem et inordinationem. Est igitur periurium 
+      iuramen<lb ed="#A" n="101" break="no"/>tum indebitum. Iuratio autem triplex est. Quedam est 
+      <lb ed="#A" n="102"/>deliberata et solemnizata scilicet quando testes iurant supra 
+      san<lb ed="#A" n="103" break="no"/>cti dei euangelia: et in iudicis praesentia. Quedam est 
+      <lb ed="#A" n="104"/>deliberata sed non solemnizata. quando quis in 
+      oc<lb ed="#A" n="105" break="no"/>culto iurat aliquid ex deliberatione: intendens 
+      il<lb ed="#A" n="106" break="no"/>sud per diuine veritatis testimonium confirmare. 
+      Que<lb ed="#A" n="107" break="no"/>dam autem est nec deliberata nec solennizata. sicut 
+      <lb ed="#A" n="108"/>quando quis iurat in communi sermone non 
+      attn<lb ed="#A" n="109" break="no"/>dens quem inuocat: et ad quid. sed ex quadam 
+      consue<lb ed="#A" n="110" break="no"/>tudine. Et secundum hoc periurium potest committi tripli¬ 
+      <!--289.xml-->
+      <pb ed="#A" n="290"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>citer. Nam si committatur circa iurationem deliberatam 
+      <lb ed="#A" n="2"/>et solemnizatam. sic est graue peccatum et reuocare tenetur: 
+      <lb ed="#A" n="3"/>ita quod reddit hominem infamem. Si vero committatur 
+      <lb ed="#A" n="4"/>circa iurationem non solennizatam ncc deliberatam 
+      <lb ed="#A" n="5"/>sic non est peccatum mortale sed veniale. propter hoc quod 
+      <lb ed="#A" n="6"/>lingua in lubrico posita est. Si vero committatur circo 
+      <lb ed="#A" n="7"/>surationem deliberatam licet non solennizatam. tunc 
+      di<lb ed="#A" n="8" break="no"/>stinguendum est. quia autem deliberat de dicto et de 
+      iu<lb ed="#A" n="9" break="no"/>ramen to: vtrum vilicet dictum sit verum et vtrum sit 
+      iuramen<lb ed="#A" n="10" break="no"/>to confirmandum. et tunc si periurat mortaliter peccat 
+      <lb ed="#A" n="11"/>Aut deliberat de dicto tantum vtrum sit verum: non tamen 
+      <lb ed="#A" n="12"/>de iuramento. et tunc potest esse veniale peccatum. valde 
+      <lb ed="#A" n="13"/>tamen cauedum siue hoc sit assertorium sicut est iuramentum 
+      <lb ed="#A" n="14"/>de praeterito vel praesenti: siue promissorium. sicut 
+      iuramen<lb ed="#A" n="15" break="no"/>tum de futuro. Que secundum Scotum in. iii. dist. xxxix. dif 
+      <lb ed="#A" n="16"/>ferunt. sicut in sophismatibus due obligationis species 
+      <lb ed="#A" n="17"/>scilicet positio et petitio. Positio enim obligat ad 
+      susti<lb ed="#A" n="18" break="no"/>nendum positu tamquam verum. sicut iuramentum assertori 
+      <lb ed="#A" n="19"/>um. Petitio vero ad exequendum petitum in futuro. sicut 
+      <lb ed="#A" n="20"/>iuramentum promissorium 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j85841-Dd1e359">
+               <head xml:id="Vn7Pel-j85841-Hd1e361">3</head>
+               <p xml:id="Vn7Pel-j85841-d1e363">
+                  <lb ed="#A" n="21"/>¶ Queritur: quod est maius peccatum: 
+      <lb ed="#A" n="22"/>an periurium aut homicidium
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e370">
+      ¶ Respondetur quod de hoc 
+      <lb ed="#A" n="23"/>sunt opiniones
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e375">
+      ¶ Una est sancti Thome in primo 
+      quodli<lb ed="#A" n="24" break="no"/>beto. qua xviii. quod parturium est maius peccatum. Cuius rati 
+      <lb ed="#A" n="25"/>onem dicit. quia est contra rationis ordinem immediate 
+      <lb ed="#A" n="26"/>respicientem deum. Sed homicidium contra ordinem 
+      <lb ed="#A" n="27"/>respicientem proximum
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e386">
+      ¶ Preterea duorum malorum illud 
+      <lb ed="#A" n="28"/>est peius propter quod sedatur alterum. sed propter pericu 
+      <lb ed="#A" n="29"/>lum periurii ne incurratur per iuramentum sedatur 
+      <lb ed="#A" n="30"/>homicidium. secundum quod dicit Apostolus Heb. vi. Omnio 
+      <lb ed="#A" n="31"/>potrouersie eorum finis ad confirmationem est iuramentum 
+      <lb ed="#A" n="32"/>sed hoc non admitteretur nisi periurium esset grauius hominici 
+      <lb ed="#A" n="33"/>dio ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e403">
+      ¶ Alia opinio Richar. in. iii. dist. xxxix 
+      <lb ed="#A" n="34"/>ar. iiii. q. scilic.t recltantis vtranque opinionem dicit. 
+      Mi<lb ed="#A" n="35" break="no"/>hi videtur dicendum quod grauius peccatum est homicidium 
+      <lb ed="#A" n="36"/>quam periurium. quod sic patet. Tanto peccatum est grauius 
+      quan<lb ed="#A" n="37" break="no"/>to contrariatur directe maiori virtuti et actui digniori. 
+      <lb ed="#A" n="38"/>Sed periurium directe et immediate est contra actum virtu 
+      <lb ed="#A" n="39"/>tis latrie. quia praecepta prime tabule sunt de actibus 
+      vir<lb ed="#A" n="40" break="no"/>tutis latrie. homicidium autem est directe et 
+      immedi<lb ed="#A" n="41" break="no"/>ate contra charitatem ratione secundarii actus: qui est 
+      di<lb ed="#A" n="42" break="no"/>ligere proximum. Certum est autem quod nobilior virtus est 
+      <lb ed="#A" n="43"/>charitas quam latria. Nobilior etiam actus est proximum 
+      <lb ed="#A" n="44"/>diligere ex charitate quam iurare verum ex legitima 
+      <lb ed="#A" n="45"/>causa. Grauius ergo peccatum est hominicidium quam periurium 
+      <lb ed="#A" n="46"/>Quod declarari potest per exemplum. quamuis grauior sit 
+      <lb ed="#A" n="47"/>iniuria facta immediate et directe contra personam 
+      <lb ed="#A" n="48"/>principis quam contra imaginem eius vel subditum. Tamen 
+      <lb ed="#A" n="49"/>tanta posset esse iniuria frcta imagini illius. puta in 
+      <lb ed="#A" n="50"/>illius iniuriam deturpando. aut in eiuo subditis 
+      <lb ed="#A" n="51"/>illos occidendo turpiter quam contra personam principis 
+      <lb ed="#A" n="52"/>parua iniuria illata. Maxima autem iniuria quae fieri 
+      <lb ed="#A" n="53"/>potest in suo subdito deo: est homicidium et non per 
+      <lb ed="#A" n="54"/>iurium. ideo homicidium est peccatum grauius quam periuri 
+      <lb ed="#A" n="55"/>um. Quod sic probatur. Grauius enim est peccare 
+      contra<lb ed="#A" n="56" break="no"/>deum et proximum simul quam contra deum tantum. sed homici 
+      <lb ed="#A" n="57"/>dium est contra deum et proximum: periurium vero contra deum tantum 
+      <!--289.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>crgo etc
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e464">
+      ¶ Confirmatur. quia ilud peccatum est graut 
+      <lb ed="#A" n="59"/>us cui secundum legem iustam debetur maior pena. Sed ta 
+      <lb ed="#A" n="60"/>le est homicidium. crgo est grauius peccatum quam periurium. 
+      <lb ed="#A" n="61"/>Ad rationem autem Thome dicit idem Rich. Dico 
+      in<lb ed="#A" n="62" break="no"/>quit negandum simpliciter. quia sic sequeretur quod 
+      labo<lb ed="#A" n="63" break="no"/>rans in festo grauius peccatet quam homicida. quod non 
+      <lb ed="#A" n="64"/>est verum
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e480">
+      ¶ Ad secundam rationem dicendum quo illa 
+      <lb ed="#A" n="65"/>ratio non cogit. quia qui occidere praesumpsit periurare 
+      <lb ed="#A" n="66"/>non audet. nec de iure homicida admittitur ad in 
+      <lb ed="#A" n="67"/>randum: exquo est infamis. Nec auctoritas apostoli est 
+      <lb ed="#A" n="68"/>ad propositum. ibi dicitur: homines enim per maiorem 
+      sui<lb ed="#A" n="69" break="no"/>iurant. et omnis controuersie eorum finis ad 
+      confirma<lb ed="#A" n="70" break="no"/>tionem est iuramentum. Ubi dicit Lyra. quia confirma 
+      <lb ed="#A" n="71"/>tio alicuius rei non est nisi per aliquod certius et stabilius 
+      <lb ed="#A" n="72"/>Propter quod dicit philosophus. i. metaphopice Quod antiqui 
+      po<lb ed="#A" n="73" break="no"/>suerunt aquam principium omnium. quia dixerunt ipsam esse 
+      <lb ed="#A" n="74"/>iuramentum deorum. Sequitur: quia facta hominum sunt 
+      <lb ed="#A" n="75"/>fallibilia. Et ideo ad confirmationem oportet recurre 
+      <lb ed="#A" n="76"/>re ad diuinam veritatem infallibilem quae iuramentum 
+      <lb ed="#A" n="77"/>vocatur: in testem. Hec ille. Ergo compositionem de pec 
+      <lb ed="#A" n="78"/>cato homicidii bene possunt homines confirmare 
+      iu<lb ed="#A" n="79" break="no"/>ramento. non tamen homicida potest se expedire iuramento 
+      <lb ed="#A" n="80"/>suo quia presumitur quod qui perpetrat maius perpetrat 
+      <lb ed="#A" n="81"/>et minus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j85841-Dd1e520">
+               <head xml:id="Vn7Pel-j85841-Hd1e522">4</head>
+               <p xml:id="Vn7Pel-j85841-d1e524">
+                  <lb ed="#A" n="82"/>¶ Utrum periurium sit grauius quoa 
+      ad<lb ed="#A" n="83" break="no"/>ulterium: Arguitur quod non. quia grauius est peccatum quod 
+      di<lb ed="#A" n="84" break="no"/>recte duabus virtutibus contrariatur quam illud quod vni tantum 
+      <lb ed="#A" n="85"/>Sed adulterium contrariatur castitati et iusticie: periuri 
+      <lb ed="#A" n="86"/>um vero latrie tantum. ergo adulterium est grauius periurio. 
+      <lb ed="#A" n="87"/>Respondet Richar. vbi supra. q. ii quod periurium est 
+      gra<lb ed="#A" n="88" break="no"/>ulus peccatum quam adulterium. quia persona contra quam 
+      <lb ed="#A" n="89"/>est iniuria quanto dignior est tato maior est iniuria. 
+      <lb ed="#A" n="90"/>Sed deus cui contrariatur homo periurando est 
+      digni<lb ed="#A" n="91" break="no"/>or quam proximus cui contrariatur adulterando
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e548">
+      ¶ Preterea 
+      <lb ed="#A" n="92"/>periurium corrumpit ordinem digniorem quam adulterium. quia 
+      <lb ed="#A" n="93"/>dignior est ille ordo qui debet esse ad deum quam ille qui 
+      <lb ed="#A" n="94"/>debet esse ad proximum. sed pecriurium corrumpit 
+      pri<lb ed="#A" n="95" break="no"/>mum: adulterium vero secudum.
+     </p>
+               <p xml:id="Vn7Pel-j85841-d1e559">
+      ¶ Ad 
+      argumen<lb ed="#A" n="96" break="no"/>tum dicendum Quod periurium non tantum contrariatur latrie 
+      <lb ed="#A" n="97"/>pirecte et immediate. sed etiam inquantum includit in 
+      <lb ed="#A" n="98"/>se mendacium contrariatur virtuti veritatis. de qua 
+      de<lb ed="#A" n="99" break="no"/>terminat philosophus. iiii. Ethicorum. Preterea latria 
+      di<lb ed="#A" n="100" break="no"/>gnior est virtus quam cardinalis iusticia. quia latria directe et 
+      <lb ed="#A" n="101"/>imediate ordinat hominem ad deum vt ad finem: 
+      iusti<lb ed="#A" n="102" break="no"/>cia ad proximum etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j85841-Dd1e578">
+               <head xml:id="Vn7Pel-j85841-Hd1e580">5</head>
+               <p xml:id="Vn7Pel-j85841-d1e582">
+                  <lb ed="#A" n="103"/>¶ Utrum periurium sit maius peccatum quo 
+      <lb ed="#A" n="104"/>furtum: Respondet Rich. vbi supra. q. iii quod sic. quia clariut 
+      <lb ed="#A" n="105"/>est adulterium esse maius peccatum quam furtum. 
+      Graui<lb ed="#A" n="106" break="no"/>us enim est homini iniuriari in vxore quam in exteriori 
+      pos<lb ed="#A" n="107" break="no"/>sessione. Sed ex quo pariurium est maius peccatum quam adulterium 
+      <lb ed="#A" n="108"/>consequens ergo est quod sit maius quam furtum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j85841-Dd1e599">
+               <head xml:id="Vn7Pel-j85841-Hd1e601">6</head>
+               <p xml:id="Vn7Pel-j85841-d1e603">
+                  <lb ed="#A" n="109"/>¶ Utrum peccet ille qui alium cogit 
+      <lb ed="#A" n="110"/>ad iurandum quem probabiliter credit periuraturum: Respondetur 
+      <lb ed="#A" n="111"/>secundum Rich. vbi supra art. iii. q. iii. cui concor. sanctus 
+      Bo<lb ed="#A" n="112" break="no"/>nauem. quod ille qui inducit alium ad iurandum: aut hoc 
+      fa<lb ed="#A" n="113" break="no"/>cit vt persona publica et secundum ordinem iuris. aut hoc facit 
+      <!--290.xml-->
+      <pb ed="#A" n="291"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>vt persona privata. Primo modo dicendum quod praecipiendo 
+      <lb ed="#A" n="2"/>alicui vt iuret licet credat iuraturum falsum non peccat 
+      <lb ed="#A" n="3"/>quia facit ad quod ex officio tenetur. Unde non tantum debet 
+      di<lb ed="#A" n="4" break="no"/>ci illum iurando compellere quam pars aduersa quae hoc a 
+      iudi<lb ed="#A" n="5" break="no"/>ce petit. Si autem inducens ad iurandum sit persona 
+      pri<lb ed="#A" n="6" break="no"/>uata et sine ordine iuris grauiter peccat. De quo 
+      vi<lb ed="#A" n="7" break="no"/>de supra Iuramentum. §. vl. et supra. Mendacium per totu. 
+      </p>
+               <p xml:id="Vn7Pel-j85841-d1e638">
+                  <lb ed="#A" n="8"/>¶ Ubi magna et manifesta 
+      appa<lb ed="#A" n="9" break="no"/>ret altissimi dei charitas erga nos 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

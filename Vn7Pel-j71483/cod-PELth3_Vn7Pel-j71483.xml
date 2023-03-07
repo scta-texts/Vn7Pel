@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Iuramentum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Iuramentum</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="241"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j71483">
+            <head xml:id="Vn7Pel-j71483-Hd1e110">Iuramentum</head>
+            <div xml:id="Vn7Pel-j71483-Dd1e112">
+               <head xml:id="Vn7Pel-j71483-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j71483-d1e116">
+                  <lb ed="#A" n="100"/>
+                  <lb ed="#A" n="101"/>Iuramentum primo 
+      <lb ed="#A" n="102"/>quantum ad eius prohibitionem. Nam deus 
+      altissi<lb ed="#A" n="103" break="no"/>mus ipsum prohibuit in secundo praecepto 
+      decalo<lb ed="#A" n="104" break="no"/>gi di. Non assumes nomen dei tui in vanu. Quod secundum 
+      <lb ed="#A" n="105"/>magistrum in. iii. di. xxxvii. est dicere secundum litteram: Non iurab. 
+      <lb ed="#A" n="106"/>pro nihilo per nomen dei
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e134">
+      ¶ Sed arguitur: quod magister ma 
+      <lb ed="#A" n="107"/>le exponat hoc secundum praeceptum prime tabule. quia 
+      <lb ed="#A" n="108"/>periurium pertinet ad quintum praeceptum secunde tabule. 
+      <lb ed="#A" n="109"/>vbi dicit Non loqueris falsum testimonium contra 
+      pro<lb ed="#A" n="110" break="no"/>ximum tuum. ergo videtur quod istud vel illud mandatum 
+      <lb ed="#A" n="111"/>sit superfluum. Item vanum secundum philosophum est quod non 
+      <lb ed="#A" n="112"/>includit finem ad quem est. Talis autem sermo 
+      oci<lb ed="#A" n="113" break="no"/>osus est ex quo nullus sequitur fructus. ergo videtur. 
+      <!--241.xml-->
+      <pb ed="#A" n="242"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod quicumque nominat deum in verbis ociosis: faciat 
+      con<lb ed="#A" n="2" break="no"/>tra hoc secundum praeceptum. ergo peccat mortaliter.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e163">
+      ¶ Si 
+      <lb ed="#A" n="3"/>tu dicas. quod no intelligitur de quacumque assumptione. 
+      <lb ed="#A" n="4"/>sed de assumptione in iuramento. tunc sequitur quod si iu 
+      <lb ed="#A" n="5"/>rat in communi sermone vbi non est necessitas vel 
+      vti<lb ed="#A" n="6" break="no"/>litas: facit contra hoc praeceptum. ergo peccat mortaliter. 
+      <lb ed="#A" n="7"/>Respondetur scudum scilicet Bonauen. in. iii. dis. xxxvii. in 
+      ex<lb ed="#A" n="8" break="no"/>positione litteralir. quod sicut per primum mandatum 
+      ordi<lb ed="#A" n="9" break="no"/>natur homo respectu summe maiestatis que appropiatur 
+      <lb ed="#A" n="10"/>patri. sic per secundum ordinatur respectu summe 
+      veri<lb ed="#A" n="11" break="no"/>tatis: que appropriatur filio. Ordinatio autem ista at 
+      <lb ed="#A" n="12"/>tenditur in ipsius veritatis confessione sine alicuius 
+      <lb ed="#A" n="13"/>falsitatis admixtione. ita quod nec de ipsa falsum 
+      cre<lb ed="#A" n="14" break="no"/>datur: nec ipsa ad confirmandum falsum assumatur. 
+      <lb ed="#A" n="15"/>Unde prohibetur in mandato isto secundo secundum litteralem 
+      <lb ed="#A" n="16"/>sensum falsitas iurationis per nomen dei. secundum spiritu 
+      <lb ed="#A" n="17"/>alem vero prohibetur falsitas erroris circa fidem veritatis 
+      <lb ed="#A" n="18"/>Ideo dicit Magister in littera. Allegorice vero praecipitur 
+      <lb ed="#A" n="19"/>vt non putes creaturam esse christum dei filium: sed 
+      equa<lb ed="#A" n="20" break="no"/>lem patri. quia omnis creatura vanitati subiecta qest 
+      </p>
+               <p xml:id="Vn7Pel-j71483-d1e205">
+                  <lb ed="#A" n="21"/>¶ Ad argumentum vero primum scilicet quod periurium est 
+      con<lb ed="#A" n="22" break="no"/>tra quintum praeceptum secunde tabule. Dicendum secundum eum. 
+      <lb ed="#A" n="23"/>an. Bonauen. quod duo est considerare in falso 
+      testi<lb ed="#A" n="24" break="no"/>monio. Unum quod fit iniuria summe veritati: que in 
+      <lb ed="#A" n="25"/>falsum testimonium inuocatur. Aliud quod fit iniuria 
+      proxi<lb ed="#A" n="26" break="no"/>mo qui ex falso testimonio damnificatur. et ratione 
+      prie<lb ed="#A" n="27" break="no"/>mi prohibetur hic in hoc secundo praecepto. ratione secundi in alio 
+      <lb ed="#A" n="28"/>praecepto.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e226">
+      ¶ Ad secundum dicendum quod aliquando est 
+      ali<lb ed="#A" n="29" break="no"/>quid vanum quantum est de se et de propria intentione. 
+      Ali<lb ed="#A" n="30" break="no"/>quando aliquid est vanum ex accidenti. tuc nomen dei sumitur 
+      <lb ed="#A" n="31"/>in vanum quando assumitur ad confirmationem falsi sermonis. 
+      <lb ed="#A" n="32"/>et qui hoc modo assumit peccat contra illud mandatum. Quando 
+      <lb ed="#A" n="33"/>vero assumitur ad confirmationem alicuius veri: quamuis 
+      ser<lb ed="#A" n="34" break="no"/>mo ille sit ociosus. tamen assumptio illa non est vsquequaque 
+      <lb ed="#A" n="35"/>in vanum. quia ordinatur ad hoc vt quis adhibeat fidem 
+      ver<lb ed="#A" n="36" break="no"/>bo loquentis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e247">
+               <head xml:id="Vn7Pel-j71483-Hd1e249">2</head>
+               <p xml:id="Vn7Pel-j71483-d1e251">
+                  <lb ed="#A" n="37"/>¶ Utrum obligatur homo per 
+      iuramen<lb ed="#A" n="38" break="no"/>tu dolosum: Et videtur quod sic. quia dicit Isido. et allegat 
+      <lb ed="#A" n="39"/>Magister in littera li. iii. di. xxxix. Quacumque arte verborum 
+      <lb ed="#A" n="40"/>quis iuret deus sic accipit sicut ille cui iuratur intelligit. ergo 
+      <lb ed="#A" n="41"/>qui iurando promittit aliquid licitum tenens in curde conrium: 
+      <lb ed="#A" n="42"/>quod est iurare dolose: obligatur ad implendum
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e267">
+      ¶ Sed contra dicit 
+      <lb ed="#A" n="43"/>sic bc. Greg. Uerba deseruiunt intentioni. et talia 
+      verba<lb ed="#A" n="44" break="no"/>iudicat qualia ex intimis proferuntur. ergo si homo non intendit se 
+      <lb ed="#A" n="45"/>obligare quantumcumque exterius loquaur. videtur quod deus non 
+      re<lb ed="#A" n="46" break="no"/>putet eum obligatum. et hoc etiam innuitur extra de 
+      iureiu<lb ed="#A" n="47" break="no"/>petitio. in gloi. Aliquis iurans alicui quod non stabit contra eum 
+      <lb ed="#A" n="48"/>nihilominus potest stare contra eum pro se vel pro patria vel communitate 
+      <lb ed="#A" n="49"/>ergo iurans non intendens seruare iuramentum non obligat. 
+      <lb ed="#A" n="50"/>seritr. secum scilicet Bona. et Rich. in. iii. di. xxxix. ar. ii. q. i. quod 
+      <lb ed="#A" n="51"/>qui dolose iurat proximo suo aliquid licitum se facturum vel non 
+      <lb ed="#A" n="52"/>facturum in foro iudicii obligatur ad faciendum vt 
+      iura<lb ed="#A" n="53" break="no"/>uit: si contra ipsum possit probari quod iurauerit. in foro autem 
+      <lb ed="#A" n="54"/>conscientie qui tantum deum respicit qui iudicare habet non tantum de 
+      exte<lb ed="#A" n="55" break="no"/>rioribus: sedetiam de interioribus non manet obligatus ad 
+      <lb ed="#A" n="56"/>faciendum: vt dicunt aliqui. deus plus ponderat intentionem quam 
+      <lb ed="#A" n="57"/>verba. mortaliter tamen peccat. quia priurat: iurando se factu¬ 
+      <!--241.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>rum quod facere non proponit. et cauere tenetur indenitati pro 
+      <lb ed="#A" n="59"/>ximi quem iurando dolose decepit. Aliis autem videtur quod 
+      <lb ed="#A" n="60"/>non tantum mortaliter peccat periurando: sed etiam obligatur 
+      <lb ed="#A" n="61"/>ad implendum. non tantun in foro iudiciali sed etiam in foro 
+      conscente<lb ed="#A" n="62" break="no"/>ne proximus ledatur qui iuramentum bona intentione recepit. 
+      <lb ed="#A" n="63"/>quamuis enim dolose iurans seobligare non intendat explicite. 
+      <lb ed="#A" n="64"/>intendit tamen se obligare inquantum intendit facere quod secundum re 
+      <lb ed="#A" n="65"/>ctam rationem tenetur obseuare vt caueatur indemnitati proximi 
+      </p>
+               <p xml:id="Vn7Pel-j71483-d1e324">
+                  <lb ed="#A" n="66"/>¶ Ad argumentum primum dicendum. quod qui vult tenere 
+      <lb ed="#A" n="67"/>primam opinionem potest dicere quod argumentum procedit quantum 
+      <lb ed="#A" n="68"/>ad forum exterioris iudicii. Qui vero vult tenere secundam 
+      <lb ed="#A" n="69"/>ppinionem quae est magis rationi consona potest dicere: quod plura 
+      re<lb ed="#A" n="70" break="no"/>quiruntur ad meritum quam quod homo obligetur. Actus enim exteriores 
+      <lb ed="#A" n="71"/>non sunt meritorii nisi per relationem ad actus interiores etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e341">
+               <head xml:id="Vn7Pel-j71483-Hd1e343">3</head>
+               <p xml:id="Vn7Pel-j71483-d1e345">
+                  <lb ed="#A" n="72"/>¶ Utrum iuramentum coactum sit 
+      obli<lb ed="#A" n="73" break="no"/>gatorium: Et videtur quod sic. quia omne iuramentum quod habet 
+      iudi<lb ed="#A" n="74" break="no"/>cium et iusticiam et veritatem est obligatorium. Sed iuramentum 
+      <lb ed="#A" n="75"/>obligatorium potest hec tria habere. ergo videtur quod sit 
+      obligato<lb ed="#A" n="76" break="no"/>rium
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e358">
+      ¶ In contrarium tamen dicitur ex de his quae vi metus ve 
+      caus<lb ed="#A" n="77" break="no"/>fiunt. quae metu et vi fiunt de iure dicunt in irritum ruocari. ergo 
+      <lb ed="#A" n="78"/>iuramentum coactum non est obligatorium. Respondetur secundum sanctum 
+      <lb ed="#A" n="79"/>Bona. vbi supra. q. ii cui concor. Rich. ibidem. Quod hoc 
+      du<lb ed="#A" n="80" break="no"/>plex est modus dicendi. Quidam enim dicunt: quod duplex sit 
+      <lb ed="#A" n="81"/>iuramentum. videlicet promissorium et assertorium. Respectu 
+      <lb ed="#A" n="82"/>iuramenti assertorii coactio non excusat a toto sed a 
+      <lb ed="#A" n="83"/>tanto. Siquis ei coactus iurat et asserit falsum esse verum 
+      <lb ed="#A" n="84"/>incurrit crimem periurii. In iuramento vero promissorio 
+      <lb ed="#A" n="85"/>coactio quae surgit ex metum quae potest cadere in constantem virum a 
+      <lb ed="#A" n="86"/>toto excusat. quia coactio sufficiens interuenit ad 
+      incli<lb ed="#A" n="87" break="no"/>nandum virum etiam constantem. ideo voluntas illa non est 
+      iudican<lb ed="#A" n="88" break="no"/>da voluntas: et per conseques nec iuramentum vere est 
+      obliga<lb ed="#A" n="89" break="no"/>torium vt dicunt. Sed quia Aug. videtur iudicare tale 
+      iu<lb ed="#A" n="90" break="no"/>ramentum obligatorium: ideo est alius modus dicendi vt 
+      distin<lb ed="#A" n="91" break="no"/>guatur duplex forum. videlicet ecclesiasticum et diuinum. ita quod 
+      <lb ed="#A" n="92"/>obligatio iuramenti coacti contrario modo se habet obligatio ni 
+      <lb ed="#A" n="93"/>iuramenti dolosi. Nam in foro ecclesie iuramentum 
+      coa<lb ed="#A" n="94" break="no"/>ctum non est obligatorium. Tum quia praesumitur quod iurans non 
+      <lb ed="#A" n="95"/>pabuit anim se obligandi. Tum quia ille qui iurare 
+      com<lb ed="#A" n="96" break="no"/>pulit eum maliciose processit. nullum ius adquisiuit. ideo 
+      <lb ed="#A" n="97"/>non habet ius repetendi. In foro aut diuino iuramentum 
+      <lb ed="#A" n="98"/>coactum obligatorium est. quia cum deus aspiciat voluntatem et 
+      <lb ed="#A" n="99"/>voluntas non possit cogi coactione sufficienti. et ita 
+      vo<lb ed="#A" n="100" break="no"/>luentas coacta voluntas fit: iudicat deus talem hominem 
+      <lb ed="#A" n="101"/>obligari. Ideo in foro conscientie secundum theologos nisi relata 
+      <lb ed="#A" n="102"/>tio interueniat iuramentum est implendum. si iuramentum fuit 
+      <lb ed="#A" n="103"/>respectu rei licite. Ex his patet solutio argumenti 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e420">
+               <head xml:id="Vn7Pel-j71483-Hd1e422">4</head>
+               <p xml:id="Vn7Pel-j71483-d1e424">
+                  <lb ed="#A" n="104"/>¶ Utrum iuramentum incautum sit 
+      obli<lb ed="#A" n="105" break="no"/>gatorium. Respondetur secur scilicet Bona. et Rich. vbi supra. q. iii quod 
+      <lb ed="#A" n="106"/>multipliciter contingit iuramentum esse icautum
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e433">
+      ¶ Primo quando 
+      iu<lb ed="#A" n="107" break="no"/>ratur aliquid quod virgit in salutis detrimentum. sicut cum iuratur 
+      <lb ed="#A" n="108"/>quod sine mortali peccato non potest conseruari. vt occidere 
+      ho<lb ed="#A" n="109" break="no"/>minem et huiusmodi Secundo modo cum quis iurat aliquid quod 
+      vir<lb ed="#A" n="110" break="no"/>git in perfectionis sue impedimentum. vt numquam intraturum 
+      reli<lb ed="#A" n="111" break="no"/>gionem Tertio dicitur iuramentum incautum quo quis iurat in omne 
+      <lb ed="#A" n="112"/>euentum quod vno casu contigente virgit in salutis dispendium. 
+      <lb ed="#A" n="113"/>alio casu in salutis profectum. sicut cum quis iurat numnquam 
+      susce<lb ed="#A" n="114" break="no"/>pturum praelaturam. qui aliquando potest esse in salutis dispendium. si
+      <!--242.xml-->
+          <pb ed="#A" n="243"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>inutilis se ingerat. vel profectum: si sit vtilis et canonice 
+          <lb ed="#A" n="2"/>instituatur. Si ergo loquamur de iuramento incauto 
+      pri<lb ed="#A" n="3" break="no"/>mo modo: sic absque dubio non est licitum. Si vero 
+      loqua<lb ed="#A" n="4" break="no"/>mur de iuramento incauto secundo modo: nec sic est licitum 
+          <lb ed="#A" n="5"/>nec obligatorium. licet ipsum obseuare non sit peccatum. quia in 
+          <lb ed="#A" n="6"/>est peccatum non intrare religionem. graue tantum peccatum est iurari 
+          <lb ed="#A" n="7"/>numquam ascensurum ad gradum perfectionis. quia in hoc quodammodo 
+          <lb ed="#A" n="8"/>impugnat spiritus sancti inspirationi. Si vero loquamur de il 
+          <lb ed="#A" n="9"/>ramento tertio modo: sic vno casu contingente est 
+      obseuan<lb ed="#A" n="10" break="no"/>dum. Unde secundum frem Ange. de Claua ci in sua summa. titur. 
+          <lb ed="#A" n="11"/>Iuramentum. v. Iuramentum non est obseuandum cuius 
+          <lb ed="#A" n="12"/>obseruatio includit peccatum etiam veniale. vel iurare est 
+          <lb ed="#A" n="13"/>consilia euangelica. vt quod non efficietur piscopus vel religiosus 
+          <lb ed="#A" n="14"/>Uel fit contra pietatem. vt non facere elemosynam. Uel 
+          <lb ed="#A" n="15"/>quod est indifferens: tamen melius esset facere contrarium. sicut iurare 
+          <lb ed="#A" n="16"/>aliquem non tenere in suo seruitio. Uel quando iuramentum cset 
+          <lb ed="#A" n="17"/>contra bonum. vt se ab onere communitatis subtrahere. vel quod 
+          <lb ed="#A" n="18"/>iurauit virgeret in nocumentum salutis proprie vel alterius 
+          <lb ed="#A" n="19"/>corporalis. Similiter iuramentum non obligat ratione 
+      superue<lb ed="#A" n="20" break="no"/>nientis magne necessitatis vel impossibilita tis. quia 
+      impossi<lb ed="#A" n="21" break="no"/>bilium nulla est obligatio. nec etiam obligat quando 
+      iura<lb ed="#A" n="22" break="no"/>mentum in melius commutatur. Similiter iuramentum non 
+      obli<lb ed="#A" n="23" break="no"/>gat quando obligatur potestati alterius. sicut seruus: vxor: vel 
+      mo<lb ed="#A" n="24" break="no"/>nachus. Nec obligat iuramentum conditionale quando 
+      no<lb ed="#A" n="25" break="no"/>stat conditio. Nec obligat quando quis iurat incaute. et propter 
+          <lb ed="#A" n="26"/>aliquam necessitatem non valermt implere. Et in similibus idem 
+      iu<lb ed="#A" n="27" break="no"/>dicium est habendum. et concordat cum voto.
+    </p>
+               <p xml:id="Vn7Pel-j71483-d1e518">
+                  <lb ed="#A" n="28"/>¶ Ubi magna imminet diuine 
+      bo<lb ed="#A" n="29" break="no"/>nitatis charitas erga homines.
+        </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e527">
+               <head xml:id="Vn7Pel-j71483-Hd1e529">5 (2.1)</head>
+               <p xml:id="Vn7Pel-j71483-d1e531">
+                  <lb ed="#A" n="30"/>Iuramentum secum 
+          <lb ed="#A" n="31"/>do. quantum ad ipsius conuenientam scilicet an 
+      expe<lb ed="#A" n="32" break="no"/>diat homini iurare vel adiurare: Unde quaeritur 
+          <lb ed="#A" n="33"/>vtrum liceat creaturas adiurare: Respondet Rich. i. ii 
+          <lb ed="#A" n="34"/>di. xxxvii. ar. ii q. ii Quod adiurare creaturam est per inuc 
+          <lb ed="#A" n="35"/>tationem diuini nominis vel alicuius rei sacre obsecrando 
+          <lb ed="#A" n="36"/>vel imperando eam inclinare ad aliquid agendum vel 
+      pati<lb ed="#A" n="37" break="no"/>endum. Potest autem adiuratio esse respectu hominum vel 
+      de<lb ed="#A" n="38" break="no"/>monum vel creaturarum aliarum irrationalium. Si 
+      respe<lb ed="#A" n="39" break="no"/>ctu hominum: tunc adiurans aut intendit eos inclinare ad 
+          <lb ed="#A" n="40"/>bonum aut ad malum. Si ad bonum intendit inducere 
+          <lb ed="#A" n="41"/>sic licet. sicut apostolus Rho. xii. Obsecro vos frens per 
+          <lb ed="#A" n="42"/>misercordsam dei vt exhibeatis corpora vra hostiam 
+      viuen<lb ed="#A" n="43" break="no"/>tem etc. Si adiurans intendit ad bonum inclinare 
+      praeci<lb ed="#A" n="44" break="no"/>piendo: sic subdistinguendum est. quia aut adiurat illum 
+          <lb ed="#A" n="45"/>i sibi tenetur obedire. et sic non assumit nomen dei in 
+          <lb ed="#A" n="46"/>vanum. Aut illum in quem non habet potestatem: et sic assumit 
+          <lb ed="#A" n="47"/>nomen dei in vanum. quia vsurpat potestatem quam non habet. 
+          <lb ed="#A" n="48"/>Si autem adiurans intendit adiuratum ad malum inclina 
+          <lb ed="#A" n="49"/>re. sic nomen dei assumit in vanum. Si autem est 
+      adiura<lb ed="#A" n="50" break="no"/>tio respectu demonum. aut adiurans eos adiurat 
+      im<lb ed="#A" n="51" break="no"/>perando: aut obsecrando Si primo. aut adiurat ideo vt 
+          <lb ed="#A" n="52"/>ipsum doceant: aut sibi aliquod obsequium faciant. hoc est 
+      il<lb ed="#A" n="53" break="no"/>licitum. quia hoc pertinet ad quandam familiaritatem cum eis. 
+      Li<lb ed="#A" n="54" break="no"/>citum tamen est cum sancti quandoque scilicet ex speciali spiritus sancnti instinctu 
+          <lb ed="#A" n="55"/>vtuntur ministerio demonum ad aliquem effectum. Aut 
+          <!--242.xml-->
+          <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>eos adiurant vt a se vel a proximis repellant. et hoc est 
+      lici<lb ed="#A" n="57" break="no"/>tum. Adiurare autem eos obsecrando semper est illicitum. quia talis 
+          <lb ed="#A" n="58"/>adiuratio quoddam signum societatis importat. Si autem en 
+          <lb ed="#A" n="59"/>adiuratio respectu creaturarum irrationalium tunc aut 
+      ad<lb ed="#A" n="60" break="no"/>iurantur secundum se et absolute. Et qui sic adiurat nomen dei 
+          <lb ed="#A" n="61"/>in vanum recipit. quia tales creature non intelligunt 
+      adiu<lb ed="#A" n="62" break="no"/>rationem. Aut adiurantur in relatione ad alium. Et hoc 
+      du<lb ed="#A" n="63" break="no"/>pliciter. quia autm in relationem ad deum. vt cum aliqui sancti ad 
+      in<lb ed="#A" n="64" break="no"/>fidelium conuersionem et infirmorum in fide confirmationem in 
+          <lb ed="#A" n="65"/>uocant nomen domini ad hoc vt per ipsius virtutem ipse creature 
+          <lb ed="#A" n="66"/>irrationales aliquo motu moueantur. qui non est per earum 
+      vir<lb ed="#A" n="67" break="no"/>tutem naturalem: aut in relationem ad diabolum: ad hoc vt 
+          <lb ed="#A" n="68"/>diabolus ab eis repellatur. nec eis vtatur vt instrumentis 
+          <lb ed="#A" n="69"/>ad nocendum. et sic adiurantur creature irrationales in ex 
+          <lb ed="#A" n="70"/>orcismis ecclesie. Et istis duobus vltimis modis non 
+          <lb ed="#A" n="71"/>assumitur nomen dei in vanum.
+        </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e630">
+               <head xml:id="Vn7Pel-j71483-Hd1e632">6 (2.2)</head>
+               <p xml:id="Vn7Pel-j71483-d1e634">
+                  <lb ed="#A" n="72"/>¶ Utrum licitum sit iurare per deum 
+      Re<lb ed="#A" n="73" break="no"/>spondetur secundum sanctum Bona. et Rich. i. iii. di. xxxix. ar. ii 
+          <lb ed="#A" n="74"/>q. i. quod aliqui heretici sicut Manichei voluerit dicere 
+          <lb ed="#A" n="75"/>quod iurare omnino sit illicitum. occasionem erroris sumentes 
+          <lb ed="#A" n="76"/>ex verbis domini Mat. v. vbi dicitur: Nolite iurare omnino. 
+          <lb ed="#A" n="77"/>Et Iac. v. Ande omnia frens mei nolite iurare Sed istorum 
+          <lb ed="#A" n="78"/>errorem reprhendit di. Redde domino iuramenta tua. Et 
+          <lb ed="#A" n="79"/>Gen. xxii. Per memetipsum iuraui dicit dominus. Et isto 
+          <lb ed="#A" n="80"/>rum error venit ex hoc: quia nescieruit intelligere quod alium 
+      sen<lb ed="#A" n="81" break="no"/>sum facit negatio praeposita signo veli: et alium 
+      postpo<lb ed="#A" n="82" break="no"/>sita. quia praeposita equipollet suo condictorio postposita 
+          <lb ed="#A" n="83"/>vero suo conrio. Unde non omnis valet quidam non. omnis non valetur 
+          <lb ed="#A" n="84"/>nullus. Dominus autem non dixit omnino non iurare. quia esset sensus 
+          <lb ed="#A" n="85"/>quod in nullo casu esset iurandum. quod est falsum. sed dixit non 
+      iu<lb ed="#A" n="86" break="no"/>rare omnino. Et ideo non est sensus quod in nullo casu esset iuram 
+          <lb ed="#A" n="87"/>dum: sed quandocumque deest necessitas. Namn ideo concedendum est 
+          <lb ed="#A" n="88"/>quod licitum est iurare per deum. Quia tamen non sic et licitum 
+      quin<lb ed="#A" n="89" break="no"/>aliquo modo possit esse illicitum. Dubium est inter doctores 
+          <lb ed="#A" n="90"/>itrum iurare per deum dicat actum bonum ingenere: autm actum 
+          <lb ed="#A" n="91"/>sdifferentem. Et aliquibus visum fuit quod iurare per deum sit 
+          <lb ed="#A" n="92"/>actus bonus si genere. ratione tamen pronitatis ipsius iurantis 
+      ma<lb ed="#A" n="93" break="no"/>lus est per occasionem. Dicunt autem illum actum bonum in gene 
+          <lb ed="#A" n="94"/>quia transit per materiam debitam. quia inuocare deum in 
+      testi<lb ed="#A" n="95" break="no"/>monium recte transit per ipsam veritatem. Aliis autem videtur 
+          <lb ed="#A" n="96"/>quod iurare per deum sit indifferens. quia diuina veritas potest in 
+          <lb ed="#A" n="97"/>uocari in testimonium veritatis vel falsitatis. et vnum est 
+          <lb ed="#A" n="98"/>bonum et alterum malum. quia in vno deo fit reuerentia: in 
+          <lb ed="#A" n="99"/>altero iniuria. Unde nota quod quidam actus sunt qui pertinent ad 
+          <lb ed="#A" n="100"/>diuinum cultum. vt laudare vel diligere deum. et isti sunt 
+          <lb ed="#A" n="101"/>per se et secundum se boni. Quidam vero sunt ad oppositum. et 
+          <lb ed="#A" n="102"/>isti per se sunt mali. sicut odire vel blasphemare deum 
+          <lb ed="#A" n="103"/>Quidam sunt medio modo: sicut actus iurandi. qui si fiat 
+          <lb ed="#A" n="104"/>reuerenter est ad cultum dei. si fiat irreuerenter: fit ad 
+      op<lb ed="#A" n="105" break="no"/>positum. Ideo dicunt quod iurare per deum licitum est. sicut 
+          <lb ed="#A" n="106"/>indifferens quod potest fieri bene et male. Et quia iurare per 
+          <lb ed="#A" n="107"/>deum potest esse occasio cadendi in malum vel vitandi malum. 
+          <lb ed="#A" n="108"/>ideo dominus aliquando monet et inducit homines ad iurandum 
+          <lb ed="#A" n="109"/>per deum: aliquando retra hit. Retrahit quidem male iurare 
+          <lb ed="#A" n="110"/>et inducit ad bene iurare per deum. Unde Augustinus de menda 
+          <lb ed="#A" n="111"/>cio tractans illud Matth. v. Non iurare omnino. hoc 
+          <lb ed="#A" n="112"/>ideo dictum et scilicet ne iurando ad facilitatem iurandi veniatur. 
+      <!--243.xml-->
+      <pb ed="#A" n="244"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>et ex facilitate ad consuetudinem: et ex consuetudine in 
+      periu<lb ed="#A" n="2" break="no"/>rium decidatur. secundum quod dicitur Eccli. xxxiii. Uir multum 
+      <lb ed="#A" n="3"/>iurans replebitur iniquitate
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e738">
+      ¶ Sed diceres: Quare 
+      <lb ed="#A" n="4"/>ergo dicit dominus in euangelio. Sit secundo vester est est: non non 
+      <lb ed="#A" n="5"/>Responsio. quia affirmatio vels negatio quae est in corde esse di 
+      <lb ed="#A" n="6"/>in ore. Sed quia hominum malicia crescente non creditur simus 
+      <lb ed="#A" n="7"/>plici assertioni. ideo adiunxit. Quod amplius est a malo est. 
+      <lb ed="#A" n="8"/>non scilicet culpe: sed pene. non iurantium: sed iuramentum ex 
+      <lb ed="#A" n="9"/>igentium. nam incredulitas huiusmodi magis est pena quae 
+      <lb ed="#A" n="10"/>culpa. Unde non dicit malum: sed a malo.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e756">
+      ¶ Sed 
+      di<lb ed="#A" n="11" break="no"/>teres. Frustra est iurare per deum: eo quod fibs apparet 
+      <lb ed="#A" n="12"/>quod deus pro ipso iurante testificetur. Respondetur secundum Rich. i. iii 
+      <lb ed="#A" n="13"/>di. xxxix. ar. i. q. i. Quod si deus debito modo inuocetur ma 
+      <lb ed="#A" n="14"/>nifestat vt sit quod dicitur verum aliquando in vita ista: vel 
+      mo<lb ed="#A" n="15" break="no"/>uendo corda iudicis et aduerse partis per aliquam 
+      laten<lb ed="#A" n="16" break="no"/>tem inspirationem qua creditur iuranti vel dando constantiam 
+      <lb ed="#A" n="17"/>cordi et verbo iurantis. quae quandam probabilitatem aggene. 
+      <lb ed="#A" n="18"/>rat quod iuret verum vel puniendo mentientem. Et tunc siml est 
+      <lb ed="#A" n="19"/>testis et iudex. Et si in hac vita deus non testificabitur: 
+      <lb ed="#A" n="20"/>tamen profecto testificabitur in futuro quando illuminabit 
+      <lb ed="#A" n="21"/>abscondita cordium 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e783">
+               <head xml:id="Vn7Pel-j71483-Hd1e785">7 (2.3)</head>
+               <p xml:id="Vn7Pel-j71483-d1e787">
+                  <lb ed="#A" n="22"/>¶ Utrum iuramentum per deum sit 
+      appe<lb ed="#A" n="23" break="no"/>tendum: Respondetur secundum Astexa. in sua summa libr i. tit. xviii. 
+      <lb ed="#A" n="24"/>quod non. quia illud quod non quaeritur propter se sed ad subuenie 
+      <lb ed="#A" n="25"/>dum alicui defectui non numeratur inter illa quae sunt per se 
+      <lb ed="#A" n="26"/>appetenda: sed inter ea quae sunt necessaria. sicut medici 
+      <lb ed="#A" n="27"/>na quae quaeritur ad subueniendum infirmitati. iuramentur 
+      <lb ed="#A" n="28"/>autem quaeritur ad subueniendum illius defectui qui discredit 
+      <lb ed="#A" n="29"/>Ideo Iac. v. dicitur. Nolite iurare. ostendens non tantum esse 
+      vi<lb ed="#A" n="30" break="no"/>tandum actum iurationis: sed etiam affectum.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e809">
+      ¶ Queritur. quo 
+      <lb ed="#A" n="31"/>requiruntur ad verum iuramentum: Respondetur secundum Rich. 
+      <lb ed="#A" n="32"/>vbi supra quod tria scilicet Iudicium in discrctione quo excluditur 
+      in<lb ed="#A" n="33" break="no"/>cautela iurandi. Ueritas in assertione. Iusticia sin ex 
+      <lb ed="#A" n="34"/>ecutione. secundum quod dicitur Hiere. iiii. Iurabis viuit dominus. 
+      <lb ed="#A" n="35"/>in veritate et in iudicio et in iusticia. Cuius ratio secundum 
+      Bo<lb ed="#A" n="36" break="no"/>nauen. est circa litteram. quia iuramentum comparatur ad tria. 
+      <lb ed="#A" n="37"/>scilicet ad rem de qua fit. et sic debetur veritas: quae est adequa 
+      <lb ed="#A" n="38"/>tio rei ad secumnonem. Secundo comparatur ad illum a quo 
+      pro<lb ed="#A" n="39" break="no"/>cedit. et sic debetur iudicium scilicet discretionis. Tertio 
+      com<lb ed="#A" n="40" break="no"/>paratur ad causam pro qua fit. et sic dehetur iusticia. vt scilicet 
+      <lb ed="#A" n="41"/>causa sit iusta¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e836">
+               <head xml:id="Vn7Pel-j71483-Hd1e838">8 (2.4)</head>
+               <p xml:id="Vn7Pel-j71483-d1e840">
+                  <lb ed="#A" n="42"/>¶ Utrum iurans sine iudicio 
+      discre<lb ed="#A" n="43" break="no"/>tionis peccet mortaliter sicut faciunt illi qui quasi in 
+      quol<lb ed="#A" n="44" break="no"/>bet verbo iurant: Respondetur vbi supra. Quod cum 
+      iuramentum<lb ed="#A" n="45" break="no"/>hibeatur. non quia sit malum sed propter periculum periurii. Ideo 
+      <lb ed="#A" n="46"/>si talis iurat falsum non excusatur a mortali. Si vero 
+      <lb ed="#A" n="47"/>turat verum: sic non erit mortale peccatum. veruntie tenetur 
+      <lb ed="#A" n="48"/>abstinere sicut a mortali propter periculum. quia dicitur 
+      Ecclei<lb ed="#A" n="49" break="no"/>xxxiii. Uir multum iurans etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e861">
+               <head xml:id="Vn7Pel-j71483-Hd1e863">9 (2.5)</head>
+               <p xml:id="Vn7Pel-j71483-d1e865">
+                  <lb ed="#A" n="50"/>¶ Utrum liceat iurare per aliquam 
+      cre<lb ed="#A" n="51" break="no"/>aturam: Reo quod non. videtur per dictum saluatoris 
+      <lb ed="#A" n="52"/>Mat. v. Nolite iurare neque per celum. quia thronus dei est 
+      <lb ed="#A" n="53"/>Neque per terram: quia scabellum pedum eius est. neque per hieruslum 
+      <lb ed="#A" n="54"/>quia ciuitas estmagni regis. neque per caput tuum. quia non 
+      <lb ed="#A" n="55"/>potes vnum capillum tuum facere album vel nigrum. ergo 
+      per<lb ed="#A" n="56" break="no"/>creaturam iurare est illicitum.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e883">
+      ¶ In contrarium tamen fi¬ 
+      <!--243.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>deles iurant per sancta dei euangelia. ac per dei sacons communiter 
+      <lb ed="#A" n="58"/>Respondetur secundum sanctum Bona. in. iii. di. xxxix. ar. ii q. ii quod 
+      <lb ed="#A" n="59"/>iuramentum dupliciter habet fieri. Quoddam per 
+      impre<lb ed="#A" n="60" break="no"/>cationem. vt cum dicitur: ita viuat filius meus. et sic creatura 
+      <lb ed="#A" n="61"/>ad testificandum non inuocatur: sed potius ipsi creator 
+      <lb ed="#A" n="62"/>oppigneratur. quia licet omnis creatura sit creatoris: tamen eius 
+      so<lb ed="#A" n="63" break="no"/>lacium est nobis concessum. Hoc tanten genus iuramenti 
+      gra<lb ed="#A" n="64" break="no"/>uissimum est. Aliud iuramentum potest fieri per veritatis 
+      te<lb ed="#A" n="65" break="no"/>stimonium et inuocationem. vt cum quis iuret per aliquem 
+      <lb ed="#A" n="66"/>ad inuocandum eum in testem. Potest autem creatura in 
+      testi<lb ed="#A" n="67" break="no"/>dupliciter inuocari. Uno modo secundum se. et hoc non licet. quia sic 
+      <lb ed="#A" n="68"/>crederetur quod aliquid numinis esset in ea: ratione cuius 
+      veri<lb ed="#A" n="69" break="no"/>tas possit dici. et per huiusmodi testimonium confirmari. Et 
+      <lb ed="#A" n="70"/>sic dicitur Mat. v. Nolite iurare: nec per caelum etc.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e920">
+      ¶ 
+      Se<lb ed="#A" n="71" break="no"/>cundo vero modo inquantum in ea relucet vestigium diuine ve 
+      <lb ed="#A" n="72"/>ritatis licitum est iurare per creaturam. quia hoc modo non est aliud 
+      <lb ed="#A" n="73"/>per creaturam iurare: quam iurare per eum qui in ea relucet. et 
+      <lb ed="#A" n="74"/>sic non veneratur creatura sed creator. Prohibuit tamten 
+      <lb ed="#A" n="75"/>dominus iurare per caelum secundum se consideratum. Et per hoc patet 
+      raspon<lb ed="#A" n="76" break="no"/>sio ad argumentum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j71483-Dd1e937">
+               <head xml:id="Vn7Pel-j71483-Hd1e939">10 (2.6)</head>
+               <p xml:id="Vn7Pel-j71483-d1e941">
+                  <lb ed="#A" n="77"/>¶ Utrum liceat recipere iuramentum 
+      <lb ed="#A" n="78"/>ab idolatris factum: Respondetur secundum sanctum Bona. vbi supra 
+      <lb ed="#A" n="79"/>q. iii. Quod contingit idolatram iurare in forma concessa et 
+      <lb ed="#A" n="80"/>in forma prohibita si iurat.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e952">
+      ¶ Primo modo non 
+      iu<lb ed="#A" n="81" break="no"/>rat sicut idolatra. et sic licet ab eo recipere 
+      iuramen<lb ed="#A" n="82" break="no"/>tu in aliquo casu et in aliquo non. Aut enim ille qui exigit est 
+      <lb ed="#A" n="83"/>persona publica aut priuata. Si publica: quantum est ex 
+      <lb ed="#A" n="84"/>ordine iuris potest et debet vt iudex exigere. Si priua 
+      <lb ed="#A" n="85"/>ta: aut exigit ad veritatis confirmationem: autem ad veritatis 
+      <lb ed="#A" n="86"/>subuersionem: aut ad sue dubitationis remotionem. 
+      <lb ed="#A" n="87"/>Primo modo potest recipere sine peccato vt sit firmior 
+      as<lb ed="#A" n="88" break="no"/>sertio. sicut Gen. xxxi. Iacob recepit iuramentum qa 
+      <lb ed="#A" n="89"/>Laban idolatra
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e974">
+      ¶ Secundo modo non potest esse sine peccato 
+      <lb ed="#A" n="90"/>mortali. vt cum cogit alium iurare quem scit iurare 
+      fal<lb ed="#A" n="91" break="no"/>sum.
+     </p>
+               <p xml:id="Vn7Pel-j71483-d1e981">
+      ¶ Tertio suspicatur ne homo sine iuramento dicat 
+      <lb ed="#A" n="92"/>sibi falsitatem. tunc si suspicio illa sistat in generali 
+      <lb ed="#A" n="93"/>talis exactio tenet potius rationem pene quam culpe. Unde quam 
+      <lb ed="#A" n="94"/>uis illicitum sit per idolum iurare: quia forma illa est prohibi 
+      <lb ed="#A" n="95"/>ta tamen vbi est necessitas vel cogit vtilitas licitum est 
+      re<lb ed="#A" n="96" break="no"/>cipere iuramentum. sicut Iudas machabeus arhoma 
+      <lb ed="#A" n="97"/>nis recepit licite etc.
+    </p>
+               <p xml:id="Vn7Pel-j71483-d1e998">
+                  <lb ed="#A" n="98"/>In hoc magna dei relucet erga 
+      <lb ed="#A" n="99"/>nos charitas dando iusticiam 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

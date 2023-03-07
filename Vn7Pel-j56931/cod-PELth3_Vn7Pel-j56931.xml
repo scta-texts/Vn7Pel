@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Filiatio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Filiatio</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="193"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j56931">
+            <head xml:id="Vn7Pel-j56931-Hd1e110">Filiatio</head>
+            <div xml:id="Vn7Pel-j56931-Dd1e112">
+               <head xml:id="Vn7Pel-j56931-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j56931-d1e116">
+      <!--193.xml-->
+                  <pb ed="#A" n="194"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Iliatio In qua 
+      <lb ed="#A" n="2"/>claret magna circa nos dei charitas 
+      <lb ed="#A" n="3"/>qua (vt dicit Hilarius lib. iii. de 
+      tri<lb ed="#A" n="4" break="no"/>nita. nos sumus filii dci. sed non talis qualis hic 
+      <lb ed="#A" n="5"/>est filius meus dilectus. Hic enim verus et proprius 
+      <lb ed="#A" n="6"/>est filius origine non adoptione. veritate non nucupa 
+      <lb ed="#A" n="7"/>tione. natiuitate non creatione.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e140">
+      ¶ Sed conrra 
+      pre<lb ed="#A" n="8" break="no"/>dicta obiicitur multipliciter.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e145">
+      ¶ Arguitur enim sic. Uidetur 
+      <lb ed="#A" n="9"/>quod sit superfluitas in dictis Hilarii. quia omnis 
+      fili<lb ed="#A" n="10" break="no"/>atio: aut est naturalis aut gratuita. ergo per originem 
+      <lb ed="#A" n="11"/>et adoptionem. ergo superfluunt alia membra
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e154">
+      ¶ Item queritur 
+      <lb ed="#A" n="12"/>Quid est quod dicitur filius numcupatione: aut enim 
+      ve<lb ed="#A" n="13" break="no"/>ra est numncupatio: aut falsa. Si vera. ergo vel per ad 
+      <lb ed="#A" n="14"/>optionem: vel per generationem. Si falsa. ergo non debet in 
+      <lb ed="#A" n="15"/>ter membra praedicta poni. Item si ob creationem dicuntur 
+      <lb ed="#A" n="16"/>filii. cum ergo asini sint a deo creati: erunt etiam filii deci 
+      <lb ed="#A" n="17"/>quod absurdum est. Respondetur secundum san. Bonauen. 
+      <lb ed="#A" n="18"/>in. iii. dis. x. in expositione litterali. Quod in primis 
+      ver<lb ed="#A" n="19" break="no"/>bis Hilarius innuit nobis quattuor filiationis 
+      diffe<lb ed="#A" n="20" break="no"/>rentias. quarum sufficientia haberi potest sic
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e177">
+      ¶ Ille et 
+      <lb ed="#A" n="21"/>dicitur filius alicuius qui ab ipso est et ei conformatur. 
+      <lb ed="#A" n="22"/>hoc autem potest esse dupliciter: Aut emanatione 
+      natura<lb ed="#A" n="23" break="no"/>li et vnitate essentie. et sic vnigenitus patris quem 
+      <lb ed="#A" n="24"/>dicit esse Hilarius filium Origine contra Fotinum. 
+      <lb ed="#A" n="25"/>Ueritate contra Sabellium. Natiuitate contra 
+      Arri<lb ed="#A" n="26" break="no"/>um. Aut potest esse ab alio in diuersitate substantie 
+      <lb ed="#A" n="27"/>Et hoc potest esse tripliciter secundum triplicem modum 
+      con<lb ed="#A" n="28" break="no"/>formitatis. Aut enim conformatur quantum ad rationem 
+      <lb ed="#A" n="29"/>imaginis naturalis. et sic est filius creatione. Aut 
+      <lb ed="#A" n="30"/>quantum ad rationem imaginis et similitudinis: que 
+      <lb ed="#A" n="31"/>attenditur in donis gratuitis. et sic est filius per ad 
+      <lb ed="#A" n="32"/>optionem. Ant conformatur in natura imaginis: sed 
+      <lb ed="#A" n="33"/>discordat per deordinationem voluntatis. sicut homo 
+      <lb ed="#A" n="34"/>peccator. et sic est filius numncupatione.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e210">
+      ¶ Ad arguutum 
+      <lb ed="#A" n="35"/>mentum igitur primum dicendum. Falsum est quod omnis 
+      fi<lb ed="#A" n="36" break="no"/>lius aut est per naturam aut per gratiam: nisi extendatur 
+      <lb ed="#A" n="37"/>nomen nature et gratie ad illud quod est ex mera dei 
+      <lb ed="#A" n="38"/>beniuolentia: et ad illud quod habet quis ab origine. 
+      </p>
+               <p xml:id="Vn7Pel-j56931-d1e221">
+                  <lb ed="#A" n="39"/>¶ Ad quesitum dicendum de filiatione per numncupatio 
+      <lb ed="#A" n="40"/>nem. quod ista numncupatio quod ammodo habet veritatem 
+      <lb ed="#A" n="41"/>filiationis: quodammodo non. quia quodammodo est 
+      fili<lb ed="#A" n="42" break="no"/>us: quod ammodo aduersarius. sicut Luc. xvi. Abraam 
+      <lb ed="#A" n="43"/>dixit epuloni Fili recordare. quia etc
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e234">
+      ¶ Ad illud quod si 
+      <lb ed="#A" n="44"/>pater est per creationem: debet dici pater bestiarum. 
+      Di<lb ed="#A" n="45" break="no"/>cendum quod non sequitur. quia non quecumque creatio facit 
+      ali<lb ed="#A" n="46" break="no"/>quem dici filium. sed creatio illa in qua confertur 
+      insigne<lb ed="#A" n="47" break="no"/>diuine imaginis per quam configuratur homo deo: et 
+      <lb ed="#A" n="48"/>idoneus efficitur ad hoc quod sit filius dei. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e248">
+               <head xml:id="Vn7Pel-j56931-Hd1e250">2</head>
+               <p xml:id="Vn7Pel-j56931-d1e252">
+                  <lb ed="#A" n="49"/>¶ Queritur quid est filiatio. 
+      Respon<lb ed="#A" n="50" break="no"/>detur secundum Scotum in. iii. di. viii. quod filiatio est 
+      habitu<lb ed="#A" n="51" break="no"/>do producti naturaliter: similis producenti in natura 
+      <lb ed="#A" n="52"/>sensitiua vel intellectuali. Ubi secundum Guill. quattuor 
+      <lb ed="#A" n="53"/>tangit
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e265">
+      ¶ Primo genus filiationis: cum dicit: Habi 
+      <lb ed="#A" n="54"/>tudo. Ex quo patet. quod filiatio est relatio: et est in 
+      prae<lb ed="#A" n="55" break="no"/>dicamento ad aliquid. nisi abstrahat vel sit 
+      tran<lb ed="#A" n="56" break="no"/>scendens. sicut est filiatio vnigeniti dei.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e274">
+      ¶ Secundo 
+      <!--193.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>tangit differentiam formalem filiationis: dum dicit con 
+      <lb ed="#A" n="58"/>producti naturaliter est similis producenti. Oportet 
+      <lb ed="#A" n="59"/>nempe Primo quod filiatio sit in producto sicut 
+      pater<lb ed="#A" n="60" break="no"/>nitas in gignente: ita et filiatio in genito. Secun 
+      <lb ed="#A" n="61"/>do exigitur vt productum producatur modo naturali. L. 
+      <lb ed="#A" n="62"/>enim a patre producatur spiritus sanctus et ei sit similis: 
+      tamen<lb ed="#A" n="63" break="no"/>quia non producitur naturaliter seu quomodo natus: sed quomodo 
+      <lb ed="#A" n="64"/>patus: ideo non dicitur filius. Tertio exigitur quod 
+      produ<lb ed="#A" n="65" break="no"/>catur consimile in natura. Unde licet capillus ab 
+      ho<lb ed="#A" n="66" break="no"/>mine naturaliter producatur: quia tamen non est illius 
+      spe<lb ed="#A" n="67" break="no"/>ciei cuius est homo. ergo non dicitur filius eius. Quarto 
+      <lb ed="#A" n="68"/>tangit principaliter causam materialem: dum dicit. 
+      <lb ed="#A" n="69"/>in natura sensitiua vel intellectuali. Hic enim 
+      ma<lb ed="#A" n="70" break="no"/>nere videtur Scotus quasi neuter An scilicet filiatio solum sit 
+      <lb ed="#A" n="71"/>in natura intellectuali: vel etiam reperiatur in natura 
+      <lb ed="#A" n="72"/>sensitiua. Tamen verius videtur dicendum quod etiam in 
+      <lb ed="#A" n="73"/>natura sensitiua reparitur filiatio. sicut in psalmo dicitur: 
+      <lb ed="#A" n="74"/>Afferte domino filios arietum. Et CTacha. ix. Ipse 
+      pau<lb ed="#A" n="75" break="no"/>per et ascendens super asinam et pullum filium 
+      <lb ed="#A" n="76"/>inte ec. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e325">
+               <head xml:id="Vn7Pel-j56931-Hd1e327">3</head>
+               <p xml:id="Vn7Pel-j56931-d1e329">
+                  <lb ed="#A" n="77"/>¶ Utrum christus bis sit natus: 
+      <lb ed="#A" n="78"/>Et arguitur quod non. quia sequitur: Filiatio: ergo 
+      fi<lb ed="#A" n="79" break="no"/>lius. Si ergo sunt due filiationes in christo: 
+      chri<lb ed="#A" n="80" break="no"/>stus erit duo filii. quod est falsum. quia dicit Atha 
+      <lb ed="#A" n="81"/>nasius in symbolo: Non duo tamen: sed vnus est 
+      <lb ed="#A" n="82"/>christus. Probatur tantum. quia sicut singulare infert 
+      sin<lb ed="#A" n="83" break="no"/>gulare: ita plurale infert plurale. Unde sicut bene dicitur 
+      <lb ed="#A" n="84"/>Homo est animal: ita bene dicitur: homines sunt: ergo 
+      <lb ed="#A" n="85"/>animalia.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e351">
+      ¶ Secundo sic arguitur. Si christus habuit aliquam 
+      <lb ed="#A" n="86"/>filiationem ad matrem suam distinctam a filiatione 
+      <lb ed="#A" n="87"/>quam habet ad patrem: quero An post 
+      resurrectio<lb ed="#A" n="88" break="no"/>nem illam eandem habuit: Aut non. Certum est enim quod 
+      <lb ed="#A" n="89"/>in morte christi desiit esse illa filiatio ad matrem sicut 
+      <lb ed="#A" n="90"/>humanitas que erat eius fundamentum. Si dica 
+      <lb ed="#A" n="91"/>tur quod eandem. Contra. quia alia est acceptio accipere esse 
+      <lb ed="#A" n="92"/>per resurrectionem. alia per generationem. Et ita 
+      vide<lb ed="#A" n="93" break="no"/>retur variari respectus. Si autem dicatur quod aliam. Obul 
+      <lb ed="#A" n="94"/>at. quia idem fundamentum et terminus eandem 
+      viden<lb ed="#A" n="95" break="no"/>tur fundare relationem. ead est autem numero humanitas est 
+      <lb ed="#A" n="96"/>in christo ante mortem et post.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e377">
+      ¶ In contrarium arguitur per 
+      <lb ed="#A" n="97"/>Aug. de fide ad Petrum. Unigenitus inquit dei filius 
+      <lb ed="#A" n="98"/>ecundo natus est: semel a matre: et semel a patre. 
+      <lb ed="#A" n="99"/>ergo duplex est natiuitas christi. Respondetur secundum Rich. in 
+      <lb ed="#A" n="100"/>iii. di. viii. ar. ii. q. i. et Guill. eadem dist. Quod concedem 
+      <lb ed="#A" n="101"/>dum est christum esse bis natum. secundum enim Philosophum. v. 
+      <lb ed="#A" n="102"/>Physicorum Ad hoc quod actus sit vnus numero 
+      re<lb ed="#A" n="103" break="no"/>quiritur quod subiectum sit vnum et terminus vnuss 
+      <lb ed="#A" n="104"/>et mensura vna. ergo duplex est christi natiuitas. 
+      <lb ed="#A" n="105"/>Quod sic probatur. Actio geminata passionem geminat. 
+      <lb ed="#A" n="106"/>Sed christum genuit deus pater: et christum genuit 
+      <lb ed="#A" n="107"/>Maria mater. Deus pater genuit sine matre. Maitr 
+      vero<lb ed="#A" n="108" break="no"/>sine patre ergo oportet quod corrptondeant due passiones et 
+      <lb ed="#A" n="109"/>natiuitates. Que quidem natiuitates possunt tripliciter 
+      nu<lb ed="#A" n="110" break="no"/>merari. Primo a parte subiecti. sic natura vna est 
+      <lb ed="#A" n="111"/>secundum diuinitatem. alia secundum humanitatem. Secundo 
+      <lb ed="#A" n="112"/>secundum agentia. quia alius pater. alia mater. Tertio. 
+      <lb ed="#A" n="113"/>secundum mensuram. quia vna mensuratur eternitate. secunda: 
+      <!--194.xml-->
+      <pb ed="#A" n="195"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tempore. Ex quo patet. quod natiuitas eterna vniuoca 
+      <lb ed="#A" n="2"/>tur cum temporali. quia teste Augus. lib. de trinitate 
+      <lb ed="#A" n="3"/>Non numerantur nisi que vniuocaritur. Unde dicit 
+      <lb ed="#A" n="4"/>Dama. In christo duas natintates veneramur Ad 
+      <lb ed="#A" n="5"/>argumenta Respondet Guill. vbi supra Ad primum. Quod 
+      <lb ed="#A" n="6"/>sicut singulare infert singulare. ita plurale plurale. 
+      <lb ed="#A" n="7"/>consequentia solum tenet gratia materie: non fornms scilicet 
+      <lb ed="#A" n="8"/>quando ad numeratione antecedentis et consequens 
+      <lb ed="#A" n="9"/>numeratur: sicut predicto argumento. quia nuerato 
+      <lb ed="#A" n="10"/>homine: numeratur animal. vbi autem id non fit: non sequi 
+      <lb ed="#A" n="11"/>tur: imo est fallacia consequentis a destructione 
+      ante<lb ed="#A" n="12" break="no"/>cedentis. diuisio enim et distinctio et huiusmodi 
+      impor<lb ed="#A" n="13" break="no"/>tant negationem sicut si sequatur: voluntas est: ergo 
+      vo<lb ed="#A" n="14" break="no"/>lens. no tamen sequitur: due voluntates: ergo duo 
+      volen<lb ed="#A" n="15" break="no"/>tes. quia christus habet duas voluntates: et tamen est 
+      <lb ed="#A" n="16"/>vnicum volens
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e457">
+      ¶ Ad secundum respondet. quod christus 
+      ha<lb ed="#A" n="17" break="no"/>buit eandem filiationem post resurrectionem quam 
+      ante<lb ed="#A" n="18" break="no"/>habuit ad matrem. quia idem est fundamentum et 
+      ter<lb ed="#A" n="19" break="no"/>minus ante et post resurrectionem. sed resurrectio 
+      so<lb ed="#A" n="20" break="no"/>lum dicit vnum nouum respectum ad modum recipiendi 
+      <lb ed="#A" n="21"/>sic esse: distinctum ab aliquo accipiendi esse. et hoc non 
+      <lb ed="#A" n="22"/>facit contra propositum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e474">
+               <head xml:id="Vn7Pel-j56931-Hd1e476">4</head>
+               <p xml:id="Vn7Pel-j56931-d1e478">
+                  <lb ed="#A" n="23"/>¶ Utrum in christo diuina natura 
+      <lb ed="#A" n="24"/>sit nata de virgine: Et videtur quod sic. quia quicquid prae 
+      <lb ed="#A" n="25"/>dicatur in recto de aliquo singulari homine pertinens 
+      <lb ed="#A" n="26"/>ad eius naturam ipso nato: natum est. sicut nascente 
+      <lb ed="#A" n="27"/>homine: nascitur animal. sed diuina natura 
+      praedica<lb ed="#A" n="28" break="no"/>tur de christo in recto. quia filius dei est diuina 
+      na<lb ed="#A" n="29" break="no"/>tura. ergo quando christus de virgine fuit natus: na 
+      <lb ed="#A" n="30"/>ta fuit de virgine diuina natura.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e498">
+      ¶ In contrarium 
+      ar<lb ed="#A" n="31" break="no"/>guitur. Diuina natura non est nata propter diuintatem 
+      <lb ed="#A" n="32"/>de patre. ergo multo minus propter filii natiuitatem 
+      temn<lb ed="#A" n="33" break="no"/>poralem de matre
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e507">
+      ¶ Ad hoc respondet Rich. in. iii. 
+      <lb ed="#A" n="34"/>dis. viii. arti. i. q. i. quod diuina natura non est de 
+      virgi<lb ed="#A" n="35" break="no"/>ne nata. quamuis enim non omne productum sit natum. eo quod 
+      <lb ed="#A" n="36"/>natiuitas proprie loquendo in solis viuentibus reparitur. 
+      <lb ed="#A" n="37"/>tamen omne natum est productum. diuina autem natura 
+      <lb ed="#A" n="38"/>eterna productione non producitur. ergo multo minus 
+      po<lb ed="#A" n="39" break="no"/>test dici quod temporali productione. ergo non potest vere 
+      di<lb ed="#A" n="40" break="no"/>ci producta de virgine. Nec etiam ratione humane 
+      na<lb ed="#A" n="41" break="no"/>ture. quia quamuis simul sit: tamen natura in eadem 
+      <lb ed="#A" n="42"/>persona quae suppositum est vtriusque nature: non tamen 
+      sup<lb ed="#A" n="43" break="no"/>positum ipius nature humane. et ideo ratione huma 
+      <lb ed="#A" n="44"/>ne nature non potest dici natura diuina producta 
+      de<lb ed="#A" n="45" break="no"/>virgine
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e536">
+      ¶ Ad argumentum respondetur secundum Rich. vbi 
+      <lb ed="#A" n="46"/>supra quod maior argumenti vera est de natiuitate 
+      suppo<lb ed="#A" n="47" break="no"/>siti creati. sed non est vera de natiuitate suppositi in 
+      <lb ed="#A" n="48"/>creati. quia quamuis natura praedicetur de supposito pro 
+      <lb ed="#A" n="49"/>pter diuinam simplicitatem. tamen quia natura se habet 
+      ab<lb ed="#A" n="50" break="no"/>solute et suppositum in relatione: aliquid potest dici vere de 
+      <lb ed="#A" n="51"/>supposito quod non vere diceretur de natura. suppositum 
+      <lb ed="#A" n="52"/>enim generatur: natura non generatur. ergo diuina natura etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e556">
+               <head xml:id="Vn7Pel-j56931-Hd1e558">5</head>
+               <p xml:id="Vn7Pel-j56931-d1e560">
+                  <lb ed="#A" n="53"/>¶ Utrum in christo natura 
+      huma<lb ed="#A" n="54" break="no"/>na sit nata: Respondetur. quod in ista quaestione aliqualiter disse 
+      <lb ed="#A" n="55"/>tire videntur doctores. san. Tho. dicit in. iii. dis. viii. 
+      <lb ed="#A" n="56"/>q. ii quod illa propositio non habet veritatem nisi ex 
+      conse<lb ed="#A" n="57" break="no"/>queti escilicet Bonaue. praefata di. ar. i. illam propositionem. 
+      <!--194.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>simpliciter concedit. Unde dicit quod non est simile 
+      <lb ed="#A" n="59"/>de humana natura et diuina. Non enim sequitur Si 
+      <lb ed="#A" n="60"/>nequit dici quod diuina natura non sit nata: quod non 
+      <lb ed="#A" n="61"/>possit dici quod humana natura sit nata. quia 
+      huma<lb ed="#A" n="62" break="no"/>na natura multiplicatur: natura manente indiui 
+      <lb ed="#A" n="63"/>sa in gignente et genito. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e592">
+               <head xml:id="Vn7Pel-j56931-Hd1e594">6</head>
+               <p xml:id="Vn7Pel-j56931-d1e596">
+                  <lb ed="#A" n="64"/>¶ Utrum diuina natura dicatur 
+      na<lb ed="#A" n="65" break="no"/>ta de virgine: Respondetur secundum Guill. quod non. quia 
+      <lb ed="#A" n="66"/>nobilius est nasci ab eterno quam ex tempore. Sed propter 
+      <lb ed="#A" n="67"/>natiuitatem eternam filii dei natura diuina non 
+      <lb ed="#A" n="68"/>dicitur nata. ergo nec propter natiuitatem christi 
+      tempo<lb ed="#A" n="69" break="no"/>ralem. Confirmatur. quia est esse ab alio. Esse 
+      auten<lb ed="#A" n="70" break="no"/>ab alio non competit nature diuiue. Confirmatur 
+      <lb ed="#A" n="71"/>secundo. quia si natura diuina diceretur nata de 
+      virgi<lb ed="#A" n="72" break="no"/>ne: diceretur filia virginis. Unde illa autoritas 
+      Augu<lb ed="#A" n="73" break="no"/>stini de fide ad Petrum. Natura diuina atque 
+      eter<lb ed="#A" n="74" break="no"/>na posset temporaliter concipi et nasci nisi secundum 
+      susce<lb ed="#A" n="75" break="no"/>ptionem veritatis humane. et consimiles sunt pie 
+      <lb ed="#A" n="76"/>exponende. Similiter illa autoritas Bernardi: 
+      <lb ed="#A" n="77"/>Fortitudo est infirmata. quia ibi loquitur sic ad 
+      exci<lb ed="#A" n="78" break="no"/>tandum corda deuotioni. Et hoc modo licitum est 
+      <lb ed="#A" n="79"/>quod alibi non liceret. Uel dicend um quod fortitudo 
+      <lb ed="#A" n="80"/>ibi stat pro filio qui dicitur virtus patris Heb. i. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e636">
+               <head xml:id="Vn7Pel-j56931-Hd1e638">7</head>
+               <p xml:id="Vn7Pel-j56931-d1e640">
+                  <lb ed="#A" n="81"/>¶ Utrum in christo sint due 
+      fili<lb ed="#A" n="82" break="no"/>ationes: Respondetur quod de hoc varie loquuntur 
+      do<lb ed="#A" n="83" break="no"/>ctores. Dicit Scotus probabilius: et post eum Guil. 
+      <lb ed="#A" n="84"/>ler. in. iii. dist. viii. Quod in christo sunt due 
+      filiatio<lb ed="#A" n="85" break="no"/>nes. Quod sic probat. Ad duos terminos 
+      oppo<lb ed="#A" n="86" break="no"/>sitos nequit terminari eadem relatio: tunc enim 
+      <lb ed="#A" n="87"/>bis diceretur. quod est contra Philosophum. v. Metaph. c. 
+      <lb ed="#A" n="88"/>Ad aliquid. Si autem vnica esset filiatio in christo: hoc 
+      <lb ed="#A" n="89"/>esset quia referretur christus ad patrem in diuinis 
+      <lb ed="#A" n="90"/>et matrem eadem filiatione. Et ita oportet ponere 
+      du<lb ed="#A" n="91" break="no"/>as
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e666">
+      ¶ Confirmatur. quia proprietates diuine non 
+      aspi<lb ed="#A" n="92" break="no"/>ciunt primo creatum. Et ita exquo filiatio est 
+      pro<lb ed="#A" n="93" break="no"/>prietas filii dei respectu patris: exigitur alia 
+      respe<lb ed="#A" n="94" break="no"/>ctu matris. Nec videtur possibile esse duas 
+      nati<lb ed="#A" n="95" break="no"/>uitates in consimili natura: et non duas filiatio ¬ 
+      <lb ed="#A" n="96"/>nes. Si enim pater in diuinis per aliam origina 
+      <lb ed="#A" n="97"/>tionem originat filium: et per aliam spiritum 
+      san<lb ed="#A" n="98" break="no"/>ctum. quare etiam non referretur alia filiatione 
+      <lb ed="#A" n="99"/>christus ad patrem et alia ad matrem. Ex quo 
+      pa<lb ed="#A" n="100" break="no"/>tet defectus sancti Bonauenture in. iii. dist. viii. 
+      <lb ed="#A" n="101"/>ar. ii. q. ii dicentis: quod in christo est vnica filiatio. 
+      <lb ed="#A" n="102"/>quia inquit vnicum est eius subiectum. Et 
+      con<lb ed="#A" n="103" break="no"/>clusio vt patet est falsa et probatio nihil est. 
+      Uni<lb ed="#A" n="104" break="no"/>co enim manente subiecto multiplicantur 
+      relatio<lb ed="#A" n="105" break="no"/>nes et accidentia. vt patet de eodem homine 
+      al<lb ed="#A" n="106" break="no"/>boqui diuersis similitudinibus diuersis homini 
+      <lb ed="#A" n="107"/>bus est similis. Unde et Damascenus dicit 
+      christum<lb ed="#A" n="108" break="no"/>duplicem operationem. Si igitur operatio potest 
+      mul<lb ed="#A" n="109" break="no"/>tiplicari stante subiecti vnitate: quare non 
+      rela<lb ed="#A" n="110" break="no"/>tio. Sunt et alia argumenta quibus probat hoc 
+      <lb ed="#A" n="111"/>Scotus di. praedicta. Unde patet quod idem pater 
+      diuer<lb ed="#A" n="112" break="no"/>sis paternitatibus solum nuero ad diuersos filios 
+      re<lb ed="#A" n="113" break="no"/>fertur. Non enim potest fingi quod eadem relatione. quia 
+      rela<lb ed="#A" n="114" break="no"/>tionis est terminus varius. Et ita ex quo terminus variatus 
+      <!--195.xml-->
+      <pb ed="#A" n="196"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>oportet et relationem variari.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e727">
+      ¶ Si obiicias. quod non 
+      <lb ed="#A" n="2"/>sunt steste Philosopho plura accidentia eiusdem speciei in 
+      <lb ed="#A" n="3"/>eodem subiecto. Dicendum. quod illa auctoritas habet 
+      <lb ed="#A" n="4"/>locum in absolutis: non in relationibus. de quo 
+      Sco<lb ed="#A" n="5" break="no"/>tus dat tale exemplum. quod in eadem parte 
+      phantasti<lb ed="#A" n="6" break="no"/>ca organi possunt esse plures species eiusdem 
+      ra<lb ed="#A" n="7" break="no"/>tionis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e744">
+               <head xml:id="Vn7Pel-j56931-Hd1e746">8</head>
+               <p xml:id="Vn7Pel-j56931-d1e748">
+                  <lb ed="#A" n="8"/>¶ Utrum ille due filiationes in 
+      chri<lb ed="#A" n="9" break="no"/>sto sint reales: Respondetur secundum Guill. quod sic. et pro 
+      <lb ed="#A" n="10"/>hat sic. Primo de eterna filiatione. quia persone 
+      di<lb ed="#A" n="11" break="no"/>uine non sunt constitute per entia rationis. Filiatio autem 
+      <lb ed="#A" n="12"/>eterna filium constituit. ergo etc. Similiter de tempore patet 
+      <lb ed="#A" n="13"/>quia extrema sequuntur realia scilicet matrem et christum
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e764">
+      ¶ 
+      Re<lb ed="#A" n="14" break="no"/>latio autem est realis que habet extrema realia nec 
+      <lb ed="#A" n="15"/>opus exigit intellectus.
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e771">
+      ¶ Confirmatur. quia eque vel 
+      <lb ed="#A" n="16"/>amplius fuit christus Marie filius. sicut et reliqui 
+      <lb ed="#A" n="17"/>suarum matrum. Cum ergo reliqui filiationem realem ad 
+      <lb ed="#A" n="18"/>matres habeant. sequitur quod et christus. Ex quo vt s dicit 
+      <lb ed="#A" n="19"/>Guill. patet defectus. sanc. Tho. in. iii. dis. viii. 
+      <lb ed="#A" n="20"/>q. v. qui dicit. quod in christo sunt due filiationes. vna 
+      <lb ed="#A" n="21"/>ad patrem: et ista est realis. Alia quid matrem: et ista est 
+      <lb ed="#A" n="22"/>rationis. cuius patuit oppositum
+     </p>
+               <p xml:id="Vn7Pel-j56931-d1e789">
+      ¶ Si dicas. quod Ansfs. 
+      <lb ed="#A" n="23"/>lib. ii. Cur deus homo: dicit. Quod filius est 
+      incar<lb ed="#A" n="24" break="no"/>natus non alia persona: ne fieret confusio. Hec autem 
+      <lb ed="#A" n="25"/>confusio videtur poni: ponendo duas filiationes 
+      re<lb ed="#A" n="26" break="no"/>ales in christo. non autem ponendo vnicam solum. sicut 
+      <lb ed="#A" n="27"/>sanctus Bonauen. ponit. Aut vnam realem. et aliam 
+      <lb ed="#A" n="28"/>rationis. sicut facit san. Tho. Dicendum quod illa 
+      con<lb ed="#A" n="29" break="no"/>fusio tollitur: que esset si pater vel spiritus sanctus 
+      <lb ed="#A" n="30"/>esset incarnatus. quia scilicet idem esset filius: et non 
+      fi<lb ed="#A" n="31" break="no"/>lius. modo autem nulla est confusio. quia secundum 
+      diuer<lb ed="#A" n="32" break="no"/>sas naturas sunt due filiationes reales et distincte 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e814">
+               <head xml:id="Vn7Pel-j56931-Hd1e816">9</head>
+               <p xml:id="Vn7Pel-j56931-d1e818">
+                  <lb ed="#A" n="33"/>¶ Utrum vtraque filiatione christus 
+      <lb ed="#A" n="34"/>sit naturalis filius: Respondetur secundum Guill. vbi 
+      <lb ed="#A" n="35"/>supra quod sic. et probat Primo de patre. quia ait (vt in i. 
+      <lb ed="#A" n="36"/>lib. sen. patuit) memoria fecunda est principium 
+      pro<lb ed="#A" n="37" break="no"/>ductiuum eius. huiusmodi autem principium est 
+      natu<lb ed="#A" n="38" break="no"/>rale. quia primo elicitur a voluntate in quodam signo. 
+      <lb ed="#A" n="39"/>In voluntate autem primo est libertas. De matre autem 
+      <lb ed="#A" n="40"/>patet. Tum quia traxit de Maria consimilem 
+      na<lb ed="#A" n="41" break="no"/>turam et modo naturali. hoc autem arguit id quoo 
+      <lb ed="#A" n="42"/>exit esse naturale. Confirmatur. quia christus est 
+      fi<lb ed="#A" n="43" break="no"/>lius Marie. aut naturalis: aut adoptiuus. Si 
+      <lb ed="#A" n="44"/>naturalis: habetur propositum. Si adoptiuus: 
+      com<lb ed="#A" n="45" break="no"/>tra. quia tunc non esset verus Marie filius. nec 
+      Ma<lb ed="#A" n="46" break="no"/>rie competebat filium dei adoptare iu filium. vnde 
+      li<lb ed="#A" n="47" break="no"/>cet quo ad modum concipiedi sit supernaturalis. 
+      <lb ed="#A" n="48"/>tamen recte dicitur filius Marie naturalis qui 
+      cre<lb ed="#A" n="49" break="no"/>atus de sanguinibus Marie in vtero clausus: na 
+      <lb ed="#A" n="50"/>turaliter fuit deinceps nutritus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e861">
+               <head xml:id="Vn7Pel-j56931-Hd1e863">10</head>
+               <p xml:id="Vn7Pel-j56931-d1e865">
+                  <lb ed="#A" n="51"/>¶ Utrum ista propositio: Nomo est 
+      <lb ed="#A" n="52"/>diuina natura: habeat veritatem: Respondetur secundum 
+      <lb ed="#A" n="53"/>Guill. vbi supra quod quo ad praesens est triplex praedicatio. 
+      Pri<lb ed="#A" n="54" break="no"/>ma per denominationem. et sic non habet veritate. quia 
+      <lb ed="#A" n="55"/>diuina natura non est forma hominis. Secunda praedicatioe 
+      <lb ed="#A" n="56"/>est per identitatem. et in hoc sensu habet veritatem. vt sit sensus 
+      <!--195.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>homo est ille qui est diuina natura quia est filius 
+      <lb ed="#A" n="58"/>dei. et filius dei est diuina natura. Tertia 
+      praedica<lb ed="#A" n="59" break="no"/>tio est per vnionem. Et in isto sensu similiter est 
+      ve<lb ed="#A" n="60" break="no"/>ra modo dicto in secunda. quia fit vnio in identi 
+      <lb ed="#A" n="61"/>cta reus one. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j56931-Dd1e898">
+               <head xml:id="Vn7Pel-j56931-Hd1e900">11</head>
+               <p xml:id="Vn7Pel-j56931-d1e902">
+                  <lb ed="#A" n="62"/>¶ Queritur que sapit magis 
+      na<lb ed="#A" n="63" break="no"/>turale An filii dei filiatio eterna: An temporalis: 
+      <lb ed="#A" n="64"/>Dicendum quod eterna. quia ibi voluntas nullo 
+      mo<lb ed="#A" n="65" break="no"/>do est principium elicitiuum sicut in temporali: tam 
+      <lb ed="#A" n="66"/>ex parte dei patris quam ex parte matris virginis 
+      com<lb ed="#A" n="67" break="no"/>sensum prebente. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

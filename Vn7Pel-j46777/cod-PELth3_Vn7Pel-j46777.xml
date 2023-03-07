@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divinatio</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divinatio</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="159"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j46777">
+            <head xml:id="Vn7Pel-j46777-Hd1e110">Divinatio</head>
+            <div xml:id="Vn7Pel-j46777-Dd1e112">
+               <head xml:id="Vn7Pel-j46777-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j46777-d1e116">
+                  <lb ed="#A" n="31"/>¶ Diuinatio primo 
+      <lb ed="#A" n="32"/>generaliter. Queritur: Utrum diuinatio 
+      <lb ed="#A" n="33"/>sit peccatum: Respondeo quod sic. Unde dicitur 
+      Deu<lb ed="#A" n="34" break="no"/>tero. xviii. Non sit qui phitones consulat neque diuinos 
+      <lb ed="#A" n="35"/>Et. xxvi. q. v. dicitur Qui diuinationes expetunt sub 
+      re<lb ed="#A" n="36" break="no"/>gula quinquennii iaceant. secundum gradus poenitentie diffinitos 
+      <lb ed="#A" n="37"/>Ad quod intelligendum Notandum est: quod diuinator 
+      <lb ed="#A" n="38"/>non dicitur si quis pronunciet ea que necessario velunt in 
+      <lb ed="#A" n="39"/>pluribus eueniunt: quae humana ratione praenosci possunt. 
+      <lb ed="#A" n="40"/>sicut astrologi ex cognitione causarum praenunciant 
+      in<lb ed="#A" n="41" break="no"/>fallihiliter futuras eclipses. Et ex consideratione 
+      stel<lb ed="#A" n="42" break="no"/>larum prainunciant coniecturaliter pluuinas et siccitates 
+      <lb ed="#A" n="43"/>Et medici sanitatem et mortem. Et ita euenit vt in 
+      plu<lb ed="#A" n="44" break="no"/>ribus
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e149">
+      ¶ Non videtur etiam diuinatio si quis aliqua 
+      <lb ed="#A" n="45"/>futura contingentia deo reuelante cognoscat. Tunc 
+      <lb ed="#A" n="46"/>enim ipse non diuinat id est quod diuinum est facit. sed magis 
+      <lb ed="#A" n="47"/>quod diuinum est suscipit
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e158">
+      ¶ Tunc enim solum est diuinare 
+      <lb ed="#A" n="48"/>quando indebito modo sibi praenunciationem futurorum 
+      euen<lb ed="#A" n="49" break="no"/>tuum vsurpat. Preterea quando praeter dei manifestam 
+      re<lb ed="#A" n="50" break="no"/>uelationem praenuciare praesumit aliqua futura contingentia 
+      <lb ed="#A" n="51"/>ad vtrumlibet. vt sunt illa quae dependent ex libero 
+      ar<lb ed="#A" n="52" break="no"/>bitrio. vel etiam contingentia vt in paucioribus. vt sunt 
+      <lb ed="#A" n="53"/>quae per accidens contingunt siue in rebus humanis: 
+      <lb ed="#A" n="54"/>siue in rebus naturalibus. sicut quod lapide cadentem fiat 
+      <!--158.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="55"/>terremotus. et quod homine fodiente thesaurus 
+      inucs<lb ed="#A" n="56" break="no"/>niatur. Prescire enim talia est solius dei. Unde Esaie 
+      <lb ed="#A" n="57"/>xli. Annunciatis quae ventura sunt in futurum et sciemus 
+      <lb ed="#A" n="58"/>quoniam dii estis vos. Unde Isidorus lib. Etymol. dicit. 
+      <lb ed="#A" n="59"/>quod diuini dicti sunt quasi deo pleni. Deitate enim se 
+      <lb ed="#A" n="60"/>plenos simulant. et astutia quadam fraudulentie hos 
+      <lb ed="#A" n="61"/>minibus futura coniecturant. Hec Isidorus. Constat 
+      <lb ed="#A" n="62"/>autem hoc esse peccatum. vnde diuinatio semper est peccatum. 
+      <lb ed="#A" n="63"/>Et ideo Hiero. dicit super Matth. quod diuinatio semper 
+      <lb ed="#A" n="64"/>accipitur in malam partem.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e202">
+      ¶ Sed obiicitur. quia 
+      Au<lb ed="#A" n="65" break="no"/>gustinus dicit de libe. arbi. Quis audeat dicere 
+      ali<lb ed="#A" n="66" break="no"/>quam disciplinam esse malam. Sed aliquae artes sunt 
+      <lb ed="#A" n="67"/>diuinatiue. vt patet per philosophum lib. de memo. ergo 
+      vide<lb ed="#A" n="68" break="no"/>tur quod diuinatio non sit peccatum. Respondeo quod alique 
+      <lb ed="#A" n="69"/>artes sunt ad praenoscendum futuros euentus qui ex 
+      ne<lb ed="#A" n="70" break="no"/>cessitate vel frequenter eueniunt. quod non pertinet ad 
+      <lb ed="#A" n="71"/>diuinationem sed ad alios futuros euentus 
+      cogno<lb ed="#A" n="72" break="no"/>scendos non sunt alique vere artes siue discipline 
+      <lb ed="#A" n="73"/>sed fallaces et vane. ex deceptione demonis introdu 
+      <lb ed="#A" n="74"/>cte. vt Augustinus. dicit. ii libro de ciui. dei 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e227">
+               <head xml:id="Vn7Pel-j46777-Hd1e229">2</head>
+               <p xml:id="Vn7Pel-j46777-d1e231">
+                  <lb ed="#A" n="75"/>¶ Utrum species diuinationis sint 
+      <lb ed="#A" n="76"/>plures: Respondetur quod sic. vt vult Isidorus libro Etymols. 
+      <lb ed="#A" n="77"/>Ad quod intelligendum quod omnis diuinatio vtitur ad 
+      <lb ed="#A" n="78"/>praecognitionem euentus futuri aliquo demonum consi 
+      <lb ed="#A" n="79"/>io et auxilio. Quod quidem expresse quandoque imploratur: 
+      <lb ed="#A" n="80"/>quandoque autem praeter hominis petitionem se demodo 
+      in<lb ed="#A" n="81" break="no"/>gerit occulte vanis inquisitionibus futurorum: vt 
+      men<lb ed="#A" n="82" break="no"/>tes hominum implicet falsitati aut vanitati.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e251">
+      ¶ Est 
+      <lb ed="#A" n="83"/>autem vna vana inquisitio futurorum Cum quis 
+      <lb ed="#A" n="84"/>futura praenoscere tentat vnde praenosci non possunt. Des 
+      <lb ed="#A" n="85"/>mones autem expresse inuocati solent futura praenunci 
+      <lb ed="#A" n="86"/>are multipliciter. Quandoque quidem quibusdam 
+      pre<lb ed="#A" n="87" break="no"/>stigiosis apparitionibus se aspectui et auditui 
+      ho<lb ed="#A" n="88" break="no"/>minum se ingerentes ad praenunciandum futura. Et hec 
+      <lb ed="#A" n="89"/>species dicitur praestigium. ex eo quod oculi hominum 
+      praestrin<lb ed="#A" n="90" break="no"/>guntur. Quandoque per somnia et hec dicitur diuinatio 
+      so<lb ed="#A" n="91" break="no"/>mniorum. Quandoque per mortuorum aliquorum apparitionem 
+      <lb ed="#A" n="92"/>vel locutionem. et hec dicitur necromancia. vt dicitur in 
+      li<lb ed="#A" n="93" break="no"/>bro Etymol. Necros enim grece mors dicitur latine. 
+      <lb ed="#A" n="94"/>mancia vero diuinatio. quia quibusdam 
+      praecantatio<lb ed="#A" n="95" break="no"/>nibus adhibito sanguine videntur resuscitati mortui 
+      <lb ed="#A" n="96"/>piuinare: et ad interrogata respondere. Dicuntur enim 
+      <lb ed="#A" n="97"/>demones sanguinem amare. Quandoque vero praenunci 
+      <lb ed="#A" n="98"/>ant futura per homines viuos. vt patet in arrepticiis 
+      <lb ed="#A" n="99"/>Et hec dicitur diuinatio phitonica. quia scilicet fit per 
+      phi<lb ed="#A" n="100" break="no"/>tones qui sic dicti sunt (vt dicit Isido. a phiton 
+      <lb ed="#A" n="101"/>Apolline. qui dicitur fuisse auctor diuinandi. Quam 
+      <lb ed="#A" n="102"/>doque per aliquans figuras vel signa que apparent 
+      <lb ed="#A" n="103"/>in rebus inanimatis. Que quidem si appareant in 
+      <lb ed="#A" n="104"/>aliquo corpore terrestri: vt in vngue vel ferro vel 
+      <lb ed="#A" n="105"/>lapide polito. dicitur Geomancia. a geos quod est 
+      ter<lb ed="#A" n="106" break="no"/>ra. Si autem in aqua: dicitur hydromancia. ab 
+      <lb ed="#A" n="107"/>hydros quod est aqua. Si in aere: dicitur 
+      Aeremam<lb ed="#A" n="108" break="no"/>cia. Si in igne: dicitur Pyromancia. a pyr quod 
+      <lb ed="#A" n="109"/>est ignis Si autem in viscerbus animalium immo 
+      <lb ed="#A" n="110"/>latorum in aris demonum: dicitur Aruspicium. quasi 
+      in<lb ed="#A" n="111" break="no"/>spectio in aris. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e317">
+               <head xml:id="Vn7Pel-j46777-Hd1e319">3</head>
+               <p xml:id="Vn7Pel-j46777-d1e321">
+      <!--159.xml-->
+                  <pb ed="#A" n="160"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Diuinatio vero que fit sine ex 
+      <lb ed="#A" n="2"/>pressa demonum inuocatione diuiditur in duo 
+      gene<lb ed="#A" n="3" break="no"/>ra. quorum Primum est. quando ad praenoscendum futura 
+      com<lb ed="#A" n="4" break="no"/>sideramus aliquid in dispositionibus aliarum rerum. Et 
+      <lb ed="#A" n="5"/>siquidem aliquis nitatur praenoscere futura ex consideratioe 
+      <lb ed="#A" n="6"/>ne situs et motus siderum hoc pertinet ad astrologos 
+      <lb ed="#A" n="7"/>qui dicuntur geneatici propter natalium considerationes 
+      <lb ed="#A" n="8"/>dierum. Si vero ex consideratione dierum vel horarum vel 
+      au<lb ed="#A" n="9" break="no"/>rarum. tunc dicuntur auruspices. qui scilicet dies et horas in 
+      <lb ed="#A" n="10"/>negociis et operationibus agendis obseruant.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e352">
+      ¶ 
+      No<lb ed="#A" n="11" break="no"/>ta tamen. quod obseruare tempus quandoque est 
+      infideli<lb ed="#A" n="12" break="no"/>tatis. vt in his que pure dependent a libero arbi. 
+      <lb ed="#A" n="13"/>Quandoque necessitat scilicet propter praeceptum. vt in nuptiis 
+      <lb ed="#A" n="14"/>celcebrandis. Quandoque sagacitatis. vt in his que 
+      <lb ed="#A" n="15"/>causam habent naturalem. vt in potionibus: minutio 
+      <lb ed="#A" n="16"/>nibus et huiusmodi. Si vero per voces vel motus auium vel 
+      <lb ed="#A" n="17"/>quirumcumque animalium. siue per sternutationes hominum 
+      <lb ed="#A" n="18"/>vel saltus membrorum. hec pertinent generaliter ad 
+      au<lb ed="#A" n="19" break="no"/>gurium. quod sic dicitur quasi auigerium vel auigarrium a 
+      ge<lb ed="#A" n="20" break="no"/>stu vel garritu auium. sicut auspicium ab inspectione 
+      <lb ed="#A" n="21"/>auium. quorum primum pertinet ad aures. secundum ad 
+      ocu<lb ed="#A" n="22" break="no"/>los. In auibus enim huiusmodi praecipue solent considerari. 
+      <lb ed="#A" n="23"/>Si autem huiusmodi consideratio fiat circa verba hominum 
+      <lb ed="#A" n="24"/>alia intentione dicta que quis retorquet ad futurum 
+      <lb ed="#A" n="25"/>quod vult praenoscere: dicitur omen. Si autem 
+      conside<lb ed="#A" n="26" break="no"/>rentur alique dispositiones figurarum in aliquibus 
+      cor<lb ed="#A" n="27" break="no"/>poribus visui occurrentes: erit alia species diuina 
+      <lb ed="#A" n="28"/>tionis. Nam ex lineamentis manus consideratis 
+      <lb ed="#A" n="29"/>diuinatio sumpta dicitur Chiromantia. Chiros enim 
+      <lb ed="#A" n="30"/>grece dicitur manus latine. Diuinatio vero ex 
+      quibus<lb ed="#A" n="31" break="no"/>dam figuris in spatula alicuius animalis 
+      apparen<lb ed="#A" n="32" break="no"/>tibus: dicitur spatulimancia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e403">
+               <head xml:id="Vn7Pel-j46777-Hd1e405">4</head>
+               <p xml:id="Vn7Pel-j46777-d1e407">
+                  <lb ed="#A" n="33"/>¶ Ad secundum vero genus 
+      diui<lb ed="#A" n="34" break="no"/>nationis quod est sine expressa demonum 
+      inuoca<lb ed="#A" n="35" break="no"/>tione pertinet diuinatio que fit ex consideratione eorum 
+      <lb ed="#A" n="36"/>que eueniunt ex quibusdam que sero fiunt ab 
+      homini<lb ed="#A" n="37" break="no"/>bus ad inquirendum aliquod occultum. siue per 
+      consi<lb ed="#A" n="38" break="no"/>derationem punctorum: quod pertinet ad artem 
+      gcoman<lb ed="#A" n="39" break="no"/>cie. siue per considerationem figurarum que proueniunt ex 
+      <lb ed="#A" n="40"/>plumboliquefacto in aqua proiecto. siue ex quibusdam 
+      <lb ed="#A" n="41"/>cedulis scriptis: vel non scriptis in occulto repositis 
+      <lb ed="#A" n="42"/>Cum consideratur quis qua accipiat. vel etiam ex 
+      festu<lb ed="#A" n="43" break="no"/>cis inequalibus propositis: quis maiorem vel 
+      mino<lb ed="#A" n="44" break="no"/>rem accipiat. vel etiam ex taxillorum proiectione quis 
+      <lb ed="#A" n="45"/>puncta plura proiiciat. quae omnia Sortium nomen 
+      ha<lb ed="#A" n="46" break="no"/>bent. vnde nomine Sortilegii continentur. Sic ergo 
+      <lb ed="#A" n="47"/>patet triplex genus diuinationis. quorum Primum 
+      <lb ed="#A" n="48"/>est per manifestam demonum inuocatione. Secundum 
+      <lb ed="#A" n="49"/>per solam considerationem dispositionis vel motus 
+      <lb ed="#A" n="50"/>alicuius rei. Tertium est. dum facimus aliquid 
+      <lb ed="#A" n="51"/>vt nobis manifestetur aliquod occultum. Primum 
+      per<lb ed="#A" n="52" break="no"/>tinet ad necromanticos. Secundum ad augures. 
+      <lb ed="#A" n="53"/>Tertium ad sortilegos. Sub quolibet autem horum 
+      <lb ed="#A" n="54"/>multa continentur. vt patet ex dictis. Omnes modos 
+      <lb ed="#A" n="55"/>praedictos ponit Aug. et habetur. xxvi. q. iiii. Igitur genus. 
+      <lb ed="#A" n="56"/>et q. v. Necc mirum. et c. Epicopi. et q. vii. Non obseruetis
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e464">
+               <head xml:id="Vn7Pel-j46777-Hd1e466">5</head>
+               <p xml:id="Vn7Pel-j46777-d1e468">
+      <!--159.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>¶ Sed contra supradicta obiicitur 
+      <lb ed="#A" n="58"/>multipliciter. Anime enim sanctorum non fauent illicite in 
+      <lb ed="#A" n="59"/>terrogationi. Sed Sauli interroganti de euentu 
+      fu<lb ed="#A" n="60" break="no"/>turi belli per mulierem phitonissam Samuel 
+      appa<lb ed="#A" n="61" break="no"/>ruit et futurum bellum praedixit. ergo diuinatio quae fit per 
+      <lb ed="#A" n="62"/>inuocationem demonum non est peccatum
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e488">
+      ¶ Preterea aues 
+      <lb ed="#A" n="63"/>circa futuros euentus temporum aliqu naturaliter 
+      cog<lb ed="#A" n="64" break="no"/>noscunt. secundum illud Hiere. viii. Miluus in celo 
+      co<lb ed="#A" n="65" break="no"/>nouit tempus suum. Sed naturalis cognitio est 
+      infal<lb ed="#A" n="66" break="no"/>libilis et a deo: ergo vti cognitione auium ad 
+      praecognoscen<lb ed="#A" n="67" break="no"/>da futura quod est auguriari: non est illicitum.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e501">
+      ¶ 
+      Pre<lb ed="#A" n="68" break="no"/>terea Gedeon in numero sanctorum ponitur. vt spatet 
+      <lb ed="#A" n="69"/>Hebre. xi. qui tamen vsus fuit omnine: ex hoc quod 
+      audi<lb ed="#A" n="70" break="no"/>uit recitationem et interptationem cuiusdam somnii. vt 
+      <lb ed="#A" n="71"/>legitur Iudicum. vii. Et similiter Elieser seruus 
+      Abrae<lb ed="#A" n="72" break="no"/>vt legitur Genesis. xxiiii. Ergo videtur quod talis 
+      diui<lb ed="#A" n="73" break="no"/>natio non sit illicita.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e517">
+      ¶ Responsio. Ad primum 
+      di<lb ed="#A" n="74" break="no"/>citur. quod sicut Augustinus dicit ad Simplicianum. Non est 
+      <lb ed="#A" n="75"/>absurdum credere aliqua dispensatione permissum 
+      fu<lb ed="#A" n="76" break="no"/>isse vt non dominante arte magica vel potentia sed 
+      di<lb ed="#A" n="77" break="no"/>pensatione occulta: quae phitonissam et Saulem late 
+      <lb ed="#A" n="78"/>bat se iusti spiritus ostederet regis aspectibus diuina 
+      <lb ed="#A" n="79"/>eum sententia percussurus. vel non vere spiritus Samue 
+      <lb ed="#A" n="80"/>lis a sua requie est excitatus. sed aliquod phantasma et 
+      <lb ed="#A" n="81"/>illusio demonum imaginaria diaboli machinationei 
+      <lb ed="#A" n="82"/>bus est facta. quam appellat Samuelem scriptura. 
+      <lb ed="#A" n="83"/>sicut imagines solent rerum suarum nominibus 
+      appella<lb ed="#A" n="84" break="no"/>ri.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e544">
+      ¶ Ad secundum dicendum: Quod illa auctoritas 
+      lo<lb ed="#A" n="85" break="no"/>quitur de cognitione auium respectu eorum que pertinent 
+      <lb ed="#A" n="86"/>ad eas. Et ad hec praecognoscenda eorum motus et 
+      vo<lb ed="#A" n="87" break="no"/>ces considerare non est illicitum. puta si quis ex hoc quod 
+      <lb ed="#A" n="88"/>coruus crocitat: pluuiam esse cito futuram predicat. 
+      </p>
+               <p xml:id="Vn7Pel-j46777-d1e555">
+                  <lb ed="#A" n="89"/>¶ Ad tertium dicendum: quod Gedeon obseruauit 
+      re<lb ed="#A" n="90" break="no"/>citationem et expositionem somnii accipiens eam pro 
+      omni<lb ed="#A" n="91" break="no"/>ne quasi ordinatam ad sui instructionem a diuina 
+      pro<lb ed="#A" n="92" break="no"/>uidentia. Et similiter Elieser attendit verba puelle 
+      ora<lb ed="#A" n="93" break="no"/>tione ad deum praemissa
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e568">
+      ¶ Ad hec nota: Quod in 
+      no<lb ed="#A" n="94" break="no"/>ua lege mens hominis arcetur a temporalium 
+      sollicitu<lb ed="#A" n="95" break="no"/>dine. Et ideo in noua lege non est aliquid institutum 
+      <lb ed="#A" n="96"/>ad praecognitionem futurorum euentuum de temporalibus 
+      <lb ed="#A" n="97"/>rebus. In veteri autem lege quae promittebat terrena erant 
+      <lb ed="#A" n="98"/>consolationes de futuris ad religionem pertinentes. Unde 
+      <lb ed="#A" n="99"/>dicitur Esa. viii. Cum dixerint ad vos: quaerite a phito 
+      <lb ed="#A" n="100"/>nibus et diuinis qui student in incantationibus suis. sub 
+      <lb ed="#A" n="101"/>dit quasi rationem. Nunquid non populus a deo suo requiret 
+      vl<lb ed="#A" n="102" break="no"/>sione pro viuis et mortuis: Fuerunt tamen etiam in 
+      noua<lb ed="#A" n="103" break="no"/>lege aliqui prophetie spiritus habentes qui multa 
+      <lb ed="#A" n="104"/>de futuris euentibus praedixerunt et veraciter 
+      eue<lb ed="#A" n="105" break="no"/>lnerunt.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e598">
+               <head xml:id="Vn7Pel-j46777-Hd1e600">6 (1)</head>
+               <p xml:id="Vn7Pel-j46777-d1e602">
+                  <lb ed="#A" n="106"/>DIuinatio secundo 
+      <lb ed="#A" n="107"/>pecialiter a Persis dicitur inuenta. vt patet 
+      <lb ed="#A" n="108"/>xxvi. q. iii. c. i. Unde diuini dicti sunt quasi 
+      <lb ed="#A" n="109"/>deo pleni. Diuitate enim se plenos simulant: et 
+      astu<lb ed="#A" n="110" break="no"/>tia fraudulenta hominibus futura communiecturant.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e615">
+      ¶ Fit 
+      <lb ed="#A" n="111"/>autem variis modis prout dicit decretum vbi supra. Etideo 
+      <lb ed="#A" n="112"/>aliquos spes hic expedit declarare.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e622">
+      ¶ Prima itaque spe¬ 
+      <!--160.xml-->
+      <pb ed="#A" n="161"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cies diuinationis vocatur augurium. Et fit quando per 
+      gar<lb ed="#A" n="2" break="no"/>ritum: volatum vel aliam dispositionem auium quidam 
+      ho<lb ed="#A" n="3" break="no"/>minibus predicunt futura
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e638">
+      ¶ Sed diceres. Utrum 
+      <lb ed="#A" n="4"/>in talibus futura dicere sit licitum: Respondetur secundum 
+      san<lb ed="#A" n="5" break="no"/>ctum Tho. ii. ii. q. xcv. Quod aliquando est licitum et aliquando 
+      il<lb ed="#A" n="6" break="no"/>licitum. Est autem licitum de talibus futura praedicere. 
+      <lb ed="#A" n="7"/>cum talia animalia ex naturali dispositione 
+      mous<lb ed="#A" n="8" break="no"/>tur ad aliqua futura praesentienda. Sicut quaedam aues 
+      <lb ed="#A" n="9"/>cum frequenter garriunt indicant futuram tempestatem 
+      <lb ed="#A" n="10"/>Unde hirudines et grues vadunt ante hyemen de 
+      ter<lb ed="#A" n="11" break="no"/>ris vbi intensum frigus solet euenire. Hinc 
+      Hie<lb ed="#A" n="12" break="no"/>re. viii. Miluus in celo cognouit tempus suum. Tur 
+      <lb ed="#A" n="13"/>tur et hirundo et cyconia custodierunt tempus 
+      aduen<lb ed="#A" n="14" break="no"/>tus sui. Ista enim praedicere non est illicitum: cumipsi non 
+      <lb ed="#A" n="15"/>habeant animam rationalem sed sensitiuam. cuius omnes 
+      po<lb ed="#A" n="16" break="no"/>tentie sunt actus corporalium organorum. ideo subiacet eo 
+      <lb ed="#A" n="17"/>rum anima dispositioni celestium corporum
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e672">
+      ¶ Secundo quoque 
+      <lb ed="#A" n="18"/>est licitum in praefatis auium gestibus praedicere futura: 
+      <lb ed="#A" n="19"/>quando mouentur ad aliquid agendum motum angelico vel 
+      di<lb ed="#A" n="20" break="no"/>uino. Sicut fuit de coruo qui pauit Heliam. iii 
+      <lb ed="#A" n="21"/>Regum. xvii. Et de ceto qui deglutiuit Ionam et iterum 
+      <lb ed="#A" n="22"/>euomuit. Ione. i.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e685">
+      ¶ Tertio modo est illicitum de 
+      moti<lb ed="#A" n="23" break="no"/>bus auium futura praeicere in his ad quae eorum natura 
+      <lb ed="#A" n="24"/>nullo modo se extendit. sicut quidam dicunt: 
+      Pica<lb ed="#A" n="25" break="no"/>garrit: hospites aduenient. Taliter futura 
+      praedice<lb ed="#A" n="26" break="no"/>re diuina lege prohibemur. Dicitur enim Deutero. xviii. 
+      <lb ed="#A" n="27"/>Gentes iste quarum possidebitis terram augures 
+      <lb ed="#A" n="28"/>et diuinos audiunt. tu autem a domino deo tuo aliter 
+      <lb ed="#A" n="29"/>es institutus.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e703">
+      ¶ Quarto etiam modo est illicitum ex 
+      <lb ed="#A" n="30"/>his praedicere futura: cum talia fiunt operatione 
+      demo<lb ed="#A" n="31" break="no"/>num ex pacto facto cum auguribus. Ideo 
+      frequen<lb ed="#A" n="32" break="no"/>ter diaholus vtitur talibus motibus animalium ad 
+      dece<lb ed="#A" n="33" break="no"/>ptionem illorum qui talibus intendunt. Nam vt 
+      habe<lb ed="#A" n="34" break="no"/>tur in histo. Schol. Herodes agripa cum esset 
+      fho<lb ed="#A" n="35" break="no"/>me in carcere quidam augur dixit ei: Noli timere quia 
+      <lb ed="#A" n="36"/>cito liberaberis et sublimaberis. et in illa prosperita 
+      <lb ed="#A" n="37"/>te morieris. quod praesens bubo in arbore residens 
+      de<lb ed="#A" n="38" break="no"/>monstrat. Quancito autem huius generis animal super 
+      <lb ed="#A" n="39"/>e videris vltra quintum diem vuere non valebis. 
+      <lb ed="#A" n="40"/>Et ita factum fut. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e730">
+               <head xml:id="Vn7Pel-j46777-Hd1e732">7 (2)</head>
+               <p xml:id="Vn7Pel-j46777-d1e734">
+                  <lb ed="#A" n="41"/>Secunda species diuinationis dicitur 
+      <lb ed="#A" n="42"/>Aeremancia siue diuinatio facta ex aere: siue 
+      obi<lb ed="#A" n="43" break="no"/>seruatiotemporis vel diei. Ideo queritur. Utrum sit 
+      <lb ed="#A" n="44"/>licitum obseruare annos: menses et dies aut 
+      ho<lb ed="#A" n="45" break="no"/>ras ad exeundum de domo vel induendum nouas 
+      ve<lb ed="#A" n="46" break="no"/>stes et similia. Respondet textus decreti. xxvi. q. 
+      <lb ed="#A" n="47"/>vii. quod non licet. Dicit enim ibidem Augustinus. Non obserue 
+      <lb ed="#A" n="48"/>tis dies qui dicuntur egyptiaci aut Ralendas Ianua 
+      <lb ed="#A" n="49"/>rii. in quibus cantilene quaedam et comesationes et ad in 
+      <lb ed="#A" n="50"/>uicem donaria dantur quasi in principio anni boni 
+      fa<lb ed="#A" n="51" break="no"/>ti augurio. Aut aliquos menses aut tempora aut 
+      di<lb ed="#A" n="52" break="no"/>es aut annos aut lune solisque cursus. Quia qui has 
+      <lb ed="#A" n="53"/>aut quascumque diuinationes aut fata aut auguria 
+      <lb ed="#A" n="54"/>obseruat: aut attendit aut consentit obseruantibus 
+      inu<lb ed="#A" n="55" break="no"/>tiliter et sine causa magis ad damnationem quam 
+      salu<lb ed="#A" n="56" break="no"/>tem tendit. Ideo dicit apostolus Gal. iiii. Dies 
+      obs<lb ed="#A" n="57" break="no"/>uatis et menses et annos: timeo ne forte sine causa labo¬ 
+      <!--160.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>rauerim in vobis. Ubi dicit Lyra. quod dies 
+      egyptia<lb ed="#A" n="59" break="no"/>ci dicuntur. vel quia in illis diebus fuit egyptus 
+      plaga<lb ed="#A" n="60" break="no"/>ta. vel quia egyptii primo inuenerunt tales dies 
+      cauen<lb ed="#A" n="61" break="no"/>dos tanquam infaustos. Ueruntamem licet obseruare 
+      <lb ed="#A" n="62"/>tempus in quibus corpora celestia se extendunt. Ideo agrico 
+      <lb ed="#A" n="63"/>la potest obseruare tempus seminandi agrum. vel carpentari 
+      <lb ed="#A" n="64"/>us incidendi lignum: vt plus duret. vel physici in 
+      mi<lb ed="#A" n="65" break="no"/>nutione sanguinis et similum. Non tamen horam bonam ad 
+      <lb ed="#A" n="66"/>inchoandum iter. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e798">
+               <head xml:id="Vn7Pel-j46777-Hd1e800">8 (3)</head>
+               <p xml:id="Vn7Pel-j46777-d1e802">
+                  <lb ed="#A" n="67"/>¶ Tertia species diuinationis dicitur 
+      <lb ed="#A" n="68"/>Geomancia quasi diuinatio facta in terra. sicut 
+      illi<lb ed="#A" n="69" break="no"/>diuinant qui thesauros quaerunt in terra absconditos 
+      <lb ed="#A" n="70"/>in circulis et figuris se locantes
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e813">
+      ¶ Sed diceres 
+      <lb ed="#A" n="71"/>Unde prouenit quod in circulis virgines vel pueri vident 
+      <lb ed="#A" n="72"/>in speculis: patenis vel vnguibus thesauros 
+      abs<lb ed="#A" n="73" break="no"/>conditos in terra: Respondet sanctus Bonauen. in. ii dis. 
+      <lb ed="#A" n="74"/>vii. q. v. Quod non prouenit ex illis circulis vel speculis: sed 
+      <lb ed="#A" n="75"/>ex arte et comparatione diaboli: qui sic pepigit cum his 
+      <lb ed="#A" n="76"/>qui sunt ei familiares quod talia signa 
+      recognoscer<lb ed="#A" n="77" break="no"/>et ad talia se praesentem offerret Oostendit autem se 
+      per<lb ed="#A" n="78" break="no"/>illa cogi: vt ostendat aliquid esse virtutis in huiusmodi 
+      <lb ed="#A" n="79"/>artibus in quibus sunt multa nefanda. Per hoc 
+      abdu<lb ed="#A" n="80" break="no"/>citur homo a fide et a cultum diuino. nec facit hoc 
+      diabo<lb ed="#A" n="81" break="no"/>lus quia in illis delectetur: sed potius in infidelitate 
+      <lb ed="#A" n="82"/>id agentium. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e843">
+               <head xml:id="Vn7Pel-j46777-Hd1e845">9 (4)</head>
+               <p xml:id="Vn7Pel-j46777-d1e847">
+                  <lb ed="#A" n="83"/>¶ Utrum hominibus liceat vti 
+      mi<lb ed="#A" n="84" break="no"/>nisterio demonum: Respondetur quod vti ministerio demo 
+      <lb ed="#A" n="85"/>num potest intelligi dupliciter. Uno modo virtute diuina 
+      <lb ed="#A" n="86"/>ei praecipiendo. sicut Paulus Actus. xvi. imparauit spiritu ma 
+      <lb ed="#A" n="87"/>ligno exire a puella phitonissa. Alio modo familiari 
+      <lb ed="#A" n="88"/>ter inuocando. Et hoc modo est illicitum et in lege 
+      <lb ed="#A" n="89"/>prohibitum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e866">
+               <head xml:id="Vn7Pel-j46777-Hd1e868">10 (5)</head>
+               <p xml:id="Vn7Pel-j46777-d1e870">
+                  <lb ed="#A" n="90"/>¶ Quarta insuper species 
+      diuina<lb ed="#A" n="91" break="no"/>tionis dicitur Necromancia. a necros quod est mors et manm 
+      <lb ed="#A" n="92"/>tia diuinatio. quasi diuinatio quae fit ex ossibus mortuorum. 
+      <lb ed="#A" n="93"/>Aliquando elit per resuscitationem mortui praenunciant futura. sicut 
+      <lb ed="#A" n="94"/>phitonissa. i. Regum. xxviii. Ulr per ludificationem 
+      sen<lb ed="#A" n="95" break="no"/>suum praestigioses demonum apparitionibus aspectui vel 
+      au<lb ed="#A" n="96" break="no"/>ditui hominum se ingerentes. Et vocatur hec specis 
+      praestigi<lb ed="#A" n="97" break="no"/>um. eo quod oculi hominum praestringuntur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e892">
+               <head xml:id="Vn7Pel-j46777-Hd1e894">11 (6)</head>
+               <p xml:id="Vn7Pel-j46777-d1e896">
+                  <lb ed="#A" n="98"/>¶ Sed diceres cur deus talia 
+      fie<lb ed="#A" n="99" break="no"/>ri permittit: Respondet Aug. et habetu. xxvi. q. v. Nec mirum. 
+      <lb ed="#A" n="100"/>Quod hoc permittit deus vt illi qui hoc audiunt aut vident 
+      <lb ed="#A" n="101"/>probentur in qua fide sunt apud deum. Quod probat 
+      aucto<lb ed="#A" n="102" break="no"/>ritate Deutu. xiii. Si surrexerit in mediotui prophstatia: 
+      <lb ed="#A" n="103"/>autm qui somnium dicat se vidisse et praedixerit signum: et 
+      <lb ed="#A" n="104"/>euenerit quod locutus est. et dixerit tibi Camus et 
+      sequa<lb ed="#A" n="105" break="no"/>mur deos alienos: non audies verba eius. quia tentat vos 
+      <lb ed="#A" n="106"/>deus vester vt palam fiat vtrum diligatis eum 
+      <lb ed="#A" n="107"/>an non etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e921">
+               <head xml:id="Vn7Pel-j46777-Hd1e923">12 (7)</head>
+               <p xml:id="Vn7Pel-j46777-d1e925">
+                  <lb ed="#A" n="108"/>¶ Queritur vtrtum male fici possunt 
+      <lb ed="#A" n="109"/>uis maleficiis nocere: Respondet sanctus Tho. in. ii. 
+      <lb ed="#A" n="110"/>bist. vii. et viii. quod sic. Nam possunt elementa concutere 
+      <lb ed="#A" n="111"/>aerem conturbare: ac mentes hominum alienare et 
+      corpora<lb ed="#A" n="112" break="no"/>sedere: et temporalia bona perdere. sicut diabolus fecit ipsi. 
+      <!--161.xml-->
+      <pb ed="#A" n="162"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sop quotea piaginet ncurue onerncdiunt in fipaua 
+      <lb ed="#A" n="2"/>sibus et occidit filios et filias eius. et hoc si 
+      permit<lb ed="#A" n="3" break="no"/>tantur a deo. Dicit tamen Ioannes nyder in praeceptorio 
+      <lb ed="#A" n="4"/>Quod maleficus qui per aliqua signa exteriora 
+      exerce<lb ed="#A" n="5" break="no"/>sua maleficia: non facit illa per opera sua immediate 
+      <lb ed="#A" n="6"/>sed per demones. sicut quando malefica intingit scopam 
+      <lb ed="#A" n="7"/>in aquam vt fiat grando. talis intinctio non causat 
+      <lb ed="#A" n="8"/>grandinem: sed diabolus. si deus permiserit. similiter 
+      <lb ed="#A" n="9"/>quando malefica acum incuruat di. quamdiu acus sic stat 
+      <lb ed="#A" n="10"/>tamdiu talis non possit commire cum vxore. similiter quando 
+      <lb ed="#A" n="11"/>maleficus imaginem ceream pungit: tunc diabolus ma 
+      <lb ed="#A" n="12"/>leficiatum pungit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e972">
+               <head xml:id="Vn7Pel-j46777-Hd1e974">12 (8)</head>
+               <p xml:id="Vn7Pel-j46777-d1e976">
+                  <lb ed="#A" n="13"/>¶ Sed di. an sit licitum talia 
+      male<lb ed="#A" n="14" break="no"/>ficia per aliquod maleficium tollere: Responde scilicet Tho. 
+      <lb ed="#A" n="15"/>in. iiii. di. xxxiiii. quod nullo modo licet. quia secundum apostolum. 
+      <lb ed="#A" n="16"/>Non sunt facienda mala vt veniant bona. Unde licet 
+      <lb ed="#A" n="17"/>quis non posset inducere aliquem ad aliquod maleficium 
+      <lb ed="#A" n="18"/>faciendum. tamen si est aliquis dispositus actualiter facere 
+      ali<lb ed="#A" n="19" break="no"/>quod maleficium vt aliud destruat possum illo vti 
+      <lb ed="#A" n="20"/>ad bonum meum. potest etiam tolli per destructionem 
+      ma<lb ed="#A" n="21" break="no"/>leficii si scitur. quia eo destructo demodo non amplius 
+      <lb ed="#A" n="22"/>fatigaret. quia ex pacto non assistit nisi quamdiu durat 
+      <lb ed="#A" n="23"/>tale signum. Unde dicit Scotus ea. dicit quod nedum 
+      <lb ed="#A" n="24"/>non est peccatum imo meritorium destruere opera 
+      diabo<lb ed="#A" n="25" break="no"/>li: nec in hoc est infidelitas aliqua. quia destruens 
+      <lb ed="#A" n="26"/>non adquiescit operibus diaboli. sed credit demonem 
+      <lb ed="#A" n="27"/>posse vexare et velle fatigare dum tale signum durat: 
+      <lb ed="#A" n="28"/>et destructio signi talis imponit finem vexationi. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e1014">
+               <head xml:id="Vn7Pel-j46777-Hd1e1016">12 (9)</head>
+               <p xml:id="Vn7Pel-j46777-d1e1018">
+                  <lb ed="#A" n="29"/>¶ Sexta species diuinationis 
+      di<lb ed="#A" n="30" break="no"/>citur carminatio. et talium effectores dicuntur carmi 
+      <lb ed="#A" n="31"/>natores vel carminatrices: qui per verba conantur 
+      tol<lb ed="#A" n="32" break="no"/>lere maleficium seu conferre sanitatem.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e1029">
+      ¶ Sed 
+      dico<lb ed="#A" n="33" break="no"/>res vtrum liceat talibus vti: Respondet Augustinus de 
+      do<lb ed="#A" n="34" break="no"/>ctrina christiana. quod non: sic di. Ad superstitionem pertinent 
+      <lb ed="#A" n="35"/>volumina magicarum artium et ligature et remendia 
+      <lb ed="#A" n="36"/>que medicorum condemnat scientia: siue in praecationibus 
+      <lb ed="#A" n="37"/>siue in quibuscumque notis quas characteres vocant 
+      <lb ed="#A" n="38"/>siue in quibuscumque rebus suspendendis atque 
+      infigen<lb ed="#A" n="39" break="no"/>dis. Hec ille
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e1047">
+      ¶ Uerum est. quod si viri vel mulieres diceret 
+      <lb ed="#A" n="40"/>sacrreta verba super infirinum non essent reprehendende. 
+      <lb ed="#A" n="41"/>quia talia leguntur ex euangelio posse fieri. dicente 
+      <lb ed="#A" n="42"/>domino. Super egros manus imponent et bene 
+      ha<lb ed="#A" n="43" break="no"/>bebunt. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e1059">
+               <head xml:id="Vn7Pel-j46777-Hd1e1061">13 (10)</head>
+               <p xml:id="Vn7Pel-j46777-d1e1063">
+                  <lb ed="#A" n="44"/>¶ Utrum fascinationes a vetulis 
+      <lb ed="#A" n="45"/>habeant efficaciam in pueris: Respondet san. Tho. 
+      <lb ed="#A" n="46"/>ii. ii. q. xxxvi. quod non est illicitum cauere puerum ab oculo 
+      <lb ed="#A" n="47"/>fascinantis. Quam quidem fascinationem sic declarat. i 
+      <lb ed="#A" n="48"/>parte sum. q. cxvii. Ex forti inquit imaginationem 
+      <lb ed="#A" n="49"/>immutantur species corporis coniuncti: que quidem 
+      im<lb ed="#A" n="50" break="no"/>mutatio maxime fit in oculis ad quos spiritus 
+      sub<lb ed="#A" n="51" break="no"/>tiliores proueniunt. Oculi autem inficiunt aere continuum 
+      <lb ed="#A" n="52"/>vsque determinatum spacium in quo est puer. et ille 
+      aer<lb ed="#A" n="53" break="no"/>potest immutare oculos teneros pueri qui aspicitur. 
+      <lb ed="#A" n="54"/>et mediantibus oculis pueri: alias partes 
+      interio<lb ed="#A" n="55" break="no"/>res per quem modum specula si sint noua et pura: 
+      con<lb ed="#A" n="56" break="no"/>trahunt quandam impuritatem ex aspectu mulieris 
+      <!--161.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>menstruate. vt dicit Aristo libr de somno et vigilia. 
+      <lb ed="#A" n="58"/>Consimiliter vetule possunt inficere oculos pueri 
+      <lb ed="#A" n="59"/>sicut patet ad sensum quod egri oculi inficiunt sanos. 
+      prae<lb ed="#A" n="60" break="no"/>sertim si imaginentur se ledi. Predictis concordat 
+      quae<lb ed="#A" n="61" break="no"/>dam glo. super illud psalmus. Qui timent te videbunt me. 
+      <lb ed="#A" n="62"/>bi. Magna virtus in oculis est. quod in naturalibus 
+      ap<lb ed="#A" n="63" break="no"/>paret. Animal enim prodest ictericis. prior videns lupus 
+      <lb ed="#A" n="64"/>vocem aufert Basiliscus si prior videt occidit. si 
+      pri<lb ed="#A" n="65" break="no"/>or videtur occiditur. Quod vero imaginatio possit 
+      imu<lb ed="#A" n="66" break="no"/>tationes facere: sic probat Auicenna. vi. naturalium. 
+      li<lb ed="#A" n="67" break="no"/>bro. iiii. Quod aliquando homo potest ambulare supra trabem quae est 
+      <lb ed="#A" n="68"/>in medio vie. Si vero posita fuerit supra aquam 
+      profun<lb ed="#A" n="69" break="no"/>dam cadit de illa. eo quod forme cadendi immaginate in 
+      <lb ed="#A" n="70"/>anima vehementer impresse obedit materia et virtus 
+      men<lb ed="#A" n="71" break="no"/>hrorum tali imaginationi magis quam virtuti progressiue. 
+      <lb ed="#A" n="72"/>Sic a simili etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e1134">
+               <head xml:id="Vn7Pel-j46777-Hd1e1136">14 (11)</head>
+               <p xml:id="Vn7Pel-j46777-d1e1138">
+                  <lb ed="#A" n="73"/>¶ Septima species diuinationis 
+      di<lb ed="#A" n="74" break="no"/>citur matemancia id est diuinatiqo facta ex stellis. De quae 
+      <lb ed="#A" n="75"/>quaere supra. li. ii titulo Celum. iiii.
+     </p>
+               <p xml:id="Vn7Pel-j46777-d1e1147">
+      ¶ Queritur de quibusdam 
+      <lb ed="#A" n="76"/>mulieribus quae credunt se in nocte cum Diana dea 
+      pa<lb ed="#A" n="77" break="no"/>ganorum equitare. Respondet textus Decreti. xxvi. q. v. 
+      <lb ed="#A" n="78"/>ca. Epii. Quod non a diuino spiritu sed a maligno talia 
+      <lb ed="#A" n="79"/>phantasmata mentibus sceleratarum mulierum irrogantur. 
+      <lb ed="#A" n="80"/>Ideo sunt valde reprehendende tanquam seducte 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j46777-Dd1e1162">
+               <head xml:id="Vn7Pel-j46777-Hd1e1164">15 (12)</head>
+               <p xml:id="Vn7Pel-j46777-d1e1166">
+                  <lb ed="#A" n="81"/>¶ Octaua species diuinationis 
+      <lb ed="#A" n="82"/>dicitur diuinatio per somnia. Circa quam quaeritur: Utrum 
+      <lb ed="#A" n="83"/>aliquis in somniando possit praeuidere futura: Respondetur 
+      <lb ed="#A" n="84"/>quod secundum quod ad praesens pertinet Futurorum quintuplex est 
+      dif<lb ed="#A" n="85" break="no"/>ferentia. Quedam enim futura habet causam 
+      natura<lb ed="#A" n="86" break="no"/>lem in homine somniante. vt sunt illa quae proueniunt ex quibus 
+      <lb ed="#A" n="87"/>dam causis quae sunt in homine somniante. sicut febris 
+      <lb ed="#A" n="88"/>ex abundantia cholere nimis intense. et huiusmodi 
+      futu<lb ed="#A" n="89" break="no"/>ra praeuidentur in somniis. Aliquando per causam naturalem 
+      <lb ed="#A" n="90"/>et detrminatam. eo quod natura repraesentat in somniis anime 
+      <lb ed="#A" n="91"/>aliquas dispositiones quae sunt in corpore: ex quibus postea 
+      contim<lb ed="#A" n="92" break="no"/>git infirmitas vel aliquod aliud. Unde quando que contigit quod 
+      <lb ed="#A" n="93"/>in quo superabundat cholera nimis intensa reprentatur anime 
+      <lb ed="#A" n="94"/>in somnis imaginatio febris future. Unde Aristo. 
+      <lb ed="#A" n="95"/>libro de som. et vigi. dicit. Quod si somnia sunt ex his ex quibus 
+      <lb ed="#A" n="96"/>componimur: tunc sunt signa sanitatis vel infirmita 
+      <lb ed="#A" n="97"/>tis secundum eorum differentias. Ut si quis somniet de 
+      occu<lb ed="#A" n="98" break="no"/>pationibus igneis: signum est quod praedominatur in eo 
+      chole<lb ed="#A" n="99" break="no"/>ra. Si de occupationibus aeris vt de volatu: signum est 
+      <lb ed="#A" n="100"/>sanguinis. Si aquem vel alterius liquoris signum est 
+      fle<lb ed="#A" n="101" break="no"/>gmatis. Si de terreis: signum est melancholie. Et ideo 
+      <lb ed="#A" n="102"/>per somnia iuuantur medici ad cognoscendum dispositi 
+      <lb ed="#A" n="103"/>ones corporis. Et dicunt aliqui quod huiusmodi saonia sunt 
+      tantun<lb ed="#A" n="104" break="no"/>modo signa non cause accidentium futurorum in homine. 
+      <lb ed="#A" n="105"/>Quedam vero futura habent causam naturalem extra 
+      ho<lb ed="#A" n="106" break="no"/>minem somniantem. vt sunt illa quae proueniunt ex aliqua deter 
+      <lb ed="#A" n="107"/>minata influentia celestium corporum. vt nimia aeris 
+      sic<lb ed="#A" n="108" break="no"/>citas. vel abundantia imbrium et multa alia. Et huiusmodi 
+      <lb ed="#A" n="109"/>saoionia etiam quando quam praeuidentur in somnis per aliquam causaum 
+      <lb ed="#A" n="110"/>naturalem et determinatam. Quandoque enim influentia 
+      celi<lb ed="#A" n="111" break="no"/>et elementorum impressionem facit in corpore hominis: que 
+      reir<lb ed="#A" n="112" break="no"/>sentatur anime in somnis imago alicuius effectus 
+      <!--162.xml-->
+      <pb ed="#A" n="163"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>futuri extra hominem. sicut videmus etiam in formi 
+      <lb ed="#A" n="2"/>cis quae propter talem impressionem portant grana in 
+      cauer<lb ed="#A" n="3" break="no"/>nam antequam pluat. Et sic somnia erunt signa non caus 
+      <lb ed="#A" n="4"/>futurorum nec necessaria: sed contingenter. quia 
+      mu<lb ed="#A" n="5" break="no"/>ta possunt impedire tam ista quam prima. puta 
+      medi<lb ed="#A" n="6" break="no"/>cine et dispositio superior. Quedam autem futura habent 
+      <lb ed="#A" n="7"/>causam voluntariam in homine somniante. vt sunt illa 
+      <lb ed="#A" n="8"/>que dependent ex opere ipsius somniantis. et hec sunt 
+      <lb ed="#A" n="9"/>a casu nisi habeantur per reuelationem. sicut cum quis 
+      ali<lb ed="#A" n="10" break="no"/>quando somniat quod est voluntarie facturus quod tantum facere 
+      <lb ed="#A" n="11"/>cogitauerat. et diligenter inuestigando modum illius 
+      <lb ed="#A" n="12"/>non inuenerat: et in tali sollicitudine obdormierat 
+      <lb ed="#A" n="13"/>Quedam futura sunt quae per aliquam causam 
+      determi<lb ed="#A" n="14" break="no"/>natam ex voluntate creata pruidentur. vt cum homo 
+      mul<lb ed="#A" n="15" break="no"/>tum in vigilia de aliquo non potens cognoscere quomodo 
+      <lb ed="#A" n="16"/>perficiat: aliquando somniando prauidebit propter sedatione 
+      <lb ed="#A" n="17"/>motuum exteriorum et interiorum. Quedam denique 
+      futu<lb ed="#A" n="18" break="no"/>ra sunt que habent causam voluntariam in aliis 
+      ho<lb ed="#A" n="19" break="no"/>minibus a somniante. vt scilicet illa somniat qui alii facere 
+      <lb ed="#A" n="20"/>disposuerunt. et talia praeuidere non possunt in somnis 
+      <lb ed="#A" n="21"/>per aliquam causam naturalem. sed si quis illa somniat 
+      <lb ed="#A" n="22"/>hoc est a casu. ideo talia dicuntur a casu per accidens 
+      <lb ed="#A" n="23"/>secundum Philosophum de somno et vigilia. et hec sunt a 
+      diabo<lb ed="#A" n="24" break="no"/>lo vt plurimum: vt decipiat fidem adhibentem. vel 
+      ali<lb ed="#A" n="25" break="no"/>quando a deo vel a sanctis angelis. quia tunc sunt 
+      ma<lb ed="#A" n="26" break="no"/>gis dispositi ad recipiendum reuelationem. sicut Mat. 
+      <lb ed="#A" n="27"/>ii. tribus regibus fuerat reuelatum per angelum ne 
+      redi<lb ed="#A" n="28" break="no"/>rent ad Herodem. Quaproptr vt dicit Philosophus de 
+      so<lb ed="#A" n="29" break="no"/>mno et vigilia. Somnia non debemus omnino 
+      con<lb ed="#A" n="30" break="no"/>tennere: nec omnino de eis curare. eo quod sicut dicit 
+      Aui<lb ed="#A" n="31" break="no"/>cenna. vi. naturalium. lib. iiii. Non omia somnia sunt 
+      <lb ed="#A" n="32"/>vera. His concordat scriptura sacra: quae 
+      quandoque<lb ed="#A" n="33" break="no"/>hibet attendere somniis: quandoque approbat attendere 
+      <lb ed="#A" n="34"/>visionibus que fiunt in somniis. vt dicit Rich. et secundum 
+      <lb ed="#A" n="35"/>san. Tho. ii. ii. q. xcv. articulo. vi. Si quis vtatur so 
+      <lb ed="#A" n="36"/>mniis ad cognoscenda futura scilicet quod somnia procedant 
+      <lb ed="#A" n="37"/>ex reuelatione diuina: vel ex naturali causa 
+      intrin<lb ed="#A" n="38" break="no"/>seca vel extrinseca: quantum se potest extendere. talis 
+      <lb ed="#A" n="39"/>virtus non erit illicita diuinatio. Si autem huiusmodi 
+      di<lb ed="#A" n="40" break="no"/>uinatio causetur ex reuelatione demonum cum quibus 
+      he<lb ed="#A" n="41" break="no"/>bentur pacta expressa vel occulta. vel quia ad hoc 
+      in<lb ed="#A" n="42" break="no"/>uocantur. vel quia huiusmodi diuinatio extenditur ad 
+      il<lb ed="#A" n="43" break="no"/>lud ad quod se non potest extendere: erit diuinatio 
+      supersti<lb ed="#A" n="44" break="no"/>ciosa et illicita. prohibetur ergo curiosa somniorum 
+      obser<lb ed="#A" n="45" break="no"/>uatio: quoniam difficile est cogscere quando accidunt ex 
+      cau<lb ed="#A" n="46" break="no"/>sis naturalibus vel supernaturalibus. vel quando ab 
+      angel<lb ed="#A" n="47" break="no"/>bonis vel malis. Ideo dicitur Ecci. xxxiiii. Multos 
+      er<lb ed="#A" n="48" break="no"/>rare fecerunt somnia et exciderut sperantes in illis. 
+      <lb ed="#A" n="49"/>Et Leui. xix. Non obseruabis somnia etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

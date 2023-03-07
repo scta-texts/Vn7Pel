@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adam</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Adam</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="12"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j14444">
+            <head xml:id="Vn7Pel-j14444-Hd1e110">Adam</head>
+            <p xml:id="Vn7Pel-j14444-d1e112">
+               <lb ed="#A" n="79"/>Adam Quod deus 
+      pre<lb ed="#A" n="80" break="no"/>dilexit genus Adam
+     </p>
+            <p xml:id="Vn7Pel-j14444-d1e119">
+      ¶ Primo sibi 
+      <lb ed="#A" n="81"/>vnire preeligendo. 
+      </p>
+            <div xml:id="Vn7Pel-j14444-Dd1e124">
+               <head xml:id="Vn7Pel-j14444-Hd1e126">1</head>
+               <p xml:id="Vn7Pel-j14444-d1e128">
+                  <lb ed="#A" n="82"/>¶ Queritur ergo Utrum natura 
+      <lb ed="#A" n="83"/>humana generis Ade sit prae aliis deo vnibilis: Ad hoc 
+      <lb ed="#A" n="84"/>Notandum est pro praeambulo quod secundum Rayne. in sum. Ex quo 
+      <lb ed="#A" n="85"/>vnibile dicitur quod potest vniri: distinguendum est de 
+      poten<lb ed="#A" n="86" break="no"/>tia scilicet Uel ex parte dei. Uel creature. Primo ex parte 
+      <lb ed="#A" n="87"/>dei duplex distinguitur potentia scilicet Absoluta et 
+      Ordi<lb ed="#A" n="88" break="no"/>nata: vt patuit late li. i. Modo potentia ordinata dei 
+      <lb ed="#A" n="89"/>dicitur per respectum ad voluntatem et rationem: hoc est quando deo 
+      <lb ed="#A" n="90"/>attribuitur aliquid quod sapientia sua habet et vult 
+      fa<lb ed="#A" n="91" break="no"/>cere: tunc dicitur deus posse illud secundum potentiam ordinatam. Quando 
+      <lb ed="#A" n="92"/>autem potentia extenditur ad illud quod deo attribuatur 
+      pos<lb ed="#A" n="93" break="no"/>se aliquid quod non habet eius sapienia et voluntas vt ita 
+      fi<lb ed="#A" n="94" break="no"/>at: tunc dicitur posse illud de potestia absoluta. Hec 
+      <lb ed="#A" n="95"/>etiam Tho. iii. scrip. di i. ar. iii
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e161">
+      ¶ Item ex parte creature 
+      <lb ed="#A" n="96"/>etiam potentia est duplex. Una dicitur Naturalis: et illa 
+      <lb ed="#A" n="97"/>actiua vel passiua. Alia dicitur Obedientialis secundum quam de 
+      <lb ed="#A" n="98"/>creatura potest fieri quicquid deus vult vel potest facere. 
+      si<lb ed="#A" n="99" break="no"/>cuti ex ligno potest fieri vitulus deo operante etc. 
+      </p>
+               <p xml:id="Vn7Pel-j14444-d1e172">
+                  <lb ed="#A" n="100"/>¶ Ad quesitum itaque Prima conclusio ponitur: Quod 
+      <lb ed="#A" n="101"/>deus loquendo de potetia sua absoluta potest sibi 
+      vni<lb ed="#A" n="102" break="no"/>re vel assumere quamcumque naturam quam vult. Et patet 
+      <lb ed="#A" n="103"/>ex praenotatis. quia dei potentia est infinita cui obedire 
+      <lb ed="#A" n="104"/>habent omnia creata Unde omnis creatura est eque vnibilis secundum 
+      po<lb ed="#A" n="105" break="no"/>tentiam dei absolutam. secus secundum ordinatam: secundum quam vna 
+      <lb ed="#A" n="106"/>creatura est magis vnibils quam alia
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e190">
+      ¶ Item de potentia 
+      cre<lb ed="#A" n="107" break="no"/>ature naturali nulla quaestio est. quia constat quod sola 
+      poten<lb ed="#A" n="108" break="no"/>tia dei potest facere vt infinite distantia iungantur 
+      vni<lb ed="#A" n="109" break="no"/>tate persone.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e200">
+      ¶ Secunda conclusio quod ordinata potentia 
+      <lb ed="#A" n="110"/>nulla alia natura tam congruenter fuit deo vnibilis sicut 
+      <lb ed="#A" n="111"/>humana. Probatur secundum e. Rayne. quia in natura quae debet 
+      <lb ed="#A" n="112"/>vniri deo consideratur dignitas et necessitas. Digni¬ 
+      <!--12.xml-->
+      <pb ed="#A" n="13"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tas quidem vt possit deum attingere cognosendo et 
+      aman<lb ed="#A" n="2" break="no"/>do: quod est solius rationalis nature. et sic excluditur 
+      irratio<lb ed="#A" n="3" break="no"/>nalis. Necessitas autem quia indiget redemptione a peccato 
+      <lb ed="#A" n="4"/>originali. Et hoc non est angeli sed hominis. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e224">
+      ¶ 
+      Ter<lb ed="#A" n="5" break="no"/>tia conclusio Quod magis erat deo vnibilis humana quam 
+      <lb ed="#A" n="6"/>angelica natura de potentia dei ordinata. Probatur 
+      <lb ed="#A" n="7"/>secundum Guill. in. iii. di. ii. et Bonauen. ibidem ar. i. ac 
+      <lb ed="#A" n="8"/>Tho.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e235">
+      ¶ Primo ratione similitudinis. quia in homine est 
+      ma<lb ed="#A" n="9" break="no"/>ior similitudo ad deum quam in angelo. Declaratur. quia licet 
+      an<lb ed="#A" n="10" break="no"/>gelus sit deo similior in naturalibus eo quod est spiritus sicut et 
+      <lb ed="#A" n="11"/>deus. tamen exquo hec vnio est ex dei charitate et gratia: 
+      dicen<lb ed="#A" n="12" break="no"/>te Aug. xiii. de trini. In rebus inquit per tempus ortis summa 
+      <lb ed="#A" n="13"/>gratia est quod deus homini in vnitate persone copulatur
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e248">
+      ¶ Ideo 
+      <lb ed="#A" n="14"/>in proposito plus pensanda est similitudo gratuite vnioni 
+      <lb ed="#A" n="15"/>apta. ergo Heb. ii. Nusquam angelos apprehendit: sed 
+      se<lb ed="#A" n="16" break="no"/>men Abrae. Precellit quippe homo angelum in simlitudine. 
+      <lb ed="#A" n="17"/>Tum quia sicut deus est in personis per relationes originis 
+      distin<lb ed="#A" n="18" break="no"/>ctis: sic in hominibus sunt distincte persone secundum relationes 
+      <lb ed="#A" n="19"/>originis scilicet esse ab alio et a quio alius
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e264">
+      ¶ In angelis autem est 
+      <lb ed="#A" n="20"/>quidem persona sed non secundum originem distincta. quia vnus 
+      an<lb ed="#A" n="21" break="no"/>gelus non trahit originem ab alio. Tum quia sicut deus 
+      gu<lb ed="#A" n="22" break="no"/>bernat mundum existens in toto et omnibus rebus per essentiam: 
+      <lb ed="#A" n="23"/>praesentiam: et potentiam: Sic anima est in toto et qualibet parte 
+      <lb ed="#A" n="24"/>corporis gubernans: non autem angelus
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e277">
+      ¶ Secundo magis 
+      <lb ed="#A" n="25"/>decebat hominem vniri deo quam angelum ratione communicationis. 
+      <lb ed="#A" n="26"/>quia homo magis communicat cum omnibus creaturis. vt dicit Greg. vnde 
+      <lb ed="#A" n="27"/>et dicitur minor mundus. Ideo homine ipso restaurato quodam 
+      <lb ed="#A" n="28"/>modo omnia sunt restaurata. Etiam angelica ruina ex 
+      homini<lb ed="#A" n="29" break="no"/>bus reparatur.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e291">
+      ¶ Tertio ratione finis. Nam duplex est 
+      fi<lb ed="#A" n="30" break="no"/>nis incarnationis secundum doc. Unus est perfectio vniuersi 
+      <lb ed="#A" n="31"/>Et quantum ad hoc magis debuit homo deo vniri: quia est 
+      fi<lb ed="#A" n="32" break="no"/>nis creaturarum. Nam propter hominem facta sunt omnia: vt 
+      <lb ed="#A" n="33"/>patuit li. ii. Et quia homo vltimo creatus cum deo vnitur tunc 
+      <lb ed="#A" n="34"/>vltimum coniungitur principio per modum quasi circuli 
+      perfe<lb ed="#A" n="35" break="no"/>eti. Et ita in hoc est perfectio vniuersi. Alius finis 
+      <lb ed="#A" n="36"/>incarnationis est a peccato liberare. Et hoc magis 
+      con<lb ed="#A" n="37" break="no"/>uenit homini quam angelo: vt patebit
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e311">
+      ¶ Quarto ratione pie 
+      <lb ed="#A" n="38"/>dilectionis. Magis enim pia apparuit dilectio 
+      chari<lb ed="#A" n="39" break="no"/>tatis vniendo hominem quam angelum. Tum quia homo magis 
+      <lb ed="#A" n="40"/>indigebat: eo quod tota natura humana fuit corrupta. 
+      <lb ed="#A" n="41"/>ergo pium erat reparari ne tota periret in damnationem. 
+      Ange<lb ed="#A" n="42" break="no"/>lica autem natura non tota perierat. Tum quia homo non 
+      pec<lb ed="#A" n="43" break="no"/>cauerat irremediabiliter: sed poterat penitere. 
+      An<lb ed="#A" n="44" break="no"/>gelus autem non. ergo etc. Tum quia homo excusabilior erat: eo 
+      <lb ed="#A" n="45"/>quod non tam scienter peccauit sicut angelus. Et in 
+      ali<lb ed="#A" n="46" break="no"/>quo deceptus est homo quia de venia cogitauit. 
+      <lb ed="#A" n="47"/>Tum quia angelus primus nullo suggerente peccauit 
+      <lb ed="#A" n="48"/>ex electione et obstinatus permansit in malicia. Non 
+      <lb ed="#A" n="49"/>autem diabolo suggerente peccauit. Unde decebat vt 
+      <lb ed="#A" n="50"/>diuina pietas ex charitate immensa magis 
+      exhibe<lb ed="#A" n="51" break="no"/>retur homini quam angelo. O ergo homo vide quam maxime 
+      tene<lb ed="#A" n="52" break="no"/>ris deum diligere pro tanta charitate pre angelis 
+      <lb ed="#A" n="53"/>quibus praetulit te. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e349">
+               <head xml:id="Vn7Pel-j14444-Hd1e351">2</head>
+               <p xml:id="Vn7Pel-j14444-d1e353">
+                  <lb ed="#A" n="54"/>¶ Sed vtrum eque sicut homo 
+      irra<lb ed="#A" n="55" break="no"/>tionalis natura potuit vniri deo: De hoc 
+      Bona<lb ed="#A" n="56" break="no"/>uentura videtur dicere quod non. Sed melius dicendum 
+      <lb ed="#A" n="57"/>secundum Guill. e. di. ii. et Scotis. ponendo conclusiones. 
+      <!--12.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+               <p xml:id="Vn7Pel-j14444-d1e369">
+                  <lb ed="#A" n="58"/>¶ Prima conclusio Quod deus absoluta sua 
+      po<lb ed="#A" n="59" break="no"/>tentia immensa potuit eque irrationalem 
+      assume<lb ed="#A" n="60" break="no"/>re. Sed ordinata potentia conuenientius praeelegit hominem 
+      <lb ed="#A" n="61"/>ex charitate. Probatur medio doc. subti. e. di. ii. q. i. 
+      <lb ed="#A" n="62"/>quia id a diuino verbo est assumptibile quod non habet 
+      <lb ed="#A" n="63"/>entitatem repugnantem tali vnioni. Sed sic est de 
+      ir<lb ed="#A" n="64" break="no"/>rationalibus. ergo etc. Minor probatur. quia 
+      irra<lb ed="#A" n="65" break="no"/>tionalia habent rationem suppositi. et diuinum 
+      suppo<lb ed="#A" n="66" break="no"/>situm continet perfectionem omnis creature. ergo potest 
+      sup<lb ed="#A" n="67" break="no"/>plere vicem suppositi nature cuiuscunque. Item 
+      crea<lb ed="#A" n="68" break="no"/>tura rationalis eque est sub absoluta potentia 
+      obe<lb ed="#A" n="69" break="no"/>dientiali. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e398">
+      ¶ Si dicatur.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e400">
+      ¶ Repugnantia est ex 
+      <lb ed="#A" n="70"/>communicatione idiomatum: quia non potest dici: 
+      de<lb ed="#A" n="71" break="no"/>us est asinus vel leo et huiusmodi. Dicendum inquit Guill. 
+      <lb ed="#A" n="72"/>quod hec est valde grossa imaginatio. quia talis 
+      praedi<lb ed="#A" n="73" break="no"/>catio non afferret deo imperfectionem: cum totum sit extra. 
+      <lb ed="#A" n="74"/>sicut dicere deum mortuum.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e414">
+      ¶ Confirmatur secundum 
+      Sco<lb ed="#A" n="75" break="no"/>torlis. quia corpus mortuum non est natura rationalis. sed in 
+      <lb ed="#A" n="76"/>triduo corpus christi mortuum vere fuit deitati vnitum. 
+      <lb ed="#A" n="77"/>ergo non repugnat deo vniri nature irrationali.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e423">
+      ¶ Quod si 
+      <lb ed="#A" n="78"/>quaeratur Ad quam vnionem tunc assumeretur natura irrationalis. 
+      <lb ed="#A" n="79"/>Dicit idem Guill. quod ad vnionem quidem hypostaticam: sed non 
+      <lb ed="#A" n="80"/>personalem. quia personalitas conuenit solum nature rationali. 
+      <lb ed="#A" n="81"/>Unde licet ex parte verbi diui eadem sit realitas qua extat 
+      sup<lb ed="#A" n="82" break="no"/>positum et persona. sed ex parte vnitorum sufficit distinctio 
+      <lb ed="#A" n="83"/>vt vnum vniatur in vnionem personalem: et reliquum in 
+      vnio<lb ed="#A" n="84" break="no"/>nem hypostaticam: sicut sunt irrationalia. aut indiuidualem 
+      <lb ed="#A" n="85"/>solum sicut sunt accidentia: si diuino verbo sequestrata 
+      infor<lb ed="#A" n="86" break="no"/>matione vnirentur. Nam fundamenta distincta 
+      suffi<lb ed="#A" n="87" break="no"/>ciunt ad variationem relationum: licet terminus idem 
+      <lb ed="#A" n="88"/>sit. Unde mira dei charitas claret ad hominem in 
+      <lb ed="#A" n="89"/>hoc quod cum potuisset absoluta potentia aliam 
+      natu<lb ed="#A" n="90" break="no"/>ram assumpsisse: tamen pre omnibus etiam angelis ex immensa 
+      <lb ed="#A" n="91"/>et liberali charitate humanam naturam ex Adam assumpsit 
+      </p>
+               <p xml:id="Vn7Pel-j14444-d1e456">
+                  <lb ed="#A" n="92"/>¶ Secunda conclusio Quod vniuersum licet secundum 
+      sta<lb ed="#A" n="93" break="no"/>tum praesentem non sit deo vnibile: tamen remotis omnibus 
+      <lb ed="#A" n="94"/>malis esset assumptibile dei immensa potestate. 
+      Pro<lb ed="#A" n="95" break="no"/>batur conclusio secundum praemissos Scotis. quia in presenti 
+      <lb ed="#A" n="96"/>statu vniuersi multa sunt mala tam pene quam culpe 
+      <lb ed="#A" n="97"/>que repugnant tante vnioni diuine: et maxime 
+      ma<lb ed="#A" n="98" break="no"/>la culpe. Illis autem remotis non occurrit ratio quare 
+      <lb ed="#A" n="99"/>deus sua potentia absoluta immensa non posset sibi 
+      <lb ed="#A" n="100"/>vnire omne creatum: cum dicat Augustinus contra 
+      Uolusi<lb ed="#A" n="101" break="no"/>anum quod in talibus rebus mirabilibus tota ratio facti 
+      <lb ed="#A" n="102"/>est potentia facientis.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e482">
+      ¶ Si dicatur quod Aug. li. de 
+      spi<lb ed="#A" n="103" break="no"/>ritu et anima dicit. Deus assumpsit hominem inquit: quia 
+      <lb ed="#A" n="104"/>est ad imaginem dei. sed ad imaginem dei non est 
+      irra<lb ed="#A" n="105" break="no"/>tionalis vel inferior creatura. ergo etc. Dicit Scotorlis. 
+      <lb ed="#A" n="106"/>e. di. ii. quod Augustinus loquitur de congruo. quia 
+      congruen<lb ed="#A" n="107" break="no"/>tius est quod deus assumpserit naturam rationalem 
+      <lb ed="#A" n="108"/>quam aliam. sed per hoc non negat quin potentia 
+      ab<lb ed="#A" n="109" break="no"/>soluta potuerit assumere quamcunque aliam 
+      natu<lb ed="#A" n="110" break="no"/>ram. quia omnis natura est in potentia obedientiali eque 
+      <lb ed="#A" n="111"/>sicut rationalis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e506">
+               <head xml:id="Vn7Pel-j14444-Hd1e508">3</head>
+               <p xml:id="Vn7Pel-j14444-d1e510">
+                  <lb ed="#A" n="112"/>¶ Sed adhuc difficultas restat: 
+      <lb ed="#A" n="113"/>Quia alia natura praeter rationalem non est capax 
+      <lb ed="#A" n="114"/>gratie nec habet appetitum ad huiusmodi assumptio¬ 
+      <!--13.xml-->
+      <pb ed="#A" n="14"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>nem. ergo non videtur quod possit a deo assumi. Tum 
+      <lb ed="#A" n="2"/>quia talis assumptio est maxima vnio que 
+      requi<lb ed="#A" n="3" break="no"/>rit maximam dispositionem per gratiam diuinam quae non 
+      <lb ed="#A" n="4"/>potest fieri sine appetitu anime
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e534">
+      ¶ Tum etiam quia 
+      na<lb ed="#A" n="5" break="no"/>ture que non est rationalis repugnat fruitio et vnio 
+      <lb ed="#A" n="6"/>beatifica que est minor vnione hypostatica. ergo 
+      <lb ed="#A" n="7"/>et vnio hypostatica. Tum denique quia in tali vnione 
+      <lb ed="#A" n="8"/>deberet esse communicatio idiomatum: ideo quia due 
+      <lb ed="#A" n="9"/>nature sunt in eodem supposito: propter quod sicut 
+      <lb ed="#A" n="10"/>dicitur deus homo: ita posset dici deus est lapis vel 
+      <lb ed="#A" n="11"/>asinus: que sunt absurda. Respondetur secundum Scotorlis. 
+      <lb ed="#A" n="12"/>e. di. ii. li. iii. q. iii. quod quando est vnio per inherentiam 
+      <lb ed="#A" n="13"/>tunc vbi est maior vnio requiritur maior dispositio 
+      <lb ed="#A" n="14"/>Sed ista vnio que est nature assumpte ad deum 
+      <lb ed="#A" n="15"/>non est per inherentiam: sed per quendam illapsum 
+      <lb ed="#A" n="16"/>specialem. ideo bene de congruo competit nature 
+      ra<lb ed="#A" n="17" break="no"/>tionali et requirit maximam dispositionem per gratiam et 
+      <lb ed="#A" n="18"/>appetitum ad talem assumptionem. Tamen his non 
+      ob<lb ed="#A" n="19" break="no"/>stantibus loquendo de potentia dei absoluta 
+      cer<lb ed="#A" n="20" break="no"/>tum est quod natura irrationalis eque sicut et 
+      rationa<lb ed="#A" n="21" break="no"/>lis est in potentia per obedientialem potentiam ad 
+      ta<lb ed="#A" n="22" break="no"/>lem perfectionem assumptionis. Certum est etiam quod 
+      <lb ed="#A" n="23"/>independens inquantum independens: sicut est 
+      suppo<lb ed="#A" n="24" break="no"/>situm diuinum: potest terminare dependentiam 
+      al<lb ed="#A" n="25" break="no"/>terius ad ipsum. Et quia natura rationalis et 
+      ir<lb ed="#A" n="26" break="no"/>rationalis habent similem modum dependendi. ergo 
+      <lb ed="#A" n="27"/>sicut illa sic et ista potest assumi de potentia dei 
+      ab<lb ed="#A" n="28" break="no"/>soluta. Quod etiam obiicitur quod natura irrationalis non 
+      <lb ed="#A" n="29"/>habet appetitum ad illam assumptionem. Dicendum 
+      <lb ed="#A" n="30"/>quod natura habet appetitum ad omne id quod potest terminare eius 
+      <lb ed="#A" n="31"/>dependentiam. Et quia suppositum diuinum potest terminare 
+      <lb ed="#A" n="32"/>dependentiam cuiuslibet nature: ideo quaelibet natura si 
+      <lb ed="#A" n="33"/>esset supposito priuata haberet appetitum ad istam. 
+      <lb ed="#A" n="34"/>Si dicatur. Talis appetitus esset frustra cum 
+      nun<lb ed="#A" n="35" break="no"/>quam reducatur ad actum. Dicendum quod non est frustra. 
+      <lb ed="#A" n="36"/>quia licet non reducatur ad actum: tamen est 
+      reducibi<lb ed="#A" n="37" break="no"/>lis ex potentia dei absoluta
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e608">
+      ¶ Ad illud etiam quod 
+      <lb ed="#A" n="38"/>dicitur quia nature que non est rationalis repugnat 
+      <lb ed="#A" n="39"/>minus scilicet fruitio et vnio beatifica: ergo et maius 
+      <lb ed="#A" n="40"/>scilicet hypostatica Dicendum inquit quod non valet 
+      argu<lb ed="#A" n="41" break="no"/>mentum. quia iste due vniones. videlicet qua anima 
+      vni<lb ed="#A" n="42" break="no"/>tur deo per gratiam ac gloriam fruitionis: et qua 
+      na<lb ed="#A" n="43" break="no"/>tura aliqua vnitur deo hypostatice non sunt 
+      eius<lb ed="#A" n="44" break="no"/>dem rationis. Ideoque non sequitur: Nature 
+      irrationa<lb ed="#A" n="45" break="no"/>li repugnat vnio beatifica: ergo et hypostatica. quia 
+      <lb ed="#A" n="46"/>vnio beatifica non potest esse nisi in potentia 
+      ani<lb ed="#A" n="47" break="no"/>me quae est apta nata frui. sed vnio hypostatica potest 
+      <lb ed="#A" n="48"/>esse etiam in alia.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e634">
+      ¶ Sed an tunc fieret 
+      communica<lb ed="#A" n="49" break="no"/>tio idiomatum vt obiiciebatur vltimo Aliqui dicunt 
+      <lb ed="#A" n="50"/>quod fieret. quia ex hoc nulla imperfectio poneretur in 
+      <lb ed="#A" n="51"/>deo: cum totum sit extra. Alii dicunt quod non 
+      opor<lb ed="#A" n="52" break="no"/>teret fieri: quia deus in triduo vniebatur corpori 
+      mor<lb ed="#A" n="53" break="no"/>tuo: et tamen non dicebatur: deus est corpus. Nec 
+      <lb ed="#A" n="54"/>obstat quod bene dicitur verbum caro factum est: 
+      <lb ed="#A" n="55"/>capiendo carnem pro natura humana: vt alibi 
+      pa<lb ed="#A" n="56" break="no"/>tebit. Require vbi Assumptio. § 21. 
+      </p>
+               <p xml:id="Vn7Pel-j14444-d1e655">
+                  <lb ed="#A" n="57"/>¶ Secundo deus predilexit ge¬ 
+      <!--13.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>nus Adam sic assumendo vt frueretur deo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e667">
+               <head xml:id="Vn7Pel-j14444-Hd1e669">4</head>
+               <p xml:id="Vn7Pel-j14444-d1e671">
+                  <lb ed="#A" n="59"/>¶ Utrum deus possit assumere 
+      na<lb ed="#A" n="60" break="no"/>turam rationalem Ade sic quod non frueretur deo: De hoc 
+      <lb ed="#A" n="61"/>vna opinio dicit quod non est possibile vt deus 
+      assu<lb ed="#A" n="62" break="no"/>mat naturam humanam vel rationalem et non fruatur 
+      <lb ed="#A" n="63"/>deo. quia ibi est obiectum beatitudinis perfecte 
+      prae<lb ed="#A" n="64" break="no"/>sens et potentia disposita. ergo necessario sequitur 
+      <lb ed="#A" n="65"/>fruitio. Item quia si hoc esset possibile: tunc talis 
+      <lb ed="#A" n="66"/>natura posset peccare et demereri et per consequens 
+      <lb ed="#A" n="67"/>damnari. Et sic homo assumptus a deo 
+      hypostati<lb ed="#A" n="68" break="no"/>ce posset damnari atque deus posset peccare secundum 
+      con<lb ed="#A" n="69" break="no"/>sequntiam per communicationem idiomatum. Denique idem 
+      <lb ed="#A" n="70"/>suppositum esset fruens vt diuinum: et non fruens quo 
+      <lb ed="#A" n="71"/>ad assumptam naturam. et sic contradictoria essent in 
+      <lb ed="#A" n="72"/>eodem supposito etc. Sed in oppositum est. quia deus 
+      <lb ed="#A" n="73"/>potest assumere naturam irrationalem: vt in 
+      praecedenti<lb ed="#A" n="74" break="no"/>bus dictum est. et tamen illa non frueretur deo. ergo etc. 
+      <lb ed="#A" n="75"/>Sed hec opinio non placet Scotistis.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e710">
+      ¶ Et ad 
+      pri<lb ed="#A" n="76" break="no"/>mum argumentum cum dicitur quod obiectum est praesens et 
+      <lb ed="#A" n="77"/>potentia disposita: ergo necessario sequitur fruitio 
+      Di<lb ed="#A" n="78" break="no"/>cendum cum Scotorl. e. di. ii. li. iii. q. ii quod hec ratio 
+      <lb ed="#A" n="79"/>non valet. quia in proposito obiectum non necessario 
+      <lb ed="#A" n="80"/>causat: et voluntas non est potentia naturalis sed 
+      <lb ed="#A" n="81"/>libera. ergo non sequitur.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e726">
+      ¶ Ad secundum dicit idem quod 
+      <lb ed="#A" n="82"/>natura illa sic assumpta quamuis non frueretur: tamen 
+      <lb ed="#A" n="83"/>non peccaret: quia esset confirmata in gratia. sicut 
+      be<lb ed="#A" n="84" break="no"/>ata Maria fuit confirmata in gratia: et ideo 
+      nun<lb ed="#A" n="85" break="no"/>quam peccauit. Aliter etiam potest dici quod sicut deus est 
+      <lb ed="#A" n="86"/>per communem illapsum in rebus deformatis per peccatum: 
+      <lb ed="#A" n="87"/>et tamen ipse in nullo deformatur. Sic deus per 
+      <lb ed="#A" n="88"/>istum illapsum specialem esset in natura deformata: 
+      <lb ed="#A" n="89"/>et tamen nulla esset deformatio in deo. sicut et deus 
+      <lb ed="#A" n="90"/>assumpsit immortalis naturam mortalem. Sed prima 
+      <lb ed="#A" n="91"/>solutio est melior.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e750">
+      ¶ Ad tertium dicit quod contradictoria 
+      <lb ed="#A" n="92"/>possunt esse in eodem supposito non secundum idem: sed secundum 
+      <lb ed="#A" n="93"/>diuersas naturas. Et sic esset in proposito. quia diceretur 
+      <lb ed="#A" n="94"/>fruens secundum diuinam: et non fruens secundum assumptam 
+      natu<lb ed="#A" n="95" break="no"/>ram.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e762">
+      ¶ Alia ergo est opinio quam teneo cum 
+      Sco<lb ed="#A" n="96" break="no"/>tistis quod deus de potentia absoluta potuisset 
+      assu<lb ed="#A" n="97" break="no"/>mere naturam rationalem sic quod non frueretur deo. Ratio 
+      <lb ed="#A" n="98"/>quia prius potest separari a posteriori. Sed esse est 
+      <lb ed="#A" n="99"/>prius quam operari: ergo potest esse separari ab operatione. Et 
+      <lb ed="#A" n="100"/>quia assumptio est ad esse. et fruitio est operatio. ergo potest 
+      <lb ed="#A" n="101"/>esse assumptio et non sequi fruitio. Item assumptio 
+      <lb ed="#A" n="102"/>et fruitio sunt actiones realiter differentes quae non sunt 
+      <lb ed="#A" n="103"/>ad inuicem connexe essentialiter. ergo possunt separari per 
+      <lb ed="#A" n="104"/>dei potentiam immensam: vt patet in beatis qui 
+      fru<lb ed="#A" n="105" break="no"/>untur deo et tamen non assumuntur ad vnitatem 
+      <lb ed="#A" n="106"/>hypostaticam. ideo possunt separari. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e788">
+      ¶ Item 
+      <lb ed="#A" n="107"/>Si ex vi vnionis necessario sequeretur fruitio: cum 
+      <lb ed="#A" n="108"/>terminus vnionis sit persona: sequitur quod 
+      immedi<lb ed="#A" n="109" break="no"/>atus terminus fruitionis sit persona: quod falsum 
+      <lb ed="#A" n="110"/>est. Et patet in beatis: vt dictum est.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e799">
+      ¶ Ad quesitum 
+      <lb ed="#A" n="111"/>ergo claret magna dei charitas qua voluit 
+      congru<lb ed="#A" n="112" break="no"/>entius et liberaliter assumere naturam generis Ade ad 
+      <lb ed="#A" n="113"/>fruitionem: cum potuisset aliter assumpsisse. ergo deo 
+      <lb ed="#A" n="114"/>laus et gratiarum actio. 
+      <!--14.xml-->
+      <pb ed="#A" n="15"/>
+                  <cb ed="#A" n="a"/>
+               </p>
+               <p xml:id="Vn7Pel-j14444-d1e817">
+                  <lb ed="#A" n="1"/>¶ Tertio deus predilexit genus 
+      <lb ed="#A" n="2"/>Adam non aliunde quam de ipso Adam peccatore 
+      <lb ed="#A" n="3"/>humanando. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e827">
+               <head xml:id="Vn7Pel-j14444-Hd1e829">5</head>
+               <p xml:id="Vn7Pel-j14444-d1e831">
+                  <lb ed="#A" n="4"/>¶ Utrum deus potuit 
+      humana<lb ed="#A" n="5" break="no"/>ri aliunde quam de genere Ade peccato obligantis 
+      ge<lb ed="#A" n="6" break="no"/>mus humanum: Respondetur secundum Scotorlis. super. iii. li. 
+      <lb ed="#A" n="7"/>di. xii. q. ii atque Guill. e. di. per conclusiones.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e842">
+      ¶ 
+      Pri<lb ed="#A" n="8" break="no"/>ma conclusio quod deus potuit aliunde assumere 
+      ho<lb ed="#A" n="9" break="no"/>minem quam de progenie Ade peccatoris. Et hec conclusio 
+      <lb ed="#A" n="10"/>claret per Magistrum in li. iii. di. xii. et Augustinum. xiii 
+      <lb ed="#A" n="11"/>de trini. qui sic ait. Poterat deus aliunde 
+      suscipe<lb ed="#A" n="12" break="no"/>re in quo esset mediator dei et hominum quam de genere 
+      <lb ed="#A" n="13"/>illius Ade qui peccato suo obligauit genus 
+      huma<lb ed="#A" n="14" break="no"/>num. sicuti ipsum scilicet Adam quem primo creauit non de 
+      <lb ed="#A" n="15"/>genere alicuius creauit. Poterat ergo deus vel 
+      <lb ed="#A" n="16"/>sic vel alio quo vellet modo creare vnum alium 
+      <lb ed="#A" n="17"/>quo vinceretur victor prioris. Potuit ergo et aliam 
+      <lb ed="#A" n="18"/>animam et aliam carnem sumere: et carnem vtique 
+      aliun<lb ed="#A" n="19" break="no"/>de quam de genere Ade. Hec Magister cum Augustino 
+      <lb ed="#A" n="20"/>supra. Et sic patet.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e873">
+      ¶ Secunda conclusio quod congruentius 
+      <lb ed="#A" n="21"/>fuit vt deus assumeret hominem de genere seu 
+      proge<lb ed="#A" n="22" break="no"/>nie Ade.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e880">
+      ¶ Probatur Primo secundum Guill. e. li. iii. di. 
+      <lb ed="#A" n="23"/>xii. quia si homo stetisset nulli esset obnoxius 
+      sa<lb ed="#A" n="24" break="no"/>lutis vel debitor nisi deo. Sed per christum in 
+      pri<lb ed="#A" n="25" break="no"/>stinam libertatem homo reuocatus est: maxime in 
+      <lb ed="#A" n="26"/>gloria. ergo decuit vt eiusdem generis cum aliis 
+      <lb ed="#A" n="27"/>hominibus esset christus. alioquin ex reparatione vel 
+      <lb ed="#A" n="28"/>redemptione fuisset homo obnoxius vel debitor 
+      <lb ed="#A" n="29"/>alteri quam deo: quia illi nature assumpte a filio dei. 
+      <lb ed="#A" n="30"/>et illum teneretur rediligere tanquam salutis auctorem 
+      <lb ed="#A" n="31"/>et diuinum honorem adorationis illi exhibere: quod 
+      <lb ed="#A" n="32"/>esset contra dei honorem et amorem etc. Unde non 
+      <lb ed="#A" n="33"/>decuit de alio Adam vel homine primo creando 
+      <lb ed="#A" n="34"/>naturam assumere praedicta ratione. Nec de angelica 
+      <lb ed="#A" n="35"/>natura. quia sic homo angelis in beatitudine 
+      equi<lb ed="#A" n="36" break="no"/>perari non posset. Et ita nec decuit aliunde quam de 
+      ge<lb ed="#A" n="37" break="no"/>nere Ade creati qui peccauit: vt charitas ad nos 
+      <lb ed="#A" n="38"/>clareret.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e918">
+      ¶ Secundo probatur. quia christus 
+      debu<lb ed="#A" n="39" break="no"/>it esse mediator dei et hominum scilicet peccatorum ab 
+      <lb ed="#A" n="40"/>Adam progenitorum. sed medium participare debet 
+      <lb ed="#A" n="41"/>vtrumque extremorum ex. v. Physicorum. ergo christus 
+      <lb ed="#A" n="42"/>debuit esse deus et homo ex Adam peccatore 
+      proge<lb ed="#A" n="43" break="no"/>nitus in similitudine carnis peccati: tamen sine 
+      pec<lb ed="#A" n="44" break="no"/>cato ex virgine nascens
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e934">
+      ¶ Tertio probatur ex 
+      par<lb ed="#A" n="45" break="no"/>te dei. quia congruebat vt dei iusticia in 
+      incarnati<lb ed="#A" n="46" break="no"/>one reluceret per hoc quod eiusdem speciei homo qui 
+      <lb ed="#A" n="47"/>peccauit satisfecit. Unde Magister cum Augustino 
+      <lb ed="#A" n="48"/>vbi supra dicit. Poterat deus creare vnum alium 
+      homi<lb ed="#A" n="49" break="no"/>nem quo vinceretur victor prioris. Sed melius 
+      iudi<lb ed="#A" n="50" break="no"/>cauit: de ipso quod victum fuerat genere 
+      assume<lb ed="#A" n="51" break="no"/>re hominem per quem hominis vinceret inimicum. 
+      <lb ed="#A" n="52"/>scilicet pro clara iusticia. Congruebat etiam vt 
+      reluce<lb ed="#A" n="53" break="no"/>ret dei misericordia in hoc quod illi nature deus 
+      vni<lb ed="#A" n="54" break="no"/>atur que in Adam peccauerat. Sapientia quoque 
+      <lb ed="#A" n="55"/>que ordinauerat ex vno homine totum genus 
+      ho<lb ed="#A" n="56" break="no"/>minum curandum. Et hoc est quod Hebre. ii 
+      apo<lb ed="#A" n="57" break="no"/>stolus dicit. Qui sanctificatur et qui sanctificat ex 
+      <!--14.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>vno omnes. Denique congruebat sic manifestari 
+      di<lb ed="#A" n="59" break="no"/>uinam charitatem que vt Bern. dicit tammira est quod non 
+      <lb ed="#A" n="60"/>minus diligit deus penitentem post peccatum quam innocentem 
+      <lb ed="#A" n="61"/>scilicet ceteris paribus. Et hoc relucet in eo quod illam naturam 
+      <lb ed="#A" n="62"/>deus assumpsit quae deum in Adam contempserat et post 
+      <lb ed="#A" n="63"/>peccatum scilicet penitentiam agebat. vel acturus praeuidebatur 
+      <lb ed="#A" n="64"/>ad christi fidem se conuertedo.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e984">
+      ¶ Sed posset quis 
+      obiice<lb ed="#A" n="65" break="no"/>re quod non decebat christum dei filium propter suam puritatem 
+      <lb ed="#A" n="66"/>et nobilitatem vnire sibi peccato infectam naturam Ade 
+      <lb ed="#A" n="67"/>Tum quia dedecus parentum redundat in filios: vt dicitur 
+      <lb ed="#A" n="68"/>Ecci. iii. et ita peccatum Ade in christum. Tum denique 
+      <lb ed="#A" n="69"/>anima christi est nobilissima: ergo debuit habere corpus 
+      <lb ed="#A" n="70"/>nobilissimum.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1000">
+      ¶ Tertia ergo conclusio ad praedicta ponitur 
+      <lb ed="#A" n="71"/>quod dei filius vniendo sibi naturam Ade peccatricem 
+      nul<lb ed="#A" n="72" break="no"/>lum dedecus culpe vel ignominie contraxit. Tum 
+      <lb ed="#A" n="73"/>quia ex virgine sine carnis concupiscentia incarnatus 
+      <lb ed="#A" n="74"/>est. Tum quia conceptum eius spiritus sanctus praeuenit diuina 
+      <lb ed="#A" n="75"/>virtute vt nec originale peccatum ex Adam contrahere 
+      <lb ed="#A" n="76"/>posset. Ac secundum doc. nostros etiam ipsam virginem 
+      ma<lb ed="#A" n="77" break="no"/>trem in conceptione sua singulari gratia christi praeseruatam 
+      <lb ed="#A" n="78"/>ab originali peccato esse voluit: ne dedecus 
+      redunda<lb ed="#A" n="79" break="no"/>ret in christum. Tum denique quia vt Leo papa in 
+      <lb ed="#A" n="80"/>sermo circumcisionis dicit. Dei filius nostra suscipiens 
+      <lb ed="#A" n="81"/>propria non amisit: nec vllum detrimentum omnipotentie 
+      <lb ed="#A" n="82"/>subiit: nec dei formam forma serui violauit: nec quod 
+      <lb ed="#A" n="83"/>erat desiit: tamen nos in suam gloriam transtulit ex 
+      ma<lb ed="#A" n="84" break="no"/>xima charitate qua nos dilexit. Sicut rex in 
+      spon<lb ed="#A" n="85" break="no"/>sam accipiendo aliquam de infimo genere ex 
+      cha<lb ed="#A" n="86" break="no"/>ritate etc.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1037">
+      ¶ Ad praemissa autem obiecta Et ad Primum 
+      <lb ed="#A" n="87"/>quod decus parentum redundat in filios Dicendum secundum 
+      <lb ed="#A" n="88"/>Guill. quod verum est quo ad filios videlicet naturaliter ex 
+      <lb ed="#A" n="89"/>parentibus propagatos. et maxime si sint imitatores 
+      pa<lb ed="#A" n="90" break="no"/>rentum in peccatis quae non sunt in christo
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1048">
+      ¶ Ad aliud 
+      dicen<lb ed="#A" n="91" break="no"/>dum quod christus habuit corpus nobilissimum conueniens 
+      <lb ed="#A" n="92"/>statui: non tamen repugnat quin cx massa Ade sumptum 
+      <lb ed="#A" n="93"/>fuerit. Sed et in hoc commendatur dei sapientia qua ex 
+      im<lb ed="#A" n="94" break="no"/>munda massa mundissimam carnem sumpsit. 
+      <lb ed="#A" n="95"/>Quarto deus dilexit genus Adam 
+      <lb ed="#A" n="96"/>ex eo vnicam singularem humanitatem sibi vniendo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e1065">
+               <head xml:id="Vn7Pel-j14444-Hd1e1067">6</head>
+               <p xml:id="Vn7Pel-j14444-d1e1069">
+                  <lb ed="#A" n="97"/>¶ Quare congruit vnicam 
+      singula<lb ed="#A" n="98" break="no"/>rem humanitatem ex Adam genere deo vniri: cum omnes 
+      <lb ed="#A" n="99"/>homines liberatione indigeant. Et quia videtur maioris 
+      cha<lb ed="#A" n="100" break="no"/>ritatis fuisse si omnes suscepisset Nunc autem solum in vnica 
+      <lb ed="#A" n="101"/>persona christi hec vnio facta est. Unde Damasce. dicit 
+      Na<lb ed="#A" n="102" break="no"/>tura humana in atomo est a verbo dei assumpta
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1085">
+      ¶ Item 
+      <lb ed="#A" n="103"/>pluries christus venit in mentem hominis: ergo sepius debuit 
+      <lb ed="#A" n="104"/>venire in carnem. Respondetur secundum doc. praesertim Guill. i 
+      <lb ed="#A" n="105"/>iii. di. ii quod licet omnes homines liberatione indigeant: tamen sufficit 
+      <lb ed="#A" n="106"/>vnica natura singula cuius merito omnes liberarentur et 
+      <lb ed="#A" n="107"/>saluarentur. sicuti vnius membri cauterio totum corpus 
+      <lb ed="#A" n="108"/>redditur validum. Et vnica medicina quando sufficit 
+      mor<lb ed="#A" n="109" break="no"/>bo superfluit alia. Christus autem secundum naturam 
+      assum<lb ed="#A" n="110" break="no"/>ptam fuit medicina filiorum Ade omnibus sufficiens. non 
+      <lb ed="#A" n="111"/>congruebat ergo plures homines assumere. Nam deus 
+      <lb ed="#A" n="112"/>sicut natura etiam non deficit in necessariis nec 
+      ab<lb ed="#A" n="113" break="no"/>undat in superfluis. ex. ii libro de anima. Maxime 
+      <lb ed="#A" n="114"/>intelligendo quo ad prosecutionem finis vltimati 
+      <!--15.xml-->
+      <pb ed="#A" n="16"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Denique nec oportet quod sicut filius dei pluries 
+      ve<lb ed="#A" n="2" break="no"/>nit in mentem. sic sepius veniat in carnem vt ostendat 
+      <lb ed="#A" n="3"/>ampliorem charitatem. Nam venire in mentem sepius 
+      <lb ed="#A" n="4"/>bene pertinet ad inflammandam charitatem per 
+      frequen<lb ed="#A" n="5" break="no"/>tem mentis illustrationem ex christi aduentum per 
+      gra<lb ed="#A" n="6" break="no"/>tiam. Sed venisse in carnem pro mundi totius libera 
+      <lb ed="#A" n="7"/>tione facieda sufficit semel. Unde ex i. Phisyco. 
+      <lb ed="#A" n="8"/>et. viii. Topici. Peccatum esset fieri per plura quae 
+      eque<lb ed="#A" n="9" break="no"/>bene possunt fieri per pauciora. ergo no debuit 
+      plu<lb ed="#A" n="10" break="no"/>ries incarnar
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1142">
+      ¶ Quin potius semel et vnicam 
+      singu<lb ed="#A" n="11" break="no"/>larem natura Ade assumi a dei filio pluribus 
+      ra<lb ed="#A" n="12" break="no"/>tionibus decuit
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1149">
+      ¶ Primo ratione vnigeniture 
+      christi<lb ed="#A" n="13" break="no"/>vt vnigenitus dei patris filius fieret vnigenitus 
+      <lb ed="#A" n="14"/>virginis matris non plurigenitus etc. Secundo 
+      <lb ed="#A" n="15"/>ratione mediationis generis humani. quia christus est 
+      <lb ed="#A" n="16"/>inter deum et nos mediator: sed mediator vnus est. 
+      <lb ed="#A" n="17"/>Gal. iii
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1163">
+      ¶ Tertio ratione exaltationis super omnem creatu 
+      <lb ed="#A" n="18"/>ram quod vni congruit Ex. v. Topic. Quod per 
+      super<lb ed="#A" n="19" break="no"/>abundantiam dicitur vni soli conuenit
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1170">
+      ¶ Quarto ratione 
+      <lb ed="#A" n="20"/>monstrande vnionis: pacis: et dilectionis. quam rationem 
+      <lb ed="#A" n="21"/>aliunde addo. Quia congruit vt sicut vnus est 
+      de<lb ed="#A" n="22" break="no"/>us et vna fides christi et vnum baptisma. et per 
+      conse<lb ed="#A" n="23" break="no"/>quenms vna ecclesia. ita decuit vnum esse caput christum 
+      <lb ed="#A" n="24"/>quem omnes alii adorent: credant: et confiteantur: et 
+      di<lb ed="#A" n="25" break="no"/>ligant et eius amore sese mutue pacis et dilectionis 
+      <lb ed="#A" n="26"/>vniant inseparabiliter vnitate ecclesie. Ecce ergo pat: 
+      <lb ed="#A" n="27"/>charitas christi.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1190">
+      ¶ An autem ista sit concedenda. Deus 
+      ab<lb ed="#A" n="28" break="no"/>sumpsit homintus eque sicut dicere quod assumpsit 
+      hu<lb ed="#A" n="29" break="no"/>manitatem. Dicit Guill. di. v. quod humanitas 
+      signi<lb ed="#A" n="30" break="no"/>ficat in abstracto distinctionem assumentis ad assum 
+      <lb ed="#A" n="31"/>ptum requisitam. ergo conceditur quod assumpsit 
+      hu<lb ed="#A" n="32" break="no"/>manitatem. sed non hominem in concreto. quia non 
+      di<lb ed="#A" n="33" break="no"/>cit primo distinctionem assumentis ad assumptum 
+      <lb ed="#A" n="34"/>ergo non conceditur ne videatur personam assumpsisse 
+      <lb ed="#A" n="35"/>Ad hoc vbi assumptio. §. xxii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e1211">
+               <head xml:id="Vn7Pel-j14444-Hd1e1213">7</head>
+               <p xml:id="Vn7Pel-j14444-d1e1215">
+                  <lb ed="#A" n="36"/>¶ Sed quare christus non assum 
+      <lb ed="#A" n="37"/>psit ipsummet Adam: sed voluit esse secundus Adam 
+      <lb ed="#A" n="38"/>Respondetur secundum Guill. lib. iii. dist. xii. cum Bona 
+      <lb ed="#A" n="39"/>uentu. ea. dist. arti. i. q. ii quod non debuit christus esse 
+      <lb ed="#A" n="40"/>Adam primus.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1228">
+      ¶ Primo ex parte dei ne deus 
+      dici<lb ed="#A" n="41" break="no"/>retur peccator. quia vbi due nature sunt in eodem 
+      <lb ed="#A" n="42"/>supposito: ibi est communicatio idiomatum. id est 
+      pro<lb ed="#A" n="43" break="no"/>prietatum. sed sic fuisset in Adam. sequeretur ergo quod 
+      <lb ed="#A" n="44"/>cum Adam esset peccator. ista esset vera: deus est 
+      <lb ed="#A" n="45"/>peccator: quod est absurdum
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1241">
+      ¶ Secundo ex parte 
+      <lb ed="#A" n="46"/>christi. quia deus decreuerat per Adam 
+      multipli<lb ed="#A" n="47" break="no"/>care genus humanum et christum fore perpetuo 
+      vir<lb ed="#A" n="48" break="no"/>ginem. Siergo christus fuisset Adam debuisset 
+      <lb ed="#A" n="49"/>generare: et sic non fuisset virgo.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1252">
+      ¶ Tertio ex parte 
+      <lb ed="#A" n="50"/>Ade. quia si Adam eleuatus fuisset ad dei 
+      vnio<lb ed="#A" n="51" break="no"/>nem: nimium reportasset commodum ex culpa. et ita 
+      ta<lb ed="#A" n="52" break="no"/>lis peccator ab omnibus creaturis adorari debuis 
+      <lb ed="#A" n="53"/>set sicut deus et homo
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1264">
+      ¶ Quarto ex parte generis 
+      <lb ed="#A" n="54"/>humani secundum Ans. quia pro toto genere humano 
+      satisface<lb ed="#A" n="55" break="no"/>re debebat qui scilicet nullius esset debitor sed innocens. 
+      <lb ed="#A" n="56"/>Tum quia peccator non potest peccatores 
+      iustifi<lb ed="#A" n="57" break="no"/>care. Tum quia qui debet omnes peccatores iudi¬ 
+      <!--15.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>care: non debet ipse esse peccator: alioquin pecctator 
+      <lb ed="#A" n="59"/>alios iudicando seipsum damnaret Rho. ii. Tum 
+      deni<lb ed="#A" n="60" break="no"/>que quia gratiosior est deo patri pro debito nostro 
+      pas<lb ed="#A" n="61" break="no"/>ino innocentis christi quam Ade peccatoris. ergo christus non 
+      <lb ed="#A" n="62"/>debuit esse Adam peccator.
+     </p>
+               <p xml:id="Vn7Pel-j14444-d1e1290">
+      ¶ Sit obiicitur: quia quando 
+      <lb ed="#A" n="63"/>spiritus sanctus mundat animam per gratiam: tunc ipse 
+      <lb ed="#A" n="64"/>met spiritus sanctus in propria persona descendit in 
+      <lb ed="#A" n="65"/>animam peccatricem ad mudandum eam. ergoa 
+      simi<lb ed="#A" n="66" break="no"/>li sequitur quod exquo christus dei filius mundabat 
+      <lb ed="#A" n="67"/>peccatum Ade. ergo bene decuit assumere ipsum Adam. 
+      <lb ed="#A" n="68"/>Dicendum inquit Guill. quod non est simile. quia in 
+      pri<lb ed="#A" n="69" break="no"/>ma scilicet quando spiritus sanctus mundat animam 
+      no<lb ed="#A" n="70" break="no"/>fit vnio hypostatica: nec idiomatum communicatio. 
+      <lb ed="#A" n="71"/>sicut fieri debuisset in vnione christi. vnde et per 
+      chri<lb ed="#A" n="72" break="no"/>stum quasi per ramum humane arboris radix 
+      pecca<lb ed="#A" n="73" break="no"/>ti Ade sufficienter curatus est et punitus in hoc 
+      mun<lb ed="#A" n="74" break="no"/>do et in limbo patrum. Ecce itaque patet charitas dei 
+      <lb ed="#A" n="75"/>in christo ad nos. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e1322">
+               <head xml:id="Vn7Pel-j14444-Hd1e1324">8</head>
+               <p xml:id="Vn7Pel-j14444-d1e1326">
+                  <lb ed="#A" n="76"/>¶ Item difficultas est Cur 
+      chri<lb ed="#A" n="77" break="no"/>stus cum sit medicina Adam et filiorum eius 
+      volu<lb ed="#A" n="78" break="no"/>it esse eiusdem nature cum Adam et nobiscum: cum 
+      <lb ed="#A" n="79"/>tamen medicina et morbus siue etiam corpus quod 
+      <lb ed="#A" n="80"/>sanat sint et debeant esse alterius nature etc. 
+      Re<lb ed="#A" n="81" break="no"/>spondetur secundum e. Guill. supra. et Scotorl. e. di. xii. q. ii. 
+      <lb ed="#A" n="82"/>quod medicina et morbus siue corpus quod sanat sunt 
+      <lb ed="#A" n="83"/>alterius nature non simpliciter. sed quantum ad 
+      ef<lb ed="#A" n="84" break="no"/>ficaciam et virtutem scilicet sanatiuam. Et ita 
+      medici<lb ed="#A" n="85" break="no"/>na bene est alterius conditionis a corpore. et suo 
+      <lb ed="#A" n="86"/>modo christus a peccato omni purissimus: est al 
+      <lb ed="#A" n="87"/>terius conditionis a nobis infectis: ac ab Adam 
+      <lb ed="#A" n="88"/>peccatore. Non tamen oportet quod alterius sit 
+      na<lb ed="#A" n="89" break="no"/>ture simpliciter: imo quandoque medicina 
+      corpo<lb ed="#A" n="90" break="no"/>ris est eiusdem nature cum corpore quod sanat: 
+      pu<lb ed="#A" n="91" break="no"/>ta quando morsus scorpionis medetur 
+      imposi<lb ed="#A" n="92" break="no"/>to percussure crudo scorpione trito: vt dicunt 
+      phy<lb ed="#A" n="93" break="no"/>sici. vel etiam quando dentes hominis dolentes 
+      <lb ed="#A" n="94"/>curantur apposito dente hominis mortui: vt 
+      di<lb ed="#A" n="95" break="no"/>cunt. Uel dato quod medicina corporis sit alterius 
+      <lb ed="#A" n="96"/>nature a corpore: tamen non tenet similitudo de 
+      <lb ed="#A" n="97"/>christo. quia illa est naturalis. sed ista scilicet 
+      me<lb ed="#A" n="98" break="no"/>dicina christi est voluntaria et charitatis 
+      gratui<lb ed="#A" n="99" break="no"/>te. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j14444-Dd1e1383">
+               <head xml:id="Vn7Pel-j14444-Hd1e1385">9</head>
+               <p xml:id="Vn7Pel-j14444-d1e1387">
+                  <lb ed="#A" n="100"/>¶ Quomodo autem christus sit 
+      <lb ed="#A" n="101"/>medicina filiorum Adam Nota secundum e. Guill. quod vt 
+      <lb ed="#A" n="102"/>Papias dicit Medicina dicta est a modo 
+      qua<lb ed="#A" n="103" break="no"/>si modicina: quia cum modo debet exhiberi. Quam 
+      <lb ed="#A" n="104"/>Apollo apud grecos dicitur primus repperisse. Unde 
+      <lb ed="#A" n="105"/>Medicina spiritualis pariformiter ad 
+      corpora<lb ed="#A" n="106" break="no"/>em est triplex. videlicet Prima praeseruatiua a morbo: 
+      <lb ed="#A" n="107"/>vt morbus id est peccatum non veniat. Secunda est 
+      <lb ed="#A" n="108"/>confortatiua. scilicet Gratia confortans animam in 
+      sa<lb ed="#A" n="109" break="no"/>nitate spirituali. Tertia curatiua. videlicet penitentia 
+      cu<lb ed="#A" n="110" break="no"/>rans a peccatis. Et hec triplex medicina christo 
+      ap<lb ed="#A" n="111" break="no"/>propriatur. Nam Primo christus est medicina 
+      prae<lb ed="#A" n="112" break="no"/>seruatiua id est preseruans ne cadamus in peccata. i. 
+      <lb ed="#A" n="113"/>Petri. ii Christus passus est pronobis vobis 
+      re<lb ed="#A" n="114" break="no"/>linquens exemplum vt sequamini vestigia eius qui 
+      <!--16.xml-->
+      <pb ed="#A" n="17"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>peccatum non fecit etc. Secundo est medicina 
+      cu<lb ed="#A" n="2" break="no"/>ratiua. Augustinus de vera inno. Fusus est sanguis 
+      me<lb ed="#A" n="3" break="no"/>dici et factus est medicametum frenetici. Idem. 
+      Ma<lb ed="#A" n="4" break="no"/>gnus per totum mundum iacebat egrotus: ideo 
+      <lb ed="#A" n="5"/>magnus venit medicus christus. Tertio christus 
+      <lb ed="#A" n="6"/>est medicina confortatiua scilicet in charitate et iusticia 
+      <lb ed="#A" n="7"/>ilic. Petri. ii Qui peccata nostra ipse partulit in 
+      corpo<lb ed="#A" n="8" break="no"/>re suo super lignum vt peccatis mortui iusticie 
+      vi<lb ed="#A" n="9" break="no"/>uamus cuius liuore sanati sumus. Patet ergo 
+      <lb ed="#A" n="10"/>mira charitas christi ad nos: quia vt curaret nos 
+      <lb ed="#A" n="11"/>ex seipso fecit medicinam etc. 
+      </p>
+               <p xml:id="Vn7Pel-j14444-d1e1452">
+                  <lb ed="#A" n="12"/>¶ Ad praemissa plura vbi Incarnatio.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

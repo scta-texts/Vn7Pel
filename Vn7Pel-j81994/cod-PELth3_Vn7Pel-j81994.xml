@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oratio christi</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Oratio christi</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="276"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j81994">
+            <head xml:id="Vn7Pel-j81994-Hd1e110">Oratio christi</head>
+            <p xml:id="Vn7Pel-j81994-d1e112">
+               <lb ed="#A" n="74"/>Oratio. 
+      <lb ed="#A" n="75"/>INatlo christl enionia 
+      <lb ed="#A" n="76"/>sest ratio. Que quidem secundum Guiller. dicitur 
+      tri<lb ed="#A" n="77" break="no"/>pliciter. Primo apud logicum dicitur oratio 
+      <lb ed="#A" n="78"/>vox completa generas sensum verum aut falsum in animo 
+      <lb ed="#A" n="79"/>auditoris. Secundo apud rhetoricum dicitur oratio quaelibet 
+      <lb ed="#A" n="80"/>propositio persuasiua. Et inde dicitur rhetor orator. 
+      Ter<lb ed="#A" n="81" break="no"/>tio oratio dicitur apud theologum quidam mentis sapor in de 
+      <lb ed="#A" n="82"/>um terminatus. quam et sic diffiniunt theologi. 
+      Ora<lb ed="#A" n="83" break="no"/>tio est pius mentis affectus in deum directus. Ubi tria 
+      <lb ed="#A" n="84"/>tanguntur. Primo genus orationis: cum dicitur. pius 
+      affe<lb ed="#A" n="85" break="no"/>ctus. Ex quo datur intelligi quod oratio est affectio: non 
+      <lb ed="#A" n="86"/>cognitio. Ista vero pietas debet capi pro theosebia id est 
+      <lb ed="#A" n="87"/>cultum dei completo: secundum quod dicit Aug. in enchy. 
+      Fide<lb ed="#A" n="88" break="no"/>spe et charitate colitur deus quae tria oratio complectitur. 
+      <lb ed="#A" n="89"/>Secundo tamngitur subiectum orationis: cum dicitur: mentis id est partis 
+      in<lb ed="#A" n="90" break="no"/>tellectualis. In parte enim sensitiua formaliter oratio n 
+      con<lb ed="#A" n="91" break="no"/>locatur. Tertio tangitur obiectum orationis: cum dicitur. in deum 
+      <lb ed="#A" n="92"/>directus. Unde Damasce. diffiniens orationem dicit: Oratio est 
+      <lb ed="#A" n="93"/>ascensus mentis in deum. Et circa hoc quaeruntur plura. 
+      </p>
+            <div xml:id="Vn7Pel-j81994-Dd1e158">
+               <head xml:id="Vn7Pel-j81994-Hd1e160">1</head>
+               <p xml:id="Vn7Pel-j81994-d1e162">
+                  <lb ed="#A" n="94"/>¶ Utrum decuerit christum 
+      ora<lb ed="#A" n="95" break="no"/>re: Et videtur quod non. quia dicit Augustinus de correptione et gratia 
+      <lb ed="#A" n="96"/>Nemo petit ab alio quod per se pot implere. sed christus 
+      <lb ed="#A" n="97"/>omnia poterat per se. ergo nihil debebat ab alio petere. ergo nec 
+      <lb ed="#A" n="98"/>oraire.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e175">
+      ¶ Preterea voluntas christi hominis erat 
+      <lb ed="#A" n="99"/>per omnia conformis voluntati patris. ergo 
+      ni<lb ed="#A" n="100" break="no"/>hil petebat nisi quod videbat patrem velle. ergo etiam si non 
+      <lb ed="#A" n="101"/>peteret nihilominus quod petebat impleretur. ergo frustra 
+      <lb ed="#A" n="102"/>christus orauit.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e186">
+      ¶ In contrarium dicitur Lu. vi. Exiuit in 
+      <lb ed="#A" n="103"/>montem orare et erat pernoctans in oratione dei. Sed 
+      chri<lb ed="#A" n="104" break="no"/>stus nihil fecit nisi quod ipsum decuit. ergo fuit conueniens 
+      <lb ed="#A" n="105"/>ipsum orare. Respondet scilicet Bonauen. in. iii. di. xvii. ar. ii 
+      <lb ed="#A" n="106"/>q. i. quod absque dubio decens fuit christum orare maxime in 
+      <lb ed="#A" n="107"/>diebus carnis sue. Ratio autem huius decentie potest 
+      assigna<lb ed="#A" n="108" break="no"/>ri quadruplex. videlicet Propter meritum. Propter exeplum 
+      <lb ed="#A" n="109"/>Propt veritatis argumentum. et Propter officium 
+      explen<lb ed="#A" n="110" break="no"/>dum
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e206">
+      ¶ Propter meritum: quia sua petitione merebat 
+      no<lb ed="#A" n="111" break="no"/>bis qui minus idonei eramus ad susceptionem beneficiorum 
+      <lb ed="#A" n="112"/>dei.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e214">
+      ¶ Propter exemplum: vt scilicet discipulos suos et 
+      <lb ed="#A" n="113"/>per consequens alios inuitaret ad orationis studium. in cuius 
+      <lb ed="#A" n="114"/>exercitio maxime superatur aduersarius: secundum quod dicebat: 
+      <lb ed="#A" n="115"/>dominus Mat. xxvi. Uiglate et oratem ne intretis in tena¬ 
+      <!--276.xml-->
+      <pb ed="#A" n="277"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tationem
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e232">
+      ¶ Propter veritatis argumentum vt 
+      osten<lb ed="#A" n="2" break="no"/>deret se verum hominem et vere a deo missum: secundum quod 
+      di<lb ed="#A" n="3" break="no"/>cebat Io. xi. Grias ago tibi domine quoniam exaudisti 
+      mo<lb ed="#A" n="4" break="no"/>ego aut sciebam quoniam me semper audis. sed propter populum istum 
+      <lb ed="#A" n="5"/>qui circumstat dixi vt credant quia tu me misisti propter 
+      <lb ed="#A" n="6"/>officium: quia christus hebebat dignitatem pontificis. Unde 
+      <lb ed="#A" n="7"/>sicut ad ipsius officium pertinebat offerre sacrificium pro 
+      <lb ed="#A" n="8"/>peccatoribus: ita pro ipser orare: secundum quod dicitur Heb. v. Omnis 
+      pe<lb ed="#A" n="9" break="no"/>tifex ex hominibus assumptus pro homibus constituitur in his qu 
+      <lb ed="#A" n="10"/>sunt ad deum vt offerat dona et sacrificia pro peccatis euo 
+      <lb ed="#A" n="11"/>decebat christum orare
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e256">
+      ¶ Ad argumentum autem ille 
+      <lb ed="#A" n="12"/>quod nemo petit ab alio quod potest impse implere Dicendum: 
+      <lb ed="#A" n="13"/>quod illud verum est ratione eiusdem nature Sic autem non 
+      <lb ed="#A" n="14"/>est in proposito. Nam petere et orare competit christo secundum 
+      <lb ed="#A" n="15"/>natura assumptam. sed posse implere competit ei secundum 
+      <lb ed="#A" n="16"/>naturam assumentem. Uel potest dici quod sicut motus 
+      potes<lb ed="#A" n="17" break="no"/>fieri aliquando propter supplendam indigentiam propriam. aliquando 
+      <lb ed="#A" n="18"/>propter indigentiam alienam: sic et oratio. Cum enim aliquis 
+      <lb ed="#A" n="19"/>propter propria indigentiam supplendam orat: tunc verum 
+      <lb ed="#A" n="20"/>est quod dicit Augustinus. Nemo petit ab alio quod ipse potest 
+      <lb ed="#A" n="21"/>implere. Cum autem petit propter alienam indigentiam 
+      sup<lb ed="#A" n="22" break="no"/>plendam non requiritur defectus potestatis in petente. sed 
+      de<lb ed="#A" n="23" break="no"/>fectus indigentie in eo pro quo petitur.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e285">
+      ¶ Ad secundum 
+      ar<lb ed="#A" n="24" break="no"/>gumentum quod christus nihil petebat nisi quod sciebat 
+      <lb ed="#A" n="25"/>deum velle Dicendum: verum est. sed christus bene sciebat quod 
+      <lb ed="#A" n="26"/>deus quaedam volebat quae sciebat christum nobis impetraturum 
+      <lb ed="#A" n="27"/>per sua orationem. Et ideo non frustra orabat christus. quia 
+      <lb ed="#A" n="28"/>quod deus disposuerat nobis dare id oratione sua 
+      im<lb ed="#A" n="29" break="no"/>petrabat. Cum deus disponit aliquid facere non dispionit 
+      <lb ed="#A" n="30"/>in omnem euentum: sed praesuppositis congruentibus 
+      antetece<lb ed="#A" n="31" break="no"/>dentibus. sicut disponit nos saluare si tamen volumus 
+      per<lb ed="#A" n="32" break="no"/>bona merita salutem adquirere. Sic et in proposito 
+      intel<lb ed="#A" n="33" break="no"/>ligendum est. Unde Greg. Impetrari non possunt 
+      <lb ed="#A" n="34"/>que praedestinata non sunt 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e312">
+               <head xml:id="Vn7Pel-j81994-Hd1e314">2</head>
+               <p xml:id="Vn7Pel-j81994-d1e316">
+                  <lb ed="#A" n="35"/>¶ Utrum christus in omni oratione 
+      <lb ed="#A" n="36"/>sua fuerit exauditus Arguitur quod non. quia dicit Magisteri 
+      <lb ed="#A" n="37"/>littera liro tertii. di. xvii. Christus clamans non exauditur ad 
+      si<lb ed="#A" n="38" break="no"/>lutem corporalem. bonum quidem petiit scilicet quod no moreretur. sed 
+      <lb ed="#A" n="39"/>melius erat vt moreretur. Et Psalmus in eius persona dicit. 
+      <lb ed="#A" n="40"/>Deus meus clamabo per diem et non exaudies me. 
+      Si<lb ed="#A" n="41" break="no"/>militer orauit instante passione vt calix transiret ab 
+      <lb ed="#A" n="42"/>eo et non transiit. ergo christus in omni oratione exauditus non 
+      fu<lb ed="#A" n="43" break="no"/>it
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e338">
+      ¶ In contrarium horum dixit dominus Ioan. xi. Ego 
+      <lb ed="#A" n="44"/>autem sciebam quoniam semper audis me etc.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e343">
+      ¶ Respondet scilicet 
+      Bo<lb ed="#A" n="45" break="no"/>nauen. vbi supra. q. ii quod cum oratio sit petitio procedens ex 
+      vo<lb ed="#A" n="46" break="no"/>luntate et desiderio secundum quod voluntas humana fuit in 
+      <lb ed="#A" n="47"/>christo secundum triplicem differentiam: sic et oratio. Nam 
+      <lb ed="#A" n="48"/>quaedam oratio fuit procedens a rationis voluntate. Que 
+      <lb ed="#A" n="49"/>dam a voluntate pietatis. Quedam a voluntate carnis. 
+      <lb ed="#A" n="50"/>Oratio procedens a voluntate rationis in omnibus fui 
+      <lb ed="#A" n="51"/>exaudita. Tum quia ista voluntas erat per omnia 
+      confor<lb ed="#A" n="52" break="no"/>mis voluntati diuine. Tum etiam quia a deo petebat 
+      <lb ed="#A" n="53"/>digne et sancte. Oratio autem procedens a voluntate 
+      <lb ed="#A" n="54"/>carnis non fuit in christo exaudita per omnia. Tum qui 
+      <lb ed="#A" n="55"/>hac voluntate non conformabatur deo in omni 
+      vo<lb ed="#A" n="56" break="no"/>lito. Tum etiam quia illa petitio plus ordinabatur ad 
+      <lb ed="#A" n="57"/>nostram instructionem quam ad diuinam inclinationem. magis 
+      <lb ed="#A" n="58"/>tim hac oratione petebat vt erudiret quam vt deum ad sua¬ 
+      <!--276.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>petitionem incliaret. Ex quibus patent responsiones ad obiecta¬ 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e383">
+               <head xml:id="Vn7Pel-j81994-Hd1e385">3</head>
+               <p xml:id="Vn7Pel-j81994-d1e387">
+                  <lb ed="#A" n="60"/>¶ Utrum christus orauerit pro 
+      <lb ed="#A" n="61"/>se: Et quod non: probatur. Quia dicit Augustinus in ser. de 
+      ora<lb ed="#A" n="62" break="no"/>tione et ieiunio: quod oratio est ascensio anime de 
+      terre<lb ed="#A" n="63" break="no"/>stribus ad celestia: et supernorum inuisibilium desiderium. 
+      <lb ed="#A" n="64"/>Sed christus sibi non desiderauit iuisibilia. quia 
+      <lb ed="#A" n="65"/>desiderium est respectu non habiti: ipse de supernis 
+      in<lb ed="#A" n="66" break="no"/>uisibilibus habuit ab instanti conceptionis. sue quantum 
+      <lb ed="#A" n="67"/>habere poterat. ergo christus pro se non orauit.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e407">
+      ¶ Sed in 
+      con<lb ed="#A" n="68" break="no"/>trarium dicitur Mat. xxvi. Pater si possibie est 
+      transe<lb ed="#A" n="69" break="no"/>atm a me calix iste
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e414">
+      ¶ Respondet Rich. in. iii. di. xvii. ar. 
+      <lb ed="#A" n="70"/>ii. q. ii. Quod oratio est ad excludendum aliquem defectum 
+      <lb ed="#A" n="71"/>ab illo pro quo oratur. Duplex autem est defectuscilicet 
+      Culpabi<lb ed="#A" n="72" break="no"/>lis et Penalis. Et quia in christo non fuit defectus culpa 
+      <lb ed="#A" n="73"/>bilis: ideo sic non orauit pro se sed pro nobis. Sed 
+      <lb ed="#A" n="74"/>quia in christo fuit defectus penalis tam ex parte corporis quam 
+      <lb ed="#A" n="75"/>ex parte anime: inquantum erat passibilis vt natura. Ideo 
+      <lb ed="#A" n="76"/>secundum quod oratio ordinabatur ad exclusionem penalis defectus 
+      <lb ed="#A" n="77"/>orauit non tantum pro nobised eriam pro se
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e434">
+      ¶ Ad argumentum 
+      <lb ed="#A" n="78"/>dicendum quod illa descriptio orationis accipitur prout est in 
+      pu<lb ed="#A" n="79" break="no"/>re viatoribus. Christus autem non fuit purus viator. quia cum 
+      <lb ed="#A" n="80"/>hoc fuit perfectissimus comprehensor. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e445">
+               <head xml:id="Vn7Pel-j81994-Hd1e447">4</head>
+               <p xml:id="Vn7Pel-j81994-d1e449">
+                  <lb ed="#A" n="81"/>¶ Utrum illa oratio qua christus 
+      ora<lb ed="#A" n="82" break="no"/>uitr in passione vt calix transferretur a se fuit a ratione: 
+      an<lb ed="#A" n="83" break="no"/>a sensualitate: Arguitur quod a sensualitate. quia dicit magistr 
+      <lb ed="#A" n="84"/>in littera: secundum affectum sensualitatis christus mori noluit 
+      <lb ed="#A" n="85"/>nec obtinuit quod secundum illum affectu petiit. Quod etiam ex 
+      <lb ed="#A" n="86"/>ordine orationis christi innuitur cum dicitur Non sicut ego 
+      volo<lb ed="#A" n="87" break="no"/>sed sicut tu vis. ergo aut hoc dicit ratione sensualitatis: aut 
+      ra<lb ed="#A" n="88" break="no"/>tionis. Non rationis: quia voluntate rationis voluit mori dicit 
+      <lb ed="#A" n="89"/>Fiat voluntas tua. ergo illa omnatio christi fuit sensualitatis. 
+      </p>
+               <p xml:id="Vn7Pel-j81994-d1e471">
+                  <lb ed="#A" n="90"/>¶ Sed contra opponitur quod solius rationis est conferre 
+      <lb ed="#A" n="91"/>sed praedicta oratio fuit cum collatione quadam: sicut patet cum dicitur 
+      <lb ed="#A" n="92"/>Non sicut ego volo sed sicut tu. ergo processit a ratione.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e480">
+      ¶ Con 
+      <lb ed="#A" n="93"/>firmatur. quia rationis est futura praecogscere. sed omratio illa quae 
+      <lb ed="#A" n="94"/>petebatur calix futurus transferri erat ex futurorum 
+      cog<lb ed="#A" n="95" break="no"/>nitione. ergo erat oratio rationis. Respondet vniformir scilicet Bona 
+      <lb ed="#A" n="96"/>ue. et Rich. di. q. supra ar. ii q. iii. ambo. quod de predicta 
+      <lb ed="#A" n="97"/>oratione est loqui dupliciter. Aut quantum ad materiam: Aut 
+      quan<lb ed="#A" n="98" break="no"/>tum ad formam. Si loquemur de ipsa quantum ad materiam: 
+      <lb ed="#A" n="99"/>cum mater ia orationis respiciat desiderium petentis talis 
+      fu<lb ed="#A" n="100" break="no"/>it petitio sensualitatis tantum cuius desiderium erat ad non 
+      <lb ed="#A" n="101"/>moriendum. Si autem loqumur de praedicta oratione quantum ad 
+      <lb ed="#A" n="102"/>formam: cum forma petitionis respiciat discretionem propo 
+      <lb ed="#A" n="103"/>nentis: et talis modus proponendi sit a ratione: sic fuit rationis 
+      <lb ed="#A" n="104"/>Et per hoc patet propositum et etiam ad obiecta. quia non est simuis 
+      <lb ed="#A" n="105"/>pliciter concedendum quod tals oratio fuerit simpliciter rationis: vel 
+      <lb ed="#A" n="106"/>simpliciter sensualitatis. sed quodammodo huius: quodammodo illius 
+      <lb ed="#A" n="107"/>Sensualitatis quantum ad materiam. Rationis quantum ad 
+      for<lb ed="#A" n="108" break="no"/>ma. Unde recte dici consueuit quod ratio fuerit aduocatrix 
+      <lb ed="#A" n="109"/>sensualitatis.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e519">
+      ¶ Sed tunc oritur difficultas: cum ratio 
+      sci<lb ed="#A" n="110" break="no"/>ret sensualitatem in hac petitione nec exaudiendam nec 
+      <lb ed="#A" n="111"/>dignam exaudiri: vtpote quia petebat contrarium dei proposito 
+      <lb ed="#A" n="112"/>Quomodo hanc petitionem proposuit et pro ea allegauit: 
+      <lb ed="#A" n="113"/>Dicendum quod huius fuit ratio triplex. Prima ad 
+      manife<lb ed="#A" n="114" break="no"/>stationem veritatis nature assumpte qua naturaliter refutabat 
+      <lb ed="#A" n="115"/>passionem. Et in hoc erudiuit nostram fidem. Secunda ad 
+      <!--277.xml-->
+      <pb ed="#A" n="278"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>confirmandam nostram imbecillitatem: vt non diffidamus 
+      <lb ed="#A" n="2"/>si passionum pericula exhorreamus. et in hoc erexit 
+      no<lb ed="#A" n="3" break="no"/>stram spem.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e549">
+      ¶ Tertia vt ostenderet voluntatem nostram 
+      <lb ed="#A" n="4"/>voluntati diuine esse per omnia subiiciendam. quod ostendit 
+      <lb ed="#A" n="5"/>in conditione apposita di. Non sicut ego volo sed sicut 
+      <lb ed="#A" n="6"/>tu. Et in hoc ordinauit charitatem nostram in nobis 
+      <lb ed="#A" n="7"/>vt voluntati diuine subiiciamur. Ideo magis 
+      ora<lb ed="#A" n="8" break="no"/>uit in illa oratione pro nobis quam pro se. quia illa oratio 
+      ser<lb ed="#A" n="9" break="no"/>uauit formam fidelis et prudentis aduocati qui 
+      deside<lb ed="#A" n="10" break="no"/>rium sensualitatis proponit seruata tamen forma 
+      iu<lb ed="#A" n="11" break="no"/>ris. Dictat enim ius diuinum quod omnis appetitus debet 
+      <lb ed="#A" n="12"/>deo esse subiectus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e572">
+               <head xml:id="Vn7Pel-j81994-Hd1e574">5</head>
+               <p xml:id="Vn7Pel-j81994-d1e576">
+                  <lb ed="#A" n="13"/>¶ Utrum voluntate naturali velit 
+      <lb ed="#A" n="14"/>quis mori:
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e583">
+      ¶ Et arguitur quod sic. quia multi occidunt 
+      <lb ed="#A" n="15"/>seipsos. sicut patet in desperatis qui cupiunt mori. ergo. 
+      </p>
+               <p xml:id="Vn7Pel-j81994-d1e588">
+                  <lb ed="#A" n="16"/>¶ Preterea dicit Augustinus. iii. de ciui. dei. de quodam 
+      <lb ed="#A" n="17"/>quo lecto Platonis libro vbi de immortalitate anime 
+      <lb ed="#A" n="18"/>disputauit: se praecipitem dedit de muro vt de hac 
+      <lb ed="#A" n="19"/>vita migraret ad eam quam credidit meliorem. Ex 
+      <lb ed="#A" n="20"/>hocipso videtur. quod aliqui sunt qui mori desiderant. 
+      <lb ed="#A" n="21"/>Sed in contrarium dicit Augustinus. super Ioan. et 
+      al<lb ed="#A" n="22" break="no"/>legat Magister in. iii. dist. xvii. De Petro enim 
+      <lb ed="#A" n="23"/>ipa veritas dicit: Cum senueris extendes manus 
+      <lb ed="#A" n="24"/>tuas: et alius cinget te: et ducet te quo tu non vis. 
+      <lb ed="#A" n="25"/>scilicet ad mortem. Petrus ad illam molestiam nolens 
+      <lb ed="#A" n="26"/>est ductus: nolens ad eam venit: sed volens eam 
+      vi<lb ed="#A" n="27" break="no"/>cit et reliquit affectum infirmitatis quo nemo vult 
+      <lb ed="#A" n="28"/>mori qui adeo est naturalis: vt eum Petro nec sene 
+      <lb ed="#A" n="29"/>ctus abstulerit. Unde etiam dominus ait: 
+      Trans<lb ed="#A" n="30" break="no"/>tat a me calix iste. Respondet san. Bonauen. in. iii. 
+      <lb ed="#A" n="31"/>bist. xvii. in expositione littere. quod est affectus 
+      natu<lb ed="#A" n="32" break="no"/>ralis: et est affectus deliberatiuus. Affectu 
+      natu<lb ed="#A" n="33" break="no"/>rali nemo vult mori. imo omnis homo refugit 
+      mor<lb ed="#A" n="34" break="no"/>tem. Affectu deliberatiuo potest quis appetere 
+      mor<lb ed="#A" n="35" break="no"/>tem et effugere vitam: non quia illa sit mors et illa 
+      <lb ed="#A" n="36"/>sit vita. sed ratione alicuius quod est annexum vel esti 
+      <lb ed="#A" n="37"/>matar esse annexum. sicut desperati et vehementer 
+      con<lb ed="#A" n="38" break="no"/>fusi in vita propter confusione refugiunt vitam. sic etiam 
+      <lb ed="#A" n="39"/>est de aliris incommodis. Per hunc modum etiam alii 
+      <lb ed="#A" n="40"/>appetunt mortem qui post mortem credunt quiescere et 
+      <lb ed="#A" n="41"/>gaudere. Ex quibus patet responsio. quod Augu. 
+      <lb ed="#A" n="42"/>super Ioan. loquitur de affectu naturali. et lib. de 
+      ciui<lb ed="#A" n="43" break="no"/>ta. loquitur de affectu deliberatiuo.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e651">
+      ¶ Sed 
+      contra<lb ed="#A" n="44" break="no"/>predicta videtur dicere Apostols. ii Cor. v. Nolumus 
+      <lb ed="#A" n="45"/>expoliari sed superuestiri. qui alibi dicit: Cupio 
+      dis<lb ed="#A" n="46" break="no"/>solui et esse cum christo.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e661">
+      ¶ Sed tu dicas. quod ex 
+      volun<lb ed="#A" n="47" break="no"/>tate naturali seu sensualitatis nolebat expoliari: 
+      <lb ed="#A" n="48"/>sed voluntate rationis siue deliberatiua cupiebat 
+      dis<lb ed="#A" n="49" break="no"/>solui. Contra hoc quod dicitur Phil. i. Permanere 
+      <lb ed="#A" n="50"/>autem in carne necessarium est propter vos. Sed Apostolus 
+      <lb ed="#A" n="51"/>voluntate deliberatiua illud magis appetebat quod erat 
+      <lb ed="#A" n="52"/>fribus magis necessarium. ergo illa voluntate videtur quod non 
+      <lb ed="#A" n="53"/>appeteret dissolui aut simul appetebat duo contraria quod 
+      <lb ed="#A" n="54"/>est inconueniens. Respondet idem scilicet Bonauen. vbi supra quod in 
+      <lb ed="#A" n="55"/>carne nostra est duo repaerire. videlicet ipsam naturam et in 
+      <lb ed="#A" n="56"/>firmitatem aggrauantem animam. secundum quod dicit Augustinus. xiii. 
+      <lb ed="#A" n="57"/>de ciuitate dei. quod corpus aggrauat animam: non quia 
+      <!--277.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>corpus sed quia corruptibile. cum dicitur. Nolumus ex 
+      <lb ed="#A" n="59"/>poliari. hoc dicitur quantum ad ipsam carnis naturam. 
+      <lb ed="#A" n="60"/>De qua Ephe. v. Nemo vnque carnem suam odio 
+      ha<lb ed="#A" n="61" break="no"/>puit. quantum ad infirmitatem aggrauantem dicitur: Cupio 
+      <lb ed="#A" n="62"/>dissolui. et ibi nulla contrarietas.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e702">
+      ¶ Ad illud vero quod 
+      <lb ed="#A" n="63"/>queritur quomodo petebat simlis dissolui et permanere in 
+      car<lb ed="#A" n="64" break="no"/>ne Dicendum secundum eundem Bonauen. vbi supra quod est 
+      vo<lb ed="#A" n="65" break="no"/>luntas absoluta: et voluntas conditionalis: et nihil 
+      im<lb ed="#A" n="66" break="no"/>pedit duo opposita velle. ita quod vnum velit voluntate 
+      <lb ed="#A" n="67"/>conditionali: alterum voluntate absoluta. volebat ergo 
+      <lb ed="#A" n="68"/>Apostolus in carne permancre propter vtilitatem fratrum: 
+      vole<lb ed="#A" n="69" break="no"/>bat nihilominus dissolui et esse cum christo. sed hoc non 
+      <lb ed="#A" n="70"/>absolute: sed quantum in se. et sic nulla erat 
+      repugnan<lb ed="#A" n="71" break="no"/>tia: erat tantum quedam mentis angustia ex hoc duplicir 
+      <lb ed="#A" n="72"/>desiderio. propter quod dicit Coartor ex duobus deside 
+      <lb ed="#A" n="73"/>rium habeo dissolui et esse cum christo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e729">
+               <head xml:id="Vn7Pel-j81994-Hd1e731">6</head>
+               <p xml:id="Vn7Pel-j81994-d1e733">
+                  <lb ed="#A" n="74"/>¶ Utrum christus dum orauit in 
+      pas<lb ed="#A" n="75" break="no"/>sione dubitauerit de patris potentia: Et videtur quod 
+      <lb ed="#A" n="76"/>sic. quia dicit Amb. li. iii. de trini. et allegat 
+      Ma<lb ed="#A" n="77" break="no"/>gister in littera in. iii. di. xvii. di. De quo dubitat de se: 
+      an<lb ed="#A" n="78" break="no"/>de patre: de eo vtique cui dicit: Transfer calicem. du 
+      <lb ed="#A" n="79"/>pitat hominis affectu. Nam deus de patrenon 
+      dubi<lb ed="#A" n="80" break="no"/>tat: nec de morte formidat. Et infra. Ut homo ergo 
+      <lb ed="#A" n="81"/>dubitat: vt homo locutus est. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e753">
+      ¶ Sed 
+      con<lb ed="#A" n="82" break="no"/>tra. videtur esse falsum. quia christus habuit scientiam 
+      <lb ed="#A" n="83"/>omnium futurorum et sub certitudine. ergo videtur quod christus de 
+      <lb ed="#A" n="84"/>nullo potuerit dubitare.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e762">
+      ¶ Confirmatur sic: In 
+      <lb ed="#A" n="85"/>quemcunque cadit dubitatio. cadere etiam potest ignoram 
+      <lb ed="#A" n="86"/>tia et error. sed nullum istorum potuit in christum cadere. 
+      <lb ed="#A" n="87"/>ergo videtur quod dubitare non potuerit.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e771">
+      ¶ Respondetur secundum scilicet 
+      <lb ed="#A" n="88"/>Bonaue. vbi immediate supra quod dubitatio proprie 
+      di<lb ed="#A" n="89" break="no"/>cit indifferentiam iudicii rationis respectu vtriusque 
+      par<lb ed="#A" n="90" break="no"/>tis contradictionis. ita quod neutrum peligat alteri. Et hoc 
+      <lb ed="#A" n="91"/>modo accipiendo dubitationem: in christo non fuit 
+      dubi<lb ed="#A" n="92" break="no"/>tatio. Alio modo dicitur dubitatio indifferentia quedam 
+      <lb ed="#A" n="93"/>partis sensibilis ad sequendum affectum nature inclinantem 
+      <lb ed="#A" n="94"/>vel rationi imperantem. et talis dubitatio potuit esse in christo 
+      <lb ed="#A" n="95"/>et de hac intelligit Amb. de alia vero currit obiecto. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e792">
+               <head xml:id="Vn7Pel-j81994-Hd1e794">7</head>
+               <p xml:id="Vn7Pel-j81994-d1e796">
+                  <lb ed="#A" n="96"/>¶ Utrum christus in sua oratione 
+      ha<lb ed="#A" n="97" break="no"/>puit plures voluntates: Arguitur quod non. quia dicit Damas. 
+      <lb ed="#A" n="98"/>li. iii. Quorum substanti est eadem: horum et voluntas est eadem. 
+      <lb ed="#A" n="99"/>et quorum diuersa voluntas: horum et diuersa substantia. sed 
+      <lb ed="#A" n="100"/>diuina et humana natura vniuntur in christo in vnitate 
+      <lb ed="#A" n="101"/>hypostasis: quae est substantia indiuidua. ita quod in christo non 
+      <lb ed="#A" n="102"/>unt plures hypostases: sed vna. ergo sicut in christui non est 
+      reperi<lb ed="#A" n="103" break="no"/>re plures hypostases. ita etiam voluntates
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e816">
+      ¶ Confirmatur. 
+      <lb ed="#A" n="104"/>quia voluntas facurt volentem. ergo plures voluntates faciunt plures 
+      <lb ed="#A" n="105"/>polentes. sed christus est vnicus volens. ergo tantum habet vnicam 
+      <lb ed="#A" n="106"/>voluntatem. In contrarium dicitur Io. vi. Non veni facere 
+      volun<lb ed="#A" n="107" break="no"/>tatem me. sed volum. eius qui mi. me. ergo alia est voluntas christi: 
+      <lb ed="#A" n="108"/>alia mittentis voluntas. sed voluntas christi secundum 
+      diuita<lb ed="#A" n="109" break="no"/>tem eadem est cum voluntate mittentis. ergo christus humit 
+      volunta<lb ed="#A" n="110" break="no"/>tem secundum humanitatem et secundum diuitate. ergo humit plures. 
+      Respon<lb ed="#A" n="111" break="no"/>detur secunum scilicet Bonauen. in. iii. dist. xvii. ar. i. q.cilicet quod cum in 
+      <lb ed="#A" n="112"/>christo sint ples nature intellectuales. videlicet diuina et 
+      <lb ed="#A" n="113"/>humana. necesse est esse in christo plures voluntates. Sicut entm 
+      <lb ed="#A" n="114"/>in vna natra corporali nobili ista duo se concmnitam scilicet lii 
+      <!--278.xml-->
+      <pb ed="#A" n="279"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ex color: sic et in natura spirituali perfecta necesse est duo 
+      <lb ed="#A" n="2"/>repariri his duobus correspondentia. videlicet cognitionem 
+      <lb ed="#A" n="3"/>et affectum. Sed cognitio est actus rationis: et 
+      affe<lb ed="#A" n="4" break="no"/>ctio actus voluntatis. Cum ergo in christo sint plures 
+      na<lb ed="#A" n="5" break="no"/>ture spirituales: necessarium est in christo ponere plures 
+      <lb ed="#A" n="6"/>intellectus et plures voluntates. quod manifestat Magister 
+      <lb ed="#A" n="7"/>in littera per multas sanctorum autoritates.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e864">
+      ¶ Ad 
+      argu<lb ed="#A" n="8" break="no"/>mentum autem primum dicendum quod substantta dicitur multiplicer 
+      <lb ed="#A" n="9"/>Uno modo substantia idem est quod essentia vel natura. 
+      <lb ed="#A" n="10"/>Alio modo idem est quod suppositum. Damasce. autem in 
+      praedi<lb ed="#A" n="11" break="no"/>cta autoritate accipit substantiam pro esse vel natura. 
+      Ar<lb ed="#A" n="12" break="no"/>gumentum autem procedit de substantia supposito vel subiecto. 
+      <lb ed="#A" n="13"/>Et hoc probat ipse: quia in tribus personis vna est voluntas: 
+      <lb ed="#A" n="14"/>non propter vnitatem in personis: sed propter vnitatem in natura. 
+      </p>
+               <p xml:id="Vn7Pel-j81994-d1e882">
+                  <lb ed="#A" n="15"/>¶ Ad id quod voluntas facit volente dicendum: quod hec per se 
+      <lb ed="#A" n="16"/>lbquendo intelligitur de natura: per conseques autem de persona 
+      <lb ed="#A" n="17"/>Et quoniam plures nature poaesent esse in vna persona. hinc est 
+      <lb ed="#A" n="18"/>quod ad pluralitatem volutatum consequatur pluritas 
+      natu<lb ed="#A" n="19" break="no"/>rarum. non tamen consequitur personarum plurlitas Ideo non 
+      <lb ed="#A" n="20"/>sequitur Sunt plures voluntates. ergo plures volentes. sed 
+      <lb ed="#A" n="21"/>bene sunt plures nature secundum quas insunt ille voluntates 
+      <lb ed="#A" n="22"/>Et sic patet responsio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e903">
+               <head xml:id="Vn7Pel-j81994-Hd1e905">8</head>
+               <p xml:id="Vn7Pel-j81994-d1e907">
+                  <lb ed="#A" n="23"/>¶ Queritur Quot fuerunt in 
+      chri<lb ed="#A" n="24" break="no"/>sto voluntates cum orauit dicens. Non mea sed tua 
+      fi<lb ed="#A" n="25" break="no"/>at voluntas: Respondet scilicet Bonauen. vbi. supra. q. ii quod 
+      vo<lb ed="#A" n="26" break="no"/>luntas tripliciter habet considerari. Aut secundum naturalem volun 
+      <lb ed="#A" n="27"/>tatem. Aut secundum potentiam per quam quis vult. Aut secundum 
+      mo<lb ed="#A" n="28" break="no"/>dum volendi. Et secundum istam triplicem considerationem tripliciter 
+      <lb ed="#A" n="29"/>habet diuidi in christo voluntas. Secundum enim comparationem 
+      <lb ed="#A" n="30"/>ad naturam duplex est in christo voluntas. Diuina vicis 
+      <lb ed="#A" n="31"/>et humana. Si autem consideretur secundum potentias per quas 
+      qui<lb ed="#A" n="32" break="no"/>vult: sic diuidi habet diuisione trimembri. quia in 
+      chri<lb ed="#A" n="33" break="no"/>sto fuit potentia diuina: et potentia rationalis: et potentia 
+      <lb ed="#A" n="34"/>sensitiua: per quarum quamlibet in actum volendi se 
+      exhibet<lb ed="#A" n="35" break="no"/>Et sic diuidit Magister in littera. Si autem consideretur 
+      volun<lb ed="#A" n="36" break="no"/>tas in christo per comparationem ad modum volendi: habet 
+      di<lb ed="#A" n="37" break="no"/>uidi diuisione quadrimembri. Et sic considerauit Hugo 
+      <lb ed="#A" n="38"/>in libello quem fecit de voluntate christi. Ait enim sic
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e944">
+      ¶ In 
+      <lb ed="#A" n="39"/>christo fuit voluntas diuinitatis: et voluntas rati. 
+      <lb ed="#A" n="40"/>onis: et voluntas pietatis: et voluntas carnis. 
+      Uo<lb ed="#A" n="41" break="no"/>luntas diuinitatis per iusticiam sententiam dictabat. 
+      <lb ed="#A" n="42"/>Uoluntas rationis per obedientiam veritatem approbabat. 
+      <lb ed="#A" n="43"/>Uoluntas pietatis per compassionem in malo 
+      alieno<lb ed="#A" n="44" break="no"/>suspirabat. Uoluntas carnis in malo proprio per 
+      <lb ed="#A" n="45"/>passionem murmurabat. Et sic patet numerus 
+      vo<lb ed="#A" n="46" break="no"/>luntatum in christo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e965">
+               <head xml:id="Vn7Pel-j81994-Hd1e967">9</head>
+               <p xml:id="Vn7Pel-j81994-d1e969">
+                  <lb ed="#A" n="47"/>¶ Utrum voluntates in christo erant 
+      <lb ed="#A" n="48"/>conformes: an discordes: Arguitur quod fuerunt 
+      discor<lb ed="#A" n="49" break="no"/>des. quia dominus ipse dicebat. Non sicut ego volo: sed 
+      <lb ed="#A" n="50"/>sicut tu vis. ergo aliud volebat christus secundum quod homo: et aliud 
+      <lb ed="#A" n="51"/>secundum quod deus
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e982">
+      ¶ Tonfirmatur. quia christus flebat de 
+      destru<lb ed="#A" n="52" break="no"/>ctione hierulum. ergo volebat hieruslum non destrui. et secundum 
+      <lb ed="#A" n="53"/>iusticiam volebat eam destrui. ergo voluntas humana 
+      <lb ed="#A" n="54"/>aduersabatur diuine
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e991">
+      ¶ Confirmatur secundo. quia autem ratio 
+      as<lb ed="#A" n="55" break="no"/>sentiebat sensualitati refugienti mortem: aut 
+      repu<lb ed="#A" n="56" break="no"/>gnabat. Si assenticbat: ergo assentiebat in contrarium vo¬ 
+      <!--278.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>luntati diuine. ergo peccabat mortaliter. Si 
+      repugna<lb ed="#A" n="58" break="no"/>bat. ergo voluntas rationis et sensualitatis in christo 
+      fue<lb ed="#A" n="59" break="no"/>runt repugnantes
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1009">
+      ¶ Sed contra. Eque 
+      ordina<lb ed="#A" n="60" break="no"/>tus vel ordinatior fuit christus in seipso sicut Adam 
+      <lb ed="#A" n="61"/>in statu innocentie. Sed in statu innocentie nulla 
+      <lb ed="#A" n="62"/>fuit in Adam repugnantia voluntatis. ergo nec in 
+      chri<lb ed="#A" n="63" break="no"/>sto fuit aliqua repugnantia sensualitatis ad ratio 
+      <lb ed="#A" n="64"/>nem: nec rationis ad diuinam
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1023">
+      ¶ Item Aut voluntas 
+      sen<lb ed="#A" n="65" break="no"/>sualitatis in christo subiacebat omnino rationi: aut 
+      <lb ed="#A" n="66"/>aduersabatur. Si subiacebat: ergo nulla erat ibi 
+      repu<lb ed="#A" n="67" break="no"/>gnantia. Si aduersabatur in aliquo: ergo caro concupi 
+      <lb ed="#A" n="68"/>scebat aduersus spiritum. Sed vicium est cum caro 
+      con<lb ed="#A" n="69" break="no"/>cupiscit aduersus spiritum. ergo in christo fuisset 
+      pec<lb ed="#A" n="70" break="no"/>catum: quod est falsum
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1039">
+      ¶ Respondet sanctus Bonauen. 
+      <lb ed="#A" n="71"/>vbi supra. q. iii. Quod conformitas voluntatis ad voluntatem 
+      <lb ed="#A" n="72"/>in duobus consisit. videlicet in volito: et ratione volendi. Con 
+      <lb ed="#A" n="73"/>formitas in volito est quando diuerse voluntates idem 
+      <lb ed="#A" n="74"/>volunt. Conformitas in ratione volendi est: quando idem 
+      <lb ed="#A" n="75"/>eodem modo volunt. vel altera earum velit illud eodem 
+      <lb ed="#A" n="76"/>modo quo superior vult eam velle. Cum ergo ad perfectam 
+      <lb ed="#A" n="77"/>conformitatem ista duo concurrant: alterum eorum est de 
+      ne<lb ed="#A" n="78" break="no"/>cessitate conformitatis: videlicet conformitas in modo. 
+      <lb ed="#A" n="79"/>Alterum vero aliquando de necessitate. aliquando de congruita 
+      <lb ed="#A" n="80"/>te. aliquando preter necessitatem et congruitatem: videlicet 
+      con<lb ed="#A" n="81" break="no"/>formitas in volito Possibile enim est quod 
+      volunta<lb ed="#A" n="82" break="no"/>tes sint conformes: ita quod vna subsit alteri: et tamen non 
+      <lb ed="#A" n="83"/>volunt idem. quia voluntas superior non vult 
+      infe<lb ed="#A" n="84" break="no"/>riorem velle quod ipsa vult: sed magis contrarium. 
+      <lb ed="#A" n="85"/>Uuoniam ergo conformitas in ratione volendi fuit in 
+      omni<lb ed="#A" n="86" break="no"/>bus voluntatibus christi. sic volebat sensualitas 
+      si<lb ed="#A" n="87" break="no"/>cut volebat eam ratio velle. sic volebat etiam ratio 
+      <lb ed="#A" n="88"/>christi sicut volebat diuina voluntas ipsam velle 
+      <lb ed="#A" n="89"/>Ideo concedendum est quod in christo fuit 
+      volunta<lb ed="#A" n="90" break="no"/>tum concordia: quamuis ex parte voluntatis non essen 
+      <lb ed="#A" n="91"/>identitas. quia vnaqueque voluntas quod suum 
+      <lb ed="#A" n="92"/>erat volebat. Et hoc est quod dicit Hugo: secundum 
+      di<lb ed="#A" n="93" break="no"/>uinam voluntatem quod iustum erat volebat. 
+      <lb ed="#A" n="94"/>secundum voluntatem rationis consensit iusticie et 
+      iustici<lb ed="#A" n="95" break="no"/>am approbauit. secundum autem voluntatem pietatis sue 
+      in<lb ed="#A" n="96" break="no"/>time condoluit humane miserie. quemadmodum secundum 
+      <lb ed="#A" n="97"/>voluntatem carnis iusticiam non accusabat: sed 
+      <lb ed="#A" n="98"/>penam recusabat. Unaqueque voluntas quod 
+      su<lb ed="#A" n="99" break="no"/>um erat operabaturis Uoluntas diuina iusticiam. 
+      <lb ed="#A" n="100"/>Uoluntas rationis obedientiam. Uoluntas huma 
+      <lb ed="#A" n="101"/>nitatis misericordiam. Uoluntas carnis naturam 
+      <lb ed="#A" n="102"/>Neque altera alteri contraria erat. Sicut enim 
+      dei<lb ed="#A" n="103" break="no"/>tatis erat iusticiam non deserere: sic carnis intererat 
+      <lb ed="#A" n="104"/>naturam seruare. et pietatis alienam miseriam non 
+      <lb ed="#A" n="105"/>amare. Iustum itaque carni erat quod passionem suam 
+      no<lb ed="#A" n="106" break="no"/>luit. quia hoc erat secundum naturam. et iustum deo erat quod 
+      <lb ed="#A" n="107"/>passionem illius voluit. quia hoc erat secundum iusticiam. Et 
+      <lb ed="#A" n="108"/>sic patet quod licet diuersa essent volita: voluntates 
+      ta<lb ed="#A" n="109" break="no"/>men in christo consonabant.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1126">
+      ¶ Ad argumentum 
+      <lb ed="#A" n="110"/>autem in contrarium quod dicitur Non sicut ego 
+      vo<lb ed="#A" n="111" break="no"/>lo sed sicut tu: dicendum. quod in predicto insinuatur 
+      <lb ed="#A" n="112"/>duplex voluntas in christo. Una videlicet 
+      ratio<lb ed="#A" n="113" break="no"/>nis que erat similis et subiecta diuine voluntati. 
+      </p>
+               <p xml:id="Vn7Pel-j81994-d1e1137">
+                  <lb ed="#A" n="114"/>¶ Altera vero. sensualitatis quam ratio subiiciebat 
+      <!--279.xml-->
+      <pb ed="#A" n="280"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>voluntati diuine: licet ipsa sensualitas naturaliter 
+      com<lb ed="#A" n="2" break="no"/>trarium appeteret. et ita quamuis non erat similis: erat tamen 
+      <lb ed="#A" n="3"/>subiecta ac per hoc non erat contraria.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1155">
+      ¶ Ad primam 
+      <lb ed="#A" n="4"/>confirmationem. quod christus nolebat hierulum destrui 
+      vo<lb ed="#A" n="5" break="no"/>luntate humana Dicendum. quod illa erat voluntas 
+      pieta<lb ed="#A" n="6" break="no"/>tis: quae ideo flebat quod misercordiam diligebat. et quia deus 
+      <lb ed="#A" n="7"/>sic volebat eam velle. ideo diuine voluntati non 
+      repugna<lb ed="#A" n="8" break="no"/>bat. Erat enim ibi conformitas in ratione volendi quamuis 
+      <lb ed="#A" n="9"/>non esset in volito.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1171">
+      ¶ Ad secundam confirmationem 
+      argu<lb ed="#A" n="10" break="no"/>ment scilicet quod aut ratio consentiebat sensualitati aute 
+      dis<lb ed="#A" n="11" break="no"/>sentiebat Dicendum. quod quodammodo consentiebat 
+      quodan<lb ed="#A" n="12" break="no"/>modo dissentiebat. secundum quod potest aliquis alicui dupliciter 
+      com<lb ed="#A" n="13" break="no"/>sentire. aut volendo idem quod ipse vult. aut volendo ipst 
+      <lb ed="#A" n="14"/>sic velle
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1185">
+      ¶ Ratio autem sensualitati consentiebat volendo 
+      <lb ed="#A" n="15"/>tam mori.  hoc idem erat licitum sensualitati. vnde non 
+      vo<lb ed="#A" n="16" break="no"/>lebat nisi licitum. non autem consentiebat volito id est in ipsum 
+      <lb ed="#A" n="17"/>in quod sensualitas. quia hoc esset illicitum voluntati 
+      ratio<lb ed="#A" n="18" break="no"/>nis quod non erat carnem concupiscere aduersus spiritum. 
+      <lb ed="#A" n="19"/>Et sic patet responsio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j81994-Dd1e1200">
+               <head xml:id="Vn7Pel-j81994-Hd1e1202">10</head>
+               <p xml:id="Vn7Pel-j81994-d1e1204">
+                  <lb ed="#A" n="20"/>¶ Queritur. Que est in christo 
+      no<lb ed="#A" n="21" break="no"/>bilior potentia in natura assumpta: intellectus an 
+      vo<lb ed="#A" n="22" break="no"/>luitas: Respondetur secundum Guil. in iii. di. xvii. quod 
+      vo<lb ed="#A" n="23" break="no"/>luntas. quia perfectior est charitas: cuius subiectum est vo 
+      <lb ed="#A" n="24"/>luntas: quam fides cuius subiectum est intellectus. Per. 
+      <lb ed="#A" n="25"/>fectiorque est seraphin cui attribuitur amoris 
+      incen<lb ed="#A" n="26" break="no"/>dium: quam cherubin cui cognitio attribuitur.
+     </p>
+               <p xml:id="Vn7Pel-j81994-d1e1222">
+      ¶ 
+      Que<lb ed="#A" n="27" break="no"/>ritur. Que est perfectior voluntas in christo post 
+      diui<lb ed="#A" n="28" break="no"/>nam: Respondetur secundum eundem Guill. quod voluntas ratiem 
+      <lb ed="#A" n="29"/>nis. Unde he tres se habent per ordinem. Prima 
+      volun<lb ed="#A" n="30" break="no"/>tas rationis. Secunda voluntas pietatis. Tertia 
+      volun<lb ed="#A" n="31" break="no"/>tas carnis siue sensualitatis etc. 
+      </p>
+               <p xml:id="Vn7Pel-j81994-d1e1235">
+                  <lb ed="#A" n="32"/>¶ Hic ineffabiliter praeminet 
+      ma<lb ed="#A" n="33" break="no"/>gneri dei magna erga nos charitas.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

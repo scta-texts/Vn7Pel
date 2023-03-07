@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abba</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Abba</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="7"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j12222">
+            <head xml:id="Vn7Pel-j12222-Hd1e110">Abba</head>
+            <div xml:id="Vn7Pel-j12222-Dd1e112">
+               <head xml:id="Vn7Pel-j12222-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j12222-d1e116">
+        <!--6.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="50"/>Abba id est pater. 
+      <lb ed="#A" n="51"/>De hoc Apostolus Rho. viii. dicit 
+      <lb ed="#A" n="52"/>Accepistis inquit spiritum 
+      adoptio<lb ed="#A" n="53" break="no"/>nis filiorum in quo clamamus 
+      Ab<lb ed="#A" n="54" break="no"/>ba pater etc. Ubi Lyra exponens 
+      <lb ed="#A" n="55"/>dicit quod Abba pater duo sunt 
+      no<lb ed="#A" n="56" break="no"/>mina idem significantia. Unum hebraicum scilicet Abba 
+      si<lb ed="#A" n="57" break="no"/>ue syrum: vt dicit  Hierony. in interpraetationibus nominum 
+      <lb ed="#A" n="58"/>hebraicorum. et non mere hebraicum. Alterum autem est 
+      lati<lb ed="#A" n="59" break="no"/>num scilicet pater. Et per hec duo designat Apostolus secundum 
+      eun<lb ed="#A" n="60" break="no"/>dem Lyram duplicem dei paternitatem. Unam que 
+      <lb ed="#A" n="61"/>est communis bonis et malis qua deus est pater omnium 
+      <lb ed="#A" n="62"/>per creationem. Aliam que est specialis qua deus est pater 
+      iu<lb ed="#A" n="63" break="no"/>storum per gratie adoptionem. Ideo ibidem subdit apostolus. 
+      <lb ed="#A" n="64"/>Ipse enim spiritus sanctus testimonium reddit spiritui nostro 
+      <lb ed="#A" n="65"/>quod sumus filii dei. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j12222-Dd1e159">
+               <head xml:id="Vn7Pel-j12222-Hd1e161">2</head>
+               <p xml:id="Vn7Pel-j12222-d1e163">
+                  <lb ed="#A" n="66"/>¶ Itaque maxima dei charitas 
+      er<lb ed="#A" n="67" break="no"/>ga creaturas: presertim rationales claret in hoc 
+      <lb ed="#A" n="68"/>scilicet Quod deus altissimus dignatur dici Abba pater 
+      <lb ed="#A" n="69"/>creaturarum ex amore. Ideoque nos maxime tenemur 
+      <lb ed="#A" n="70"/>ipsum deum reamare vt patrem: et deuote 
+      grati<lb ed="#A" n="71" break="no"/>as agere. 
+      </p>
+               <p xml:id="Vn7Pel-j12222-d1e179">
+                  <lb ed="#A" n="72"/>¶ Utrum toti trinitati diuine 
+      con<lb ed="#A" n="73" break="no"/>ueniat dici Abba pater. vel soli deo patri: Et 
+      vide<lb ed="#A" n="74" break="no"/>tur quod soli persone patris conueniat: quia christus 
+      Mar<lb ed="#A" n="75" break="no"/>ci. xiiii. ad patrem orauit sic. Abba pater omnia tibi sunt 
+      <lb ed="#A" n="76"/>possibilia: transfer a me calicem istum
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e192">
+      ¶ Respondetur secundum 
+      <lb ed="#A" n="77"/>Rayne. in summa vbi agit de dominica oratione 
+      <lb ed="#A" n="78"/>qua dicimus: Pater noster qui es in celis etc. et 
+      <lb ed="#A" n="79"/>doctores Quod pater vel abba quod idem est 
+      acci<lb ed="#A" n="80" break="no"/>pi potest aliquando in scriptura personaliter pro patre scilicet deo 
+      <lb ed="#A" n="81"/>secundum eternam generationem verbi. Psalmus Pater 
+      me<lb ed="#A" n="82" break="no"/>us es tu deus meus etc. Et sic christus dei filius 
+      <lb ed="#A" n="83"/>naturalis locutus est supra Marci. xiiii. vt dictum 
+      <lb ed="#A" n="84"/>est. Secundo aliquando Abba vel pater accipitur 
+      <lb ed="#A" n="85"/>essentialiter id est pro essentia diuina que est vnica in 
+      <lb ed="#A" n="86"/>trinitate et pater secundum creationem. Malach. ii. Nun 
+      <lb ed="#A" n="87"/>quid non pater vnus omnium nostrum. Et isto modo 
+      <lb ed="#A" n="88"/>deus trinitas tota dicitur pater noster. Unde sic 
+      ac<lb ed="#A" n="89" break="no"/>cipitur cum dicimus orando Pater noster qui es in 
+      <lb ed="#A" n="90"/>celis etc. scilicet pro tribus personis que sunt in 
+      vni<lb ed="#A" n="91" break="no"/>ca essentia creatrice diuina: et non pro solo deo 
+      pa<lb ed="#A" n="92" break="no"/>tre. quia totam trinitatem adoramus
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e229">
+      ¶ 
+      Aduerten<lb ed="#A" n="93" break="no"/>dum autem quod diuina essentia id est ipse deus trinitas est 
+      <lb ed="#A" n="94"/>pater noster. Primo creatione. et sic dicitur Abba vel 
+      pa<lb ed="#A" n="95" break="no"/>ter non solum rationalium: sed et omnium creaturarum. 
+      Se<lb ed="#A" n="96" break="no"/>cundo est pater imaginis participatione. et sic est pater omnium 
+      <lb ed="#A" n="97"/>angelorum etiam malorum. et hominum omnium tam fidelium quam 
+      <lb ed="#A" n="98"/>infidelium. Deutero. xxxii. Nunquid non ipse est pater 
+      <lb ed="#A" n="99"/>tuus qui creauit et feci scilicet ad imaginem
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e248">
+      ¶ Tertio est 
+      <lb ed="#A" n="100"/>pater predestinatione. Et sic est pater omnium angelorum 
+      be<lb ed="#A" n="101" break="no"/>atorum et hominum saluandorum. Unde de angelis dicit dominus 
+      <lb ed="#A" n="102"/>Iob. xxxviii. Ubi eras cum me laudarent astra 
+      ce<lb ed="#A" n="103" break="no"/>li et iubil. omnes filii dei. Quarto deus est pater 
+      ado<lb ed="#A" n="104" break="no"/>ptione facta in christi incarnatione. Et sic non est pater an¬ 
+      <!--7.xml-->
+      <pb ed="#A" n="8"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>gelorum sed dominus Est autem pater tantummodo hominum. ad 
+      He<lb ed="#A" n="2" break="no"/>bre. ii. Nusquam angelos apprehendit sed semen Abrae etc. 
+      <lb ed="#A" n="3"/>Ultimo deus dicitur pater glorie hereditatione. et sic est 
+      <lb ed="#A" n="4"/>pater omnium beatorum. Rho. viii. Si filii et heredes. Hec 
+      <lb ed="#A" n="5"/>autem omnia consecuti sumus ex charitate dei 
+      liberalissi<lb ed="#A" n="6" break="no"/>ma. ergo tenemur eum reamare etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j12222-Dd1e282">
+               <head xml:id="Vn7Pel-j12222-Hd1e284">3</head>
+               <p xml:id="Vn7Pel-j12222-d1e286">
+                  <lb ed="#A" n="7"/>¶ Quare deus amorosus 
+      volu<lb ed="#A" n="8" break="no"/>it vocari a nobis abba vel pater magis quam dominus vel  
+      <lb ed="#A" n="9"/>creator aut deus et huiusmodi. Et claret secundum Chrys. in 
+      oratio<lb ed="#A" n="10" break="no"/>ne dominica: vbi noluit vt oremus sic: Domine deus qui es in 
+      ce<lb ed="#A" n="11" break="no"/>lis sanctificetur nomen tuum. sed sic Pater noster etc. cum tamen quodlibet 
+      ho<lb ed="#A" n="12" break="no"/>rum optime dici potuit. sicut et ecclesia canit in collectis 
+      <lb ed="#A" n="13"/>di. Omnipotens sempiterne deus etc. Respondetur secundum 
+      Ray<lb ed="#A" n="14" break="no"/>ne. in sum. et alios doctores quod hoc deus voluit ex 
+      charita<lb ed="#A" n="15" break="no"/>te pluribus rationibus
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e308">
+      ¶ Prima ratio dicitur debite reuerentie et 
+      <lb ed="#A" n="16"/>per consequens exterrende offense. Nam patri debemus 
+      reue<lb ed="#A" n="17" break="no"/>rentiam et timere paternam offensam ne degeneremus a 
+      si<lb ed="#A" n="18" break="no"/>militudine patris id est dei qui peccatum non fecit etc. i. Pe. ii. 
+      <lb ed="#A" n="19"/>Unde Malach. i. Si ego pater: vbi est honor meus scilicet 
+      <lb ed="#A" n="20"/>reuerentialis. Et hoc voluit deus ex amore miserans nostri 
+      <lb ed="#A" n="21"/>ne per peccatum periremus et non propter sui indigentiam. quia non 
+      <lb ed="#A" n="22"/>indiget nostra honoratione vel reuerentia a nobis 
+      si<lb ed="#A" n="23" break="no"/>bi exhibenda. Unde vt Beda innuit: Dei charitas 
+      vo<lb ed="#A" n="24" break="no"/>luit vt felicius nobis esset per aspera scilicet penitentie et 
+      tribu<lb ed="#A" n="25" break="no"/>lationis duci ad caelestis glorie regnum: quam per amena 
+      pra<lb ed="#A" n="26" break="no"/>ta culpe et delectationis duci ad patibuli supplicitur 
+      <lb ed="#A" n="27"/>Nonne et tu homo sane mentis sic tibi fieri praeeligeres 
+      <lb ed="#A" n="28"/>etc.
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e339">
+      ¶ Secunda ratio prouocande amicicie. Nam deus 
+      beni<lb ed="#A" n="29" break="no"/>gnus magis vult a nobis amari quam timeri. imo 
+      <lb ed="#A" n="30"/>nec timorem exigit a nobis: nisi propter hoc vt timendo 
+      <lb ed="#A" n="31"/>amemus eum: quo scilicet amore coniungamur deo. quia 
+      <lb ed="#A" n="32"/>vt Augustinus dicit. Amor coniungit nos deo. Hic Ber. 
+      <lb ed="#A" n="33"/>Siue inquit praecipiat deus siue flagellet siue 
+      commi<lb ed="#A" n="34" break="no"/>netur siue promissione demulceat: nil aliud nisi vt 
+      di<lb ed="#A" n="35" break="no"/>ligatur optat. sed quia pater est nomen amoris et 
+      do<lb ed="#A" n="36" break="no"/>minus est nobis timoris nomen. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e359">
+      ¶ 
+      Ter<lb ed="#A" n="37" break="no"/>tia ratio dicitur pensande gratie. Ut enim Augustinus in 
+      ser<lb ed="#A" n="38" break="no"/>mone domini in monte. Hec est summa gratia exhibita 
+      <lb ed="#A" n="39"/>populo christiano: vt dicere possit deum orando: Pater 
+      <lb ed="#A" n="40"/>noster. cum nec esset dignus dici seruus dei. Unde in hoc. 
+      <lb ed="#A" n="41"/>praecellit christianus omnem creaturam etiam angelos. quia 
+      <lb ed="#A" n="42"/>est frater christi et filius dei.
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e376">
+      ¶ Quarta ratio prestande 
+      <lb ed="#A" n="43"/>confidentie. Unde Chrys. super Matth dicit. Deus 
+      <lb ed="#A" n="44"/>patrem se dici voluit magis quam dominum: vt nobis 
+      <lb ed="#A" n="45"/>magnam confidentiam daret ad petendum: et spem 
+      lar<lb ed="#A" n="46" break="no"/>gam ad impetrandum. quia serui non semper quod 
+      pe<lb ed="#A" n="47" break="no"/>tunt impetrant. sed filio paternus amor nil iustum et 
+      <lb ed="#A" n="48"/>decens negat. Esai. xlix. dominus dicit. Nunquid ob 
+      <lb ed="#A" n="49"/>liuisci potest mulier infantem suum vt non misereatur 
+      <lb ed="#A" n="50"/>filio vteri sui etc. Quod si quis dicat: mater plus 
+      di<lb ed="#A" n="51" break="no"/>ligit filium quam pater. ex. viii. Ethico. Contra hoc deus 
+      <lb ed="#A" n="52"/>suum amorem praetulit: ibidem subdens. Etsi illa oblita 
+      <lb ed="#A" n="53"/>fuerit: ego tamen non obliuiscar. ergo etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j12222-Dd1e403">
+               <head xml:id="Vn7Pel-j12222-Hd1e405">4</head>
+               <p xml:id="Vn7Pel-j12222-d1e407">
+                  <lb ed="#A" n="54"/>¶ Qualiter probatur quod deus 
+      pater<lb ed="#A" n="55" break="no"/>no amore maximo diligit creaturas ineffabiliter 
+      <lb ed="#A" n="56"/>Respondetur colligendo ex Rayne. in summa vbi 
+      <lb ed="#A" n="57"/>agit de amore. et Guill. super libro. iii. dist. xxxii. aliis 
+      <!--7.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quoque: quod potissime illud probatur rationibus tribus 
+      <lb ed="#A" n="59"/>propter quas debemus et nos reamare deum 
+      per<lb ed="#A" n="60" break="no"/>petuo propter se et sine modo super omnia secundum Bernar. 
+      </p>
+               <p xml:id="Vn7Pel-j12222-d1e429">
+                  <lb ed="#A" n="61"/>¶ Primo ratione eternitatis. Quia deus ab 
+      <lb ed="#A" n="62"/>eterno dilexit creaturas. quia deus ab eterno 
+      prae<lb ed="#A" n="63" break="no"/>cognouit creaturas quas facere voluit Dan. xiii. 
+      <lb ed="#A" n="64"/>Qui nouit omnia antequam fecit. Sed deus nihil 
+      <lb ed="#A" n="65"/>facit nisi volens et diligens. ergo etc. Minor 
+      proba<lb ed="#A" n="66" break="no"/>tur. quia deus nil facit nisi bonum. Gen i. Uidit 
+      <lb ed="#A" n="67"/>deus cuncta que fecerat et erant valde bona. 
+      Sum<lb ed="#A" n="68" break="no"/>mum autem bonum nequit bona non diligere cum 
+      di<lb ed="#A" n="69" break="no"/>lectio sit boni.
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e451">
+      ¶ Siquis dicat. Licet amor dei 
+      <lb ed="#A" n="70"/>sit eternus: tamen creature non fuerunt ab eterno. 
+      <lb ed="#A" n="71"/>ergo etc. Respondetur secundum Tho. iii. scrip. senten. di. 
+      <lb ed="#A" n="72"/>xxxii. ar. iii. Et .i. parte summe. q. xx. ar. ii quod quamuis 
+      <lb ed="#A" n="73"/>creature in propria natura non fuerunt ab eterno 
+      <lb ed="#A" n="74"/>tamen fuerunt ab eterno in mente seu prescientia 
+      <lb ed="#A" n="75"/>diuina vel noticia. Et secundum quod omnes creature ab 
+      <lb ed="#A" n="76"/>eterno in mente diuina habuerunt entitatem: ita 
+      <lb ed="#A" n="77"/>habuerunt bonitatem. Unde per hoc quod deus ab 
+      <lb ed="#A" n="78"/>eterno omnes res cognouit: ab eterno amauit. 
+      <lb ed="#A" n="79"/>Hinc Rho. ix. et Malach. i. Iacob dilexi: Esau 
+      <lb ed="#A" n="80"/>autem odio habui. scilicet cum nondum nati fuissent 
+      <lb ed="#A" n="81"/>Et sic patet propositum. Confirmatur. Quia si 
+      <lb ed="#A" n="82"/>dilectio dei non fuisset ab eterno: tunc sequeretur 
+      <lb ed="#A" n="83"/>quod de non diligente deus postea inciperet fieri 
+      dili<lb ed="#A" n="84" break="no"/>gens. Et sic fieret mutatio in deo: quod est 
+      impos<lb ed="#A" n="85" break="no"/>sibile. ergo etc. Unde Augustinus. vi. de trini. dicit 
+      <lb ed="#A" n="86"/>Absit vt deus aliquid temporaliter diligat. 
+      Ele<lb ed="#A" n="87" break="no"/>git enim nos ante mundi constitutionem etc. Unde 
+      <lb ed="#A" n="88"/>patet quod maxime debemus deum reamare: quia 
+      di<lb ed="#A" n="89" break="no"/>gnatus est ab eterno diligere
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e497">
+      ¶ Deniquam quia deus 
+      <lb ed="#A" n="90"/>etiam in eternum diligit sine fine eos quos ab 
+      eter<lb ed="#A" n="91" break="no"/>no dilexit. Nam ut Magister dicit iii. li. di. xxxii. Dilectio 
+      <lb ed="#A" n="92"/>dei est vsia siue substantia dei. Cum ergo dei dilectio sit ipse 
+      <lb ed="#A" n="93"/>deus: sequitur quod si inciperet deus diligere: vel aliquando 
+      <lb ed="#A" n="94"/>desineret diligere: tunc deus inciperet vel desineret esse 
+      <lb ed="#A" n="95"/>quod est impossibile. Unde et nos in perpetuum 
+      sem<lb ed="#A" n="96" break="no"/>per debemus reamare.
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e516">
+      ¶ Secundo ratione 
+      beniuo<lb ed="#A" n="97" break="no"/>lentie diuinalis probatur maximus esse amor 
+      pa<lb ed="#A" n="98" break="no"/>ternus in deo ad creaturas. Quia cum amare sit 
+      <lb ed="#A" n="99"/>velle bonum amato: ex. viii. Eth. et .ix. Unde deus 
+      <lb ed="#A" n="100"/>neminem dicitur diligere affectu: eo quod affectus 
+      dilectio<lb ed="#A" n="101" break="no"/>nis passio est que non cadit in deum. Sed in deo 
+      <lb ed="#A" n="102"/>est dilectio solum effectus: quia vult bonum 
+      di<lb ed="#A" n="103" break="no"/>lecto. Sed quia deus vult bonum maximum creaturis 
+      <lb ed="#A" n="104"/>ex sua liberali bonitate et charitate. ergo dei amor 
+      <lb ed="#A" n="105"/>est maximus. Sed propter minorem huius 
+      ra<lb ed="#A" n="106" break="no"/>tionis Queritur 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j12222-Dd1e542">
+               <head xml:id="Vn7Pel-j12222-Hd1e544">5</head>
+               <p xml:id="Vn7Pel-j12222-d1e546">
+                  <lb ed="#A" n="107"/>¶ Quid est illud bonum maximum 
+      <lb ed="#A" n="108"/>quod deus vult creaturis paterno amore? 
+      Respon<lb ed="#A" n="109" break="no"/>det idem Rayne. supra cum Tho. li. iii. contra genti. 
+      <lb ed="#A" n="110"/>ca. xxxvii. quod est assimilatio sibi. id est deo vel 
+      par<lb ed="#A" n="111" break="no"/>ticipatio ipsius dei
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e559">
+      ¶ Et ita vult deus omnibus 
+      <lb ed="#A" n="112"/>creaturis seipsum communicare: quo bono 
+      ma<lb ed="#A" n="113" break="no"/>ius esse non potest: cum deus sit summum 
+      bo<lb ed="#A" n="114" break="no"/>num etc. Nam videmus etiam in creaturis quod 
+      <!--8.xml-->
+      <pb ed="#A" n="9"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>paternus amor vult sibi assimilari filium. Sic in 
+      <lb ed="#A" n="2"/>proposito. Deus autem in duobus vult creaturis 
+      as<lb ed="#A" n="3" break="no"/>similationem vel participationem sui. Primo in 
+      <lb ed="#A" n="4"/>esse. et hoc omnibus vult creatis. Secundo in 
+      vi<lb ed="#A" n="5" break="no"/>sione et fruitione sui: quod bonum vult creature 
+      ra<lb ed="#A" n="6" break="no"/>tionali cuilibet voluntate antecedente. sed solis 
+      ele<lb ed="#A" n="7" break="no"/>ctis voluntate consequente. Unde deus amando 
+      <lb ed="#A" n="8"/>suum esse et suam bonitatem vult eam diffundi secundum 
+      <lb ed="#A" n="9"/>quod est possibile per communicationem et 
+      participatio<lb ed="#A" n="10" break="no"/>nem sue essentie omnibus creaturis. et sue glorie omnibus 
+      <lb ed="#A" n="11"/>electis Et hoc est bonum maximum et perpetuum: vt 
+      <lb ed="#A" n="12"/>scilicet similitudinem dei creatura participet. Nam 
+      quaeli<lb ed="#A" n="13" break="no"/>bet entitas alia a diuina non est nisi similitudo 
+      di<lb ed="#A" n="14" break="no"/>uine entitatis. et quelibet alia bonitas et felicitas 
+      <lb ed="#A" n="15"/>participata non est nisi similitudo bonitatis et 
+      fe<lb ed="#A" n="16" break="no"/>licitatis diuine etc. Itaque pro tali et tanta dei 
+      beniuo<lb ed="#A" n="17" break="no"/>lentia debemus deum rediligere. quia ad hoc et 
+      pro<lb ed="#A" n="18" break="no"/>pter hoc deus dilexit et creauit nos ab eterno 
+      pre<lb ed="#A" n="19" break="no"/>ordinando: vt patet Eph. i. Elegit nos deus id est 
+      di<lb ed="#A" n="20" break="no"/>lexit praedestinando. Nam electio praesupponit 
+      dilectio<lb ed="#A" n="21" break="no"/>nem etc. Addit: in ipso. quod Augustinus exponit iu 
+      <lb ed="#A" n="22"/>glo. id est in christo qui est sapientia dei patris in 
+      <lb ed="#A" n="23"/>qua nos elegit. Subdit ad quid vel propter quid 
+      <lb ed="#A" n="24"/>elegit: vt essemus inquit sancti scilicet in virtutibus: 
+      <lb ed="#A" n="25"/>et immaculati scilicet a peccatis. in conspectu eius id est vt cum 
+      <lb ed="#A" n="26"/>conspiciamus. Addit: in charitate. quia non fecit 
+      <lb ed="#A" n="27"/>hoc meritis nostris: sed mera diuina charitate vt 
+      <lb ed="#A" n="28"/>reamemus deum. sicut exponunt etiam 
+      Ambro<lb ed="#A" n="29" break="no"/>sius et Haymo
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e637">
+      ¶ Tertio probatur principaliter quod 
+      <lb ed="#A" n="30"/>maximus sit et ineffabilis amor paternus dei ad 
+      <lb ed="#A" n="31"/>creaturas ratione causalitatis. quia amor dei est 
+      <lb ed="#A" n="32"/>causa omnis bonitatis: omnium rerum: et omnis 
+      amo<lb ed="#A" n="33" break="no"/>ris boni cuiuscunque: vt patet ex verbis 
+      Augusti<lb ed="#A" n="34" break="no"/>ni i. de doctrina christiana. ergo est ineffabiliter 
+      prae<lb ed="#A" n="35" break="no"/>stantior
+     </p>
+               <p xml:id="Vn7Pel-j12222-d1e653">
+      ¶ Profecto si hec pensarent homines de dei 
+      <lb ed="#A" n="36"/>paterno amore cognoscerent quod pre omnibus est 
+      de<lb ed="#A" n="37" break="no"/>us reamandus. neque enim inueniri potest quispiam: 
+      <lb ed="#A" n="38"/>non filius: non frater: non mater non pater: 
+      deni<lb ed="#A" n="39" break="no"/>que nullus amicus qui tantum diligat nos 
+      quan<lb ed="#A" n="40" break="no"/>tum amat ipse altissimus et piissimus pater 
+      cele<lb ed="#A" n="41" break="no"/>stis. Quod considerans Bernardus in medita. 
+      <lb ed="#A" n="42"/>ait. Deus seipsum exhibuit mihi in patrem 
+      amantissi<lb ed="#A" n="43" break="no"/>mum. sed heu ego non exhibui me ei vt debui in 
+      fi<lb ed="#A" n="44" break="no"/>lium: pudeat me tanto patre vixisse degenerem: et 
+      <lb ed="#A" n="45"/>tamboni ac amorosi patris tammalum filium ipsum 
+      <lb ed="#A" n="46"/>blasphemantem. Et quid dicam: Quid vltra 
+      face<lb ed="#A" n="47" break="no"/>re mihi debuit quod non fecerit: Audeo dicere: 
+      <lb ed="#A" n="48"/>si pater non esset obrueret me beneficiis. 
+      Instau<lb ed="#A" n="49" break="no"/>rauit nanque aduersum me testes celum et terram 
+      <lb ed="#A" n="50"/>atque omnem creaturam. et quod maximum est 
+      sangui<lb ed="#A" n="51" break="no"/>nem vnigeniti filii sui clamantem scilicet quod summo 
+      amo<lb ed="#A" n="52" break="no"/>re diligit me deus. Ue ergo mihi si ingratus 
+      fu<lb ed="#A" n="53" break="no"/>ro. Ue si non reamauero: quoniam requiretur 
+      su<lb ed="#A" n="54" break="no"/>per me sanguis ille iustus qui effusus est pro me 
+      <lb ed="#A" n="55"/>in terra etc. 
+      </p>
+               <p xml:id="Vn7Pel-j12222-d1e700">
+                  <lb ed="#A" n="56"/>¶ Ad premissa plura vide vbi 
+      <lb ed="#A" n="57"/>amor.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

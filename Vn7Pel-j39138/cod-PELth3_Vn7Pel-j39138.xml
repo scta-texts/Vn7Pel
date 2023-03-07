@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cognitio christi</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Cognitio christi</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="133"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j39138">
+            <head xml:id="Vn7Pel-j39138-Hd1e110">Cognitio christi</head>
+            <div xml:id="Vn7Pel-j39138-Dd1e112">
+               <head xml:id="Vn7Pel-j39138-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j39138-d1e116">
+                  <lb ed="#A" n="79"/>¶ Cognitio 
+      christi<lb ed="#A" n="80" break="no"/>.
+     </p>
+               <!--floating text-->
+               <p xml:id="Vn7Pel-j39138-d1e125">
+      ¶ Q in cognitione christi com. 
+      <lb ed="#A" n="81"/>mnendatur nobis charitas dei 
+      </p>
+               <!--heading 1 technically starts here-->
+               <p xml:id="Vn7Pel-j39138-d1e133">
+                  <lb ed="#A" n="82"/>¶ Utrum christus secundum quod homo 
+      cogno<lb ed="#A" n="83" break="no"/>scendo intueatur verbum diuinum.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e140">
+      ¶ Notandum pro 
+      <lb ed="#A" n="84"/>pambulo secundum Guill. in. iii dis. xliii. quod Primo 
+      chri<lb ed="#A" n="85" break="no"/>stus habet scientiam de verbo diuino. Secundo 
+      ha<lb ed="#A" n="86" break="no"/>pet scientiam in verbo diuino. Tertio habet cognitionem 
+      <lb ed="#A" n="87"/>a verbo diuino.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e151">
+      ¶ Primo inquam habet scientiam vel 
+      cog<lb ed="#A" n="88" break="no"/>nitionem de verbo diuino. quia illud aperte cognoscit. 
+      </p>
+               <p xml:id="Vn7Pel-j39138-d1e156">
+                  <lb ed="#A" n="89"/>¶ Secundo habet cognitionem vel scientiam in verbo diuino 
+      <lb ed="#A" n="90"/>I in ipso verbo cognoscit creaturas
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e163">
+      ¶ Tertio habet 
+      <lb ed="#A" n="91"/>cognitionem a verbo: dum abstractiua aut intuitiua 
+      <lb ed="#A" n="92"/>cognitione creata cognoscit.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e170">
+      ¶ Notandum secundo iu 
+      <lb ed="#A" n="93"/>cta Scotorel. e. di. xiiii. q. ii art. iii. quod ista duplex 
+      <lb ed="#A" n="94"/>cognitio videlicet intuitiua et abstractiua habent 
+      inter<lb ed="#A" n="95" break="no"/>se triplicem differentiam
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e180">
+      ¶ Prima est: quod intuitiua re 
+      <lb ed="#A" n="96"/>quirit obiectum quod sit. in re extra et sit presens 
+      poten<lb ed="#A" n="97" break="no"/>tie in ratione percipiendi etc. Abstractiua autem 
+      <lb ed="#A" n="98"/>tale obiectum non requirit necessario: sed sufficit 
+      si<lb ed="#A" n="99" break="no"/>bi habere aliquid supplens vicem obiecti
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e191">
+      ¶ Secunda 
+      <lb ed="#A" n="100"/>differentia est quod intuitiua ponit respectum 
+      attingen<lb ed="#A" n="101" break="no"/>tie obiecti vt termini immediati existentis in re extra. 
+      <lb ed="#A" n="102"/>Dico autem immediati medio habente rationem 
+      ter<lb ed="#A" n="103" break="no"/>mini. quia bene potest esse intuitiua cognitio cum habente 
+      <lb ed="#A" n="104"/>rationem quo: non quod. Sicut patet in potentia visiua per spe 
+      <lb ed="#A" n="105"/>ciem rei visibilis: vbi non est actualis attingentia 
+      ob<lb ed="#A" n="106" break="no"/>iecti vt termini immediati: sed mediante specie. 
+      Abs<lb ed="#A" n="107" break="no"/>tractiua autem hunc respectum priuat eo quod accidit si 
+      <lb ed="#A" n="108"/>bi quod eius obiectum existat in re ad extra.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e213">
+      ¶ 
+      Ter<lb ed="#A" n="109" break="no"/>tia differentia est quod intuitiua cognitio ponlt respe 
+      <lb ed="#A" n="110"/>ctum mensurabilem ad mensuram actualem 
+      videli<lb ed="#A" n="111" break="no"/>cet vt sit proportio actualis potentie et obiecti etc. 
+      <!--133.xml-->
+      <pb ed="#A" n="134"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Abstractiua autem non ponit respectum actualem: sed apt 
+      <lb ed="#A" n="2"/>tudinalem solummodo etc.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e233">
+      ¶ His premissis 
+      respe<lb ed="#A" n="3" break="no"/>detur ad questionem secundum eundem Guill. supra per 
+      conclus<lb ed="#A" n="4" break="no"/>onem. quod christus secundum quod homo diuinum verbum intuiti 
+      <lb ed="#A" n="5"/>ue cognoscit. probatur. quia diuina cognitio in 
+      chri<lb ed="#A" n="6" break="no"/>sto secundum quod homo non minus est. imo magis perfecta 
+      <lb ed="#A" n="7"/>quam in aliis hominibus. sed beati homines in patria 
+      vi<lb ed="#A" n="8" break="no"/>debunt deum facialiter. ergo et christus qui erat 
+      con<lb ed="#A" n="9" break="no"/>prehensor a fortiori vidit: cum assumptus sit ad vnio 
+      <lb ed="#A" n="10"/>nem hypostaticam. et per consequens beatificam. vt 
+      pate<lb ed="#A" n="11" break="no"/>bit in sequentibus. Ecce ergo christi hominis dignitas et 
+      <lb ed="#A" n="12"/>diuina ad nos charitas commendatur. cum in christo 
+      <lb ed="#A" n="13"/>scilicet homine exemplum nobis datur beate visionis 
+      di<lb ed="#A" n="14" break="no"/>uine ex dei charitate. vt dicitur libro de spiritu et anima. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e263">
+               <head xml:id="Vn7Pel-j39138-Hd1e265">2</head>
+               <p xml:id="Vn7Pel-j39138-d1e267">
+                  <lb ed="#A" n="15"/>¶ Sed qualiter est possibile quod 
+      chri<lb ed="#A" n="16" break="no"/>stus secundum quod homo vel aliquis hominum beatorum 
+      vide<lb ed="#A" n="17" break="no"/>at immediate diuinam essentiam. Et ratio quaestionis est. 
+      <lb ed="#A" n="18"/>quia Exob. xxxiii. dicit deus. Non videbit me ho 
+      <lb ed="#A" n="19"/>mo et viuet. Et. i. Tin i. Deus habitat lucem 
+      inac<lb ed="#A" n="20" break="no"/>cessibilem. Item Ioa i. Deum nemo vidit vnquam nisi vni 
+      <lb ed="#A" n="21"/>genitus dei. vbi Chrys. dicit. Solus filius et 
+      spi<lb ed="#A" n="22" break="no"/>ritus sanctus deum vidit. Qui autem creabilis est quomodo 
+      <lb ed="#A" n="23"/>potest videre increabilem
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e289">
+      ¶ Ad hec respondendo 
+      no<lb ed="#A" n="24" break="no"/>ta secundum Guill. quod aliqui ex huiusmodi auctoritatibus erra 
+      <lb ed="#A" n="25"/>uerunt di. quod nemo videbit deum in patria immediate 
+      <lb ed="#A" n="26"/>sed solummodo claritatem eius. quia vt inquiunt 
+      ful<lb ed="#A" n="27" break="no"/>gor dei tantus est vt a creatura videri nequiat. 
+      Ho<lb ed="#A" n="28" break="no"/>autem patet erroneum. quia eadem res est deus et 
+      clari<lb ed="#A" n="29" break="no"/>tas eius. Unde etiam opinio quam Hugo de sanc. vic. 
+      <lb ed="#A" n="30"/>super angelica hierarch. recitat. Quosdam scilicet dicere quod 
+      <lb ed="#A" n="31"/>a nemine videbitur deus nisi in quibusdam 
+      theopha<lb ed="#A" n="32" break="no"/>niis et apparitionibus inquantum in his condescendit 
+      <lb ed="#A" n="33"/>suis amicis: non videtur vera. et patet esse falsa. quia 
+      <lb ed="#A" n="34"/>ili. Ioan. iii. dicitur: Uidebimus eum sicuti est. Et 
+      perfe<lb ed="#A" n="35" break="no"/>ctissime prae omnibus creaturis christus vidit in 
+      praesen<lb ed="#A" n="36" break="no"/>ti: et videt in patria. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e320">
+      ¶ Sed ad soluendas 
+      <lb ed="#A" n="37"/>auctoritates inductas pro fatione notande sunt 
+      regu<lb ed="#A" n="38" break="no"/>le ex Guill. et Bonauen. ea. distin. xiiii. arti. i. q. iii. 
+      </p>
+               <p xml:id="Vn7Pel-j39138-d1e327">
+                  <lb ed="#A" n="39"/>¶ Quarum prima est. Quod deus non potest 
+      vide<lb ed="#A" n="40" break="no"/>ri a creatura viribus naturalibus. videlicet in essentia 
+      di<lb ed="#A" n="41" break="no"/>uina. Unde Glosa superer. i. Timothei supra. 
+      di<lb ed="#A" n="42" break="no"/>cit. quod deus lucem habitat inaccessibilem viribus 
+      <lb ed="#A" n="43"/>nostris sed accessibilem muneribus suis. Unde nec 
+      an<lb ed="#A" n="44" break="no"/>gelus per sua naturalia videre potest diuinam essentiam 
+      <lb ed="#A" n="45"/>sed per lumen glorie a deo infusum. Sicut enim sensus 
+      <lb ed="#A" n="46"/>visus cum sit inferioris ordinis non potest 
+      eleuar<lb ed="#A" n="47" break="no"/>ad videndum spiritus scilicet angelos vel animas separatas 
+      <lb ed="#A" n="48"/>naturali visione. ita nec intellectus creatus ad 
+      vi<lb ed="#A" n="49" break="no"/>dendum diuinam essentiam nisi dei gratia.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e354">
+      ¶ Secum 
+      <lb ed="#A" n="50"/>da regula. quod huiusmodi auctoritates que dicunt non 
+      <lb ed="#A" n="51"/>posse videri deum in substantia: intelligende sunt de 
+      <lb ed="#A" n="52"/>visione que communiter habetur in via. secus de visio 
+      <lb ed="#A" n="53"/>ne in patria. et sic dicitur Exo. xxxiii. Non videbit me 
+      <lb ed="#A" n="54"/>homo et viuet scilicet vita sensuali.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e367">
+      ¶ Tertia 
+      regu<lb ed="#A" n="55" break="no"/>lao quod deus non potest videri. id est plene totaliter 
+      <lb ed="#A" n="56"/>comprehendi a creatura. patuit libro. i.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e374">
+      ¶ Quarta 
+      <lb ed="#A" n="57"/>quod non potest videri deus. id est ratio substantie eius 
+      <!--133.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quia hec iatet omnem craturam. vt dicit Gio. super 
+      <lb ed="#A" n="59"/>illud Rhon. i. Quod notum est dei. Isto modo dicit 
+      <lb ed="#A" n="60"/>Isido. quod diuina trinitas sibi soli nota est
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e390">
+      ¶ Qui 
+      <lb ed="#A" n="61"/>ta: quod dicitur deus non cognosci. intelligendo id est non 
+      fa<lb ed="#A" n="62" break="no"/>cit cognoscere ea que sunt in se vel suam 
+      substan<lb ed="#A" n="63" break="no"/>tiam scilicet comprehendendo plenarie. Sicut enim fouca 
+      <lb ed="#A" n="64"/>profunda dicitur incognoscibilis vel ceca: quia non 
+      <lb ed="#A" n="65"/>manifestat que habet in se. Sic in proposito. Et sic 
+      <lb ed="#A" n="66"/>Chrys. dicit quod angeli non vident quid sit deus 
+      <lb ed="#A" n="67"/>Et hoc modo dicitur Matth. xxiiii. quod de die et hora 
+      iu<lb ed="#A" n="68" break="no"/>dicii nemo scit: nec angeli neque filius hominis id est 
+      <lb ed="#A" n="69"/>filius hominis non facit scire. Unde patet quod ex sola 
+      cha<lb ed="#A" n="70" break="no"/>ritate dat deus visionem suam 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e415">
+               <head xml:id="Vn7Pel-j39138-Hd1e417">3</head>
+               <p xml:id="Vn7Pel-j39138-d1e419">
+                  <lb ed="#A" n="71"/>¶ An anima christi cognoscat ver 
+      <lb ed="#A" n="72"/>bum visione creata et mediante habitu sicut et alio 
+      <lb ed="#A" n="73"/>rum beatorum anime: Respondetur secundum eundem Guill. 
+      <lb ed="#A" n="74"/>cum Bonauentu. eadem dist. xiiii. q.i. arti i. Oportet 
+      <lb ed="#A" n="75"/>dicere quod anima christi sicut et aliorum beatorum anime 
+      <lb ed="#A" n="76"/>actu creato per sapientie habitum creatum 
+      cogno<lb ed="#A" n="77" break="no"/>scat verbum increatum. vtpote per lumen creatu 
+      na<lb ed="#A" n="78" break="no"/>turalibus superadditum. Sapientia enim creata 
+      dis<lb ed="#A" n="79" break="no"/>ponit ipsarum animarum potentias cognitiuas et 
+      confor<lb ed="#A" n="80" break="no"/>mes reddit vt illud lumen eternum cognoscant. 
+      <lb ed="#A" n="81"/>Nec aliter potest intelligi vt intellectus beati 
+      cog<lb ed="#A" n="82" break="no"/>noscens dicatur: nisi informetur sapientia clara atque 
+      <lb ed="#A" n="83"/>luminosa. Sicut non potest paries dici albus nisi 
+      <lb ed="#A" n="84"/>albedine informetur. Sed quia diuinum verbum non 
+      <lb ed="#A" n="85"/>potestesse forma alicuius. ergo oportet quod ibi sit 
+      crea<lb ed="#A" n="86" break="no"/>tus habitus informans et illuminans animam 
+      </p>
+               <p xml:id="Vn7Pel-j39138-d1e456">
+                  <lb ed="#A" n="87"/>¶ Unde patet quod deficiunt qui dicunt quod 
+      vide<lb ed="#A" n="88" break="no"/>bimus deum in patria: non creata visione sed 
+      solo<lb ed="#A" n="89" break="no"/>ipso diuino verbo. quod nostra dicetur cognitio vt 
+      <lb ed="#A" n="90"/>ipi extimant 
+    </p>
+               <p xml:id="Vn7Pel-j39138-d1e467">
+      ¶ Rursus secundo deficiunt qui dicunt 
+      <lb ed="#A" n="91"/>quod propter vnionem hypostaticam in christo non 
+      re<lb ed="#A" n="92" break="no"/>quiritur quid mediu nisi solum verbum. patet 
+      fal<lb ed="#A" n="93" break="no"/>sum. quia visio beatifica non fit per solam illam 
+      <lb ed="#A" n="94"/>vnionem sine habitu medio illustrante et 
+      informan<lb ed="#A" n="95" break="no"/>te. Denique quod in christo fuerit scientia et habitualis 
+      <lb ed="#A" n="96"/>et actualis. patet secundum Thomam et Richar. eadem dis. 
+      <lb ed="#A" n="97"/>q. ii. Quia christus vere dormiuit aliquando nec 
+      <lb ed="#A" n="98"/>tunc aliquid amisit eorum que sciuit. Et quia 
+      sci<lb ed="#A" n="99" break="no"/>entia dormientis est scientia in habitu. ergo 
+      chri<lb ed="#A" n="100" break="no"/>stus habuit scientiam habitualem: que et 
+      aliquan<lb ed="#A" n="101" break="no"/>do in actum exiuit in vigilia etc.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e493">
+      ¶ Si autem 
+      di<lb ed="#A" n="102" break="no"/>cat quis. quia fons eterni luminis est infinitus 
+      in<lb ed="#A" n="103" break="no"/>seipo: quomodo ergo virtus anime finita poterit per 
+      ha<lb ed="#A" n="104" break="no"/>bitum creatum et per consequens finitum actus suos protendere 
+      <lb ed="#A" n="105"/>ad ipsum cognoscendum in seipso. cum finitum non possit 
+      <lb ed="#A" n="106"/>agere in infinitum etc. Respondetur secundum Bonauen. 
+      <lb ed="#A" n="107"/>quod anima in cognoscendo deo plus est in suscipiem 
+      <lb ed="#A" n="108"/>do quam in agendo. et habet se in ratione passiui. Et 
+      <lb ed="#A" n="109"/>licet ad perfectionem cognitionis concurrat etiam actio 
+      <lb ed="#A" n="110"/>scilicet iudicare sicut et suscipere: non tamen actio talis 
+      con<lb ed="#A" n="111" break="no"/>currit que fit per aliquam influentiam vel impressionem 
+      <lb ed="#A" n="112"/>cognoscentis in cognoscibile: sed solum per quandam 
+      <lb ed="#A" n="113"/>protensionem. Sicut et in amore cum anima amat nil 
+      in<lb ed="#A" n="114" break="no"/>fluit in amatum licet aliquo modo agit in amando 
+      <!--134.xml-->
+      <pb ed="#A" n="135"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sic intelligendum est de cognitione. Itaque cum anima 
+      vi<lb ed="#A" n="2" break="no"/>deat deum in se non agit in deum: sed deus influit in 
+      <lb ed="#A" n="3"/>animam pure ex charitate et eleuat eam supra seipsam in 
+      <lb ed="#A" n="4"/>cognoscendo deum altissimum et deiformis efficitur 
+      <lb ed="#A" n="5"/>transformata per amorem in deum cognitum. et sic non 
+      va<lb ed="#A" n="6" break="no"/>let obiecto. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e544">
+               <head xml:id="Vn7Pel-j39138-Hd1e546">4</head>
+               <p xml:id="Vn7Pel-j39138-d1e548">
+                  <lb ed="#A" n="7"/>¶ Utrum anima christi videat vel 
+      <lb ed="#A" n="8"/>cognostat verbum diuinum sibi vnitum 
+      comprehenden<lb ed="#A" n="9" break="no"/>do. Respondetur colligendo secundum Bouauen. e. dist. xiiii. 
+      <lb ed="#A" n="10"/>arti. i. q. ii Et Guill. ac Richar. et Tho. eadem 
+      di<lb ed="#A" n="11" break="no"/>stin. quod hec est opinio communior: certior et 
+      probabili<lb ed="#A" n="12" break="no"/>or. quod nec anima christi nec aliqua creatura 
+      comprehen<lb ed="#A" n="13" break="no"/>dere potest verbum increatum. Ratio: quia finitum 
+      <lb ed="#A" n="14"/>non potest comprehendere infinitum. sed et anima christi 
+      <lb ed="#A" n="15"/>et omnis creatura finita est. verbum autem siue deus 
+      <lb ed="#A" n="16"/>est infinitum intensiue. ergo
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e572">
+      ¶ Confirmatur. quia 
+      mo<lb ed="#A" n="17" break="no"/>dus visionis quo videtur verbum diuinum 
+      compreher<lb ed="#A" n="18" break="no"/>dendo est infinitus. Nam comprehendere est totum 
+      <lb ed="#A" n="19"/>totaliter simul capere. vt dictum fuit libro primo. 
+      Ui<lb ed="#A" n="20" break="no"/>dere autem deum infinitum visione infinita intensiue 
+      <lb ed="#A" n="21"/>est solius deitatis que infinite videt seipsam 
+      tota<lb ed="#A" n="22" break="no"/>liter simul. ergo licet anima christi sit verbo vnita et per 
+      <lb ed="#A" n="23"/>consequens attingat et apprehendat per cognitionem ipsum 
+      <lb ed="#A" n="24"/>verbum prae omnibus creaturis beata visione: Tamen 
+      <lb ed="#A" n="25"/>quia manet anima christi finita non comprehendit: sed 
+      so<lb ed="#A" n="26" break="no"/>la diuinitas habet comprehendere se totam. creatu 
+      <lb ed="#A" n="27"/>re autum scilicet beate apprehendunt quantum deo dante 
+      suffici<lb ed="#A" n="28" break="no"/>int
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e601">
+      ¶ Sed an ergo anima christi et quelibet 
+      be<lb ed="#A" n="29" break="no"/>ata vileat totum verbum seu deitatem totam. 
+      Dicen<lb ed="#A" n="30" break="no"/>dum est secundum praedictos docor.t quod videt totam naturam 
+      <lb ed="#A" n="31"/>diuinam: ita quod nihil est de natura verbi vel deitatis 
+      <lb ed="#A" n="32"/>quod non videat. Et sic vnaqueque beata anima quantum 
+      <lb ed="#A" n="33"/>capere potest sufficienter videt totum sed non tota 
+      <lb ed="#A" n="34"/>liter. Illud ei totaliter videtur quod ita perfecte videtur omni 
+      <lb ed="#A" n="35"/>hus scilicet modis sicut visibilis est. nec eius 
+      visibili<lb ed="#A" n="36" break="no"/>tas excedit modum videntis. et sic solus deus ipse 
+      <lb ed="#A" n="37"/>videt seipsum: et per consequens solus comprehendit seipsum 
+      <lb ed="#A" n="38"/>Alia autem et si apphendant tamen non comprehendun¬ 
+      </p>
+               <p xml:id="Vn7Pel-j39138-d1e625">
+                  <lb ed="#A" n="39"/>¶ Sed quomodo istaponantur Bonauen. dicit. quod 
+      <lb ed="#A" n="40"/>quamuis difficile sit intellectui nostro capere tamen 
+      neces<lb ed="#A" n="41" break="no"/>se est ponere. Cum enim deus sit simplex necessario 
+      cre<lb ed="#A" n="42" break="no"/>dendum est quod si cognoscitur. iam non secundum partem et 
+      par<lb ed="#A" n="43" break="no"/>tem sed totus cognoscitur. Rursus: quia deus est 
+      imm<lb ed="#A" n="44" break="no"/>sus vera fide: ergo necesse est ponere quod nunquam ab 
+      intel<lb ed="#A" n="45" break="no"/>lectu finito comprehenditur totaliter. et ita deus a quacum 
+      <lb ed="#A" n="46"/>que creatura siue angelica siue humana ipsum 
+      cog<lb ed="#A" n="47" break="no"/>noscente cognoscitur totus sed non totaliter. Sicut 
+      <lb ed="#A" n="48"/>exemplum. Oculus non clarus videt quidem solem totum 
+      <lb ed="#A" n="49"/>in se lucentem in aliqua nube clara: tamen eminentiam et 
+      <lb ed="#A" n="50"/>lucis secundum totalem radiositatem non comprehendit. Sic 
+      <lb ed="#A" n="51"/>in proposito. licet non omnino similiter. Unde patet dei charitas. quia 
+      <lb ed="#A" n="52"/>vnicuique iuxta sua merita dat se videre ad beatitudi 
+      <lb ed="#A" n="53"/>nem et totum et sufficienter. De his etiam lib. i. vbi Cog. 
+      <lb ed="#A" n="54"/>n scere. § xv. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e664">
+               <head xml:id="Vn7Pel-j39138-Hd1e666">5</head>
+               <p xml:id="Vn7Pel-j39138-d1e668">
+                  <lb ed="#A" n="55"/>¶ Utrum christus secundum quod homo videat 
+      <lb ed="#A" n="56"/>ict omnia in diuino verbo quaecumque videt verbum. Ad hoc Guill. 
+      <!--134.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>e. dist. xiiii. inducit recitan. quod vna opinio videlicet sancti 
+      <lb ed="#A" n="58"/>Tho. di. quod christus secundum quod homo videt in diuino verbo 
+      <lb ed="#A" n="59"/>solum scientia visionis non intelligentie. et hanc dicit e 
+      <lb ed="#A" n="60"/>falsam. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e688">
+      ¶ Aliamque recitat opinionem Bonauen. 
+      <lb ed="#A" n="61"/>eadem dist. ar. ii. q. iii. dicentem. quod christus secundum quod homo 
+      <lb ed="#A" n="62"/>nouit solum in habitu ea omnia que nouit verbum: 
+      <lb ed="#A" n="63"/>non autem in actu. Et hanc etiam dicit idem Guill. esse 
+      <lb ed="#A" n="64"/>falsam. et sic non tenendam.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e699">
+      ¶ Tertiam quoque opinionem 
+      <lb ed="#A" n="65"/>scilicet Scoti e. dist. xiiii. q. ii dicentem. quod christus secundum quod 
+      <lb ed="#A" n="66"/>homo videt omnia in diuino verbo que videt ipsum 
+      ver<lb ed="#A" n="67" break="no"/>bum. Et hanc approbat Guill. quia inquit in christus 
+      <lb ed="#A" n="68"/>poni possunt tres modi cognoscedi res quascumque 
+      <lb ed="#A" n="69"/>etc.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e712">
+      ¶ Primo in diuino verbo intuitiue.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e715">
+      ¶ Secundo 
+      abstra<lb ed="#A" n="70" break="no"/>ctiue scilicet per species inditas anime christi etc:
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e720">
+      ¶ Tertio 
+      bi<lb ed="#A" n="71" break="no"/>experientiam: in quo et profecit. Sed quia non 
+      opor<lb ed="#A" n="72" break="no"/>cuit quod christus cognoscendo res in verbo haberetus 
+      <lb ed="#A" n="73"/>aliam speciem ad cognoscendum verbum. et ad 
+      cogno<lb ed="#A" n="74" break="no"/>scendum res iterum alia. imo eodem cognoscebat diuinum 
+      <lb ed="#A" n="75"/>verbum et res in eo: cum diuinum verbum sit lux et 
+      ex<lb ed="#A" n="76" break="no"/>emplar sufficiens. in quo omnium creabilium 
+      relu<lb ed="#A" n="77" break="no"/>cent idee. ergo christi anima videt omnia in verbo que 
+      vi<lb ed="#A" n="78" break="no"/>det verbum cum illud totum videt: licet non totaliter 
+      con<lb ed="#A" n="79" break="no"/>prehendendo sicut comprchendit verbum. vt patet in 
+      <lb ed="#A" n="80"/>precedentibus Et hec ex charitate.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e744">
+      ¶ Si dicatur. Ex 
+      <lb ed="#A" n="81"/>hoc sequitur quod anima christi cum sit creatura equatur 
+      <lb ed="#A" n="82"/>deo in scientia cum omnia scit que deus scit. Et ad 
+      <lb ed="#A" n="83"/>id etiam est scriptura Colos. ii
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e753">
+      ¶ In quipra scilicet christo 
+      <lb ed="#A" n="84"/>sunt omnes thesauri sapientie et scientie dei 
+      abscon<lb ed="#A" n="85" break="no"/>diti etc. Respondetur secundum Bonauen. vt etiam est 
+      <lb ed="#A" n="86"/>sententia magistri eadem dist. xiiii. lib. iii. quod 
+      crea<lb ed="#A" n="87" break="no"/>tura non potest equari deo. Unde secundum illud aposto 
+      <lb ed="#A" n="88"/>li supra licet anima christi sciat omnia que scit verbum 
+      <lb ed="#A" n="89"/>per gratiam sibi datam in verbo vnito: tamen non 
+      <lb ed="#A" n="90"/>equatur verbo vel deo in sapientia. Tum quia ver 
+      <lb ed="#A" n="91"/>bum cum sit deus videt omnia et scit ex seipso per 
+      <lb ed="#A" n="92"/>essentiam. Sed anima christi scit omnia dei 
+      do<lb ed="#A" n="93" break="no"/>no a verbo. Tum quia anima christi bene scit des 
+      <lb ed="#A" n="94"/>um: incomprehensibiliter tamen. sed dei verbum scit 
+      <lb ed="#A" n="95"/>comprehem sibiliter. §. iiii. Tum denique quia anima 
+      chri<lb ed="#A" n="96" break="no"/>sti non ita perspicue ac clare capit omnia vt deus 
+      <lb ed="#A" n="97"/>Si dicas: ergo anima christi habet aliquam 
+      ob<lb ed="#A" n="98" break="no"/>scuritatem et ita non est speculum clarissimum. 
+      Di<lb ed="#A" n="99" break="no"/>cit Bonauentu. ibidem circa litteram quod anima 
+      chri<lb ed="#A" n="100" break="no"/>sti dicitur speculum clarissimum super omnes 
+      an<lb ed="#A" n="101" break="no"/>gelicas et alias creaturas. iuxta sententiam 
+      Diony<lb ed="#A" n="102" break="no"/>iii. Sed hoc intelligendum est secundum respectum 
+      com<lb ed="#A" n="103" break="no"/>parando ad alias creaturas et non simpliciter. nec 
+      <lb ed="#A" n="104"/>in respectu ad deum. quia in respectu lucis 
+      di<lb ed="#A" n="105" break="no"/>uine omnis creatura tenebra est. vt dicit 
+      Augu<lb ed="#A" n="106" break="no"/>stinus. co que ex nihilo est. Preterea anima christus 
+      <lb ed="#A" n="107"/>non equatur deo. quia et si scit et intelligit omnia 
+      <lb ed="#A" n="108"/>perfecte que verbum: tamen non potest facere omnia 
+      <lb ed="#A" n="109"/>que verbum diuinum. vt patebit infra. Mira et 
+      <lb ed="#A" n="110"/>go charitas claret in hoc quod tanta sapientia illustrat 
+      <lb ed="#A" n="111"/>uit deus christum hominem ad nostram salutem. et totus 
+      <lb ed="#A" n="112"/>humane nature vel generis honorem ex huiusmodi 
+      <lb ed="#A" n="113"/>gratia christi. 
+      <!--135.xml-->
+      <pb ed="#A" n="136"/>
+                  <cb ed="#A" n="a"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e828">
+               <head xml:id="Vn7Pel-j39138-Hd1e830">6</head>
+               <p xml:id="Vn7Pel-j39138-d1e832">
+                  <lb ed="#A" n="1"/>¶ Utrum in christo sit aliqua 
+      scien<lb ed="#A" n="2" break="no"/>tia creata praeter sciamm quam habet in verba: Respondetur secundum 
+      <lb ed="#A" n="3"/>Tho. eadem dist. xiiii. q.i. arti i. quod ex quo christus est 
+      <lb ed="#A" n="4"/>vna persona in duabus naturis scilicet deus et homo. 
+      Consi<lb ed="#A" n="5" break="no"/>derandum est ergo de his quae attribuuntur christo An 
+      per<lb ed="#A" n="6" break="no"/>tineant ad persona diuinam: an ad naturam humanam: 
+      <lb ed="#A" n="7"/>an ad vtraque. Nam si pertinent ad diuinam. sic 
+      opor<lb ed="#A" n="8" break="no"/>tet illud tantum vnum ponere in christo. sicut ibi est 
+      <lb ed="#A" n="9"/>hypostasis vna et vnum suppositum. Si autem ad 
+      hu<lb ed="#A" n="10" break="no"/>manam pertinent: similiter est vnum tantum. sicut vna anima: 
+      <lb ed="#A" n="11"/>vnum corpus. Si veroad vtramque sic: quia nature sunt 
+      <lb ed="#A" n="12"/>integre in christo oportet talia ponere duo: sicut 
+      du<lb ed="#A" n="13" break="no"/>as voluntates: duo liberaarbitria: duos 
+      intelle<lb ed="#A" n="14" break="no"/>ctus scilicet diuinum et humanum. Unde cum scientia 
+      perti<lb ed="#A" n="15" break="no"/>neat ad vtranque naturam. ergo oportet in christo 
+      po<lb ed="#A" n="16" break="no"/>nere duas scientias. vnam increatam: aliam creatam. 
+    </p>
+               <p xml:id="Vn7Pel-j39138-d1e869">
+                  <lb ed="#A" n="17"/> ¶ Si autem queras. Quomodo cum scientia 
+      increa<lb ed="#A" n="18" break="no"/>li id est diuina quae est lux immensa potest stare scientia 
+      cre<lb ed="#A" n="19" break="no"/>ata id est humana. cum maius lumen offuscat minus: 
+      <lb ed="#A" n="20"/>nec lucet minus in maiore. Dicit idem Thomas 
+      <lb ed="#A" n="21"/>quod non est simile. quia quod diuersa luminaria sic se 
+      ha<lb ed="#A" n="22" break="no"/>bent vt effectus minoris lucis non percipiatur 
+      super<lb ed="#A" n="23" break="no"/>assistente luce maiori. hoc ideo est: quia talia 
+      diuer<lb ed="#A" n="24" break="no"/>sa luminaria in luminando sunt eiusdem rationis 
+      <lb ed="#A" n="25"/>et nata sunt res easdem informare. Cum ergo 
+      sen<lb ed="#A" n="26" break="no"/>sus repletur luce maiori effectus minoris non 
+      perci<lb ed="#A" n="27" break="no"/>pitur. sed scientia increata et creata non sunt eiusdem 
+      <lb ed="#A" n="28"/>rationis nec idem informant. ergo simulstant deo 
+      vo<lb ed="#A" n="29" break="no"/>lente sic ex charitate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e901">
+               <head xml:id="Vn7Pel-j39138-Hd1e903">7</head>
+               <p xml:id="Vn7Pel-j39138-d1e905">
+                  <lb ed="#A" n="30"/>¶ Quottuplex autem scientia vel 
+      <lb ed="#A" n="31"/>cognitio distinguitur in christo
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e912">
+      ¶ Notandum secundum 
+      Bo<lb ed="#A" n="32" break="no"/>nauen. e. dist. xiiii. ar. iii. q. i. quod hoc absque dubio 
+      con<lb ed="#A" n="33" break="no"/>cedendum est. videlicet quod anima christi praeter cognitionem in 
+      <lb ed="#A" n="34"/>verbo habitam que est cognitio gloriosa habuit 
+      cog<lb ed="#A" n="35" break="no"/>nitionem a verbo infusam vel datam que est 
+      cogni<lb ed="#A" n="36" break="no"/>tio gratie gratis date. qua etiam cognoscit chrus 
+      <lb ed="#A" n="37"/>res creatas in seipsis per species inditas anime 
+      chri<lb ed="#A" n="38" break="no"/>sti ab ipso conditionis primordio id est a primo 
+      instan<lb ed="#A" n="39" break="no"/>ti conceptionis: sicut fuit in angelicis intellectibus et 
+      <lb ed="#A" n="40"/>in intellectu Ade. Huius ratio est perfectio ipsius 
+      <lb ed="#A" n="41"/>anime christi quae non solum fuit perfecta secundum partem 
+      <lb ed="#A" n="42"/>superiorem sed etiam secundum partem inferiorem et sensualem 
+      <lb ed="#A" n="43"/>Non tantummodo quantum ad statum patrie sed etiam vie secundum 
+      <lb ed="#A" n="44"/>huius duplicem statum. Nam status vie vnus est in 
+      <lb ed="#A" n="45"/>nocentie alius est status nature lapse. Et ita secundum hec 
+      <lb ed="#A" n="46"/>christus habuit triplicem cognitionem triplici 
+      sta<lb ed="#A" n="47" break="no"/>tui conuenientem. Unam habuit cognitionem 
+      glo<lb ed="#A" n="48" break="no"/>ric. Secundam innocentie siue nature integre
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e951">
+      ¶ Terti 
+      <lb ed="#A" n="49"/>am cognitionem expcrientia sensuum et pene vel 
+      mi<lb ed="#A" n="50" break="no"/>serie. Rursus quia anima christi debuit esse 
+      perfe<lb ed="#A" n="51" break="no"/>cta etiam in modo cognoscendi. Ad hoc autem 
+      requi<lb ed="#A" n="52" break="no"/>ritur quod habeat triplicem cognitionem rerum 
+      cog<lb ed="#A" n="53" break="no"/>noscibilium secundum quod habent res triplex ese scilicet in ver 
+      <lb ed="#A" n="54"/>ho et in intellectum creato: et in genere proprio. vt dicit 
+      <lb ed="#A" n="55"/>Augustinus libro. iiii. super Gen. videlicet quod angeli 
+      ha<lb ed="#A" n="56" break="no"/>buerunt hanc triplicem cognitionem rerum. Unam 
+      <!--135.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>in verbo diuino aliam in intellectum suo. et tertiam 
+      <lb ed="#A" n="58"/>in genere proprio in quo habent esse. ergo hec magis 
+      <lb ed="#A" n="59"/>habuit christus.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e982">
+      ¶ Quomodo antem differant iste 
+      <lb ed="#A" n="60"/>cognitiones Rich. eadem dist. xiiii. ar. iii. q. i. dicit: 
+      <lb ed="#A" n="61"/>quod distinguuntur: non penes rem cognitam quia 
+      ea<lb ed="#A" n="62" break="no"/>dem res que cognoscitur in verbo cognosci potest 
+      <lb ed="#A" n="63"/>etiam in genere proprio et econuerso. Sed distinguum 
+      <lb ed="#A" n="64"/>tur penes rationem cognoscendi. quia in cognitione 
+      <lb ed="#A" n="65"/>creaturarum in verbo verbum est immediata ratio 
+      <lb ed="#A" n="66"/>cognoscendi creaturas scilicet sicut exemplar et 
+      specu<lb ed="#A" n="67" break="no"/>lum in quo relucent omnia. Sed in cognitione 
+      <lb ed="#A" n="68"/>creaturarum in genere proprio: ratio cognoscendi est 
+      <lb ed="#A" n="69"/>aliqua species creata informans intellectum 
+      im<lb ed="#A" n="70" break="no"/>mediate et ipsum dirigens in creaturam non mediante 
+      <lb ed="#A" n="71"/>cognitione dei sicut obiecti. Et quia prima ratio 
+      cog<lb ed="#A" n="72" break="no"/>noscendi scilicet in verbo est incomporabiliter clarior quad 
+      <lb ed="#A" n="73"/>secunda. ideo illa dicitur clara: hec obscura. secundum 
+      Au<lb ed="#A" n="74" break="no"/>gustinum. xi. de ciui. quia in verbo dei habentur et vi 
+      <lb ed="#A" n="75"/>dentur omnes cause et rationes secundum quas et 
+      qua<lb ed="#A" n="76" break="no"/>re sic res quaelibet facte sunt. sed in proprio genere 
+      cog<lb ed="#A" n="77" break="no"/>nitionis creature multe rationes latent. Ideo idem 
+      <lb ed="#A" n="78"/>Augustinus. xxvi. q. ad Orosium dicit. quod plus videtur 
+      <lb ed="#A" n="79"/>creatura in arte qua facta est quam in seipsaque facta 
+      <lb ed="#A" n="80"/>est. Sicut exemplum in figura mathematica vel 
+      pi<lb ed="#A" n="81" break="no"/>cture quando edocentur rationes talium protractionum per artem plus 
+      <lb ed="#A" n="82"/>cogscitur quam sola figura aspiciatur. Unde in omnibus dei 
+      cha<lb ed="#A" n="83" break="no"/>ritas patet. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1038">
+               <head xml:id="Vn7Pel-j39138-Hd1e1040">8</head>
+               <p xml:id="Vn7Pel-j39138-d1e1042">
+                  <lb ed="#A" n="84"/>¶ Utrum christus profecerit in 
+      cog<lb ed="#A" n="85" break="no"/>nitione vel scientia et virtutibus ac gratia: Respon 
+      <lb ed="#A" n="86"/>detur breuius et planius secundum Nico. de Lyra 
+      super<lb ed="#A" n="87" break="no"/>illud Luce. ii Puer autem Iesus proficiebat 
+      sa<lb ed="#A" n="88" break="no"/>pientia: etate et gratia etc. quod proficere vel crescere est 
+      <lb ed="#A" n="89"/>qupliciter. Uuo modo secundum esse reale. et aliomodo 
+      <lb ed="#A" n="90"/>solum secundum effectus ostensionem.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1060">
+      ¶ Primo in 
+      cor<lb ed="#A" n="91" break="no"/>pore christi et etate fuit augmentum reale 
+      quantita<lb ed="#A" n="92" break="no"/>tis. Sed in anima eius non fuit augmentum 
+      gra<lb ed="#A" n="93" break="no"/>tie et virtutum reale: quia totam plenitudinem 
+      gra<lb ed="#A" n="94" break="no"/>tie et virtutis habuit in instanti conceptionis.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1071">
+      ¶ 
+      <lb ed="#A" n="95"/>Proficiebat tamen in gratia secundum effectus 
+      ostensi<lb ed="#A" n="96" break="no"/>onem: quia magis ostendebatur secundum quod ipse christus 
+      <lb ed="#A" n="97"/>crescebat etate et secundum quod volebat apparere
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1080">
+      ¶ De 
+      sapi<lb ed="#A" n="98" break="no"/>entia quoque dicendum quod in christo pribnitur 
+      du<lb ed="#A" n="99" break="no"/>plex sapientia scilicet diuina et humana. vt patuit in 
+      prae<lb ed="#A" n="100" break="no"/>cedentibus. Sapientia autem diuina in christo non 
+      <lb ed="#A" n="101"/>potuit augeri vel diminui: cum necessario sit 
+      in<lb ed="#A" n="102" break="no"/>finita.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1094">
+      ¶ Sed sapientia humana in christo est 
+      <lb ed="#A" n="103"/>duplex. Una habitualis vel infusa. alia 
+      experimen<lb ed="#A" n="104" break="no"/>talis vel adquisita. scilicet que accipitur per 
+      operati<lb ed="#A" n="105" break="no"/>onem sensuum. In prima sapientia scilicet habituali 
+      <lb ed="#A" n="106"/>christus non pro fecit. quia ab instanti conceptionis 
+      <lb ed="#A" n="107"/>habuit tantam plenitudinem sapientie quanta 
+      <lb ed="#A" n="108"/>potuit conferri nature humane. Nam et secundum Tho 
+      <lb ed="#A" n="109"/>mam parte. iii. q. ix. ar. iii. et. iiii. Christus habuit 
+      sa<lb ed="#A" n="110" break="no"/>pientie infuse habitum quo nouit omnia in proprio 
+      ge<lb ed="#A" n="111" break="no"/>nere per aliqua sibi infusa: puta per species 
+      intelli<lb ed="#A" n="112" break="no"/>gibiles a deo sibi infusas. ergo in hac noticia non 
+      po<lb ed="#A" n="113" break="no"/>tuit crescere.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1120">
+      ¶ Sed de sapientia humana 
+      <!--136.xml-->
+      <pb ed="#A" n="137"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>experimentali vel adquisita sunt varie opiniones. 
+      <lb ed="#A" n="2"/>Una est Tho. vbi supra quod christus in tali noticia 
+      profe<lb ed="#A" n="3" break="no"/>cit. quia in natura nil est frustra. sed in anima christi que 
+      <lb ed="#A" n="4"/>est eiusdem nature cum animabus aliorum hominum: est 
+      intelle<lb ed="#A" n="5" break="no"/>ctus agens et possibilis. ergo non sunt frustra nec 
+      ocio<lb ed="#A" n="6" break="no"/>si. sed in christi anima sicut et in aliis habet intellectus 
+      <lb ed="#A" n="7"/>agens operationem abstrahendi species intelligibiles a 
+      <lb ed="#A" n="8"/>phantasmatibus et iste species recipiebantur in 
+      intel<lb ed="#A" n="9" break="no"/>sectu possibili ipsius. et talis operatio intellectus est 
+      <lb ed="#A" n="10"/>adquisitio scientie. ergo sic christus profecit in scientia.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1151">
+      ¶ Sed 
+      con<lb ed="#A" n="11" break="no"/>tra hoc arguitur secundum Scotorel. e. di. xiiii. q. ii quod si in 
+      <lb ed="#A" n="12"/>illa scientia adquisita christus proficiebat pro eo quod habebat 
+      <lb ed="#A" n="13"/>intellectum agentem et possibilem. vt ratio Tho. dicit. 
+      sequi<lb ed="#A" n="14" break="no"/>tur pari ratione. quod beati in patria proficiunt continue in 
+      <lb ed="#A" n="15"/>scientia adquisita. quia habent intellectum agentem et possibilen. 
+      <lb ed="#A" n="16"/>sed hoc est falsum. quia sic proficerent perpetuo in infini 
+      <lb ed="#A" n="17"/>tum.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1169">
+      ¶ Alia ergo est opinio Scoti et eum 
+      sequen<lb ed="#A" n="18" break="no"/>tium. quod si fiat sermo de noticia abstractiua. tunc 
+      <lb ed="#A" n="19"/>dicendum quod anima christi bene nouit omnia in proprio 
+      <lb ed="#A" n="20"/>genere per species sibi infusas a deo. quia 
+      quic<lb ed="#A" n="21" break="no"/>quid est perfectionis ponendum est in christi anima si sibi 
+      <lb ed="#A" n="22"/>non repugnat. Sed species infuse respectu omnium 
+      co<lb ed="#A" n="23" break="no"/>nitorum abstractiue: est perfectionis et sibi non repugnat. 
+      <lb ed="#A" n="24"/>sicut et in angelis qui isto modo nouerunt omnia in 
+      pro<lb ed="#A" n="25" break="no"/>prio genere. in quibus simul stant cognitio in 
+      verbo<lb ed="#A" n="26" break="no"/>et cognitio in proprio genere. secundum Augustinus. iiii. super 
+      Ge<lb ed="#A" n="27" break="no"/>nesis. ad lit. ergo et in christo sic est ponendum.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1193">
+      ¶ Unde ista 
+      <lb ed="#A" n="28"/>opinio dicit. quod christus non profecit in tali scientia quantum 
+      <lb ed="#A" n="29"/>ad habitum. quia duo habitus eiusdem rationis non 
+      pos<lb ed="#A" n="30" break="no"/>sunt simlis esse in eodem intellectu cum alterum superflueret 
+      <lb ed="#A" n="31"/>Sed tlris scientia adquisita non videtur esse alterius ratio 
+      <lb ed="#A" n="32"/>nis quam infusa circa idem ohiectum. sicut oculus 
+      mi<lb ed="#A" n="33" break="no"/>raculose datus in videndo est eius rationis omnino cum 
+      <lb ed="#A" n="34"/>oculo naturali. Nec propterea intellectus agens in 
+      <lb ed="#A" n="35"/>christo fuit ociosus. quia non solum in abstractione 
+      spe<lb ed="#A" n="36" break="no"/>cierum intelligibilium est necessaria operatio intellectus 
+      <lb ed="#A" n="37"/>agentis. sedetiam in consideratione secundum habitum scientie 
+      <lb ed="#A" n="38"/>iam prius adquisite: in qua consideratione non 
+      abstra<lb ed="#A" n="39" break="no"/>hit de nouo species.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1222">
+      ¶ Uerumtamen si consideretur 
+      sa<lb ed="#A" n="40" break="no"/>pientia christi quantum ad ostensionem in effectu: sic 
+      profe<lb ed="#A" n="41" break="no"/>cit in sapientia quodammodo inquantum sapientiam suam 
+      <lb ed="#A" n="42"/>tam diuinam quam humanam magis ostendebat: prout ex 
+      <lb ed="#A" n="43"/>charitate volebat et nostre saluti expediebat. sicut 
+      <lb ed="#A" n="44"/>et de gratia ac virtutibus predictum est.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1236">
+      ¶ Proinde 
+      <lb ed="#A" n="45"/>si obiiciatur. quod Luc. ii dicitur christus profecisse in sapientia 
+      <lb ed="#A" n="46"/>Et ad Hebre. v. Didicit christus ex his quae passus est 
+      <lb ed="#A" n="47"/>obedientiam. Dicendum est secundum Scotorels. quod hec in 
+      <lb ed="#A" n="48"/>telligenda sunt de noticia intuitiua adquisita. quia sic 
+      <lb ed="#A" n="49"/>non nouit omnia humana scientia: praesertim singularium 
+      <lb ed="#A" n="50"/>actus omnes quo in huiusmodi scientia humana profecit. 
+      <lb ed="#A" n="51"/>sed non de abstractiua. quia illa nouit omnia. ergo non 
+      <lb ed="#A" n="52"/>proficiebat. Et de harum differentia patuit supra §. i. Unde 
+      <lb ed="#A" n="53"/>patet dei charitas. quia christus profecit prout saluti nostre 
+      <lb ed="#A" n="54"/>expediebat. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1261">
+               <head xml:id="Vn7Pel-j39138-Hd1e1263">9</head>
+               <p xml:id="Vn7Pel-j39138-d1e1265">
+                  <lb ed="#A" n="55"/>¶ Utrum anima christi eodem actu vel 
+      <lb ed="#A" n="56"/>intuitu videat verbum et creaturas in verbo: Respon 
+      <lb ed="#A" n="57"/>detur secundum Rich. supra. e. di. xiiii. arti. ii q. ii concor. Bo¬ 
+      <!--136.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>nauen. et Tho. per conclusionem quod sic.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1281">
+      ¶ Declara 
+      <lb ed="#A" n="59"/>tur. quia actus videndi non numerantur nisi quattuor 
+      <lb ed="#A" n="60"/>modis. videlicet vel penes obiecta. vel penes subiecta. 
+      <lb ed="#A" n="61"/>vel penes rationes videndi vel penes mensuram. 
+      <lb ed="#A" n="62"/>Primo modo penes obiecta id est pluralitatem visorum 
+      <lb ed="#A" n="63"/>non fit ibi numeratio. quia omnia quecumque videt 
+      <lb ed="#A" n="64"/>anima christi in verbo videt in vna essentia vcroi quasti 
+      <lb ed="#A" n="65"/>in vna specie. Et quia quecumque in vna specie et ra 
+      <lb ed="#A" n="66"/>tione videndi videntur: hec simul videntur. Sicut 
+      si<lb ed="#A" n="67" break="no"/>mul videmus quantitatem: colorem: situm: habitum etc. 
+      </p>
+               <p xml:id="Vn7Pel-j39138-d1e1303">
+                  <lb ed="#A" n="68"/>¶ Secundo modo penes subiecta etiam non numeratur. quia 
+      <lb ed="#A" n="69"/>vnicum in numero est subiectum videms scilicet intellectus 
+      <lb ed="#A" n="70"/>christi.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1312">
+      ¶ Tertio modo penes rationes non numeratur. quia per 
+      <lb ed="#A" n="71"/>eande videndi rationem per quam anima christi videt verbum: 
+      <lb ed="#A" n="72"/>videt etiam creaturas relucentes in verbo. Sicut 
+      ima<lb ed="#A" n="73" break="no"/>go in speculo videtur simul cum speculo. Nam videre 
+      <lb ed="#A" n="74"/>creaturas per proprias rationes ipsarum sic est videre in 
+      pro<lb ed="#A" n="75" break="no"/>prio genere vel in propria natura. et non est eas videre 
+      <lb ed="#A" n="76"/>in verbo. opertet ergo quod in verbo videantur per illam rationem 
+      per<lb ed="#A" n="77" break="no"/>quam videtur verbum ipsum
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1331">
+      ¶ Quarto modo penes men suram 
+      <lb ed="#A" n="78"/>non numeratur. quia vna est mensura quae perpetuo videntur 
+      <lb ed="#A" n="79"/>et verbum et quae sunt in eo. Unde patet quod anima christi eodem 
+      <lb ed="#A" n="80"/>habitu et eodem actu quo videt verbum videt et res 
+      <lb ed="#A" n="81"/>in verbo existente sola differentia quantum ad 
+      compa<lb ed="#A" n="82" break="no"/>rationem siue respectum. Sicut homo intelligens 
+      qui<lb ed="#A" n="83" break="no"/>ditatem hominis simul in telligit animal et rationale. 
+      <lb ed="#A" n="84"/>Et intelligens propositionem simul intelligit praedicatum 
+      <lb ed="#A" n="85"/>et eius subiectum. quia intelligit ea vt vnum. Et sic 
+      <lb ed="#A" n="86"/>anima christi intelligit omnia que sunt in 
+      verbo<lb ed="#A" n="87" break="no"/>tanquam in vno existentia vno intuitu simul.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1355">
+      ¶ Si 
+      <lb ed="#A" n="88"/>queratur de aliorum beatorum animabus simlliter 
+      <lb ed="#A" n="89"/>dicendum est quantum ad omnia que in verbo vident 
+      <lb ed="#A" n="90"/>Secus quantum ad illa que vident per species 
+      di<lb ed="#A" n="91" break="no"/>uersas proprias in proprio genere que simul videri non 
+      <lb ed="#A" n="92"/>possunt.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1368">
+      ¶ Sed obiicitur. quia verbum videt in 
+      <lb ed="#A" n="93"/>finita. Si ergo anima christi cum sit finitasimul actu. 
+      <lb ed="#A" n="94"/>omnia illa videt. sequitur quod aut habebit infinitas 
+      <lb ed="#A" n="95"/>operationes vel actus simul secundum diuersa obiecta. aut 
+      <lb ed="#A" n="96"/>quod infinitas operationes habet vno actu quorum vtrum 
+      <lb ed="#A" n="97"/>que est impossibile. Dicendum secundum Thomam vbi supra 
+      <lb ed="#A" n="98"/>quod omnia que anima christi videt in verbo: videt vna 
+      <lb ed="#A" n="99"/>operatione vel vno actu. non tamen illa operatio est 
+      <lb ed="#A" n="100"/>infinita in se formaliter: sed materialiter tantum modo 
+      <lb ed="#A" n="101"/>inquantum transit super infinita stante hac positione 
+      <lb ed="#A" n="102"/>quod generatio semper duraret in mundo posita eius 
+      <lb ed="#A" n="103"/>perpetuitate. Sic autemponendo non esset 
+      infini<lb ed="#A" n="104" break="no"/>tum actu sed solum in potentia. Ecce ergo dei charitas: 
+      <lb ed="#A" n="105"/>quia tali visione beatificat suos 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1400">
+               <head xml:id="Vn7Pel-j39138-Hd1e1402">10</head>
+               <p xml:id="Vn7Pel-j39138-d1e1404">
+                  <lb ed="#A" n="106"/>¶ Utrum christi anima omnia quad 
+      <lb ed="#A" n="107"/>scit in proprio genere intelligat vnico actu in nume 
+      <lb ed="#A" n="108"/>rto an diuersis simul.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1413">
+      ¶ Notandum primo secundum 
+      <lb ed="#A" n="109"/>Richar. eadem distin. xiiii. art. iii. q. i. quod scire res 
+      <lb ed="#A" n="110"/>in proprio genere est eas scire per earum creatas similitu 
+      <lb ed="#A" n="111"/>dines. hoc est species intellectum informantes. Et 
+      <lb ed="#A" n="112"/>quia anima christi ab instanti sue creationis 
+      ha<lb ed="#A" n="113" break="no"/>buit expressissimas omnium creaturarum 
+      simi<lb ed="#A" n="114" break="no"/>litudines. vel species que sibi fuerunt concreate 
+      <!--137.xml-->
+      <pb ed="#A" n="138"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>a deo per quas potuit de omnibus praeteritis: praesentibus et 
+      <lb ed="#A" n="2"/>futuris cognitionem habere. ideo anima christi habui 
+      <lb ed="#A" n="3"/>perfectissimum habitum scientie ad cognoscendum 
+      crea<lb ed="#A" n="4" break="no"/>turas in proprio genere.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1444">
+      ¶ Sed ad quesitum idem 
+      <lb ed="#A" n="5"/>Rich. supra. ar. iiii. q. i. diculiti quod anima chri ea cognitione 
+      <lb ed="#A" n="6"/>que est in proprio genere. non omnia vnico in numero 
+      <lb ed="#A" n="7"/>actu intelligit
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1453">
+      ¶ Ratio. quia tali cognitioe scilicet in proprio 
+      <lb ed="#A" n="8"/>genere intelligit res per creatas earum similitudines. est 
+      <lb ed="#A" n="9"/>ita per plures rationes vel diuersas secundum numerum. ergo ibi 
+      <lb ed="#A" n="10"/>non est vnicus simplex actus intelligendi.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1463">
+      ¶ An ergo 
+      <lb ed="#A" n="11"/>intelligat anima christi istis actibus intellis edi pluribus 
+      <lb ed="#A" n="12"/>quidem: sed simul an non similis Dicit idem Rich. quod non 
+      <lb ed="#A" n="13"/>simul. quia (inquit) non omnia illa sic se habent ad 
+      inur<lb ed="#A" n="14" break="no"/>cem quod actus quibus intelliguntur talem inter se 
+      ha<lb ed="#A" n="15" break="no"/>beant habitudinem quod similis in eodem intellectum esse 
+      pos<lb ed="#A" n="16" break="no"/>sint. quia omnis actus intelligendi anime christi est perfecti 
+      <lb ed="#A" n="17"/>in genere suo id est secundum exigentiam sui generis. et ita vnus 
+      <lb ed="#A" n="18"/>actus plus habet quam alius de perfectione in se.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1483">
+      ¶ Sed 
+      <lb ed="#A" n="19"/>quomodo ponitur perfectio maior inter actus 
+      inter<lb ed="#A" n="20" break="no"/>ligendi in christo: Dicit idem Rich. supra quod christus perfectius 
+      <lb ed="#A" n="21"/>intelligit creaturas in verbo quam eas intelligat in 
+      ge<lb ed="#A" n="22" break="no"/>nere proprio. quia in verbo perfectius intelligibiles sunt 
+      <lb ed="#A" n="23"/>sicut in causa exemplari. Nam licet ita perfecte 
+      intelli<lb ed="#A" n="24" break="no"/>git anima christi creaturas in genere proprio quod hoc 
+      mo<lb ed="#A" n="25" break="no"/>do perfectius intelligi non possint scilicet in genere proprio. 
+      <lb ed="#A" n="26"/>tamen in verbo diuino perfectius intelligit. vt patui 
+      <lb ed="#A" n="27"/>§ vii. Ex his patet dei charitas nobis 
+      commenda<lb ed="#A" n="28" break="no"/>ta. quia suo modo in beatis fieri ordinauit animabus 
+      <lb ed="#A" n="29"/>videlicet cognoscere res in verbo perfectius: et in proprio 
+      <lb ed="#A" n="30"/>genere secundum diuersas rationes pro vtilitate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1514">
+               <head xml:id="Vn7Pel-j39138-Hd1e1516">11</head>
+               <p xml:id="Vn7Pel-j39138-d1e1518">
+                  <lb ed="#A" n="31"/>¶ Utrum anima christi per discursum 
+      ra<lb ed="#A" n="32" break="no"/>tionis cognoscat creaturas in proprio genere
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1525">
+      ¶ 
+      Re<lb ed="#A" n="33" break="no"/>spondetur secundum Rich. eadem di. xiiii. articu. iiii. q. iii. quod 
+      <lb ed="#A" n="34"/>non. Proprie enim cognoscere discurrendo est a 
+      co<lb ed="#A" n="35" break="no"/>nitione principiorum notorum procedere ad adquirendum 
+      <lb ed="#A" n="36"/>cognitionem conclusionis prius ignote. ita quod alia 
+      <lb ed="#A" n="37"/>sit cognitio principii: et alia sit cognitio 
+      conclusio<lb ed="#A" n="38" break="no"/>nis causata ex prima illa cognitione. Auima autem 
+      <lb ed="#A" n="39"/>christi quamuis discursum et formationem syllogismo 
+      <lb ed="#A" n="40"/>rum optime intelligat. non tamen discurrendo vel seyl 
+      <lb ed="#A" n="41"/>logizando. similiter et compositionem et diuisionem: licet 
+      <lb ed="#A" n="42"/>intelligat. quia affirmat aliquid de aliquo vel 
+      ne<lb ed="#A" n="43" break="no"/>gat. tamen non componendo vel diuidendo. sed vno actu 
+      <lb ed="#A" n="44"/>simplici intellectualiter dicit hominem esse animal et 
+      <lb ed="#A" n="45"/>non esse asinum. Et similiter est de aliis animabus 
+      be<lb ed="#A" n="46" break="no"/>atorum et de angelis. prout de hac materia patuit 
+      li<lb ed="#A" n="47" break="no"/>bro Primo vbi intellectus. §. xi. et sequenti. 
+    </p>
+               <p xml:id="Vn7Pel-j39138-d1e1560">
+                  <lb ed="#A" n="48"/>Si autem dicatur. quia anima christi in 
+      <lb ed="#A" n="49"/>telligit vnum per aliud: et res intelligit per 
+      similitudi<lb ed="#A" n="50" break="no"/>nes. ergo a similitudinibus ad ipsas res discurri 
+      <lb ed="#A" n="51"/>intelligendo maxime. quia naturale est huiusmodni 
+      <lb ed="#A" n="52"/>ratiocinando deuenire in cognitionem conclusionis 
+      <lb ed="#A" n="53"/>humanam autem naturam gloria non mutat sed 
+      per<lb ed="#A" n="54" break="no"/>ficit. ergo etc. Dicendum est secundum eundem Rich. quod quando 
+      <lb ed="#A" n="55"/>res intelligitur per suam similitudinem vel speciem 
+      <lb ed="#A" n="56"/>directo aspectu et immediate intellectus fertur in 
+      <lb ed="#A" n="57"/>rem illam cuius est similitudo. tunc ibi nullus est 
+      <!--137.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>discursus proprie loquendo. Sed quando a cognitione 
+      princi<lb ed="#A" n="59" break="no"/>piorum procedit ad conclusionem: ibi dicitur discursus. Cum 
+      <lb ed="#A" n="60"/>ergo anima christi intuetur vnum principium et in eo omnes 
+      <lb ed="#A" n="61"/>conclusiones virtualiter contentas. Et postea 
+      intu<lb ed="#A" n="62" break="no"/>etur aliud principium et in illo conclusiones 
+      conten<lb ed="#A" n="63" break="no"/>tas: non discurrit. Quia per vnum illorum principiorum non 
+      <lb ed="#A" n="64"/>adquirit cognitionem alterius principii. Sed sicut 
+      <lb ed="#A" n="65"/>angelus vno actu intuendo cognoscit scilicet vnum 
+      prin<lb ed="#A" n="66" break="no"/>cipium proprium et similis aliquas conclusiones in eo contentat 
+      <lb ed="#A" n="67"/>vel exinde sequentes immediate vel mediate. et alio actu 
+      <lb ed="#A" n="68"/>postea cognoscit aliud principium et conclusiones in eo 
+      <lb ed="#A" n="69"/>contentas: quantoque intellectus est sublimior tanto sid 
+      <lb ed="#A" n="70"/>mul potest plures conclusiones in eodem princi 
+      pio<lb ed="#A" n="71" break="no"/>cognoscere eodem actu. Sic et anima christi cum sit 
+      perfe<lb ed="#A" n="72" break="no"/>ctissima prae aliis etiam angelis: intuendo quodlibet 
+      pro<lb ed="#A" n="73" break="no"/>prium principium intuetur conclusiones contentas in 
+      il<lb ed="#A" n="74" break="no"/>lo. sed diuersa principia diuersis intuetur actibus. 
+      </p>
+               <p xml:id="Vn7Pel-j39138-d1e1625">
+                  <lb ed="#A" n="75"/>¶ Consimiliter est dicendum de animabus beatorum. quod licet 
+      <lb ed="#A" n="76"/>naturale sit homini ratiocinando deuenire in 
+      cog<lb ed="#A" n="77" break="no"/>nitionem conclusionis. tamen hoc est homini 
+      natu<lb ed="#A" n="78" break="no"/>rale non simpliciter sed ex imperfectione nature. Unde 
+      <lb ed="#A" n="79"/>in modo intelligendi discursiuo est aliquid quod es 
+      <lb ed="#A" n="80"/>homini simpliciter naturale scilicet cognoscere per 
+      in<lb ed="#A" n="81" break="no"/>tellectum. Et est aliud quod sibi conuenit ex 
+      na<lb ed="#A" n="82" break="no"/>ture imperfectione scilicet intelligendo discurrere. Quia 
+      <lb ed="#A" n="83"/>ergo gloria vel beatitudo naturam perficit non 
+      de<lb ed="#A" n="84" break="no"/>struit. ideo in beatis animabus remanebit primum 
+      ex<lb ed="#A" n="85" break="no"/>cluso secundo. quia intelligent beati nec tamen discut 
+      <lb ed="#A" n="86"/>rendo. Et faciet hoc deus ex charitate tantam 
+      perfe<lb ed="#A" n="87" break="no"/>ctionem dando 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1657">
+               <head xml:id="Vn7Pel-j39138-Hd1e1659">12</head>
+               <p xml:id="Vn7Pel-j39138-d1e1661">
+                  <lb ed="#A" n="88"/>¶ Utrum anima christi existens in 
+      <lb ed="#A" n="89"/>hac vita mortali aliquam scientiam acceperit ab 
+      an<lb ed="#A" n="90" break="no"/>gelis secundum animam An potius ipsa anima christi 
+      il<lb ed="#A" n="91" break="no"/>luminauit angelos sicut modo: Respondetur secundum 
+      Tho<lb ed="#A" n="92" break="no"/>mam eadem dist. xiiii. quod anima christi a principio sue 
+      <lb ed="#A" n="93"/>creationis intellectuale lumen abundantius 
+      habu<lb ed="#A" n="94" break="no"/>it et perfertius quam angeli omnes. ita quod non solum secundum 
+      <lb ed="#A" n="95"/>deitatem sed etiam secundum animam humanam omnes 
+      an<lb ed="#A" n="96" break="no"/>gelos illuminauit: sicut etiam modo illuminat omnes 
+      <lb ed="#A" n="97"/>Nam anima christi etiam tunc cum fuit in mortali 
+      cor<lb ed="#A" n="98" break="no"/>pore non erat minoris glorie quam est nunc. sed 
+      equa<lb ed="#A" n="99" break="no"/>lem gloriam habuit tunc sicut et modo. quia erat 
+      <lb ed="#A" n="100"/>comprehensor. ideo nil ab angelis accepit. 
+      Mi<lb ed="#A" n="101" break="no"/>ra ergo dei charitas quia in christo pretulit nos 
+      <lb ed="#A" n="102"/>angelis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1697">
+               <head xml:id="Vn7Pel-j39138-Hd1e1699">13</head>
+               <p xml:id="Vn7Pel-j39138-d1e1701">
+                  <lb ed="#A" n="103"/>¶ Utrum deus dederit anime 
+      chri<lb ed="#A" n="104" break="no"/>sti omnipotentiam sicut dedit omniscientiam: 
+      Re<lb ed="#A" n="105" break="no"/>spondet magister in. iii. dist. xiiii. et cum eo docto 
+      <lb ed="#A" n="106"/>quod licet deus dederit christo omniscientiam: non 
+      <lb ed="#A" n="107"/>tamen dedit omnipotentiam. Si ergo dicatur 
+      Chri<lb ed="#A" n="108" break="no"/>stus omnia scit que deus: ergo scit creare mundum 
+      <lb ed="#A" n="109"/>et seipsum: Respondet ibidem magister dicens. quod bene 
+      <lb ed="#A" n="110"/>scientiam habet creandi mundum: sed non potentiam 
+      <lb ed="#A" n="111"/>Intellige quod non habet christus secundum quod homo potentiam 
+      crean<lb ed="#A" n="112" break="no"/>di: sed habet secundum deitatem. Subdit magister. quod habet 
+      eti<lb ed="#A" n="113" break="no"/>am scientiam creandi animam suam. et scit quomodo deus crcauit 
+      <!--138.xml-->
+      <pb ed="#A" n="139"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>cam. Habet ergo inquit scientiam sui create sed non 
+      sui<lb ed="#A" n="2" break="no"/>creande. quia non est creanda sed creata. Hec ille. 
+      <lb ed="#A" n="3"/>Si obuicitur. quia christus Matth. ultm. dicit Data est 
+      <lb ed="#A" n="4"/>mihi omnis potestas in cclo et in terra. Et Mar. vi. 
+      <lb ed="#A" n="5"/>Omnia possibilia sunt credenti. ergo fortius anime christi. Item 
+      <lb ed="#A" n="6"/>ratione probatur sic. quia omnis natura habens actualem existen 
+      <lb ed="#A" n="7"/>tiam infinitam est omnipotens. sed anima christi est huiusmodi 
+      <lb ed="#A" n="8"/>quia non habet aliud esse actuale quam esse verbi: quod est 
+      <lb ed="#A" n="9"/>infinitum. ergo anima christi est omnipotens. Respondet Bona. 
+      <lb ed="#A" n="10"/>circa litteram ibidem. quod potentia est quaedam praesidendi. Et 
+      <lb ed="#A" n="11"/>de hac intelligitur illud Matth. ultio. Data est mihi 
+      <lb ed="#A" n="12"/>omnis potestas etc. quia omnibus quae sub deo sunt presidet 
+      <lb ed="#A" n="13"/>christus. etiam secundum humanitate. Alia est potentia 
+      crean<lb ed="#A" n="14" break="no"/>di vel faciendi. Et de hac intelligitur dictum magistri. 
+      <lb ed="#A" n="15"/>Tertia est potentia impetrandi. et sic intelligitur quod omnia 
+      <lb ed="#A" n="16"/>possibilia sunt credenti. quia fides impetrat quaequam 
+      mi<lb ed="#A" n="17" break="no"/>racula
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1771">
+      ¶ Ad ratione autem dicendum secundum Rich. e. 
+      <lb ed="#A" n="18"/>di. ar. v. q. i. quod maior illa rationis veritatem tenet non 
+      ni<lb ed="#A" n="19" break="no"/>si quando per suam naturam conuenit alicui habere actualem existen 
+      <lb ed="#A" n="20"/>riam infinitam. Sed quia anime christi hoc non per suam 
+      natu<lb ed="#A" n="21" break="no"/>ram conuenit: sed dei dignatione et charitate datum est 
+      <lb ed="#A" n="22"/>vt habeat esse actuale infinitum verbi. ergo patet 
+      <lb ed="#A" n="23"/>propositum etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1788">
+               <head xml:id="Vn7Pel-j39138-Hd1e1790">14</head>
+               <p xml:id="Vn7Pel-j39138-d1e1792">
+                  <lb ed="#A" n="24"/>¶ Sed quare vel vnde est qo deus 
+      <lb ed="#A" n="25"/>anime christi non dedit omnipotentiam cum 
+      omniscien<lb ed="#A" n="26" break="no"/>tia: Respondetur secundum Bonauen. supra. q. vl. Et Rich. ar. v. 
+      <lb ed="#A" n="27"/>i.ili. ac Tho. arti. vl. Quod omnipotentia de ratione sua 
+      <lb ed="#A" n="28"/>exigit tria propter quae nec anime christi nec alicui creature 
+      <lb ed="#A" n="29"/>potest communicari nisi eatenus qua communicatur christo 
+      no<lb ed="#A" n="30" break="no"/>men et excellentia diuinitatis. hoc est per communicationem 
+      <lb ed="#A" n="31"/>idiomatum propter personalem vnionem.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1812">
+      ¶ Primo omni 
+      <lb ed="#A" n="32"/>potentia exigit summam infinitatem vel immensitatem 
+      <lb ed="#A" n="33"/>quia dicit actiuam potentiam infinitam intensiue: quae 
+      <lb ed="#A" n="34"/>est propria et commensuratur essentie infinite. id est diuine 
+      <lb ed="#A" n="35"/>tantummodo. Unde solius dei proprium est esse 
+      omnipo<lb ed="#A" n="36" break="no"/>tentem. nec aliqua creatura potest esse capax 
+      omni<lb ed="#A" n="37" break="no"/>potentie. licet dei dono possit esse capax omniscientie 
+      <lb ed="#A" n="38"/>ergo omnipotentia non potest dari creature. quia 
+      re<lb ed="#A" n="39" break="no"/>pugnat cum sit finita: nec potest esse deus infinitus in 
+      natu<lb ed="#A" n="40" break="no"/>ra.
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1834">
+      ¶ Secundo omnipotentia exigit et includit sun 
+      <lb ed="#A" n="41"/>ma stabilitatem. Sed omnis creatura eoipso quod ex 
+      ni<lb ed="#A" n="42" break="no"/>hilo est in nihilum tendit. nec potest subsistere 
+      ni<lb ed="#A" n="43" break="no"/>si dei potentia. ergo etc Unde non potest creatura esse omni 
+      <lb ed="#A" n="44"/>hotens. quia non potest ex se conseruare seipsam in est 
+      <lb ed="#A" n="45"/>se stabiliter
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1847">
+      ¶ Tertio exigit omnipotentia summam 
+      <lb ed="#A" n="46"/>et amplissimam potestatem. Nam transcendit ens. qua 
+      <lb ed="#A" n="47"/>de non ente potest facere ens. sed nulla virtus 
+      crea<lb ed="#A" n="48" break="no"/>ture transcendit ens: ergo non potest communicari. 
+    </p>
+               <p xml:id="Vn7Pel-j39138-d1e1857">
+                  <lb ed="#A" n="49"/>Si obiicitur. quia amplior est scientia quam 
+      pote<lb ed="#A" n="50" break="no"/>tia. quia omne quod deus potest scit. sed non 
+      econ<lb ed="#A" n="51" break="no"/>uerso. quia scit contradictoria: sed non potest facere 
+      <lb ed="#A" n="52"/>vera. Cum ergo anima christi sit capax amplioris :e 
+      <lb ed="#A" n="53"/>videlicet omniscientie. ergo est capax etiam minoris videlicet 
+      <lb ed="#A" n="54"/>omnipotentie. quod licet omniscientia sit amplioris ex 
+      <lb ed="#A" n="55"/>tensionis respectu obiecti: sed non respectu subiecti. 
+      <lb ed="#A" n="56"/>vt dicit Bonauen. Nam quantum est de propria ratio 
+      <lb ed="#A" n="57"/>ne vtriusque omnipotentia: ponit subiectum suum 
+      <!--138.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>esse infinitum. sed omniscientia non. Et quia 
+      commu<lb ed="#A" n="59" break="no"/>nicatio omnipotentie respicit plus amplitudinem 
+      <lb ed="#A" n="60"/>subiecti quam obiecti et est excelletius quam omniscientia 
+      <lb ed="#A" n="61"/>In cuius signum multo excellentius est facere vnam 
+      <lb ed="#A" n="62"/>ormicam quam scire caelum et terram. ergo non sequitur quod 
+      <lb ed="#A" n="63"/>si alicui creature communicatur omniscientia: quod ideo 
+      <lb ed="#A" n="64"/>communicetur et omnipotentia. Sufficiat ergo mihi id 
+      di<lb ed="#A" n="65" break="no"/>cere quod deus tanta charitate nos dilexit in christo vt 
+      <lb ed="#A" n="66"/>sIcquid decuit communicauerit. videlicet omniscientiam: omnem gratiam: 
+      <lb ed="#A" n="67"/>omnimodam virtutem: omniumodam charitatem et eterna felicita 
+      <lb ed="#A" n="68"/>tem vt reamaremus deum 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1908">
+               <head xml:id="Vn7Pel-j39138-Hd1e1910">15</head>
+               <p xml:id="Vn7Pel-j39138-d1e1912">
+                  <lb ed="#A" n="69"/>Difficultas prima iuxta praedicta 
+      <lb ed="#A" n="70"/>est. Quali ergo virtute christus fecit miracula que 
+      ope<lb ed="#A" n="71" break="no"/>rabatur in hac vita: Respondetur secundum Richar. eadem 
+      <lb ed="#A" n="72"/>dist. xiiii. q. vlti. Quod cbristus exquo erat deus 
+      ve<lb ed="#A" n="73" break="no"/>rus et homo: poterat diuina virtute impressiones 
+      <lb ed="#A" n="74"/>facere: in inferioribus ita quod non mediante opere na 
+      <lb ed="#A" n="75"/>ture commutaret vnam rem in aliam scilicet aquam in 
+      vi<lb ed="#A" n="76" break="no"/>num. Et queque alia faceret que contradictionem 
+      <lb ed="#A" n="77"/>non includunt. tamen eius anima huiusmodi facere 
+      <lb ed="#A" n="78"/>non potuit propria virtute: quia creatura est. vt patet: 
+      <lb ed="#A" n="79"/>ex glosa super illud Ioan. ii Quid mihi et tibi 
+      mu<lb ed="#A" n="80" break="no"/>ier. Et ad hunc sensum intelligendum est quod 
+      Da<lb ed="#A" n="81" break="no"/>mascenus lib. iii. c. xvi. dicit. Christus supra 
+      homi<lb ed="#A" n="82" break="no"/>nem agebat que hominum sunt scilicet dum super aquas 
+      <lb ed="#A" n="83"/>ambulabat. Uult enim dicere quod christus quamuis 
+      es<lb ed="#A" n="84" break="no"/>set homo: tamen miracula faciebat per virtutem 
+      <lb ed="#A" n="85"/>increatam id est diuinam et non per creatam. Et eodem 
+      <lb ed="#A" n="86"/>modo de omnibus miraculis factis ad 
+      confirmati<lb ed="#A" n="87" break="no"/>onem fidei pro nostra charitate et salute t nendum 
+      <lb ed="#A" n="88"/>est quod fiunt virtute diuina et non virtute creata. quia 
+      <lb ed="#A" n="89"/>probant efficaciter deitatem christi veram. Sed hoc 
+      <lb ed="#A" n="90"/>non probarent si eo modo quo fiunt possent fieri 
+      ope<lb ed="#A" n="91" break="no"/>re virtutis create. vt patet de paralytico subito ad 
+      <lb ed="#A" n="92"/>vnam christi vocem curato. Matth. ii et multis 
+      <lb ed="#A" n="93"/>aliis scilicet mortuis suscitatis et huiusmodi. quae omnia deus ex 
+      cha<lb ed="#A" n="94" break="no"/>ritate ad nos fecit vt experiremur in operibus huiusmodi quia 
+      <lb ed="#A" n="95"/>biligit nos ad salutem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j39138-Dd1e1974">
+               <head xml:id="Vn7Pel-j39138-Hd1e1976">16</head>
+               <p xml:id="Vn7Pel-j39138-d1e1978">
+                  <lb ed="#A" n="96"/>¶ Sed quid de aliis beatis 
+      Qua<lb ed="#A" n="97" break="no"/>li virtute possint facere miracula Idem Rich. vbi 
+      <lb ed="#A" n="98"/>supra dicit. quod nec beati in celo existentes propria 
+      virtu<lb ed="#A" n="99" break="no"/>te possunt facere miracula propric dicta. licet possint 
+      <lb ed="#A" n="100"/>faccre mirabilia. Sed miracula non nisi deus ipse 
+      <lb ed="#A" n="101"/>facit praecibus illorum
+     </p>
+               <p xml:id="Vn7Pel-j39138-d1e1994">
+      ¶ Si ergo queratur An 
+      <lb ed="#A" n="102"/>beatus aliquis possit totam terram commouere: 
+      <lb ed="#A" n="103"/>Idem Richar. dicit. quod licet motum localem 
+      fa<lb ed="#A" n="104" break="no"/>cere possit in corporibus s(partialiter loquendo vt 
+      <lb ed="#A" n="105"/>videtur innuere non tamen potest facere 
+      tramsmuta<lb ed="#A" n="106" break="no"/>tionem ad naturalem formam. Sed et illud quod Ansel. 
+      <lb ed="#A" n="107"/>libro similitudinum dicit scilicet quod tanta erit fortitudo in 
+      glo<lb ed="#A" n="108" break="no"/>rioso corpore beati post resurrectionem vt si vellet totam 
+      <lb ed="#A" n="109"/>terram commouere posset. Hoc idem Rich. 
+      intelligen<lb ed="#A" n="110" break="no"/>do dicit non sic quod beatus possit propria virtute mouere totam 
+      <lb ed="#A" n="111"/>simuls terram. Sed sic quod a deo pecibus posset impetrare quod 
+      <lb ed="#A" n="112"/>ipse deus hoc faceret. quia tanta charitate deus diligit suos 
+      <lb ed="#A" n="113"/>maxime beatos vt faciat quicquid illi volunt 
+      absolu<lb ed="#A" n="114" break="no"/>te fieri etc.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

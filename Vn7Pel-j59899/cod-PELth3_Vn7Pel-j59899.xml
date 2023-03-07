@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Furtum</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Furtum</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="203"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j59899">
+            <head xml:id="Vn7Pel-j59899-Hd1e110">Furtum</head>
+            <div xml:id="Vn7Pel-j59899-Dd1e112">
+               <head xml:id="Vn7Pel-j59899-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j59899-d1e116">
+                  <lb ed="#A" n="84"/>Furtum primo quam 
+      <lb ed="#A" n="85"/>tum ad id quid sit et vnde dicatur In quo 
+      cla<lb ed="#A" n="86" break="no"/>ret diuina charitas: qua prohibetur ne 
+      ani<lb ed="#A" n="87" break="no"/>me furando periclitentur. Furtum enim vt dicitur. f. de 
+      <lb ed="#A" n="88"/>furi liceti. proprie sumptum est fraudulosa aliene rei 
+      com<lb ed="#A" n="89" break="no"/>trectatio inuito domino que fit animo lucrandi scilicet 
+      gra<lb ed="#A" n="90" break="no"/>tia rei vel possessionis eius vel vsus. Bene aut 
+      di<lb ed="#A" n="91" break="no"/>citur contrectatio. quia sine ea non est proprie furtum. 
+      <lb ed="#A" n="92"/>licet interueniat voluntas: verbum: vel scriptura: 
+      <lb ed="#A" n="93"/>vt. f. eo l. i. Unde siquis concupiscat illicite rem 
+      alie<lb ed="#A" n="94" break="no"/>nam sine contrectatione: facit contra aliud 
+      prece<lb ed="#A" n="95" break="no"/>ptum scilicet Non concupisces etc. Fraudulosa vero additur 
+      <lb ed="#A" n="96"/>quia siquis credebat rem suam esse ac per hoc 
+      li<lb ed="#A" n="97" break="no"/>cere eam sibi surripere: non committit furtum. quia 
+      igno<lb ed="#A" n="98" break="no"/>rantia facti excusat. sed non iuris. Sicut nuper 
+      tu<lb ed="#A" n="99" break="no"/>lit frater quidam librum ad vsum alteri 
+      conces<lb ed="#A" n="100" break="no"/>sum: existimans illum qui ad suum fuerat datum 
+      <lb ed="#A" n="101"/>Inuito domino ideo apponitur: quia si credit dominum 
+      <lb ed="#A" n="102"/>permissurum et iusta causa subsit hoc credendi non 
+      te<lb ed="#A" n="103" break="no"/>netur reus furti. etiamsi dominus non erat permissurus 
+      <lb ed="#A" n="104"/>Si autem iusta causa non subsistit hoc credendi: 
+      tene<lb ed="#A" n="105" break="no"/>tur. ff. e. si is qui rem. Si vero facere credebat 
+      inui<lb ed="#A" n="106" break="no"/>to domino: et tamen dominus velit: furtum facit quanm 
+      <lb ed="#A" n="107"/>tum ad intentione et peccat mortaliter. non 
+      tamen<lb ed="#A" n="108" break="no"/>tenetur ad restitutionem. nec dominus petere potest 
+      ob<lb ed="#A" n="109" break="no"/>stante sibi eius voluntate. fl. e. inter omnes. §. penul. 
+      <lb ed="#A" n="110"/>Rei aliene ideo adiungitur. quia non committitur in 
+      <lb ed="#A" n="111"/>re plenissime propria. Plenissime dixi. qula si alius 
+      <lb ed="#A" n="112"/>haberet ius in re illa vt socius vel creditor vel 
+      ali<lb ed="#A" n="113" break="no"/>us similis etiam dominus rem illam furtiue 
+      surripi<lb ed="#A" n="114" break="no"/>ens alicui tali: furtum faceret. et teneretur actione 
+      <!--203.xml-->
+      <pb ed="#A" n="204"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>furti. sed res non esset furtiua. ff. e. Si res. Animo 
+      <lb ed="#A" n="2"/>lucrandi ponitur ibi. quia si ancillam alicuius 
+      mere<lb ed="#A" n="3" break="no"/>tricem rapuerit vel celauerit non lucri: sed libidinis 
+      <lb ed="#A" n="4"/>causa: non facit furtum: licet alias grauiter peccet. ff. 
+      <lb ed="#A" n="5"/>e. Uerum. Gratia rei vel possessionis eius vel vsus 
+      <lb ed="#A" n="6"/>ponuntur ibi. quia non solum committit furtum qui 
+      lu<lb ed="#A" n="7" break="no"/>trifacere vult sic furtiue rei dominium: sed et qui rei 
+      <lb ed="#A" n="8"/>possessionem vel vsum: vt habetur di il. qui sacrum. Dicitur 
+      <lb ed="#A" n="9"/>autem furtum a furno id est nigro vel obscuro: eo quod 
+      obscu<lb ed="#A" n="10" break="no"/>re et plerumque de nocte fiat. Potest etiam dici a 
+      fur<lb ed="#A" n="11" break="no"/>no in quo fur plerumque latet.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e216">
+      ¶ Ex praemissis patet quod 
+      <lb ed="#A" n="12"/>qui recipit equum vel rem aliam accommodatam vsque 
+      <lb ed="#A" n="13"/>ad locum certum: si cum illa re vltra locum certum 
+      <lb ed="#A" n="14"/>procedat: furtum committit: nisi in casu posito 
+      supra<lb ed="#A" n="15" break="no"/>scilicet inuito domino.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e227">
+      ¶ Sed quid si quis rem sibi concessam 
+      <lb ed="#A" n="16"/>ad vtendum alii commendauerit: nunquid committit 
+      fur<lb ed="#A" n="17" break="no"/>tum: Utique secundum Astexanum. quia non est sibi concessa 
+      <lb ed="#A" n="18"/>ad vsum istum: imo videtur hoc facere gratia sui 
+      lu<lb ed="#A" n="19" break="no"/>cri. Species enim est lucri ex alieno beneficio sibi de 
+      <lb ed="#A" n="20"/>bitorem adquirere. Similiter et creditor furtum 
+      con<lb ed="#A" n="21" break="no"/>mittit si vtatur pignere sibi obligato. ff. e. Si in 
+      paei<lb ed="#A" n="22" break="no"/>gnere. Et breviter In omni contrectatione rei 
+      alie<lb ed="#A" n="23" break="no"/>ne contra domini voluntatem committitur furtum
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e247">
+      ¶ 
+      No<lb ed="#A" n="24" break="no"/>tandum circa hoc quod Furtorum Quedam retinent 
+      no<lb ed="#A" n="25" break="no"/>men generale. Quedam vero habent specialis 
+      mate<lb ed="#A" n="26" break="no"/>rie rationem et nomen speciale. Et horum est quadruplex 
+      <lb ed="#A" n="27"/>differentia. Quia furtum rei sacre dicitur sacrilegi 
+      <lb ed="#A" n="28"/>um. Furtum reipublice dicitur peculatus: vt pater 
+      <lb ed="#A" n="29"/>xxiii. q. iiii. Quid igitur. Aliud furtum dicitur plagium. 
+      <lb ed="#A" n="30"/>vt cum quis hominem liberum vendit vel emit: donat vl 
+      <lb ed="#A" n="31"/>accipit vel permutat. si. adi liet fauiam de plagi. 
+      Quar<lb ed="#A" n="32" break="no"/>tum dicitur abigeaturs scilicet dispergendo gregem et inde 
+      furan<lb ed="#A" n="33" break="no"/>do. fi de abige. li. . §. 1. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e272">
+               <head xml:id="Vn7Pel-j59899-Hd1e274">2</head>
+               <p xml:id="Vn7Pel-j59899-d1e276">
+                  <lb ed="#A" n="34"/>¶ Utrum furtum semper sit 
+      pecca<lb ed="#A" n="35" break="no"/>tum: Respondetur quod sic. quia dicitur Exo. xx. Non 
+      <lb ed="#A" n="36"/>furtum facies. Habet autem furtum rationem 
+      pec<lb ed="#A" n="37" break="no"/>cati propter duo. Primo ratione contrarietatis ad 
+      <lb ed="#A" n="38"/>iusticiam que reddit vnicuique quod suum est. 
+      Op<lb ed="#A" n="39" break="no"/>ponitur enim iusticie inquantum est rei aliene acceptio. 
+      <lb ed="#A" n="40"/>Secundo ratione doli quem fur committit 
+      occul<lb ed="#A" n="41" break="no"/>te rem alienam vsurpando. Unde patet quod omne 
+      <lb ed="#A" n="42"/>furtum est peccatum: quia lege diuina et nature 
+      pro<lb ed="#A" n="43" break="no"/>hibitum. Uerumtame accipere autoritate iudicis id 
+      <lb ed="#A" n="44"/>decernentis non est peccatum: sed iam ibi est debitum 
+      <lb ed="#A" n="45"/>per hoc quod sibi sententialiter est adiudicatum. Ideo 
+      <lb ed="#A" n="46"/>multo minus fuit furtum quando filii israel tule 
+      <lb ed="#A" n="47"/>runt spolia egyptiorum ad iussum domini: pro eo quod 
+      <lb ed="#A" n="48"/>Egyptii eos affligebant sine causa. Ideo 
+      signan<lb ed="#A" n="49" break="no"/>ter dicitur Sap. x. Iusti tulerunt spolia impiorum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e314">
+               <head xml:id="Vn7Pel-j59899-Hd1e316">3</head>
+               <p xml:id="Vn7Pel-j59899-d1e318">
+                  <lb ed="#A" n="50"/>¶ Utrum Furtum sit peccatum 
+      <lb ed="#A" n="51"/>mortale: Respondetur secundum Astexanum in summa libro 
+      <lb ed="#A" n="52"/>i titulo. xxxiii. quod sic: cum sit contrarium charitati 
+      <lb ed="#A" n="53"/>secundum quam est vita spiritualis. Ad charitatem autem 
+      parti<lb ed="#A" n="54" break="no"/>net vt proximo velimus et operemur bonum. Per 
+      <lb ed="#A" n="55"/>furtum autem infertur ei in rehus pamnum. Unde 
+      <!--203.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>Cacha. v. dicitur. Omnis fur iudicabitur: nullus 
+      <lb ed="#A" n="57"/>iunt condemnatur secundum dei iudicium nisi pro morta 
+      <lb ed="#A" n="58"/>li peccato.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e344">
+      ¶ Nota tamen quod accipiens furtiue 
+      <lb ed="#A" n="59"/>minimum: vt vnam acum vel pennam presumere 
+      po<lb ed="#A" n="60" break="no"/>test hoc non esse contra dei voluntate. et pro tanto 
+      <lb ed="#A" n="61"/>potest excusari a mortali peccato. Si autem habeat 
+      <lb ed="#A" n="62"/>animum furandi et inferendi proximo 
+      nocumen<lb ed="#A" n="63" break="no"/>tum: etiam in huiusmodi potest esse peccatum 
+      mor<lb ed="#A" n="64" break="no"/>tale. Sicut etiam in solo cogitatu per consensum 
+      <lb ed="#A" n="65"/>Hec sanctus Tho. secunda secunde. qi. lxvi. ar. v. et. vi. Non 
+      <lb ed="#A" n="66"/>enim quod furto sublatum est sed mens furantis 
+      at<lb ed="#A" n="67" break="no"/>tenditur. xiiii. q. vi. c. vlti. habetur de hoc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e367">
+               <head xml:id="Vn7Pel-j59899-Hd1e369">4</head>
+               <p xml:id="Vn7Pel-j59899-d1e371">
+                  <lb ed="#A" n="68"/>¶ Utrum alicui liceat furari 
+      pro<lb ed="#A" n="69" break="no"/>pter necessitatem: Respondetur secundum Astexanum vbi 
+      <lb ed="#A" n="70"/>supra. et Richar. in. iii. dist. xxxv. concordat. Quod 
+      <lb ed="#A" n="71"/>ea que sunt iuris humani derogare non possunt 
+      <lb ed="#A" n="72"/>iuri naturali vel diuino. Secundum ordinem aut 
+      natu<lb ed="#A" n="73" break="no"/>ralem ex dei prouidentia institutum res inferiores 
+      <lb ed="#A" n="74"/>sunt ordinate ad hoc vt ex eis subueniatur hominum 
+      <lb ed="#A" n="75"/>necessitati. Et ideo propter rerum diuisionem et appro 
+      <lb ed="#A" n="76"/>priationem ex humano iure procedentem non impeditur 
+      <lb ed="#A" n="77"/>quin ex eissit hominum necessitati subueniendum 
+      <lb ed="#A" n="78"/>Et ideo res quaa superabundanter habent aliqui: 
+      de<lb ed="#A" n="79" break="no"/>bentur pauperum sustentationi. Unde Ambrosius 
+      <lb ed="#A" n="80"/>et habetur. xlvii. dist. Sicut hi. Esurientium panis est 
+      <lb ed="#A" n="81"/>quem detines: nudorum indumentum est quod 
+      reclu<lb ed="#A" n="82" break="no"/>dis: miserorum redemptio est pecunia quam in 
+      ter<lb ed="#A" n="83" break="no"/>ra etiam fodis. Sed quia multi necessitatem 
+      pati<lb ed="#A" n="84" break="no"/>untur et non potest ex eadem re omnibus subueniri: 
+      <lb ed="#A" n="85"/>committitur vniuscuiusque arbitrio dispensatio suarum 
+      <lb ed="#A" n="86"/>rerum vt ex eis subueniat necessitatem patienti 
+      <lb ed="#A" n="87"/>bus. Si tamen adeo sit vrgens et euidens 
+      necessi<lb ed="#A" n="88" break="no"/>tas vt manifestum sit instati necessitati de rebus 
+      <lb ed="#A" n="89"/>occurrentibus subueniendum esse: puta cum 
+      immi<lb ed="#A" n="90" break="no"/>net periculum persone: nec aliter subueniri potest: tunc 
+      <lb ed="#A" n="91"/>icet ex rebus alienis siue manifeste ssue occulte 
+      sub<lb ed="#A" n="92" break="no"/>latis sue necessitati subuenire. Nec hoc habet 
+      pro<lb ed="#A" n="93" break="no"/>prie rationem furti vel rapine. Tum quia illud na 
+      <lb ed="#A" n="94"/>turale ius et diuinum exigit: vt dictum est. Tum 
+      <lb ed="#A" n="95"/>quia necessitas omnia communia facit. Ar. di. xlii. 
+      <lb ed="#A" n="96"/>§. i. et. xii. q. i. Dilectissimus. Tum quia dominua 
+      <lb ed="#A" n="97"/>rei tunc ei subuenire teneretur si praesens esset. §o. di. pasce. 
+      <lb ed="#A" n="98"/>vnde talis licite potuit et debuit credere dominum permissurum 
+      <lb ed="#A" n="99"/>et ita non commisit furtum. Tum quia necessltas 
+      <lb ed="#A" n="100"/>legem non habet. de conse. di. i. Sicut. Si autem 
+      <lb ed="#A" n="101"/>sit necessitas sed non tanta: peccat. sed necessitas 
+      <lb ed="#A" n="102"/>peccatum attenuat. Et in tali casu loquitur lex de fur. 
+      <lb ed="#A" n="103"/>Siquis per necessitatem famis aut nuditatis 
+      fu<lb ed="#A" n="104" break="no"/>ratus fuerit vestem vel pecus: peniteat hebdoma 
+      <lb ed="#A" n="105"/>das tres. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e458">
+               <head xml:id="Vn7Pel-j59899-Hd1e460">5</head>
+               <p xml:id="Vn7Pel-j59899-d1e462">
+                  <lb ed="#A" n="106"/>¶ Utrum liceat alicui furari ab 
+      <lb ed="#A" n="107"/>vsurario vel auaro vt inde elemosynam faciat: 
+      Re<lb ed="#A" n="108" break="no"/>ipondetur secundum Ray. quod non. quia talis furtum 
+      velra<lb ed="#A" n="109" break="no"/>pinam committit. quia non sunt facienda mala vt 
+      <lb ed="#A" n="110"/>turniant quetunque bona xxx. q. i. Nosse. Et. xxxii. 
+      <!--204.xml-->
+      <pb ed="#A" n="205"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ii iiii. Sicut non sunt. Sed videtur quod ille non 
+      faci<lb ed="#A" n="2" break="no"/>at furtum: quia non facit animo lucrandi. Sed non 
+      <lb ed="#A" n="3"/>est ita. quia species lucrri est ex alieno largiri. In 
+      ca<lb ed="#A" n="4" break="no"/>su tamen in quo periculum imminet persone: nec potest 
+      <lb ed="#A" n="5"/>aliunde subueniri: potest secundum sanctum Tho. aliquis 
+      <lb ed="#A" n="6"/>occulte rem alienam accipere vt subueniat proximo 
+      <lb ed="#A" n="7"/>sic indigenti. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e498">
+               <head xml:id="Vn7Pel-j59899-Hd1e500">6</head>
+               <p xml:id="Vn7Pel-j59899-d1e502">
+                  <lb ed="#A" n="8"/>¶ Quid siquis furetur vt 
+      resti<lb ed="#A" n="9" break="no"/>tuat domino et ita faciat: Respondetur secundum Hostien. quod 
+      <lb ed="#A" n="10"/>talis videtur excusari. Ar. si. depositi bona fides. 
+      <lb ed="#A" n="11"/>Nam etiam vtiliter gerit negocium furis: ergo cogitur 
+      ra<lb ed="#A" n="12" break="no"/>n ote. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e516">
+               <head xml:id="Vn7Pel-j59899-Hd1e518">7</head>
+               <p xml:id="Vn7Pel-j59899-d1e520">
+                  <lb ed="#A" n="13"/>¶ Utrum peccet qui rem suam 
+      <lb ed="#A" n="14"/>apud alium depositam vel iniuste detentam accipit 
+      <lb ed="#A" n="15"/>furtiue: Respondetur secundum sanctum Tho. in summa. qa. 
+      <lb ed="#A" n="16"/>de furto: quod primus peccat: quia depositarium 
+      gra<lb ed="#A" n="17" break="no"/>uat. quia tenetur restituere et innoxium se ostendere. vnde 
+      <lb ed="#A" n="18"/>accipiens tenetur eum indemnem seruare. Secundus vero 
+      <lb ed="#A" n="19"/>peccat contra communem iusticiam dum vsurpat sibi 
+      <lb ed="#A" n="20"/>rei sue iudicium iuris ordine praetermisso. Et ideo 
+      te<lb ed="#A" n="21" break="no"/>netur domino satisfacere: et operam dare vt sedetur 
+      sca<lb ed="#A" n="22" break="no"/>dalum proximorum si tamen sit ortum. Non tamen 
+      te<lb ed="#A" n="23" break="no"/>netur aliquid restituere quia non grauat detentorum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e547">
+               <head xml:id="Vn7Pel-j59899-Hd1e549">8</head>
+               <p xml:id="Vn7Pel-j59899-d1e551">
+                  <lb ed="#A" n="24"/>¶ Utrum liceat alicui christianos 
+      <lb ed="#A" n="25"/>captiuos furari a paganis vt libertati illos 
+      resti<lb ed="#A" n="26" break="no"/>tuat: Respondetur secundum Raymundum: quod talis non 
+      te<lb ed="#A" n="27" break="no"/>netur restituere hominem talem: et maxime si pagani 
+      <lb ed="#A" n="28"/>circumciderant eum in contemptum fidei christiane. 
+      <lb ed="#A" n="29"/>Hinc Grego. Contra hostes fidei non tantum aper 
+      <lb ed="#A" n="30"/>te: sed etiam a dorso saborandum est. Preterea quid 
+      <lb ed="#A" n="31"/>intendit nisi animam liberare a peccato et occasionem 
+      <lb ed="#A" n="32"/>peccandi infideli subtrahere. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e574">
+               <head xml:id="Vn7Pel-j59899-Hd1e576">9 (2.1)</head>
+               <p xml:id="Vn7Pel-j59899-d1e578">
+                  <lb ed="#A" n="33"/>¶ Furtum 
+      Secundo<lb ed="#A" n="34" break="no"/>quantum ad penam furantis. Que quidem 
+      <lb ed="#A" n="35"/>est varia secundum quod varie agitur de ipso. 
+      Quam<lb ed="#A" n="36" break="no"/>doque enim agitur criminaliter id est ad corporis penam 
+      <lb ed="#A" n="37"/>Quandoque ciuiliter id est ad penam pecuniariam. In 
+      pri<lb ed="#A" n="38" break="no"/>mo casu secundum leges non debet fur suspendi vel 
+      demen<lb ed="#A" n="39" break="no"/>brari vel exoculari. sed aliter castigari: puta per 
+      fu<lb ed="#A" n="40" break="no"/>stigatione vel exilium vel alio modo prout videbitur 
+      <lb ed="#A" n="41"/>iudici. Quod est verum de fure simplici. Si autem 
+      <lb ed="#A" n="42"/>sit plus quam fur: puta quia aggreditur violenter cum 
+      <lb ed="#A" n="43"/>armis: vel sine armis: in domo vel in itinere vel 
+      <lb ed="#A" n="44"/>in mari: subiicitur legalibus penis: vt capite 
+      punian<lb ed="#A" n="45" break="no"/>tur vel suspendantur si sepius huiusmodi 
+      commise<lb ed="#A" n="46" break="no"/>rint et famosi sint. Ceteri autem in metallum damnan 
+      <lb ed="#A" n="47"/>tur vel etiam in insulam relegantur. vt. st. de penis 
+      <lb ed="#A" n="48"/>l. capitalium. Dicit tamen Rodi. quod licet fur secundum iura scripta 
+      <lb ed="#A" n="49"/>non sit suspendendus: contrarium tamen in multis 
+      leo<lb ed="#A" n="50" break="no"/>cis de consuetudine seruatur. In secundo vero 
+      ca<lb ed="#A" n="51" break="no"/>su scilet cum agitur ciuiliter pena furti 
+      manifesti<lb ed="#A" n="52" break="no"/>est quadruplum. Non manifesti vero est duplum. 
+      <lb ed="#A" n="53"/>e. a csmio.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e627">
+               <head xml:id="Vn7Pel-j59899-Hd1e629">10 (2.2)</head>
+               <p xml:id="Vn7Pel-j59899-d1e631">
+      <!--204.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="54"/>¶ Queritur quid de vxore: filiis 
+      <lb ed="#A" n="55"/>et seruis si surripiant occulte de rebus viri: 
+      paren<lb ed="#A" n="56" break="no"/>tum: vel dominorum. Respondetur secundum Astexanum quod 
+      com<lb ed="#A" n="57" break="no"/>mittunt furtum. Sed vir non aget contra vxorem 
+      <lb ed="#A" n="58"/>actione furti constante matrimonio Pater vero 
+      <lb ed="#A" n="59"/>aget contra filium si habeat peculium castrense: alias 
+      <lb ed="#A" n="60"/>non. Seruus autem potest verberibus castigari: sed non 
+      <lb ed="#A" n="61"/>in iudicio conueniri. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e657">
+               <head xml:id="Vn7Pel-j59899-Hd1e659">11 (2.3)</head>
+               <p xml:id="Vn7Pel-j59899-d1e661">
+                  <lb ed="#A" n="62"/>¶ Quid de muliere que habens 
+      <lb ed="#A" n="63"/>prodigum virum celat aliquid de rebus communibus 
+      con<lb ed="#A" n="64" break="no"/>tra viri prohibitionem. Respondet idem: quod si vxor 
+      <lb ed="#A" n="65"/>hoc bona fide faciat scilicet vt sibi et viro de his que 
+      ce<lb ed="#A" n="66" break="no"/>lauit pro tempore prouideat: non peccat. nec tenetur viro 
+      <lb ed="#A" n="67"/>praecipienti quod ei omnia tradat. quia ei omnia tradem 
+      <lb ed="#A" n="68"/>do daret quasi gladium furioso. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j59899-Dd1e680">
+               <head xml:id="Vn7Pel-j59899-Hd1e682">12 (2.4)</head>
+               <p xml:id="Vn7Pel-j59899-d1e684">
+                  <lb ed="#A" n="69"/>¶ Utrum damnificans quis 
+      ali<lb ed="#A" n="70" break="no"/>um per furtum teneatur ad restitutionem: Respondetur 
+      <lb ed="#A" n="71"/>secundum Aug. ad Macedonium: Et habetur. xiiii. q. vi. c.i 
+      <lb ed="#A" n="72"/>quod sic. vbi sic habetur. Si res aliena propter quam 
+      <lb ed="#A" n="73"/>peccatum est commissum cum reddi possit non 
+      reddi<lb ed="#A" n="74" break="no"/>tur: penitentia non agitur sed simulatur. Et non solum 
+      <lb ed="#A" n="75"/>ille qui intulit damnum: sed etiam alii participantes. 
+      <lb ed="#A" n="76"/>de quo plura dicentur in libr quarto. titulo 
+      Restitu<lb ed="#A" n="77" break="no"/>tio. Similiter intellige de aliis rebus iniuste 
+      pos<lb ed="#A" n="78" break="no"/>essis siue per furtum: rapinam: fraudem: vsuram: 
+      <lb ed="#A" n="79"/>et de similibus.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e710">
+      ¶ Sed in contrarium arguitur de 
+      <lb ed="#A" n="80"/>vsura quod non debeat reddi sic. quia furtum est 
+      con<lb ed="#A" n="81" break="no"/>trectatio rei aliene inuito domino. Sed vsura est 
+      com<lb ed="#A" n="82" break="no"/>trectatio rei domino volente. ergo non videtur quod 
+      <lb ed="#A" n="83"/>vsura debeat reddi.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e721">
+      ¶ Item qui adiuuat furem in 
+      <lb ed="#A" n="84"/>furando currit cum fure et peccat mortaliter. Sic 
+      <lb ed="#A" n="85"/>qui vsuram soluit currit cum vsurario: ergo pec 
+      <lb ed="#A" n="86"/>cat mortaliter
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e730">
+      ¶ Item non videtur vsura siquis 
+      lo<lb ed="#A" n="87" break="no"/>cat domum alicutr sub pacto. ergo nec erit vsura 
+      ac<lb ed="#A" n="88" break="no"/>commodatio pecuniarum
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e738">
+      ¶ Ad primum respondet scilicet 
+      <lb ed="#A" n="89"/>Bonauen. in. iii. dist. iii. in expositione litterali quod 
+      <lb ed="#A" n="90"/>est voluntas Absoluta et Conditionalis. Et cum 
+      <lb ed="#A" n="91"/>dicitur quod vsurarius contrectat res quas recipit 
+      volen<lb ed="#A" n="92" break="no"/>re domino: quod hoc est verum de voluntate conditiona 
+      <lb ed="#A" n="93"/>ta: sed tamen inuito quantum ad voluntatem 
+      abso<lb ed="#A" n="94" break="no"/>lutam. magis enim vult pecunia carere quam 
+      benefi<lb ed="#A" n="95" break="no"/>cium mutui perdere: licet voluntate absoluta 
+      vel<lb ed="#A" n="96" break="no"/>let quod impenderetur gratis.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e758">
+      ¶ Ad secundum 
+      <lb ed="#A" n="97"/>dicendum quod siquis dat vsuras preter 
+      necessita<lb ed="#A" n="98" break="no"/>tem: non est imunis a culpa. Cum vero dat ex 
+      neces<lb ed="#A" n="99" break="no"/>sitate: non peccat. quia vnicuique licitum est redime 
+      <lb ed="#A" n="100"/>re vexationem suam. sicut ille qui dat vestes suas 
+      <lb ed="#A" n="101"/>latroni ne occidatur non dicitur currere cum latro 
+      <lb ed="#A" n="102"/>ne: Sic qui soluit vsuras in necessitate non dicitur 
+      <lb ed="#A" n="103"/>currere cum fure.
+     </p>
+               <p xml:id="Vn7Pel-j59899-d1e776">
+      ¶ Ad tertium dicendum Quod 
+      li<lb ed="#A" n="104" break="no"/>cet dare pecuniam pro accommodatione domus vel 
+      <lb ed="#A" n="105"/>equi: non est simile. quia vbi pecunia datur 
+      libe<lb ed="#A" n="106" break="no"/>raliter extra omnem pactionem: est ibi liheralis 
+      do<lb ed="#A" n="107" break="no"/>natio. et ideo non est illicita contrectatio. Non sic 
+      <lb ed="#A" n="108"/>autem vbi interuenit illicita pactio. Similiter non 
+      <lb ed="#A" n="109"/>est simile de aliis possessionibus et de pecunia. quia 
+      <!--205.xml-->
+      <pb ed="#A" n="206"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in mutuatione pecunie transfertur dominium 
+      pecu<lb ed="#A" n="2" break="no"/>nie in dominium alienum. quia non tenetur illam 
+      pe<lb ed="#A" n="3" break="no"/>cuniam in numero reddere. sed illi similem. In 
+      accon<lb ed="#A" n="4" break="no"/>modatione vero domus vel equi dominium non 
+      trans<lb ed="#A" n="5" break="no"/>fertur. sed tenetur eandem domum in numero 
+      redde<lb ed="#A" n="6" break="no"/>re: similiter equum vel aliud
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

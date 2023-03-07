@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Concilium generale</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Concilium generale</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="153"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j45075">
+            <head xml:id="Vn7Pel-j45075-Hd1e110">Concilium generale</head>
+            <div xml:id="Vn7Pel-j45075-Dd1e112">
+               <head xml:id="Vn7Pel-j45075-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j45075-d1e116">
+                  <lb ed="#A" n="71"/>¶ Concilium 
+      generale<lb ed="#A" n="72" break="no"/>Ubi magna claret dei charitas. 
+      Cano<lb ed="#A" n="73" break="no"/>nes enim generalium conciliorum vt ait Isid. 
+      <lb ed="#A" n="74"/>in vl. Etymols. A temporibus Constantini ceperunt. In 
+      prae<lb ed="#A" n="75" break="no"/>cedentibus namque annis persecutione feruente 
+      docenda<lb ed="#A" n="76" break="no"/>rum plebium minime dabatur facultas. Inde 
+      christia<lb ed="#A" n="77" break="no"/>nitas in diuersas hereses scissa est. quia non erat in 
+      epi<lb ed="#A" n="78" break="no"/>scopis licentia conueniendi in vnum nisi tempore 
+      supraedi<lb ed="#A" n="79" break="no"/>cti imperatoris. Ipse enim dedit christianis facultatem 
+      <lb ed="#A" n="80"/>libere conueniendi. Sub quo sancti patres in concilieo 
+      <lb ed="#A" n="81"/>Niceno de omni orbeterrarum conuenientes iuxta 
+      fi<lb ed="#A" n="82" break="no"/>dem euangelicam et apostolicam: secundum post apostolos 
+      sycuntum<lb ed="#A" n="83" break="no"/>bolum ediderunt. Inter cetera autem concilia quattuor 
+      <lb ed="#A" n="84"/>sunt venerabiles synodi: que totam principaliter 
+      com<lb ed="#A" n="85" break="no"/>plectuntur fidem quasi quattuor euangelia vel totidem 
+      pa<lb ed="#A" n="86" break="no"/>radisi flumina. Horum primum fuit concilium Nicenum 
+      <lb ed="#A" n="87"/>cccxviii. episcorum Constatino imperante peractum In quo 
+      <lb ed="#A" n="88"/>Arriane perfidie condemnata est blasphemina. qua 
+      <lb ed="#A" n="89"/>de inequalitate sancte trinitatis idem Arrius a 
+      <lb ed="#A" n="90"/>serebat. Igitur vt ait Rufinus Congregatis 
+      pa<lb ed="#A" n="91" break="no"/>tribus in concilio discussis assertionibus Arrqui 
+      di<lb ed="#A" n="92" break="no"/>utino multoque tractatu placuit omnibus Et velut 
+      <lb ed="#A" n="93"/>vno ore et corde decretum est homousion scribi 
+      de<lb ed="#A" n="94" break="no"/>bere id est eiusdem cum patre substantie filium confiteri 
+      <lb ed="#A" n="95"/>Sex soli cum Arrio sunt expulsi.
+     </p>
+               <p xml:id="Vn7Pel-j45075-d1e173">
+      ¶ Exemplum 
+      <lb ed="#A" n="96"/>autem expositionis fidei est hoc. Credimus in vnum 
+      <lb ed="#A" n="97"/>deum patrem omnipotentem omnium visibilumi et inuisibilitur 
+      <lb ed="#A" n="98"/>factorem. Et in vnum dominum nostrum Iesum 
+      chri<lb ed="#A" n="99" break="no"/>stum filium dei de patre natum vnigenitum. hoc 
+      <lb ed="#A" n="100"/>est de substantia patris: deum ex deo: lumen ex 
+      lu<lb ed="#A" n="101" break="no"/>mine: deum verum ex deo vero. natum non factum 
+      <lb ed="#A" n="102"/>homousion patri id est eiusdem cum patre substantie 
+      <lb ed="#A" n="103"/>per quem omnia facta sunt. Qui propter nos et pro 
+      <lb ed="#A" n="104"/>pter nostram salutem descendit de celis. Et 
+      incar<lb ed="#A" n="105" break="no"/>natus est homo factus etc. Cos autem qui dicndent: Erat 
+      ali<lb ed="#A" n="106" break="no"/>quando quando non erat. et ante quam nasceretur non erat. Et quia 
+      <lb ed="#A" n="107"/>ex nullis substantibus factus est. Aut ex alia subsistentia 
+      <lb ed="#A" n="108"/>vel substantia dicunt esse. Aut conuertibile aut 
+      muta<lb ed="#A" n="109" break="no"/>bile dicunt filium dei esse: anathematizat catholica 
+      <lb ed="#A" n="110"/>et apostolica ecclesia. In hoc concilio ad symbolum 
+      mi<lb ed="#A" n="111" break="no"/>norem: quo dicitur editum ab apostolis: addita 
+      <lb ed="#A" n="112"/>sunt aliqua non contraria illis: sed magis 
+      explici<lb ed="#A" n="113" break="no"/>te declarantia ipsa: contra hereses insurgentes circa 
+      <!--153.xml-->
+      <pb ed="#A" n="154"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>illos articulos. vt illud Creatorem celi et terre visi 
+      <lb ed="#A" n="2"/>bilium et inuisibilium contra errorem Manichei qui 
+      <lb ed="#A" n="3"/>dogmatizauit deum creatorem inuisibilium: et 
+      dia<lb ed="#A" n="4" break="no"/>bolum creatorem visibilium. Et illud: Ex patre 
+      na<lb ed="#A" n="5" break="no"/>tum scilicet filium ante omnia secula. deum de deo etc. 
+      contra<lb ed="#A" n="6" break="no"/>crrorem Arrii: qui asseruit dei filium creaturam a 
+      pa<lb ed="#A" n="7" break="no"/>tre. nec eternum nec consubstantialem patri sed 
+      di<lb ed="#A" n="8" break="no"/>uerse substantie a patre: et eo minorem. Et idem dixit 
+      <lb ed="#A" n="9"/>de spiritu sancto. Hec aute heresis arriana fuit periculosi 
+      <lb ed="#A" n="10"/>or vniuersaliter et eeteris diuturnior. 
+      Periculosi<lb ed="#A" n="11" break="no"/>or fuit. quia circa mysterium sancte trinitatis errauitur 
+      <lb ed="#A" n="12"/>De qua dicit Augustinus. libro de trinita. Quod nil 
+      difficili<lb ed="#A" n="13" break="no"/>as queritur: nullibi periculosius erratur: nihil 
+      fructu<lb ed="#A" n="14" break="no"/>osius inuenitur Uniuersalior etiam fuit. quia 
+      mul<lb ed="#A" n="15" break="no"/>tos inuoluit episcopos et sacerdotes. et ipsum Libe 
+      <lb ed="#A" n="16"/>rium papam: imperatorem Constantium et valentem 
+      rege<lb ed="#A" n="17" break="no"/>Theodoricum: et regem Gothorum. et per totum quasi 
+      orben<lb ed="#A" n="18" break="no"/>diffusa est. Unde Hiero. et habetur. xxiiii. q. iii. 
+      Re<lb ed="#A" n="19" break="no"/>secandi. Arrius vna scintilla in alexandria fuit scilce 
+      <lb ed="#A" n="20"/>erroris. et quia non cito extincta est totum orbem 
+      <lb ed="#A" n="21"/>populata est flamma eius. Fuit quoque diutumior 
+      <lb ed="#A" n="22"/>quia per multa tempora viguit.
+     </p>
+               <p xml:id="Vn7Pel-j45075-d1e269">
+      ¶ Secunda 
+      sy<lb ed="#A" n="23" break="no"/>nodus. cl. episcoporum sub Theodosio seniore 
+      Constan<lb ed="#A" n="24" break="no"/>tinopolim cogregata est. que macedonium 
+      spiritum<lb ed="#A" n="25" break="no"/>sanctum deum esse negantem condemnans: consub 
+      <lb ed="#A" n="26"/>stantialem deo patri et filio spiritum sanctum 
+      demonstra<lb ed="#A" n="27" break="no"/>uit.
+     </p>
+               <p xml:id="Vn7Pel-j45075-d1e282">
+      ¶ Tertia synodus Ephesina prima. cc. 
+      episcopo<lb ed="#A" n="28" break="no"/>rum sub Theodosio minore edita. que 
+      Nestori<lb ed="#A" n="29" break="no"/>um in christo duas personas asserentem iusto 
+      ana<lb ed="#A" n="30" break="no"/>themate condemnauit. ostendens in duabups 
+      natu<lb ed="#A" n="31" break="no"/>ris vnam personam domini nostri Iesu christi.
+     </p>
+               <p xml:id="Vn7Pel-j45075-d1e294">
+      ¶ 
+      Quar<lb ed="#A" n="32" break="no"/>ta synodus Calcedonensis. sexcentorum triginta 
+      sa<lb ed="#A" n="33" break="no"/>cerdotum sub Marciano principe. In qua Euti 
+      <lb ed="#A" n="34"/>cem Constantinopolitanum abbatem: verbi dei et 
+      car<lb ed="#A" n="35" break="no"/>nis vnam naturam pronunciantem. et Dioscorum eius 
+      de<lb ed="#A" n="36" break="no"/>fensorem Alexandrinum episcopum condemnauit. 
+      <lb ed="#A" n="37"/>praedicans christum deum sic natum de virgine vt 
+      <lb ed="#A" n="38"/>in eo subst antiam diuine et humane nature 
+      confi<lb ed="#A" n="39" break="no"/>teamur. Sed et siqua sunt similia concilia quae 
+      san<lb ed="#A" n="40" break="no"/>cti patres spiritu dei pleni sanxerunt. Post illorim 
+      <lb ed="#A" n="41"/>quattuor auctoritates omni maneant stabilitata vt 
+      <lb ed="#A" n="42"/>gore. di. xv. Canones. Hoc ideo dictum est. quia aliqua 
+      <lb ed="#A" n="43"/>particularia ante et post fuere concilia. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

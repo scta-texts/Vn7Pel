@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lex</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Lex</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="246"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j72815">
+            <head xml:id="Vn7Pel-j72815-Hd1e110">Lex</head>
+            <div xml:id="Vn7Pel-j72815-Dd1e112">
+               <head xml:id="Vn7Pel-j72815-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j72815-d1e116">
+                  <lb ed="#A" n="28"/>Ex primo quo ad et 
+      <lb ed="#A" n="29"/>sentiam secundum Alexan. de ales in. iii. parte summe 
+      <lb ed="#A" n="30"/>est sanctio sancta precipiens honestum prohibens 
+      <lb ed="#A" n="31"/>quod contrarium. In qua diffinitione tria tanguntur
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e127">
+      ¶ Primo 
+      <lb ed="#A" n="32"/>actus legis communis cum dicitur sanctio scatua. Dacitur sancto. Cum ratione 
+      <lb ed="#A" n="33"/>stellectus vt dirigatur prudentia et inde dicta est lex a 
+      le<lb ed="#A" n="34" break="no"/>gendo: quia dictari habet maxime a dictamine sapientu. Tum 
+      <lb ed="#A" n="35"/>ratione affectus. Et dicitur a ligando vt plus amore quam timore 
+      <lb ed="#A" n="36"/>subditi legi ligentur. Tum ratione effectus. et sic secundum Aurelium 
+      <lb ed="#A" n="37"/>patrem Augustinus. lex dicitur ab eligendo. quia dicbet quilibet eligere vt 
+      <lb ed="#A" n="38"/>uere secundum legem. et ea quae contraria sunt legi non efficere. Isti autem 
+      <lb ed="#A" n="39"/>actuscilicet ligere: legere et ligare sunt actus rationis etc. Ideo dicitur 
+      <lb ed="#A" n="40"/>sanctio sctm. quia lex maxime habet in deum ordinare. et ex 
+      conse<lb ed="#A" n="41" break="no"/>quanti ad proximum
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e151">
+      ¶ Secundo tangitur perfectio legis cum dicitur: 
+      praeci<lb ed="#A" n="42" break="no"/>piens honestum id est honoris statum. Ad hoc enim lex ciuibus 
+      da<lb ed="#A" n="43" break="no"/>tur vt honeste vinant. licet Plato senserit quod 
+      principa<lb ed="#A" n="44" break="no"/>le fuerit in legibus ciuium parturbatio fugienda
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e160">
+      ¶ Tertio 
+      <lb ed="#A" n="45"/>tangitur principaliter finis legis cum dicitur: prohibens contrarium 
+      <lb ed="#A" n="46"/>Quia secundu scilicet Tho. i. ii. q. ex. primum principium in operati 
+      <lb ed="#A" n="47"/>uis est vltimus finis. Finis aut vltimus humane vite est 
+      <lb ed="#A" n="48"/>felicitas seu beatitudo Unde opertet quod maxime respiciat 
+      <lb ed="#A" n="49"/>ordinem qui est in beatitudine: cum lex sit directiua humanarum 
+      <lb ed="#A" n="50"/>actionum. Ideo Isid. li. vi. Etyn. sic inquit. Lex debet esse 
+      <lb ed="#A" n="51"/>talis quod religioni congruat. quod discipline conueniat. quod 
+      salu<lb ed="#A" n="52" break="no"/>ti proficiat. Primum attenditur inquantum conuenit legi 
+      diui<lb ed="#A" n="53" break="no"/>ne. Secundum inquantum conuenit legi nature Tertium 
+      inquan<lb ed="#A" n="54" break="no"/>tum expedit vtilitati humane. Et sic leges sunt quasi regula 
+      <lb ed="#A" n="55"/>eo quod regant vel normam recte viuendi tribuant etc.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e187">
+               <head xml:id="Vn7Pel-j72815-Hd1e189">2</head>
+               <p xml:id="Vn7Pel-j72815-d1e191">
+      <!--245.xml-->
+                  <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>¶ Utrum lex nature contineatur in 
+      lege<lb ed="#A" n="57" break="no"/>trerna et ab ea deriuetur: Et arguitur quod sic. quia omnis lex parti 
+      <lb ed="#A" n="58"/>cularis continetur in veli et a tali vniuer sali deriuatur: cum 
+      parti<lb ed="#A" n="59" break="no"/>cularia in vniuersalibus contineantur. sed lex nacure est lex 
+      <lb ed="#A" n="60"/>particularis. ergo necesse est aliquam aliam legem ponere a 
+      le<lb ed="#A" n="61" break="no"/>ge eterna quae i ipsa contineatur: et ab alia deriuetur. Minor 
+      <lb ed="#A" n="62"/>est nota. et maior patet. quia lex particularis est respectu 
+      agem<lb ed="#A" n="63" break="no"/>dorum et fugiendorum ergo est dare legem vniuersalem quae est 
+      ererna<lb ed="#A" n="64" break="no"/>in qua lege huiusmodi agenda et fugtenda contincantur: cum sit 
+      di<lb ed="#A" n="65" break="no"/>rectiua omnium actuum et motionum. Unde canit ecclesia: qui 
+      <lb ed="#A" n="66"/>totum subdit suis orbem legibus: ideo in ipso deo vna est lex 
+      <lb ed="#A" n="67"/>quae dicitur eterna. Respondetur secundum doct. communiter. quod lex nature prout est 
+      <lb ed="#A" n="68"/>quoddam dictamen naturale in mente nostra non dicitur contineri in 
+      <lb ed="#A" n="69"/>lege eterna tamquam res intrinsecus existens essentialiter. Quia cum lex 
+      <lb ed="#A" n="70"/>cterna sit idem realiter quod deus Quicquid modo praedicto 
+      conti<lb ed="#A" n="71" break="no"/>netur in lege cterna increatum est. sed pro tanto dicitur lex nature 
+      conti<lb ed="#A" n="72" break="no"/>neri in lege eterna. quia omnia quae de agendis et fugiendis 
+      di<lb ed="#A" n="73" break="no"/>ctat lex naturalis. dictat perfectius lex eterna. et multo 
+      plu<lb ed="#A" n="74" break="no"/>ra. quae lex nature deriuatur a lege eternta. De qua potest 
+      po<lb ed="#A" n="75" break="no"/>ni aliquole exemplun sait Rich. Si in textu meo praeccti 
+      <lb ed="#A" n="76"/>cosset istud dictamen actualiter: omne iustum est prosequendum. 
+      <lb ed="#A" n="77"/>et ita quod in illo dictamine non tantum dictarem in veli omne iustum 
+      <lb ed="#A" n="78"/>esse prosequendum: sed etiam quodlibet in singulari tuo 
+      intelle<lb ed="#A" n="79" break="no"/>ctu esset dictamen hoc particulare: iustum est prosequendum: tuum 
+      <lb ed="#A" n="80"/>dictamen particulare recte diceretur contineri in meo 
+      di<lb ed="#A" n="81" break="no"/>ctamine vniunsali. quia dictarem facere quod tu: et amplius 
+      <lb ed="#A" n="82"/>Quamuis tamen ler nature mutabilisit inquantum ex tempore est 
+      <lb ed="#A" n="83"/>mentibus nostris impressa: non est tamen sic mutabilis quod possit 
+      <lb ed="#A" n="84"/>deleri de mente per aliquam culpam quantum ad primum 
+      princi<lb ed="#A" n="85" break="no"/>pium eius et conclusiones proximas et communissimas. quantum tamen ad 
+      <lb ed="#A" n="86"/>conclusiones remotas et applicatione proximarum conclusionum 
+      <lb ed="#A" n="87"/>ad particularia agibilia potest deleri de mentibus hominum 
+      pro<lb ed="#A" n="88" break="no"/>pter concupiscentia inordinatam vel aliquam passionem vel 
+      <lb ed="#A" n="89"/>nalas persuasiones et consuetudines. vel propter aliquam nature 
+      <lb ed="#A" n="90"/>corruptionem. Et secundum Alex. i. iii. parte. q. xii. tria 
+      concur<lb ed="#A" n="91" break="no"/>runt ad lege scilicet Autoritas: veritas: et bonitas. Et secundum 
+      <lb ed="#A" n="92"/>hoc opertet quod lex habeat formam et figuram. Ratione principii 
+      <lb ed="#A" n="93"/>pebetur legi autoritas. quia non poatest esse principium legis nisi 
+      <lb ed="#A" n="94"/>habeat auctoritatem. Ratione forme debetur legi veritas. quia 
+      <lb ed="#A" n="95"/>nunquam fertur sine ratione recta: nam iniusta non et lex. Ratione 
+      <lb ed="#A" n="96"/>finis debetur legi bonitas. quia lex non ordinatur nisi ad 
+      <lb ed="#A" n="97"/>bonum. Si ergo respiciamus in lege cterna auteritatem: sic 
+      aps<lb ed="#A" n="98" break="no"/>propiatur persone patris ratione potestatis. Si respiciamus in ipsa 
+      <lb ed="#A" n="99"/>lege eterna veritatem: sic appropiatur filio secundum rationem forma 
+      <lb ed="#A" n="100"/>lem sapientie. Si attendamus bonit atem legis: sic appropriatur 
+      <lb ed="#A" n="101"/>spiritu sancto. et sic a lege eterna deriuatur ius naturale. et omnes 
+      <lb ed="#A" n="102"/>leges proprie in ipso continentur tam quam in perfectissimo
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e300">
+      ¶ Ad 
+      ar<lb ed="#A" n="103" break="no"/>gumentum dicendum ex quo lex etna sit idem realiter quod deus 
+      <lb ed="#A" n="104"/>Et lex nature in mente nostra est quoddam dictamen naturale et 
+      <lb ed="#A" n="105"/>creatum: non dicitur contineri in lege eterna tamquam res essentialiter 
+      <lb ed="#A" n="106"/>t intrinsecus existes. sed pro tanto dicitur lex nature contineri in 
+      le<lb ed="#A" n="107" break="no"/>ge eterna. quia quae lex naturalis dictat fugienda et agenda. 
+      <lb ed="#A" n="108"/>lex eterna in infinitum perfectius. et sic lex nature deriuatur a 
+      <lb ed="#A" n="109"/>lege eterna et tanquam in perfectissima continetur. vt supra satis 
+      <lb ed="#A" n="110"/>probabiliter dictum est. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e321">
+               <head xml:id="Vn7Pel-j72815-Hd1e323">3</head>
+               <p xml:id="Vn7Pel-j72815-d1e325">
+                  <lb ed="#A" n="111"/>¶ Utrum lex humana et diuina contineam 
+      <lb ed="#A" n="112"/>tur in lege nature: Et arguitur quod non. quia quicquid in eo quod 
+      <!--246.xml-->
+      <pb ed="#A" n="247"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>est apud omnes: est idem apuo omnes. sed lexnaturatur est idem 
+      <lb ed="#A" n="2"/>apud omnes secundum quod dicit Isid. v. Etym. Ius naturale 
+      <lb ed="#A" n="3"/>est commue omni nationi. sed lex humana non est communis.ergo etc. Item 
+      confir<lb ed="#A" n="4" break="no"/>matur: quia nihil iniustum continetur in lege nature. sed in 
+      legi<lb ed="#A" n="5" break="no"/>bus humanis multa continentur iniusta. Unde Aug. iii. de 
+      <lb ed="#A" n="6"/>ciui. dei ait. Illa lexim qua est quod femina non sit heres. ergo 
+      lei<lb ed="#A" n="7" break="no"/>humana non continetur in lege nature. et eo minus lex diuina 
+      <lb ed="#A" n="8"/>quae est dignior quam lex nature. Respondet Rich. vbi supra. q. i 
+      <lb ed="#A" n="9"/>Quod in lege humana aliqua sunt quae homines extraxeruit ex primis 
+      <lb ed="#A" n="10"/>principiis legis nature tam quam conclusiones ex illis sequentes 
+      <lb ed="#A" n="11"/>et quantum ad ista lex humana continetur in lege nature sicut 
+      con<lb ed="#A" n="12" break="no"/>clertiones in principiis. eo quod per principia legis nature potest 
+      mo<lb ed="#A" n="13" break="no"/>ueri humana ratio et dirigi ad alliciendum ex ills principiis 
+      <lb ed="#A" n="14"/>conclusiones praedictas. Aliqua etiam sunt in humana lege. quae 
+      ex<lb ed="#A" n="15" break="no"/>principiis legis nature non sequuntur per modum conclusio 
+      <lb ed="#A" n="16"/>numcsicet sunt detminationes quorundam principiorum vel conclusionum 
+      <lb ed="#A" n="17"/>conium legis nature Et ratione istorum continetur lex humana in 
+      le<lb ed="#A" n="18" break="no"/>ge nature. secundum illam similitudinem qua continentur differentie 
+      <lb ed="#A" n="19"/>genere. sicut eim genus apprehensum in quadam passiua potentia vt 
+      <lb ed="#A" n="20"/>per rationem detminetur pervnam differentiam licemper aliam Ita aliqua 
+      <lb ed="#A" n="21"/>quae sunt de lege nature indifferentia sunt vt diuers modis 
+      ter<lb ed="#A" n="22" break="no"/>minentur per voluntatem illorum qui praesunt. ita tamen quod illa deter 
+      <lb ed="#A" n="23"/>minatio non sit illi conclusioni repugnans. Lex autem diuina 
+      pro<lb ed="#A" n="24" break="no"/>prie loquendo non debet dici contineri in lege nature. nec sicut 
+      <lb ed="#A" n="25"/>pars in toto: sed econuerso. nec sicut totum in partibus. quia lex 
+      na<lb ed="#A" n="26" break="no"/>ture non est omnes partes eius. nec sicut genus in specie: nec sicut 
+      <lb ed="#A" n="27"/>species in genere. quia genus dicit totam essentiam speciei modo indetur 
+      <lb ed="#A" n="28"/>minato. Lex at naturem non importat totam rationem legis 
+      di<lb ed="#A" n="29" break="no"/>uine. Lex autem diuina et importat totam rationem legis nature: 
+      <lb ed="#A" n="30"/>tamen superaddit aliquid reale. genus autem nihil addit super 
+      <lb ed="#A" n="31"/>specim. Nec est sicut forma in matria. quia quamuis sit 
+      digni<lb ed="#A" n="32" break="no"/>or quam lex nature non tamen extat tota in potentia legis nature 
+      <lb ed="#A" n="33"/>quia aliqua sunt in ea quae non potuerit haberi nisi per reuelationem 
+      <lb ed="#A" n="34"/>diuina. Ex quo sequitur quod nec est in eo sicut motum in motiuo 
+      <lb ed="#A" n="35"/>nec sicut in fine. imo magis econuerso quia lex naturalis 
+      or<lb ed="#A" n="36" break="no"/>diabatur ad legem diuina. nec ad similitudinem quae res ditur 
+      <lb ed="#A" n="37"/>esse in vase eo quod multa continet quae non possunt comprehedi 
+      lege<lb ed="#A" n="38" break="no"/>nature. ergo ex praemissis concluditur legem humanam contineri 
+      <lb ed="#A" n="39"/>lege nature. legem vero diuina non contineri in lege nature. 
+      </p>
+               <p xml:id="Vn7Pel-j72815-d1e423">
+                  <lb ed="#A" n="40"/>¶ Ad primum itaque argumentum dicendum quod lex 
+      natu<lb ed="#A" n="41" break="no"/>re non est eadem apud omnes nisi quantum ad suum primum princips 
+      <lb ed="#A" n="42"/>um et conclusiones propinquissimas. non opertet etiam quod illud 
+      <lb ed="#A" n="43"/>quod est de lege nature habeat tantam identitatem apuo omnes 
+      <lb ed="#A" n="44"/>sicut illud comne cuius est detur minatio. quia commune per detr minatio 
+      <lb ed="#A" n="45"/>nem particulatur
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e439">
+      ¶ Ad confirmationem dicit Aug. li. i. de libro 
+      <lb ed="#A" n="46"/>ar. Lex mihi non videtur quae iusta non fuit. Et ideo non est 
+      <lb ed="#A" n="47"/>verum quod lex humana ratione illius quod iniustum continet contineatur 
+      <lb ed="#A" n="48"/>in lege natur. quia quantum ad id non est lex sed corruptela. ergo. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e449">
+               <head xml:id="Vn7Pel-j72815-Hd1e451">4</head>
+               <p xml:id="Vn7Pel-j72815-d1e453">
+                  <lb ed="#A" n="49"/>¶ Utrum legis nature sint plura 
+      prin<lb ed="#A" n="50" break="no"/>cipia aut vnum solum: Et arguitur quod sint plura. quia prima 
+      <lb ed="#A" n="51"/>principia legis diuine sunt fidei articli qui sunt plures. ergo a simul 
+      <lb ed="#A" n="52"/>prima principia legis nature erunt plura. Respondet Rich. 
+      <lb ed="#A" n="53"/>vbi supra. q. iii. Quod legis nature est vnum solum principium 
+      pri<lb ed="#A" n="54" break="no"/>mum. Dicit ei philosophs. viii. philosophico. Nihil inordinatum est 
+      eo<lb ed="#A" n="55" break="no"/>rum qua a natura et secundum naturam sunt. sed lex naturalis secundum 
+      <lb ed="#A" n="56"/>quod accipitur pro iure nature est aliquid constitutum seu dicti 
+      <lb ed="#A" n="57"/>tu a rone per suu naturaic iume. Cex g nature et a fa 
+      <!--246.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>tura et secundum naturam: accipiendo naturam non pro natura 
+      <lb ed="#A" n="59"/>generis quae communis est hominibus et brutis. sed pro natura 
+      specie<lb ed="#A" n="60" break="no"/>nature humane. Lex ergo nature ordinata est. ergo omnia legis 
+      na<lb ed="#A" n="61" break="no"/>ture praecepta inter se ordinata sunt. sed plurium ordinato 
+      <lb ed="#A" n="62"/>rum inter se opertet vnum esse primum. Preterea illud praeceptum 
+      le<lb ed="#A" n="63" break="no"/>gis nature in quod resolubilia sunt omnia alia legis 
+      natu<lb ed="#A" n="64" break="no"/>re praecepta tam quam conclusiones in principium est primum principium 
+      <lb ed="#A" n="65"/>legis nature. sed in lege nature est vnum solum tale. quod est 
+      prae<lb ed="#A" n="66" break="no"/>ceptum de ordiata boni dilectione. Ex hoc enim praecepto 
+      sta<lb ed="#A" n="67" break="no"/>tim sequitur praeceptum de odio mali et omnia alia praecepta 
+      le<lb ed="#A" n="68" break="no"/>gis nature ex istis duobus sequuntur mediate vel 
+      imme<lb ed="#A" n="69" break="no"/>diate. ergo legis nature secundum quod comprehendit naturalem 
+      or<lb ed="#A" n="70" break="no"/>dinem ad seipsum et ad deum et ad proximm. est vnum solum 
+      pri<lb ed="#A" n="71" break="no"/>mum principium etiam creatum: quod est istud. Unusquisque 
+      or<lb ed="#A" n="72" break="no"/>dinato modo diligat bonum
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e512">
+      ¶ Ad argumentum 
+      dicen<lb ed="#A" n="73" break="no"/>dum quod legis diuine est vnum solu primum principium. quod est 
+      cre<lb ed="#A" n="74" break="no"/>dere omnes articulos fidei esse testificatos vel 
+      reuela<lb ed="#A" n="75" break="no"/>tos a prima veritate infallibili. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e523">
+               <head xml:id="Vn7Pel-j72815-Hd1e525">5</head>
+               <p xml:id="Vn7Pel-j72815-d1e527">
+                  <lb ed="#A" n="76"/>¶ Utrum diuina lex noua contineatur 
+      <lb ed="#A" n="77"/>vetri lege: Et arguitur quod no. quia duarum legum ex oppositi 
+      <lb ed="#A" n="78"/>distinctarum vna non continetur in alia. Sed sic se habent diuina 
+      <lb ed="#A" n="79"/>lex noua et vetus. aliter non diceret apostolus Heb. vii. Trans 
+      <lb ed="#A" n="80"/>lato sacer. necesse esta vt legis translatio fiat. ergo lex noua 
+      <lb ed="#A" n="81"/>non continetur in vetri.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e543">
+      ¶ In contrarium tamen est quod dicit salua. 
+      <lb ed="#A" n="82"/>Mat. v. Non veni soluere legem sed adiplere. Unde est 
+      <lb ed="#A" n="83"/>dicit hc. Greg. super Ezech. i. Quasi sit rota in medio 
+      re<lb ed="#A" n="84" break="no"/>te. Glo. rota sicrota: nouum testa. in vetli.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e552">
+      ¶ Respondet 
+      Ri<lb ed="#A" n="85" break="no"/>char. in. iii. di. vl. ar. ii. q. iiii. quod diuina lex noua contine 
+      <lb ed="#A" n="86"/>tur in veteri lege. quia quando vnum propter alterum vbique vnu. 
+      Fi<lb ed="#A" n="87" break="no"/>nis enim vtriusque legis est vt homines sic subdantur deo vt 
+      <lb ed="#A" n="88"/>iustificentur super naturali iusticia quae digni sint praemio 
+      <lb ed="#A" n="89"/>transcendente nostram facultatem quod est vita etna. Unde apostols 
+      <lb ed="#A" n="90"/>Rho. x. Finis legis christus ad iusticiam omni credenti. Que 
+      <lb ed="#A" n="91"/>libet aut lex aliquibus innititur principiis proportionabilibus 
+      <lb ed="#A" n="92"/>suo fini. ergo opertet quod vtraque lex innitatur aliquibus 
+      superna<lb ed="#A" n="93" break="no"/>turalibus principiis cognitis in aliquo supernaturali lums 
+      <lb ed="#A" n="94"/>ne. sicut naturalia principia in naturali lumine cogscuntur 
+      <lb ed="#A" n="95"/>Illud autem supernaturale lumen fides est. Unde vtriusque 
+      le<lb ed="#A" n="96" break="no"/>gis principia sunt illa quae primonobis proponunt credenda. 
+      <lb ed="#A" n="97"/>cuiusmodi sunt articli fidei. Iidem autem articli fidei tra 
+      <lb ed="#A" n="98"/>diti sunt in lege veteri et noua. sed in noua continentur explici 
+      <lb ed="#A" n="99"/>te: in veti autm iplicite. Sicut ei scientia speculatiua tota 
+      vir<lb ed="#A" n="100" break="no"/>tualiter in suis principiis continetur: ita lex diuina tota virtu 
+      <lb ed="#A" n="101"/>aliter in suis continetur principiis. Cum ergo omnia principia noue 
+      <lb ed="#A" n="102"/>legis contineantur implicite in principiis vetris legis sic tota 
+      <lb ed="#A" n="103"/>lex noua implicite continetur in vetri. Et hoc esct quod dixit 
+      salua<lb ed="#A" n="104" break="no"/>tor Mat. v. Iota vnum aut vnus apex non praeteribit a 
+      <lb ed="#A" n="105"/>lege donec omnia fiant.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e600">
+      ¶ Ad argumentum dicendum: quod 
+      <lb ed="#A" n="106"/>diuina lex vetus et noua non distiguuntur ex opposito sicut 
+      <lb ed="#A" n="107"/>diuerse leges ordinate ad diuersos fines. Sed sicut per 
+      <lb ed="#A" n="108"/>fectum distinguitur ab imperfecto: sicut puer a viro perfecte 
+      <lb ed="#A" n="109"/>etatis. Lex vetus quamuis ordinaret ad eundem finem ad 
+      <lb ed="#A" n="110"/>que lex noua hoc tamen erat a remotiori et imperfectius. Unde 
+      <lb ed="#A" n="111"/>apostolus Gal. iii. dicit. Lex fuit sicut pedagogus in christo. 
+      <lb ed="#A" n="112"/>Que autem sic distinguuntur ad inuicem sunt vnum. sicut tota 
+      <lb ed="#A" n="113"/>arbor continetur in semine. ergo ad propositum lex noua 
+      con<lb ed="#A" n="114" break="no"/>tinetur in veteri etc. 
+    </p>
+               <p xml:id="Vn7Pel-j72815-d1e623">
+      <!--247.xml-->
+                  <pb ed="#A" n="248"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ In quo eminet magis dei 
+      cha<lb ed="#A" n="2" break="no"/>ritas erga nos.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e637">
+               <head xml:id="Vn7Pel-j72815-Hd1e639">6 (2.1)</head>
+               <p xml:id="Vn7Pel-j72815-d1e641">
+                  <lb ed="#A" n="3"/>LEx. II. quo ad 
+      dif<lb ed="#A" n="4" break="no"/>ferentiam Quomodo videlicet vel in quo differt lex 
+      ve<lb ed="#A" n="5" break="no"/>tus a noua. Dicit cnim magister i. iii. di. vl. 
+      Di<lb ed="#A" n="6" break="no"/>stat inquit euangeli littera a legis littera. quia diuersa sunt 
+      promis<lb ed="#A" n="7" break="no"/>sa. ibi terrena: hic celestia promittuntur. Diuersa etiam 
+      <lb ed="#A" n="8"/>sacramenta. quia illa tantum sercabant: hec conferunt gratiam. 
+      Prece<lb ed="#A" n="9" break="no"/>pta etiam diuersa quantum ad cerimonialia. nam quantum 
+      <lb ed="#A" n="10"/>ad moralia sunt eadem: sed plenius in euangelio continentur. 
+      <lb ed="#A" n="11"/>Unde circa hanc legum differentiam quaeruntur plura. 
+      </p>
+               <p xml:id="Vn7Pel-j72815-d1e663">
+                  <lb ed="#A" n="12"/>¶ Utrum sacramenta veteris legis 
+      confe<lb ed="#A" n="13" break="no"/>rant gratiam: Et videtur quod nec in noue legis nec in 
+      vete<lb ed="#A" n="14" break="no"/>ris legis sacramentis gratia conferatur virtute sacramentorum. Cuius ratio 
+      <lb ed="#A" n="15"/>est. quia gratia est per creationem. ergo solus deus habet virtutem 
+      confe<lb ed="#A" n="16" break="no"/>rendi gratiam. ergo inter sacramenta noue et veteris legis nulla est 
+      <lb ed="#A" n="17"/>differentia
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e679">
+      ¶ Respondeturscur scilicet Bona in. iii. di. vl. circa litteram. 
+      <lb ed="#A" n="18"/>quod circa quaestionem istam duplex est opinio celebris et 
+      fa<lb ed="#A" n="19" break="no"/>mosa
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e686">
+      ¶ Quidam namque dicere voluerunt quod in vtrisque 
+      sa<lb ed="#A" n="20" break="no"/>cramentis datur gratia sed differentur. quia in ils veteris legis 
+      sa<lb ed="#A" n="21" break="no"/>cramentis datur ratione fidei et deuotionis ipsius suscipientis 
+      <lb ed="#A" n="22"/>ita quod nullo modo ratione sacramenti siue operis operati. In sacramentis 
+      <lb ed="#A" n="23"/>autem noue legis secus est. quia constat ex verbo et elemeto. sed tamen 
+      <lb ed="#A" n="24"/>dominus instituit verbum et dedit illi virtutem per quam influit et 
+      <lb ed="#A" n="25"/>agit in animam vel dispositionem ad gratiae susceptionem: vel 
+      <lb ed="#A" n="26"/>imprimendo characteris sercationem vel ad miniculando 
+      <lb ed="#A" n="27"/>ipsi gratiae ad anime curationem et fomitis debilitationem. Et 
+      <lb ed="#A" n="28"/>hoc videtur dicere Aug. Que est virtus aquae vt corpus tangat 
+      <lb ed="#A" n="29"/>et corabluat nisi faciendo verbo. Et hunc dicendi 
+      mo<lb ed="#A" n="30" break="no"/>dum multi sustinent periti. sed difficile videtur (inquit mihascilicet 
+      <lb ed="#A" n="31"/>Bona. itelligere virtutem illam siml esse verbo et elemento 
+      <lb ed="#A" n="32"/>collatam quantum ad essentiam et naturam. quantum ad eius 
+      exi<lb ed="#A" n="33" break="no"/>tentiam. quantum ad durationis mensuram et etiam quantum ad 
+      <lb ed="#A" n="34"/>operationis efficaciam. quae omnia necesse est ponere et explica 
+      <lb ed="#A" n="35"/>re circa virtutem illam. et hec singularis tenet vsus. Ibi 
+      <lb ed="#A" n="36"/>dem sanctus Bona. tandem subdit. Alius est hic modus 
+      dicen<lb ed="#A" n="37" break="no"/>di. supposito quod in sacramentis noue legis diuina virtus se 
+      <lb ed="#A" n="38"/>cretius operetur. quia hoc est fidei et sententia commnis. Dixerunt 
+      aliqu<lb ed="#A" n="39" break="no"/>sacramenta noue legis habere respectu iustificationis virtutem: 
+      <lb ed="#A" n="40"/>viritutem promerentem: virtutem disponentem: et virtutem 
+      effica<lb ed="#A" n="41" break="no"/>citer ordinantem. Uirtutem iustificantem ratione spiritus sanctis 
+      <lb ed="#A" n="42"/>assistentis. Uirtute promerentem ratione passionis christi 
+      me<lb ed="#A" n="43" break="no"/>riti ad sacramentum concurrentis. Uirtutem disponentis ratione 
+      <lb ed="#A" n="44"/>pispositionis ipsius fidelis suscipientis sacramentum. Uirtutem 
+      <lb ed="#A" n="45"/>denique efficaciter ordinantem ratione diuine pactionis in 
+      <lb ed="#A" n="46"/>stituentis. Sic cnm instituit dominus vt ad talis prolationem 
+      <lb ed="#A" n="47"/>verbi et sacramenti susceptionem mirabilis in suscipientibus fierem 
+      <lb ed="#A" n="48"/>peratio et suscipientium sanatio. Et pro tant o dicunt sacramenta 
+      <lb ed="#A" n="49"/>noue legis habere virtutem. et differunt in hoc a sacramentis veteris 
+      <lb ed="#A" n="50"/>legis. praecipue quantum ad ipsam efficacem ordinationem. 
+      <lb ed="#A" n="51"/>quia non interueniebat ibi pactio in ills sacramentis per quam 
+      effi<lb ed="#A" n="52" break="no"/>cax fierm ordinatio ad gratiam secundum quod in sacramentis noue legis 
+      <lb ed="#A" n="53"/>vt patet in institutione haptismi: vbi dixit. Qui 
+      credi<lb ed="#A" n="54" break="no"/>lerit et baptizatus fuerit saluus erit. In aliis etiam 
+      tri<lb ed="#A" n="55" break="no"/>bus modis habendi virtutem differentia est penes ma 
+      <lb ed="#A" n="56"/>gis completum et minus completum. quia in sacrmentis noue legis 
+      <!--247.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>spiritus sanctus influens iusticiam plenius assistit. et 
+      passio<lb ed="#A" n="58" break="no"/>christi meritoria efficacius concurrit. abundantior etiam est 
+      <lb ed="#A" n="59"/>deuotio suscipientis. Tum propter incrementum fidei proprie 
+      <lb ed="#A" n="60"/>Tum etiam propter subsidium totius ecclesie. Et propter istum qua 
+      <lb ed="#A" n="61"/>druplicem modum habendi virtutem dicuntur sacramenta noue legis 
+      <lb ed="#A" n="62"/>ustificare et esse casa gratiae. Nec volunt qui hanc positionem 
+      <lb ed="#A" n="63"/>sustinent in sacramentis noue legis amplius ponere. Tum quia ista 
+      <lb ed="#A" n="64"/>sat is videntur sufficere ad nostram iustificationem. Tum 
+      <lb ed="#A" n="65"/>quia ex ipso quadruplici modo habendi virtutem satis 
+      manife<lb ed="#A" n="66" break="no"/>statur nobilitas sacramenti noue legis in seipsis. Tum etiam quia 
+      <lb ed="#A" n="67"/>nec expressa auctoritas nec ratio videtur cogere amplius illis 
+      <lb ed="#A" n="68"/>dare et humilitas fidei non tantum videtur refugere dimiuti 
+      <lb ed="#A" n="69"/>onem sed etiam superfluitatem. Hunc modum dicendi plures 
+      <lb ed="#A" n="70"/>sustinent. et dominus Guill. parisien. episcopus in schols fratrum 
+      <lb ed="#A" n="71"/>minorum approbauit istum dicendi modum coram fre Alex. 
+      <lb ed="#A" n="72"/>de ales. Et istum modum potest quis dupliciter sustinere. vel ita 
+      <lb ed="#A" n="73"/>vu omnino affirmet nullo alio modo ece virtutem in sacramentis 
+      no<lb ed="#A" n="74" break="no"/>ue legis quam modis praedictis. vel ita quod tamen non neget alium 
+      <lb ed="#A" n="75"/>modum praeter hos habendi virtutem in sacramentis esse possibilem. et 
+      <lb ed="#A" n="76"/>primus quidem repugnat piori modo dicendi. Secund non repugnt 
+      <lb ed="#A" n="77"/>ex quibus secundum Guill. i. iiii. di. i. Cui concor. Scotus. quod tam 
+      <lb ed="#A" n="78"/>ex opere operante quam operato sacramenta noue legis gratiam conferunt 
+      <lb ed="#A" n="79"/>siet sacramenta ve. le. excepta circumcisione non conferunti ¶Notam 
+      <lb ed="#A" n="80"/>dum tamen quod opus operans vocatur fides cum charitate. sed 
+      <lb ed="#A" n="81"/>opus operatum operatio exterior. Sed sicut supra dictum est sacramenta 
+      <lb ed="#A" n="82"/>etiam noue legis nullam habent effectiue causalitatem ad 
+      <lb ed="#A" n="83"/>gratiam. quod sic probatur. Si eim aliquam gratiae causalitatem in 
+      <lb ed="#A" n="84"/>anima haberent quaeritur Que esset illa virtus aut corporalis autem 
+      spi<lb ed="#A" n="85" break="no"/>ritualis. Non corporalis. quia talis virtus non agit in spiritum nisi 
+      <lb ed="#A" n="86"/>forsan obiectiue. Sed nec spiritualis. quia subiectum est 
+      cor<lb ed="#A" n="87" break="no"/>porale. Dicit autem Boetius. quod omne quod recipitur in aliquo 
+      reci<lb ed="#A" n="88" break="no"/>pitur ad motum rei recipientis et non rei recepte. Ceterum 
+      <lb ed="#A" n="89"/>in sacramento duosum scilicet verbum et elementum. Queritur In quo est 
+      <lb ed="#A" n="90"/>ista virtus subiectiue: an in verbo vel in elemento. quia non 
+      <lb ed="#A" n="91"/>dcet vna simplex qualitas esse in duobus subiectis disparatis 
+      <lb ed="#A" n="92"/>non est in elemento. patet. quia ante verba non dicitur habere causalita 
+      <lb ed="#A" n="93"/>tem. sed quod nec in verbo probatur. Si cim sit in verbo aut in toto 
+      <lb ed="#A" n="94"/>aut in parte. Non in toto: quia totum verbum est extensum. vt ver 
+      <lb ed="#A" n="95"/>pi gratia in sacramento altaris Hoc est corpus meum. et ita virtus 
+      <lb ed="#A" n="96"/>ent extensa quod repugnat qualitati spirituali. Si autem talis 
+      <lb ed="#A" n="97"/>virtus sit in parte verbi quaeritur in qua aut quidem in principio aut 
+      <lb ed="#A" n="98"/>in medio aut in finei Primo modo non. quia tuc esset sacramentum 
+      <lb ed="#A" n="99"/>ante finem verborum. quod no conceditur. Si dicatur quod in fine 
+      mi<lb ed="#A" n="100" break="no"/>tum est quod deus tam mobile fecerit qualitatem vt subito transi 
+      <lb ed="#A" n="101"/>eat. Ex quo patet defectus scicnti Tho. i. iiii. di. i. q. iiii. qui 
+      po<lb ed="#A" n="102" break="no"/>uit quod in sacramentis noue legis opertet ponere quandam virtutem 
+      <lb ed="#A" n="103"/>per quam in sacramentis non iterabilibus in anima gignitur charact 
+      <lb ed="#A" n="104"/>et in sacramentis iterabilibus dispositio ad gtiam. Melius 
+      <lb ed="#A" n="105"/>profecto poni scilicet Bona. vbi supra et etiam in. iiii. dist. i. qui non 
+      <lb ed="#A" n="106"/>ponit virtutem sed solam dei assistentiam qui ex pacto hoc voluit 
+      <lb ed="#A" n="107"/>vt quotiens sacramentum confertur donabit gratiam nisi ex parte 
+      no<lb ed="#A" n="108" break="no"/>tra impedimentum eueniat. De quo datur exemplum Scoti in 
+      <lb ed="#A" n="109"/>iiii. dist. i. q. iii. Dicat vir bone fidei alteri: in tali 
+      si<lb ed="#A" n="110" break="no"/>gno puta pacis osculo tale firmabitur negocium: 
+      cre<lb ed="#A" n="111" break="no"/>dendum est ei. Sic est hic. quia pepigit nobiscum deus fedus 
+      <lb ed="#A" n="112"/>vt in sacramentis gratiam conferat nisi obex a nobis veniat. 
+      Ali<lb ed="#A" n="113" break="no"/>ud familiare exemplum. Licet eim obediatur literis pape non tamen 
+      <lb ed="#A" n="114"/>videtur aliquo vertus in lteis ponenda: sed solum fit intimatione 
+      <!--248.xml-->
+      <pb ed="#A" n="249"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>papalis voluntatis. sic in proposito est de sacrmentis. Unde sacramenta 
+      <lb ed="#A" n="2"/>no. le. efficiunt quod figurant. sacramenta vero ve. le. ex parte operis 
+      <lb ed="#A" n="3"/>operati non efficiebant. Unde Hugo de sa. vic. Prius inquit 
+      <lb ed="#A" n="4"/>in lege nature victus est homo de ignanrtia. Secundo in 
+      lege<lb ed="#A" n="5" break="no"/>moysi de impotentia. dum data est lex sine gratia Et tunc vt 
+      <lb ed="#A" n="6"/>nit christus de quo dicit Io i. Gtra et veritas per Iesum christum 
+      <lb ed="#A" n="7"/>facta est. et Rho. iii. Per legem enim cognito peccati. nunc aut 
+      <lb ed="#A" n="8"/>sine lege iusticia dei manifestata e. testificata a 
+      le<lb ed="#A" n="9" break="no"/>ge et prophetis. Iusticia autem dei per fidem Iesu christi. Ubi 
+      <lb ed="#A" n="10"/>glosa Opera legis dicuntur quae cum lege instituta et terminata 
+      <lb ed="#A" n="11"/>sunt: quae nunque isfituere potuerunt etiamsi in fide et sanctita 
+      <lb ed="#A" n="12"/>te fierent. Ideo Esa i. dicitur. Sanguinem hircorum nolui. vbi 
+      <lb ed="#A" n="13"/>glo. dicit prterito vtens ostendit se sacrificia iudeorum num 
+      <lb ed="#A" n="14"/>quam amasse scilicet ratione solum operis operati. aut etiam ratione 
+      ob<lb ed="#A" n="15" break="no"/>ferentium indigne: dum fiebat ex charitate homo in eis 
+      po<lb ed="#A" n="16" break="no"/>terat mereri sicut per omne opus factum ad honorem dei. Ex ergo 
+      <lb ed="#A" n="17"/>patet defectus Gilberti porretani episcopi picta. quem sed 
+      <lb ed="#A" n="18"/>videtur magister i. iiii. di i. dicentis quod dato quod illa vete. le. 
+      sa<lb ed="#A" n="19" break="no"/>crificia homo ex charitate expleret: nunquam tamen in eis 
+      po<lb ed="#A" n="20" break="no"/>terat mereri. per hoc tamen non equantur sacramentis no. le. quia dateo 
+      <lb ed="#A" n="21"/>quod nullus fieret charitatis motus. ita tamen quod obex non 
+      ve<lb ed="#A" n="22" break="no"/>niret proficerent suscipien. sed non sic sacramenta veteris legis. 
+      <lb ed="#A" n="23"/>excepta circumcisione quod sacramentum fuit contra originale peccatum 
+      <lb ed="#A" n="24"/>Ex praedictis patet quid sit dicendum de differentia veteris et 
+      no<lb ed="#A" n="25" break="no"/>ue legis. Deide differentia praedictarum legum potest assigori 
+      <lb ed="#A" n="26"/>penes radicem. Queritur quo 
+      </p>
+            </div>
+            <!-- doesn't seem to be a 2.2 section; need to dbcheck if there is a missing page, but it doesn't look like it -->
+            <div xml:id="Vn7Pel-j72815-Dd1e965">
+               <head xml:id="Vn7Pel-j72815-Hd1e967">7 (2.3)</head>
+               <p xml:id="Vn7Pel-j72815-d1e969">
+                  <lb ed="#A" n="27"/>¶ Utrum differentia legis veteris et 
+      <lb ed="#A" n="28"/>noue secundum radicem sit timor et amor: Et quod sict videtur. 
+      <lb ed="#A" n="29"/>Dicit enim Aug. quod breuis est dierntia legis et euangelii 
+      ti<lb ed="#A" n="30" break="no"/>mor et amor. Et Rho. viii. Non accepistis spiritum 
+      serui<lb ed="#A" n="31" break="no"/>tutis iterum in timoreset spiritum adoptionis.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e982">
+      ¶ In 
+      contra<lb ed="#A" n="32" break="no"/>rium tamen iuenitur etiam lex ve. lex amoris. sic Deut. vi. dicitur 
+      <lb ed="#A" n="33"/>Diliges dominu deum tuum ex toto corde tuo etc. Et 
+      ecomn<lb ed="#A" n="34" break="no"/>uerso lex noua inuenitur lex timoris. sicut Phil. ii Cum 
+      <lb ed="#A" n="35"/>metu et tremore salutem vatram operantes. Respondet sancus 
+      <lb ed="#A" n="36"/>Bona in. iii. di. vl. ar. i. q. i. Quod ad praedictorum intellige 
+      <lb ed="#A" n="37"/>tiam est notandum. quod cum comparamus has leges ad 
+      inuicen<lb ed="#A" n="38" break="no"/>hoc potest esse dupliciter. Uel secundum statum commnem: vel habito 
+      re<lb ed="#A" n="39" break="no"/>spectu ad statum specialis persone. Si respectu specialis 
+      perso<lb ed="#A" n="40" break="no"/>ne. sic penes hec duonon est dientia. Nam multi in legis 
+      <lb ed="#A" n="41"/>euangelica ducuntur spiritu amoris. Multi etiam in le. vet 
+      <lb ed="#A" n="42"/>ducebantur spiritu amoris. Si vero comparatio fiat legum 
+      re<lb ed="#A" n="43" break="no"/>spectu habito ad statum comnem. sic quia lex moysaica 
+      re<lb ed="#A" n="44" break="no"/>spiciebat statum imperfectionis. quia neminem ad perfectum ac 
+      <lb ed="#A" n="45"/>duxit lex. vt dicitur Heb. vii. Euangelium vero respicit 
+      sta<lb ed="#A" n="46" break="no"/>tum perfectionis. vt dicitur Mat. v. Estote perfecti sicut pater ve. 
+      <lb ed="#A" n="47"/>cele. perfe. est. Et imperfectorum est duci spiritu timoris. perfectorum 
+      <lb ed="#A" n="48"/>vero spiritu amoris. Hinc est quod secundum hec duo habet legum 
+      <lb ed="#A" n="49"/>differentia assigrari. Signum autem huius differentie 
+      appre<lb ed="#A" n="50" break="no"/>henditur in modo tradendi hac duplicem legem. quia lex vetus 
+      da<lb ed="#A" n="51" break="no"/>ta fuit cum clamore magno et timore. secundum quod dicitur 
+      Exo<lb ed="#A" n="52" break="no"/>di. xix. ita quod populus non audebat appropinquare. Lex 
+      <lb ed="#A" n="53"/>vero euangelica data est cum magna benignitate et 
+      dul<lb ed="#A" n="54" break="no"/>cedine. quoniam christus rex regum in medio discipulorum suorum 
+      <lb ed="#A" n="55"/>sedens docehat eos di. Beati pauperes spiritu etc. vt 
+      ha<lb ed="#A" n="56" break="no"/>betur Mat. v. Et hic modus diuersus ferendi legem 
+      in<lb ed="#A" n="57" break="no"/>sinuat diuersitatem huius duplicis radicis in obsuando 
+      <!--248.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>qua his legibus competebat propter diuersam qualitatem 
+      persona<lb ed="#A" n="59" break="no"/>rum et status eorum ob quam opertebat diuersimode manu 
+      <lb ed="#A" n="60"/>duci. Unde sic videmus in disciplinalibus quod ad homines 
+      <lb ed="#A" n="61"/>persuasibiles vtendum est syllogismo ostensiuo: qui ducis 
+      <lb ed="#A" n="62"/>directe ad verum. Ad homines vero contentiosos vtendum est syl 
+      <lb ed="#A" n="63"/>logismo per impossibile qui ducit ad manifeste falsum 
+      <lb ed="#A" n="64"/>vt per illud reducat ad verum. Sic quia in tempore veteris legis 
+      <lb ed="#A" n="65"/>erat homines dure ceruicis et ad malum proni. Dominus ideo 
+      propo<lb ed="#A" n="66" break="no"/>suit comminationes et taxauit etiam graues penas vt per hoc 
+      <lb ed="#A" n="67"/>incuteret eis timorem per quem a malo reuocarentur et ad 
+      <lb ed="#A" n="68"/>bonum stimularentur. Sed postmodum apparente lenti 
+      <lb ed="#A" n="69"/>gnitate et humanitate saluatoris nostri dei ceperit homines 
+      <lb ed="#A" n="70"/>esse persuasibiles. et ideo promisit eis dominus magnas et 
+      <lb ed="#A" n="71"/>multas promissiones per quarum amorem alliceret eos ad 
+      fa<lb ed="#A" n="72" break="no"/>ciendum bonum. Et propterea lex vetus dicitur lex timoris. lex 
+      <lb ed="#A" n="73"/>vero noua lex amoris.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1080">
+      ¶ Ad argumentum in contrarium 
+      <lb ed="#A" n="74"/>dicendum quod licet in vtraque praecipiatur timor et amor. tamen lex 
+      <lb ed="#A" n="75"/>vetus principaliter habebat oculum ad timorem. lex vero 
+      no<lb ed="#A" n="76" break="no"/>ua principaliter ad amorem. illud autem tenet in lege rationem 
+      ra<lb ed="#A" n="77" break="no"/>dicis. quod principaliter monet in mandatis eius 
+      obseruan<lb ed="#A" n="78" break="no"/>ut. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e1094">
+               <head xml:id="Vn7Pel-j72815-Hd1e1096">8 (2.4)</head>
+               <p xml:id="Vn7Pel-j72815-d1e1098">
+                  <lb ed="#A" n="79"/>¶ Utrum lex vetus erat lex occidens 
+      <lb ed="#A" n="80"/>et lex noua viuificans. Arguitur quod sic. quia magister sic dicits 
+      <lb ed="#A" n="81"/>littera tertii libro di. vl. Et apostolus. ii Corum. iii. Latera octidit 
+      <lb ed="#A" n="82"/>spiritus autm viuificat. ergo etc. Sed contra hanc legum differentiam 
+      <lb ed="#A" n="83"/>obiicitur. Dicitur eim Rho. vii. Lex quidem sanctam et mandatum iu 
+      <lb ed="#A" n="84"/>stum et sanctum. vbi glo. iustum iustificans. sed nihil iustum 
+      <lb ed="#A" n="85"/>et sanctum occidit. ergo lex non occidit.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1116">
+      ¶ Tonfirmatur. quia 
+      <lb ed="#A" n="86"/>cum dicitur Lex occidens. aut intelligitur de lege seruata: aut 
+      <lb ed="#A" n="87"/>de lege non seruata. Si de lege seruata constat quod hoc est 
+      fal<lb ed="#A" n="88" break="no"/>sum. si de lege non seruata: similiter euangelium non 
+      obseua<lb ed="#A" n="89" break="no"/>tum occidit. quia sicut peccat qui legem scriptam non obsuat. sic 
+      <lb ed="#A" n="90"/>peccat qui legem euangelicam non seruat. ergo sicut lex vetus 
+      <lb ed="#A" n="91"/>ita etiam noua est lex occidens
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1132">
+      ¶ Responde scilicet Bona. vbisupra. 
+      <lb ed="#A" n="92"/>q. ii cui concor. Rich. ibide. Quod aliquid iustificare si 
+      <lb ed="#A" n="93"/>ue iustificans dicitur multipliciter. Uno modo effectiue. et sic 
+      <lb ed="#A" n="94"/>solus deus dicitur iustificare. Alio modo formaliter. et sic gratia 
+      <lb ed="#A" n="95"/>dicitur iustificare quie informat ipsam animam expelledo 
+      <lb ed="#A" n="96"/>iniquitatem culpe et dando rectitudinem iusticie. Tertio 
+      <lb ed="#A" n="97"/>modo dicitur aliquid iustificas non solum in habitu verum etiam in 
+      <lb ed="#A" n="98"/>effectu. et sic fides quie per charitatem operatur iustificat. e¶ 
+      <lb ed="#A" n="99"/>Quarto modo dicitur aliquid iustificans in ipsius iusticie 
+      exer<lb ed="#A" n="100" break="no"/>citatione et vsu. et hoc modo mandata dei in quibus iusticia 
+      <lb ed="#A" n="101"/>exercetur iustificare dicuntur quando modo debito seruantur. 
+      <lb ed="#A" n="102"/>His praesuppositis intelligendum est quod in lege veteri tria sunt 
+      <lb ed="#A" n="103"/>consideranda. similiter et in legenoua. videlicet Mouentia: et 
+      <lb ed="#A" n="104"/>ista erant promissa. Dirigenda: et ista erant praecepta. Ad 
+      <lb ed="#A" n="105"/>iuuantia: et ista erant sacramenta. Similiter hec tria sunt in 
+      lege<lb ed="#A" n="106" break="no"/>euangelica: sed differentur. quia in lege noua secundum primam 
+      fa<lb ed="#A" n="107" break="no"/>ciem ista omnia sunt spiritualia. quia promissa sunt eterna: praecepta 
+      <lb ed="#A" n="108"/>sunit spiritualia et sacramenta sanctificantia. Et ita promissa 
+      exci<lb ed="#A" n="109" break="no"/>tant hominem ad amorem eternorum qui est amor charitatis. 
+      <lb ed="#A" n="110"/>Precepta dirigunt sufficientur in via morum dicendo 
+      <lb ed="#A" n="111"/>vitare omne peccatum. sacramenta sanant hominem a vulneribus pec 
+      <lb ed="#A" n="112"/>catorum. et sic legi euangelice competit iustificare secundum 
+      tri<lb ed="#A" n="113" break="no"/>plicem modum: videlicet. Formaliter ratione gratiae sacramentalis 
+      <lb ed="#A" n="114"/>Et in effectu ratione amoris spiritualis Et exercitio 
+      ra<lb ed="#A" n="115" break="no"/>tione multiplicisr boni operis ad quod dirigitur homo per consilia 
+      <!--249.xml-->
+      <pb ed="#A" n="250"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>et praecepta. In lege autem veteri erant aliter hec tria 
+      consi<lb ed="#A" n="2" break="no"/>derare: quoniam ipsa dupliciter potest considerari. videlicet secundum 
+      intel<lb ed="#A" n="3" break="no"/>lectum spiritualem. et sic quodammodo concordat cum lege 
+      euangeli<lb ed="#A" n="4" break="no"/>ca. et qui spiritualiter legem obseruabant: viri euangelici erant 
+      <lb ed="#A" n="5"/>quia lex pregnans erat euangelio. Alio modo potest 
+      obserua<lb ed="#A" n="6" break="no"/>ri secundum litteralem intellectum. et sic ab euangelio 
+      distin<lb ed="#A" n="7" break="no"/>guitur secundum tria praedicta. quia promissa erant temporalia. et 
+      praece<lb ed="#A" n="8" break="no"/>pta exterius regulantia et sacra figuralia. et sic Ratione 
+      <lb ed="#A" n="9"/>promissorum non excitabatur homo ad amorem spiritualem. 
+      Ratio<lb ed="#A" n="10" break="no"/>ne praeceptorum non dirigebatur ad iusticiam interiorem. Ratione 
+      <lb ed="#A" n="11"/>sacramentorum non adiuuabatur vt possit faciliter legem ipsam in 
+      <lb ed="#A" n="12"/>plere. Et ideo deerat sibi iustificatione: et quia ibi erat 
+      osten<lb ed="#A" n="13" break="no"/>sio culpe et non aderat adiutorium. dabatur per consequens 
+      <lb ed="#A" n="14"/>occasio peccati concupiscentie vt traderet ad mortem. et ideo lex 
+      <lb ed="#A" n="15"/>moysaica secundum litteralem sensum dicitur lex occidens per 
+      occasio<lb ed="#A" n="16" break="no"/>nem non per causam. et hoc ipsum dicit apostolis Rho. vii. 
+      Pecca<lb ed="#A" n="17" break="no"/>tum per mandatum occasione accepta seduxit me et per illud 
+      <lb ed="#A" n="18"/>occidit. Ibi Gloria. Ex prohibitione namque vbi charitas 
+      <lb ed="#A" n="19"/>deficit desiderium mali crescit: quo aucto dulcius fit quod 
+      <lb ed="#A" n="20"/>prohibetur. et ideo fallit dulcedine falsa: et ita per mandatum 
+      <lb ed="#A" n="21"/>occidit. quia reatus praeuaricationis accessit. Unde sicut cum 
+      <lb ed="#A" n="22"/>quis armatus portat cultellum vt se defendat per quem ab 
+      in<lb ed="#A" n="23" break="no"/>imico occiditur: Illa cultelli portatione dicitur occidi non 
+      <lb ed="#A" n="24"/>per causam scilicet per occasionem. Sic intelligendum est in lege. et 
+      <lb ed="#A" n="25"/>sic patet eius differentia.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1247">
+      ¶ Ad argumentum autem dicendum quod 
+      <lb ed="#A" n="26"/>verum est quod lex est sanctam et mandatum iustum id est iustificans quia 
+      <lb ed="#A" n="27"/>lex iuncta est gratiae adiutrici. verum est etiam quantum est de se et 
+      <lb ed="#A" n="28"/>de principali intentione legislatoris: nihil tamen prohibet ex 
+      <lb ed="#A" n="29"/>accidente et per occasione inducere oppositum. sicut patet 
+      exem<lb ed="#A" n="30" break="no"/>plum de cultello.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1261">
+      ¶ Ad aliud vero dicendum quod non est 
+      si<lb ed="#A" n="31" break="no"/>mile de veteri et evangelica. quia lex secum portat onus ex 
+      <lb ed="#A" n="32"/>non habet annexum adiutorium: scilicet suum litteralem sensum. 
+      Euan<lb ed="#A" n="33" break="no"/>gelium vero de se adiutorium habet ipsius gratiae. et ideo non praebet 
+      <lb ed="#A" n="34"/>mortis occasionem. quia gratia minuit concupiscentiam. secundum quod dicitur 
+      <lb ed="#A" n="35"/>Rho. vii. Infelix ego homo quis me liberabit de corpore 
+      <lb ed="#A" n="36"/>mortis huius. et subditur gratia dei per iesum christum 
+      domi<lb ed="#A" n="37" break="no"/>num nostrum. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j72815-Dd1e1280">
+               <head xml:id="Vn7Pel-j72815-Hd1e1282">9 (2.5)</head>
+               <p xml:id="Vn7Pel-j72815-d1e1284">
+                  <lb ed="#A" n="38"/>¶ Utrum lex et euangelium differant 
+      <lb ed="#A" n="39"/>quantum ad onus annexum. ita quod lex moysaica dicitur lex 
+      gra<lb ed="#A" n="40" break="no"/>uitatis: et lex euangelica lex suauitatis. Et probatur quod sic 
+      <lb ed="#A" n="41"/>quia dicitur christus Mat. xi. Iugum enim meum suaue est et onus 
+      <lb ed="#A" n="42"/>meum leue. Et de lege moysaica Actus. xv. dicitur scilicet Petrus 
+      <lb ed="#A" n="43"/>Hoc est onus quod neque nos neque patres nostri portare 
+      po<lb ed="#A" n="44" break="no"/>tuerunt.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1302">
+      ¶ Et contra istam differentiam opponitur sicut dicitur. I. 
+      Jo<lb ed="#A" n="45" break="no"/>annis. v. Mandata eius grauia non sunt ergo si lex vetus continet 
+      <lb ed="#A" n="46"/>mandata dei. videtur quod non sit onerosa nec grauis 
+      </p>
+               <p xml:id="Vn7Pel-j72815-d1e1309">
+                  <lb ed="#A" n="47"/>¶ Preterea si lex moysaica dicitur grauis. aut hoc dicitur 
+      respe<lb ed="#A" n="48" break="no"/>ctu hominis virtuosi: aut respectu peccatoris et iniusti. Si 
+      <lb ed="#A" n="49"/>respectu virtuosi hoc non. quia qui virtuosus est charitatem habet et 
+      <lb ed="#A" n="50"/>amat et omnia facilia sunt amanti. secudum b. Ber. Si respectu 
+      <lb ed="#A" n="51"/>peccatoris. tunc lex euangelica non tantum est grauis. imo 
+      omni<lb ed="#A" n="52" break="no"/>no importabilis ergo non videtur quod lex vetus et noua differant 
+      <lb ed="#A" n="53"/>ratione gravitatis et leuitatis. qui si in hoc disterrent. tunc videtur 
+      <lb ed="#A" n="54"/>quod lex vetus esset virtuosior ex quo grauior. quia vt dicit philosophus 
+      <lb ed="#A" n="55"/>Ars et virtus sunt circa difficilia. ergo etc. Respondet scilicet 
+      Bo<lb ed="#A" n="56" break="no"/>na. in. iii. di. et q. vl. quod de his duabus legibus est loqui 
+      <lb ed="#A" n="57"/>tripliter. Aut ratione praeceptorum obligantium. Aut ratione af¬ 
+      <!--249.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>fectionum mouentium. Aut ratione sacramentorum 
+      adiuuan<lb ed="#A" n="59" break="no"/>tium. Si ratione praeceptorum obligantium sic se habent sicut 
+      <lb ed="#A" n="60"/>excedentia et excessa. Nam quantum ad numerorum lex erat 
+      <lb ed="#A" n="61"/>grauior propter multitudinem iudicialium et cerimonialium 
+      <lb ed="#A" n="62"/>Quantum vero ad perfectionem et arduitatem grauius est 
+      euan<lb ed="#A" n="63" break="no"/>gelium. sicut difficilius est viuere secundum exigentiam perfectionis 
+      <lb ed="#A" n="64"/>quam secundum sufficientiam iuris communis. et sic quodammodo ratione 
+      one<lb ed="#A" n="65" break="no"/>ris praeceptorum excedit lex difficultate et quodammodo 
+      euan<lb ed="#A" n="66" break="no"/>gelium
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1359">
+      ¶ Alio modo est comparare istas duas leges ad 
+      <lb ed="#A" n="67"/>inuicem ratione affectionum mouentium. et sic leuius est 
+      euan<lb ed="#A" n="68" break="no"/>gelium. quia cum obisuatione legis euangelice moueatur 
+      amo<lb ed="#A" n="69" break="no"/>re non sentit laborem: sicut Bern. dicit. Ubi amor non 
+      la<lb ed="#A" n="70" break="no"/>bor sed sapor. ergo ratione affectionis lex euangelica est facilis 
+      <lb ed="#A" n="71"/>et leuis. Sed econuerso affectio mouens ad 
+      obseruati<lb ed="#A" n="72" break="no"/>onem legis moysaice timor erat. et illi timori iuncta 
+      <lb ed="#A" n="73"/>erat grauis punitio. Quod siginficatum est Exo. xvii. vbi 
+      <lb ed="#A" n="74"/>dicitur. quod manus Moysi erant graues et quia timor de se 
+      <lb ed="#A" n="75"/>penam habet: et exterius iunctus est pene. hinc est quod quantum 
+      <lb ed="#A" n="76"/>ad hoc lex moysaica erat grauior quam euangelica
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1384">
+      ¶ 
+      Ter<lb ed="#A" n="77" break="no"/>tio modo est istas leges comparare ad inuicem ratione sacramentorum. 
+      <lb ed="#A" n="78"/>adiuuantium. et sic multo leuior est lex euangelica quam 
+      <lb ed="#A" n="79"/>moysaica. quia sacramenta illius legis multum habebant 
+      ponde<lb ed="#A" n="80" break="no"/>ris et parum de efficacia virtutis. econtra in sacris noue 
+      <lb ed="#A" n="81"/>legis est: quae paruam habent difficultatem et multam habent 
+      vtili<lb ed="#A" n="82" break="no"/>tatem. Hinc est quod secundum hanc comparationem lex euangelica 
+      <lb ed="#A" n="83"/>non solum dicitur leuior lege moysaica: imo dicitur iugum 
+      leui<lb ed="#A" n="84" break="no"/>tatis. et illa dicitur onus grauitatis. ergo concedende sunt rationes 
+      <lb ed="#A" n="85"/>quae hoc probant.
+     </p>
+               <p xml:id="Vn7Pel-j72815-d1e1406">
+      ¶ Ad argumentum autem de auctorite Ioan. 
+      di<lb ed="#A" n="86" break="no"/>cendum quod dupliciter est loqui de ipsis mandatis. Aut per 
+      compara<lb ed="#A" n="87" break="no"/>tionem ad naturam sanam Aut per comparationem ad 
+      in<lb ed="#A" n="88" break="no"/>firmam. Si primo: sic dicit mandata eius non esse grauia 
+      <lb ed="#A" n="89"/>quia sunt nature consona. Si autem per comparationem ad 
+      natu<lb ed="#A" n="90" break="no"/>ram infirmam quae habet difficultatem ad bonum et pronitatem 
+      <lb ed="#A" n="91"/>ad malum: sic mandata eius sunt grauia. scilicet praedicta 
+      differen<lb ed="#A" n="92" break="no"/>tia assignatur quantum ad naturam lapsam. quia quantum ad 
+      na<lb ed="#A" n="93" break="no"/>turam sanam mandata dei sunt leuia. Et ideo ars et virtus sunt 
+      <lb ed="#A" n="94"/>circa difficilia ipsi nature priuate virtute: non autem nature 
+      <lb ed="#A" n="95"/>informate et leuate per gratiam et virtutem: per quem modum lex 
+      <lb ed="#A" n="96"/>euangelica suauitur obseruatur ad dei laudem. 
+      </p>
+               <p xml:id="Vn7Pel-j72815-d1e1432">
+                  <lb ed="#A" n="97"/>¶ Ubi relucet magna magni dei 
+      <lb ed="#A" n="98"/>charitas prohibeum. luxuriam.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

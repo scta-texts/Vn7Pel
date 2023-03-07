@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Apostolus</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Apostolus</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="74"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j20586">
+            <head xml:id="Vn7Pel-j20586-Hd1e110">Apostolus</head>
+            <div xml:id="Vn7Pel-j20586-Dd1e112">
+               <head xml:id="Vn7Pel-j20586-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j20586-d1e116">
+                  <lb ed="#A" n="1"/>¶ Apostolus. Quo ma 
+      <lb ed="#A" n="2"/>xima dei charitas claret in apostolis. 
+      </p>
+               <p xml:id="Vn7Pel-j20586-d1e123">
+                  <lb ed="#A" n="3"/>¶ Primo in eligendo scilicet numero 
+      <lb ed="#A" n="4"/>duodeno. Unde quaeritur 
+      </p>
+               <!--technically heading 1 starts here-->
+               <p xml:id="Vn7Pel-j20586-d1e132">
+                  <lb ed="#A" n="5"/>¶ Quare christus dominus. xii. apostolos 
+      <lb ed="#A" n="6"/>et non plures elegit neque pauciores: cum tamen septuagi 
+      <lb ed="#A" n="7"/>taduos discipulos elegerit: Respondetur secundum doc. 
+      theo<lb ed="#A" n="8" break="no"/>logos: quod sic congruebat mysterio diuine 
+      charita<lb ed="#A" n="9" break="no"/>tis pluribus rationibus
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e146">
+      ¶ Primo propter designandam 
+      to<lb ed="#A" n="10" break="no"/>tius mundi saluatibnem. quam ex nimia charitate 
+      <lb ed="#A" n="11"/>christus optabat. Unde Beda dicit. Hunc numerum 
+      <lb ed="#A" n="12"/>apostolorum christus instituit certa causa mysterii vt 
+      <lb ed="#A" n="13"/>scilicet mundi salutem quam verbo praedicarent suo numero 
+      <lb ed="#A" n="14"/>commendarent. Ter enim quattuor faciunt duodeci. Et 
+      to<lb ed="#A" n="15" break="no"/>tidem apostoli ad praedicandum quattuor mundi partibus 
+      <lb ed="#A" n="16"/>hoc est Orientali Occidentali Meridionali et Aqui 
+      <lb ed="#A" n="17"/>lonari missi sunt. quia per eos fides sancte 
+      trinita<lb ed="#A" n="18" break="no"/>tis in ipsis quattuor mundi partibus praedicanda erat. 
+      <lb ed="#A" n="19"/>vt orbem quadratum fide sancte trinitatis 
+      insigni<lb ed="#A" n="20" break="no"/>rent et consequenter diligere verum deum docerent etc. 
+      <lb ed="#A" n="21"/>Idem quoqe Beda super Lucam addit quod etiam bene so 
+      <lb ed="#A" n="22"/>ptuagintaduo discipuli mittuntur. quia totidem 
+      lin<lb ed="#A" n="23" break="no"/>guarum mundi gentibus exteris euangelium praedicandum 
+      <lb ed="#A" n="24"/>erat. Et iterum. Sicut inquit duodecim apostoli 
+      for<lb ed="#A" n="25" break="no"/>mam episcoporum monstrant: sic septuagintaduo 
+      di<lb ed="#A" n="26" break="no"/>scipuli figuram praesbyterorum tenent quamquam in 
+      primi<lb ed="#A" n="27" break="no"/>tiua ecclesia vtrique episcopi vocantur id est 
+      superintendem<lb ed="#A" n="28" break="no"/>tes saluti hominum. Hec ex Bedu
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e190">
+      ¶ Secundo elegit 
+      <lb ed="#A" n="29"/>christus duodecim apostolos propter ostendendam 
+      <lb ed="#A" n="30"/>sanctitatis perfectionem. Nam secundum Arithmeticos 
+      <lb ed="#A" n="31"/>duodenarius numerus est bis perfectus: eo quod continet 
+      <lb ed="#A" n="32"/>bis sex. Senarius autem secundum eosdem est numerus 
+      <lb ed="#A" n="33"/>primus perfectus simpliciter. vnde est numerus 
+      perfe<lb ed="#A" n="34" break="no"/>cte charitatis et sanctitatis siue castitatis. quia 
+      li<lb ed="#A" n="35" break="no"/>cet generatur non tamen generat aliquem numerum 
+      <lb ed="#A" n="36"/>infra denarium existentem. Et quia producitur 
+      <lb ed="#A" n="37"/>ex primo pari. id est duo. et primo impari. id est 
+      tria<lb ed="#A" n="38" break="no"/>dicendo Bis tria sunt sex. nec tamen producit 
+      ali<lb ed="#A" n="39" break="no"/>quem numerum simplicem qui sit scilicet infra denari 
+      <lb ed="#A" n="40"/>um. vt patet. Uoluit ergo christus eligere apostolot 
+      <lb ed="#A" n="41"/>sub numero perfecte charitatis duplicato id est bissena 
+      <lb ed="#A" n="42"/>rio. vt ostendat quod praedicatores et doctores veritat 
+      <lb ed="#A" n="43"/>dicunt fulgere duplici charitate. videlicet Dei et proximi. sicut 
+      <lb ed="#A" n="44"/>etiam dicit Greg. in home. Uel cum hoc duplici perfectione 
+      <lb ed="#A" n="45"/>scilicet vite sancte et doctrine vere. Matth. v. Qui 
+      fece<lb ed="#A" n="46" break="no"/>rit et docuerit hic magnus vocabitur. Item. de 
+      septua<lb ed="#A" n="47" break="no"/>gintaduobus. §. ii.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e234">
+      ¶ Si obiicitur. Quod ergo non debuit 
+      <lb ed="#A" n="48"/>Iudam qui erat mallis cligere in apostolatum suum 
+      chri<lb ed="#A" n="49" break="no"/>stus: Respondet Augustinus. super Ioannem sermone id lest 
+      di<lb ed="#A" n="50" break="no"/>tens. Quare dominus vnum perditum inter 
+      duodi<lb ed="#A" n="51" break="no"/>cim habere voluit: nisi vt malos toleremus ne 
+      cor<lb ed="#A" n="52" break="no"/>pus domini id est ecclesiam diuidamus. Item illuo 
+      <lb ed="#A" n="53"/>voluit etiam vt ostendat quia in ecclesia mali sunt 
+      <lb ed="#A" n="54"/>mixti cum bonis. et quod ex malis deus bona elicit 
+      <lb ed="#A" n="55"/>sicut in proposito.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e254">
+      ¶ Tertio elegit duodecim 
+      aposto<lb ed="#A" n="56" break="no"/>los christus propter scripture praefigurationem et imple¬ 
+      <!--73.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>tionem. Unde glo super Actuum. xiii. dicit. Quod 
+      aposto<lb ed="#A" n="58" break="no"/>los duodecim praefigurauerunt Primo duodecim 
+      <lb ed="#A" n="59"/>filii Iacob. Secundo duodecim fontes in helyum 
+      de<lb ed="#A" n="60" break="no"/>serto quos ibi repparerunt filii israel. Tertio duode. 
+      <lb ed="#A" n="61"/>cim lapides preciosi in veste pontificis Aaron.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e274">
+      ¶ 
+      <lb ed="#A" n="62"/>Quarto duodecim panes propositionis. Quito duo 
+      <lb ed="#A" n="63"/>decim lapides altaris. Sexto duodecim lapides 
+      <lb ed="#A" n="64"/>de iordane leuati. Septimo duodecim boues 
+      sub<lb ed="#A" n="65" break="no"/>eneo mari. Octauo duodecim stelle in corona 
+      spon<lb ed="#A" n="66" break="no"/>se. Apoc. xii. Nono duodecim fundamenta 
+      ciuita<lb ed="#A" n="67" break="no"/>tis celestis ex. xii. lapidibus praeciosis. Decimo duode 
+      <lb ed="#A" n="68"/>cim hore diei et menses duodecim ipsius anni. Io. 
+      <lb ed="#A" n="69"/>xi. cap. Undecimo duodecim porte ciuitatis 
+      hie<lb ed="#A" n="70" break="no"/>rusalem superne. Duodecimo fructus duodecim ligni 
+      <lb ed="#A" n="71"/>vite per menses etc. Que omnia praefigurauit et impleuit 
+      <lb ed="#A" n="72"/>deus ex charitate ad mundi salute. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j20586-Dd1e301">
+               <head xml:id="Vn7Pel-j20586-Hd1e303">2</head>
+               <p xml:id="Vn7Pel-j20586-d1e305">
+                  <lb ed="#A" n="73"/>¶ Sed restat quomodo in numero 
+      <lb ed="#A" n="74"/>lxxii. discipulorum charitas perfecta commendatur. Et 
+      di<lb ed="#A" n="75" break="no"/>cendum secundum Ludolis. libro de medita. vite christi: 
+      ali<lb ed="#A" n="76" break="no"/>osque. quod septuaginta consurgunt ex ductu 
+      septena<lb ed="#A" n="77" break="no"/>rii in denarium. additisque duobus fiunt septuaginta 
+      <lb ed="#A" n="78"/>duo. Et sic significant decalogi impletionem cum 
+      <lb ed="#A" n="79"/>septem donis spiritus sancti Et per binarium superadditum 
+      <lb ed="#A" n="80"/>significatur gemina charitas scilicet dei et proximi. que omnia 
+      <lb ed="#A" n="81"/>debent esse in praedicatoribus euangelii. Unde et christus 
+      <lb ed="#A" n="82"/>misit illos binos et binos ad praedicandum. et per 
+      conse<lb ed="#A" n="83" break="no"/>suens septuagintaduo constat esse numerum 
+      chari<lb ed="#A" n="84" break="no"/>tatis. Est etiam hic numerus perfectionis. quia ibi 
+      <lb ed="#A" n="85"/>concurrit senarius qui est perfectionis. vt dictum est 
+      <lb ed="#A" n="86"/>§. 1. Nam senarius ductus in duodecim facit 
+      se<lb ed="#A" n="87" break="no"/>ptuagintaduo. Unde mira dei charitas patet. quia 
+      <lb ed="#A" n="88"/>apostolos christus dominus vtpote perfectiores 
+      <lb ed="#A" n="89"/>misit duodecim tanquam episcopos qui debent esse perfectio 
+      <lb ed="#A" n="90"/>res prae inferioribus in charitate. Sed discipulos 
+      mi<lb ed="#A" n="91" break="no"/>sit. lxxii. pro figura quod in ecclesia debent esse plures 
+      <lb ed="#A" n="92"/>praesbyteri curati ad sacramentorum dispensationem et 
+      <lb ed="#A" n="93"/>praedicationem. patet di. xxi. c. in nouo. Et tales etiam licet 
+      <lb ed="#A" n="94"/>enfra episcopos debent esse perfecte charitatis pro suo 
+      modu<lb ed="#A" n="95" break="no"/>lo supra communem populum. Postea dei charitas ne 
+      defici<lb ed="#A" n="96" break="no"/>at fides et pereat in hominibus salus misit pro amore 
+      inflan<lb ed="#A" n="97" break="no"/>mando tempore tyrannorum imperatorum innumerabiles martus 
+      <lb ed="#A" n="98"/>res. Tandem tempore hereticorum misit multos doctores 
+      <lb ed="#A" n="99"/>Et postea pro edificatione fidelium confessores et scons ac 
+      <lb ed="#A" n="100"/>sanctas nec non et religiosos. Et ita vsque in finem modi semper 
+      <lb ed="#A" n="101"/>deus ex charitate promouet salutem hominum etc. 
+      </p>
+               <!--technically heading 1 ends here and what's below is floating-->
+               <p xml:id="Vn7Pel-j20586-d1e372">
+                  <lb ed="#A" n="102"/>¶ Secundo charitas dei claret 
+      mit<lb ed="#A" n="103" break="no"/>tendo apostolos per modum pro salubri officio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j20586-Dd1e380">
+               <head xml:id="Vn7Pel-j20586-Hd1e382">3</head>
+               <p xml:id="Vn7Pel-j20586-d1e384">
+                  <lb ed="#A" n="104"/>¶ Utrum officium missionis apostolice sit 
+      <lb ed="#A" n="105"/>precellentius angelica missione
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e391">
+      ¶ Pro praeambulo no. 
+      <lb ed="#A" n="106"/>ta Primo quod secundum Hiero. apis iterpretatur missus vel 
+      le<lb ed="#A" n="107" break="no"/>gatio. Nam apostols est nomen offici scilicet missionis. Et dicitur 
+      <lb ed="#A" n="108"/>ab apo grece id est de latine. et stolon quod est missic 
+      <lb ed="#A" n="109"/>Inde apostolus dicitur quasi de celo vel a deo 
+      mis<lb ed="#A" n="110" break="no"/>sus. Et in hoc angelis assimilantur. quia vt dicit 
+      <lb ed="#A" n="111"/>Magister. li. ii. Angelus est nomen officii non nature 
+      <!--74.xml-->
+      <pb ed="#A" n="75"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Nam angelus quasi nunclus dei grece nomina 
+      <lb ed="#A" n="2"/>tur. Magnus ergo honorem apostolis quod sicut summi 
+      <lb ed="#A" n="3"/>dei legati missi vel ambasiatores dicuntur tanquam an 
+      <lb ed="#A" n="4"/>geli nuncii altissimi etc.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e422">
+      ¶ Nota secundo quod August. 
+      <lb ed="#A" n="5"/>ad Orosium. cap. xl. dicit. quod apostolis interpretatur missus 
+      <lb ed="#A" n="6"/>vel legatus
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e429">
+      ¶ Apostolorum ergo quattuor sunt 
+      genera<lb ed="#A" n="7" break="no"/>inquit. Quidam mittuntur a deo: vt Moyses. et similir 
+      <lb ed="#A" n="8"/>duodecim apostoli
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e437">
+      ¶ Secundo quidam a deo sed per hominem 
+      <lb ed="#A" n="9"/>vt Iosue. Et similiter discipuli aposfolorum ab eis 
+      <lb ed="#A" n="10"/>missi.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e444">
+      ¶ Tertio quidam mittuntur inquit per homine 
+      <lb ed="#A" n="11"/>tantum. sicut nostris temporibus multi fauore vulgi vel 
+      <lb ed="#A" n="12"/>principum in sacerdotium surrogantur.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e451">
+      ¶ Quarto quidam 
+      <lb ed="#A" n="13"/>ex se. vt peseudoprophete et praeseudoapistli. Hec 
+      Au<lb ed="#A" n="14" break="no"/>gustinus.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e458">
+      ¶ Tertio ergo ad quaesitum respondetur 
+      <lb ed="#A" n="15"/>Missio apostolorum a deo ad conuertendum mundum fuit 
+      <lb ed="#A" n="16"/>maiori charitate eminens et precellentior angelica 
+      <lb ed="#A" n="17"/>missione.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e467">
+      ¶ Primo quia fuit potestatis plus 
+      mira<lb ed="#A" n="18" break="no"/>culose. videlicet in attestando certitudinem fidei. Unde 
+      di<lb ed="#A" n="19" break="no"/>cit Augustinus. in sermone de apostolis. Christus inquit dedit 
+      <lb ed="#A" n="20"/>apostolis potestatem super demones vt vincerent. super 
+      <lb ed="#A" n="21"/>languores vt curarent. super mortem vt eam 
+      contemne<lb ed="#A" n="22" break="no"/>rent. imo pro amore christi in tormentis gauderent. 
+      <lb ed="#A" n="23"/>super animas: vt a peccatis soluerent. super angelos: vt 
+      <lb ed="#A" n="24"/>corpus christi conlecrarent. Et super omnem naturam 
+      ele<lb ed="#A" n="25" break="no"/>mentorum: vt mutare possent. Hec ille. Et quia 
+      tam<lb ed="#A" n="26" break="no"/>tam potestatem deus non dedit angelis missis. 
+      Le<lb ed="#A" n="27" break="no"/>guntur etiam sepe angeli obedisse in praedicatione 
+      vo<lb ed="#A" n="28" break="no"/>ceo pro audientibus variando ad intelligendum. patet 
+      <lb ed="#A" n="29"/>§. vii. sed et deseruiuisse apostolis. vt patet in legenda 
+      <lb ed="#A" n="30"/>sancti Iacobi maioris. et lancti Bartolomei. et sic 
+      <lb ed="#A" n="31"/>de aliis. patet propositum.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e500">
+      ¶ Secundo quia apostolorum 
+      mis<lb ed="#A" n="32" break="no"/>sio fuit dignitatis magis amorose quam angelica 
+      mis<lb ed="#A" n="33" break="no"/>sio. eo quod apostoli non tantum erant nuncii dei licut 
+      ange<lb ed="#A" n="34" break="no"/>li: sed etiam testes domini per martyrium. quod non habet 
+      lo<lb ed="#A" n="35" break="no"/>cum in angelis. Martyrium autem est excellentissime 
+      <lb ed="#A" n="36"/>charitatis Io. xv. Maiorem charitatem nemohabet etc. 
+      <lb ed="#A" n="37"/>Tertio quia apostolorum missio fuit salutis am 
+      <lb ed="#A" n="38"/>plius copiose. eo quod totum mundum conuerterunt ad 
+      fi<lb ed="#A" n="39" break="no"/>dem et charitatem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j20586-Dd1e521">
+               <head xml:id="Vn7Pel-j20586-Hd1e523">4</head>
+               <p xml:id="Vn7Pel-j20586-d1e525">
+                  <lb ed="#A" n="40"/>¶ Sed quare deus pro mundi 
+      con<lb ed="#A" n="41" break="no"/>uersione voluit magis apostolos mittere quam angelos 
+      <lb ed="#A" n="42"/>potentissimos. Et potius illitteratos homines 
+      par<lb ed="#A" n="43" break="no"/>peres et paucos respectu hominum totius orbis: 
+      <lb ed="#A" n="44"/>Respondetur secundum apostolum. i. Cor. i. et doc. quod quie sunt stulta 
+      <lb ed="#A" n="45"/>et infirma mudi ignobilia et contemptibilia elegit deus 
+      <lb ed="#A" n="46"/>vt confundat sapientiam seculi et fortia ne glorietur omnis 
+      ca<lb ed="#A" n="47" break="no"/>rto in conspectu eius etc. Unde noluit deus angelos mit 
+      <lb ed="#A" n="48"/>tere ne mundi conuersio angelice virtuti attribueretur: 
+      <lb ed="#A" n="49"/>sed soli deo et eius mere charitati. Similiter nec 
+      po<lb ed="#A" n="50" break="no"/>tentes homines nec sapientes nec diuites misit: ne 
+      eo<lb ed="#A" n="51" break="no"/>ranto potentie vel sapientie et huiusmodi attribucretur. Item 
+      <lb ed="#A" n="52"/>secundum Augustinus. super Ioan. sermone. vii. Ne quis se diceret 
+      <lb ed="#A" n="53"/>tlectum a deo propter suam sapientiam vel potentiam et 
+      hu<lb ed="#A" n="54" break="no"/>iusmodi. Ac non ex mera charitate vel gratia dei. Ideo 
+      <lb ed="#A" n="55"/>que deus benignus per piscatores voluit lucrari 
+      impera<lb ed="#A" n="56" break="no"/>tores: multosque homines tam maiores quam minores 
+      ve<lb ed="#A" n="57" break="no"/>luti pisceo prensoo nor rete salutis ex charitate etc. 
+      <!--74.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>Item voluit etiam per paucos simplices et idiotas 
+      con<lb ed="#A" n="59" break="no"/>tra delectabilia carnis et sanguinis ad legem eis 
+      com<lb ed="#A" n="60" break="no"/>trariam inducere in dei amore: vt miraculum tale esset 
+      <lb ed="#A" n="61"/>commendabilius. Unde Berand. in epistola ad frens de monte 
+      <lb ed="#A" n="62"/>dicit. Inter cetera miracula quae deus in terra gessit hec 
+      <lb ed="#A" n="63"/>maximum super omnia enituit et cetera illustrauit. quod in 
+      <lb ed="#A" n="64"/>paucis simplicibus hominibus totum modum et omnem 
+      sapien<lb ed="#A" n="65" break="no"/>tie eius altitudinem ac gloriam eius sibi subiugauit. In 
+      <lb ed="#A" n="66"/>omnibus autem his patet dei charitas et ad apostolos et ad 
+      ec<lb ed="#A" n="67" break="no"/>clesiam et ad totum modum. 
+      </p>
+               <!--Real end of 4 here. technically what is below is floating.-->
+               <p xml:id="Vn7Pel-j20586-d1e595">
+                  <lb ed="#A" n="68"/>¶ Tertio charitas dei claret in 
+      <lb ed="#A" n="69"/>apostolis honorificando eos et exaltando in 
+      pre<lb ed="#A" n="70" break="no"/>mio 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j20586-Dd1e606">
+               <head xml:id="Vn7Pel-j20586-Hd1e608">5</head>
+               <p xml:id="Vn7Pel-j20586-d1e610">
+                  <lb ed="#A" n="71"/>¶ Utrum pre aliis sanctorum ordinibus 
+      <lb ed="#A" n="72"/>apostolicus ordo censeatur in hierarchia angelorum superex 
+      <lb ed="#A" n="73"/>altatus et per consequens praehonorabilis ab omnibus Respondetur quod sic secundum 
+      <lb ed="#A" n="74"/>doc. praeserti secundum Fram. mayro. Et probatur pluribus rationibus 
+      <lb ed="#A" n="75"/>quibus patet charitas dei in eis.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e623">
+      ¶ Primo ratione meri 
+      <lb ed="#A" n="76"/>torie praehonorabilitatis. Nam de apostolis canit ecclesia 
+      <lb ed="#A" n="77"/>illud psalmus. cxxxviii. Nimis honorati sunt amici tui 
+      <lb ed="#A" n="78"/>deus etc. Sed quia honor debetur (maxime apud 
+      diui<lb ed="#A" n="79" break="no"/>num iudicium pro merito vel praemio perfectionis in virtuti 
+      <lb ed="#A" n="80"/>bus. vt patet per philosophum. iiii. lib. Eth. vbi dicit. quod prauus 
+      <lb ed="#A" n="81"/>non est dignus honore. quia honor est praemium virtutis 
+      <lb ed="#A" n="82"/>ita quod perfecte (inquit virtuti non fit condignus honor. in 
+      <lb ed="#A" n="83"/>tellige nisi a solo deo qui iuste retribuit et vltra 
+      con<lb ed="#A" n="84" break="no"/>dignum in celo premiat. ergo sequitur quod ex dei 
+      chari<lb ed="#A" n="85" break="no"/>tate apostoli sunt nimis: hoc est pre aliis 
+      honora<lb ed="#A" n="86" break="no"/>ti: sicut fuit dignum. tamen infra honorem 
+      exaltati<lb ed="#A" n="87" break="no"/>onis matris dei.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e652">
+      ¶ Secundo ratione iudiciarie 
+      di<lb ed="#A" n="88" break="no"/>gnitatis in qua precellunt apostoli alios sanctorum 
+      <lb ed="#A" n="89"/>ordines. quia secundum Alexam. de ales. Cum deus 
+      iudi<lb ed="#A" n="90" break="no"/>cabit auctoritatiue: et christus inquantum homo delegata 
+      <lb ed="#A" n="91"/>potestate. apostoli habebunt iudicare assessorie. Mat 
+      <lb ed="#A" n="92"/>xix. Sedebitis super sedes. xii. iudicantes. xii. tribus 
+      <lb ed="#A" n="93"/>israel. Alii autem sancti angeli approbatiue. Sed 
+      ho<lb ed="#A" n="94" break="no"/>norabilius est et dignius iudicare assessorie quam 
+      ap<lb ed="#A" n="95" break="no"/>probatiue. Ideo de apostolis canit ecclesia. Uos 
+      <lb ed="#A" n="96"/>secli iusti iudices et vera mundi lumina etc.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e674">
+      ¶ 
+      Ter<lb ed="#A" n="97" break="no"/>tio ratione plenarie gratie et charitatis. quia pre aliis 
+      <lb ed="#A" n="98"/>fuerunt apostoli repleti spiritu sancto et christi charitate 
+      tan<lb ed="#A" n="99" break="no"/>quam christo viciniores et per consequens perfectiores in 
+      me<lb ed="#A" n="100" break="no"/>ritis. ergo a nobis sunt valde honorandi prae aliis post 
+      <lb ed="#A" n="101"/>virgine matrem christi: imitando pro nostro posse eos in 
+      <lb ed="#A" n="102"/>charitate etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j20586-Dd1e691">
+               <head xml:id="Vn7Pel-j20586-Hd1e693">6</head>
+               <p xml:id="Vn7Pel-j20586-d1e695">
+                  <lb ed="#A" n="103"/>¶ Sed in quo ordine angelorum 
+      cre<lb ed="#A" n="104" break="no"/>duntur apostoli in celo exaltati: Respondetur secundum Francis. 
+      <lb ed="#A" n="105"/>mayro. in sermane de apostolis. quod in ordine supremo 
+      <lb ed="#A" n="106"/>videlicet seraphico
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e706">
+      ¶ Probatur primo ex status sublimitate 
+      <lb ed="#A" n="107"/>quia vt docet Dioys. lib. de ecclesiastica hierarchia. 
+      <lb ed="#A" n="108"/>Uummo ordini in ecclesia militante debetur 
+      sum<lb ed="#A" n="109" break="no"/>mus ordo in ecclesia triumphante. Sed status 
+      apo<lb ed="#A" n="110" break="no"/>stolicus in ecclesia tenet summum ordinem vel locum. vt idem 
+      <lb ed="#A" n="111"/>Dion. dicit. ergo patet propositum.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e719">
+      ¶ Secunda ratione probatur ex christi 
+      <lb ed="#A" n="112"/>vicinitate. quia ordo apostolicus vicinior christo extat 
+      <!--75.xml-->
+      <pb ed="#A" n="76"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>in ecclesia: vt idem Diony. dicit. ergo et in telo debet esse 
+      <lb ed="#A" n="2"/>in seruphico ordine qui est vicinior christuos.
+     </p>
+               <p xml:id="Vn7Pel-j20586-d1e735">
+      ¶ Tertio 
+      <lb ed="#A" n="3"/>probatur ex ardenti charitate. Nam seraphin 
+      interpre<lb ed="#A" n="4" break="no"/>tantur ardentes in charitate. Sed vt Greg. in homel 
+      <lb ed="#A" n="5"/>Accesserunt ad Iesum publicani etc. docet. 
+      Distin<lb ed="#A" n="6" break="no"/>cte conuersationes hominum inquit singulorum angelorum 
+      ordi<lb ed="#A" n="7" break="no"/>nibus congruunt vt in eorum sortem per conuersationis simi 
+      <lb ed="#A" n="8"/>litudinem deputentur. Cum autem apostoli pleni spiritu sancto fue 
+      <lb ed="#A" n="9"/>rint charitate seraphica in hac vita ardentes. ergo 
+      as<lb ed="#A" n="10" break="no"/>sumpti sunt in celo ad ordinem seraphicum. Unde et 
+      <lb ed="#A" n="11"/>nos debemus apostolos deuotius honorare: vt ipsi et 
+      <lb ed="#A" n="12"/>ineffabili charitate nobis suffragentur. Hinc 
+      apo<lb ed="#A" n="13" break="no"/>stolis spiritus sanctus apparuit in specie ignis pro ardore 
+      <lb ed="#A" n="14"/>charitatis designando prae aliis. et in specie lingue pro 
+      na<lb ed="#A" n="15" break="no"/>tionibus linguarum cumnctarum conuertendis 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j20586-Dd1e767">
+               <head xml:id="Vn7Pel-j20586-Hd1e769">7</head>
+               <p xml:id="Vn7Pel-j20586-d1e771">
+                  <lb ed="#A" n="16"/>¶ Sed quomodo verba apostolorum intellige 
+      <lb ed="#A" n="17"/>re poterant gentes multarum linguarum dicit idem 
+      Fran<lb ed="#A" n="18" break="no"/>quod apostoli loquebantur prout volebant. Aliquando vna: 
+      aliquam<lb ed="#A" n="19" break="no"/>do altera lingua loquebantur iuxta idiomata gentium 
+      <lb ed="#A" n="20"/>Sed hoc fuit maius meraculum quod vnica lingua 
+      loquen<lb ed="#A" n="21" break="no"/>do in predicatione a diuersarum linguarum gentibus 
+      <lb ed="#A" n="22"/>singutis intelligebantur. Et hoc fiebat dupliciter. Uno 
+      <lb ed="#A" n="23"/>modo sic quod vna vox hebrea qua praedicabant sub eadem 
+      for<lb ed="#A" n="24" break="no"/>ma hebraice vocis veniens ad aures hominum 
+      alte<lb ed="#A" n="25" break="no"/>rius idiomatis intelligeretur. quod diuina virtute fiebat 
+      <lb ed="#A" n="26"/>Alio modo sic: quod illa vox apostolorum hebrea antequam 
+      perue<lb ed="#A" n="27" break="no"/>nisset ad aures hominum in aere esset variata per 
+      ange<lb ed="#A" n="28" break="no"/>los. et sic sub forma proprii idiomantis produceretur ad 
+      <lb ed="#A" n="29"/>aures audientium: atque sic intelligeretur. Et singula 
+      <lb ed="#A" n="30"/>fec it deus ex charitate pro salute hominum 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

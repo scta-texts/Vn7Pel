@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Character</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Character</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="98"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j28206">
+            <head xml:id="Vn7Pel-j28206-Hd1e110">Character</head>
+            <div xml:id="Vn7Pel-j28206-Dd1e112">
+               <head xml:id="Vn7Pel-j28206-Hd1e114">1</head>
+               <!--this is floating below-->
+               <p xml:id="Vn7Pel-j28206-d1e118">
+                  <lb ed="#A" n="58"/>Character Q de 
+      <lb ed="#A" n="59"/>c us ex charitate immensa 
+      impri<lb ed="#A" n="60" break="no"/>mit characterem animabus in sacramentis. 
+      </p>
+               <!--heading 1 actually starts below-->
+               <p xml:id="Vn7Pel-j28206-d1e129">
+                  <lb ed="#A" n="61"/>¶ Quid sit character et quibus 
+      mo<lb ed="#A" n="62" break="no"/>dis accipitur. Notandum Primo Quod secundum Guill. 
+      <lb ed="#A" n="63"/>iiii. li. sentu. dist. iii. per. iii. Character est greca dictio 
+      <lb ed="#A" n="64"/>significans figuram in latino. Unde Hebre. i. vbi 
+      <lb ed="#A" n="65"/>nos habemus Qui cum sit figura substantie eius 
+      <lb ed="#A" n="66"/>sermo grecus habet: qui cum sit character 
+      substan<lb ed="#A" n="67" break="no"/>tie eius etc. Significat etiam vt dicitur libro Catolicon 
+      <lb ed="#A" n="68"/>imaginem: effigie: formam: notam: vel signum quod 
+      <lb ed="#A" n="69"/>pecoribus ferro inuritur: et huiusmodi. Et potest sumi 
+      tri<lb ed="#A" n="70" break="no"/>bus modis secundum eundem Guill.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e154">
+      ¶ Primo pro 
+      quali<lb ed="#A" n="71" break="no"/>bet nota exteriori mentem in aliud venire faciens. 
+      <lb ed="#A" n="72"/>Et hoc modo litte dicuntur characteres. sicut loquitur 
+      <lb ed="#A" n="73"/>Hierony. in proloa Gal. dicit quod sermo hebraicus et 
+      chal<lb ed="#A" n="74" break="no"/>daicus solis differunt characteribus id est signis et notis 
+      <lb ed="#A" n="75"/>Hoc modo etiam in arte magica characteres dicum 
+      <lb ed="#A" n="76"/>tur quaedam linearum perfectiones.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e170">
+      ¶ Secundo sumitur 
+      Cha<lb ed="#A" n="77" break="no"/>racter pro quolibet quod distinguit siue sit interius si 
+      <lb ed="#A" n="78"/>ue sit exterius. Et hoc modo Magister in. iiii. di. vi. 
+      <lb ed="#A" n="79"/>baptismum vocat characterem: quia per eum 
+      baptiza<lb ed="#A" n="80" break="no"/>tus distinguitur a non baptizato. Isto modo etiam 
+      <lb ed="#A" n="81"/>in Apocal. dicitur: quod bestie charagterem in fronte 
+      homi<lb ed="#A" n="82" break="no"/>nes habebunt. hoc est peccatum
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e186">
+      ¶ Tertio character 
+      di<lb ed="#A" n="83" break="no"/>citur quoddam menti humane impressum signum 
+      <lb ed="#A" n="84"/>indelebiliter in sacramentis irreiterabilibus. Et 
+      Dio<lb ed="#A" n="85" break="no"/>nysius. iii. ecclesiastice hierar. diffiniens dicit. 
+      Chara<lb ed="#A" n="86" break="no"/>cter est signum sanctum communionis fidei et sacre 
+      or<lb ed="#A" n="87" break="no"/>dmationis accedenti datum a hierarcha. Dum dicitur 
+      <lb ed="#A" n="88"/>signum sanctum: tangitur genus characteris. Nam 
+      cha<lb ed="#A" n="89" break="no"/>racter dicitur et signum: et signatum. Dicitur enim signum 
+      <lb ed="#A" n="90"/>respectu gratie quam signat. Sed dicitur signatum 
+      <lb ed="#A" n="91"/>respectu exterioris signi sensibilis quo signatur: vt 
+      <lb ed="#A" n="92"/>in baptismo per ablutionem exteriorem. Et dicitur signum 
+      <lb ed="#A" n="93"/>sanctum: quia ad sanctitatem disponit. In reliquis 
+      par<lb ed="#A" n="94" break="no"/>ticulis huius diffinitionis tanguntur tria sacramenta 
+      <lb ed="#A" n="95"/>in quibus characteres habent imprimi scilicet Baptismus 
+      <lb ed="#A" n="96"/>Ordo: et Confirmatio. vt patet infra. §. 1. 
+      Magi<lb ed="#A" n="97" break="no"/>stralis autem diffinitio est hec. Character est 
+      distin<lb ed="#A" n="98" break="no"/>ctio a charactere eterno id est dei filio: impressa anime 
+      ra<lb ed="#A" n="99" break="no"/>tionali secundum imaginem consignans trinitatem creatam 
+      <lb ed="#A" n="100"/>trinitati recreanti vel increate et distinguens a non 
+      <lb ed="#A" n="101"/>configuratis secundum statum fidei. Ecce ergo dei 
+      chari<lb ed="#A" n="102" break="no"/>tas charactere insigniuit animam decorando. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e233">
+               <head xml:id="Vn7Pel-j28206-Hd1e235">2</head>
+               <p xml:id="Vn7Pel-j28206-d1e237">
+                  <lb ed="#A" n="103"/>¶ Quali nobilitate felicitatis de 
+      <lb ed="#A" n="104"/>corauit deus characterem anime fidelis beneplacito 
+      <lb ed="#A" n="105"/>charitatis: Notandum quod sicut Damascenus li. iiii. 
+      <lb ed="#A" n="106"/>ca. i. dicit Character est principium vite 
+      spiritua<lb ed="#A" n="107" break="no"/>lis: sigillum et custodia et illuminatio mentis. Hec 
+      <lb ed="#A" n="108"/>ille. Ubi notat quadruplicem felicitatem 
+      characte<lb ed="#A" n="109" break="no"/>ris
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e255">
+      ¶ Primo quia est principium vite inquit: inquantum 
+      <lb ed="#A" n="110"/>anima ad vitam spiritualem disponit: gratiam in eius 
+      <lb ed="#A" n="111"/>perceptione deo conferente per quam anima sanctifi¬ 
+      <!--98.xml-->
+      <pb ed="#A" n="99"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>catur. et digna efficitur felicitate: ideo dicitur signum 
+      san<lb ed="#A" n="2" break="no"/>ctum
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e273">
+      ¶ Secundo quia est sigillum inqui scilicet distinctiuum in 
+      <lb ed="#A" n="3"/>quantum gregem domini distinguit. Unde communiter 
+      the<lb ed="#A" n="4" break="no"/>ologi dicunt quod character est distinctiuum signum 
+      quo<lb ed="#A" n="5" break="no"/>quis ab aliis distinguitur ad aliquod spirituale 
+      depu<lb ed="#A" n="6" break="no"/>tatus. Itaque sicut habetur libro originalium Primus 
+      cha<lb ed="#A" n="7" break="no"/>racter scilicet baptismalis distinguit inquit illum qui est de 
+      <lb ed="#A" n="8"/>regno christi ab illo qui est de regno diaboli. Unde 
+      <lb ed="#A" n="9"/>est inquit quasi sertum spirituale de rosis rubentibus 
+      fa<lb ed="#A" n="10" break="no"/>ctum. quia baptismus sanguine christi rubricatur. 
+      Secun<lb ed="#A" n="11" break="no"/>dus character scilicet confirmationis distinguit militem a 
+      <lb ed="#A" n="12"/>plebeio. vnde est inquit quasi gladius spiritualis cum 
+      bal<lb ed="#A" n="13" break="no"/>teo argente o accinctus confirmato. quia confirmatus 
+      <lb ed="#A" n="14"/>exemplo christi debet pugnare cum diabolo gladio 
+      <lb ed="#A" n="15"/>sacre scripture. Palms. Eloquia domini elo. cals. argentum etc. 
+      <lb ed="#A" n="16"/>Tertius autem character scilicet ordinis distinguit in 
+      fami<lb ed="#A" n="17" break="no"/>lia christi eos qui specialius sunt deputati ad 
+      ministran<lb ed="#A" n="18" break="no"/>dum in omni sanctitate in templo domini ab illis qui non sun 
+      <lb ed="#A" n="19"/>deputati id est a laicis. Unde est inquit quasi vestis hoc 
+      <lb ed="#A" n="20"/>lobera id est tota aurata. Psalmus Astitit regina a dextris 
+      <lb ed="#A" n="21"/>tuis in vestitu deaurato. Characteres ergo animam 
+      be<lb ed="#A" n="22" break="no"/>nam feliciter ornant: sed malis magnam ignominiam 
+      <lb ed="#A" n="23"/>ingerunt.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e321">
+      ¶ Tertio principaliter character dicitur 
+      cu<lb ed="#A" n="24" break="no"/>stodia inquantum indelebiliter menti humane 
+      adhe<lb ed="#A" n="25" break="no"/>ret.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e329">
+      ¶ Quarto dicitur illuminatio mentis inquantum 
+      <lb ed="#A" n="26"/>mentem in fide illustrat et ad dei cognitionem 
+      dispo<lb ed="#A" n="27" break="no"/>nit. Sicut enim tramsparentia vel diaphaneitas vitrum 
+      <lb ed="#A" n="28"/>vel aerem disponit ad susceptionem radii solaris: 
+      <lb ed="#A" n="29"/>sic character disponit animam ad celestis radii 
+      glori<lb ed="#A" n="30" break="no"/>osi susceptionem. Hec ex libro originalium. Mira ergo 
+      <lb ed="#A" n="31"/>dei charitas erga nos qua sic animas nostras 
+      deco<lb ed="#A" n="32" break="no"/>rat et in perpetuum felicitat etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e348">
+               <head xml:id="Vn7Pel-j28206-Hd1e350">3</head>
+               <p xml:id="Vn7Pel-j28206-d1e352">
+                  <lb ed="#A" n="33"/>¶ Ad quid datur vel cur oportet 
+      <lb ed="#A" n="34"/>dari a deo characterem anime humane: Respondetur 
+      colli<lb ed="#A" n="35" break="no"/>gendo ex Guill. in. iiii. di. iii. et Bonauen. e. iiii. di. 
+      <lb ed="#A" n="36"/>vi. q. ii aliis quam: quod congruit ad officia plura
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e363">
+      ¶ 
+      Pri<lb ed="#A" n="37" break="no"/>mo ad significandum. quia cum sit signum 
+      sacra<lb ed="#A" n="38" break="no"/>mentale: ergo character significat gratiam dei gratum 
+      <lb ed="#A" n="39"/>facientem. Et quia magna gratia fit alicui dum in 
+      <lb ed="#A" n="40"/>familiarem alicuius regis eligitur: quanto magis ei 
+      <lb ed="#A" n="41"/>qui eligitur in familiaritatem regis summi scilicet dei. ergo 
+      con<lb ed="#A" n="42" break="no"/>gruit sibi dari signum gloriositatis.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e379">
+      ¶ Secundo 
+      <lb ed="#A" n="43"/>ad disponendum. Nam character est signum 
+      dis<lb ed="#A" n="44" break="no"/>positiuum ad gratiam. non quidem ex parte dei qui 
+      <lb ed="#A" n="45"/>sine tali dispensatione praeuia potest in anima 
+      cau<lb ed="#A" n="46" break="no"/>sare gratiam. Et ita non est necessaria ex parte dei. sed 
+      <lb ed="#A" n="47"/>ex parte suscipientis. ite quod character non solum 
+      si<lb ed="#A" n="48" break="no"/>gnificat gratia gratum facientem in suscipiente: sed 
+      <lb ed="#A" n="49"/>etiam disponit ad eam. quia vsus sacramentorum 
+      <lb ed="#A" n="50"/>non est tantum in significando: sed etiam in disponendo 
+      <lb ed="#A" n="51"/>ad ampliora. Quia vero disponit ad gratiam: habet 
+      <lb ed="#A" n="52"/>aliqua similitudinem cum gratia que est 
+      similitu<lb ed="#A" n="53" break="no"/>do dei et participatio. Ideo
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e405">
+      ¶ Tertio ad assimi 
+      <lb ed="#A" n="54"/>landum dari congruit characterem: vt consignetur 
+      ho<lb ed="#A" n="55" break="no"/>mo deo de cuius familia est. Et ita est signum ob 
+      <lb ed="#A" n="56"/>ligatiuum scilicet et rememoratiuum quod per assumptum 
+      sa<lb ed="#A" n="57" break="no"/>cramentum obligatur christo de cuius est familia. 
+      <!--98.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+               <p xml:id="Vn7Pel-j28206-d1e422">
+                  <lb ed="#A" n="58"/>¶ Quarto ad distinguendum congruit et 
+      opor<lb ed="#A" n="59" break="no"/>tunum est vt ponatur character talis. quia congruit vt 
+      <lb ed="#A" n="60"/>aliquis in curiam regis assumptus signum habeat 
+      disti<lb ed="#A" n="61" break="no"/>ctionis quasi clenodium regis: non solum interius: 
+      <lb ed="#A" n="62"/>sed etiam exterius. Et maxime in lege noua quatenus 
+      <lb ed="#A" n="63"/>cognoscatur ouis christo consignata. Et quia signum 
+      <lb ed="#A" n="64"/>quod assimilat vni id est gregi christi vel christo. distinguit 
+      <lb ed="#A" n="65"/>a suo opposito scilicet ab his qui sunt de familia vel 
+      gre<lb ed="#A" n="66" break="no"/>ge diaboli. Et hoc tam in praesenti per gratiam quam in 
+      futu<lb ed="#A" n="67" break="no"/>ra vita. ergo oportet characterem poni.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e446">
+      ¶ 
+      Quinto<lb ed="#A" n="68" break="no"/>ad decorandum. Nam in hoc apparet maxima dei 
+      <lb ed="#A" n="69"/>bonitas et charitas: quia sic decorat animam quasi spon 
+      <lb ed="#A" n="70"/>sam suam praelectam: corona aurea regni celestis. 
+      <lb ed="#A" n="71"/>Nam character est in decorem bonorum. Quod autem 
+      pec<lb ed="#A" n="72" break="no"/>catoribus est in opprobrium sempiternum: est ex culpa 
+      <lb ed="#A" n="73"/>illorum. quia sanguinem christi et legem contempserunt. 
+      <lb ed="#A" n="74"/>Nihilominus deus tantam charitatem facit vt etiam 
+      <lb ed="#A" n="75"/>malis actu hominibus conferat dona sua: sicut 
+      pa<lb ed="#A" n="76" break="no"/>tet in ficte accedente qui nihilominus a deo recipit 
+      <lb ed="#A" n="77"/>characterem impressum
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e470">
+      ¶ Ad hec etiam. §. 2. e. §. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e473">
+               <head xml:id="Vn7Pel-j28206-Hd1e475">4</head>
+               <p xml:id="Vn7Pel-j28206-d1e477">
+                  <lb ed="#A" n="78"/>¶ Sed qualiter fit characteris 
+      im<lb ed="#A" n="79" break="no"/>pressio anime ex dono maxime charitatis diuine: 
+      Di<lb ed="#A" n="80" break="no"/>cendum secundum Guill. supra aliosque colligendo quod fit mira 
+      <lb ed="#A" n="81"/>dei charitate sextuplici prarogatiua dignitatis. 
+      Pri<lb ed="#A" n="82" break="no"/>mo quia fit supernaturali dei opere. Non enim habet 
+      or<lb ed="#A" n="83" break="no"/>tum huiusmodi character a nature principiis. Sed quia 
+      <lb ed="#A" n="84"/>gratia est perfecta forma et supernaturalis congruit 
+      <lb ed="#A" n="85"/>ad eam poni dispositionem supernaturalem scilicet 
+      chara<lb ed="#A" n="86" break="no"/>cterem qui imediate imprimitur a domino deo liberali 
+      chari<lb ed="#A" n="87" break="no"/>tate. ecundo quia fit in sacramentali susceptione Unde 
+      <lb ed="#A" n="88"/>nulla virtus habet imprimere characterem: neque 
+      fi<lb ed="#A" n="89" break="no"/>dei virtus neque charitatis. sed solum sacramenti 
+      susce<lb ed="#A" n="90" break="no"/>ptio. Ideo cathecumini nondum baptizati etiamsi 
+      pro<lb ed="#A" n="91" break="no"/>christo interim occidantur non habent. Et sic de confirmatione 
+      <lb ed="#A" n="92"/>et ordine dicendum consequenter. quod qui non habet 
+      cha<lb ed="#A" n="93" break="no"/>racterem baptismi non suscipiet characterem in 
+      confir<lb ed="#A" n="94" break="no"/>matione nec in ordinatione. quia character baptismi 
+      <lb ed="#A" n="95"/>praexigitur de necessitate ad ordinem: vt dicitur extra de 
+      pre<lb ed="#A" n="96" break="no"/>sbytero non bap. c. Ueniens. Si autem quis fuit 
+      ba<lb ed="#A" n="97" break="no"/>ptizatus licet non sit confirmatus dum ordinatur 
+      reci<lb ed="#A" n="98" break="no"/>pit characterem ordinis etc
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e525">
+      ¶ Item sanctificatus in 
+      <lb ed="#A" n="99"/>vtero: sicut Ioannes baptista vel hiceremias: per hoc 
+      <lb ed="#A" n="100"/>non habet characterem. Sed dum postea baptizatur 
+      <lb ed="#A" n="101"/>characterem suscipit
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e534">
+      ¶ Tertio characteris 
+      impressio<lb ed="#A" n="102" break="no"/>fit secundum Fran. Marro. cum ineffabili decore. Nam 
+      <lb ed="#A" n="103"/>decorat animam baptizatam character baptismalis. 
+      <lb ed="#A" n="104"/>et confirmatam adhuc magis character 
+      confirmatio<lb ed="#A" n="105" break="no"/>nis. et maxime animam ordinati scilicet sacerdotis vel 
+      al<lb ed="#A" n="106" break="no"/>terius gradus: ordinis character inceffabiliter tamquam 
+      <lb ed="#A" n="107"/>ornamentum spirituale et celestis glorie. Sicut 
+      ministran<lb ed="#A" n="108" break="no"/>tes regi decorantur vestibus et aureis clenodiis. Sicut 
+      <lb ed="#A" n="109"/>figuratum est in veste et lamina aurea sacerdotali in 
+      <lb ed="#A" n="110"/>capite sacerdotis ve. te.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e556">
+      ¶ Quarto impressio 
+      chara<lb ed="#A" n="111" break="no"/>cter i fit impreciabili valore: vt nulla res possit ei 
+      con<lb ed="#A" n="112" break="no"/>parari. ideo increpantur tanquam merito damnabiles 
+      <lb ed="#A" n="113"/>si moniaci qui sacramentum emunt vel vendunt 
+      pro<lb ed="#A" n="114" break="no"/>temporalibus
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e568">
+      ¶ Quinto fit insuperabili vigore praeser¬ 
+      <!--99.xml-->
+      <pb ed="#A" n="100"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>tim in sacerdotali charactere quia potestas datur 
+      <lb ed="#A" n="2"/>transubstantiandi panem in corpus christi et vinum 
+      <lb ed="#A" n="3"/>in sanguinem vbi tanta requiritur virtus quanta in 
+      mun<lb ed="#A" n="4" break="no"/>di creatione: vt dictat Ambro. et Magister in. iiii. di. 
+      <lb ed="#A" n="5"/>xi
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e588">
+      ¶ Sexto impressio huiusmodi characteris fit 
+      inde<lb ed="#A" n="6" break="no"/>lebili tenore. quia in perpetuum nunquam deleri poterit 
+      <lb ed="#A" n="7"/>etiam in damnatis. Hec ex Francisco. Ex omnibus 
+      <lb ed="#A" n="8"/>et singulis patet dei charitas: qua etiam reprobis 
+      <lb ed="#A" n="9"/>praescitis non cessat benefacere in praesenti. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e601">
+               <head xml:id="Vn7Pel-j28206-Hd1e603">5</head>
+               <p xml:id="Vn7Pel-j28206-d1e605">
+                  <lb ed="#A" n="10"/>¶ Utrum in omnibus sacramentis 
+      <lb ed="#A" n="11"/>character imprimatur: Respondetur secundum e. Guill. supra cum 
+      <lb ed="#A" n="12"/>Bonauen. e. di. vi. q. iiii. quod non: nisi in tribus 
+      sacramen<lb ed="#A" n="13" break="no"/>tis irreiterabilibus secundum doctores omnes
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e616">
+      ¶ Ratio. quia 
+      tri<lb ed="#A" n="14" break="no"/>plex est status fidei scilicet fidei genite: roborare: et iam 
+      mul<lb ed="#A" n="15" break="no"/>tiplicate etc. Et ita triplex est distinctio in populo dei 
+      <lb ed="#A" n="16"/>Prima in fide genita scilicet in baptismo: quae distinguitur 
+      <lb ed="#A" n="17"/>fidelis ab infideli. Secunda in fide roborata scilicet in 
+      con<lb ed="#A" n="18" break="no"/>firmatione ad pugnandum fortiter contra diabolum. vbi 
+      <lb ed="#A" n="19"/>fit distinctio fortium ab infirmis. Tertia in vita 
+      <lb ed="#A" n="20"/>multiplicata. et sic fit distinctio in ordine in quo quis 
+      <lb ed="#A" n="21"/>sanctitati ministerii coram deo deputatur. Et sic clerus 
+      <lb ed="#A" n="22"/>a laicis distinguitur. et multimoda virtus in ordine 
+      cle<lb ed="#A" n="23" break="no"/>ricali datur pro varietate graduum ordinatorum ad 
+      mistran<lb ed="#A" n="24" break="no"/>dum in templo dei. Proinde vt Richar. in. iiii. di. 
+      <lb ed="#A" n="25"/>xxiiii. dicit. In singulis ordinibus seu gradibus 
+      impri<lb ed="#A" n="26" break="no"/>mitur character specialis distinguens ab aliis
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e647">
+      ¶ Ex 
+      <lb ed="#A" n="27"/>autem in tribus his sacramentia conferatur character: 
+      pa<lb ed="#A" n="28" break="no"/>tet ex diffinitione characteris supra § i. vbi dicitur. 
+      Chara<lb ed="#A" n="29" break="no"/>cter est signum sanctum communionis fidei. In hoc 
+      <lb ed="#A" n="30"/>enim tangitur character baptismalis. quia sicut fides 
+      <lb ed="#A" n="31"/>est ianua et fundamentum virtutum: ita baptismus est 
+      <lb ed="#A" n="32"/>ianua sacramentorum qua ingreditur in fidem ecclesie. Item 
+      <lb ed="#A" n="33"/>in eadem diffinitione subditur: et sacre ordinationis. 
+      <lb ed="#A" n="34"/>Et sic tangitur character ordinis. Denique additur: 
+      <lb ed="#A" n="35"/>Accedenti datum a hieracha id est ab episcopo qui dicitur 
+      sa<lb ed="#A" n="36" break="no"/>cer principatus. A hier quod est sacramentum: et archos 
+      prin<lb ed="#A" n="37" break="no"/>ceps. Et ibi tangitur character confirmationis quae est 
+      so<lb ed="#A" n="38" break="no"/>lius episcopi de iure vt conferat.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e676">
+      ¶ Denique horum 
+      <lb ed="#A" n="39"/>characterum figura praecessit in populo israel: vbi Primo 
+      <lb ed="#A" n="40"/>facta fuit diuisio illius populi ab Egyptiis quasi fidelium 
+      <lb ed="#A" n="41"/>ab infidelibus. Secundo in deserto distincti fuerunt in 
+      <lb ed="#A" n="42"/>populo electi ad pugnandum fortes et infirmi 
+      praeter<lb ed="#A" n="43" break="no"/>missi. Tertio distincti erant leuite ad seruiendum 
+      <lb ed="#A" n="44"/>domino in tabernaculo. Unde in omnibus patet dei miro 
+      <lb ed="#A" n="45"/>modo ordinata charitas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e695">
+               <head xml:id="Vn7Pel-j28206-Hd1e697">6</head>
+               <p xml:id="Vn7Pel-j28206-d1e699">
+                  <lb ed="#A" n="46"/>¶ Utrum character sit ens 
+      positi<lb ed="#A" n="47" break="no"/>uum. Respondetur secundum Guill. e. di. iii. per conclusionem 
+      <lb ed="#A" n="48"/>quod sic. Et probatur medio doc. subt. in e. iiii. di. vi. ar. iiii 
+      <lb ed="#A" n="49"/>q. ii. quia illud sentiendum est de sacramentis ecclesie 
+      <lb ed="#A" n="50"/>quod Rhomana sentit ecclesia. extra de here. c. Ad 
+      <lb ed="#A" n="51"/>abolendam. Sed Rhomana ecclesia sensit 
+      characte<lb ed="#A" n="52" break="no"/>rem imprimi in baptismo. extra de baptismo et eius 
+      <lb ed="#A" n="53"/>eff. c. Maiores ergo.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e719">
+      ¶ An autem sit substantia vel 
+      <lb ed="#A" n="54"/>accidens idem Guil. dicit quod non est substantia. quia 
+      <lb ed="#A" n="55"/>aduenit post esse completum. Est ergo accidens. Sed de 
+      <lb ed="#A" n="56"/>quo genere. dicit quod non est sola relatio. nec 
+      respe<lb ed="#A" n="57" break="no"/>ctus intrinsecus adueniens. nec est quantitas: licet 
+      <!--99.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>figurate dicatur metaphorice. Relinquitur ergo quod est 
+      <lb ed="#A" n="59"/>qualitas. quamuis probabiliter possit dici quod sit 
+      respe<lb ed="#A" n="60" break="no"/>ctus solum extrinsecus adueniens.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e741">
+      ¶ Sed de qua 
+      <lb ed="#A" n="61"/>specie qualitatis verius esse dicatur: Tho. in. iiii. 
+      po<lb ed="#A" n="62" break="no"/>nit in secunda specie qualitatis: vt supernaturalis et 
+      po<lb ed="#A" n="63" break="no"/>tentia. Sed Bonauen. ponit in prima specie 
+      qua<lb ed="#A" n="64" break="no"/>litatis: quia est habitus vel dispositio. Guill. autem dicit 
+      <lb ed="#A" n="65"/>quod licet vt Scotus dicit probabile est vtrumque: tamen melius 
+      <lb ed="#A" n="66"/>ponitur in prima specie qualitatis. Nam est habitus de 
+      <lb ed="#A" n="67"/>difficili mobilis potius quam passio vel potentia. 
+      Ca<lb ed="#A" n="68" break="no"/>piendo habitum communiter prout comprehendit omnem 
+      qualita<lb ed="#A" n="69" break="no"/>tem animam disponentem siue perfectam siue imperfectam 
+      <lb ed="#A" n="70"/>et facile mobilem. proinde character dicitur habitus quia 
+      <lb ed="#A" n="71"/>indelebilis. Et potest dici etiam dispositio inquantum 
+      dis<lb ed="#A" n="72" break="no"/>ponit ad vlteriorum perfectionem gratie ex dei 
+      cha<lb ed="#A" n="73" break="no"/>ritate. 
+      </p>
+               <p xml:id="Vn7Pel-j28206-d1e772">
+                  <lb ed="#A" n="74"/>¶ Ex dei charitas claret ex parte 
+      <lb ed="#A" n="75"/>subiecti characteris in quo imprimitur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e780">
+               <head xml:id="Vn7Pel-j28206-Hd1e782">7</head>
+               <p xml:id="Vn7Pel-j28206-d1e784">
+                  <lb ed="#A" n="76"/>¶ Utrum character imprimatur in 
+      <lb ed="#A" n="77"/>essentia anime: An in potentia anime subiectiue: Ad 
+      <lb ed="#A" n="78"/>hoc Tho. in e. iiii. et etiam Bonauen. di. vi. dicunt 
+      <lb ed="#A" n="79"/>quod character subiectiue est in intellectu tanquam in 
+      prin<lb ed="#A" n="80" break="no"/>cipali potentia. Ratio Tho. quia voluntas inquit 
+      <lb ed="#A" n="81"/>ex intellectu originatur: et per consequens intellectus est 
+      <lb ed="#A" n="82"/>perfectior. Sed quia reformando perfectius reformatur 
+      <lb ed="#A" n="83"/>minus perfectum. ergo etc. Sed salua sanctitate horum 
+      do<lb ed="#A" n="84" break="no"/>ctorum et reuerentia: videtur oppositum: et eos defecisse 
+      <lb ed="#A" n="85"/>Probatur per Guill. Primo quia nec intellectus 
+      origi<lb ed="#A" n="86" break="no"/>natur a voluntate: nec voluntas ab intellectu. sed 
+      am<lb ed="#A" n="87" break="no"/>be potentie (si ita fas sit loqui) ab ipsa anime 
+      essen<lb ed="#A" n="88" break="no"/>tia cum qua sunt idem realiter: etsi differaut 
+      forma<lb ed="#A" n="89" break="no"/>liter. Secundo quia dato quod ex intellectu veniret 
+      vo<lb ed="#A" n="90" break="no"/>luntas: tamen ex hoc non sequeretur quod intellectus esset 
+      <lb ed="#A" n="91"/>perfectior: sed magis oppositum. quia in nature 
+      ope<lb ed="#A" n="92" break="no"/>ribus vltima sunt perfectiora Hec li. ii latius. 
+      Me<lb ed="#A" n="93" break="no"/>lius ergo dicendum secundum eundem Guill. et Scotis. e. di. 
+      <lb ed="#A" n="94"/>iii. per conclusionem quod character non est tota anime 
+      essen<lb ed="#A" n="95" break="no"/>tia: nec in intellectu subiectiue: sed in voluntate 
+      prin<lb ed="#A" n="96" break="no"/>cipaliter. Declaratur. quia licet concedatur bene quod 
+      chara<lb ed="#A" n="97" break="no"/>cter sit in anima: eo quod distinguit membrum christi a non 
+      <lb ed="#A" n="98"/>membro christi. Membrum autem christi distinguitur a 
+      <lb ed="#A" n="99"/>non membro christi secundum ipsam essentiam anime. ergo est in anima. 
+      <lb ed="#A" n="100"/>Uerumtamen propter huiusmodi distinctionem non oportet 
+      <lb ed="#A" n="101"/>ponere quod character sit in tota anime essentia: et dicit 
+      <lb ed="#A" n="102"/>Scortorlis. in. iiii. di. vi. q. iiii. Sicut inquit a simili 
+      <lb ed="#A" n="103"/>corpus distinguitur per colorem ab alio corpore: non tamen 
+      <lb ed="#A" n="104"/>propterea oportet quod color sit in toto corpore. sed 
+      suffi<lb ed="#A" n="105" break="no"/>cit quod sit in eius superficie. Quod autem character 
+      princi<lb ed="#A" n="106" break="no"/>paliter habeat locari in voluntate: probatur secundum e. 
+      <lb ed="#A" n="107"/>Scotis. quia character ponitur in anima vt dispositio 
+      <lb ed="#A" n="108"/>praeuia ad effectum principalem qui est gratia. Sed 
+      <lb ed="#A" n="109"/>omnis dispositio est in eodem subiecto cum forma 
+      <lb ed="#A" n="110"/>vel habitum ad quam disponit maxime in 
+      spirituali<lb ed="#A" n="111" break="no"/>bus: vt patet in dispositione praeambula ad virtutem 
+      <lb ed="#A" n="112"/>et ipsa virtute. Et similiter in praeambulis ad 
+      scien<lb ed="#A" n="113" break="no"/>tiam et ipsa scientia. Cum ergo character ponitur 
+      <lb ed="#A" n="114"/>dispositio ad gratiam que idem est quod charitas: 
+      <!--100.xml-->
+      <pb ed="#A" n="101"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Et charitas est in voluntate vt in subiecto. ergo 
+      chara<lb ed="#A" n="2" break="no"/>cter est in voluntate.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e882">
+      ¶ Confirmatur. quia character 
+      <lb ed="#A" n="3"/>est signum obligatiuum: quia suscipiens sacramentum 
+      <lb ed="#A" n="4"/>obligatur deo. Habet enim istas proprietates secundum Sco 
+      <lb ed="#A" n="5"/>torlis. supra. q. i. scilicet Assimilare hominem alteri habenti id est 
+      <lb ed="#A" n="6"/>christianum christian
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e893">
+      ¶ Et distinguere a non habente 
+      <lb ed="#A" n="7"/>charactere id est ab infideli. et rememorari de 
+      sacramen<lb ed="#A" n="8" break="no"/>to suscepto. et conformare: disponere: atque 
+      obliga<lb ed="#A" n="9" break="no"/>re. Sed obligatio maxime aspicit voluntatem sicut et 
+      me<lb ed="#A" n="10" break="no"/>ritum. Cum ergo character sit fundamentum et signum 
+      <lb ed="#A" n="11"/>obligationis ad deum. et per voluntatem quae pot 
+      me<lb ed="#A" n="12" break="no"/>reri vel demereri homo principaliter obligatur deo. ergo 
+      <lb ed="#A" n="13"/>est in voluntate in qua et ponitur charitas. et per 
+      vo<lb ed="#A" n="14" break="no"/>luntatem reformat totam animam et imaginem quae in 
+      tri<lb ed="#A" n="15" break="no"/>bus potentiis consistit: sicut per charitatem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e916">
+               <head xml:id="Vn7Pel-j28206-Hd1e918">8</head>
+               <p xml:id="Vn7Pel-j28206-d1e920">
+                  <lb ed="#A" n="16"/>¶ Ei obicitur quia ita bene potestquos uous 
+      <lb ed="#A" n="17"/>ligari. similiter assimilari: remenorari: distingui: conforma 
+      <lb ed="#A" n="18"/>ri: et disponi sine sicugt inherente per aliam obligationem 
+      ali<lb ed="#A" n="19" break="no"/>cui domino factam: sicut cum signo inherente. ergo frustra 
+      po<lb ed="#A" n="20" break="no"/>nitur character in anima. Probatur antecedens. quia 
+      <lb ed="#A" n="21"/>ille qui profitetur in aliqua religione post professionem 
+      ob<lb ed="#A" n="22" break="no"/>ligatur plato et deo: et tenetur assimilari: rememora 
+      <lb ed="#A" n="23"/>ri: et disponi ad gratiam. et distinguitur ab aliis. et 
+      ta<lb ed="#A" n="24" break="no"/>men nullum characterem recipit. Similiter patet 
+      <lb ed="#A" n="25"/>de illo qui facit alicui domino homagium etc. 
+      Respon<lb ed="#A" n="26" break="no"/>detur secundum Scotorl. e. di. vi. q. i. quod deus de 
+      poten<lb ed="#A" n="27" break="no"/>lct tia absoluta sua posset creare gratiam in anima que: 
+      <lb ed="#A" n="28"/>est principalis effectus sacramenti et etiam alios 
+      effe<lb ed="#A" n="29" break="no"/>ctus scilicet Assimilare: distinguere et sic de aliis. vt ob e 
+      <lb ed="#A" n="30"/>iicitur sine omni charactere. tamen de potentia 
+      ordi<lb ed="#A" n="31" break="no"/>nata dicitur quod causat huiusmodi effectus mediante et 
+      <lb ed="#A" n="32"/>tali forma. quia sic congruentia exigit. Tum vt ad vt 
+      <lb ed="#A" n="33"/>gratiam snepernaturalem sit dispositio supernaturalis et 
+      <lb ed="#A" n="34"/>in anima scilicet character. Tum vt sacramentum noue 
+      <lb ed="#A" n="35"/>legis non sit vanum sine aliquo effectu: vel gratie 
+      <lb ed="#A" n="36"/>in bonis: vel saltem characteris in malis et ficte 
+      ac<lb ed="#A" n="37" break="no"/>cedentibus ad baptismum et huiusmodi. Tum vt dei 
+      fa<lb ed="#A" n="38" break="no"/>milia distinguatur a diabolicis.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e972">
+      ¶ Ex omnibus 
+      praedi<lb ed="#A" n="39" break="no"/>ctis patet dei charitas in impssione characteris 
+      <lb ed="#A" n="40"/>ipsi anime. quia donum suum etsi perfectum quod est 
+      <lb ed="#A" n="41"/>gratia non dat actualiter mortaliter peccanti et ir 
+      <lb ed="#A" n="42"/>reuerentiam sacramento facienti id est ficto. nihilominius. 
+      <lb ed="#A" n="43"/>tamen adhuc dat aliquod donum dispositiuum vilicet 
+      cha<lb ed="#A" n="44" break="no"/>racterem ad plura bona: vt patuit. §. iii. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e989">
+               <head xml:id="Vn7Pel-j28206-Hd1e991">9</head>
+               <p xml:id="Vn7Pel-j28206-d1e993">
+                  <lb ed="#A" n="45"/>¶ An in lege nature fuerit qliceritur 
+      <lb ed="#A" n="46"/>ius characteris impressio humane anime: Respondet 
+      <lb ed="#A" n="47"/>Guill. vbi supra quod satis probabiliter inquit potest 
+      dici<lb ed="#A" n="48" break="no"/>quod imprimebatur quoddam signum in eo quod originale: 
+      <lb ed="#A" n="49"/>mundabat siue sola esset fides parentum in paruulis: 
+      <lb ed="#A" n="50"/>non tamen inquantum fides: sed inquantum erat 
+      con<lb ed="#A" n="51" break="no"/>tra illud peccatum vt de nouo quis signaretur 
+      ascri<lb ed="#A" n="52" break="no"/>ptus in familiam dei: siue esset aliquod 
+      sacramen<lb ed="#A" n="53" break="no"/>tum in adultis cum ipsa fide. Tamen 
+      huiusmo<lb ed="#A" n="54" break="no"/>di signum impssum non fuit proprie character sicut 
+      <lb ed="#A" n="55"/>in proposito capitur: nisi diceretur character large 
+      capi<lb ed="#A" n="56" break="no"/>endo pro quocunque signo. 
+      <!--100.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e1027">
+               <head xml:id="Vn7Pel-j28206-Hd1e1029">10</head>
+               <p xml:id="Vn7Pel-j28206-d1e1031">
+                  <lb ed="#A" n="57"/>¶ An ii circumcisione inprime 
+      <lb ed="#A" n="58"/>batur character: Dicendum quod Una opinio quam 
+      <lb ed="#A" n="59"/>sequitur Tho. in. iiii. di. iiii. q. iiii. ar. i. et di. i. per. 
+      <lb ed="#A" n="60"/>ii. q. iiii. dicit quod non imprimebatur. licet circumcisio 
+      aspicie<lb ed="#A" n="61" break="no"/>bat peccatu originale sicut et baptismus qui 
+      succes<lb ed="#A" n="62" break="no"/>sit circumcisioni. quia si impessus fuisset character in 
+      <lb ed="#A" n="63"/>circumcisione tunc sequeretur quod circumcisus non debuisset 
+      <lb ed="#A" n="64"/>baptizari. quia cum etiam baptismus characterem 
+      im<lb ed="#A" n="65" break="no"/>primeret: fuissent in eodem subiecto duo 
+      characte<lb ed="#A" n="66" break="no"/>res et per consequens duo accidentia eiusdem 
+      speciei<lb ed="#A" n="67" break="no"/>et eiusdem rationis: quod negatur communit: et est 
+      con<lb ed="#A" n="68" break="no"/>tra etiam philosophum. v. metaph. Unde in circumcisione 
+      <lb ed="#A" n="69"/>non imprimebatur character proprie dictus.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1062">
+      ¶ Alia est 
+      <lb ed="#A" n="70"/>opinio qua sequi videntur Guill. et Scotorls. videlicet 
+      <lb ed="#A" n="71"/>quod etsi imprimebatur aliquis character saltem communiter 
+      <lb ed="#A" n="72"/>et large dictus fuit: ita quod character impressus per 
+      citr<lb ed="#A" n="73" break="no"/>cumcisionem differret a charactere impresso per 
+      bapti<lb ed="#A" n="74" break="no"/>smum specie. sicut imperfectum a perfecto. nec est 
+      inconue<lb ed="#A" n="75" break="no"/>niens sic plures esse characteres in eadem anima 
+      <lb ed="#A" n="76"/>sicut modo in sacerdote sunt tres characteres scilicet 
+      ba<lb ed="#A" n="77" break="no"/>ptismi: confirmationis: et ordinis. Character enim 
+      <lb ed="#A" n="78"/>nomen commune est. Nam et ablutio baptismalis 
+      ex<lb ed="#A" n="79" break="no"/>trinseca potest dici character
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1086">
+      ¶ Patet ergo 
+      chari<lb ed="#A" n="80" break="no"/>tas dei in multipliciter decorando animas. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e1093">
+               <head xml:id="Vn7Pel-j28206-Hd1e1095">11</head>
+               <p xml:id="Vn7Pel-j28206-d1e1097">
+                  <lb ed="#A" n="81"/>¶ Un anima christi habuit aliquem 
+      <lb ed="#A" n="82"/>characterem impressum sacramentalem: Guill. e. di. iii. 
+      <lb ed="#A" n="83"/>respondet quod non habuit charactere scilicet proprie 
+      dictu<lb ed="#A" n="84" break="no"/>nqui sacramenti. Licet enim fuerit baptizatus: tamen 
+      <lb ed="#A" n="85"/>baptismo Ioanis qui non imprimebat characterem 
+      <lb ed="#A" n="86"/>Item licet etia spiritusancto confirmatus a sui ortus 
+      ini<lb ed="#A" n="87" break="no"/>tio: non tamen in sacramento. Denique licet fuerit 
+      sacer<lb ed="#A" n="88" break="no"/>dos in eternum: non tamen modo ordinationis qua 
+      <lb ed="#A" n="89"/>character imprimiti
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1119">
+      ¶ Si dicas. Ergo christo 
+      de<lb ed="#A" n="90" break="no"/>fuit aliquo grati scilicet chracteris. Dicendum quod in christo 
+      <lb ed="#A" n="91"/>fuit omnis gratie perfectio plenissima 
+      superexcellen<lb ed="#A" n="92" break="no"/>tissime. Sed quia character non est idem quod gratia 
+      <lb ed="#A" n="93"/>quia gratia non potest stare cum peccato 
+      morta<lb ed="#A" n="94" break="no"/>li. Sed character bene stat cum peccato mortali in 
+      <lb ed="#A" n="95"/>hominibus etiam damnatis. Unde character est 
+      dispo<lb ed="#A" n="96" break="no"/>sitio non quidem paroxima sed remota ad gratiam ergo 
+      <lb ed="#A" n="97"/>no oportuit esse in christo tale imperfectum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e1140">
+               <head xml:id="Vn7Pel-j28206-Hd1e1142">12</head>
+               <p xml:id="Vn7Pel-j28206-d1e1144">
+                  <lb ed="#A" n="98"/>¶ Sed quid de beate virginis Mam 
+      <lb ed="#A" n="99"/>rie anima: Magnus Alber. super Missus est dicit 
+      <lb ed="#A" n="100"/>quod ipsa suscepit baptismum Ioannis et etiam christi 
+      <lb ed="#A" n="101"/>et omnia sacramenta noue legis promnulgata et 
+      in<lb ed="#A" n="102" break="no"/>tituta iam a christo domino: vt praeceptum impleret ad 
+      <lb ed="#A" n="103"/>que tenebantur etiam alii. praeter sacramentum ordinis 
+      <lb ed="#A" n="104"/>quod mulleres non conuenit suscspere. ergo ipsa 
+      <lb ed="#A" n="105"/>habet charactere baptismi et confirmationis: non v 
+      <lb ed="#A" n="106"/>autem ordinis. Et luscipiendo sacramenta dedit 
+      <lb ed="#A" n="107"/>exemplum charitatis homibus 
+      <lb ed="#A" n="108"/>¶ Quod dei charitas patet in eo quod 
+      <lb ed="#A" n="109"/>imprimit anime characterem indelebilis tenoris. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e1174">
+               <head xml:id="Vn7Pel-j28206-Hd1e1176">13</head>
+               <p xml:id="Vn7Pel-j28206-d1e1178">
+                  <lb ed="#A" n="110"/>¶ Utrum character sit forma 
+      inde<lb ed="#A" n="111" break="no"/>lebilis: An peraliquam potentiam delebilis: Re¬ 
+      <!--101.xml-->
+      <pb ed="#A" n="102"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>spondetur secundum Guill. e. di. iii. et Scotorl. di. vi. q. i. 
+      <lb ed="#A" n="2"/>ar. iii. Quod characteris indelebilitas potest comparari ad 
+      <lb ed="#A" n="3"/>tria.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1198">
+      ¶ Primo ad potentiam creatam siue agens 
+      cre<lb ed="#A" n="4" break="no"/>atum. et sic simpliciter est indelebilis. quia talis 
+      natu<lb ed="#A" n="5" break="no"/>re est et sic a deo imprimitur quod nulla potentia creata 
+      <lb ed="#A" n="6"/>possit eam delere. cum contrarium non habeat. nec 
+      deme<lb ed="#A" n="7" break="no"/>rito culpe deperdatur sicut deprditur charitas et gratia. 
+      <lb ed="#A" n="8"/>nec obliuione. sicut scientia. et quia est in subiecto 
+      incor<lb ed="#A" n="9" break="no"/>ruptibil scilicet in anima quae non est eius causa.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1214">
+      ¶ Secundo 
+      <lb ed="#A" n="10"/>comparatur ad potentiam dei ordinatam. ethoc modo etiam est 
+      <lb ed="#A" n="11"/>indelebilis. quia ita deus ordinauit vt in sacramentis 
+      prae<lb ed="#A" n="12" break="no"/>intellgatur character ipsi gratie. ergo perdita gratia 
+      ne<lb ed="#A" n="13" break="no"/>deletur character. Ratio quoque est. quia character datur 
+      <lb ed="#A" n="14"/>solum in sacrmentis non iterabilibus scilicet baptismo: 
+      confirma<lb ed="#A" n="15" break="no"/>tione: et ordine. que habent effectu indelebilis 
+      cha<lb ed="#A" n="16" break="no"/>racteris.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1232">
+      ¶ Confirmatur. quia si deleretur hoc 
+      fie<lb ed="#A" n="17" break="no"/>ret maxime per culpam cum sit in voluntate. sed hoc non 
+      <lb ed="#A" n="18"/>fit. quia in malo sacerdote permanet character alias non 
+      <lb ed="#A" n="19"/>consecraret corpus christi et tamen conficit. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1242">
+      ¶ Tertio 
+      <lb ed="#A" n="20"/>comparari potest ad potentiam dei absolutam. et sit est 
+      sim<lb ed="#A" n="21" break="no"/>pliciter delebilis. quia deus qui potest aliquam formam 
+      <lb ed="#A" n="22"/>creare: potest ipsam de potentia absoluta simpliciter de 
+      <lb ed="#A" n="23"/>struere. vnde dei charitas conseruat eam. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j28206-Dd1e1254">
+               <head xml:id="Vn7Pel-j28206-Hd1e1256">14</head>
+               <p xml:id="Vn7Pel-j28206-d1e1258">
+                  <lb ed="#A" n="24"/>¶ Sed vnde est quod character per 
+      <lb ed="#A" n="25"/>petuo manet. cum tamen fides quae est perfectior charactere 
+      <lb ed="#A" n="26"/>cuacuatur in patria. vt dicit Apostolus silicet Corum. xiii. 
+      Re<lb ed="#A" n="27" break="no"/>spondetur secundum e. Guill. supra et Scotoreli. Notando 
+      <lb ed="#A" n="28"/>quod habitus est triplex. scilicet Innatus: Adquisitus: 
+      <lb ed="#A" n="29"/>ct Infusus. Prinmus scilicet habitus innatus est omnino 
+      <lb ed="#A" n="30"/>indelebilis.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1276">
+      ¶ Sed Adquisitus est delebilis. patet. ii 
+      <lb ed="#A" n="31"/>Ethico.
+     </p>
+               <p xml:id="Vn7Pel-j28206-d1e1281">
+      ¶ Infusus vero aliquando est delebilis aliquando non 
+      <lb ed="#A" n="32"/>quod ideo est. quia habitus infusus aliquando datur ad 
+      <lb ed="#A" n="33"/>dirigendum sicut est fidei habitus et charitatis. 
+      pro<lb ed="#A" n="34" break="no"/>pterea delebilis est. quia potest repugnantiam 
+      reci<lb ed="#A" n="35" break="no"/>pere in subiecto. Aliquando vero datur habitus ad 
+      di<lb ed="#A" n="36" break="no"/>stinguendum. sicuti character et talis habitus est 
+      inde<lb ed="#A" n="37" break="no"/>lebilis. quia nullum habet oppositum quin possit 
+      mane<lb ed="#A" n="38" break="no"/>re in subiecto. Nam fides habet enigma adiunctum 
+      <lb ed="#A" n="39"/>que statui glorie repugnat. Non sic character quipst 
+      <lb ed="#A" n="40"/>stare bene cum statu perfecto et imperfecto. vnde et in 
+      da<lb ed="#A" n="41" break="no"/>mnatis manet ad illorum confusionem non propter 
+      dispo<lb ed="#A" n="42" break="no"/>nendum ad gratiam etc. Hec omnia facit sic deus secundum 
+      <lb ed="#A" n="43"/>e. Guill. propter suam magnificam charitatem qua 
+      prom<lb ed="#A" n="44" break="no"/>ptus potius est ad dandum quam auferendum.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

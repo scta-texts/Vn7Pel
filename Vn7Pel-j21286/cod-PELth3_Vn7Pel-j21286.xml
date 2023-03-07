@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ars et scientia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Ars et scientia</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="76"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j21286">
+            <head xml:id="Vn7Pel-j21286-Hd1e110">Ars et scientia</head>
+            <div xml:id="Vn7Pel-j21286-Dd1e112">
+               <head xml:id="Vn7Pel-j21286-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j21286-d1e116">
+                  <lb ed="#A" n="31"/>Ars et scientia A 
+      <lb ed="#A" n="32"/>us ex charitate dedit hominibus 
+      </p>
+               <p xml:id="Vn7Pel-j21286-d1e123">
+                  <lb ed="#A" n="33"/>¶ sscire diuersas artes etc. 
+      </p>
+               <p xml:id="Vn7Pel-j21286-d1e128">
+    <!--technically section 1 starts below-->
+                  <lb ed="#A" n="34"/>¶ Quales sunt species artium et 
+      sci<lb ed="#A" n="35" break="no"/>s entiarum Respondetur secundum Anton. floren. parte. iiii. summe. 
+      <lb ed="#A" n="36"/>ti i. quod scientia habet multas species. secundum quod habet 
+      <lb ed="#A" n="37"/>multimode diuersas materias propter quas sunt 
+      <lb ed="#A" n="38"/>multe artes et scientie accipiendo scientiam large prout 
+      <lb ed="#A" n="39"/>extendit se etiam ad artes. Quia nimirum
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e146">
+      ¶ Primo. 
+      <lb ed="#A" n="40"/>alique dicuntur artes mechanice eo quod intellectus 
+      quo<lb ed="#A" n="41" break="no"/>dammodo in eis mechatur id est polluitur per corporalia exercitia: 
+      <lb ed="#A" n="42"/>relicta veritate quae est sposa ipsius intellectus. quoniam 
+      intel<lb ed="#A" n="43" break="no"/>lectus principaliter creatus est ad spiritualia intelligenda 
+      <lb ed="#A" n="44"/>In mechanicis autem circa factibilia versatur. vt 
+      pate<lb ed="#A" n="45" break="no"/>bit consideranti singulas species artis mechanice. de 
+      <lb ed="#A" n="46"/>quibus. §. ii.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e165">
+      ¶ Secundo aliquo dicuntur artes liberales 
+      <lb ed="#A" n="47"/>ad differentilam artium corporalium. quia homo dicitur liber secundu 
+      <lb ed="#A" n="48"/>animam. et seruilis secundum corpus. Artes autem liberales 
+      per<lb ed="#A" n="49" break="no"/>tinent ad animam ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e174">
+      ¶ Tertio alie sunt artes quae ad 
+      <lb ed="#A" n="50"/>nullum huiusmodi simpliciter determinantur. vt prenosse aliqua 
+      <lb ed="#A" n="51"/>futura ex astris. Et artes prohibite. sic necromantia: 
+      <lb ed="#A" n="52"/>augurium: et huiusmodi erronee. De talibus Aug. xxxviii. 
+      <lb ed="#A" n="53"/>di. c. Quamuis inquit scientia sit virtus (vtpote de 
+      gene<lb ed="#A" n="54" break="no"/>re honorabilium bonorum. ex i. libro de anima
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e187">
+      ¶ Sunt tamen 
+      in<lb ed="#A" n="55" break="no"/>quit quadam quae melius est nescire quam scire etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e192">
+      ¶ Quarto i 
+      <lb ed="#A" n="56"/>prterea quaedam sunt scientie peccaice: et quaedam alie sunt 
+      <!--75.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>theorice. Practice dicuntur scientie de virtutibus 
+      agen<lb ed="#A" n="58" break="no"/>tes. Et talis scientia scilicet practica diuiditur in ethicam: 
+      <lb ed="#A" n="59"/>que est scientia agens de moribus et virtutibus. Et in 
+      <lb ed="#A" n="60"/>iconomicam: quae agit de gubernatione domus et familit 
+      <lb ed="#A" n="61"/>Atque in politicam de gubernatione communitatis: 
+      ci<lb ed="#A" n="62" break="no"/>uitatis: regni et ciuilitatis humane. Ad hanc 
+      scien<lb ed="#A" n="63" break="no"/>tiam pertinere videtur lex ciuilis.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e216">
+      ¶ Scientia 
+      auten<lb ed="#A" n="64" break="no"/>theorica diuiditur in pehilosophica. mathematicam: 
+      <lb ed="#A" n="65"/>metaphysicam et theologicam. Item scientie 
+      philo<lb ed="#A" n="66" break="no"/>sophice naturalis subalternatur et ad eam reducitur 
+      <lb ed="#A" n="67"/>ars medicine. Item scientie mathematice sunt 
+      consi<lb ed="#A" n="68" break="no"/>derantes de materia abstracta. Et sunt in quattuor 
+      <lb ed="#A" n="69"/>speciebus. de quibus. §. iii. Denique scientia 
+      metaphysi<lb ed="#A" n="70" break="no"/>ta est theologia humana. sicut primo lib. tactum est 
+      <lb ed="#A" n="71"/>Supra praedictas scientia omnium altissima est 
+      theolo<lb ed="#A" n="72" break="no"/>gia. De qua agitur in Biblia et libris sententiarum
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e238">
+      ¶ Huic 
+      <lb ed="#A" n="73"/>scientie subalterna est scientia iuris canonici. praecipue 
+      quan<lb ed="#A" n="74" break="no"/>tami ad ea quae sunt fidei articuli et eorum dubiorum declara 
+      <lb ed="#A" n="75"/>tio. et quantum ad sacramenta. Patet ergo charitas dei qua docet 
+      <lb ed="#A" n="76"/>multipliciter homines 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j21286-Dd1e250">
+               <head xml:id="Vn7Pel-j21286-Hd1e252">2</head>
+               <p xml:id="Vn7Pel-j21286-d1e254">
+                  <lb ed="#A" n="77"/>¶ Quot numerantur species artis 
+      <lb ed="#A" n="78"/>mechanice: Respondetur secundum e. Anton. parte. i. ti. i. c. iii. §. 
+      <lb ed="#A" n="79"/>iii. cum Uincentio in speculo doct. quod praecipue 
+      septen<lb ed="#A" n="80" break="no"/>species eius numerantur. Ad quas omnium rerum 
+      fa<lb ed="#A" n="81" break="no"/>brica vel factio et operatio concurrere videtur que 
+      ho<lb ed="#A" n="82" break="no"/>minis necessitati sunt grata et commda vel necessa 
+      <lb ed="#A" n="83"/>ria. De quibus versus. Lana: venus: miles: nautatio 
+      <lb ed="#A" n="84"/>rus medicina. versus. His theatralis ars 
+      iunga<lb ed="#A" n="85" break="no"/>tur mechanice sunt etc. Et de singulis breviter 
+      di<lb ed="#A" n="86" break="no"/>cemus.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e278">
+      ¶ Prima species dicitur lanificium. ad 
+      <lb ed="#A" n="87"/>quam pertinet omnis operatio nendi texendi vel 
+      re<lb ed="#A" n="88" break="no"/>torquendi: consuendi. Et quicquid fit instrumento: 
+      <lb ed="#A" n="89"/>colo: fuso: acu: pectine: calanistro et girgillo: 
+      ala<lb ed="#A" n="90" break="no"/>bro. in materia lini: lane: canapi. Sub his est vsus 
+      <lb ed="#A" n="91"/>filtrorum sagorum sagenarum et sportarum etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e291">
+      ¶ 
+      Secun<lb ed="#A" n="92" break="no"/>da species dicitur venatio. Et hec habet tres 
+      speti<lb ed="#A" n="93" break="no"/>es sub se. Una dicitur ferina. quae fit multis modis scilice 
+      <lb ed="#A" n="94"/>Retibus: pedicis: laqueis: praecipitiis: arcu et 
+      iacu<lb ed="#A" n="95" break="no"/>lis tcuspide: andagine: canibus: accipitribus etc. Alia 
+      <lb ed="#A" n="96"/>dicitur aucupium. que fit fisco: laquaeis arcu. et aliis 
+      plu<lb ed="#A" n="97" break="no"/>ribus modis dictis de ferina.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e307">
+      ¶ Tertia dicitur 
+      pisca<lb ed="#A" n="98" break="no"/>tio. que fit rhetibus: sagenis: hamis etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e313">
+      ¶ Tertia 
+      <lb ed="#A" n="99"/>species dicitur militaris ars vel armatura secundum 
+      ali<lb ed="#A" n="100" break="no"/>os ad quam pertinet facere arma et castra ac fortalicia 
+      <lb ed="#A" n="101"/>machinas: et ad huiusmodi pertinentia. Et habet 
+      speci<lb ed="#A" n="102" break="no"/>cies: Una dicitur architectonica. que diuiditur in 
+      <lb ed="#A" n="103"/>cementariam et carpentariam. Alia dicitur 
+      fabri<lb ed="#A" n="104" break="no"/>is et ferraria. que diuiditur in malleatoriam et 
+      fu<lb ed="#A" n="105" break="no"/>soriam. Tertia edificatoria. Edificiorum autem 
+      <lb ed="#A" n="106"/>sunt tres partes. Dispositio: constructio et 
+      venu<lb ed="#A" n="107" break="no"/>stas. Plura de hac transeo
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e335">
+      ¶ Quarta species 
+      <lb ed="#A" n="108"/>dicitur nauigatio. Ad quam pertinet omnis industria 
+      emen<lb ed="#A" n="109" break="no"/>di et vendendi: nauigandi: ad litora merces 
+      tramspori<lb ed="#A" n="110" break="no"/>tandi. et huiusmodi.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e344">
+      ¶ Quinta dicitur agricultura. 
+      <lb ed="#A" n="111"/>Cuius vna species est de satione agrorum. Secunda de 
+      pla<lb ed="#A" n="112" break="no"/>tatione nemorum vinearum et arborum. Terria 
+      <lb ed="#A" n="113"/>de pascuis: vt prata. Quarta de hortis et floribus. 
+      <!--76.xml-->
+      <pb ed="#A" n="77"/>
+                  <cb ed="#A" n="a"/>
+               </p>
+               <p xml:id="Vn7Pel-j21286-d1e360">
+                  <lb ed="#A" n="1"/>¶ Sexta dicitur medicina vitcet torporalis ad 
+      <lb ed="#A" n="2"/>quam pertinet Chirurgia et quae apothecarii 
+      confi<lb ed="#A" n="3" break="no"/>ciunt etc
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e369">
+      ¶ Septima species dicitur theatria. quae 
+      <lb ed="#A" n="4"/>continet ludos diuersi generis. vt est primus ludus 
+      <lb ed="#A" n="5"/>gymnicus: qui in gymnasio exercetur. aut 
+      saltui<lb ed="#A" n="6" break="no"/>aut cursu: aut iactu aut virium fortitudine in 
+      cor<lb ed="#A" n="7" break="no"/>poris pondere vel agilitate aut luctatione.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e380">
+      ¶ 
+      Se<lb ed="#A" n="8" break="no"/>cundus ludus dicitur Agon. vt saltandi peritia. Ad 
+      <lb ed="#A" n="9"/>citharam quoque vel tybias chorea et gestus 
+      in<lb ed="#A" n="10" break="no"/>cedendi: decantandi modulatio. et huiusmoi.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e390">
+      ¶ 
+      Ter<lb ed="#A" n="11" break="no"/>tius ludus dicitur circensis qui a circumeundo sic 
+      veo<lb ed="#A" n="12" break="no"/>catus est
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e397">
+      ¶ Quartus ludus scenicus: qui est locus in 
+      <lb ed="#A" n="13"/>tra theatrum ad modum domus. vbi cantabantur in 
+      <lb ed="#A" n="14"/>pulpito tragedie et comedie. et saltabant histriones
+      </p>
+               <p xml:id="Vn7Pel-j21286-d1e404">
+                  <lb ed="#A" n="15"/>Quintus dicitur ludus gladiatorius: quo in 
+      am<lb ed="#A" n="16" break="no"/>hhiteatro gladiis aut pugnis: hastis aut armis 
+      qui<lb ed="#A" n="17" break="no"/>busuis inter se concertare discebant: aut contra 
+      be<lb ed="#A" n="18" break="no"/>stias incedere et huiusmodi.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e415">
+      ¶ Sextus est ludus alee: quod 
+      <lb ed="#A" n="19"/>taxillis luditur. in quo fraus et mendacium vel 
+      periu<lb ed="#A" n="20" break="no"/>rium nunquam abest et damnum rerum. propterea legibus 
+      <lb ed="#A" n="21"/>est interdictus.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e424">
+      ¶ Septimus est ludus scachorum 
+      <lb ed="#A" n="22"/>et huiusmodi etc. Quibus modis autem liceat hominibus 
+      lu<lb ed="#A" n="23" break="no"/>dere: aut quibus causis scilicet conuiuii vel exercitii vel 
+      re<lb ed="#A" n="24" break="no"/>creationis ac huiusmodi. et quibus circumstantiis 
+      adhibi<lb ed="#A" n="25" break="no"/>tis ne quis in talibus peccet: hic amore brevitatis 
+      per<lb ed="#A" n="26" break="no"/>transeo. cum sufficienter tractentur in summis pluri 
+      <lb ed="#A" n="27"/>bus confessionalibus. Sufficiat mihi dicere quod scire 
+      <lb ed="#A" n="28"/>quacunque inquantum scientie est: est donum a dei charitate 
+      <lb ed="#A" n="29"/>sed tamtenabutitur homo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j21286-Dd1e445">
+               <head xml:id="Vn7Pel-j21286-Hd1e447">3</head>
+               <p xml:id="Vn7Pel-j21286-d1e449">
+                  <lb ed="#A" n="30"/>¶ Sed quot numerantur species 
+      ar<lb ed="#A" n="31" break="no"/>tis liberalis: Dicendum secundum omnes communiter. et praesertim 
+      <lb ed="#A" n="32"/>Anton. florem. parte. i. ti. i. c. iii. §. iii. cum Uincentio supra 
+      <lb ed="#A" n="33"/>quod septem sunt artes liberales
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e460">
+      ¶ Pria dicitur gram 
+      <lb ed="#A" n="34"/>matica. Que est recte loquendi at que scribendi 
+      scien<lb ed="#A" n="35" break="no"/>tia. Et hec est fundamentum omnium aliarum artium liberalium 
+      <lb ed="#A" n="36"/>atque origo vel initium
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e469">
+      ¶ Secunda dicitur logica id est 
+      ra<lb ed="#A" n="37" break="no"/>tionalis diffiniendi: quaerendi et discernendi verum 
+      <lb ed="#A" n="38"/>a falso scientia. Nam omne praedicabile scilicet secundum 
+      logi<lb ed="#A" n="39" break="no"/>cam vel dialecticam quae eadem scientia est Aut est 
+      incon<lb ed="#A" n="40" break="no"/>plexum aut complexum. Si incomplexum. hoc 
+      po<lb ed="#A" n="41" break="no"/>test esse vel inherens intra. et de hoc agit logica 
+      li<lb ed="#A" n="42" break="no"/>bro praedicamentorum vel inherens extra. et de hoc agit 
+      li<lb ed="#A" n="43" break="no"/>ber sex principiorum. Si autem est complexum vel hoc 
+      <lb ed="#A" n="44"/>est absolutum. de quo agitur libro peri herme. quia agit 
+      <lb ed="#A" n="45"/>de enunciatione sine respectu. vel hoc est respectiuum 
+      <lb ed="#A" n="46"/>ordinatum ad alteram materiam. Et hoc si ordina 
+      <lb ed="#A" n="47"/>tur ad omnem materiam indifferenter. sic de tali 
+      <lb ed="#A" n="48"/>agitur in libro priorum. Si autem ad materiam 
+      determi<lb ed="#A" n="49" break="no"/>natame. hoc tripliciter est. quia aut ad materiam ne 
+      <lb ed="#A" n="50"/>cessariam. et de hoc agitur libro Posteriorum. Aut ad 
+      <lb ed="#A" n="51"/>probabilem. de hoc libro Topicorum. Aut ad 
+      sophi<lb ed="#A" n="52" break="no"/>sticam. Et de hoc in libro Elenchorum. vbi multe 
+      fal<lb ed="#A" n="53" break="no"/>lacie sophistice deprehendende docentur
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e508">
+      ¶ Tertia dicitur 
+      <lb ed="#A" n="54"/>rhctorica. que est ornate et bene loquendi ad persua 
+      <lb ed="#A" n="55"/>dendum iusta et bona scientia: tam in personarum quam 
+      <lb ed="#A" n="56"/>in negociorum causa. Talem autem peritiam 
+      di<lb ed="#A" n="57" break="no"/>cend facit sepius natura: doctrina et vsus. Sed 
+      <!--76.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>principaliter deus ex charitate
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e527">
+      ¶ Pre terea alie 
+      <lb ed="#A" n="59"/>quattuor species artium liberalium dicuntur et 
+      quadruuia<lb ed="#A" n="60" break="no"/>es. quia in quattuor speciebus sunt. Dicuntur etiam mathe 
+      <lb ed="#A" n="61"/>matice scientie: quia considerant principalius de ma 
+      <lb ed="#A" n="62"/>teria abstracta. Quo ad premissa ergo Quarta 
+      <lb ed="#A" n="63"/>ars liberalis dicitur Arithmetica. Et hec tractat de 
+      <lb ed="#A" n="64"/>numeris. huius elementum est vnitas.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e543">
+      ¶ Quinta 
+      <lb ed="#A" n="65"/>dicitur Musica. hec tractat de vocum vel sonorum propor 
+      <lb ed="#A" n="66"/>tione. huius elementum est vnisonium.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e550">
+      ¶ Sexta dicitur 
+      <lb ed="#A" n="67"/>Geometrica. quae est de spacio seu quantilate continua. 
+      <lb ed="#A" n="68"/>huius elementum est punctum
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e557">
+      ¶ Septima Astro 
+      <lb ed="#A" n="69"/>nomica. quae agit de motu caelorum. cuius elementum est 
+      <lb ed="#A" n="70"/>instans. Et sic patet dei charitas qua nostras 
+      men<lb ed="#A" n="71" break="no"/>tes illustrauit multiplici artium veritate vt deum 
+      cog<lb ed="#A" n="72" break="no"/>nosceremus et amaremus ad nostram salutem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j21286-Dd1e569">
+               <head xml:id="Vn7Pel-j21286-Hd1e571">4</head>
+               <p xml:id="Vn7Pel-j21286-d1e573">
+                  <lb ed="#A" n="73"/>¶ Unde procedit quod quis hominum 
+      <lb ed="#A" n="74"/>in artibus et scientiis sit acutior et ingeniosior: 
+      Respon<lb ed="#A" n="75" break="no"/>detur secundum e. Anton. floren. in prima parte summe. tit. i. c. 
+      <lb ed="#A" n="76"/>vi. Quod hoc est praecipue ex causis
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e584">
+      ¶ Primo ex melio 
+      <lb ed="#A" n="77"/>ri perfectione accidetali anime. dic o accidentali: non 
+      <lb ed="#A" n="78"/>autem naturali. quia omnes anime sunt eiusdem speciei et 
+      <lb ed="#A" n="79"/>perfectionis naturalis in essentia: sed non in 
+      accidem<lb ed="#A" n="80" break="no"/>talibus
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e595">
+      ¶ Secundo hoc fit ex meliori exercitatione
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e597">
+      ¶ 
+      Ter<lb ed="#A" n="81" break="no"/>tio ex maioris gratie collatione. Sap. viii. 
+      Sor<lb ed="#A" n="82" break="no"/>titus sum animam bonam.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e605">
+      ¶ Quarto ex corporis 
+      com<lb ed="#A" n="83" break="no"/>plexione inclinante Ex qua sicut habet anima naturalem 
+      <lb ed="#A" n="84"/>inclinationem ad aliqua vicia. ita et ad aliquas virtutes et 
+      <lb ed="#A" n="85"/>scientias. Nam cholerici inclinantur ad iram et 
+      fortitu<lb ed="#A" n="86" break="no"/>dinem et magnanimitatem. Sanguinei ad 
+      luxuri<lb ed="#A" n="87" break="no"/>am beniuolentiam et affabilitatem. Phlegmatici ad 
+      <lb ed="#A" n="88"/>pigriciam: incuriam et mansuetudine. 
+      Melan<lb ed="#A" n="89" break="no"/>cholici ad desperationem: suspicionem et modestiam. 
+      <lb ed="#A" n="90"/>Sed quo ad scientias secundum Ioan. dominici in dialo. suo 
+      <lb ed="#A" n="91"/>post Alber. magnum Cholerici inclinantur ad 
+      meta<lb ed="#A" n="92" break="no"/>physicalia. Sanguinei ad naturalia vel 
+      philoso<lb ed="#A" n="93" break="no"/>phicalia. Phlegmatici ad moralia. 
+      Melancholi<lb ed="#A" n="94" break="no"/>ci ad poeticalia et iuridica. In omnibus commendatur 
+      ore<lb ed="#A" n="95" break="no"/>do diuine charitatis etc 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j21286-Dd1e638">
+               <head xml:id="Vn7Pel-j21286-Hd1e640">5</head>
+               <p xml:id="Vn7Pel-j21286-d1e642">
+                  <lb ed="#A" n="96"/>¶ Quid de inuentoribus variarum 
+      <lb ed="#A" n="97"/>artium et scientiarum ac autoribus librorum earum. 
+      Notan<lb ed="#A" n="98" break="no"/>dum secundum e. Anton. florem i. parte ti. i. c. iii. quod inuentores 
+      <lb ed="#A" n="99"/>artium liberalium ac mechanicarum et philosophe. autores quoque 
+      <lb ed="#A" n="100"/>librorum ipsarum communiter fuerunt gentiles et per 
+      co<lb ed="#A" n="101" break="no"/>sequens reprobi homines. Nam in grammaticali 
+      <lb ed="#A" n="102"/>bus principalis ponitur Priscianus. In rhetoricis 
+      <lb ed="#A" n="103"/>Tullius Cicero: qui ethnicus de diuina prouidentia 
+      <lb ed="#A" n="104"/>male sensit. secundum quodicit Tho. prima. parte. q. xxii. Quem 
+      <lb ed="#A" n="105"/>etiam malorum morum fuisse ostendit Salustius. Sed et 
+      <lb ed="#A" n="106"/>pse Salustius cum Demosthene greco permaximo 
+      <lb ed="#A" n="107"/>oratore infideles fuerunt. Titum liuium vt 
+      omit<lb ed="#A" n="108" break="no"/>tam errantem: licet lacteo fonte manantem. Lactanti 
+      <lb ed="#A" n="109"/>us christicola fuit sed errore millenistarum sectatus 
+      <lb ed="#A" n="110"/>est. de spiritu sancto minus bene sensit. vt patet in libro 
+      <lb ed="#A" n="111"/>suo Institutionum nominato etc. Item inter poctas 
+      <lb ed="#A" n="112"/>magnus fuit Homerus apud grecos. sed apud 
+      <lb ed="#A" n="113"/>latinos maior fuit Uirgilius. qui vltra 
+      infidelita<lb ed="#A" n="114" break="no"/>tem turpissimus fuit in moribus. nec minus eo Naso seu 
+      <!--77.xml-->
+      <pb ed="#A" n="78"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Ouidius. et praecipue in sua doctrina lasciuiis 
+      plena<lb ed="#A" n="2" break="no"/>Item inter Historiographos Ualerius maximus in 
+      <lb ed="#A" n="3"/>prosa. Lucanus in metro. Fuit et Iosephus iudeus 
+      <lb ed="#A" n="4"/>post christi aduentum qui iudaismum suum secutus est. 
+      <lb ed="#A" n="5"/>Item in logicalibus totius philosophe monarcha ipse 
+      Aristo<lb ed="#A" n="6" break="no"/>teles effulsit. Cuius parti morali Socrates se totum 
+      <lb ed="#A" n="7"/>dedit et Pythagoras naturali parti philosophie. Sed 
+      vtri<lb ed="#A" n="8" break="no"/>usque horum discipulus Plato vtramque complexus est. vt 
+      <lb ed="#A" n="9"/>dicit Augustinus de ciui. dei. Iste Plato super omnes 
+      theo<lb ed="#A" n="10" break="no"/>logus fuit. Cuius doctrina antiqui sancti doctores 
+      <lb ed="#A" n="11"/>imbuti sunt. vt Ambrosius. Origenes 
+      Augustin<lb ed="#A" n="12" break="no"/>Hieronymus. Basilius. Crrores tantum eius plurimos 
+      <lb ed="#A" n="13"/>abiecerunt praeter Origenem qui in multis errauit. 
+      Mo<lb ed="#A" n="14" break="no"/>derni vero doctores Aristotelem sequuntur: propter 
+      do<lb ed="#A" n="15" break="no"/>ctrine ordinem et minus errantem. Omes hi cum suis se 
+      <lb ed="#A" n="16"/>ctis epicureis: stioicis et peripatheticis. atque cum 
+      mul<lb ed="#A" n="17" break="no"/>tis aliis non excludendo Senecam moralissimum sed 
+      <lb ed="#A" n="18"/>cum vulgo idolatrantem ab extra secundum Tho. Illi sunt 
+      <lb ed="#A" n="19"/>de quibus dicit apostols. i. Cor. ii. Nemo principum huil 
+      <lb ed="#A" n="20"/>seculi id est philosophorum cognouit dei sapientiam
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e736">
+      ¶ Preterea 
+      <lb ed="#A" n="21"/>Arithmeticam dicitur de prioribus Pythagoras 
+      iuenis<lb ed="#A" n="22" break="no"/>se. qui et sine fide fuit. Musicam Tubalchaim. Astro 
+      <lb ed="#A" n="23"/>logiam Atlas. et Ptolomeus multa addidit. Geo 
+      <lb ed="#A" n="24"/>metriam Euclades et Hermenides. Hi omnes ethni 
+      <lb ed="#A" n="25"/>ci et inter reprobos computati.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e749">
+      ¶ Item medicinam 
+      <lb ed="#A" n="26"/>Esculapius primus docuisse refertur. quem indocte 
+      ple<lb ed="#A" n="27" break="no"/>bes in deum extulerunt. sed auxit copiose Hypocras 
+      <lb ed="#A" n="28"/>et Galienus ac Auicenna. qui omnes esi deum 
+      cognoue<lb ed="#A" n="29" break="no"/>runt non sicut deum glorificauerunt sed euanuerunt 
+      <lb ed="#A" n="30"/>in cogitationibus suis. vt dicit apostolus Rhom i i.t 
+      de<lb ed="#A" n="31" break="no"/>talibus qui sola ea que carnis sunt sapiunt. quia 
+      <lb ed="#A" n="32"/>vt Berds. dicit. Regule Hypocratis et Galieni in 
+      <lb ed="#A" n="33"/>multis contrariantur legi christi que ad salutem 
+      no<lb ed="#A" n="34" break="no"/>ey stram docet mortificare carnem et eius viciosas 
+      con<lb ed="#A" n="35" break="no"/>cupiscentias etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e773">
+      ¶ Teterum iura ciuilia gentiles 
+      <lb ed="#A" n="36"/>primi instituerunt diuersi diuersis vrbibus. Nam a 
+      la<lb ed="#A" n="37" break="no"/>cedemoniis rhomani mutuati sunt leges. vt 
+      pa<lb ed="#A" n="38" break="no"/>tet in decretis dis. vii. c. Moyses.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e783">
+      ¶ Artes etiam 
+      <lb ed="#A" n="39"/>mechanicas plurimas instituisse progenitos ex 
+      Ca<lb ed="#A" n="40" break="no"/>in fratricida insinuat Genesis liber. c. iiii. Qui 
+      communi<lb ed="#A" n="41" break="no"/>ter criminosum patrem in moribus imitati sunt. et per 
+      <lb ed="#A" n="42"/>consequens reprobi. Hec ideo scripta sunt vt non 
+      <lb ed="#A" n="43"/>glorietur sapiens in sua sapientia. Quoniam vt dicitur 
+      Sa<lb ed="#A" n="44" break="no"/>pien. xiii. Uani sunt omnes homines in quibus non 
+      sub<lb ed="#A" n="45" break="no"/>est scientia dei. Et dicuntur vani id est frustra: quia non 
+      con<lb ed="#A" n="46" break="no"/>sequentur finem beatitudinis ad quem creati sunt. 
+      Pro<lb ed="#A" n="47" break="no"/>pterea christicole non debent nimis curare de tali 
+      <lb ed="#A" n="48"/>bus scientiis: cum sine eis sit salus. Nam et 
+      Hie<lb ed="#A" n="49" break="no"/>ronymus fuit flagellatus dei nutu pro eo quod nimis se 
+      <lb ed="#A" n="50"/>occupabat talibus scientiis. veruntamem non debemus. 
+      <lb ed="#A" n="51"/>etiam omnino contemnere et spernere tales artes et sci 
+      <lb ed="#A" n="52"/>entias humanas quantum ad ea que sunt vera et 
+      vti<lb ed="#A" n="53" break="no"/>lia inibi tractata. licet sint a viciosis autoribus 
+      <lb ed="#A" n="54"/>tradita. Tum quia vt Ambro. dicit Ueritas a quocum 
+      <lb ed="#A" n="55"/>que dicatur a spiritu sancto est. Tum quia omnis scientia 
+      <lb ed="#A" n="56"/>de numero bonorum honorabilium est. ex i. de anima 
+      <lb ed="#A" n="57"/>Tum denique quia deus in hoc commendat nobis charitatem 
+      <lb ed="#A" n="58"/>suam quod etiam malis non desistit dare gratiam gratis da¬ 
+      <!--77.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="59"/>tam. vtpote scientiam et huiusmodi. quanto magis bonis dabit 
+      <lb ed="#A" n="60"/>gratiam gratumfacientem et omnia ad salutem 
+      oportu<lb ed="#A" n="61" break="no"/>nam. Diligamus ergo ex charitate deum et omnia 
+      bo<lb ed="#A" n="62" break="no"/>na habebimus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j21286-Dd1e843">
+               <head xml:id="Vn7Pel-j21286-Hd1e845">6</head>
+               <p xml:id="Vn7Pel-j21286-d1e847">
+                  <lb ed="#A" n="63"/>¶ Quid de scientia legis ciuilice 
+      <lb ed="#A" n="64"/>et eius diuisione:
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e854">
+      ¶ Notandum Primo quod secundum 
+      <lb ed="#A" n="65"/>Fran. de maro. in. i. sententiarum lex diffinitur sic. Est ars 
+      <lb ed="#A" n="66"/>honeste viuendi ligas homines ad sui obseruantiam 
+      <lb ed="#A" n="67"/>Nam aliter non esset lex nisi ligaret
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e863">
+      ¶ Secundo 
+      no<lb ed="#A" n="68" break="no"/>tandum iuxta Scotum in. iiii. dist. xvii. colligendo: 
+      <lb ed="#A" n="69"/>quod lex est triplex.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e870">
+      ¶ Prima dicitur lex nature. siue lo¬ F 
+      <lb ed="#A" n="70"/>quendo stricte de lege nature. videlicet quia est principium 
+      <lb ed="#A" n="71"/>legis nature notum ex terminis exquo necessario se 
+      <lb ed="#A" n="72"/>quuntur huiusmodi conclusiones practice siue loquendo 
+      <lb ed="#A" n="73"/>large prout aliquid verum practicum consonum principiis 
+      <lb ed="#A" n="74"/>et coclusionibus legis nature est intantum quod statim 
+      <lb ed="#A" n="75"/>notum est omnibus illud conuenire tali legi Secunda 
+      <lb ed="#A" n="76"/>dicitur lex positiua diuina quae continetur in his quae sunt 
+      <lb ed="#A" n="77"/>in veteri et nouo testamento
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e891">
+      ¶ Tertia dicitur lex 
+      posi<lb ed="#A" n="78" break="no"/>tiua humana vt decreta vel statuta canonica et 
+      eti<lb ed="#A" n="79" break="no"/>am ciuilia. Et hec tantum habet de rectitudine 
+      inquan<lb ed="#A" n="80" break="no"/>tum a lege nature deriuatur. Si vero discordet ab ea 
+      <lb ed="#A" n="81"/>iam non erit lex sed corruptio legis. vt dicit Augustinus. 
+      <lb ed="#A" n="82"/>lih. de libe. ar. Unde secundum Fran. maro. supra quia 
+      princi<lb ed="#A" n="83" break="no"/>pia legis nature non possunt eodem modo applicari 
+      <lb ed="#A" n="84"/>omnibus propter varietatem rerum humanarum. ideo 
+      <lb ed="#A" n="85"/>exinde prouenit diuersitas legis positiue. Unde secundum 
+      <lb ed="#A" n="86"/>Antonenum supra.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e913">
+      ¶ Tertio principaliter 
+      Notan<lb ed="#A" n="87" break="no"/>dum est quod totum corpus iuris ciuilis communis 
+      di<lb ed="#A" n="88" break="no"/>uiditur in quattuor libros quo ad allegationes scilicet 
+      <lb ed="#A" n="89"/>Codicum. Digestum. Instituta et Autentica. Et 
+      <lb ed="#A" n="90"/>que in eis notantur allegantur per nomen libri. per 
+      ti<lb ed="#A" n="91" break="no"/>tulos. per leges: per paragraphos.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e926">
+      ¶ Utrum 
+      au<lb ed="#A" n="92" break="no"/>tem leges ciuiles obligent homines in foro 
+      com<lb ed="#A" n="93" break="no"/>scientie ad obseruandum necessario: ita quod trans¬e 
+      <lb ed="#A" n="94"/>grediens peccet mortaliter. Dicit idem Antonin. 
+      <lb ed="#A" n="95"/>cum Augustino dist . ix. c. imperatores. quod obligant. 
+      <lb ed="#A" n="96"/>si sunt iuste. praecipue quando quis scienter transgre 
+      <lb ed="#A" n="97"/>ditur et ex contemptum. quia vt Berardus. lib. de 
+      dispen<lb ed="#A" n="98" break="no"/>satione et praecepto. Contemptus vbique damnabilis 
+      <lb ed="#A" n="99"/>est. De hoc latius secundo libro vbi Peccatum. § 
+      <lb ed="#A" n="100"/>xxix. et in summis plures casus exceptionis 
+      ponu<lb ed="#A" n="101" break="no"/>tur. ideo amore brevitatis hic pertranseo. 
+      Suffici<lb ed="#A" n="102" break="no"/>at autem mihi hic dicere: quod deus ex charitate 
+      vo<lb ed="#A" n="103" break="no"/>luit vt leges canonice et ciuiles statuerentur vltra 
+      <lb ed="#A" n="104"/>ius diuinum propter obseruantiam preceptorum dei. vite 
+      <lb ed="#A" n="105"/>quoque honestioris in moribus ad meritumi 
+      sa<lb ed="#A" n="106" break="no"/>lutis etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j21286-Dd1e962">
+               <head xml:id="Vn7Pel-j21286-Hd1e964">7</head>
+               <p xml:id="Vn7Pel-j21286-d1e966">
+                  <lb ed="#A" n="107"/>¶ Quid de scientia iuris 
+      canoni<lb ed="#A" n="108" break="no"/>ci et eius diuisione Notandum secundum eundem Antoniln. 
+      <lb ed="#A" n="109"/>eadem prima parte vbi supra quod corpus totum iuris canoni 
+      <lb ed="#A" n="110"/>ci habetur in quattuor libris. scilicet Decreto: Decrls 
+      <lb ed="#A" n="111"/>talibus Sexto et Clementinis
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e979">
+      ¶ Decreta 
+      compila<lb ed="#A" n="112" break="no"/>uit Gratianus monachus. et edidit Anno domini 
+      <lb ed="#A" n="113"/>soo. vel. circa vt dicit Hugo. xx. q. vi. §. Forma. 
+      <lb ed="#A" n="114"/>licet antea etiam fuerint queda compilationes alie. scilicet 
+      <!--78.xml-->
+      <pb ed="#A" n="79"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Isidori postea Iuonis. Et diuiditur decretum in tres 
+      <lb ed="#A" n="2"/>partes. Prima continet distinctiones. centum et vnam. 
+      <lb ed="#A" n="3"/>Secunda continet causas. xxxvi. et quelibet causa 
+      con<lb ed="#A" n="4" break="no"/>tinet plures quaestiones. et quailibet questio Capitula et 
+      <lb ed="#A" n="5"/>§. Atque causa. xxxiii. q. iii. continet tractatum 
+      specia<lb ed="#A" n="6" break="no"/>iem prolixum de penitentia qui sic allegatur. de pe. di. tlti. 
+      <lb ed="#A" n="7"/>et sunt. vii. distinctiones. Tertia decretorum pars 
+      in<lb ed="#A" n="8" break="no"/>titulatur de consecratione. et habet. v. distinctiones et 
+      <lb ed="#A" n="9"/>capitula. Ibi primus fecit lecturam Hugo: qui nimis 
+      <lb ed="#A" n="10"/>scrupulosus fuit in suis determinationibus. sed 
+      glo<lb ed="#A" n="11" break="no"/>communis eius est Ioam an. satis bona. quibus addidit Bar. 
+      <lb ed="#A" n="12"/>brix. quedam corrigendo vel declarando. Post fecit 
+      so<lb ed="#A" n="13" break="no"/>lennem apparatum super eo Archidiaconus: qui dicitur 
+      Ro<lb ed="#A" n="14" break="no"/>sarium etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e1025">
+      ¶ Item decretalium compilator fuit 
+      <lb ed="#A" n="15"/>Raymundus ordinis praedicatorum ad iniunctionem 
+      Gre<lb ed="#A" n="16" break="no"/>gorii pape. ix. Anno domini. 1o. vel circa. Et 
+      diui<lb ed="#A" n="17" break="no"/>ditur liber ille in quinque partes vel libros habentes mlul 
+      <lb ed="#A" n="18"/>tos titulos in singulis per quos allegantur quaecunque. et per 
+      <lb ed="#A" n="19"/>capitula antiquitus dicendo sic. extra de sponsalibus 
+      <lb ed="#A" n="20"/>vel huiusmodi. capitulo tli. Et dicebantur extra scilicet decretum 
+      <lb ed="#A" n="21"/>sed tamten a modernis dimittitur illud. extra. et solum titulus 
+      <lb ed="#A" n="22"/>allegatur cum capitulo. Eius glora communes sunt Bernardi. 
+      <lb ed="#A" n="23"/>Sed plurimi fecerunt apparatum seu lecturas super eis 
+      <lb ed="#A" n="24"/>dem. vt Inno. iiii. Hostien. Ioan. an. etc.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e1049">
+      ¶ Item 
+      <lb ed="#A" n="25"/>sextum decretalium fecit compilari Bonifalis. viii. 
+      <lb ed="#A" n="26"/>Anno domini. iet oo. vel circa. qui dicitur sextus. quia sequitur 
+      <lb ed="#A" n="27"/>ad praedictos quinque libros decretalium. et habet titulos 
+      <lb ed="#A" n="28"/>et capitula eodem ordine sicut decretules: non tamen omnes qe 
+      <lb ed="#A" n="29"/>Glo. communis eius est Ioan. an. et plures fecerunt appa 
+      <lb ed="#A" n="30"/>ratum etc
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e1066">
+      ¶ Item clementina post modicum a 
+      con<lb ed="#A" n="31" break="no"/>pilatione Sexti fuit sub Clemente papa in concilio 
+      <lb ed="#A" n="32"/>qoiemnensi edita. qui Clemens morte puentus non pro 
+      <lb ed="#A" n="33"/>mulgauit eas decretales. sed postea Ioan. papa. xx 
+      <lb ed="#A" n="34"/>ii. successor eius. et habet titulos sed non omnes secundum 
+      <lb ed="#A" n="35"/>ordinem decretalium. et allegatur cum additione. in cle. 
+      <lb ed="#A" n="36"/>sicut et allegatur lir. vi. Glo. communis est Ioan. and. 
+      <lb ed="#A" n="37"/>Sed apparatum plures alii super eodem fecerunt.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e1084">
+      ¶ 
+      Pre<lb ed="#A" n="38" break="no"/>terea reperiuntur quedam constitutiones 
+      eccle<lb ed="#A" n="39" break="no"/>sie que non sunt in corpore iuris. et ideo dicuntur extra 
+      <lb ed="#A" n="40"/>uagantes que postquam promulgate sunt ligant sicut 
+      <lb ed="#A" n="41"/>etiam que habentur in corpore iuris precipue cum sciuntur. 
+      <lb ed="#A" n="42"/>Unde patet dei charitas multimode illuminando nos. 
+      </p>
+               <p xml:id="Vn7Pel-j21286-d1e1097">
+                  <lb ed="#A" n="43"/>¶ Notandum etiam secundum eundem Anto. quod lex 
+      <lb ed="#A" n="44"/>ciuilis prior est tempore. quia cepit a tempore 
+      Mo<lb ed="#A" n="45" break="no"/>si vel circa. Sed lex canonica cepit a tempore apostolorum 
+      <lb ed="#A" n="46"/>quando apostoli fecerunt constitutionem vt fideles abstinerent a 
+      <lb ed="#A" n="47"/>fornicatione et idoloticis etc. Tamen lex Canonica 
+      pri<lb ed="#A" n="48" break="no"/>or est dignitate et auctoritate quam Ciuilis. quia lex Ct 
+      <lb ed="#A" n="49"/>uilis debet sequi canones. si autem contrariantur nullius 
+      <lb ed="#A" n="50"/>sunt momenti. dis. x. per plura capitula.
+     </p>
+               <p xml:id="Vn7Pel-j21286-d1e1117">
+      ¶ Item de artibus et 
+      <lb ed="#A" n="51"/>scientiis: hec iuxta intentionem meam sufficiant pro praesenti libro
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dulia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dulia</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="165"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j48544">
+            <head xml:id="Vn7Pel-j48544-Hd1e110">Dulia</head>
+            <div xml:id="Vn7Pel-j48544-Dd1e112">
+               <head xml:id="Vn7Pel-j48544-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j48544-d1e116">
+                  <lb ed="#A" n="14"/>¶ Dulia In qua 
+      ma<lb ed="#A" n="15" break="no"/>gna claret dei charitas qua voluit 
+      reue<lb ed="#A" n="16" break="no"/>reri sanctos suos. Nam vt dicit sanctus Bona 
+      <lb ed="#A" n="17"/>uem. in i. dist. ix. arti. ii. q. iii. Quod nomen dulie tripliciter 
+      <lb ed="#A" n="18"/>ter dicitur. Uno modo secundum quandam analogiam. Alio 
+      <lb ed="#A" n="19"/>modo secundum antonomasiam. Et tertio modo secundum 
+      significa<lb ed="#A" n="20" break="no"/>tionem propriam. Cum autem dicitur secundum analogiam tunc 
+      <lb ed="#A" n="21"/>importat cultum debitum nature superiori siue 
+      crea<lb ed="#A" n="22" break="no"/>ture siue creatori secundum aliquam rationem secundum quam 
+      crea<lb ed="#A" n="23" break="no"/>tor communicat creature. vtpote secundum rationem dominii Et 
+      <lb ed="#A" n="24"/>hoc modo accipitur in glosis. super illud psalmus. In ecclesiis 
+      <lb ed="#A" n="25"/>benedicite deo domino. Gloria Deo: cui debetur latria. 
+      do<lb ed="#A" n="26" break="no"/>mino: cui debetur dulia. Cum autem accipitur secundum 
+      <lb ed="#A" n="27"/>Antonomasiam. sic dicit debitam reuerentiam creatu 
+      <lb ed="#A" n="28"/>re vnite vel assumpte per quem modum accipitur. 
+      super<lb ed="#A" n="29" break="no"/>illud psalmus. Adorate scabellum pedum eius. Ubi dici 
+      <lb ed="#A" n="30"/>tur quod hyperdulia maior debetur solum humanitati 
+      <lb ed="#A" n="31"/>christi. Cum autem accipitur dulia secundum significationem 
+      <lb ed="#A" n="32"/>propriam. sic dicitur honor vel reuerentia rationali 
+      crea<lb ed="#A" n="33" break="no"/>ture exhibita. Et illo modo consueuit dulia accipi secundum 
+      <lb ed="#A" n="34"/>communem vsum. Ex quo enim dulia quodammodo in 
+      <lb ed="#A" n="35"/>cludit latriam. Ideo hic de dulia: hyperdulia et 
+      la<lb ed="#A" n="36" break="no"/>tria queruntur plura. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e169">
+               <head xml:id="Vn7Pel-j48544-Hd1e171">2</head>
+    <p xml:id="Vn7Pel-j48544-d1e173">
+                  <lb ed="#A" n="37"/>¶ Utrum dulia sit virtus distincta 
+      <lb ed="#A" n="38"/>a latria: Et videtur quod non. quia eadem est species qua 
+      <lb ed="#A" n="39"/>creditur esse credendum scilicet ipsa fides de christi 
+      diui<lb ed="#A" n="40" break="no"/>nitate et humanitate. ergo eadem est species virtutis qua 
+      <lb ed="#A" n="41"/>colitur esse colendum. sed huiusmodi sunt dulia et latria. 
+      <lb ed="#A" n="42"/>Respondet sanctus Bonauen. vbi supra quod dulia et 
+      la<lb ed="#A" n="43" break="no"/>tria sunt diuerse species virtutis. Et ratio huius est. 
+      <lb ed="#A" n="44"/>quia latria et dulia cosiderant exteriores cultus qui 
+      <lb ed="#A" n="45"/>formalem habent differentiam secundum quod creature et 
+      <lb ed="#A" n="46"/>creatori exhibetur. Alius enim est modus adorandi creato 
+      <lb ed="#A" n="47"/>re: et alius adorandi creaturam. Et alia ratio motiua. et ideo 
+      <lb ed="#A" n="48"/>alia virtus directiua in hac et in illa. propterea sunt 
+      di<lb ed="#A" n="49" break="no"/>uerse virtutes.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e204">
+      ¶ Ad argumentum vero dicendum 
+      <lb ed="#A" n="50"/>quod non est simile de credendis et colendis. quia vna est virtus 
+      <lb ed="#A" n="51"/>qua creduntur omnia credenda. quia habet vnam rationem 
+      mouen<lb ed="#A" n="52" break="no"/>te ad credendum se: vtpote summam veritatem. cuiusmodi 
+      <lb ed="#A" n="53"/>sunt articuli fidei. Sed si credenda haberent rationes 
+      di<lb ed="#A" n="54" break="no"/>uersas. vtpote cum credo homini quia verax est hec fidet 
+      <lb ed="#A" n="55"/>et illa non sunt eiusdem rationis nec speciei. quia vna fides 
+      <!--164.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>est virtus theologica. Alia spectat ad genus virtutis et 
+      <lb ed="#A" n="57"/>cardinalis. quae quidem magis appellanda est credulitas 
+      <lb ed="#A" n="58"/>quam fides. Et ideo dulia et latria diuersas considerant ra i 
+      <lb ed="#A" n="59"/>tiones in creatore et creatura. ideo sunt diuerse 
+      vir<lb ed="#A" n="60" break="no"/>ates. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e236">
+               <head xml:id="Vn7Pel-j48544-Hd1e238">3</head>
+               <p xml:id="Vn7Pel-j48544-d1e240">
+                  <lb ed="#A" n="61"/>¶ Utrum latria sit virtus. 
+      Respon<lb ed="#A" n="62" break="no"/>detur quod sic. Et probatur secundum Scotum in. iii. dist. ix. art. i. 
+      <lb ed="#A" n="63"/>Quia omnis bonus actus frequenter elicius natus est gigne. 
+      <lb ed="#A" n="64"/>re virtutem. Cum ergo colere deum sit huiusmodi: sequitur quod latria 
+      <lb ed="#A" n="65"/>inde genita erit virtus. Unde sicut qui se resilit in 
+      propri<lb ed="#A" n="66" break="no"/>am paruitatem respectu magnificentie alicuius adquirit. 
+      <lb ed="#A" n="67"/>exercitium terminorum reuerentie. Ita similiter quando extollit: 
+      <lb ed="#A" n="68"/>quis superabundantur magnitudinem dei et frequentur 
+      adqui<lb ed="#A" n="69" break="no"/>rit virtutem latrie si fiat modo debito. Et si dicatur quia 
+      <lb ed="#A" n="70"/>latria idem est quod pietas. vt dicit Augustinus. iiii. de ciui. 
+      <lb ed="#A" n="71"/>dei. proprie pietas cultus dei dici solet: quem greci 
+      theo<lb ed="#A" n="72" break="no"/>sebiam vocant. Pietas autem donum est no virtus: ergo 
+      <lb ed="#A" n="73"/>et latria Dicendum primo quod sicut supra patuit. dona 
+      <lb ed="#A" n="74"/>non sunt nisi excellentes gradus virtutum. Uel dicendum 
+      <lb ed="#A" n="75"/>quod pietas capitur tripliciter. Primo modo pro quodam habitu 
+      <lb ed="#A" n="76"/>ferimur virtuose in proximos et consanguineos. Et 
+      <lb ed="#A" n="77"/>sicu accipit Marcus tullius. iii. rheto. Secundo modo 
+      pie<lb ed="#A" n="78" break="no"/>tas dicitur idem quod compassio miserorum. et sic dicitur donum 
+      <lb ed="#A" n="79"/>Tertio modo dicitur idem quod cultus dei in habitu. et sic 
+      <lb ed="#A" n="80"/>accipitur ab Augustino. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e287">
+               <head xml:id="Vn7Pel-j48544-Hd1e289">4</head>
+               <p xml:id="Vn7Pel-j48544-d1e291">
+                  <lb ed="#A" n="81"/>¶ Utrum latria sit virtus 
+      cardina<lb ed="#A" n="82" break="no"/>lis an theologica: Et videtur quod sit virtus theologica 
+      <lb ed="#A" n="83"/>quia Augustinus. xiiii. de ciui. dicit quod sapientia vera est virtus ac 
+      prae<lb ed="#A" n="84" break="no"/>cipuus dei cultus. quae vno nomine greco theosebia 
+      appel<lb ed="#A" n="85" break="no"/>latur. quod nomen nost ri pietatem dixerunt. Sed vt dicit 
+      Au<lb ed="#A" n="86" break="no"/>gusti. iiii. de ciui. Latria non est aliud quam theosebia. 
+      <lb ed="#A" n="87"/>Theosebia autem non est aliud quam sapientia. Sapientia 
+      <lb ed="#A" n="88"/>vero se tenet ex parte virtutum theologicalium non cardina 
+      <lb ed="#A" n="89"/>lium. quia sapientia nominat supremum gradum charitatis. ergo 
+      <lb ed="#A" n="90"/>videtur quod latria sit virtus theologica . li¶ Dicendum secundum 
+      <lb ed="#A" n="91"/>sanctum Bonauen. vbi supra quod tam charitas quam sapientia 
+      <lb ed="#A" n="92"/>nominant cultum dei actu interiori. Latria ergo cum de 
+      vi<lb ed="#A" n="93" break="no"/>sui vocabuli idem sit quod seruitus respicit actum exteri 
+      <lb ed="#A" n="94"/>orem. Et quoniam virtus quae respicit actum exteriorem versatur 
+      <lb ed="#A" n="95"/>quidammodo circa actionem et est in genere virtutis 
+      car<lb ed="#A" n="96" break="no"/>dinalis: hinc est quod latria est virtus cardinalis. Sicut 
+      <lb ed="#A" n="97"/>enim infidelis si solum credat idolo non diceretur 
+      idola<lb ed="#A" n="98" break="no"/>tra. sed infidelis tantum: quia non impendit cultum 
+      ido<lb ed="#A" n="99" break="no"/>lo. Sic fidelis si credat verum deum et non 
+      ado<lb ed="#A" n="100" break="no"/>ret non dicitur colere. quia latria vt dictum est 
+      con<lb ed="#A" n="101" break="no"/>siderat actum exteriorem sub ratione debiti. quia 
+      <lb ed="#A" n="102"/>qui soluit quod debet facit actum iusticie. Ideo 
+      <lb ed="#A" n="103"/>tatria continetur sub virtute cardinali que est 
+      iusti<lb ed="#A" n="104" break="no"/>cia. Rursus. quia species iusticie secundum quod ordinatur 
+      <lb ed="#A" n="105"/>ad venerandum naturam superiorem est ipsa religio. 
+      <lb ed="#A" n="106"/>Hinc est quod latria non solum est in genere virtutis 
+      <lb ed="#A" n="107"/>tanquam in genere remoto: sed in genere virtutis 
+      car<lb ed="#A" n="108" break="no"/>dinalis tanquam in genere subalterno In genere vero 
+      <lb ed="#A" n="109"/>iusticie sicut in genere propinquo In genere vero 
+      religi<lb ed="#A" n="110" break="no"/>vnis sicut in genere proximo. Et sic patet quod latria est virtus 
+      car<lb ed="#A" n="111" break="no"/>dinalis non theologica. Confirmatur. quia virtus theologica 
+      <!--165.xml-->
+      <pb ed="#A" n="166"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>habet deum immediate pro obiecto. Latria veronon. sed 
+      <lb ed="#A" n="2"/>honorem deo debitum. patet etiam. quia virtutes 
+      theo<lb ed="#A" n="3" break="no"/>logice non dicuntur nisi he tres. scilicet fides: spes et 
+      cha<lb ed="#A" n="4" break="no"/>ritas: quarum nulla est latria. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e378">
+               <head xml:id="Vn7Pel-j48544-Hd1e380">5</head>
+               <p xml:id="Vn7Pel-j48544-d1e382">
+                  <lb ed="#A" n="5"/>¶ Utrum latria sit virtus 
+      specia<lb ed="#A" n="6" break="no"/>lis. Respondet sanctus Bonauen. in. iii. dis. ix. ar. 
+      <lb ed="#A" n="7"/>ii. q. ii Quod latria nomsat habitum: nominat etiam 
+      cul<lb ed="#A" n="8" break="no"/>tum dei ad quem ille habitus ordinatur. Cultus autm 
+      <lb ed="#A" n="9"/>dei potest accipi tripliciter. scilicet generaliter. proprie: et 
+      <lb ed="#A" n="10"/>magis proprie.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e398">
+      ¶ Uno modo dicitur cultus actus 
+      di<lb ed="#A" n="11" break="no"/>rectus in deum sub ratione finis. et sic omnis virtus 
+      <lb ed="#A" n="12"/>est.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e405">
+      ¶ Alio modo dicitur cultus dei actus in deum 
+      di<lb ed="#A" n="13" break="no"/>rectus: non solum ratione finis. sedetiam obiecti. sic est 
+      <lb ed="#A" n="14"/>virtutum Theologicarum.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e412">
+      ¶ Tertio modo dicitur cultus dei 
+      <lb ed="#A" n="15"/>magis proprie: actus directus in deum non solum 
+      sub<lb ed="#A" n="16" break="no"/>ratione finis et obiecti. sedetiam sub ratione 
+      honora<lb ed="#A" n="17" break="no"/>bilis. et talis actus est actus adorationis. Sicut 
+      <lb ed="#A" n="18"/>enim idolatria non dicitur quodcumque peccatum. sed illud 
+      <lb ed="#A" n="19"/>quo creatura adoratur. Sic latria non dicitur quicunque 
+      <lb ed="#A" n="20"/>habitus. sed ille secundum quem cultus adorationis 
+      impen<lb ed="#A" n="21" break="no"/>ditur: qui est habitus latrie. ergo Latria est virtus specialis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e431">
+               <head xml:id="Vn7Pel-j48544-Hd1e433">6</head>
+               <p xml:id="Vn7Pel-j48544-d1e435">
+                  <lb ed="#A" n="22"/>¶ Quid sit latria. Respondetur 
+      <lb ed="#A" n="23"/>quod latria est cultus soli deo debitus et exhibitus. 
+      <lb ed="#A" n="24"/>Ubi tria tanguntur.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e444">
+      ¶ Primo genus. cum dicitur 
+      Cul<lb ed="#A" n="25" break="no"/>tus a colendo. Cultus enim commune est et diuine 
+      re<lb ed="#A" n="26" break="no"/>uerentie et create. Unde aliqui cultus solum aspiciunt 
+      <lb ed="#A" n="27"/>deum sicut finem. sicut sunt cultus virtutum moralium 
+      <lb ed="#A" n="28"/>in deum relatorum. Secundi aspiciunt deum sicut finem et 
+      <lb ed="#A" n="29"/>obiectum. sicut virtutum theologicarum. Tertii cultus 
+      <lb ed="#A" n="30"/>sunt qui aspiciunt deum sicut finem: obiectum et 
+      honoran<lb ed="#A" n="31" break="no"/>dum. sicut latrie cultus.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e462">
+      ¶ Secundo tangitur propria 
+      <lb ed="#A" n="32"/>differentia latrie. cum dicitur: Soli deo debitus. Est 
+      <lb ed="#A" n="33"/>enim summa veneratio possibilis. Tum ratione summe 
+      ve<lb ed="#A" n="34" break="no"/>ritatis. Tum ratione summe potestatis. Tum etiam ratione 
+      <lb ed="#A" n="35"/>summe bonitatis. et quia talis est solus deus. ideo solum 
+      <lb ed="#A" n="36"/>summo deo est applicanda.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e475">
+      ¶ Tertio tangitur 
+      completi<lb ed="#A" n="37" break="no"/>uum latrie. dum dicitur: Et deo exhibitus. quia si 
+      idolo<lb ed="#A" n="38" break="no"/>talis cultus exhiberetur iam non diceretur latria: sed 
+      ido<lb ed="#A" n="39" break="no"/>latria Et nota secundum Magistrum in. iii. di. ix. quod dulia 
+      <lb ed="#A" n="40"/>est duplex. scilicet hyperdulia: et dulia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e487">
+               <head xml:id="Vn7Pel-j48544-Hd1e489">7</head>
+               <p xml:id="Vn7Pel-j48544-d1e491">
+                  <lb ed="#A" n="41"/>¶ Quid sit hyperdulia. Respon 
+      <lb ed="#A" n="42"/>detur secundum Alex. de ales in. iii. par. sum. q. xxx. quod 
+      hi<lb ed="#A" n="43" break="no"/>perdulia est honor quidam valde magnus qui exhibetur 
+      <lb ed="#A" n="44"/>creature rationali excellenti propter maiorem affinitatem: et 
+      <lb ed="#A" n="45"/>coniunctionem ad deum. sicut humanitati christi et beati 
+      <lb ed="#A" n="46"/>virgini. vt patebit clarius in sequentibus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e508">
+               <head xml:id="Vn7Pel-j48544-Hd1e510">8</head>
+               <p xml:id="Vn7Pel-j48544-d1e512">
+                  <lb ed="#A" n="47"/>¶ Queritur quid sit dulia. 
+      Respo<lb ed="#A" n="48" break="no"/>detur secundum Alex. vbi supra. et Bona. in. iii. di. ix. quod dulia qeon 
+      <lb ed="#A" n="49"/>honor quidam communicabilis solum creature rationali 
+      <lb ed="#A" n="50"/>non excellenti ex particulari participatione diuini doni. 
+      </p>
+               <p xml:id="Vn7Pel-j48544-d1e523">
+                  <lb ed="#A" n="51"/>¶ Dicitur Primo: honor quidam communicabilis solum rationali 
+      <lb ed="#A" n="52"/>creature ad differentiam irrtionalium creaturarum: quibus 
+      <lb ed="#A" n="53"/>nullus honor debetur. quia dicit philosophus. iiii. Ethi. Honor est 
+      <lb ed="#A" n="54"/>exhibitio reuerentie in testimonium virtutis. Sed ex quo vt 
+      <lb ed="#A" n="55"/>dicit idem philosophus. ii ethi. quod virtus sit habitus electiuus. 
+      Ele<lb ed="#A" n="56" break="no"/>ctio vero est actus intellectus et voluntatis: quibus carent irratio¬ 
+      <!--165.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>nabilia. Dicitur secundo Non excellenti. quod dicitur ad 
+      diffe<lb ed="#A" n="58" break="no"/>rentiam christi et virginis gloriose qui dicuntur 
+      excellen<lb ed="#A" n="59" break="no"/>tes propter maxima affinitatem et coniuctionem ad deum 
+      <lb ed="#A" n="60"/>quibus debetur excellens honor. ex quo omnis alia 
+      cre<lb ed="#A" n="61" break="no"/>atura rationalis caret tali excellentia. Dicitur tertio ex 
+      <lb ed="#A" n="62"/>particulari participatione cuiusdam diuini doni propter 
+      <lb ed="#A" n="63"/>vniuersale bonum quod solum potest esse in deo et in 
+      nul<lb ed="#A" n="64" break="no"/>la alia creatura. quia vt dicit Commentator. iii de anima. 
+      <lb ed="#A" n="65"/>Quodlibet vniuersale seu quaelibet propositio vniuersa 
+      <lb ed="#A" n="66"/>lis se extendit ad infinita. Cum ergo solus deus habeat 
+      <lb ed="#A" n="67"/>infinitam essentiam: bonitatem et potentiam: solus deus 
+      di<lb ed="#A" n="68" break="no"/>citur bonum infinitum quod docet latria 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e570">
+               <head xml:id="Vn7Pel-j48544-Hd1e572">9</head>
+               <p xml:id="Vn7Pel-j48544-d1e574">
+                  <lb ed="#A" n="69"/>¶ Utrum humanitas christi sit 
+      ado<lb ed="#A" n="70" break="no"/>randa latria: Respondetur secundum Alexan. de ales. iii. parte sum 
+      <lb ed="#A" n="71"/>me. et sanctum Bonauen. ac Thomam in. iii. dist . ix. Quo 
+      <lb ed="#A" n="72"/>debet adorari duplici adoratione. videlicet latrie et hyper 
+      <lb ed="#A" n="73"/>dulie: secundum quod humanitas christi potest considerari dupli 
+      <lb ed="#A" n="74"/>citer. Uno modo prout est coniuncta diuinitati. et sic debe 
+      <lb ed="#A" n="75"/>tur ei adoratio latrie. Ratio est. quia tunc non 
+      ado<lb ed="#A" n="76" break="no"/>ratur ratione sui sed ratione diuinitatis secundum quam est 
+      <lb ed="#A" n="77"/>equalis patri. Quod sic probatur. quia illa veneratione 
+      <lb ed="#A" n="78"/>qua veneratur anima: veneratur caro anime coniuncta. 
+      <lb ed="#A" n="79"/>Ergo a simili eadem veneratione veneratur humanitas 
+      <lb ed="#A" n="80"/>vnita sicut ipsa diuinitas. dicente Athanasio in sycundum 
+      <lb ed="#A" n="81"/>bolo: Sicut anima rationalis et caro vnus est homo: 
+      <lb ed="#A" n="82"/>ita deus et homo vnus est christus. Unde super illud 
+      <lb ed="#A" n="83"/>psalmus. Adorate scabellum pedum eius quoniam sanctum est 
+      <lb ed="#A" n="84"/>dicit glori. Augustinus In christo terra id est caro sine 
+      impie<lb ed="#A" n="85" break="no"/>tate adoratur a nobis. quia nemo spiritualiter carnem eius manm 
+      <lb ed="#A" n="86"/>ducat nisi prius adoret. Quod confirmatur exemplo. Eodem 
+      <lb ed="#A" n="87"/>cim timore timetur ignis et ferum ignitum. Cum ergo 
+      na<lb ed="#A" n="88" break="no"/>tura humana verius sit vnita diuine quam ignis 
+      fer<lb ed="#A" n="89" break="no"/>ro sequitur: quod eadem potest humanitas christi adorati 
+      <lb ed="#A" n="90"/>one adorari sicut eius diuintas. Nec obstat quod in 
+      chri<lb ed="#A" n="91" break="no"/>sto non est confusio naturarum. quia vt dicit sanctus Bonanem. 
+      <lb ed="#A" n="92"/>vbi supra Quamuis purpura et vestimentum non participat 
+      <lb ed="#A" n="93"/>proprietates regis absolute communicat tamen in 
+      ho<lb ed="#A" n="94" break="no"/>nore et reueretia. Honor enim non respicit hanc partem. 
+      <lb ed="#A" n="95"/>vel illam sed respicit ipsam personam. ergo christi humanitas 
+      <lb ed="#A" n="96"/>sic considerata est adoranda latria etc. Alio modo christi 
+      <lb ed="#A" n="97"/>humanitas consideratur absolute vt esset a verbo dimit 
+      <lb ed="#A" n="98"/>sa. et tunc non esset adoranda latria: cum non sit summum 
+      <lb ed="#A" n="99"/>bonum. sed nobiliori specie dulie scilicet hyperdulie. quia 
+      <lb ed="#A" n="100"/>caro christi secundum se considerata non exit terminos 
+      <lb ed="#A" n="101"/>rrte. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e649">
+               <head xml:id="Vn7Pel-j48544-Hd1e651">10</head>
+               <p xml:id="Vn7Pel-j48544-d1e653">
+                  <lb ed="#A" n="102"/>¶ Utrum christi humanitas 
+      addal<lb ed="#A" n="103" break="no"/>aliquam rationem adorabilitatis diuinitati. maxime quia 
+      <lb ed="#A" n="104"/>per illam sumus redempti et glorificandi Et an ex hoc ad ma 
+      <lb ed="#A" n="105"/>ius sibi teneamur quam si per eum solum creati essemus 
+      <lb ed="#A" n="106"/>Super hoc Scotus geminam ponit viam in. iii. dist. ix. ar. 
+      <lb ed="#A" n="107"/>iii. sed nullam determinat. Uerior tamen videtur 
+      pri<lb ed="#A" n="108" break="no"/>ma que dicit. quod tota ratio adorabilitatis venit ex 
+      <lb ed="#A" n="109"/>parte deitatis. Unde solum creatus a deo ita 
+      ob<lb ed="#A" n="110" break="no"/>ligatur ei quantum ad latriam sicut creatus et 
+      re<lb ed="#A" n="111" break="no"/>demptus ac glorificatus.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e677">
+      ¶ Confirmatur 
+      exem<lb ed="#A" n="112" break="no"/>plo.a Quilibet religiosus vouens. in ordine tenetur 
+      <!--166.xml-->
+      <pb ed="#A" n="167"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>ad votum castitatis. rursus si sacros accipiat 
+      ordiu<lb ed="#A" n="2" break="no"/>nes. rursus ad idem obligatur nec plus quam prius: sed pro 
+      <lb ed="#A" n="3"/>pter plura. quia primo solum erat obligatus ex voto 
+      <lb ed="#A" n="4"/>religionis: postea etiam obligatur ex suscepto ordine. 
+      <lb ed="#A" n="5"/>Aliud exemplum familiare: Si quis habeat ex voto 
+      <lb ed="#A" n="6"/>ieiunare die veneris. et postea idem dies illi ieiunam: 
+      <lb ed="#A" n="7"/>dus iniungatur in penitentia: ad illud ieiunium et uobs 
+      <lb ed="#A" n="8"/>modis obligatur. Sic in proposito. Unde si per 
+      impos<lb ed="#A" n="9" break="no"/>sibile essent duo dii quorum vnus nos creasset: 
+      redo<lb ed="#A" n="10" break="no"/>misset: et glorificasset. alius vero nihil nobis fecisset 
+      <lb ed="#A" n="11"/>vtrumque deum teneremur latria honorare. quia 
+      vter<lb ed="#A" n="12" break="no"/>que esset bonum infinitum. pluribus tamen rationibus 
+      tenere<lb ed="#A" n="13" break="no"/>mur ad honorandum primum quam secundum. quia 
+      crea<lb ed="#A" n="14" break="no"/>tio: redemptio: et glorificatio non sunt nisi quedam ex 
+      <lb ed="#A" n="15"/>citationes et obligationes ad diligendum et 
+      honoran<lb ed="#A" n="16" break="no"/>dum deum.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e723">
+      ¶ Nec obstat si dicas. quod plus tenemur 
+      <lb ed="#A" n="17"/>christo gratias agere post incarnationem quam ante. ergo 
+      ma<lb ed="#A" n="18" break="no"/>gis debemus ipsum venerari. quia dicit sanctus 
+      Bo<lb ed="#A" n="19" break="no"/>nauen. dis. vbi supra in expositione litteralir. quod gratiarum: 
+      <lb ed="#A" n="20"/>actio non tantum respicit excellentiam dantis: sedetiam 
+      ex<lb ed="#A" n="21" break="no"/>cellentiam muneris. Non sic autem est de adoratione. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e738">
+               <head xml:id="Vn7Pel-j48544-Hd1e740">11</head>
+               <p xml:id="Vn7Pel-j48544-d1e742">
+                  <lb ed="#A" n="22"/>¶ Utrum cultus latrie sit 
+      exhiben<lb ed="#A" n="23" break="no"/>dus imagini christi: Et videtur quod non. quia Exodi. xx 
+      <lb ed="#A" n="24"/>dicitur. Non facies tibi imaginem neque sculptam simili 
+      <lb ed="#A" n="25"/>tudinem. Si ergo prohibitum est imaginem fieri: multo 
+      ma<lb ed="#A" n="26" break="no"/>gis adorari. Ad quod respondi scilicet Bonauen. in. iii dis. 
+      <lb ed="#A" n="27"/>ix. ar. i. q. ii quod pro illo tempore quo deus nondum fuit 
+      incar<lb ed="#A" n="28" break="no"/>natus fuit prohibitum ne quis sibi faciat imaginem. Tunc 
+      <lb ed="#A" n="29"/>enim cum deus omnino spiritus esset infigurabilis erat et in 
+      <lb ed="#A" n="30"/>circumscriptibilis
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e764">
+      ¶ Post incarnationem vero secundum huma 
+      <lb ed="#A" n="31"/>nitatem est bene figurabilis. Unde imaginum introdum 
+      <lb ed="#A" n="32"/>ctio ad ecclesiam non fuit absque rationabili causa. 
+      In<lb ed="#A" n="33" break="no"/>troducte enim fuerunt propter triplicem causam. videlicet 
+      pro<lb ed="#A" n="34" break="no"/>pter simplicium ruditatem. propter affectuum tarditatem. 
+      <lb ed="#A" n="35"/>et propter memorie labilitatem. Propter simplicium 
+      <lb ed="#A" n="36"/>ruditatem inuente sunt: vt simplices qui non possunt 
+      <lb ed="#A" n="37"/>litteras legere in huiusmodi scripturis et picturis 
+      tan<lb ed="#A" n="38" break="no"/>quam in scripturis apertius possint sacramenta fidei 
+      le<lb ed="#A" n="39" break="no"/>gere. Propter affectus tarditatem similiter 
+      intro<lb ed="#A" n="40" break="no"/>ducte sunt. vt videlicet homines qui non excitantur ad 
+      de<lb ed="#A" n="41" break="no"/>uotionem in his que pro nobis christus gessit saltem 
+      ex<lb ed="#A" n="42" break="no"/>citentur dum eadem in picturis tanquam praesentia 
+      ocu<lb ed="#A" n="43" break="no"/>lis corporeis cernunt. plus enim excitatur affectus 
+      no<lb ed="#A" n="44" break="no"/>ster per ea que videt quam per ea que audit. Propter me 
+      <lb ed="#A" n="45"/>morie labilitatem. quia ea que audiuntur solum: 
+      fa<lb ed="#A" n="46" break="no"/>cilius traduntur obliuioni quam ea que videntur. Ideo 
+      <lb ed="#A" n="47"/>dispensatione dei factum est vt imagines fierent. quoniam 
+      <lb ed="#A" n="48"/>ergo imago christi introducta est ad representandum 
+      <lb ed="#A" n="49"/>eum qui pro nobis crucifixus est. nec offert se pro se 
+      <lb ed="#A" n="50"/>sed pro illo. Ideo omnis reuerentia que ei offertur 
+      <lb ed="#A" n="51"/>exhibetur christo. propterea imagini christi cultus 
+      la<lb ed="#A" n="52" break="no"/>trie debetur. Ideo dicit Damasce. Honor refertur 
+      <lb ed="#A" n="53"/>ad prototypum. id est ad imaginatum in quo nec 
+      <lb ed="#A" n="54"/>idolatramus. quia non adoramus ratione sui 
+      imma<lb ed="#A" n="55" break="no"/>ginis: sed potius cuius sunt imagines.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e821">
+      ¶ Nec 
+      <lb ed="#A" n="56"/>pbstat si dicas. quod creatura viuens nobilior est non 
+      <lb ed="#A" n="57"/>viuente. quia similior est summe vite. minus ergo 
+      <!--166.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>sunt honore digne quam talpe et vespertiliones. 
+      Dicen<lb ed="#A" n="59" break="no"/>dum quod verum est de nobilitate reali: sed non sunt 
+      <lb ed="#A" n="60"/>nobiliores nobilitate significationis. sicut sunt ima 
+      <lb ed="#A" n="61"/>gines domini nostri Iesu christi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e842">
+               <head xml:id="Vn7Pel-j48544-Hd1e844">12</head>
+               <p xml:id="Vn7Pel-j48544-d1e846">
+                  <lb ed="#A" n="62"/>¶ Utrum cultus latrie matri 
+      chri<lb ed="#A" n="63" break="no"/>ti debeat exhiberi. Et videtur quod sic. quia caro christi 
+      <lb ed="#A" n="64"/>consimilis fuit nature et consubstantialis carni 
+      vir<lb ed="#A" n="65" break="no"/>tinis. Sed christus secundum humanam naturam adorandus 
+      <lb ed="#A" n="66"/>latria. ergo pari ratione humana natura in virgine eius 
+      <lb ed="#A" n="67"/>matre. Respondet sanctus Bona. vbi supra arti. i. q. iii. quod 
+      <lb ed="#A" n="68"/>caro christi non adoratur adorationet latrie inquantum 
+      ca<lb ed="#A" n="69" break="no"/>ro humana sed inquantum est a verbo assumpta. 
+      Di<lb ed="#A" n="70" break="no"/>cendum ergo Beatissima virgo Maria pura 
+      crea<lb ed="#A" n="71" break="no"/>tura est. et ideo ad honorem et cultum latrie non 
+      ascen<lb ed="#A" n="72" break="no"/>dit. Sed quoniam excellentissimum nomen habet: ita quod 
+      <lb ed="#A" n="73"/>excellentius pure creature conuenire non potest: ideo 
+      <lb ed="#A" n="74"/>non tantum debetur eni honor dulie sed hyperdulie. quia 
+      <lb ed="#A" n="75"/>eam non solum homines verum etiam angeli reuereum 
+      <lb ed="#A" n="76"/>tur quadam praerogatiua speciali. Ex hoc enim quod mater 
+      <lb ed="#A" n="77"/>dei est: praelata est ceteris creaturis. ergo merito pre 
+      <lb ed="#A" n="78"/>ceteris honoratur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e886">
+               <head xml:id="Vn7Pel-j48544-Hd1e888">13</head>
+               <p xml:id="Vn7Pel-j48544-d1e890">
+                  <lb ed="#A" n="79"/>¶ Utrum cultus latrie sit 
+      exhiben<lb ed="#A" n="80" break="no"/>dus cruci christi: Et videtur quod non. Quia crux 
+      <lb ed="#A" n="81"/>christi est pura creatura non vnita verbo. ergo si 
+      <lb ed="#A" n="82"/>latria non debetur nisi soli deo per se et nature assum 
+      <lb ed="#A" n="83"/>pte respectu persone. ergo videtur quod exhibere cul 
+      <lb ed="#A" n="84"/>tum latrie cruci christi sit idolatrare Preterea ma 
+      <lb ed="#A" n="85"/>ter christi plus approx. mat christo quam crux eius. et melior 
+      <lb ed="#A" n="86"/>et nobilior est creatura. Sed virgo matur non est 
+      ado<lb ed="#A" n="87" break="no"/>randa latria. ergo nec crux christi
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e912">
+      ¶ Ceterum crux christi nihil 
+      <lb ed="#A" n="88"/>meruit vel demeruit: et non magis sentit laudem quam 
+      <lb ed="#A" n="89"/>vituperium cum sit res insensibilis ergo ei nulla reuerentia 
+      <lb ed="#A" n="90"/>est exhibenda. Respondet sanctus Bona. in. iii. di. ix. ar. q. 
+      <lb ed="#A" n="91"/>iiii. Quod cum crux christi nec sit deus nec diuitati quid vni 
+      <lb ed="#A" n="92"/>tum. ideo non est ei cultus latrie exhibendus per se. ideo non est 
+      <lb ed="#A" n="93"/>adoranda nisi inquantum in ea adoratur christus. Neque est 
+      ali<lb ed="#A" n="94" break="no"/>qua reuerentia exhibenda ei nisi ratione crucifixi. sicut 
+      <lb ed="#A" n="95"/>nec imagini nisi ratione imaginati. et ideo cruci christi est 
+      <lb ed="#A" n="96"/>cultus latrie exhibendus
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e934">
+      ¶ Propterea ad argumenium 
+      <lb ed="#A" n="97"/>primum dicendum Quod crux non adoratur vt res sed vt 
+      si<lb ed="#A" n="98" break="no"/>gnum rememoratiuum ducens in crucifixum: sicut et ima 
+      <lb ed="#A" n="99"/>go ducens ad imaginatum.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e943">
+      ¶ Notandum 
+      tamen<lb ed="#A" n="100" break="no"/>quod dicit magister Ioannes Holot super libro 
+      Sa<lb ed="#A" n="101" break="no"/>pientie. Quod latria est honor soli deo debitus. ergo 
+      ta<lb ed="#A" n="102" break="no"/>lis honor non debet exhiberi cruci vel imagini. quia 
+      <lb ed="#A" n="103"/>qui honorat aliquid honore latrie confitetur 
+      il<lb ed="#A" n="104" break="no"/>lud esse deum. et aliud a deo esset deus. Ideo 
+      in<lb ed="#A" n="105" break="no"/>quit videtur mihi dicendum: quod nec adoro 
+      cru<lb ed="#A" n="106" break="no"/>cem vel imaginem. quia est imago vel crux christi. sed 
+      ado<lb ed="#A" n="107" break="no"/>ro christum coram immagine vel cruce. quia excitat me ad 
+      <lb ed="#A" n="108"/>adorandum christum
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e966">
+      ¶ Ad illud vero quod mater christi plus 
+      ap<lb ed="#A" n="109" break="no"/>propinquat christo qua crux: dicendum Quod matri christi de 
+      <lb ed="#A" n="110"/>betur adoratio propria cum ipsa sit rationis capax. Unde 
+      <lb ed="#A" n="111"/>cum virginem adoramus eius beniuolentiam ca 
+      <lb ed="#A" n="112"/>ptamus et desideramus. Cum vero crucem 
+      adora<lb ed="#A" n="113" break="no"/>mus non intendimus placere cruci: sed crucifixo.
+    </p>
+               <!-- potential missing page here??; no section 14 -->
+               <p xml:id="Vn7Pel-j48544-d1e981">
+      <!--167.xml-->
+                  <pb ed="#A" n="168"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Ad vltimum dicendum Quod sicut duplex est laus 
+      <lb ed="#A" n="2"/>sic duplex est honor. Aliquid enim laudatur propter 
+      excel<lb ed="#A" n="3" break="no"/>lentiam sue nature sine meritis. sic res pulcra 
+      vtpo<lb ed="#A" n="4" break="no"/>te rosa. Aliquid vero laudatur propter virtutis 
+      strenuita<lb ed="#A" n="5" break="no"/>tem. et hec respicit meritum. Et iste honor non est 
+      exhi<lb ed="#A" n="6" break="no"/>bendus cruci nisi ratione crucifixi. Alius honor 
+      <lb ed="#A" n="7"/>potest illi exhiberi. Tum quia in ea pependit 
+      sal<lb ed="#A" n="8" break="no"/>uator noster Tum etiam quia fuit instrumentum 
+      no<lb ed="#A" n="9" break="no"/>stre redemptionis. Tum insuper quia per praesentiam 
+      <lb ed="#A" n="10"/>istius ligni multa beneficia sunt fidelibus impensa et 
+      mul<lb ed="#A" n="11" break="no"/>ta miracula facta. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e1015">
+               <head xml:id="Vn7Pel-j48544-Hd1e1017">15</head>
+               <p xml:id="Vn7Pel-j48544-d1e1019">
+                  <lb ed="#A" n="12"/>¶ Utrum latria sit exhibenda mem 
+      <lb ed="#A" n="13"/>brls christi: Uidetur quod sic. quia corpus christi verum 
+      re<lb ed="#A" n="14" break="no"/>fertur ad corpus christi mysticum tanquam signum ad 
+      si<lb ed="#A" n="15" break="no"/>gnatum. ergo si signatum sit nobilius signo corpus 
+      <lb ed="#A" n="16"/>christi mysticum est magis vel eque nobile quam 
+      cor<lb ed="#A" n="17" break="no"/>pus christi verum. Sed verum corpus christi 
+      ado<lb ed="#A" n="18" break="no"/>ratur latria ergo et mysticum. Item eadem 
+      adora<lb ed="#A" n="19" break="no"/>tione adoratur caput regis et alia membra. sed 
+      chri<lb ed="#A" n="20" break="no"/>stus est caput ecclesie et adoratur adoratione latrie: 
+      er<lb ed="#A" n="21" break="no"/>go alia eius membra Preterea quodlibet membrum 
+      <lb ed="#A" n="22"/>christi est imago christi. ergo si imago christi depi 
+      <lb ed="#A" n="23"/>cta adoratur adoratione latrie: fortius immago christi 
+      vi<lb ed="#A" n="24" break="no"/>ua.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1050">
+      ¶ Respondet ad hoc sanctus Bona. dis. qua supra 
+      <lb ed="#A" n="25"/>q. v. Quod absque dubio cultus latrie membris christi non est 
+      <lb ed="#A" n="26"/>exhibendus. pro eo quod membra christi sumus secundum humanam 
+      <lb ed="#A" n="27"/>naturam. Et taliter sumus membra vt tantum ratio membri non 
+      <lb ed="#A" n="28"/>tollat rationem seruitutis. nec ponat equalitatem dignita 
+      <lb ed="#A" n="29"/>tis. Et quoniam latria debetur creatori ratione sue 
+      maiesta<lb ed="#A" n="30" break="no"/>tis. hinc est quod membris christi non competit cultus latrie 
+      <lb ed="#A" n="31"/>Multa enim distantia distat caput a corpore: ratione 
+      di<lb ed="#A" n="32" break="no"/>uinitatis vnite.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1070">
+      ¶ Ad argumenta vero dicendum. 
+      <lb ed="#A" n="33"/>Ad primum. quod si loquimur de corpore christi vero prout 
+      dei<lb ed="#A" n="34" break="no"/>tati vnitum est. quod corpus christi verum multo nobilius est 
+      <lb ed="#A" n="35"/>corpore suo mystico. quia corpus christi mysticum non est dei 
+      <lb ed="#A" n="36"/>tati vnitum in vnitate persone sicut corpus christi verum quet 
+      <lb ed="#A" n="37"/>non est ei exhibenda tanta reuerentia. Signatum vero 
+      <lb ed="#A" n="38"/>tunc est nobilius signo: quando signatum est causa signi. 
+      <lb ed="#A" n="39"/>non sic autem in proposito. Corpus enim christi non dicitur 
+      <lb ed="#A" n="40"/>signum nisi inquantum latet sub sacramento et ratione 
+      ipsa<lb ed="#A" n="41" break="no"/>rum specierum continentium.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1092">
+      ¶ Ad secundum vero dicendum 
+      <lb ed="#A" n="42"/>Quod non est simile. quia caputregis cum membris eius simuis 
+      <lb ed="#A" n="43"/>pliciter est eiusdem nature. Christus autem qui est 
+      ca<lb ed="#A" n="44" break="no"/>put nostrum praeter humanam naturam in qua 
+      communi<lb ed="#A" n="45" break="no"/>cat nobiscum naturam habet diuinam ratione cuius 
+      <lb ed="#A" n="46"/>exhibetur illi latria.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1106">
+      ¶ Ad vltimum vero respondet 
+      <lb ed="#A" n="47"/>idem sanctus Bonauen. Quod membris christi non est 
+      exhiben<lb ed="#A" n="48" break="no"/>dus cultus latrie sicut christi imaginibus. quia illa imago 
+      <lb ed="#A" n="49"/>in membris christi non se offert tantum vt ductiuam in aliud: 
+      <lb ed="#A" n="50"/>sed vt rem rationalem et dignum honore. ideo honor sibi 
+      ex<lb ed="#A" n="51" break="no"/>hibitus non totaliter refertur ad figuratum sicut in 
+      <lb ed="#A" n="52"/>imagine sculpta. Unde propter duplex periculum 
+      iun<lb ed="#A" n="53" break="no"/>ctum: et a parte adorantis et a parte adorati non debet 
+      <lb ed="#A" n="54"/>deus adorari in suis membris latria. videlicet ne adoratus 
+      <lb ed="#A" n="55"/>superbiat et extollatur per inanem gloriam quasi honor ille 
+      si<lb ed="#A" n="56" break="no"/>bi impendatur. et ne adorans cadat in idolatriam aspi 
+      ci<lb ed="#A" n="57" break="no"/>endo tantum ad formam humanam 
+      <!--167.xml-->
+      <cb ed="#A" n="b"/>
+               </p>
+               <p xml:id="Vn7Pel-j48544-d1e1137">
+                  <lb ed="#A" n="58"/>¶ Utrum cultus latrie possit 
+      exhi<lb ed="#A" n="59" break="no"/>deri christi aduersario sine peccato. Et videtur quod sic. quia per 
+      <lb ed="#A" n="60"/>ignorantiam excusari videtur quando angelus sathane 
+      trans<lb ed="#A" n="61" break="no"/>igurat se in angelum lucis. sicut qui ignoranter emit cuprum 
+      <lb ed="#A" n="62"/>intendens emere aurum non damnificatur. ergo 
+      qui<lb ed="#A" n="63" break="no"/>ndorat diabolum credens christum non peccat: Respondetur secundum 
+      <lb ed="#A" n="64"/>sanctum Bona. quod honor latrie dupliciter potest exhiberi ad 
+      <lb ed="#A" n="65"/>uersario christi Aut simpliciter: autm sub conditione. Si 
+      <lb ed="#A" n="66"/>simpliciter tunc non potest esse sine peccato. quia offertur cultus 
+      la<lb ed="#A" n="67" break="no"/>trie alteri quam deo. Et ideo ibi est peccatum idolatrie. Nec 
+      <lb ed="#A" n="68"/>excusatur ratione ignorantie. Habet enim triplex adiuto 
+      <lb ed="#A" n="69"/>rium per quod potest errorem euitare.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1166">
+      ¶ Primum adiutorium 
+      <lb ed="#A" n="70"/>sacre scripture quae dicit: quod multi in nomine christi venturi 
+      <lb ed="#A" n="71"/>sunt mendaciter.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1173">
+      ¶ Secundum est remedium orationis in 
+      <lb ed="#A" n="72"/>terne vt illuminet cor.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1178">
+      ¶ Tertium est suspensio 
+      cre<lb ed="#A" n="73" break="no"/>dulitatis sue. Non enim debet omni spiritui credere. 
+      <lb ed="#A" n="74"/>sed probet qui ex deo sunt. Qui enim cito credit in talibus 
+      <lb ed="#A" n="75"/>leuis est corde. et fortassis etiam inflatus corde dum ad 
+      <lb ed="#A" n="76"/>tales visiones idoneum se estimat. Unde huiusmodi appa 
+      <lb ed="#A" n="77"/>ritiones potius formidande sunt quam optande. Narratur enim 
+      <lb ed="#A" n="78"/>de quodam sancto patre Quod cum ei diabolus in specie christi 
+      ap<lb ed="#A" n="79" break="no"/>pareret. ille clausis oculis dixit se in hac vita 
+      nol<lb ed="#A" n="80" break="no"/>le christum videre. At diaholus eius humilitate confusus 
+      <lb ed="#A" n="81"/>quanuit. Si autem adoret quis sub conditione. hoc potest esse 
+      <lb ed="#A" n="82"/>dupliciter. Aut quia illa conditio est habitualiter aut 
+      actu<lb ed="#A" n="83" break="no"/>aliter considerata siue apposita. Si actualiter: sic non 
+      <lb ed="#A" n="84"/>adorat luciferum sed christut. quia non stat adoratio nisi 
+      sta<lb ed="#A" n="85" break="no"/>te conditione. Si autem illa conditio sit sub consideratione 
+      ha<lb ed="#A" n="86" break="no"/>bituali. hoc modo non sufficit ad vitandum peccatum 
+      idola<lb ed="#A" n="87" break="no"/>trie respectu talis apparitionis. quia est insolita huiusmodi 
+      <lb ed="#A" n="88"/>figuratio. ergo caute est procedendum In adoratione 
+      vero<lb ed="#A" n="89" break="no"/>respectu sacramentialtaris sufficit conditio habituals. quia 
+      <lb ed="#A" n="90"/>talis consecratio est consueta. nec adorans experiri potest de 
+      <lb ed="#A" n="91"/>illo aliquo modo. sicut hic per orationem et alia adiutoria 
+      prae<lb ed="#A" n="92" break="no"/>dicta.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1224">
+      ¶ Ad argumentum autem dicendum Quod 
+      inten<lb ed="#A" n="93" break="no"/>tio emedi aurum Aut solum fuit in mente aut etiam in 
+      ser<lb ed="#A" n="94" break="no"/>mone. Si solum in mente et non in sermone tunc emens 
+      <lb ed="#A" n="95"/>non habet ius repetendi etc. Quod autem sit peccatum sic 
+      ap<lb ed="#A" n="96" break="no"/>parentem diabolum adorare patet. quia ideo ipse sic se 
+      <lb ed="#A" n="97"/>transfigurat vt adoretur ideo adorari vult vt decipi 
+      <lb ed="#A" n="98"/>at et peccare faciat. propterea licet diabolus sit 
+      crea<lb ed="#A" n="99" break="no"/>tura rationalis. tamen quia est obstinatus in 
+      pecca<lb ed="#A" n="100" break="no"/>to nulla debetur illi veneratio. Idem dicit sanctus Tho. 
+      <lb ed="#A" n="101"/>in. iii. di. ix. arti. ii. q. iii de quolibet malo dum actu pec 
+      <lb ed="#A" n="102"/>cat. etiam de praelato. Uerum est tamen quod actu tram seunte 
+      <lb ed="#A" n="103"/>peccati honorandus inquit est praelatus: quia nescitur tunc 
+      <lb ed="#A" n="104"/>an amore vel odio dignus sit. quia deus cor subi 
+      <lb ed="#A" n="105"/>to immutat. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j48544-Dd1e1256">
+               <head xml:id="Vn7Pel-j48544-Hd1e1258">16</head>
+               <p xml:id="Vn7Pel-j48544-d1e1260">
+                  <lb ed="#A" n="106"/>¶ Queritur qui sunt actus latrie. 
+      <lb ed="#A" n="107"/>Respondetur secundum Alexam. de ales Quod sunt due species actu 
+      <lb ed="#A" n="108"/>um latrie. Prime speciei actus sunt illi quos producit 
+      <lb ed="#A" n="109"/>mediamn tibus virtutibus quibus imperat ordinans eos in dei 
+      <lb ed="#A" n="110"/>reuerentiam. Et sic religionis actus per modum 
+      im<lb ed="#A" n="111" break="no"/>perii ponitur Iaco. i. esse visitare infirmos: qui 
+      <lb ed="#A" n="112"/>est actus elicitus a miseri cordia. et immaculatum 
+      <lb ed="#A" n="113"/>se custodire qui eliciter a temperantia
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1280">
+      ¶ Secunde 
+      <!--168.xml-->
+      <pb ed="#A" n="169"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>species actus sunt illi quos producit per se et immediate 
+      <lb ed="#A" n="2"/>per quos ordinatur tantum ad deum: et inter eos habet 
+      ali<lb ed="#A" n="3" break="no"/>quos interiores tanquam principaliores et per se. vt est 
+      <lb ed="#A" n="4"/>deuotio et oratio. Aliquos vero exteriores quasi 
+      secun<lb ed="#A" n="5" break="no"/>darios et ordinatos ad interiores quibus ipsa vtitur 
+      <lb ed="#A" n="6"/>quasi signis ad excitandum mentem ad actus spiritu 
+      <lb ed="#A" n="7"/>ales: et in aliquibus horum exteriorum corpus ad vene 
+      <lb ed="#A" n="8"/>randum deo exhibetur. vt in adoratione. In aliquibus 
+      <lb ed="#A" n="9"/>vero de rebus exterioribus offertur: et hec vel promittendo: 
+      <lb ed="#A" n="10"/>vt in votis: vel in dando: vt sacrificiis: oblationibus 
+      <lb ed="#A" n="11"/>primiciis: decimis et huiusmodi 
+      </p>
+               <p xml:id="Vn7Pel-j48544-d1e1313">
+                  <lb ed="#A" n="12"/>¶ Utrum sacrificium sit actus latrie. 
+      <lb ed="#A" n="13"/>Respondetur quod triplex est sacri ficium.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1320">
+      ¶ Primum 
+      bo<lb ed="#A" n="14" break="no"/>ne operationis: et istud est virtutum moralin. Psalmus 
+      Sa<lb ed="#A" n="15" break="no"/>crificate sacrificium iusticie.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1328">
+      ¶ Secundum orationis. et 
+      <lb ed="#A" n="16"/>istud est virtutum theologicarum
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1333">
+      ¶ Hinc Augustinus. in 
+      en<lb ed="#A" n="17" break="no"/>chyridi. Fide: spe: et charitate colitur deus.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1338">
+      ¶ 
+      Ter<lb ed="#A" n="18" break="no"/>tium est immolationis. et istud est latrie. De quo 
+      Au<lb ed="#A" n="19" break="no"/>gusti. de ciuita. dei. Nunquam fuit ab initio aliqua 
+      se<lb ed="#A" n="20" break="no"/>cta que aliquibus sacrificiis et ritibus non 
+      distingue<lb ed="#A" n="21" break="no"/>t. 
+      </p>
+               <p xml:id="Vn7Pel-j48544-d1e1349">
+                  <lb ed="#A" n="22"/>¶ Utrum actus adorationis qui fit 
+      <lb ed="#A" n="23"/>per genuflexionem sit soli deo exhibendus. Et argui 
+      <lb ed="#A" n="24"/>tur quod sic per hoc quod Mardocheus noluit hoc 
+      mo<lb ed="#A" n="25" break="no"/>do adorare Aman. cus causa dicitur Hester. xiii. 
+      Li<lb ed="#A" n="26" break="no"/>penter inquit pro salute israel etiam vestigia pedum eius 
+      <lb ed="#A" n="27"/>deosculari paratus essem. sed timui ne honorem dei 
+      <lb ed="#A" n="28"/>mei transferam ad hominem. Similiter Apoca. xxii. 
+      <lb ed="#A" n="29"/>dicit beatus Ioan. Cumque audissem et vidissem: 
+      ceci<lb ed="#A" n="30" break="no"/>di vt adorarem ante pedes angeli qui mihi ostendebat. 
+      <lb ed="#A" n="31"/>hec: et dixit mihi: vide ne feceris. et sequitur: Deum 
+      <lb ed="#A" n="32"/>adora. Respondet Lyra super. iii. ca. Hester. quod licet. 
+      <lb ed="#A" n="33"/>adoratio principaliter consistat in actu interioris men 
+      <lb ed="#A" n="34"/>tis deum reuerentis: habet tantum ex consequenti aliquem 
+      <lb ed="#A" n="35"/>actum seu aliquod obsequium exterius: quod est signum 
+      <lb ed="#A" n="36"/>actus interioris: Et in hoc omnes doctores tam 
+      <lb ed="#A" n="37"/>hebrei quam latini concordant. quod sit aliqua reuerentia vel 
+      <lb ed="#A" n="38"/>scruitus exterior soli deo exhibenda: sed in 
+      particu<lb ed="#A" n="39" break="no"/>lari quae sit illa varie dicitur. Quidam dixerunt quod genuum 
+      <lb ed="#A" n="40"/>flexio vnius vel duorum est huiusmodi. hoc accipientes ex 
+      <lb ed="#A" n="41"/>verbis Mardochei vt supra dictum est. quos aliqui 
+      <lb ed="#A" n="42"/>christiani secuti sunt dicentes. quod coram personis 
+      excel<lb ed="#A" n="43" break="no"/>lentibus licite possit vnum genu flecti: tamen soli deo sunt 
+      <lb ed="#A" n="44"/>duo genua flectenda. Sed hoc dictum videtur mihi 
+      <lb ed="#A" n="45"/>durum et contra sacram scripturam. quia dicitur. i. Reg. 
+      <lb ed="#A" n="46"/>xxv. quod Abigail procidit super facie suam coram Dauid 
+      <lb ed="#A" n="47"/>et adorauit super terram. Et similiter dicitur. iiii. Re¬. 
+      <lb ed="#A" n="48"/>ist de Abdia. quod curuauit genua contra Heliam et 
+      prae<lb ed="#A" n="49" break="no"/>catus est eum: quod non fecisset qui fuit propheta: nec 
+      Hy<lb ed="#A" n="50" break="no"/>lias fieri permisisset si genuflexio esset illicita. Et ide 
+      <lb ed="#A" n="51"/>dicendum quod non est illicita genuflexio coram hominibus 
+      <lb ed="#A" n="52"/>maxime quia ecclesia sciens vbique talem adorandimo 
+      <lb ed="#A" n="53"/>dum et non predicat contrarium.
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1421">
+      ¶ Ad cuius 
+      plo<lb ed="#A" n="54" break="no"/>niorem intellectum considerandum. quod aliqua de 
+      diui<lb ed="#A" n="55" break="no"/>nis honoribus tracta sunt ad creaturas 
+      excellen<lb ed="#A" n="56" break="no"/>tes: partim timore: partim adulatione: et partim 
+      <lb ed="#A" n="57"/>nimia bumilitate. non tamen sunt eis exhibita tan¬ 
+      <!--168.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quam deo. sed sicut creaturis eiuis excellentiam participtum 
+      <lb ed="#A" n="59"/>tibus ratione sanctitatis vel dignitatis. de quibus est 
+      ge<lb ed="#A" n="60" break="no"/>nuflexio. Et licet huiusmodi primo fuerint ex malo 
+      moti<lb ed="#A" n="61" break="no"/>uo vel saltem minus bono introducta: Tamen ex quo 
+      com<lb ed="#A" n="62" break="no"/>suetudo inualuit: exhibentur licite creaturis 
+      excellen<lb ed="#A" n="63" break="no"/>tibus: dum tamen non sit intentio exhibentis talia 
+      ho<lb ed="#A" n="64" break="no"/>minibus exhibere tanquam deo. nec recipientis hoc modo 
+      <lb ed="#A" n="65"/>recipere. Et sic per intentionem exhibentis et recipientis 
+      <lb ed="#A" n="66"/>tollitur proprietas actus interioris latrie. remanet tantum 
+      <lb ed="#A" n="67"/>aliqua seruitus soli deo exhibenda que est actus 
+      <lb ed="#A" n="68"/>exterior latrie et signum actus interioris et oblatio 
+      sa<lb ed="#A" n="69" break="no"/>crificii: que in nulla lege exhibetur alicui nisi ei qui 
+      <lb ed="#A" n="70"/>pro deo habetur. Et hec videtur sententia 
+      Augustini<lb ed="#A" n="71" break="no"/>de ciuitate dei libro x. dicentis. Multa denique de 
+      cul<lb ed="#A" n="72" break="no"/>tu diuino vsurpata sunt quae honoribus deferuntur 
+      hu<lb ed="#A" n="73" break="no"/>manis: siue humilitate nimia: siue adulatione 
+      pesti<lb ed="#A" n="74" break="no"/>fera: Ita tamen vt quibus ea deferuntur homines haberentur 
+      <lb ed="#A" n="75"/>qui dicuntur colendi. Et sequitur. Quis vero sacrificium 
+      <lb ed="#A" n="76"/>censuit nisi venerandi ei quem deum: aut sciuit: aut 
+      pu<lb ed="#A" n="77" break="no"/>tanit: aut finxit. q. dicit nullus
+     </p>
+               <p xml:id="Vn7Pel-j48544-d1e1480">
+      ¶ Ad argunentum 
+      <lb ed="#A" n="78"/>vero dicendum Quod aliquid est licitum de se. ratione tantum 
+      <lb ed="#A" n="79"/>alicuius circumstantie fit illicitum. Sic genuflexio 
+      <lb ed="#A" n="80"/>Mardochei exhibenda Aman fuit licita. sed ex 
+      <lb ed="#A" n="81"/>parte Aman recipientis fuit illicita: qui hoc modo 
+      <lb ed="#A" n="82"/>querebat adorari vt regnum consequeretur et tanquam deus 
+      <lb ed="#A" n="83"/>haberetur. sicut Nabuchodonosor rex Assyriorum 
+      Iu<lb ed="#A" n="84" break="no"/>dith. iii praecepit Holoferni vt omnes deos terre 
+      ex<lb ed="#A" n="85" break="no"/>terminaret: vt ipse solus deus diceretur. quod fuit 
+      <lb ed="#A" n="86"/>llititum. ergo illi non exhibendum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

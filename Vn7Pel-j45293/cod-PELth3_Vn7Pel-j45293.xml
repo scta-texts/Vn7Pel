@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Concupiscentia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Concupiscentia</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="154"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j45293">
+            <head xml:id="Vn7Pel-j45293-Hd1e110">Concupiscentia</head>
+            <div xml:id="Vn7Pel-j45293-Dd1e112">
+               <head xml:id="Vn7Pel-j45293-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j45293-d1e116">
+                  <lb ed="#A" n="44"/>¶ Concupiscentia. 
+      <lb ed="#A" n="45"/>In qua claret charitas dici. quia per 
+      <lb ed="#A" n="46"/>eam trahit nos ad se. Nam licet 
+      pecca<lb ed="#A" n="47" break="no"/>tum originale deleatur in baptismo: tamen remanet 
+      con<lb ed="#A" n="48" break="no"/>cupiscentia vt per eam exerceamur et resistamus et 
+      me<lb ed="#A" n="49" break="no"/>ritum adquiramus. propterea dicitur Osee. xi. In 
+      vin<lb ed="#A" n="50" break="no"/>culis Adam traham eum. Ueruntamen ipsa 
+      concu<lb ed="#A" n="51" break="no"/>piscentia est prohibita Exo. xx. Non desiderabis 
+      vxo<lb ed="#A" n="52" break="no"/>rem proximi tui. non seruum: non ancillam: non bouem: non 
+      <lb ed="#A" n="53"/>asinum: neque omnia que illius sunt
+     </p>
+               <p xml:id="Vn7Pel-j45293-d1e140">
+      ¶ Sed 
+      diffi<lb ed="#A" n="54" break="no"/>cultas est circa hoc praeceptum prima
+     </p>
+               <p xml:id="Vn7Pel-j45293-d1e145">
+      ¶ Utrum hec 
+      <lb ed="#A" n="55"/>duo praecepta que sunt de non concupiscendo vxorem 
+      <lb ed="#A" n="56"/>et rem proximi sint praecepta legis naturalis: Et vide¬ 
+      <!--153.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>tur quod non. quia dicit apostolus Rhom. vii. 
+      Concupi<lb ed="#A" n="58" break="no"/>scentiam nesciebam nisi lex diceret Non concupisces. 
+      <lb ed="#A" n="59"/>Respondetur secundum Astexanum in summa libr i. ti. xliii. Quod 
+      <lb ed="#A" n="60"/>illa praecepta sunt legis naturalis. quia sicut in 
+      co<lb ed="#A" n="61" break="no"/>de nostro est scriptum quod malum non est faciendum. ita 
+      <lb ed="#A" n="62"/>etiam quod malum non est concupiscendum. Apostolus vero 
+      loqui<lb ed="#A" n="63" break="no"/>tur in persona illorum in quibus lex naturalis cerat 
+      in<lb ed="#A" n="64" break="no"/>tantum obscurata quod nesciebant quod concupiscentia 
+      <lb ed="#A" n="65"/>esset peccatum. sicut Iosephus reprehendit 
+      Polibi<lb ed="#A" n="66" break="no"/>um historiographum persarum dicentem. Q¶ Antio 
+      <lb ed="#A" n="67"/>chus illustris miserabiliter mortuus fuit eo quod 
+      vo<lb ed="#A" n="68" break="no"/>luit spoliare templum Diant. Sed ipse dicit. Nam 
+      <lb ed="#A" n="69"/>qui nullatenus egit peccatum sed tantum cogitauit nullo 
+      <lb ed="#A" n="70"/>reatu teneri. Et id eo concludit ibidem. quod mortuus 
+      <lb ed="#A" n="71"/>fuit propter peccata que fecerat in hierusalem. Sed 
+      <lb ed="#A" n="72"/>bicere quod actus interior voluntatis nullius sit 
+      <lb ed="#A" n="73"/>reatus nisi aliquo modo prorumpat in actum est 
+      mus<lb ed="#A" n="74" break="no"/>tum irrationabile. cum ratio peccati magis 
+      acci<lb ed="#A" n="75" break="no"/>piatur a mala voluntate interiori quam ab actu extem 
+      <lb ed="#A" n="76"/>riori. quia si nullo modo est voluntarium nullo 
+      mo<lb ed="#A" n="77" break="no"/>do est peccatum. vt patet in pueris et amentibus. 
+      <lb ed="#A" n="78"/>Secunda difficultas Utrum in dictis praeceptis 
+      <lb ed="#A" n="79"/>prohibeatur interior actus concupiscentie in primo 
+      <lb ed="#A" n="80"/>motu aut in delectatione vel in consensu. Respondet 
+      <lb ed="#A" n="81"/>Astexa. vbi supra quod tripliciter potest concupiscentia 
+      su<lb ed="#A" n="82" break="no"/>mi. Uno modo potest dici appetitus vegetabilis 
+      <lb ed="#A" n="83"/>Et talis concupiscentia prout est inordinata est a fomi 
+      <lb ed="#A" n="84"/>te mouente id est a corruptione originalis culpe. Et 
+      <lb ed="#A" n="85"/>isto modo non est peccatum nec est prohibita: sicut 
+      dicen<lb ed="#A" n="86" break="no"/>te philosopho Cecum natum non reprehendimus de carem 
+      <lb ed="#A" n="87"/>tia visus: sed illius potius miseremur. Alio 
+      mo<lb ed="#A" n="88" break="no"/>do concupiscentia post est dici appetitus sensibilis. 
+      <lb ed="#A" n="89"/>et hoc prout est inordinata est a mouente sensualita 
+      <lb ed="#A" n="90"/>te cum fomite. ita quod prima concupiscentia est in 
+      sug<lb ed="#A" n="91" break="no"/>gestione. Secunda in delectatione. neque hec prohibetur 
+      <lb ed="#A" n="92"/>diuino precepto simpliciter sed tantum secundum quid. quia 
+      <lb ed="#A" n="93"/>non erat prohibendum ne concupiscentie sint in nobis 
+      <lb ed="#A" n="94"/>quia hoc est impossibile nobis. Sed prohibentur ne 
+      <lb ed="#A" n="95"/>equamur eas in consensum. secundum illud Eccli. xviii. 
+      <lb ed="#A" n="96"/>Phost concupiscentias tuas ne eas. Ire autem idem 
+      <lb ed="#A" n="97"/>est quod consentire.
+     </p>
+               <p xml:id="Vn7Pel-j45293-d1e245">
+      ¶ Tertio modo concupiscentia 
+      di<lb ed="#A" n="98" break="no"/>citur cum consensu voluntatis. Et sic in diuino 
+      prae<lb ed="#A" n="99" break="no"/>cepto prohibetur a domino dicente: Non concupisces vxorem 
+      <lb ed="#A" n="100"/>proximi tui. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j45293-Dd1e255">
+               <head xml:id="Vn7Pel-j45293-Hd1e257">2</head>
+               <p xml:id="Vn7Pel-j45293-d1e259">
+                  <lb ed="#A" n="101"/>¶ Tertia difficultas Utrum mala 
+      <lb ed="#A" n="102"/>voluntas et opus sint duo peccata. Respondetur secundum Alexam. 
+      <lb ed="#A" n="103"/>de ales in expositione praeccptorum Quod quando voluntas et opus 
+      <lb ed="#A" n="104"/>exterius considerantur in radice scilicet libidine et intentione sunt 
+      <lb ed="#A" n="105"/>idem peccatum formaliter: intellige si sunt coniuncta vt 
+      cau<lb ed="#A" n="106" break="no"/>sa et effectus. Si vero consideratur voluntas in se et opus in 
+      <lb ed="#A" n="107"/>se: sic sunt diuersa peccata. quia alie sunt circumstantie 
+      bo<lb ed="#A" n="108" break="no"/>no actui debite exteriori quam voluntati. quia diuersificam 
+      <lb ed="#A" n="109"/>tur modus: locus et tempus. et quaedam alie licet circumstantia finis 
+      <lb ed="#A" n="110"/>sit eadem. Si ergo vt dicit Augustinus peccatum est actus incidens 
+      <lb ed="#A" n="111"/>ex defectu boni. Alius autem defectus est hinc: alius 
+      inde<lb ed="#A" n="112" break="no"/>ergo secundum hoc aliud peccatum intellige materialiter. Similter 
+      <lb ed="#A" n="113"/>esset aliud quando sunt secundum aliud et aliud tempus ita quod in¬ 
+      <!--154.xml-->
+      <pb ed="#A" n="155"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>termedio cadat aliquid aliud. quia sic sunt diuerse 
+      auer<lb ed="#A" n="2" break="no"/>siones. et sic formaliter diuersa peccatam. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j45293-Dd1e302">
+               <head xml:id="Vn7Pel-j45293-Hd1e304">3</head>
+               <p xml:id="Vn7Pel-j45293-d1e306">
+                  <lb ed="#A" n="3"/>¶ Quarta difficultas. Quare se 
+      <lb ed="#A" n="4"/>orsum prohibetur voluntas et opus magis in mechia 
+      <lb ed="#A" n="5"/>et furto quam in aliis: Respondet Alexam. vbi supra quia dele 
+      <lb ed="#A" n="6"/>ctatio mechie et vtilitas diuitiarum sunt propter se 
+      <lb ed="#A" n="7"/>appetibilia inquantum habent rationem delectabilis 
+      <lb ed="#A" n="8"/>vel vtilis. Et ideo debent in eis prohiberi opus et 
+      com<lb ed="#A" n="9" break="no"/>cupiscentia. sed homicidium et falsitas et impietas 
+      <lb ed="#A" n="10"/>habent in se horribilia. Et ideo non fuit tam necessarium 
+      <lb ed="#A" n="11"/>illa prohiberi 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j45293-Dd1e329">
+               <head xml:id="Vn7Pel-j45293-Hd1e331">4</head>
+               <p xml:id="Vn7Pel-j45293-d1e333">
+                  <lb ed="#A" n="12"/>¶ Quinta difficultas. Quare 
+      ma<lb ed="#A" n="13" break="no"/>gis prohibentur in speciali auaricia et luxuria quam alia 
+      <lb ed="#A" n="14"/>peccata: Respondetur quia propter improbitatem libidini: 
+      <lb ed="#A" n="15"/>citius progrediuntur in opus exterius. Nihilominus etiam 
+      <lb ed="#A" n="16"/>alia omnia capitalia peccata prohibentur implicite. Supert 
+      <lb ed="#A" n="17"/>bia enim prohibetur in adoratione dei et honoratione 
+      proxi<lb ed="#A" n="18" break="no"/>mi. Inuidia et ira in prohibitione homicidii. Acidia 
+      <lb ed="#A" n="19"/>in sanctificatione sabbati. Auaricia in prohibitionem 
+      <lb ed="#A" n="20"/>furti. Luxuria et gula in prohibitione adulterii et 
+      me<lb ed="#A" n="21" break="no"/>chie. etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j45293-Dd1e359">
+               <head xml:id="Vn7Pel-j45293-Hd1e361">5</head>
+               <p xml:id="Vn7Pel-j45293-d1e363">
+                  <lb ed="#A" n="22"/>¶ Sexta difficultas. Quare duo 
+      <lb ed="#A" n="23"/>precepta ponuntur ad repressionem concupiscentie seorsum 
+      <lb ed="#A" n="24"/>Respondet Lyra super. xx. c. Exodi. quod ideo. quia bonum 
+      di<lb ed="#A" n="25" break="no"/>ui ditur per vtile et delectabile: ita quod est alia ratio bont 
+      <lb ed="#A" n="26"/>vt ilis et delectabilis ita quod aliquando contingit vt aliquis 
+      ha<lb ed="#A" n="27" break="no"/>bes pronitatem ad vnum non habet pronitatem ad aliud 
+      <lb ed="#A" n="28"/>imo aliquando abominationem. sicut aliquis concupiscit 
+      <lb ed="#A" n="29"/>vxorem alterius qui tamen non concupiscit alias res ipsius. quia 
+      <lb ed="#A" n="30"/>abominabitur furtum vel rapinam. Ideo ad reprimendam 
+      <lb ed="#A" n="31"/>istam concupiscentiam duplicem debuit assignari duplex 
+      <lb ed="#A" n="32"/>praeceptum. Hebrei tamen dicunt quod est vnum praeceptum tantum 
+      <lb ed="#A" n="33"/>Primum vero praeceptum diuidunt in duo: ita quod primum in 
+      <lb ed="#A" n="34"/>cipit ibi. Ego sum dominus deus tuus qui eduxi te de 
+      <lb ed="#A" n="35"/>terra egypti. per quod praecipitur affirmatiue quod ille 
+      ha<lb ed="#A" n="36" break="no"/>beatur pro vero deo qui eduxit filios israel in tot signis 
+      <lb ed="#A" n="37"/>mirabilibus. Secundum ibi. Non habeh deos alienos. 
+      <lb ed="#A" n="38"/>In quo prohibetur negatiue ne cultus latrie alteri 
+      im<lb ed="#A" n="39" break="no"/>pendatur. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j45293-Dd1e406">
+               <head xml:id="Vn7Pel-j45293-Hd1e408">6</head>
+               <p xml:id="Vn7Pel-j45293-d1e410">
+                  <lb ed="#A" n="40"/>¶ Septima difficultas Utrum ista 
+      <lb ed="#A" n="41"/>concupiscentia transeat a parentibus in prolem. 
+      Respon<lb ed="#A" n="42" break="no"/>det sanctus Tho. in. ii dis. xxxiii. ar. i. in solutione secndi 
+      <lb ed="#A" n="43"/>argumenti quod sic. sed non culpa. Nam quidam defectus 
+      trant<lb ed="#A" n="44" break="no"/>eunt a perente in prolem. quidam vero non. Uerbi gratia. Qui 
+      <lb ed="#A" n="45"/>dam sunt defectus et accidentia corporis. Et hi 
+      transe<lb ed="#A" n="46" break="no"/>unt a parente in prolem. Sicut leprosus generat 
+      le<lb ed="#A" n="47" break="no"/>prosum: podagrus podagrum. sic natura corrupta 
+      <lb ed="#A" n="48"/>concupiscentia naturam similiter corruptam. Quidam 
+      <lb ed="#A" n="49"/>vero defectus vel accidentia animme sunt. et ista non 
+      <lb ed="#A" n="50"/>transeunt per generationem a parente in prolem. Si 
+      <lb ed="#A" n="51"/>cut gram maticus non generat filium scientem 
+      gra<lb ed="#A" n="52" break="no"/>maticam. sic nec bonitatem aut maliciam suam 
+      <lb ed="#A" n="53"/>parens transmittit in prolem. quia filius assimi 
+      <lb ed="#A" n="54"/>latur patri in natura sed non in persona
+     </p>
+               <p xml:id="Vn7Pel-j45293-d1e445">
+      ¶ In 
+      na<lb ed="#A" n="55" break="no"/>tura inquam. quia homo generat hominem. diffe¬ 
+      <!--154.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="56"/>runt tamen in persona. quia alia persona patris: 
+      <lb ed="#A" n="57"/>alia filii. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

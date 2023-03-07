@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Filius</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Filius</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="196"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j57743">
+            <head xml:id="Vn7Pel-j57743-Hd1e110">Filius</head>
+            <div xml:id="Vn7Pel-j57743-Dd1e112">
+               <head xml:id="Vn7Pel-j57743-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j57743-d1e116">
+                  <lb ed="#A" n="68"/>Filius vbi magna
+      <lb ed="#A" n="69"/>relucet diuinitatis amor et charitas 
+      er<lb ed="#A" n="70" break="no"/>ga homines. Nam filius dicitra philos 
+      gre<lb ed="#A" n="71" break="no"/>te quod est amsbr latine. quia naturali ordine amor 
+      pa<lb ed="#A" n="72" break="no"/>tris quasi in se in filium et a filio in patrem 
+      recipro<lb ed="#A" n="73" break="no"/>catur in diuinis. Propterea dicit Richar. quod 
+      spi<lb ed="#A" n="74" break="no"/>ritus sanctus dicitur amor reciprocus quo pater et 
+      fi<lb ed="#A" n="75" break="no"/>lius se diligunt. De hoc amore dicebat christus 
+      Io<lb ed="#A" n="76" break="no"/>an. iii. Sic deus dilexit mundum vt filium suum 
+      <lb ed="#A" n="77"/>vnigenitum daret vt omnis qui credit etc. Unde secundum 
+      Ly<lb ed="#A" n="78" break="no"/>ram in prologo super Ioannem: de ratione filiationis 
+      pro<lb ed="#A" n="79" break="no"/>prie dicte est quod ibi sit processus viuentis a viuente 
+      <lb ed="#A" n="80"/>secundum rationem similitudinis in identitate nature 
+      <lb ed="#A" n="81"/>saltem specifica vel in propinquo genere. Quod sic 
+      <lb ed="#A" n="82"/>patet. quia in rebus inanimatis quamuis vnus 
+      proce<lb ed="#A" n="83" break="no"/>dat ab alio: sicut ignis ab igne: non tamen ignis 
+      <lb ed="#A" n="84"/>productus ab alio igne dicitur eius filius. Similiter 
+      <lb ed="#A" n="85"/>ir res non viua procedat a viuente: non inuenitur 
+      <lb ed="#A" n="86"/>ibi ratio filiationis. sicut artificatum procedit ab 
+      ar<lb ed="#A" n="87" break="no"/>tifice: non tamen dicitur eius filius. Et ideo 
+      requi<lb ed="#A" n="88" break="no"/>ritur quod sit processus viuentis a viuente. Hoc ta 
+      <lb ed="#A" n="89"/>men non sufficit nisi sit processus secundum 
+      similitudi<lb ed="#A" n="90" break="no"/>nem nature. quia pediculus procedens ab homi 
+      <lb ed="#A" n="91"/>ne non dicitur eius filius. sed ille qui procedit ab eo 
+      si<lb ed="#A" n="92" break="no"/>milis in specie: vel propinquo genere: sicut mulus 
+      <lb ed="#A" n="93"/>procedit ab asino et equo: licet non sit similis in 
+      specie<lb ed="#A" n="94" break="no"/>tamen inest in propinquo genere illius speciei etc.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e177">
+                  <lb ed="#A" n="95"/>¶ Aduertendum tamen quod non est de perfecta ratione 
+      fi<lb ed="#A" n="96" break="no"/>liutionis quod natura specifica in patre et filio numero 
+      <lb ed="#A" n="97"/>distinguatur. sed hoc contingit ex imperfectione illius 
+      <lb ed="#A" n="98"/>nature que propter sui limitationem in plutibus 
+      sup<lb ed="#A" n="99" break="no"/>positis esse non potest: vna numero existens in diui 
+      <lb ed="#A" n="100"/>nis. Igitur si ponatur verbum distinctum personaliter 
+      <lb ed="#A" n="101"/>a principio a quo procedit: sicut veritas rei se 
+      ha<lb ed="#A" n="102" break="no"/>bet: Consequenter oportet dicere quod in ipso perfecte 
+      <lb ed="#A" n="103"/>inueniatur ratio filiationis. quia deus non solum est 
+      <lb ed="#A" n="104"/>viuens: sed vita per essentiam. Et ideo verbum 
+      <lb ed="#A" n="105"/>in diuinis necessario procedit a viuente in identi 
+      <lb ed="#A" n="106"/>tate nature non solum specifica sed numerali. Et 
+      <lb ed="#A" n="107"/>procedit etiam secundum rationem similitudinis. In 
+      <lb ed="#A" n="108"/>diuinis autem secundum Augustinum verbum et filius 
+      <lb ed="#A" n="109"/>idem sunt. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e213">
+               <head xml:id="Vn7Pel-j57743-Hd1e215">2</head>
+               <p xml:id="Vn7Pel-j57743-d1e217">
+                  <lb ed="#A" n="110"/>¶ Queritur igitur vtrum filius dei 
+      chri<lb ed="#A" n="111" break="no"/>stus vere dicatur conceptus de spiritu sancta: Et videtur 
+      <!--196.xml-->
+      <pb ed="#A" n="197"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>quod non. Sed illa sanctissima conceptio magis debet 
+      <lb ed="#A" n="2"/>appropriari patri. quia potentia dei maxime 
+      mani<lb ed="#A" n="3" break="no"/>festatur in operatione illa cuitus extrema distant 
+      distan<lb ed="#A" n="4" break="no"/>tia infinita. sed filii dei et creature vnio est infini 
+      <lb ed="#A" n="5"/>te distantium. ergo in illa operatione est potissime 
+      di<lb ed="#A" n="6" break="no"/>nine potentie manifestatio. Potentia autem 
+      appropria<lb ed="#A" n="7" break="no"/>cur spirituisancto.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e246">
+      ¶ Sed contra. videtur quod opus 
+      con<lb ed="#A" n="8" break="no"/>ceptionis debet atfribui filio. quia opus 
+      conceptio<lb ed="#A" n="9" break="no"/>nis pertinet ad opus reparationis. sed opus reparationis 
+      <lb ed="#A" n="10"/>ad filium. ergo et ipsa conceptio
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e255">
+      ¶ In contrarium 
+      tamen<lb ed="#A" n="11" break="no"/>est illud Matth. i. Ud enim inea natum est de 
+      spiri<lb ed="#A" n="12" break="no"/>tusancto est. Respondetur secundum Guill. in. iii. di. iiii. quod 
+      fi<lb ed="#A" n="13" break="no"/>lii dei conceptio congrue appropriatur spiritui sancto. quia 
+      <lb ed="#A" n="14"/>deuotissima conceptio deuotissime debet nominari 
+      <lb ed="#A" n="15"/>Sed talis conceptio fuit deuotissima: talia autem 
+      at<lb ed="#A" n="16" break="no"/>cributa maxime appropriantur spirituisancto. Unde 
+      <lb ed="#A" n="17"/>ad excludendum carnalem copulam viri et mulieris: 
+      di<lb ed="#A" n="18" break="no"/>citur concipi de spiritu. Secundo ad excludendum 
+      <lb ed="#A" n="19"/>feditatem concupiscentie: non solum dicitur de spiritu: sed 
+      <lb ed="#A" n="20"/>additur sancto. Tertio ad denotandum amorem 
+      inti<lb ed="#A" n="21" break="no"/>mum beate Marie ad deum. vt sicut mulier ex amore 
+      <lb ed="#A" n="22"/>ad virum concipere dicitur. sic Maria ex singulari amo 
+      <lb ed="#A" n="23"/>re ad deum: dicitur christum de spiritu sacto concepisse. 
+      <lb ed="#A" n="24"/>Hinc Hugo de san. Uicto. Quia inquit enim amor 
+      <lb ed="#A" n="25"/>Marie in corde singulariter ardebat. ideo in eius 
+      <lb ed="#A" n="26"/>tarne mirabilia faciebat.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e292">
+      ¶ Notandum etiam secundum 
+      <lb ed="#A" n="27"/>sanctum Bonauen. in. iii. dis. iiii. ar. i. q.cic. quod ista vnio 
+      <lb ed="#A" n="28"/>sanctissima potest tripliciter considerari. Primo 
+      quan<lb ed="#A" n="29" break="no"/>tum ad vnibilia. Secundo quantum ad modum 
+      vnio<lb ed="#A" n="30" break="no"/>nis. Tertio quantum ad fructum vnionis. Si 
+      conside<lb ed="#A" n="31" break="no"/>retur quantum ad vnibilia. tunc ibi manifestatur 
+      di<lb ed="#A" n="32" break="no"/>uina potentia que patri attribuitur. quia maximam 
+      re<lb ed="#A" n="33" break="no"/>quirit potentiam vnire primo vltimum. prout dictum 
+      <lb ed="#A" n="34"/>est in argumento. Si autem consideretur quantum ad 
+      <lb ed="#A" n="35"/>vnionis modum. sic manifestatur diuina sapientia: 
+      <lb ed="#A" n="36"/>que tamsapienter elegit humanum genus reparare: et 
+      <lb ed="#A" n="37"/>superbi inimici conculcare astutiam. Si autem 
+      ter<lb ed="#A" n="38" break="no"/>tio consideretur quantum ad vnionis fructum. sic 
+      ma<lb ed="#A" n="39" break="no"/>nifestatur dei bonitas maxima: que propter nos se 
+      <lb ed="#A" n="40"/>metipsum exinaniuit formam serui accipens. vt dici 
+      <lb ed="#A" n="41"/>tur Phil. ii et idem dicit Damasce. lib. suarum sen. 
+      <lb ed="#A" n="42"/>Monstratur inquit simul in incarnatione 
+      boni<lb ed="#A" n="43" break="no"/>tas: iusticia: et sapientia dei. vt bonitas spiritui. 
+      sa<lb ed="#A" n="44" break="no"/>pientia filio. sed iusticia patri approprietur. Et per 
+      <lb ed="#A" n="45"/>hoc patet solutio argumentorum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e337">
+               <head xml:id="Vn7Pel-j57743-Hd1e339">3</head>
+               <p xml:id="Vn7Pel-j57743-d1e341">
+                  <lb ed="#A" n="46"/>¶ Utrum christus possit dici filius 
+      <lb ed="#A" n="47"/>spiritus sancti: et videtur quod sic. quia spiritus sanctus cum 
+      <lb ed="#A" n="48"/>virgine filii sui conceptionem operatus est. nec minus 
+      <lb ed="#A" n="49"/>operatus est spiritus sanctus quam virgo. sed multo 
+      am<lb ed="#A" n="50" break="no"/>plius. Si ergo christus dicitur filius virginis: et 
+      virge<lb ed="#A" n="51" break="no"/>dicitur eius mater. ergo a fortiori spiritus sanctus dicitur 
+      <lb ed="#A" n="52"/>eius pater.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e359">
+      ¶ Sed in contrarium arguitur sic. Christus 
+      nul<lb ed="#A" n="53" break="no"/>lius est filius fisi natura. sed solius patris vel matris est 
+      fi<lb ed="#A" n="54" break="no"/>lius per naturam. ergo non spiritus sancti. Item si christus esset filius 
+      <lb ed="#A" n="55"/>spiritus sancti. ergo spiritus sanctus esset pater christi: et deus pater etiam esset 
+      <lb ed="#A" n="56"/>patr christi. ergo duo patres in trinitate. Respondet igitur scilicet 
+      Bo<lb ed="#A" n="57" break="no"/>nauen. in. iii. di. iiii. ar. ii. q. ii quod absque dubio ista lo¬ 
+      <!--196.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>cutio non admittitur. Tum propter vitandum errorem 
+      <lb ed="#A" n="59"/>circa generationem temporalem. Tum circa generationem 
+      <lb ed="#A" n="60"/>eterna. Ad vitandum errorem circa generationem 
+      tempora<lb ed="#A" n="61" break="no"/>lem. quia si diceretur spiritus sanctus pater christi: sicut virgo eius 
+      <lb ed="#A" n="62"/>mater: iam ex hoc videretur christus natus esse de Maria 
+      <lb ed="#A" n="63"/>et spiritu sancto. sicut nascitur proles de muliere et viri. quod 
+      <lb ed="#A" n="64"/>falsum est. Similiter ratione generationis eterne cathoici 
+      <lb ed="#A" n="65"/>talem sermonem non admittunt: ne confusio eternarum et 
+      <lb ed="#A" n="66"/>lationum et proprietatum fiat. Unde cum proprium si 
+      <lb ed="#A" n="67"/>persone patris generare respectu persone filii: 
+      nulla<lb ed="#A" n="68" break="no"/>tenus admittitur christum esse filium spiritus sancti
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e400">
+      ¶ Unda 
+      <lb ed="#A" n="69"/>Augustinus et est in littera. Quis audebit dicere christum 
+      <lb ed="#A" n="70"/>esse filium spiritus sancti: cum hoc sit ita absurdui: vt 
+      <lb ed="#A" n="71"/>nulle fidelium aures hoc valeant sustinere. Ideo 
+      <lb ed="#A" n="72"/>concedende sunt rationes ad istam partem.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e411">
+      ¶ Ad 
+      ar<lb ed="#A" n="73" break="no"/>gumentum dicendum Quod non sequitur: Uirgo est 
+      <lb ed="#A" n="74"/>mater christi. ergo spiritus sanctus patr. quia non est simile: 
+      <lb ed="#A" n="75"/>Uirgo enim conformatur christo in natura secundum quam 
+      conce<lb ed="#A" n="76" break="no"/>ptus est ex tempore. Spiritus sanctus autem quamuis christo sit similis 
+      <lb ed="#A" n="77"/>in natura: non tamen est eius principium secundum illam: ideo non 
+      <lb ed="#A" n="78"/>cogit ratio. Unde Rich. circa litteram notat quod non 
+      <lb ed="#A" n="79"/>omnes qui dicuntur alicuius filii de illo nati sunt et 
+      econuer<lb ed="#A" n="80" break="no"/>so: prout Magister dicit in litter: ponens exemplum quod 
+      ali<lb ed="#A" n="81" break="no"/>qui nascuntur ex aqua et spiritu sancto: non tamen dicuntur filii 
+      <lb ed="#A" n="82"/>aque. Similiter capillus nascitur de capite: non tanmen 
+      <lb ed="#A" n="83"/>est eius filius. Sic et christus dicitur de spirituscao 
+      na<lb ed="#A" n="84" break="no"/>tus: non tamen dicitur eius filius. Dicuntur etiam aliqui filii. 
+      <lb ed="#A" n="85"/>gehenne vel mortis ratione praeparationis: non quia ex illa 
+      na<lb ed="#A" n="86" break="no"/>ti. sed ad illam praeparati. Aliqui dicuntur filii. Et hoc 
+      <lb ed="#A" n="87"/>quattuor modis. scilicet Primo per creationem. Et sic 
+      <lb ed="#A" n="88"/>omnes homines et angeli dicuntur filii dei. Secundo per 
+      <lb ed="#A" n="89"/>adoptionem. sicut iusti et sancti. Tertio per 
+      imitatio<lb ed="#A" n="90" break="no"/>nem. sicut mali dicuntur filii diaboli. Quarto 
+      dicun<lb ed="#A" n="91" break="no"/>tur filii per successionem. sicut dicuntur filii regni quia 
+      <lb ed="#A" n="92"/>succedunt in regnum celeste. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e458">
+               <head xml:id="Vn7Pel-j57743-Hd1e460">4</head>
+               <p xml:id="Vn7Pel-j57743-d1e462">
+                  <lb ed="#A" n="93"/>¶ Utrum christus possit dici filius 
+      <lb ed="#A" n="94"/>trinitatis: Et videtur quod sic. quia in christo est triplex 
+      <lb ed="#A" n="95"/>substantia scilicet suprema: media: et infima. Suprema 
+      <lb ed="#A" n="96"/>est diuina. Media anima. Infima corpus. Sed 
+      <lb ed="#A" n="97"/>christus ratione supreme nature est filius alicuius scilicet dei patris. 
+      <lb ed="#A" n="98"/>Ratione nature infime alicuius scilicet natris ex qua traxit 
+      <lb ed="#A" n="99"/>carnem. ergo et ratione medii erit filius alicuius. sed 
+      <lb ed="#A" n="100"/>media scilicet anima est a tota trinitate equaliter. ergo 
+      <lb ed="#A" n="101"/>videtur quod dici possit filius trinitatis. Sed in contrarium 
+      <lb ed="#A" n="102"/>est illud Ioan. i. Uidimus gloriam eius quasi vnigeniti 
+      <lb ed="#A" n="103"/>in patre. Sed trinitas non habet aliquem filium 
+      vni<lb ed="#A" n="104" break="no"/>genitum: cum equaliter comparetur ad omnes. ergo non etc. 
+      <lb ed="#A" n="105"/>Respondetur secundum sanctum Bona. vbi supra. q. iii. quod christus non 
+      <lb ed="#A" n="106"/>otest dici filius trinitatis Primo propter errorem 
+      Sa<lb ed="#A" n="107" break="no"/>hellii: ne suspicemur eandem personam filium et 
+      spi<lb ed="#A" n="108" break="no"/>ritum sanctum cum patre qui est pater eius. Secundo non 
+      <lb ed="#A" n="109"/>recipitur quod christus sit filius trinitatis per creationem 
+      <lb ed="#A" n="110"/>propter errorem Arrii qui posuit diuinum verbum puram 
+      cre<lb ed="#A" n="111" break="no"/>aturam. Tertio non recipitur quod sit filius trinitatis per gratiam 
+      <lb ed="#A" n="112"/>propter Nestorium qui posuit christum solum 
+      di<lb ed="#A" n="113" break="no"/>cere naturam humanam seu suppositum illius 
+      natu<lb ed="#A" n="114" break="no"/>re. Et dicebat quod erat filius dei per gratiam. Sanctus vero 
+      <!--197.xml-->
+      <pb ed="#A" n="198"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Tho. in. iii dist. iiii. ar. i. q. ii quod impugnare videtur 
+      <lb ed="#A" n="2"/>hunc loquendi modum. Et ponit rationem suam quare 
+      <lb ed="#A" n="3"/>christus nodeo dicatur filius trinitatis. quia inquit 
+      <lb ed="#A" n="4"/>vnicum habet esse. illud autem a solo patre habet. Sed 
+      <lb ed="#A" n="5"/>vt diit Guill. in. iii vbi supra san. Tho. bene dicentem 
+      <lb ed="#A" n="6"/>imrobat: et salua sua sanctitate falsum dicit. quod sit 
+      <lb ed="#A" n="7"/>vrum esse in christo. et in. iii. dis. vi. dat de hoc tale 
+      exem<lb ed="#A" n="8" break="no"/>pium. Sicut si alicui corpori habenti iam esse 
+      perfe<lb ed="#A" n="9" break="no"/>ctum de nouo vniatur vna manus creata: illa 
+      ma<lb ed="#A" n="10" break="no"/>nus non dabit esse corpori iam habenti esse. sed ipsum 
+      <lb ed="#A" n="11"/>corpus solum ponet respectum ad illam manum et 
+      ma<lb ed="#A" n="12" break="no"/>nus per se esset totius esse. Sic in proposito. Natura 
+      <lb ed="#A" n="13"/>humana quasi inserta diuino supposito. dicente Iatcor. 
+      <lb ed="#A" n="14"/>In mansuetudine suscipite insitum verbum. ita 
+      so<lb ed="#A" n="15" break="no"/>lum habebit esse illius diuini suppositi. Unde sic 
+      <lb ed="#A" n="16"/>accidens non dat esse subiecto: sed participat esse eius 
+      <lb ed="#A" n="17"/>ita debet esse in proposito. Sed quod manus in homine 
+      <lb ed="#A" n="18"/>non habeat propriam existentiam non videtur verum. licr 
+      <lb ed="#A" n="19"/>non habeat subsistentiam. nec hoc exemplum manus 
+      <lb ed="#A" n="20"/>est simile ad propositum. quia manus sic est in homine 
+      <lb ed="#A" n="21"/>quod non est homo. Humanitas verosic vnita est verbo 
+      <lb ed="#A" n="22"/>dei quod diuinum verbum dicitur homo. Et quod in hoc non 
+      <lb ed="#A" n="23"/>debet teneri san. Tho. probat Scotus dist. vi. lib. 
+      <lb ed="#A" n="24"/>iii. dicens sic
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e571">
+      ¶ Terminus generationis est esse 
+      existen<lb ed="#A" n="25" break="no"/>tie: vel aliquid habens tale esse. ex. v. Phys. Sed 
+      <lb ed="#A" n="26"/>christus vere fuit temporaliter a Maria virgine 
+      ge<lb ed="#A" n="27" break="no"/>nitus. ergo habuit aliud esse ab esse increato. qui 
+      <lb ed="#A" n="28"/>illud non fuit effectum per generationem temporalem.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e582">
+      ¶ 
+      Con<lb ed="#A" n="29" break="no"/>firmatur. quia anima christi fuit vere creata: et ita 
+      ve<lb ed="#A" n="30" break="no"/>re habuit esse existentie: et existentie create. non autem 
+      <lb ed="#A" n="31"/>creata est existentia eterna.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e591">
+      ¶ Confirmatur secundo 
+      <lb ed="#A" n="32"/>quia assumpta natura si sibt dimitteretur esset vere 
+      <lb ed="#A" n="33"/>in actu: nullo sibi positiuo dato de nouo. 
+      alioquin<lb ed="#A" n="34" break="no"/>esset in potentia solum. sicut anima antichristi.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e601">
+      ¶ 
+      Pa<lb ed="#A" n="35" break="no"/>tet Tertio. quia relatio actualis praesupponiter quod ex 
+      <lb ed="#A" n="36"/>trema presint in actu. Unio autem nature humane 
+      <lb ed="#A" n="37"/>ad diuinam est actualis. et ideo preexigitur: quod tam 
+      <lb ed="#A" n="38"/>diuina quam natura humana preintelligantur habere 
+      <lb ed="#A" n="39"/>esse actualis existentie. Unde non videtur mors fuis. 
+      <lb ed="#A" n="40"/>se possibilis: nisi ponendo istud esse existentie in 
+      na<lb ed="#A" n="41" break="no"/>tura humana vnita diuine: distinctum ab esse 
+      existen<lb ed="#A" n="42" break="no"/>tie diuine nature. Unde patet. quod humana vere 
+      po<lb ed="#A" n="43" break="no"/>test dici indiuidua propria indiuiduatione. et 
+      singu<lb ed="#A" n="44" break="no"/>laris propria singularitate: vt res nature. patet. quia 
+      <lb ed="#A" n="45"/>non dicit humanitatem: que dicitur natura. sed 
+      ad<lb ed="#A" n="46" break="no"/>dit propriam differentiam indiuidualem qua 
+      medi<lb ed="#A" n="47" break="no"/>ante dicitur res nature.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e632">
+      ¶ Ad argumentum 
+      <lb ed="#A" n="48"/>autem de natura suprema: media: et infima potest 
+      di<lb ed="#A" n="49" break="no"/>ci secundum sanctum Bonauen. vbi supra quod non est simile de 
+      <lb ed="#A" n="50"/>substantiis extremis ad mediam. quia Tum 
+      ra<lb ed="#A" n="51" break="no"/>tione diuine substantie. Tum ratione carnis 
+      ge<lb ed="#A" n="52" break="no"/>nitus est et assimilatur suo principio producenti. 
+      <lb ed="#A" n="53"/>scilicet patri et matri. patri in diuinitate. matri in 
+      <lb ed="#A" n="54"/>humanitate. Non sic autem est de ratione anime 
+      <lb ed="#A" n="55"/>Et ideo non est simile. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e654">
+               <head xml:id="Vn7Pel-j57743-Hd1e656">5</head>
+               <p xml:id="Vn7Pel-j57743-d1e658">
+                  <lb ed="#A" n="56"/>¶ Utrum generatio Marie in 
+      fi<lb ed="#A" n="57" break="no"/>lio suo debet iudicari naturalis vel miraculosa: 
+      <!--197.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>Respondetur secundum Guiller. Quod ista generatio potest 
+      <lb ed="#A" n="59"/>considerari tripliciter.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e674">
+      ¶ Primo quantum ad 
+      redu<lb ed="#A" n="60" break="no"/>centem potentiam materie ad actum scilice scilicet Hoc 
+      <lb ed="#A" n="61"/>modo fuit miraculosa. quia contra solitum 
+      cur<lb ed="#A" n="62" break="no"/>sum nature. Uir enim naturalem potentiam 
+      femi<lb ed="#A" n="63" break="no"/>ne reducit ad actum gignitionis.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e685">
+      ¶ Secundo 
+      po<lb ed="#A" n="64" break="no"/>test considerari respectu geniti
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e690">
+      ¶ Hoc modo proprie 
+      <lb ed="#A" n="65"/>non fuit miraculosum: sed mirabile. quia non 
+      com<lb ed="#A" n="66" break="no"/>cra cursum sed vltra cursum nature possibilem. 
+      </p>
+               <p xml:id="Vn7Pel-j57743-d1e698">
+                  <lb ed="#A" n="67"/>¶ Tertio potest considerari quantum ad illam 
+      po<lb ed="#A" n="68" break="no"/>tentiam in se: sic fuit naturalis. quia beata 
+      Ma<lb ed="#A" n="69" break="no"/>ria cum esset optime per naturam 
+      complexiona<lb ed="#A" n="70" break="no"/>ta naturaliter non fuit infecunda. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e710">
+               <head xml:id="Vn7Pel-j57743-Hd1e712">6</head>
+               <p xml:id="Vn7Pel-j57743-d1e714">
+                  <lb ed="#A" n="71"/>¶ Utrum beata virgo vere 
+      po<lb ed="#A" n="72" break="no"/>test dici mater christi: Respondet Richar. in. iii. 
+      <lb ed="#A" n="73"/>dist . lc.t ar. ii. q. i. quod sic. quia quicquid requiritur ad 
+      rati<lb ed="#A" n="74" break="no"/>onem maternitatis fuit in veirgine respectu christi. 
+      <lb ed="#A" n="75"/>Per virtutem enim generatiuam humorem sanguineum 
+      <lb ed="#A" n="76"/>in membris digestum in semen conuertit: eo 
+      mo<lb ed="#A" n="77" break="no"/>do quo semen est in mulieribus. Et illud decidit 
+      <lb ed="#A" n="78"/>sine quaque deordinatione: et ad debitum locum 
+      <lb ed="#A" n="79"/>conceptionis transmisit. et in conuersione et 
+      nu<lb ed="#A" n="80" break="no"/>tritione pueri in vtero cooperata fuit perfectius quam 
+      <lb ed="#A" n="81"/>alie matres. Plura autem non requiruntur ad 
+      ra<lb ed="#A" n="82" break="no"/>tionem maternitatis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e744">
+               <head xml:id="Vn7Pel-j57743-Hd1e746">7</head>
+               <p xml:id="Vn7Pel-j57743-d1e748">
+                  <lb ed="#A" n="83"/>¶ Utrum beata virgo vere dici
+      <lb ed="#A" n="84"/>potest mater dei: Et videtur quod non. quia filius 
+      si<lb ed="#A" n="85" break="no"/>milis est matri in natura. Sed deus non est simi 
+      <lb ed="#A" n="86"/>lis beate virgini in natura. ergo non dicitur mater 
+      <lb ed="#A" n="87"/>dei.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e761">
+      ¶ In contrarium dicit Damasce. libro. iii. quod 
+      <lb ed="#A" n="88"/>Theotocon id est dei genitricem principaliter et vere 
+      <lb ed="#A" n="89"/>sanctam virginem Mariam predicamus. Et 
+      eccle<lb ed="#A" n="90" break="no"/>sia absolute dicit Sancta dei genitrix ora pro 
+      no<lb ed="#A" n="91" break="no"/>bis. Respondet Richar. vbi supra. q. ii quod beata 
+      vir<lb ed="#A" n="92" break="no"/>go vere potest dici mater dei Est enim mater 
+      illi<lb ed="#A" n="93" break="no"/>us hominis qui est deus.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e777">
+      ¶ Ad cuius pleniorem 
+      <lb ed="#A" n="94"/>intelligentiam Notandumum quod quando aliquid 
+      na<lb ed="#A" n="95" break="no"/>tum est conuenire omnibus partibus alicuius 
+      to<lb ed="#A" n="96" break="no"/>tius: non simpliciter dicitur conuenire toti: 
+      ma<lb ed="#A" n="97" break="no"/>xime si insit parti minus principali. Unde qui est 
+      <lb ed="#A" n="98"/>albus secundum dentes non propter hoc simpliciter 
+      po<lb ed="#A" n="99" break="no"/>test dici albus. Sed quando aliquid non est natum 
+      <lb ed="#A" n="100"/>conuenire toti nisi ratione vnius partis tantum: si 
+      si<lb ed="#A" n="101" break="no"/>bi conueniat ratione illius partis: simpliciter et 
+      <lb ed="#A" n="102"/>conuenit. Unde qui est crisputus secundum caput: 
+      simpli<lb ed="#A" n="103" break="no"/>citer potest dici crispiutus
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e801">
+      ¶ Quanuis ergo in christo 
+      <lb ed="#A" n="104"/>humana natura et diuina non possunt dici vere 
+      <lb ed="#A" n="105"/>partes christi: quia christus non est vnum totum 
+      <lb ed="#A" n="106"/>ex eis tanquam ex partibus constitutiuis: tammen 
+      chri<lb ed="#A" n="107" break="no"/>stus est nomen persone vt est suppositum 
+      predi<lb ed="#A" n="108" break="no"/>ctarum naturarum duarum. Et quia esse filium 
+      <lb ed="#A" n="109"/>dei ex tempore: et esse filium matris non est 
+      na<lb ed="#A" n="110" break="no"/>tum conuenire ipsi persone diuine: ntsi ratione 
+      <lb ed="#A" n="111"/>humane nature. Ideo simpliciter est 
+      conceden<lb ed="#A" n="112" break="no"/>dum: verum filium dei esse filium illius 
+      virgi<lb ed="#A" n="113" break="no"/>nis cuius filius est ratione humane nature. 
+      <!--198.xml-->
+      <pb ed="#A" n="199"/>
+                  <cb ed="#A" n="a"/>
+               </p>
+               <p xml:id="Vn7Pel-j57743-d1e833">
+                  <lb ed="#A" n="1"/>¶ Ad argumentum dicendum. quod quamuis ratione 
+      diuine<lb ed="#A" n="2" break="no"/>nature nosit similis in natura virgini. tamen rationa 
+      <lb ed="#A" n="3"/>nature humane est ei similis in natura. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e843">
+               <head xml:id="Vn7Pel-j57743-Hd1e845">8</head>
+               <p xml:id="Vn7Pel-j57743-d1e847">
+                  <lb ed="#A" n="4"/>¶ Utrum christus inquantum homo 
+      <lb ed="#A" n="5"/>sit filius adoptiuus patris: Et videtur quod sic. quia 
+      <lb ed="#A" n="6"/>christus inquantum homo est dei filius. aut ergo natura 
+      <lb ed="#A" n="7"/>lis. aut adoptiuus. Non naturalis. quia secundum quod homo 
+      <lb ed="#A" n="8"/>non est eiusdem nature cum deo. ergo secundum quod homo est de 
+      <lb ed="#A" n="9"/>filius adoptiuus
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e863">
+      ¶ In contrarium est glo. super illud Rho. 
+      <lb ed="#A" n="10"/>ii. Predestinatus est filius dei dicens. quod non per 
+      ad<lb ed="#A" n="11" break="no"/>optionem filius est: nec adoptiuus filius est. Dicit 
+      <lb ed="#A" n="12"/>cnim Amb. Uolui et reuolui diuinam scripturam: et fi 
+      <lb ed="#A" n="13"/>lium dei nunquam adoptiuum inueni. Sed christus in 
+      <lb ed="#A" n="14"/>quantum deus: est naturaliter vt sit naturalis 
+      fili<lb ed="#A" n="15" break="no"/>dei: et sicut deus. ita inquantum homo per gratiam 
+      ha<lb ed="#A" n="16" break="no"/>bet vt sit idem dei filius naturalis.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e881">
+      ¶ Respondetur secundu 
+      <lb ed="#A" n="17"/>Guill. in. iii. di. x. et Rich. ibidem eadem di. ar. ii. q. i. quod 
+      <lb ed="#A" n="18"/>ista: Christus inquantum homo est filius adoptiuus: 
+      noe<lb ed="#A" n="19" break="no"/>ganda est. quia ad hoc quod aliquis sit filius adoptiuus 
+      <lb ed="#A" n="20"/>requiritur quod sit prius duratione vel ordine nature 
+      fu<lb ed="#A" n="21" break="no"/>cerit non filius adoptantis. et quod per gratiam assumatur in 
+      <lb ed="#A" n="22"/>filium. et quod per hoc ius habeat in possessione vel 
+      here<lb ed="#A" n="23" break="no"/>ditate adoptantis. Quamuis autem duo vltima 
+      conue<lb ed="#A" n="24" break="no"/>niant christo inquantum homo. quia tamen nec duratio 
+      <lb ed="#A" n="25"/>ne nec natura prius fuit non filius patris quam filius 
+      <lb ed="#A" n="26"/>etiam inquantum homo. cum prius ordine nature huma 
+      <lb ed="#A" n="27"/>na natura gratiam habuit quam assumpta fuerit a dei 
+      <lb ed="#A" n="28"/>filio. ideo dici non debet filius adoptiuus etiam 
+      in<lb ed="#A" n="29" break="no"/>quantum homo. Addit Guill. di. Christus steste 
+      Au<lb ed="#A" n="30" break="no"/>gusti venit quomodo natus: non quomodo datus. Idem libro de 
+      <lb ed="#A" n="31"/>ecclesiasticis dogmatibus. Natus secundum veritatem 
+      na<lb ed="#A" n="32" break="no"/>ture ex deo dei filius. secundum veritatem nature humane 
+      <lb ed="#A" n="33"/>ex homine filius hominis: vt non adoptione: non 
+      ap<lb ed="#A" n="34" break="no"/>pellatione. sed in vtraque natiuitate filii nomen 
+      ha<lb ed="#A" n="35" break="no"/>beret. quod probatur sic. Quicumque adoptatur de non filio 
+      <lb ed="#A" n="36"/>fit filius. christus autem nunquam fuit quin esset filius. Sed 
+      <lb ed="#A" n="37"/>si dicatur. quod humanitas non semper fuit in christo. et tamen 
+      <lb ed="#A" n="38"/>deus et homo vnus est christus. et ita aliquando fuit quod 
+      <lb ed="#A" n="39"/>non fuit christus: et ita non fuit filius. Dicendum. quod 
+      li<lb ed="#A" n="40" break="no"/>cet non esset christus ratione humanitatis: erat tamen ratio 
+      <lb ed="#A" n="41"/>ne diuinitatis: intelligendo per christum diuinam personam. 
+      <lb ed="#A" n="42"/>Ultra dicendum. quod licet humanitas aliquando non fuit 
+      <lb ed="#A" n="43"/>in christo: tamen nunquam in eo fuit humanitas quin ille 
+      <lb ed="#A" n="44"/>homo fuerit filius dei.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e944">
+      ¶ Sed contra diceret 
+      <lb ed="#A" n="45"/>quis. quod in christo preintelligitur esse christi inquantum 
+      he<lb ed="#A" n="46" break="no"/>mo ipsi gratie tam gratumfacienti quam vnionis. sicut 
+      <lb ed="#A" n="47"/>subiectum suo accidenti. Dicendum quod licet 
+      preintelliga<lb ed="#A" n="48" break="no"/>tur esse existentie in christo ratione humanitatis. non 
+      ti<lb ed="#A" n="49" break="no"/>subsistentie. imo vnicum est in christo ratione scilicet diuine 
+      <lb ed="#A" n="50"/>persone.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e961">
+      ¶ Et si obiiciatur. quod anima potest 
+      fi<lb ed="#A" n="51" break="no"/>lia adoptiua dici. nec tamen habet esse subsistentie 
+      <lb ed="#A" n="52"/>quia no est suppositum. Dicendum. quod non est simile 
+      <lb ed="#A" n="53"/>quia intelligitur anima esse sine corpore. non autem sic 
+      <lb ed="#A" n="54"/>christi humanitas. Unde illud Hilarii lib. de 
+      tr<lb ed="#A" n="55" break="no"/>nita. dicentis
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e974">
+      ¶ Potestatis dignitas non amouetur 
+      <lb ed="#A" n="56"/>dum carnis humanitas adoptatur. habet intelli¬ 
+      <!--198.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>gi non ratione singularis nature in christo. sed 
+      ra<lb ed="#A" n="58" break="no"/>tione consimilium in aliis hominibus.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e987">
+      ¶ Ad 
+      ar<lb ed="#A" n="59" break="no"/>gumentum autem dicendum Quod licet hec 
+      natura<lb ed="#A" n="60" break="no"/>litas filiationis christo non conueniat ratione 
+      hu<lb ed="#A" n="61" break="no"/>manitatis: conuenit tamen ratione suppositi. Et ideo 
+      <lb ed="#A" n="62"/>vere dicitur Filius virginis est filius patris 
+      natura<lb ed="#A" n="63" break="no"/>lis per communicationem idiomatum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e1001">
+               <head xml:id="Vn7Pel-j57743-Hd1e1003">9</head>
+               <p xml:id="Vn7Pel-j57743-d1e1005">
+                  <lb ed="#A" n="64"/>¶ Utrum creaturis rationalibus 
+      <lb ed="#A" n="65"/>et intellectualibus conueniat adoptari: Et videtur 
+      <lb ed="#A" n="66"/>quod non. quia dicit Apostolus Gal. iiii. Misit deus 
+      fi<lb ed="#A" n="67" break="no"/>lium suum factum ex muliere: factum sub lege: vt 
+      <lb ed="#A" n="68"/>eos qui sub lege erant redimeret: vt adoptionem 
+      <lb ed="#A" n="69"/>filiorum reciperemus. ergo videtur quod illis solum 
+      com<lb ed="#A" n="70" break="no"/>ueniat adoptari pro quorum redemptione filius 
+      <lb ed="#A" n="71"/>dei factus est homo. Sed non est factus homo 
+      <lb ed="#A" n="72"/>pro redemptione angelorum. ergo angelis non 
+      com<lb ed="#A" n="73" break="no"/>uenit adoptari. Item animabus non conuenit 
+      ado<lb ed="#A" n="74" break="no"/>ptari. quia dicit sanctus Thomas in. iii. dist. x. ar. 
+      <lb ed="#A" n="75"/>ii. q. i. quod Adoptatio est alicuius extranee persone in 
+      <lb ed="#A" n="76"/>filium vel nepotem vel deinceps legitima assum 
+      <lb ed="#A" n="77"/>ptio. Sed anima non est persona: sicut dicit Magi 
+      <lb ed="#A" n="78"/>ster in. iii. dist. v. vbi non tenetur. Ergo si persona 
+      ado<lb ed="#A" n="79" break="no"/>ptatur. et anima non est persona: ergo anima non 
+      <lb ed="#A" n="80"/>adoptatur.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1044">
+      ¶ In contrarium tamen primi est id Iobs 
+      <lb ed="#A" n="81"/>i. Cum venissent filii dei vt assisterent domino. Ubi 
+      <lb ed="#A" n="82"/>secundum glo. per filios intelliguntur angeli.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1051">
+      ¶ In 
+      contra<lb ed="#A" n="83" break="no"/>rium secundi est. quia adoptatio fit per gratiam. 
+      <lb ed="#A" n="84"/>et anima separata potest habere gratiam etc.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1058">
+      ¶ 
+      Re<lb ed="#A" n="85" break="no"/>spondetur ad hanc questionem secundum Rich. vbi 
+      <lb ed="#A" n="86"/>supra. q. ii. Quod et hominibus qui sunt creature rationa 
+      <lb ed="#A" n="87"/>les et angelis qui sunt intellectuales conuenit 
+      ado<lb ed="#A" n="88" break="no"/>ptari: quamuis non omnes sint adoptiui. quia tam 
+      <lb ed="#A" n="89"/>homines quam angeli boni prius duratione seu 
+      or<lb ed="#A" n="90" break="no"/>dine nature fuerunt non filii dei. Sed clarius 
+      de<lb ed="#A" n="91" break="no"/>clarat Guill. vbi supra
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1077">
+      ¶ Sed diceres. Ergo 
+      <lb ed="#A" n="92"/>angeli non sunt filii adoptiui. quia nunquam fuerunt 
+      <lb ed="#A" n="93"/>non filii tenendo illam viam quam Magister 
+      <lb ed="#A" n="94"/>innuit in libro secundo dist. iiii. quod angeli fuerunt 
+      con<lb ed="#A" n="95" break="no"/>diti in gratia. Dicendum quod licet semper habuerint 
+      gra<lb ed="#A" n="96" break="no"/>tiam: tamen preintelligitur esse eorum natura ipsi 
+      gra<lb ed="#A" n="97" break="no"/>tie. Et hoc sufficit vt sint filii adoptiui.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1093">
+      ¶ Ex quo 
+      <lb ed="#A" n="98"/>patet etiam quod beata virgo Maria dato quod non 
+      fu<lb ed="#A" n="99" break="no"/>erit in peccato originali concepta: vt supra 
+      habi<lb ed="#A" n="100" break="no"/>tum est: adhuc debet dici filia adoptiua. quia esse 
+      <lb ed="#A" n="101"/>eius precedit gratiam. Nec hoc requiritur quod 
+      ado<lb ed="#A" n="102" break="no"/>ptandi sint prius filii ire. sed sufficit quod esse 
+      pote<lb ed="#A" n="103" break="no"/>rant
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1109">
+      ¶ Ad argumentum secundum similiter 
+      dicen<lb ed="#A" n="104" break="no"/>dum Quod quamuis ad redimendum angelos non fuerit 
+      <lb ed="#A" n="105"/>filius dei missus: quia lapsus illorum malorum est 
+      <lb ed="#A" n="106"/>irreparabilis: vt patuit libro. ii Ad illos tamen qui 
+      <lb ed="#A" n="107"/>non peccauerunt fuit missus missione qua 
+      mit<lb ed="#A" n="108" break="no"/>titur in mentem. Et hec est per quam immediate 
+      <lb ed="#A" n="109"/>efficiuntur adoptiui.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1125">
+      ¶ Ad secundum 
+      dicen<lb ed="#A" n="110" break="no"/>dum secundum Guiller. quod anime bone sunt adoptate. 
+      <lb ed="#A" n="111"/>Nec est ibi sanctus Thomas tenendus. quia 
+      ani<lb ed="#A" n="112" break="no"/>ma lec non sit periona: tamen potest adoptari. etc.
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e1135">
+               <head xml:id="Vn7Pel-j57743-Hd1e1137">10</head>
+               <p xml:id="Vn7Pel-j57743-d1e1139">
+      <!--199.xml-->
+                  <pb ed="#A" n="200"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Utrum deo conueniat aliquem in 
+      <lb ed="#A" n="2"/>filium adoptare: et videtur quod non. quia secundum san. Tho. 
+      <lb ed="#A" n="3"/>vbi supra Adoptare est alicuius extranee persone in 
+      fi<lb ed="#A" n="4" break="no"/>lium. sed nulla creatura est a deo extranea. quia 
+      dici<lb ed="#A" n="5" break="no"/>tur Act. xvii
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1159">
+      ¶ In ipso viuimus: mouemur: et sumus. 
+      <lb ed="#A" n="6"/>ergo nullam creaturam potest adoptare. 
+      Respon<lb ed="#A" n="7" break="no"/>detur secundum Rich. vbi supra. ar. iii. q. i. quod deo ex sua 
+      bo<lb ed="#A" n="8" break="no"/>nitate conuenit aliquos in filios adoptare. quia deo 
+      ad<lb ed="#A" n="9" break="no"/>optare est per gratiam ius dare in participatione 
+      heredi<lb ed="#A" n="10" break="no"/>tatis quod ius eis non debebatur per naturam. quia ipsa dei 
+      he<lb ed="#A" n="11" break="no"/>reditas qua diues est: est fruitio suiipsius cuius 
+      fru<lb ed="#A" n="12" break="no"/>itionis participatio nulli creature debetur per naturam: sed 
+      <lb ed="#A" n="13"/>per gratiam.
+     </p>
+               <p xml:id="Vn7Pel-j57743-d1e1179">
+      ¶ Ad argumentum dicendum quod pro tanto 
+      <lb ed="#A" n="14"/>creatura deo est extranea. quia non est de eius 
+      sub<lb ed="#A" n="15" break="no"/>stantia. nec per naturam habet ius in dei hereditate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j57743-Dd1e1188">
+               <head xml:id="Vn7Pel-j57743-Hd1e1190">11</head>
+               <p xml:id="Vn7Pel-j57743-d1e1192">
+                  <lb ed="#A" n="16"/>¶ Utrum cuilibet persone diuine 
+      con<lb ed="#A" n="17" break="no"/>ueniat adoptare: Respondet Rich. vbi supra q. ii. Quod 
+      <lb ed="#A" n="18"/>cuilibet persone conuenit adoptare. sicut enim Augustinus. 
+      <lb ed="#A" n="19"/>dicit i. de trini. Pater et filius et spiritus sanctus sicut 
+      <lb ed="#A" n="20"/>inseparabiles sunt: ita inseparabiliter operantur. Cum ergo 
+      ado<lb ed="#A" n="21" break="no"/>ptare sit facere in creatura effectum gratie per quam 
+      ha<lb ed="#A" n="22" break="no"/>bet ius in participatione hereditatis diuine. sequitur quod 
+      <lb ed="#A" n="23"/>adoptare sit a tota trinitate. quamuis secundum diuersos 
+      <lb ed="#A" n="24"/>respectus aliquando appropriatur vni persone aliquando alii. 
+      <lb ed="#A" n="25"/>Patri enim appropriatur. quia solus potest 
+      genera<lb ed="#A" n="26" break="no"/>re. et quia sibi appropriatur missio filii per quam facta est 
+      <lb ed="#A" n="27"/>adoptio filiorum. Filio autem appropriatur inquantum per 
+      <lb ed="#A" n="28"/>eius passionem sumus deo reconciliati. Et spiritui  
+      <lb ed="#A" n="29"/>sancto appropriatur inquantum sibi appropriatur donum 
+      gra<lb ed="#A" n="30" break="no"/>tie: per quam formaliter adoptamur et heredes dei et 
+      <lb ed="#A" n="31"/>coheredes christi efficimur. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

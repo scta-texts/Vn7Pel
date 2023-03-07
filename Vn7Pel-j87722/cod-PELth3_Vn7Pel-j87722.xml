@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prudentia</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prudentia</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="295"/>
+            <cb ed="#A" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j87722">
+            <head xml:id="Vn7Pel-j87722-Hd1e110">Prudentia</head>
+            <p xml:id="Vn7Pel-j87722-d1e112">
+               <lb ed="#A" n="62"/>¶ Prudentia secundum 
+      phi<lb ed="#A" n="63" break="no"/>losophum. vi. Eth. est ratio rerum a nobis 
+      agi<lb ed="#A" n="64" break="no"/>bilium. Ubi tangit tria. Primo genus dum 
+      <lb ed="#A" n="65"/>dicit ratio. Ratio enim communis est habitibus praecticis et 
+      spe<lb ed="#A" n="66" break="no"/>culatiuis. Secundo tangit obiectum prudentie in 
+      commu<lb ed="#A" n="67" break="no"/>ni dicens. quod prudentia est ratio rerum. Tertio tangit 
+      mo<lb ed="#A" n="68" break="no"/>dum obiecti dum dicit: a nobis agibilium. In hoc enim 
+      dif<lb ed="#A" n="69" break="no"/>fert ab arte qua scilicet est a nobis ratio rerum factibilium.
+     </p>
+            <p xml:id="Vn7Pel-j87722-d1e132">
+      ¶ 
+      No<lb ed="#A" n="70" break="no"/>tandum quoque quod Marcus tullius prudentie tres partes 
+      no<lb ed="#A" n="71" break="no"/>minat. Memoriam: et est de pteritis. Intelligentiam et est 
+      <lb ed="#A" n="72"/>de praesentibus. Prouidentiam: et est de futuris. Unde 
+      prouiden<lb ed="#A" n="73" break="no"/>tia dicitur qua si procul videntia 
+      </p>
+            <div xml:id="Vn7Pel-j87722-Dd1e143">
+               <head xml:id="Vn7Pel-j87722-Hd1e145">1</head>
+               <p xml:id="Vn7Pel-j87722-d1e147">
+                  <lb ed="#A" n="74"/>¶ Utrum prudentia sit virtus: At 
+      <lb ed="#A" n="75"/>guitur quod non. quia illa sola potentia est subiectum virtutis 
+      <lb ed="#A" n="76"/>que est subiectum peccati. quia secundum philosophum. ii Topic. idem 
+      <lb ed="#A" n="77"/>est susceptibile contrariorum. sed sola voluntas est subiectum 
+      <lb ed="#A" n="78"/>peccati. quia dicit Ans. li. i. Cur deus homo
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e160">
+      ¶ Non punitur nisi 
+      <lb ed="#A" n="79"/>voluntas. sed prudentia non in voluntate consistit sicut in 
+      <lb ed="#A" n="80"/>subiecto: sed in intellectu practico. ergo non est virtus 
+      <lb ed="#A" n="81"/>Confirmatur: quia virtutis actus est meritorius: sed 
+      <lb ed="#A" n="82"/>actus prudentie non est meritorius. Non enim est 
+      meri<lb ed="#A" n="83" break="no"/>torium cognoscere quid eligendum et quid sit respuendum 
+      <lb ed="#A" n="84"/>nisi sequatur electio recta que fit per voluntatem. ergo 
+      <lb ed="#A" n="85"/>prudentia non est virtus. Respondetur secundum Richar. in. iii. 
+      <lb ed="#A" n="86"/>di. xxxiii. arti. ii. q. i. Quod prudentia est virtus. quia dicit 
+      <lb ed="#A" n="87"/>philosophus. ii Ethic. Uirtus est habitus bonus qui 
+      ha<lb ed="#A" n="88" break="no"/>bentem perficit et eius opus bonum reddit. 
+      Pruden<lb ed="#A" n="89" break="no"/>tia autem est talis habitus. Nam omnis habitus virtus 
+      <lb ed="#A" n="90"/>est: qui peccato opponitur sub ratione qua est vicium. et sub 
+      ra<lb ed="#A" n="91" break="no"/>tione qua est peccatum. et sub ratione qua est culpa. et sub ratione 
+      <lb ed="#A" n="92"/>qua est demeritum. Sed habitus prudentie omnibus his 
+      <lb ed="#A" n="93"/>modis opponitur peccato. Inquantum enim est habitus 
+      concor<lb ed="#A" n="94" break="no"/>dans prime institutioni nature opponitur peccato sub ratione 
+      <lb ed="#A" n="95"/>qua est vicium. Unde Augustinus. iii. libro de libero arbi. Quos 
+      <lb ed="#A" n="96"/>perfectioni nature deesse perspexeris id voca vicium 
+      <lb ed="#A" n="97"/>Inquantum autem concordat regule que est ratio recta in 
+      <lb ed="#A" n="98"/>moralibus opponitur peccato sub ratione qua peccatum 
+      <lb ed="#A" n="99"/>quia peccatu est illud quod discordat a regula recta 
+      <lb ed="#A" n="100"/>siue in naturalibus siue in moralibus. Unde in natura 
+      <lb ed="#A" n="101"/>libus monstra dicuntur peccata. quia discordant a recta 
+      re<lb ed="#A" n="102" break="no"/>gula nature. Et in moralibus dicitur peccatum quod disi 
+      <lb ed="#A" n="103"/>cordat a recta regula rationis. Inquantum etiam prudentie 
+      <lb ed="#A" n="104"/>vsus dependet ex voluntate opponitur peccato sub ratione qua 
+      <lb ed="#A" n="105"/>culpa. quia culpa est inordinatus actus existens in potestate 
+      vo<lb ed="#A" n="106" break="no"/>luntatis. Inquantum actus prudentie est meritorius cum imperatur a 
+      <lb ed="#A" n="107"/>voluntate in formata charitate per quam id quod dictat 
+      <lb ed="#A" n="108"/>prudentia eligendum recte eligitur vel fugitur vel applicatur 
+      <lb ed="#A" n="109"/>ad opus exterius si est possibile opponitur peccato sub ratione 
+      <lb ed="#A" n="110"/>qua est demeritum. Peccatum enim est demeritum sub ratione quo 
+      <lb ed="#A" n="111"/>iuste redditur ei pena peccati. Ex quibus patet quod prudentia 
+      <lb ed="#A" n="112"/>non dicitur habitus faciens rectam considerationem 
+      ratio<lb ed="#A" n="113" break="no"/>nis tantum: non habendo respectum ad voluntatem. sed 
+      <!--295.xml-->
+      <pb ed="#A" n="296"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>etiam in comparatione ad rectitudinem voluntatis. vnde non 
+      <lb ed="#A" n="2"/>dicitur: homo agens prudentur. quia dictat aliquid esse 
+      <lb ed="#A" n="3"/>eligendum vel fugiendum: nisi suum dictamen sit coniunctum 
+      <lb ed="#A" n="4"/>electioni recte: que est per rectitudinem voluntatis. Ideo 
+      <lb ed="#A" n="5"/>prudentia partim est virtus intellectualis. partim 
+      <lb ed="#A" n="6"/>moralis.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e258">
+      ¶ Ad argumentum dicendum. quod peccatum 
+      <lb ed="#A" n="7"/>sub ratione qua vicium: et sub ratione qua peccatum non tantum 
+      <lb ed="#A" n="8"/>est in voluntate: sedetiam in aliis potentiis anime. quia 
+      <lb ed="#A" n="9"/>etiam potentie a voluntate possunt priuari sua perfectione 
+      <lb ed="#A" n="10"/>sue nature conueniente. vt patuit.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e269">
+      ¶ Ad secundum 
+      <lb ed="#A" n="11"/>dicendum. quod actus prudetie meritorius est in 
+      compara<lb ed="#A" n="12" break="no"/>tione ad voluntatem. ratio enim sue laudabilitatis qua 
+      oppo<lb ed="#A" n="13" break="no"/>nitur culpabilitati ei conuenit in voluntate 
+      </p>
+            </div>
+            <!-- doesn't seem to be a section 2 -->
+            <div xml:id="Vn7Pel-j87722-Dd1e282">
+               <head xml:id="Vn7Pel-j87722-Hd1e284">3</head>
+               <p xml:id="Vn7Pel-j87722-d1e286">
+                  <lb ed="#A" n="14"/>¶ Utrum prudentia sit virtus 
+      spe<lb ed="#A" n="15" break="no"/>cialis ab aliis virtutibus cardinalibus distincta: Ui 
+      <lb ed="#A" n="16"/>detur quod non. quia specialis virtus ab aliis distincta: 
+      <lb ed="#A" n="17"/>habet speciale obiectum ab obiectis aliarum virtutum. 
+      <lb ed="#A" n="18"/>Sed vt dicit Philosophus. vi. Ethi. Prudentia est 
+      recta<lb ed="#A" n="19" break="no"/>ratio agibilium. sed omnia obiecta virtutum moraliter sunt 
+      <lb ed="#A" n="20"/>agibilia. ergo prudentia non est specialis virtus
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e304">
+      ¶ 
+      Respon<lb ed="#A" n="21" break="no"/>detur secundum Rich. vbi supra. q. ii quod prudentia est specialis 
+      <lb ed="#A" n="22"/>virtus ab aliis virtutibus moralibus distincta. 
+      Uir<lb ed="#A" n="23" break="no"/>tutes enim reponunctur in specie sua per obiecta earum non 
+      <lb ed="#A" n="24"/>materialia sed formalia. Unde per diuersitatem talium 
+      <lb ed="#A" n="25"/>obiectorum virtutes distinguuntur inter se. Sed 
+      for<lb ed="#A" n="26" break="no"/>male obiectum prudentie quod est ens contingens 
+      agibi<lb ed="#A" n="27" break="no"/>leper nos sub ratione qua verum est distinctum a formali 
+      ob<lb ed="#A" n="28" break="no"/>iecto cuiuscumque alterius virtutis. tale enim obiectum 
+      cre<lb ed="#A" n="29" break="no"/>atum est. obiectu vero virtutum theologicarum est 
+      increa<lb ed="#A" n="30" break="no"/>tum. Intellectus: etiam sapientia: et scientia sunt circa 
+      ne<lb ed="#A" n="31" break="no"/>cessaria. Unde patet. quod prudentia est distincta a 
+      virtuti<lb ed="#A" n="32" break="no"/>bus theologicis: et moralibus: et virtutibus pure 
+      intel<lb ed="#A" n="33" break="no"/>lectualibus. Obiectum etiam artis non est aliquid agibile 
+      <lb ed="#A" n="34"/>sed factibile. sed sicut dicit philosophus. vi. Ethi. Alterum est 
+      fa<lb ed="#A" n="35" break="no"/>ctio et actio. Factibilia enim in exteriori materia 
+      con<lb ed="#A" n="36" break="no"/>sistunt. vt nauis: gladius etc. Agibilia autm consistunt in 
+      <lb ed="#A" n="37"/>ipso operante. et ideo philosophus vbi supra prius prudentiam distinguit 
+      <lb ed="#A" n="38"/>ab arte di. Prudentia non est ars nec scientia. Ex quibus 
+      <lb ed="#A" n="39"/>patet. quod prudentia sit virtus specialis.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e348">
+      ¶ Ad 
+      obie<lb ed="#A" n="40" break="no"/>ctum dicendum. quod quamuis prudentia et alie virtutes 
+      mo<lb ed="#A" n="41" break="no"/>rales sint circa eandem materiam: tamen sub aliqua 
+      speciali<lb ed="#A" n="42" break="no"/>ratione est obicctum prudentie sub qua non est obiectum 
+      <lb ed="#A" n="43"/>aliarum virtutum. ergo etc. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e360">
+               <head xml:id="Vn7Pel-j87722-Hd1e362">4</head>
+               <p xml:id="Vn7Pel-j87722-d1e364">
+                  <lb ed="#A" n="44"/>¶ Utrum prudentiam sit virtus 
+      mora<lb ed="#A" n="45" break="no"/>lis:
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e371">
+      ¶ Et arguitur quod non. quia virtutes morales 
+      distin<lb ed="#A" n="46" break="no"/>guutur ab intellectualibus. sed prudentia est virtus 
+      <lb ed="#A" n="47"/>intellectualis cum consistat in intellectu sicut in 
+      sub<lb ed="#A" n="48" break="no"/>iecto. ergo non est virtus moralis. Respondetur secundum 
+      Ri<lb ed="#A" n="49" break="no"/>char. vbi supra. q. iiii. quod prudentia est secundum aliquid virtus 
+      <lb ed="#A" n="50"/>intellectualis inquantum est in ratione sicut in 
+      subie<lb ed="#A" n="51" break="no"/>cto. et inquantum respicit suum obiectum sub ratione 
+      ve<lb ed="#A" n="52" break="no"/>ri. et secundum aliquid est virtus moralis: et magis 
+      mo<lb ed="#A" n="53" break="no"/>ralis quam intellectualis. non enim est in intellectu in 
+      <lb ed="#A" n="54"/>quantum speculatiuus. sed inquantum practicus. nec 
+      <lb ed="#A" n="55"/>est respectu cuiuscumque veri. sed respectu veri 
+      agibi<lb ed="#A" n="56" break="no"/>lis per nos neque est in intellectu: nisi inquantum 
+      mo<lb ed="#A" n="57" break="no"/>bilis a voluntate et ordinata ad voluntariam actionem. 
+      <!--295.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>quapropter magis est contra rationem prudentie 
+      pecca<lb ed="#A" n="59" break="no"/>re scienter quam ignorantur. Unde philosophus. viii. Ethic. dicit 
+      <lb ed="#A" n="60"/>Quod circa prudentiam minus est eligibilis peccans 
+      vo<lb ed="#A" n="61" break="no"/>untarie quam ignorantr. quamuis contrarium sit in arte. Ex quibus 
+      <lb ed="#A" n="62"/>patet solutio ad argumentum 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e416">
+               <head xml:id="Vn7Pel-j87722-Hd1e418">5</head>
+               <p xml:id="Vn7Pel-j87722-d1e420">
+                  <lb ed="#A" n="63"/>¶ Queritur: que sunt species prudentie 
+      <lb ed="#A" n="64"/>Respondetur secundum Rich. vbi supra. q. iii. quod colligendo a philosopho 
+      <lb ed="#A" n="65"/>iii. politer. c. ii et. vi. Eth. c. ix. Prudentie sunt plures 
+      <lb ed="#A" n="66"/>spes. Quedam dicitur monastica. per quam quis regit 
+      se<lb ed="#A" n="67" break="no"/>ipsum. Quedam iconomica: quae est directiua in regimi 
+      <lb ed="#A" n="68"/>ne familie. Quedam dicitur politica architethonica: quae est 
+      <lb ed="#A" n="69"/>directiua principis in regimine ciuitatis vel 
+      regni<lb ed="#A" n="70" break="no"/>Quedam vero politica simpliciter dicta: quae est directiua in 
+      <lb ed="#A" n="71"/>regimine subditorum per quam bene se habent ad 
+      conser<lb ed="#A" n="72" break="no"/>uationem policie bene ordinate.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e444">
+      ¶ Notandum etiam 
+      <lb ed="#A" n="73"/>secundum Rich. vbi supra atque simul sanctum Tho. eadem di. q. 
+      <lb ed="#A" n="74"/>iii. recolligendo iuxta plures philosophos Macrobium et 
+      <lb ed="#A" n="75"/>Tullium. ii rhetorice. ac philosophum. vi. Eth. quod assignantur 
+      <lb ed="#A" n="76"/>prudentie plures partes quasi integrales: partem 
+      im<lb ed="#A" n="77" break="no"/>proprie capiendo. et hoc pro eo quod concurrunt ad perfectum 
+      <lb ed="#A" n="78"/>actu ipsius prudentie. Et sunt iste. Ratio quae est 
+      pru<lb ed="#A" n="79" break="no"/>dentia qua quis procedit ex cognitis ad alia 
+      cognoscen<lb ed="#A" n="80" break="no"/>da. Intellectus qui accipitur pro habitu principiorum 
+      agibi<lb ed="#A" n="81" break="no"/>lium tam praesentium quam contingentium et necessariorum 
+      circum<lb ed="#A" n="82" break="no"/>pectio qua diligenter attendit homo circumstanti 
+      <lb ed="#A" n="83"/>as negocii. Prouidentia qua quis sibi prouidet 
+      <lb ed="#A" n="84"/>contra futura et commode aliqua ordinando ad finem. 
+      Do<lb ed="#A" n="85" break="no"/>cilitas quam philosophus. vi. Eth. demticam vocat. qua quis 
+      <lb ed="#A" n="86"/>prompte recipit agnitionem agibilium. Cautio qua 
+      <lb ed="#A" n="87"/>quis vitat impedimenta circa agibilia. Hec 
+      praedi<lb ed="#A" n="88" break="no"/>cta ponit Macrobius. sequentes due a Tullio. ii. 
+      <lb ed="#A" n="89"/>rhetorice. Memoria: et hic non recipitur prout nomi 
+      <lb ed="#A" n="90"/>nat anime potentiam: sed pro quadam dispositione qua 
+      <lb ed="#A" n="91"/>bene recordatur praeteritorum et prouidet de agibilibus. Eu 
+      <lb ed="#A" n="92"/>stochia est per quam homo bene communiecturat. cuius 
+      <lb ed="#A" n="93"/>pars est solertia: que est subtilitas quaedam subito in 
+      <lb ed="#A" n="94"/>non perspecto tempore medii in coniecturando. vt si 
+      ali<lb ed="#A" n="95" break="no"/>quis videns quod luna semper splendorem habet a 
+      par<lb ed="#A" n="96" break="no"/>te solis statim intelligat propter quid hoc fit. quia 
+      il<lb ed="#A" n="97" break="no"/>lustratur a sole. et disputantem in computando cum 
+      di<lb ed="#A" n="98" break="no"/>uite statim cognoscit quantum accommodatum est. 
+      De<lb ed="#A" n="99" break="no"/>nique solertia est non solum speculabilium sed etiam agibilium 
+      <lb ed="#A" n="100"/>tam in necessariis quam etiam in contingentibus. sed eustochiaest 
+      <lb ed="#A" n="101"/>tantum in operatiuis de contingentibus 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e510">
+               <head xml:id="Vn7Pel-j87722-Hd1e512">6</head>
+               <p xml:id="Vn7Pel-j87722-d1e514">
+                  <lb ed="#A" n="102"/>¶ Queritur: quot sunt actus 
+      pruden<lb ed="#A" n="103" break="no"/>tie: Respondetur secundum philosophum. vi. Eth. quod tres sunt scilicet 
+      <lb ed="#A" n="104"/>Primus consiliari. Secundus de consiliatis et in 
+      <lb ed="#A" n="105"/>uentis iudicare. Tertio consiliata et iudicata ad 
+      <lb ed="#A" n="106"/>ppus applicari praecipere. Et iste tertius actus est 
+      <lb ed="#A" n="107"/>principalis. quia alii duo ordinantur ad istum. Unde 
+      <lb ed="#A" n="108"/>dicitur Eccli. xxxiii. In omnibus operibus tuis esto 
+      <lb ed="#A" n="109"/>velox: et omnis infirmitas non occurret tibi. Ubi dicit 
+      Ly<lb ed="#A" n="110" break="no"/>ra. secundum quod inquit philosophus. lib. Eth. Consiliari debemus. 
+      <lb ed="#A" n="111"/>morose sed exequi velociter bene consiliata. Et sic omnis 
+      infir<lb ed="#A" n="112" break="no"/>mitas id est defectus operis non occurret tibi. qui frequentur 
+      su<lb ed="#A" n="113" break="no"/>peruenit quando differtur executio boni consilii. Unde poeta 
+      <lb ed="#A" n="114"/>Nocuit differre paratis. Hec ille. 
+    </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e546">
+               <head xml:id="Vn7Pel-j87722-Hd1e548">7</head>
+               <p xml:id="Vn7Pel-j87722-d1e550">
+      <!--296.xml-->
+                  <pb ed="#A" n="297"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>¶ Queritur quo opponuntur 
+      pruden<lb ed="#A" n="2" break="no"/>tie: Respondetur quod imprudentia. que quidem potest dici 
+      <lb ed="#A" n="3"/>peccatum generale per participationem: inquantum scilicet in 
+      quoli<lb ed="#A" n="4" break="no"/>bet peccato est defectus in aliquo actu rationis dirigentis. 
+      <lb ed="#A" n="5"/>et ideo secundum peccata circa quae est tle peccatum erit. 
+      Ha<lb ed="#A" n="6" break="no"/>bet etiam imprudentia sub se species scilicet que dicitur praecipi 
+      <lb ed="#A" n="7"/>tatio: qua aliquis per impetum passionis vel voluntatis 
+      fer<lb ed="#A" n="8" break="no"/>tur ad aliquid pertransitis mediis: per que oportet 
+      or<lb ed="#A" n="9" break="no"/>dinate defendere recta consiliando. que media sunt: 
+      <lb ed="#A" n="10"/>Memoria praeteritorum. Intelligentia praesentium. 
+      Sole<lb ed="#A" n="11" break="no"/>tia in considerando futuros euentus
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e583">
+      ¶ Ratio conferens vni 
+      <lb ed="#A" n="12"/>cum alio. et Docilitas per quam adquieidit quis aliorum 
+      sen<lb ed="#A" n="13" break="no"/>tentiis. Habet etiam temeritatem: quae est contemptus regule 
+      <lb ed="#A" n="14"/>dirigentis. Unde temere dicuntur illa fieri que ratione non 
+      <lb ed="#A" n="15"/>reguntur ex contemptum regule dirigentis. Habet et 
+      incon<lb ed="#A" n="16" break="no"/>siderationem: quae in recte iudicando deficit. est et 
+      incon<lb ed="#A" n="17" break="no"/>stantia: quae deficit in praecipiendo. est et negligentia: que est 
+      <lb ed="#A" n="18"/>per defectum voluntatis: et est proprie in defectu actus 
+      <lb ed="#A" n="19"/>interioris ad quem pertinet electio. est et pigritia et 
+      tor<lb ed="#A" n="20" break="no"/>por. Et quando praedicta sint peccatum mortale: Dicendum 
+      <lb ed="#A" n="21"/>quod solum quando sunt contra aliquod necessarium ad salutem qua 
+      <lb ed="#A" n="22"/>praecipitur vel quod est prohibitum. alia communiter sunt 
+      pecca<lb ed="#A" n="23" break="no"/>cata venialia. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e613">
+               <head xml:id="Vn7Pel-j87722-Hd1e615">8</head>
+               <p xml:id="Vn7Pel-j87722-d1e617">
+                  <lb ed="#A" n="24"/>¶ Queritur. Que sunt vicia que 
+      si<lb ed="#A" n="25" break="no"/>militudinem habent cum prudentia: Respondetur quod sunt 
+      quat<lb ed="#A" n="26" break="no"/>tuor.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e626">
+      ¶ Primum est prudentia carnis inquantum 
+      stu<lb ed="#A" n="27" break="no"/>dium rationis ordinat ad finem qui non est vere bonus. et 
+      qui<lb ed="#A" n="28" break="no"/>dem si sumatur secundum absolutam rationem. ita quod in 
+      cur<lb ed="#A" n="29" break="no"/>carnis aut mundanorum finis totius vite sit est 
+      pec<lb ed="#A" n="30" break="no"/>catum mortale. quia per hoc auertitur homo totaliter a deo 
+      <lb ed="#A" n="31"/>cum impossibile sit esse plures vltimos fines. Et de 
+      <lb ed="#A" n="32"/>hac dicitur Rho. viii. Prudentia carnis inimica est 
+      <lb ed="#A" n="33"/>deo. Si autem sumatur secundum rationem particularis prudentie. 
+      <lb ed="#A" n="34"/>sic est peccatum veniale. quia sicut affectio ad aliquid 
+      dele<lb ed="#A" n="35" break="no"/>ctabile carnis vel mundi inordinata sine auersione 
+      <lb ed="#A" n="36"/>a deo: est peccatum veniale. sic est studium ad illam. Si 
+      <lb ed="#A" n="37"/>militer est intelligendum de prudentia seculi. Si vero 
+      <lb ed="#A" n="38"/>quis curam carnis in finem ordinat honestum. puta 
+      co<lb ed="#A" n="39" break="no"/>mestionem ad carnis sustentationem vt deo seruiat: 
+      <lb ed="#A" n="40"/>sic non erit prudentia carnis. similiter nec prudentia se 
+      <lb ed="#A" n="41"/>culi quando vtitur rebus mundi ad finem honestum. 
+      <lb ed="#A" n="42"/>prout dici scilicet Tho. ii. ii. qi. lviii.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e663">
+      ¶ Secundum est 
+      asti<lb ed="#A" n="43" break="no"/>tia: que secundum san. Tho. ii. ii. qa. lviii. est cum quis ad 
+      com<lb ed="#A" n="44" break="no"/>sequendum aliquem finem bonum vel malum vtitur non 
+      ve<lb ed="#A" n="45" break="no"/>ris mediis: sed falsis et apparentibus: quod quidem 
+      <lb ed="#A" n="46"/>est contra rationem et prudentia et peccatum. Aliquando tamen 
+      di<lb ed="#A" n="47" break="no"/>citur prudentia propter similitudinem: sed improprie. sict 
+      <lb ed="#A" n="48"/>Prouerb. i. Ut detur paruulis astutia.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e679">
+      ¶ Terti 
+      <lb ed="#A" n="49"/>um est dolus qui a Labeone in l.i. ff. de dolo. sic 
+      <lb ed="#A" n="50"/>diffinitur. Dolus malus est omnis calliditas fallacia 
+      <lb ed="#A" n="51"/>machinatio ad circumueniendum fallendum et 
+      decipi<lb ed="#A" n="52" break="no"/>endum alterum adhibita. fit tacendo in animo calliditas. 
+      <lb ed="#A" n="53"/>fit mentiendo in verbo fallacia: fit in arte verborum 
+      <lb ed="#A" n="54"/>machinatio. Potest tamen aliquando dolus esse 
+      li<lb ed="#A" n="55" break="no"/>citus. si cut patet in captiuo qui se simulat 
+      contra<lb ed="#A" n="56" break="no"/>ctum
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e700">
+      ¶ Quartum est fraus que non potest esse sine 
+      <!--296.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="57"/>dolo. sed bene dolus sine fraude. ita fraudi inest 
+      do<lb ed="#A" n="58" break="no"/>lus sicut species generi. Unde sicut tutor qui non potest 
+      <lb ed="#A" n="59"/>emere rem pupilli interponit aliam personam que emat 
+      <lb ed="#A" n="60"/>Sed vt dicitur extra de rescriptis. c. ex tenore: Fraus 
+      <lb ed="#A" n="61"/>et dolus nemini debet patrocinari. Et licet hec triam 
+      <lb ed="#A" n="62"/>conueniant inquantum quis per vias non veras sed 
+      simu<lb ed="#A" n="63" break="no"/>latas vult consequi aliquem finem. tamen inter se differunt. 
+      <lb ed="#A" n="64"/>quia ad astutiam pertinet cogitatio huiusmodi viarum. ad 
+      <lb ed="#A" n="65"/>fraudem vero et dolum pertinet executio operis. Sed 
+      do<lb ed="#A" n="66" break="no"/>lus proprie consistit in vbis et factis. Fraus in fagtis 
+      <lb ed="#A" n="67"/>propre. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e733">
+               <head xml:id="Vn7Pel-j87722-Hd1e735">9</head>
+               <p xml:id="Vn7Pel-j87722-d1e737">
+                  <lb ed="#A" n="68"/>¶ Utrum prudentia prestituat finem 
+      <lb ed="#A" n="69"/>virtultibus moralibus Arguitur quod sic. quia ad nullam pertinet 
+      <lb ed="#A" n="70"/>virtutem ordinare de alia: nisi magis de propinquo re 
+      <lb ed="#A" n="71"/>spiciat. Unde philosophus. ii Ethicor. vult. quod illa scientia 
+      <lb ed="#A" n="72"/>quae magis est circa finem operabilium aliis imperat 
+      <lb ed="#A" n="73"/>que sunt circa operabilia. Sed prudentia disponit 
+      <lb ed="#A" n="74"/>de aliis virtutibus moralibus: ergo videtur quod eis finem 
+      <lb ed="#A" n="75"/>praestituat. Respondetur secundum Rich. vbi supra. q. v. Quod 
+      pru<lb ed="#A" n="76" break="no"/>dentia non praestituit finem virtutibus moralibus 
+      loquen<lb ed="#A" n="77" break="no"/>do de fine in generalier. qui respectu vniuscuiusque 
+      <lb ed="#A" n="78"/>virtutis moralis est circa materiam suam medium per 
+      <lb ed="#A" n="79"/>comparationem ad iudicium rationis recte. habent finem 
+      <lb ed="#A" n="80"/>dico sait Richar. Igeneralem et communem generali 
+      <lb ed="#A" n="81"/>virtuti. quia respectu cuiuscunque status: cuiuscum 
+      <lb ed="#A" n="82"/>que actus et persone ille finis conuenit virtuti morali. 
+      <lb ed="#A" n="83"/>Uerbi gratia. Temperantia semper ad hoc tendit vt re 
+      <lb ed="#A" n="84"/>spectu delectabilium sensibilium attingat ad illud 
+      <lb ed="#A" n="85"/>quod dictat iudicium rationis recte. sic autem finem 
+      prae<lb ed="#A" n="86" break="no"/>stituit virtuti morali naturalis ratio. ex quo sic dictat 
+      te<lb ed="#A" n="87" break="no"/>dendum ad finem. Sed loquendo de generali fine qui 
+      <lb ed="#A" n="88"/>non est idem respectu cuiuscunque status actus et 
+      perso<lb ed="#A" n="89" break="no"/>ne: Sic dicendum quod prudentia finem virtuti morali 
+      prae<lb ed="#A" n="90" break="no"/>stituit. aliter enim non inueniret medium circa ea que 
+      <lb ed="#A" n="91"/>sunt ad finem. quia ad attingendum medium in quo 
+      <lb ed="#A" n="92"/>cunque actu morali: inclinat moralis actus sicut 
+      <lb ed="#A" n="93"/>ad aliquem finem
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e796">
+      ¶ Ad argumentum dicendum 
+      <lb ed="#A" n="94"/>quod prudentia dicitur disponere de aliis virtutibus 
+      <lb ed="#A" n="95"/>moralibus: quia iuuat eas ad tendendum in 
+      fi<lb ed="#A" n="96" break="no"/>nem quem eis praestituit ratio naturalis. Et hoc 
+      au<lb ed="#A" n="97" break="no"/>xilium facit inueniendo medium circa ea quae sunt 
+      <lb ed="#A" n="98"/>ad finem. Sed ex hoc non sequitur quod finem eis 
+      prae<lb ed="#A" n="99" break="no"/>stituat. quia ex prudentia et aliis virtutibus 
+      mora<lb ed="#A" n="100" break="no"/>libus ratio naturalis finem in generali praestituit. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e815">
+               <head xml:id="Vn7Pel-j87722-Hd1e817">10</head>
+               <p xml:id="Vn7Pel-j87722-d1e819">
+                  <lb ed="#A" n="101"/>¶ Utrum prudentia sit nobilior 
+      vir<lb ed="#A" n="102" break="no"/>tus quam iusticia: Respondetur secundum intentionem Scoti quod 
+      <lb ed="#A" n="103"/>non. sed iusticia est nobilior. quod sic probatur. 
+      Qua<lb ed="#A" n="104" break="no"/>do sunt due potentie aspicientes finem et ea que 
+      <lb ed="#A" n="105"/>sunt ad finem: si vnius respectu alterius est 
+      no<lb ed="#A" n="106" break="no"/>bilior habitus in respectu finis: ita eius 
+      respectu<lb ed="#A" n="107" break="no"/>entium ad finem. Hoc modo comparatur 
+      intelle<lb ed="#A" n="108" break="no"/>ctus et voluntas. ambe enim sunt tam finis quam entium 
+      <lb ed="#A" n="109"/>ad finem. respectu autem finis charitas que est 
+      volun<lb ed="#A" n="110" break="no"/>tatis. habitus nobilior est fide quae cst intellectus. 
+      igi<lb ed="#A" n="111" break="no"/>tur et respectu entium ad finem nobilior erit iusticia 
+      <lb ed="#A" n="112"/>que est prima virtus voluntatis. In isto ordine ipsa 
+      <!--297.xml-->
+      <pb ed="#A" n="298"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>prudentia quae est suprema virtus intellectus in eodem 
+      or<lb ed="#A" n="2" break="no"/>dine. non loquendo autem modo de virtutibus speculati 
+      <lb ed="#A" n="3"/>uis. Etsi obiiciatur quod in. vi. Ethicorum videtur philosophus 
+      prae<lb ed="#A" n="4" break="no"/>ponere prudentiam ceteris virtutibus. Dicendum quod 
+      <lb ed="#A" n="5"/>ista praepositio intelligenda est aut ratione originis: quia 
+      <lb ed="#A" n="6"/>est prior. aut directionis non quod sit simpliciter 
+      no<lb ed="#A" n="7" break="no"/>pilior. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j87722-Dd1e870">
+               <head xml:id="Vn7Pel-j87722-Hd1e872">11</head>
+               <p xml:id="Vn7Pel-j87722-d1e874">
+                  <lb ed="#A" n="8"/>¶ Utrum prudentia possit tradi 
+      ob<lb ed="#A" n="9" break="no"/>liuioni: Et videtur quod sic. quia scientia cum de necessa 
+      <lb ed="#A" n="10"/>riis sit stabilior est et certior quam prudentia cum sit 
+      de<lb ed="#A" n="11" break="no"/>contingentibus. sed scientia amitti potest per obliuionem. ergo 
+      <lb ed="#A" n="12"/>multo fortius prudentia.
+     </p>
+               <p xml:id="Vn7Pel-j87722-d1e887">
+      ¶ Respondetur secundum Rich. vbi supra. q. 
+      <lb ed="#A" n="13"/>vii. Quod quidam dixerunt quod non potest prudentia totaliter 
+      <lb ed="#A" n="14"/>amitti. quia vt ipsi dicunt ipsa non tantum est in 
+      intellectu<lb ed="#A" n="15" break="no"/>sed etiam in affectu. obliuio autem respicit intellectum 
+      <lb ed="#A" n="16"/>non affectum. Sed hoc non videtur quod vnus simplex 
+      ha<lb ed="#A" n="17" break="no"/>bitus sit in duabus potentiis. nec vnus habitus 
+      con<lb ed="#A" n="18" break="no"/>ponitur ex duobus habitibus. Unde videtur dicendum quod 
+      <lb ed="#A" n="19"/>prudentia posset per obliuionem amitti per 
+      diuturni<lb ed="#A" n="20" break="no"/>tatem temporis. Si homo per tempus valde diuturnum 
+      <lb ed="#A" n="21"/>possit cessare ab omni actu prudentie. sed hoc non est 
+      <lb ed="#A" n="22"/>possibile de lege communi. quia semper praesto est materia 
+      <lb ed="#A" n="23"/>prudentie cum tota die insurgant passiones et 
+      occui<lb ed="#A" n="24" break="no"/>rant operationes: circa quas homo per prudentiam se 
+      di<lb ed="#A" n="25" break="no"/>rigit. ideo prudentia de lege communi obliuioni non 
+      <lb ed="#A" n="26"/>traditur. saltem ita faciliter sicut ars et scientia. Ex quibus 
+      <lb ed="#A" n="27"/>patet responsio ad argumentum. 
+      </p>
+               <p xml:id="Vn7Pel-j87722-d1e922">
+                  <lb ed="#A" n="28"/>¶ Hic relucet altissimi dei 
+      ma<lb ed="#A" n="29" break="no"/>gna charitas erga homines.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

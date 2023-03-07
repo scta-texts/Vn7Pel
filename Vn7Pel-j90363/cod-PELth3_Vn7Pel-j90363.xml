@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sessio christi</title>
+            <author ref="#per-a28anv">Pelbartus de Themeswar</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#christinaguerra">Christina Guerra</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Sessio christi</title>
+               <date when="2023-03-07">March 07, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-PELth3">Augsburg 1503, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-03-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="304"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Vn7Pel-j90363">
+            <head xml:id="Vn7Pel-j90363-Hd1e110">Sessio christi</head>
+            <div xml:id="Vn7Pel-j90363-Dd1e112">
+               <head xml:id="Vn7Pel-j90363-Hd1e114">1</head>
+               <p xml:id="Vn7Pel-j90363-d1e116">
+                  <lb ed="#A" n="10"/>Sessio Christi ad 
+      <lb ed="#A" n="11"/>dexteram patris. Nam secundum Guiller. 
+      <lb ed="#A" n="12"/>ista tria differunt Esse a dextris 
+      pa<lb ed="#A" n="13" break="no"/>tris. Astare a dextris patris. Et 
+      sede<lb ed="#A" n="14" break="no"/>re ad dexteram patris. Esse nempe a dextris omnibus beatis 
+      <lb ed="#A" n="15"/>competit: secundum illud Matt. xxv. Oues quidem statuet quod 
+      <lb ed="#A" n="16"/>pextris. hedos autem a sinistris. Astare autem a dexteris 
+      <lb ed="#A" n="17"/>est proprium beate Marie: inquantum bona filii in ipsam 
+      <lb ed="#A" n="18"/>speciali dignatione influunt. Astitit sait Dauid 
+      re<lb ed="#A" n="19" break="no"/>gina a dextris tuis. Sedere autem ad patris dexteram 
+      <lb ed="#A" n="20"/>est proprium christi. quia illud est esse in potioribus bonis 
+      <lb ed="#A" n="21"/>glorie: quod solum ei conuenit.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e145">
+      ¶ Notandum quoque quod 
+      <lb ed="#A" n="22"/>christus dicitur esse in sinu patris ratione sue eterne generationis 
+      <lb ed="#A" n="23"/>Dicitur secundo sedere ad dexteram patris ratione bonorum quae 
+      <lb ed="#A" n="24"/>primus participat. Dicitur vero dextera patris: quia ea 
+      poati<lb ed="#A" n="25" break="no"/>cuncta operatur. Ioam scilic.t Omnia enim per ipsum facta sunt. 
+      <lb ed="#A" n="26"/>ergo ista dextera intelligenda est spiritualiter: non ad 
+      mo<lb ed="#A" n="27" break="no"/>dum humani sensus. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e162">
+               <head xml:id="Vn7Pel-j90363-Hd1e164">2</head>
+               <p xml:id="Vn7Pel-j90363-d1e166">
+                  <lb ed="#A" n="28"/>¶ Utrum fuit christum conueniens 
+      <lb ed="#A" n="29"/>ascendere et per consequens sedere ad patris dexteram: 
+      <lb ed="#A" n="30"/>Arguitur quod non. quia dicit Philosophus. ii de celo. quod illa que 
+      <lb ed="#A" n="31"/>optimo modo se habent possident suum bonum sine 
+      mo<lb ed="#A" n="32" break="no"/>tu. Sed christus optime se habuit. quia et secundum naturam 
+      <lb ed="#A" n="33"/>diuinam est summum bonum. et secundum humanam naturam est 
+      <lb ed="#A" n="34"/>summe glorificatus. ergo suum bonum habet sine motu. 
+      <lb ed="#A" n="35"/>Sed ascensio est quidam motus. ergo non fuit conueniens 
+      chri<lb ed="#A" n="36" break="no"/>stum ascendere
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e188">
+      ¶ Confirmatur. quia omne quod mouetur: mouetur 
+      <lb ed="#A" n="37"/>propter aliquod melius. Sed christo non fuit esse melius in 
+      <lb ed="#A" n="38"/>celo quam in terra. quia nihil accreuit ei per hoc quod fuit in 
+      <lb ed="#A" n="39"/>celo: neque quantum ad animam: neque quantum ad corpus 
+      <lb ed="#A" n="40"/>ergo videtur quod christus non debuit in celum ascendere
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e199">
+      ¶ Respondetur 
+      <lb ed="#A" n="41"/>secundum Alexan. de Ales in. iii. parte summe. q. xxiiilet sanctum 
+      <lb ed="#A" n="42"/>Tho. in. iii. parte. qi. lviii. quod corpus per suam naturam ad 
+      <lb ed="#A" n="43"/>vnum locum est determinatum solum et coartatum. Hec autem 
+      <lb ed="#A" n="44"/>determinatio ad vnum solum locum non est perfectionis 
+      in<lb ed="#A" n="45" break="no"/>eo: sed imperfectionis. quia dicit conclusionem substantiet virtut 
+      <lb ed="#A" n="46"/>et operationis. Unde causa prima quae perfectissima est ad 
+      nullu<lb ed="#A" n="47" break="no"/>ocum deturminatur. Similiter substante spirituales quae perfectiores sunt 
+      <lb ed="#A" n="48"/>corporalibus minus detr minantur ad locum quam corporales 
+      <lb ed="#A" n="49"/>Ex quo patet quod immorari in loco vno solo est 
+      imperfectio<lb ed="#A" n="50" break="no"/>nis ipsi corpori. Si ergo detur ei virtus qua possit moueri de 
+      <lb ed="#A" n="51"/>loco ad locum: istud erit perfectionis in ipso. hoc autem in 
+      <!--303.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="52"/>illis qui mouentur a principio quod est intra se. 
+      indici<lb ed="#A" n="53" break="no"/>um ergo virtutis est moueri a virtute intra se. Une 
+      <lb ed="#A" n="54"/>in animatis moueri est perfectionis respectu 
+      inania<lb ed="#A" n="55" break="no"/>torum. Et hec est distinctio per comparationem ad mouens 
+      <lb ed="#A" n="56"/>Similiter per comparationem ad finem est distinguendum Quod est 
+      <lb ed="#A" n="57"/>motus propter supplementum indigentie. et est motus 
+      <lb ed="#A" n="58"/>propter explicationem virtutis. Motus primus ponit 
+      im<lb ed="#A" n="59" break="no"/>prfectionem in mobili. sed secundus ponit perfectionem. 
+      <lb ed="#A" n="60"/>quia si defectus virtutis est immobilitari in loco: 
+      per<lb ed="#A" n="61" break="no"/>fecte virtutis erit moueri de loco ad locum. Ascensio 
+      <lb ed="#A" n="62"/>ergo christi non fuit motus habens principium extra se. 
+      <lb ed="#A" n="63"/>nec fuit ad supplementum indigentie. sed habuit 
+      prin<lb ed="#A" n="64" break="no"/>cipium in se scilicet suam beatam animam et corpus gloriosum 
+      obedi<lb ed="#A" n="65" break="no"/>ens anime. et vtrumque obediens diuinitati ergo motus 
+      fu<lb ed="#A" n="66" break="no"/>st in ipso ad declarationem sue virtutis
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e262">
+      ¶ Ad 
+      ar<lb ed="#A" n="67" break="no"/>gumentum ergo dicendum quod illud optime habet se quod 
+      <lb ed="#A" n="68"/>sine motu possidet locum suum. talis enim est deus qui est 
+      <lb ed="#A" n="69"/>immutabilis: secundum quod dicitur Malach. iiii. Ego deus non 
+      <lb ed="#A" n="70"/>mutor. Quelibet autem alia creatura aliquo modo est 
+      mu<lb ed="#A" n="71" break="no"/>tabilis. Et natura assumpta a dei filio creata 
+      re<lb ed="#A" n="72" break="no"/>namsit. Unde non est inconueniens si ei aliquis motus attri 
+      <lb ed="#A" n="73"/>buatur
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e281">
+      ¶ Ad confirmationem argumenti dicendum quod per 
+      <lb ed="#A" n="74"/>hoc quod christus ascendit in caelum nihil ei accreuit quae sunt 
+      <lb ed="#A" n="75"/>de essentia glorie sue secundum corpus siue secundum animam: tamen 
+      ac<lb ed="#A" n="76" break="no"/>creuit ei aliquid quantum ad loci decentiam: quod est ad 
+      be<lb ed="#A" n="77" break="no"/>ne esse glorie. hoc autem aliquo modo pertinebat ad eius 
+      <lb ed="#A" n="78"/>gloriam. Et de hac decentia gaudium quoddam habuit 
+      <lb ed="#A" n="79"/>Non quidem quod tunc de nouo de hoc gaudere inciperet 
+      <lb ed="#A" n="80"/>quando in celum ascendit Sed quia nouo de hoc modo 
+      <lb ed="#A" n="81"/>gauisus est: sicut et de re impleta. Unde super illud psalmo. 
+      <lb ed="#A" n="82"/>Delectationes in dextera tua vsque in finem. dicit 
+      glo<lb ed="#A" n="83" break="no"/>Delectatio et leticia erit mihi in conspectu tuo 
+      hu<lb ed="#A" n="84" break="no"/>manis obtutibus subtrato. Hec sanctus Tho. 
+      <lb ed="#A" n="85"/>vbi supra. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e311">
+               <head xml:id="Vn7Pel-j90363-Hd1e313">3</head>
+               <p xml:id="Vn7Pel-j90363-d1e315">
+                  <lb ed="#A" n="86"/>¶ Utrum christi ascensio sit motus 
+      <lb ed="#A" n="87"/>naturalis vel violentus: Arguitur quod motus sit 
+      violen<lb ed="#A" n="88" break="no"/>tus. quia omne vectum de loco ad locum est violenter motum. 
+      <lb ed="#A" n="89"/>Sed corpus christi in ascensione fuit vectum de 
+      loco<lb ed="#A" n="90" break="no"/>ad locum ergo fuit violenter motum. Maior patet. quia 
+      <lb ed="#A" n="91"/>quattuor sunt specie violenti motus scilicet Tractus: pulsus: 
+      <lb ed="#A" n="92"/>vectio: vertigo
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e333">
+      ¶ Minorem probat Leo papa in ser. de 
+      <lb ed="#A" n="93"/>Ascensione: exponens illud verbum Uidentibus illis 
+      ele<lb ed="#A" n="94" break="no"/>uatus est. dci. Cum audis eleuatum agnosce militie 
+      ce<lb ed="#A" n="95" break="no"/>lestis obsequium in eo qui eleuat dininam potentiam. 
+      <lb ed="#A" n="96"/>in eo qui eleuatur humanam agnosce naturam. ergo fuit 
+      <lb ed="#A" n="97"/>eleuatus et ita vectus
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e346">
+      ¶ In contrarium dicitur Esa. lxiii. 
+      <lb ed="#A" n="98"/>Quis est iste qui venitr de Edom etc. gradiens in 
+      mul<lb ed="#A" n="99" break="no"/>titudine virtutis sue. Hoc dixerunt angeli de christo 
+      <lb ed="#A" n="100"/>quando ascendit celos. Ex quo patet quod mouebatur propria 
+      vir<lb ed="#A" n="101" break="no"/>tute. Similiter Michee. ii dicitur Ascendit pandens iter ante 
+      <lb ed="#A" n="102"/>eos. ergo propria virtute ascendit.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e359">
+      ¶ Respondet Alex. vbi supra quod 
+      <lb ed="#A" n="103"/>ferri dupliciter dicitur. Uno modo necessitate 
+      sustentatio<lb ed="#A" n="104" break="no"/>nis scilicet cum virtus corporis non est sufficiens ad 
+      sustinen<lb ed="#A" n="105" break="no"/>dum motum. Alio modo aliquid ferri dicitur obsequio 
+      venera<lb ed="#A" n="106" break="no"/>tionis. sicut papa fertur ab episcopis. et rex a suis 
+      mili<lb ed="#A" n="107" break="no"/>tibus. Cum ergo dicitur corpus christi latum per angelos: hoc 
+      <lb ed="#A" n="108"/>fuit solum obsequio venerationis. de quo loquitur 
+      <!--304.xml-->
+      <pb ed="#A" n="305"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Leo papa. Et in hoc sensu intelligitur illud salm. 
+      Cur<lb ed="#A" n="2" break="no"/>rus dei decem milibus multiplex milia letantium. Unde 
+      <lb ed="#A" n="3"/>Grego. in Homel. ascensionis dicit. Notandum est quod 
+      <lb ed="#A" n="4"/>Helias in currum legitur ascendisse: vt videlicet aperte 
+      demodo<lb ed="#A" n="5" break="no"/>straretur quia homo purus adiutorio indiget alieno. 
+      Re<lb ed="#A" n="6" break="no"/>demptor autem noster non currum: non ab angelis 
+      ele<lb ed="#A" n="7" break="no"/>uatus legitur. quia qui fecerat omnia: super omnia virtute sua 
+      fe<lb ed="#A" n="8" break="no"/>rebatur. Addit ad hac sanctus Tho. in. iii. parte. quod in 
+      <lb ed="#A" n="9"/>christo duplex est natura. Humana scilicet et Diuina. Unde 
+      <lb ed="#A" n="10"/>secundum vtranque potest accipi propria virtus eius. Sed 
+      <lb ed="#A" n="11"/>secundum humanam naturam est duplex virtus christi. Una quidem 
+      <lb ed="#A" n="12"/>naturalis que procedit ex principiis nature. et tali 
+      vir<lb ed="#A" n="13" break="no"/>tute manifestum est quod christus noni ascendit. Alia virtus 
+      <lb ed="#A" n="14"/>in eo est virtus glorie. Et ista virtute propria ascendit 
+      <lb ed="#A" n="15"/>Et per hec patet responsio ad argumentum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e415">
+               <head xml:id="Vn7Pel-j90363-Hd1e417">4</head>
+               <p xml:id="Vn7Pel-j90363-d1e419">
+                  <lb ed="#A" n="16"/>¶ Utrum christi ascensio sit motus 
+      <lb ed="#A" n="17"/>successiuus in tempore:
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e426">
+      ¶ Respondetur secundum Alexandrum quod 
+      <lb ed="#A" n="18"/>circa istam quaestionem diuerse sunt opiniones. 
+      Qui<lb ed="#A" n="19" break="no"/>dam ponunt quod corpus glorificatum motum non 
+      descri<lb ed="#A" n="20" break="no"/>bitur per spacium: sicut nec voluntas suo motu 
+      descri<lb ed="#A" n="21" break="no"/>bit spacium. Et dicunt quod quando ipsa mouetur a volito 
+      <lb ed="#A" n="22"/>in volitum non mouetur per spacium: ita etiam non mouetur 
+      <lb ed="#A" n="23"/>corpus gloriosum per spacium. Sed ipsi deficiunt. quia 
+      vo<lb ed="#A" n="24" break="no"/>luntas quando mouetur a volito in volitum non mouetur 
+      <lb ed="#A" n="25"/>extra seipam. sed corpus motum de locoad locum 
+      mo<lb ed="#A" n="26" break="no"/>uetur extra seipsum. ergo non est simile. quia natura corporalis 
+      nun<lb ed="#A" n="27" break="no"/>quam potest attingere subtilitatem spiritualis nature. vnde 
+      <lb ed="#A" n="28"/>glorificatum corpus licet sit simplex in genere 
+      corporei<lb ed="#A" n="29" break="no"/>tatis: nunquam tamen peruenit ad simplicitatem anime.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e455">
+      ¶ Alii. 
+      <lb ed="#A" n="30"/>picunt quod corpus in suo motu describit spacium et 
+      no<lb ed="#A" n="31" break="no"/>uetur in tempore. sed illud tempus est imperceptibile. et sic illa 
+      <lb ed="#A" n="32"/>descriptio est imperceptibilis propter subtilitatem 
+      cor<lb ed="#A" n="33" break="no"/>porum. Unde sicut radius si esset corpus moueretur 
+      imperce<lb ed="#A" n="34" break="no"/>ptibiliter in maiori vel minori spacio: ita dicunt de 
+      <lb ed="#A" n="35"/>corpore glorioso quod tamen moueretur successiue. Alii dicunt 
+      <lb ed="#A" n="36"/>medio modo quod sicut se habet res ad circumscriptio 
+      <lb ed="#A" n="37"/>nem in loco. ita se hahet ad mqueri in loco. Est 
+      er<lb ed="#A" n="38" break="no"/>go res que nullo modo circumscribiti in loco ne 
+      re<lb ed="#A" n="39" break="no"/>plet locum: nec commetitur se loco. sicut deus qui vbique est 
+      <lb ed="#A" n="40"/>incircum scriptus. Est alia res que circum scribitur 
+      lo<lb ed="#A" n="41" break="no"/>co sed non replet locum nec commetitur se loco: sicut 
+      an<lb ed="#A" n="42" break="no"/>gelus. Est alia res que circumscribitur et commetitur 
+      loco<lb ed="#A" n="43" break="no"/>sed non replet locum: sicut corpus pure luminosum 
+      <lb ed="#A" n="44"/>quia si radius sol sit in aere: non propter hoc aer fit spissior 
+      <lb ed="#A" n="45"/>Est alia res quae circumscribitur et commetitur se loco et 
+      re<lb ed="#A" n="46" break="no"/>plet locum: sicut corpus elementare non glorificatum. Et 
+      <lb ed="#A" n="47"/>inde est quod talia duocorpora non possunt esse simul in eodem 
+      <lb ed="#A" n="48"/>loco quia replent locum. Dicunt ergo quod quantum ad 
+      condi<lb ed="#A" n="49" break="no"/>tionem corporis glorificati potest se describere et 
+      mo<lb ed="#A" n="50" break="no"/>ueri successiue. sed quantum est de potestate glorie 
+      po<lb ed="#A" n="51" break="no"/>test se non commetiri et non circumscribi sensibiliter. quia 
+      <lb ed="#A" n="52"/>quasi est infinitum quo ad nos respectu 
+      possibili<lb ed="#A" n="53" break="no"/>tatis corporis non glor ficati. Et hoc est quod vult 
+      di<lb ed="#A" n="54" break="no"/>cere Augustinus quod vbicunque volet spiritus illuc graditur 
+      pro<lb ed="#A" n="55" break="no"/>tinus et corpus. Per praedicta patet responsio ad arguntum. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e516">
+               <head xml:id="Vn7Pel-j90363-Hd1e518">5</head>
+               <p xml:id="Vn7Pel-j90363-d1e520">
+                  <lb ed="#A" n="56"/>¶ Utrum christus ascenderit secundum 
+      <lb ed="#A" n="57"/>naturam humanam aut secundum diuinam: Et arguitur quod secundum 
+      <!--304.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>naturam diuinam. quia illius est ascendere cuius est 
+      <lb ed="#A" n="59"/>descendere de celo: secundum illud Ioan. iii. Nemo 
+      ascen<lb ed="#A" n="60" break="no"/>dit in celum nisi qui descendit de celo. Et Eph. x. Qui 
+      <lb ed="#A" n="61"/>descendit ipse est et qui ascendit. Sed christus 
+      descen<lb ed="#A" n="62" break="no"/>lit de celo non secundum quod homo sed secundum quod deus. Non enim 
+      <lb ed="#A" n="63"/>natura eius humana ante suam ascensionem fuit in celo: 
+      <lb ed="#A" n="64"/>sed diuina. ergo videtur quod christus ascendit in caelum secundum natu 
+      <lb ed="#A" n="65"/>ram diuinam. Respondetur secundum Alexan. vbi supra cui concordat 
+      <lb ed="#A" n="66"/>sanctus Tho. in. iii. parte. Quod descensus dicitur dupliciter: sic et 
+      <lb ed="#A" n="67"/>scensus. Descensus enim dicitur proprie: et improprie. 
+      Im<lb ed="#A" n="68" break="no"/>proprie dicitur descensus de christo secundum diuinitatem scilicet ipsa 
+      <lb ed="#A" n="69"/>exinanitio deitatis Phil. ii qui fit non localiter: ideo 
+      <lb ed="#A" n="70"/>non ponit motum: set terminum vnionis Eph. iiii. 
+      De<lb ed="#A" n="71" break="no"/>scendit in inferiores partes terre. Ubi gio. Descendit 
+      <lb ed="#A" n="72"/>diuinitas non localiter sed per exinanitionem. 
+      Descen<lb ed="#A" n="73" break="no"/>lus proprie est proprietas substantie diffinibilis in loco. 
+      <lb ed="#A" n="74"/>Et hoc modo christus descendit ad inferos secundum humanita 
+      <lb ed="#A" n="75"/>tem. Ascensio similiter dicitur duplicter scilicet Proprie: et 
+      Impro<lb ed="#A" n="76" break="no"/>prie. Improprie ascensio de christo dicitur exaltatio huant 
+      <lb ed="#A" n="77"/>tatis in resurrectione: quia tunc multum manifestata est 
+      <lb ed="#A" n="78"/>pteatas deitatis. Alio modo ascensio dicitur proprie 
+      <lb ed="#A" n="79"/>secundum videlicet motum localem. Et sic secundum idem et descendit 
+      <lb ed="#A" n="80"/>ad inferos et ascendit in celos Unde hec praepositio 
+      <lb ed="#A" n="81"/>secundum: aliquando nominat conditionem nature: aliquando nominat 
+      cau<lb ed="#A" n="82" break="no"/>sam: aliquando vnitatem proprie persone. Conditionem 
+      <lb ed="#A" n="83"/>nature notat c um dicitur christus secundum quod homo passibilis: 
+      <lb ed="#A" n="84"/>secundum quod deus impassibilis. Causam notat cum dicitur 
+      <lb ed="#A" n="85"/>christus secundum quod deus resurrexit: quia virtus diuina 
+      fu<lb ed="#A" n="86" break="no"/>it causa resurrectionis. Unitatem persone notat cum dicitur: 
+      <lb ed="#A" n="87"/>christus secundum quod homo creauit mundum id est christus secundum quod est 
+      <lb ed="#A" n="88"/>persona illa que habet humanitatem creauit mundum. 
+      <lb ed="#A" n="89"/>Si ergo secundum: in praesenti notet conditionem nature: hoc modo 
+      <lb ed="#A" n="90"/>christus secundum quod homo ascendit. Si notet causam: sic ei 
+      con<lb ed="#A" n="91" break="no"/>uenit ascensio secundum diuinam naturam. quia virtus 
+      di<lb ed="#A" n="92" break="no"/>uina fuit causa ascensionis. Si notet vnitatem 
+      per<lb ed="#A" n="93" break="no"/>sone: sic ei conuenit ascensio secundum quod deus est et etiam 
+      <lb ed="#A" n="94"/>secundum quod homo est. quia persona quae est deus et homo 
+      ascen<lb ed="#A" n="95" break="no"/>dit. Et sic patet responsio ad argumentium ex iam 
+      <lb ed="#A" n="96"/>dictis. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e617">
+               <head xml:id="Vn7Pel-j90363-Hd1e619">6</head>
+               <p xml:id="Vn7Pel-j90363-d1e621">
+                  <lb ed="#A" n="97"/>¶ Utrum christus ascenderit super 
+      <lb ed="#A" n="98"/>omnes celos: Arguitur quod non. quia super omnes 
+      ce<lb ed="#A" n="99" break="no"/>los non est aliquis locus: vt dicit Philosophus. i de celo. 
+      <lb ed="#A" n="100"/>Sed omne corpus oportet esse in loco. ergo corpus christi 
+      <lb ed="#A" n="101"/>non ascendit super omnes celos.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e634">
+      ¶ In contrarium tamen 
+      <lb ed="#A" n="102"/>dicitur Eph. iii. Ascendit super omnes celos vt 
+      adimple<lb ed="#A" n="103" break="no"/>ret omnia.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e641">
+      ¶ Respondetur secundum Alexan. vbi supra quod 
+      distinguen<lb ed="#A" n="104" break="no"/>dum est. quia sunt localia: et sunt non localia. Ultimum 
+      <lb ed="#A" n="105"/>continems scilicet celum empyreum locale non est. Super omnia igitur 
+      <lb ed="#A" n="106"/>localia est loco. Sactus vero Tho. dicit in. iii. parte 
+      su<lb ed="#A" n="107" break="no"/>me. q. lvii. Quod quanto corpora perfectius participant boni 
+      <lb ed="#A" n="108"/>tatem diuinam tanto sunt superiora corporali ordine 
+      qui<lb ed="#A" n="109" break="no"/>est ordo localis. Unde videmus quod corpora que 
+      ma<lb ed="#A" n="110" break="no"/>pis sunt formalia sunt naturaliter superiora vicet per 
+      <lb ed="#A" n="111"/>Philosophum. iiii. Physicus. et. ii de celo. Per formam enim 
+      <lb ed="#A" n="112"/>vnum quodque participat diuinum esse. vtqu. v. 
+      Phy<lb ed="#A" n="113" break="no"/>sicorum. Plus autem participat corpus per gloriam quam 
+      <lb ed="#A" n="114"/>quodcunque corpus naturale per formam sue nature 
+      <!--305.xml-->
+      <pb ed="#A" n="306"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>et inter cetera gloriosa corpora maximum est corpus christi. 
+      <lb ed="#A" n="2"/>ergo conuenies fuit quod sit constitutum super omnia 
+      corpora<lb ed="#A" n="3" break="no"/>gloriosa in alto. et ideo super illud Ephes. iiii. 
+      Ascen<lb ed="#A" n="4" break="no"/>dit super etc. dicit gloia loco et dignitate
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e682">
+      ¶ Ad 
+      ar<lb ed="#A" n="5" break="no"/>gumentum autem secndum scilicet Tho. vbi supro dicendum. quod locus 
+      <lb ed="#A" n="6"/>habet rationem continentis. vnde primum continens habet 
+      ratio<lb ed="#A" n="7" break="no"/>nem primi locantis: quod est primum caelu. intantum igitur 
+      co<lb ed="#A" n="8" break="no"/>pora indigent esse in loco per se inquantum indiget 
+      conti<lb ed="#A" n="9" break="no"/>neri a corpore celesti. Corpora igitur gloriosa et maxime 
+      cor<lb ed="#A" n="10" break="no"/>pus christi non indigent tali continentia. quia nihil recipit a 
+      <lb ed="#A" n="11"/>corporibus celestibus. vnde nihil prohibet corpus christi est 
+      <lb ed="#A" n="12"/>set extra totam continentiam caelorum corporeorum et non esse 
+      <lb ed="#A" n="13"/>in loco continenti. nec tamen oportet quod extra celum sit 
+      va<lb ed="#A" n="14" break="no"/>cuum. quia non est in loco. nec est ibi aliqua potentia 
+      susce<lb ed="#A" n="15" break="no"/>ptiua alicuius corporis: sed potentia perueniendi illuc est in 
+      <lb ed="#A" n="16"/>christo. Quod autem Aristo. probat. ii de celo. quod extra caelum 
+      <lb ed="#A" n="17"/>non est corpus. intelligendum est de corporibus in solis 
+      <lb ed="#A" n="18"/>naturalibus constitutis. vt patet per probationem. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e716">
+               <head xml:id="Vn7Pel-j90363-Hd1e718">7</head>
+               <p xml:id="Vn7Pel-j90363-d1e720">
+                  <lb ed="#A" n="19"/>¶ Queritur ad quam partem celi 
+      em<lb ed="#A" n="20" break="no"/>pyrei est collata humanitas christi: Respondetur secundum 
+      <lb ed="#A" n="21"/>Guill. in. iii. dis. xxii. quod rationabile est satis dicere quod 
+      <lb ed="#A" n="22"/>ad partem aquilonis. per illud quod dixit Lucifer Esai 
+      <lb ed="#A" n="23"/>ciiii. In celum conscendam super astra dei exaltabo so 
+      <lb ed="#A" n="24"/>lium meum: sedebo in monte testamenti in lateribus aquilo 
+      <lb ed="#A" n="25"/>nais: ascendam super altitudinem nubium: similis ero altissi. 
+      <lb ed="#A" n="26"/>et Psalmus ait. Fundatur exultatione vniuerse terre modos 
+      <lb ed="#A" n="27"/>sion: latera aquilonis ciuitas regis magni. Glo. 
+      <lb ed="#A" n="28"/>tamen Ios. xxi. dicit sic. Fortassis sicut ordinauit deus 
+      <lb ed="#A" n="29"/>stellas celi alias in axe aquilonis: alias in 
+      orien<lb ed="#A" n="30" break="no"/>te: alias in occidente: alias in austro positas qui ex 
+      re<lb ed="#A" n="31" break="no"/>surrectione mortuorum erunt sicut stelle in multitudine 
+      <lb ed="#A" n="32"/>et claritate ordinabit in regno celorum secundum ordinem 
+      <lb ed="#A" n="33"/>stellarum et partium orbis: et dabit aliis sortem ad 
+      orie<lb ed="#A" n="34" break="no"/>tem: aliis ad occidentem: aliis ad austrum: aliis ad 
+      <lb ed="#A" n="35"/>aquilonem. Hec glos. et assumpta est ex originalium lib. 
+      <lb ed="#A" n="36"/>li.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e762">
+      ¶ Nota circa christi domini ascensionem aliquo documen 
+      <lb ed="#A" n="37"/>ta
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e767">
+      ¶ Primum quod maiori nobilitate condita est summa 
+      <lb ed="#A" n="38"/>pars celi empyrei quam media vel infima. quamuis enim 
+      <lb ed="#A" n="39"/>omnes partes celi possint dici eque nobiles nobili 
+      <lb ed="#A" n="40"/>tate absoluta. Adhuc tamen oportet dicere quod summa pars 
+      <lb ed="#A" n="41"/>eius sit nobilior in respectu inquantum magis est 
+      ab<lb ed="#A" n="42" break="no"/>istis inferioribus elongata
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e780">
+      ¶ Si dicas. quod nobilitas 
+      <lb ed="#A" n="43"/>et naturalitas magis viget in medio secundum Philosophum 
+      <lb ed="#A" n="44"/>Medium in omnibus laudabile est. Dicendum quod quamuis 
+      <lb ed="#A" n="45"/>virtus aque et aeris et terre magis vigeat in 
+      me<lb ed="#A" n="46" break="no"/>dio. virtus tantum ignis maxime viget in suo summo. 
+      <lb ed="#A" n="47"/>et sic forte est in omnibus spheris celestibus. Hec 
+      Ri<lb ed="#A" n="48" break="no"/>char. super. iii dis. xxii.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e797">
+      ¶ Secundum documentum. quod 
+      <lb ed="#A" n="49"/>beati et hierarchie celestes secundum quod sunt in praemiis 
+      excel<lb ed="#A" n="50" break="no"/>lentiores: secundum hoc etiam suut vlerunt post resurrectione 
+      <lb ed="#A" n="51"/>nem in locis superioribus tanquam dignioribus et 
+      chri<lb ed="#A" n="52" break="no"/>sto propinquioribus. Unde secundum sanctum Bonanent. 
+      <lb ed="#A" n="53"/>in. ii distin . ix. paruuli baptizati qui non habent 
+      <lb ed="#A" n="54"/>propria merita sed saluati sunt merito passionis 
+      chri<lb ed="#A" n="55" break="no"/>sti constituentur infra choros angelorum super quos 
+      <lb ed="#A" n="56"/>erunt angeli: super hos archangeli. et sic de aliis 
+      <lb ed="#A" n="57"/>super omnes christus dominus: ratione Richardi pre 
+      <!--305.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>dicta.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e826">
+      ¶ Tertium documentum quod christus non 
+      transcen<lb ed="#A" n="59" break="no"/>dit celum empyreum: sed est in summa parte illius 
+      <lb ed="#A" n="60"/>celi intra non extra. quia vltra summam partem celi 
+      conue<lb ed="#A" n="61" break="no"/>xam non est locus neque vacuum neque aliquid aliud: vt 
+      <lb ed="#A" n="62"/>dicit Philosophus id iest de celo. Cui concor. apostolus Heb. vi. 
+      di<lb ed="#A" n="63" break="no"/>cens quod christus introiuit ad interiora celi factus pro 
+      no<lb ed="#A" n="64" break="no"/>bis praecursor et poestifex. Unde thronus christi potest 
+      ima<lb ed="#A" n="65" break="no"/>ginari in superficie extrema celi empyrei ita quod nihil 
+      <lb ed="#A" n="66"/>de celosit supra ipsum. Hec Fran. Mayro. Et eidem 
+      <lb ed="#A" n="67"/>concordat Richar. vbi supra. Et sic sunt intelligende 
+      au<lb ed="#A" n="68" break="no"/>toritates dicentes quod christus ascendit super celum 
+      celi<lb ed="#A" n="69" break="no"/>vel super omnes celos scilicet ad intra: non ad extra. in summa 
+      <lb ed="#A" n="70"/>tamen superficie celi empyrei. alioquin non ascendisset 
+      <lb ed="#A" n="71"/>super omnes celos: cum ipsum sit vltimum: vt arguit Fran. 
+      <lb ed="#A" n="72"/>Mayro.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e859">
+      ¶ Quartum documentum Quod pie 
+      creden<lb ed="#A" n="73" break="no"/>dum est christum in illo celesti throno glorie sic 
+      si<lb ed="#A" n="74" break="no"/>tuatum quod nullum habeat retro se: sed omnes electi in 
+      <lb ed="#A" n="75"/>faciem ipsius aspiciunt rastantes summa cum 
+      reue<lb ed="#A" n="76" break="no"/>rentia et laudibus diuinis tanquam regi praecellentissimo 
+      <lb ed="#A" n="77"/>oculis quam corporalibus ipsum dulcissime intuendo. 
+      <lb ed="#A" n="78"/>Hinc scilicet Pe. i. dicitur. In quem scilicet christum angeli desi 
+      <lb ed="#A" n="79"/>derant prospicere. Hec secundum Richar. vbi supra
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e877">
+      ¶ Sed 
+      <lb ed="#A" n="80"/>queritur Utrum christus semper et continue in illo loco 
+      re<lb ed="#A" n="81" break="no"/>sidebit vt ad aliam partem celi se non transferat: Respondetur 
+      <lb ed="#A" n="82"/>secundum Richar. vbi supra concordare videtur Fran. 
+      May<lb ed="#A" n="83" break="no"/>ro. Quod non est affirmandum quod christus semper in illo 
+      lo<lb ed="#A" n="84" break="no"/>co resideat ita quod nunquam ad alium locum se transferat 
+      <lb ed="#A" n="85"/>interdum. quia christus non est obligatus illi loco. sed 
+      lo<lb ed="#A" n="86" break="no"/>cus sibi: ex quo christo secundum congruentiam suam est deputatus 
+      <lb ed="#A" n="87"/>Nam et post suam ascensionem narratur aliquando 
+      apparu<lb ed="#A" n="88" break="no"/>isse aliquibus in hac vita ex speciali gratia.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e899">
+      ¶ Nec habeo 
+      <lb ed="#A" n="89"/>sait Richar. rationem cogentem quod nunquam se christus 
+      <lb ed="#A" n="90"/>ad aliam partem celi transferat. Idem dicit Lyra 
+      su<lb ed="#A" n="91" break="no"/>ee no. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e909">
+               <head xml:id="Vn7Pel-j90363-Hd1e911">8</head>
+               <p xml:id="Vn7Pel-j90363-d1e913">
+                  <lb ed="#A" n="92"/>¶ Utrum sedere ad dexteram 
+      com<lb ed="#A" n="93" break="no"/>ueniat soli christo: Respondetur secundum Asex. de Ales 
+      <lb ed="#A" n="94"/>in. iii. parte sumne. cui coniorudari scilicet Tho. et 
+      Ri<lb ed="#A" n="95" break="no"/>char. in. iii. dist. xxii. Quod sedere ad dextram patris 
+      <lb ed="#A" n="96"/>nalli alteri creature conuenit: sed soli christo: secundum 
+      <lb ed="#A" n="97"/>quod dicitur Mar. vl. Dominus Iesus postquam locutus est 
+      <lb ed="#A" n="98"/>eis etc. et sedet a dextris dei. Ideo proprie loquendo 
+      <lb ed="#A" n="99"/>nullus praeter christum ad dexteram dei sedet. quia per 
+      <lb ed="#A" n="100"/>dexteram que est nobilior pars designatur potius 
+      <lb ed="#A" n="101"/>bonum glorie. Dextera enim est nobilior sinistra in 
+      <lb ed="#A" n="102"/>agilitate et vigore: vt dicit Philosophus. Unde qui 
+      al<lb ed="#A" n="103" break="no"/>teri ad dextera sedet nobilissime illi coniungitur. 
+      <lb ed="#A" n="104"/>Nam quos honoramus dexteram illi dare solemus 
+      <lb ed="#A" n="105"/>Et quia christus est maxime deo coniunctus. ergo 
+      <lb ed="#A" n="106"/>proprie ipse sedet ad dei dexteram. Modus autem quo 
+      <lb ed="#A" n="107"/>quis deo coniungitur est duplex. quia vel est 
+      nobi<lb ed="#A" n="108" break="no"/>lissimus simpliciter: et sic est equalitas patris. Et 
+      <lb ed="#A" n="109"/>sic conuenit christo secundum naturam diuinam. Uel est 
+      <lb ed="#A" n="110"/>nobilissimus quantum est possibile creature 
+      sub<lb ed="#A" n="111" break="no"/>limari in potioribus bonis glorie: et hoc est 
+      coniun<lb ed="#A" n="112" break="no"/>gi in vnitate persone filii dei. et sic conuenit christo secundum 
+      <lb ed="#A" n="113"/>naturam humanam secundum quam accepit a deo firmita 
+      <lb ed="#A" n="114"/>tem coniunctionis et iurisdicionem iudiciarie potestatis: 
+      <!--306.xml-->
+      <pb ed="#A" n="307"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>sicut dicit Augustinus de symbolo. Ipsam scilicet ad 
+      dexte<lb ed="#A" n="2" break="no"/>ram sessionem intelligite potestatem quam accepit 
+      <lb ed="#A" n="3"/>ille homo assumptus a deo vt veniat iudicaturus 
+      <lb ed="#A" n="4"/>qui prius venerat iudicandus. Hec ille. Ergo 
+      qui<lb ed="#A" n="5" break="no"/>credit deum patrem materialem dexteram habere in 
+      <lb ed="#A" n="6"/>iudicio ille erit a sinistris christi condemnandus. 
+      <lb ed="#A" n="7"/>quia spiritus est deus: Ioan. iiii
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e987">
+      ¶ Alia ratione 
+      chri<lb ed="#A" n="8" break="no"/>sto conuenit sedere ad dextera patris omnipoter 
+      <lb ed="#A" n="9"/>tis. quia ex vi verborum hoc talis sessio significat quod 
+      <lb ed="#A" n="10"/>christus sit propinquissimus deo patri in gloria et 
+      omni<lb ed="#A" n="11" break="no"/>bus creaturis superior. Propter quod dicit apostolus 
+      <lb ed="#A" n="12"/>Heb. i. Sedet ad dexteram maiestatis in excelsis: 
+      <lb ed="#A" n="13"/>excelsior celis factus Sed esse superiorem omntbus 
+      <lb ed="#A" n="14"/>creaturis est proprium christi tam localitate: 
+      potesta<lb ed="#A" n="15" break="no"/>te: dignitate: quam deitatis equalitate.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1007">
+      ¶ Primo 
+      inquan<lb ed="#A" n="16" break="no"/>localitate: secundum quod dicitur Ephes. iiii. Qui descendit 
+      <lb ed="#A" n="17"/>ipse est et qui ascendit super omnes celos vt adimpleret 
+      <lb ed="#A" n="18"/>omnia
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1016">
+      ¶ Et confirmatur. quia continens superior est 
+      <lb ed="#A" n="19"/>contento. Sed corpus christi est in celoempyreo non 
+      <lb ed="#A" n="20"/>sicut contentum in continente: sed potius econuerso. 
+      <lb ed="#A" n="21"/>vt patuit supra. quia deus poterat omnia verbo 
+      vir<lb ed="#A" n="22" break="no"/>tutis sue. Hanc autem altissimam localitatem corpus 
+      glo<lb ed="#A" n="23" break="no"/>riosum christi cum sit terrenum in substantia non 
+      <lb ed="#A" n="24"/>habet ex principiis sue nature. sed hoc habet ex 
+      vni<lb ed="#A" n="25" break="no"/>one deitatis et gloria anime redundantis in ipsum 
+      <lb ed="#A" n="26"/>Hinc Palms. Eleuata est magnificentia tua super 
+      ce<lb ed="#A" n="27" break="no"/>los
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1039">
+      ¶ Secundo christus superior est omnibus 
+      po<lb ed="#A" n="28" break="no"/>testate: dicente Psalmus Omnia subiecisti sub pedibus eius 
+      </p>
+               <p xml:id="Vn7Pel-j90363-d1e1044">
+                  <lb ed="#A" n="29"/>¶ Unde gloia Ambro. Hebre. i. In eo dicit) qui subie 
+      <lb ed="#A" n="30"/>cit omnia nihil dimisit non subiectum. Et dicit: 
+      sub<lb ed="#A" n="31" break="no"/>pedibus id est sub humanitate eius
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1053">
+      ¶ Sicut enim pes est 
+      <lb ed="#A" n="32"/>pars inferior corporis: ita in chrsto inferior 
+      natu<lb ed="#A" n="33" break="no"/>ra est humana: cui sunt subiecte non solum creatum 
+      <lb ed="#A" n="34"/>re rationales: sed etiam humane et angelice
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1062">
+      ¶ Tertio 
+      <lb ed="#A" n="35"/>corpus christi est superior omnibus dignitate. ex quo 
+      <lb ed="#A" n="36"/>enim est vnitum diuinitati: ideo omnibus est praelatum 
+      <lb ed="#A" n="37"/>et super omue nomen quod nominatur siue in hoc 
+      se<lb ed="#A" n="38" break="no"/>culo siue in futuro
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1073">
+      ¶ Nuarto christas omnibus 
+      <lb ed="#A" n="39"/>sublimatus est deitatis equalitate. Unde glosa 
+      <lb ed="#A" n="40"/>Hieronymi super illud Hebre scilicet Constituit illum 
+      <lb ed="#A" n="41"/>super omnem principatum et potestatem. dicit. Sic 
+      se<lb ed="#A" n="42" break="no"/>ciet id est quiescit et regnat sublimatus ad dexteram 
+      <lb ed="#A" n="43"/>maiestatis in excelsis id est ad equalitatem patris et 
+      lo<lb ed="#A" n="44" break="no"/>catus non in paradiso vnde Adam cecidit sed in 
+      excel<lb ed="#A" n="45" break="no"/>sis loco et dignitate. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e1092">
+               <head xml:id="Vn7Pel-j90363-Hd1e1094">9</head>
+               <p xml:id="Vn7Pel-j90363-d1e1096">
+                  <lb ed="#A" n="46"/>¶ Queritur vtrum pater posset 
+      di<lb ed="#A" n="47" break="no"/>ci sedere ad dexteram filii: Respondetur secundum 
+      Astex<lb ed="#A" n="48" break="no"/>num in summa. li. ii titlo. lv. quod non. Ratio. quia 
+      <lb ed="#A" n="49"/>ly ad denotat cum personali distinctione ordinem 
+      <lb ed="#A" n="50"/>originis. Filius autem et spiritus sanctus originantur a 
+      pa<lb ed="#A" n="51" break="no"/>tre: et non econuerso. ergo etc
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1112">
+      ¶ Sed d. Utrum 
+      spi<lb ed="#A" n="52" break="no"/>ritus sanctus possit dici sedere Ad dexteram patris 
+      <lb ed="#A" n="53"/>vel filii: Respondetur secundum sanctum Tho. iii. parte 
+      sun<lb ed="#A" n="54" break="no"/>me. q. lviii. quod nomine dextere tria intelligi possunt 
+      <lb ed="#A" n="55"/>Uno modo secundum Damasce. gloria deitatis. Alio 
+      mo<lb ed="#A" n="56" break="no"/>do secundum Augustinum beatitudo patris. Tertio modo 
+      <lb ed="#A" n="57"/>secundum eundem iudiciaria potestas. Nullo tamen mo¬ 
+      <!--306.xml-->
+      <cb ed="#A" n="b"/>
+                  <lb ed="#A" n="58"/>do potest dici quod pater sedeat ad dexteram filii vl 
+      <lb ed="#A" n="59"/>spiritus sancti. quia filius et spiritus sanccus trahunt 
+      <lb ed="#A" n="60"/>originem a patre. Sed spiritus sanctus proprie potesi 
+      <lb ed="#A" n="61"/>dici sedere ad dexteram patris vel filii secundum 
+      deita<lb ed="#A" n="62" break="no"/>tem: licet secundum quandam appropriationem attribuatur filio 
+      <lb ed="#A" n="63"/>cui appropriatur equalitas: sicut dicit Augustinus quod in 
+      pa<lb ed="#A" n="64" break="no"/>tre est vnitas: in filio equalitas: in spiritu sancto 
+      <lb ed="#A" n="65"/>vnitatis equalitatis quem connexio. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e1150">
+               <head xml:id="Vn7Pel-j90363-Hd1e1152">10</head>
+               <p xml:id="Vn7Pel-j90363-d1e1154">
+                  <lb ed="#A" n="66"/>¶ Utrum christus secundum diuinita 
+      <lb ed="#A" n="67"/>tem sit extra vel intra caelum: Respondetur secundum omnes 
+      <lb ed="#A" n="68"/>theologos in i. dist. xxxvii. quod deus nusquam localiter 
+      <lb ed="#A" n="69"/>continetur: nec vllo loco capitur pr oprie: neque dicitur 
+      <lb ed="#A" n="70"/>localis. Nam. iii. Reg. viii. dixit Salomodo. Ergo 
+      <lb ed="#A" n="71"/>ne putandum est quod deus vere habitet super terram 
+      <lb ed="#A" n="72"/>scilicet localiter. Si enim caelum et celi celorum capere non 
+      <lb ed="#A" n="73"/>possunt te domine: quanto magis domus hec quam 
+      <lb ed="#A" n="74"/>edificaui. Hec ibi. Hinc Augustinus li. lxxxiii. 
+      quaesti<lb ed="#A" n="75" break="no"/>onum: et Magister allegat vbi supro dicens. Deus non 
+      <lb ed="#A" n="76"/>alicubi est: quia quod alicubi est continetur loco. sed 
+      <lb ed="#A" n="77"/>quod continetur loco corpus est. deus autem non est 
+      <lb ed="#A" n="78"/>corpus. non ergo alicubi est. Et infra subdit. 
+      Lo<lb ed="#A" n="79" break="no"/>tus tamen dei sed impropie dicitur templum dei: non 
+      <lb ed="#A" n="80"/>quod eo contineatur. Id autem nihil melius quam anima 
+      mun<lb ed="#A" n="81" break="no"/>da intelligitur
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1191">
+      ¶ Sed d. Uidetur quod sit extra celum. 
+      <lb ed="#A" n="82"/>quia ille est extra quem celi capere non possunt. Sed 
+      <lb ed="#A" n="83"/>talis est christus secundum diuinitatem De quo dicimus. 
+      <lb ed="#A" n="84"/>Quem totus non capit orbis in tua se clausit 
+      visce<lb ed="#A" n="85" break="no"/>ra. ergo etc.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1202">
+      ¶ In contrarium tamen dicit Philosophus i. de 
+      <lb ed="#A" n="86"/>celo et mundo. Extra caelum nihil est neque locus: 
+      <lb ed="#A" n="87"/>neque vacuum: neque spiritus etc. ergo non est extra 
+      mun<lb ed="#A" n="88" break="no"/>dum. quia in nihilo esse est impossibile
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1211">
+      ¶ 
+      Respon<lb ed="#A" n="89" break="no"/>detur secundum Richar. in i. di. xxxvii. quod deum esse extra 
+      <lb ed="#A" n="90"/>mundum potest intelligi dupliciter. Uno modo sic quod 
+      <lb ed="#A" n="91"/>imensitas eius excedit mundum nec dependet a mutum 
+      <lb ed="#A" n="92"/>do nec diffinitur mundo quin possit replere plures 
+      <lb ed="#A" n="93"/>mundos si essent etiam infiniti. Et sic verum est deum 
+      <lb ed="#A" n="94"/>esse extra mundum et extra omnia cum nusquam 
+      vale<lb ed="#A" n="95" break="no"/>at coartari. Unde sic ly extra non dicit actualem 
+      prae<lb ed="#A" n="96" break="no"/>sentiam ad locum sed potentialem que est dei 
+      immen<lb ed="#A" n="97" break="no"/>sitas. Hec autem immensitas est infinita non quidem 
+      <lb ed="#A" n="98"/>distensione vel molis magnitudine: sed virture. 
+      <lb ed="#A" n="99"/>Unde viii. Physscis. dicitur Deus est infinite virtutis 
+      <lb ed="#A" n="100"/>Infinitum autem excedit finitum nec dependet a fini 
+      <lb ed="#A" n="101"/>to. Alio modo potest intelligi deum extra mundum 
+      <lb ed="#A" n="102"/>ita quod sit dare spacium extra mundum in quo sit 
+      de<lb ed="#A" n="103" break="no"/>us. Et sic falsum est. quia cum nihil sit extra 
+      mun<lb ed="#A" n="104" break="no"/>dum: deus non est in nihilo. ergo deus extra mundum 
+      <lb ed="#A" n="105"/>non est extensiue: nec in mundo loco clauditur. 
+      </p>
+               <p xml:id="Vn7Pel-j90363-d1e1251">
+                  <lb ed="#A" n="106"/>¶ Sed d. Ubi tunc fuit ante mundi constitutionem: 
+      <lb ed="#A" n="107"/>Respondetur quod deus est immutabilis. ergo vbi tunc 
+      <lb ed="#A" n="108"/>fuit ibi modo est. Ideo de deo extant versus 
+      que<lb ed="#A" n="109" break="no"/>rendo. v. Ubi tunc fuit quando preter eum nihil 
+      <lb ed="#A" n="110"/>fuit. v. Ubi tunc ibi nunc in se quoniam sibi 
+      suf<lb ed="#A" n="111" break="no"/>ficit ipse. 
+      </p>
+            </div>
+            <div xml:id="Vn7Pel-j90363-Dd1e1269">
+               <head xml:id="Vn7Pel-j90363-Hd1e1271">11</head>
+               <p xml:id="Vn7Pel-j90363-d1e1273">
+                  <lb ed="#A" n="112"/>¶ Utrum ascensio christi sit causa nostre 
+      sa<lb ed="#A" n="113" break="no"/>lutis: Respondetur secundum sanctum Tho. i. iii. parte. q. lvii. quod ascensio 
+      <lb ed="#A" n="114"/>chri est causa nostre salutis duplicter. Uno modo ex parte nostra 
+      <!--307.xml-->
+      <pb ed="#A" n="308"/>
+                  <cb ed="#A" n="a"/>
+                  <lb ed="#A" n="1"/>Alio modo ex parte ipsius. Ex parte quidem nostra 
+      in<lb ed="#A" n="2" break="no"/>quantum per christi ascensionem mens nostra mouetur 
+      <lb ed="#A" n="3"/>in ipsum. quia per eius ascensionem datur nobis Primo locus fi 
+      <lb ed="#A" n="4"/>dei. secundo spei. tertio charitati. quarto per hoc reuerentia 
+      <lb ed="#A" n="5"/>nostra augetur ad ipsum dum iam non existimamus eum si 
+      <lb ed="#A" n="6"/>cut hominem terrenum: sed sicut deum celestem. Ex parte 
+      <lb ed="#A" n="7"/>autem sua quantum ad ea quae ipse fecit ascendens 
+      propter<lb ed="#A" n="8" break="no"/>nostram salutem.
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1306">
+      ¶ Primo quidem viam nobis praeparauit. 
+      <lb ed="#A" n="9"/>Ioan. xiiii. Uado vobis parare locum. Secundo quia 
+      <lb ed="#A" n="10"/>sicut pontifex in vete. testa. intrabat sanctuarium vt 
+      <lb ed="#A" n="11"/>assisteret deo pro populo. ita et christus intrauit caelum ad in 
+      <lb ed="#A" n="12"/>terpellandum pro nobis. vt dicitur Heb. vii. Ipsa enim re 
+      <lb ed="#A" n="13"/>praesentatio sua ex natura humana qua in celum 
+      in<lb ed="#A" n="14" break="no"/>tulit est quedam interpellatio pro nobis. Ut ex quo deus 
+      <lb ed="#A" n="15"/>sic exaltauit humanam naturam: etiam eorum misereatur 
+      pro<lb ed="#A" n="16" break="no"/>quibus filius dei humanam naturam assumpsit
+     </p>
+               <p xml:id="Vn7Pel-j90363-d1e1326">
+      ¶ 
+      Ter<lb ed="#A" n="17" break="no"/>tio vt in celorum sede quasi deus et dominus constitutus 
+      exin<lb ed="#A" n="18" break="no"/>de diuina dona hominibus mitteret. secundum illud Ephe. iiii. 
+      <lb ed="#A" n="19"/>Ascendit super omnes celos vt adimpleret omnia scilicet donis 
+      <lb ed="#A" n="20"/>secundum Gloi. et Psalmus Ascendit in altum dedit dona hominibus. 
+      <lb ed="#A" n="21"/>Magnus igitur est fructus ascesionis.
+    </p>
+               <p xml:id="Vn7Pel-j90363-d1e1339">
+                  <lb ed="#A" n="22"/>Hic inestimabilis praelucet dei 
+      <lb ed="#A" n="23"/>altissimi charitas erga homines. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
